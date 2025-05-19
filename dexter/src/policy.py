@@ -8,7 +8,6 @@ from gymnasium.spaces import Space
 from ray.rllib.core import Columns
 from ray.rllib.core.rl_module.apis.value_function_api import ValueFunctionAPI
 from ray.rllib.core.rl_module.torch import TorchRLModule
-from ray.rllib.models.distributions import Distribution
 from ray.rllib.models.torch.torch_distributions import TorchCategorical, TorchMultiCategorical
 from src.utils import (
     abilities,
