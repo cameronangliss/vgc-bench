@@ -1,12 +1,23 @@
 import argparse
-import os
 
-from src.callback import Callback
+import numpy as np
+from gymnasium.spaces import Box, MultiDiscrete
+from ray.rllib.algorithms import PPOConfig
+from ray.rllib.core.rl_module import RLModuleSpec
+from ray.tune.registry import register_env
 from src.env import ShowdownEnv
-from src.policy import MaskedActorCriticPolicy
-from src.utils import LearningStyle, allow_mirror_match, chooses_on_teampreview, num_envs, steps
-from stable_baselines3 import PPO
-from stable_baselines3.common.vec_env import SubprocVecEnv
+from ray.tune.logger import UnifiedLogger
+from src.policy import ActorCriticModule
+from src.utils import (
+    LearningStyle,
+    allow_mirror_match,
+    chooses_on_teampreview,
+    doubles_act_len,
+    doubles_chunk_obs_len,
+    moves,
+    num_envs,
+    steps,
+)
 
 
 def train(
@@ -17,22 +28,48 @@ def train(
     behavior_clone: bool,
     num_frames: int,
 ):
-    env = (
-        ShowdownEnv.create_env(teams, port, device, learning_style, num_frames)
-        if learning_style == LearningStyle.PURE_SELF_PLAY
-        else SubprocVecEnv(
-            [
-                lambda: ShowdownEnv.create_env(
-                    [0] if learning_style == LearningStyle.EXPLOITER else teams,
-                    port,
-                    device,
-                    learning_style,
-                    num_frames,
-                )
-                for _ in range(num_envs)
-            ]
+    register_env("showdown", ShowdownEnv.create_env)
+    config = PPOConfig()
+    config.environment(
+        "showdown",
+        env_config={
+            "teams": teams,
+            "port": port,
+            "device": device,
+            "learning_style": learning_style,
+            "num_frames": num_frames,
+        },
+        disable_env_checking=True,
+    )
+    config.multi_agent(
+        policies={"p1", "p2"},
+        policy_mapping_fn=lambda agent_id, _: ("p1" if agent_id.startswith("player_0") else "p2"),
+        policies_to_train=["p1", "p2"],
+    )
+    config.rl_module(
+        rl_module_spec=RLModuleSpec(
+            module_class=ActorCriticModule,
+            observation_space=Box(
+                -1, len(moves), shape=(12 * doubles_chunk_obs_len,), dtype=np.float32
+            ),
+            action_space=MultiDiscrete([doubles_act_len, doubles_act_len]),
+            model_config={
+                "num_frames": num_frames,
+                "chooses_on_teampreview": chooses_on_teampreview,
+            },
         )
     )
+    config.training(
+        use_critic=True,
+        use_gae=True,
+        lr=1e-5,
+        gamma=1.0,
+        train_batch_size_per_learner=3072,
+        minibatch_size=64,
+        num_epochs=10,
+    )
+    config.learners(num_learners=1, num_gpus_per_learner=1, local_gpu_idx=int(device[-1]))
+    config.env_runners(num_env_runners=num_envs)
     run_ident = "".join(
         [
             "-bc" if behavior_clone else "",
@@ -41,47 +78,15 @@ def train(
             "-xm" if not allow_mirror_match else "",
         ]
     )[1:]
-    ppo = PPO(
-        MaskedActorCriticPolicy,
-        env,
-        learning_rate=1e-5,
-        n_steps=64 if learning_style == LearningStyle.PURE_SELF_PLAY else 128,
-        batch_size=64,
-        gamma=1,
-        ent_coef=1e-3,
-        tensorboard_log=f"results/logs-{run_ident}",
-        policy_kwargs={"num_frames": num_frames, "chooses_on_teampreview": chooses_on_teampreview},
-        device=device,
+    algo = config.build_algo(
+        logger_creator=lambda config: UnifiedLogger(  # type: ignore
+            config,
+            f"results/logs-{run_ident}/{','.join([str(t) for t in teams])}-teams/",
+            loggers=None,
+        )
     )
-    num_saved_timesteps = 0
-    if (
-        os.path.exists(f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams")
-        and len(os.listdir(f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"))
-        > 0
-    ):
-        saved_policy_timesteps = [
-            int(file[:-4])
-            for file in os.listdir(
-                f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"
-            )
-            if int(file[:-4]) >= 0
-        ]
-        if saved_policy_timesteps:
-            num_saved_timesteps = max(saved_policy_timesteps)
-            ppo.set_parameters(
-                f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams/{num_saved_timesteps}.zip",
-                device=ppo.device,
-            )
-            if num_saved_timesteps < steps:
-                num_saved_timesteps = 0
-            ppo.num_timesteps = num_saved_timesteps
-    ppo.learn(
-        steps,
-        callback=Callback(teams, port, device, learning_style, behavior_clone, num_frames),
-        tb_log_name=f"{','.join([str(t) for t in teams])}-teams",
-        reset_num_timesteps=False,
-    )
-    env.close()
+    for _ in range(steps):
+        algo.train()
 
 
 if __name__ == "__main__":

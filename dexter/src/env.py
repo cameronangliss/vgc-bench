@@ -1,17 +1,12 @@
-from __future__ import annotations
-
 from typing import Any
 
 import numpy as np
 import numpy.typing as npt
-import supersuit as ss
-import torch
-from gymnasium import Env
 from gymnasium.spaces import Box
-from gymnasium.wrappers import FrameStackObservation
 from poke_env.environment import AbstractBattle
-from poke_env.player import DoublesEnv, SingleAgentWrapper
+from poke_env.player import DoublesEnv
 from poke_env.ps_client import AccountConfiguration, ServerConfiguration
+from ray.rllib.env import ParallelPettingZooEnv
 from src.agent import Agent
 from src.teams import RandomTeamBuilder, TeamToggle
 from src.utils import (
@@ -21,9 +16,7 @@ from src.utils import (
     chooses_on_teampreview,
     doubles_chunk_obs_len,
     moves,
-    num_envs,
 )
-from stable_baselines3.common.monitor import Monitor
 
 
 class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
@@ -36,7 +29,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         self.metadata = {"name": "showdown_v1", "render_modes": ["human"]}
         self.render_mode: str | None = None
         self.observation_spaces = {
-            agent: Box(-1, len(moves), shape=(12, doubles_chunk_obs_len), dtype=np.float32)
+            agent: Box(-1, len(moves), shape=(12 * doubles_chunk_obs_len,), dtype=np.float32)
             for agent in self.possible_agents
         }
         self._teampreview_draft1 = []
@@ -44,60 +37,26 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         self._learning_style = learning_style
 
     @classmethod
-    def create_env(
-        cls,
-        teams: list[int],
-        port: int,
-        device: str,
-        learning_style: LearningStyle,
-        num_frames: int,
-    ) -> Env:
-        toggle = None if allow_mirror_match else TeamToggle(len(teams))
+    def create_env(cls, config: dict[str, Any]) -> ParallelPettingZooEnv:
+        toggle = None if allow_mirror_match else TeamToggle(len(config["teams"]))
         env = cls(
-            learning_style,
+            config["learning_style"],
             account_configuration1=AccountConfiguration.randgen(10),
             account_configuration2=AccountConfiguration.randgen(10),
             server_configuration=ServerConfiguration(
-                f"ws://localhost:{port}/showdown/websocket",
+                f"ws://localhost:{config['port']}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
             ),
             battle_format=battle_format,
             log_level=25,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(teams, battle_format, toggle),
+            team=RandomTeamBuilder(config["teams"], battle_format, toggle),
         )
         if not chooses_on_teampreview:
             env.agent1.teampreview = env.async_random_teampreview1
             env.agent2.teampreview = env.async_random_teampreview2
-        if learning_style == LearningStyle.PURE_SELF_PLAY:
-            if num_frames > 1:
-                env = ss.frame_stack_v2(env, stack_size=num_frames, stack_dim=0)
-            env = ss.pettingzoo_env_to_vec_env_v1(env)
-            env = ss.concat_vec_envs_v1(
-                env, num_vec_envs=num_envs, num_cpus=num_envs, base_class="stable_baselines3"
-            )
-            return env  # type: ignore
-        else:
-            opponent = Agent(
-                num_frames,
-                torch.device(device),
-                account_configuration=AccountConfiguration.randgen(10),
-                server_configuration=ServerConfiguration(
-                    f"ws://localhost:{port}/showdown/websocket",
-                    "https://play.pokemonshowdown.com/action.php?",
-                ),
-                battle_format=battle_format,
-                log_level=25,
-                accept_open_team_sheet=True,
-                open_timeout=None,
-                team=RandomTeamBuilder(teams, battle_format, toggle),
-            )
-            env = SingleAgentWrapper(env, opponent)
-            if num_frames > 1:
-                env = FrameStackObservation(env, num_frames, padding_type="zero")
-            env = Monitor(env)
-            return env
+        return ParallelPettingZooEnv(env)
 
     async def async_random_teampreview1(self, battle: AbstractBattle) -> str:
         message = self.agent1.random_teampreview(battle)

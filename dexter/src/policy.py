@@ -3,154 +3,32 @@ from __future__ import annotations
 from typing import Any
 
 import torch
-from gymnasium import Space
-from gymnasium.spaces import Discrete
+import torch.nn as nn
+from gymnasium.spaces import Space
+from ray.rllib.core import Columns
+from ray.rllib.core.rl_module.apis.value_function_api import ValueFunctionAPI
+from ray.rllib.core.rl_module.torch import TorchRLModule
+from ray.rllib.models.torch.torch_distributions import TorchCategorical, TorchMultiCategorical
+from ray.rllib.models.distributions import Distribution
 from src.utils import (
     abilities,
+    doubles_act_len,
     doubles_chunk_obs_len,
     doubles_glob_obs_len,
     items,
     moves,
-    num_envs,
     side_obs_len,
 )
-from stable_baselines3.common.base_class import BaseAlgorithm
-from stable_baselines3.common.distributions import Distribution, MultiCategoricalDistribution
-from stable_baselines3.common.policies import ActorCriticPolicy
-from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
-from stable_baselines3.common.type_aliases import PyTorchObs
-from torch import nn
 
 
-class MaskedActorCriticPolicy(ActorCriticPolicy):
-    def __init__(self, *args: Any, num_frames: int, chooses_on_teampreview: bool, **kwargs: Any):
-        self.num_frames = num_frames
-        self.chooses_on_teampreview = chooses_on_teampreview
-        self.actor_grad = True
-        self._must_flip_frame_stack = False
-        super().__init__(
-            *args,
-            **kwargs,
-            net_arch=[],
-            activation_fn=torch.nn.ReLU,
-            features_extractor_class=AttentionExtractor,
-            features_extractor_kwargs={
-                "num_frames": num_frames,
-                "chooses_on_teampreview": chooses_on_teampreview,
-            },
-            share_features_extractor=False,
-        )
-
-    @classmethod
-    def clone(cls, model: BaseAlgorithm) -> MaskedActorCriticPolicy:
-        assert isinstance(model.policy, MaskedActorCriticPolicy)
-        new_policy = cls(
-            model.observation_space,
-            model.action_space,
-            model.lr_schedule,
-            num_frames=model.policy.num_frames,
-            chooses_on_teampreview=model.policy.chooses_on_teampreview,
-        )
-        new_policy.load_state_dict(model.policy.state_dict())
-        return new_policy
-
-    def forward(
-        self, obs: torch.Tensor, deterministic: bool = False
-    ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
-        if not self._must_flip_frame_stack and obs.size(0) == 2 * num_envs and len(obs.size()) == 4:
-            self._must_flip_frame_stack = True
-        if self._must_flip_frame_stack:
-            obs = obs.flip(1)
-        action_logits, value_logits = self.get_logits(obs, actor_grad=True)
-        distribution = self.get_dist_from_logits(obs, action_logits)
-        actions = distribution.get_actions(deterministic=deterministic)
-        if isinstance(distribution, MultiCategoricalDistribution):
-            distribution2 = self.get_dist_from_logits(obs, action_logits, actions[:, :1])
-            assert isinstance(distribution2, MultiCategoricalDistribution)
-            actions2 = distribution2.get_actions(deterministic=deterministic)
-            distribution.distribution[1] = distribution2.distribution[1]
-            actions[:, 1] = actions2[:, 1]
-        log_prob = distribution.log_prob(actions)
-        actions = actions.reshape((-1, *self.action_space.shape))  # type: ignore[misc]
-        return actions, value_logits, log_prob
-
-    def evaluate_actions(
-        self, obs: PyTorchObs, actions: torch.Tensor
-    ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor | None]:
-        assert isinstance(obs, torch.Tensor)
-        if self._must_flip_frame_stack:
-            obs = obs.flip(1)
-        action_logits, value_logits = self.get_logits(obs, self.actor_grad)
-        distribution = self.get_dist_from_logits(obs, action_logits)
-        if isinstance(distribution, MultiCategoricalDistribution):
-            distribution2 = self.get_dist_from_logits(obs, action_logits, actions[:, :1])
-            assert isinstance(distribution2, MultiCategoricalDistribution)
-            distribution.distribution[1] = distribution2.distribution[1]
-        log_prob = distribution.log_prob(actions)
-        entropy = distribution.entropy()
-        return value_logits, log_prob, entropy
-
-    def get_logits(self, obs: torch.Tensor, actor_grad: bool) -> tuple[torch.Tensor, torch.Tensor]:
-        actor_context = torch.enable_grad() if actor_grad else torch.no_grad()
-        features = self.extract_features(obs)  # type: ignore
-        if self.share_features_extractor:
-            latent_pi, latent_vf = self.mlp_extractor(features)
-        else:
-            pi_features, vf_features = features
-            with actor_context:
-                latent_pi = self.mlp_extractor.forward_actor(pi_features)
-            latent_vf = self.mlp_extractor.forward_critic(vf_features)
-        with actor_context:
-            action_logits = self.action_net(latent_pi)
-        value_logits = self.value_net(latent_vf)
-        return action_logits, value_logits
-
-    def get_dist_from_logits(
-        self, obs: torch.Tensor, action_logits: torch.Tensor, action: torch.Tensor | None = None
-    ) -> Distribution:
-        mask = self.get_mask(obs, action)
-        distribution = self.action_dist.proba_distribution(action_logits + mask)
-        return distribution
-
-    def get_mask(self, obs: torch.Tensor, ally_actions: torch.Tensor | None = None) -> torch.Tensor:
-        chunk = obs[:, -1, 0, :] if self.num_frames > 1 else obs[:, 0, :]
-        if isinstance(self.action_space, Discrete):
-            mask = chunk[:, : self.action_space.n]  # type: ignore
-            mask = torch.where(mask.sum(dim=1, keepdim=True) == mask.size(1), 0.0, mask)
-            mask = torch.where(mask == 1, float("-inf"), mask)
-            return mask
-        else:
-            act_len = self.action_space.nvec[0]  # type: ignore
-            if ally_actions is None:
-                mask = chunk[:, : 2 * act_len]
-            else:
-                mask = chunk[:, act_len : 2 * act_len]
-                ally_switched = (1 <= ally_actions) & (ally_actions <= 6)
-                ally_terastallized = ally_actions >= 87
-                # creating a (batch_size, act_len) size array of 0..act_len - 1 ranges
-                indices = torch.arange(act_len, device=mask.device).unsqueeze(0).expand_as(mask)
-                # marking values in indices as being invalid actions due to ally action
-                ally_mask = (
-                    ((27 <= indices) & (indices < 87))
-                    | ((indices >= 87) & ally_terastallized)
-                    | ((indices == ally_actions) & ally_switched)
-                )
-                mask = torch.where(ally_mask, 1.0, mask)
-                mask = torch.cat([chunk[:, :act_len], mask], dim=1)
-            mask = torch.where(mask == 1, float("-inf"), mask)
-            return mask
-
-
-class AttentionExtractor(BaseFeaturesExtractor):
+class NeuralNetwork(nn.Module):
     num_pokemon: int = 12
     embed_len: int = 32
     proj_len: int = 128
     embed_layers: int = 3
 
-    def __init__(
-        self, observation_space: Space[Any], num_frames: int, chooses_on_teampreview: bool
-    ):
-        super().__init__(observation_space, features_dim=self.proj_len)
+    def __init__(self, num_frames: int, chooses_on_teampreview: bool):
+        super().__init__()
         self.num_frames = num_frames
         self.chooses_on_teampreview = chooses_on_teampreview
         self.ability_embed = nn.Embedding(len(abilities), self.embed_len)
@@ -191,6 +69,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         batch_size = x.size(0)
+        x = x.view(*x.size()[:-1], 12, -1)
         # embedding
         start = doubles_glob_obs_len + side_obs_len
         x = torch.cat(
@@ -220,3 +99,72 @@ class AttentionExtractor(BaseFeaturesExtractor):
         x = torch.cat([x, frame_encoding], dim=2)
         x = self.frame_proj(x)
         return self.meta_encoder(x, mask=self.mask, is_causal=True)[:, -1, :]
+
+
+class TwoStepTorchMultiCategorical(TorchMultiCategorical):
+    def sample(self, *, sample_shape=None) -> torch.Tensor:
+        actions1 = self._cats[0].sample().unsqueeze(1)  # type: ignore
+        mask = self._get_mask(actions1)
+        dist = TorchCategorical(logits=self._cats[1].logits + mask)
+        actions2 = dist.sample().unsqueeze(1)  # type: ignore
+        actions = torch.cat([actions1, actions2], dim=1)
+        return actions
+
+    def logp(self, value: torch.Tensor) -> torch.Tensor:
+        mask = self._get_mask(value[:, :1])
+        dist2 = TorchCategorical(logits=self._cats[1].logits + mask)
+        altered_dist = TorchMultiCategorical([self._cats[0], dist2])
+        return altered_dist.logp(value)
+
+    def _get_mask(self, ally_actions: torch.Tensor) -> torch.Tensor:
+        indices = (
+            torch.arange(doubles_act_len, device=ally_actions.device)
+            .unsqueeze(0)
+            .expand(len(ally_actions), -1)
+        )
+        ally_switched = (1 <= ally_actions) & (ally_actions <= 6)
+        ally_terastallized = ally_actions >= 87
+        mask = (
+            ((27 <= indices) & (indices < 87))
+            | ((indices == ally_actions) & ally_switched)
+            | ((indices >= 87) & ally_terastallized)
+        )
+        mask = torch.where(mask == 1, float("-inf"), 0)
+        return mask
+
+
+class ActorCriticModule(TorchRLModule, ValueFunctionAPI):
+    def __init__(
+        self,
+        observation_space: Space,
+        action_space: Space,
+        inference_only: bool,
+        model_config: dict[str, Any],
+        catalog_class: Any,
+    ):
+        super().__init__(
+            observation_space=observation_space,
+            action_space=action_space,
+            inference_only=inference_only,
+            model_config=model_config,
+            catalog_class=catalog_class,
+        )
+        self.model = NeuralNetwork(
+            model_config["num_frames"], model_config["chooses_on_teampreview"]
+        )
+        self.actor_proj = nn.Linear(self.model.proj_len, 2 * doubles_act_len)
+        self.value_proj = nn.Linear(self.model.proj_len, 1)
+        self.action_dist_cls = TwoStepTorchMultiCategorical.get_partial_dist_cls(input_lens=[doubles_act_len, doubles_act_len])  # type: ignore
+
+    def _forward(self, batch: dict[str, Any], **kwargs) -> dict[str, Any]:
+        obs = batch[Columns.OBS]
+        embeddings = self.model(obs)
+        logits = self.actor_proj(embeddings)
+        mask = torch.where(obs[:, : 2 * doubles_act_len] == 1, float("-inf"), 0)
+        return {Columns.EMBEDDINGS: embeddings, Columns.ACTION_DIST_INPUTS: logits + mask}
+
+    def compute_values(
+        self, batch: dict[str, Any], embeddings: torch.Tensor | None = None
+    ) -> torch.Tensor:
+        obs = batch[Columns.OBS]
+        return self.value_proj(self.model(obs)).squeeze(-1)
