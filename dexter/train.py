@@ -4,9 +4,9 @@ import numpy as np
 from gymnasium.spaces import Box, MultiDiscrete
 from ray.rllib.algorithms import PPOConfig
 from ray.rllib.core.rl_module import RLModuleSpec
+from ray.tune.logger import UnifiedLogger
 from ray.tune.registry import register_env
 from src.env import ShowdownEnv
-from ray.tune.logger import UnifiedLogger
 from src.policy import ActorCriticModule
 from src.utils import (
     LearningStyle,
