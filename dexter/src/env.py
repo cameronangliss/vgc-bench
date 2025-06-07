@@ -112,6 +112,3 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         for tag in dead_tags:
             self.agent1._battles.pop(tag)
             self.agent2._battles.pop(tag)
-
-    def get_opp_win_rate(self) -> float:
-        return self.agent2.win_rate
