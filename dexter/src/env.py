@@ -5,7 +5,7 @@ import numpy.typing as npt
 from gymnasium.spaces import Box
 from poke_env.environment import AbstractBattle
 from poke_env.player import DoublesEnv
-from poke_env.ps_client import AccountConfiguration, ServerConfiguration
+from poke_env.ps_client import ServerConfiguration
 from ray.rllib.env import ParallelPettingZooEnv
 from src.agent import Agent
 from src.teams import RandomTeamBuilder, TeamToggle
@@ -41,8 +41,6 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         toggle = None if allow_mirror_match else TeamToggle(len(config["teams"]))
         env = cls(
             config["learning_style"],
-            account_configuration1=AccountConfiguration.randgen(10),
-            account_configuration2=AccountConfiguration.randgen(10),
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{config['port']}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",

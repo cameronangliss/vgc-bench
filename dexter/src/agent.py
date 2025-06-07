@@ -180,29 +180,23 @@ class Agent(Player):
                 battle.can_mega_evolve,
                 battle.can_z_move,
                 battle.can_dynamax,
-                battle.can_tera is not False,
-            ]
-            opp_gims = [
-                battle.opponent_can_mega_evolve,
-                battle.opponent_can_z_move,
-                battle.opponent_can_dynamax,
-                battle._opponent_can_terrastallize,
+                battle.can_tera,
             ]
         elif isinstance(battle, DoubleBattle):
             gims = [
                 battle.can_mega_evolve[0],
                 battle.can_z_move[0],
                 battle.can_dynamax[0],
-                battle.can_tera[0] is not False,
-            ]
-            opp_gims = [
-                battle.opponent_can_mega_evolve[0],
-                battle.opponent_can_z_move[0],
-                battle.opponent_can_dynamax[0],
-                battle._opponent_can_terrastallize,
+                battle.can_tera[0],
             ]
         else:
             raise TypeError()
+        opp_gims = [
+            battle.opponent_can_mega_evolve,
+            battle.opponent_can_z_move,
+            battle.opponent_can_dynamax,
+            battle.opponent_can_tera,
+        ]
         side_conds = battle.opponent_side_conditions if opp else battle.side_conditions
         side_conditions = [
             (

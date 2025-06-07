@@ -49,7 +49,7 @@ class LearningStyle(Enum):
 
 
 # training params
-battle_format = "gen9vgc2025regg"
+battle_format = "gen9vgc2025regi"
 num_envs = 24
 steps = 98_304
 allow_mirror_match = True
