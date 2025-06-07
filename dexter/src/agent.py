@@ -175,27 +175,17 @@ class Agent(Player):
     def embed_side(
         battle: AbstractBattle, fake_ratings: bool, opp: bool = False
     ) -> npt.NDArray[np.float32]:
-        if isinstance(battle, Battle):
-            gims = [
-                battle.can_mega_evolve,
-                battle.can_z_move,
-                battle.can_dynamax,
-                battle.can_tera,
-            ]
-        elif isinstance(battle, DoubleBattle):
-            gims = [
-                battle.can_mega_evolve[0],
-                battle.can_z_move[0],
-                battle.can_dynamax[0],
-                battle.can_tera[0],
-            ]
-        else:
-            raise TypeError()
+        gims = [
+            battle.used_mega_evolve,
+            battle.used_z_move,
+            battle.used_dynamax,
+            battle.used_tera,
+        ]
         opp_gims = [
-            battle.opponent_can_mega_evolve,
-            battle.opponent_can_z_move,
-            battle.opponent_can_dynamax,
-            battle.opponent_can_tera,
+            battle.opponent_used_mega_evolve,
+            battle.opponent_used_z_move,
+            battle.opponent_used_dynamax,
+            battle.opponent_used_tera,
         ]
         side_conds = battle.opponent_side_conditions if opp else battle.side_conditions
         side_conditions = [
