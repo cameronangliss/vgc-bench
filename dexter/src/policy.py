@@ -65,6 +65,8 @@ class NeuralNetwork(nn.Module):
                 ),
                 num_layers=self.embed_layers,
             )
+        self.actor_proj = nn.Linear(self.proj_len, 2 * doubles_act_len)
+        self.value_proj = nn.Linear(self.proj_len, 1)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         batch_size = x.size(0)
@@ -151,14 +153,12 @@ class ActorCriticModule(TorchRLModule, ValueFunctionAPI):
         self.model = NeuralNetwork(
             model_config["num_frames"], model_config["chooses_on_teampreview"]
         )
-        self.actor_proj = nn.Linear(self.model.proj_len, 2 * doubles_act_len)
-        self.value_proj = nn.Linear(self.model.proj_len, 1)
         self.action_dist_cls = TwoStepTorchMultiCategorical.get_partial_dist_cls(input_lens=[doubles_act_len, doubles_act_len])  # type: ignore
 
     def _forward(self, batch: dict[str, Any], **kwargs) -> dict[str, Any]:
         obs = batch[Columns.OBS]
         embeddings = self.model(obs)
-        logits = self.actor_proj(embeddings)
+        logits = self.model.actor_proj(embeddings)
         mask = torch.where(obs[:, : 2 * doubles_act_len] == 1, float("-inf"), 0)
         return {Columns.EMBEDDINGS: embeddings, Columns.ACTION_DIST_INPUTS: logits + mask}
 
@@ -166,4 +166,4 @@ class ActorCriticModule(TorchRLModule, ValueFunctionAPI):
         self, batch: dict[str, Any], embeddings: torch.Tensor | None = None
     ) -> torch.Tensor:
         obs = batch[Columns.OBS]
-        return self.value_proj(self.model(obs)).squeeze(-1)
+        return self.model.value_proj(self.model(obs)).squeeze(-1)
