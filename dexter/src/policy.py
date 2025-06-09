@@ -101,7 +101,7 @@ class NeuralNetwork(nn.Module):
 
 
 class TwoStepTorchMultiCategorical(TorchMultiCategorical):
-    def sample(self, *, sample_shape=None) -> torch.Tensor:
+    def sample(self) -> torch.Tensor:
         actions1 = self._cats[0].sample().unsqueeze(1)  # type: ignore
         mask = self._get_mask(actions1)
         dist = TorchCategorical(logits=self._cats[1].logits + mask)

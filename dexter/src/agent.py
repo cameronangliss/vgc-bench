@@ -22,6 +22,7 @@ from poke_env.environment import (
 )
 from poke_env.player import BattleOrder, DoublesEnv, Player
 from poke_env.player.env import _EnvPlayer
+from ray.rllib.core.rl_module.torch import TorchRLModule
 from src.utils import (
     abilities,
     doubles_act_len,
@@ -32,11 +33,10 @@ from src.utils import (
     pokemon_obs_len,
     singles_act_len,
 )
-from stable_baselines3.common.policies import ActorCriticPolicy
 
 
 class Agent(Player):
-    __policy: ActorCriticPolicy | None
+    __policy: TorchRLModule | None
     frames: Deque[npt.NDArray[np.float32]]
     _teampreview_draft: list[int]
 
@@ -47,7 +47,7 @@ class Agent(Player):
         self.device = device
         self._teampreview_draft = []
 
-    def set_policy(self, policy: ActorCriticPolicy):
+    def set_policy(self, policy: TorchRLModule):
         self.__policy = policy.to(self.device)
 
     def choose_move(self, battle: AbstractBattle) -> BattleOrder:
@@ -175,12 +175,7 @@ class Agent(Player):
     def embed_side(
         battle: AbstractBattle, fake_ratings: bool, opp: bool = False
     ) -> npt.NDArray[np.float32]:
-        gims = [
-            battle.used_mega_evolve,
-            battle.used_z_move,
-            battle.used_dynamax,
-            battle.used_tera,
-        ]
+        gims = [battle.used_mega_evolve, battle.used_z_move, battle.used_dynamax, battle.used_tera]
         opp_gims = [
             battle.opponent_used_mega_evolve,
             battle.opponent_used_z_move,
