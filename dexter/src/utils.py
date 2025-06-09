@@ -1,3 +1,4 @@
+import asyncio
 import json
 from enum import Enum, auto, unique
 
@@ -14,6 +15,7 @@ from poke_env.environment import (
     Target,
     Weather,
 )
+from poke_env.player import Player
 
 
 @unique
@@ -48,10 +50,16 @@ class LearningStyle(Enum):
                 return "do"
 
 
+def compare(player1: Player, player2: Player, n_battles: int) -> float:
+    asyncio.run(player1.battle_against(player2, n_battles=n_battles))
+    win_rate = player1.win_rate
+    player1.reset_battles()
+    player2.reset_battles()
+    return win_rate
+
+
 # training params
 battle_format = "gen9vgc2025regi"
-num_envs = 24
-steps = 98_304
 allow_mirror_match = True
 chooses_on_teampreview = True
 

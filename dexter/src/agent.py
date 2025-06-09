@@ -22,7 +22,8 @@ from poke_env.environment import (
 )
 from poke_env.player import BattleOrder, DoublesEnv, Player
 from poke_env.player.env import _EnvPlayer
-from ray.rllib.core.rl_module.torch import TorchRLModule
+from ray.rllib.core import Columns
+from src.policy import ActorCriticModule
 from src.utils import (
     abilities,
     doubles_act_len,
@@ -36,7 +37,7 @@ from src.utils import (
 
 
 class Agent(Player):
-    __policy: TorchRLModule | None
+    __policy: ActorCriticModule | None
     frames: Deque[npt.NDArray[np.float32]]
     _teampreview_draft: list[int]
 
@@ -47,7 +48,7 @@ class Agent(Player):
         self.device = device
         self._teampreview_draft = []
 
-    def set_policy(self, policy: TorchRLModule):
+    def set_policy(self, policy: ActorCriticModule):
         self.__policy = policy.to(self.device)
 
     def choose_move(self, battle: AbstractBattle) -> BattleOrder:
@@ -66,9 +67,11 @@ class Agent(Player):
             self.frames.append(obs)
             obs = np.stack(self.frames)
         with torch.no_grad():
-            obs_tensor = torch.as_tensor(obs, device=self.__policy.device).unsqueeze(0)
-            action, _, _ = self.__policy.forward(obs_tensor)
-        action = action.cpu().numpy()[0]
+            obs_tensor = torch.as_tensor(obs, device=self.device).unsqueeze(0)
+            out = self.__policy.forward({Columns.OBS: obs_tensor})
+        dist = self.__policy.action_dist_cls.from_logits(logits=out[Columns.ACTION_DIST_INPUTS])
+        actions_tensor = dist.sample()
+        action = actions_tensor.squeeze(0).cpu().numpy()
         if battle.teampreview:
             if not self.__policy.chooses_on_teampreview:
                 available_actions = [i for i in range(1, 7) if i - 1 not in self._teampreview_draft]

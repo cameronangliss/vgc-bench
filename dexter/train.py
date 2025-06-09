@@ -1,23 +1,38 @@
 import argparse
+import os
 
 import numpy as np
+import torch
 from gymnasium.spaces import Box, MultiDiscrete
+from poke_env.player import MaxBasePowerPlayer
+from poke_env.ps_client import ServerConfiguration
 from ray.rllib.algorithms import PPOConfig
 from ray.rllib.core.rl_module import RLModuleSpec
-from ray.tune.logger import UnifiedLogger
+from ray.tune.logger import TBXLogger, UnifiedLogger
 from ray.tune.registry import register_env
+from src.agent import Agent
 from src.env import ShowdownEnv
 from src.policy import ActorCriticModule
+from src.teams import RandomTeamBuilder, TeamToggle
 from src.utils import (
     LearningStyle,
     allow_mirror_match,
+    battle_format,
     chooses_on_teampreview,
+    compare,
     doubles_act_len,
     doubles_chunk_obs_len,
     moves,
-    num_envs,
-    steps,
 )
+
+
+class FilteredTBXLogger(TBXLogger):
+    def on_result(self, result):
+        result.get("env_runners", {}).pop("agent_episode_returns_mean", None)
+        result.get("env_runners", {}).pop("agent_steps", None)
+        result.get("env_runners", {}).pop("num_agent_steps_sampled", None)
+        result.get("env_runners", {}).pop("num_agent_steps_sampled_lifetime", None)
+        super().on_result(result)
 
 
 def train(
@@ -29,24 +44,25 @@ def train(
     num_frames: int,
 ):
     register_env("showdown", ShowdownEnv.create_env)
+    gather_period = 10_000
+    save_period = 100_000
     config = PPOConfig()
-    config.environment(
+    config = config.environment(
         "showdown",
         env_config={
             "teams": teams,
             "port": port,
-            "device": device,
             "learning_style": learning_style,
             "num_frames": num_frames,
         },
         disable_env_checking=True,
     )
-    config.multi_agent(
-        policies={"p1", "p2"},
-        policy_mapping_fn=lambda agent_id, _: ("p1" if agent_id.startswith("player_0") else "p2"),
-        policies_to_train=["p1", "p2"],
+    config = config.env_runners(num_env_runners=24)
+    config = config.learners(num_learners=1, num_gpus_per_learner=1, local_gpu_idx=int(device[-1]))
+    config = config.multi_agent(
+        policies={"p1"}, policy_mapping_fn=lambda agent_id, ep_type: "p1", policies_to_train=["p1"]
     )
-    config.rl_module(
+    config = config.rl_module(
         rl_module_spec=RLModuleSpec(
             module_class=ActorCriticModule,
             observation_space=Box(
@@ -59,17 +75,9 @@ def train(
             },
         )
     )
-    config.training(
-        use_critic=True,
-        use_gae=True,
-        lr=1e-5,
-        gamma=1.0,
-        train_batch_size_per_learner=3072,
-        minibatch_size=64,
-        num_epochs=10,
+    config = config.training(
+        gamma=1, lr=1e-5, train_batch_size=gather_period, num_epochs=10, minibatch_size=200
     )
-    config.learners(num_learners=1, num_gpus_per_learner=1, local_gpu_idx=int(device[-1]))
-    config.env_runners(num_env_runners=num_envs)
     run_ident = "".join(
         [
             "-bc" if behavior_clone else "",
@@ -82,11 +90,128 @@ def train(
         logger_creator=lambda config: UnifiedLogger(  # type: ignore
             config,
             f"results/logs-{run_ident}/{','.join([str(t) for t in teams])}-teams/",
-            loggers=None,
+            loggers=[FilteredTBXLogger],
         )
     )
-    for _ in range(steps):
-        algo.train()
+    toggle = None if allow_mirror_match else TeamToggle(len(teams))
+    eval_agent1 = Agent(
+        num_frames,
+        torch.device(device),
+        server_configuration=ServerConfiguration(
+            f"ws://localhost:{port}/showdown/websocket",
+            "https://play.pokemonshowdown.com/action.php?",
+        ),
+        battle_format=battle_format,
+        log_level=25,
+        max_concurrent_battles=10,
+        accept_open_team_sheet=True,
+        open_timeout=None,
+        team=RandomTeamBuilder(
+            [0] if learning_style == LearningStyle.EXPLOITER else teams, battle_format, toggle
+        ),
+    )
+    eval_agent2 = MaxBasePowerPlayer(
+        server_configuration=ServerConfiguration(
+            f"ws://localhost:{port}/showdown/websocket",
+            "https://play.pokemonshowdown.com/action.php?",
+        ),
+        battle_format=battle_format,
+        log_level=25,
+        max_concurrent_battles=10,
+        accept_open_team_sheet=True,
+        open_timeout=None,
+        team=RandomTeamBuilder(
+            [0] if learning_style == LearningStyle.EXPLOITER else teams, battle_format, toggle
+        ),
+    )
+    num_saved_steps = 0
+    if (
+        os.path.exists(f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams")
+        and len(os.listdir(f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"))
+        > 0
+    ):
+        saved_steps_list = [
+            int(file[:-4])
+            for file in os.listdir(
+                f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"
+            )
+            if int(file[:-4]) >= 0
+        ]
+        if saved_steps_list:
+            num_saved_steps = max(saved_steps_list)
+            policy = ActorCriticModule.from_checkpoint(
+                os.path.abspath(
+                    f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams/{num_saved_steps}.zip"
+                )
+            )
+            module = algo.get_module("p1")
+            assert module is not None
+            module.set_state(policy.get_state())
+            if num_saved_steps < save_period:
+                num_saved_steps = 0
+            algo._iteration = num_saved_steps // gather_period
+    if algo.training_iteration < save_period:
+        policy = algo.get_module("p1")
+        assert isinstance(policy, ActorCriticModule)
+        eval_agent1.set_policy(policy)
+        win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
+    if not behavior_clone:
+        module = algo.get_module("p1")
+        assert module is not None
+        module.save_to_path(
+            os.path.abspath(
+                f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams/{gather_period * algo.training_iteration}"
+            )
+        )
+    else:
+        try:
+            saves = [
+                int(file[:-4])
+                for file in os.listdir(
+                    f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"
+                )
+                if int(file[:-4]) >= 0
+            ]
+        except FileNotFoundError:
+            raise FileNotFoundError("behavior_clone on, but no model initialization found")
+        assert len(saves) > 0
+    if learning_style == LearningStyle.EXPLOITER:
+        policy = ActorCriticModule.from_checkpoint(
+            os.path.abspath(
+                f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams/-1"
+            )
+        )
+        algo.add_module(
+            "target",
+            RLModuleSpec(
+                module_class=ActorCriticModule,
+                observation_space=Box(
+                    -1, len(moves), shape=(12 * doubles_chunk_obs_len,), dtype=np.float32
+                ),
+                action_space=MultiDiscrete([doubles_act_len, doubles_act_len]),
+                model_config={
+                    "num_frames": num_frames,
+                    "chooses_on_teampreview": chooses_on_teampreview,
+                },
+            ),
+        )
+        module = algo.get_module("target")
+        assert module is not None
+        module.set_state(policy.get_state())
+    while True:
+        for _ in range(10):
+            algo.train()
+        policy = algo.get_module("p1")
+        assert isinstance(policy, ActorCriticModule)
+        eval_agent1.set_policy(policy)
+        win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
+        module = algo.get_module("p1")
+        assert module is not None
+        module.save_to_path(
+            os.path.abspath(
+                f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams/{gather_period * algo.training_iteration}"
+            )
+        )
 
 
 if __name__ == "__main__":

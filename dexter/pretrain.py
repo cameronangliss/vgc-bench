@@ -1,5 +1,4 @@
 import argparse
-import asyncio
 
 import numpy as np
 import torch
@@ -21,15 +20,6 @@ from src.utils import (
     doubles_chunk_obs_len,
     moves,
 )
-
-
-def compare(player1: Agent, player2: MaxBasePowerPlayer, n_battles: int) -> float:
-    asyncio.run(player1.battle_against(player2, n_battles=n_battles))
-    wr = player1.win_rate
-    player1.reset_battles()
-    player2.reset_battles()
-    return wr
-
 
 # class TrajectoryDataset(Dataset):
 #     def __init__(self, num_frames: int):
