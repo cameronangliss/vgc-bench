@@ -73,7 +73,7 @@ class Agent(Player):
         actions_tensor = dist.sample()
         action = actions_tensor.squeeze(0).cpu().numpy()
         if battle.teampreview:
-            if not self.__policy.chooses_on_teampreview:
+            if not self.__policy.model.chooses_on_teampreview:
                 available_actions = [i for i in range(1, 7) if i - 1 not in self._teampreview_draft]
                 action = np.array(random.sample(available_actions, k=2))
             self._teampreview_draft += [a - 1 for a in action]
@@ -88,7 +88,7 @@ class Agent(Player):
             order2 = self.choose_move(upd_battle)
             action1 = DoublesEnv.order_to_action(order1, battle)
             action2 = DoublesEnv.order_to_action(order2, upd_battle)
-            if self.__policy.chooses_on_teampreview:  # type: ignore
+            if self.__policy.model.chooses_on_teampreview:  # type: ignore
                 return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
             else:
                 message = self.random_teampreview(battle)

@@ -86,11 +86,12 @@ def train(
             "-xm" if not allow_mirror_match else "",
         ]
     )[1:]
+    log_dir = f"results/logs-{run_ident}/{','.join([str(t) for t in teams])}-teams/"
+    save_dir = f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"
+    os.makedirs(save_dir, exist_ok=True)
     algo = config.build_algo(
         logger_creator=lambda config: UnifiedLogger(  # type: ignore
-            config,
-            f"results/logs-{run_ident}/{','.join([str(t) for t in teams])}-teams/",
-            loggers=[FilteredTBXLogger],
+            config, log_dir, loggers=[FilteredTBXLogger]
         )
     )
     toggle = None if allow_mirror_match else TeamToggle(len(teams))
@@ -125,28 +126,14 @@ def train(
         ),
     )
     num_saved_steps = 0
-    if (
-        os.path.exists(f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams")
-        and len(os.listdir(f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"))
-        > 0
-    ):
-        saved_steps_list = [
-            int(file[:-4])
-            for file in os.listdir(
-                f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"
-            )
-            if int(file[:-4]) >= 0
-        ]
+    if os.path.exists(save_dir) and len(os.listdir(save_dir)) > 0:
+        saved_steps_list = [int(file[:-3]) for file in os.listdir(save_dir) if int(file[:-3]) >= 0]
         if saved_steps_list:
             num_saved_steps = max(saved_steps_list)
-            policy = ActorCriticModule.from_checkpoint(
-                os.path.abspath(
-                    f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams/{num_saved_steps}.zip"
-                )
-            )
             module = algo.get_module("p1")
-            assert module is not None
-            module.set_state(policy.get_state())
+            assert isinstance(module, ActorCriticModule)
+            state = torch.load(f"{save_dir}/{num_saved_steps}.pt")
+            module.model.load_state_dict(state)
             if num_saved_steps < save_period:
                 num_saved_steps = 0
             algo._iteration = num_saved_steps // gather_period
@@ -157,30 +144,17 @@ def train(
         win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
     if not behavior_clone:
         module = algo.get_module("p1")
-        assert module is not None
-        module.save_to_path(
-            os.path.abspath(
-                f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams/{gather_period * algo.training_iteration}"
-            )
+        assert isinstance(module, ActorCriticModule)
+        torch.save(
+            module.model.state_dict(), f"{save_dir}/{gather_period * algo.training_iteration}.pt"
         )
     else:
         try:
-            saves = [
-                int(file[:-4])
-                for file in os.listdir(
-                    f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"
-                )
-                if int(file[:-4]) >= 0
-            ]
+            saves = [int(file[:-3]) for file in os.listdir(save_dir) if int(file[:-3]) >= 0]
         except FileNotFoundError:
             raise FileNotFoundError("behavior_clone on, but no model initialization found")
         assert len(saves) > 0
     if learning_style == LearningStyle.EXPLOITER:
-        policy = ActorCriticModule.from_checkpoint(
-            os.path.abspath(
-                f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams/-1"
-            )
-        )
         algo.add_module(
             "target",
             RLModuleSpec(
@@ -196,22 +170,20 @@ def train(
             ),
         )
         module = algo.get_module("target")
-        assert module is not None
-        module.set_state(policy.get_state())
-    while True:
-        for _ in range(10):
-            algo.train()
-        policy = algo.get_module("p1")
-        assert isinstance(policy, ActorCriticModule)
-        eval_agent1.set_policy(policy)
-        win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
-        module = algo.get_module("p1")
-        assert module is not None
-        module.save_to_path(
-            os.path.abspath(
-                f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams/{gather_period * algo.training_iteration}"
-            )
-        )
+        assert isinstance(module, ActorCriticModule)
+        state = torch.load(f"{save_dir}/-1.pt")
+        module.model.load_state_dict(state)
+    for _ in range(10):
+        algo.train()
+    policy = algo.get_module("p1")
+    assert isinstance(policy, ActorCriticModule)
+    eval_agent1.set_policy(policy)
+    win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
+    module = algo.get_module("p1")
+    assert isinstance(module, ActorCriticModule)
+    torch.save(
+        module.model.state_dict(), f"{save_dir}/{gather_period * algo.training_iteration}.pt"
+    )
 
 
 if __name__ == "__main__":

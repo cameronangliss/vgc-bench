@@ -1,12 +1,14 @@
 import argparse
 import asyncio
 
+import numpy as np
 import torch
+from gymnasium.spaces import Box, MultiDiscrete
 from poke_env import AccountConfiguration, ShowdownServerConfiguration
 from src.agent import Agent
+from src.policy import ActorCriticModule
 from src.teams import RandomTeamBuilder
-from src.utils import battle_format
-from stable_baselines3 import PPO
+from src.utils import battle_format, doubles_act_len, doubles_chunk_obs_len, moves
 
 
 async def play(filepath: str, n_games: int, play_on_ladder: bool):
@@ -23,7 +25,18 @@ async def play(filepath: str, n_games: int, play_on_ladder: bool):
         start_timer_on_battle_start=play_on_ladder,
         team=RandomTeamBuilder([0], battle_format),
     )
-    agent.set_policy(PPO.load(filepath).policy)
+    policy = ActorCriticModule(
+        observation_space=Box(
+            -1, len(moves), shape=(12 * doubles_chunk_obs_len,), dtype=np.float32
+        ),
+        action_space=MultiDiscrete([doubles_act_len, doubles_act_len]),
+        inference_only=True,
+        model_config={"num_frames": 1, "chooses_on_teampreview": True},
+        catalog_class=None,
+    )
+    state = torch.load(filepath)
+    policy.model.load_state_dict(state)
+    agent.set_policy(policy)
     if play_on_ladder:
         print("Entering ladder")
         await agent.ladder(n_games=n_games)

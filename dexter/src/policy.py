@@ -26,9 +26,10 @@ class NeuralNetwork(nn.Module):
     proj_len: int = 128
     embed_layers: int = 3
 
-    def __init__(self, num_frames: int):
+    def __init__(self, num_frames: int, chooses_on_teampreview: bool):
         super().__init__()
         self.num_frames = num_frames
+        self.chooses_on_teampreview = chooses_on_teampreview
         self.ability_embed = nn.Embedding(len(abilities), self.embed_len)
         self.item_embed = nn.Embedding(len(items), self.embed_len)
         self.move_embed = nn.Embedding(len(moves), self.embed_len)
@@ -147,8 +148,9 @@ class ActorCriticModule(TorchRLModule, ValueFunctionAPI):
             model_config=model_config,
             catalog_class=catalog_class,
         )
-        self.chooses_on_teampreview = model_config["chooses_on_teampreview"]
-        self.model = NeuralNetwork(model_config["num_frames"])
+        self.model = NeuralNetwork(
+            model_config["num_frames"], model_config["chooses_on_teampreview"]
+        )
         self.actor_proj = nn.Linear(self.model.proj_len, 2 * doubles_act_len)
         self.value_proj = nn.Linear(self.model.proj_len, 1)
         self.action_dist_cls = TwoStepTorchMultiCategorical.get_partial_dist_cls(input_lens=[doubles_act_len, doubles_act_len])  # type: ignore
