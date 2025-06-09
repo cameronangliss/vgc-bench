@@ -1,15 +1,16 @@
 import asyncio
 import json
 import os
-import pickle
 
 import numpy as np
 import numpy.typing as npt
-from imitation.data.types import Trajectory
+import pandas as pd
 from poke_env import to_id_str
 from poke_env.environment import AbstractBattle, DoubleBattle
 from poke_env.player import BattleOrder, DoubleBattleOrder, DoublesEnv, Player
 from poke_env.ps_client import AccountConfiguration
+from ray.rllib.core import Columns
+from ray.rllib.env.single_agent_episode import SingleAgentEpisode
 from scrape_logs import battle_formats
 from src.agent import Agent
 from src.utils import doubles_chunk_obs_len
@@ -61,7 +62,7 @@ class LogReader(Player):
         order2 = BattleOrder(list(battle.team.values())[id2 - 1])
         order = DoubleBattleOrder(order1, order2)
         state = Agent.embed_battle(battle, self.teampreview_draft)
-        assert state.shape == (12, doubles_chunk_obs_len)
+        assert state.shape == (12 * doubles_chunk_obs_len,)
         action = DoublesEnv.order_to_action(order, battle, fake=True)
         self.states += [state]
         self.actions += [action]
@@ -116,9 +117,7 @@ class LogReader(Player):
         index = list(battle.team.values()).index(mon)
         return index + 1
 
-    async def follow_log(
-        self, tag: str, log: str
-    ) -> tuple[npt.NDArray[np.float32], npt.NDArray[np.int64]]:
+    async def follow_log(self, tag: str, log: str) -> SingleAgentEpisode:
         self.states = []
         self.actions = []
         self.teampreview_draft = []
@@ -140,15 +139,22 @@ class LogReader(Player):
                 await self._handle_battle_message(split_messages)
                 if "|switch|" in messages[i + 1] or "|move|" in messages[i + 1]:
                     self.choose_move(battle)
+        episode = SingleAgentEpisode()
+        episode.add_env_reset(self.states[0])
+        for state, action in zip(self.states[1:], self.actions[:-1]):
+            episode.add_env_step(state, action, 0)
         split_messages = [m.split("|") for m in messages[-1].split("\n")]
         await self._handle_battle_message(split_messages)
         last_state = Agent.embed_battle(self.battles[tag], self.teampreview_draft)
-        self.states += [last_state]
-        return np.stack(self.states, axis=0), np.stack(self.actions, axis=0)
+        reward = 1 if f"|win|{self.username}" in log else -1
+        episode.add_env_step(last_state, self.actions[-1], reward)
+        return episode
 
 
-def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) -> list[Trajectory]:
-    trajs = []
+def process_logs(
+    log_jsons: dict[str, tuple[str, str]], strict: bool = False
+) -> list[SingleAgentEpisode]:
+    episodes = []
     total = 0
     num_errors = 0
     for i, (tag, (_, log)) in enumerate(log_jsons.items()):
@@ -165,9 +171,9 @@ def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) ->
                     log_level=51,
                     accept_open_team_sheet=True,
                 )
-                states1, actions1 = asyncio.run(player1.follow_log(tag, log))
-                total += len(states1)
-                trajs += [Trajectory(obs=states1, acts=actions1, infos=None, terminal=True)]
+                episode = asyncio.run(player1.follow_log(tag, log))
+                total += len(episode.observations)
+                episodes += [episode]
             start_index2 = log.index(f"|player|p2|")
             _, _, _, username2, _, rating2 = log[
                 start_index2 : log.index("\n", start_index2)
@@ -179,9 +185,9 @@ def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) ->
                     log_level=51,
                     accept_open_team_sheet=True,
                 )
-                states2, actions2 = asyncio.run(player2.follow_log(tag, log))
-                total += len(states2)
-                trajs += [Trajectory(obs=states2, acts=actions2, infos=None, terminal=True)]
+                episode = asyncio.run(player2.follow_log(tag, log))
+                total += len(episode.observations)
+                episodes += [episode]
         except KeyboardInterrupt:
             raise
         except SystemExit:
@@ -192,11 +198,11 @@ def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) ->
             else:
                 num_errors += 1
     print(
-        f"prepared {len(trajs)} trajectories "
+        f"prepared {len(episodes)} trajectories "
         f"with {total} total state-action pairs "
         f"(and {num_errors} games thrown away)"
     )
-    return trajs
+    return episodes
 
 
 if __name__ == "__main__":
@@ -204,10 +210,23 @@ if __name__ == "__main__":
     for f in battle_formats:
         with open(f"data/logs-{f}.json", "r") as file:
             logs = {**logs, **json.load(file)}
-    trajs = process_logs(logs, strict=False)
-    if not os.path.exists("data/trajs"):
-        os.mkdir("data/trajs")
-    for i, traj in enumerate(trajs):
-        width = len(str(len(trajs)))
-        with open(f"data/trajs/{i:0{width}d}.pkl", "wb") as f:
-            pickle.dump(traj, f)
+    episodes = process_logs(logs, strict=False)
+    os.makedirs("data/episodes", exist_ok=True)
+    width = len(str(len(episodes)))
+    for i, ep in enumerate(episodes):
+        states = ep.get_observations()
+        actions = ep.get_actions()
+        rewards = ep.get_rewards()
+        rows = []
+        for j in range(len(actions)):
+            rows.append(
+                {
+                    Columns.OBS: states[j],
+                    Columns.ACTIONS: actions[j],
+                    Columns.REWARDS: rewards[j],
+                    Columns.TERMINATEDS: int(j == len(actions) - 1),
+                    Columns.NEXT_OBS: states[j + 1],
+                }
+            )
+        df = pd.DataFrame(rows)
+        df.to_parquet(f"data/episodes/{i:0{width}d}.parquet", index=False)
