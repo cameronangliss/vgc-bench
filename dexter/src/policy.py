@@ -165,5 +165,6 @@ class ActorCriticModule(TorchRLModule, ValueFunctionAPI):
     def compute_values(
         self, batch: dict[str, Any], embeddings: torch.Tensor | None = None
     ) -> torch.Tensor:
-        obs = batch[Columns.OBS]
-        return self.model.value_proj(self.model(obs)).squeeze(-1)
+        if embeddings is None:
+            embeddings = self.model(batch[Columns.OBS])
+        return self.model.value_proj(embeddings).squeeze(-1)
