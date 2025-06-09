@@ -1,11 +1,9 @@
 gymnasium>=1.0.0
-imitation
 nashpy
 numpy>=2.0.0
 git+https://github.com/cameronangliss/poke-env.git@thesis
+ray[rllib]>=2.0.0
 sentence-transformers
-stable_baselines3>=2.0.0
-supersuit
 tensorboard
 torch
 torch-tb-profiler
