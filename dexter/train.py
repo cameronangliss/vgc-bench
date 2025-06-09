@@ -137,7 +137,7 @@ def train(
             if num_saved_steps < save_period:
                 num_saved_steps = 0
             algo._iteration = num_saved_steps // gather_period
-    if algo.training_iteration < save_period:
+    if gather_period * algo.training_iteration < save_period:
         policy = algo.get_module("p1")
         assert isinstance(policy, ActorCriticModule)
         eval_agent1.set_policy(policy)
