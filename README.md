@@ -8,7 +8,7 @@ The newest of each should be fine.
 
 Run the following to ensure that pokemon showdown is configured:
 ```
-git submodules update --init --recursive
+git submodule update --init --recursive
 cd pokemon-showdown
 node pokemon-showdown start --no-security
 ```
