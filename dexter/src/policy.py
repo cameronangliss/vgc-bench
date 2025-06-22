@@ -117,7 +117,8 @@ class TwoStepTorchMultiCategorical(TorchMultiCategorical):
         altered_dist = TorchMultiCategorical([self._cats[0], dist2])
         return altered_dist.logp(value)
 
-    def _get_mask(self, ally_actions: torch.Tensor) -> torch.Tensor:
+    @staticmethod
+    def _get_mask(ally_actions: torch.Tensor) -> torch.Tensor:
         indices = (
             torch.arange(doubles_act_len, device=ally_actions.device)
             .unsqueeze(0)
