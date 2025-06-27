@@ -4,7 +4,7 @@ import asyncio
 import numpy as np
 import torch
 from gymnasium.spaces import Box, MultiDiscrete
-from poke_env import AccountConfiguration, ShowdownServerConfiguration
+from poke_env.ps_client import AccountConfiguration, ShowdownServerConfiguration
 from src.agent import Agent
 from src.policy import ActorCriticModule
 from src.teams import RandomTeamBuilder

@@ -4,7 +4,7 @@ from typing import Any, Deque
 import numpy as np
 import numpy.typing as npt
 import torch
-from poke_env.environment import (
+from poke_env.battle import (
     AbstractBattle,
     Battle,
     DoubleBattle,
@@ -20,8 +20,9 @@ from poke_env.environment import (
     Target,
     Weather,
 )
-from poke_env.player import BattleOrder, DoublesEnv, Player
-from poke_env.player.env import _EnvPlayer
+from poke_env.environment import DoublesEnv
+from poke_env.environment.env import _EnvPlayer
+from poke_env.player import BattleOrder, Player
 from ray.rllib.core import Columns
 from src.policy import ActorCriticModule
 from src.utils import (

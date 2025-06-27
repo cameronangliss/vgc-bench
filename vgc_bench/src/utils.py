@@ -4,7 +4,7 @@ from enum import Enum, auto, unique
 
 import numpy as np
 import numpy.typing as npt
-from poke_env.environment import (
+from poke_env.battle import (
     Effect,
     Field,
     MoveCategory,

@@ -3,8 +3,8 @@ from typing import Any
 import numpy as np
 import numpy.typing as npt
 from gymnasium.spaces import Box
-from poke_env.environment import AbstractBattle
-from poke_env.player import DoublesEnv
+from poke_env.battle import AbstractBattle
+from poke_env.environment import DoublesEnv
 from poke_env.ps_client import ServerConfiguration
 from ray.rllib.env import ParallelPettingZooEnv
 from src.agent import Agent
