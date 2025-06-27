@@ -29,7 +29,7 @@ start_training() {
     showdown_pid=$(start_showdown "$port")
     sleep 5
     echo "Starting training process $i..."
-    python dexter/train.py --num_teams "$num_teams" --port "$port" --device "$device" --self_play > debug"$port".log 2>&1
+    python vgc_bench/train.py --num_teams "$num_teams" --port "$port" --device "$device" --self_play > debug"$port".log 2>&1
     exit_status=$?
     if [ $exit_status -ne 0 ]; then
         echo "Training process $i died with exit status $exit_status"

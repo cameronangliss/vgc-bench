@@ -20,7 +20,7 @@ start_showdown() {
 echo "Starting Showdown server for pretraining process..."
 showdown_pid=$(start_showdown "$port")
 echo "Starting pretraining process..."
-python dexter/pretrain.py --num_teams "$num_teams" --port "$port" --device "$device" > debug.log 2>&1
+python vgc_bench/pretrain.py --num_teams "$num_teams" --port "$port" --device "$device" > debug.log 2>&1
 exit_status=$?
 if [ $exit_status -ne 0 ]; then
     echo "Pretraining process died with exit status $exit_status"

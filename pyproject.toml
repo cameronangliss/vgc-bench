@@ -17,7 +17,7 @@ line_length = 100
 multi_line_output = 3
 
 [tool.pyright]
-include = ["dexter"]
+include = ["vgc_bench"]
 pythonVersion = "3.12"
 reportPrivateUsage = false
 reportUnknownLambdaType = false
