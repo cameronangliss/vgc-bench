@@ -4,7 +4,7 @@ from typing import Any, Deque
 import numpy as np
 import numpy.typing as npt
 import torch
-from poke_env.environment import (
+from poke_env.battle import (
     AbstractBattle,
     Battle,
     DoubleBattle,
@@ -20,8 +20,9 @@ from poke_env.environment import (
     Target,
     Weather,
 )
-from poke_env.player import BattleOrder, DoublesEnv, Player, SinglesEnv
-from poke_env.player.env import _EnvPlayer
+from poke_env.environment import DoublesEnv
+from poke_env.environment.env import _EnvPlayer
+from poke_env.player import BattleOrder, Player
 from src.utils import (
     abilities,
     doubles_act_len,
@@ -175,34 +176,18 @@ class Agent(Player):
     def embed_side(
         battle: AbstractBattle, fake_ratings: bool, opp: bool = False
     ) -> npt.NDArray[np.float32]:
-        if isinstance(battle, Battle):
-            gims = [
-                battle.can_mega_evolve,
-                battle.can_z_move,
-                battle.can_dynamax,
-                battle.can_tera is not False,
-            ]
-            opp_gims = [
-                battle.opponent_can_mega_evolve,
-                battle.opponent_can_z_move,
-                battle.opponent_can_dynamax,
-                battle._opponent_can_terrastallize,
-            ]
-        elif isinstance(battle, DoubleBattle):
-            gims = [
-                battle.can_mega_evolve[0],
-                battle.can_z_move[0],
-                battle.can_dynamax[0],
-                battle.can_tera[0] is not False,
-            ]
-            opp_gims = [
-                battle.opponent_can_mega_evolve[0],
-                battle.opponent_can_z_move[0],
-                battle.opponent_can_dynamax[0],
-                battle._opponent_can_terrastallize,
-            ]
-        else:
-            raise TypeError()
+        gims = [
+            battle.can_mega_evolve[0],
+            battle.can_z_move[0],
+            battle.can_dynamax[0],
+            battle.can_tera[0],
+        ]
+        opp_gims = [
+            battle.opponent_used_mega_evolve,
+            battle.opponent_used_z_move,
+            battle.opponent_used_dynamax,
+            battle._opponent_used_tera,
+        ]
         side_conds = battle.opponent_side_conditions if opp else battle.side_conditions
         side_conditions = [
             (

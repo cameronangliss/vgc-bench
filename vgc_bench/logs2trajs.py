@@ -7,8 +7,15 @@ import numpy as np
 import numpy.typing as npt
 from imitation.data.types import Trajectory
 from poke_env import to_id_str
-from poke_env.environment import AbstractBattle, DoubleBattle
-from poke_env.player import BattleOrder, DoubleBattleOrder, DoublesEnv, Player
+from poke_env.battle import AbstractBattle, DoubleBattle
+from poke_env.environment import DoublesEnv
+from poke_env.player import (
+    BattleOrder,
+    DoubleBattleOrder,
+    PassBattleOrder,
+    Player,
+    SingleBattleOrder,
+)
 from poke_env.ps_client import AccountConfiguration
 from scrape_logs import battle_formats
 from src.agent import Agent
@@ -57,8 +64,8 @@ class LogReader(Player):
         all_choices.remove(id1)
         all_choices.remove(id2)
         order_str = f"/team {id1}{id2}{all_choices[0]}{all_choices[1]}"
-        order1 = BattleOrder(list(battle.team.values())[id1 - 1])
-        order2 = BattleOrder(list(battle.team.values())[id2 - 1])
+        order1 = SingleBattleOrder(list(battle.team.values())[id1 - 1])
+        order2 = SingleBattleOrder(list(battle.team.values())[id2 - 1])
         order = DoubleBattleOrder(order1, order2)
         state = Agent.embed_battle(battle, self.teampreview_draft)
         assert state.shape == (12, doubles_chunk_obs_len)
@@ -69,10 +76,10 @@ class LogReader(Player):
         return order_str
 
     @staticmethod
-    def get_order(battle: DoubleBattle, msg: str, is_right: bool) -> BattleOrder | None:
+    def get_order(battle: DoubleBattle, msg: str, is_right: bool) -> SingleBattleOrder:
         pos = "b" if is_right else "a"
         lines = msg.split("\n")
-        order = None
+        order = PassBattleOrder()
         for line in lines:
             if line.startswith(f"|move|{battle.player_role}{pos}: ") and "[from]" not in line:
                 [_, _, identifier, move, target_identifier, *_] = line.split("|")
@@ -92,7 +99,7 @@ class LogReader(Player):
                     else None
                 )
                 did_tera = f"|-terastallize|{identifier}|" in msg
-                order = BattleOrder(
+                order = SingleBattleOrder(
                     move, terastallize=did_tera, move_target=battle.to_showdown_target(move, target)
                 )
             elif line.startswith(f"|switch|{battle.player_role}{pos}: ") or line.startswith(
@@ -100,7 +107,7 @@ class LogReader(Player):
             ):
                 [_, _, identifier, details, *_] = line.split("|")
                 mon = battle.get_pokemon(identifier, details=details, request=battle.last_request)
-                order = BattleOrder(mon)
+                order = SingleBattleOrder(mon)
             elif line.startswith("|switch|") or line.startswith("|drag|"):
                 [_, _, identifier, details, *_] = line.split("|")
                 battle.get_pokemon(identifier, details=details)

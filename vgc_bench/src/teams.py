@@ -40,7 +40,7 @@ class RandomTeamBuilder(Teambuilder):
 
 
 TEAMS = {
-    "gen9vgc2025regi": [
+    "gen9vgc2025regiactual": [
         """
 Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
@@ -734,7 +734,7 @@ Adamant Nature
 - Follow Me
 - Spiky Shield""",
     ],
-    "gen9vgc2025regg": [
+    "gen9vgc2025regi": [
         """
 Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)

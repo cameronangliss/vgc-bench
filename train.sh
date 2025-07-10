@@ -40,7 +40,7 @@ start_training() {
 while true; do
     for i in "${!team_counts[@]}"; do
         start_training "$i" &
-        sleep 1
+        sleep 10
     done
     wait
     sleep 10

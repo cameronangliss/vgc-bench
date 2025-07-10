@@ -68,7 +68,6 @@ class Callback(BaseCallback):
         self.eval_agent = Agent(
             num_frames,
             torch.device(device),
-            account_configuration=AccountConfiguration.randgen(10),
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
@@ -85,7 +84,6 @@ class Callback(BaseCallback):
         self.eval_agent2 = Agent(
             num_frames,
             torch.device(device),
-            account_configuration=AccountConfiguration.randgen(10),
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
@@ -100,7 +98,6 @@ class Callback(BaseCallback):
             ),
         )
         self.eval_opponent = MaxBasePowerPlayer(
-            account_configuration=AccountConfiguration.randgen(10),
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",

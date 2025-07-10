@@ -9,8 +9,8 @@ import torch
 from gymnasium import Env
 from gymnasium.spaces import Box
 from gymnasium.wrappers import FrameStackObservation
-from poke_env.environment import AbstractBattle
-from poke_env.player import DoublesEnv, SingleAgentWrapper
+from poke_env.battle import AbstractBattle
+from poke_env.environment import DoublesEnv, SingleAgentWrapper
 from poke_env.ps_client import AccountConfiguration, ServerConfiguration
 from src.agent import Agent
 from src.teams import RandomTeamBuilder, TeamToggle
@@ -55,8 +55,6 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         toggle = None if allow_mirror_match else TeamToggle(len(teams))
         env = cls(
             learning_style,
-            account_configuration1=AccountConfiguration.randgen(10),
-            account_configuration2=AccountConfiguration.randgen(10),
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
@@ -82,7 +80,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             opponent = Agent(
                 num_frames,
                 torch.device(device),
-                account_configuration=AccountConfiguration.randgen(10),
+                account_configuration=AccountConfiguration.generate(cls.__name__, rand=True),
                 server_configuration=ServerConfiguration(
                     f"ws://localhost:{port}/showdown/websocket",
                     "https://play.pokemonshowdown.com/action.php?",

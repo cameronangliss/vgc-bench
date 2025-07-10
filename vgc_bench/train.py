@@ -45,7 +45,11 @@ def train(
         MaskedActorCriticPolicy,
         env,
         learning_rate=1e-5,
-        n_steps=64 if learning_style == LearningStyle.PURE_SELF_PLAY else 128,
+        n_steps=(
+            3072 // (2 * num_envs)
+            if learning_style == LearningStyle.PURE_SELF_PLAY
+            else 3072 // num_envs
+        ),
         batch_size=64,
         gamma=1,
         ent_coef=1e-3,
@@ -54,6 +58,8 @@ def train(
         device=device,
     )
     num_saved_timesteps = 0
+    if not os.path.exists("results"):
+        os.mkdir("results")
     if (
         os.path.exists(f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams")
         and len(os.listdir(f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"))

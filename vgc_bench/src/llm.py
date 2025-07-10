@@ -5,8 +5,9 @@ from typing import Any
 import numpy as np
 import torch
 import transformers
-from poke_env.environment import AbstractBattle, DoubleBattle, Move, Pokemon
-from poke_env.player import BattleOrder, DefaultBattleOrder, DoublesEnv, Player
+from poke_env.battle import AbstractBattle, DoubleBattle, Move, Pokemon
+from poke_env.environment import DoublesEnv
+from poke_env.player import BattleOrder, DefaultBattleOrder, Player
 from src.agent import Agent
 
 
@@ -25,7 +26,7 @@ class LLMPlayer(Player):
         )
         tokenizer.pad_token = tokenizer.eos_token
         model.config.pad_token_id = tokenizer.eos_token_id
-        self.model = transformers.pipeline("text-generation", model=model, tokenizer=tokenizer)
+        self.model = transformers.pipeline("text-generation", model=model, tokenizer=tokenizer)  # type: ignore
 
     def choose_move(self, battle: AbstractBattle) -> BattleOrder:
         assert isinstance(battle, DoubleBattle)
@@ -221,13 +222,13 @@ Please remember, your only allowed response MUST BE of the format [<action1>, <a
             battle.can_mega_evolve[0],
             battle.can_z_move[0],
             battle.can_dynamax[0],
-            battle.can_tera[0] is not False,
+            battle.can_tera[0],
         ]
         opp_gims = [
-            battle.opponent_can_mega_evolve[0],
-            battle.opponent_can_z_move[0],
-            battle.opponent_can_dynamax[0],
-            battle._opponent_can_terrastallize,
+            battle.opponent_used_mega_evolve,
+            battle.opponent_used_z_move,
+            battle.opponent_used_dynamax,
+            battle._opponent_used_tera,
         ]
         side_conds = battle.opponent_side_conditions if opp else battle.side_conditions
         gims = opp_gims if opp else gims
