@@ -52,7 +52,6 @@ def train(
         env_config={
             "teams": teams,
             "port": port,
-            "learning_style": learning_style,
             "num_frames": num_frames,
         },
         disable_env_checking=True,

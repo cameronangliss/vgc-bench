@@ -24,7 +24,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
     _teampreview_draft2: list[int]
     _learning_style: LearningStyle
 
-    def __init__(self, learning_style: LearningStyle, *args: Any, **kwargs: Any):
+    def __init__(self, *args: Any, **kwargs: Any):
         super().__init__(*args, **kwargs)
         self.metadata = {"name": "showdown_v1", "render_modes": ["human"]}
         self.render_mode: str | None = None
@@ -34,13 +34,11 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         }
         self._teampreview_draft1 = []
         self._teampreview_draft2 = []
-        self._learning_style = learning_style
 
     @classmethod
     def create_env(cls, config: dict[str, Any]) -> ParallelPettingZooEnv:
         toggle = None if allow_mirror_match else TeamToggle(len(config["teams"]))
         env = cls(
-            config["learning_style"],
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{config['port']}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
@@ -87,8 +85,6 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         self._teampreview_draft1 = []
         self._teampreview_draft2 = []
         result = super().reset(seed=seed, options=options)
-        if self._learning_style == LearningStyle.PURE_SELF_PLAY:
-            self.cleanup()
         return result
 
     def calc_reward(self, battle: AbstractBattle) -> float:
