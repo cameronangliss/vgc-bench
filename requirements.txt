@@ -2,7 +2,7 @@ gymnasium>=1.0.0
 imitation
 nashpy>=0.0.39
 numpy>=2.0.0
-git+https://github.com/cameronangliss/poke-env.git@thesis
+git+https://github.com/cameronangliss/poke-env.git@thesis-old
 sentence-transformers
 stable_baselines3>=2.0.0
 supersuit==3.9.3
