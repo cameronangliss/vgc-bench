@@ -50,9 +50,11 @@ Here's a dataset of Gen 9 VGC battles, all with open team sheets enabled: https:
 
 # Cite us
 
+```bibtex
 @article{angliss2025benchmark,
   title={A Benchmark for Generalizing Across Diverse Team Strategies in Competitive Pok$\backslash$'emon},
   author={Angliss, Cameron and Cui, Jiaxun and Hu, Jiaheng and Rahman, Arrasy and Stone, Peter},
   journal={arXiv preprint arXiv:2506.10326},
   year={2025}
 }
+```
