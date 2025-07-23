@@ -19,7 +19,7 @@ from src.utils import (
     allow_mirror_match,
     battle_format,
     chooses_on_teampreview,
-    doubles_chunk_obs_len,
+    chunk_obs_len,
     moves,
     num_envs,
 )
