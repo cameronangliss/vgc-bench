@@ -21,7 +21,7 @@ from poke_env.battle import (
 )
 from poke_env.environment import DoublesEnv
 from poke_env.environment.env import _EnvPlayer
-from poke_env.player import BattleOrder, Player
+from poke_env.player import BattleOrder, DefaultBattleOrder, Player
 from src.utils import abilities, act_len, chunk_obs_len, items, move_obs_len, moves, pokemon_obs_len
 from stable_baselines3.common.policies import ActorCriticPolicy
 
@@ -45,6 +45,8 @@ class Agent(Player):
         assert isinstance(battle, DoubleBattle)
         assert self.__policy is not None
         assert self.frames.maxlen is not None
+        if battle._wait:
+            return DefaultBattleOrder()
         if battle.teampreview and len(self._teampreview_draft) == 4:
             self._teampreview_draft = []
         obs = self.embed_battle(battle, self._teampreview_draft, fake_ratings=True)
