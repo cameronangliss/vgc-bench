@@ -132,6 +132,9 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             self.cleanup()
         return result
 
+    def close(self, force: bool = True, wait: bool = False):
+        super().close(force=force, wait=wait)
+
     def calc_reward(self, battle: AbstractBattle) -> float:
         if not battle.finished:
             return 0
