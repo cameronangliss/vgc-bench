@@ -36,7 +36,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         self.metadata = {"name": "showdown_v1", "render_modes": ["human"]}
         self.render_mode: str | None = None
         self.observation_spaces = {
-            agent: Box(-1, len(moves), shape=(12, doubles_chunk_obs_len), dtype=np.float32)
+            agent: Box(-1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32)
             for agent in self.possible_agents
         }
         self._teampreview_draft1 = []

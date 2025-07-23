@@ -135,7 +135,7 @@ class Agent(Player):
             for i, p in enumerate(battle.opponent_team.values())
         ]
         opp_pokemons += [np.zeros(pokemon_obs_len, dtype=np.float32)] * (6 - len(opp_pokemons))
-        return np.stack(
+        return np.concatenate(
             [np.concatenate([glob, side, p]) for p in pokemons]
             + [np.concatenate([glob, opp_side, p]) for p in opp_pokemons],
             dtype=np.float32,

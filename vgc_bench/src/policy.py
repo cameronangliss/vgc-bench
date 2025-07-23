@@ -27,7 +27,6 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         self.num_frames = num_frames
         self.chooses_on_teampreview = chooses_on_teampreview
         self.actor_grad = True
-        self._must_flip_frame_stack = False
         super().__init__(
             *args,
             **kwargs,
@@ -57,10 +56,6 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
     def forward(
         self, obs: torch.Tensor, deterministic: bool = False
     ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
-        if not self._must_flip_frame_stack and obs.size(0) == 2 * num_envs and len(obs.size()) == 4:
-            self._must_flip_frame_stack = True
-        if self._must_flip_frame_stack:
-            obs = obs.flip(1)
         action_logits, value_logits = self.get_logits(obs, actor_grad=True)
         distribution = self.get_dist_from_logits(obs, action_logits)
         actions = distribution.get_actions(deterministic=deterministic)
@@ -78,8 +73,6 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         self, obs: PyTorchObs, actions: torch.Tensor
     ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor | None]:
         assert isinstance(obs, torch.Tensor)
-        if self._must_flip_frame_stack:
-            obs = obs.flip(1)
         action_logits, value_logits = self.get_logits(obs, self.actor_grad)
         distribution = self.get_dist_from_logits(obs, action_logits)
         if isinstance(distribution, MultiCategoricalDistribution):
@@ -142,7 +135,6 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
 
 
 class AttentionExtractor(BaseFeaturesExtractor):
-    num_pokemon: int = 12
     embed_len: int = 32
     proj_len: int = 128
     embed_layers: int = 3
@@ -191,6 +183,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         batch_size = x.size(0)
+        x = x.view(*x.size()[:-1], 12, -1)
         # embedding
         start = doubles_glob_obs_len + side_obs_len
         x = torch.cat(
@@ -207,7 +200,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
             dim=-1,
         )
         # frame encoder
-        x = x.view(batch_size * self.num_frames, self.num_pokemon, -1)
+        x = x.view(batch_size * self.num_frames, 12, -1)
         x = self.feature_proj(x)
         token = self.cls_token.expand(batch_size * self.num_frames, -1, -1)
         x = torch.cat([token, x], dim=1)
