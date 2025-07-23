@@ -9,7 +9,7 @@ from imitation.data.types import Trajectory
 from imitation.util.logger import configure
 from poke_env.environment import SingleAgentWrapper
 from poke_env.player import MaxBasePowerPlayer, RandomPlayer
-from poke_env.ps_client import AccountConfiguration, ServerConfiguration
+from poke_env.ps_client import ServerConfiguration
 from src.agent import Agent
 from src.callback import Callback
 from src.env import ShowdownEnv

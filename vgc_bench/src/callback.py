@@ -9,7 +9,7 @@ import numpy.typing as npt
 import torch
 from nashpy import Game
 from poke_env.player import MaxBasePowerPlayer, Player
-from poke_env.ps_client import AccountConfiguration, ServerConfiguration
+from poke_env.ps_client import ServerConfiguration
 from src.agent import Agent
 from src.policy import MaskedActorCriticPolicy
 from src.teams import RandomTeamBuilder, TeamToggle
