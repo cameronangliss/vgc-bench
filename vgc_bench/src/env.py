@@ -77,16 +77,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             )
             return env  # type: ignore
         else:
-            opponent = Agent(
-                num_frames,
-                torch.device(device),
-                battle_format=battle_format,
-                log_level=25,
-                accept_open_team_sheet=True,
-                start_listening=False,
-                open_timeout=None,
-                team=RandomTeamBuilder(teams, battle_format, toggle),
-            )
+            opponent = Agent(num_frames, torch.device(device), start_listening=False)
             env = SingleAgentWrapper(env, opponent)
             if num_frames > 1:
                 env = FrameStackObservation(env, num_frames, padding_type="zero")
