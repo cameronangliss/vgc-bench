@@ -11,7 +11,7 @@ from gymnasium.spaces import Box
 from gymnasium.wrappers import FrameStackObservation
 from poke_env.battle import AbstractBattle
 from poke_env.environment import DoublesEnv, SingleAgentWrapper
-from poke_env.ps_client import AccountConfiguration, ServerConfiguration
+from poke_env.ps_client import ServerConfiguration
 from src.agent import Agent
 from src.teams import RandomTeamBuilder, TeamToggle
 from src.utils import (
@@ -80,14 +80,10 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             opponent = Agent(
                 num_frames,
                 torch.device(device),
-                account_configuration=AccountConfiguration.generate(cls.__name__, rand=True),
-                server_configuration=ServerConfiguration(
-                    f"ws://localhost:{port}/showdown/websocket",
-                    "https://play.pokemonshowdown.com/action.php?",
-                ),
                 battle_format=battle_format,
                 log_level=25,
                 accept_open_team_sheet=True,
+                start_listening=False,
                 open_timeout=None,
                 team=RandomTeamBuilder(teams, battle_format, toggle),
             )
