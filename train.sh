@@ -37,6 +37,9 @@ start_training() {
     kill $showdown_pid
 }
 
+if [ ! -d results ]; then
+    mkdir -p results
+fi
 while true; do
     for i in "${!team_counts[@]}"; do
         start_training "$i" &

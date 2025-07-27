@@ -58,8 +58,6 @@ def train(
         device=device,
     )
     num_saved_timesteps = 0
-    if not os.path.exists("results"):
-        os.mkdir("results")
     if (
         os.path.exists(f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams")
         and len(os.listdir(f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"))
