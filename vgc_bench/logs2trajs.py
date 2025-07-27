@@ -68,7 +68,7 @@ class LogReader(Player):
         order2 = SingleBattleOrder(list(battle.team.values())[id2 - 1])
         order = DoubleBattleOrder(order1, order2)
         state = Agent.embed_battle(battle, self.teampreview_draft)
-        assert state.shape == (12 * chunk_obs_len)
+        assert state.shape == (12 * chunk_obs_len,)
         action = DoublesEnv.order_to_action(order, battle, fake=True)
         self.states += [state]
         self.actions += [action]
