@@ -6,7 +6,7 @@ import torch
 from gymnasium import Space
 from src.utils import abilities, act_len, chunk_obs_len, glob_obs_len, items, moves, side_obs_len
 from stable_baselines3.common.base_class import BaseAlgorithm
-from stable_baselines3.common.distributions import Distribution, MultiCategoricalDistribution
+from stable_baselines3.common.distributions import MultiCategoricalDistribution
 from stable_baselines3.common.policies import ActorCriticPolicy
 from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
 from stable_baselines3.common.type_aliases import PyTorchObs
