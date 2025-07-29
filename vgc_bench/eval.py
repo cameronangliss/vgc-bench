@@ -4,6 +4,7 @@ import random
 
 import numpy as np
 import torch
+from open_spiel.python.egt import alpharank
 from poke_env.player import MaxBasePowerPlayer, Player, RandomPlayer, SimpleHeuristicsPlayer
 from poke_env.ps_client import AccountConfiguration, ServerConfiguration
 from src.agent import Agent
@@ -75,13 +76,13 @@ def eval(teams: list[int], port: int, device: str):
     llm_losses = [r[1] for r in llm_results.values()]
     llm_losses = llm_losses[:3] + [0] + llm_losses[3:]
     payoff_matrix = np.array(
-        [[r if r is not None else 0 for r in result.values()] for result in results.values()]
+        [[r if r is not None else 0.5 for r in result.values()] for result in results.values()]
     )
     payoff_matrix = np.insert(payoff_matrix, 3, llm_wins, axis=0)
     payoff_matrix = np.insert(payoff_matrix, 3, llm_losses, axis=1)
-    elos = wins_to_elos(payoff_matrix)
     print(payoff_matrix)
-    print(elos)
+    ranking = alpharank.compute([payoff_matrix], use_inf_alpha=True, inf_alpha_eps=0.1)[2]
+    print(ranking)
 
 
 async def mixed_policy_cross_evaluate(
@@ -118,66 +119,6 @@ async def mixed_policy_battle_against(
             player2.reset_battles()
         results[p2_name] = (p1_num_wins / num_battles, p2_num_wins / num_battles)
     return results
-
-
-def wins_to_elos(win_rates, base_elo=1500, min_elo=1000, scale_std=200):
-    """
-    Convert a symmetric matrix of win rates into Elo ratings.
-
-    Parameters
-    ----------
-    win_rates : (n,n) array
-        win_rates[i,j] is fraction of games player i won vs j (out of 1).
-        Diagonal entries are ignored (e.g., zero).
-    base_elo : float
-        The mean Elo to center the ratings on.
-    min_elo : float
-        The minimum Elo after shifting.
-    scale_std : float or None
-        If not None, rescale so that resulting std of elos equals this.
-
-    Returns
-    -------
-    elos : (n,) array
-        Computed Elo ratings.
-    """
-    n = win_rates.shape[0]
-
-    # Build equations A x = b for differences
-    rows = []
-    b = []
-    for i in range(n):
-        for j in range(n):
-            s = win_rates[i, j]
-            # only if result is strictly between 0 and 1
-            if i != j and 0 < s < 1:
-                # implied diff: R_i - R_j = D_ij
-                D_ij = -400 * np.log10((1 / s) - 1)
-                row = np.zeros(n)
-                row[i] = 1
-                row[j] = -1
-                rows.append(row)
-                b.append(D_ij)
-    A = np.vstack(rows)
-    b = np.array(b)
-
-    # Add constraint: sum(R_i) = n * base_elo
-    constraint = np.ones((1, n))
-    A = np.vstack([A, constraint])
-    b = np.concatenate([b, [n * base_elo]])
-
-    # Solve least squares
-    R, *_ = np.linalg.lstsq(A, b, rcond=None)
-
-    # Optionally rescale so min equals min_elo
-    shift = min_elo - np.min(R)
-    R = R + shift
-
-    # Optionally set standard deviation
-    if scale_std is not None:
-        R = (R - np.mean(R)) * (scale_std / np.std(R)) + np.mean(R)
-
-    return R
 
 
 if __name__ == "__main__":

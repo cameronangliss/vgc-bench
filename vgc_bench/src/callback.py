@@ -7,7 +7,7 @@ import warnings
 import numpy as np
 import numpy.typing as npt
 import torch
-from nashpy import Game
+from open_spiel.python.egt import alpharank
 from poke_env.player import MaxBasePowerPlayer, Player
 from poke_env.ps_client import ServerConfiguration
 from src.agent import Agent
@@ -62,8 +62,9 @@ class Callback(BaseCallback):
                     self.payoff_matrix = np.array(json.load(f))
             else:
                 self.payoff_matrix = np.array([[0]])
-            g = Game(self.payoff_matrix)
-            self.prob_dist = g.linear_program()[0].tolist()  # type: ignore
+            self.prob_dist = alpharank.compute(  # type: ignore
+                [self.payoff_matrix], use_inf_alpha=True, inf_alpha_eps=0.1
+            )[2]
         toggle = None if allow_mirror_match else TeamToggle(len(teams))
         self.eval_agent = Agent(
             num_frames,
