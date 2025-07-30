@@ -61,7 +61,7 @@ class Callback(BaseCallback):
                 ) as f:
                     self.payoff_matrix = np.array(json.load(f))
             else:
-                self.payoff_matrix = np.array([[0]])
+                self.payoff_matrix = np.array([[0.5]])
             self.prob_dist = alpharank.compute(  # type: ignore
                 [self.payoff_matrix], use_inf_alpha=True, inf_alpha_eps=0.1
             )[2]
@@ -197,15 +197,21 @@ class Callback(BaseCallback):
             ).policy
             self.eval_agent2.set_policy(policy2)
             win_rate = self.compare(self.eval_agent, self.eval_agent2, 100)
-            win_rates = np.append(win_rates, round(2 * win_rate - 1, ndigits=2))
-        self.payoff_matrix = np.concat([self.payoff_matrix, -win_rates.reshape(-1, 1)], axis=1)
-        win_rates = np.append(win_rates, 0)
+            win_rates = np.append(win_rates, win_rate)
+        self.payoff_matrix = np.concat([self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1)
+        win_rates = np.append(win_rates, 0.5)
         self.payoff_matrix = np.concat([self.payoff_matrix, win_rates.reshape(1, -1)], axis=0)
         with open(
             f"results/logs-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams-payoff-matrix.json",
             "w",
         ) as f:
-            json.dump((self.payoff_matrix.tolist()), f)
+            json.dump(
+                [
+                    [round(win_rate, 2) for win_rate in win_rates]
+                    for win_rates in self.payoff_matrix.tolist()
+                ],
+                f,
+            )
 
     @staticmethod
     def compare(player1: Player, player2: Player, n_battles: int) -> float:
