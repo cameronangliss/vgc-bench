@@ -133,7 +133,6 @@ class Agent(Player):
 
     @staticmethod
     def embed_global(battle: DoubleBattle) -> npt.NDArray[np.float32]:
-        force_switch = [float(f) for f in battle.force_switch]
         weather = [
             (min(battle.turn - battle.weather[w], 8) / 8 if w in battle.weather else 0)
             for w in Weather
@@ -142,7 +141,7 @@ class Agent(Player):
             min(battle.turn - battle.fields[f], 8) / 8 if f in battle.fields else 0 for f in Field
         ]
         teampreview = float(battle.teampreview)
-        return np.array([*weather, *fields, teampreview, *force_switch], dtype=np.float32)
+        return np.array([*weather, *fields, teampreview], dtype=np.float32)
 
     @staticmethod
     def embed_side(
@@ -183,8 +182,9 @@ class Agent(Player):
         ]
         gims = opp_gims if opp else gims
         gimmicks = [float(g) for g in gims]
-        rat = battle.opponent_rating if opp else battle.rating
-        rating = 1 if fake_ratings else (rat or 0) / 2000
+        username = battle.opponent_username if opp else battle.player_username
+        rat = [p for p in battle._players if p["username"] == username][0].get("rating", "0")
+        rating = 1 if fake_ratings else int(rat) / 2000
         return np.array([*side_conditions, *gimmicks, rating], dtype=np.float32)
 
     @staticmethod

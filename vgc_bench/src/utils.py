@@ -57,7 +57,7 @@ chooses_on_teampreview = True
 
 # observation length constants
 act_len = 107
-glob_obs_len = len(Field) + len(Weather) + 3
+glob_obs_len = len(Field) + len(Weather) + 1
 side_obs_len = len(SideCondition) + 5
 move_obs_len = len(MoveCategory) + len(Target) + len(PokemonType) + 11
 pokemon_obs_len = (
