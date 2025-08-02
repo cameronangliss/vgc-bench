@@ -89,28 +89,29 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         self, obs: torch.Tensor, action_logits: torch.Tensor, action: torch.Tensor | None = None
     ) -> MultiCategoricalDistribution:
         mask = obs[:, : 2 * act_len]
-        mask = torch.where(mask == 1, float("-inf"), 0)
         if action is not None:
-            mask[:, act_len:] += self._get_mask(action)
+            mask = self._update_mask(mask, action)
+        mask = torch.where(mask == 1, 0, float("-inf"))
         distribution = self.action_dist.proba_distribution(action_logits + mask)
         assert isinstance(distribution, MultiCategoricalDistribution)
         return distribution
 
     @staticmethod
-    def _get_mask(ally_actions: torch.Tensor) -> torch.Tensor:
+    def _update_mask(mask: torch.Tensor, ally_actions: torch.Tensor) -> torch.Tensor:
         indices = (
             torch.arange(act_len, device=ally_actions.device)
             .unsqueeze(0)
             .expand(len(ally_actions), -1)
         )
+        ally_passed = ally_actions == 0
+        ally_force_passed = ((mask[:, 0] == 1) & (mask[:, :act_len].sum(1) == 1)).unsqueeze(1)
         ally_switched = (1 <= ally_actions) & (ally_actions <= 6)
-        ally_terastallized = ally_actions >= 87
-        mask = (
-            ((27 <= indices) & (indices < 87))
+        ally_terastallized = (86 < ally_actions) & (ally_actions <= 106)
+        mask[:, act_len:] *= ~(
+            ((indices == 0) & ally_passed & ~ally_force_passed)
             | ((indices == ally_actions) & ally_switched)
-            | ((indices >= 87) & ally_terastallized)
+            | ((86 < indices) & (indices <= 106) & ally_terastallized)
         )
-        mask = torch.where(mask == 1, float("-inf"), 0)
         return mask
 
 
@@ -161,6 +162,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         batch_size = x.size(0)
+        x = x[:, 2 * act_len :]
         x = x.view(*x.size()[:-1], 12, -1)
         # embedding
         start = glob_obs_len + side_obs_len

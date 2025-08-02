@@ -88,6 +88,12 @@ class Agent(Player):
         battle: AbstractBattle, teampreview_draft: list[int], fake_ratings: bool = False
     ) -> npt.NDArray[np.float32]:
         assert isinstance(battle, DoubleBattle)
+        if not battle._last_request:
+            mask = np.ones(2 * act_len, dtype=np.float32)
+        else:
+            mask1 = Agent.get_action_mask(battle, 0)
+            mask2 = Agent.get_action_mask(battle, 1)
+            mask = np.array(mask1 + mask2)
         glob = Agent.embed_global(battle)
         side = Agent.embed_side(battle, fake_ratings)
         opp_side = Agent.embed_side(battle, fake_ratings, opp=True)
@@ -119,21 +125,14 @@ class Agent(Player):
         ]
         opp_pokemons += [np.zeros(pokemon_obs_len, dtype=np.float32)] * (6 - len(opp_pokemons))
         return np.concatenate(
-            [np.concatenate([glob, side, p]) for p in pokemons]
+            [mask]
+            + [np.concatenate([glob, side, p]) for p in pokemons]
             + [np.concatenate([glob, opp_side, p]) for p in opp_pokemons],
             dtype=np.float32,
         )
 
     @staticmethod
     def embed_global(battle: DoubleBattle) -> npt.NDArray[np.float32]:
-        if not battle._last_request:
-            mask = np.zeros(2 * act_len, dtype=np.float32)
-        else:
-            action_space1 = Agent.get_action_space(battle, 0)
-            mask1 = [float(i not in action_space1) for i in range(act_len)]
-            action_space2 = Agent.get_action_space(battle, 1)
-            mask2 = [float(i not in action_space2) for i in range(act_len)]
-            mask = mask1 + mask2
         force_switch = [float(f) for f in battle.force_switch]
         weather = [
             (min(battle.turn - battle.weather[w], 8) / 8 if w in battle.weather else 0)
@@ -143,7 +142,7 @@ class Agent(Player):
             min(battle.turn - battle.fields[f], 8) / 8 if f in battle.fields else 0 for f in Field
         ]
         teampreview = float(battle.teampreview)
-        return np.array([*mask, *weather, *fields, teampreview, *force_switch], dtype=np.float32)
+        return np.array([*weather, *fields, teampreview, *force_switch], dtype=np.float32)
 
     @staticmethod
     def embed_side(
@@ -293,27 +292,20 @@ class Agent(Player):
         )
 
     @staticmethod
-    def get_action_space(battle: DoubleBattle, pos: int) -> npt.NDArray[np.int64]:
+    def get_action_mask(battle: DoubleBattle, pos: int) -> list[int]:
         switch_space = [
             i + 1
             for i, pokemon in enumerate(battle.team.values())
-            if battle.force_switch != [[False, True], [True, False]][pos]
-            and not battle.trapped[pos]
-            and not (
-                len(battle.available_switches[0]) == 1
-                and battle.force_switch == [True, True]
-                and pos == 1
-            )
-            and not pokemon.active
-            and pokemon.species in [p.species for p in battle.available_switches[pos]]
+            if not battle.trapped[pos]
+            and pokemon.base_species in [p.base_species for p in battle.available_switches[pos]]
         ]
         active_mon = battle.active_pokemon[pos]
-        if battle.teampreview:
-            return np.array(switch_space)
-        elif battle.finished or battle._wait:
-            return np.array([0])
-        elif active_mon is None:
-            return np.array(switch_space or [0])
+        if battle._wait or (any(battle.force_switch) and not battle.force_switch[pos]):
+            actions = [0]
+        elif all(battle.force_switch) and len(battle.available_switches[0]) == 1:
+            actions = switch_space + [0]
+        elif battle.teampreview or active_mon is None:
+            actions = switch_space
         else:
             move_spaces = [
                 [7 + 5 * i + j + 2 for j in battle.get_possible_showdown_targets(move, active_mon)]
@@ -328,4 +320,7 @@ class Agent(Player):
                 and battle.available_moves[pos][0].id in ["struggle", "recharge"]
             ):
                 move_space = [9]
-            return np.array((switch_space + move_space + tera_space) or [0])
+            actions = switch_space + move_space + tera_space
+        actions = actions or [0]
+        action_mask = [int(i in actions) for i in range(act_len)]
+        return action_mask

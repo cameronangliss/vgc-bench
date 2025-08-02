@@ -16,6 +16,7 @@ from src.agent import Agent
 from src.teams import RandomTeamBuilder, TeamToggle
 from src.utils import (
     LearningStyle,
+    act_len,
     allow_mirror_match,
     battle_format,
     chooses_on_teampreview,
@@ -36,7 +37,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         self.metadata = {"name": "showdown_v1", "render_modes": ["human"]}
         self.render_mode: str | None = None
         self.observation_spaces = {
-            agent: Box(-1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32)
+            agent: Box(-1, len(moves), shape=(2 * act_len + 12 * chunk_obs_len,), dtype=np.float32)
             for agent in self.possible_agents
         }
         self._teampreview_draft1 = []
