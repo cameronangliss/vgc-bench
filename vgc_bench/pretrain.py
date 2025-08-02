@@ -8,7 +8,7 @@ from imitation.algorithms.bc import BC
 from imitation.data.types import Trajectory
 from imitation.util.logger import configure
 from poke_env.environment import SingleAgentWrapper
-from poke_env.player import MaxBasePowerPlayer, RandomPlayer
+from poke_env.player import RandomPlayer, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
 from src.agent import Agent
 from src.callback import Callback
@@ -106,7 +106,7 @@ def pretrain(num_teams: int, port: int, device: str, num_frames: int):
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(list(range(num_teams)), battle_format),
     )
-    eval_opponent = MaxBasePowerPlayer(
+    eval_opponent = SimpleHeuristicsPlayer(
         server_configuration=ServerConfiguration(
             f"ws://localhost:{port}/showdown/websocket",
             "https://play.pokemonshowdown.com/action.php?",

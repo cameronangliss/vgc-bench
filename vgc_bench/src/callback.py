@@ -8,7 +8,7 @@ import numpy as np
 import numpy.typing as npt
 import torch
 from open_spiel.python.egt import alpharank
-from poke_env.player import MaxBasePowerPlayer, Player
+from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
 from src.agent import Agent
 from src.policy import MaskedActorCriticPolicy
@@ -98,7 +98,7 @@ class Callback(BaseCallback):
                 [0] if learning_style == LearningStyle.EXPLOITER else teams, battle_format, toggle
             ),
         )
-        self.eval_opponent = MaxBasePowerPlayer(
+        self.eval_opponent = SimpleHeuristicsPlayer(
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
