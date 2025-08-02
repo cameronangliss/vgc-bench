@@ -2,6 +2,7 @@ import asyncio
 import json
 import os
 import pickle
+from copy import deepcopy
 
 import numpy as np
 import numpy.typing as npt
@@ -9,6 +10,7 @@ from imitation.data.types import Trajectory
 from poke_env import to_id_str
 from poke_env.battle import AbstractBattle, DoubleBattle
 from poke_env.environment import DoublesEnv
+from poke_env.environment.env import _EnvPlayer
 from poke_env.player import (
     BattleOrder,
     DoubleBattleOrder,
@@ -19,16 +21,15 @@ from poke_env.player import (
 from poke_env.ps_client import AccountConfiguration
 from scrape_logs import battle_formats
 from src.agent import Agent
-from src.utils import chunk_obs_len
+from src.utils import act_len, chunk_obs_len
 
-MIN_RATING = 1200
+MIN_RATING: int | None = 1200
 
 
 class LogReader(Player):
-    states: list[npt.NDArray[np.float32]]
+    states: list[DoubleBattle]
     actions: list[npt.NDArray[np.int64]]
     msg: str | None
-    teampreview_draft: list[int]
 
     def __init__(self, *args, **kwargs):
         super().__init__(start_listening=False, *args, **kwargs)
@@ -48,10 +49,9 @@ class LogReader(Player):
         order1 = self.get_order(battle, self.next_msg, False)
         order2 = self.get_order(battle, self.next_msg, True)
         order = DoubleBattleOrder(order1, order2)
-        state = Agent.embed_battle(battle, self.teampreview_draft)
         action = DoublesEnv.order_to_action(order, battle, fake=True)
         if action[0] != 0 and action[1] != 0:
-            self.states += [state]
+            self.states += [deepcopy(battle)]
             self.actions += [action]
         return order
 
@@ -64,15 +64,17 @@ class LogReader(Player):
         all_choices.remove(id1)
         all_choices.remove(id2)
         order_str = f"/team {id1}{id2}{all_choices[0]}{all_choices[1]}"
-        order1 = SingleBattleOrder(list(battle.team.values())[id1 - 1])
-        order2 = SingleBattleOrder(list(battle.team.values())[id2 - 1])
-        order = DoubleBattleOrder(order1, order2)
-        state = Agent.embed_battle(battle, self.teampreview_draft)
-        assert state.shape == (12 * chunk_obs_len,)
-        action = DoublesEnv.order_to_action(order, battle, fake=True)
-        self.states += [state]
-        self.actions += [action]
-        self.teampreview_draft = [id1 - 1, id2 - 1, all_choices[0] - 1, all_choices[1] - 1]
+        order1a = SingleBattleOrder(list(battle.team.values())[id1 - 1])
+        order1b = SingleBattleOrder(list(battle.team.values())[id2 - 1])
+        order1 = DoubleBattleOrder(order1a, order1b)
+        action1 = DoublesEnv.order_to_action(order1, battle, fake=True)
+        upd_battle = _EnvPlayer._simulate_teampreview_switchin(order1, battle)
+        order2a = SingleBattleOrder(list(battle.team.values())[all_choices[0] - 1])
+        order2b = SingleBattleOrder(list(battle.team.values())[all_choices[1] - 1])
+        order2 = DoubleBattleOrder(order2a, order2b)
+        action2 = DoublesEnv.order_to_action(order2, upd_battle, fake=True)
+        self.states += [deepcopy(battle), upd_battle]
+        self.actions += [action1, action2]
         return order_str
 
     @staticmethod
@@ -128,7 +130,6 @@ class LogReader(Player):
     ) -> tuple[npt.NDArray[np.float32], npt.NDArray[np.int64]]:
         self.states = []
         self.actions = []
-        self.teampreview_draft = []
         tag = f"battle-{tag}"
         messages = [f">{tag}\n" + m for m in log.split("\n|\n")]
         assert "|win|" not in messages[1]
@@ -149,9 +150,34 @@ class LogReader(Player):
                     self.choose_move(battle)
         split_messages = [m.split("|") for m in messages[-1].split("\n")]
         await self._handle_battle_message(split_messages)
-        last_state = Agent.embed_battle(self.battles[tag], self.teampreview_draft)
-        self.states += [last_state]
-        return np.stack(self.states, axis=0), np.stack(self.actions, axis=0)
+        last_state = self.battles[tag]
+        assert isinstance(last_state, DoubleBattle)
+        self.states += [deepcopy(last_state)]
+        teampreview_draft = [
+            i
+            for i, p in enumerate(last_state.team.values())
+            if i not in self.actions[0] and p.revealed
+        ]
+        if teampreview_draft:
+            self.actions[1][0] = teampreview_draft[0] + 1
+        if len(teampreview_draft) > 1:
+            self.actions[1][1] = teampreview_draft[1] + 1
+        actions = np.stack(self.actions, axis=0)
+        return self.embed_states(self.states, actions), actions
+
+    @staticmethod
+    def embed_states(
+        states: list[DoubleBattle], actions: npt.NDArray[np.int64]
+    ) -> npt.NDArray[np.float32]:
+        embedded_states = []
+        teampreview_draft = []
+        for i, state in enumerate(states):
+            if i in [1, 2]:
+                teampreview_draft += [a - 1 for a in actions[i - 1].tolist()]
+            embedded_state = Agent.embed_battle(state, teampreview_draft)
+            assert embedded_state.shape == (2 * act_len + 12 * chunk_obs_len,)
+            embedded_states += [embedded_state]
+        return np.stack(embedded_states, axis=0)
 
 
 def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) -> list[Trajectory]:
@@ -165,7 +191,7 @@ def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) ->
             _, _, _, username1, _, rating1 = log[
                 start_index1 : log.index("\n", start_index1)
             ].split("|")
-            if rating1 and int(rating1) >= MIN_RATING:
+            if MIN_RATING is None or (rating1 and int(rating1) >= MIN_RATING):
                 player1 = LogReader(
                     account_configuration=AccountConfiguration(username1, None),
                     battle_format=tag.split("-")[0],
@@ -179,7 +205,7 @@ def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) ->
             _, _, _, username2, _, rating2 = log[
                 start_index2 : log.index("\n", start_index2)
             ].split("|")
-            if rating2 and int(rating2) >= MIN_RATING:
+            if MIN_RATING is None or (rating2 and int(rating2) >= MIN_RATING):
                 player2 = LogReader(
                     account_configuration=AccountConfiguration(username2, None),
                     battle_format=tag.split("-")[0],
@@ -207,14 +233,14 @@ def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) ->
 
 
 if __name__ == "__main__":
-    logs = {}
+    os.makedirs("data/trajs", exist_ok=True)
+    total = 0
     for f in battle_formats:
         with open(f"data/logs-{f}.json", "r") as file:
-            logs = {**logs, **json.load(file)}
-    trajs = process_logs(logs, strict=False)
-    if not os.path.exists("data/trajs"):
-        os.mkdir("data/trajs")
-    for i, traj in enumerate(trajs):
-        width = len(str(len(trajs)))
-        with open(f"data/trajs/{i:0{width}d}.pkl", "wb") as f:
-            pickle.dump(traj, f)
+            logs = json.load(file)
+        trajs = process_logs(logs, strict=False)
+        for i, traj in enumerate(trajs, start=total):
+            width = len(str(len(trajs)))
+            with open(f"data/trajs/{i:0{width}d}.pkl", "wb") as f:
+                pickle.dump(traj, f)
+        total += len(trajs)
