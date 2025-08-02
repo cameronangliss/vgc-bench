@@ -182,8 +182,8 @@ class Agent(Player):
         ]
         gims = opp_gims if opp else gims
         gimmicks = [float(g) for g in gims]
-        username = battle.opponent_username if opp else battle.player_username
-        rat = [p for p in battle._players if p["username"] == username][0].get("rating", "0")
+        player = battle.opponent_role if opp else battle.player_role
+        rat = [p for p in battle._players if p["player"] == player][0].get("rating", "0")
         rating = 1 if fake_ratings else int(rat) / 2000
         return np.array([*side_conditions, *gimmicks, rating], dtype=np.float32)
 
