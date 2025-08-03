@@ -240,7 +240,6 @@ if __name__ == "__main__":
             logs = json.load(file)
         trajs = process_logs(logs)
         for i, traj in enumerate(trajs, start=total):
-            width = len(str(len(trajs)))
-            with open(f"data/trajs/{i:0{width}d}.pkl", "wb") as f:
+            with open(f"data/trajs/{i:08d}.pkl", "wb") as f:
                 pickle.dump(traj, f)
         total += len(trajs)
