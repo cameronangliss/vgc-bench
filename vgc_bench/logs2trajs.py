@@ -23,8 +23,6 @@ from scrape_logs import battle_formats
 from src.agent import Agent
 from src.utils import act_len, chunk_obs_len
 
-MIN_RATING: int | None = 1200
-
 
 class LogReader(Player):
     states: list[DoubleBattle]
@@ -180,7 +178,9 @@ class LogReader(Player):
         return np.stack(embedded_states, axis=0)
 
 
-def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) -> list[Trajectory]:
+def process_logs(
+    log_jsons: dict[str, tuple[str, str]], min_rating: int | None = None, strict: bool = False
+) -> list[Trajectory]:
     trajs = []
     total = 0
     num_errors = 0
@@ -191,7 +191,7 @@ def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) ->
             _, _, _, username1, _, rating1 = log[
                 start_index1 : log.index("\n", start_index1)
             ].split("|")
-            if MIN_RATING is None or (rating1 and int(rating1) >= MIN_RATING):
+            if min_rating is None or (rating1 and int(rating1) >= min_rating):
                 player1 = LogReader(
                     account_configuration=AccountConfiguration(username1, None),
                     battle_format=tag.split("-")[0],
@@ -205,7 +205,7 @@ def process_logs(log_jsons: dict[str, tuple[str, str]], strict: bool = False) ->
             _, _, _, username2, _, rating2 = log[
                 start_index2 : log.index("\n", start_index2)
             ].split("|")
-            if MIN_RATING is None or (rating2 and int(rating2) >= MIN_RATING):
+            if min_rating is None or (rating2 and int(rating2) >= min_rating):
                 player2 = LogReader(
                     account_configuration=AccountConfiguration(username2, None),
                     battle_format=tag.split("-")[0],
@@ -238,7 +238,7 @@ if __name__ == "__main__":
     for f in battle_formats:
         with open(f"data/logs-{f}.json", "r") as file:
             logs = json.load(file)
-        trajs = process_logs(logs, strict=False)
+        trajs = process_logs(logs)
         for i, traj in enumerate(trajs, start=total):
             width = len(str(len(trajs)))
             with open(f"data/trajs/{i:0{width}d}.pkl", "wb") as f:
