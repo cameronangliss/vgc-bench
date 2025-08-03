@@ -186,47 +186,54 @@ def process_logs(
     num_errors = 0
     for i, (tag, (_, log)) in enumerate(log_jsons.items()):
         print(f"Progress: {i}/{len(log_jsons)}", end="\r")
-        try:
-            start_index1 = log.index(f"|player|p1|")
-            _, _, _, username1, _, rating1 = log[
-                start_index1 : log.index("\n", start_index1)
-            ].split("|")
-            if min_rating is None or (rating1 and int(rating1) >= min_rating):
-                player1 = LogReader(
-                    account_configuration=AccountConfiguration(username1, None),
-                    battle_format=tag.split("-")[0],
-                    log_level=51,
-                    accept_open_team_sheet=True,
-                )
+        start_index1 = log.index(f"|player|p1|")
+        end_index1 = log.index("\n", start_index1)
+        _, _, _, username1, _, rating1 = log[start_index1:end_index1].split("|")
+        if min_rating is None or (rating1 and int(rating1) >= min_rating):
+            player1 = LogReader(
+                account_configuration=AccountConfiguration(username1, None),
+                battle_format=tag.split("-")[0],
+                log_level=51,
+                accept_open_team_sheet=True,
+            )
+            try:
                 states1, actions1 = asyncio.run(player1.follow_log(tag, log))
                 total += len(states1)
                 trajs += [Trajectory(obs=states1, acts=actions1, infos=None, terminal=True)]
-            start_index2 = log.index(f"|player|p2|")
-            _, _, _, username2, _, rating2 = log[
-                start_index2 : log.index("\n", start_index2)
-            ].split("|")
-            if min_rating is None or (rating2 and int(rating2) >= min_rating):
-                player2 = LogReader(
-                    account_configuration=AccountConfiguration(username2, None),
-                    battle_format=tag.split("-")[0],
-                    log_level=51,
-                    accept_open_team_sheet=True,
-                )
+            except KeyboardInterrupt:
+                raise
+            except SystemExit:
+                raise
+            except Exception as e:
+                if strict:
+                    raise e
+                else:
+                    num_errors += 1
+        start_index2 = log.index(f"|player|p2|")
+        end_index2 = log.index("\n", start_index2)
+        _, _, _, username2, _, rating2 = log[start_index2:end_index2].split("|")
+        if min_rating is None or (rating2 and int(rating2) >= min_rating):
+            player2 = LogReader(
+                account_configuration=AccountConfiguration(username2, None),
+                battle_format=tag.split("-")[0],
+                log_level=51,
+                accept_open_team_sheet=True,
+            )
+            try:
                 states2, actions2 = asyncio.run(player2.follow_log(tag, log))
                 total += len(states2)
                 trajs += [Trajectory(obs=states2, acts=actions2, infos=None, terminal=True)]
-        except KeyboardInterrupt:
-            raise
-        except SystemExit:
-            raise
-        except Exception as e:
-            if strict:
-                raise e
-            else:
-                num_errors += 1
+            except KeyboardInterrupt:
+                raise
+            except SystemExit:
+                raise
+            except Exception as e:
+                if strict:
+                    raise e
+                else:
+                    num_errors += 1
     print(
-        f"prepared {len(trajs)} trajectories "
-        f"with {total} total state-action pairs "
+        f"prepared {len(trajs)} trajectories with {total} total state-action pairs "
         f"(and {num_errors} games thrown away)"
     )
     return trajs
