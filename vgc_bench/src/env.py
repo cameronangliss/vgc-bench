@@ -137,7 +137,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         teampreview_draft = (
             self._teampreview_draft1 if battle.player_role == "p1" else self._teampreview_draft2
         )
-        return Agent.embed_battle(battle, teampreview_draft, fake_ratings=True)
+        return Agent.embed_battle(battle, teampreview_draft, fake_rating=True)
 
     def cleanup(self):
         dead_tags = [k for k, b in self.agent1.battles.items() if b.finished]

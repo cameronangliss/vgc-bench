@@ -49,7 +49,7 @@ class Agent(Player):
             return DefaultBattleOrder()
         if battle.teampreview and len(self._teampreview_draft) == 4:
             self._teampreview_draft = []
-        obs = self.embed_battle(battle, self._teampreview_draft, fake_ratings=True)
+        obs = self.embed_battle(battle, self._teampreview_draft, fake_rating=True)
         if battle.turn == 0 and not (
             battle.teampreview and len([p for p in battle.team.values() if p.active]) > 0
         ):
@@ -85,7 +85,7 @@ class Agent(Player):
 
     @staticmethod
     def embed_battle(
-        battle: AbstractBattle, teampreview_draft: list[int], fake_ratings: bool = False
+        battle: AbstractBattle, teampreview_draft: list[int], fake_rating: bool = False
     ) -> npt.NDArray[np.float32]:
         assert isinstance(battle, DoubleBattle)
         if not battle._last_request:
@@ -95,8 +95,8 @@ class Agent(Player):
             mask2 = Agent.get_action_mask(battle, 1)
             mask = np.array(mask1 + mask2)
         glob = Agent.embed_global(battle)
-        side = Agent.embed_side(battle, fake_ratings)
-        opp_side = Agent.embed_side(battle, fake_ratings, opp=True)
+        side = Agent.embed_side(battle, fake_rating)
+        opp_side = Agent.embed_side(battle, False, opp=True)
         [a1, a2, *_] = battle.active_pokemon
         [o1, o2, *_] = battle.opponent_active_pokemon
         assert battle.teampreview == (len(teampreview_draft) < 4)
@@ -145,7 +145,7 @@ class Agent(Player):
 
     @staticmethod
     def embed_side(
-        battle: DoubleBattle, fake_ratings: bool, opp: bool = False
+        battle: DoubleBattle, fake_rating: bool, opp: bool = False
     ) -> npt.NDArray[np.float32]:
         gims = [
             battle.can_mega_evolve[0],
@@ -184,7 +184,7 @@ class Agent(Player):
         gimmicks = [float(g) for g in gims]
         player = battle.opponent_role if opp else battle.player_role
         rat = [p for p in battle._players if p["player"] == player][0].get("rating", "0")
-        rating = 1 if fake_ratings else int(rat) / 2000
+        rating = 1 if fake_rating else int(rat) / 2000
         return np.array([*side_conditions, *gimmicks, rating], dtype=np.float32)
 
     @staticmethod
