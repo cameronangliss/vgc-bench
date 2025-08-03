@@ -198,7 +198,7 @@ def process_logs(
             )
             try:
                 states1, actions1 = asyncio.run(player1.follow_log(tag, log))
-                total += len(states1)
+                total += len(actions1)
                 trajs += [Trajectory(obs=states1, acts=actions1, infos=None, terminal=True)]
             except KeyboardInterrupt:
                 raise
@@ -221,7 +221,7 @@ def process_logs(
             )
             try:
                 states2, actions2 = asyncio.run(player2.follow_log(tag, log))
-                total += len(states2)
+                total += len(actions2)
                 trajs += [Trajectory(obs=states2, acts=actions2, infos=None, terminal=True)]
             except KeyboardInterrupt:
                 raise
@@ -233,8 +233,8 @@ def process_logs(
                 else:
                     num_errors += 1
     print(
-        f"prepared {len(trajs)} trajectories with {total} total state-action pairs "
-        f"(and {num_errors} games thrown away)"
+        f"prepared {len(trajs)} trajectories with {total} transitions "
+        f"({num_errors} failed log reads)"
     )
     return trajs
 
