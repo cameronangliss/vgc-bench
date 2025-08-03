@@ -184,7 +184,7 @@ class Agent(Player):
         gimmicks = [float(g) for g in gims]
         player = battle.opponent_role if opp else battle.player_role
         rat = [p for p in battle._players if p["player"] == player][0].get("rating", "0")
-        rating = 1 if fake_rating else int(rat) / 2000
+        rating = 1 if fake_rating else int(rat or "0") / 2000
         return np.array([*side_conditions, *gimmicks, rating], dtype=np.float32)
 
     @staticmethod
