@@ -20,6 +20,7 @@ battle_formats = [
     "gen9vgc2025regi",
     "gen9vgc2025regibo3",
     "gen9vgc2025regj",
+    "gen9vgc2025regjbo3",
 ]
 
 
