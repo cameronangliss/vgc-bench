@@ -2,7 +2,10 @@ import asyncio
 import json
 import os
 import pickle
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from copy import deepcopy
+from itertools import islice
+from threading import Thread
 
 import numpy as np
 import numpy.typing as npt
@@ -179,27 +182,30 @@ class LogReader(Player):
 
 
 def process_logs(
-    log_jsons: dict[str, tuple[str, str]], min_rating: int | None = None, strict: bool = False
+    log_jsons: dict[str, tuple[str, str]],
+    executor: ProcessPoolExecutor,
+    min_rating: int | None = None,
+    strict: bool = False,
 ) -> list[Trajectory]:
+
+    def chunked(iterable, size):
+        it = iter(iterable)
+        while chunk := list(islice(it, size)):
+            yield chunk
+
     trajs = []
-    total = 0
-    num_errors = 0
-    for i, (tag, (_, log)) in enumerate(log_jsons.items()):
-        print(f"Progress: {i}/{len(log_jsons)}", end="\r")
-        start_index1 = log.index(f"|player|p1|")
-        end_index1 = log.index("\n", start_index1)
-        _, _, _, username1, _, rating1 = log[start_index1:end_index1].split("|")
-        if min_rating is None or (rating1 and int(rating1) >= min_rating):
-            player1 = LogReader(
-                account_configuration=AccountConfiguration(username1, None),
-                battle_format=tag.split("-")[0],
-                log_level=51,
-                accept_open_team_sheet=True,
-            )
+    task_params = [(tag, log, "p1", min_rating) for tag, (_, log) in log_jsons.items()] + [
+        (tag, log, "p2", min_rating) for tag, (_, log) in log_jsons.items()
+    ]
+    count = 0
+    for chunk in chunked(task_params, 10_000):
+        tasks = [executor.submit(process_log, *params) for params in chunk]
+        for task in as_completed(tasks):
+            print(f"progress: {count}/{len(task_params)}", end="\r")
             try:
-                states1, actions1 = asyncio.run(player1.follow_log(tag, log))
-                total += len(actions1)
-                trajs += [Trajectory(obs=states1, acts=actions1, infos=None, terminal=True)]
+                traj = task.result()
+                if traj is not None:
+                    trajs += [traj]
             except KeyboardInterrupt:
                 raise
             except SystemExit:
@@ -207,45 +213,48 @@ def process_logs(
             except Exception as e:
                 if strict:
                     raise e
-                else:
-                    num_errors += 1
-        start_index2 = log.index(f"|player|p2|")
-        end_index2 = log.index("\n", start_index2)
-        _, _, _, username2, _, rating2 = log[start_index2:end_index2].split("|")
-        if min_rating is None or (rating2 and int(rating2) >= min_rating):
-            player2 = LogReader(
-                account_configuration=AccountConfiguration(username2, None),
-                battle_format=tag.split("-")[0],
-                log_level=51,
-                accept_open_team_sheet=True,
-            )
-            try:
-                states2, actions2 = asyncio.run(player2.follow_log(tag, log))
-                total += len(actions2)
-                trajs += [Trajectory(obs=states2, acts=actions2, infos=None, terminal=True)]
-            except KeyboardInterrupt:
-                raise
-            except SystemExit:
-                raise
-            except Exception as e:
-                if strict:
-                    raise e
-                else:
-                    num_errors += 1
+            count += 1
+    num_trans = sum([len(t.acts) for t in trajs])
     print(
-        f"prepared {len(trajs)} trajectories with {total} transitions "
-        f"({num_errors} failed log reads)"
+        f"prepared {len(trajs)} trajectories with {num_trans} transitions "
+        f"({2 * len(log_jsons) - len(trajs)} failed log reads)"
     )
     return trajs
 
 
+def process_log(tag: str, log: str, role: str, min_rating: int | None) -> Trajectory | None:
+    start_index = log.index(f"|player|{role}|")
+    end_index = log.index("\n", start_index)
+    _, _, _, username, _, rating = log[start_index:end_index].split("|")
+    if min_rating is None or (rating and int(rating) >= min_rating):
+        player = LogReader(
+            account_configuration=AccountConfiguration(username, None),
+            battle_format=tag.split("-")[0],
+            log_level=51,
+            accept_open_team_sheet=True,
+            loop=_READER_LOOP,
+        )
+        states, actions = asyncio.run_coroutine_threadsafe(
+            player.follow_log(tag, log), _READER_LOOP
+        ).result()
+        traj = Trajectory(obs=states, acts=actions, infos=None, terminal=True)
+        return traj
+
+
 if __name__ == "__main__":
+
+    def _init_worker_loop():
+        global _READER_LOOP
+        _READER_LOOP = asyncio.new_event_loop()
+        Thread(target=_READER_LOOP.run_forever, daemon=True).start()
+
+    executor = ProcessPoolExecutor(max_workers=64, initializer=_init_worker_loop)
     os.makedirs("data/trajs", exist_ok=True)
     total = 0
     for f in battle_formats:
         with open(f"data/logs-{f}.json", "r") as file:
             logs = json.load(file)
-        trajs = process_logs(logs)
+        trajs = process_logs(logs, executor)
         for i, traj in enumerate(trajs, start=total):
             with open(f"data/trajs/{i:08d}.pkl", "wb") as f:
                 pickle.dump(traj, f)
