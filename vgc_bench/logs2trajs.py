@@ -197,11 +197,10 @@ def process_logs(
     task_params = [(tag, log, "p1", min_rating) for tag, (_, log) in log_jsons.items()] + [
         (tag, log, "p2", min_rating) for tag, (_, log) in log_jsons.items()
     ]
-    count = 0
+    num_errors = 0
     for chunk in chunked(task_params, 10_000):
         tasks = [executor.submit(process_log, *params) for params in chunk]
         for task in as_completed(tasks):
-            print(f"progress: {count}/{len(task_params)}", end="\r")
             try:
                 traj = task.result()
                 if traj is not None:
@@ -213,11 +212,12 @@ def process_logs(
             except Exception as e:
                 if strict:
                     raise e
-            count += 1
+                else:
+                    num_errors += 1
     num_trans = sum([len(t.acts) for t in trajs])
     print(
         f"prepared {len(trajs)} trajectories with {num_trans} transitions "
-        f"({2 * len(log_jsons) - len(trajs)} failed log reads)"
+        f"({num_errors} failed log reads)"
     )
     return trajs
 
@@ -254,6 +254,7 @@ if __name__ == "__main__":
     for f in battle_formats:
         with open(f"data/logs-{f}.json", "r") as file:
             logs = json.load(file)
+        print(f"processing {len(logs)} {f} logs...")
         trajs = process_logs(logs, executor)
         for i, traj in enumerate(trajs, start=total):
             with open(f"data/trajs/{i:08d}.pkl", "wb") as f:
