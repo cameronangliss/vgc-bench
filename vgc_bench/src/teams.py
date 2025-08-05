@@ -4524,7 +4524,7 @@ Adamant Nature
 - Swords Dance
 - Protect
 """,
-        ### LOUISVILLE REGIONALS OCTOBER 2024 (6 teams) ###
+        ### LOUISVILLE REGIONALS OCTOBER 2024 (4 teams) ###
         """
 Porygon2 @ Eviolite
 Ability: Download
@@ -4664,74 +4664,6 @@ Adamant Nature
 - Protect
 """,
         """
-Sneasler @ Focus Sash
-Ability: Poison Touch
-Level: 50
-Tera Type: Ghost
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Fake Out
-- Dire Claw
-- Close Combat
-- Protect
-
-Dragapult @ Choice Band
-Ability: Clear Body
-Level: 67
-Tera Type: Dragon
-EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
-Adamant Nature
-- Dragon Darts
-- Phantom Force
-- U-turn
-- Outrage
-
-Dondozo @ Leftovers
-Ability: Unaware
-Level: 65
-Tera Type: Poison
-EVs: 132 HP / 4 Atk / 116 Def / 252 SpD / 4 Spe
-Impish Nature
-- Wave Crash
-- Yawn
-- Fissure
-- Protect
-
-Rillaboom @ Assault Vest
-Ability: Grassy Surge
-Level: 50
-Tera Type: Fire
-EVs: 188 HP / 116 Atk / 4 Def / 4 SpD / 196 Spe
-Adamant Nature
-- Fake Out
-- Wood Hammer
-- Grassy Glide
-- High Horsepower
-
-Volcarona @ Covert Cloak
-Ability: Flame Body
-Level: 50
-Tera Type: Fairy
-EVs: 124 HP / 92 Def / 36 SpA / 4 SpD / 252 Spe
-Modest Nature
-- Heat Wave
-- Quiver Dance
-- Tera Blast
-- Protect
-
-Electabuzz @ Eviolite
-Ability: Vital Spirit
-Level: 50
-Tera Type: Ghost
-EVs: 252 HP / 220 Def / 4 SpA / 4 SpD / 28 Spe
-Bold Nature
-IVs: 8 Atk
-- Thunderbolt
-- Follow Me
-- Taunt
-- Protect
-""",
-        """
 WrathofKhan (Kingambit) (F) @ Black Glasses
 Ability: Defiant
 Level: 50
@@ -4804,74 +4736,6 @@ Adamant Nature
 - Wave Crash
 - Close Combat
 - Aqua Jet
-""",
-        """
-PushUrTenper (Sneasler) @ Focus Sash
-Ability: Poison Touch
-Shiny: Yes
-Tera Type: Grass
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Close Combat
-- Dire Claw
-- Fake Out
-- Protect
-
-Ze (Mimikyu) @ Life Orb
-Ability: Disguise
-Shiny: Yes
-Tera Type: Ghost
-EVs: 4 HP / 252 Atk / 252 Spe
-Jolly Nature
-- Shadow Claw
-- Play Rough
-- Shadow Sneak
-- Trick Room
-
-MoneyMachine (Ursaluna-Bloodmoon) @ Assault Vest
-Ability: Mind's Eye
-Tera Type: Ghost
-EVs: 156 HP / 12 Def / 212 SpA / 84 SpD / 44 Spe
-Modest Nature
-IVs: 0 Atk
-- Hyper Voice
-- Earth Power
-- Blood Moon
-- Vacuum Wave
-
-Denji (Garchomp) @ Choice Scarf
-Ability: Rough Skin
-Shiny: Yes
-Tera Type: Fairy
-EVs: 68 HP / 188 Atk / 36 Def / 12 SpD / 204 Spe
-Adamant Nature
-- Stomping Tantrum
-- Dragon Claw
-- Rock Slide
-- Outrage
-
-Veridical (Rillaboom) @ Miracle Seed
-Ability: Grassy Surge
-Shiny: Yes
-Tera Type: Fire
-EVs: 156 HP / 252 Atk / 4 Def / 76 SpD / 20 Spe
-Adamant Nature
-- Wood Hammer
-- Grassy Glide
-- Fake Out
-- Protect
-
-Walksocket (Gholdengo) @ Sitrus Berry
-Ability: Good as Gold
-Shiny: Yes
-Tera Type: Water
-EVs: 108 HP / 4 Def / 132 SpA / 12 SpD / 252 Spe
-Timid Nature
-IVs: 0 Atk
-- Make It Rain
-- Shadow Ball
-- Nasty Plot
-- Protect
 """,
         """
 Ninetales-Alola @ Choice Specs
