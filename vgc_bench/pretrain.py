@@ -75,7 +75,7 @@ def pretrain(num_teams: int, port: int, device: str, num_frames: int):
         device=device,
     )
     dataset = TrajectoryDataset(num_frames)
-    div_count = 10
+    div_count = 100
     dataloader = DataLoader(
         dataset,
         batch_size=len(dataset) // div_count,
