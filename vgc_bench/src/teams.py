@@ -4524,7 +4524,7 @@ Adamant Nature
 - Swords Dance
 - Protect
 """,
-        ### LOUISVILLE REGIONALS OCTOBER 2024 (7 teams) ###
+        ### LOUISVILLE REGIONALS OCTOBER 2024 (6 teams) ###
         """
 Porygon2 @ Eviolite
 Ability: Download
@@ -4594,78 +4594,6 @@ IVs: 29 Spe
 - Knock Off
 - Fake Out
 - Parting Shot
-""",
-        """
-Ursaluna @ Flame Orb
-Ability: Guts
-Level: 50
-Tera Type: Ghost
-EVs: 204 HP / 212 Atk / 52 Def / 36 SpD
-Brave Nature
-IVs: 4 Spe
-- Protect
-- Facade
-- Earthquake
-- Headlong Rush
-
-Indeedee-F @ Psychic Seed
-Ability: Psychic Surge
-Level: 50
-Tera Type: Grass
-EVs: 252 HP / 252 Def / 4 SpD
-Relaxed Nature
-IVs: 0 Atk / 0 Spe
-- Trick Room
-- Psychic
-- Follow Me
-- Helping Hand
-
-Exeggutor @ Focus Sash
-Ability: Chlorophyll
-Level: 50
-Tera Type: Psychic
-EVs: 4 HP / 252 SpA / 252 Spe
-Modest Nature
-IVs: 0 Atk
-- Trick Room
-- Expanding Force
-- Energy Ball
-- Sleep Powder
-
-Torkoal @ Charcoal
-Ability: Drought
-Level: 50
-Tera Type: Fire
-EVs: 252 HP / 4 Def / 252 SpA
-Quiet Nature
-IVs: 0 Atk / 0 Spe
-- Eruption
-- Clear Smog
-- Protect
-- Weather Ball
-
-Gallade @ Clear Amulet
-Ability: Sharpness
-Level: 50
-Tera Type: Fire
-EVs: 244 HP / 196 Atk / 68 SpD
-Brave Nature
-IVs: 12 SpA / 20 Spe
-- Psycho Cut
-- Trick Room
-- Wide Guard
-- Sacred Sword
-
-Zoroark-Hisui @ Choice Specs
-Ability: Illusion
-Level: 50
-Tera Type: Stellar
-EVs: 4 HP / 252 SpA / 252 Spe
-Timid Nature
-- Hyper Voice
-- Flamethrower
-- Shadow Ball
-- Tera Blast
 """,
         """
 Rillaboom (F) @ Miracle Seed
