@@ -73,6 +73,75 @@ def get_team_similarity_score(team1: str, team2: str):
 TEAMS = {
     "regi": [
         """
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 44 HP / 4 Def / 244 SpA / 12 SpD / 204 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Dazzling Gleam
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 164 SpD / 108 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Light Screen
+- Encore
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Protect
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 76 Atk / 52 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 164 Def / 4 SpA / 108 SpD / 28 Spe
+Bold Nature
+IVs: 6 Atk
+- Foul Play
+- Psychic Noise
+- Trick Room
+- Helping Hand
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 76 HP / 180 Atk / 12 Def / 236 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Low Kick
+- Wild Charge
+- Fake Out""",
+        """
 Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
 Level: 50
@@ -282,76 +351,6 @@ IVs: 20 SpA
 - Superpower
 - Follow Me
 - Taunt
-""",
-        """
-Koraidon @ Clear Amulet
-Ability: Orichalcum Pulse
-Level: 50
-Tera Type: Fire
-EVs: 236 HP / 196 Atk / 4 Def / 4 SpD / 68 Spe
-Adamant Nature
-- Collision Course
-- Flare Blitz
-- Flame Charge
-- Protect
-
-Raging Bolt @ Life Orb
-Ability: Protosynthesis
-Level: 50
-Tera Type: Electric
-EVs: 148 HP / 164 Def / 100 SpA / 4 SpD / 92 Spe
-Modest Nature
-IVs: 20 Atk
-- Thunderbolt
-- Thunderclap
-- Draco Meteor
-- Protect
-
-Flutter Mane @ Booster Energy
-Ability: Protosynthesis
-Level: 50
-Tera Type: Normal
-EVs: 244 HP / 132 Def / 4 SpA / 4 SpD / 124 Spe
-Timid Nature
-IVs: 0 Atk
-- Moonblast
-- Icy Wind
-- Thunder Wave
-- Protect
-
-Ogerpon-Cornerstone @ Cornerstone Mask
-Ability: Sturdy
-Level: 50
-Tera Type: Rock
-EVs: 36 HP / 204 Atk / 12 Def / 4 SpD / 252 Spe
-Jolly Nature
-- Ivy Cudgel
-- Power Whip
-- Follow Me
-- Spiky Shield
-
-Chi-Yu @ Covert Cloak
-Ability: Beads of Ruin
-Level: 50
-Tera Type: Water
-EVs: 172 HP / 44 Def / 36 SpA / 12 SpD / 244 Spe
-Modest Nature
-IVs: 0 Atk
-- Heat Wave
-- Snarl
-- Overheat
-- Taunt
-
-Incineroar @ Safety Goggles
-Ability: Intimidate
-Level: 50
-Tera Type: Ghost
-EVs: 244 HP / 4 Atk / 196 Def / 52 SpD / 12 Spe
-Impish Nature
-- Knock Off
-- Fake Out
-- Will-O-Wisp
-- Parting Shot
 """,
         """
 Incineroar (M) @ Safety Goggles
@@ -2165,75 +2164,6 @@ IVs: 0 Atk
 - Icy Wind
 """,
         """
-Miraidon @ Choice Specs
-Ability: Hadron Engine
-Level: 50
-Tera Type: Fairy
-EVs: 44 HP / 4 Def / 244 SpA / 12 SpD / 204 Spe
-Modest Nature
-- Electro Drift
-- Draco Meteor
-- Volt Switch
-- Dazzling Gleam
-
-Whimsicott @ Covert Cloak
-Ability: Prankster
-Level: 50
-Tera Type: Dark
-EVs: 236 HP / 164 SpD / 108 Spe
-Timid Nature
-IVs: 0 Atk
-- Moonblast
-- Tailwind
-- Light Screen
-- Encore
-
-Urshifu-Rapid-Strike @ Focus Sash
-Ability: Unseen Fist
-Level: 50
-Tera Type: Stellar
-EVs: 252 Atk / 4 SpD / 252 Spe
-Adamant Nature
-- Surging Strikes
-- Close Combat
-- Aqua Jet
-- Protect
-
-Ogerpon-Hearthflame (F) @ Hearthflame Mask
-Ability: Mold Breaker
-Level: 50
-Tera Type: Fire
-EVs: 188 HP / 76 Atk / 52 Def / 4 SpD / 188 Spe
-Adamant Nature
-- Ivy Cudgel
-- Wood Hammer
-- Follow Me
-- Spiky Shield
-
-Farigiraf @ Electric Seed
-Ability: Armor Tail
-Level: 50
-Tera Type: Water
-EVs: 204 HP / 164 Def / 4 SpA / 108 SpD / 28 Spe
-Bold Nature
-IVs: 6 Atk
-- Foul Play
-- Psychic Noise
-- Trick Room
-- Helping Hand
-
-Iron Hands @ Assault Vest
-Ability: Quark Drive
-Level: 50
-Tera Type: Bug
-EVs: 76 HP / 180 Atk / 12 Def / 236 SpD
-Brave Nature
-IVs: 0 Spe
-- Drain Punch
-- Low Kick
-- Wild Charge
-- Fake Out""",
-        """
 Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
 Level: 50
@@ -2445,6 +2375,76 @@ IVs: 20 Atk / 13 Spe
 - Roar
 - Trick Room
 - Helping Hand""",
+        """
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 196 Atk / 4 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Collision Course
+- Flare Blitz
+- Flame Charge
+- Protect
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 164 Def / 100 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Thunderclap
+- Draco Meteor
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 132 Def / 4 SpA / 4 SpD / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Thunder Wave
+- Protect
+
+Ogerpon-Cornerstone @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 36 HP / 204 Atk / 12 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Power Whip
+- Follow Me
+- Spiky Shield
+
+Chi-Yu @ Covert Cloak
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 44 Def / 36 SpA / 12 SpD / 244 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Overheat
+- Taunt
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 196 Def / 52 SpD / 12 Spe
+Impish Nature
+- Knock Off
+- Fake Out
+- Will-O-Wisp
+- Parting Shot
+""",
     ],
     "regh": [
         ### TORONTO REGIONALS DECEMBER 2024 (8 teams) ###
