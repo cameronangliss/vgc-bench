@@ -71,7 +71,7 @@ def get_team_similarity_score(team1: str, team2: str):
 
 
 TEAMS = {
-    "regg": [
+    "regi": [
         """
 Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
@@ -5550,7 +5550,7 @@ IVs: 0 Atk
 - Dragon Pulse
 """,
     ],
-    "regi": [
+    "regiactual": [
         """
 Koraidon @ Life Orb
 Ability: Orichalcum Pulse
