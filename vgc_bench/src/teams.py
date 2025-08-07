@@ -2,7 +2,7 @@
 
 import random
 
-from poke_env.teambuilder import Teambuilder
+from poke_env.teambuilder import Teambuilder, TeambuilderPokemon
 
 
 class TeamToggle:
@@ -37,6 +37,37 @@ class RandomTeamBuilder(Teambuilder):
             return self.teams[self.toggle.next()]
         else:
             return random.choice(self.teams)
+
+
+def get_team_similarity_score(team1: str, team2: str):
+    """
+    Roughly measures similarity between two teams on a scale of 0-100
+    """
+    mon_builders1 = Teambuilder.parse_showdown_team(team1)
+    mon_builders2 = Teambuilder.parse_showdown_team(team2)
+    match_pairs: list[tuple[TeambuilderPokemon, TeambuilderPokemon]] = []
+    for mon_builder in mon_builders1:
+        matches = [p for p in mon_builders2 if (p.species or p.nickname) == (mon_builder.species or mon_builder.nickname)]
+        if matches:
+            match_pairs += [(mon_builder, matches[0])]
+    similarity_score = 0
+    for mon1, mon2 in match_pairs:
+        if mon1.item == mon2.item:
+            similarity_score += 1
+        if mon1.ability == mon2.ability:
+            similarity_score += 1
+        if mon1.tera_type == mon2.tera_type:
+            similarity_score += 1
+        ev_dist = sum([abs(ev1 - ev2) for ev1, ev2 in zip(mon1.evs, mon2.evs)]) / (2 * 508)
+        similarity_score += 1 - ev_dist
+        if mon1.nature == mon2.nature:
+            similarity_score += 1
+        iv_dist = sum([abs(iv1 - iv2) for iv1, iv2 in zip(mon1.ivs, mon2.ivs)]) / (6 * 31)
+        similarity_score += 1 - iv_dist
+        for move in mon1.moves:
+            if move in mon2.moves:
+                similarity_score += 1
+    return round(100 * similarity_score / 60, ndigits=2)
 
 
 TEAMS = {
