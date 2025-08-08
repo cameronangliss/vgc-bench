@@ -79,11 +79,8 @@ def train(
             if num_saved_timesteps < steps:
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
-    if num_saved_timesteps >= 5_013_504:
-        print(f"Skipping training, already trained for {num_saved_timesteps} steps")
-        return
     ppo.learn(
-        steps,
+        5_013_504 - num_saved_timesteps,
         callback=Callback(teams, port, device, learning_style, behavior_clone, num_frames),
         tb_log_name=f"{','.join([str(t) for t in teams])}-teams",
         reset_num_timesteps=False,

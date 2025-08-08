@@ -167,14 +167,15 @@ class Callback(BaseCallback):
                 ).policy
                 self.model.env.env_method("set_opp_policy", policy, indices=i)
 
-    def _on_training_end(self):
-        self.evaluate()
-        self.model.logger.dump(self.model.num_timesteps)
-        if self.learning_style == LearningStyle.DOUBLE_ORACLE:
-            self.update_payoff_matrix()
-        self.model.save(
-            f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams/{self.model.num_timesteps}"
-        )
+    def _on_rollout_end(self):
+        if self.model.num_timesteps % steps == 0:
+            self.evaluate()
+            self.model.logger.dump(self.model.num_timesteps)
+            if self.learning_style == LearningStyle.DOUBLE_ORACLE:
+                self.update_payoff_matrix()
+            self.model.save(
+                f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams/{self.model.num_timesteps}"
+            )
 
     def evaluate(self):
         policy = MaskedActorCriticPolicy.clone(self.model)
@@ -200,6 +201,9 @@ class Callback(BaseCallback):
         self.payoff_matrix = np.concat([self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1)
         win_rates = np.append(win_rates, 0.5)
         self.payoff_matrix = np.concat([self.payoff_matrix, win_rates.reshape(1, -1)], axis=0)
+        self.prob_dist = alpharank.compute(  # type: ignore
+            [self.payoff_matrix], use_inf_alpha=True, inf_alpha_eps=0.1
+        )[2]
         with open(
             f"results/logs-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams-payoff-matrix.json",
             "w",
