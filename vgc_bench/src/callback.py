@@ -161,7 +161,6 @@ class Callback(BaseCallback):
                 policy_files, weights=self.prob_dist, k=self.model.env.num_envs
             )
             for i in range(self.model.env.num_envs):
-                self.model.env.env_method("cleanup", indices=i)
                 policy = PPO.load(
                     f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams/{policies[i]}",
                     device=self.model.device,

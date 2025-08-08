@@ -115,10 +115,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
     ) -> tuple[dict[str, npt.NDArray[np.float32]], dict[str, dict[str, Any]]]:
         self._teampreview_draft1 = []
         self._teampreview_draft2 = []
-        result = super().reset(seed=seed, options=options)
-        if self._learning_style == LearningStyle.PURE_SELF_PLAY:
-            self.cleanup()
-        return result
+        return super().reset(seed=seed, options=options)
 
     def close(self, force: bool = True, wait: bool = False):
         super().close(force=force, wait=wait)
@@ -138,12 +135,3 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             self._teampreview_draft1 if battle.player_role == "p1" else self._teampreview_draft2
         )
         return Agent.embed_battle(battle, teampreview_draft, fake_rating=True)
-
-    def cleanup(self):
-        dead_tags = [k for k, b in self.agent1.battles.items() if b.finished]
-        for tag in dead_tags:
-            self.agent1._battles.pop(tag)
-            self.agent2._battles.pop(tag)
-
-    def get_opp_win_rate(self) -> float:
-        return self.agent2.win_rate
