@@ -39,6 +39,7 @@ train() {
         fi
         train $i
     else
+        echo "Training process $i finished!"
         kill $showdown_pid
     fi
 }
