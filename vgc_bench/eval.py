@@ -81,7 +81,7 @@ def eval(teams: list[int], port: int, device: str):
     payoff_matrix = np.insert(payoff_matrix, 3, llm_wins, axis=0)
     payoff_matrix = np.insert(payoff_matrix, 3, llm_losses, axis=1)
     print(payoff_matrix)
-    ranking = alpharank.compute([payoff_matrix], use_inf_alpha=True, inf_alpha_eps=0.1)[2]
+    ranking = alpharank.compute([payoff_matrix], use_inf_alpha=True)[2]
     print(ranking)
 
 
