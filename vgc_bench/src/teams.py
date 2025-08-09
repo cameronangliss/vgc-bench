@@ -47,7 +47,11 @@ def get_team_similarity_score(team1: str, team2: str):
     mon_builders2 = Teambuilder.parse_showdown_team(team2)
     match_pairs: list[tuple[TeambuilderPokemon, TeambuilderPokemon]] = []
     for mon_builder in mon_builders1:
-        matches = [p for p in mon_builders2 if (p.species or p.nickname) == (mon_builder.species or mon_builder.nickname)]
+        matches = [
+            p
+            for p in mon_builders2
+            if (p.species or p.nickname) == (mon_builder.species or mon_builder.nickname)
+        ]
         if matches:
             match_pairs += [(mon_builder, matches[0])]
     similarity_score = 0
