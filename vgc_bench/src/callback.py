@@ -7,7 +7,7 @@ import warnings
 import numpy as np
 import numpy.typing as npt
 import torch
-from open_spiel.python.egt import alpharank
+from nashpy import Game
 from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
 from src.agent import Agent
@@ -61,9 +61,7 @@ class Callback(BaseCallback):
                     self.payoff_matrix = np.array(json.load(f))
             else:
                 self.payoff_matrix = np.array([[0.5]])
-            self.prob_dist = alpharank.compute(
-                [self.payoff_matrix], use_inf_alpha=True, inf_alpha_eps=0
-            )[2].tolist()
+            self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
         toggle = None if allow_mirror_match else TeamToggle(len(teams))
         self.eval_agent = Agent(
             num_frames,
@@ -200,9 +198,7 @@ class Callback(BaseCallback):
         self.payoff_matrix = np.concat([self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1)
         win_rates = np.append(win_rates, 0.5)
         self.payoff_matrix = np.concat([self.payoff_matrix, win_rates.reshape(1, -1)], axis=0)
-        self.prob_dist = alpharank.compute(
-            [self.payoff_matrix], use_inf_alpha=True, inf_alpha_eps=0
-        )[2].tolist()
+        self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
         with open(
             f"results/logs-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams-payoff-matrix.json",
             "w",
