@@ -46,13 +46,13 @@ class LLMPlayer(Player):
     ) -> np.int64:
         if pos == 0:
             mask = torch.tensor(Agent.get_action_mask(battle, 0))
-            last_order = None
+            ally_order = None
         else:
             assert ally_action is not None
             mask = torch.tensor(Agent.get_action_mask(battle, 0) + Agent.get_action_mask(battle, 1))
             ally_action_tensor = torch.tensor([[ally_action]])
             mask = MaskedActorCriticPolicy._update_mask(mask, ally_action_tensor)[0, act_len:]
-            last_order = DoublesEnv._action_to_order_individual(ally_action, battle, False, 0)
+            ally_order = DoublesEnv._action_to_order_individual(ally_action, battle, False, 0)
         action_space = [i for i, m in enumerate(mask.tolist()) if m == 1]
         if not action_space:
             return np.int64(0)
@@ -66,7 +66,7 @@ class LLMPlayer(Player):
             self.explain_battle_order(battle, o, pos) for o in order_space if o is not None
         ]
         prompt = self.explain_battle(
-            battle, self.__teampreview_draft, action_names, last_order, pos
+            battle, self.__teampreview_draft, action_names, ally_order, pos
         )
         input_dict = [
             {
