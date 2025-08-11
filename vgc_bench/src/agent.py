@@ -271,6 +271,7 @@ class Agent(Player):
         self_switch = float(move.self_switch is not False)
         pp = move.max_pp / 64
         pp_frac = move.current_pp / move.max_pp
+        is_last_used = float(move.is_last_used)
         move_type = [float(t == move.type) for t in PokemonType]
         return np.array(
             [
@@ -287,6 +288,7 @@ class Agent(Player):
                 self_switch,
                 pp,
                 pp_frac,
+                is_last_used,
                 *move_type,
             ]
         )

@@ -59,7 +59,7 @@ chooses_on_teampreview = True
 act_len = 107
 glob_obs_len = len(Field) + len(Weather) + 1
 side_obs_len = len(SideCondition) + 5
-move_obs_len = len(MoveCategory) + len(Target) + len(PokemonType) + 11
+move_obs_len = len(MoveCategory) + len(Target) + len(PokemonType) + 12
 pokemon_obs_len = (
     4 * move_obs_len + len(Effect) + len(PokemonGender) + 2 * len(PokemonType) + len(Status) + 39
 )
