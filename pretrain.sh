@@ -5,7 +5,7 @@ if [[ $PATH != "/scratch/cluster/cangliss/bin:"* ]]; then
 fi
 
 num_teams=34
-port=8000
+port=8004
 device="cuda:0"
 
 start_showdown() {

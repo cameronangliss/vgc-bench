@@ -133,6 +133,7 @@ def pretrain(num_teams: int, port: int, device: str, num_frames: int):
         win_rate = Callback.compare(eval_agent, eval_opponent, 100)
         bc.logger.record("bc/eval", win_rate)
         ppo.save(f"results/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/{i + 1}")
+    bc.train(n_epochs=1)
 
 
 if __name__ == "__main__":
