@@ -167,12 +167,14 @@ class Callback(BaseCallback):
     def _on_rollout_end(self):
         if self.model.num_timesteps % steps == 0:
             self.evaluate()
-            self.model.logger.dump(self.model.num_timesteps)
             if self.learning_style == LearningStyle.DOUBLE_ORACLE:
                 self.update_payoff_matrix()
             self.model.save(
                 f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams/{self.model.num_timesteps}"
             )
+
+    def _on_training_end(self):
+        self.model.logger.dump(self.model.num_timesteps)
 
     def evaluate(self):
         policy = MaskedActorCriticPolicy.clone(self.model)
