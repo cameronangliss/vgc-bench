@@ -9,6 +9,7 @@ from poke_env.environment import DoublesEnv
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
 from src.agent import Agent
 from src.policy import MaskedActorCriticPolicy
+from src.utils import act_len
 
 
 class LLMPlayer(Player):
@@ -41,21 +42,22 @@ class LLMPlayer(Player):
         return order
 
     def choose_move_individual(
-        self, battle: DoubleBattle, pos: int, prev_action: int | None
-    ) -> int:
-        mask = torch.tensor(Agent.get_action_mask(battle, 0) + Agent.get_action_mask(battle, 1))
-        last_order = None
-        if pos == 1:
-            assert prev_action is not None
-            mask = MaskedActorCriticPolicy._update_mask(mask, torch.tensor([[prev_action]]))[0]
-            last_order = DoublesEnv._action_to_order_individual(
-                np.int64(prev_action), battle, False, 0
-            )
+        self, battle: DoubleBattle, pos: int, ally_action: np.int64 | None
+    ) -> np.int64:
+        if pos == 0:
+            mask = torch.tensor(Agent.get_action_mask(battle, 0))
+            last_order = None
+        else:
+            assert ally_action is not None
+            mask = torch.tensor(Agent.get_action_mask(battle, 0) + Agent.get_action_mask(battle, 1))
+            ally_action_tensor = torch.tensor([[ally_action]])
+            mask = MaskedActorCriticPolicy._update_mask(mask, ally_action_tensor)[0, act_len:]
+            last_order = DoublesEnv._action_to_order_individual(ally_action, battle, False, 0)
         action_space = [i for i, m in enumerate(mask.tolist()) if m == 1]
         if not action_space:
-            return 0
+            return np.int64(0)
         elif len(action_space) == 1:
-            return action_space[0]
+            return np.int64(action_space[0])
         order_space = [
             DoublesEnv._action_to_order_individual(np.int64(a), battle, False, pos)
             for a in action_space
@@ -83,7 +85,7 @@ class LLMPlayer(Player):
         except ValueError:
             print(f"INVALID RESPONSE: {response}", flush=True)
             action = -2
-        return action
+        return np.int64(action)
 
     def teampreview(self, battle: AbstractBattle) -> str:
         assert isinstance(battle, DoubleBattle)
