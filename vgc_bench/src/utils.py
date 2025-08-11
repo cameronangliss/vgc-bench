@@ -66,6 +66,23 @@ pokemon_obs_len = (
 chunk_obs_len = glob_obs_len + side_obs_len + pokemon_obs_len
 
 # pokemon data
+all_formats = [
+    "gen9vgc2023regd",
+    "gen9vgc2024regf",
+    "gen9vgc2024regfbo3",
+    "gen9vgc2024regg",
+    "gen9vgc2024reggbo3",
+    "gen9vgc2024regh",
+    "gen9vgc2024reghbo3",
+    "gen9vgc2025regg",
+    "gen9vgc2025reggbo3",
+    "gen9vgc2025regh",
+    "gen9vgc2025reghbo3",
+    "gen9vgc2025regi",
+    "gen9vgc2025regibo3",
+    "gen9vgc2025regj",
+    "gen9vgc2025regjbo3",
+]
 with open("data/abilities.json") as f:
     ability_descs: dict[str, npt.NDArray[np.float32]] = json.load(f)
     abilities = list(ability_descs.keys())

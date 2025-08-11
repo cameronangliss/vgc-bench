@@ -4,24 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 from typing import Any
 
 import requests
-
-battle_formats = [
-    "gen9vgc2023regd",
-    "gen9vgc2024regf",
-    "gen9vgc2024regfbo3",
-    "gen9vgc2024regg",
-    "gen9vgc2024reggbo3",
-    "gen9vgc2024regh",
-    "gen9vgc2024reghbo3",
-    "gen9vgc2025regg",
-    "gen9vgc2025reggbo3",
-    "gen9vgc2025regh",
-    "gen9vgc2025reghbo3",
-    "gen9vgc2025regi",
-    "gen9vgc2025regibo3",
-    "gen9vgc2025regj",
-    "gen9vgc2025regjbo3",
-]
+from src.utils import all_formats
 
 
 def scrape_logs(increment: int, battle_format: str) -> bool:
@@ -126,5 +109,5 @@ total logs = {len(logs)}
 """
         )
 
-    with ThreadPoolExecutor(max_workers=len(battle_formats)) as executor:
-        executor.map(run, battle_formats)
+    with ThreadPoolExecutor(max_workers=len(all_formats)) as executor:
+        executor.map(run, all_formats)

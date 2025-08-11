@@ -22,9 +22,8 @@ from poke_env.player import (
     SingleBattleOrder,
 )
 from poke_env.ps_client import AccountConfiguration
-from scrape_logs import battle_formats
 from src.agent import Agent
-from src.utils import act_len, chunk_obs_len
+from src.utils import act_len, all_formats, chunk_obs_len
 
 
 class LogReader(Player):
@@ -251,7 +250,7 @@ if __name__ == "__main__":
     executor = ProcessPoolExecutor(max_workers=64, initializer=_init_worker_loop)
     os.makedirs("data/trajs", exist_ok=True)
     total = 0
-    for f in battle_formats:
+    for f in all_formats:
         with open(f"data/logs-{f}.json", "r") as file:
             logs = json.load(file)
         print(f"processing {len(logs)} {f} logs...")
