@@ -9,7 +9,6 @@ from poke_env.environment import DoublesEnv
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
 from src.agent import Agent
 from src.policy import MaskedActorCriticPolicy
-from src.utils import act_len
 
 
 class LLMPlayer(Player):
@@ -44,16 +43,15 @@ class LLMPlayer(Player):
     def choose_move_individual(
         self, battle: DoubleBattle, pos: int, prev_action: int | None
     ) -> int:
-        action_space = Agent.get_action_space(battle, pos)
-        mask = torch.tensor([float("-inf") if i not in action_space else 0 for i in range(act_len)])
+        mask = torch.tensor(Agent.get_action_mask(battle, pos))
         last_order = None
         if pos == 1:
             assert prev_action is not None
-            mask += MaskedActorCriticPolicy._get_mask(torch.tensor([[prev_action]]))[0]
+            mask = MaskedActorCriticPolicy._update_mask(mask, torch.tensor([[prev_action]]))[0]
             last_order = DoublesEnv._action_to_order_individual(
                 np.int64(prev_action), battle, False, 0
             )
-        action_space = [i for i, m in enumerate(mask.tolist()) if m == 0]
+        action_space = [i for i, m in enumerate(mask.tolist()) if m == 1]
         if not action_space:
             return 0
         elif len(action_space) == 1:
