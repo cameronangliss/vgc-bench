@@ -43,7 +43,7 @@ class LLMPlayer(Player):
     def choose_move_individual(
         self, battle: DoubleBattle, pos: int, prev_action: int | None
     ) -> int:
-        mask = torch.tensor(Agent.get_action_mask(battle, pos))
+        mask = torch.tensor(Agent.get_action_mask(battle, 0) + Agent.get_action_mask(battle, 1))
         last_order = None
         if pos == 1:
             assert prev_action is not None
