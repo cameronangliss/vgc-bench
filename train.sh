@@ -5,7 +5,6 @@ if [[ $PATH != "/scratch/cluster/cangliss/bin:"* ]]; then
 fi
 
 team_counts=(1 3 10 30)
-team_lists=("30 31" "32 33" "30")
 ports=(7200 7201 7202 7203)
 devices=("cuda:0" "cuda:1" "cuda:2" "cuda:3")
 
@@ -20,21 +19,20 @@ start_showdown() {
 
 train() {
     local i=$1
-    local num_teams=${team_counts[$i]}
-    local team_indices=${team_lists[$i]}
-    local port=${ports[$i]}
-    local device=${devices[$i]}
+    local num_teams="${team_counts[$i]}"
+    local port="${ports[$i]}"
+    local device="${devices[$i]}"
 
     echo "Starting Showdown server for training process $i..."
     showdown_pid=$(start_showdown $port)
     sleep 5
     echo "Starting training process $i..."
-    python vgc_bench/train.py --num_teams $num_teams --port $port --device $device --self_play > debug$port.log 2>&1
+    python vgc_bench/train.py --num_teams $num_teams --port $port --device $device --self_play > "debug$port.log" 2>&1
     exit_status=$?
     if [ $exit_status -ne 0 ]; then
         echo "Training process $i died with exit status $exit_status"
         kill $showdown_pid
-        if ! kill -0 $$ 2>/dev/null; then
+        if ! kill -0 $$ 2> /dev/null; then
             return
         fi
         train $i
@@ -46,8 +44,8 @@ train() {
 
 trap "echo 'Stopping...'; kill 0" SIGINT
 mkdir -p results
-for i in ${!team_counts[@]}; do
-    train "$i" &
+for i in "${!team_counts[@]}"; do
+    train $i &
     sleep 10
 done
 wait
