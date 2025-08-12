@@ -161,9 +161,10 @@ class LogReader(Player):
             if i + 1 not in self.actions[0] and p.revealed
         ]
         if teampreview_draft:
-            self.actions[1][0] = teampreview_draft[0] + 1
-        if len(teampreview_draft) > 1:
-            self.actions[1][1] = teampreview_draft[1] + 1
+            rand = random.choice(range(len(teampreview_draft)))
+            self.actions[1][0] = teampreview_draft.pop(rand) + 1
+        if teampreview_draft:
+            self.actions[1][1] = teampreview_draft[0] + 1
         elif self.actions[1][0] == self.actions[1][1]:
             self.actions[1][1] = random.choice(
                 [i for i in range(1, 7) if i not in self.actions[0] and i not in self.actions[1]]
