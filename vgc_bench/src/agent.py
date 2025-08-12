@@ -45,6 +45,8 @@ class Agent(Player):
         assert isinstance(battle, DoubleBattle)
         assert self.__policy is not None
         assert self.frames.maxlen is not None
+        if battle._wait:
+            return DefaultBattleOrder()
         self._teampreview_drafts = {
             tag: prev for tag, prev in self._teampreview_drafts.items() if tag in self.battles
         }
