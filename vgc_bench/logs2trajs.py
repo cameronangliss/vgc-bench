@@ -156,7 +156,7 @@ class LogReader(Player):
         teampreview_draft = [
             i
             for i, p in enumerate(last_state.team.values())
-            if i not in self.actions[0] and p.revealed
+            if i + 1 not in self.actions[0] and p.revealed
         ]
         if teampreview_draft:
             self.actions[1][0] = teampreview_draft[0] + 1

@@ -29,14 +29,14 @@ from stable_baselines3.common.policies import ActorCriticPolicy
 class Agent(Player):
     __policy: ActorCriticPolicy | None
     frames: Deque[npt.NDArray[np.float32]]
-    _teampreview_draft: list[int]
+    _teampreview_drafts: dict[str, list[int]]
 
     def __init__(self, num_frames: int, device: torch.device, *args: Any, **kwargs: Any):
         super().__init__(*args, **kwargs)
         self.__policy = None
         self.frames = Deque(maxlen=num_frames)
         self.device = device
-        self._teampreview_draft = []
+        self._teampreview_drafts = {}
 
     def set_policy(self, policy: ActorCriticPolicy):
         self.__policy = policy.to(self.device)
@@ -45,11 +45,14 @@ class Agent(Player):
         assert isinstance(battle, DoubleBattle)
         assert self.__policy is not None
         assert self.frames.maxlen is not None
-        if battle._wait:
-            return DefaultBattleOrder()
-        if battle.teampreview and len(self._teampreview_draft) == 4:
-            self._teampreview_draft = []
-        obs = self.embed_battle(battle, self._teampreview_draft, fake_rating=True)
+        self._teampreview_drafts = {
+            tag: prev for tag, prev in self._teampreview_drafts.items() if tag in self.battles
+        }
+        if battle.teampreview and battle.battle_tag not in self._teampreview_drafts:
+            self._teampreview_drafts[battle.battle_tag] = []
+        obs = self.embed_battle(
+            battle, self._teampreview_drafts[battle.battle_tag], fake_rating=True
+        )
         if battle.turn == 0 and not (
             battle.teampreview and len([p for p in battle.team.values() if p.active]) > 0
         ):
@@ -64,9 +67,13 @@ class Agent(Player):
         action = action.cpu().numpy()[0]
         if battle.teampreview:
             if not self.__policy.chooses_on_teampreview:
-                available_actions = [i for i in range(1, 7) if i - 1 not in self._teampreview_draft]
+                available_actions = [
+                    i
+                    for i in range(1, 7)
+                    if i - 1 not in self._teampreview_drafts[battle.battle_tag]
+                ]
                 action = np.array(random.sample(available_actions, k=2))
-            self._teampreview_draft += [a - 1 for a in action]
+            self._teampreview_drafts[battle.battle_tag] += [a - 1 for a in action]
         return DoublesEnv.action_to_order(action, battle)
 
     def teampreview(self, battle: AbstractBattle) -> str:
@@ -80,7 +87,7 @@ class Agent(Player):
             return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
         else:
             message = self.random_teampreview(battle)
-            self._teampreview_draft = [int(i) - 1 for i in message[6:-2]]
+            self._teampreview_drafts[battle.battle_tag] = [int(i) - 1 for i in message[6:-2]]
             return message
 
     @staticmethod
@@ -100,7 +107,7 @@ class Agent(Player):
         [a1, a2, *_] = battle.active_pokemon
         [o1, o2, *_] = battle.opponent_active_pokemon
         assert battle.teampreview == (len(teampreview_draft) < 4)
-        assert all([0 <= i < 6 for i in teampreview_draft])
+        assert all([i in teampreview_draft for i, p in enumerate(battle.team.values()) if p.active])
         pokemons = [
             Agent.embed_pokemon(
                 p,
