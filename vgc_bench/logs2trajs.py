@@ -162,6 +162,10 @@ class LogReader(Player):
             self.actions[1][0] = teampreview_draft[0] + 1
         if len(teampreview_draft) > 1:
             self.actions[1][1] = teampreview_draft[1] + 1
+        elif self.actions[1][0] == self.actions[1][1]:
+            self.actions[1][1] = [
+                i for i in range(1, 7) if i not in self.actions[0] and i not in self.actions[1]
+            ][0]
         actions = np.stack(self.actions, axis=0)
         return self.embed_states(self.states, actions), actions
 
