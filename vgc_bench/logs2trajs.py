@@ -2,6 +2,7 @@ import asyncio
 import json
 import os
 import pickle
+import random
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from copy import deepcopy
 from itertools import islice
@@ -63,14 +64,15 @@ class LogReader(Player):
         all_choices = [i for i in range(1, 7)]
         all_choices.remove(id1)
         all_choices.remove(id2)
-        order_str = f"/team {id1}{id2}{all_choices[0]}{all_choices[1]}"
+        id3, id4 = random.sample(all_choices, k=2)
+        order_str = f"/team {id1}{id2}{id3}{id4}"
         order1a = SingleBattleOrder(list(battle.team.values())[id1 - 1])
         order1b = SingleBattleOrder(list(battle.team.values())[id2 - 1])
         order1 = DoubleBattleOrder(order1a, order1b)
         action1 = DoublesEnv.order_to_action(order1, battle, fake=True)
         upd_battle = _EnvPlayer._simulate_teampreview_switchin(order1, battle)
-        order2a = SingleBattleOrder(list(battle.team.values())[all_choices[0] - 1])
-        order2b = SingleBattleOrder(list(battle.team.values())[all_choices[1] - 1])
+        order2a = SingleBattleOrder(list(battle.team.values())[id3 - 1])
+        order2b = SingleBattleOrder(list(battle.team.values())[id4 - 1])
         order2 = DoubleBattleOrder(order2a, order2b)
         action2 = DoublesEnv.order_to_action(order2, upd_battle, fake=True)
         self.states += [deepcopy(battle), upd_battle]
@@ -163,9 +165,9 @@ class LogReader(Player):
         if len(teampreview_draft) > 1:
             self.actions[1][1] = teampreview_draft[1] + 1
         elif self.actions[1][0] == self.actions[1][1]:
-            self.actions[1][1] = [
-                i for i in range(1, 7) if i not in self.actions[0] and i not in self.actions[1]
-            ][0]
+            self.actions[1][1] = random.choice(
+                [i for i in range(1, 7) if i not in self.actions[0] and i not in self.actions[1]]
+            )
         actions = np.stack(self.actions, axis=0)
         return self.embed_states(self.states, actions), actions
 
