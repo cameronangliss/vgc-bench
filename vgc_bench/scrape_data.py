@@ -32,7 +32,9 @@ if __name__ == "__main__":
     if not os.path.exists("data"):
         os.mkdir("data")
     update_desc_embeddings(
-        "https://play.pokemonshowdown.com/data", "abilities.js", extras={"null": {"desc": "null"}}
+        "https://play.pokemonshowdown.com/data",
+        "abilities.js",
+        extras={"null": {"desc": "null"}, "": {"desc": "empty"}},
     )
     update_desc_embeddings(
         "https://play.pokemonshowdown.com/data",

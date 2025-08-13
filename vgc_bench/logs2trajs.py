@@ -129,12 +129,13 @@ class LogReader(Player):
 
     async def follow_log(
         self, tag: str, log: str
-    ) -> tuple[npt.NDArray[np.float32], npt.NDArray[np.int64]]:
+    ) -> tuple[npt.NDArray[np.float32], npt.NDArray[np.int64]] | None:
         self.states = []
         self.actions = []
         tag = f"battle-{tag}"
         messages = [f">{tag}\n" + m for m in log.split("\n|\n")]
-        assert "|win|" not in messages[1]
+        if "|win|" in messages[1]:
+            return
         for i in range(len(messages) - 1):
             split_messages = [m.split("|") for m in messages[i].split("\n")]
             self.next_msg = messages[i + 1]
@@ -203,13 +204,16 @@ def process_logs(
     task_params = [(tag, log, "p1", min_rating) for tag, (_, log) in log_jsons.items()] + [
         (tag, log, "p2", min_rating) for tag, (_, log) in log_jsons.items()
     ]
+    num_empty = 0
     num_errors = 0
     for chunk in chunked(task_params, 10_000):
         tasks = [executor.submit(process_log, *params) for params in chunk]
         for task in as_completed(tasks):
             try:
                 traj = task.result()
-                if traj is not None:
+                if traj is None:
+                    num_empty += 1
+                else:
                     trajs += [traj]
             except KeyboardInterrupt:
                 raise
@@ -223,7 +227,7 @@ def process_logs(
     num_trans = sum([len(t.acts) for t in trajs])
     print(
         f"prepared {len(trajs)} trajectories with {num_trans} transitions "
-        f"({num_errors} failed log reads)"
+        f"({num_empty} discarded trajs, {num_errors} failed traj reads)"
     )
     return trajs
 
@@ -240,11 +244,13 @@ def process_log(tag: str, log: str, role: str, min_rating: int | None) -> Trajec
             accept_open_team_sheet=True,
             loop=_READER_LOOP,
         )
-        states, actions = asyncio.run_coroutine_threadsafe(
+        results = asyncio.run_coroutine_threadsafe(
             player.follow_log(tag, log), _READER_LOOP
         ).result()
-        traj = Trajectory(obs=states, acts=actions, infos=None, terminal=True)
-        return traj
+        if results is not None:
+            states, actions = results
+            traj = Trajectory(obs=states, acts=actions, infos=None, terminal=True)
+            return traj
 
 
 if __name__ == "__main__":
