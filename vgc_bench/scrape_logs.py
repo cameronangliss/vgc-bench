@@ -1,9 +1,12 @@
 import json
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor
 from typing import Any
 
 import requests
+from poke_env.battle import Pokemon
+from poke_env.data import to_id_str
 from src.utils import all_formats
 
 
@@ -26,7 +29,10 @@ def scrape_logs(increment: int, battle_format: str) -> bool:
         if lj is not None
         and lj["log"].count("|poke|p1|") == 6
         and lj["log"].count("|poke|p2|") == 6
-        and "|showteam|" in lj["log"]
+        and "|turn|1" in lj["log"]
+        and "|showteam|" in lj["log"].split("\n|\n")[0]
+        and can_distinguish_team_members(lj["log"].split("\n|\n")[0], "p1")
+        and can_distinguish_team_members(lj["log"].split("\n|\n")[0], "p2")
         and "Zoroark" not in lj["log"]
         and "Zorua" not in lj["log"]
         and "|-mega|" not in lj["log"]
@@ -36,6 +42,25 @@ def scrape_logs(increment: int, battle_format: str) -> bool:
     with open(f"data/logs-{battle_format}.json", "w") as f:
         json.dump(logs, f)
     return len(logs) == len(old_logs)
+
+
+def can_distinguish_team_members(log: str, player_role: str) -> bool:
+    teampreview_mons = [
+        Pokemon(9, details=dets)
+        for dets in re.findall(r"\|poke\|" + player_role + r"\|([^,|]+)", log)
+    ]
+    showteam = [line for line in log.split("\n") if line.startswith(f"|showteam|{player_role}|")][0]
+    showteam_names = [mon.split("|")[0] for mon in "|".join(showteam.split("|")[3:]).split("]")]
+    for mon in teampreview_mons:
+        matches = [
+            name
+            for name in showteam_names
+            if mon.base_species == to_id_str(name)
+            or mon.base_species in [to_id_str(substr) for substr in name.split("-")]
+        ]
+        if len(matches) != 1:
+            return False
+    return True
 
 
 def get_battle_idents(

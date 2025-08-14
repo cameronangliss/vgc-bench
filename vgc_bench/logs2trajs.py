@@ -47,11 +47,13 @@ class LogReader(Player):
     def choose_move(self, battle: AbstractBattle) -> BattleOrder:
         assert self.next_msg is not None
         assert isinstance(battle, DoubleBattle)
-        order1 = self.get_order(battle, self.next_msg, False)
-        order2 = self.get_order(battle, self.next_msg, True)
+        order1 = self.get_order(battle, self.next_msg, 0)
+        order2 = self.get_order(battle, self.next_msg, 1)
         order = DoubleBattleOrder(order1, order2)
         action = DoublesEnv.order_to_action(order, battle, fake=True)
-        if action[0] != 0 and action[1] != 0:
+        if 0 not in action or not (
+            np.all(action == 0) or f"|faint|{battle.player_role}" in self.next_msg
+        ):
             self.states += [deepcopy(battle)]
             self.actions += [action]
         return order
@@ -59,12 +61,9 @@ class LogReader(Player):
     def teampreview(self, battle: AbstractBattle) -> str:
         assert self.next_msg is not None
         assert isinstance(battle, DoubleBattle)
-        id1 = self.get_teampreview_order(battle, self.next_msg, False)
-        id2 = self.get_teampreview_order(battle, self.next_msg, True)
-        all_choices = [i for i in range(1, 7)]
-        all_choices.remove(id1)
-        all_choices.remove(id2)
-        id3, id4 = random.sample(all_choices, k=2)
+        id1 = self.get_teampreview_order(battle, self.next_msg, 0)
+        id2 = self.get_teampreview_order(battle, self.next_msg, 1)
+        id3, id4 = random.sample([i for i in range(1, 7) if i not in [id1, id2]], k=2)
         order_str = f"/team {id1}{id2}{id3}{id4}"
         order1a = SingleBattleOrder(list(battle.team.values())[id1 - 1])
         order1b = SingleBattleOrder(list(battle.team.values())[id2 - 1])
@@ -80,15 +79,15 @@ class LogReader(Player):
         return order_str
 
     @staticmethod
-    def get_order(battle: DoubleBattle, msg: str, is_right: bool) -> SingleBattleOrder:
-        pos = "b" if is_right else "a"
+    def get_order(battle: DoubleBattle, msg: str, pos: int) -> SingleBattleOrder:
+        slot = "a" if pos == 0 else "b"
         lines = msg.split("\n")
         order = PassBattleOrder()
         for line in lines:
-            if line.startswith(f"|move|{battle.player_role}{pos}: ") and "[from]" not in line:
+            if line.startswith(f"|move|{battle.player_role}{slot}: ") and "[from]" not in line:
                 [_, _, identifier, move, target_identifier, *_] = line.split("|")
-                active = battle.active_pokemon[int(is_right)]
-                assert active is not None, battle.active_pokemon
+                active = battle.active_pokemon[pos]
+                assert active is not None, battle.player_role
                 if to_id_str(move) in active.moves:
                     move = active.moves[to_id_str(move)]
                 elif to_id_str(move) == "struggle":
@@ -106,11 +105,11 @@ class LogReader(Player):
                 order = SingleBattleOrder(
                     move, terastallize=did_tera, move_target=battle.to_showdown_target(move, target)
                 )
-            elif line.startswith(f"|switch|{battle.player_role}{pos}: ") or line.startswith(
-                f"|drag|{battle.player_role}{pos}: "
+            elif line.startswith(f"|switch|{battle.player_role}{slot}: ") or line.startswith(
+                f"|drag|{battle.player_role}{slot}: "
             ):
                 [_, _, identifier, details, *_] = line.split("|")
-                mon = battle.get_pokemon(identifier, details=details, request=battle.last_request)
+                mon = battle.get_pokemon(identifier, details=details)
                 order = SingleBattleOrder(mon)
             elif line.startswith("|switch|") or line.startswith("|drag|"):
                 [_, _, identifier, details, *_] = line.split("|")
@@ -118,47 +117,41 @@ class LogReader(Player):
         return order
 
     @staticmethod
-    def get_teampreview_order(battle: AbstractBattle, msg: str, is_right: bool) -> int:
-        pos = "b" if is_right else "a"
-        start = msg.index(f"|switch|{battle.player_role}{pos}: ")
+    def get_teampreview_order(battle: AbstractBattle, msg: str, pos: int) -> int:
+        slot = "a" if pos == 0 else "b"
+        start = msg.index(f"|switch|{battle.player_role}{slot}: ")
         end = msg.index("\n", start)
         [_, _, identifier, details, *_] = msg[start:end].split("|")
-        mon = battle.get_pokemon(identifier, details=details, request=battle.last_request)
+        mon = battle.get_pokemon(identifier, details=details)
         index = list(battle.team.values()).index(mon)
         return index + 1
 
     async def follow_log(
         self, tag: str, log: str
-    ) -> tuple[npt.NDArray[np.float32], npt.NDArray[np.int64]] | None:
+    ) -> tuple[npt.NDArray[np.float32], npt.NDArray[np.int64]]:
         self.states = []
         self.actions = []
         tag = f"battle-{tag}"
         messages = [f">{tag}\n" + m for m in log.split("\n|\n")]
-        if "|win|" in messages[1]:
-            return
-        for i in range(len(messages) - 1):
-            split_messages = [m.split("|") for m in messages[i].split("\n")]
-            self.next_msg = messages[i + 1]
-            if i == 0:
-                battle = await self._create_battle(f">{tag}".split("-"))
-                battle.logger = None
-                battle._teampreview = True
-                await self._handle_battle_message(split_messages)
-                self.teampreview(battle)
-            else:
-                battle = self.battles[tag]
-                battle._teampreview = False
-                await self._handle_battle_message(split_messages)
-                if "|switch|" in messages[i + 1] or "|move|" in messages[i + 1]:
-                    self.choose_move(battle)
-        split_messages = [m.split("|") for m in messages[-1].split("\n")]
+        battle = await self._create_battle(f">{tag}".split("-"))
+        assert isinstance(battle, DoubleBattle)
+        battle.logger = None
+        split_messages = [m.split("|") for m in messages[0].split("\n")]
         await self._handle_battle_message(split_messages)
-        last_state = self.battles[tag]
-        assert isinstance(last_state, DoubleBattle)
-        self.states += [deepcopy(last_state)]
+        for i in range(1, len(messages)):
+            split_messages = [m.split("|") for m in messages[i].split("\n")]
+            self.next_msg = messages[i]
+            if i == 1:
+                battle._teampreview = True
+                self.teampreview(battle)
+                battle._teampreview = False
+            elif "|switch|" in self.next_msg or "|move|" in self.next_msg:
+                self.choose_move(battle)
+            await self._handle_battle_message(split_messages)
+        self.states += [deepcopy(battle)]
         teampreview_draft = [
             i
-            for i, p in enumerate(last_state.team.values())
+            for i, p in enumerate(battle.team.values())
             if i + 1 not in self.actions[0] and p.revealed
         ]
         if teampreview_draft:
