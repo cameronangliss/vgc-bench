@@ -51,6 +51,7 @@ class LogReader(Player):
         order2 = self.get_order(battle, self.next_msg, 1)
         order = DoubleBattleOrder(order1, order2)
         action = DoublesEnv.order_to_action(order, battle, fake=True)
+        battle._available_moves = [[], []]
         if 0 not in action or not (
             np.all(action == 0) or f"|faint|{battle.player_role}" in self.next_msg
         ):
@@ -90,6 +91,7 @@ class LogReader(Player):
                 assert active is not None, battle.player_role
                 if to_id_str(move_id) in SPECIAL_MOVES:
                     move = Move(to_id_str(move_id), gen=battle.gen)
+                    battle._available_moves[pos] += [move]
                 else:
                     move = active.moves[to_id_str(move_id)]
                 target_lines = [l for l in msg.split("\n") if f"|switch|{target_identifier}" in l]
@@ -109,6 +111,8 @@ class LogReader(Player):
                 [_, _, identifier, details, *_] = line.split("|")
                 mon = battle.get_pokemon(identifier, details=details)
                 order = SingleBattleOrder(mon)
+            elif line.startswith(f"|swap|{battle.player_role}{slot}: "):
+                slot = "b" if slot == "a" else "a"
             elif line.startswith("|switch|") or line.startswith("|drag|"):
                 [_, _, identifier, details, *_] = line.split("|")
                 battle.get_pokemon(identifier, details=details)
@@ -258,7 +262,7 @@ if __name__ == "__main__":
         with open(f"data/logs-{f}.json", "r") as file:
             logs = json.load(file)
         print(f"processing {len(logs)} {f} logs...")
-        trajs = process_logs(logs, executor)
+        trajs = process_logs(logs, executor, strict=True)
         for i, traj in enumerate(trajs, start=total):
             with open(f"data/trajs/{i:08d}.pkl", "wb") as f:
                 pickle.dump(traj, f)
