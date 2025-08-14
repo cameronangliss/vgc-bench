@@ -12,7 +12,7 @@ import numpy as np
 import numpy.typing as npt
 from imitation.data.types import Trajectory
 from poke_env import to_id_str
-from poke_env.battle import AbstractBattle, DoubleBattle
+from poke_env.battle import AbstractBattle, DoubleBattle, SPECIAL_MOVES, Move
 from poke_env.environment import DoublesEnv
 from poke_env.environment.env import _EnvPlayer
 from poke_env.player import (
@@ -85,15 +85,13 @@ class LogReader(Player):
         order = PassBattleOrder()
         for line in lines:
             if line.startswith(f"|move|{battle.player_role}{slot}: ") and "[from]" not in line:
-                [_, _, identifier, move, target_identifier, *_] = line.split("|")
+                [_, _, identifier, move_id, target_identifier, *_] = line.split("|")
                 active = battle.active_pokemon[pos]
                 assert active is not None, battle.player_role
-                if to_id_str(move) in active.moves:
-                    move = active.moves[to_id_str(move)]
-                elif to_id_str(move) == "struggle":
-                    move = list(active.moves.values())[0]
+                if to_id_str(move_id) in SPECIAL_MOVES:
+                    move = Move(to_id_str(move_id), gen=battle.gen)
                 else:
-                    continue
+                    move = active.moves[to_id_str(move_id)]
                 target_lines = [l for l in msg.split("\n") if f"|switch|{target_identifier}" in l]
                 target_details = target_lines[0].split("|")[3] if target_lines else ""
                 target = (
