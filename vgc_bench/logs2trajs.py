@@ -262,7 +262,7 @@ if __name__ == "__main__":
         with open(f"data/logs-{f}.json", "r") as file:
             logs = json.load(file)
         print(f"processing {len(logs)} {f} logs...")
-        trajs = process_logs(logs, executor, strict=True)
+        trajs = process_logs(logs, executor)
         for i, traj in enumerate(trajs, start=total):
             with open(f"data/trajs/{i:08d}.pkl", "wb") as f:
                 pickle.dump(traj, f)
