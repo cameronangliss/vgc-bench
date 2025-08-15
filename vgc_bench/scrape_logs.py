@@ -124,7 +124,7 @@ if __name__ == "__main__":
 most recent log date = {max([t for t, _ in log_dict.values()])}
 total logs = {len(logs)}
 # of players w/ rating...
-    unrated:   {len([log for log in logs if get_rating(log, "p1") is None]) + len([log for log in logs if get_rating(log, "p2") is None])}
+    unrated:   {len([log for log in logs if get_rating(log, "p1") in [None, 1]]) + len([log for log in logs if get_rating(log, "p2") in [None, 1]])}
     1000-1099: {players_in_range(logs, 1000, 1099)}
     1100-1199: {players_in_range(logs, 1100, 1199)}
     1200-1299: {players_in_range(logs, 1200, 1299)}
