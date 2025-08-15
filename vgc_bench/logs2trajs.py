@@ -12,7 +12,7 @@ import numpy as np
 import numpy.typing as npt
 from imitation.data.types import Trajectory
 from poke_env import to_id_str
-from poke_env.battle import AbstractBattle, DoubleBattle, SPECIAL_MOVES, Move
+from poke_env.battle import SPECIAL_MOVES, AbstractBattle, DoubleBattle, Move
 from poke_env.environment import DoublesEnv
 from poke_env.environment.env import _EnvPlayer
 from poke_env.player import (
