@@ -80,7 +80,6 @@ all_formats = [
     "gen9vgc2025reghbo3",
     "gen9vgc2025regi",
     "gen9vgc2025regibo3",
-    "gen9vgc2025regj",
     "gen9vgc2025regjbo3",
 ]
 with open("data/abilities.json") as f:
