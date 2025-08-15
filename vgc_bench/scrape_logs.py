@@ -115,23 +115,27 @@ if __name__ == "__main__":
         with open(f"data/logs-{f}.json", "r") as file:
             log_dict = json.load(file)
             logs = [log for _, log in log_dict.values()]
+        players_in_range = lambda logs, low, high: len(
+            [log for log in logs if low <= (get_rating(log, "p1") or 0) <= high]
+        ) + len([log for log in logs if low <= (get_rating(log, "p2") or 0) <= high])
         print(
             f"""
 {f} stats:
 most recent log date = {max([t for t, _ in log_dict.values()])}
 total logs = {len(logs)}
-# of unrated games = {len([log for log in logs if get_rating(log, "p1") is None])}
-# of games w/ rating (on both sides)...
-    1000+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1000 and (get_rating(log, "p2") or 0) >= 1000])}
-    1100+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1100 and (get_rating(log, "p2") or 0) >= 1100])}
-    1200+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1200 and (get_rating(log, "p2") or 0) >= 1200])}
-    1300+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1300 and (get_rating(log, "p2") or 0) >= 1300])}
-    1400+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1400 and (get_rating(log, "p2") or 0) >= 1400])}
-    1500+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1500 and (get_rating(log, "p2") or 0) >= 1500])}
-    1600+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1600 and (get_rating(log, "p2") or 0) >= 1600])}
-    1700+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1700 and (get_rating(log, "p2") or 0) >= 1700])}
-    1800+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1800 and (get_rating(log, "p2") or 0) >= 1800])}
-"""
+# of players w/ rating...
+    unrated:   {len([log for log in logs if get_rating(log, "p1") is None]) + len([log for log in logs if get_rating(log, "p2") is None])}
+    1000-1099: {players_in_range(logs, 1000, 1099)}
+    1100-1199: {players_in_range(logs, 1100, 1199)}
+    1200-1299: {players_in_range(logs, 1200, 1299)}
+    1300-1399: {players_in_range(logs, 1300, 1399)}
+    1400-1499: {players_in_range(logs, 1400, 1499)}
+    1500-1599: {players_in_range(logs, 1500, 1599)}
+    1600-1699: {players_in_range(logs, 1600, 1699)}
+    1700-1799: {players_in_range(logs, 1700, 1799)}
+    1800+:     {players_in_range(logs, 1800, 3000)}
+""",
+            flush=True,
         )
 
     with ThreadPoolExecutor(max_workers=len(all_formats)) as executor:
