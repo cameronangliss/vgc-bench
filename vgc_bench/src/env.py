@@ -46,14 +46,9 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
 
     @classmethod
     def create_env(
-        cls,
-        teams: list[int],
-        port: int,
-        device: str,
-        learning_style: LearningStyle,
-        num_frames: int,
+        cls, num_teams: int, port: int, device: str, learning_style: LearningStyle, num_frames: int
     ) -> Env:
-        toggle = None if allow_mirror_match else TeamToggle(len(teams))
+        toggle = None if allow_mirror_match else TeamToggle(num_teams)
         env = cls(
             learning_style,
             server_configuration=ServerConfiguration(
@@ -64,7 +59,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             log_level=25,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(teams, battle_format, toggle),
+            team=RandomTeamBuilder(list(range(num_teams)), battle_format, toggle),
         )
         if not chooses_on_teampreview:
             env.agent1.teampreview = env.async_random_teampreview1

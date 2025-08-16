@@ -23,7 +23,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 class Callback(BaseCallback):
     def __init__(
         self,
-        teams: list[int],
+        num_teams: int,
         port: int,
         device: str,
         learning_style: LearningStyle,
@@ -33,7 +33,7 @@ class Callback(BaseCallback):
         super().__init__()
         self.learning_style = learning_style
         self.behavior_clone = behavior_clone
-        self.teams = teams
+        self.num_teams = num_teams
         self.run_ident = "".join(
             [
                 "-bc" if behavior_clone else "",
@@ -47,22 +47,20 @@ class Callback(BaseCallback):
         self.payoff_matrix: npt.NDArray[np.float32]
         self.prob_dist = None
         if self.learning_style == LearningStyle.LAST_SELF:
-            policy_files = os.listdir(
-                f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams"
-            )
+            policy_files = os.listdir(f"results/saves-{self.run_ident}/{self.num_teams}-teams")
             self.prob_dist = [0.0] * (len(policy_files) - 1) + [1.0]
         elif self.learning_style == LearningStyle.DOUBLE_ORACLE:
             if os.path.exists(
-                f"results/logs-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams-payoff-matrix.json"
+                f"results/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json"
             ):
                 with open(
-                    f"results/logs-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams-payoff-matrix.json"
+                    f"results/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json"
                 ) as f:
                     self.payoff_matrix = np.array(json.load(f))
             else:
                 self.payoff_matrix = np.array([[0.5]])
             self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
-        toggle = None if allow_mirror_match else TeamToggle(len(teams))
+        toggle = None if allow_mirror_match else TeamToggle(num_teams)
         self.eval_agent = Agent(
             num_frames,
             torch.device(device),
@@ -76,7 +74,9 @@ class Callback(BaseCallback):
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
-                [0] if learning_style == LearningStyle.EXPLOITER else teams, battle_format, toggle
+                [0] if learning_style == LearningStyle.EXPLOITER else list(range(num_teams)),
+                battle_format,
+                toggle,
             ),
         )
         self.eval_agent2 = Agent(
@@ -92,7 +92,9 @@ class Callback(BaseCallback):
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
-                [0] if learning_style == LearningStyle.EXPLOITER else teams, battle_format, toggle
+                [0] if learning_style == LearningStyle.EXPLOITER else list(range(num_teams)),
+                battle_format,
+                toggle,
             ),
         )
         self.eval_opponent = SimpleHeuristicsPlayer(
@@ -106,7 +108,9 @@ class Callback(BaseCallback):
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
-                [0] if learning_style == LearningStyle.EXPLOITER else teams, battle_format, toggle
+                [0] if learning_style == LearningStyle.EXPLOITER else list(range(num_teams)),
+                battle_format,
+                toggle,
             ),
         )
 
@@ -119,15 +123,13 @@ class Callback(BaseCallback):
             self.evaluate()
         if not self.behavior_clone:
             self.model.save(
-                f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams/{self.model.num_timesteps}"
+                f"results/saves-{self.run_ident}/{self.num_teams}-teams/{self.model.num_timesteps}"
             )
         else:
             try:
                 saves = [
                     int(file[:-4])
-                    for file in os.listdir(
-                        f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams"
-                    )
+                    for file in os.listdir(f"results/saves-{self.run_ident}/{self.num_teams}-teams")
                     if int(file[:-4]) >= 0
                 ]
             except FileNotFoundError:
@@ -135,7 +137,7 @@ class Callback(BaseCallback):
             assert len(saves) > 0
         if self.learning_style == LearningStyle.EXPLOITER:
             policy = PPO.load(
-                f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams/-1",
+                f"results/saves-{self.run_ident}/{self.num_teams}-teams/-1",
                 device=self.model.device,
             ).policy
             for i in range(self.model.env.num_envs):
@@ -151,15 +153,13 @@ class Callback(BaseCallback):
             LearningStyle.FICTITIOUS_PLAY,
             LearningStyle.DOUBLE_ORACLE,
         ]:
-            policy_files = os.listdir(
-                f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams"
-            )
+            policy_files = os.listdir(f"results/saves-{self.run_ident}/{self.num_teams}-teams")
             policies = random.choices(
                 policy_files, weights=self.prob_dist, k=self.model.env.num_envs
             )
             for i in range(self.model.env.num_envs):
                 policy = PPO.load(
-                    f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams/{policies[i]}",
+                    f"results/saves-{self.run_ident}/{self.num_teams}-teams/{policies[i]}",
                     device=self.model.device,
                 ).policy
                 self.model.env.env_method("set_opp_policy", policy, indices=i)
@@ -170,7 +170,7 @@ class Callback(BaseCallback):
             if self.learning_style == LearningStyle.DOUBLE_ORACLE:
                 self.update_payoff_matrix()
             self.model.save(
-                f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams/{self.model.num_timesteps}"
+                f"results/saves-{self.run_ident}/{self.num_teams}-teams/{self.model.num_timesteps}"
             )
 
     def _on_training_end(self):
@@ -185,13 +185,11 @@ class Callback(BaseCallback):
     def update_payoff_matrix(self):
         policy = MaskedActorCriticPolicy.clone(self.model)
         self.eval_agent.set_policy(policy)
-        policy_files = os.listdir(
-            f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams"
-        )
+        policy_files = os.listdir(f"results/saves-{self.run_ident}/{self.num_teams}-teams")
         win_rates = np.array([])
         for p in policy_files:
             policy2 = PPO.load(
-                f"results/saves-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams/{p}",
+                f"results/saves-{self.run_ident}/{self.num_teams}-teams/{p}",
                 device=self.model.device,
             ).policy
             self.eval_agent2.set_policy(policy2)
@@ -202,8 +200,7 @@ class Callback(BaseCallback):
         self.payoff_matrix = np.concat([self.payoff_matrix, win_rates.reshape(1, -1)], axis=0)
         self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
         with open(
-            f"results/logs-{self.run_ident}/{','.join([str(t) for t in self.teams])}-teams-payoff-matrix.json",
-            "w",
+            f"results/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json", "w"
         ) as f:
             json.dump(
                 [

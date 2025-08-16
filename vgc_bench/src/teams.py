@@ -2451,7 +2451,7 @@ Impish Nature
 """,
     ],
     "regh": [
-        ### BALTIMORE REGIONALS SEPTEMBER 2024 (12 teams) ###
+        ### BALTIMORE REGIONALS SEPTEMBER 2024 (11 teams) ###
         """
 Incineroar @ Safety Goggles
 Ability: Intimidate
@@ -2950,75 +2950,6 @@ IVs: 0 Atk
 - Electro Shot
 - Aura Sphere
 - Dragon Pulse
-""",
-        """
-Kingambit @ Safety Goggles
-Ability: Defiant
-Level: 50
-Tera Type: Fire
-EVs: 140 HP / 252 Atk / 116 Spe
-Adamant Nature
-- Kowtow Cleave
-- Protect
-- Sucker Punch
-- Swords Dance
-
-Arcanine-Hisui @ Sitrus Berry
-Ability: Intimidate
-Level: 50
-Tera Type: Grass
-EVs: 172 HP / 20 Atk / 60 Def / 4 SpD / 252 Spe
-Jolly Nature
-- Howl
-- Flare Blitz
-- Rock Slide
-- Protect
-
-Whimsicott @ Covert Cloak
-Ability: Prankster
-Level: 50
-Tera Type: Water
-EVs: 156 HP / 4 Def / 124 SpA / 76 SpD / 148 Spe
-Timid Nature
-IVs: 0 Atk
-- Protect
-- Moonblast
-- Encore
-- Tailwind
-
-Dragonite @ Choice Band
-Ability: Inner Focus
-Level: 50
-Tera Type: Flying
-EVs: 4 HP / 252 Atk / 252 Spe
-Jolly Nature
-- Tera Blast
-- Outrage
-- Stomping Tantrum
-- Extreme Speed
-
-Sneasler @ Focus Sash
-Ability: Poison Touch
-Level: 50
-Tera Type: Grass
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Fake Out
-- Close Combat
-- Dire Claw
-- Protect
-
-Ursaluna-Bloodmoon @ Life Orb
-Ability: Mind's Eye
-Level: 50
-Tera Type: Normal
-EVs: 4 HP / 4 Def / 212 SpA / 84 SpD / 204 Spe
-Modest Nature
-IVs: 0 Atk
-- Hyper Voice
-- Blood Moon
-- Earth Power
-- Protect
 """,
         """
 Talonflame @ Life Orb
@@ -4559,7 +4490,7 @@ Timid Nature
 - Nasty Plot
 - Protect
 """,
-        ### LILLE REGIONALS OCTOBER 2024 (5 teams) ###
+        ### LILLE REGIONALS OCTOBER 2024 (4 teams) ###
         """
 Baxcalibur (F) @ Loaded Dice
 Ability: Thermal Exchange
@@ -4771,79 +4702,6 @@ IVs: 0 Atk
 - Shadow Ball
 - Nasty Plot
 - Protect
-""",
-        """
-Indeedee-F @ Rocky Helmet
-Ability: Psychic Surge
-Level: 50
-Tera Type: Grass
-EVs: 252 HP / 252 Def / 4 SpD
-Relaxed Nature
-IVs: 0 Atk / 0 Spe
-- Psychic
-- Helping Hand
-- Follow Me
-- Trick Room
-
-Gallade @ Scope Lens
-Ability: Sharpness
-Level: 50
-Tera Type: Grass
-EVs: 252 HP / 252 Atk / 4 Def
-Brave Nature
-IVs: 0 Spe
-- Sacred Sword
-- Psycho Cut
-- Trick Room
-- Wide Guard
-
-Torkoal @ Charcoal
-Ability: Drought
-Level: 50
-Tera Type: Fire
-EVs: 244 HP / 12 Def / 252 SpA
-Quiet Nature
-IVs: 0 Atk / 0 Spe
-- Eruption
-- Weather Ball
-- Clear Smog
-- Protect
-
-Ursaluna @ Flame Orb
-Ability: Guts
-Level: 50
-Tera Type: Ghost
-EVs: 140 HP / 252 Atk / 116 SpD
-Brave Nature
-IVs: 0 Spe
-- Facade
-- Headlong Rush
-- Earthquake
-- Protect
-
-Exeggutor @ Focus Sash
-Ability: Chlorophyll
-Level: 50
-Tera Type: Psychic
-EVs: 4 HP / 252 SpA / 252 Spe
-Modest Nature
-IVs: 0 Atk
-- Expanding Force
-- Leaf Storm
-- Sleep Powder
-- Trick Room
-
-Zoroark-Hisui @ Choice Specs
-Ability: Illusion
-Level: 50
-Tera Type: Normal
-EVs: 4 HP / 252 SpA / 252 Spe
-Timid Nature
-IVs: 0 Atk
-- Hyper Beam
-- Hyper Voice
-- Shadow Ball
-- Focus Blast
 """,
         """
 Gothitelle @ Sitrus Berry
@@ -5065,7 +4923,7 @@ Careful Nature
 - Fake Out
 - Parting Shot
 """,
-        ### GDAŃSK REGIONALS NOVEMBER 2024 (5 teams) ###
+        ### GDAŃSK REGIONALS NOVEMBER 2024 (4 teams) ###
         """
 Annihilape (F) @ Leftovers
 Ability: Defiant
@@ -5276,76 +5134,6 @@ Adamant Nature
 - Knock Off
 - Parting Shot
 - Fake Out
-""",
-        """
-Rillaboom @ Assault Vest
-Ability: Grassy Surge
-Level: 50
-Tera Type: Fire
-EVs: 148 HP / 116 Atk / 4 Def / 92 SpD / 148 Spe
-Adamant Nature
-- Fake Out
-- Wood Hammer
-- Grassy Glide
-- High Horsepower
-
-Volcarona @ Covert Cloak
-Ability: Flame Body
-Level: 50
-Tera Type: Grass
-EVs: 252 HP / 116 Def / 36 SpA / 4 SpD / 100 Spe
-Modest Nature
-IVs: 24 Atk
-- Heat Wave
-- Giga Drain
-- Quiver Dance
-- Protect
-
-Dragapult @ Choice Band
-Ability: Clear Body
-Level: 50
-Tera Type: Dragon
-EVs: 4 HP / 252 Atk / 252 Spe
-Jolly Nature
-IVs: 28 SpA
-- Dragon Darts
-- Phantom Force
-- Outrage
-- U-turn
-
-Clefable @ Sitrus Berry
-Ability: Unaware
-Level: 50
-Tera Type: Water
-EVs: 252 HP / 180 Def / 76 SpD
-Calm Nature
-- Moonblast
-- Follow Me
-- Thunder Wave
-- Protect
-
-Sneasler @ Focus Sash
-Ability: Poison Touch
-Level: 50
-Tera Type: Stellar
-EVs: 4 HP / 252 Atk / 252 Spe
-Jolly Nature
-IVs: 28 SpA
-- Close Combat
-- Dire Claw
-- Protect
-- Fake Out
-
-Kingambit @ Black Glasses
-Ability: Defiant
-Level: 50
-Tera Type: Dark
-EVs: 252 HP / 252 Atk / 4 SpD
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Swords Dance
-- Protect
 """,
         """
 Ninetales-Alola @ Choice Specs
@@ -6115,7 +5903,7 @@ IVs: 0 Atk
 - Tailwind
 - Protect
 """,
-        ### SACRAMENTO REGIONALS NOVEMBER 2024 (6 teams) ###
+        ### SACRAMENTO REGIONALS NOVEMBER 2024 (5 teams) ###
         """
 Sneasler @ Psychic Seed
 Ability: Unburden
@@ -6472,79 +6260,7 @@ IVs: 20 Atk
 - Protect
 - Hyper Voice
 """,
-        """
-Sneasler @ Psychic Seed
-Ability: Unburden
-Level: 50
-Tera Type: Dark
-EVs: 252 Atk / 4 SpD / 252 Spe
-Adamant Nature
-- Protect
-- Close Combat
-- Dire Claw
-- Throat Chop
-
-Armarouge @ Life Orb
-Ability: Flash Fire
-Level: 50
-Tera Type: Grass
-EVs: 68 HP / 28 Def / 252 SpA / 4 SpD / 156 Spe
-Modest Nature
-IVs: 0 Atk
-- Protect
-- Trick Room
-- Armor Cannon
-- Expanding Force
-
-Ursaluna @ Flame Orb
-Ability: Guts
-Level: 50
-Tera Type: Ghost
-EVs: 140 HP / 252 Atk / 20 Def / 92 SpD
-Brave Nature
-IVs: 0 Spe
-- Protect
-- Facade
-- Earthquake
-- Headlong Rush
-
-Abomasnow @ Focus Sash
-Ability: Snow Warning
-Level: 50
-Tera Type: Ice
-EVs: 204 HP / 252 SpA / 52 Spe
-Modest Nature
-IVs: 18 Atk
-- Protect
-- Blizzard
-- Leaf Storm
-- Earth Power
-
-Dragapult @ Choice Band
-Ability: Clear Body
-Level: 50
-Tera Type: Dragon
-EVs: 252 Atk / 4 Def / 252 Spe
-Adamant Nature
-IVs: 16 SpA
-- Dragon Darts
-- Outrage
-- Phantom Force
-- U-turn
-
-Indeedee-F @ Rocky Helmet
-Ability: Psychic Surge
-Level: 50
-Tera Type: Fairy
-EVs: 252 HP / 236 Def / 20 SpD
-Relaxed Nature
-IVs: 10 Atk
-- Trick Room
-- Follow Me
-- Helping Hand
-- Alluring Voice
-""",
-        ### TAIWAN PREMIER BALL LEAGUE DECEMBER 2024 (13 teams) ###
+        ### TAIWAN PREMIER BALL LEAGUE DECEMBER 2024 (11 teams) ###
         """
 紫竽超可愛 (Indeedee-F) @ Psychic Seed
 Ability: Psychic Surge
@@ -6985,142 +6701,6 @@ Quiet Nature
 - Protect
 """,
         """
-Gholdengo @ Choice Specs
-Ability: Good as Gold
-Level: 50
-Tera Type: Steel
-EVs: 180 HP / 4 Def / 212 SpA / 4 SpD / 108 Spe
-Modest Nature
-IVs: 0 Atk
-- Make It Rain
-- Shadow Ball
-- Thunderbolt
-- Trick
-
-Murkrow @ Eviolite
-Ability: Prankster
-Level: 50
-Tera Type: Ghost
-EVs: 252 HP / 100 Def / 156 SpD
-Bold Nature
-IVs: 7 Atk
-- Foul Play
-- Taunt
-- Haze
-- Tailwind
-
-Archaludon @ Power Herb
-Ability: Sturdy
-Level: 50
-Tera Type: Electric
-EVs: 4 Def / 252 SpA / 252 Spe
-Modest Nature
-IVs: 0 Atk
-- Flash Cannon
-- Electro Shot
-- Draco Meteor
-- Protect
-
-Sneasler @ Focus Sash
-Ability: Poison Touch
-Level: 50
-Tera Type: Stellar
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-
-Kingambit @ Black Glasses
-Ability: Defiant
-Level: 50
-Tera Type: Dark
-EVs: 204 HP / 252 Atk / 44 Def / 4 SpD / 4 Spe
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Swords Dance
-- Protect
-
-Armarouge @ Rocky Helmet
-Ability: Flash Fire
-Level: 50
-Tera Type: Dark
-EVs: 244 HP / 4 Def / 252 SpA / 4 SpD / 4 Spe
-Modest Nature
-IVs: 0 Atk
-- Armor Cannon
-- Dark Pulse
-- Expanding Force
-- Wide Guard
-""",
-        """
-Orthworm @ Safety Goggles
-Ability: Earth Eater
-Level: 50
-Tera Type: Electric
-EVs: 244 HP / 4 Atk / 4 Def / 252 SpD / 4 Spe
-Impish Nature
-- Heavy Slam
-- Body Press
-- Helping Hand
-- Smack Down
-
-Indeedee @ Choice Scarf
-Ability: Inner Focus
-Level: 50
-Tera Type: Fighting
-EVs: 4 HP / 20 Def / 252 SpA / 4 SpD / 228 Spe
-Modest Nature
-- Expanding Force
-- Hyper Voice
-- Tera Blast
-- Dazzling Gleam
-
-Garchomp @ Choice Band
-Ability: Rough Skin
-Level: 50
-Tera Type: Steel
-EVs: 60 HP / 100 Atk / 4 Def / 92 SpD / 252 Spe
-Jolly Nature
-- Outrage
-- Rock Slide
-- Earthquake
-- Stomping Tantrum
-
-Typhlosion-Hisui @ Focus Sash
-Ability: Blaze
-Level: 50
-Tera Type: Fire
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-IVs: 0 Atk
-- Protect
-- Overheat
-- Shadow Ball
-- Eruption
-
-Gholdengo @ Choice Specs
-Ability: Good as Gold
-Level: 50
-Tera Type: Flying
-EVs: 228 HP / 4 Def / 212 SpA / 44 SpD / 20 Spe
-Modest Nature
-- Make It Rain
-- Shadow Ball
-- Thunderbolt
-- Power Gem
-
-Murkrow @ Eviolite
-Ability: Prankster
-Level: 50
-Tera Type: Ghost
-EVs: 188 HP / 204 Def / 108 SpD / 4 Spe
-Bold Nature
-IVs: 21 Atk / 11 SpA
-- Sunny Day
-- Haze
-- Tailwind
-- Foul Play
-""",
-        """
 Volcarona @ Rocky Helmet
 Ability: Flame Body
 Level: 50
@@ -7482,7 +7062,7 @@ Adamant Nature
 - Tailwind
 - Protect
 """,
-        ### STUTTGART REGIONALS DECEMBER 2024 (7 teams) ###
+        ### STUTTGART REGIONALS DECEMBER 2024 (6 teams) ###
         """
 Incineroar @ Safety Goggles
 Ability: Intimidate
@@ -7829,79 +7409,6 @@ IVs: 0 Atk
 - Shadow Ball
 - Nasty Plot
 - Protect
-""",
-        """
-Gallade @ Clear Amulet
-Ability: Sharpness
-Level: 50
-Tera Type: Grass
-EVs: 252 HP / 204 Atk / 4 Def / 44 SpD
-Brave Nature
-IVs: 4 Spe
-- Psycho Cut
-- Sacred Sword
-- Trick Room
-- Wide Guard
-
-Indeedee-F @ Rocky Helmet
-Ability: Psychic Surge
-Level: 50
-Tera Type: Steel
-EVs: 252 HP / 252 Def / 4 SpD
-Relaxed Nature
-IVs: 0 Atk / 0 Spe
-- Trick Room
-- Follow Me
-- Helping Hand
-- Psychic
-
-Torkoal @ Charcoal
-Ability: Drought
-Level: 50
-Tera Type: Fire
-EVs: 252 HP / 252 SpA / 4 SpD
-Quiet Nature
-IVs: 0 Atk / 0 Spe
-- Eruption
-- Heat Wave
-- Clear Smog
-- Weather Ball
-
-Ursaluna @ Flame Orb
-Ability: Guts
-Level: 50
-Tera Type: Ghost
-EVs: 116 HP / 236 Atk / 20 Def / 132 SpD
-Brave Nature
-IVs: 18 SpA / 0 Spe
-- Facade
-- Headlong Rush
-- Earthquake
-- Protect
-
-Hatterene @ Life Orb
-Ability: Magic Bounce
-Level: 50
-Tera Type: Water
-EVs: 212 HP / 44 Def / 252 SpA
-Quiet Nature
-IVs: 0 Atk / 0 Spe
-- Expanding Force
-- Dazzling Gleam
-- Protect
-- Trick Room
-
-Zoroark-Hisui @ Choice Specs
-Ability: Illusion
-Level: 50
-Tera Type: Stellar
-EVs: 4 HP / 252 SpA / 252 Spe
-Timid Nature
-IVs: 10 Atk
-- Hyper Voice
-- Shadow Ball
-- Tera Blast
-- Taunt
 """,
         """
 Anti-Hero (Yanmega) @ Focus Sash
@@ -8472,7 +7979,7 @@ Modest Nature
 - Expanding Force
 - Flash Cannon
 """,
-        ### TORONTO REGIONALS DECEMBER 2024 (14 teams) ###
+        ### TORONTO REGIONALS DECEMBER 2024 (13 teams) ###
         """
 Sneasler @ Psychic Seed
 Ability: Unburden
@@ -9376,76 +8883,6 @@ IVs: 0 Atk
 - Psychic
 - Follow Me
 - Trick Room
-- Protect
-""",
-        """
-Ninetales-Alola @ Focus Sash
-Ability: Snow Warning
-Level: 50
-Tera Type: Ghost
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-IVs: 0 Atk
-- Encore
-- Icy Wind
-- Blizzard
-- Protect
-
-Kommo-o @ Throat Spray
-Ability: Soundproof
-Level: 50
-Tera Type: Fire
-EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
-Modest Nature
-IVs: 22 Atk
-- Clanging Scales
-- Flamethrower
-- Clanging Scales
-- Protect
-
-Basculegion @ Choice Band
-Ability: Adaptability
-Level: 50
-Tera Type: Fighting
-EVs: 44 HP / 204 Atk / 76 Def / 4 SpD / 180 Spe
-Jolly Nature
-- Flip Turn
-- Tera Blast
-- Wave Crash
-- Last Respects
-
-Magmar @ Eviolite
-Ability: Vital Spirit
-Level: 50
-Tera Type: Ghost
-EVs: 252 HP / 196 Def / 60 Spe
-Timid Nature
-IVs: 0 Atk
-- Overheat
-- Will-O-Wisp
-- Follow Me
-- Protect
-
-Rillaboom @ Assault Vest
-Ability: Grassy Surge
-Level: 50
-Tera Type: Fire
-EVs: 252 HP / 116 Atk / 20 Def / 76 SpD / 44 Spe
-Adamant Nature
-- Wood Hammer
-- Fake Out
-- U-turn
-- Grassy Glide
-
-Kingambit @ Black Glasses
-Ability: Defiant
-Level: 50
-Tera Type: Ghost
-EVs: 252 HP / 196 Atk / 12 Def / 12 SpD / 28 Spe
-Adamant Nature
-- Swords Dance
-- Sucker Punch
-- Kowtow Cleave
 - Protect
 """,
         ### HONG KONG PREMIER BALL LEAGUE DECEMBER 2024 (2 teams) ###
