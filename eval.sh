@@ -5,7 +5,7 @@ if [[ $PATH != "/scratch/cluster/cangliss/bin:"* ]]; then
 fi
 export HF_HOME=/scratch/cluster/cangliss/hf_cache
 
-team_counts=(1 3 10 30)
+team_counts=(1 4 16 64)
 team_lists=("30 31" "32 33" "30")
 ports=(8000 8001 8002 8003)
 devices=("cuda:0" "cuda:1" "cuda:2" "cuda:3")

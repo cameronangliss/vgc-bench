@@ -4,7 +4,7 @@ if [[ $PATH != "/scratch/cluster/cangliss/bin:"* ]]; then
     export PATH="/scratch/cluster/cangliss/bin:$PATH"
 fi
 
-team_counts=(1 3 10 30)
+team_counts=(1 4 16 64)
 ports=(7200 7201 7202 7203)
 devices=("cuda:0" "cuda:1" "cuda:2" "cuda:3")
 
