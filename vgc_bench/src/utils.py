@@ -49,7 +49,6 @@ class LearningStyle(Enum):
 
 
 # training params
-run_id = 0
 battle_format = "gen9vgc2025regi"
 num_envs = 24
 steps = 98_304

@@ -10,6 +10,7 @@ from stable_baselines3.common.vec_env import SubprocVecEnv
 
 
 def train(
+    run_id: int,
     num_teams: int,
     port: int,
     device: str,
@@ -18,11 +19,12 @@ def train(
     num_frames: int,
 ):
     env = (
-        ShowdownEnv.create_env(num_teams, port, device, learning_style, num_frames)
+        ShowdownEnv.create_env(run_id, num_teams, port, device, learning_style, num_frames)
         if learning_style == LearningStyle.PURE_SELF_PLAY
         else SubprocVecEnv(
             [
                 lambda: ShowdownEnv.create_env(
+                    run_id,
                     1 if learning_style == LearningStyle.EXPLOITER else num_teams,
                     port,
                     device,
@@ -53,24 +55,24 @@ def train(
         batch_size=64,
         gamma=1,
         ent_coef=1e-3,
-        tensorboard_log=f"results/logs-{run_ident}",
+        tensorboard_log=f"results{run_id}/logs-{run_ident}",
         policy_kwargs={"num_frames": num_frames, "chooses_on_teampreview": chooses_on_teampreview},
         device=device,
     )
     num_saved_timesteps = 0
     if (
-        os.path.exists(f"results/saves-{run_ident}/{num_teams}-teams")
-        and len(os.listdir(f"results/saves-{run_ident}/{num_teams}-teams")) > 0
+        os.path.exists(f"results{run_id}/saves-{run_ident}/{num_teams}-teams")
+        and len(os.listdir(f"results{run_id}/saves-{run_ident}/{num_teams}-teams")) > 0
     ):
         saved_policy_timesteps = [
             int(file[:-4])
-            for file in os.listdir(f"results/saves-{run_ident}/{num_teams}-teams")
+            for file in os.listdir(f"results{run_id}/saves-{run_ident}/{num_teams}-teams")
             if int(file[:-4]) >= 0
         ]
         if saved_policy_timesteps:
             num_saved_timesteps = max(saved_policy_timesteps)
             ppo.set_parameters(
-                f"results/saves-{run_ident}/{num_teams}-teams/{num_saved_timesteps}.zip",
+                f"results{run_id}/saves-{run_ident}/{num_teams}-teams/{num_saved_timesteps}.zip",
                 device=ppo.device,
             )
             if num_saved_timesteps < steps:
@@ -78,7 +80,9 @@ def train(
             ppo.num_timesteps = num_saved_timesteps
     ppo.learn(
         5_013_504 - num_saved_timesteps,
-        callback=Callback(num_teams, port, device, learning_style, behavior_clone, num_frames),
+        callback=Callback(
+            run_id, num_teams, port, device, learning_style, behavior_clone, num_frames
+        ),
         tb_log_name=f"{num_teams}-teams",
         reset_num_timesteps=False,
     )
@@ -87,6 +91,7 @@ def train(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a Pokémon AI model")
+    parser.add_argument("--run_id", type=int, required=True, help="Run ID for the training session")
     parser.add_argument(
         "--num_teams", type=int, required=True, help="Number of teams to train with"
     )
@@ -133,4 +138,12 @@ if __name__ == "__main__":
         style = LearningStyle.DOUBLE_ORACLE
     else:
         raise TypeError()
-    train(args.num_teams, args.port, args.device, style, args.behavior_clone, args.num_frames)
+    train(
+        args.run_id,
+        args.num_teams,
+        args.port,
+        args.device,
+        style,
+        args.behavior_clone,
+        args.num_frames,
+    )

@@ -13,7 +13,7 @@ from poke_env.ps_client import ServerConfiguration
 from src.agent import Agent
 from src.policy import MaskedActorCriticPolicy
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
-from src.utils import LearningStyle, allow_mirror_match, battle_format, run_id, steps
+from src.utils import LearningStyle, allow_mirror_match, battle_format, steps
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import BaseCallback
 
@@ -23,6 +23,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 class Callback(BaseCallback):
     def __init__(
         self,
+        run_id: int,
         num_teams: int,
         port: int,
         device: str,
@@ -33,6 +34,7 @@ class Callback(BaseCallback):
         super().__init__()
         self.learning_style = learning_style
         self.behavior_clone = behavior_clone
+        self.run_id = run_id
         self.num_teams = num_teams
         self.run_ident = "".join(
             [
@@ -42,19 +44,19 @@ class Callback(BaseCallback):
                 "-xm" if not allow_mirror_match else "",
             ]
         )[1:]
-        if not os.path.exists(f"results/logs-{self.run_ident}"):
-            os.mkdir(f"results/logs-{self.run_ident}")
+        if not os.path.exists(f"results{run_id}/logs-{self.run_ident}"):
+            os.mkdir(f"results{run_id}/logs-{self.run_ident}")
         self.payoff_matrix: npt.NDArray[np.float32]
         self.prob_dist = None
         if self.learning_style == LearningStyle.LAST_SELF:
-            policy_files = os.listdir(f"results/saves-{self.run_ident}/{self.num_teams}-teams")
+            policy_files = os.listdir(f"results{run_id}/saves-{self.run_ident}/{self.num_teams}-teams")
             self.prob_dist = [0.0] * (len(policy_files) - 1) + [1.0]
         elif self.learning_style == LearningStyle.DOUBLE_ORACLE:
             if os.path.exists(
-                f"results/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json"
+                f"results{run_id}/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json"
             ):
                 with open(
-                    f"results/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json"
+                    f"results{run_id}/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json"
                 ) as f:
                     self.payoff_matrix = np.array(json.load(f))
             else:
@@ -125,13 +127,13 @@ class Callback(BaseCallback):
             self.evaluate()
         if not self.behavior_clone:
             self.model.save(
-                f"results/saves-{self.run_ident}/{self.num_teams}-teams/{self.model.num_timesteps}"
+                f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams/{self.model.num_timesteps}"
             )
         else:
             try:
                 saves = [
                     int(file[:-4])
-                    for file in os.listdir(f"results/saves-{self.run_ident}/{self.num_teams}-teams")
+                    for file in os.listdir(f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams")
                     if int(file[:-4]) >= 0
                 ]
             except FileNotFoundError:
@@ -139,7 +141,7 @@ class Callback(BaseCallback):
             assert len(saves) > 0
         if self.learning_style == LearningStyle.EXPLOITER:
             policy = PPO.load(
-                f"results/saves-{self.run_ident}/{self.num_teams}-teams/-1",
+                f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams/-1",
                 device=self.model.device,
             ).policy
             for i in range(self.model.env.num_envs):
@@ -155,13 +157,13 @@ class Callback(BaseCallback):
             LearningStyle.FICTITIOUS_PLAY,
             LearningStyle.DOUBLE_ORACLE,
         ]:
-            policy_files = os.listdir(f"results/saves-{self.run_ident}/{self.num_teams}-teams")
+            policy_files = os.listdir(f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams")
             policies = random.choices(
                 policy_files, weights=self.prob_dist, k=self.model.env.num_envs
             )
             for i in range(self.model.env.num_envs):
                 policy = PPO.load(
-                    f"results/saves-{self.run_ident}/{self.num_teams}-teams/{policies[i]}",
+                    f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams/{policies[i]}",
                     device=self.model.device,
                 ).policy
                 self.model.env.env_method("set_opp_policy", policy, indices=i)
@@ -172,7 +174,7 @@ class Callback(BaseCallback):
             if self.learning_style == LearningStyle.DOUBLE_ORACLE:
                 self.update_payoff_matrix()
             self.model.save(
-                f"results/saves-{self.run_ident}/{self.num_teams}-teams/{self.model.num_timesteps}"
+                f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams/{self.model.num_timesteps}"
             )
 
     def _on_training_end(self):
@@ -187,11 +189,11 @@ class Callback(BaseCallback):
     def update_payoff_matrix(self):
         policy = MaskedActorCriticPolicy.clone(self.model)
         self.eval_agent.set_policy(policy)
-        policy_files = os.listdir(f"results/saves-{self.run_ident}/{self.num_teams}-teams")
+        policy_files = os.listdir(f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams")
         win_rates = np.array([])
         for p in policy_files:
             policy2 = PPO.load(
-                f"results/saves-{self.run_ident}/{self.num_teams}-teams/{p}",
+                f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams/{p}",
                 device=self.model.device,
             ).policy
             self.eval_agent2.set_policy(policy2)
@@ -202,7 +204,7 @@ class Callback(BaseCallback):
         self.payoff_matrix = np.concat([self.payoff_matrix, win_rates.reshape(1, -1)], axis=0)
         self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
         with open(
-            f"results/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json", "w"
+            f"results{self.run_id}/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json", "w"
         ) as f:
             json.dump(
                 [

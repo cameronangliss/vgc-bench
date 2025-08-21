@@ -4,6 +4,7 @@ if [[ $PATH != "/scratch/cluster/cangliss/bin:"* ]]; then
     export PATH="/scratch/cluster/cangliss/bin:$PATH"
 fi
 
+run_id=1
 team_counts=(1 4 16 64)
 ports=(7200 7201 7202 7203)
 devices=("cuda:0" "cuda:1" "cuda:2" "cuda:3")
@@ -27,7 +28,7 @@ train() {
     showdown_pid=$(start_showdown $port)
     sleep 5
     echo "Starting training process $i..."
-    python vgc_bench/train.py --num_teams $num_teams --port $port --device $device --self_play > "debug$port.log" 2>&1
+    python vgc_bench/train.py --run_id $run_id --num_teams $num_teams --port $port --device $device --self_play > "debug$port.log" 2>&1
     exit_status=$?
     if [ $exit_status -ne 0 ]; then
         echo "Training process $i died with exit status $exit_status"
@@ -43,7 +44,7 @@ train() {
 }
 
 trap "echo 'Stopping...'; kill 0" SIGINT
-mkdir -p results
+mkdir -p "results$run_id"
 for i in "${!team_counts[@]}"; do
     train $i &
     sleep 10

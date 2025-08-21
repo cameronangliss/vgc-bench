@@ -24,7 +24,6 @@ from src.utils import (
     chunk_obs_len,
     moves,
     num_envs,
-    run_id,
 )
 from stable_baselines3.common.monitor import Monitor
 
@@ -48,7 +47,13 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
 
     @classmethod
     def create_env(
-        cls, num_teams: int, port: int, device: str, learning_style: LearningStyle, num_frames: int
+        cls,
+        run_id: int,
+        num_teams: int,
+        port: int,
+        device: str,
+        learning_style: LearningStyle,
+        num_frames: int,
     ) -> Env:
         teams = list(range(len(TEAMS[battle_format[-4:]])))
         random.Random(run_id).shuffle(teams)
