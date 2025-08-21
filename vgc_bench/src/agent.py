@@ -150,7 +150,8 @@ class Agent(Player):
             min(battle.turn - battle.fields[f], 8) / 8 if f in battle.fields else 0 for f in Field
         ]
         teampreview = float(battle.teampreview)
-        return np.array([*weather, *fields, teampreview], dtype=np.float32)
+        reviving = float(battle.reviving)
+        return np.array([*weather, *fields, reviving, teampreview], dtype=np.float32)
 
     @staticmethod
     def embed_side(
