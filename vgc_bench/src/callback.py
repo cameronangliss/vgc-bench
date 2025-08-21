@@ -12,8 +12,8 @@ from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
 from src.agent import Agent
 from src.policy import MaskedActorCriticPolicy
-from src.teams import RandomTeamBuilder, TeamToggle
-from src.utils import LearningStyle, allow_mirror_match, battle_format, steps
+from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
+from src.utils import LearningStyle, allow_mirror_match, battle_format, run_id, steps
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import BaseCallback
 
@@ -60,6 +60,8 @@ class Callback(BaseCallback):
             else:
                 self.payoff_matrix = np.array([[0.5]])
             self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
+        teams = list(range(len(TEAMS[battle_format[-4:]])))
+        random.Random(run_id).shuffle(teams)
         toggle = None if allow_mirror_match else TeamToggle(num_teams)
         self.eval_agent = Agent(
             num_frames,
@@ -74,7 +76,7 @@ class Callback(BaseCallback):
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
-                [0] if learning_style == LearningStyle.EXPLOITER else list(range(num_teams)),
+                [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
                 battle_format,
                 toggle,
             ),
@@ -92,7 +94,7 @@ class Callback(BaseCallback):
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
-                [0] if learning_style == LearningStyle.EXPLOITER else list(range(num_teams)),
+                [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
                 battle_format,
                 toggle,
             ),
@@ -108,7 +110,7 @@ class Callback(BaseCallback):
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
-                [0] if learning_style == LearningStyle.EXPLOITER else list(range(num_teams)),
+                [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
                 battle_format,
                 toggle,
             ),
