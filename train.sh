@@ -47,6 +47,6 @@ trap "echo 'Stopping...'; kill 0" SIGINT
 mkdir -p "results$run_id"
 for i in "${!team_counts[@]}"; do
     train $i &
-    sleep 10
+    sleep 30
 done
 wait
