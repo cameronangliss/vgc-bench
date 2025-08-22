@@ -13,7 +13,7 @@ dependencies = [
     "poke-env @ git+https://github.com/cameronangliss/poke-env.git@thesis-old",
     "sentence-transformers",
     "stable_baselines3",
-    "supersuit",
+    "supersuit~=3.9.0",
     "tensorboard",
     "torch",
     "torch-tb-profiler",
