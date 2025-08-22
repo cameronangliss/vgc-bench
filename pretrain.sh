@@ -18,6 +18,7 @@ start_showdown() {
     )
 }
 
+mkdir -p "results$run_id"
 echo "Starting Showdown server for pretraining process..."
 showdown_pid=$(start_showdown "$port")
 echo "Starting pretraining process..."

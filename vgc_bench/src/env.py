@@ -9,7 +9,7 @@ import supersuit as ss
 import torch
 from gymnasium import Env
 from gymnasium.spaces import Box
-from gymnasium.wrappers import FrameStackObservation
+from gymnasium.wrappers.frame_stack import FrameStack
 from poke_env.battle import AbstractBattle
 from poke_env.environment import DoublesEnv, SingleAgentWrapper
 from poke_env.ps_client import ServerConfiguration
@@ -85,7 +85,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             opponent = Agent(num_frames, torch.device(device), start_listening=False)
             env = SingleAgentWrapper(env, opponent)
             if num_frames > 1:
-                env = FrameStackObservation(env, num_frames, padding_type="zero")
+                env = FrameStack(env, num_frames)
             env = Monitor(env)
             return env
 

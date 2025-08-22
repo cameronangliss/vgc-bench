@@ -8,8 +8,7 @@ This includes:
 
 # How to setup
 Prerequisites:
-1. Python (I use v3.10)
-1. Pip (I use v23)
+1. Python (I use v3.12)
 1. NodeJS and npm (whatever pokemon-showdown requires)
 
 Run the following to ensure that pokemon showdown is configured:
@@ -29,7 +28,7 @@ Then Ctrl+c the operation and run the following from the root of VGC-Bench:
 ```
 python3 -m venv <env-path>
 source <env-path>/bin/activate
-pip install -r requirements.txt
+pip install .[dev]
 python vgc_bench/scrape_data.py
 ```
 

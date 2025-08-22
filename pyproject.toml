@@ -3,9 +3,25 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "UT_masters_thesis"
+name = "vgc-bench"
 version = "0.1.0"
 authors = [{ name = "Cameron Angliss", email = "cameronangliss99@gmail.com" }]
+dependencies = [
+    "imitation",
+    "nashpy",
+    "open-spiel",
+    "poke-env @ git+https://github.com/cameronangliss/poke-env.git@thesis-old",
+    "sentence-transformers",
+    "stable_baselines3",
+    "supersuit",
+    "tensorboard",
+    "torch",
+    "torch-tb-profiler",
+]
+optional-dependencies = { dev = ["black", "isort"] }
+
+[tool.setuptools.packages.find]
+include = ["vgc_bench"]
 
 [tool.black]
 line-length = 100
