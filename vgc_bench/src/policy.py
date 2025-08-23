@@ -141,6 +141,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
                 norm_first=True,
             ),
             num_layers=self.embed_layers,
+            enable_nested_tensor=False,
         )
         self.frame_encoding: torch.Tensor
         if num_frames > 1:
