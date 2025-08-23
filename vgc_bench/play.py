@@ -28,13 +28,15 @@ async def play(run_id: int, num_teams: int, n_games: int, play_on_ladder: bool):
         start_timer_on_battle_start=play_on_ladder,
         team=RandomTeamBuilder(team_ids[:num_teams], battle_format),
     )
-    agent.set_policy(PPO.load(f"{path}/{os.listdir(path)[-1]}").policy)
+    filepath = f"{path}/{os.listdir(path)[-1]}"
+    agent.set_policy(PPO.load(filepath).policy)
+    print(f"Loaded model from {filepath}")
     if play_on_ladder:
         print("Entering ladder")
         await agent.ladder(n_games=n_games)
         print(f"{agent.n_won_battles}-{agent.n_lost_battles}-{agent.n_tied_battles}")
     else:
-        print("AI is ready")
+        print("Awaiting challenges")
         await agent.accept_challenges(opponent=None, n_challenges=n_games)
 
 
