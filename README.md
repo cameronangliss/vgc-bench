@@ -1,10 +1,11 @@
 # VGC-Bench
 This is the official code for the paper [VGC-Bench: A Benchmark for Generalizing Across Diverse Team Strategies in Competitive Pokémon](https://arxiv.org/abs/2506.10326).
 
-This includes:
-- a supervised learning (SL) pipeline to gather, process, and learn on VGC battle logs with open team sheets
-- a reinforcement learning (RL) pipeline with 3 PSRO methods to fine-tune an agent initialized either randomly or with the product of the SL pipeline
-- a very basic LLMPlayer implementation 
+This benchmark includes:
+- a behavior cloning (BC) pipeline to gather human demonstrations, process them into state-action pairs, and train a model to imitate human play
+- a reinforcement learning (RL) pipeline with 3 PSRO methods to fine-tune an agent initialized either randomly or with the output of the BC pipeline
+- a very basic Large Language Model (LLM) player that any LLM can easily be plugged into
+- 3 basic heuristic players from [poke-env](https://github.com/hsahovic/poke-env)
 
 # How to setup
 Prerequisites:
@@ -24,7 +25,7 @@ RESTORE CHATROOM: staff
 Worker 1 now listening on 0.0.0.0:8000
 Test your server at http://localhost:8000
 ```
-Then Ctrl+c the operation and run the following from the root of VGC-Bench:
+Then Ctrl+c the operation and run the following from the root of vgc-bench:
 ```
 python3 -m venv <env-path>
 source <env-path>/bin/activate
@@ -42,10 +43,10 @@ First, run `node pokemon-showdown start --no-security` from the pokemon-showdown
 
 OR
 
-Use the train.sh, pretrain.sh, or eval.sh scripts for a more streamlined experience. Scripts require manual configuration to operate, use --help on executables for more info
+Use the train.sh, pretrain.sh, or eval.sh scripts for a more streamlined experience. Scripts require manual configuration to operate; use --help on python executables to see option descriptions.
 
 # Data
-Here's a dataset of Gen 9 VGC battles, all with open team sheets enabled: https://huggingface.co/datasets/cameronangliss/vgc-battle-logs
+Here's a dataset of Gen 9 VGC battles, all with both players agreeing to use open team sheets: https://huggingface.co/datasets/cameronangliss/vgc-battle-logs
 
 # Cite us
 
