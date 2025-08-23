@@ -1,19 +1,21 @@
 import argparse
 import asyncio
+import os
 import random
 
 import torch
 from poke_env import AccountConfiguration, ShowdownServerConfiguration
 from src.agent import Agent
-from src.teams import RandomTeamBuilder
+from src.teams import TEAMS, RandomTeamBuilder
 from src.utils import battle_format
 from stable_baselines3 import PPO
 
 
-async def play(n_games: int, play_on_ladder: bool):
+async def play(run_id: int, num_teams: int, n_games: int, play_on_ladder: bool):
     print("Setting up...")
-    filepaths = [f"results-final{i + 1}/saves-bc-sp/0-teams/5013504" for i in range(5)]
-    filepath = random.choice(filepaths)
+    path = f"results{run_id}/saves-sp/{num_teams}-teams"
+    team_ids = list(range(len(TEAMS[battle_format[-4:]])))
+    random.Random(run_id).shuffle(team_ids)
     agent = Agent(
         num_frames=1,
         device=torch.device("cuda:0"),
@@ -24,9 +26,9 @@ async def play(n_games: int, play_on_ladder: bool):
         server_configuration=ShowdownServerConfiguration,
         accept_open_team_sheet=True,
         start_timer_on_battle_start=play_on_ladder,
-        team=RandomTeamBuilder([0], battle_format),
+        team=RandomTeamBuilder(team_ids[:num_teams], battle_format),
     )
-    agent.set_policy(PPO.load(filepath).policy)
+    agent.set_policy(PPO.load(f"{path}/{os.listdir(path)[-1]}").policy)
     if play_on_ladder:
         print("Entering ladder")
         await agent.ladder(n_games=n_games)
@@ -38,7 +40,11 @@ async def play(n_games: int, play_on_ladder: bool):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument("--run_id", type=int, required=True, help="AI's ID from its training run")
+    parser.add_argument(
+        "--num_teams", type=int, default=1, help="Number of teams AI was trained with"
+    )
     parser.add_argument("-n", type=int, default=1, help="Number of games to play. Default is 1.")
     parser.add_argument("-l", action="store_true", help="Play ladder. Default accepts challenges.")
     args = parser.parse_args()
-    asyncio.run(play(args.n, args.l))
+    asyncio.run(play(args.run_id, args.num_teams, args.n, args.l))
