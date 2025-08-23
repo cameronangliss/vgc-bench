@@ -49,7 +49,9 @@ class Callback(BaseCallback):
         self.payoff_matrix: npt.NDArray[np.float32]
         self.prob_dist = None
         if self.learning_style == LearningStyle.LAST_SELF:
-            policy_files = os.listdir(f"results{run_id}/saves-{self.run_ident}/{self.num_teams}-teams")
+            policy_files = os.listdir(
+                f"results{run_id}/saves-{self.run_ident}/{self.num_teams}-teams"
+            )
             self.prob_dist = [0.0] * (len(policy_files) - 1) + [1.0]
         elif self.learning_style == LearningStyle.DOUBLE_ORACLE:
             if os.path.exists(
@@ -133,7 +135,9 @@ class Callback(BaseCallback):
             try:
                 saves = [
                     int(file[:-4])
-                    for file in os.listdir(f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams")
+                    for file in os.listdir(
+                        f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams"
+                    )
                     if int(file[:-4]) >= 0
                 ]
             except FileNotFoundError:
@@ -157,7 +161,9 @@ class Callback(BaseCallback):
             LearningStyle.FICTITIOUS_PLAY,
             LearningStyle.DOUBLE_ORACLE,
         ]:
-            policy_files = os.listdir(f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams")
+            policy_files = os.listdir(
+                f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams"
+            )
             policies = random.choices(
                 policy_files, weights=self.prob_dist, k=self.model.env.num_envs
             )
@@ -189,7 +195,9 @@ class Callback(BaseCallback):
     def update_payoff_matrix(self):
         policy = MaskedActorCriticPolicy.clone(self.model)
         self.eval_agent.set_policy(policy)
-        policy_files = os.listdir(f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams")
+        policy_files = os.listdir(
+            f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams"
+        )
         win_rates = np.array([])
         for p in policy_files:
             policy2 = PPO.load(
@@ -204,7 +212,8 @@ class Callback(BaseCallback):
         self.payoff_matrix = np.concat([self.payoff_matrix, win_rates.reshape(1, -1)], axis=0)
         self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
         with open(
-            f"results{self.run_id}/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json", "w"
+            f"results{self.run_id}/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json",
+            "w",
         ) as f:
             json.dump(
                 [
