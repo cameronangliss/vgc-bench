@@ -3,9 +3,8 @@ import asyncio
 import os
 import random
 
-import torch
 from poke_env import AccountConfiguration, ShowdownServerConfiguration
-from src.agent import Agent
+from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder
 from src.utils import battle_format
 from stable_baselines3 import PPO
@@ -16,9 +15,7 @@ async def play(run_id: int, num_teams: int, n_games: int, play_on_ladder: bool):
     path = f"results{run_id}/saves-sp/{num_teams}-teams"
     team_ids = list(range(len(TEAMS[battle_format[-4:]])))
     random.Random(run_id).shuffle(team_ids)
-    agent = Agent(
-        num_frames=1,
-        device=torch.device("cuda:0"),
+    agent = PolicyPlayer(
         account_configuration=AccountConfiguration("", ""),  # fill in
         battle_format=battle_format,
         log_level=40,
@@ -29,7 +26,7 @@ async def play(run_id: int, num_teams: int, n_games: int, play_on_ladder: bool):
         team=RandomTeamBuilder(team_ids[:num_teams], battle_format),
     )
     filepath = f"{path}/{os.listdir(path)[-1]}"
-    agent.set_policy(PPO.load(filepath).policy)
+    agent.policy = PPO.load(filepath, device="cuda:0").policy
     print(f"Loaded model from {filepath}")
     if play_on_ladder:
         print("Entering ladder")

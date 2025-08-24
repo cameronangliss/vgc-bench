@@ -7,8 +7,8 @@ import transformers
 from poke_env.battle import AbstractBattle, DoubleBattle, Move, Pokemon
 from poke_env.environment import DoublesEnv
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
-from src.agent import Agent
 from src.policy import MaskedActorCriticPolicy
+from src.policy_player import PolicyPlayer
 from src.utils import act_len
 
 
@@ -45,11 +45,13 @@ class LLMPlayer(Player):
         self, battle: DoubleBattle, pos: int, ally_action: np.int64 | None
     ) -> np.int64:
         if pos == 0:
-            mask = torch.tensor(Agent.get_action_mask(battle, 0))
+            mask = torch.tensor(PolicyPlayer.get_action_mask(battle, 0))
             ally_order = None
         else:
             assert ally_action is not None
-            mask = torch.tensor(Agent.get_action_mask(battle, 0) + Agent.get_action_mask(battle, 1))
+            mask = torch.tensor(
+                PolicyPlayer.get_action_mask(battle, 0) + PolicyPlayer.get_action_mask(battle, 1)
+            )
             ally_action_tensor = torch.tensor([[ally_action]])
             mask = MaskedActorCriticPolicy._update_mask(mask, ally_action_tensor)[0, act_len:]
             ally_order = DoublesEnv._action_to_order_individual(ally_action, battle, False, 0)

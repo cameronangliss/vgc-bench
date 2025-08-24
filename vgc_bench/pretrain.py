@@ -3,17 +3,16 @@ import os
 import pickle
 
 import numpy as np
-import torch
 from imitation.algorithms.bc import BC
 from imitation.data.types import Trajectory
 from imitation.util.logger import configure
 from poke_env.environment import SingleAgentWrapper
 from poke_env.player import RandomPlayer, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
-from src.agent import Agent
 from src.callback import Callback
 from src.env import ShowdownEnv
 from src.policy import MaskedActorCriticPolicy
+from src.policy_player import PolicyPlayer
 from src.teams import RandomTeamBuilder
 from src.utils import LearningStyle, battle_format
 from stable_baselines3 import PPO
@@ -40,9 +39,10 @@ class TrajectoryDataset(Dataset):
         return traj
 
     def _frame_stack_traj(self, traj: Trajectory) -> Trajectory:
-        traj_len, *obs_shape = traj.obs.shape
-        stacked_obs = np.empty((traj_len, self.num_frames, *obs_shape), dtype=traj.obs.dtype)
-        zero_obs = np.zeros(obs_shape, dtype=traj.obs[0].dtype)
+        obs = np.array(traj.obs)
+        traj_len, *obs_shape = obs.shape
+        stacked_obs = np.empty((traj_len, self.num_frames, *obs_shape), dtype=obs.dtype)
+        zero_obs = np.zeros(obs_shape, dtype=obs.dtype)
         for i in range(traj_len):
             for j in range(self.num_frames):
                 idx = i - j
@@ -96,9 +96,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
             ["tensorboard"],
         ),
     )
-    eval_agent = Agent(
-        num_frames,
-        torch.device(device),
+    eval_agent = PolicyPlayer(
         server_configuration=ServerConfiguration(
             f"ws://localhost:{port}/showdown/websocket",
             "https://play.pokemonshowdown.com/action.php?",
@@ -118,8 +116,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(list(range(num_teams)), battle_format),
     )
-    policy = MaskedActorCriticPolicy.clone(ppo)
-    eval_agent.set_policy(policy)
+    eval_agent.policy = MaskedActorCriticPolicy.clone(ppo)
     win_rate = Callback.compare(eval_agent, eval_opponent, 100)
     bc.logger.record("bc/eval", win_rate)
     ppo.save(f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/0")
@@ -129,8 +126,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
             demos = next(data)
             bc.set_demonstrations(demos)
             bc.train(n_epochs=1)
-        policy = MaskedActorCriticPolicy.clone(ppo)
-        eval_agent.set_policy(policy)
+        eval_agent.policy = MaskedActorCriticPolicy.clone(ppo)
         win_rate = Callback.compare(eval_agent, eval_opponent, 100)
         bc.logger.record("bc/eval", win_rate)
         ppo.save(f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/{i + 1}")

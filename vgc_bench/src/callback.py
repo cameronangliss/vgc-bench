@@ -6,12 +6,11 @@ import warnings
 
 import numpy as np
 import numpy.typing as npt
-import torch
 from nashpy import Game
 from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
-from src.agent import Agent
 from src.policy import MaskedActorCriticPolicy
+from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
 from src.utils import LearningStyle, allow_mirror_match, battle_format, steps
 from stable_baselines3 import PPO
@@ -26,7 +25,6 @@ class Callback(BaseCallback):
         run_id: int,
         num_teams: int,
         port: int,
-        device: str,
         learning_style: LearningStyle,
         behavior_clone: bool,
         num_frames: int,
@@ -67,9 +65,7 @@ class Callback(BaseCallback):
         teams = list(range(len(TEAMS[battle_format[-4:]])))
         random.Random(run_id).shuffle(teams)
         toggle = None if allow_mirror_match else TeamToggle(num_teams)
-        self.eval_agent = Agent(
-            num_frames,
-            torch.device(device),
+        self.eval_agent = PolicyPlayer(
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
@@ -85,9 +81,7 @@ class Callback(BaseCallback):
                 toggle,
             ),
         )
-        self.eval_agent2 = Agent(
-            num_frames,
-            torch.device(device),
+        self.eval_agent2 = PolicyPlayer(
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
@@ -187,24 +181,21 @@ class Callback(BaseCallback):
         self.model.logger.dump(self.model.num_timesteps)
 
     def evaluate(self):
-        policy = MaskedActorCriticPolicy.clone(self.model)
-        self.eval_agent.set_policy(policy)
+        self.eval_agent.policy = MaskedActorCriticPolicy.clone(self.model)
         win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
         self.model.logger.record("train/eval", win_rate)
 
     def update_payoff_matrix(self):
-        policy = MaskedActorCriticPolicy.clone(self.model)
-        self.eval_agent.set_policy(policy)
+        self.eval_agent.policy = MaskedActorCriticPolicy.clone(self.model)
         policy_files = os.listdir(
             f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams"
         )
         win_rates = np.array([])
         for p in policy_files:
-            policy2 = PPO.load(
+            self.eval_agent2.policy = PPO.load(
                 f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams/{p}",
                 device=self.model.device,
             ).policy
-            self.eval_agent2.set_policy(policy2)
             win_rate = self.compare(self.eval_agent, self.eval_agent2, 100)
             win_rates = np.append(win_rates, win_rate)
         self.payoff_matrix = np.concat([self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1)

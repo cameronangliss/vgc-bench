@@ -23,7 +23,7 @@ from poke_env.player import (
     SingleBattleOrder,
 )
 from poke_env.ps_client import AccountConfiguration
-from src.agent import Agent
+from src.policy_player import PolicyPlayer
 from src.utils import act_len, all_formats, chunk_obs_len
 
 
@@ -177,7 +177,7 @@ class LogReader(Player):
         for i, state in enumerate(states):
             if i in [1, 2]:
                 teampreview_draft += [a - 1 for a in actions[i - 1].tolist()]
-            embedded_state = Agent.embed_battle(state, teampreview_draft)
+            embedded_state = PolicyPlayer.embed_battle(state, teampreview_draft)
             assert embedded_state.shape == (2 * act_len + 12 * chunk_obs_len,)
             embedded_states += [embedded_state]
         return np.stack(embedded_states, axis=0)

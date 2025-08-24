@@ -88,7 +88,9 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
     def get_dist_from_logits(
         self, obs: torch.Tensor, action_logits: torch.Tensor, action: torch.Tensor | None = None
     ) -> MultiCategoricalDistribution:
-        mask = obs[:, : 2 * act_len]
+        batch_size = obs.size(0)
+        mask = obs.view(batch_size, self.num_frames, -1)
+        mask = mask[:, -1, : 2 * act_len]
         if action is not None:
             mask = self._update_mask(mask, action)
         mask = torch.where(mask == 1, 0, float("-inf"))
@@ -164,25 +166,25 @@ class AttentionExtractor(BaseFeaturesExtractor):
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         batch_size = x.size(0)
-        x = x[:, 2 * act_len :]
-        x = x.view(*x.size()[:-1], 12, -1)
+        x = x.view(batch_size, self.num_frames, -1)
+        x = x[:, :, 2 * act_len :]
+        x = x.view(batch_size * self.num_frames, 12, -1)
         # embedding
         start = glob_obs_len + side_obs_len
         x = torch.cat(
             [
-                x[..., :start],
-                self.ability_embed(x[..., start].long()),
-                self.item_embed(x[..., start + 1].long()),
-                self.move_embed(x[..., start + 2].long()),
-                self.move_embed(x[..., start + 3].long()),
-                self.move_embed(x[..., start + 4].long()),
-                self.move_embed(x[..., start + 5].long()),
-                x[..., start + 6 :],
+                x[:, :, :start],
+                self.ability_embed(x[:, :, start].long()),
+                self.item_embed(x[:, :, start + 1].long()),
+                self.move_embed(x[:, :, start + 2].long()),
+                self.move_embed(x[:, :, start + 3].long()),
+                self.move_embed(x[:, :, start + 4].long()),
+                self.move_embed(x[:, :, start + 5].long()),
+                x[:, :, start + 6 :],
             ],
             dim=-1,
         )
         # frame encoder
-        x = x.view(batch_size * self.num_frames, 12, -1)
         x = self.feature_proj(x)
         token = self.cls_token.expand(batch_size * self.num_frames, -1, -1)
         x = torch.cat([token, x], dim=1)

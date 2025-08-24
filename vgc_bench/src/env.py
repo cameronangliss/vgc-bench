@@ -4,14 +4,13 @@ from typing import Any
 import numpy as np
 import numpy.typing as npt
 import supersuit as ss
-import torch
 from gymnasium import Env
 from gymnasium.spaces import Box
 from gymnasium.wrappers import FrameStackObservation
 from poke_env.battle import AbstractBattle
 from poke_env.environment import DoublesEnv, SingleAgentWrapper
 from poke_env.ps_client import ServerConfiguration
-from src.agent import Agent
+from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
 from src.utils import (
     LearningStyle,
@@ -45,13 +44,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
 
     @classmethod
     def create_env(
-        cls,
-        run_id: int,
-        num_teams: int,
-        port: int,
-        device: str,
-        learning_style: LearningStyle,
-        num_frames: int,
+        cls, run_id: int, num_teams: int, port: int, learning_style: LearningStyle, num_frames: int
     ) -> Env:
         teams = list(range(len(TEAMS[battle_format[-4:]])))
         random.Random(run_id).shuffle(teams)
@@ -78,9 +71,9 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             env = ss.concat_vec_envs_v1(
                 env, num_vec_envs=num_envs, num_cpus=num_envs, base_class="stable_baselines3"
             )
-            return env  # type: ignore
+            return env
         else:
-            opponent = Agent(num_frames, torch.device(device), start_listening=False)
+            opponent = PolicyPlayer(start_listening=False)
             env = SingleAgentWrapper(env, opponent)
             if num_frames > 1:
                 env = FrameStackObservation(env, num_frames, padding_type="zeros")
@@ -136,4 +129,4 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         teampreview_draft = (
             self._teampreview_draft1 if battle.player_role == "p1" else self._teampreview_draft2
         )
-        return Agent.embed_battle(battle, teampreview_draft, fake_rating=True)
+        return PolicyPlayer.embed_battle(battle, teampreview_draft, fake_rating=True)

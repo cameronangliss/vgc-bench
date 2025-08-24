@@ -19,7 +19,7 @@ def train(
     num_frames: int,
 ):
     env = (
-        ShowdownEnv.create_env(run_id, num_teams, port, device, learning_style, num_frames)
+        ShowdownEnv.create_env(run_id, num_teams, port, learning_style, num_frames)
         if learning_style == LearningStyle.PURE_SELF_PLAY
         else SubprocVecEnv(
             [
@@ -27,7 +27,6 @@ def train(
                     run_id,
                     1 if learning_style == LearningStyle.EXPLOITER else num_teams,
                     port,
-                    device,
                     learning_style,
                     num_frames,
                 )
@@ -80,9 +79,7 @@ def train(
             ppo.num_timesteps = num_saved_timesteps
     ppo.learn(
         5_013_504 - num_saved_timesteps,
-        callback=Callback(
-            run_id, num_teams, port, device, learning_style, behavior_clone, num_frames
-        ),
+        callback=Callback(run_id, num_teams, port, learning_style, behavior_clone, num_frames),
         tb_log_name=f"{num_teams}-teams",
         reset_num_timesteps=False,
     )
