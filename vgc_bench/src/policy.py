@@ -159,6 +159,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
                     norm_first=True,
                 ),
                 num_layers=self.embed_layers,
+                enable_nested_tensor=False,
             )
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
