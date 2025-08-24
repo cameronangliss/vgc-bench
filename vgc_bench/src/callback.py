@@ -181,12 +181,12 @@ class Callback(BaseCallback):
         self.model.logger.dump(self.model.num_timesteps)
 
     def evaluate(self):
-        self.eval_agent.policy = MaskedActorCriticPolicy.clone(self.model)
+        self.eval_agent.policy = MaskedActorCriticPolicy.clone(self.model).to(self.model.device)
         win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
         self.model.logger.record("train/eval", win_rate)
 
     def update_payoff_matrix(self):
-        self.eval_agent.policy = MaskedActorCriticPolicy.clone(self.model)
+        self.eval_agent.policy = MaskedActorCriticPolicy.clone(self.model).to(self.model.device)
         policy_files = os.listdir(
             f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams"
         )
