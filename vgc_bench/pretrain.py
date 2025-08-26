@@ -97,6 +97,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         ),
     )
     eval_agent = PolicyPlayer(
+        policy=ppo.policy,
         server_configuration=ServerConfiguration(
             f"ws://localhost:{port}/showdown/websocket",
             "https://play.pokemonshowdown.com/action.php?",
@@ -116,7 +117,6 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(list(range(num_teams)), battle_format),
     )
-    eval_agent.policy = MaskedActorCriticPolicy.clone(ppo).to(ppo.device)
     win_rate = Callback.compare(eval_agent, eval_opponent, 100)
     bc.logger.record("bc/eval", win_rate)
     ppo.save(f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/0")
@@ -126,7 +126,6 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
             demos = next(data)
             bc.set_demonstrations(demos)
             bc.train(n_epochs=1)
-        eval_agent.policy = MaskedActorCriticPolicy.clone(ppo).to(ppo.device)
         win_rate = Callback.compare(eval_agent, eval_opponent, 100)
         bc.logger.record("bc/eval", win_rate)
         ppo.save(f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/{i + 1}")

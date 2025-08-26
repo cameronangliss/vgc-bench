@@ -9,7 +9,6 @@ import numpy.typing as npt
 from nashpy import Game
 from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
-from src.policy import MaskedActorCriticPolicy
 from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
 from src.utils import LearningStyle, allow_mirror_match, battle_format, steps
@@ -119,8 +118,10 @@ class Callback(BaseCallback):
 
     def _on_training_start(self):
         assert self.model.env is not None
+        self.eval_agent.policy = self.model.policy
         if self.model.num_timesteps < steps:
-            self.evaluate()
+            win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
+            self.model.logger.record("train/eval", win_rate)
         if not self.behavior_clone:
             self.model.save(
                 f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams/{self.model.num_timesteps}"
@@ -170,7 +171,8 @@ class Callback(BaseCallback):
 
     def _on_rollout_end(self):
         if self.model.num_timesteps % steps == 0:
-            self.evaluate()
+            win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
+            self.model.logger.record("train/eval", win_rate)
             if self.learning_style == LearningStyle.DOUBLE_ORACLE:
                 self.update_payoff_matrix()
             self.model.save(
@@ -180,13 +182,7 @@ class Callback(BaseCallback):
     def _on_training_end(self):
         self.model.logger.dump(self.model.num_timesteps)
 
-    def evaluate(self):
-        self.eval_agent.policy = MaskedActorCriticPolicy.clone(self.model).to(self.model.device)
-        win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
-        self.model.logger.record("train/eval", win_rate)
-
     def update_payoff_matrix(self):
-        self.eval_agent.policy = MaskedActorCriticPolicy.clone(self.model).to(self.model.device)
         policy_files = os.listdir(
             f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams"
         )

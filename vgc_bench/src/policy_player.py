@@ -1,5 +1,5 @@
 import random
-from typing import Deque
+from typing import Any, Deque
 
 import numpy as np
 import numpy.typing as npt
@@ -28,9 +28,13 @@ from stable_baselines3.common.policies import BasePolicy
 
 
 class PolicyPlayer(Player):
-    policy: BasePolicy | None = None
+    policy: BasePolicy | None
     _frames: dict[str, Deque[npt.NDArray[np.float32]]] = {}
     _teampreview_drafts: dict[str, list[int]] = {}
+
+    def __init__(self, policy: BasePolicy | None = None, *args: Any, **kwargs: Any):
+        super().__init__(*args, **kwargs)
+        self.policy = policy
 
     def choose_move(self, battle: AbstractBattle) -> BattleOrder:
         assert isinstance(battle, DoubleBattle)

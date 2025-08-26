@@ -1,11 +1,8 @@
-from __future__ import annotations
-
 from typing import Any
 
 import torch
 from gymnasium import Space
 from src.utils import abilities, act_len, chunk_obs_len, glob_obs_len, items, moves, side_obs_len
-from stable_baselines3.common.base_class import BaseAlgorithm
 from stable_baselines3.common.distributions import MultiCategoricalDistribution
 from stable_baselines3.common.policies import ActorCriticPolicy
 from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
@@ -30,19 +27,6 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
             },
             share_features_extractor=False,
         )
-
-    @classmethod
-    def clone(cls, model: BaseAlgorithm) -> MaskedActorCriticPolicy:
-        assert isinstance(model.policy, MaskedActorCriticPolicy)
-        new_policy = cls(
-            model.observation_space,
-            model.action_space,
-            model.lr_schedule,
-            num_frames=model.policy.num_frames,
-            chooses_on_teampreview=model.policy.chooses_on_teampreview,
-        )
-        new_policy.load_state_dict(model.policy.state_dict())
-        return new_policy
 
     def forward(
         self, obs: torch.Tensor, deterministic: bool = False
