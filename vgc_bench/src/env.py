@@ -76,7 +76,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             opponent = PolicyPlayer(start_listening=False)
             env = SingleAgentWrapper(env, opponent)
             if num_frames > 1:
-                env = FrameStackObservation(env, num_frames, padding_type="zeros")
+                env = FrameStackObservation(env, num_frames, padding_type="zero")
             env = Monitor(env)
             return env
 
