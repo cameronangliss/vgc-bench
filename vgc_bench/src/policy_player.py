@@ -42,9 +42,15 @@ class PolicyPlayer(Player):
         if battle._wait:
             return DefaultBattleOrder()
         self._teampreview_drafts = {
-            tag: prev for tag, prev in self._teampreview_drafts.items() if tag in self.battles
+            tag: preview
+            for tag, preview in self._teampreview_drafts.items()
+            if tag in self.battles and not self.battles[tag].finished
         }
-        self._frames = {tag: fr for tag, fr in self._frames.items() if tag in self.battles}
+        self._frames = {
+            tag: frame
+            for tag, frame in self._frames.items()
+            if tag in self.battles and not self.battles[tag].finished
+        }
         if battle.teampreview:
             if battle.battle_tag not in self._teampreview_drafts:
                 self._teampreview_drafts[battle.battle_tag] = []

@@ -15,7 +15,7 @@ from src.utils import act_len
 class LLMPlayer(Player):
     def __init__(self, device: str, *args: Any, **kwargs: Any):
         super().__init__(*args, **kwargs)
-        self.__teampreview_draft = []
+        self._teampreview_drafts = {}
         tokenizer = transformers.AutoTokenizer.from_pretrained(
             "meta-llama/Meta-Llama-3.1-8B-Instruct", use_auth_token=True
         )
@@ -68,7 +68,7 @@ class LLMPlayer(Player):
             self.explain_battle_order(battle, o, pos) for o in order_space if o is not None
         ]
         prompt = self.explain_battle(
-            battle, self.__teampreview_draft, action_names, ally_order, pos
+            battle, self._teampreview_drafts[battle.battle_tag], action_names, ally_order, pos
         )
         input_dict = [
             {
@@ -91,16 +91,21 @@ class LLMPlayer(Player):
 
     def teampreview(self, battle: AbstractBattle) -> str:
         assert isinstance(battle, DoubleBattle)
+        self._teampreview_drafts = {
+            tag: preview
+            for tag, preview in self._teampreview_drafts.items()
+            if tag in self.battles and not self.battles[tag].finished
+        }
         actives = []
         bench = []
         for _ in range(2):
             actives += [self.teampreview_individual(battle, actives, bench)]
         for _ in range(2):
             bench += [self.teampreview_individual(battle, actives, bench)]
-        self.__teampreview_draft = [
+        self._teampreview_drafts[battle.battle_tag] = [
             i for i, p in enumerate(battle.team.values(), start=1) if p in actives + bench
         ]
-        return self.random_teampreview(battle)
+        return f"/team {','.join([str(list(battle.team.values()).index(m) + 1) for m in actives + bench])}"
 
     def teampreview_individual(
         self, battle: DoubleBattle, actives: list[Pokemon], bench: list[Pokemon]
