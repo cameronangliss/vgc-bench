@@ -1,16 +1,15 @@
 import argparse
 
 import numpy as np
-import torch
 from gymnasium.spaces import Box, MultiDiscrete
 from poke_env.player import SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
 from ray.rllib.algorithms.bc import BCConfig
 from ray.rllib.core.rl_module import RLModuleSpec
 from ray.tune.registry import register_env
-from src.agent import Agent
 from src.env import ShowdownEnv
 from src.policy import ActorCriticModule
+from src.policy_player import PolicyPlayer
 from src.teams import RandomTeamBuilder
 from src.utils import act_len, battle_format, chooses_on_teampreview, chunk_obs_len, moves
 
@@ -80,9 +79,9 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         )
     )
     algo = config.build_algo()
-    eval_agent = Agent(
-        num_frames,
-        torch.device(device),
+    eval_agent = PolicyPlayer(
+        device,
+        algo.get_module("p1"),
         server_configuration=ServerConfiguration(
             f"ws://localhost:{port}/showdown/websocket",
             "https://play.pokemonshowdown.com/action.php?",

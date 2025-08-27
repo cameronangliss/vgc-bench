@@ -32,15 +32,10 @@ train() {
     exit_status=$?
     if [ $exit_status -ne 0 ]; then
         echo "Training process $i died with exit status $exit_status"
-        kill $showdown_pid
-        if ! kill -0 $$ 2> /dev/null; then
-            return
-        fi
-        train $i
     else
         echo "Training process $i finished!"
-        kill $showdown_pid
     fi
+    kill $showdown_pid
 }
 
 trap "echo 'Stopping...'; kill 0" SIGINT

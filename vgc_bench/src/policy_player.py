@@ -23,55 +23,64 @@ from poke_env.environment import DoublesEnv
 from poke_env.environment.env import _EnvPlayer
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
 from ray.rllib.core import Columns
+from ray.rllib.core.rl_module import RLModule
 from src.policy import ActorCriticModule
 from src.utils import abilities, act_len, chunk_obs_len, items, move_obs_len, moves, pokemon_obs_len
 
 
-class Agent(Player):
-    __policy: ActorCriticModule | None
-    frames: Deque[npt.NDArray[np.float32]]
-    _teampreview_drafts: dict[str, list[int]]
+class PolicyPlayer(Player):
+    policy: RLModule | None
+    _frames: dict[str, Deque[npt.NDArray[np.float32]]] = {}
+    _teampreview_drafts: dict[str, list[int]] = {}
 
-    def __init__(self, num_frames: int, device: torch.device, *args: Any, **kwargs: Any):
+    def __init__(self, device: str, policy: RLModule | None = None, *args: Any, **kwargs: Any):
         super().__init__(*args, **kwargs)
-        self.__policy = None
-        self.frames = Deque(maxlen=num_frames)
         self.device = device
-        self._teampreview_drafts = {}
-
-    def set_policy(self, policy: ActorCriticModule):
-        self.__policy = policy.to(self.device)
+        self.policy = policy
 
     def choose_move(self, battle: AbstractBattle) -> BattleOrder:
         assert isinstance(battle, DoubleBattle)
-        assert self.__policy is not None
-        assert self.frames.maxlen is not None
+        assert isinstance(self.policy, ActorCriticModule)
         if battle._wait:
             return DefaultBattleOrder()
         self._teampreview_drafts = {
-            tag: prev for tag, prev in self._teampreview_drafts.items() if tag in self.battles
+            tag: preview
+            for tag, preview in self._teampreview_drafts.items()
+            if tag in self.battles and not self.battles[tag].finished
         }
-        if battle.teampreview and battle.battle_tag not in self._teampreview_drafts:
-            self._teampreview_drafts[battle.battle_tag] = []
+        self._frames = {
+            tag: frame
+            for tag, frame in self._frames.items()
+            if tag in self.battles and not self.battles[tag].finished
+        }
+        if battle.teampreview:
+            if battle.battle_tag not in self._teampreview_drafts:
+                self._teampreview_drafts[battle.battle_tag] = []
+            if battle.battle_tag not in self._frames:
+                self._frames[battle.battle_tag] = Deque(maxlen=self.policy.model.num_frames)
+        num_frames = self._frames[battle.battle_tag].maxlen
+        assert num_frames is not None
         obs = self.embed_battle(
             battle, self._teampreview_drafts[battle.battle_tag], fake_rating=True
         )
         if battle.turn == 0 and not (
             battle.teampreview and len([p for p in battle.team.values() if p.active]) > 0
         ):
-            for _ in range(self.frames.maxlen):
-                self.frames.append(np.zeros([12 * chunk_obs_len], dtype=np.float32))
-        if self.frames.maxlen > 1:
-            self.frames.append(obs)
-            obs = np.stack(self.frames)
+            for _ in range(num_frames):
+                self._frames[battle.battle_tag].append(
+                    np.zeros((2 * act_len + 12 * chunk_obs_len,), dtype=np.float32)
+                )
+        if num_frames > 1:
+            self._frames[battle.battle_tag].append(obs)
+            obs = np.concatenate(self._frames[battle.battle_tag])
         with torch.no_grad():
             obs_tensor = torch.as_tensor(obs, device=self.device).unsqueeze(0)
-            out = self.__policy.forward({Columns.OBS: obs_tensor})
-        dist = self.__policy.action_dist_cls.from_logits(logits=out[Columns.ACTION_DIST_INPUTS])
+            out = self.policy.forward({Columns.OBS: obs_tensor})
+        dist = self.policy.action_dist_cls.from_logits(logits=out[Columns.ACTION_DIST_INPUTS])
         actions_tensor = dist.sample()
         action = actions_tensor.squeeze(0).cpu().numpy()
         if battle.teampreview:
-            if not self.__policy.model.chooses_on_teampreview:
+            if not self.policy.model.chooses_on_teampreview:
                 available_actions = [
                     i
                     for i in range(1, 7)
@@ -83,12 +92,13 @@ class Agent(Player):
 
     def teampreview(self, battle: AbstractBattle) -> str:
         assert isinstance(battle, DoubleBattle)
+        assert isinstance(self.policy, ActorCriticModule)
         order1 = self.choose_move(battle)
         upd_battle = _EnvPlayer._simulate_teampreview_switchin(order1, battle)
         order2 = self.choose_move(upd_battle)
         action1 = DoublesEnv.order_to_action(order1, battle)
         action2 = DoublesEnv.order_to_action(order2, upd_battle)
-        if self.__policy.model.chooses_on_teampreview:  # type: ignore
+        if self.policy.model.chooses_on_teampreview:
             return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
         else:
             message = self.random_teampreview(battle)
@@ -103,18 +113,18 @@ class Agent(Player):
         if not battle._last_request:
             mask = np.ones(2 * act_len, dtype=np.float32)
         else:
-            mask1 = Agent.get_action_mask(battle, 0)
-            mask2 = Agent.get_action_mask(battle, 1)
+            mask1 = PolicyPlayer.get_action_mask(battle, 0)
+            mask2 = PolicyPlayer.get_action_mask(battle, 1)
             mask = np.array(mask1 + mask2)
-        glob = Agent.embed_global(battle)
-        side = Agent.embed_side(battle, fake_rating)
-        opp_side = Agent.embed_side(battle, False, opp=True)
+        glob = PolicyPlayer.embed_global(battle)
+        side = PolicyPlayer.embed_side(battle, fake_rating)
+        opp_side = PolicyPlayer.embed_side(battle, False, opp=True)
         [a1, a2, *_] = battle.active_pokemon
         [o1, o2, *_] = battle.opponent_active_pokemon
         assert battle.teampreview == (len(teampreview_draft) < 4)
         assert all([i in teampreview_draft for i, p in enumerate(battle.team.values()) if p.active])
         pokemons = [
-            Agent.embed_pokemon(
+            PolicyPlayer.embed_pokemon(
                 p,
                 i,
                 from_opponent=False,
@@ -126,7 +136,7 @@ class Agent(Player):
         ]
         pokemons += [np.zeros(pokemon_obs_len, dtype=np.float32)] * (6 - len(pokemons))
         opp_pokemons = [
-            Agent.embed_pokemon(
+            PolicyPlayer.embed_pokemon(
                 p,
                 i,
                 from_opponent=True,
@@ -217,7 +227,7 @@ class Agent(Player):
             for move in pokemon.moves.values()
         ]
         move_ids += [0] * (4 - len(move_ids))
-        move_embeds = [Agent.embed_move(move) for move in pokemon.moves.values()]
+        move_embeds = [PolicyPlayer.embed_move(move) for move in pokemon.moves.values()]
         move_embeds += [np.zeros(move_obs_len, dtype=np.float32)] * (4 - len(move_embeds))
         move_embeds = np.concatenate(move_embeds)
         types = [float(t in pokemon.types) for t in PokemonType]

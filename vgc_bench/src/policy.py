@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 from typing import Any
 
 import torch
@@ -13,9 +11,9 @@ from src.utils import abilities, act_len, chunk_obs_len, glob_obs_len, items, mo
 
 
 class NeuralNetwork(nn.Module):
-    num_pokemon: int = 12
-    embed_len: int = 32
-    proj_len: int = 128
+    embed_len: int = 50
+    proj_len: int = 200
+    num_heads: int = 4
     embed_layers: int = 3
 
     def __init__(self, num_frames: int, chooses_on_teampreview: bool):
@@ -30,7 +28,7 @@ class NeuralNetwork(nn.Module):
         self.frame_encoder = nn.TransformerEncoder(
             nn.TransformerEncoderLayer(
                 d_model=self.proj_len,
-                nhead=self.proj_len // 64,
+                nhead=self.num_heads,
                 dim_feedforward=self.proj_len,
                 dropout=0,
                 batch_first=True,
@@ -48,7 +46,7 @@ class NeuralNetwork(nn.Module):
             self.meta_encoder = nn.TransformerEncoder(
                 nn.TransformerEncoderLayer(
                     d_model=self.proj_len,
-                    nhead=self.proj_len // 64,
+                    nhead=self.num_heads,
                     dim_feedforward=self.proj_len,
                     dropout=0,
                     batch_first=True,
@@ -62,24 +60,23 @@ class NeuralNetwork(nn.Module):
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         batch_size = x.size(0)
-        x = x.view(*x.size()[:-1], 12, -1)
+        x = x.view(batch_size * self.num_frames, 12, -1)
         # embedding
         start = glob_obs_len + side_obs_len
         x = torch.cat(
             [
-                x[..., :start],
-                self.ability_embed(x[..., start].long()),
-                self.item_embed(x[..., start + 1].long()),
-                self.move_embed(x[..., start + 2].long()),
-                self.move_embed(x[..., start + 3].long()),
-                self.move_embed(x[..., start + 4].long()),
-                self.move_embed(x[..., start + 5].long()),
-                x[..., start + 6 :],
+                x[:, :, :start],
+                self.ability_embed(x[:, :, start].long()),
+                self.item_embed(x[:, :, start + 1].long()),
+                self.move_embed(x[:, :, start + 2].long()),
+                self.move_embed(x[:, :, start + 3].long()),
+                self.move_embed(x[:, :, start + 4].long()),
+                self.move_embed(x[:, :, start + 5].long()),
+                x[:, :, start + 6 :],
             ],
             dim=-1,
         )
         # frame encoder
-        x = x.view(batch_size * self.num_frames, 12, -1)
         x = self.feature_proj(x)
         token = self.cls_token.expand(batch_size * self.num_frames, -1, -1)
         x = torch.cat([token, x], dim=1)

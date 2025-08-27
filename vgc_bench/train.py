@@ -11,9 +11,9 @@ from ray.rllib.algorithms import PPOConfig
 from ray.rllib.core.rl_module import RLModuleSpec
 from ray.tune.logger import TBXLogger, UnifiedLogger
 from ray.tune.registry import register_env
-from src.agent import Agent
 from src.env import ShowdownEnv
 from src.policy import ActorCriticModule
+from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
 from src.utils import (
     LearningStyle,
@@ -51,7 +51,12 @@ def train(
     config = PPOConfig()
     config = config.environment(
         "showdown",
-        env_config={"run_id": run_id, "num_teams": num_teams, "port": port, "num_frames": num_frames},
+        env_config={
+            "run_id": run_id,
+            "num_teams": num_teams,
+            "port": port,
+            "num_frames": num_frames,
+        },
         disable_env_checking=True,
     )
     config = config.env_runners(num_env_runners=2)
@@ -92,9 +97,8 @@ def train(
     teams = list(range(len(TEAMS[battle_format[-4:]])))
     random.Random(run_id).shuffle(teams)
     toggle = None if allow_mirror_match else TeamToggle(num_teams)
-    eval_agent1 = Agent(
-        num_frames,
-        torch.device(device),
+    eval_agent1 = PolicyPlayer(
+        device,
         server_configuration=ServerConfiguration(
             f"ws://localhost:{port}/showdown/websocket",
             "https://play.pokemonshowdown.com/action.php?",
@@ -105,7 +109,9 @@ def train(
         accept_open_team_sheet=True,
         open_timeout=None,
         team=RandomTeamBuilder(
-            [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams], battle_format, toggle
+            [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
+            battle_format,
+            toggle,
         ),
     )
     eval_agent2 = SimpleHeuristicsPlayer(
@@ -119,7 +125,9 @@ def train(
         accept_open_team_sheet=True,
         open_timeout=None,
         team=RandomTeamBuilder(
-            [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams], battle_format, toggle
+            [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
+            battle_format,
+            toggle,
         ),
     )
     num_saved_steps = 0
@@ -137,7 +145,8 @@ def train(
     if gather_period * algo.training_iteration < save_period:
         policy = algo.get_module("p1")
         assert isinstance(policy, ActorCriticModule)
-        eval_agent1.set_policy(policy)
+        policy = policy.to(device)
+        eval_agent1.policy = policy
         win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
     if not behavior_clone:
         module = algo.get_module("p1")
@@ -174,7 +183,8 @@ def train(
         algo.train()
     policy = algo.get_module("p1")
     assert isinstance(policy, ActorCriticModule)
-    eval_agent1.set_policy(policy)
+    policy = policy.to(device)
+    eval_agent1.policy = policy
     win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
     module = algo.get_module("p1")
     assert isinstance(module, ActorCriticModule)

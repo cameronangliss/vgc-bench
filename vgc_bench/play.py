@@ -7,10 +7,10 @@ import numpy as np
 import torch
 from gymnasium.spaces import Box, MultiDiscrete
 from poke_env.ps_client import AccountConfiguration, ShowdownServerConfiguration
-from src.agent import Agent
 from src.policy import ActorCriticModule
+from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder
-from src.utils import battle_format, act_len, chunk_obs_len, moves
+from src.utils import act_len, battle_format, chunk_obs_len, moves
 
 
 async def play(run_id: int, num_teams: int, n_games: int, play_on_ladder: bool):
@@ -19,9 +19,8 @@ async def play(run_id: int, num_teams: int, n_games: int, play_on_ladder: bool):
     filepath = f"{path}/{os.listdir(path)[-1]}"
     team_ids = list(range(len(TEAMS[battle_format[-4:]])))
     random.Random(run_id).shuffle(team_ids)
-    agent = Agent(
-        num_frames=1,
-        device=torch.device("cuda:0"),
+    agent = PolicyPlayer(
+        "cuda:0",
         account_configuration=AccountConfiguration("", ""),  # fill in
         battle_format=battle_format,
         log_level=40,
@@ -32,9 +31,7 @@ async def play(run_id: int, num_teams: int, n_games: int, play_on_ladder: bool):
         team=RandomTeamBuilder(team_ids[:num_teams], battle_format),
     )
     policy = ActorCriticModule(
-        observation_space=Box(
-            -1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32
-        ),
+        observation_space=Box(-1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32),
         action_space=MultiDiscrete([act_len, act_len]),
         inference_only=True,
         model_config={"num_frames": 1, "chooses_on_teampreview": True},
@@ -42,7 +39,7 @@ async def play(run_id: int, num_teams: int, n_games: int, play_on_ladder: bool):
     )
     state = torch.load(filepath)
     policy.model.load_state_dict(state)
-    agent.set_policy(policy)
+    agent.policy = policy
     print(f"Loaded model from {filepath}")
     if play_on_ladder:
         print("Entering ladder")

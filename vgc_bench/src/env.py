@@ -8,7 +8,7 @@ from poke_env.battle import AbstractBattle
 from poke_env.environment import DoublesEnv
 from poke_env.ps_client import ServerConfiguration
 from ray.rllib.env import ParallelPettingZooEnv
-from src.agent import Agent
+from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
 from src.utils import (
     LearningStyle,
@@ -51,7 +51,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             log_level=25,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(teams[:config["num_teams"]], battle_format, toggle),
+            team=RandomTeamBuilder(teams[: config["num_teams"]], battle_format, toggle),
         )
         if not chooses_on_teampreview:
             env.agent1.teampreview = env.async_random_teampreview1
@@ -107,4 +107,4 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         teampreview_draft = (
             self._teampreview_draft1 if battle.player_role == "p1" else self._teampreview_draft2
         )
-        return Agent.embed_battle(battle, teampreview_draft, fake_rating=True)
+        return PolicyPlayer.embed_battle(battle, teampreview_draft, fake_rating=True)
