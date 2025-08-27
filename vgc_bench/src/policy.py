@@ -102,8 +102,9 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
 
 
 class AttentionExtractor(BaseFeaturesExtractor):
-    embed_len: int = 32
-    proj_len: int = 128
+    embed_len: int = 50
+    proj_len: int = 200
+    num_heads: int = 4
     embed_layers: int = 3
 
     def __init__(
@@ -120,7 +121,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
         self.frame_encoder = nn.TransformerEncoder(
             nn.TransformerEncoderLayer(
                 d_model=self.proj_len,
-                nhead=self.proj_len // 64,
+                nhead=self.num_heads,
                 dim_feedforward=self.proj_len,
                 dropout=0,
                 batch_first=True,
@@ -138,7 +139,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
             self.meta_encoder = nn.TransformerEncoder(
                 nn.TransformerEncoderLayer(
                     d_model=self.proj_len,
-                    nhead=self.proj_len // 64,
+                    nhead=self.num_heads,
                     dim_feedforward=self.proj_len,
                     dropout=0,
                     batch_first=True,
