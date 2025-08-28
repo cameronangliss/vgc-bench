@@ -17,13 +17,10 @@ class LLMPlayer(Player):
         super().__init__(*args, **kwargs)
         self._teampreview_drafts = {}
         tokenizer = transformers.AutoTokenizer.from_pretrained(
-            "meta-llama/Meta-Llama-3.1-8B-Instruct", use_auth_token=True
+            "meta-llama/Meta-Llama-3.1-8B-Instruct"
         )
         model = transformers.AutoModelForCausalLM.from_pretrained(
-            "meta-llama/Meta-Llama-3.1-8B-Instruct",
-            torch_dtype=torch.bfloat16,
-            device_map=device,
-            use_auth_token=True,
+            "meta-llama/Meta-Llama-3.1-8B-Instruct", torch_dtype="auto", device_map=device
         )
         tokenizer.pad_token = tokenizer.eos_token
         model.config.pad_token_id = tokenizer.eos_token_id
@@ -50,7 +47,7 @@ class LLMPlayer(Player):
         else:
             assert ally_action is not None
             mask = torch.tensor(
-                PolicyPlayer.get_action_mask(battle, 0) + PolicyPlayer.get_action_mask(battle, 1)
+                [PolicyPlayer.get_action_mask(battle, 0) + PolicyPlayer.get_action_mask(battle, 1)]
             )
             ally_action_tensor = torch.tensor([[ally_action]])
             mask = MaskedActorCriticPolicy._update_mask(mask, ally_action_tensor)[0, act_len:]
@@ -73,7 +70,12 @@ class LLMPlayer(Player):
         input_dict = [
             {
                 "role": "system",
-                "content": f"You are an expert Pokemon VGC competitor playing a Pokemon battle in the {battle.format} format.",
+                "content": (
+                    "You are the strongest player of all time in competitive Pokemon VGC, "
+                    "the official competitive format for the core Pokemon video game series. "
+                    "You will do everything in your power to win this current battle, "
+                    "since this is the finals of the biggest tournament ever."
+                ),
             },
             {"role": "user", "content": prompt},
         ]
@@ -115,7 +117,12 @@ class LLMPlayer(Player):
         input_dict = [
             {
                 "role": "system",
-                "content": f"You are an expert Pokemon VGC competitor playing a Pokemon battle in the {battle.format} format.",
+                "content": (
+                    "You are the strongest player of all time in competitive Pokemon VGC, "
+                    "the official competitive format for the core Pokemon video game series. "
+                    "You will do everything in your power to win this current battle, "
+                    "since this is the finals of the biggest tournament ever."
+                ),
             },
             {"role": "user", "content": prompt},
         ]
@@ -171,13 +178,13 @@ class LLMPlayer(Player):
 
 ########## GLOBAL EFFECTS ##########
 
-Active weather: {", ".join([f"{w} (active for {battle.turn - turn} turns)" for w, turn in battle.weather.items()]) or "None"}
-Active fields: {", ".join([f"{f} (active for {battle.turn - turn} turns)" for f, turn in battle.fields.items()]) or "None"}
+Active weather: {", ".join([f"{w.name.lower()} (active for {battle.turn - turn} turns)" for w, turn in battle.weather.items()]) or "None"}
+Active fields: {", ".join([f"{f.name.lower()} (active for {battle.turn - turn} turns)" for f, turn in battle.fields.items()]) or "None"}
 
 ########## YOUR SIDE ##########
 
 {"Tera used." if battle.used_tera else "Tera available."}
-Active side conditions: {", ".join([str(s) for s in battle.side_conditions.keys()]) or None}
+Active side conditions: {", ".join([s.name.lower() for s in battle.side_conditions.keys()]) or None}
 
 ### Active Pokemon ###
 
@@ -195,7 +202,7 @@ Slot 2: {LLMPlayer.explain_pokemon(a2) if a2 is not None else "empty"}
 
 Rating: {battle.opponent_rating}
 {"Opponent's tera already used." if battle.opponent_used_tera else "Tera available for opponent!"}
-Active side conditions: {", ".join([str(s) for s in battle.opponent_side_conditions.keys()]) or "None"}
+Active side conditions: {", ".join([s.name.lower() for s in battle.opponent_side_conditions.keys()]) or "None"}
 
 ### Active Pokemon ###
 
@@ -369,7 +376,7 @@ Number of turns user has protected in a row: {pokemon.protect_counter}"""
         return f"""{pokemon.base_species} | HP: {hp_str} | type: {type_str} | tera-type: {tera_type_str} | {reveal_str}
 Ability: {pokemon.ability}
 Item: {pokemon.item}
-Status Effect: {pokemon.status}
+Status Effect: {pokemon.status.name.lower() if pokemon.status is not None else "None"}
 Moves:
     - {LLMPlayer.explain_move(moves[0]) if len(moves) > 0 else "None"}
     - {LLMPlayer.explain_move(moves[1]) if len(moves) > 1 else "None"}
@@ -385,7 +392,7 @@ Base stats:
 
     @staticmethod
     def explain_move(move: Move) -> str:
-        return f"{move.id} | pp: {move.current_pp}/{move.max_pp} | type: {move.type} | power: {move.base_power} | acc: {int(100 * move.accuracy)}% | category: {move.category.name.lower()}"
+        return f"{move.id} | pp: {move.current_pp}/{move.max_pp} | type: {move.type.name.lower()} | power: {move.base_power} | acc: {int(100 * move.accuracy)}% | category: {move.category.name.lower()}"
 
     @staticmethod
     def explain_boosts(boosts: dict[str, int]) -> str:
