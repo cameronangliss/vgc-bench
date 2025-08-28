@@ -87,7 +87,7 @@ def cross_eval_all_agents(
         avg_payoff_matrix += payoff_matrix / num_runs
     print(avg_payoff_matrix.tolist())
     ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
-    print(ranking)
+    print(ranking.tolist())
 
 
 def cross_eval_over_team_sizes(
@@ -130,7 +130,7 @@ def cross_eval_over_team_sizes(
         avg_payoff_matrix += payoff_matrix / num_runs
     print(avg_payoff_matrix.tolist())
     ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
-    print(ranking)
+    print(ranking.tolist())
 
 
 if __name__ == "__main__":
