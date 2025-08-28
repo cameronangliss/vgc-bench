@@ -7,6 +7,7 @@ name = "vgc-bench"
 version = "0.1.0"
 authors = [{ name = "Cameron Angliss", email = "cameronangliss99@gmail.com" }]
 dependencies = [
+    "accelerate",
     "imitation @ git+https://github.com/cameronangliss/imitation.git@fix-build",
     "nashpy",
     "open-spiel",
