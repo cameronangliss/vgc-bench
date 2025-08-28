@@ -39,7 +39,7 @@ class RandomTeamBuilder(Teambuilder):
             return random.choice(self.teams)
 
 
-def get_team_similarity_score(team1: str, team2: str):
+def calc_team_similarity_score(team1: str, team2: str):
     """
     Roughly measures similarity between two teams on a scale of 0-100
     """
