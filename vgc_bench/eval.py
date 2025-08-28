@@ -78,14 +78,14 @@ def cross_eval_all_agents(
         llm_losses = [p.n_won_battles / p.n_finished_battles for p in players]
         for p in players + [llm_player]:
             p.reset_battles()
-        llm_losses.insert(3, 0.5)
+        llm_losses.insert(3, np.nan)
         payoff_matrix = np.array(
-            [[r if r is not None else 0.5 for r in result.values()] for result in results.values()]
+            [[r if r is not None else np.nan for r in result.values()] for result in results.values()]
         )
         payoff_matrix = np.insert(payoff_matrix, 3, llm_wins, axis=0)
         payoff_matrix = np.insert(payoff_matrix, 3, llm_losses, axis=1)
         avg_payoff_matrix += payoff_matrix / num_runs
-    print(avg_payoff_matrix)
+    print(avg_payoff_matrix.tolist())
     ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
     print(ranking)
 
@@ -125,10 +125,12 @@ def cross_eval_over_team_sizes(
             agents += [agent]
         results = asyncio.run(cross_evaluate(agents, num_battles // num_runs))
         payoff_matrix = np.array(
-            [[r if r is not None else 0.5 for r in result.values()] for result in results.values()]
+            [[r if r is not None else np.nan for r in result.values()] for result in results.values()]
         )
         avg_payoff_matrix += payoff_matrix / num_runs
-    print(avg_payoff_matrix)
+    print(avg_payoff_matrix.tolist())
+    ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
+    print(ranking)
 
 
 if __name__ == "__main__":
