@@ -107,7 +107,7 @@ def cross_eval_all_agents(
     ]
     print(f"Overall team similarity statistics:")
     print("mean =", round(mean(sim_scores), ndigits=2))
-    print("median =", median(sim_scores))
+    print("median =", round(median(sim_scores), ndigits=3))
     print("min =", min(sim_scores))
     print("max =", max(sim_scores))
 
@@ -169,7 +169,7 @@ def cross_eval_over_team_sizes(
             ]
             print(f"team similarity statistics for run #{run_id}:")
             print("mean =", round(mean(sim_scores), ndigits=2))
-            print("median =", median(sim_scores))
+            print("median =", round(median(sim_scores), ndigits=3))
             print("min =", min(sim_scores))
             print("max =", max(sim_scores))
     print("Performance" if is_performance_test else "Generalization", "test results:")
