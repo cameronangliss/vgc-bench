@@ -93,23 +93,6 @@ def cross_eval_all_agents(
     print(avg_payoff_matrix.tolist())
     ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
     print("AlphaRank pi values:", ranking.tolist())
-    sim_scores = [
-        max(
-            [
-                calc_team_similarity_score(
-                    TEAMS[battle_format[-4:]][i], TEAMS[battle_format[-4:]][j]
-                )
-                for i in range(len(TEAMS[battle_format[-4:]]))
-                if i != j
-            ]
-        )
-        for j in range(len(TEAMS[battle_format[-4:]]))
-    ]
-    print(f"Overall team similarity statistics:")
-    print("mean =", round(mean(sim_scores), ndigits=2))
-    print("median =", round(median(sim_scores), ndigits=3))
-    print("min =", min(sim_scores))
-    print("max =", max(sim_scores))
 
 
 def cross_eval_over_team_sizes(
@@ -155,27 +138,53 @@ def cross_eval_over_team_sizes(
             ]
         )
         avg_payoff_matrix += payoff_matrix / num_runs
-        if not is_performance_test:
-            sim_scores = [
-                max(
-                    [
-                        calc_team_similarity_score(
-                            TEAMS[battle_format[-4:]][i], TEAMS[battle_format[-4:]][j]
-                        )
-                        for i in teams[: max(team_counts)]
-                    ]
-                )
-                for j in teams[max(team_counts) :]
-            ]
-            print(f"team similarity statistics for run #{run_id}:")
-            print("mean =", round(mean(sim_scores), ndigits=2))
-            print("median =", round(median(sim_scores), ndigits=3))
-            print("min =", min(sim_scores))
-            print("max =", max(sim_scores))
     print("Performance" if is_performance_test else "Generalization", "test results:")
     print(avg_payoff_matrix.tolist())
     ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
     print("AlphaRank pi values:", ranking.tolist())
+
+
+def print_team_statistics(team_counts: list[int]):
+    num_runs = 5
+    sim_scores = [
+        max(
+            [
+                calc_team_similarity_score(
+                    TEAMS[battle_format[-4:]][i], TEAMS[battle_format[-4:]][j]
+                )
+                for i in range(len(TEAMS[battle_format[-4:]]))
+                if i != j
+            ]
+        )
+        for j in range(len(TEAMS[battle_format[-4:]]))
+    ]
+    print(f"worst-case team similarities for each team across all teams:")
+    print("mean =", round(mean(sim_scores), ndigits=2))
+    print("median =", round(median(sim_scores), ndigits=3))
+    print("min =", min(sim_scores))
+    print("max =", max(sim_scores))
+    for run_id in range(1, num_runs + 1):
+        teams = list(range(len(TEAMS[battle_format[-4:]])))
+        random.Random(run_id).shuffle(teams)
+        sim_scores = [
+            max(
+                [
+                    calc_team_similarity_score(
+                        TEAMS[battle_format[-4:]][i], TEAMS[battle_format[-4:]][j]
+                    )
+                    for i in teams[: max(team_counts)]
+                ]
+            )
+            for j in teams[max(team_counts) :]
+        ]
+        print(
+            "worst-case team similarities of out-of-distribution teams",
+            f"across largest in-distribution team set in run #{run_id}:",
+        )
+        print("mean =", round(mean(sim_scores), ndigits=2))
+        print("median =", round(median(sim_scores), ndigits=3))
+        print("min =", min(sim_scores))
+        print("max =", max(sim_scores))
 
 
 if __name__ == "__main__":
@@ -192,8 +201,9 @@ if __name__ == "__main__":
         help="CUDA device to use for training",
     )
     args = parser.parse_args()
-    cross_eval_all_agents(args.num_teams, args.port, args.device, 1000, 100)
     team_counts = [1, 4, 16, 64]
     methods = ["bc-sp", "bc-sp", "bc-do", "bc-fp"]
+    print_team_statistics(team_counts)
+    cross_eval_all_agents(args.num_teams, args.port, args.device, 1000, 100)
     # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 1000, True)
     # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 1000, False)
