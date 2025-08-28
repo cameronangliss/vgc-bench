@@ -147,8 +147,8 @@ if __name__ == "__main__":
         help="CUDA device to use for training",
     )
     args = parser.parse_args()
-    cross_eval_all_agents(args.num_teams, args.port, args.device, 100, 10)
+    cross_eval_all_agents(args.num_teams, args.port, args.device, 1000, 100)
     team_counts = [1, 4, 16, 64]
     methods = ["bc-sp", "bc-sp", "bc-do", "bc-fp"]
-    # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 100, True)
-    # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 100, False)
+    # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 1000, True)
+    # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 1000, False)
