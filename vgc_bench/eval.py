@@ -3,21 +3,42 @@ import asyncio
 import random
 
 import numpy as np
-import torch
 from open_spiel.python.egt import alpharank
-from poke_env.player import MaxBasePowerPlayer, Player, RandomPlayer, SimpleHeuristicsPlayer
+from poke_env import cross_evaluate
+from poke_env.player import MaxBasePowerPlayer, RandomPlayer, SimpleHeuristicsPlayer
 from poke_env.ps_client import AccountConfiguration, ServerConfiguration
-from src.agent import Agent
 from src.llm import LLMPlayer
-from src.teams import RandomTeamBuilder
+from src.policy_player import PolicyPlayer
+from src.teams import TEAMS, RandomTeamBuilder
 from src.utils import battle_format
 from stable_baselines3 import PPO
 
 
-def eval(teams: list[int], port: int, device: str):
-    player_groups = []
-    for cls_ in [RandomPlayer, MaxBasePowerPlayer, SimpleHeuristicsPlayer]:
-        player = cls_(
+def cross_eval_all_agents(
+    num_teams: list[int], port: int, device: str, num_battles: int, num_llm_battles: int
+):
+    num_runs = 5
+    avg_payoff_matrix = np.zeros((11, 11))
+    for run_id in range(1, num_runs + 1):
+        teams = list(range(len(TEAMS[battle_format[-4:]])))
+        random.Random(run_id).shuffle(teams)
+        players = [
+            cls_(
+                server_configuration=ServerConfiguration(
+                    f"ws://localhost:{port}/showdown/websocket",
+                    "https://play.pokemonshowdown.com/action.php?",
+                ),
+                battle_format=battle_format,
+                log_level=25,
+                max_concurrent_battles=10,
+                accept_open_team_sheet=True,
+                open_timeout=None,
+                team=RandomTeamBuilder(teams[:num_teams], battle_format),
+            )
+            for cls_ in [RandomPlayer, MaxBasePowerPlayer, SimpleHeuristicsPlayer]
+        ]
+        llm_player = LLMPlayer(
+            device=device,
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
@@ -27,30 +48,66 @@ def eval(teams: list[int], port: int, device: str):
             max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(teams, battle_format),
+            team=RandomTeamBuilder(teams[:num_teams], battle_format),
         )
-        player_groups += [[player]]
-    llm_player = LLMPlayer(
-        device=device,
-        server_configuration=ServerConfiguration(
-            f"ws://localhost:{port}/showdown/websocket",
-            "https://play.pokemonshowdown.com/action.php?",
-        ),
-        battle_format=battle_format,
-        log_level=25,
-        accept_open_team_sheet=True,
-        open_timeout=None,
-        team=RandomTeamBuilder(teams, battle_format),
-    )
-    bcs = [41, 20, 22, 12, 14]
-    for name in ["sp", "fp", "do", "bc", "bc-sp", "bc-fp", "bc-do"]:
+        for name in ["sp", "fp", "do", "bc", "bc-sp", "bc-fp", "bc-do"]:
+            step = 100 if name == "bc" else 5013504
+            agent = PolicyPlayer(
+                account_configuration=AccountConfiguration(f"{name} {run_id}", None),
+                server_configuration=ServerConfiguration(
+                    f"ws://localhost:{port}/showdown/websocket",
+                    "https://play.pokemonshowdown.com/action.php?",
+                ),
+                battle_format=battle_format,
+                log_level=25,
+                max_concurrent_battles=10,
+                accept_open_team_sheet=True,
+                open_timeout=None,
+                team=RandomTeamBuilder(teams[:num_teams], battle_format),
+            )
+            teams_str = f"{num_teams}-teams/"
+            if name == "bc":
+                teams_str = ""
+            agent.policy = PPO.load(
+                f"results{run_id}/saves-{name}/{teams_str}{step}", device=device
+            ).policy
+            players += [agent]
+        results = asyncio.run(cross_evaluate(players, n_challenges=num_battles // num_runs))
+        asyncio.run(llm_player.battle_against(*players, n_battles=num_llm_battles // num_runs))
+        llm_wins = [p.n_lost_battles / p.n_finished_battles for p in players]
+        llm_losses = [p.n_won_battles / p.n_finished_battles for p in players]
+        for p in players + [llm_player]:
+            p.reset_battles()
+        llm_losses.insert(3, 0.5)
+        payoff_matrix = np.array(
+            [[r if r is not None else 0.5 for r in result.values()] for result in results.values()]
+        )
+        payoff_matrix = np.insert(payoff_matrix, 3, llm_wins, axis=0)
+        payoff_matrix = np.insert(payoff_matrix, 3, llm_losses, axis=1)
+        avg_payoff_matrix += payoff_matrix / num_runs
+    print(avg_payoff_matrix)
+    ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
+    print(ranking)
+
+
+def cross_eval_over_team_sizes(
+    team_counts: list[int],
+    methods: list[str],
+    port: int,
+    device: str,
+    num_battles: int,
+    is_performance_test: bool,
+):
+    # if is_performance_test is False, then this becomes the generalization test
+    num_runs = 5
+    avg_payoff_matrix = np.zeros((4, 4))
+    for run_id in range(1, num_runs + 1):
+        teams = list(range(len(TEAMS[battle_format[-4:]])))
+        random.Random(run_id).shuffle(teams)
+        teams = teams[: min(team_counts)] if is_performance_test else teams[max(team_counts) :]
         agents = []
-        for i in range(5):
-            step = bcs[i] if name == "bc" else 5013504
-            agent = Agent(
-                num_frames=1,
-                device=torch.device(device),
-                account_configuration=AccountConfiguration(f"{name} {i + 1}", None),
+        for num_teams, method in zip(team_counts, methods):
+            agent = PolicyPlayer(
                 server_configuration=ServerConfiguration(
                     f"ws://localhost:{port}/showdown/websocket",
                     "https://play.pokemonshowdown.com/action.php?",
@@ -62,69 +119,23 @@ def eval(teams: list[int], port: int, device: str):
                 open_timeout=None,
                 team=RandomTeamBuilder(teams, battle_format),
             )
-            teams_str = ",".join([str(t) for t in teams]) + "-teams/"
-            if name == "bc":
-                teams_str = ""
-            agent.set_policy(
-                PPO.load(f"results-final{i + 1}/saves-{name}/{teams_str}{step}").policy
-            )
+            agent.policy = PPO.load(
+                f"results{run_id}/saves-{method}/{num_teams}-teams/5013504", device=device
+            ).policy
             agents += [agent]
-        player_groups += [agents]
-    results = asyncio.run(mixed_policy_cross_evaluate(player_groups, 1000))
-    llm_results = asyncio.run(mixed_policy_battle_against([llm_player], player_groups, 100))
-    llm_wins = [r[0] for r in llm_results.values()]
-    llm_losses = [r[1] for r in llm_results.values()]
-    llm_losses = llm_losses[:3] + [0] + llm_losses[3:]
-    payoff_matrix = np.array(
-        [[r if r is not None else 0.5 for r in result.values()] for result in results.values()]
-    )
-    payoff_matrix = np.insert(payoff_matrix, 3, llm_wins, axis=0)
-    payoff_matrix = np.insert(payoff_matrix, 3, llm_losses, axis=1)
-    print(payoff_matrix)
-    ranking = alpharank.compute([payoff_matrix], use_inf_alpha=True)[2]
-    print(ranking)
-
-
-async def mixed_policy_cross_evaluate(
-    player_groups: list[list[Player]], num_battles: int
-) -> dict[str, dict[str, float | None]]:
-    results: dict[str, dict[str, float | None]] = {
-        players1[0].username[:-2]: {players2[0].username[:-2]: None for players2 in player_groups}
-        for players1 in player_groups
-    }
-    for i, players1 in enumerate(player_groups):
-        p1_name = players1[0].username[:-2]
-        r = await mixed_policy_battle_against(players1, player_groups[i + 1 :], num_battles)
-        for p2_name, (p1_num_wins, p2_num_wins) in r.items():
-            results[p1_name][p2_name] = p1_num_wins
-            results[p2_name][p1_name] = p2_num_wins
-    return results
-
-
-async def mixed_policy_battle_against(
-    players: list[Player], player_groups: list[list[Player]], num_battles: int
-) -> dict[str, tuple[float, float]]:
-    results = {}
-    for players2 in player_groups:
-        p2_name = players2[0].username[:-2]
-        p1_num_wins = 0
-        p2_num_wins = 0
-        for _ in range(num_battles):
-            player1 = random.choice(players)
-            player2 = random.choice(players2)
-            await player1.battle_against(player2)
-            p1_num_wins += player1.n_won_battles
-            p2_num_wins += player2.n_won_battles
-            player1.reset_battles()
-            player2.reset_battles()
-        results[p2_name] = (p1_num_wins / num_battles, p2_num_wins / num_battles)
-    return results
+        results = asyncio.run(cross_evaluate(agents, num_battles // num_runs))
+        payoff_matrix = np.array(
+            [[r if r is not None else 0.5 for r in result.values()] for result in results.values()]
+        )
+        avg_payoff_matrix += payoff_matrix / num_runs
+    print(avg_payoff_matrix)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate a Pokémon AI model")
-    parser.add_argument("--teams", nargs="+", type=int, help="Indices of teams to train with")
-    parser.add_argument("--num_teams", type=int, help="Number of teams to train with")
+    parser.add_argument(
+        "--num_teams", type=int, required=True, help="Number of teams to train with"
+    )
     parser.add_argument("--port", type=int, default=8000, help="Port to run showdown server on")
     parser.add_argument(
         "--device",
@@ -134,8 +145,8 @@ if __name__ == "__main__":
         help="CUDA device to use for training",
     )
     args = parser.parse_args()
-    assert (args.teams is None) != (
-        args.num_teams is None
-    ), "Only pass one of --teams and --num_teams in"
-    teams = args.teams if args.teams is not None else list(range(args.num_teams))
-    eval(teams, args.port, args.device)
+    cross_eval_all_agents(args.num_teams, args.port, args.device, 100, 10)
+    team_counts = [1, 4, 16, 64]
+    methods = ["bc-sp", "bc-sp", "bc-do", "bc-fp"]
+    # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 100, True)
+    # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 100, False)

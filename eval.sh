@@ -6,7 +6,6 @@ fi
 export HF_HOME=/scratch/cluster/cangliss/hf_cache
 
 team_counts=(1 4 16 64)
-team_lists=("30 31" "32 33" "30")
 ports=(8000 8001 8002 8003)
 devices=("cuda:0" "cuda:1" "cuda:2" "cuda:3")
 
@@ -14,7 +13,7 @@ start_showdown() {
     local port=$1
     (
         cd pokemon-showdown
-        node pokemon-showdown start "$port" --no-security > /dev/null 2>&1 &
+        node pokemon-showdown start $port --no-security > /dev/null 2>&1 &
         echo $!
     )
 }
@@ -27,10 +26,10 @@ start_eval() {
     local device=${devices[$i]}
 
     echo "Starting Showdown server for pretraining process..."
-    showdown_pid=$(start_showdown "$port")
+    showdown_pid=$(start_showdown $port)
     sleep 5
     echo "Starting evaluation..."
-    python vgc_bench/eval.py --num_teams "$num_teams" --port "$port" --device "$device" > debug"$port".log 2>&1
+    python vgc_bench/eval.py --num_teams $num_teams --port $port --device $device > "debug$port.log" 2>&1
     exit_status=$?
     if [ $exit_status -ne 0 ]; then
         echo "Evaluation process died with exit status $exit_status"
@@ -39,7 +38,7 @@ start_eval() {
 }
 
 for i in "${!team_counts[@]}"; do
-    start_eval "$i" &
-    sleep 10
+    start_eval $i &
+    sleep 30
 done
 wait
