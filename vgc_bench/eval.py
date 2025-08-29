@@ -144,7 +144,7 @@ def cross_eval_over_team_sizes(
     print("AlphaRank pi values:", ranking.tolist())
 
 
-def print_team_statistics(team_counts: list[int]):
+def print_team_statistics(num_teams: int):
     num_runs = 5
     sim_scores = [
         max(
@@ -172,14 +172,14 @@ def print_team_statistics(team_counts: list[int]):
                     calc_team_similarity_score(
                         TEAMS[battle_format[-4:]][i], TEAMS[battle_format[-4:]][j]
                     )
-                    for i in teams[: max(team_counts)]
+                    for i in teams[:num_teams]
                 ]
             )
-            for j in teams[max(team_counts) :]
+            for j in teams[num_teams:]
         ]
         print(
             "worst-case team similarities of out-of-distribution teams",
-            f"across largest in-distribution team set in run #{run_id}:",
+            f"across in-distribution team set in run #{run_id}:",
         )
         print("mean =", round(mean(sim_scores), ndigits=2))
         print("median =", round(median(sim_scores), ndigits=3))
@@ -201,9 +201,9 @@ if __name__ == "__main__":
         help="CUDA device to use for training",
     )
     args = parser.parse_args()
+    print_team_statistics(args.num_teams)
+    cross_eval_all_agents(args.num_teams, args.port, args.device, 1000, 100)
     team_counts = [1, 4, 16, 64]
     methods = ["bc-sp", "bc-sp", "bc-do", "bc-fp"]
-    print_team_statistics(team_counts)
-    cross_eval_all_agents(args.num_teams, args.port, args.device, 1000, 100)
     # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 1000, True)
     # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 1000, False)
