@@ -88,8 +88,11 @@ def cross_eval_all_agents(
         )
         payoff_matrix = np.insert(payoff_matrix, 3, llm_wins, axis=0)
         payoff_matrix = np.insert(payoff_matrix, 3, llm_losses, axis=1)
+        print(f"Cross-agent comparison of run {run_id} with {num_teams} teams:")
+        print(payoff_matrix.tolist())
         avg_payoff_matrix += payoff_matrix / num_runs
-    print(f"Cross-agent comparison for {num_teams} teams:")
+    avg_payoff_matrix = avg_payoff_matrix.round(decimals=3)
+    print(f"Average cross-agent comparison across all runs with {num_teams} teams:")
     print(avg_payoff_matrix.tolist())
     ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
     print("AlphaRank pi values:", ranking.tolist())
@@ -138,6 +141,7 @@ def cross_eval_over_team_sizes(
             ]
         )
         avg_payoff_matrix += payoff_matrix / num_runs
+    avg_payoff_matrix = avg_payoff_matrix.round(decimals=3)
     print("Performance" if is_performance_test else "Generalization", "test results:")
     print(avg_payoff_matrix.tolist())
     ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
