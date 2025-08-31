@@ -4,7 +4,7 @@ import os
 from src.callback import Callback
 from src.env import ShowdownEnv
 from src.policy import MaskedActorCriticPolicy
-from src.utils import LearningStyle, allow_mirror_match, chooses_on_teampreview, num_envs, save_interval
+from src.utils import LearningStyle, save_interval
 from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import SubprocVecEnv
 
@@ -12,23 +12,38 @@ from stable_baselines3.common.vec_env import SubprocVecEnv
 def train(
     run_id: int,
     num_teams: int,
+    num_envs: int,
     port: int,
     device: str,
     learning_style: LearningStyle,
     behavior_clone: bool,
     num_frames: int,
+    allow_mirror_match: bool,
+    chooses_on_teampreview: bool,
 ):
     env = (
-        ShowdownEnv.create_env(run_id, num_teams, port, learning_style, num_frames)
+        ShowdownEnv.create_env(
+            run_id,
+            num_teams,
+            num_envs,
+            port,
+            learning_style,
+            num_frames,
+            allow_mirror_match,
+            chooses_on_teampreview,
+        )
         if learning_style == LearningStyle.PURE_SELF_PLAY
         else SubprocVecEnv(
             [
                 lambda: ShowdownEnv.create_env(
                     run_id,
                     1 if learning_style == LearningStyle.EXPLOITER else num_teams,
+                    num_envs,
                     port,
                     learning_style,
                     num_frames,
+                    allow_mirror_match,
+                    chooses_on_teampreview,
                 )
                 for _ in range(num_envs)
             ]
@@ -37,9 +52,10 @@ def train(
     run_ident = "".join(
         [
             "-bc" if behavior_clone else "",
-            f"-fs{num_frames}" if num_frames > 1 else "",
             "-" + learning_style.abbrev,
+            f"-fs{num_frames}" if num_frames > 1 else "",
             "-xm" if not allow_mirror_match else "",
+            "-xt" if not chooses_on_teampreview else "",
         ]
     )[1:]
     ppo = PPO(
@@ -79,7 +95,16 @@ def train(
             ppo.num_timesteps = num_saved_timesteps
     ppo.learn(
         5_013_504 - num_saved_timesteps,
-        callback=Callback(run_id, num_teams, port, learning_style, behavior_clone, num_frames),
+        callback=Callback(
+            run_id,
+            num_teams,
+            port,
+            learning_style,
+            behavior_clone,
+            num_frames,
+            allow_mirror_match,
+            chooses_on_teampreview,
+        ),
         tb_log_name=f"{num_teams}-teams",
         reset_num_timesteps=False,
     )
@@ -88,30 +113,55 @@ def train(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a Pokémon AI model")
-    parser.add_argument("--run_id", type=int, required=True, help="Run ID for the training session")
+    parser.add_argument("--run_id", type=int, default=1, help="Run ID for the training session")
+    parser.add_argument("--num_teams", type=int, default=2, help="Number of teams to train with")
     parser.add_argument(
-        "--num_teams", type=int, required=True, help="Number of teams to train with"
+        "--num_envs", type=int, default=1, help="number of parallel environments to run"
     )
     parser.add_argument("--port", type=int, default=8000, help="Port to run showdown server on")
     parser.add_argument(
-        "--device",
-        type=str,
-        default="cuda:0",
-        choices=["cuda:0", "cuda:1", "cuda:2", "cuda:3"],
-        help="CUDA device to use for training",
+        "--device", type=str, default="cuda:0", help="CUDA device to use for training"
     )
-    parser.add_argument("--exploiter", action="store_true", help="play against fixed bot")
-    parser.add_argument("--self_play", action="store_true", help="do pure self-play")
-    parser.add_argument("--fictitious_play", action="store_true", help="do fictitious play")
-    parser.add_argument("--double_oracle", action="store_true", help="do double oracle")
     parser.add_argument(
-        "--behavior_clone", action="store_true", help="Warm up with behavior cloning"
+        "--exploiter",
+        action="store_true",
+        help="train against fixed policy, requires fixed policy file to be placed in save folder as -1.zip prior to training",
+    )
+    parser.add_argument(
+        "--self_play",
+        action="store_true",
+        help="p1 and p2 are both controlled by same learning policy",
+    )
+    parser.add_argument(
+        "--fictitious_play",
+        action="store_true",
+        help="p1 controlled by learning policy, p2 controlled by a past saved policy",
+    )
+    parser.add_argument(
+        "--double_oracle",
+        action="store_true",
+        help="p1 controlled by learning policy, p2 controlled by past saved policy with selection weighted based on computed Nash equilibrium",
+    )
+    parser.add_argument(
+        "--behavior_clone",
+        action="store_true",
+        help="use bc model as initial policy, requires bc model to be placed in save folder prior to training",
     )
     parser.add_argument(
         "--num_frames",
         type=int,
         default=1,
-        help="number of frames to use for frame stacking. default is 1",
+        help="number of frames to use for frame stacking, default is 1 (no frame stacking)",
+    )
+    parser.add_argument(
+        "--disable_mirror_match",
+        action="store_true",
+        help="disables same-team matchups during training, requires num_teams > 1",
+    )
+    parser.add_argument(
+        "--disable_teampreview",
+        action="store_true",
+        help="training agents will effectively start games after teampreview, with teampreview decision selected randomly",
     )
     args = parser.parse_args()
     assert (
@@ -134,9 +184,12 @@ if __name__ == "__main__":
     train(
         args.run_id,
         args.num_teams,
+        args.num_envs,
         args.port,
         args.device,
         style,
         args.behavior_clone,
         args.num_frames,
+        not args.disable_mirror_match,
+        not args.disable_teampreview,
     )

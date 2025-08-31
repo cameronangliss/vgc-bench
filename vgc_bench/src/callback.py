@@ -11,7 +11,7 @@ from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
 from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
-from src.utils import LearningStyle, allow_mirror_match, battle_format, save_interval
+from src.utils import LearningStyle, battle_format, save_interval
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import BaseCallback
 
@@ -27,6 +27,8 @@ class Callback(BaseCallback):
         learning_style: LearningStyle,
         behavior_clone: bool,
         num_frames: int,
+        allow_mirror_match: bool,
+        chooses_on_teampreview: bool,
     ):
         super().__init__()
         self.learning_style = learning_style
@@ -36,9 +38,10 @@ class Callback(BaseCallback):
         self.run_ident = "".join(
             [
                 "-bc" if behavior_clone else "",
-                f"-fs{num_frames}" if num_frames > 1 else "",
                 "-" + learning_style.abbrev,
+                f"-fs{num_frames}" if num_frames > 1 else "",
                 "-xm" if not allow_mirror_match else "",
+                "-xt" if not chooses_on_teampreview else "",
             ]
         )[1:]
         if not os.path.exists(f"results{run_id}/logs-{self.run_ident}"):
@@ -146,10 +149,7 @@ class Callback(BaseCallback):
         self.model.logger.dump(self.model.num_timesteps)
         if self.behavior_clone:
             self.model.policy.actor_grad = self.model.num_timesteps >= save_interval  # type: ignore
-        if self.learning_style in [
-            LearningStyle.FICTITIOUS_PLAY,
-            LearningStyle.DOUBLE_ORACLE,
-        ]:
+        if self.learning_style in [LearningStyle.FICTITIOUS_PLAY, LearningStyle.DOUBLE_ORACLE]:
             policy_files = os.listdir(
                 f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams"
             )

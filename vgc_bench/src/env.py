@@ -12,16 +12,7 @@ from poke_env.environment import DoublesEnv, SingleAgentWrapper
 from poke_env.ps_client import ServerConfiguration
 from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
-from src.utils import (
-    LearningStyle,
-    act_len,
-    allow_mirror_match,
-    battle_format,
-    chooses_on_teampreview,
-    chunk_obs_len,
-    moves,
-    num_envs,
-)
+from src.utils import LearningStyle, act_len, battle_format, chunk_obs_len, moves
 from stable_baselines3.common.monitor import Monitor
 
 
@@ -44,7 +35,15 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
 
     @classmethod
     def create_env(
-        cls, run_id: int, num_teams: int, port: int, learning_style: LearningStyle, num_frames: int
+        cls,
+        run_id: int,
+        num_teams: int,
+        num_envs: int,
+        port: int,
+        learning_style: LearningStyle,
+        num_frames: int,
+        allow_mirror_match: bool,
+        chooses_on_teampreview: bool,
     ) -> Env:
         teams = list(range(len(TEAMS[battle_format[-4:]])))
         random.Random(run_id).shuffle(teams)
