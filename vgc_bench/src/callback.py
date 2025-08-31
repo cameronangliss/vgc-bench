@@ -45,12 +45,7 @@ class Callback(BaseCallback):
             os.mkdir(f"results{run_id}/logs-{self.run_ident}")
         self.payoff_matrix: npt.NDArray[np.float32]
         self.prob_dist = None
-        if self.learning_style == LearningStyle.LAST_SELF:
-            policy_files = os.listdir(
-                f"results{run_id}/saves-{self.run_ident}/{self.num_teams}-teams"
-            )
-            self.prob_dist = [0.0] * (len(policy_files) - 1) + [1.0]
-        elif self.learning_style == LearningStyle.DOUBLE_ORACLE:
+        if self.learning_style == LearningStyle.DOUBLE_ORACLE:
             if os.path.exists(
                 f"results{run_id}/logs-{self.run_ident}/{self.num_teams}-teams-payoff-matrix.json"
             ):
@@ -152,7 +147,6 @@ class Callback(BaseCallback):
         if self.behavior_clone:
             self.model.policy.actor_grad = self.model.num_timesteps >= save_interval  # type: ignore
         if self.learning_style in [
-            LearningStyle.LAST_SELF,
             LearningStyle.FICTITIOUS_PLAY,
             LearningStyle.DOUBLE_ORACLE,
         ]:

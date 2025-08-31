@@ -102,7 +102,6 @@ if __name__ == "__main__":
     )
     parser.add_argument("--exploiter", action="store_true", help="play against fixed bot")
     parser.add_argument("--self_play", action="store_true", help="do pure self-play")
-    parser.add_argument("--last_self", action="store_true", help="do last-self play")
     parser.add_argument("--fictitious_play", action="store_true", help="do fictitious play")
     parser.add_argument("--double_oracle", action="store_true", help="do double oracle")
     parser.add_argument(
@@ -118,7 +117,6 @@ if __name__ == "__main__":
     assert (
         int(args.exploiter)
         + int(args.self_play)
-        + int(args.last_self)
         + int(args.fictitious_play)
         + int(args.double_oracle)
         == 1
@@ -127,8 +125,6 @@ if __name__ == "__main__":
         style = LearningStyle.EXPLOITER
     elif args.self_play:
         style = LearningStyle.PURE_SELF_PLAY
-    elif args.last_self:
-        style = LearningStyle.LAST_SELF
     elif args.fictitious_play:
         style = LearningStyle.FICTITIOUS_PLAY
     elif args.double_oracle:
