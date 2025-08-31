@@ -15,18 +15,38 @@ from src.utils import act_len
 class LLMPlayer(Player):
     def __init__(self, device: str, *args: Any, **kwargs: Any):
         super().__init__(*args, **kwargs)
+        self.device = device
         self._teampreview_drafts = {}
+        self.setup_llm()
+
+    def setup_llm(self):
         tokenizer = transformers.AutoTokenizer.from_pretrained(
             "meta-llama/Meta-Llama-3.1-8B-Instruct"
         )
         model = transformers.AutoModelForCausalLM.from_pretrained(
-            "meta-llama/Meta-Llama-3.1-8B-Instruct", torch_dtype="auto", device_map=device
+            "meta-llama/Meta-Llama-3.1-8B-Instruct", torch_dtype="auto", device_map=self.device
         )
         tokenizer.pad_token = tokenizer.eos_token
         model.config.pad_token_id = tokenizer.eos_token_id
         self.model = transformers.pipelines.pipeline(
             "text-generation", model=model, tokenizer=tokenizer
         )
+
+    def get_response(self, prompt: str) -> str:
+        input_dict = [
+            {
+                "role": "system",
+                "content": (
+                    "You are the strongest player of all time in competitive Pokemon VGC, "
+                    "the official competitive format for the core Pokemon video game series. "
+                    "You will do everything in your power to win this current battle, "
+                    "since this is the finals of the biggest tournament ever."
+                ),
+            },
+            {"role": "user", "content": prompt},
+        ]
+        response = self.model(input_dict)[0]["generated_text"][-1]["content"]
+        return response
 
     def choose_move(self, battle: AbstractBattle) -> BattleOrder:
         assert isinstance(battle, DoubleBattle)
@@ -67,19 +87,7 @@ class LLMPlayer(Player):
         prompt = self.explain_battle(
             battle, self._teampreview_drafts[battle.battle_tag], action_names, ally_order, pos
         )
-        input_dict = [
-            {
-                "role": "system",
-                "content": (
-                    "You are the strongest player of all time in competitive Pokemon VGC, "
-                    "the official competitive format for the core Pokemon video game series. "
-                    "You will do everything in your power to win this current battle, "
-                    "since this is the finals of the biggest tournament ever."
-                ),
-            },
-            {"role": "user", "content": prompt},
-        ]
-        response: str = self.model(input_dict)[0]["generated_text"][-1]["content"]  # type: ignore
+        response = self.get_response(prompt)
         try:
             action_index = int(response) - 1
             action = action_space[action_index]
@@ -114,19 +122,7 @@ class LLMPlayer(Player):
     ) -> Pokemon:
         remaining_pokemon = [p for p in battle.team.values() if p not in actives and p not in bench]
         prompt = self.explain_battle_teampreview(battle, actives, bench)
-        input_dict = [
-            {
-                "role": "system",
-                "content": (
-                    "You are the strongest player of all time in competitive Pokemon VGC, "
-                    "the official competitive format for the core Pokemon video game series. "
-                    "You will do everything in your power to win this current battle, "
-                    "since this is the finals of the biggest tournament ever."
-                ),
-            },
-            {"role": "user", "content": prompt},
-        ]
-        response: str = self.model(input_dict)[0]["generated_text"][-1]["content"]  # type: ignore
+        response = self.get_response(prompt)
         try:
             action_index = int(response) - 1
             mon = remaining_pokemon[action_index]
