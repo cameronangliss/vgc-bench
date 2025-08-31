@@ -133,22 +133,16 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Pretrain a Pokémon AI model")
-    parser.add_argument("--run_id", type=int, required=True, help="Run ID for the training session")
-    parser.add_argument("--num_teams", type=int, default=1, help="Number of teams to train with")
-    parser.add_argument("--port", type=int, default=8000, help="Port to run showdown server on")
-    parser.add_argument(
-        "--device",
-        type=str,
-        default="cuda:0",
-        choices=["cuda:0", "cuda:1", "cuda:2", "cuda:3"],
-        help="CUDA device to use for training",
-    )
+    parser = argparse.ArgumentParser(description="Pretrain a policy using behavior cloning")
     parser.add_argument(
         "--num_frames",
         type=int,
         default=1,
-        help="number of frames to use for frame stacking. default is 1",
+        help="number of frames to use for frame stacking, default is 1 (no frame stacking)",
     )
+    parser.add_argument("--run_id", type=int, default=1, help="run ID for the training session")
+    parser.add_argument("--num_teams", type=int, default=2, help="number of teams to train with")
+    parser.add_argument("--port", type=int, default=8000, help="port to run showdown server on")
+    parser.add_argument("--device", type=str, default="cuda:0", help="device to use for training")
     args = parser.parse_args()
     pretrain(args.run_id, args.num_teams, args.port, args.device, args.num_frames)

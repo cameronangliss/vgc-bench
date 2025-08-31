@@ -112,15 +112,8 @@ def train(
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Train a Pokémon AI model")
-    parser.add_argument("--run_id", type=int, default=1, help="Run ID for the training session")
-    parser.add_argument("--num_teams", type=int, default=2, help="Number of teams to train with")
-    parser.add_argument(
-        "--num_envs", type=int, default=1, help="number of parallel environments to run"
-    )
-    parser.add_argument("--port", type=int, default=8000, help="Port to run showdown server on")
-    parser.add_argument(
-        "--device", type=str, default="cuda:0", help="CUDA device to use for training"
+    parser = argparse.ArgumentParser(
+        description="Train a policy using population-based reinforcement learning"
     )
     parser.add_argument(
         "--exploiter",
@@ -163,6 +156,11 @@ if __name__ == "__main__":
         action="store_true",
         help="training agents will effectively start games after teampreview, with teampreview decision selected randomly",
     )
+    parser.add_argument("--run_id", type=int, default=1, help="run ID for the training session")
+    parser.add_argument("--num_teams", type=int, default=2, help="number of teams to train with")
+    parser.add_argument("--num_envs", type=int, default=1, help="number of parallel envs to run")
+    parser.add_argument("--port", type=int, default=8000, help="port to run showdown server on")
+    parser.add_argument("--device", type=str, default="cuda:0", help="device to use for training")
     args = parser.parse_args()
     assert (
         int(args.exploiter)
