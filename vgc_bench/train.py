@@ -4,7 +4,7 @@ import os
 from src.callback import Callback
 from src.env import ShowdownEnv
 from src.policy import MaskedActorCriticPolicy
-from src.utils import LearningStyle, allow_mirror_match, chooses_on_teampreview, num_envs, steps
+from src.utils import LearningStyle, allow_mirror_match, chooses_on_teampreview, num_envs, save_interval
 from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import SubprocVecEnv
 
@@ -74,7 +74,7 @@ def train(
                 f"results{run_id}/saves-{run_ident}/{num_teams}-teams/{num_saved_timesteps}.zip",
                 device=ppo.device,
             )
-            if num_saved_timesteps < steps:
+            if num_saved_timesteps < save_interval:
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
     ppo.learn(

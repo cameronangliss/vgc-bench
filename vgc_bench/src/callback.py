@@ -11,7 +11,7 @@ from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
 from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
-from src.utils import LearningStyle, allow_mirror_match, battle_format, steps
+from src.utils import LearningStyle, allow_mirror_match, battle_format, save_interval
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import BaseCallback
 
@@ -119,7 +119,7 @@ class Callback(BaseCallback):
     def _on_training_start(self):
         assert self.model.env is not None
         self.eval_agent.policy = self.model.policy
-        if self.model.num_timesteps < steps:
+        if self.model.num_timesteps < save_interval:
             win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
             self.model.logger.record("train/eval", win_rate)
         if not self.behavior_clone:
@@ -150,7 +150,7 @@ class Callback(BaseCallback):
         assert self.model.env is not None
         self.model.logger.dump(self.model.num_timesteps)
         if self.behavior_clone:
-            self.model.policy.actor_grad = self.model.num_timesteps >= steps  # type: ignore
+            self.model.policy.actor_grad = self.model.num_timesteps >= save_interval  # type: ignore
         if self.learning_style in [
             LearningStyle.LAST_SELF,
             LearningStyle.FICTITIOUS_PLAY,
@@ -170,7 +170,7 @@ class Callback(BaseCallback):
                 self.model.env.env_method("set_opp_policy", policy, indices=i)
 
     def _on_rollout_end(self):
-        if self.model.num_timesteps % steps == 0:
+        if self.model.num_timesteps % save_interval == 0:
             win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
             self.model.logger.record("train/eval", win_rate)
             if self.learning_style == LearningStyle.DOUBLE_ORACLE:
