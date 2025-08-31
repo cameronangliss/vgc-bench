@@ -113,7 +113,7 @@ def train(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Train a policy using population-based reinforcement learning"
+        description="Train a policy using population-based reinforcement learning. Must choose EXACTLY ONE of exploiter, self_play, fictitious_play, or double_oracle options."
     )
     parser.add_argument(
         "--exploiter",
