@@ -74,6 +74,19 @@ def calc_team_similarity_score(team1: str, team2: str):
     return round(100 * similarity_score / 60, ndigits=2)
 
 
+def find_run_id(team_ids: set[int], battle_format: str) -> int:
+    """
+    Finds lowest run_id > 0 that will have team_ids in the beginning of its team order
+    """
+    run_id = 1
+    while True:
+        teams = list(range(len(TEAMS[battle_format[-4:]])))
+        random.Random(run_id).shuffle(teams)
+        if set(teams[: len(team_ids)]) == team_ids:
+            return run_id
+        run_id += 1
+
+
 TEAMS = {
     "regi": [
         ### ATLANTA REGIONALS APRIL 2025 (14 teams) ###
