@@ -4,8 +4,8 @@ This is the official code for the paper [VGC-Bench: A Benchmark for Generalizing
 This benchmark includes:
 - population-based reinforcement learning (RL) with 4 Policy Space Response Oracle (PSRO) algorithms to fine-tune an agent initialized either randomly or with the output of the BC pipeline
 - a behavior cloning (BC) pipeline to gather human demonstrations, process them into state-action pairs, and train a model to imitate human play
-- a very basic Large Language Model (LLM) player that any LLM can easily be plugged into
-- 3 basic heuristic players from [poke-env](https://github.com/hsahovic/poke-env)
+- a basic Large Language Model (LLM) player that any LLM can easily be plugged into
+- 3 heuristic players from [poke-env](https://github.com/hsahovic/poke-env)
 
 # 🛠️ Setup
 Prerequisites:
@@ -38,7 +38,7 @@ python vgc_bench/scrape_data.py
 
 # 👨‍💻 How to use
 
-NOTE: Unless you're playing your policy on the live servers with [play.py](vgc_bench/play.py), you must run your own localhost showdown server with `node pokemon-showdown start --no-security` from the pokemon-showdown directory (done automatically if using bash scripts).
+NOTE: Unless you're playing your policy on the live Pokémon Showdown servers with [play.py](vgc_bench/play.py), you must locally host your own server by running `node pokemon-showdown start <PORT> --no-security` from `pokemon-showdown/` (done automatically if using bash scripts).
 
 All `.py` files in `vgc_bench/` are scripts and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py)) have helpful `--help` text. By contrast, all `.py` files in `vgc_bench/src/` are not scripts, and are not intended to be run standalone.
 
@@ -95,7 +95,7 @@ print(results)
 
 ## 📊 Evaluation
 
-- [play.py](vgc_bench/play.py) loads a saved policy and plays it against humans either via challenge or the ladder on Pokémon Showdown
+- [play.py](vgc_bench/play.py) loads a saved policy onto the live Pokémon Showdown servers, where the policy can receive challenges from other users or enter the online Elo ladder
 - [eval.py](vgc_bench/eval.py) runs the cross-play evaluation, performance test, generalization test, and ranking algorithm as described in our paper (see above)
 
 See [eval.sh](eval.sh) for an example call of [eval.py](vgc_bench/eval.py) (or just configure and run the bash script itself).
