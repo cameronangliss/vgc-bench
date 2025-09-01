@@ -59,7 +59,7 @@ See [train.sh](train.sh) for an example call of train.py (or just configure and 
 
 ## Behavior Cloning
 
-1. [scrape_logs.py](vgc_bench/scrape_logs.py) scrapes logs from the [Pokémon Showdown replay database](https://replay.pokemonshowdown.com), automatically filtering out bad logs and only scraping lots with open team sheets (OTS)
+1. [scrape_logs.py](vgc_bench/scrape_logs.py) scrapes logs from the [Pokémon Showdown replay database](https://replay.pokemonshowdown.com), automatically filtering out bad logs and only scraping logs with open team sheets (OTS)
     - optional parallelization (strongly recommended)
     - skip scraping by downloading our dataset from [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs)
 1. [logs2trajs.py](vgc_bench/logs2trajs.py) reads the logs from player 1 and 2's perspective
