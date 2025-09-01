@@ -2,7 +2,7 @@
 This is the official code for the paper [VGC-Bench: A Benchmark for Generalizing Across Diverse Team Strategies in Competitive Pokémon](https://arxiv.org/abs/2506.10326).
 
 This benchmark includes:
-- population-based reinforcement learning (RL) with 3 PSRO methods to fine-tune an agent initialized either randomly or with the output of the BC pipeline
+- population-based reinforcement learning (RL) with 4 Policy Space Response Oracle (PSRO) algorithms to fine-tune an agent initialized either randomly or with the output of the BC pipeline
 - a behavior cloning (BC) pipeline to gather human demonstrations, process them into state-action pairs, and train a model to imitate human play
 - a very basic Large Language Model (LLM) player that any LLM can easily be plugged into
 - 3 basic heuristic players from [poke-env](https://github.com/hsahovic/poke-env)
@@ -38,19 +38,20 @@ python vgc_bench/scrape_data.py
 
 # 👨‍💻 How to use
 
-NOTE: Unless you're playing against other humans on the online ladder, you must run your own localhost showdown server with `node pokemon-showdown start --no-security` from the pokemon-showdown directory (not necessary if using bash scripts directly).
+NOTE: Unless you're playing your policy on the live servers with [play.py](vgc_bench/play.py), you must run your own localhost showdown server with `node pokemon-showdown start --no-security` from the pokemon-showdown directory (done automatically if using bash scripts).
 
 All `.py` files in `vgc_bench/` are scripts and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py)) have helpful `--help` text. By contrast, all `.py` files in `vgc_bench/src/` are not scripts, and are not intended to be run standalone.
 
 ## 🧠 Population-based Reinforcement Learning
 
-The training code offers the following training algorithms:
+The training code offers the following PSRO algorithms:
 - pure self-play
 - fictitious play
 - double oracle method
 - policy exploitation
 
 ...as well as some special training options:
+- initializing the policy with the output of the BC pipeline (requires manually copying the BC policy file into the training run's save folder)
 - frame stacking with specified number of frames
 - excluding mirror matches (p1 and p2 using the same team)
 - starting agent with random teampreview at the beginning of each game
@@ -61,13 +62,13 @@ See [train.sh](train.sh) for an example call of train.py (or just configure and 
 
 1. [scrape_logs.py](vgc_bench/scrape_logs.py) scrapes logs from the [Pokémon Showdown replay database](https://replay.pokemonshowdown.com), automatically filtering out bad logs and only scraping logs with open team sheets (OTS)
     - optional parallelization (strongly recommended)
-    - skip scraping by downloading our dataset from [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs)
+    - if you don't need logs after 08/21/2025, just download our pre-scraped dataset of logs: [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs)
 1. [logs2trajs.py](vgc_bench/logs2trajs.py) parses the logs into trajectories composed of state-action transitions
     - optional parallelization (strongly recommended)
-    - configurable `--min_rating` and `--only_winner` options to filter out lower-Elo or loser's trajectories
+    - configurable `--min_rating` and `--only_winner` options to filter out low-Elo or loser's trajectories
 1. [pretrain.py](vgc_bench/pretrain.py) uses the gathered trajectories to train a policy with behavior cloning
     - frame stacking with specified number of frames
-    - configurable fraction of dataset to load into memory during behavior cloning at any given time (if not set low enough, can result in OOM)
+    - configurable fraction of dataset to load into memory during behavior cloning at any given time (if not set low enough, program may run out of memory)
 
 See [pretrain.sh](pretrain.sh) for an example call of pretrain.py (or just configure and run the bash script itself).
 
