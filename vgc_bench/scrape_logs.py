@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import re
@@ -10,7 +11,7 @@ from poke_env.data import to_id_str
 from src.utils import all_formats
 
 
-def scrape_logs(increment: int, battle_format: str) -> bool:
+def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:
     if os.path.exists(f"data/logs-{battle_format}.json"):
         with open(f"data/logs-{battle_format}.json", "r") as f:
             old_logs = json.load(f)
@@ -21,8 +22,11 @@ def scrape_logs(increment: int, battle_format: str) -> bool:
     newest = max(log_times) if log_times else None
     battle_idents = get_battle_idents(increment, battle_format, oldest, newest)
     battle_idents = [ident for ident in battle_idents if ident not in old_logs.keys()]
-    with ThreadPoolExecutor(max_workers=8) as executor:
-        log_jsons = list(executor.map(get_log_json, battle_idents))
+    if num_workers == 0:
+        log_jsons = [get_log_json(ident) for ident in battle_idents]
+    else:
+        with ThreadPoolExecutor(max_workers=num_workers) as executor:
+            log_jsons = list(executor.map(get_log_json, battle_idents))
     new_logs = {
         lj["id"]: (lj["uploadtime"], lj["log"])
         for lj in log_jsons
@@ -106,12 +110,12 @@ def get_rating(log: str, role: str) -> int | None:
     return rating
 
 
-if __name__ == "__main__":
+def main(num_workers: int, read_increment: int):
 
     def run(f: str):
         done = False
         while not done:
-            done = scrape_logs(4000, f)
+            done = scrape_logs(num_workers // len(all_formats), read_increment, f)
         with open(f"data/logs-{f}.json", "r") as file:
             log_dict = json.load(file)
             logs = [log for _, log in log_dict.values()]
@@ -138,5 +142,20 @@ total logs = {len(logs)}
             flush=True,
         )
 
-    with ThreadPoolExecutor(max_workers=len(all_formats)) as executor:
+    with ThreadPoolExecutor(max_workers=min(num_workers, len(all_formats))) as executor:
         executor.map(run, all_formats)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Scrapes logs into data/ folder")
+    parser.add_argument(
+        "--num_workers", type=int, default=1, help="number of parallel log scrapers"
+    )
+    parser.add_argument(
+        "--read_increment",
+        type=int,
+        default=4000,
+        help="number of logs to read through when filtering through logs (if too low, scraper may prematurely think there are no more logs to scrape)",
+    )
+    args = parser.parse_args()
+    main(args.num_workers, args.read_increment)

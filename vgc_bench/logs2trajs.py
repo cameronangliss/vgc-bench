@@ -1,3 +1,4 @@
+import argparse
 import asyncio
 import json
 import os
@@ -186,8 +187,9 @@ class LogReader(Player):
 def process_logs(
     log_jsons: dict[str, tuple[str, str]],
     executor: ProcessPoolExecutor,
-    min_rating: int | None = None,
-    strict: bool = False,
+    min_rating: int | None,
+    only_winner: bool,
+    strict: bool,
 ) -> list[Trajectory]:
 
     def chunked(iterable, size):
@@ -196,9 +198,9 @@ def process_logs(
             yield chunk
 
     trajs = []
-    task_params = [(tag, log, "p1", min_rating) for tag, (_, log) in log_jsons.items()] + [
-        (tag, log, "p2", min_rating) for tag, (_, log) in log_jsons.items()
-    ]
+    task_params = [
+        (tag, log, "p1", min_rating, only_winner) for tag, (_, log) in log_jsons.items()
+    ] + [(tag, log, "p2", min_rating, only_winner) for tag, (_, log) in log_jsons.items()]
     num_empty = 0
     num_errors = 0
     for chunk in chunked(task_params, 10_000):
@@ -227,11 +229,18 @@ def process_logs(
     return trajs
 
 
-def process_log(tag: str, log: str, role: str, min_rating: int | None) -> Trajectory | None:
+def process_log(
+    tag: str, log: str, role: str, min_rating: int | None, only_winner: bool
+) -> Trajectory | None:
     start_index = log.index(f"|player|{role}|")
     end_index = log.index("\n", start_index)
     _, _, _, username, _, rating = log[start_index:end_index].split("|")
-    if min_rating is None or (rating and int(rating) >= min_rating):
+    win_start_index = log.index("|win|")
+    win_end_index = log.index("\n", win_start_index)
+    _, _, winner = log[win_start_index:win_end_index].split("|")
+    if (not only_winner or winner == username) and (
+        min_rating is None or (rating and int(rating) >= min_rating)
+    ):
         player = LogReader(
             account_configuration=AccountConfiguration(username, None),
             battle_format=tag.split("-")[0],
@@ -248,22 +257,47 @@ def process_log(tag: str, log: str, role: str, min_rating: int | None) -> Trajec
             return traj
 
 
-if __name__ == "__main__":
+def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bool):
 
     def _init_worker_loop():
         global _READER_LOOP
         _READER_LOOP = asyncio.new_event_loop()
         Thread(target=_READER_LOOP.run_forever, daemon=True).start()
 
-    executor = ProcessPoolExecutor(max_workers=64, initializer=_init_worker_loop)
+    executor = ProcessPoolExecutor(max_workers=num_workers, initializer=_init_worker_loop)
     os.makedirs("data/trajs", exist_ok=True)
     total = 0
     for f in all_formats:
         with open(f"data/logs-{f}.json", "r") as file:
             logs = json.load(file)
         print(f"processing {len(logs)} {f} logs...")
-        trajs = process_logs(logs, executor)
+        trajs = process_logs(logs, executor, min_rating, only_winner, strict)
         for i, traj in enumerate(trajs, start=total):
             with open(f"data/trajs/{i:08d}.pkl", "wb") as f:
                 pickle.dump(traj, f)
         total += len(trajs)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Parses logs in data/ folder into trajectories stored in data/trajs/"
+    )
+    parser.add_argument("--num_workers", type=int, default=1, help="number of parallel log parsers")
+    parser.add_argument(
+        "--min_rating",
+        type=int,
+        default=None,
+        help="minimum Elo rating to parse in that player's perspective",
+    )
+    parser.add_argument(
+        "--only_winner",
+        action="store_true",
+        help="skips parsing logs in the perspective of the player that lost",
+    )
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="will crash program if a log fails to parse (WARNING: mostly useful for debugging; some logs, such as those with Ditto, are known to not parse)",
+    )
+    args = parser.parse_args()
+    main(args.num_workers, args.min_rating, args.only_winner, args.strict)

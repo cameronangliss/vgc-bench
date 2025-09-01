@@ -53,7 +53,7 @@ class TrajectoryDataset(Dataset):
         return Trajectory(obs=stacked_obs, acts=traj.acts, infos=None, terminal=True)
 
 
-def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: int):
+def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: int, div_frac: float):
     env = ShowdownEnv(
         learning_style=LearningStyle.PURE_SELF_PLAY,
         battle_format=battle_format,
@@ -75,7 +75,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         device=device,
     )
     dataset = TrajectoryDataset(num_frames)
-    div_count = 100
+    div_count = int(1 / div_frac)
     dataloader = DataLoader(
         dataset,
         batch_size=len(dataset) // div_count,
@@ -140,9 +140,15 @@ if __name__ == "__main__":
         default=1,
         help="number of frames to use for frame stacking, default is 1 (no frame stacking)",
     )
+    parser.add_argument(
+        "--div_frac",
+        type=float,
+        default=0.01,
+        help="fraction of total dataset to load at a given time during training (must be <1 when dataset is large)",
+    )
     parser.add_argument("--run_id", type=int, default=1, help="run ID for the training session")
     parser.add_argument("--num_teams", type=int, default=2, help="number of teams to train with")
     parser.add_argument("--port", type=int, default=8000, help="port to run showdown server on")
     parser.add_argument("--device", type=str, default="cuda:0", help="device to use for training")
     args = parser.parse_args()
-    pretrain(args.run_id, args.num_teams, args.port, args.device, args.num_frames)
+    pretrain(args.run_id, args.num_teams, args.port, args.device, args.num_frames, args.div_frac)
