@@ -59,15 +59,15 @@ See [train.sh](train.sh) for an example call of train.py (or just configure and 
 
 ## Behavior Cloning
 
-1. [scrape_logs.py](vgc_bench/scrape_logs.py) scrapes logs from the [Pokémon Showdown replay database](https://replay.pokemonshowdown.com) (see [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs) for our dataset of Gen 9 VGC battles, all with both players agreeing to use open team sheets)
+1. [scrape_logs.py](vgc_bench/scrape_logs.py) scrapes logs from the [Pokémon Showdown replay database](https://replay.pokemonshowdown.com), automatically filtering out bad logs and only scraping lots with open team sheets (OTS)
+    - optional parallelization (strongly recommended)
+    - skip scraping by downloading our dataset from [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs)
 1. [logs2trajs.py](vgc_bench/logs2trajs.py) reads the logs from player 1 and 2's perspective
+    - optional parallelization (strongly recommended)
+    - configurable `--min_rating` and `--only_winner` options to filter out lower-Elo or loser's trajectories
 1. [pretrain.py](vgc_bench/pretrain.py) uses those transitions to train a policy with behavior cloning
-
-NOTE: Both scrape_logs.py and logs2trajs.py have optional parallelization, which are essentially necessary if you're scraping/parsing logs at large scale.
-
-The pretraining code offers some notable options:
-- configurable frame stacking
-- fraction of dataset to load into memory during behavior cloning at any given time (if not set low enough, can result in OOM)
+    - configurable frame stacking
+    - fraction of dataset to load into memory during behavior cloning at any given time (if not set low enough, can result in OOM)
 
 See [pretrain.sh](pretrain.sh) for an example call of pretrain.py (or just configure and run the bash script itself).
 
