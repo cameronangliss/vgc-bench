@@ -66,7 +66,7 @@ See [train.sh](train.sh) for an example call of train.py (or just configure and 
     - if you don't need logs after 08/21/2025, just download our pre-scraped dataset of logs: [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs)
 1. [logs2trajs.py](vgc_bench/logs2trajs.py) parses the logs into trajectories composed of state-action transitions
     - optional parallelization (strongly recommended)
-    - `--min_rating` and `--only_winner` can be used to filter out low-Elo or losing trajectories respectively
+    - `--min_rating` and `--only_winner` can be used to filter out low-Elo and losing trajectories respectively
 1. [pretrain.py](vgc_bench/pretrain.py) uses the gathered trajectories to train a policy with behavior cloning
     - frame stacking with specified number of frames
     - configurable fraction of dataset to load into memory at any given time (if not set low enough, program may run out of memory)
