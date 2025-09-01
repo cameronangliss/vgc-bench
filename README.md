@@ -51,7 +51,7 @@ The training code offers the following training algorithms:
 - policy exploitation
 
 ...as well as some special training options:
-- configurable frame stacking
+- frame stacking with specified number of frames
 - excluding mirror matches (p1 and p2 using the same team)
 - starting agent with random teampreview at the beginning of each game
 
@@ -66,8 +66,8 @@ See [train.sh](train.sh) for an example call of train.py (or just configure and 
     - optional parallelization (strongly recommended)
     - configurable `--min_rating` and `--only_winner` options to filter out lower-Elo or loser's trajectories
 1. [pretrain.py](vgc_bench/pretrain.py) uses the gathered trajectories to train a policy with behavior cloning
-    - configurable frame stacking
-    - fraction of dataset to load into memory during behavior cloning at any given time (if not set low enough, can result in OOM)
+    - frame stacking with specified number of frames
+    - configurable fraction of dataset to load into memory during behavior cloning at any given time (if not set low enough, can result in OOM)
 
 See [pretrain.sh](pretrain.sh) for an example call of pretrain.py (or just configure and run the bash script itself).
 
