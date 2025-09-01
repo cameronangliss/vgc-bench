@@ -59,7 +59,7 @@ See [train.sh](train.sh) for an example call of train.py (or just configure and 
 
 ## Behavior Cloning
 
-1. [scrape_logs.py](vgc_bench/scrape_logs.py) scrapes logs from the [Pokémon Showdown replay database](https://replay.pokemonshowdown.com) (see [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs) for a dataset of Gen 9 VGC battles, all with both players agreeing to use open team sheets)
+1. [scrape_logs.py](vgc_bench/scrape_logs.py) scrapes logs from the [Pokémon Showdown replay database](https://replay.pokemonshowdown.com) (see [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs) for our dataset of Gen 9 VGC battles, all with both players agreeing to use open team sheets)
 1. [logs2trajs.py](vgc_bench/logs2trajs.py) reads the logs from player 1 and 2's perspective
 1. [pretrain.py](vgc_bench/pretrain.py) uses those transitions to train a policy with behavior cloning
 
