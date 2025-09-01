@@ -16,6 +16,7 @@ Run the following to ensure that pokemon showdown is configured:
 ```
 git submodule update --init --recursive
 cd pokemon-showdown
+npm i
 node pokemon-showdown start --no-security
 ```
 Let that run until you see the following text:
