@@ -7,7 +7,7 @@ This benchmark includes:
 - a very basic Large Language Model (LLM) player that any LLM can easily be plugged into
 - 3 basic heuristic players from [poke-env](https://github.com/hsahovic/poke-env)
 
-# How to setup
+# 🛠️ Setup
 Prerequisites:
 1. Python (I use v3.12)
 1. NodeJS and npm (whatever pokemon-showdown requires)
@@ -36,13 +36,13 @@ Setup necessary local data by running:
 python vgc_bench/scrape_data.py
 ```
 
-# How to use
+# 👨‍💻 How to use
 
 NOTE: Unless you're playing against other humans on the online ladder, you must run your own localhost showdown server with `node pokemon-showdown start --no-security` from the pokemon-showdown directory (not necessary if using bash scripts directly).
 
-All .py files in `vgc_bench/` are scripts and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py)) have helpful `--help` text. By contrast, all .py files in `vgc_bench/src/` are not scripts, and are not intended to be run standalone.
+All `.py` files in `vgc_bench/` are scripts and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py)) have helpful `--help` text. By contrast, all `.py` files in `vgc_bench/src/` are not scripts, and are not intended to be run standalone.
 
-## Population-based Reinforcement Learning
+## 🧠 Population-based Reinforcement Learning
 
 The training code offers the following training algorithms:
 - pure self-play
@@ -57,7 +57,7 @@ The training code offers the following training algorithms:
 
 See [train.sh](train.sh) for an example call of train.py (or just configure and run the bash script itself).
 
-## Behavior Cloning
+## 📚 Behavior Cloning
 
 1. [scrape_logs.py](vgc_bench/scrape_logs.py) scrapes logs from the [Pokémon Showdown replay database](https://replay.pokemonshowdown.com), automatically filtering out bad logs and only scraping logs with open team sheets (OTS)
     - optional parallelization (strongly recommended)
@@ -71,11 +71,11 @@ See [train.sh](train.sh) for an example call of train.py (or just configure and 
 
 See [pretrain.sh](pretrain.sh) for an example call of pretrain.py (or just configure and run the bash script itself).
 
-## LLMs
+## 🤖 LLMs
 
 See [llm.py](vgc_bench/src/llm.py) for the provided LLMPlayer wrapper class. We use `meta-llama/Meta-Llama-3.1-8B-Instruct`, but the user may replace logic in the `setup_llm` and `get_response` methods to use a different LLM.
 
-## Heuristics
+## 🎲 Heuristics
 
 See [poke-env](https://github.com/hsahovic/poke-env) for detailed examples of using the heuristic players. For example:
 
@@ -92,14 +92,14 @@ results = asyncio.run(cross_evaluate([random_player, mbp_player, sh_player], n_c
 print(results)
 ```
 
-## Evaluation
+## 📊 Evaluation
 
 - [play.py](vgc_bench/play.py) loads a saved policy and plays it against humans either via challenge or the ladder on Pokémon Showdown
 - [eval.py](vgc_bench/eval.py) runs the cross-play evaluation, performance test, generalization test, and ranking algorithm as described in our paper (see above)
 
 See [eval.sh](eval.sh) for an example call of [eval.py](vgc_bench/eval.py) (or just configure and run the bash script itself).
 
-# Cite us
+# 📜 Cite us
 
 ```bibtex
 @article{angliss2025benchmark,
