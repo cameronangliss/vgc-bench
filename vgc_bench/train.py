@@ -147,12 +147,12 @@ if __name__ == "__main__":
         help="number of frames to use for frame stacking, default is 1 (no frame stacking)",
     )
     parser.add_argument(
-        "--disable_mirror_match",
+        "--no_mirror_match",
         action="store_true",
         help="disables same-team matchups during training, requires num_teams > 1",
     )
     parser.add_argument(
-        "--disable_teampreview",
+        "--no_teampreview",
         action="store_true",
         help="training agents will effectively start games after teampreview, with teampreview decision selected randomly",
     )
@@ -188,6 +188,6 @@ if __name__ == "__main__":
         style,
         args.behavior_clone,
         args.num_frames,
-        not args.disable_mirror_match,
-        not args.disable_teampreview,
+        not args.no_mirror_match,
+        not args.no_teampreview,
     )
