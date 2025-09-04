@@ -43,7 +43,7 @@ NOTE: Unless you're playing your policy on the live Pokémon Showdown servers wi
 
 All `.py` files in `vgc_bench/` are scripts and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py)) have helpful `--help` text. By contrast, all `.py` files in `vgc_bench/src/` are not scripts, and are not intended to be run standalone.
 
-## 🧠 Population-based Reinforcement Learning
+## 🏆 Population-based Reinforcement Learning
 
 The training code offers the following PSRO algorithms:
 - pure self-play
