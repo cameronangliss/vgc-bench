@@ -41,7 +41,7 @@ class RandomTeamBuilder(Teambuilder):
 
 def calc_team_similarity_score(team1: str, team2: str):
     """
-    Roughly measures similarity between two teams on a scale of 0-100
+    Roughly measures similarity between two teams on a scale of 0-1
     """
     mon_builders1 = Teambuilder.parse_showdown_team(team1)
     mon_builders2 = Teambuilder.parse_showdown_team(team2)
@@ -71,7 +71,7 @@ def calc_team_similarity_score(team1: str, team2: str):
         for move in mon1.moves:
             if move in mon2.moves:
                 similarity_score += 1
-    return round(100 * similarity_score / 60, ndigits=2)
+    return round(similarity_score / 60, ndigits=3)
 
 
 def find_run_id(team_ids: set[int], battle_format: str) -> int:
