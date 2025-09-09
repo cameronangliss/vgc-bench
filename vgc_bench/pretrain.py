@@ -12,7 +12,7 @@ from poke_env.ps_client import ServerConfiguration
 from src.callback import Callback
 from src.env import ShowdownEnv
 from src.policy import MaskedActorCriticPolicy
-from src.policy_player import PolicyPlayer
+from src.policy_player import BatchPolicyPlayer
 from src.teams import RandomTeamBuilder
 from src.utils import LearningStyle, battle_format
 from stable_baselines3 import PPO
@@ -96,7 +96,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
             ["tensorboard"],
         ),
     )
-    eval_agent = PolicyPlayer(
+    eval_agent = BatchPolicyPlayer(
         policy=ppo.policy,
         server_configuration=ServerConfiguration(
             f"ws://localhost:{port}/showdown/websocket",
@@ -104,7 +104,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         ),
         battle_format=battle_format,
         log_level=40,
-        max_concurrent_battles=10,
+        max_concurrent_battles=24,
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(list(range(num_teams)), battle_format),
     )
@@ -115,11 +115,11 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         ),
         battle_format=battle_format,
         log_level=40,
-        max_concurrent_battles=10,
+        max_concurrent_battles=24,
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(list(range(num_teams)), battle_format),
     )
-    win_rate = Callback.compare(eval_agent, eval_opponent, 100)
+    win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
     bc.logger.record("bc/eval", win_rate)
     ppo.save(f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/0")
     for i in range(100):
@@ -128,7 +128,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
             demos = next(data)
             bc.set_demonstrations(demos)
             bc.train(n_epochs=1)
-        win_rate = Callback.compare(eval_agent, eval_opponent, 100)
+        win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
         bc.logger.record("bc/eval", win_rate)
         ppo.save(f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/{i + 1}")
     bc.train(n_epochs=1)

@@ -9,7 +9,7 @@ import numpy.typing as npt
 from nashpy import Game
 from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
-from src.policy_player import PolicyPlayer
+from src.policy_player import BatchPolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
 from src.utils import LearningStyle, battle_format, save_interval
 from stable_baselines3 import PPO
@@ -62,14 +62,14 @@ class Callback(BaseCallback):
         teams = list(range(len(TEAMS[battle_format[-4:]])))
         random.Random(run_id).shuffle(teams)
         toggle = None if allow_mirror_match else TeamToggle(num_teams)
-        self.eval_agent = PolicyPlayer(
+        self.eval_agent = BatchPolicyPlayer(
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
             ),
             battle_format=battle_format,
             log_level=25,
-            max_concurrent_battles=10,
+            max_concurrent_battles=24,
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
@@ -78,14 +78,14 @@ class Callback(BaseCallback):
                 toggle,
             ),
         )
-        self.eval_agent2 = PolicyPlayer(
+        self.eval_agent2 = BatchPolicyPlayer(
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
             ),
             battle_format=battle_format,
             log_level=25,
-            max_concurrent_battles=10,
+            max_concurrent_battles=24,
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
@@ -101,7 +101,7 @@ class Callback(BaseCallback):
             ),
             battle_format=battle_format,
             log_level=25,
-            max_concurrent_battles=10,
+            max_concurrent_battles=24,
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
@@ -118,7 +118,7 @@ class Callback(BaseCallback):
         assert self.model.env is not None
         self.eval_agent.policy = self.model.policy
         if self.model.num_timesteps < save_interval:
-            win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
+            win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
             self.model.logger.record("train/eval", win_rate)
         if not self.behavior_clone:
             self.model.save(
@@ -165,7 +165,7 @@ class Callback(BaseCallback):
 
     def _on_rollout_end(self):
         if self.model.num_timesteps % save_interval == 0:
-            win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
+            win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
             self.model.logger.record("train/eval", win_rate)
             if self.learning_style == LearningStyle.DOUBLE_ORACLE:
                 self.update_payoff_matrix()
@@ -186,7 +186,7 @@ class Callback(BaseCallback):
                 f"results{self.run_id}/saves-{self.run_ident}/{self.num_teams}-teams/{p}",
                 device=self.model.device,
             ).policy
-            win_rate = self.compare(self.eval_agent, self.eval_agent2, 100)
+            win_rate = self.compare(self.eval_agent, self.eval_agent2, 1000)
             win_rates = np.append(win_rates, win_rate)
         self.payoff_matrix = np.concat([self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1)
         win_rates = np.append(win_rates, 0.5)
