@@ -1,5 +1,7 @@
+import asyncio
 import random
-from typing import Any, Deque
+from dataclasses import dataclass
+from typing import Any, Awaitable, Deque
 
 import numpy as np
 import numpy.typing as npt
@@ -36,7 +38,17 @@ class PolicyPlayer(Player):
         super().__init__(*args, **kwargs)
         self.policy = policy
 
-    def choose_move(self, battle: AbstractBattle) -> BattleOrder:
+    async def _policy_forward(self, obs: npt.NDArray[np.float32]) -> npt.NDArray[np.int64]:
+        assert isinstance(self.policy, MaskedActorCriticPolicy)
+        with torch.no_grad():
+            obs_tensor = torch.as_tensor(obs, device=self.policy.device).unsqueeze(0)
+            action, _, _ = self.policy.forward(obs_tensor)
+        return action.cpu().numpy()[0]
+
+    def choose_move(self, battle: AbstractBattle) -> Awaitable[BattleOrder]:
+        return self._choose_move(battle)
+
+    async def _choose_move(self, battle: AbstractBattle) -> BattleOrder:
         assert isinstance(battle, DoubleBattle)
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         if battle._wait:
@@ -71,10 +83,7 @@ class PolicyPlayer(Player):
         if num_frames > 1:
             self._frames[battle.battle_tag].append(obs)
             obs = np.concatenate(self._frames[battle.battle_tag])
-        with torch.no_grad():
-            obs_tensor = torch.as_tensor(obs, device=self.policy.device).unsqueeze(0)
-            action, _, _ = self.policy.forward(obs_tensor)
-        action = action.cpu().numpy()[0]
+        action = await self._policy_forward(obs)
         if battle.teampreview:
             if not self.policy.chooses_on_teampreview:
                 available_actions = [
@@ -86,11 +95,14 @@ class PolicyPlayer(Player):
             self._teampreview_drafts[battle.battle_tag] += [a - 1 for a in action]
         return DoublesEnv.action_to_order(action, battle)
 
-    def teampreview(self, battle: AbstractBattle) -> str:
+    def teampreview(self, battle: AbstractBattle) -> Awaitable[str]:
+        return self._teampreview(battle)
+
+    async def _teampreview(self, battle: AbstractBattle) -> str:
         assert isinstance(battle, DoubleBattle)
-        order1 = self.choose_move(battle)
+        order1 = await self.choose_move(battle)
         upd_battle = _EnvPlayer._simulate_teampreview_switchin(order1, battle)
-        order2 = self.choose_move(upd_battle)
+        order2 = await self.choose_move(upd_battle)
         action1 = DoublesEnv.order_to_action(order1, battle)
         action2 = DoublesEnv.order_to_action(order2, upd_battle)
         if self.policy.chooses_on_teampreview:  # type: ignore
@@ -344,3 +356,55 @@ class PolicyPlayer(Player):
         actions = actions or [0]
         action_mask = [int(i in actions) for i in range(act_len)]
         return action_mask
+
+
+@dataclass
+class _BatchReq:
+    obs: npt.NDArray[np.float32]
+    event: asyncio.Event
+    result: npt.NDArray[np.int64] | None = None
+
+
+class BatchPolicyPlayer(PolicyPlayer):
+    def __init__(self, *args: Any, **kwargs: Any):
+        super().__init__(*args, **kwargs)
+        self._q: asyncio.Queue[_BatchReq] = asyncio.Queue()
+        self._worker_task: asyncio.Task | None = None
+
+    async def _policy_forward(self, obs: npt.NDArray[np.float32]) -> npt.NDArray[np.int64]:
+        if self._worker_task is None:
+            self._worker_task = asyncio.create_task(self._inference_loop())
+        req = _BatchReq(obs=obs, event=asyncio.Event())
+        await self._q.put(req)
+        await req.event.wait()
+        assert req.result is not None
+        return req.result
+
+    async def _inference_loop(self) -> None:
+        assert isinstance(self.policy, MaskedActorCriticPolicy)
+        while True:
+            # gather requests
+            requests = [await self._q.get()]
+            just_slept = False
+            while len(requests) < self._max_concurrent_battles:
+                try:
+                    req = self._q.get_nowait()
+                    requests.append(req)
+                    just_slept = False
+                except asyncio.QueueEmpty:
+                    if just_slept:
+                        break
+                    await asyncio.sleep(0.005)
+                    just_slept = True
+
+            # run inference
+            obs = np.stack([r.obs for r in requests], axis=0)
+            with torch.no_grad():
+                obs_tensor = torch.as_tensor(obs, device=self.policy.device)
+                actions, _, _ = self.policy.forward(obs_tensor)
+            actions = actions.cpu().numpy()
+
+            # dispatch
+            for req, act in zip(requests, actions):
+                req.result = act
+                req.event.set()
