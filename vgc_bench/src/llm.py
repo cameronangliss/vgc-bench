@@ -147,26 +147,10 @@ class LLMPlayer(Player):
         pos: int,
     ) -> str:
         active_mon = battle.active_pokemon[pos]
-        a1: Pokemon | None = None
-        a2: Pokemon | None = None
-        o1: Pokemon | None = None
-        o2: Pokemon | None = None
-        if len(battle._active_pokemon) == 1:
-            if f"{battle.player_role}a" in battle._active_pokemon:
-                a1 = battle._active_pokemon[f"{battle.player_role}a"]
-            else:
-                a2 = battle._active_pokemon[f"{battle.player_role}b"]
-        elif len(battle._active_pokemon) == 2:
-            a1 = battle._active_pokemon[f"{battle.player_role}a"]
-            a2 = battle._active_pokemon[f"{battle.player_role}b"]
-        if len(battle._opponent_active_pokemon) == 1:
-            if f"{battle.opponent_role}a" in battle._opponent_active_pokemon:
-                o1 = battle._opponent_active_pokemon[f"{battle.opponent_role}a"]
-            else:
-                o2 = battle._opponent_active_pokemon[f"{battle.opponent_role}b"]
-        elif len(battle._opponent_active_pokemon) == 2:
-            o1 = battle._opponent_active_pokemon[f"{battle.opponent_role}a"]
-            o2 = battle._opponent_active_pokemon[f"{battle.opponent_role}b"]
+        a1 = battle._active_pokemon[f"{battle.player_role}a"]
+        a2 = battle._active_pokemon[f"{battle.player_role}b"]
+        o1 = battle._opponent_active_pokemon[f"{battle.opponent_role}a"]
+        o2 = battle._opponent_active_pokemon[f"{battle.opponent_role}b"]
         benched_pokemon = [
             p
             for i, p in enumerate(battle.team.values(), start=1)
@@ -188,9 +172,9 @@ Active side conditions: {", ".join([s.name.lower() for s in battle.side_conditio
 
 ### Active Pokemon ###
 
-Slot 1: {LLMPlayer.explain_pokemon(a1) if a1 is not None else "empty"}
+Slot 1: {LLMPlayer.explain_pokemon(a1)}
 
-Slot 2: {LLMPlayer.explain_pokemon(a2) if a2 is not None else "empty"}
+Slot 2: {LLMPlayer.explain_pokemon(a2)}
 
 ### Benched Pokemon ###
 
@@ -206,9 +190,9 @@ Active side conditions: {", ".join([s.name.lower() for s in battle.opponent_side
 
 ### Active Pokemon ###
 
-1. {LLMPlayer.explain_pokemon(o1) if o1 is not None else "empty"}
+1. {LLMPlayer.explain_pokemon(o1)}
 
-2. {LLMPlayer.explain_pokemon(o2) if o2 is not None else "empty"}
+2. {LLMPlayer.explain_pokemon(o2)}
 
 ### Benched Pokemon ###
 
