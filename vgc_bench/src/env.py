@@ -81,12 +81,12 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
 
     async def async_random_teampreview1(self, battle: AbstractBattle) -> str:
         message = self.agent1.random_teampreview(battle)
-        self._teampreview_draft1 = [int(i) - 1 for i in message[6:-2]]
+        self._teampreview_draft1 = [int(i) for i in message[6:-2]]
         return message
 
     async def async_random_teampreview2(self, battle: AbstractBattle) -> str:
         message = self.agent2.random_teampreview(battle)
-        self._teampreview_draft2 = [int(i) - 1 for i in message[6:-2]]
+        self._teampreview_draft2 = [int(i) for i in message[6:-2]]
         return message
 
     def step(
@@ -99,9 +99,9 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         dict[str, dict[str, Any]],
     ]:
         if len(self._teampreview_draft1) < 4:
-            self._teampreview_draft1 += [a - 1 for a in actions[self.agents[0]]]
+            self._teampreview_draft1 += actions[self.agents[0]].tolist()
         if len(self._teampreview_draft2) < 4:
-            self._teampreview_draft2 += [a - 1 for a in actions[self.agents[1]]]
+            self._teampreview_draft2 += actions[self.agents[1]].tolist()
         return super().step(actions)
 
     def reset(

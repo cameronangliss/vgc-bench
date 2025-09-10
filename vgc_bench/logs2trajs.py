@@ -38,7 +38,6 @@ class LogReader(Player):
         self.states = []
         self.actions = []
         self.next_msg = None
-        self.teampreview_draft = []
 
     async def _handle_battle_request(
         self, battle: AbstractBattle, maybe_default_order: bool = False
@@ -154,14 +153,14 @@ class LogReader(Player):
         self.states += [deepcopy(battle)]
         teampreview_draft = [
             i
-            for i, p in enumerate(battle.team.values())
-            if i + 1 not in self.actions[0] and p.revealed
+            for i, p in enumerate(battle.team.values(), start=1)
+            if i not in self.actions[0] and p.revealed
         ]
         if teampreview_draft:
             rand = random.choice(range(len(teampreview_draft)))
-            self.actions[1][0] = teampreview_draft.pop(rand) + 1
+            self.actions[1][0] = teampreview_draft.pop(rand)
         if teampreview_draft:
-            self.actions[1][1] = teampreview_draft[0] + 1
+            self.actions[1][1] = teampreview_draft[0]
         elif self.actions[1][0] == self.actions[1][1]:
             self.actions[1][1] = random.choice(
                 [i for i in range(1, 7) if i not in self.actions[0] and i not in self.actions[1]]
@@ -177,7 +176,7 @@ class LogReader(Player):
         teampreview_draft = []
         for i, state in enumerate(states):
             if i in [1, 2]:
-                teampreview_draft += [a - 1 for a in actions[i - 1].tolist()]
+                teampreview_draft += actions[i - 1].tolist()
             embedded_state = PolicyPlayer.embed_battle(state, teampreview_draft)
             assert embedded_state.shape == (2 * act_len + 12 * chunk_obs_len,)
             embedded_states += [embedded_state]

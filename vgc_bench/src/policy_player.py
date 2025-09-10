@@ -87,12 +87,10 @@ class PolicyPlayer(Player):
         if battle.teampreview:
             if not self.policy.chooses_on_teampreview:
                 available_actions = [
-                    i
-                    for i in range(1, 7)
-                    if i - 1 not in self._teampreview_drafts[battle.battle_tag]
+                    i for i in range(1, 7) if i not in self._teampreview_drafts[battle.battle_tag]
                 ]
                 action = np.array(random.sample(available_actions, k=2))
-            self._teampreview_drafts[battle.battle_tag] += [a - 1 for a in action]
+            self._teampreview_drafts[battle.battle_tag] += action.tolist()
         return DoublesEnv.action_to_order(action, battle)
 
     def teampreview(self, battle: AbstractBattle) -> Awaitable[str]:
@@ -109,7 +107,7 @@ class PolicyPlayer(Player):
             return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
         else:
             message = self.random_teampreview(battle)
-            self._teampreview_drafts[battle.battle_tag] = [int(i) - 1 for i in message[6:-2]]
+            self._teampreview_drafts[battle.battle_tag] = [int(i) for i in message[6:-2]]
             return message
 
     @staticmethod
@@ -129,7 +127,13 @@ class PolicyPlayer(Player):
         [a1, a2, *_] = battle.active_pokemon
         [o1, o2, *_] = battle.opponent_active_pokemon
         assert battle.teampreview == (len(teampreview_draft) < 4)
-        assert all([i in teampreview_draft for i, p in enumerate(battle.team.values()) if p.active])
+        assert all(
+            [
+                i in teampreview_draft
+                for i, p in enumerate(battle.team.values(), start=1)
+                if p.active
+            ]
+        )
         pokemons = [
             PolicyPlayer.embed_pokemon(
                 p,
@@ -137,7 +141,7 @@ class PolicyPlayer(Player):
                 from_opponent=False,
                 active_a=a1 is not None and p.name == a1.name,
                 active_b=a2 is not None and p.name == a2.name,
-                in_draft=i in teampreview_draft,
+                in_draft=i + 1 in teampreview_draft,
             )
             for i, p in enumerate(battle.team.values())
         ]

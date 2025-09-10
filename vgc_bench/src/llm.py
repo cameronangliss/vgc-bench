@@ -110,12 +110,15 @@ class LLMPlayer(Player):
         bench = []
         for _ in range(2):
             actives += [self.teampreview_individual(battle, actives, bench)]
+            self._teampreview_drafts[battle.battle_tag] += [
+                i for i, p in enumerate(battle.team.values(), start=1) if p == actives[-1]
+            ]
         for _ in range(2):
             bench += [self.teampreview_individual(battle, actives, bench)]
-        self._teampreview_drafts[battle.battle_tag] = [
-            i for i, p in enumerate(battle.team.values(), start=1) if p in actives + bench
-        ]
-        return f"/team {','.join([str(list(battle.team.values()).index(m) + 1) for m in actives + bench])}"
+            self._teampreview_drafts[battle.battle_tag] += [
+                i for i, p in enumerate(battle.team.values(), start=1) if p == bench[-1]
+            ]
+        return f"/team {','.join([str(i) for i in self._teampreview_drafts[battle.battle_tag]])}"
 
     def teampreview_individual(
         self, battle: DoubleBattle, actives: list[Pokemon], bench: list[Pokemon]
@@ -165,8 +168,8 @@ class LLMPlayer(Player):
             o2 = battle._opponent_active_pokemon[f"{battle.opponent_role}b"]
         benched_pokemon = [
             p
-            for i, p in enumerate(battle.team.values())
-            if i + 1 in teampreview_draft and p not in [a1, a2]
+            for i, p in enumerate(battle.team.values(), start=1)
+            if i in teampreview_draft and p not in [a1, a2]
         ]
         opp_benched_pokemon = [p for p in battle.opponent_team.values() if p not in [o1, o2]]
         listed_action_space = "\n".join(f"{i + 1}. {name}" for i, name in enumerate(action_names))
