@@ -108,6 +108,7 @@ class LLMPlayer(Player):
         }
         actives = []
         bench = []
+        self._teampreview_drafts[battle.battle_tag] = []
         for _ in range(2):
             actives += [self.teampreview_individual(battle, actives, bench)]
             self._teampreview_drafts[battle.battle_tag] += [
