@@ -100,7 +100,7 @@ print(results)
 - [play.py](vgc_bench/play.py) loads a saved policy onto the live Pokémon Showdown servers, where the policy can receive challenges from other users or enter the online Elo ladder
 - [visualize.py](vgc_bench/visualize.py) processes cross-evaluation results into heatmaps and features conversion functions for LaTeX and Markdown formats
 
-The following are the latest results averaged over 5 independent training runs for all trainable players.
+The following are the latest results averaged over 5 independent training runs for all trainable players. All matchups are evaluated over 1,000 battles except for LLM player matches which are evaluated over 100 battles.
 
 Cross-Evaluation Test Results:
 ![heatmaps.png](heatmaps.png)
