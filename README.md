@@ -103,6 +103,8 @@ print(results)
 Latest Cross-Evaluation Test Results:
 ![heatmaps.png](heatmaps.png)
 
+(R = random player, MBP = max base power player, SH = simple heuristics player, LLM = LLM player, SP = self-play agent, FP = fictitious play agent, DO = double oracle agent, BC = behavior cloning agent, BCSP = self-play agent initialized with behavior cloning, BCFP = fictitious play agent initialized with behavior cloning, BCDO = double oracle agent initialized with behavior cloning)
+
 Latest Performance Test Results:
 
 | # teams | 1     | 4     | 16    | 64    |
@@ -120,6 +122,8 @@ Latest Generalization Test Results:
 | 4       | 0.595 | --    | 0.453 | 0.422 |
 | 16      | 0.625 | 0.547 | --    | 0.436 |
 | 64      | 0.669 | 0.578 | 0.564 | --    |
+
+(for both performance and generalization tests, each team set size is represented by highest-performing player from cross-evaluations: 1 team is BCSP, 4 teams is BCSP, 16 teams is BCDO, and 64 teams is BCSP)
 
 # 📜 Cite us
 
