@@ -154,11 +154,9 @@ This test compares the performance of the strongest method on average across run
 
 Important context for the Generalization Test is the team similarity between teams players were and weren't exposed to during training. Here are some statistics:
 
-worst-case team similarities for each team across all teams:
+worst-case team similarities for each team across all teams: mean = 0.58, median = 0.566, min = 0.221, max = 0.948
 
-mean = 0.58, median = 0.566, min = 0.221, max = 0.948
-
-worst-case team similarities of out-of-distribution teams across in-distribution 1 team set:
+worst-case team similarities of out-of-distribution teams across in-distribution 64 team set:
 
 | run # | mean  | median | min   | max   |
 |-------|-------|--------|-------|-------|
