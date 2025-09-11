@@ -1,5 +1,6 @@
 import argparse
 import asyncio
+import os
 import random
 from statistics import mean, median
 
@@ -9,10 +10,11 @@ from poke_env import cross_evaluate
 from poke_env.player import MaxBasePowerPlayer, RandomPlayer, SimpleHeuristicsPlayer
 from poke_env.ps_client import AccountConfiguration, ServerConfiguration
 from src.llm import LLMPlayer
-from src.policy_player import PolicyPlayer
+from src.policy_player import BatchPolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, calc_team_similarity_score
 from src.utils import battle_format
 from stable_baselines3 import PPO
+from tensorboard.backend.event_processing import event_accumulator
 
 
 def cross_eval_all_agents(
@@ -20,6 +22,7 @@ def cross_eval_all_agents(
 ):
     num_runs = 5
     avg_payoff_matrix = np.zeros((11, 11))
+    labels = ["R", "MBP", "SH", "LLM", "SP", "FP", "DO", "BC", "BCSP", "BCFP", "BCDO"]
     for run_id in range(1, num_runs + 1):
         teams = list(range(len(TEAMS[battle_format[-4:]])))
         random.Random(run_id).shuffle(teams)
@@ -51,10 +54,12 @@ def cross_eval_all_agents(
             open_timeout=None,
             team=RandomTeamBuilder(teams[:num_teams], battle_format),
         )
-        for name in ["sp", "fp", "do", "bc", "bc-sp", "bc-fp", "bc-do"]:
-            step = 100 if name == "bc" else 5013504
-            agent = PolicyPlayer(
-                account_configuration=AccountConfiguration(f"{name} {run_id}", None),
+        best_checkpoints = asyncio.run(
+            get_best_checkpoints(run_id, num_teams, port, device, num_battles)
+        )
+        for method, checkpoint in best_checkpoints.items():
+            agent = BatchPolicyPlayer(
+                account_configuration=AccountConfiguration(f"{run_id}/{method}/{checkpoint}", None),
                 server_configuration=ServerConfiguration(
                     f"ws://localhost:{port}/showdown/websocket",
                     "https://play.pokemonshowdown.com/action.php?",
@@ -66,15 +71,14 @@ def cross_eval_all_agents(
                 open_timeout=None,
                 team=RandomTeamBuilder(teams[:num_teams], battle_format),
             )
-            teams_str = f"{num_teams}-teams/"
-            if name == "bc":
-                teams_str = ""
-            agent.policy = PPO.load(
-                f"results{run_id}/saves-{name}/{teams_str}{step}", device=device
-            ).policy
+            policy_path = f"results{run_id}/saves-{method}"
+            if method != "bc":
+                policy_path += f"/{num_teams}-teams"
+            agent.policy = PPO.load(f"{policy_path}/{checkpoint}", device=device).policy
             players += [agent]
         results = asyncio.run(cross_evaluate(players, n_challenges=num_battles // num_runs))
         asyncio.run(llm_player.battle_against(*players, n_battles=num_llm_battles // num_runs))
+        del llm_player.model
         llm_wins = [p.n_lost_battles / p.n_finished_battles for p in players]
         llm_losses = [p.n_won_battles / p.n_finished_battles for p in players]
         for p in players + [llm_player]:
@@ -90,12 +94,111 @@ def cross_eval_all_agents(
         payoff_matrix = np.insert(payoff_matrix, 3, llm_losses, axis=1)
         print(f"Cross-agent comparison of run {run_id} with {num_teams} teams:")
         print(payoff_matrix.tolist())
+        pi = alpharank.compute([payoff_matrix], use_inf_alpha=True)[2]
+        alpharank.utils.print_rankings_table(
+            [avg_payoff_matrix], pi, strat_labels=labels, num_top_strats_to_print=len(pi)
+        )
         avg_payoff_matrix += payoff_matrix / num_runs
     avg_payoff_matrix = avg_payoff_matrix.round(decimals=3)
     print(f"Average cross-agent comparison across all runs with {num_teams} teams:")
     print(avg_payoff_matrix.tolist())
-    ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
-    print("AlphaRank pi values:", ranking.tolist())
+    pi = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
+    alpharank.utils.print_rankings_table(
+        [avg_payoff_matrix], pi, strat_labels=labels, num_top_strats_to_print=len(pi)
+    )
+
+
+async def get_best_checkpoints(
+    run_id: int,
+    num_teams: int,
+    port: int,
+    device: str,
+    num_battles: int,
+    eval_pool_size: int = 50,
+    cutoff: int = 5,
+) -> dict[str, int]:
+    best_checkpoints = {}
+    teams = list(range(len(TEAMS[battle_format[-4:]])))
+    random.Random(run_id).shuffle(teams)
+    save_policy = BatchPolicyPlayer(
+        server_configuration=ServerConfiguration(
+            f"ws://localhost:{port}/showdown/websocket",
+            "https://play.pokemonshowdown.com/action.php?",
+        ),
+        battle_format=battle_format,
+        log_level=25,
+        max_concurrent_battles=10,
+        accept_open_team_sheet=True,
+        open_timeout=None,
+        team=RandomTeamBuilder(teams[:num_teams], battle_format),
+    )
+    opponent = BatchPolicyPlayer(
+        server_configuration=ServerConfiguration(
+            f"ws://localhost:{port}/showdown/websocket",
+            "https://play.pokemonshowdown.com/action.php?",
+        ),
+        battle_format=battle_format,
+        log_level=25,
+        max_concurrent_battles=10,
+        accept_open_team_sheet=True,
+        open_timeout=None,
+        team=RandomTeamBuilder(teams[:num_teams], battle_format),
+    )
+    filess = [
+        [
+            f"results{run_id}/saves-{method}/{num_teams}-teams/{file}"
+            for file in sorted(
+                os.listdir(f"results{run_id}/saves-{method}/{num_teams}-teams"),
+                key=lambda f: int(f[:-4]),
+            )[cutoff:]
+        ]
+        for method in ["sp", "fp", "do", "bc-sp", "bc-fp", "bc-do"]
+    ]
+    files = [f for files in filess for f in files]
+    eval_pool_files = random.sample(files, eval_pool_size)
+    for method in ["sp", "fp", "do", "bc", "bc-sp", "bc-fp", "bc-do"]:
+        if method == "bc":
+            best_checkpoints["bc"] = 100
+            continue
+        data = extract_tb(f"results{run_id}/logs-{method}/{num_teams}-teams_0", "train/eval")
+        eval_scores = [d[1] for d in data]
+        min_score = np.percentile(eval_scores, 90)
+        best_indices = np.where(eval_scores >= min_score)[0][::-1]
+        checkpoints = np.array([d[0] for d in data])[best_indices]
+        win_rates = {}
+        for checkpoint in checkpoints:
+            save_policy.policy = PPO.load(
+                f"results{run_id}/saves-{method}/{num_teams}-teams/{checkpoint}", device=device
+            ).policy
+            for f in eval_pool_files:
+                opponent.policy = PPO.load(f, device=device).policy
+                await save_policy.battle_against(opponent, n_battles=num_battles // eval_pool_size)
+            win_rates[checkpoint.item()] = save_policy.win_rate
+            save_policy.reset_battles()
+            opponent.reset_battles()
+        print(
+            f"comparison of agents with top-10% eval score from {method}: {win_rates}", flush=True
+        )
+        best_checkpoints[method] = max(list(win_rates.items()), key=lambda tup: tup[1])[0]
+    print(f"best of run #{run_id}:", best_checkpoints, flush=True)
+    return best_checkpoints
+
+
+def extract_tb(event_file: str, tag_prefix: str) -> list[tuple[int, float]]:
+    """
+    Extract (x, y) pairs from TensorBoard event file's `tag_prefix` data,
+    keeping only the most recent recording for each step (last occurrence)
+    """
+    ea = event_accumulator.EventAccumulator(event_file)
+    ea.Reload()
+    for tag in ea.Tags()["scalars"]:
+        if tag.startswith(tag_prefix):
+            scalars = ea.Scalars(tag)
+            last_per_step: dict[int, float] = {}
+            for s in scalars:
+                last_per_step[int(s.step)] = round(s.value, ndigits=5)
+            return sorted(last_per_step.items(), key=lambda kv: kv[0])
+    raise FileNotFoundError()
 
 
 def cross_eval_over_team_sizes(
@@ -114,7 +217,7 @@ def cross_eval_over_team_sizes(
         random.Random(run_id).shuffle(teams)
         agents = []
         for num_teams, method in zip(team_counts, methods):
-            agent = PolicyPlayer(
+            agent = BatchPolicyPlayer(
                 server_configuration=ServerConfiguration(
                     f"ws://localhost:{port}/showdown/websocket",
                     "https://play.pokemonshowdown.com/action.php?",
@@ -144,8 +247,13 @@ def cross_eval_over_team_sizes(
     avg_payoff_matrix = avg_payoff_matrix.round(decimals=3)
     print("Performance" if is_performance_test else "Generalization", "test results:")
     print(avg_payoff_matrix.tolist())
-    ranking = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
-    print("AlphaRank pi values:", ranking.tolist())
+    pi = alpharank.compute([avg_payoff_matrix], use_inf_alpha=True)[2]
+    alpharank.utils.print_rankings_table(
+        [avg_payoff_matrix],
+        pi,
+        strat_labels=[f"{n}-teams" for n in team_counts],
+        num_top_strats_to_print=len(pi),
+    )
 
 
 def print_team_statistics(num_teams: int):
@@ -162,11 +270,17 @@ def print_team_statistics(num_teams: int):
         )
         for j in range(len(TEAMS[battle_format[-4:]]))
     ]
-    print(f"worst-case team similarities for each team across all teams:")
-    print("mean =", round(mean(sim_scores), ndigits=2))
-    print("median =", round(median(sim_scores), ndigits=3))
-    print("min =", min(sim_scores))
-    print("max =", max(sim_scores))
+    print(
+        "worst-case team similarities for each team across all teams:",
+        f"mean = {round(mean(sim_scores), ndigits=3)},",
+        f"median = {round(median(sim_scores), ndigits=4)},",
+        f"min = {min(sim_scores)},",
+        f"max = {max(sim_scores)}",
+    )
+    print(
+        "worst-case team similarities of out-of-distribution teams",
+        f"across in-distribution {num_teams} team set in...",
+    )
     for run_id in range(1, num_runs + 1):
         teams = list(range(len(TEAMS[battle_format[-4:]])))
         random.Random(run_id).shuffle(teams)
@@ -182,13 +296,12 @@ def print_team_statistics(num_teams: int):
             for j in teams[num_teams:]
         ]
         print(
-            "worst-case team similarities of out-of-distribution teams",
-            f"across in-distribution team set in run #{run_id}:",
+            f"run #{run_id}:",
+            f"mean = {round(mean(sim_scores), ndigits=3)},",
+            f"median = {round(median(sim_scores), ndigits=4)},",
+            f"min = {min(sim_scores)},",
+            f"max = {max(sim_scores)}",
         )
-        print("mean =", round(mean(sim_scores), ndigits=2))
-        print("median =", round(median(sim_scores), ndigits=3))
-        print("min =", min(sim_scores))
-        print("max =", max(sim_scores))
 
 
 if __name__ == "__main__":
