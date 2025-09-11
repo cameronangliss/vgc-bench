@@ -100,32 +100,73 @@ print(results)
 - [play.py](vgc_bench/play.py) loads a saved policy onto the live Pokémon Showdown servers, where the policy can receive challenges from other users or enter the online Elo ladder
 - [visualize.py](vgc_bench/visualize.py) processes cross-evaluation results into heatmaps and features conversion functions for LaTeX and Markdown formats
 
-The following are the latest results averaged over 5 independent training runs for all trainable players. All matchups are evaluated over 1,000 battles except for LLM player matches which are evaluated over 100 battles.
+### Cross-evaluation of all AI agents
 
-Cross-Evaluation Test Results:
-![heatmaps.png](heatmaps.png)
+In each run, 200 battles are used to compare agents, except for LLM player which is compared with 20 battles. Thus, the average heatmap accounts for 1000 total battles in each comparison, and 100 battles per comparison for the LLM player.
 
-(R = random player, MBP = max base power player, SH = simple heuristics player, LLM = LLM player, SP = self-play agent, FP = fictitious play agent, DO = double oracle agent, BC = behavior cloning agent, BCSP = self-play agent initialized with behavior cloning, BCFP = fictitious play agent initialized with behavior cloning, BCDO = double oracle agent initialized with behavior cloning)
+Legend: R = random player, MBP = max base power player, SH = simple heuristics player, LLM = LLM player, SP = self-play agent, FP = fictitious play agent, DO = double oracle agent, BC = behavior cloning agent, BCSP = self-play agent initialized with behavior cloning, BCFP = fictitious play agent initialized with behavior cloning, BCDO = double oracle agent initialized with behavior cloning
 
-Performance Test Results:
+#### Run 1
 
-| # teams | 1     | 4     | 16    | 64    |
-|---------|-------|-------|-------|-------|
-| 1       | --    | 0.699 | 0.74  | 0.698 |
-| 4       | 0.301 | --    | 0.594 | 0.672 |
-| 16      | 0.26  | 0.406 | --    | 0.644 |
-| 64      | 0.302 | 0.328 | 0.356 | --    |
+![heatmaps_run1.png](heatmaps_run1.png)
 
-Generalization Test Results:
+#### Run 2
 
-| # teams | 1     | 4     | 16    | 64    |
-|---------|-------|-------|-------|-------|
-| 1       | --    | 0.405 | 0.375 | 0.331 |
-| 4       | 0.595 | --    | 0.453 | 0.422 |
-| 16      | 0.625 | 0.547 | --    | 0.436 |
-| 64      | 0.669 | 0.578 | 0.564 | --    |
+![heatmaps_run2.png](heatmaps_run2.png)
 
-(for both performance and generalization tests, each team set size is represented by highest-performing method from cross-evaluations: 1 team is BCSP, 4 teams is BCSP, 16 teams is BCDO, and 64 teams is BCSP)
+#### Run 3
+
+![heatmaps_run3.png](heatmaps_run3.png)
+
+#### Run 4
+
+![heatmaps_run4.png](heatmaps_run4.png)
+
+#### Run 5
+
+![heatmaps_run5.png](heatmaps_run5.png)
+
+#### Average
+
+![heatmaps_avg.png](heatmaps_avg.png)
+
+### Performance Test
+
+This test compares the performance of the strongest method on average across runs 1-5 of the 1, 4, 16, and 64 team setting with the one team that they all had training exposure to.
+
+| # teams   | 1 (BCSP) | 4 (BCSP) | 16 (BCDO) | 64 (BCSP) |
+|-----------|----------|----------|-----------|-----------|
+| 1 (BCSP)  | --       | 0.699    | 0.74      | 0.698     |
+| 4 (BCSP)  | 0.301    | --       | 0.594     | 0.672     |
+| 16 (BCDO) | 0.26     | 0.406    | --        | 0.644     |
+| 64 (BCSP) | 0.302    | 0.328    | 0.356     | --        |
+
+### Generalization Test
+
+This test compares the performance of the strongest method on average across runs 1-5 of the 1, 4, 16, and 64 team setting with 72 teams that none of them had training exposure to.
+
+| # teams   | 1 (BCSP) | 4 (BCSP) | 16 (BCDO) | 64 (BCSP) |
+|-----------|----------|----------|-----------|-----------|
+| 1 (BCSP)  | --       | 0.405    | 0.375     | 0.331     |
+| 4 (BCSP)  | 0.595    | --       | 0.453     | 0.422     |
+| 16 (BCDO) | 0.625    | 0.547    | --        | 0.436     |
+| 64 (BCSP) | 0.669    | 0.578    | 0.564     | --        |
+
+Important context for the Generalization Test is the team similarity between teams players were and weren't exposed to during training. Here are some statistics:
+
+worst-case team similarities for each team across all teams:
+
+mean = 0.58, median = 0.566, min = 0.221, max = 0.948
+
+worst-case team similarities of out-of-distribution teams across in-distribution 1 team set:
+
+| run # | mean  | median | min   | max   |
+|-------|-------|--------|-------|-------|
+| 1     | 0.508 | 0.513  | 0.268 | 0.946 |
+| 2     | 0.522 | 0.526  | 0.221 | 0.947 |
+| 3     | 0.53  | 0.5235 | 0.221 | 0.948 |
+| 4     | 0.557 | 0.554  | 0.26  | 0.947 |
+| 5     | 0.526 | 0.5255 | 0.238 | 0.948 |
 
 # 📜 Cite us
 
