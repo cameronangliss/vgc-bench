@@ -20,7 +20,7 @@ start_eval() {
     local port=${ports[$i]}
     local device=${devices[$i]}
 
-    echo "Starting Showdown server for pretraining process..."
+    echo "Starting Showdown server for evaluation process..."
     showdown_pid=$(start_showdown $port)
     sleep 5
     echo "Starting evaluation..."
