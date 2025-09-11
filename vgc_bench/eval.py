@@ -218,8 +218,8 @@ def cross_eval_over_team_sizes(
         agents = []
         for num_teams, (method, checkpoints) in zip(team_counts, methods):
             agent = BatchPolicyPlayer(
-                account_configuration=AccountConfiguration(
-                    f"{run_id}/{method}/{num_teams}/{checkpoints[run_id]}", None
+                account_configuration=AccountConfiguration.generate(
+                    f"{run_id}/{method}/{num_teams}-teams"
                 ),
                 server_configuration=ServerConfiguration(
                     f"ws://localhost:{port}/showdown/websocket",
@@ -236,7 +236,7 @@ def cross_eval_over_team_sizes(
                 ),
             )
             agent.policy = PPO.load(
-                f"results{run_id}/saves-{method}/{num_teams}-teams/{checkpoints[run_id]}",
+                f"results{run_id}/saves-{method}/{num_teams}-teams/{checkpoints[run_id - 1]}",
                 device=device,
             ).policy
             agents += [agent]
