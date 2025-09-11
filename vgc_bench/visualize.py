@@ -113,7 +113,7 @@ for i, data in enumerate(data_list):
     print(matrix_to_markdown(data, i))
 
 fig, axes = plt.subplots(
-    1, 4, figsize=(12, 13), gridspec_kw={"left": 0.05, "right": 0.88, "hspace": 0.2, "wspace": 0.3}
+    1, 4, figsize=(16, 4), gridspec_kw={"left": 0.05, "right": 0.88, "hspace": 0.2, "wspace": 0.3}
 )
 vmin, vmax = 0, 1
 im = None
@@ -128,7 +128,7 @@ for ax, data, title in zip(axes.flat, data_list, titles):
     ax.set_yticklabels(algos)
     ax.grid(False)
 
-cbar_ax = fig.add_axes((0.9, 0.4, 0.02, 0.18))
+cbar_ax = fig.add_axes((0.92, 0.1, 0.02, 0.75))
 assert im is not None
 fig.colorbar(im, cax=cbar_ax, label="Win Rate")
 
