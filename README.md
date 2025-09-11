@@ -125,7 +125,7 @@ Generalization Test Results:
 | 16      | 0.625 | 0.547 | --    | 0.436 |
 | 64      | 0.669 | 0.578 | 0.564 | --    |
 
-(for both performance and generalization tests, each team set size is represented by highest-performing player from cross-evaluations: 1 team is BCSP, 4 teams is BCSP, 16 teams is BCDO, and 64 teams is BCSP)
+(for both performance and generalization tests, each team set size is represented by highest-performing method from cross-evaluations: 1 team is BCSP, 4 teams is BCSP, 16 teams is BCDO, and 64 teams is BCSP)
 
 # 📜 Cite us
 
