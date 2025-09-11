@@ -152,19 +152,7 @@ This test compares the performance of the strongest method on average across run
 | 16 (BCDO) | 0.625    | 0.547    | --        | 0.436     |
 | 64 (BCSP) | 0.669    | 0.578    | 0.564     | --        |
 
-Important context for the Generalization Test is the team similarity between teams players were and weren't exposed to during training. Here are some statistics:
-
-worst-case team similarities for each team across all teams: mean = 0.58, median = 0.566, min = 0.221, max = 0.948
-
-worst-case team similarities of out-of-distribution teams across in-distribution 64 team set:
-
-| run # | mean  | median | min   | max   |
-|-------|-------|--------|-------|-------|
-| 1     | 0.508 | 0.513  | 0.268 | 0.946 |
-| 2     | 0.522 | 0.526  | 0.221 | 0.947 |
-| 3     | 0.53  | 0.5235 | 0.221 | 0.948 |
-| 4     | 0.557 | 0.554  | 0.26  | 0.947 |
-| 5     | 0.526 | 0.5255 | 0.238 | 0.948 |
+See our paper for further results and details.
 
 # 📜 Cite us
 
