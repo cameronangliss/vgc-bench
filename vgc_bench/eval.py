@@ -203,7 +203,7 @@ def extract_tb(event_file: str, tag_prefix: str) -> list[tuple[int, float]]:
 
 def cross_eval_over_team_sizes(
     team_counts: list[int],
-    methods: list[str],
+    methods: list[tuple[str, list[int]]],
     port: int,
     device: str,
     num_battles: int,
@@ -216,8 +216,11 @@ def cross_eval_over_team_sizes(
         teams = list(range(len(TEAMS[battle_format[-4:]])))
         random.Random(run_id).shuffle(teams)
         agents = []
-        for num_teams, method in zip(team_counts, methods):
+        for num_teams, (method, checkpoints) in zip(team_counts, methods):
             agent = BatchPolicyPlayer(
+                account_configuration=AccountConfiguration(
+                    f"{run_id}/{method}/{num_teams}/{checkpoints[run_id]}", None
+                ),
                 server_configuration=ServerConfiguration(
                     f"ws://localhost:{port}/showdown/websocket",
                     "https://play.pokemonshowdown.com/action.php?",
@@ -233,7 +236,8 @@ def cross_eval_over_team_sizes(
                 ),
             )
             agent.policy = PPO.load(
-                f"results{run_id}/saves-{method}/{num_teams}-teams/5013504", device=device
+                f"results{run_id}/saves-{method}/{num_teams}-teams/{checkpoints[run_id]}",
+                device=device,
             ).policy
             agents += [agent]
         results = asyncio.run(cross_evaluate(agents, num_battles // num_runs))
@@ -321,6 +325,11 @@ if __name__ == "__main__":
     print_team_statistics(args.num_teams)
     cross_eval_all_agents(args.num_teams, args.port, args.device, 1000, 100)
     team_counts = [1, 4, 16, 64]
-    methods = ["bc-sp", "bc-sp", "bc-do", "bc-fp"]
+    methods = [
+        ("bc-sp", [4915200, 1474560, 4816896, 1179648, 786432]),
+        ("bc-sp", [589824, 3047424, 4128768, 983040, 3538944]),
+        ("bc-do", [3833856, 1671168, 5013504, 2654208, 4030464]),
+        ("bc-sp", [1769472, 2064384, 4227072, 983040, 5013504]),
+    ]
     # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 1000, True)
     # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 1000, False)
