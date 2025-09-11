@@ -108,27 +108,27 @@ Legend: R = random player, MBP = max base power player, SH = simple heuristics p
 
 #### Run 1
 
-![heatmaps_run1.png](heatmaps_run1.png)
+![figures/heatmaps_run1.png](figures/heatmaps_run1.png)
 
 #### Run 2
 
-![heatmaps_run2.png](heatmaps_run2.png)
+![figures/heatmaps_run2.png](figures/heatmaps_run2.png)
 
 #### Run 3
 
-![heatmaps_run3.png](heatmaps_run3.png)
+![figures/heatmaps_run3.png](figures/heatmaps_run3.png)
 
 #### Run 4
 
-![heatmaps_run4.png](heatmaps_run4.png)
+![figures/heatmaps_run4.png](figures/heatmaps_run4.png)
 
 #### Run 5
 
-![heatmaps_run5.png](heatmaps_run5.png)
+![figures/heatmaps_run5.png](figures/heatmaps_run5.png)
 
 #### Average
 
-![heatmaps_avg.png](heatmaps_avg.png)
+![figures/heatmaps_avg.png](figures/heatmaps_avg.png)
 
 ### Performance Test
 
