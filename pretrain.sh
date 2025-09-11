@@ -26,5 +26,7 @@ python vgc_bench/pretrain.py --run_id $run_id --num_teams "$num_teams" --port "$
 exit_status=$?
 if [ $exit_status -ne 0 ]; then
     echo "Pretraining process died with exit status $exit_status"
+else
+    echo "Pretraining process finished!"
 fi
 kill $showdown_pid

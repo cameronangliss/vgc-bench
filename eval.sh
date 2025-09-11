@@ -32,7 +32,9 @@ start_eval() {
     python vgc_bench/eval.py --num_teams $num_teams --port $port --device $device > "debug$port.log" 2>&1
     exit_status=$?
     if [ $exit_status -ne 0 ]; then
-        echo "Evaluation process died with exit status $exit_status"
+        echo "Evaluation process $i died with exit status $exit_status"
+    else
+        echo "Evaluation process $i finished!"
     fi
     kill $showdown_pid
 }
