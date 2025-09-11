@@ -1,9 +1,5 @@
 #!/bin/bash
 
-if [[ $PATH != "/scratch/cluster/cangliss/bin:"* ]]; then
-    export PATH="/scratch/cluster/cangliss/bin:$PATH"
-fi
-
 run_ids=(1 1 1 1)
 team_counts=(1 4 16 64)
 ports=(7200 7201 7202 7203)

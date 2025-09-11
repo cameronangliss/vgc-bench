@@ -1,9 +1,5 @@
 #!/bin/bash
 
-if [[ $PATH != "/scratch/cluster/cangliss/bin:"* ]]; then
-    export PATH="/scratch/cluster/cangliss/bin:$PATH"
-fi
-
 run_id=1
 num_teams=136
 port=8004

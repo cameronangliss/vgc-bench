@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [[ $PATH != "/scratch/cluster/cangliss/bin:"* ]]; then
-    export PATH="/scratch/cluster/cangliss/bin:$PATH"
-fi
-export HF_HOME=/scratch/cluster/cangliss/hf_cache
-
 team_counts=(1 4 16 64)
 ports=(8000 8001 8002 8003)
 devices=("cuda:0" "cuda:1" "cuda:2" "cuda:3")
