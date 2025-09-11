@@ -100,12 +100,14 @@ print(results)
 - [play.py](vgc_bench/play.py) loads a saved policy onto the live Pokémon Showdown servers, where the policy can receive challenges from other users or enter the online Elo ladder
 - [visualize.py](vgc_bench/visualize.py) processes cross-evaluation results into heatmaps and features conversion functions for LaTeX and Markdown formats
 
-Latest Cross-Evaluation Test Results:
+The following are the latest results averaged over 5 independent training runs for all trainable players.
+
+Cross-Evaluation Test Results:
 ![heatmaps.png](heatmaps.png)
 
 (R = random player, MBP = max base power player, SH = simple heuristics player, LLM = LLM player, SP = self-play agent, FP = fictitious play agent, DO = double oracle agent, BC = behavior cloning agent, BCSP = self-play agent initialized with behavior cloning, BCFP = fictitious play agent initialized with behavior cloning, BCDO = double oracle agent initialized with behavior cloning)
 
-Latest Performance Test Results:
+Performance Test Results:
 
 | # teams | 1     | 4     | 16    | 64    |
 |---------|-------|-------|-------|-------|
@@ -114,7 +116,7 @@ Latest Performance Test Results:
 | 16      | 0.26  | 0.406 | --    | 0.644 |
 | 64      | 0.302 | 0.328 | 0.356 | --    |
 
-Latest Generalization Test Results:
+Generalization Test Results:
 
 | # teams | 1     | 4     | 16    | 64    |
 |---------|-------|-------|-------|-------|
