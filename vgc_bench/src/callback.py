@@ -69,7 +69,7 @@ class Callback(BaseCallback):
             ),
             battle_format=battle_format,
             log_level=25,
-            max_concurrent_battles=24,
+            max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
@@ -85,7 +85,7 @@ class Callback(BaseCallback):
             ),
             battle_format=battle_format,
             log_level=25,
-            max_concurrent_battles=24,
+            max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(
@@ -101,7 +101,7 @@ class Callback(BaseCallback):
             ),
             battle_format=battle_format,
             log_level=25,
-            max_concurrent_battles=24,
+            max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
             team=RandomTeamBuilder(

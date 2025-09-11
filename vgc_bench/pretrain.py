@@ -104,7 +104,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         ),
         battle_format=battle_format,
         log_level=40,
-        max_concurrent_battles=24,
+        max_concurrent_battles=10,
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(list(range(num_teams)), battle_format),
     )
@@ -115,7 +115,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         ),
         battle_format=battle_format,
         log_level=40,
-        max_concurrent_battles=24,
+        max_concurrent_battles=10,
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(list(range(num_teams)), battle_format),
     )
