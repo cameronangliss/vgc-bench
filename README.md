@@ -41,7 +41,7 @@ python vgc_bench/scrape_data.py
 
 NOTE: Unless you're playing your policy on the live Pokémon Showdown servers with [play.py](vgc_bench/play.py), you must locally host your own server by running `node pokemon-showdown start <PORT> --no-security` from `pokemon-showdown/` (done automatically if using bash scripts).
 
-All `.py` files in `vgc_bench/` are scripts and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py)) have helpful `--help` text. By contrast, all `.py` files in `vgc_bench/src/` are not scripts, and are not intended to be run standalone.
+All `.py` files in `vgc_bench/` are scripts and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py) and [visualize.py](vgc_bench/visualize.py)) have helpful `--help` text. By contrast, all `.py` files in `vgc_bench/src/` are not scripts, and are not intended to be run standalone.
 
 ## 🏆 Population-based Reinforcement Learning
 
@@ -57,7 +57,7 @@ The training code offers the following PSRO algorithms:
 - excluding mirror matches (p1 and p2 using the same team)
 - starting agent with random teampreview at the beginning of each game
 
-See [train.sh](train.sh) for an example call of train.py (or just configure and run the bash script itself).
+See [train.sh](train.sh) for running multiple training runs simultaneously with automatic pokemon-showdown server management.
 
 ## 📚 Behavior Cloning
 
@@ -70,8 +70,7 @@ See [train.sh](train.sh) for an example call of train.py (or just configure and 
 1. [pretrain.py](vgc_bench/pretrain.py) uses the gathered trajectories to train a policy with behavior cloning
     - frame stacking with specified number of frames
     - configurable fraction of dataset to load into memory at any given time (if not set low enough, program may run out of memory)
-
-See [pretrain.sh](pretrain.sh) for an example call of pretrain.py (or just configure and run the bash script itself).
+    - see [pretrain.sh](pretrain.sh) for running behavior cloning with automatic pokemon-showdown server management
 
 ## 🤖 LLMs
 
@@ -96,10 +95,33 @@ print(results)
 
 ## 📊 Evaluation
 
-- [play.py](vgc_bench/play.py) loads a saved policy onto the live Pokémon Showdown servers, where the policy can receive challenges from other users or enter the online Elo ladder
 - [eval.py](vgc_bench/eval.py) runs the cross-play evaluation, performance test, generalization test, and ranking algorithm as described in our paper (see above)
+    - see [eval.sh](eval.sh) for running multiple evaluations simultaneously with automatic pokemon-showdown server management
+- [play.py](vgc_bench/play.py) loads a saved policy onto the live Pokémon Showdown servers, where the policy can receive challenges from other users or enter the online Elo ladder
+- [visualize.py](vgc_bench/visualize.py) processes cross-evaluation results into heatmaps and features conversion functions for LaTeX and Markdown formats
 
-See [eval.sh](eval.sh) for an example call of [eval.py](vgc_bench/eval.py) (or just configure and run the bash script itself).
+Latest Cross-Evaluation Test Results:
+<p align="center">
+  <img src="heatmaps.png" width="60%">
+</p>
+
+Latest Performance Test Results:
+
+| # teams | 1     | 4     | 16    | 64    |
+|---------|-------|-------|-------|-------|
+| 1       | --    | 0.699 | 0.74  | 0.698 |
+| 4       | 0.301 | --    | 0.594 | 0.672 |
+| 16      | 0.26  | 0.406 | --    | 0.644 |
+| 64      | 0.302 | 0.328 | 0.356 | --    |
+
+Latest Generalization Test Results:
+
+| # teams | 1     | 4     | 16    | 64    |
+|---------|-------|-------|-------|-------|
+| 1       | --    | 0.405 | 0.375 | 0.331 |
+| 4       | 0.595 | --    | 0.453 | 0.422 |
+| 16      | 0.625 | 0.547 | --    | 0.436 |
+| 64      | 0.669 | 0.578 | 0.564 | --    |
 
 # 📜 Cite us
 
