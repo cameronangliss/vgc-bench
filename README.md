@@ -101,9 +101,7 @@ print(results)
 - [visualize.py](vgc_bench/visualize.py) processes cross-evaluation results into heatmaps and features conversion functions for LaTeX and Markdown formats
 
 Latest Cross-Evaluation Test Results:
-<p align="center">
-  <img src="heatmaps.png" width="60%">
-</p>
+![heatmaps.png](heatmaps.png)
 
 Latest Performance Test Results:
 
