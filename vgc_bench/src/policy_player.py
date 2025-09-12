@@ -38,21 +38,21 @@ class PolicyPlayer(Player):
         super().__init__(*args, **kwargs)
         self.policy = policy
 
-    async def _policy_forward(self, obs: npt.NDArray[np.float32]) -> npt.NDArray[np.int64]:
-        assert isinstance(self.policy, MaskedActorCriticPolicy)
-        with torch.no_grad():
-            obs_tensor = torch.as_tensor(obs, device=self.policy.device).unsqueeze(0)
-            action, _, _ = self.policy.forward(obs_tensor)
-        return action.cpu().numpy()[0]
-
-    def choose_move(self, battle: AbstractBattle) -> Awaitable[BattleOrder]:
-        return self._choose_move(battle)
-
-    async def _choose_move(self, battle: AbstractBattle) -> BattleOrder:
+    def choose_move(self, battle: AbstractBattle) -> BattleOrder | Awaitable[BattleOrder]:
         assert isinstance(battle, DoubleBattle)
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         if battle._wait:
             return DefaultBattleOrder()
+        obs = self.get_observation(battle)
+        with torch.no_grad():
+            obs_tensor = torch.as_tensor(obs, device=self.policy.device).unsqueeze(0)
+            action, _, _ = self.policy.forward(obs_tensor)
+        action = action.cpu().numpy()[0]
+        return self.get_order(battle, action)
+
+    def get_observation(self, battle: DoubleBattle) -> npt.NDArray[np.float32]:
+        assert isinstance(self.policy, MaskedActorCriticPolicy)
+        # remove finished battles
         self._teampreview_drafts = {
             tag: preview
             for tag, preview in self._teampreview_drafts.items()
@@ -63,27 +63,26 @@ class PolicyPlayer(Player):
             for tag, frame in self._frames.items()
             if tag in self.battles and not self.battles[tag].finished
         }
-        if battle.teampreview:
-            if battle.battle_tag not in self._teampreview_drafts:
-                self._teampreview_drafts[battle.battle_tag] = []
-            if battle.battle_tag not in self._frames:
-                self._frames[battle.battle_tag] = Deque(maxlen=self.policy.num_frames)
-        num_frames = self._frames[battle.battle_tag].maxlen
-        assert num_frames is not None
-        obs = self.embed_battle(
-            battle, self._teampreview_drafts[battle.battle_tag], fake_rating=True
-        )
-        if battle.turn == 0 and not (
-            battle.teampreview and len([p for p in battle.team.values() if p.active]) > 0
-        ):
-            for _ in range(num_frames):
+        # initialize tracking for new battles
+        if battle.battle_tag not in self._teampreview_drafts:
+            self._teampreview_drafts[battle.battle_tag] = []
+        if battle.battle_tag not in self._frames:
+            self._frames[battle.battle_tag] = Deque(maxlen=self.policy.num_frames)
+            for _ in range(self.policy.num_frames):
                 self._frames[battle.battle_tag].append(
                     np.zeros((2 * act_len + 12 * chunk_obs_len,), dtype=np.float32)
                 )
-        if num_frames > 1:
+        # embed battle into observation
+        obs = self.embed_battle(
+            battle, self._teampreview_drafts[battle.battle_tag], fake_rating=True
+        )
+        if self.policy.num_frames > 1:
             self._frames[battle.battle_tag].append(obs)
             obs = np.concatenate(self._frames[battle.battle_tag])
-        action = await self._policy_forward(obs)
+        return obs
+
+    def get_order(self, battle: DoubleBattle, action: npt.NDArray[np.int64]) -> BattleOrder:
+        assert isinstance(self.policy, MaskedActorCriticPolicy)
         if battle.teampreview:
             if not self.policy.chooses_on_teampreview:
                 available_actions = [
@@ -93,17 +92,17 @@ class PolicyPlayer(Player):
             self._teampreview_drafts[battle.battle_tag] += action.tolist()
         return DoublesEnv.action_to_order(action, battle)
 
-    def teampreview(self, battle: AbstractBattle) -> Awaitable[str]:
-        return self._teampreview(battle)
-
-    async def _teampreview(self, battle: AbstractBattle) -> str:
+    def teampreview(self, battle: AbstractBattle) -> str | Awaitable[str]:
         assert isinstance(battle, DoubleBattle)
-        order1 = await self.choose_move(battle)
+        assert isinstance(self.policy, MaskedActorCriticPolicy)
+        order1 = self.choose_move(battle)
+        assert not isinstance(order1, Awaitable)
         upd_battle = _EnvPlayer._simulate_teampreview_switchin(order1, battle)
-        order2 = await self.choose_move(upd_battle)
+        order2 = self.choose_move(upd_battle)
+        assert not isinstance(order2, Awaitable)
         action1 = DoublesEnv.order_to_action(order1, battle)
         action2 = DoublesEnv.order_to_action(order2, upd_battle)
-        if self.policy.chooses_on_teampreview:  # type: ignore
+        if self.policy.chooses_on_teampreview:
             return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
         else:
             message = self.random_teampreview(battle)
@@ -375,14 +374,40 @@ class BatchPolicyPlayer(PolicyPlayer):
         self._q: asyncio.Queue[_BatchReq] = asyncio.Queue()
         self._worker_task: asyncio.Task | None = None
 
-    async def _policy_forward(self, obs: npt.NDArray[np.float32]) -> npt.NDArray[np.int64]:
+    def choose_move(self, battle: AbstractBattle) -> Awaitable[BattleOrder]:
+        return self._choose_move(battle)
+
+    async def _choose_move(self, battle: AbstractBattle) -> BattleOrder:
+        assert isinstance(battle, DoubleBattle)
+        if battle._wait:
+            return DefaultBattleOrder()
+        obs = self.get_observation(battle)
         if self._worker_task is None:
             self._worker_task = asyncio.create_task(self._inference_loop())
         req = _BatchReq(obs=obs, event=asyncio.Event())
         await self._q.put(req)
         await req.event.wait()
         assert req.result is not None
-        return req.result
+        action = req.result
+        return self.get_order(battle, action)
+
+    def teampreview(self, battle: AbstractBattle) -> Awaitable[str]:
+        return self._teampreview(battle)
+
+    async def _teampreview(self, battle: AbstractBattle) -> str:
+        assert isinstance(battle, DoubleBattle)
+        assert isinstance(self.policy, MaskedActorCriticPolicy)
+        order1 = await self.choose_move(battle)
+        upd_battle = _EnvPlayer._simulate_teampreview_switchin(order1, battle)
+        order2 = await self.choose_move(upd_battle)
+        action1 = DoublesEnv.order_to_action(order1, battle)
+        action2 = DoublesEnv.order_to_action(order2, upd_battle)
+        if self.policy.chooses_on_teampreview:
+            return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
+        else:
+            message = self.random_teampreview(battle)
+            self._teampreview_drafts[battle.battle_tag] = [int(i) for i in message[6:-2]]
+            return message
 
     async def _inference_loop(self) -> None:
         assert isinstance(self.policy, MaskedActorCriticPolicy)
