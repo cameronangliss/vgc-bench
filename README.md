@@ -102,7 +102,7 @@ print(results)
 
 ### Cross-evaluation of all AI agents
 
-In each run, 200 battles are used to compare agents, except for LLM player which is compared with 20 battles. Thus, the average heatmap accounts for 1000 total battles in each comparison, and 100 battles per comparison for the LLM player.
+For each run, 200 battles are used to compare agents, except for LLM player which is compared with 20 battles. Thus, the average heatmap accounts for 1000 total battles in each comparison, and 100 battles per comparison for the LLM player.
 
 Legend: R = random player, MBP = max base power player, SH = simple heuristics player, LLM = LLM player, SP = self-play agent, FP = fictitious play agent, DO = double oracle agent, BC = behavior cloning agent, BCSP = self-play agent initialized with behavior cloning, BCFP = fictitious play agent initialized with behavior cloning, BCDO = double oracle agent initialized with behavior cloning
 
