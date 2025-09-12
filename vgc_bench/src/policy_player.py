@@ -66,7 +66,7 @@ class PolicyPlayer(Player):
         # initialize tracking for new battles
         if battle.battle_tag not in self._teampreview_drafts:
             self._teampreview_drafts[battle.battle_tag] = []
-        if battle.battle_tag not in self._frames:
+        if battle.battle_tag not in self._frames and self.policy.num_frames > 1:
             self._frames[battle.battle_tag] = Deque(maxlen=self.policy.num_frames)
             for _ in range(self.policy.num_frames):
                 self._frames[battle.battle_tag].append(
