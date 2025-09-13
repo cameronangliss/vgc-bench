@@ -102,33 +102,11 @@ print(results)
 
 ### Cross-evaluation of all AI agents
 
-For each run, 200 battles are used to compare agents, except for LLM player which is compared with 20 battles. Thus, the average heatmap accounts for 1000 total battles in each comparison, and 100 battles per comparison for the LLM player.
-
-Legend: R = random player, MBP = max base power player, SH = simple heuristics player, LLM = LLM player, SP = self-play agent, FP = fictitious play agent, DO = double oracle agent, BC = behavior cloning agent, BCSP = self-play agent initialized with behavior cloning, BCFP = fictitious play agent initialized with behavior cloning, BCDO = double oracle agent initialized with behavior cloning
-
-#### Run 1
-
-![figures/heatmaps_run1.png](figures/heatmaps_run1.png)
-
-#### Run 2
-
-![figures/heatmaps_run2.png](figures/heatmaps_run2.png)
-
-#### Run 3
-
-![figures/heatmaps_run3.png](figures/heatmaps_run3.png)
-
-#### Run 4
-
-![figures/heatmaps_run4.png](figures/heatmaps_run4.png)
-
-#### Run 5
-
-![figures/heatmaps_run5.png](figures/heatmaps_run5.png)
-
-#### Average
+For each run, 200 battles are used to compare agents, except for LLM player which is compared with 20 battles. The heatmap below averages the results of 5 independent training runs for each trainable agent, accounting for 1000 total battles in each comparison, and 100 battles per comparison for the LLM player.
 
 ![figures/heatmaps_avg.png](figures/heatmaps_avg.png)
+
+Legend: R = random player, MBP = max base power player, SH = simple heuristics player, LLM = LLM player, SP = self-play agent, FP = fictitious play agent, DO = double oracle agent, BC = behavior cloning agent, BCSP = self-play agent initialized with behavior cloning, BCFP = fictitious play agent initialized with behavior cloning, BCDO = double oracle agent initialized with behavior cloning
 
 ### Performance Test
 
