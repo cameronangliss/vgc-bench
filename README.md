@@ -102,7 +102,7 @@ print(results)
 
 ### Cross-evaluation of all AI agents
 
-For each run, 200 battles are used to compare agents, except for LLM player which is compared with 20 battles. The heatmap below averages the results of 5 independent training runs for each trainable agent, accounting for 1000 total battles in each comparison, and 100 battles per comparison for the LLM player.
+For each run, 200 battles were used to compare agents, except for LLM player which was compared with 20 battles. The heatmap below averages the results of 5 independent training runs for each trainable agent, accounting for 1000 total battles in each agent comparison, and 100 battles per comparison for the LLM player.
 
 ![figures/heatmaps_avg.png](figures/heatmaps_avg.png)
 
