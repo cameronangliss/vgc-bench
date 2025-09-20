@@ -4,7 +4,7 @@ import os
 from src.callback import Callback
 from src.env import ShowdownEnv
 from src.policy import MaskedActorCriticPolicy
-from src.utils import LearningStyle, save_interval
+from src.utils import LearningStyle, save_interval, set_global_seed
 from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import SubprocVecEnv
 
@@ -68,7 +68,6 @@ def train(
             else 3072 // num_envs
         ),
         batch_size=64,
-        gamma=1,
         ent_coef=1e-3,
         tensorboard_log=f"results{run_id}/logs-{run_ident}",
         policy_kwargs={"num_frames": num_frames, "chooses_on_teampreview": chooses_on_teampreview},
@@ -162,6 +161,7 @@ if __name__ == "__main__":
     parser.add_argument("--port", type=int, default=8000, help="port to run showdown server on")
     parser.add_argument("--device", type=str, default="cuda:0", help="device to use for training")
     args = parser.parse_args()
+    set_global_seed(args.run_id)
     assert (
         int(args.exploiter)
         + int(args.self_play)

@@ -14,7 +14,7 @@ from src.env import ShowdownEnv
 from src.policy import MaskedActorCriticPolicy
 from src.policy_player import BatchPolicyPlayer
 from src.teams import RandomTeamBuilder
-from src.utils import LearningStyle, battle_format
+from src.utils import LearningStyle, battle_format, set_global_seed
 from stable_baselines3 import PPO
 from torch.utils.data import DataLoader, Dataset
 
@@ -87,7 +87,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
     bc = BC(
         observation_space=ppo.observation_space,  # type: ignore
         action_space=ppo.action_space,  # type: ignore
-        rng=np.random.default_rng(0),
+        rng=np.random.default_rng(run_id),
         policy=ppo.policy,
         batch_size=1024,
         device=device,
@@ -153,4 +153,5 @@ if __name__ == "__main__":
     parser.add_argument("--port", type=int, default=8000, help="port to run showdown server on")
     parser.add_argument("--device", type=str, default="cuda:0", help="device to use for training")
     args = parser.parse_args()
+    set_global_seed(args.run_id)
     pretrain(args.run_id, args.num_teams, args.port, args.device, args.num_frames, args.div_frac)

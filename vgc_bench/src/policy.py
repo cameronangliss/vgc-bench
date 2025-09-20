@@ -102,7 +102,7 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
 
 
 class AttentionExtractor(BaseFeaturesExtractor):
-    embed_len: int = 50
+    embed_len: int = 25
     proj_len: int = 200
     num_heads: int = 4
     embed_layers: int = 3
@@ -113,9 +113,11 @@ class AttentionExtractor(BaseFeaturesExtractor):
         super().__init__(observation_space, features_dim=self.proj_len)
         self.num_frames = num_frames
         self.chooses_on_teampreview = chooses_on_teampreview
-        self.ability_embed = nn.Embedding(len(abilities), self.embed_len)
-        self.item_embed = nn.Embedding(len(items), self.embed_len)
-        self.move_embed = nn.Embedding(len(moves), self.embed_len)
+        self.ability_embed = nn.Embedding(
+            len(abilities), self.embed_len, max_norm=self.embed_len**0.5
+        )
+        self.item_embed = nn.Embedding(len(items), self.embed_len, max_norm=self.embed_len**0.5)
+        self.move_embed = nn.Embedding(len(moves), self.embed_len, max_norm=self.embed_len**0.5)
         self.feature_proj = nn.Linear(chunk_obs_len + 6 * (self.embed_len - 1), self.proj_len)
         self.cls_token = nn.Parameter(torch.randn(1, 1, self.proj_len))
         self.frame_encoder = nn.TransformerEncoder(

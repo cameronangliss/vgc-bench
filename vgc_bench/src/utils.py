@@ -1,8 +1,11 @@
 import json
+import os
+import random
 from enum import Enum, auto, unique
 
 import numpy as np
 import numpy.typing as npt
+import torch
 from poke_env.battle import (
     Effect,
     Field,
@@ -42,6 +45,15 @@ class LearningStyle(Enum):
                 return "fp"
             case LearningStyle.DOUBLE_ORACLE:
                 return "do"
+
+
+def set_global_seed(seed: int) -> None:
+    random.seed(seed)
+    np.random.seed(seed)
+    os.environ["PYTHONHASHSEED"] = str(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
 
 # training params
