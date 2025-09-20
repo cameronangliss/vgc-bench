@@ -93,12 +93,12 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         ally_force_passed = ((mask[:, 0] == 1) & (mask[:, :act_len].sum(1) == 1)).unsqueeze(1)
         ally_switched = (1 <= ally_actions) & (ally_actions <= 6)
         ally_terastallized = (86 < ally_actions) & (ally_actions <= 106)
-        mask[:, act_len:] *= ~(
+        updated_half = mask[:, act_len:] * ~(
             ((indices == 0) & ally_passed & ~ally_force_passed)
             | ((indices == ally_actions) & ally_switched)
             | ((86 < indices) & (indices <= 106) & ally_terastallized)
         )
-        return mask
+        return torch.cat([mask[:, :act_len], updated_half], dim=1)
 
 
 class AttentionExtractor(BaseFeaturesExtractor):
