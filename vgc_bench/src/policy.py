@@ -9,12 +9,22 @@ from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
 from stable_baselines3.common.type_aliases import PyTorchObs
 from torch import nn
 
+action_map = (
+    ["pass", "switch 1", "switch 2", "switch 3", "switch 4", "switch 5", "switch 6"]
+    + [f"move {i} target {j}" for i in range(1, 5) for j in range(-2, 3)]
+    + [f"move {i} target {j} mega" for i in range(1, 5) for j in range(-2, 3)]
+    + [f"move {i} target {j} zmove" for i in range(1, 5) for j in range(-2, 3)]
+    + [f"move {i} target {j} dynamax" for i in range(1, 5) for j in range(-2, 3)]
+    + [f"move {i} target {j} tera" for i in range(1, 5) for j in range(-2, 3)]
+)
+
 
 class MaskedActorCriticPolicy(ActorCriticPolicy):
     def __init__(self, *args: Any, num_frames: int, chooses_on_teampreview: bool, **kwargs: Any):
         self.num_frames = num_frames
         self.chooses_on_teampreview = chooses_on_teampreview
         self.actor_grad = True
+        self.debug = False
         super().__init__(
             *args,
             **kwargs,
@@ -38,6 +48,15 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         actions2 = distribution2.get_actions(deterministic=deterministic)
         distribution.distribution[1] = distribution2.distribution[1]
         actions[:, 1] = actions2[:, 1]
+        if self.debug:
+            action_dist = {
+                action_map[i]: f"{p.item():.3e}"
+                for i, p in enumerate(distribution.distribution.probs[0])
+                if p > 0
+            }
+            action_dist = dict(sorted(action_dist.items(), key=lambda x: float(x[1]), reverse=True))
+            print("value:", value_logits[0][0].item())
+            print("action dist:", action_dist)
         log_prob = distribution.log_prob(actions)
         actions = actions.reshape((-1, *self.action_space.shape))  # type: ignore[misc]
         return actions, value_logits, log_prob
@@ -56,7 +75,7 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
 
     def get_logits(self, obs: torch.Tensor, actor_grad: bool) -> tuple[torch.Tensor, torch.Tensor]:
         actor_context = torch.enable_grad() if actor_grad else torch.no_grad()
-        features = self.extract_features(obs)  # type: ignore
+        features = self.extract_features(obs)
         if self.share_features_extractor:
             latent_pi, latent_vf = self.mlp_extractor(features)
         else:
