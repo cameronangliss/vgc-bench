@@ -57,7 +57,7 @@ def set_global_seed(seed: int) -> None:
 
 
 # training params
-battle_format = "gen9vgc2025regi"
+battle_format = "gen9vgc2024regg"
 save_interval = 98_304
 
 # observation length constants

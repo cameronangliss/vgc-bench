@@ -88,7 +88,7 @@ def find_run_id(team_ids: set[int], battle_format: str) -> int:
 
 
 TEAMS = {
-    "regi": [
+    "regg": [
         ### ATLANTA REGIONALS APRIL 2025 (14 teams) ###
         """
 Koraidon @ Clear Amulet
@@ -16201,7 +16201,7 @@ Jolly Nature
 - Protect
 """,
     ],
-    "regiactual": [
+    "regi": [
         """
 Koraidon @ Life Orb
 Ability: Orichalcum Pulse
