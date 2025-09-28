@@ -1,5 +1,6 @@
 import argparse
 import os
+import random
 
 import numpy as np
 import torch
@@ -8,7 +9,7 @@ from poke_env.player import MaxBasePowerPlayer
 from poke_env.ps_client import ServerConfiguration
 from ray.rllib.algorithms import PPOConfig
 from ray.rllib.core.rl_module import RLModuleSpec
-from ray.tune.logger import TBXLogger, UnifiedLogger
+from ray.tune.logger import UnifiedLogger
 from ray.tune.registry import register_env
 from src.agent import Agent
 from src.env import ShowdownEnv
@@ -26,15 +27,6 @@ from src.utils import (
 )
 
 
-class FilteredTBXLogger(TBXLogger):
-    def on_result(self, result):
-        result.get("env_runners", {}).pop("agent_episode_returns_mean", None)
-        result.get("env_runners", {}).pop("agent_steps", None)
-        result.get("env_runners", {}).pop("num_agent_steps_sampled", None)
-        result.get("env_runners", {}).pop("num_agent_steps_sampled_lifetime", None)
-        super().on_result(result)
-
-
 def train(
     teams: list[int],
     port: int,
@@ -49,17 +41,17 @@ def train(
     config = PPOConfig()
     config = config.environment(
         "showdown",
-        env_config={
-            "teams": teams,
-            "port": port,
-            "num_frames": num_frames,
-        },
+        env_config={"teams": teams, "port": port, "num_frames": num_frames},
         disable_env_checking=True,
     )
     config = config.env_runners(num_env_runners=24)
     config = config.learners(num_learners=1, num_gpus_per_learner=1, local_gpu_idx=int(device[-1]))
+    num_policies = 2
+    policy_names = [f"p{i}" for i in range(num_policies)]
     config = config.multi_agent(
-        policies={"p1"}, policy_mapping_fn=lambda agent_id, ep_type: "p1", policies_to_train=["p1"]
+        policies=policy_names,
+        policy_mapping_fn=lambda agent_id, ep_type: policy_names[int(agent_id[-1])],
+        policies_to_train=policy_names,
     )
     config = config.rl_module(
         rl_module_spec=RLModuleSpec(
@@ -88,11 +80,7 @@ def train(
     log_dir = f"results/logs-{run_ident}/{','.join([str(t) for t in teams])}-teams/"
     save_dir = f"results/saves-{run_ident}/{','.join([str(t) for t in teams])}-teams"
     os.makedirs(save_dir, exist_ok=True)
-    algo = config.build_algo(
-        logger_creator=lambda config: UnifiedLogger(  # type: ignore
-            config, log_dir, loggers=[FilteredTBXLogger]
-        )
-    )
+    algo = config.build_algo(logger_creator=lambda config: UnifiedLogger(config, log_dir))  # type: ignore
     toggle = None if allow_mirror_match else TeamToggle(len(teams))
     eval_agent1 = Agent(
         num_frames,
@@ -124,65 +112,70 @@ def train(
             [0] if learning_style == LearningStyle.EXPLOITER else teams, battle_format, toggle
         ),
     )
-    num_saved_steps = 0
-    if os.path.exists(save_dir) and len(os.listdir(save_dir)) > 0:
-        saved_steps_list = [int(file[:-3]) for file in os.listdir(save_dir) if int(file[:-3]) >= 0]
-        if saved_steps_list:
-            num_saved_steps = max(saved_steps_list)
-            module = algo.get_module("p1")
-            assert isinstance(module, ActorCriticModule)
-            state = torch.load(f"{save_dir}/{num_saved_steps}.pt")
-            module.model.load_state_dict(state)
-            if num_saved_steps < save_period:
-                num_saved_steps = 0
-            algo._iteration = num_saved_steps // gather_period
-    if gather_period * algo.training_iteration < save_period:
-        policy = algo.get_module("p1")
-        assert isinstance(policy, ActorCriticModule)
-        eval_agent1.set_policy(policy)
-        win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
-    if not behavior_clone:
+    # num_saved_steps = 0
+    # if os.path.exists(save_dir) and len(os.listdir(save_dir)) > 0:
+    #     saved_steps_list = [int(file[:-3]) for file in os.listdir(save_dir) if int(file[:-3]) >= 0]
+    #     if saved_steps_list:
+    #         num_saved_steps = max(saved_steps_list)
+    #         module = algo.get_module("p1")
+    #         assert isinstance(module, ActorCriticModule)
+    #         state = torch.load(f"{save_dir}/{num_saved_steps}.pt")
+    #         module.model.load_state_dict(state)
+    #         if num_saved_steps < save_period:
+    #             num_saved_steps = 0
+    #         algo._iteration = num_saved_steps // gather_period
+    # if gather_period * algo.training_iteration < save_period:
+    #     policy = algo.get_module("p1")
+    #     assert isinstance(policy, ActorCriticModule)
+    #     eval_agent1.set_policy(policy)
+    #     win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
+    # if not behavior_clone:
+    #     module = algo.get_module("p1")
+    #     assert isinstance(module, ActorCriticModule)
+    #     torch.save(
+    #         module.model.state_dict(), f"{save_dir}/{gather_period * algo.training_iteration}.pt"
+    #     )
+    # else:
+    #     try:
+    #         saves = [int(file[:-3]) for file in os.listdir(save_dir) if int(file[:-3]) >= 0]
+    #     except FileNotFoundError:
+    #         raise FileNotFoundError("behavior_clone on, but no model initialization found")
+    #     assert len(saves) > 0
+    # if learning_style == LearningStyle.EXPLOITER:
+    #     algo.add_module(
+    #         "target",
+    #         RLModuleSpec(
+    #             module_class=ActorCriticModule,
+    #             observation_space=Box(
+    #                 -1, len(moves), shape=(12 * doubles_chunk_obs_len,), dtype=np.float32
+    #             ),
+    #             action_space=MultiDiscrete([doubles_act_len, doubles_act_len]),
+    #             model_config={
+    #                 "num_frames": num_frames,
+    #                 "chooses_on_teampreview": chooses_on_teampreview,
+    #             },
+    #         ),
+    #     )
+    #     module = algo.get_module("target")
+    #     assert isinstance(module, ActorCriticModule)
+    #     state = torch.load(f"{save_dir}/-1.pt")
+    #     module.model.load_state_dict(state)
+    while True:
+        for _ in range(10):
+            algo.train()
+        win_rates = []
+        for name in policy_names:
+            policy = algo.get_module(name)
+            assert isinstance(policy, ActorCriticModule)
+            eval_agent1.set_policy(policy)
+            win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
+            win_rates += [win_rate]
+        print(win_rates, flush=True)
         module = algo.get_module("p1")
         assert isinstance(module, ActorCriticModule)
         torch.save(
             module.model.state_dict(), f"{save_dir}/{gather_period * algo.training_iteration}.pt"
         )
-    else:
-        try:
-            saves = [int(file[:-3]) for file in os.listdir(save_dir) if int(file[:-3]) >= 0]
-        except FileNotFoundError:
-            raise FileNotFoundError("behavior_clone on, but no model initialization found")
-        assert len(saves) > 0
-    if learning_style == LearningStyle.EXPLOITER:
-        algo.add_module(
-            "target",
-            RLModuleSpec(
-                module_class=ActorCriticModule,
-                observation_space=Box(
-                    -1, len(moves), shape=(12 * doubles_chunk_obs_len,), dtype=np.float32
-                ),
-                action_space=MultiDiscrete([doubles_act_len, doubles_act_len]),
-                model_config={
-                    "num_frames": num_frames,
-                    "chooses_on_teampreview": chooses_on_teampreview,
-                },
-            ),
-        )
-        module = algo.get_module("target")
-        assert isinstance(module, ActorCriticModule)
-        state = torch.load(f"{save_dir}/-1.pt")
-        module.model.load_state_dict(state)
-    for _ in range(10):
-        algo.train()
-    policy = algo.get_module("p1")
-    assert isinstance(policy, ActorCriticModule)
-    eval_agent1.set_policy(policy)
-    win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
-    module = algo.get_module("p1")
-    assert isinstance(module, ActorCriticModule)
-    torch.save(
-        module.model.state_dict(), f"{save_dir}/{gather_period * algo.training_iteration}.pt"
-    )
 
 
 if __name__ == "__main__":
