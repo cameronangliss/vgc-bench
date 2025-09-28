@@ -8,18 +8,11 @@ from poke_env.ps_client import ServerConfiguration
 from ray.rllib.algorithms.bc import BCConfig
 from ray.rllib.core.rl_module import RLModuleSpec
 from ray.tune.registry import register_env
-from src.agent import Agent
 from src.env import ShowdownEnv
 from src.policy import ActorCriticModule
+from src.policy_player import PolicyPlayer
 from src.teams import RandomTeamBuilder
-from src.utils import (
-    LearningStyle,
-    battle_format,
-    chooses_on_teampreview,
-    doubles_act_len,
-    doubles_chunk_obs_len,
-    moves,
-)
+from src.utils import LearningStyle, act_len, battle_format, chunk_obs_len, moves, set_global_seed
 
 # class TrajectoryDataset(Dataset):
 #     def __init__(self, num_frames: int):
@@ -54,7 +47,7 @@ from src.utils import (
 #         return Trajectory(obs=stacked_obs, acts=traj.acts, infos=None, terminal=True)
 
 
-def pretrain(num_teams: int, port: int, device: str, num_frames: int):
+def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: int, div_frac: float):
     register_env("showdown", ShowdownEnv.create_env)
     # dataset = TrajectoryDataset(num_frames)
     # div_count = 10
@@ -74,10 +67,8 @@ def pretrain(num_teams: int, port: int, device: str, num_frames: int):
             "learning_style": LearningStyle.PURE_SELF_PLAY,
             "num_frames": num_frames,
         },
-        observation_space=Box(
-            -1, len(moves), shape=(12 * doubles_chunk_obs_len,), dtype=np.float32
-        ),
-        action_space=MultiDiscrete([doubles_act_len, doubles_act_len]),
+        observation_space=Box(-1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32),
+        action_space=MultiDiscrete([act_len, act_len]),
         disable_env_checking=True,
     )
     config.evaluation(evaluation_interval=None)
@@ -85,26 +76,21 @@ def pretrain(num_teams: int, port: int, device: str, num_frames: int):
     config.rl_module(
         rl_module_spec=RLModuleSpec(
             module_class=ActorCriticModule,
-            observation_space=Box(
-                -1, len(moves), shape=(12 * doubles_chunk_obs_len,), dtype=np.float32
-            ),
-            action_space=MultiDiscrete([doubles_act_len, doubles_act_len]),
-            model_config={
-                "num_frames": num_frames,
-                "chooses_on_teampreview": chooses_on_teampreview,
-            },
+            observation_space=Box(-1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32),
+            action_space=MultiDiscrete([act_len, act_len]),
+            model_config={"num_frames": num_frames, "chooses_on_teampreview": True},
         )
     )
     algo = config.build_algo()
-    eval_agent = Agent(
-        num_frames,
-        torch.device(device),
+    eval_agent = PolicyPlayer(
+        device,
         server_configuration=ServerConfiguration(
             f"ws://localhost:{port}/showdown/websocket",
             "https://play.pokemonshowdown.com/action.php?",
         ),
         battle_format=battle_format,
         log_level=40,
+        max_concurrent_battles=10,
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(list(range(num_teams)), battle_format),
     )
@@ -115,6 +101,7 @@ def pretrain(num_teams: int, port: int, device: str, num_frames: int):
         ),
         battle_format=battle_format,
         log_level=40,
+        max_concurrent_battles=10,
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(list(range(num_teams)), battle_format),
     )
@@ -132,21 +119,23 @@ def pretrain(num_teams: int, port: int, device: str, num_frames: int):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Pretrain a Pokémon AI model")
-    parser.add_argument("--num_teams", type=int, default=1, help="Number of teams to train with")
-    parser.add_argument("--port", type=int, default=8000, help="Port to run showdown server on")
-    parser.add_argument(
-        "--device",
-        type=str,
-        default="cuda:0",
-        choices=["cuda:0", "cuda:1", "cuda:2", "cuda:3"],
-        help="CUDA device to use for training",
-    )
+    parser = argparse.ArgumentParser(description="Pretrain a policy using behavior cloning")
     parser.add_argument(
         "--num_frames",
         type=int,
         default=1,
-        help="number of frames to use for frame stacking. default is 1",
+        help="number of frames to use for frame stacking, default is 1 (no frame stacking)",
     )
+    parser.add_argument(
+        "--div_frac",
+        type=float,
+        default=0.01,
+        help="fraction of total dataset to load at a given time during training (must be <1 when dataset is large)",
+    )
+    parser.add_argument("--run_id", type=int, default=1, help="run ID for the training session")
+    parser.add_argument("--num_teams", type=int, default=2, help="number of teams to train with")
+    parser.add_argument("--port", type=int, default=8000, help="port to run showdown server on")
+    parser.add_argument("--device", type=str, default="cuda:0", help="device to use for training")
     args = parser.parse_args()
-    pretrain(args.num_teams, args.port, args.device, args.num_frames)
+    set_global_seed(args.run_id)
+    pretrain(args.run_id, args.num_teams, args.port, args.device, args.num_frames, args.div_frac)

@@ -1,9 +1,0 @@
-gymnasium>=1.0.0
-nashpy
-numpy>=2.0.0
-git+https://github.com/cameronangliss/poke-env.git@thesis
-ray[rllib]>=2.0.0
-sentence-transformers
-tensorboard
-torch
-torch-tb-profiler

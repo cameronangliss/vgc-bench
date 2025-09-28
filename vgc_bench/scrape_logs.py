@@ -1,26 +1,17 @@
+import argparse
 import json
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor
 from typing import Any
 
 import requests
-
-battle_formats = [
-    "gen9vgc2023regd",
-    "gen9vgc2024regf",
-    "gen9vgc2024regfbo3",
-    "gen9vgc2024regg",
-    "gen9vgc2024reggbo3",
-    "gen9vgc2024regh",
-    "gen9vgc2024reghbo3",
-    "gen9vgc2025regg",
-    "gen9vgc2025reggbo3",
-    "gen9vgc2025regi",
-    "gen9vgc2025regibo3",
-]
+from poke_env.battle import Pokemon
+from poke_env.data import to_id_str
+from src.utils import all_formats
 
 
-def scrape_logs(increment: int, battle_format: str) -> bool:
+def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:
     if os.path.exists(f"data/logs-{battle_format}.json"):
         with open(f"data/logs-{battle_format}.json", "r") as f:
             old_logs = json.load(f)
@@ -31,15 +22,21 @@ def scrape_logs(increment: int, battle_format: str) -> bool:
     newest = max(log_times) if log_times else None
     battle_idents = get_battle_idents(increment, battle_format, oldest, newest)
     battle_idents = [ident for ident in battle_idents if ident not in old_logs.keys()]
-    with ThreadPoolExecutor(max_workers=8) as executor:
-        log_jsons = list(executor.map(get_log_json, battle_idents))
+    if num_workers == 0:
+        log_jsons = [get_log_json(ident) for ident in battle_idents]
+    else:
+        with ThreadPoolExecutor(max_workers=num_workers) as executor:
+            log_jsons = list(executor.map(get_log_json, battle_idents))
     new_logs = {
         lj["id"]: (lj["uploadtime"], lj["log"])
         for lj in log_jsons
         if lj is not None
         and lj["log"].count("|poke|p1|") == 6
         and lj["log"].count("|poke|p2|") == 6
-        and "|showteam|" in lj["log"]
+        and "|turn|1" in lj["log"]
+        and "|showteam|" in lj["log"].split("\n|\n")[0]
+        and can_distinguish_team_members(lj["log"].split("\n|\n")[0], "p1")
+        and can_distinguish_team_members(lj["log"].split("\n|\n")[0], "p2")
         and "Zoroark" not in lj["log"]
         and "Zorua" not in lj["log"]
         and "|-mega|" not in lj["log"]
@@ -49,6 +46,25 @@ def scrape_logs(increment: int, battle_format: str) -> bool:
     with open(f"data/logs-{battle_format}.json", "w") as f:
         json.dump(logs, f)
     return len(logs) == len(old_logs)
+
+
+def can_distinguish_team_members(log: str, player_role: str) -> bool:
+    teampreview_mons = [
+        Pokemon(9, details=dets)
+        for dets in re.findall(r"\|poke\|" + player_role + r"\|([^,|]+)", log)
+    ]
+    showteam = [line for line in log.split("\n") if line.startswith(f"|showteam|{player_role}|")][0]
+    showteam_names = [mon.split("|")[0] for mon in "|".join(showteam.split("|")[3:]).split("]")]
+    for mon in teampreview_mons:
+        matches = [
+            name
+            for name in showteam_names
+            if mon.base_species == to_id_str(name)
+            or mon.base_species in [to_id_str(substr) for substr in name.split("-")]
+        ]
+        if len(matches) != 1:
+            return False
+    return True
 
 
 def get_battle_idents(
@@ -94,33 +110,52 @@ def get_rating(log: str, role: str) -> int | None:
     return rating
 
 
-if __name__ == "__main__":
+def main(num_workers: int, read_increment: int):
 
     def run(f: str):
         done = False
         while not done:
-            done = scrape_logs(4000, f)
+            done = scrape_logs(num_workers // len(all_formats), read_increment, f)
         with open(f"data/logs-{f}.json", "r") as file:
             log_dict = json.load(file)
             logs = [log for _, log in log_dict.values()]
+        players_in_range = lambda logs, low, high: len(
+            [log for log in logs if low <= (get_rating(log, "p1") or 0) <= high]
+        ) + len([log for log in logs if low <= (get_rating(log, "p2") or 0) <= high])
         print(
             f"""
 {f} stats:
 most recent log date = {max([t for t, _ in log_dict.values()])}
 total logs = {len(logs)}
-# of unrated games = {len([log for log in logs if get_rating(log, "p1") is None])}
-# of games w/ rating (on both sides)...
-    1000+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1000 and (get_rating(log, "p2") or 0) >= 1000])}
-    1100+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1100 and (get_rating(log, "p2") or 0) >= 1100])}
-    1200+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1200 and (get_rating(log, "p2") or 0) >= 1200])}
-    1300+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1300 and (get_rating(log, "p2") or 0) >= 1300])}
-    1400+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1400 and (get_rating(log, "p2") or 0) >= 1400])}
-    1500+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1500 and (get_rating(log, "p2") or 0) >= 1500])}
-    1600+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1600 and (get_rating(log, "p2") or 0) >= 1600])}
-    1700+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1700 and (get_rating(log, "p2") or 0) >= 1700])}
-    1800+ = {len([log for log in logs if get_rating(log, "p1") if (get_rating(log, "p1") or 0) >= 1800 and (get_rating(log, "p2") or 0) >= 1800])}
-"""
+# of players w/ rating...
+    unrated:   {len([log for log in logs if get_rating(log, "p1") in [None, 1]]) + len([log for log in logs if get_rating(log, "p2") in [None, 1]])}
+    1000-1099: {players_in_range(logs, 1000, 1099)}
+    1100-1199: {players_in_range(logs, 1100, 1199)}
+    1200-1299: {players_in_range(logs, 1200, 1299)}
+    1300-1399: {players_in_range(logs, 1300, 1399)}
+    1400-1499: {players_in_range(logs, 1400, 1499)}
+    1500-1599: {players_in_range(logs, 1500, 1599)}
+    1600-1699: {players_in_range(logs, 1600, 1699)}
+    1700-1799: {players_in_range(logs, 1700, 1799)}
+    1800+:     {players_in_range(logs, 1800, 3000)}
+""",
+            flush=True,
         )
 
-    with ThreadPoolExecutor(max_workers=len(battle_formats)) as executor:
-        executor.map(run, battle_formats)
+    with ThreadPoolExecutor(max_workers=min(num_workers, len(all_formats))) as executor:
+        executor.map(run, all_formats)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Scrapes logs into data/ folder")
+    parser.add_argument(
+        "--num_workers", type=int, default=1, help="number of parallel log scrapers"
+    )
+    parser.add_argument(
+        "--read_increment",
+        type=int,
+        default=4000,
+        help="number of logs to read through when filtering through logs (if too low, scraper may prematurely think there are no more logs to scrape)",
+    )
+    args = parser.parse_args()
+    main(args.num_workers, args.read_increment)

@@ -1,5 +1,7 @@
 __pycache__
+build/
 data/
 results*/
+*.egg-info
 debug*.log
 profile.prof
