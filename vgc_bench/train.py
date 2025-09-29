@@ -4,14 +4,14 @@ import random
 
 import numpy as np
 import torch
-from gymnasium.spaces import Box, MultiDiscrete
-from poke_env.player import MaxBasePowerPlayer
+from gymnasium.spaces import Box, Discrete
+from poke_env.player import SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
 from ray.rllib.algorithms import PPOConfig
 from ray.rllib.core.rl_module import RLModuleSpec
 from ray.tune.logger import UnifiedLogger
 from ray.tune.registry import register_env
-from src.env import ShowdownEnv
+from src.env import TwoStepShowdownEnv
 from src.policy import ActorCriticModule
 from src.policy_player import PolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
@@ -38,7 +38,7 @@ def train(
     allow_mirror_match: bool,
     chooses_on_teampreview: bool,
 ):
-    register_env("showdown", ShowdownEnv.create_env)
+    register_env("showdown", TwoStepShowdownEnv.create_env)
     gather_period = 10_000
     save_period = 100_000
     config = PPOConfig()
@@ -69,7 +69,7 @@ def train(
         rl_module_spec=RLModuleSpec(
             module_class=ActorCriticModule,
             observation_space=Box(-1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32),
-            action_space=MultiDiscrete([act_len, act_len]),
+            action_space=Discrete(act_len),
             model_config={
                 "num_frames": num_frames,
                 "chooses_on_teampreview": chooses_on_teampreview,
@@ -88,8 +88,8 @@ def train(
             "-xt" if not chooses_on_teampreview else "",
         ]
     )[1:]
-    log_dir = f"results/logs-{run_ident}/{num_teams}-teams/"
-    save_dir = f"results/saves-{run_ident}/{num_teams}-teams"
+    log_dir = f"results{run_id}/logs-{run_ident}/{num_teams}-teams"
+    save_dir = f"results{run_id}/saves-{run_ident}/{num_teams}-teams"
     os.makedirs(save_dir, exist_ok=True)
     algo = config.build_algo(logger_creator=lambda config: UnifiedLogger(config, log_dir))  # type: ignore
     toggle = None if allow_mirror_match else TeamToggle(num_teams)
@@ -105,10 +105,12 @@ def train(
         accept_open_team_sheet=True,
         open_timeout=None,
         team=RandomTeamBuilder(
-            [0] if learning_style == LearningStyle.EXPLOITER else teams, battle_format, toggle
+            [0] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
+            battle_format,
+            toggle,
         ),
     )
-    eval_agent2 = MaxBasePowerPlayer(
+    eval_agent2 = SimpleHeuristicsPlayer(
         server_configuration=ServerConfiguration(
             f"ws://localhost:{port}/showdown/websocket",
             "https://play.pokemonshowdown.com/action.php?",
@@ -119,7 +121,9 @@ def train(
         accept_open_team_sheet=True,
         open_timeout=None,
         team=RandomTeamBuilder(
-            [0] if learning_style == LearningStyle.EXPLOITER else teams, battle_format, toggle
+            [0] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
+            battle_format,
+            toggle,
         ),
     )
     # num_saved_steps = 0
@@ -134,11 +138,11 @@ def train(
     #         if num_saved_steps < save_period:
     #             num_saved_steps = 0
     #         algo._iteration = num_saved_steps // gather_period
-    # if gather_period * algo.training_iteration < save_period:
-    #     policy = algo.get_module("p1")
-    #     assert isinstance(policy, ActorCriticModule)
-    #     eval_agent1.set_policy(policy)
-    #     win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
+    if gather_period * algo.training_iteration < save_period:
+        policy = algo.get_module("p1")
+        assert isinstance(policy, ActorCriticModule)
+        eval_agent1.policy = policy.to(device)
+        win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
     # if not behavior_clone:
     #     module = algo.get_module("p1")
     #     assert isinstance(module, ActorCriticModule)
@@ -159,7 +163,7 @@ def train(
     #             observation_space=Box(
     #                 -1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32
     #             ),
-    #             action_space=MultiDiscrete([act_len, act_len]),
+    #             action_space=Discrete(act_len),
     #             model_config={
     #                 "num_frames": num_frames,
     #                 "chooses_on_teampreview": chooses_on_teampreview,
@@ -177,7 +181,7 @@ def train(
         for name in policy_names:
             policy = algo.get_module(name)
             assert isinstance(policy, ActorCriticModule)
-            eval_agent1.policy = policy
+            eval_agent1.policy = policy.to(device)
             win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
             win_rates += [win_rate]
         print(win_rates, flush=True)

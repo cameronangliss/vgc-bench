@@ -20,8 +20,8 @@ from poke_env.battle import (
     Weather,
 )
 from poke_env.environment import DoublesEnv
-from poke_env.environment.env import _EnvPlayer
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
+from ray.rllib.models.torch.torch_distributions import TorchCategorical
 from ray.rllib.core import Columns
 from src.policy import ActorCriticModule
 from src.utils import abilities, act_len, chunk_obs_len, items, move_obs_len, moves, pokemon_obs_len
@@ -32,7 +32,9 @@ class PolicyPlayer(Player):
     _frames: dict[str, Deque[npt.NDArray[np.float32]]] = {}
     _teampreview_drafts: dict[str, list[int]] = {}
 
-    def __init__(self, device: str, policy: ActorCriticModule | None = None, *args: Any, **kwargs: Any):
+    def __init__(
+        self, device: str, policy: ActorCriticModule | None = None, *args: Any, **kwargs: Any
+    ):
         super().__init__(*args, **kwargs)
         self.device = device
         self.policy = policy
@@ -42,14 +44,23 @@ class PolicyPlayer(Player):
         assert isinstance(self.policy, ActorCriticModule)
         if battle._wait:
             return DefaultBattleOrder()
-        obs = self.get_observation(battle)
+        obs1 = self.get_observation(battle, np.int64(-1))
         with torch.no_grad():
-            obs_tensor = torch.as_tensor(obs, device=self.device).unsqueeze(0)
-            output = self.policy.forward({Columns.OBS: obs_tensor})
-        action = output[Columns.ACTIONS].cpu().numpy()[0]
-        return self.get_order(battle, action)
+            obs_tensor1 = torch.as_tensor(obs1, device=self.device).unsqueeze(0)
+            output1 = self.policy.forward({Columns.OBS: obs_tensor1})
+            dist1 = TorchCategorical(logits=output1[Columns.ACTION_DIST_INPUTS])
+            action1 = dist1.sample()[0].cpu().numpy()
+        obs2 = self.get_observation(battle, np.int64(action1))
+        with torch.no_grad():
+            obs_tensor2 = torch.as_tensor(obs2, device=self.device).unsqueeze(0)
+            output2 = self.policy.forward({Columns.OBS: obs_tensor2})
+            dist2 = TorchCategorical(logits=output2[Columns.ACTION_DIST_INPUTS])
+            action2 = dist2.sample()[0].cpu().numpy()
+        return self.get_order(battle, np.array([action1, action2]))
 
-    def get_observation(self, battle: DoubleBattle) -> npt.NDArray[np.float32]:
+    def get_observation(
+        self, battle: DoubleBattle, last_action: np.int64
+    ) -> npt.NDArray[np.float32]:
         assert isinstance(self.policy, ActorCriticModule)
         # remove finished battles
         self._teampreview_drafts = {
@@ -69,12 +80,13 @@ class PolicyPlayer(Player):
             self._frames[battle.battle_tag] = Deque(maxlen=self.policy.model.num_frames)
             for _ in range(self.policy.model.num_frames):
                 self._frames[battle.battle_tag].append(
-                    np.zeros((2 * act_len + 12 * chunk_obs_len,), dtype=np.float32)
+                    np.zeros((2 * act_len + 12 * chunk_obs_len + 1,), dtype=np.float32)
                 )
         # embed battle into observation
         obs = self.embed_battle(
             battle, self._teampreview_drafts[battle.battle_tag], fake_rating=True
         )
+        obs = np.append(obs, last_action)
         if self.policy.model.num_frames > 1:
             self._frames[battle.battle_tag].append(obs)
             obs = np.concatenate(self._frames[battle.battle_tag])
@@ -94,19 +106,17 @@ class PolicyPlayer(Player):
     def teampreview(self, battle: AbstractBattle) -> str | Awaitable[str]:
         assert isinstance(battle, DoubleBattle)
         assert isinstance(self.policy, ActorCriticModule)
-        order1 = self.choose_move(battle)
-        assert not isinstance(order1, Awaitable)
-        upd_battle = _EnvPlayer._simulate_teampreview_switchin(order1, battle)
-        order2 = self.choose_move(upd_battle)
-        assert not isinstance(order2, Awaitable)
-        action1 = DoublesEnv.order_to_action(order1, battle)
-        action2 = DoublesEnv.order_to_action(order2, upd_battle)
-        if self.policy.model.chooses_on_teampreview:
-            return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
-        else:
+        if not self.policy.model.chooses_on_teampreview:
             message = self.random_teampreview(battle)
             self._teampreview_drafts[battle.battle_tag] = [int(i) for i in message[6:-2]]
             return message
+        order1 = self.choose_move(battle)
+        assert not isinstance(order1, Awaitable)
+        action1 = DoublesEnv.order_to_action(order1, battle)
+        order2 = self.choose_move(battle)
+        assert not isinstance(order2, Awaitable)
+        action2 = DoublesEnv.order_to_action(order2, battle)
+        return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
 
     @staticmethod
     def embed_battle(
@@ -116,8 +126,8 @@ class PolicyPlayer(Player):
         if not battle._last_request:
             mask = np.ones(2 * act_len, dtype=np.float32)
         else:
-            mask1 = PolicyPlayer.get_action_mask(battle, 0)
-            mask2 = PolicyPlayer.get_action_mask(battle, 1)
+            mask1 = PolicyPlayer.get_action_mask(battle, 0, teampreview_draft)
+            mask2 = PolicyPlayer.get_action_mask(battle, 1, teampreview_draft)
             mask = np.array(mask1 + mask2)
         glob = PolicyPlayer.embed_global(battle)
         side = PolicyPlayer.embed_side(battle, fake_rating)
@@ -326,7 +336,7 @@ class PolicyPlayer(Player):
         )
 
     @staticmethod
-    def get_action_mask(battle: DoubleBattle, pos: int) -> list[int]:
+    def get_action_mask(battle: DoubleBattle, pos: int, teampreview_draft: list[int]) -> list[int]:
         switch_space = [
             i + 1
             for i, pokemon in enumerate(battle.team.values())
@@ -338,7 +348,10 @@ class PolicyPlayer(Player):
             actions = [0]
         elif all(battle.force_switch) and len(battle.available_switches[0]) == 1:
             actions = switch_space + [0]
-        elif battle.teampreview or active_mon is None:
+        elif battle.teampreview:
+            assert teampreview_draft is not None
+            actions = [s for s in switch_space if s not in teampreview_draft]
+        elif active_mon is None:
             actions = switch_space
         else:
             move_spaces = [
