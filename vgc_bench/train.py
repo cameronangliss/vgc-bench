@@ -11,6 +11,7 @@ from ray.rllib.algorithms import PPOConfig
 from ray.rllib.core.rl_module import RLModuleSpec
 from ray.tune.logger import UnifiedLogger
 from ray.tune.registry import register_env
+from src.callback import Callback
 from src.env import TwoStepShowdownEnv
 from src.policy import ActorCriticModule
 from src.policy_player import PolicyPlayer
@@ -44,6 +45,8 @@ def train(
     config = PPOConfig()
     teams = list(range(len(TEAMS[battle_format[-4:]])))
     random.Random(run_id).shuffle(teams)
+    policy_map = {}
+    config = config.callbacks(lambda: Callback(run_id, num_teams, policy_map))  # type: ignore
     config = config.environment(
         "showdown",
         env_config={
@@ -58,11 +61,10 @@ def train(
     )
     config = config.env_runners(num_env_runners=num_envs)
     config = config.learners(num_learners=1, num_gpus_per_learner=1, local_gpu_idx=int(device[-1]))
-    num_policies = 2
-    policy_names = [f"p{i}" for i in range(num_policies)]
+    policy_names = [f"p{i}" for i in range(num_teams)]
     config = config.multi_agent(
         policies=policy_names,
-        policy_mapping_fn=lambda agent_id, ep_type: policy_names[int(agent_id[-1])],
+        policy_mapping_fn=lambda agent_id, episode: policy_map[episode.id_][int(agent_id[-1])],
         policies_to_train=policy_names,
     )
     config = config.rl_module(
@@ -104,11 +106,7 @@ def train(
         max_concurrent_battles=10,
         accept_open_team_sheet=True,
         open_timeout=None,
-        team=RandomTeamBuilder(
-            [0] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
-            battle_format,
-            toggle,
-        ),
+        team=RandomTeamBuilder([teams[0]], battle_format, toggle),
     )
     eval_agent2 = SimpleHeuristicsPlayer(
         server_configuration=ServerConfiguration(
@@ -120,11 +118,7 @@ def train(
         max_concurrent_battles=10,
         accept_open_team_sheet=True,
         open_timeout=None,
-        team=RandomTeamBuilder(
-            [0] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
-            battle_format,
-            toggle,
-        ),
+        team=RandomTeamBuilder(teams[1:num_teams], battle_format, toggle),
     )
     # num_saved_steps = 0
     # if os.path.exists(save_dir) and len(os.listdir(save_dir)) > 0:
@@ -139,10 +133,19 @@ def train(
     #             num_saved_steps = 0
     #         algo._iteration = num_saved_steps // gather_period
     if gather_period * algo.training_iteration < save_period:
-        policy = algo.get_module("p1")
+        policy = algo.get_module("p0")
         assert isinstance(policy, ActorCriticModule)
         eval_agent1.policy = policy.to(device)
+        eval_agent1._team = RandomTeamBuilder([teams[0]], battle_format, toggle)
         win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
+        print("p0 eval:", win_rate, flush=True)
+        for name in policy_names:
+            policy = algo.get_module(name)
+            assert isinstance(policy, ActorCriticModule)
+            torch.save(
+                policy.model.state_dict(),
+                f"{save_dir}/{gather_period * algo.training_iteration}-{name}.pt",
+            )
     # if not behavior_clone:
     #     module = algo.get_module("p1")
     #     assert isinstance(module, ActorCriticModule)
@@ -177,19 +180,19 @@ def train(
     while True:
         for _ in range(10):
             algo.train()
-        win_rates = []
+        policy = algo.get_module("p0")
+        assert isinstance(policy, ActorCriticModule)
+        eval_agent1.policy = policy.to(device)
+        eval_agent1._team = RandomTeamBuilder([teams[0]], battle_format, toggle)
+        win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
+        print("p0 eval:", win_rate, flush=True)
         for name in policy_names:
             policy = algo.get_module(name)
             assert isinstance(policy, ActorCriticModule)
-            eval_agent1.policy = policy.to(device)
-            win_rate = compare(eval_agent1, eval_agent2, n_battles=100)
-            win_rates += [win_rate]
-        print(win_rates, flush=True)
-        module = algo.get_module("p1")
-        assert isinstance(module, ActorCriticModule)
-        torch.save(
-            module.model.state_dict(), f"{save_dir}/{gather_period * algo.training_iteration}.pt"
-        )
+            torch.save(
+                policy.model.state_dict(),
+                f"{save_dir}/{gather_period * algo.training_iteration}-{name}.pt",
+            )
 
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 run_ids=(1 1 1 1)
-team_counts=(1 4 16 64)
+team_counts=(2 4 8 16)
 ports=(7200 7201 7202 7203)
 devices=("cuda:0" "cuda:1" "cuda:2" "cuda:3")
 
