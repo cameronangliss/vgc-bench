@@ -143,10 +143,12 @@ class TwoStepShowdownEnv(ParallelEnv):
             assert self.env.agent2.battle is not None
             obs = {
                 self.env.agents[0]: np.append(
-                    self.env.embed_battle(self.env.agent1.battle), np.float32(actions[self.env.agents[0]])
+                    self.env.embed_battle(self.env.agent1.battle),
+                    np.float32(actions[self.env.agents[0]]),
                 ),
                 self.env.agents[1]: np.append(
-                    self.env.embed_battle(self.env.agent2.battle), np.float32(actions[self.env.agents[1]])
+                    self.env.embed_battle(self.env.agent2.battle),
+                    np.float32(actions[self.env.agents[1]]),
                 ),
             }
             rewards = {agent: 0.0 for agent in self.env.agents}
