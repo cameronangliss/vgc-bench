@@ -94,7 +94,7 @@ class NeuralNetwork(nn.Module):
                 x[:, :, start + 6 :],
             ],
             dim=-1,
-        ).to(torch.float32)
+        )
         # frame encoder
         x = self.feature_proj(x)
         token = self.cls_token.expand(batch_size * self.num_frames, -1, -1)

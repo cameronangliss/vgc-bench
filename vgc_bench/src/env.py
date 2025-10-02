@@ -4,9 +4,9 @@ from typing import Any
 import numpy as np
 import numpy.typing as npt
 from gymnasium.spaces import Box, Discrete
+from pettingzoo import ParallelEnv
 from poke_env.battle import AbstractBattle
 from poke_env.environment import DoublesEnv
-from pettingzoo import ParallelEnv
 from poke_env.ps_client import ServerConfiguration
 from ray.rllib.env import ParallelPettingZooEnv
 from src.policy_player import PolicyPlayer
@@ -143,10 +143,10 @@ class TwoStepShowdownEnv(ParallelEnv):
             assert self.env.agent2.battle is not None
             obs = {
                 self.env.agents[0]: np.append(
-                    self.env.embed_battle(self.env.agent1.battle), actions[self.env.agents[0]]
+                    self.env.embed_battle(self.env.agent1.battle), np.float32(actions[self.env.agents[0]])
                 ),
                 self.env.agents[1]: np.append(
-                    self.env.embed_battle(self.env.agent2.battle), actions[self.env.agents[1]]
+                    self.env.embed_battle(self.env.agent2.battle), np.float32(actions[self.env.agents[1]])
                 ),
             }
             rewards = {agent: 0.0 for agent in self.env.agents}
@@ -169,3 +169,7 @@ class TwoStepShowdownEnv(ParallelEnv):
 
     def close(self):
         self.env.close()
+
+    @property
+    def unwrapped(self):
+        return self.env

@@ -21,8 +21,8 @@ from poke_env.battle import (
 )
 from poke_env.environment import DoublesEnv
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
-from ray.rllib.models.torch.torch_distributions import TorchCategorical
 from ray.rllib.core import Columns
+from ray.rllib.models.torch.torch_distributions import TorchCategorical
 from src.policy import ActorCriticModule
 from src.utils import abilities, act_len, chunk_obs_len, items, move_obs_len, moves, pokemon_obs_len
 
@@ -86,7 +86,7 @@ class PolicyPlayer(Player):
         obs = self.embed_battle(
             battle, self._teampreview_drafts[battle.battle_tag], fake_rating=True
         )
-        obs = np.append(obs, last_action)
+        obs = np.append(obs, np.float32(last_action))
         if self.policy.model.num_frames > 1:
             self._frames[battle.battle_tag].append(obs)
             obs = np.concatenate(self._frames[battle.battle_tag])
@@ -332,7 +332,8 @@ class PolicyPlayer(Player):
                 pp_frac,
                 is_last_used,
                 *move_type,
-            ]
+            ],
+            dtype=np.float32,
         )
 
     @staticmethod
