@@ -41,7 +41,7 @@ python vgc_bench/scrape_data.py
 
 NOTE: Unless you're playing your policy on the live Pokémon Showdown servers with [play.py](vgc_bench/play.py), you must locally host your own server by running `node pokemon-showdown start <PORT> --no-security` from `pokemon-showdown/` (done automatically if using bash scripts).
 
-All `.py` files in `vgc_bench/` are scripts and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py) and [visualize.py](vgc_bench/visualize.py)) have helpful `--help` text. By contrast, all `.py` files in `vgc_bench/src/` are not scripts, and are not intended to be run standalone.
+All `.py` files in `vgc_bench/` are scripts and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py) and [visualize.py](vgc_bench/visualize.py)) have `--help` text. By contrast, all `.py` files in `vgc_bench/src/` are not scripts, and are not intended to be run standalone.
 
 ## 🏆 Population-based Reinforcement Learning
 
