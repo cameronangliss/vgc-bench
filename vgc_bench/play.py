@@ -39,13 +39,14 @@ async def play(run_id: int, num_teams: int, n_games: int, play_on_ladder: bool):
     file = os.listdir(path)[-1]
     state = torch.load(f"{path}/{file}")
     policy.model.load_state_dict(state)
-    agent.policy = policy
+    agent.policy = policy.to("cuda:0")
     if play_on_ladder:
         print("Entering ladder")
         await agent.ladder(n_games=n_games)
         print(f"{agent.n_won_battles}-{agent.n_lost_battles}-{agent.n_tied_battles}")
     else:
         print("Awaiting challenges")
+        print(TEAMS[battle_format[-4:]][random.choice(team_ids[:num_teams])])
         await agent.accept_challenges(opponent=None, n_challenges=n_games)
 
 
