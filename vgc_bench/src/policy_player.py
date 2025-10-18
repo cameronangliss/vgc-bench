@@ -22,9 +22,9 @@ from poke_env.battle import (
 from poke_env.environment import DoublesEnv
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
 from ray.rllib.core import Columns
-from ray.rllib.models.torch.torch_distributions import TorchCategorical
+from ray.rllib.core.distribution.torch.torch_distribution import TorchCategorical
 from src.policy import ActorCriticModule
-from src.utils import abilities, act_len, chunk_obs_len, items, move_obs_len, moves, pokemon_obs_len
+from src.utils import abilities, act_len, items, move_obs_len, moves, obs_len, pokemon_obs_len
 
 
 class PolicyPlayer(Player):
@@ -44,22 +44,26 @@ class PolicyPlayer(Player):
         assert isinstance(self.policy, ActorCriticModule)
         if battle._wait:
             return DefaultBattleOrder()
-        obs1 = self.get_observation(battle, np.int64(-1))
+        obs1 = self.get_observation(battle, None)
         with torch.no_grad():
             obs_tensor1 = torch.as_tensor(obs1, device=self.device).unsqueeze(0)
             output1 = self.policy.forward({Columns.OBS: obs_tensor1})
             dist1 = TorchCategorical(logits=output1[Columns.ACTION_DIST_INPUTS])
-            action1 = dist1.sample()[0].cpu().numpy()
+            action1 = dist1.sample()[0]
+            assert isinstance(action1, torch.Tensor)
+            action1 = action1.cpu().numpy()
         obs2 = self.get_observation(battle, np.int64(action1))
         with torch.no_grad():
             obs_tensor2 = torch.as_tensor(obs2, device=self.device).unsqueeze(0)
             output2 = self.policy.forward({Columns.OBS: obs_tensor2})
             dist2 = TorchCategorical(logits=output2[Columns.ACTION_DIST_INPUTS])
-            action2 = dist2.sample()[0].cpu().numpy()
+            action2 = dist2.sample()[0]
+            assert isinstance(action2, torch.Tensor)
+            action2 = action2.cpu().numpy()
         return self.get_order(battle, np.array([action1, action2]))
 
     def get_observation(
-        self, battle: DoubleBattle, last_action: np.int64
+        self, battle: DoubleBattle, last_action: np.int64 | None
     ) -> npt.NDArray[np.float32]:
         assert isinstance(self.policy, ActorCriticModule)
         # remove finished battles
@@ -79,17 +83,15 @@ class PolicyPlayer(Player):
         if battle.battle_tag not in self._frames and self.policy.model.num_frames > 1:
             self._frames[battle.battle_tag] = Deque(maxlen=self.policy.model.num_frames)
             for _ in range(self.policy.model.num_frames):
-                self._frames[battle.battle_tag].append(
-                    np.zeros((2 * act_len + 12 * chunk_obs_len + 1,), dtype=np.float32)
-                )
+                self._frames[battle.battle_tag].append(np.zeros((obs_len,), dtype=np.float32))
         # embed battle into observation
         obs = self.embed_battle(
-            battle, self._teampreview_drafts[battle.battle_tag], fake_rating=True
+            battle, last_action, self._teampreview_drafts[battle.battle_tag], fake_rating=True
         )
-        obs = np.append(obs, np.float32(last_action))
         if self.policy.model.num_frames > 1:
-            self._frames[battle.battle_tag].append(obs)
-            obs = np.concatenate(self._frames[battle.battle_tag])
+            if last_action is None:
+                self._frames[battle.battle_tag].append(obs)
+            obs = np.concatenate([*list(self._frames[battle.battle_tag])[:-1], obs])
         return obs
 
     def get_order(self, battle: DoubleBattle, action: npt.NDArray[np.int64]) -> BattleOrder:
@@ -120,7 +122,10 @@ class PolicyPlayer(Player):
 
     @staticmethod
     def embed_battle(
-        battle: AbstractBattle, teampreview_draft: list[int], fake_rating: bool = False
+        battle: AbstractBattle,
+        last_action: np.int64 | None,
+        teampreview_draft: list[int],
+        fake_rating: bool = False,
     ) -> npt.NDArray[np.float32]:
         assert isinstance(battle, DoubleBattle)
         if not battle._last_request:
@@ -132,8 +137,10 @@ class PolicyPlayer(Player):
         glob = PolicyPlayer.embed_global(battle)
         side = PolicyPlayer.embed_side(battle, fake_rating)
         opp_side = PolicyPlayer.embed_side(battle, False, opp=True)
-        [a1, a2, *_] = battle.active_pokemon
-        [o1, o2, *_] = battle.opponent_active_pokemon
+        a1 = battle._active_pokemon.get(f"{battle.player_role}a")
+        a2 = battle._active_pokemon.get(f"{battle.player_role}b")
+        o1 = battle._opponent_active_pokemon.get(f"{battle.opponent_role}a")
+        o2 = battle._opponent_active_pokemon.get(f"{battle.opponent_role}b")
         assert battle.teampreview == (len(teampreview_draft) < 4)
         assert all(
             [
@@ -145,30 +152,32 @@ class PolicyPlayer(Player):
         pokemons = [
             PolicyPlayer.embed_pokemon(
                 p,
-                i,
-                from_opponent=False,
                 active_a=a1 is not None and p.name == a1.name,
                 active_b=a2 is not None and p.name == a2.name,
-                in_draft=i + 1 in teampreview_draft,
+                in_draft=i in teampreview_draft,
             )
-            for i, p in enumerate(battle.team.values())
+            for i, p in enumerate(battle.team.values(), start=1)
         ]
         pokemons += [np.zeros(pokemon_obs_len, dtype=np.float32)] * (6 - len(pokemons))
         opp_pokemons = [
             PolicyPlayer.embed_pokemon(
                 p,
-                i,
-                from_opponent=True,
                 active_a=o1 is not None and p.name == o1.name,
                 active_b=o2 is not None and p.name == o2.name,
             )
-            for i, p in enumerate(battle.opponent_team.values())
+            for p in battle.opponent_team.values()
         ]
         opp_pokemons += [np.zeros(pokemon_obs_len, dtype=np.float32)] * (6 - len(opp_pokemons))
         return np.concatenate(
-            [mask]
-            + [np.concatenate([glob, side, p]) for p in pokemons]
-            + [np.concatenate([glob, opp_side, p]) for p in opp_pokemons],
+            [
+                mask,
+                np.array([last_action if last_action is not None else -1]),
+                glob,
+                side,
+                opp_side,
+                *pokemons,
+                *opp_pokemons,
+            ],
             dtype=np.float32,
         )
 
@@ -231,12 +240,7 @@ class PolicyPlayer(Player):
 
     @staticmethod
     def embed_pokemon(
-        pokemon: Pokemon,
-        pos: int,
-        from_opponent: bool,
-        active_a: bool,
-        active_b: bool,
-        in_draft: bool = False,
+        pokemon: Pokemon, active_a: bool, active_b: bool, in_draft: bool = False
     ) -> npt.NDArray[np.float32]:
         # (mostly) stable fields
         ability_id = abilities.index("null" if pokemon.ability is None else pokemon.ability)
@@ -266,7 +270,6 @@ class PolicyPlayer(Player):
         must_recharge = float(pokemon.must_recharge)
         preparing = float(pokemon.preparing)
         gimmicks = [float(s) for s in [pokemon.is_dynamaxed, pokemon.is_terastallized]]
-        pos_onehot = [float(pos == i) for i in range(6)]
         return np.array(
             [
                 ability_id,
@@ -291,8 +294,6 @@ class PolicyPlayer(Player):
                 *gimmicks,
                 float(active_a),
                 float(active_b),
-                *pos_onehot,
-                float(from_opponent),
                 float(in_draft),
             ],
             dtype=np.float32,

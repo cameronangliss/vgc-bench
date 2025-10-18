@@ -6,7 +6,7 @@ from gymnasium.spaces import Space
 from ray.rllib.core import Columns
 from ray.rllib.core.rl_module.apis.value_function_api import ValueFunctionAPI
 from ray.rllib.core.rl_module.torch import TorchRLModule
-from src.utils import abilities, act_len, chunk_obs_len, glob_obs_len, items, moves, side_obs_len
+from src.utils import abilities, act_len, glob_obs_len, items, moves, pokemon_obs_len, side_obs_len
 
 action_map = (
     ["pass", "switch 1", "switch 2", "switch 3", "switch 4", "switch 5", "switch 6"]
@@ -19,9 +19,9 @@ action_map = (
 
 
 class NeuralNetwork(nn.Module):
-    num_pokemon: int = 12
-    embed_len: int = 25
-    proj_len: int = 200
+    NUM_POKEMON: int = 12
+    embed_len: int = 32
+    proj_len: int = 256
     num_heads: int = 4
     embed_layers: int = 3
 
@@ -35,11 +35,15 @@ class NeuralNetwork(nn.Module):
         )
         self.item_embed = nn.Embedding(len(items), self.embed_len, max_norm=self.embed_len**0.5)
         self.move_embed = nn.Embedding(len(moves), self.embed_len, max_norm=self.embed_len**0.5)
-        self.feature_proj = nn.Linear(
-            chunk_obs_len + 6 * (self.embed_len - 1) + self.embed_len, self.proj_len
+        self.battle_proj = nn.Linear(
+            self.embed_len + glob_obs_len + 2 * side_obs_len, self.proj_len
         )
-        self.cls_token = nn.Parameter(torch.randn(1, 1, self.proj_len))
-        self.frame_encoder = nn.TransformerEncoder(
+        self.pokemon_proj = nn.Linear(
+            pokemon_obs_len + 6 * (self.embed_len - 1), self.proj_len - self.NUM_POKEMON
+        )
+        self.pokemon_encoding: torch.Tensor
+        self.register_buffer("pokemon_encoding", torch.eye(self.NUM_POKEMON).unsqueeze(0))
+        self.pokemon_encoder = nn.TransformerEncoder(
             nn.TransformerEncoderLayer(
                 d_model=self.proj_len,
                 nhead=self.num_heads,
@@ -51,13 +55,13 @@ class NeuralNetwork(nn.Module):
             num_layers=self.embed_layers,
             enable_nested_tensor=False,
         )
-        self.frame_encoding: torch.Tensor
         if num_frames > 1:
+            self.frame_encoding: torch.Tensor
             self.register_buffer("frame_encoding", torch.eye(num_frames).unsqueeze(0))
             self.frame_proj = nn.Linear(self.proj_len + num_frames, self.proj_len)
             self.mask: torch.Tensor
             self.register_buffer("mask", nn.Transformer.generate_square_subsequent_mask(num_frames))
-            self.meta_encoder = nn.TransformerEncoder(
+            self.frame_encoder = nn.TransformerEncoder(
                 nn.TransformerEncoderLayer(
                     d_model=self.proj_len,
                     nhead=self.num_heads,
@@ -74,40 +78,43 @@ class NeuralNetwork(nn.Module):
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         batch_size = x.size(0)
-        x = x.view(batch_size, self.num_frames, -1)
-        first_action = x[:, :, -1].flatten() + 1
-        first_action = first_action.unsqueeze(1).expand(-1, self.num_pokemon)
-        x = x[:, :, 2 * act_len : -1]
-        x = x.view(batch_size * self.num_frames, 12, -1)
-        # embedding
-        start = glob_obs_len + side_obs_len
-        x = torch.cat(
-            [
-                x[:, :, :start],
-                self.action_embed(first_action.long()),
-                self.ability_embed(x[:, :, start].long()),
-                self.item_embed(x[:, :, start + 1].long()),
-                self.move_embed(x[:, :, start + 2].long()),
-                self.move_embed(x[:, :, start + 3].long()),
-                self.move_embed(x[:, :, start + 4].long()),
-                self.move_embed(x[:, :, start + 5].long()),
-                x[:, :, start + 6 :],
-            ],
-            dim=-1,
+        x = x.view(batch_size * self.num_frames, -1)[:, 2 * act_len :]
+        battle_obs, pokemon_obs = torch.tensor_split(
+            x, [1 + glob_obs_len + 2 * side_obs_len], dim=1
         )
-        # frame encoder
-        x = self.feature_proj(x)
-        token = self.cls_token.expand(batch_size * self.num_frames, -1, -1)
-        x = torch.cat([token, x], dim=1)
-        x = self.frame_encoder(x)[:, 0, :]
+        battle_obs = battle_obs.unsqueeze(1)
+        pokemon_obs = pokemon_obs.view(batch_size * self.num_frames, self.NUM_POKEMON, -1)
+        # embedding
+        battle_obs = torch.cat(
+            [self.action_embed(battle_obs[:, :, 0].long() + 1), battle_obs[:, :, 1:]], dim=2
+        )
+        pokemon_obs = torch.cat(
+            [
+                self.ability_embed(pokemon_obs[:, :, 0].long()),
+                self.item_embed(pokemon_obs[:, :, 1].long()),
+                self.move_embed(pokemon_obs[:, :, 2].long()),
+                self.move_embed(pokemon_obs[:, :, 3].long()),
+                self.move_embed(pokemon_obs[:, :, 4].long()),
+                self.move_embed(pokemon_obs[:, :, 5].long()),
+                pokemon_obs[:, :, 6:],
+            ],
+            dim=2,
+        )
+        # pokemon encoder
+        battle_token = self.battle_proj(battle_obs)
+        pokemon_tokens = self.pokemon_proj(pokemon_obs)
+        pokemon_encoding = self.pokemon_encoding.expand(batch_size * self.num_frames, -1, -1)
+        pokemon_tokens = torch.cat([pokemon_tokens, pokemon_encoding], dim=2)
+        tokens = torch.cat([battle_token, pokemon_tokens], dim=1)
+        z = self.pokemon_encoder(tokens)[:, 0, :]
         if self.num_frames == 1:
-            return x
-        # meta encoder
-        x = x.view(batch_size, self.num_frames, -1)
+            return z
+        # frame encoder
+        z = z.view(batch_size, self.num_frames, -1)
         frame_encoding = self.frame_encoding.expand(batch_size, -1, -1)
-        x = torch.cat([x, frame_encoding], dim=2)
-        x = self.frame_proj(x)
-        return self.meta_encoder(x, mask=self.mask, is_causal=True)[:, -1, :]
+        z = torch.cat([z, frame_encoding], dim=2)
+        z = self.frame_proj(z)
+        return self.frame_encoder(z, mask=self.mask, is_causal=True)[:, -1, :]
 
 
 class ActorCriticModule(TorchRLModule, ValueFunctionAPI):
@@ -135,8 +142,8 @@ class ActorCriticModule(TorchRLModule, ValueFunctionAPI):
         embeddings = self.model(obs)
         logits = self.model.actor_proj(embeddings)
         x = obs.view(obs.size(0), self.model.num_frames, -1)
-        action = x[:, -1, -1:]
         mask = x[:, -1, : 2 * act_len]
+        action = x[:, -1, 2 * act_len].unsqueeze(1)
         mask = self._update_mask(mask, action)
         mask = torch.where(mask.bool(), 0, float("-inf"))
         return {Columns.EMBEDDINGS: embeddings, Columns.ACTION_DIST_INPUTS: logits + mask}

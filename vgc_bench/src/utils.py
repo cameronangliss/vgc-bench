@@ -76,9 +76,9 @@ glob_obs_len = len(Field) + len(Weather) + 2
 side_obs_len = len(SideCondition) + 5
 move_obs_len = len(MoveCategory) + len(Target) + len(PokemonType) + 12
 pokemon_obs_len = (
-    4 * move_obs_len + len(Effect) + len(PokemonGender) + 2 * len(PokemonType) + len(Status) + 39
+    4 * move_obs_len + len(Effect) + len(PokemonGender) + 2 * len(PokemonType) + len(Status) + 32
 )
-chunk_obs_len = glob_obs_len + side_obs_len + pokemon_obs_len
+obs_len = 2 * act_len + 1 + glob_obs_len + 2 * side_obs_len + 12 * pokemon_obs_len
 
 # pokemon data
 all_formats = [
