@@ -17,11 +17,14 @@ from stable_baselines3.common.monitor import Monitor
 
 
 class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
-    _teampreview_draft1: list[int]
-    _teampreview_draft2: list[int]
     _learning_style: LearningStyle
+    _chooses_on_teampreview: bool
+    _teampreview_draft1: list[int] = []
+    _teampreview_draft2: list[int] = []
 
-    def __init__(self, learning_style: LearningStyle, *args: Any, **kwargs: Any):
+    def __init__(
+        self, learning_style: LearningStyle, chooses_on_teampreview: bool, *args: Any, **kwargs: Any
+    ):
         super().__init__(*args, **kwargs)
         self.metadata = {"name": "showdown_v1", "render_modes": ["human"]}
         self.render_mode: str | None = None
@@ -29,9 +32,16 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             agent: Box(-1, len(moves), shape=(2 * act_len + 12 * chunk_obs_len,), dtype=np.float32)
             for agent in self.possible_agents
         }
-        self._teampreview_draft1 = []
-        self._teampreview_draft2 = []
         self._learning_style = learning_style
+        self._chooses_on_teampreview = chooses_on_teampreview
+
+    def __setstate__(self, state: dict[str, Any]) -> None:
+        super().__setstate__(state)
+        self._learning_style = state["_learning_style"]
+        self._chooses_on_teampreview = state["_chooses_on_teampreview"]
+        if not self._chooses_on_teampreview:
+            self.agent1.teampreview = self.async_random_teampreview1
+            self.agent2.teampreview = self.async_random_teampreview2
 
     @classmethod
     def create_env(
@@ -50,6 +60,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         toggle = None if allow_mirror_match else TeamToggle(num_teams)
         env = cls(
             learning_style,
+            chooses_on_teampreview,
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
