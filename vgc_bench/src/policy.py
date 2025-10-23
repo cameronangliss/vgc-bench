@@ -121,8 +121,8 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
 
 
 class AttentionExtractor(BaseFeaturesExtractor):
-    embed_len: int = 25
-    proj_len: int = 200
+    embed_len: int = 32
+    proj_len: int = 256
     num_heads: int = 4
     embed_layers: int = 3
 
@@ -137,9 +137,9 @@ class AttentionExtractor(BaseFeaturesExtractor):
         )
         self.item_embed = nn.Embedding(len(items), self.embed_len, max_norm=self.embed_len**0.5)
         self.move_embed = nn.Embedding(len(moves), self.embed_len, max_norm=self.embed_len**0.5)
-        self.feature_proj = nn.Linear(chunk_obs_len + 6 * (self.embed_len - 1), self.proj_len)
+        self.pokemon_proj = nn.Linear(chunk_obs_len + 6 * (self.embed_len - 1), self.proj_len)
         self.cls_token = nn.Parameter(torch.randn(1, 1, self.proj_len))
-        self.frame_encoder = nn.TransformerEncoder(
+        self.pokemon_encoder = nn.TransformerEncoder(
             nn.TransformerEncoderLayer(
                 d_model=self.proj_len,
                 nhead=self.num_heads,
@@ -151,13 +151,13 @@ class AttentionExtractor(BaseFeaturesExtractor):
             num_layers=self.embed_layers,
             enable_nested_tensor=False,
         )
-        self.frame_encoding: torch.Tensor
         if num_frames > 1:
+            self.frame_encoding: torch.Tensor
             self.register_buffer("frame_encoding", torch.eye(num_frames).unsqueeze(0))
             self.frame_proj = nn.Linear(self.proj_len + num_frames, self.proj_len)
             self.mask: torch.Tensor
             self.register_buffer("mask", nn.Transformer.generate_square_subsequent_mask(num_frames))
-            self.meta_encoder = nn.TransformerEncoder(
+            self.frame_encoder = nn.TransformerEncoder(
                 nn.TransformerEncoderLayer(
                     d_model=self.proj_len,
                     nhead=self.num_heads,
@@ -174,32 +174,32 @@ class AttentionExtractor(BaseFeaturesExtractor):
         batch_size = x.size(0)
         x = x.view(batch_size, self.num_frames, -1)
         x = x[:, :, 2 * act_len :]
-        x = x.view(batch_size * self.num_frames, 12, -1)
+        pokemon_obs = x.view(batch_size * self.num_frames, 12, -1)
         # embedding
         start = glob_obs_len + side_obs_len
-        x = torch.cat(
+        pokemon_obs = torch.cat(
             [
-                x[:, :, :start],
-                self.ability_embed(x[:, :, start].long()),
-                self.item_embed(x[:, :, start + 1].long()),
-                self.move_embed(x[:, :, start + 2].long()),
-                self.move_embed(x[:, :, start + 3].long()),
-                self.move_embed(x[:, :, start + 4].long()),
-                self.move_embed(x[:, :, start + 5].long()),
-                x[:, :, start + 6 :],
+                pokemon_obs[:, :, :start],
+                self.ability_embed(pokemon_obs[:, :, start].long()),
+                self.item_embed(pokemon_obs[:, :, start + 1].long()),
+                self.move_embed(pokemon_obs[:, :, start + 2].long()),
+                self.move_embed(pokemon_obs[:, :, start + 3].long()),
+                self.move_embed(pokemon_obs[:, :, start + 4].long()),
+                self.move_embed(pokemon_obs[:, :, start + 5].long()),
+                pokemon_obs[:, :, start + 6 :],
             ],
             dim=-1,
         )
-        # frame encoder
-        x = self.feature_proj(x)
-        token = self.cls_token.expand(batch_size * self.num_frames, -1, -1)
-        x = torch.cat([token, x], dim=1)
-        x = self.frame_encoder(x)[:, 0, :]
+        # pokemon encoder
+        pokemon_tokens = self.pokemon_proj(pokemon_obs)
+        cls_token = self.cls_token.expand(batch_size * self.num_frames, -1, -1)
+        tokens = torch.cat([cls_token, pokemon_tokens], dim=1)
+        z = self.pokemon_encoder(tokens)[:, 0, :]
         if self.num_frames == 1:
-            return x
-        # meta encoder
-        x = x.view(batch_size, self.num_frames, -1)
+            return z
+        # frame encoder
+        frame_tokens = z.view(batch_size, self.num_frames, -1)
         frame_encoding = self.frame_encoding.expand(batch_size, -1, -1)
-        x = torch.cat([x, frame_encoding], dim=2)
-        x = self.frame_proj(x)
-        return self.meta_encoder(x, mask=self.mask, is_causal=True)[:, -1, :]
+        frame_tokens = torch.cat([frame_tokens, frame_encoding], dim=2)
+        frame_tokens = self.frame_proj(frame_tokens)
+        return self.frame_encoder(frame_tokens, mask=self.mask, is_causal=True)[:, -1, :]
