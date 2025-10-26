@@ -58,6 +58,7 @@ class Callback(BaseCallback):
             self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
         teams = list(range(len(TEAMS[battle_format[-4:]])))
         random.Random(run_id).shuffle(teams)
+        teams = [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams]
         toggle = None if allow_mirror_match else TeamToggle(num_teams)
         self.eval_agent = BatchPolicyPlayer(
             server_configuration=ServerConfiguration(
@@ -69,11 +70,7 @@ class Callback(BaseCallback):
             max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(
-                [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
-                battle_format,
-                toggle,
-            ),
+            team=RandomTeamBuilder(teams, battle_format, toggle),
         )
         self.eval_agent2 = BatchPolicyPlayer(
             server_configuration=ServerConfiguration(
@@ -85,11 +82,7 @@ class Callback(BaseCallback):
             max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(
-                [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
-                battle_format,
-                toggle,
-            ),
+            team=RandomTeamBuilder(teams, battle_format, toggle),
         )
         self.eval_opponent = SimpleHeuristicsPlayer(
             server_configuration=ServerConfiguration(
@@ -101,11 +94,7 @@ class Callback(BaseCallback):
             max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(
-                [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams],
-                battle_format,
-                toggle,
-            ),
+            team=RandomTeamBuilder(teams, battle_format, toggle),
         )
 
     def _on_step(self) -> bool:
