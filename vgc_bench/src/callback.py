@@ -9,6 +9,7 @@ import numpy.typing as npt
 from nashpy import Game
 from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
+from src.policy import MaskedActorCriticPolicy
 from src.policy_player import BatchPolicyPlayer
 from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
 from src.utils import LearningStyle, battle_format, save_interval
@@ -123,7 +124,8 @@ class Callback(BaseCallback):
         assert self.model.env is not None
         self.model.logger.dump(self.model.num_timesteps)
         if self.behavior_clone:
-            self.model.policy.actor_grad = self.model.num_timesteps >= save_interval  # type: ignore
+            assert isinstance(self.model.policy, MaskedActorCriticPolicy)
+            self.model.policy.actor_grad = self.model.num_timesteps >= save_interval
         if self.learning_style in [LearningStyle.FICTITIOUS_PLAY, LearningStyle.DOUBLE_ORACLE]:
             policy_files = os.listdir(self.save_dir)
             policies = random.choices(

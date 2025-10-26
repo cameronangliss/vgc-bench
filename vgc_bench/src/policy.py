@@ -55,14 +55,18 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
                 for i, p in enumerate(distribution.distribution[0].probs[0])
                 if p > 0
             }
-            action_dist1 = dict(sorted(action_dist1.items(), key=lambda x: float(x[1]), reverse=True))
+            action_dist1 = dict(
+                sorted(action_dist1.items(), key=lambda x: float(x[1]), reverse=True)
+            )
             print("action1 dist:", action_dist1)
             action_dist2 = {
                 action_map[i]: f"{p.item():.3e}"
                 for i, p in enumerate(distribution.distribution[1].probs[0])
                 if p > 0
             }
-            action_dist2 = dict(sorted(action_dist2.items(), key=lambda x: float(x[1]), reverse=True))
+            action_dist2 = dict(
+                sorted(action_dist2.items(), key=lambda x: float(x[1]), reverse=True)
+            )
             print("action2 dist:", action_dist2)
         log_prob = distribution.log_prob(actions)
         actions = actions.reshape((-1, *self.action_space.shape))  # type: ignore[misc]

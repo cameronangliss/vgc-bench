@@ -56,6 +56,7 @@ class TrajectoryDataset(Dataset):
 def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: int, div_frac: float):
     env = ShowdownEnv(
         learning_style=LearningStyle.PURE_SELF_PLAY,
+        chooses_on_teampreview=True,
         battle_format=battle_format,
         log_level=40,
         accept_open_team_sheet=True,
@@ -85,8 +86,8 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         collate_fn=lambda batch: batch,
     )
     bc = BC(
-        observation_space=ppo.observation_space,  # type: ignore
-        action_space=ppo.action_space,  # type: ignore
+        observation_space=ppo.observation_space,
+        action_space=ppo.action_space,
         rng=np.random.default_rng(run_id),
         policy=ppo.policy,
         batch_size=1024,
