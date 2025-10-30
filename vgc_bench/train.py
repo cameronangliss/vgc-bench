@@ -58,6 +58,7 @@ def train(
             "-xt" if not chooses_on_teampreview else "",
         ]
     )[1:]
+    save_dir = f"results{run_id}/saves-{run_ident}/{num_teams}-teams"
     ppo = PPO(
         MaskedActorCriticPolicy,
         env,
@@ -74,21 +75,13 @@ def train(
         device=device,
     )
     num_saved_timesteps = 0
-    if (
-        os.path.exists(f"results{run_id}/saves-{run_ident}/{num_teams}-teams")
-        and len(os.listdir(f"results{run_id}/saves-{run_ident}/{num_teams}-teams")) > 0
-    ):
+    if os.path.exists(save_dir) and len(os.listdir(save_dir)) > 0:
         saved_policy_timesteps = [
-            int(file[:-4])
-            for file in os.listdir(f"results{run_id}/saves-{run_ident}/{num_teams}-teams")
-            if int(file[:-4]) >= 0
+            int(file[:-4]) for file in os.listdir(save_dir) if int(file[:-4]) >= 0
         ]
         if saved_policy_timesteps:
             num_saved_timesteps = max(saved_policy_timesteps)
-            ppo.set_parameters(
-                f"results{run_id}/saves-{run_ident}/{num_teams}-teams/{num_saved_timesteps}.zip",
-                device=ppo.device,
-            )
+            ppo.set_parameters(f"{save_dir}/{num_saved_timesteps}.zip", device=ppo.device)
             if num_saved_timesteps < save_interval:
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
