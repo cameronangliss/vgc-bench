@@ -1,7 +1,8 @@
 import asyncio
+import math
 import random
 from dataclasses import dataclass
-from typing import Any, Awaitable, Deque
+from typing import Any, Awaitable, Callable, Deque, Dict, Optional, Sequence
 
 import numpy as np
 import numpy.typing as npt
@@ -23,8 +24,10 @@ from poke_env.battle import (
 )
 from poke_env.environment import DoublesEnv
 from poke_env.environment.env import _EnvPlayer
-from poke_env.player import BattleOrder, DefaultBattleOrder, Player
+from poke_env.player import BattleOrder, DefaultBattleOrder, DoubleBattleOrder, Player
+from src.mcts import MCTS
 from src.policy import MaskedActorCriticPolicy
+from src.simulator import Simulator
 from src.utils import abilities, act_len, chunk_obs_len, items, move_obs_len, moves, pokemon_obs_len
 from stable_baselines3.common.policies import BasePolicy
 
@@ -34,9 +37,89 @@ class PolicyPlayer(Player):
     _frames: dict[str, Deque[npt.NDArray[np.float32]]] = {}
     _teampreview_drafts: dict[str, list[int]] = {}
 
-    def __init__(self, policy: BasePolicy | None = None, *args: Any, **kwargs: Any):
+    def __init__(
+        self,
+        policy: BasePolicy | None = None,
+        *args: Any,
+        use_mcts: bool = False,
+        mcts_simulations: int = 64,
+        mcts_exploration: float = math.sqrt(2.0),
+        mcts_rollout_depth: int = 12,
+        mcts_rollout_policy: Optional[
+            Callable[[Sequence[DoubleBattleOrder]], DoubleBattleOrder]
+        ] = None,
+        showdown_path: str = "pokemon-showdown/pokemon-showdown",
+        **kwargs: Any,
+    ):
         super().__init__(*args, **kwargs)
         self.policy = policy
+        self.use_mcts = use_mcts
+        self.mcts_simulations = mcts_simulations
+        self.mcts_exploration = mcts_exploration
+        self.mcts_rollout_depth = mcts_rollout_depth
+        self.mcts_rollout_policy = mcts_rollout_policy
+        self.mcts_showdown_path = showdown_path
+        self._mcts_simulators: Dict[str, Simulator] = {}
+        self._mcts_simulator_configs: Dict[str, tuple[str, str, str]] = {}
+
+    def _cleanup_finished_mcts(self) -> None:
+        finished_tags = []
+        for tag, simulator in self._mcts_simulators.items():
+            battle = self.battles.get(tag)
+            if battle is None or battle.finished:
+                simulator.close()
+                finished_tags.append(tag)
+        for tag in finished_tags:
+            self._mcts_simulators.pop(tag, None)
+            self._mcts_simulator_configs.pop(tag, None)
+
+    def _ensure_mcts_simulator(self, battle: DoubleBattle) -> Simulator:
+        tag = battle.battle_tag
+        format_id = battle.format or "gen9vgc2024regg"
+        player_role = battle.player_role or "p1"
+        opponent_role = battle.opponent_role or ("p2" if player_role != "p2" else "p1")
+        config = (format_id, player_role, opponent_role)
+        simulator = self._mcts_simulators.get(tag)
+        if simulator is not None and self._mcts_simulator_configs.get(tag) != config:
+            simulator.close()
+            simulator = None
+        if simulator is None:
+            simulator = Simulator(
+                format_id=format_id,
+                player_role=player_role,
+                opponent_role=opponent_role,
+                showdown_path=self.mcts_showdown_path,
+            )
+            self._mcts_simulators[tag] = simulator
+        self._mcts_simulator_configs[tag] = config
+        return simulator
+
+    def _maybe_use_mcts(self, battle: DoubleBattle) -> Optional[BattleOrder]:
+        if not self.use_mcts:
+            return None
+        if battle.teampreview:
+            return None
+        try:
+            simulator = self._ensure_mcts_simulator(battle)
+            state = Simulator.serialize_battle(battle)
+            player_role = battle.player_role or "p1"
+            opponent_role = battle.opponent_role or ("p2" if player_role != "p2" else "p1")
+            tree = MCTS(
+                simulator=simulator,
+                player_role=player_role,
+                opponent_role=opponent_role,
+                root_state=state,
+                exploration=self.mcts_exploration,
+                rollout_depth=self.mcts_rollout_depth,
+                rollout_policy=self.mcts_rollout_policy,
+            )
+            decision = tree.run(self.mcts_simulations)
+            if decision is None:
+                return None
+            action = np.array(DoublesEnv.order_to_action(decision, battle), dtype=np.int64)
+            return self.get_order(battle, action)
+        except Exception:
+            return None
 
     def choose_move(self, battle: AbstractBattle) -> BattleOrder | Awaitable[BattleOrder]:
         assert isinstance(battle, DoubleBattle)
@@ -44,6 +127,9 @@ class PolicyPlayer(Player):
         if battle._wait:
             return DefaultBattleOrder()
         obs = self.get_observation(battle)
+        mcts_order = self._maybe_use_mcts(battle)
+        if mcts_order is not None:
+            return mcts_order
         with torch.no_grad():
             obs_tensor = torch.as_tensor(obs, device=self.policy.device).unsqueeze(0)
             action, _, _ = self.policy.forward(obs_tensor)
@@ -52,6 +138,7 @@ class PolicyPlayer(Player):
 
     def get_observation(self, battle: DoubleBattle) -> npt.NDArray[np.float32]:
         assert isinstance(self.policy, MaskedActorCriticPolicy)
+        self._cleanup_finished_mcts()
         # remove finished battles
         self._teampreview_drafts = {
             tag: preview
@@ -382,6 +469,9 @@ class BatchPolicyPlayer(PolicyPlayer):
         if battle._wait:
             return DefaultBattleOrder()
         obs = self.get_observation(battle)
+        mcts_order = self._maybe_use_mcts(battle)
+        if mcts_order is not None:
+            return mcts_order
         if self._worker_task is None:
             self._worker_task = asyncio.create_task(self._inference_loop())
         req = _BatchReq(obs=obs, event=asyncio.Event())

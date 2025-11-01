@@ -62,6 +62,7 @@ class Callback(BaseCallback):
         teams = [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams]
         toggle = None if allow_mirror_match else TeamToggle(num_teams)
         self.eval_agent = BatchPolicyPlayer(
+            use_mcts=True,
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
@@ -74,6 +75,7 @@ class Callback(BaseCallback):
             team=RandomTeamBuilder(teams, battle_format, toggle),
         )
         self.eval_agent2 = BatchPolicyPlayer(
+            use_mcts=True,
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
@@ -105,7 +107,7 @@ class Callback(BaseCallback):
         assert self.model.env is not None
         self.eval_agent.policy = self.model.policy
         if self.model.num_timesteps < save_interval:
-            win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
+            win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
             self.model.logger.record("train/eval", win_rate)
         if not self.behavior_clone:
             self.model.save(f"{self.save_dir}/{self.model.num_timesteps}")
@@ -137,7 +139,7 @@ class Callback(BaseCallback):
 
     def _on_rollout_end(self):
         if self.model.num_timesteps % save_interval == 0:
-            win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
+            win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
             self.model.logger.record("train/eval", win_rate)
             if self.learning_style == LearningStyle.DOUBLE_ORACLE:
                 self.update_payoff_matrix()
@@ -153,7 +155,7 @@ class Callback(BaseCallback):
             self.eval_agent2.policy = PPO.load(
                 f"{self.save_dir}/{p}", device=self.model.device
             ).policy
-            win_rate = self.compare(self.eval_agent, self.eval_agent2, 1000)
+            win_rate = self.compare(self.eval_agent, self.eval_agent2, 100)
             win_rates = np.append(win_rates, win_rate)
         self.payoff_matrix = np.concat([self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1)
         win_rates = np.append(win_rates, 0.5)

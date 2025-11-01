@@ -4,8 +4,8 @@ import os
 from src.callback import Callback
 from src.env import ShowdownEnv
 from src.policy import MaskedActorCriticPolicy
+from src.ppo import MCTS_PPO
 from src.utils import LearningStyle, save_interval, set_global_seed
-from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import SubprocVecEnv
 
 
@@ -59,7 +59,7 @@ def train(
         ]
     )[1:]
     save_dir = f"results{run_id}/saves-{run_ident}/{num_teams}-teams"
-    ppo = PPO(
+    ppo = MCTS_PPO(
         MaskedActorCriticPolicy,
         env,
         learning_rate=1e-5,
