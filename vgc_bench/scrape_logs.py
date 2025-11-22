@@ -3,6 +3,7 @@ import json
 import os
 import re
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
 from typing import Any
 
 import requests
@@ -111,24 +112,28 @@ def get_rating(log: str, role: str) -> int | None:
 
 
 def main(num_workers: int, read_increment: int):
-
-    def run(f: str):
+    for fmt in all_formats:
         done = False
         while not done:
-            done = scrape_logs(num_workers // len(all_formats), read_increment, f)
-        with open(f"data/logs-{f}.json", "r") as file:
+            done = scrape_logs(num_workers, read_increment, fmt)
+        with open(f"data/logs-{fmt}.json", "r") as file:
             log_dict = json.load(file)
             logs = [log for _, log in log_dict.values()]
         players_in_range = lambda logs, low, high: len(
             [log for log in logs if low <= (get_rating(log, "p1") or 0) <= high]
         ) + len([log for log in logs if low <= (get_rating(log, "p2") or 0) <= high])
+        max_date_epoch = max([t for t, _ in log_dict.values()])
+        dt = datetime.fromtimestamp(max_date_epoch, tz=timezone.utc)
+        timestr = dt.strftime("%m/%d/%Y %H:%M:%S")
+        p1_unrated = len([log for log in logs if (get_rating(log, "p1") or 0) < 1000])
+        p2_unrated = len([log for log in logs if (get_rating(log, "p2") or 0) < 1000])
         print(
             f"""
-{f} stats:
-most recent log date = {max([t for t, _ in log_dict.values()])}
+{fmt} stats:
+most recent log date = {timestr} GMT
 total logs = {len(logs)}
 # of players w/ rating...
-    unrated:   {len([log for log in logs if get_rating(log, "p1") in [None, 1]]) + len([log for log in logs if get_rating(log, "p2") in [None, 1]])}
+    unrated:   {p1_unrated + p2_unrated}
     1000-1099: {players_in_range(logs, 1000, 1099)}
     1100-1199: {players_in_range(logs, 1100, 1199)}
     1200-1299: {players_in_range(logs, 1200, 1299)}
@@ -141,9 +146,6 @@ total logs = {len(logs)}
 """,
             flush=True,
         )
-
-    with ThreadPoolExecutor(max_workers=min(num_workers, len(all_formats))) as executor:
-        executor.map(run, all_formats)
 
 
 if __name__ == "__main__":
