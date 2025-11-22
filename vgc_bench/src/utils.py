@@ -86,6 +86,8 @@ all_formats = [
     "gen9vgc2025regi",
     "gen9vgc2025regibo3",
     "gen9vgc2025regjbo3",
+    "gen9vgc2026regf",
+    "gen9vgc2026regfbo3",
 ]
 with open("data/abilities.json") as f:
     ability_descs: dict[str, npt.NDArray[np.float32]] = json.load(f)
