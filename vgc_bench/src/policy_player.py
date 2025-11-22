@@ -123,8 +123,8 @@ class PolicyPlayer(Player):
         glob = PolicyPlayer.embed_global(battle)
         side = PolicyPlayer.embed_side(battle, fake_rating)
         opp_side = PolicyPlayer.embed_side(battle, False, opp=True)
-        [a1, a2, *_] = battle.active_pokemon
-        [o1, o2, *_] = battle.opponent_active_pokemon
+        a1, a2 = battle.active_pokemon
+        o1, o2 = battle.opponent_active_pokemon
         assert battle.teampreview == (len(teampreview_draft) < 4)
         assert all(
             [
