@@ -1,4 +1,4 @@
 [submodule "pokemon-showdown"]
 	path = pokemon-showdown
 	url = git@github.com:cameronangliss/pokemon-showdown.git
-	branch = thesis
+	branch = vgc-bench

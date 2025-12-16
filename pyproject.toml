@@ -11,7 +11,7 @@ dependencies = [
     "imitation @ git+https://github.com/cameronangliss/imitation.git@fix-build",
     "nashpy",
     "open-spiel",
-    "poke-env @ git+https://github.com/cameronangliss/poke-env.git@thesis-old",
+    "poke-env @ git+https://github.com/cameronangliss/poke-env.git@vgc-bench",
     "sentence-transformers",
     "stable_baselines3",
     "supersuit~=3.9.0",
