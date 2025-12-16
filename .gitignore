@@ -1,6 +1,7 @@
 __pycache__
 build/
 data/
+env/
 results*/
 *.egg-info
 debug*.log
