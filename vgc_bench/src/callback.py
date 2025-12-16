@@ -11,8 +11,8 @@ from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
 from src.policy import MaskedActorCriticPolicy
 from src.policy_player import BatchPolicyPlayer
-from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
-from src.utils import LearningStyle, battle_format, save_interval
+from src.teams import RandomTeamBuilder, TeamToggle
+from src.utils import LearningStyle
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import BaseCallback
 
@@ -24,17 +24,20 @@ class Callback(BaseCallback):
         self,
         run_id: int,
         num_teams: int,
+        battle_format: str,
         port: int,
         learning_style: LearningStyle,
         behavior_clone: bool,
         num_frames: int,
         allow_mirror_match: bool,
         chooses_on_teampreview: bool,
+        save_interval: int,
     ):
         super().__init__()
         self.num_teams = num_teams
         self.learning_style = learning_style
         self.behavior_clone = behavior_clone
+        self.save_interval = save_interval
         self.run_ident = "".join(
             [
                 "-bc" if behavior_clone else "",
@@ -57,9 +60,8 @@ class Callback(BaseCallback):
             else:
                 self.payoff_matrix = np.array([[0.5]])
             self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
-        teams = list(range(len(TEAMS[battle_format[-4:]])))
-        random.Random(run_id).shuffle(teams)
-        teams = [teams[0]] if learning_style == LearningStyle.EXPLOITER else teams[:num_teams]
+        if learning_style == LearningStyle.EXPLOITER:
+            num_teams = 1
         toggle = None if allow_mirror_match else TeamToggle(num_teams)
         self.eval_agent = BatchPolicyPlayer(
             server_configuration=ServerConfiguration(
@@ -71,7 +73,7 @@ class Callback(BaseCallback):
             max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(teams, battle_format, toggle),
+            team=RandomTeamBuilder(run_id, num_teams, battle_format, toggle),
         )
         self.eval_agent2 = BatchPolicyPlayer(
             server_configuration=ServerConfiguration(
@@ -83,7 +85,7 @@ class Callback(BaseCallback):
             max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(teams, battle_format, toggle),
+            team=RandomTeamBuilder(run_id, num_teams, battle_format, toggle),
         )
         self.eval_opponent = SimpleHeuristicsPlayer(
             server_configuration=ServerConfiguration(
@@ -95,7 +97,7 @@ class Callback(BaseCallback):
             max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(teams, battle_format, toggle),
+            team=RandomTeamBuilder(run_id, num_teams, battle_format, toggle),
         )
 
     def _on_step(self) -> bool:
@@ -104,7 +106,7 @@ class Callback(BaseCallback):
     def _on_training_start(self):
         assert self.model.env is not None
         self.eval_agent.policy = self.model.policy
-        if self.model.num_timesteps < save_interval:
+        if self.model.num_timesteps < self.save_interval:
             win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
             self.model.logger.record("train/eval", win_rate)
         if not self.behavior_clone:
@@ -125,7 +127,7 @@ class Callback(BaseCallback):
         self.model.logger.dump(self.model.num_timesteps)
         if self.behavior_clone:
             assert isinstance(self.model.policy, MaskedActorCriticPolicy)
-            self.model.policy.actor_grad = self.model.num_timesteps >= save_interval
+            self.model.policy.actor_grad = self.model.num_timesteps >= self.save_interval
         if self.learning_style in [LearningStyle.FICTITIOUS_PLAY, LearningStyle.DOUBLE_ORACLE]:
             policy_files = os.listdir(self.save_dir)
             policies = random.choices(
@@ -136,7 +138,7 @@ class Callback(BaseCallback):
                 self.model.env.env_method("set_opp_policy", policy, indices=i)
 
     def _on_rollout_end(self):
-        if self.model.num_timesteps % save_interval == 0:
+        if self.model.num_timesteps % self.save_interval == 0:
             win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
             self.model.logger.record("train/eval", win_rate)
             if self.learning_style == LearningStyle.DOUBLE_ORACLE:

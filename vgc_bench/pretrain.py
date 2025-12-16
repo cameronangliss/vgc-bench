@@ -14,7 +14,7 @@ from src.env import ShowdownEnv
 from src.policy import MaskedActorCriticPolicy
 from src.policy_player import BatchPolicyPlayer
 from src.teams import RandomTeamBuilder
-from src.utils import LearningStyle, battle_format, set_global_seed
+from src.utils import LearningStyle, format_map, set_global_seed
 from stable_baselines3 import PPO
 from torch.utils.data import DataLoader, Dataset
 
@@ -53,7 +53,15 @@ class TrajectoryDataset(Dataset):
         return Trajectory(obs=stacked_obs, acts=traj.acts, infos=None, terminal=True)
 
 
-def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: int, div_frac: float):
+def pretrain(
+    battle_format: str,
+    run_id: int,
+    num_teams: int,
+    port: int,
+    device: str,
+    num_frames: int,
+    div_frac: float,
+):
     env = ShowdownEnv(
         learning_style=LearningStyle.PURE_SELF_PLAY,
         chooses_on_teampreview=True,
@@ -107,7 +115,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         log_level=40,
         max_concurrent_battles=10,
         accept_open_team_sheet=True,
-        team=RandomTeamBuilder(list(range(num_teams)), battle_format),
+        team=RandomTeamBuilder(run_id, num_teams, battle_format),
     )
     eval_opponent = SimpleHeuristicsPlayer(
         server_configuration=ServerConfiguration(
@@ -118,7 +126,7 @@ def pretrain(run_id: int, num_teams: int, port: int, device: str, num_frames: in
         log_level=40,
         max_concurrent_battles=10,
         accept_open_team_sheet=True,
-        team=RandomTeamBuilder(list(range(num_teams)), battle_format),
+        team=RandomTeamBuilder(run_id, num_teams, battle_format),
     )
     win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
     bc.logger.record("bc/eval", win_rate)
@@ -149,10 +157,24 @@ if __name__ == "__main__":
         default=0.01,
         help="fraction of total dataset to load at a given time during training (must be <1 when dataset is large)",
     )
+    parser.add_argument(
+        "--reg", type=str, required=True, help="VGC regulation to pretrain on, i.e. G"
+    )
     parser.add_argument("--run_id", type=int, default=1, help="run ID for the training session")
-    parser.add_argument("--num_teams", type=int, default=2, help="number of teams to train with")
+    parser.add_argument("--num_teams", type=int, default=2, help="number of teams to pretrain with")
     parser.add_argument("--port", type=int, default=8000, help="port to run showdown server on")
-    parser.add_argument("--device", type=str, default="cuda:0", help="device to use for training")
+    parser.add_argument(
+        "--device", type=str, default="cuda:0", help="device to use for pretraining"
+    )
     args = parser.parse_args()
     set_global_seed(args.run_id)
-    pretrain(args.run_id, args.num_teams, args.port, args.device, args.num_frames, args.div_frac)
+    battle_format = format_map[args.reg.lower()]
+    pretrain(
+        battle_format,
+        args.run_id,
+        args.num_teams,
+        args.port,
+        args.device,
+        args.num_frames,
+        args.div_frac,
+    )

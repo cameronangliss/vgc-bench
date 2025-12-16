@@ -4,12 +4,13 @@ import os
 from src.callback import Callback
 from src.env import ShowdownEnv
 from src.policy import MaskedActorCriticPolicy
-from src.utils import LearningStyle, save_interval, set_global_seed
+from src.utils import LearningStyle, format_map, set_global_seed
 from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import SubprocVecEnv
 
 
 def train(
+    battle_format: str,
     run_id: int,
     num_teams: int,
     num_envs: int,
@@ -21,8 +22,10 @@ def train(
     allow_mirror_match: bool,
     chooses_on_teampreview: bool,
 ):
+    save_interval = 98_304
     env = (
         ShowdownEnv.create_env(
+            battle_format,
             run_id,
             num_teams,
             num_envs,
@@ -36,6 +39,7 @@ def train(
         else SubprocVecEnv(
             [
                 lambda: ShowdownEnv.create_env(
+                    battle_format,
                     run_id,
                     1 if learning_style == LearningStyle.EXPLOITER else num_teams,
                     num_envs,
@@ -90,12 +94,14 @@ def train(
         callback=Callback(
             run_id,
             num_teams,
+            battle_format,
             port,
             learning_style,
             behavior_clone,
             num_frames,
             allow_mirror_match,
             chooses_on_teampreview,
+            save_interval,
         ),
         tb_log_name=f"{num_teams}-teams",
         reset_num_timesteps=False,
@@ -148,6 +154,7 @@ if __name__ == "__main__":
         action="store_true",
         help="training agents will effectively start games after teampreview, with teampreview decision selected randomly",
     )
+    parser.add_argument("--reg", type=str, required=True, help="VGC regulation to train on, i.e. G")
     parser.add_argument("--run_id", type=int, default=1, help="run ID for the training session")
     parser.add_argument("--num_teams", type=int, default=2, help="number of teams to train with")
     parser.add_argument("--num_envs", type=int, default=1, help="number of parallel envs to run")
@@ -155,6 +162,7 @@ if __name__ == "__main__":
     parser.add_argument("--device", type=str, default="cuda:0", help="device to use for training")
     args = parser.parse_args()
     set_global_seed(args.run_id)
+    battle_format = format_map[args.reg.lower()]
     assert (
         int(args.exploiter)
         + int(args.self_play)
@@ -172,7 +180,12 @@ if __name__ == "__main__":
         style = LearningStyle.DOUBLE_ORACLE
     else:
         raise TypeError()
+    if style == LearningStyle.EXPLOITER:
+        assert (
+            not args.no_mirror_match
+        ), "--no_mirror_match is incompatible with --exploiter (exploiter uses a single team)"
     train(
+        battle_format,
         args.run_id,
         args.num_teams,
         args.num_envs,

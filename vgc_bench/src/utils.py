@@ -56,10 +56,6 @@ def set_global_seed(seed: int) -> None:
         torch.cuda.manual_seed_all(seed)
 
 
-# training params
-battle_format = "gen9vgc2024regg"
-save_interval = 98_304
-
 # observation length constants
 act_len = 107
 glob_obs_len = len(Field) + len(Weather) + 2
@@ -89,6 +85,15 @@ all_formats = [
     "gen9vgc2026regf",
     "gen9vgc2026regfbo3",
 ]
+format_map = {
+    "c": "gen9vgc2023regc",
+    "d": "gen9vgc2023regd",
+    "f": "gen9vgc2024regf",
+    "g": "gen9vgc2024regg",
+    "h": "gen9vgc2024regh",
+    "i": "gen9vgc2025regi",
+    "j": "gen9vgc2025regj",
+}
 with open("data/abilities.json") as f:
     ability_descs: dict[str, npt.NDArray[np.float32]] = json.load(f)
     abilities = list(ability_descs.keys())

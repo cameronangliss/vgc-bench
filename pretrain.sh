@@ -18,7 +18,7 @@ mkdir -p "results$run_id"
 echo "Starting Showdown server for pretraining process..."
 showdown_pid=$(start_showdown "$port")
 echo "Starting pretraining process..."
-python vgc_bench/pretrain.py --run_id $run_id --num_teams "$num_teams" --port "$port" --device "$device"
+python vgc_bench/pretrain.py --reg G --run_id $run_id --num_teams "$num_teams" --port "$port" --device "$device"
 exit_status=$?
 if [ $exit_status -ne 0 ]; then
     echo "Pretraining process died with exit status $exit_status"

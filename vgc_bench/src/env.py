@@ -1,4 +1,3 @@
-import random
 from typing import Any
 
 import numpy as np
@@ -11,8 +10,8 @@ from poke_env.battle import AbstractBattle
 from poke_env.environment import DoublesEnv, SingleAgentWrapper
 from poke_env.ps_client import ServerConfiguration
 from src.policy_player import PolicyPlayer
-from src.teams import TEAMS, RandomTeamBuilder, TeamToggle
-from src.utils import LearningStyle, act_len, battle_format, chunk_obs_len, moves
+from src.teams import RandomTeamBuilder, TeamToggle
+from src.utils import LearningStyle, act_len, chunk_obs_len, moves
 from stable_baselines3.common.monitor import Monitor
 
 
@@ -46,6 +45,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
     @classmethod
     def create_env(
         cls,
+        battle_format: str,
         run_id: int,
         num_teams: int,
         num_envs: int,
@@ -55,8 +55,6 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         allow_mirror_match: bool,
         chooses_on_teampreview: bool,
     ) -> Env:
-        teams = list(range(len(TEAMS[battle_format[-4:]])))
-        random.Random(run_id).shuffle(teams)
         toggle = None if allow_mirror_match else TeamToggle(num_teams)
         env = cls(
             learning_style,
@@ -69,7 +67,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             log_level=25,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(teams[:num_teams], battle_format, toggle),
+            team=RandomTeamBuilder(run_id, num_teams, battle_format, toggle),
         )
         if not chooses_on_teampreview:
             env.agent1.teampreview = env.async_random_teampreview1

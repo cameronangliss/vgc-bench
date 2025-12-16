@@ -24,7 +24,7 @@ start_eval() {
     showdown_pid=$(start_showdown $port)
     sleep 5
     echo "Starting evaluation..."
-    python vgc_bench/eval.py --num_teams $num_teams --port $port --device $device > "debug$port.log" 2>&1
+    python vgc_bench/eval.py --reg G --num_teams $num_teams --port $port --device $device > "debug$port.log" 2>&1
     exit_status=$?
     if [ $exit_status -ne 0 ]; then
         echo "Evaluation process $i died with exit status $exit_status"

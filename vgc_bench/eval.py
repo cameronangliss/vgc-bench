@@ -11,21 +11,24 @@ from poke_env.player import MaxBasePowerPlayer, RandomPlayer, SimpleHeuristicsPl
 from poke_env.ps_client import AccountConfiguration, ServerConfiguration
 from src.llm import LLMPlayer
 from src.policy_player import BatchPolicyPlayer
-from src.teams import TEAMS, RandomTeamBuilder, calc_team_similarity_score
-from src.utils import battle_format
+from src.teams import RandomTeamBuilder, calc_team_similarity_score, get_team_paths
+from src.utils import format_map
 from stable_baselines3 import PPO
 from tensorboard.backend.event_processing import event_accumulator
 
 
 def cross_eval_all_agents(
-    num_teams: int, port: int, device: str, num_battles: int, num_llm_battles: int
+    battle_format: str,
+    num_teams: int,
+    port: int,
+    device: str,
+    num_battles: int,
+    num_llm_battles: int,
 ):
     num_runs = 5
     avg_payoff_matrix = np.zeros((11, 11))
     labels = ["R", "MBP", "SH", "LLM", "SP", "FP", "DO", "BC", "BCSP", "BCFP", "BCDO"]
     for run_id in range(1, num_runs + 1):
-        teams = list(range(len(TEAMS[battle_format[-4:]])))
-        random.Random(run_id).shuffle(teams)
         players = [
             cls_(
                 server_configuration=ServerConfiguration(
@@ -37,7 +40,7 @@ def cross_eval_all_agents(
                 max_concurrent_battles=10,
                 accept_open_team_sheet=True,
                 open_timeout=None,
-                team=RandomTeamBuilder(teams[:num_teams], battle_format),
+                team=RandomTeamBuilder(run_id, num_teams, battle_format),
             )
             for cls_ in [RandomPlayer, MaxBasePowerPlayer, SimpleHeuristicsPlayer]
         ]
@@ -52,10 +55,10 @@ def cross_eval_all_agents(
             max_concurrent_battles=10,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(teams[:num_teams], battle_format),
+            team=RandomTeamBuilder(run_id, num_teams, battle_format),
         )
         best_checkpoints = asyncio.run(
-            get_best_checkpoints(run_id, num_teams, port, device, num_battles)
+            get_best_checkpoints(battle_format, run_id, num_teams, port, device, num_battles)
         )
         for method, checkpoint in best_checkpoints.items():
             agent = BatchPolicyPlayer(
@@ -69,7 +72,7 @@ def cross_eval_all_agents(
                 max_concurrent_battles=10,
                 accept_open_team_sheet=True,
                 open_timeout=None,
-                team=RandomTeamBuilder(teams[:num_teams], battle_format),
+                team=RandomTeamBuilder(run_id, num_teams, battle_format),
             )
             policy_path = f"results{run_id}/saves-{method}"
             if method != "bc":
@@ -109,6 +112,7 @@ def cross_eval_all_agents(
 
 
 async def get_best_checkpoints(
+    battle_format: str,
     run_id: int,
     num_teams: int,
     port: int,
@@ -118,8 +122,6 @@ async def get_best_checkpoints(
     cutoff: int = 5,
 ) -> dict[str, int]:
     best_checkpoints = {}
-    teams = list(range(len(TEAMS[battle_format[-4:]])))
-    random.Random(run_id).shuffle(teams)
     save_policy = BatchPolicyPlayer(
         server_configuration=ServerConfiguration(
             f"ws://localhost:{port}/showdown/websocket",
@@ -130,7 +132,7 @@ async def get_best_checkpoints(
         max_concurrent_battles=10,
         accept_open_team_sheet=True,
         open_timeout=None,
-        team=RandomTeamBuilder(teams[:num_teams], battle_format),
+        team=RandomTeamBuilder(run_id, num_teams, battle_format),
     )
     opponent = BatchPolicyPlayer(
         server_configuration=ServerConfiguration(
@@ -142,7 +144,7 @@ async def get_best_checkpoints(
         max_concurrent_battles=10,
         accept_open_team_sheet=True,
         open_timeout=None,
-        team=RandomTeamBuilder(teams[:num_teams], battle_format),
+        team=RandomTeamBuilder(run_id, num_teams, battle_format),
     )
     filess = [
         [
@@ -202,6 +204,7 @@ def extract_tb(event_file: str, tag_prefix: str) -> list[tuple[int, float]]:
 
 
 def cross_eval_over_team_sizes(
+    battle_format: str,
     team_counts: list[int],
     methods: list[tuple[str, list[int]]],
     port: int,
@@ -213,8 +216,6 @@ def cross_eval_over_team_sizes(
     num_runs = 5
     avg_payoff_matrix = np.zeros((4, 4))
     for run_id in range(1, num_runs + 1):
-        teams = list(range(len(TEAMS[battle_format[-4:]])))
-        random.Random(run_id).shuffle(teams)
         agents = []
         for num_teams, (method, checkpoints) in zip(team_counts, methods):
             agent = BatchPolicyPlayer(
@@ -231,8 +232,10 @@ def cross_eval_over_team_sizes(
                 accept_open_team_sheet=True,
                 open_timeout=None,
                 team=RandomTeamBuilder(
-                    teams[: min(team_counts)] if is_performance_test else teams[max(team_counts) :],
+                    run_id,
+                    min(team_counts) if is_performance_test else max(team_counts),
                     battle_format,
+                    take_from_end=not is_performance_test,
                 ),
             )
             agent.policy = PPO.load(
@@ -260,19 +263,18 @@ def cross_eval_over_team_sizes(
     )
 
 
-def print_team_statistics(num_teams: int):
+def print_team_statistics(battle_format: str, num_teams: int):
     num_runs = 5
+    all_teams = [path.read_text() for path in get_team_paths(battle_format)]
     sim_scores = [
         max(
             [
-                calc_team_similarity_score(
-                    TEAMS[battle_format[-4:]][i], TEAMS[battle_format[-4:]][j]
-                )
-                for i in range(len(TEAMS[battle_format[-4:]]))
+                calc_team_similarity_score(all_teams[i], all_teams[j])
+                for i in range(len(all_teams))
                 if i != j
             ]
         )
-        for j in range(len(TEAMS[battle_format[-4:]]))
+        for j in range(len(all_teams))
     ]
     print(
         "worst-case team similarities for each team across all teams:",
@@ -286,17 +288,10 @@ def print_team_statistics(num_teams: int):
         f"across in-distribution {num_teams} team set in...",
     )
     for run_id in range(1, num_runs + 1):
-        teams = list(range(len(TEAMS[battle_format[-4:]])))
+        teams = list(range(len(all_teams)))
         random.Random(run_id).shuffle(teams)
         sim_scores = [
-            max(
-                [
-                    calc_team_similarity_score(
-                        TEAMS[battle_format[-4:]][i], TEAMS[battle_format[-4:]][j]
-                    )
-                    for i in teams[:num_teams]
-                ]
-            )
+            max([calc_team_similarity_score(all_teams[i], all_teams[j]) for i in teams[:num_teams]])
             for j in teams[num_teams:]
         ]
         print(
@@ -310,20 +305,20 @@ def print_team_statistics(num_teams: int):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate a Pokémon AI model")
-    parser.add_argument(
-        "--num_teams", type=int, required=True, help="Number of teams to train with"
-    )
+    parser.add_argument("--reg", type=str, required=True, help="VGC regulation to eval on, i.e. G")
+    parser.add_argument("--num_teams", type=int, required=True, help="Number of teams to eval with")
     parser.add_argument("--port", type=int, default=8000, help="Port to run showdown server on")
     parser.add_argument(
         "--device",
         type=str,
         default="cuda:0",
         choices=["cuda:0", "cuda:1", "cuda:2", "cuda:3"],
-        help="CUDA device to use for training",
+        help="CUDA device to use for eval",
     )
     args = parser.parse_args()
-    print_team_statistics(args.num_teams)
-    cross_eval_all_agents(args.num_teams, args.port, args.device, 1000, 100)
+    battle_format = format_map[args.reg.lower()]
+    print_team_statistics(battle_format, args.num_teams)
+    cross_eval_all_agents(battle_format, args.num_teams, args.port, args.device, 1000, 100)
     team_counts = [1, 4, 16, 64]
     methods = [
         ("bc-sp", [4915200, 1474560, 4816896, 1179648, 786432]),
