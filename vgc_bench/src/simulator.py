@@ -36,11 +36,21 @@ class Simulator:
         self.stdout = stdout
         assert battle._packed_team is not None
         assert battle._opponent_packed_team is not None
+        p1_packed_team, p2_packed_team = (
+            (battle._packed_team, battle._opponent_packed_team)
+            if battle.player_role == "p1"
+            else (battle._opponent_packed_team, battle._packed_team)
+        )
+        p1_username, p2_username = (
+            (battle.player_username, battle.opponent_username)
+            if battle.player_role == "p1"
+            else (battle.opponent_username, battle.player_username)
+        )
         self.stdin.write(
             f"""
 >start {{"formatid":"{battle.format}"}}
->player p1 {{"name":"Player 1","team":"{battle._packed_team}"}}
->player p2 {{"name":"Player 2","team":"{battle._opponent_packed_team}"}}
+>player p1 {{"name":"{p1_username}","team":"{p1_packed_team}"}}
+>player p2 {{"name":"{p2_username}","team":"{p2_packed_team}"}}
 """
         )
         self.stdin.flush()
