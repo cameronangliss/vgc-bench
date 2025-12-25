@@ -12,7 +12,7 @@ from poke_env.player import Player
 
 
 class Simulator:
-    def __init__(self, battle: DoubleBattle, packed_team: str):
+    def __init__(self, battle: DoubleBattle):
         self.battle = battle
         self.opp_battle = self._derive_opp_battle(battle)
         # Tracks whether we've already submitted a choice for a side that hasn't been
@@ -34,11 +34,13 @@ class Simulator:
         assert stdout is not None
         self.stdin = stdin
         self.stdout = stdout
+        assert battle._packed_team is not None
+        assert battle._opponent_packed_team is not None
         self.stdin.write(
             f"""
 >start {{"formatid":"{battle.format}"}}
->player p1 {{"name":"Player 1","team":"{packed_team}"}}
->player p2 {{"name":"Player 2","team":"{packed_team}"}}
+>player p1 {{"name":"Player 1","team":"{battle._packed_team}"}}
+>player p2 {{"name":"Player 2","team":"{battle._opponent_packed_team}"}}
 """
         )
         self.stdin.flush()
