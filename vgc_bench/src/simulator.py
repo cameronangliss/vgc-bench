@@ -21,7 +21,7 @@ class Simulator:
         # can trigger Showdown's "Can't undo" errors.
         self._pending_choices: dict[str, bool] = {"p1": False, "p2": False}
         self.process = subprocess.Popen(
-            ["pokemon-showdown/pokemon-showdown", "simulate-battle"],
+            ["pokemon-showdown/pokemon-showdown", "simulate-battle", "--skip-build"],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
@@ -42,17 +42,13 @@ class Simulator:
 """
         )
         self.stdin.flush()
-        msg = self.stdout.readline()
-        print("reading dead msg:", msg)
+        self.stdout.readline()
         while True:
             ready, _, _ = select.select([self.stdout.fileno()], [], [], 0.1)
             if not ready:
                 break
-            msg = self.stdout.readline()
-        print("reading dead msg:", msg)
-        print("FIRST:", self.read_state())
+            self.stdout.readline()
         self.write_state(self.serialize_battle(battle))
-        print("SECOND:", self.read_state())
         self._request_sync()
 
     def _derive_opp_battle(self, battle: DoubleBattle) -> DoubleBattle:
@@ -105,7 +101,6 @@ class Simulator:
             )
         )
         self.stdin.flush()
-        print(self.battle.player_role, "SUCCESSFULLY WROTE STATE")
 
     def _request_sync(self):
         # Ensure Showdown emits fresh requests after we restore state, then drain
@@ -138,7 +133,6 @@ class Simulator:
                     break
 
     def step(self, player_command: str | None, opponent_command: str | None):
-        print(f"Stepping with commands: {player_command} | {opponent_command}", flush=True)
         if player_command:
             cleaned = player_command
             if cleaned.startswith("/choose "):
@@ -170,7 +164,6 @@ class Simulator:
         current_sideupdate: str | None = None
         awaiting_side_id = False
         for msg in self.stdout:
-            print(msg, flush=True)
             raw = msg.strip()
             if raw == "sideupdate":
                 awaiting_side_id = True
