@@ -123,6 +123,9 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
     def close(self, force: bool = True, wait: bool = False):
         super().close(force=force, wait=wait)
 
+    def get_additional_info(self) -> dict[str, dict[str, Any]]:
+        return {self.agents[0]: {"battle": self.battle1}, self.agents[1]: {"battle": self.battle2}}
+
     def calc_reward(self, battle: AbstractBattle) -> float:
         if not battle.finished:
             return 0
