@@ -176,6 +176,7 @@ class Simulator:
         current_sideupdate: str | None = None
         awaiting_side_id = False
         for msg in self.stdout:
+            # print(msg, flush=True)
             raw = msg.strip()
             if raw == "sideupdate":
                 awaiting_side_id = True
@@ -238,21 +239,8 @@ class Simulator:
         self.process.terminate()
         self.process.wait()
 
-    def choose_opponent_order(self) -> str | None:
-        opp = self.opp_battle
-        if not opp:
-            return None
-        req = getattr(opp, "last_request", {}) or {}
-        if req.get("teamPreview"):
-            team_size = req.get("maxChosenTeamSize", 2)
-            picks = ",".join(str(i + 1) for i in range(team_size))
-            return f"team {picks}"
-        if opp._wait:
-            return None
-        return Player.choose_random_move(opp).message
-
-    @classmethod
-    def serialize_battle(cls, battle: DoubleBattle) -> dict[str, Any]:
+    @staticmethod
+    def serialize_battle(battle: DoubleBattle) -> dict[str, Any]:
         role = battle.player_role or "p1"
         opponent_role = battle.opponent_role or ("p2" if role == "p1" else "p1")
         last_request = battle.last_request or {}
@@ -295,7 +283,7 @@ class Simulator:
             "started": True,
             "ended": battle.finished,
             "effect": {"id": ""},
-            "effectState": cls._effect_state(""),
+            "effectState": Simulator._effect_state(""),
             "event": {"id": ""},
             "events": None,
             "eventDepth": 0,
@@ -309,12 +297,12 @@ class Simulator:
             "effectOrder": 0,
             "quickClawRoll": False,
             "speedOrder": [],
-            "field": cls._serialize_field(battle),
+            "field": Simulator._serialize_field(battle),
         }
-        player_side = cls._serialize_side(
+        player_side = Simulator._serialize_side(
             battle, role, battle.team, getattr(battle, "_active_pokemon", {}), True
         )
-        opponent_side = cls._serialize_side(
+        opponent_side = Simulator._serialize_side(
             battle,
             opponent_role,
             battle.opponent_team,
