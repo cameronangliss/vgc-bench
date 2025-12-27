@@ -34,7 +34,8 @@ async def main():
         team=RandomTeamBuilder(1, 1, "gen9vgc2024regg"),
     )
     asyncio.run_coroutine_threadsafe(p1.battle_against(p2), loop=POKE_LOOP)
-    await asyncio.sleep(1)
+    while not p1.battles:
+        await asyncio.sleep(0.1)
     battle_tag = list(p1._battles.keys())[0]
     battle1 = p1._battles[battle_tag]
     assert isinstance(battle1, DoubleBattle)
