@@ -1,8 +1,8 @@
 import base64
 import json
 import math
-import select
 import subprocess
+from copy import deepcopy
 from enum import Enum
 from typing import Any
 
@@ -12,14 +12,10 @@ from poke_env.player import Player
 
 
 class Simulator:
-    def __init__(self, battle: DoubleBattle, packed_team: str):
+    def __init__(self, battle: DoubleBattle, verbose: bool = False):
         self.battle = battle
+        self.verbose = verbose
         self.opp_battle = self._derive_opp_battle(battle)
-        # Tracks whether we've already submitted a choice for a side that hasn't been
-        # consumed by the simulator yet. This prevents us from repeatedly re-sending
-        # the opponent's choice after the other side makes an invalid choice, which
-        # can trigger Showdown's "Can't undo" errors.
-        self._pending_choices: dict[str, bool] = {"p1": False, "p2": False}
         self.process = subprocess.Popen(
             ["pokemon-showdown/pokemon-showdown", "simulate-battle", "--skip-build"],
             stdin=subprocess.PIPE,
@@ -34,151 +30,109 @@ class Simulator:
         assert stdout is not None
         self.stdin = stdin
         self.stdout = stdout
+        assert battle._packed_team is not None
+        assert battle._opponent_packed_team is not None
+        p1_packed_team, p2_packed_team = (
+            (battle._packed_team, battle._opponent_packed_team)
+            if battle.player_role == "p1"
+            else (battle._opponent_packed_team, battle._packed_team)
+        )
+        p1_username, p2_username = (
+            (battle.player_username, battle.opponent_username)
+            if battle.player_role == "p1"
+            else (battle.opponent_username, battle.player_username)
+        )
         self.stdin.write(
             f"""
 >start {{"formatid":"{battle.format}"}}
->player p1 {{"name":"Player 1","team":"{packed_team}"}}
->player p2 {{"name":"Player 2","team":"{packed_team}"}}
+>player p1 {{"name":"{p1_username}","team":"{p1_packed_team}"}}
+>player p2 {{"name":"{p2_username}","team":"{p2_packed_team}"}}
 """
         )
-        self.stdin.flush()
-        self.stdout.readline()
-        while True:
-            ready, _, _ = select.select([self.stdout.fileno()], [], [], 0.1)
-            if not ready:
-                break
-            self.stdout.readline()
-        self.write_state(self.serialize_battle(battle))
-        self._request_sync()
-
-    def _derive_opp_battle(self, battle: DoubleBattle) -> DoubleBattle:
-        role = battle.opponent_role or ("p2" if (battle.player_role or "p1") == "p1" else "p1")
-        opp_battle = DoubleBattle(
-            f"{battle.battle_tag}-opp",
-            battle.opponent_username or "opponent",
-            None,  # type: ignore
-            self.battle.gen,
-            save_replays=False,
-        )
-        opp_battle._player_role = role
-        assert battle.opponent_username is not None
-        opp_battle.player_username = battle.opponent_username
-        opp_battle.opponent_username = battle.player_username
-        opp_battle._team = dict(battle.opponent_team)
-        opp_battle._opponent_team = dict(battle.team)
-        opp_battle._active_pokemon = dict(getattr(battle, "_opponent_active_pokemon", {}))
-        opp_battle._opponent_active_pokemon = dict(getattr(battle, "_active_pokemon", {}))
-        opp_battle._side_conditions = dict(battle.opponent_side_conditions)
-        opp_battle._opponent_side_conditions = dict(battle.side_conditions)
-        opp_battle._weather = dict(battle.weather)
-        opp_battle._fields = dict(battle.fields)
-        opp_battle.turn = battle.turn
-        opp_battle.in_team_preview = getattr(battle, "in_team_preview", False)
-        return opp_battle
-
-    def read_state(self) -> dict[str, Any]:
-        self.stdin.write(">eval JSON.stringify(battle && battle.toJSON())\n")
-        self.stdin.flush()
+        num_requests_seen = 0
         for msg in self.stdout:
-            if not msg.startswith("||<<< "):
-                continue
-            if "||<<< error" in msg:
-                raise RuntimeError(msg)
-            return json.loads(msg.strip()[7:-1])
-        raise LookupError("unable to read battle state from showdown")
+            if "|request|" in msg:
+                num_requests_seen += 1
+                if num_requests_seen == 2:
+                    break
+        self.write_state(self.serialize_battle(battle))
+
+    @staticmethod
+    def _derive_opp_battle(battle: DoubleBattle) -> DoubleBattle:
+        opp_battle = deepcopy(battle)
+        opp_battle.logger = None
+        assert battle.opponent_username is not None
+        opp_battle._player_username = battle.opponent_username
+        opp_battle._opponent_username = battle.player_username
+        opp_battle._player_role = battle.opponent_role
+        team = opp_battle.team
+        opp_battle._team = opp_battle.opponent_team
+        opp_battle._opponent_team = team
+        active_pokemon = battle._active_pokemon
+        opp_battle._active_pokemon = battle._opponent_active_pokemon
+        opp_battle._opponent_active_pokemon = active_pokemon
+        side_conditions = battle.side_conditions
+        opp_battle._side_conditions = battle.opponent_side_conditions
+        opp_battle._opponent_side_conditions = side_conditions
+        return opp_battle
 
     def write_state(self, state: dict[str, Any]):
         state_str = json.dumps(state, separators=(",", ":"))
         payload = base64.b64encode(state_str.encode()).decode()
         self.stdin.write(
             (
-                ">eval (() => { "
-                'const State = require("./state").State; '
-                f'const restored = State.deserializeBattle(JSON.parse(Buffer.from("{payload}", "base64").toString())); '
-                "restored.send = battle.send; "
-                "this.battle = restored; "
-                "})()\n"
+                ">eval ("
+                "    () => {"
+                '        const State = require("./state").State;'
+                f'       const restored = State.deserializeBattle(JSON.parse(Buffer.from("{payload}", "base64").toString()));'
+                "        restored.send = battle.send;"
+                "        this.battle = restored;"
+                "        restored.sentRequests = false;"
+                "        restored.makeRequest();"
+                "    }"
+                ")()\n"
             )
         )
-        self.stdin.flush()
-
-    def _request_sync(self):
-        # Ensure Showdown emits fresh requests after we restore state, then drain
-        # them from stdout so the next `step` starts from a clean boundary.
-        self.stdin.write(">eval (() => { battle.sentRequests = false; battle.makeRequest(); })()\n")
-        self.stdin.flush()
-        # Drain output until we reach the request messages. We intentionally do NOT
-        # apply them to poke-env battle objects here: at initialization time, the
-        # caller's battle already represents the desired state, and parsing another
-        # request can mutate/corrupt it.
-        needed_requests: set[str] = set()
-        if self.battle.player_role:
-            needed_requests.add(self.battle.player_role)
-        if self.battle.opponent_role:
-            needed_requests.add(self.battle.opponent_role)
-        if not needed_requests:
-            needed_requests.update({"p1", "p2"})
-
-        seen_requests: set[str] = set()
+        num_requests_seen = 0
         for msg in self.stdout:
+            if self.verbose:
+                print(msg, flush=True)
             split_msg = msg.strip().split("|")
-            if not split_msg or len(split_msg) < 2:
+            if not split_msg or len(split_msg) <= 2:
                 continue
-            if split_msg[1] == "request" and len(split_msg) > 2 and split_msg[2]:
+            if split_msg[1] == "request" and len(split_msg) > 2:
                 request = json.loads(split_msg[2])
-                target_side = request.get("side", {}).get("id")
-                if target_side:
-                    seen_requests.add(str(target_side))
-                if seen_requests >= needed_requests:
+                battle = (
+                    self.battle
+                    if self.battle.player_role == request["side"]["id"]
+                    else self.opp_battle
+                )
+                battle.parse_request(request)
+                if "teamPreview" in request and request["teamPreview"]:
+                    for p in request["side"]["pokemon"]:
+                        p["active"] = False
+                num_requests_seen += 1
+                if num_requests_seen == 2:
                     break
 
     def step(self, player_command: str | None, opponent_command: str | None):
+        if self.verbose:
+            print(f"{player_command}, {opponent_command}", flush=True)
         if player_command:
-            cleaned = player_command
-            if cleaned.startswith("/choose "):
-                cleaned = cleaned[len("/choose ") :]
-            side = self.battle.player_role or "p1"
-            if cleaned == "undo" or not self._pending_choices.get(side, False):
-                self.stdin.write(f">{side} {cleaned}\n")
-                self._pending_choices[side] = cleaned != "undo"
+            player_command = player_command.replace("/choose ", "")
+            self.stdin.write(f">{self.battle.player_role} {player_command}\n")
         if opponent_command:
-            cleaned = opponent_command
-            if cleaned.startswith("/choose "):
-                cleaned = cleaned[len("/choose ") :]
-            side = self.battle.opponent_role or (
-                "p2" if (self.battle.player_role or "p1") == "p1" else "p1"
-            )
-            if cleaned == "undo" or not self._pending_choices.get(side, False):
-                self.stdin.write(f">{side} {cleaned}\n")
-                self._pending_choices[side] = cleaned != "undo"
-        # Track which sides have received their newest request so both battle
-        # objects stay in sync before returning control to the caller.
-        needed_requests: set[str] = set()
-        seen_requests: set[str] = set()
-        if self.battle.player_role:
-            needed_requests.add(self.battle.player_role)
-        if self.battle.opponent_role:
-            needed_requests.add(self.battle.opponent_role)
-        if not needed_requests:
-            needed_requests.add("p1")
-        current_sideupdate: str | None = None
-        awaiting_side_id = False
+            opponent_command = opponent_command.replace("/choose ", "")
+            self.stdin.write(f">{self.battle.opponent_role} {opponent_command}\n")
+        num_requests_seen = 0
+        last_msg = None
         for msg in self.stdout:
-            raw = msg.strip()
-            if raw == "sideupdate":
-                awaiting_side_id = True
-                current_sideupdate = None
+            if msg == last_msg:
                 continue
-            if raw == "update":
-                awaiting_side_id = False
-                current_sideupdate = None
-                continue
-            if awaiting_side_id and raw in {"p1", "p2", "p3", "p4"}:
-                current_sideupdate = raw
-                awaiting_side_id = False
-                continue
-
-            split_msg = raw.split("|")
+            if self.verbose:
+                print(msg, flush=True)
+            split_msg = msg.strip().split("|")
+            # copy of a bunch of logic from Player._handle_battle_message()
             if not split_msg or len(split_msg) < 2:
                 continue
             elif split_msg[1] == "":
@@ -188,21 +142,14 @@ class Simulator:
             elif split_msg[1] == "request":
                 if split_msg[2]:
                     request = json.loads(split_msg[2])
-                    target_side = request.get("side", {}).get("id")
-                    for b in (self.battle, self.opp_battle):
-                        if not b or target_side != b.player_role:
-                            continue
-                        if request.get("active"):
-                            b._active_pokemon = {}
-                        if "teamPreview" in request and request["teamPreview"]:
-                            for p in request["side"]["pokemon"]:
-                                p["active"] = False
-                        b.parse_request(request)
-                        seen_requests.add(target_side)
-                    if target_side:
-                        self._pending_choices[target_side] = bool(request.get("wait"))
-
-                    if seen_requests >= needed_requests:
+                    battle = (
+                        self.battle
+                        if self.battle.player_role == request["side"]["id"]
+                        else self.opp_battle
+                    )
+                    battle.parse_request(request)
+                    num_requests_seen += 1
+                    if num_requests_seen == 2:
                         break
             elif split_msg[1] == "showteam":
                 pass
@@ -213,34 +160,19 @@ class Simulator:
                     self.battle.tied()
                 break
             elif split_msg[1] == "error":
-                if current_sideupdate:
-                    self._pending_choices[current_sideupdate] = False
-                # Stop so caller can recompute a legal choice.
-                break
+                raise RuntimeError(f"Simulator error: {'|'.join(split_msg[2:])}")
             elif split_msg[1] == "bigerror":
-                break
+                raise RuntimeError(f"Simulator bigerror: {'|'.join(split_msg[2:])}")
             else:
                 self.battle.parse_message(split_msg)
+            last_msg = msg
 
     def __del__(self):
         self.process.terminate()
         self.process.wait()
 
-    def choose_opponent_order(self) -> str | None:
-        opp = self.opp_battle
-        if not opp:
-            return None
-        req = getattr(opp, "last_request", {}) or {}
-        if req.get("teamPreview"):
-            team_size = req.get("maxChosenTeamSize", 2)
-            picks = ",".join(str(i + 1) for i in range(team_size))
-            return f"team {picks}"
-        if opp._wait:
-            return None
-        return Player.choose_random_move(opp).message
-
-    @classmethod
-    def serialize_battle(cls, battle: DoubleBattle) -> dict[str, Any]:
+    @staticmethod
+    def serialize_battle(battle: DoubleBattle) -> dict[str, Any]:
         role = battle.player_role or "p1"
         opponent_role = battle.opponent_role or ("p2" if role == "p1" else "p1")
         last_request = battle.last_request or {}
@@ -283,7 +215,7 @@ class Simulator:
             "started": True,
             "ended": battle.finished,
             "effect": {"id": ""},
-            "effectState": cls._effect_state(""),
+            "effectState": Simulator._effect_state(""),
             "event": {"id": ""},
             "events": None,
             "eventDepth": 0,
@@ -297,12 +229,12 @@ class Simulator:
             "effectOrder": 0,
             "quickClawRoll": False,
             "speedOrder": [],
-            "field": cls._serialize_field(battle),
+            "field": Simulator._serialize_field(battle),
         }
-        player_side = cls._serialize_side(
+        player_side = Simulator._serialize_side(
             battle, role, battle.team, getattr(battle, "_active_pokemon", {}), True
         )
-        opponent_side = cls._serialize_side(
+        opponent_side = Simulator._serialize_side(
             battle,
             opponent_role,
             battle.opponent_team,
@@ -551,37 +483,46 @@ class Simulator:
         # the list to put current actives first or we will restore a battle where
         # the wrong mons are active (leading to invalid choice errors).
         team_list = list(team.values())
+
+        # Find which Pokemon are active
         active_mons: list[Pokemon] = []
         if active_map:
             for slot_suffix in ("a", "b"):
                 slot = f"{role}{slot_suffix}"
                 mon = active_map.get(slot)
-                if mon is not None and mon not in active_mons:
-                    active_mons.append(mon)
-            # Include any additional actives we might have (shouldn't happen in doubles,
-            # but keeps this resilient to edge cases).
-            for slot, mon in active_map.items():
-                if not slot.startswith(role):
-                    continue
-                if mon not in active_mons:
-                    active_mons.append(mon)
+                if mon is not None:
+                    # Find this mon in team_list by identity or species
+                    for team_mon in team_list:
+                        if team_mon is mon or team_mon.species == mon.species:
+                            if team_mon not in active_mons:
+                                active_mons.append(team_mon)
+                            break
         else:
             active_mons = [mon for mon in team_list if getattr(mon, "active", False)]
 
-        ordered_team_list = active_mons + [mon for mon in team_list if mon not in active_mons]
+        # REORDER the team: active Pokemon must be at positions 0 and 1
+        # This is required because Showdown's active slots always reference positions 0/1
+        ordered_team_list = active_mons[:2] + [mon for mon in team_list if mon not in active_mons]
+        # Pad if we don't have 2 actives
+        while len(ordered_team_list) < len(team_list):
+            for mon in team_list:
+                if mon not in ordered_team_list:
+                    ordered_team_list.append(mon)
+                    break
 
         pokemon = [
             cls._serialize_pokemon(mon, idx, gen) for idx, mon in enumerate(ordered_team_list)
         ]
         team_str = "".join(str(i + 1) for i in range(len(team_list)))
         foe = "[Side:p2]" if role == "p1" else "[Side:p1]"
-        # Side.active should be length-2 (doubles) with refs for current actives.
+
+        # Active slots MUST reference positions 0 and 1 (slots a and b)
         active_slots: list[Any] = [None, None]
         for idx in range(min(2, len(active_mons))):
-            slot_id = f"{role}{chr(ord('a') + idx)}"
+            slot_id = f"{role}{chr(ord('a') + idx)}"  # p1a/p1b or p2a/p2b
             active_slots[idx] = f"[Pokemon:{slot_id}]"
 
-        # Mark which mons are active in their serialized entries
+        # Mark positions 0 and 1 as active
         for idx, mon in enumerate(pokemon):
             mon["isActive"] = idx < len(active_mons) and idx < 2
             if mon["isActive"]:
