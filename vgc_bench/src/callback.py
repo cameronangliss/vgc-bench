@@ -32,6 +32,8 @@ class Callback(BaseCallback):
         allow_mirror_match: bool,
         chooses_on_teampreview: bool,
         save_interval: int,
+        use_mcts: bool,
+        mcts_simulations: int,
     ):
         super().__init__()
         self.num_teams = num_teams
@@ -64,6 +66,8 @@ class Callback(BaseCallback):
             num_teams = 1
         toggle = None if allow_mirror_match else TeamToggle(num_teams)
         self.eval_agent = BatchPolicyPlayer(
+            use_mcts=use_mcts,
+            mcts_simulations=mcts_simulations,
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
@@ -76,6 +80,8 @@ class Callback(BaseCallback):
             team=RandomTeamBuilder(run_id, num_teams, battle_format, toggle),
         )
         self.eval_agent2 = BatchPolicyPlayer(
+            use_mcts=use_mcts,
+            mcts_simulations=mcts_simulations,
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",

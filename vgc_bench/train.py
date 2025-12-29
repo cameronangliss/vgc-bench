@@ -4,6 +4,7 @@ import os
 from src.callback import Callback
 from src.env import ShowdownEnv
 from src.policy import MaskedActorCriticPolicy
+from src.ppo import MCTS_PPO
 from src.utils import LearningStyle, format_map, set_global_seed
 from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import SubprocVecEnv
@@ -21,6 +22,8 @@ def train(
     num_frames: int,
     allow_mirror_match: bool,
     chooses_on_teampreview: bool,
+    use_mcts: bool,
+    mcts_simulations: int,
 ):
     save_interval = 98_304
     env = (
@@ -58,26 +61,33 @@ def train(
             "-bc" if behavior_clone else "",
             "-" + learning_style.abbrev,
             f"-fs{num_frames}" if num_frames > 1 else "",
+            f"-mcts{mcts_simulations}" if use_mcts else "",
             "-xm" if not allow_mirror_match else "",
             "-xt" if not chooses_on_teampreview else "",
         ]
     )[1:]
     save_dir = f"results{run_id}/saves-{run_ident}/{num_teams}-teams"
-    ppo = PPO(
-        MaskedActorCriticPolicy,
-        env,
-        learning_rate=1e-5,
-        n_steps=(
+    ppo_class = MCTS_PPO if use_mcts else PPO
+    ppo_kwargs = {
+        "learning_rate": 1e-5,
+        "n_steps": (
             3072 // (2 * num_envs)
             if learning_style == LearningStyle.PURE_SELF_PLAY
             else 3072 // num_envs
         ),
-        batch_size=64,
-        ent_coef=1e-3,
-        tensorboard_log=f"results{run_id}/logs-{run_ident}",
-        policy_kwargs={"num_frames": num_frames, "chooses_on_teampreview": chooses_on_teampreview},
-        device=device,
-    )
+        "batch_size": 64,
+        "ent_coef": 1e-3,
+        "tensorboard_log": f"results{run_id}/logs-{run_ident}",
+        "policy_kwargs": {
+            "num_frames": num_frames,
+            "chooses_on_teampreview": chooses_on_teampreview,
+        },
+        "device": device,
+    }
+    if use_mcts:
+        ppo_kwargs["use_mcts"] = True
+        ppo_kwargs["mcts_simulations"] = mcts_simulations
+    ppo = ppo_class(MaskedActorCriticPolicy, env, **ppo_kwargs)
     num_saved_timesteps = 0
     if os.path.exists(save_dir) and len(os.listdir(save_dir)) > 0:
         saved_policy_timesteps = [
@@ -102,6 +112,8 @@ def train(
             allow_mirror_match,
             chooses_on_teampreview,
             save_interval,
+            use_mcts,
+            mcts_simulations,
         ),
         tb_log_name=f"{num_teams}-teams",
         reset_num_timesteps=False,
@@ -154,6 +166,17 @@ if __name__ == "__main__":
         action="store_true",
         help="training agents will effectively start games after teampreview, with teampreview decision selected randomly",
     )
+    parser.add_argument(
+        "--mcts",
+        action="store_true",
+        help="enable Monte Carlo Tree Search for action selection during training",
+    )
+    parser.add_argument(
+        "--mcts_simulations",
+        type=int,
+        default=10,
+        help="number of MCTS simulations per action (default: 100)",
+    )
     parser.add_argument("--reg", type=str, required=True, help="VGC regulation to train on, i.e. G")
     parser.add_argument("--run_id", type=int, default=1, help="run ID for the training session")
     parser.add_argument("--num_teams", type=int, default=2, help="number of teams to train with")
@@ -196,4 +219,6 @@ if __name__ == "__main__":
         args.num_frames,
         not args.no_mirror_match,
         not args.no_teampreview,
+        args.mcts,
+        args.mcts_simulations,
     )

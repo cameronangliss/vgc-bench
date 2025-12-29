@@ -23,7 +23,8 @@ from poke_env.battle import (
 )
 from poke_env.environment import DoublesEnv
 from poke_env.environment.env import _EnvPlayer
-from poke_env.player import BattleOrder, DefaultBattleOrder, Player
+from poke_env.player import BattleOrder, DefaultBattleOrder, Player, SingleBattleOrder
+from src.mcts import run_mcts_for_battle
 from src.policy import MaskedActorCriticPolicy
 from src.utils import abilities, act_len, chunk_obs_len, items, move_obs_len, moves, pokemon_obs_len
 from stable_baselines3.common.policies import BasePolicy
@@ -34,15 +35,26 @@ class PolicyPlayer(Player):
     _frames: dict[str, Deque[npt.NDArray[np.float32]]] = {}
     _teampreview_drafts: dict[str, list[int]] = {}
 
-    def __init__(self, policy: BasePolicy | None = None, *args: Any, **kwargs: Any):
+    def __init__(
+        self,
+        policy: BasePolicy | None = None,
+        use_mcts: bool = False,
+        mcts_simulations: int = 100,
+        *args: Any,
+        **kwargs: Any,
+    ):
         super().__init__(*args, **kwargs)
         self.policy = policy
+        self.use_mcts = use_mcts
+        self.mcts_simulations = mcts_simulations
 
     def choose_move(self, battle: AbstractBattle) -> BattleOrder | Awaitable[BattleOrder]:
         assert isinstance(battle, DoubleBattle)
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         if battle._wait:
             return DefaultBattleOrder()
+        if self.use_mcts and not battle.teampreview:
+            return run_mcts_for_battle(battle, num_simulations=self.mcts_simulations)
         obs = self.get_observation(battle)
         with torch.no_grad():
             obs_tensor = torch.as_tensor(obs, device=self.policy.device).unsqueeze(0)
@@ -381,6 +393,8 @@ class BatchPolicyPlayer(PolicyPlayer):
         assert isinstance(battle, DoubleBattle)
         if battle._wait:
             return DefaultBattleOrder()
+        if self.use_mcts and not battle.teampreview:
+            return run_mcts_for_battle(battle, num_simulations=self.mcts_simulations)
         obs = self.get_observation(battle)
         if self._worker_task is None:
             self._worker_task = asyncio.create_task(self._inference_loop())

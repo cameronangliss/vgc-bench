@@ -68,11 +68,11 @@ class Simulator:
         team = opp_battle.team
         opp_battle._team = opp_battle.opponent_team
         opp_battle._opponent_team = team
-        active_pokemon = battle._active_pokemon
-        opp_battle._active_pokemon = battle._opponent_active_pokemon
+        active_pokemon = opp_battle._active_pokemon
+        opp_battle._active_pokemon = opp_battle._opponent_active_pokemon
         opp_battle._opponent_active_pokemon = active_pokemon
-        side_conditions = battle.side_conditions
-        opp_battle._side_conditions = battle.opponent_side_conditions
+        side_conditions = opp_battle.side_conditions
+        opp_battle._side_conditions = opp_battle.opponent_side_conditions
         opp_battle._opponent_side_conditions = side_conditions
         return opp_battle
 
@@ -108,6 +108,13 @@ class Simulator:
                     else self.opp_battle
                 )
                 battle.parse_request(request)
+                # Sync _active_pokemon with the request - remove slots that are null in the request
+                if "active" in request:
+                    role = request["side"]["id"]
+                    for idx, active_info in enumerate(request["active"]):
+                        slot = f"{role}{chr(ord('a') + idx)}"
+                        if active_info is None and slot in battle._active_pokemon:
+                            del battle._active_pokemon[slot]
                 if "teamPreview" in request and request["teamPreview"]:
                     for p in request["side"]["pokemon"]:
                         p["active"] = False
@@ -137,6 +144,7 @@ class Simulator:
                 continue
             elif split_msg[1] == "":
                 self.battle.parse_message(split_msg)
+                self.opp_battle.parse_message(split_msg)
             elif split_msg[1] in Player.MESSAGES_TO_IGNORE:
                 pass
             elif split_msg[1] == "request":
@@ -148,6 +156,13 @@ class Simulator:
                         else self.opp_battle
                     )
                     battle.parse_request(request)
+                    # Sync _active_pokemon with the request - remove slots that are null in the request
+                    if "active" in request:
+                        role = request["side"]["id"]
+                        for idx, active_info in enumerate(request["active"]):
+                            slot = f"{role}{chr(ord('a') + idx)}"
+                            if active_info is None and slot in battle._active_pokemon:
+                                del battle._active_pokemon[slot]
                     num_requests_seen += 1
                     if num_requests_seen == 2:
                         break
@@ -156,8 +171,10 @@ class Simulator:
             elif split_msg[1] == "win" or split_msg[1] == "tie":
                 if split_msg[1] == "win":
                     self.battle.won_by(split_msg[2])
+                    self.opp_battle.won_by(split_msg[2])
                 else:
                     self.battle.tied()
+                    self.opp_battle.tied()
                 break
             elif split_msg[1] == "error":
                 raise RuntimeError(f"Simulator error: {'|'.join(split_msg[2:])}")
@@ -165,6 +182,7 @@ class Simulator:
                 raise RuntimeError(f"Simulator bigerror: {'|'.join(split_msg[2:])}")
             else:
                 self.battle.parse_message(split_msg)
+                self.opp_battle.parse_message(split_msg)
             last_msg = msg
 
     def __del__(self):
@@ -176,11 +194,31 @@ class Simulator:
         role = battle.player_role or "p1"
         opponent_role = battle.opponent_role or ("p2" if role == "p1" else "p1")
         last_request = battle.last_request or {}
+
+        # Check if any active Pokemon are fainted - this requires a forceSwitch
+        def count_fainted_active(active_map: dict[str, Pokemon], role_prefix: str) -> int:
+            count = 0
+            for slot_suffix in ("a", "b"):
+                slot = f"{role_prefix}{slot_suffix}"
+                mon = active_map.get(slot)
+                if mon is not None and mon.fainted:
+                    count += 1
+            return count
+
+        player_fainted_active = count_fainted_active(
+            getattr(battle, "_active_pokemon", {}), role
+        )
+        opponent_fainted_active = count_fainted_active(
+            getattr(battle, "_opponent_active_pokemon", {}), opponent_role
+        )
+        has_fainted_active = player_fainted_active > 0 or opponent_fainted_active > 0
+
         if last_request.get("teamPreview"):
             request_state = "teampreview"
         elif battle.turn == 0:
             request_state = "teampreview"
-        elif last_request.get("forceSwitch"):
+        elif last_request.get("forceSwitch") or has_fainted_active:
+            # If there are fainted Pokemon in active slots, we need a switch request
             request_state = "switch"
         elif last_request:
             request_state = "move"
@@ -232,7 +270,8 @@ class Simulator:
             "field": Simulator._serialize_field(battle),
         }
         player_side = Simulator._serialize_side(
-            battle, role, battle.team, getattr(battle, "_active_pokemon", {}), True
+            battle, role, battle.team, getattr(battle, "_active_pokemon", {}), True,
+            player_fainted_active
         )
         opponent_side = Simulator._serialize_side(
             battle,
@@ -240,6 +279,7 @@ class Simulator:
             battle.opponent_team,
             getattr(battle, "_opponent_active_pokemon", {}),
             False,
+            opponent_fainted_active
         )
         sides_by_id = {role: player_side, opponent_role: opponent_side}
         state["sides"] = [sides_by_id.get("p1"), sides_by_id.get("p2")]
@@ -420,9 +460,13 @@ class Simulator:
             "maxhp": pokemon.max_hp or stored_stats.get("hp", 0) or base_stats.get("hp", 0),
             "baseMaxhp": pokemon.max_hp or stored_stats.get("hp", 0) or base_stats.get("hp", 0),
             "hp": (
-                pokemon.current_hp
-                if pokemon.current_hp
-                else stored_stats.get("hp", 0) or base_stats.get("hp", 0)
+                0 if pokemon.fainted else (
+                    # Use current_hp if it's a positive value, otherwise use max_hp
+                    # (unrevealed opponent Pokemon may have current_hp=0 or None)
+                    pokemon.current_hp
+                    if pokemon.current_hp is not None and pokemon.current_hp > 0
+                    else pokemon.max_hp or stored_stats.get("hp", 0) or base_stats.get("hp", 0)
+                )
             ),
             "set": set_entry,
         }
@@ -475,6 +519,7 @@ class Simulator:
         team: dict[str, Pokemon],
         active_map: dict[str, Pokemon],
         is_player: bool,
+        fainted_active_count: int = 0,
     ) -> dict[str, Any]:
         gen = battle.gen
         # Pokemon Showdown stores "active" mons at positions 0/1 in `side.pokemon`
@@ -484,21 +529,37 @@ class Simulator:
         # the wrong mons are active (leading to invalid choice errors).
         team_list = list(team.values())
 
-        # Find which Pokemon are active
+        # Find which Pokemon are active, tracking fainted status per slot
         active_mons: list[Pokemon] = []
+        fainted_slots: list[bool] = []  # True if the Pokemon in this slot is fainted
         if active_map:
             for slot_suffix in ("a", "b"):
                 slot = f"{role}{slot_suffix}"
                 mon = active_map.get(slot)
                 if mon is not None:
-                    # Find this mon in team_list by identity or species
+                    # Use fainted status from active_map directly (most up-to-date)
+                    is_fainted = mon.fainted
+                    # Find this mon in team_list by identity, species, or base_species
+                    # (species can change with forms/terastallization)
                     for team_mon in team_list:
-                        if team_mon is mon or team_mon.species == mon.species:
+                        if (team_mon is mon or
+                            team_mon.species == mon.species or
+                            team_mon.base_species == mon.base_species or
+                            (hasattr(team_mon, 'name') and hasattr(mon, 'name') and
+                             team_mon.name == mon.name)):
                             if team_mon not in active_mons:
                                 active_mons.append(team_mon)
+                                fainted_slots.append(is_fainted)  # Use mon's fainted status
                             break
+                    else:
+                        # No match found in team - this can happen if team_list doesn't
+                        # have updated form info. Use mon directly.
+                        if mon not in active_mons:
+                            active_mons.append(mon)
+                            fainted_slots.append(is_fainted)
         else:
             active_mons = [mon for mon in team_list if getattr(mon, "active", False)]
+            fainted_slots = [mon.fainted for mon in active_mons]
 
         # REORDER the team: active Pokemon must be at positions 0 and 1
         # This is required because Showdown's active slots always reference positions 0/1
@@ -517,18 +578,22 @@ class Simulator:
         foe = "[Side:p2]" if role == "p1" else "[Side:p1]"
 
         # Active slots MUST reference positions 0 and 1 (slots a and b)
+        # Keep fainted Pokemon in active slots - Showdown needs them there for forceSwitch
         active_slots: list[Any] = [None, None]
         for idx in range(min(2, len(active_mons))):
             slot_id = f"{role}{chr(ord('a') + idx)}"  # p1a/p1b or p2a/p2b
             active_slots[idx] = f"[Pokemon:{slot_id}]"
 
-        # Mark positions 0 and 1 as active
+        # Mark positions 0 and 1 as active, and set switchFlag for fainted ones
         for idx, mon in enumerate(pokemon):
             mon["isActive"] = idx < len(active_mons) and idx < 2
             if mon["isActive"]:
                 mon["activeTurns"] = mon.get("activeTurns", 0) or 1
                 mon["newlySwitched"] = False
                 mon["isStarted"] = True
+                # If this active Pokemon is fainted, set switchFlag (used by getRequests)
+                if idx < len(fainted_slots) and fainted_slots[idx]:
+                    mon["switchFlag"] = True
         return {
             "foe": foe,
             "allySide": None,
@@ -555,7 +620,7 @@ class Simulator:
                 "cantUndo": False,
                 "error": "",
                 "actions": [],
-                "forcedSwitchesLeft": 0,
+                "forcedSwitchesLeft": fainted_active_count,
                 "forcedPassesLeft": 0,
                 "switchIns": [],
                 "zMove": False,
