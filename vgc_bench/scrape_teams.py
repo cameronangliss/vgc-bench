@@ -137,11 +137,9 @@ def fetch_pokepaste_raw(session: requests.Session, pokepaste_url: str) -> str:
 
 
 def has_banned_move_or_ability(team_text: str) -> bool:
-    if re.search(r"^\s*Ability:\s*Commander\s*$", team_text, flags=re.IGNORECASE | re.MULTILINE):
-        return True
     if re.search(r"^\s*Ability:\s*Illusion\s*$", team_text, flags=re.IGNORECASE | re.MULTILINE):
         return True
-    if re.search(r"^\s*-\s*Transform\s*$", team_text, flags=re.IGNORECASE | re.MULTILINE):
+    if re.search(r"^\s*Ability:\s*Commander\s*$", team_text, flags=re.IGNORECASE | re.MULTILINE):
         return True
     return False
 
@@ -240,7 +238,7 @@ def scrape_regulation(regulation: str) -> None:
                 f.write(team_text)
             saved += 1
     print(f"Saved {saved} teams to {reg_dir}")
-    print(f"Skipped {skipped_banned} teams with Commander/Illusion/Transform")
+    print(f"Skipped {skipped_banned} teams with Illusion/Commander")
     print(f"Skipped {skipped_duplicates} duplicate teams")
 
 
