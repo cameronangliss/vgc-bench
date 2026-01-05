@@ -106,9 +106,11 @@ def get_log_json(ident: str) -> dict[str, Any] | None:
 
 def get_rating(log: str, role: str) -> int | None:
     start_index = log.index(f"|player|{role}|")
-    rating_str = log[start_index : log.index("\n", start_index)].split("|")[5]
-    rating = int(rating_str) if rating_str else None
-    return rating
+    split_str = log[start_index : log.index("\n", start_index)].split("|")
+    if len(split_str) > 5:
+        rating_str = split_str[5]
+        rating = int(rating_str) if rating_str else None
+        return rating
 
 
 def main(num_workers: int, read_increment: int):
