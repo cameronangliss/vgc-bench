@@ -251,8 +251,14 @@ def scrape_regulation(regulation: str) -> None:
                 event_subdirs[key] = reg_dir / event_dir_name(event_name, date_str)
             event_subdir = event_subdirs[key]
             event_subdir.mkdir(parents=True, exist_ok=True)
-            filename = f"{placement_to_filename(placement)}.txt"
+            base_filename = placement_to_filename(placement)
+            filename = f"{base_filename}.txt"
             out_path = event_subdir / filename
+            suffix = 2
+            while out_path.exists():
+                filename = f"{base_filename}_{suffix}.txt"
+                out_path = event_subdir / filename
+                suffix += 1
             with open(out_path, "w") as f:
                 f.write(team_text)
             saved += 1
