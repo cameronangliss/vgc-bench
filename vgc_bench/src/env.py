@@ -22,13 +22,22 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
     _teampreview_draft2: list[int] = []
 
     def __init__(
-        self, learning_style: LearningStyle, chooses_on_teampreview: bool, *args: Any, **kwargs: Any
+        self,
+        learning_style: LearningStyle,
+        chooses_on_teampreview: bool,
+        *args: Any,
+        **kwargs: Any,
     ):
         super().__init__(*args, **kwargs)
         self.metadata = {"name": "showdown_v1", "render_modes": ["human"]}
         self.render_mode: str | None = None
         self.observation_spaces = {
-            agent: Box(-1, len(moves), shape=(2 * act_len + 12 * chunk_obs_len,), dtype=np.float32)
+            agent: Box(
+                -1,
+                len(moves),
+                shape=(2 * act_len + 12 * chunk_obs_len,),
+                dtype=np.float32,
+            )
             for agent in self.possible_agents
         }
         self._learning_style = learning_style
@@ -77,7 +86,10 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
                 env = ss.frame_stack_v2(env, stack_size=num_frames, stack_dim=0)
             env = ss.pettingzoo_env_to_vec_env_v1(env)
             env = ss.concat_vec_envs_v1(
-                env, num_vec_envs=num_envs, num_cpus=num_envs, base_class="stable_baselines3"
+                env,
+                num_vec_envs=num_envs,
+                num_cpus=num_envs,
+                base_class="stable_baselines3",
             )
             return env
         else:
@@ -135,6 +147,8 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
 
     def embed_battle(self, battle: AbstractBattle) -> npt.NDArray[np.float32]:
         teampreview_draft = (
-            self._teampreview_draft1 if battle.player_role == "p1" else self._teampreview_draft2
+            self._teampreview_draft1
+            if battle.player_role == "p1"
+            else self._teampreview_draft2
         )
         return PolicyPlayer.embed_battle(battle, teampreview_draft, fake_rating=True)

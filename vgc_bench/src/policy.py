@@ -2,7 +2,15 @@ from typing import Any
 
 import torch
 from gymnasium import Space
-from src.utils import abilities, act_len, chunk_obs_len, glob_obs_len, items, moves, side_obs_len
+from src.utils import (
+    abilities,
+    act_len,
+    chunk_obs_len,
+    glob_obs_len,
+    items,
+    moves,
+    side_obs_len,
+)
 from stable_baselines3.common.distributions import MultiCategoricalDistribution
 from stable_baselines3.common.policies import ActorCriticPolicy
 from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
@@ -20,7 +28,9 @@ action_map = (
 
 
 class MaskedActorCriticPolicy(ActorCriticPolicy):
-    def __init__(self, *args: Any, num_frames: int, chooses_on_teampreview: bool, **kwargs: Any):
+    def __init__(
+        self, *args: Any, num_frames: int, chooses_on_teampreview: bool, **kwargs: Any
+    ):
         self.num_frames = num_frames
         self.chooses_on_teampreview = chooses_on_teampreview
         self.actor_grad = True
@@ -84,7 +94,9 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         entropy = distribution.entropy()
         return value_logits, log_prob, entropy
 
-    def get_logits(self, obs: torch.Tensor, actor_grad: bool) -> tuple[torch.Tensor, torch.Tensor]:
+    def get_logits(
+        self, obs: torch.Tensor, actor_grad: bool
+    ) -> tuple[torch.Tensor, torch.Tensor]:
         actor_context = torch.enable_grad() if actor_grad else torch.no_grad()
         features = self.extract_features(obs)
         if self.share_features_extractor:
@@ -100,7 +112,10 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         return action_logits, value_logits
 
     def get_dist_from_logits(
-        self, obs: torch.Tensor, action_logits: torch.Tensor, action: torch.Tensor | None = None
+        self,
+        obs: torch.Tensor,
+        action_logits: torch.Tensor,
+        action: torch.Tensor | None = None,
     ) -> MultiCategoricalDistribution:
         batch_size = obs.size(0)
         mask = obs.view(batch_size, self.num_frames, -1)
@@ -120,7 +135,9 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
             .expand(len(ally_actions), -1)
         )
         ally_passed = ally_actions == 0
-        ally_force_passed = ((mask[:, 0] == 1) & (mask[:, :act_len].sum(1) == 1)).unsqueeze(1)
+        ally_force_passed = (
+            (mask[:, 0] == 1) & (mask[:, :act_len].sum(1) == 1)
+        ).unsqueeze(1)
         ally_switched = (1 <= ally_actions) & (ally_actions <= 6)
         ally_terastallized = (86 < ally_actions) & (ally_actions <= 106)
         updated_half = mask[:, act_len:] * ~(
@@ -138,7 +155,10 @@ class AttentionExtractor(BaseFeaturesExtractor):
     embed_layers: int = 3
 
     def __init__(
-        self, observation_space: Space[Any], num_frames: int, chooses_on_teampreview: bool
+        self,
+        observation_space: Space[Any],
+        num_frames: int,
+        chooses_on_teampreview: bool,
     ):
         super().__init__(observation_space, features_dim=self.proj_len)
         self.num_frames = num_frames
@@ -146,9 +166,15 @@ class AttentionExtractor(BaseFeaturesExtractor):
         self.ability_embed = nn.Embedding(
             len(abilities), self.embed_len, max_norm=self.embed_len**0.5
         )
-        self.item_embed = nn.Embedding(len(items), self.embed_len, max_norm=self.embed_len**0.5)
-        self.move_embed = nn.Embedding(len(moves), self.embed_len, max_norm=self.embed_len**0.5)
-        self.pokemon_proj = nn.Linear(chunk_obs_len + 6 * (self.embed_len - 1), self.proj_len)
+        self.item_embed = nn.Embedding(
+            len(items), self.embed_len, max_norm=self.embed_len**0.5
+        )
+        self.move_embed = nn.Embedding(
+            len(moves), self.embed_len, max_norm=self.embed_len**0.5
+        )
+        self.pokemon_proj = nn.Linear(
+            chunk_obs_len + 6 * (self.embed_len - 1), self.proj_len
+        )
         self.cls_token = nn.Parameter(torch.randn(1, 1, self.proj_len))
         self.pokemon_encoder = nn.TransformerEncoder(
             nn.TransformerEncoderLayer(
@@ -167,7 +193,9 @@ class AttentionExtractor(BaseFeaturesExtractor):
             self.register_buffer("frame_encoding", torch.eye(num_frames).unsqueeze(0))
             self.frame_proj = nn.Linear(self.proj_len + num_frames, self.proj_len)
             self.mask: torch.Tensor
-            self.register_buffer("mask", nn.Transformer.generate_square_subsequent_mask(num_frames))
+            self.register_buffer(
+                "mask", nn.Transformer.generate_square_subsequent_mask(num_frames)
+            )
             self.frame_encoder = nn.TransformerEncoder(
                 nn.TransformerEncoderLayer(
                     d_model=self.proj_len,
@@ -213,4 +241,6 @@ class AttentionExtractor(BaseFeaturesExtractor):
         frame_encoding = self.frame_encoding.expand(batch_size, -1, -1)
         frame_tokens = torch.cat([frame_tokens, frame_encoding], dim=2)
         frame_tokens = self.frame_proj(frame_tokens)
-        return self.frame_encoder(frame_tokens, mask=self.mask, is_causal=True)[:, -1, :]
+        return self.frame_encoder(frame_tokens, mask=self.mask, is_causal=True)[
+            :, -1, :
+        ]

@@ -16,7 +16,9 @@ class TeamToggle:
             self._last_value = random.choice(range(self.num_teams))
             return self._last_value
         else:
-            value = random.choice([t for t in range(self.num_teams) if t != self._last_value])
+            value = random.choice(
+                [t for t in range(self.num_teams) if t != self._last_value]
+            )
             self._last_value = None
             return value
 
@@ -59,7 +61,8 @@ def calc_team_similarity_score(team1: str, team2: str):
         matches = [
             p
             for p in mon_builders2
-            if (p.species or p.nickname) == (mon_builder.species or mon_builder.nickname)
+            if (p.species or p.nickname)
+            == (mon_builder.species or mon_builder.nickname)
         ]
         if matches:
             match_pairs += [(mon_builder, matches[0])]
@@ -71,11 +74,15 @@ def calc_team_similarity_score(team1: str, team2: str):
             similarity_score += 1
         if mon1.tera_type == mon2.tera_type:
             similarity_score += 1
-        ev_dist = sum([abs(ev1 - ev2) for ev1, ev2 in zip(mon1.evs, mon2.evs)]) / (2 * 508)
+        ev_dist = sum([abs(ev1 - ev2) for ev1, ev2 in zip(mon1.evs, mon2.evs)]) / (
+            2 * 508
+        )
         similarity_score += 1 - ev_dist
         if mon1.nature == mon2.nature:
             similarity_score += 1
-        iv_dist = sum([abs(iv1 - iv2) for iv1, iv2 in zip(mon1.ivs, mon2.ivs)]) / (6 * 31)
+        iv_dist = sum([abs(iv1 - iv2) for iv1, iv2 in zip(mon1.ivs, mon2.ivs)]) / (
+            6 * 31
+        )
         similarity_score += 1 - iv_dist
         for move in mon1.moves:
             if move in mon2.moves:
@@ -93,7 +100,9 @@ def find_run_id(team_ids: set[int], battle_format: str) -> int:
     return run_id
 
 
-def get_team_ids(run_id: int, num_teams: int, battle_format: str, take_from_end: bool) -> list[int]:
+def get_team_ids(
+    run_id: int, num_teams: int, battle_format: str, take_from_end: bool
+) -> list[int]:
     paths = get_team_paths(battle_format)
     teams = list(range(len(paths)))
     random.Random(run_id).shuffle(teams)

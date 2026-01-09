@@ -9,7 +9,9 @@ from src.utils import format_map
 from stable_baselines3 import PPO
 
 
-async def play(battle_format: str, run_id: int, num_teams: int, n_games: int, play_on_ladder: bool):
+async def play(
+    battle_format: str, run_id: int, num_teams: int, n_games: int, play_on_ladder: bool
+):
     print("Setting up...")
     path = f"results{run_id}/saves-bc-sp/{num_teams}-teams"
     agent = PolicyPlayer(
@@ -36,13 +38,21 @@ async def play(battle_format: str, run_id: int, num_teams: int, n_games: int, pl
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--reg", type=str, required=True, help="VGC regulation to play in, i.e. G")
-    parser.add_argument("--run_id", type=int, required=True, help="AI's ID from its training run")
+    parser.add_argument(
+        "--reg", type=str, required=True, help="VGC regulation to play in, i.e. G"
+    )
+    parser.add_argument(
+        "--run_id", type=int, required=True, help="AI's ID from its training run"
+    )
     parser.add_argument(
         "--num_teams", type=int, default=1, help="Number of teams AI was trained with"
     )
-    parser.add_argument("-n", type=int, default=1, help="Number of games to play. Default is 1.")
-    parser.add_argument("-l", action="store_true", help="Play ladder. Default accepts challenges.")
+    parser.add_argument(
+        "-n", type=int, default=1, help="Number of games to play. Default is 1."
+    )
+    parser.add_argument(
+        "-l", action="store_true", help="Play ladder. Default accepts challenges."
+    )
     args = parser.parse_args()
     battle_format = format_map[args.reg.lower()]
     asyncio.run(play(battle_format, args.run_id, args.num_teams, args.n, args.l))

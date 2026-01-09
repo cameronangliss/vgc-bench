@@ -19,23 +19,23 @@ dependencies = [
     "torch",
     "torch-tb-profiler",
 ]
-optional-dependencies = { dev = ["black", "isort"] }
+optional-dependencies = { dev = ["black", "isort", "pyright"] }
 
 [tool.setuptools.packages.find]
 include = ["vgc_bench"]
 
 [tool.black]
-line-length = 100
+line-length = 88
 skip-magic-trailing-comma = true
 
 [tool.isort]
 profile = "black"
-line_length = 100
+line_length = 88
 multi_line_output = 3
 
 [tool.pyright]
 include = ["vgc_bench"]
-pythonVersion = "3.12"
+pythonVersion = "3.13"
 reportPrivateUsage = false
 reportUnknownLambdaType = false
 reportUnknownMemberType = false

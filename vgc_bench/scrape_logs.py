@@ -18,7 +18,9 @@ def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:
             old_logs = json.load(f)
     else:
         old_logs = {}
-    log_times = [int(time) for f, (time, _) in old_logs.items() if f.startswith(battle_format)]
+    log_times = [
+        int(time) for f, (time, _) in old_logs.items() if f.startswith(battle_format)
+    ]
     oldest = min(log_times) if log_times else 2_000_000_000
     newest = max(log_times) if log_times else None
     battle_idents = get_battle_idents(increment, battle_format, oldest, newest)
@@ -54,8 +56,12 @@ def can_distinguish_team_members(log: str, player_role: str) -> bool:
         Pokemon(9, details=dets)
         for dets in re.findall(r"\|poke\|" + player_role + r"\|([^,|]+)", log)
     ]
-    showteam = [line for line in log.split("\n") if line.startswith(f"|showteam|{player_role}|")][0]
-    showteam_names = [mon.split("|")[0] for mon in "|".join(showteam.split("|")[3:]).split("]")]
+    showteam = [
+        line for line in log.split("\n") if line.startswith(f"|showteam|{player_role}|")
+    ][0]
+    showteam_names = [
+        mon.split("|")[0] for mon in "|".join(showteam.split("|")[3:]).split("]")
+    ]
     for mon in teampreview_mons:
         matches = [
             name
@@ -76,11 +82,15 @@ def get_battle_idents(
     if newest is not None:
         oldest_ = 2_000_000_000
         while oldest_ >= newest:
-            battle_idents, oldest_ = update_battle_idents(battle_idents, battle_format, oldest_)
+            battle_idents, oldest_ = update_battle_idents(
+                battle_idents, battle_format, oldest_
+            )
     # Collecting games that are older than anything we've seen yet
     while len(battle_idents) < num_battles:
         o = oldest
-        battle_idents, oldest = update_battle_idents(battle_idents, battle_format, oldest)
+        battle_idents, oldest = update_battle_idents(
+            battle_idents, battle_format, oldest
+        )
         if oldest == o:
             break
     return battle_idents
@@ -90,10 +100,14 @@ def update_battle_idents(
     battle_idents: set[str], battle_format: str, oldest: int
 ) -> tuple[set[str], int]:
     site = "https://replay.pokemonshowdown.com"
-    response = requests.get(f"{site}/search.json?format={battle_format}&before={oldest + 1}")
+    response = requests.get(
+        f"{site}/search.json?format={battle_format}&before={oldest + 1}"
+    )
     new_battle_jsons = json.loads(response.text)
     oldest = new_battle_jsons[-1]["uploadtime"]
-    battle_idents |= {bj["id"] for bj in new_battle_jsons if bj["id"].startswith(battle_format)}
+    battle_idents |= {
+        bj["id"] for bj in new_battle_jsons if bj["id"].startswith(battle_format)
+    }
     return battle_idents, oldest
 
 

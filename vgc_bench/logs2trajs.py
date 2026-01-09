@@ -85,7 +85,10 @@ class LogReader(Player):
         lines = msg.split("\n")
         order = PassBattleOrder()
         for line in lines:
-            if line.startswith(f"|move|{battle.player_role}{slot}: ") and "[from]" not in line:
+            if (
+                line.startswith(f"|move|{battle.player_role}{slot}: ")
+                and "[from]" not in line
+            ):
                 [_, _, identifier, move_id, target_identifier, *_] = line.split("|")
                 active = battle.active_pokemon[pos]
                 assert active is not None, battle.player_role
@@ -94,7 +97,9 @@ class LogReader(Player):
                     battle._available_moves[pos] += [move]
                 else:
                     move = active.moves[to_id_str(move_id)]
-                target_lines = [l for l in msg.split("\n") if f"|switch|{target_identifier}" in l]
+                target_lines = [
+                    l for l in msg.split("\n") if f"|switch|{target_identifier}" in l
+                ]
                 target_details = target_lines[0].split("|")[3] if target_lines else ""
                 target = (
                     battle.get_pokemon(target_identifier, details=target_details)
@@ -103,11 +108,13 @@ class LogReader(Player):
                 )
                 did_tera = f"|-terastallize|{identifier}|" in msg
                 order = SingleBattleOrder(
-                    move, terastallize=did_tera, move_target=battle.to_showdown_target(move, target)
+                    move,
+                    terastallize=did_tera,
+                    move_target=battle.to_showdown_target(move, target),
                 )
-            elif line.startswith(f"|switch|{battle.player_role}{slot}: ") or line.startswith(
-                f"|drag|{battle.player_role}{slot}: "
-            ):
+            elif line.startswith(
+                f"|switch|{battle.player_role}{slot}: "
+            ) or line.startswith(f"|drag|{battle.player_role}{slot}: "):
                 [_, _, identifier, details, *_] = line.split("|")
                 mon = battle.get_pokemon(identifier, details=details)
                 order = SingleBattleOrder(mon)
@@ -163,7 +170,11 @@ class LogReader(Player):
             self.actions[1][1] = teampreview_draft[0]
         elif self.actions[1][0] == self.actions[1][1]:
             self.actions[1][1] = random.choice(
-                [i for i in range(1, 7) if i not in self.actions[0] and i not in self.actions[1]]
+                [
+                    i
+                    for i in range(1, 7)
+                    if i not in self.actions[0] and i not in self.actions[1]
+                ]
             )
         actions = np.stack(self.actions, axis=0)
         return self.embed_states(self.states, actions), actions
@@ -199,7 +210,9 @@ def process_logs(
     trajs = []
     task_params = [
         (tag, log, "p1", min_rating, only_winner) for tag, (_, log) in log_jsons.items()
-    ] + [(tag, log, "p2", min_rating, only_winner) for tag, (_, log) in log_jsons.items()]
+    ] + [
+        (tag, log, "p2", min_rating, only_winner) for tag, (_, log) in log_jsons.items()
+    ]
     num_empty = 0
     num_errors = 0
     for chunk in chunked(task_params, 10_000):
@@ -263,7 +276,9 @@ def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bo
         _READER_LOOP = asyncio.new_event_loop()
         Thread(target=_READER_LOOP.run_forever, daemon=True).start()
 
-    executor = ProcessPoolExecutor(max_workers=num_workers, initializer=_init_worker_loop)
+    executor = ProcessPoolExecutor(
+        max_workers=num_workers, initializer=_init_worker_loop
+    )
     os.makedirs("data/trajs", exist_ok=True)
     total = 0
     for f in all_formats:
@@ -281,7 +296,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Parses logs in data/ folder into trajectories stored in data/trajs/"
     )
-    parser.add_argument("--num_workers", type=int, default=1, help="number of parallel log parsers")
+    parser.add_argument(
+        "--num_workers", type=int, default=1, help="number of parallel log parsers"
+    )
     parser.add_argument(
         "--min_rating",
         type=int,

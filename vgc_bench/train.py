@@ -75,7 +75,10 @@ def train(
         batch_size=64,
         ent_coef=1e-3,
         tensorboard_log=f"results{run_id}/logs-{run_ident}",
-        policy_kwargs={"num_frames": num_frames, "chooses_on_teampreview": chooses_on_teampreview},
+        policy_kwargs={
+            "num_frames": num_frames,
+            "chooses_on_teampreview": chooses_on_teampreview,
+        },
         device=device,
     )
     num_saved_timesteps = 0
@@ -85,7 +88,9 @@ def train(
         ]
         if saved_policy_timesteps:
             num_saved_timesteps = max(saved_policy_timesteps)
-            ppo.set_parameters(f"{save_dir}/{num_saved_timesteps}.zip", device=ppo.device)
+            ppo.set_parameters(
+                f"{save_dir}/{num_saved_timesteps}.zip", device=ppo.device
+            )
             if num_saved_timesteps < save_interval:
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
@@ -154,12 +159,24 @@ if __name__ == "__main__":
         action="store_true",
         help="training agents will effectively start games after teampreview, with teampreview decision selected randomly",
     )
-    parser.add_argument("--reg", type=str, required=True, help="VGC regulation to train on, i.e. G")
-    parser.add_argument("--run_id", type=int, default=1, help="run ID for the training session")
-    parser.add_argument("--num_teams", type=int, default=2, help="number of teams to train with")
-    parser.add_argument("--num_envs", type=int, default=1, help="number of parallel envs to run")
-    parser.add_argument("--port", type=int, default=8000, help="port to run showdown server on")
-    parser.add_argument("--device", type=str, default="cuda:0", help="device to use for training")
+    parser.add_argument(
+        "--reg", type=str, required=True, help="VGC regulation to train on, i.e. G"
+    )
+    parser.add_argument(
+        "--run_id", type=int, default=1, help="run ID for the training session"
+    )
+    parser.add_argument(
+        "--num_teams", type=int, default=2, help="number of teams to train with"
+    )
+    parser.add_argument(
+        "--num_envs", type=int, default=1, help="number of parallel envs to run"
+    )
+    parser.add_argument(
+        "--port", type=int, default=8000, help="port to run showdown server on"
+    )
+    parser.add_argument(
+        "--device", type=str, default="cuda:0", help="device to use for training"
+    )
     args = parser.parse_args()
     set_global_seed(args.run_id)
     battle_format = format_map[args.reg.lower()]

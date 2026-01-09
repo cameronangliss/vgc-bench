@@ -24,7 +24,9 @@ class LLMPlayer(Player):
             "meta-llama/Meta-Llama-3.1-8B-Instruct"
         )
         model = transformers.AutoModelForCausalLM.from_pretrained(
-            "meta-llama/Meta-Llama-3.1-8B-Instruct", torch_dtype="auto", device_map=self.device
+            "meta-llama/Meta-Llama-3.1-8B-Instruct",
+            torch_dtype="auto",
+            device_map=self.device,
         )
         tokenizer.pad_token = tokenizer.eos_token
         model.config.pad_token_id = tokenizer.eos_token_id
@@ -67,11 +69,18 @@ class LLMPlayer(Player):
         else:
             assert ally_action is not None
             mask = torch.tensor(
-                [PolicyPlayer.get_action_mask(battle, 0) + PolicyPlayer.get_action_mask(battle, 1)]
+                [
+                    PolicyPlayer.get_action_mask(battle, 0)
+                    + PolicyPlayer.get_action_mask(battle, 1)
+                ]
             )
             ally_action_tensor = torch.tensor([[ally_action]])
-            mask = MaskedActorCriticPolicy._update_mask(mask, ally_action_tensor)[0, act_len:]
-            ally_order = DoublesEnv._action_to_order_individual(ally_action, battle, False, 0)
+            mask = MaskedActorCriticPolicy._update_mask(mask, ally_action_tensor)[
+                0, act_len:
+            ]
+            ally_order = DoublesEnv._action_to_order_individual(
+                ally_action, battle, False, 0
+            )
         action_space = [i for i, m in enumerate(mask.tolist()) if m == 1]
         if not action_space:
             return np.int64(0)
@@ -82,10 +91,16 @@ class LLMPlayer(Player):
             for a in action_space
         ]
         action_names = [
-            self.explain_battle_order(battle, o, pos) for o in order_space if o is not None
+            self.explain_battle_order(battle, o, pos)
+            for o in order_space
+            if o is not None
         ]
         prompt = self.explain_battle(
-            battle, self._teampreview_drafts[battle.battle_tag], action_names, ally_order, pos
+            battle,
+            self._teampreview_drafts[battle.battle_tag],
+            action_names,
+            ally_order,
+            pos,
         )
         response = self.get_response(prompt)
         try:
@@ -112,7 +127,9 @@ class LLMPlayer(Player):
         for _ in range(2):
             actives += [self.teampreview_individual(battle, actives, bench)]
             self._teampreview_drafts[battle.battle_tag] += [
-                i for i, p in enumerate(battle.team.values(), start=1) if p == actives[-1]
+                i
+                for i, p in enumerate(battle.team.values(), start=1)
+                if p == actives[-1]
             ]
         for _ in range(2):
             bench += [self.teampreview_individual(battle, actives, bench)]
@@ -124,7 +141,9 @@ class LLMPlayer(Player):
     def teampreview_individual(
         self, battle: DoubleBattle, actives: list[Pokemon], bench: list[Pokemon]
     ) -> Pokemon:
-        remaining_pokemon = [p for p in battle.team.values() if p not in actives and p not in bench]
+        remaining_pokemon = [
+            p for p in battle.team.values() if p not in actives and p not in bench
+        ]
         prompt = self.explain_battle_teampreview(battle, actives, bench)
         response = self.get_response(prompt)
         try:
@@ -156,8 +175,12 @@ class LLMPlayer(Player):
             for i, p in enumerate(battle.team.values(), start=1)
             if i in teampreview_draft and p not in [a1, a2]
         ]
-        opp_benched_pokemon = [p for p in battle.opponent_team.values() if p not in [o1, o2]]
-        listed_action_space = "\n".join(f"{i + 1}. {name}" for i, name in enumerate(action_names))
+        opp_benched_pokemon = [
+            p for p in battle.opponent_team.values() if p not in [o1, o2]
+        ]
+        listed_action_space = "\n".join(
+            f"{i + 1}. {name}" for i, name in enumerate(action_names)
+        )
         return f"""The following is what you are currently observing:
 
 ########## GLOBAL EFFECTS ##########
@@ -217,7 +240,9 @@ Respond with the number corresponding to your chosen action. PLEASE GIVE NO FURT
     def explain_battle_teampreview(
         battle: DoubleBattle, actives: list[Pokemon], bench: list[Pokemon]
     ) -> str:
-        remaining_pokemon = [p for p in battle.team.values() if p not in actives and p not in bench]
+        remaining_pokemon = [
+            p for p in battle.team.values() if p not in actives and p not in bench
+        ]
         opponent_pokemon = list(battle.opponent_team.values())
         return f"""The following is what you are currently observing in teampreview:
 
@@ -298,21 +323,32 @@ Respond with the number corresponding to your choice. PLEASE GIVE NO FURTHER RES
             assert active_mon is not None
             assert active_mon.tera_type is not None
             order_str = order_str.replace(
-                "terastallize", f"activating {active_mon.tera_type.name.lower()} tera type"
+                "terastallize",
+                f"activating {active_mon.tera_type.name.lower()} tera type",
             )
         return order_str
 
     @staticmethod
     def explain_remaining_pokemon(remaining_pokemon: list[Pokemon]) -> str:
         remain_str = f"1. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[0])}"
-        remain_str += f"\n\n2. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[1])}"
-        remain_str += f"\n\n3. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[2])}"
+        remain_str += (
+            f"\n\n2. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[1])}"
+        )
+        remain_str += (
+            f"\n\n3. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[2])}"
+        )
         if len(remaining_pokemon) > 3:
-            remain_str += f"\n\n4. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[3])}"
+            remain_str += (
+                f"\n\n4. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[3])}"
+            )
         if len(remaining_pokemon) > 4:
-            remain_str += f"\n\n5. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[4])}"
+            remain_str += (
+                f"\n\n5. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[4])}"
+            )
         if len(remaining_pokemon) > 5:
-            remain_str += f"\n\n6. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[5])}"
+            remain_str += (
+                f"\n\n6. {LLMPlayer.explain_inactive_pokemon(remaining_pokemon[5])}"
+            )
         return remain_str
 
     @staticmethod
@@ -347,14 +383,22 @@ Number of turns user has protected in a row: {pokemon.protect_counter}"""
     @staticmethod
     def explain_inactive_pokemon(pokemon: Pokemon) -> str:
         moves = list(pokemon.moves.values())
-        reveal_str = "revealed in battle" if pokemon.revealed else "unrevealed in battle"
+        reveal_str = (
+            "revealed in battle" if pokemon.revealed else "unrevealed in battle"
+        )
         type_str = "/".join([t.name.lower() for t in pokemon.types])
         tera_type_str = (
-            str(pokemon.tera_type.name.lower()) if pokemon.tera_type is not None else "None"
+            str(pokemon.tera_type.name.lower())
+            if pokemon.tera_type is not None
+            else "None"
         )
         if pokemon.tera_type is not None and not pokemon.is_terastallized:
             tera_type_str += f" (unused)"
-        hp_str = f"{round(100 * pokemon.current_hp_fraction)}%" if pokemon.max_hp > 0 else "unknown"
+        hp_str = (
+            f"{round(100 * pokemon.current_hp_fraction)}%"
+            if pokemon.max_hp > 0
+            else "unknown"
+        )
         if pokemon.fainted:
             return f"{pokemon.base_species} | fainted"
         return f"""{pokemon.base_species} | HP: {hp_str} | type: {type_str} | tera-type: {tera_type_str} | {reveal_str}
@@ -386,13 +430,19 @@ Base stats:
         if boosts["def"] != 0:
             boost_str += f"\n    Defense: x{LLMPlayer.explain_boost(boosts['def'])}"
         if boosts["spa"] != 0:
-            boost_str += f"\n    Special Attack: x{LLMPlayer.explain_boost(boosts['spa'])}"
+            boost_str += (
+                f"\n    Special Attack: x{LLMPlayer.explain_boost(boosts['spa'])}"
+            )
         if boosts["spd"] != 0:
-            boost_str += f"\n    Special Defense: x{LLMPlayer.explain_boost(boosts['spd'])}"
+            boost_str += (
+                f"\n    Special Defense: x{LLMPlayer.explain_boost(boosts['spd'])}"
+            )
         if boosts["spe"] != 0:
             boost_str += f"\n    Speed: x{LLMPlayer.explain_boost(boosts['spe'])}"
         if boosts["accuracy"] != 0:
-            boost_str += f"\n    Accuracy: x{LLMPlayer.explain_boost(boosts['accuracy'])}"
+            boost_str += (
+                f"\n    Accuracy: x{LLMPlayer.explain_boost(boosts['accuracy'])}"
+            )
         if boosts["evasion"] != 0:
             boost_str += f"\n    Evasion: x{LLMPlayer.explain_boost(boosts['evasion'])}"
         if boost_str == "Stat Modifiers:":

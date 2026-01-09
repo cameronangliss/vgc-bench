@@ -25,7 +25,15 @@ from poke_env.environment import DoublesEnv
 from poke_env.environment.env import _EnvPlayer
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
 from src.policy import MaskedActorCriticPolicy
-from src.utils import abilities, act_len, chunk_obs_len, items, move_obs_len, moves, pokemon_obs_len
+from src.utils import (
+    abilities,
+    act_len,
+    chunk_obs_len,
+    items,
+    move_obs_len,
+    moves,
+    pokemon_obs_len,
+)
 from stable_baselines3.common.policies import BasePolicy
 
 
@@ -38,7 +46,9 @@ class PolicyPlayer(Player):
         super().__init__(*args, **kwargs)
         self.policy = policy
 
-    def choose_move(self, battle: AbstractBattle) -> BattleOrder | Awaitable[BattleOrder]:
+    def choose_move(
+        self, battle: AbstractBattle
+    ) -> BattleOrder | Awaitable[BattleOrder]:
         assert isinstance(battle, DoubleBattle)
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         if battle._wait:
@@ -81,12 +91,16 @@ class PolicyPlayer(Player):
             obs = np.concatenate(self._frames[battle.battle_tag])
         return obs
 
-    def get_order(self, battle: DoubleBattle, action: npt.NDArray[np.int64]) -> BattleOrder:
+    def get_order(
+        self, battle: DoubleBattle, action: npt.NDArray[np.int64]
+    ) -> BattleOrder:
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         if battle.teampreview:
             if not self.policy.chooses_on_teampreview:
                 available_actions = [
-                    i for i in range(1, 7) if i not in self._teampreview_drafts[battle.battle_tag]
+                    i
+                    for i in range(1, 7)
+                    if i not in self._teampreview_drafts[battle.battle_tag]
                 ]
                 action = np.array(random.sample(available_actions, k=2))
             self._teampreview_drafts[battle.battle_tag] += action.tolist()
@@ -106,7 +120,9 @@ class PolicyPlayer(Player):
             return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
         else:
             message = self.random_teampreview(battle)
-            self._teampreview_drafts[battle.battle_tag] = [int(i) for i in message[6:-2]]
+            self._teampreview_drafts[battle.battle_tag] = [
+                int(i) for i in message[6:-2]
+            ]
             return message
 
     @staticmethod
@@ -155,7 +171,9 @@ class PolicyPlayer(Player):
             )
             for i, p in enumerate(battle.opponent_team.values())
         ]
-        opp_pokemons += [np.zeros(pokemon_obs_len, dtype=np.float32)] * (6 - len(opp_pokemons))
+        opp_pokemons += [np.zeros(pokemon_obs_len, dtype=np.float32)] * (
+            6 - len(opp_pokemons)
+        )
         return np.concatenate(
             [mask]
             + [np.concatenate([glob, side, p]) for p in pokemons]
@@ -170,7 +188,8 @@ class PolicyPlayer(Player):
             for w in Weather
         ]
         fields = [
-            min(battle.turn - battle.fields[f], 8) / 8 if f in battle.fields else 0 for f in Field
+            min(battle.turn - battle.fields[f], 8) / 8 if f in battle.fields else 0
+            for f in Field
         ]
         teampreview = float(battle.teampreview)
         reviving = float(battle.reviving)
@@ -216,7 +235,9 @@ class PolicyPlayer(Player):
         gims = opp_gims if opp else gims
         gimmicks = [float(g) for g in gims]
         player = battle.opponent_role if opp else battle.player_role
-        rat = [p for p in battle._players if p["player"] == player][0].get("rating", "0")
+        rat = [p for p in battle._players if p["player"] == player][0].get(
+            "rating", "0"
+        )
         rating = 1 if fake_rating else int(rat or "0") / 2000
         return np.array([*side_conditions, *gimmicks, rating], dtype=np.float32)
 
@@ -230,7 +251,9 @@ class PolicyPlayer(Player):
         in_draft: bool = False,
     ) -> npt.NDArray[np.float32]:
         # (mostly) stable fields
-        ability_id = abilities.index("null" if pokemon.ability is None else pokemon.ability)
+        ability_id = abilities.index(
+            "null" if pokemon.ability is None else pokemon.ability
+        )
         item_id = items.index("null" if pokemon.item is None else pokemon.item)
         move_ids = [
             moves.index("hiddenpower" if move.id.startswith("hiddenpower") else move.id)
@@ -238,7 +261,9 @@ class PolicyPlayer(Player):
         ]
         move_ids += [0] * (4 - len(move_ids))
         move_embeds = [PolicyPlayer.embed_move(move) for move in pokemon.moves.values()]
-        move_embeds += [np.zeros(move_obs_len, dtype=np.float32)] * (4 - len(move_embeds))
+        move_embeds += [np.zeros(move_obs_len, dtype=np.float32)] * (
+            4 - len(move_embeds)
+        )
         move_embeds = np.concatenate(move_embeds)
         types = [float(t in pokemon.types) for t in PokemonType]
         tera_type = [float(t == pokemon.tera_type) for t in PokemonType]
@@ -251,7 +276,10 @@ class PolicyPlayer(Player):
         status = [float(s == pokemon.status) for s in Status]
         status_counter = pokemon.status_counter / 16
         boosts = [b / 6 for b in pokemon.boosts.values()]
-        effects = [(min(pokemon.effects[e], 8) / 8 if e in pokemon.effects else 0) for e in Effect]
+        effects = [
+            (min(pokemon.effects[e], 8) / 8 if e in pokemon.effects else 0)
+            for e in Effect
+        ]
         first_turn = float(pokemon.first_turn)
         protect_counter = pokemon.protect_counter / 5
         must_recharge = float(pokemon.must_recharge)
@@ -332,7 +360,8 @@ class PolicyPlayer(Player):
             i + 1
             for i, pokemon in enumerate(battle.team.values())
             if not battle.trapped[pos]
-            and pokemon.base_species in [p.base_species for p in battle.available_switches[pos]]
+            and pokemon.base_species
+            in [p.base_species for p in battle.available_switches[pos]]
         ]
         active_mon = battle.active_pokemon[pos]
         if battle._wait or (any(battle.force_switch) and not battle.force_switch[pos]):
@@ -343,7 +372,10 @@ class PolicyPlayer(Player):
             actions = switch_space
         else:
             move_spaces = [
-                [7 + 5 * i + j + 2 for j in battle.get_possible_showdown_targets(move, active_mon)]
+                [
+                    7 + 5 * i + j + 2
+                    for j in battle.get_possible_showdown_targets(move, active_mon)
+                ]
                 for i, move in enumerate(active_mon.moves.values())
                 if move.id in [m.id for m in battle.available_moves[pos]]
             ]
@@ -406,7 +438,9 @@ class BatchPolicyPlayer(PolicyPlayer):
             return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
         else:
             message = self.random_teampreview(battle)
-            self._teampreview_drafts[battle.battle_tag] = [int(i) for i in message[6:-2]]
+            self._teampreview_drafts[battle.battle_tag] = [
+                int(i) for i in message[6:-2]
+            ]
             return message
 
     async def _inference_loop(self) -> None:

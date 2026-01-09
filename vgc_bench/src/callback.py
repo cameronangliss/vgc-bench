@@ -54,8 +54,12 @@ class Callback(BaseCallback):
         self.payoff_matrix: npt.NDArray[np.float32]
         self.prob_dist = None
         if self.learning_style == LearningStyle.DOUBLE_ORACLE:
-            if os.path.exists(f"{self.log_dir}/{self.num_teams}-teams-payoff-matrix.json"):
-                with open(f"{self.log_dir}/{self.num_teams}-teams-payoff-matrix.json") as f:
+            if os.path.exists(
+                f"{self.log_dir}/{self.num_teams}-teams-payoff-matrix.json"
+            ):
+                with open(
+                    f"{self.log_dir}/{self.num_teams}-teams-payoff-matrix.json"
+                ) as f:
                     self.payoff_matrix = np.array(json.load(f))
             else:
                 self.payoff_matrix = np.array([[0.5]])
@@ -113,9 +117,13 @@ class Callback(BaseCallback):
             self.model.save(f"{self.save_dir}/{self.model.num_timesteps}")
         else:
             try:
-                saves = [int(f[:-4]) for f in os.listdir(self.save_dir) if int(f[:-4]) >= 0]
+                saves = [
+                    int(f[:-4]) for f in os.listdir(self.save_dir) if int(f[:-4]) >= 0
+                ]
             except FileNotFoundError:
-                raise FileNotFoundError("behavior_clone on, but no model initialization found")
+                raise FileNotFoundError(
+                    "behavior_clone on, but no model initialization found"
+                )
             assert len(saves) > 0
         if self.learning_style == LearningStyle.EXPLOITER:
             policy = PPO.load(f"{self.save_dir}/-1", device=self.model.device).policy
@@ -127,14 +135,21 @@ class Callback(BaseCallback):
         self.model.logger.dump(self.model.num_timesteps)
         if self.behavior_clone:
             assert isinstance(self.model.policy, MaskedActorCriticPolicy)
-            self.model.policy.actor_grad = self.model.num_timesteps >= self.save_interval
-        if self.learning_style in [LearningStyle.FICTITIOUS_PLAY, LearningStyle.DOUBLE_ORACLE]:
+            self.model.policy.actor_grad = (
+                self.model.num_timesteps >= self.save_interval
+            )
+        if self.learning_style in [
+            LearningStyle.FICTITIOUS_PLAY,
+            LearningStyle.DOUBLE_ORACLE,
+        ]:
             policy_files = os.listdir(self.save_dir)
             policies = random.choices(
                 policy_files, weights=self.prob_dist, k=self.model.env.num_envs
             )
             for i in range(self.model.env.num_envs):
-                policy = PPO.load(f"{self.save_dir}/{policies[i]}", device=self.model.device).policy
+                policy = PPO.load(
+                    f"{self.save_dir}/{policies[i]}", device=self.model.device
+                ).policy
                 self.model.env.env_method("set_opp_policy", policy, indices=i)
 
     def _on_rollout_end(self):
@@ -157,11 +172,17 @@ class Callback(BaseCallback):
             ).policy
             win_rate = self.compare(self.eval_agent, self.eval_agent2, 1000)
             win_rates = np.append(win_rates, win_rate)
-        self.payoff_matrix = np.concat([self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1)
+        self.payoff_matrix = np.concat(
+            [self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1
+        )
         win_rates = np.append(win_rates, 0.5)
-        self.payoff_matrix = np.concat([self.payoff_matrix, win_rates.reshape(1, -1)], axis=0)
+        self.payoff_matrix = np.concat(
+            [self.payoff_matrix, win_rates.reshape(1, -1)], axis=0
+        )
         self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
-        with open(f"{self.log_dir}/{self.num_teams}-teams-payoff-matrix.json", "w") as f:
+        with open(
+            f"{self.log_dir}/{self.num_teams}-teams-payoff-matrix.json", "w"
+        ) as f:
             json.dump(
                 [
                     [round(win_rate, 2) for win_rate in win_rates]

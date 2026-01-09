@@ -58,11 +58,15 @@ def cross_eval_all_agents(
             team=RandomTeamBuilder(run_id, num_teams, battle_format),
         )
         best_checkpoints = asyncio.run(
-            get_best_checkpoints(battle_format, run_id, num_teams, port, device, num_battles)
+            get_best_checkpoints(
+                battle_format, run_id, num_teams, port, device, num_battles
+            )
         )
         for method, checkpoint in best_checkpoints.items():
             agent = BatchPolicyPlayer(
-                account_configuration=AccountConfiguration(f"{run_id}/{method}/{checkpoint}", None),
+                account_configuration=AccountConfiguration(
+                    f"{run_id}/{method}/{checkpoint}", None
+                ),
                 server_configuration=ServerConfiguration(
                     f"ws://localhost:{port}/showdown/websocket",
                     "https://play.pokemonshowdown.com/action.php?",
@@ -79,8 +83,12 @@ def cross_eval_all_agents(
                 policy_path += f"/{num_teams}-teams"
             agent.policy = PPO.load(f"{policy_path}/{checkpoint}", device=device).policy
             players += [agent]
-        results = asyncio.run(cross_evaluate(players, n_challenges=num_battles // num_runs))
-        asyncio.run(llm_player.battle_against(*players, n_battles=num_llm_battles // num_runs))
+        results = asyncio.run(
+            cross_evaluate(players, n_challenges=num_battles // num_runs)
+        )
+        asyncio.run(
+            llm_player.battle_against(*players, n_battles=num_llm_battles // num_runs)
+        )
         del llm_player.model
         llm_wins = [p.n_lost_battles / p.n_finished_battles for p in players]
         llm_losses = [p.n_won_battles / p.n_finished_battles for p in players]
@@ -99,7 +107,10 @@ def cross_eval_all_agents(
         print(payoff_matrix.tolist())
         pi = alpharank.compute([payoff_matrix], use_inf_alpha=True)[2]
         alpharank.utils.print_rankings_table(
-            [avg_payoff_matrix], pi, strat_labels=labels, num_top_strats_to_print=len(pi)
+            [avg_payoff_matrix],
+            pi,
+            strat_labels=labels,
+            num_top_strats_to_print=len(pi),
         )
         avg_payoff_matrix += payoff_matrix / num_runs
     avg_payoff_matrix = avg_payoff_matrix.round(decimals=3)
@@ -162,7 +173,9 @@ async def get_best_checkpoints(
         if method == "bc":
             best_checkpoints["bc"] = 100
             continue
-        data = extract_tb(f"results{run_id}/logs-{method}/{num_teams}-teams_0", "train/eval")
+        data = extract_tb(
+            f"results{run_id}/logs-{method}/{num_teams}-teams_0", "train/eval"
+        )
         eval_scores = [d[1] for d in data]
         min_score = np.percentile(eval_scores, 90)
         best_indices = np.where(eval_scores >= min_score)[0][::-1]
@@ -170,18 +183,24 @@ async def get_best_checkpoints(
         win_rates = {}
         for checkpoint in checkpoints:
             save_policy.policy = PPO.load(
-                f"results{run_id}/saves-{method}/{num_teams}-teams/{checkpoint}", device=device
+                f"results{run_id}/saves-{method}/{num_teams}-teams/{checkpoint}",
+                device=device,
             ).policy
             for f in eval_pool_files:
                 opponent.policy = PPO.load(f, device=device).policy
-                await save_policy.battle_against(opponent, n_battles=num_battles // eval_pool_size)
+                await save_policy.battle_against(
+                    opponent, n_battles=num_battles // eval_pool_size
+                )
             win_rates[checkpoint.item()] = save_policy.win_rate
             save_policy.reset_battles()
             opponent.reset_battles()
         print(
-            f"comparison of agents with top-10% eval score from {method}: {win_rates}", flush=True
+            f"comparison of agents with top-10% eval score from {method}: {win_rates}",
+            flush=True,
         )
-        best_checkpoints[method] = max(list(win_rates.items()), key=lambda tup: tup[1])[0]
+        best_checkpoints[method] = max(list(win_rates.items()), key=lambda tup: tup[1])[
+            0
+        ]
     print(f"best of run #{run_id}:", best_checkpoints, flush=True)
     return best_checkpoints
 
@@ -291,7 +310,12 @@ def print_team_statistics(battle_format: str, num_teams: int):
         teams = list(range(len(all_teams)))
         random.Random(run_id).shuffle(teams)
         sim_scores = [
-            max([calc_team_similarity_score(all_teams[i], all_teams[j]) for i in teams[:num_teams]])
+            max(
+                [
+                    calc_team_similarity_score(all_teams[i], all_teams[j])
+                    for i in teams[:num_teams]
+                ]
+            )
             for j in teams[num_teams:]
         ]
         print(
@@ -305,9 +329,15 @@ def print_team_statistics(battle_format: str, num_teams: int):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate a Pokémon AI model")
-    parser.add_argument("--reg", type=str, required=True, help="VGC regulation to eval on, i.e. G")
-    parser.add_argument("--num_teams", type=int, required=True, help="Number of teams to eval with")
-    parser.add_argument("--port", type=int, default=8000, help="Port to run showdown server on")
+    parser.add_argument(
+        "--reg", type=str, required=True, help="VGC regulation to eval on, i.e. G"
+    )
+    parser.add_argument(
+        "--num_teams", type=int, required=True, help="Number of teams to eval with"
+    )
+    parser.add_argument(
+        "--port", type=int, default=8000, help="Port to run showdown server on"
+    )
     parser.add_argument(
         "--device",
         type=str,
@@ -318,7 +348,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
     battle_format = format_map[args.reg.lower()]
     print_team_statistics(battle_format, args.num_teams)
-    cross_eval_all_agents(battle_format, args.num_teams, args.port, args.device, 1000, 100)
+    cross_eval_all_agents(
+        battle_format, args.num_teams, args.port, args.device, 1000, 100
+    )
     team_counts = [1, 4, 16, 64]
     methods = [
         ("bc-sp", [4915200, 1474560, 4816896, 1179648, 786432]),

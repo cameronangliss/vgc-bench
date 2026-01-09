@@ -24,7 +24,9 @@ class TrajectoryDataset(Dataset):
         self.num_frames = num_frames
         directory = "data/trajs"
         self.files = [
-            os.path.join(directory, file) for file in os.listdir(directory) if file.endswith(".pkl")
+            os.path.join(directory, file)
+            for file in os.listdir(directory)
+            if file.endswith(".pkl")
         ]
 
     def __len__(self):
@@ -130,7 +132,9 @@ def pretrain(
     )
     win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
     bc.logger.record("bc/eval", win_rate)
-    ppo.save(f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/0")
+    ppo.save(
+        f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/0"
+    )
     for i in range(100):
         data = iter(dataloader)
         for _ in range(div_count):
@@ -139,12 +143,16 @@ def pretrain(
             bc.train(n_epochs=1)
         win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
         bc.logger.record("bc/eval", win_rate)
-        ppo.save(f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/{i + 1}")
+        ppo.save(
+            f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/{i + 1}"
+        )
     bc.train(n_epochs=1)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Pretrain a policy using behavior cloning")
+    parser = argparse.ArgumentParser(
+        description="Pretrain a policy using behavior cloning"
+    )
     parser.add_argument(
         "--num_frames",
         type=int,
@@ -160,9 +168,15 @@ if __name__ == "__main__":
     parser.add_argument(
         "--reg", type=str, required=True, help="VGC regulation to pretrain on, i.e. G"
     )
-    parser.add_argument("--run_id", type=int, default=1, help="run ID for the training session")
-    parser.add_argument("--num_teams", type=int, default=2, help="number of teams to pretrain with")
-    parser.add_argument("--port", type=int, default=8000, help="port to run showdown server on")
+    parser.add_argument(
+        "--run_id", type=int, default=1, help="run ID for the training session"
+    )
+    parser.add_argument(
+        "--num_teams", type=int, default=2, help="number of teams to pretrain with"
+    )
+    parser.add_argument(
+        "--port", type=int, default=8000, help="port to run showdown server on"
+    )
     parser.add_argument(
         "--device", type=str, default="cuda:0", help="device to use for pretraining"
     )

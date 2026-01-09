@@ -63,7 +63,9 @@ def event_dir_name(event_name: str, date_str: str) -> str:
         return slugify(normalize_event_name(event_name))
     month = dt.strftime("%B").lower()
     normalized_name = re.sub(r"\b\d{4}\b", "", normalize_event_name(event_name)).strip()
-    base = slugify(normalized_name) or slugify(normalize_event_name(event_name)) or "event"
+    base = (
+        slugify(normalized_name) or slugify(normalize_event_name(event_name)) or "event"
+    )
     return f"{base}_{month}_{dt.year}"
 
 
@@ -72,11 +74,15 @@ def event_key(event_name: str, date_str: str) -> str:
     if dt is None:
         return slugify(normalize_event_name(event_name)) or slugify(event_name)
     normalized_name = re.sub(r"\b\d{4}\b", "", normalize_event_name(event_name)).strip()
-    base = slugify(normalized_name) or slugify(normalize_event_name(event_name)) or "event"
+    base = (
+        slugify(normalized_name) or slugify(normalize_event_name(event_name)) or "event"
+    )
     return f"{base}_{dt.year}"
 
 
-def fetch_sheet_names(session: requests.Session, max_bytes: int = 2_000_000) -> list[str]:
+def fetch_sheet_names(
+    session: requests.Session, max_bytes: int = 2_000_000
+) -> list[str]:
     headers = {"Range": f"bytes=0-{max_bytes}"}
     resp = session.get(SHEET_EDIT_URL, headers=headers, stream=True, timeout=30)
     resp.raise_for_status()
@@ -105,7 +111,9 @@ def fetch_sheet_names(session: requests.Session, max_bytes: int = 2_000_000) -> 
     return unique_names
 
 
-def featured_team_sheets_for_regulation(all_sheet_names: list[str], regulation: str) -> list[str]:
+def featured_team_sheets_for_regulation(
+    all_sheet_names: list[str], regulation: str
+) -> list[str]:
     reg = regulation.strip().lower()
     sheets = []
     for name in all_sheet_names:
@@ -137,9 +145,13 @@ def fetch_pokepaste_raw(session: requests.Session, pokepaste_url: str) -> str:
 
 
 def has_banned_move_or_ability(team_text: str) -> bool:
-    if re.search(r"^\s*Ability:\s*Illusion\s*$", team_text, flags=re.IGNORECASE | re.MULTILINE):
+    if re.search(
+        r"^\s*Ability:\s*Illusion\s*$", team_text, flags=re.IGNORECASE | re.MULTILINE
+    ):
         return True
-    if re.search(r"^\s*Ability:\s*Commander\s*$", team_text, flags=re.IGNORECASE | re.MULTILINE):
+    if re.search(
+        r"^\s*Ability:\s*Commander\s*$", team_text, flags=re.IGNORECASE | re.MULTILINE
+    ):
         return True
     return False
 
@@ -196,7 +208,9 @@ def scrape_regulation(regulation: str) -> None:
     for sheet_name in sheet_names:
         rows = fetch_sheet_csv_rows(session, sheet_name)
         header_row_idx = next(
-            i for i, r in enumerate(rows) if r and r[0].strip() == "Team ID" and "Pokepaste" in r
+            i
+            for i, r in enumerate(rows)
+            if r and r[0].strip() == "Team ID" and "Pokepaste" in r
         )
         header = rows[header_row_idx]
         category_idx = header.index("Category")
@@ -206,7 +220,9 @@ def scrape_regulation(regulation: str) -> None:
         rank_idx = header.index("Rank")
         date_idx = header.index("Date") if "Date" in header else event_idx - 1
         for row in rows[header_row_idx + 1 :]:
-            if len(row) <= max(category_idx, evs_idx, pokepaste_idx, event_idx, rank_idx, date_idx):
+            if len(row) <= max(
+                category_idx, evs_idx, pokepaste_idx, event_idx, rank_idx, date_idx
+            ):
                 continue
             category = row[category_idx].strip().lower()
             if category != "in person event":
@@ -220,7 +236,10 @@ def scrape_regulation(regulation: str) -> None:
             if has_banned_move_or_ability(team_text):
                 skipped_banned += 1
                 continue
-            if any(calc_team_similarity_score(team_text, prev) == 1.0 for prev in seen_teams):
+            if any(
+                calc_team_similarity_score(team_text, prev) == 1.0
+                for prev in seen_teams
+            ):
                 skipped_duplicates += 1
                 continue
             seen_teams.append(team_text)
