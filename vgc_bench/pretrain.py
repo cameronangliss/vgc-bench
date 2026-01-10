@@ -166,7 +166,10 @@ if __name__ == "__main__":
         help="fraction of total dataset to load at a given time during training (must be <1 when dataset is large)",
     )
     parser.add_argument(
-        "--reg", type=str, required=True, help="VGC regulation to pretrain on, i.e. G"
+        "--reg",
+        type=str,
+        required=True,
+        help="VGC regulation to eval against during pretraining, i.e. G",
     )
     parser.add_argument(
         "--run_id", type=int, default=1, help="run ID for the training session"
