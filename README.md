@@ -1,5 +1,5 @@
 # VGC-Bench
-This is the official code for the paper [VGC-Bench: A Benchmark for Generalizing Across Diverse Team Strategies in Competitive Pokémon](https://arxiv.org/abs/2506.10326).
+This is the official code for the paper [VGC-Bench: Towards Mastering Diverse Team Strategies in Competitive Pokémon](https://arxiv.org/abs/2506.10326).
 
 This benchmark includes:
 - multi-agent reinforcement learning (RL) with 4 Policy Space Response Oracle (PSRO) algorithms to fine-tune an agent initialized either randomly or with the output of the BC pipeline
@@ -139,10 +139,9 @@ See our paper for further results and details.
 # 📜 Cite us
 
 ```bibtex
-@article{angliss2025benchmark,
-  title={A Benchmark for Generalizing Across Diverse Team Strategies in Competitive Pok$\backslash$'emon},
-  author={Angliss, Cameron and Cui, Jiaxun and Hu, Jiaheng and Rahman, Arrasy and Stone, Peter},
-  journal={arXiv preprint arXiv:2506.10326},
-  year={2025}
+@inproceedings{anglissvgc,
+  title={VGC-Bench: Towards Mastering Diverse Team Strategies in Competitive Pok{\'e}mon},
+  author={Angliss, Cameron L and Cui, Jiaxun and Hu, Jiaheng and Rahman, Arrasy and Stone, Peter},
+  booktitle={The 25th International Conference on Autonomous Agents and Multi-Agent Systems}
 }
 ```
