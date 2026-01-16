@@ -73,7 +73,7 @@ def train(
             else 3072 // num_envs
         ),
         batch_size=64,
-        ent_coef=1e-3,
+        ent_coef=0.02,
         tensorboard_log=f"results{run_id}/logs-{run_ident}",
         policy_kwargs={
             "num_frames": num_frames,
@@ -95,7 +95,7 @@ def train(
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
     ppo.learn(
-        51 * save_interval - num_saved_timesteps,
+        100 * save_interval - num_saved_timesteps,
         callback=Callback(
             run_id,
             num_teams,
