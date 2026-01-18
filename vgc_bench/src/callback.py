@@ -1,4 +1,5 @@
 import asyncio
+import gc
 import json
 import os
 import random
@@ -6,6 +7,7 @@ import warnings
 
 import numpy as np
 import numpy.typing as npt
+import torch
 from nashpy import Game
 from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
@@ -126,9 +128,14 @@ class Callback(BaseCallback):
                 )
             assert len(saves) > 0
         if self.learning_style == LearningStyle.EXPLOITER:
-            policy = PPO.load(f"{self.save_dir}/-1", device=self.model.device).policy
+            model = PPO.load(f"{self.save_dir}/-1", device=self.model.device)
+            policy = model.policy
+            del model
             for i in range(self.model.env.num_envs):
                 self.model.env.env_method("set_opp_policy", policy, indices=i)
+            gc.collect()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
 
     def _on_rollout_start(self):
         assert self.model.env is not None
@@ -143,14 +150,25 @@ class Callback(BaseCallback):
             LearningStyle.DOUBLE_ORACLE,
         ]:
             policy_files = os.listdir(self.save_dir)
-            policies = random.choices(
+            selected_files = random.choices(
                 policy_files, weights=self.prob_dist, k=self.model.env.num_envs
             )
+            unique_files = set(selected_files)
+            policy_cache = {}
+            for policy_file in unique_files:
+                model = PPO.load(
+                    f"{self.save_dir}/{policy_file}", device=self.model.device
+                )
+                policy_cache[policy_file] = model.policy
+                del model
             for i in range(self.model.env.num_envs):
-                policy = PPO.load(
-                    f"{self.save_dir}/{policies[i]}", device=self.model.device
-                ).policy
-                self.model.env.env_method("set_opp_policy", policy, indices=i)
+                self.model.env.env_method(
+                    "set_opp_policy", policy_cache[selected_files[i]], indices=i
+                )
+            del policy_cache
+            gc.collect()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
 
     def _on_rollout_end(self):
         if self.model.num_timesteps % self.save_interval == 0:
@@ -172,6 +190,9 @@ class Callback(BaseCallback):
             ).policy
             win_rate = self.compare(self.eval_agent, self.eval_agent2, 1000)
             win_rates = np.append(win_rates, win_rate)
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
         self.payoff_matrix = np.concat(
             [self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1
         )
