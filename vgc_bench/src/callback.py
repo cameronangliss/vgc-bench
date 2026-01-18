@@ -7,7 +7,6 @@ import warnings
 
 import numpy as np
 import numpy.typing as npt
-import torch
 from nashpy import Game
 from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
@@ -17,6 +16,7 @@ from src.teams import RandomTeamBuilder, TeamToggle
 from src.utils import LearningStyle
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import BaseCallback
+from torch import cuda
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
@@ -134,8 +134,8 @@ class Callback(BaseCallback):
             for i in range(self.model.env.num_envs):
                 self.model.env.env_method("set_opp_policy", policy, indices=i)
             gc.collect()
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
+            if cuda.is_available():
+                cuda.empty_cache()
 
     def _on_rollout_start(self):
         assert self.model.env is not None
@@ -167,8 +167,8 @@ class Callback(BaseCallback):
                 )
             del policy_cache
             gc.collect()
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
+            if cuda.is_available():
+                cuda.empty_cache()
 
     def _on_rollout_end(self):
         if self.model.num_timesteps % self.save_interval == 0:
@@ -191,8 +191,8 @@ class Callback(BaseCallback):
             win_rate = self.compare(self.eval_agent, self.eval_agent2, 1000)
             win_rates = np.append(win_rates, win_rate)
         gc.collect()
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
+        if cuda.is_available():
+            cuda.empty_cache()
         self.payoff_matrix = np.concat(
             [self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1
         )
