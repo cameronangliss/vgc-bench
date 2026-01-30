@@ -33,6 +33,8 @@ def train(
     num_frames: int,
     allow_mirror_match: bool,
     chooses_on_teampreview: bool,
+    team1: str | None,
+    team2: str | None,
 ):
     """
     Train a Pokemon VGC policy using reinforcement learning.
@@ -55,6 +57,8 @@ def train(
         num_frames: Number of frames for frame stacking.
         allow_mirror_match: Whether to allow same-team matchups.
         chooses_on_teampreview: Whether policy makes teampreview decisions.
+        team1: Optional team string for matchup solving (requires team2).
+        team2: Optional team string for matchup solving (requires team1).
     """
     save_interval = 98_304
     env = (
@@ -69,6 +73,8 @@ def train(
             num_frames,
             allow_mirror_match,
             chooses_on_teampreview,
+            team1,
+            team2,
         )
         if learning_style == LearningStyle.PURE_SELF_PLAY
         else SubprocVecEnv(
@@ -84,6 +90,8 @@ def train(
                     num_frames,
                     allow_mirror_match,
                     chooses_on_teampreview,
+                    team1,
+                    team2,
                 )
                 for _ in range(num_envs)
             ]
@@ -146,6 +154,8 @@ def train(
             allow_mirror_match,
             chooses_on_teampreview,
             save_interval,
+            team1,
+            team2,
         ),
         tb_log_name=f"{num_teams}-teams",
         reset_num_timesteps=False,
@@ -205,6 +215,12 @@ if __name__ == "__main__":
         "--run_id", type=int, default=1, help="run ID for the training session"
     )
     parser.add_argument(
+        "--team1", type=str, default="", help="team 1 string for matchup solving"
+    )
+    parser.add_argument(
+        "--team2", type=str, default="", help="team 2 string for matchup solving"
+    )
+    parser.add_argument(
         "--num_teams", type=int, default=2, help="number of teams to train with"
     )
     parser.add_argument(
@@ -246,6 +262,9 @@ if __name__ == "__main__":
         assert (
             not args.no_mirror_match
         ), "--no_mirror_match is incompatible with --exploiter (exploiter uses a single team)"
+    assert (args.team1 == "") == (
+        args.team2 == ""
+    ), "must provide both or neither of --team1 and --team2"
     train(
         battle_format,
         args.run_id,
@@ -260,4 +279,6 @@ if __name__ == "__main__":
         args.num_frames,
         not args.no_mirror_match,
         not args.no_teampreview,
+        args.team1 or None,
+        args.team2 or None,
     )

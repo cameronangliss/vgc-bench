@@ -52,6 +52,7 @@ The training code offers the following PSRO algorithms:
 - frame stacking with specified number of frames
 - excluding mirror matches (p1 and p2 using the same team)
 - starting agent with random teampreview at the beginning of each game
+- matchup solving with specific team strings (pass both `--team1` and `--team2` to train on a single matchup)
 
 See [train.sh](train.sh) for running multiple training runs simultaneously with automatic pokemon-showdown server management.
 

@@ -95,6 +95,8 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         num_frames: int,
         allow_mirror_match: bool,
         chooses_on_teampreview: bool,
+        team1: str | None,
+        team2: str | None,
     ) -> Env:
         """
         Factory method to create a properly wrapped training environment.
@@ -114,6 +116,8 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             num_frames: Number of frames for frame stacking.
             allow_mirror_match: Whether to allow same-team matchups.
             chooses_on_teampreview: Whether policy controls teampreview.
+            team1: Optional team string for matchup solving (requires team2).
+            team2: Optional team string for matchup solving (requires team1).
 
         Returns:
             Wrapped Gymnasium environment ready for training.
@@ -130,7 +134,9 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             log_level=log_level,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(run_id, num_teams, battle_format, toggle),
+            team=RandomTeamBuilder(
+                run_id, num_teams, battle_format, team1, team2, toggle
+            ),
         )
         if not chooses_on_teampreview:
             env.agent1.teampreview = env.async_random_teampreview1

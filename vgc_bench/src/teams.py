@@ -72,6 +72,8 @@ class RandomTeamBuilder(Teambuilder):
         run_id: int,
         num_teams: int,
         battle_format: str,
+        team1: str | None = None,
+        team2: str | None = None,
         toggle: TeamToggle | None = None,
         take_from_end: bool = False,
     ):
@@ -82,12 +84,22 @@ class RandomTeamBuilder(Teambuilder):
             run_id: Training run identifier for deterministic team selection.
             num_teams: Number of teams to include in the pool.
             battle_format: Pokemon Showdown format string (e.g., 'gen9vgc2024regh').
+            team1: Optional team string for matchup solving (requires team2).
+            team2: Optional team string for matchup solving (requires team1).
             toggle: Optional TeamToggle to prevent consecutive identical teams.
             take_from_end: If True, take teams from end of shuffled list.
         """
         self.teams = []
         self.toggle = toggle
         paths = get_team_paths(battle_format)
+        if team1 is not None and team2 is not None:
+            parsed_team1 = self.parse_showdown_team(team1)
+            packed_team1 = self.join_team(parsed_team1)
+            self.teams.append(packed_team1)
+            parsed_team2 = self.parse_showdown_team(team2)
+            packed_team2 = self.join_team(parsed_team2)
+            self.teams.append(packed_team2)
+            return
         teams = get_team_ids(run_id, num_teams, battle_format, take_from_end)
         for team_path in [paths[t] for t in teams]:
             parsed_team = self.parse_showdown_team(team_path.read_text())
