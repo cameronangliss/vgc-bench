@@ -16,10 +16,11 @@ from gymnasium.wrappers import FrameStackObservation
 from poke_env.battle import AbstractBattle
 from poke_env.environment import DoublesEnv, SingleAgentWrapper
 from poke_env.ps_client import ServerConfiguration
-from src.policy_player import PolicyPlayer
-from src.teams import RandomTeamBuilder, TeamToggle
-from src.utils import LearningStyle, act_len, chunk_obs_len, moves
 from stable_baselines3.common.monitor import Monitor
+
+from vgc_bench.src.policy_player import PolicyPlayer
+from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle
+from vgc_bench.src.utils import LearningStyle, act_len, chunk_obs_len, moves
 
 
 class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):

@@ -10,12 +10,13 @@ cloning.
 import argparse
 import os
 
-from src.callback import Callback
-from src.env import ShowdownEnv
-from src.policy import MaskedActorCriticPolicy
-from src.utils import LearningStyle, format_map, set_global_seed
 from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import SubprocVecEnv
+
+from vgc_bench.src.callback import Callback
+from vgc_bench.src.env import ShowdownEnv
+from vgc_bench.src.policy import MaskedActorCriticPolicy
+from vgc_bench.src.utils import LearningStyle, format_map, set_global_seed
 
 
 def train(

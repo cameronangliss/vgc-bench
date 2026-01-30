@@ -10,7 +10,13 @@ from typing import Any
 
 import torch
 from gymnasium import Space
-from src.utils import (
+from stable_baselines3.common.distributions import MultiCategoricalDistribution
+from stable_baselines3.common.policies import ActorCriticPolicy
+from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
+from stable_baselines3.common.type_aliases import PyTorchObs
+from torch import nn
+
+from vgc_bench.src.utils import (
     abilities,
     act_len,
     chunk_obs_len,
@@ -19,11 +25,6 @@ from src.utils import (
     moves,
     side_obs_len,
 )
-from stable_baselines3.common.distributions import MultiCategoricalDistribution
-from stable_baselines3.common.policies import ActorCriticPolicy
-from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
-from stable_baselines3.common.type_aliases import PyTorchObs
-from torch import nn
 
 action_map = (
     ["pass", "switch 1", "switch 2", "switch 3", "switch 4", "switch 5", "switch 6"]

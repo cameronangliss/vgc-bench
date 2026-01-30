@@ -32,8 +32,9 @@ from poke_env.player import (
     SingleBattleOrder,
 )
 from poke_env.ps_client import AccountConfiguration
-from src.policy_player import PolicyPlayer
-from src.utils import act_len, all_formats, chunk_obs_len
+
+from vgc_bench.src.policy_player import PolicyPlayer
+from vgc_bench.src.utils import act_len, all_formats, chunk_obs_len
 
 
 class LogReader(Player):

@@ -10,11 +10,12 @@ import asyncio
 import os
 
 from poke_env import AccountConfiguration, ShowdownServerConfiguration
-from src.policy import MaskedActorCriticPolicy
-from src.policy_player import PolicyPlayer
-from src.teams import RandomTeamBuilder
-from src.utils import format_map
 from stable_baselines3 import PPO
+
+from vgc_bench.src.policy import MaskedActorCriticPolicy
+from vgc_bench.src.policy_player import PolicyPlayer
+from vgc_bench.src.teams import RandomTeamBuilder
+from vgc_bench.src.utils import format_map
 
 
 async def play(

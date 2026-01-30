@@ -17,14 +17,15 @@ from imitation.util.logger import configure
 from poke_env.environment import SingleAgentWrapper
 from poke_env.player import RandomPlayer, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
-from src.callback import Callback
-from src.env import ShowdownEnv
-from src.policy import MaskedActorCriticPolicy
-from src.policy_player import BatchPolicyPlayer
-from src.teams import RandomTeamBuilder
-from src.utils import LearningStyle, format_map, set_global_seed
 from stable_baselines3 import PPO
 from torch.utils.data import DataLoader, Dataset
+
+from vgc_bench.src.callback import Callback
+from vgc_bench.src.env import ShowdownEnv
+from vgc_bench.src.policy import MaskedActorCriticPolicy
+from vgc_bench.src.policy_player import BatchPolicyPlayer
+from vgc_bench.src.teams import RandomTeamBuilder
+from vgc_bench.src.utils import LearningStyle, format_map, set_global_seed
 
 
 class TrajectoryDataset(Dataset):

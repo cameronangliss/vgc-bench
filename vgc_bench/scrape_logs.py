@@ -17,7 +17,8 @@ from typing import Any
 import requests
 from poke_env.battle import Pokemon
 from poke_env.data import to_id_str
-from src.utils import all_formats
+
+from vgc_bench.src.utils import all_formats
 
 
 def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:

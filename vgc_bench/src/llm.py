@@ -15,9 +15,10 @@ import transformers
 from poke_env.battle import AbstractBattle, DoubleBattle, Move, Pokemon
 from poke_env.environment import DoublesEnv
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
-from src.policy import MaskedActorCriticPolicy
-from src.policy_player import PolicyPlayer
-from src.utils import act_len
+
+from vgc_bench.src.policy import MaskedActorCriticPolicy
+from vgc_bench.src.policy_player import PolicyPlayer
+from vgc_bench.src.utils import act_len
 
 
 class LLMPlayer(Player):

@@ -17,12 +17,17 @@ from open_spiel.python.egt import alpharank
 from poke_env import cross_evaluate
 from poke_env.player import MaxBasePowerPlayer, RandomPlayer, SimpleHeuristicsPlayer
 from poke_env.ps_client import AccountConfiguration, ServerConfiguration
-from src.llm import LLMPlayer
-from src.policy_player import BatchPolicyPlayer
-from src.teams import RandomTeamBuilder, calc_team_similarity_score, get_team_paths
-from src.utils import format_map
 from stable_baselines3 import PPO
 from tensorboard.backend.event_processing import event_accumulator
+
+from vgc_bench.src.llm import LLMPlayer
+from vgc_bench.src.policy_player import BatchPolicyPlayer
+from vgc_bench.src.teams import (
+    RandomTeamBuilder,
+    calc_team_similarity_score,
+    get_team_paths,
+)
+from vgc_bench.src.utils import format_map
 
 
 def cross_eval_all_agents(

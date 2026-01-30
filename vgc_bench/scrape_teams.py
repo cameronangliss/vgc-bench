@@ -12,7 +12,8 @@ from urllib.parse import quote_plus
 
 import requests
 from poke_env.teambuilder import Teambuilder
-from src.teams import calc_team_similarity_score
+
+from vgc_bench.src.teams import calc_team_similarity_score
 
 SHEET_ID = "1axlwmzPA49rYkqXh7zHvAtSP-TKbM0ijGYBPRflLSWw"
 SHEET_EDIT_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit"

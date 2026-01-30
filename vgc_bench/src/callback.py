@@ -16,11 +16,12 @@ import numpy.typing as npt
 from nashpy import Game
 from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
-from src.policy import MaskedActorCriticPolicy
-from src.policy_player import BatchPolicyPlayer
-from src.teams import RandomTeamBuilder, TeamToggle
-from src.utils import LearningStyle
 from stable_baselines3.common.callbacks import BaseCallback
+
+from vgc_bench.src.policy import MaskedActorCriticPolicy
+from vgc_bench.src.policy_player import BatchPolicyPlayer
+from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle
+from vgc_bench.src.utils import LearningStyle
 
 warnings.filterwarnings("ignore", category=UserWarning)
 

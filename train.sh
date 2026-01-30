@@ -26,7 +26,7 @@ train() {
     showdown_pid=$(start_showdown $port)
     sleep 5
     echo "Starting training process $i..."
-    python vgc_bench/train.py \
+    python -m vgc_bench.train \
         --reg G \
         --run_id $run_id \
         --num_teams $num_teams \

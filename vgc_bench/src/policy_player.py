@@ -34,8 +34,11 @@ from poke_env.battle import (
 from poke_env.environment import DoublesEnv
 from poke_env.environment.env import _EnvPlayer
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
-from src.policy import MaskedActorCriticPolicy
-from src.utils import (
+from stable_baselines3 import PPO
+from stable_baselines3.common.policies import BasePolicy
+
+from vgc_bench.src.policy import MaskedActorCriticPolicy
+from vgc_bench.src.utils import (
     abilities,
     act_len,
     chunk_obs_len,
@@ -44,8 +47,6 @@ from src.utils import (
     moves,
     pokemon_obs_len,
 )
-from stable_baselines3 import PPO
-from stable_baselines3.common.policies import BasePolicy
 
 
 class PolicyPlayer(Player):
