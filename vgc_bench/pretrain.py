@@ -1,6 +1,14 @@
+"""
+Pretraining module for VGC-Bench.
+
+Implements behavior cloning (BC) pretraining using trajectory data extracted
+from human battle logs. The pretrained policy can then be fine-tuned using
+reinforcement learning.
+"""
+
 import argparse
-import os
 import pickle
+from pathlib import Path
 
 import numpy as np
 from imitation.algorithms.bc import BC
@@ -9,38 +17,71 @@ from imitation.util.logger import configure
 from poke_env.environment import SingleAgentWrapper
 from poke_env.player import RandomPlayer, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
-from src.callback import Callback
-from src.env import ShowdownEnv
-from src.policy import MaskedActorCriticPolicy
-from src.policy_player import BatchPolicyPlayer
-from src.teams import RandomTeamBuilder
-from src.utils import LearningStyle, format_map, set_global_seed
 from stable_baselines3 import PPO
 from torch.utils.data import DataLoader, Dataset
 
+from vgc_bench.src.callback import Callback
+from vgc_bench.src.env import ShowdownEnv
+from vgc_bench.src.policy import MaskedActorCriticPolicy
+from vgc_bench.src.policy_player import BatchPolicyPlayer
+from vgc_bench.src.teams import RandomTeamBuilder
+from vgc_bench.src.utils import LearningStyle, format_map, set_global_seed
+
 
 class TrajectoryDataset(Dataset):
+    """
+    PyTorch Dataset for loading trajectory data from pickle files.
+
+    Loads pre-extracted trajectories from data/trajs/ and optionally applies
+    frame stacking for temporal context.
+
+    Attributes:
+        num_frames: Number of frames to stack for temporal context.
+        files: List of trajectory file paths.
+    """
+
     def __init__(self, num_frames: int):
+        """
+        Initialize the dataset by discovering trajectory files.
+
+        Args:
+            num_frames: Number of frames to stack (1 = no stacking).
+        """
         self.num_frames = num_frames
-        directory = "data/trajs"
-        self.files = [
-            os.path.join(directory, file)
-            for file in os.listdir(directory)
-            if file.endswith(".pkl")
-        ]
+        directory = Path("trajs")
+        self.files = [file for file in directory.iterdir() if file.suffix == ".pkl"]
 
     def __len__(self):
+        """Return the number of trajectories in the dataset."""
         return len(self.files)
 
     def __getitem__(self, idx):
+        """
+        Load and return a trajectory by index.
+
+        Args:
+            idx: Index of the trajectory to load.
+
+        Returns:
+            Trajectory object, optionally with frame-stacked observations.
+        """
         file_path = self.files[idx]
-        with open(file_path, "rb") as f:
+        with file_path.open("rb") as f:
             traj = pickle.load(f)
         if self.num_frames > 1:
             traj = self._frame_stack_traj(traj)
         return traj
 
     def _frame_stack_traj(self, traj: Trajectory) -> Trajectory:
+        """
+        Apply frame stacking to a trajectory's observations.
+
+        Args:
+            traj: The original trajectory.
+
+        Returns:
+            New trajectory with frame-stacked observations.
+        """
         obs = np.array(traj.obs)
         traj_len, *obs_shape = obs.shape
         stacked_obs = np.empty((traj_len, self.num_frames, *obs_shape), dtype=obs.dtype)
@@ -64,6 +105,21 @@ def pretrain(
     num_frames: int,
     div_frac: float,
 ):
+    """
+    Pretrain a policy using behavior cloning on human gameplay data.
+
+    Trains a neural network policy to imitate human players using trajectory
+    data, periodically evaluating against a SimpleHeuristics opponent.
+
+    Args:
+        battle_format: Pokemon Showdown battle format string.
+        run_id: Training run identifier for saving checkpoints.
+        num_teams: Number of teams to use for evaluation.
+        port: Port for the Pokemon Showdown server.
+        device: CUDA device for training.
+        num_frames: Number of frames to stack for temporal context.
+        div_frac: Fraction of dataset to load per training iteration.
+    """
     env = ShowdownEnv(
         learning_style=LearningStyle.PURE_SELF_PLAY,
         chooses_on_teampreview=True,
@@ -82,7 +138,11 @@ def pretrain(
     ppo = PPO(
         MaskedActorCriticPolicy,
         single_agent_env,
-        policy_kwargs={"num_frames": num_frames, "chooses_on_teampreview": True},
+        policy_kwargs={
+            "d_model": 256,
+            "num_frames": num_frames,
+            "chooses_on_teampreview": True,
+        },
         device=device,
     )
     dataset = TrajectoryDataset(num_frames)

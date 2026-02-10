@@ -1,19 +1,41 @@
+"""
+Interactive play module for VGC-Bench.
+
+Allows a trained policy to play games on Pokemon Showdown, either by
+accepting challenges or playing on the ranked ladder.
+"""
+
 import argparse
 import asyncio
-import os
+from pathlib import Path
 
 from poke_env import AccountConfiguration, ShowdownServerConfiguration
-from src.policy_player import PolicyPlayer
-from src.teams import RandomTeamBuilder
-from src.utils import format_map
 from stable_baselines3 import PPO
+
+from vgc_bench.src.policy import MaskedActorCriticPolicy
+from vgc_bench.src.policy_player import PolicyPlayer
+from vgc_bench.src.teams import RandomTeamBuilder
+from vgc_bench.src.utils import format_map
 
 
 async def play(
     battle_format: str, run_id: int, num_teams: int, n_games: int, play_on_ladder: bool
 ):
+    """
+    Run the trained policy in interactive play mode.
+
+    Loads a trained model and either enters the Pokemon Showdown ladder
+    or waits to accept challenges from other players.
+
+    Args:
+        battle_format: Pokemon Showdown battle format string.
+        run_id: Training run identifier for loading the model.
+        num_teams: Number of teams the model was trained with.
+        n_games: Number of games to play.
+        play_on_ladder: If True, play on ladder; if False, accept challenges.
+    """
     print("Setting up...")
-    path = f"results{run_id}/saves-bc-sp/{num_teams}-teams"
+    path = Path(f"results{run_id}/saves-sp/{num_teams}-teams")
     agent = PolicyPlayer(
         account_configuration=AccountConfiguration("", ""),  # fill in
         battle_format=battle_format,
@@ -24,8 +46,10 @@ async def play(
         start_timer_on_battle_start=play_on_ladder,
         team=RandomTeamBuilder(run_id, num_teams, battle_format),
     )
-    filepath = f"{path}/{os.listdir(path)[-1]}"
+    filepath = sorted(path.iterdir(), key=lambda p: int(p.stem))[-1]
     agent.policy = PPO.load(filepath, device="cuda:0").policy
+    assert isinstance(agent.policy, MaskedActorCriticPolicy)
+    agent.policy.debug = True
     print(f"Loaded model from {filepath}")
     if play_on_ladder:
         print("Entering ladder")

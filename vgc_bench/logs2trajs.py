@@ -1,12 +1,20 @@
+"""
+Log-to-trajectory converter for VGC-Bench.
+
+Parses Pokemon Showdown battle logs and converts them into trajectory data
+suitable for imitation learning. Extracts state-action pairs from recorded
+battles to create training data for behavior cloning.
+"""
+
 import argparse
 import asyncio
 import json
-import os
 import pickle
 import random
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from copy import deepcopy
 from itertools import islice
+from pathlib import Path
 from threading import Thread
 
 import numpy as np
@@ -24,16 +32,31 @@ from poke_env.player import (
     SingleBattleOrder,
 )
 from poke_env.ps_client import AccountConfiguration
-from src.policy_player import PolicyPlayer
-from src.utils import act_len, all_formats, chunk_obs_len
+
+from vgc_bench.src.policy_player import PolicyPlayer
+from vgc_bench.src.utils import act_len, all_formats, chunk_obs_len
 
 
 class LogReader(Player):
+    """
+    A player that reads and replays battle logs to extract state-action pairs.
+
+    Parses Pokemon Showdown battle logs, simulating the battle progression
+    to reconstruct game states and extract the actions taken at each turn.
+    Used to convert recorded battles into trajectory data for training.
+
+    Attributes:
+        states: List of battle states encountered during log replay.
+        actions: List of actions taken at each state.
+        next_msg: The next message to process from the log.
+    """
+
     states: list[DoubleBattle]
     actions: list[npt.NDArray[np.int64]]
     msg: str | None
 
     def __init__(self, *args, **kwargs):
+        """Initialize the LogReader with empty state and action lists."""
         super().__init__(start_listening=False, *args, **kwargs)
         self.states = []
         self.actions = []
@@ -42,9 +65,19 @@ class LogReader(Player):
     async def _handle_battle_request(
         self, battle: AbstractBattle, maybe_default_order: bool = False
     ):
+        """Override to do nothing; log replay handles battle progression."""
         pass
 
     def choose_move(self, battle: AbstractBattle) -> BattleOrder:
+        """
+        Extract the move choice from the log message and record the state-action pair.
+
+        Args:
+            battle: The current battle state.
+
+        Returns:
+            The battle order extracted from the log.
+        """
         assert self.next_msg is not None
         assert isinstance(battle, DoubleBattle)
         order1 = self.get_order(battle, self.next_msg, 0)
@@ -60,6 +93,15 @@ class LogReader(Player):
         return order
 
     def teampreview(self, battle: AbstractBattle) -> str:
+        """
+        Extract teampreview choices from the log and record the state-action pairs.
+
+        Args:
+            battle: The current battle state during team preview.
+
+        Returns:
+            The team order string for Pokemon Showdown.
+        """
         assert self.next_msg is not None
         assert isinstance(battle, DoubleBattle)
         id1 = self.get_teampreview_order(battle, self.next_msg, 0)
@@ -81,6 +123,17 @@ class LogReader(Player):
 
     @staticmethod
     def get_order(battle: DoubleBattle, msg: str, pos: int) -> SingleBattleOrder:
+        """
+        Parse a battle log message to extract the order for a specific slot.
+
+        Args:
+            battle: The current battle state.
+            msg: The log message containing move/switch information.
+            pos: The active slot position (0 or 1).
+
+        Returns:
+            The parsed battle order for the specified slot.
+        """
         slot = "a" if pos == 0 else "b"
         lines = msg.split("\n")
         order = PassBattleOrder()
@@ -127,6 +180,17 @@ class LogReader(Player):
 
     @staticmethod
     def get_teampreview_order(battle: AbstractBattle, msg: str, pos: int) -> int:
+        """
+        Parse a log message to determine which Pokemon was sent out at teampreview.
+
+        Args:
+            battle: The current battle state.
+            msg: The log message containing switch information.
+            pos: The active slot position (0 or 1).
+
+        Returns:
+            The 1-indexed position of the Pokemon in the team.
+        """
         slot = "a" if pos == 0 else "b"
         start = msg.index(f"|switch|{battle.player_role}{slot}: ")
         end = msg.index("\n", start)
@@ -138,6 +202,16 @@ class LogReader(Player):
     async def follow_log(
         self, tag: str, log: str
     ) -> tuple[npt.NDArray[np.float32], npt.NDArray[np.int64]]:
+        """
+        Replay a battle log to extract embedded states and actions.
+
+        Args:
+            tag: The battle tag identifier.
+            log: The full battle log string.
+
+        Returns:
+            Tuple of (embedded_states, actions) arrays for the trajectory.
+        """
         self.states = []
         self.actions = []
         tag = f"battle-{tag}"
@@ -183,6 +257,16 @@ class LogReader(Player):
     def embed_states(
         states: list[DoubleBattle], actions: npt.NDArray[np.int64]
     ) -> npt.NDArray[np.float32]:
+        """
+        Convert a list of battle states to embedded observation arrays.
+
+        Args:
+            states: List of battle states to embed.
+            actions: Actions taken at each state (used for teampreview tracking).
+
+        Returns:
+            Stacked array of embedded state observations.
+        """
         embedded_states = []
         teampreview_draft = []
         for i, state in enumerate(states):
@@ -201,6 +285,19 @@ def process_logs(
     only_winner: bool,
     strict: bool,
 ) -> list[Trajectory]:
+    """
+    Process multiple battle logs in parallel to extract trajectories.
+
+    Args:
+        log_jsons: Dictionary mapping battle tags to (timestamp, log) tuples.
+        executor: Process pool for parallel processing.
+        min_rating: Minimum player rating to include (None for no filter).
+        only_winner: If True, only extract trajectories from the winner's perspective.
+        strict: If True, raise exceptions on parsing errors; otherwise skip.
+
+    Returns:
+        List of Trajectory objects extracted from the logs.
+    """
 
     def chunked(iterable, size):
         it = iter(iterable)
@@ -244,6 +341,19 @@ def process_logs(
 def process_log(
     tag: str, log: str, role: str, min_rating: int | None, only_winner: bool
 ) -> Trajectory | None:
+    """
+    Process a single battle log to extract a trajectory for one player.
+
+    Args:
+        tag: The battle tag identifier.
+        log: The full battle log string.
+        role: The player role to extract ("p1" or "p2").
+        min_rating: Minimum rating threshold (None to skip check).
+        only_winner: If True, only return trajectory if this player won.
+
+    Returns:
+        Trajectory object if criteria met, None otherwise.
+    """
     start_index = log.index(f"|player|{role}|")
     end_index = log.index("\n", start_index)
     _, _, _, username, _, rating = log[start_index:end_index].split("|")
@@ -270,6 +380,18 @@ def process_log(
 
 
 def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bool):
+    """
+    Main entry point for converting logs to trajectories.
+
+    Processes all battle logs in data/logs-*.json files and saves extracted
+    trajectories as pickle files in data/trajs/.
+
+    Args:
+        num_workers: Number of parallel worker processes.
+        min_rating: Minimum player rating to include.
+        only_winner: If True, only extract winner trajectories.
+        strict: If True, crash on parsing errors; otherwise skip problematic logs.
+    """
 
     def _init_worker_loop():
         global _READER_LOOP
@@ -279,15 +401,15 @@ def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bo
     executor = ProcessPoolExecutor(
         max_workers=num_workers, initializer=_init_worker_loop
     )
-    os.makedirs("data/trajs", exist_ok=True)
+    Path("trajs").mkdir(exist_ok=True)
     total = 0
     for f in all_formats:
-        with open(f"data/logs-{f}.json", "r") as file:
+        with open(f"battle-logs/logs-{f}.json", "r") as file:
             logs = json.load(file)
         print(f"processing {len(logs)} {f} logs...")
         trajs = process_logs(logs, executor, min_rating, only_winner, strict)
         for i, traj in enumerate(trajs, start=total):
-            with open(f"data/trajs/{i:08d}.pkl", "wb") as f:
+            with open(f"trajs/{i:08d}.pkl", "wb") as f:
                 pickle.dump(traj, f)
         total += len(trajs)
 

@@ -1,3 +1,11 @@
+"""
+Utility module for VGC-Bench.
+
+Contains shared constants, enums, and helper functions used throughout the
+codebase. Defines observation space dimensions, loads Pokemon game data,
+and provides training configuration utilities.
+"""
+
 import json
 import os
 import random
@@ -20,6 +28,19 @@ from poke_env.battle import (
 
 @unique
 class LearningStyle(Enum):
+    """
+    Training paradigm options for reinforcement learning.
+
+    Defines different self-play and opponent sampling strategies used
+    during PPO training for Pokemon VGC agents.
+
+    Values:
+        EXPLOITER: Train against a fixed opponent policy.
+        PURE_SELF_PLAY: Train against current policy (both players identical).
+        FICTITIOUS_PLAY: Sample historical checkpoints uniformly as opponents.
+        DOUBLE_ORACLE: Sample checkpoints based on Nash equilibrium distribution.
+    """
+
     EXPLOITER = auto()
     PURE_SELF_PLAY = auto()
     FICTITIOUS_PLAY = auto()
@@ -27,6 +48,7 @@ class LearningStyle(Enum):
 
     @property
     def is_self_play(self) -> bool:
+        """Check if this style involves any form of self-play training."""
         return self in {
             LearningStyle.PURE_SELF_PLAY,
             LearningStyle.FICTITIOUS_PLAY,
@@ -35,6 +57,7 @@ class LearningStyle(Enum):
 
     @property
     def abbrev(self) -> str:
+        """Get two-letter abbreviation for logging and file naming."""
         match self:
             case LearningStyle.EXPLOITER:
                 return "ex"
@@ -47,6 +70,12 @@ class LearningStyle(Enum):
 
 
 def set_global_seed(seed: int) -> None:
+    """
+    Set random seeds for reproducibility across all libraries.
+
+    Args:
+        seed: Integer seed to use for all random number generators.
+    """
     random.seed(seed)
     np.random.seed(seed)
     os.environ["PYTHONHASHSEED"] = str(seed)

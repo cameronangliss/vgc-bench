@@ -1,5 +1,15 @@
+"""
+Policy-based player module for VGC-Bench.
+
+Provides player implementations that use neural network policies to make
+battle decisions, including synchronous and batched asynchronous variants.
+Also implements the battle state embedding used for policy observations.
+"""
+
 import asyncio
+import io
 import random
+import zipfile
 from dataclasses import dataclass
 from typing import Any, Awaitable, Deque
 
@@ -24,8 +34,11 @@ from poke_env.battle import (
 from poke_env.environment import DoublesEnv
 from poke_env.environment.env import _EnvPlayer
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
-from src.policy import MaskedActorCriticPolicy
-from src.utils import (
+from stable_baselines3 import PPO
+from stable_baselines3.common.policies import BasePolicy
+
+from vgc_bench.src.policy import MaskedActorCriticPolicy
+from vgc_bench.src.utils import (
     abilities,
     act_len,
     chunk_obs_len,
@@ -34,21 +47,68 @@ from src.utils import (
     moves,
     pokemon_obs_len,
 )
-from stable_baselines3.common.policies import BasePolicy
 
 
 class PolicyPlayer(Player):
+    """
+    A Pokemon VGC player that uses a neural network policy for decisions.
+
+    Handles battle state embedding, frame stacking for temporal context,
+    and action masking to ensure only legal moves are selected.
+
+    Attributes:
+        policy: The neural network policy used for action selection.
+        _frames: Per-battle frame history for frame stacking.
+        _teampreview_drafts: Per-battle teampreview selections.
+    """
+
     policy: BasePolicy | None
     _frames: dict[str, Deque[npt.NDArray[np.float32]]] = {}
     _teampreview_drafts: dict[str, list[int]] = {}
 
     def __init__(self, policy: BasePolicy | None = None, *args: Any, **kwargs: Any):
+        """
+        Initialize the policy player.
+
+        Args:
+            policy: Neural network policy (can be set later via set_policy).
+            *args: Additional arguments for Player base class.
+            **kwargs: Additional keyword arguments for Player base class.
+        """
         super().__init__(*args, **kwargs)
         self.policy = policy
+
+    def set_policy(self, policy_file: str, device: torch.device):
+        """
+        Load or update the policy from a checkpoint file.
+
+        Args:
+            policy_file: Path to the saved PPO checkpoint.
+            device: PyTorch device for model placement.
+        """
+        if self.policy is None:
+            self.policy = PPO.load(policy_file, device=device).policy
+        else:
+            # Bypass SB3's leaky set_parameters - load state dict directly from zip
+            with zipfile.ZipFile(policy_file, "r") as zf:
+                with zf.open("policy.pth") as f:
+                    state_dict = torch.load(
+                        io.BytesIO(f.read()), map_location=device, weights_only=True
+                    )
+            self.policy.load_state_dict(state_dict)
 
     def choose_move(
         self, battle: AbstractBattle
     ) -> BattleOrder | Awaitable[BattleOrder]:
+        """
+        Choose the next move using the neural network policy.
+
+        Args:
+            battle: Current battle state.
+
+        Returns:
+            The chosen battle order.
+        """
         assert isinstance(battle, DoubleBattle)
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         if battle._wait:
@@ -61,6 +121,18 @@ class PolicyPlayer(Player):
         return self.get_order(battle, action)
 
     def get_observation(self, battle: DoubleBattle) -> npt.NDArray[np.float32]:
+        """
+        Generate the observation vector for the current battle state.
+
+        Handles frame stacking for temporal context and cleans up state
+        from finished battles.
+
+        Args:
+            battle: Current battle state.
+
+        Returns:
+            Numpy array observation suitable for the policy network.
+        """
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         # remove finished battles
         self._teampreview_drafts = {
@@ -94,6 +166,19 @@ class PolicyPlayer(Player):
     def get_order(
         self, battle: DoubleBattle, action: npt.NDArray[np.int64]
     ) -> BattleOrder:
+        """
+        Convert a policy action to a battle order.
+
+        Handles teampreview actions specially if the policy doesn't control
+        teampreview, selecting random Pokemon in that case.
+
+        Args:
+            battle: Current battle state.
+            action: Action indices from the policy.
+
+        Returns:
+            The battle order corresponding to the action.
+        """
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         if battle.teampreview:
             if not self.policy.chooses_on_teampreview:
@@ -107,6 +192,15 @@ class PolicyPlayer(Player):
         return DoublesEnv.action_to_order(action, battle)
 
     def teampreview(self, battle: AbstractBattle) -> str | Awaitable[str]:
+        """
+        Select Pokemon for teampreview using the policy.
+
+        Args:
+            battle: Current battle state during team preview.
+
+        Returns:
+            Team order string for Pokemon Showdown.
+        """
         assert isinstance(battle, DoubleBattle)
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         order1 = self.choose_move(battle)
@@ -129,6 +223,20 @@ class PolicyPlayer(Player):
     def embed_battle(
         battle: AbstractBattle, teampreview_draft: list[int], fake_rating: bool = False
     ) -> npt.NDArray[np.float32]:
+        """
+        Convert a battle state to a feature vector observation.
+
+        Creates a fixed-size numpy array encoding the full battle state including
+        action masks, global effects, side conditions, and all Pokemon information.
+
+        Args:
+            battle: The battle state to embed.
+            teampreview_draft: List of Pokemon indices selected at teampreview.
+            fake_rating: If True, use a fixed rating value (for self-play).
+
+        Returns:
+            Numpy array observation for the policy network.
+        """
         assert isinstance(battle, DoubleBattle)
         if not battle._last_request:
             mask = np.ones(2 * act_len, dtype=np.float32)
@@ -183,6 +291,7 @@ class PolicyPlayer(Player):
 
     @staticmethod
     def embed_global(battle: DoubleBattle) -> npt.NDArray[np.float32]:
+        """Embed global battle state (weather, field effects, teampreview/reviving flags)."""
         weather = [
             (min(battle.turn - battle.weather[w], 8) / 8 if w in battle.weather else 0)
             for w in Weather
@@ -199,6 +308,7 @@ class PolicyPlayer(Player):
     def embed_side(
         battle: DoubleBattle, fake_rating: bool, opp: bool = False
     ) -> npt.NDArray[np.float32]:
+        """Embed side-specific state (side conditions, gimmick availability, rating)."""
         gims = [
             battle.can_mega_evolve[0],
             battle.can_z_move[0],
@@ -250,6 +360,7 @@ class PolicyPlayer(Player):
         active_b: bool,
         in_draft: bool = False,
     ) -> npt.NDArray[np.float32]:
+        """Embed a single Pokemon's features including stats, moves, status, and effects."""
         # (mostly) stable fields
         ability_id = abilities.index(
             "null" if pokemon.ability is None else pokemon.ability
@@ -319,6 +430,7 @@ class PolicyPlayer(Player):
 
     @staticmethod
     def embed_move(move: Move) -> npt.NDArray[np.float32]:
+        """Embed a move's features including power, accuracy, type, and special properties."""
         power = move.base_power / 250
         acc = move.accuracy / 100
         category = [float(c == move.category) for c in MoveCategory]
@@ -356,6 +468,7 @@ class PolicyPlayer(Player):
 
     @staticmethod
     def get_action_mask(battle: DoubleBattle, pos: int) -> list[int]:
+        """Compute legal action mask for a given active slot position."""
         switch_space = [
             i + 1
             for i, pokemon in enumerate(battle.team.values())
@@ -395,21 +508,34 @@ class PolicyPlayer(Player):
 
 @dataclass
 class _BatchReq:
+    """Internal request object for batched inference."""
+
     obs: npt.NDArray[np.float32]
     event: asyncio.Event
     result: npt.NDArray[np.int64] | None = None
 
 
 class BatchPolicyPlayer(PolicyPlayer):
+    """
+    A policy player that batches inference requests for efficiency.
+
+    Collects multiple battle observations and runs them through the policy
+    network together, improving GPU utilization when managing many concurrent
+    battles.
+    """
+
     def __init__(self, *args: Any, **kwargs: Any):
+        """Initialize the batch policy player with an inference queue."""
         super().__init__(*args, **kwargs)
         self._q: asyncio.Queue[_BatchReq] = asyncio.Queue()
         self._worker_task: asyncio.Task | None = None
 
     def choose_move(self, battle: AbstractBattle) -> Awaitable[BattleOrder]:
+        """Return an awaitable that resolves to the chosen battle order."""
         return self._choose_move(battle)
 
     async def _choose_move(self, battle: AbstractBattle) -> BattleOrder:
+        """Queue an observation for batched inference and await the result."""
         assert isinstance(battle, DoubleBattle)
         if battle._wait:
             return DefaultBattleOrder()
@@ -424,9 +550,11 @@ class BatchPolicyPlayer(PolicyPlayer):
         return self.get_order(battle, action)
 
     def teampreview(self, battle: AbstractBattle) -> Awaitable[str]:
+        """Return an awaitable that resolves to the team order string."""
         return self._teampreview(battle)
 
     async def _teampreview(self, battle: AbstractBattle) -> str:
+        """Async teampreview implementation using batched inference."""
         assert isinstance(battle, DoubleBattle)
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         order1 = await self.choose_move(battle)
@@ -444,6 +572,7 @@ class BatchPolicyPlayer(PolicyPlayer):
             return message
 
     async def _inference_loop(self) -> None:
+        """Background task that batches and processes inference requests."""
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         while True:
             # gather requests
