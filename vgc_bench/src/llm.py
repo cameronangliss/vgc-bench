@@ -502,7 +502,7 @@ Number of turns user has protected in a row: {pokemon.protect_counter}"""
         reveal_str = (
             "revealed in battle" if pokemon.revealed else "unrevealed in battle"
         )
-        type_str = "/".join([t.name.lower() for t in pokemon.types])
+        type_str = "/".join([t.name.lower() for t in pokemon.base_types])
         tera_type_str = (
             str(pokemon.tera_type.name.lower())
             if pokemon.tera_type is not None

@@ -376,7 +376,7 @@ class PolicyPlayer(Player):
             4 - len(move_embeds)
         )
         move_embeds = np.concatenate(move_embeds)
-        types = [float(t in pokemon.types) for t in PokemonType]
+        types = [float(t in pokemon.base_types) for t in PokemonType]
         tera_type = [float(t == pokemon.tera_type) for t in PokemonType]
         stats = [(s or 0) / 1000 for s in pokemon.stats.values()]
         gender = [float(g == pokemon.gender) for g in PokemonGender]
