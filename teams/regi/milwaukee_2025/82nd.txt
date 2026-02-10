@@ -1,0 +1,68 @@
+Fred (Koraidon) @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 60 HP / 196 Atk / 4 Def / 12 SpD / 236 Spe
+Adamant Nature
+- Collision Course
+- Flare Blitz
+- Flame Charge
+- Protect
+
+Wilma (Calyrex-Shadow) @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 28 HP / 84 Def / 132 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Dino (Raging Bolt) @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 68 Def / 100 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Electroweb
+- Draco Meteor
+- Thunderclap
+
+Barney (Incineroar) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 4 Atk / 92 Def / 116 SpD / 52 Spe
+Impish Nature
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Pebbles (Ogerpon-Cornerstone) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Power Whip
+- Follow Me
+- Spiky Shield
+
+Bamm Bamm (Brute Bonnet) @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 36 Atk / 204 Def / 60 SpD / 12 Spe
+Impish Nature
+- Seed Bomb
+- Sucker Punch
+- Rage Powder
+- Spore

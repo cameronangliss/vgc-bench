@@ -1,0 +1,72 @@
+Incierto (Incineroar) (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 244 HP / 188 Def / 76 SpD
+Impish Nature
+IVs: 0 Spe
+- U-turn
+- Fake Out
+- Flare Blitz
+- Knock Off
+
+ET (Lunala) @ Leftovers
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 20 Def / 180 SpA / 172 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Wide Guard
+- Trick Room
+
+Mr. Hongo (Amoonguss) (F) @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 196 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Pollen Puff
+- Protect
+
+Ushuaia (Ursaluna) (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 116 SpD
+Brave Nature
+IVs: 14 SpA / 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+RÃ¡pido (Koraidon) @ Life Orb
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Close Combat
+- Flame Charge
+- Protect
+
+Agatha (Flutter Mane) @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 3 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect

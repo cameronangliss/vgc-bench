@@ -1,0 +1,66 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 132 Def / 116 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Parting Shot
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 84 HP / 76 Atk / 4 Def / 172 SpD / 172 Spe
+Adamant Nature
+- Drain Punch
+- Low Kick
+- Fake Out
+- Wild Charge
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 52 Def / 36 SpA / 148 SpD / 20 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Dazzling Gleam
+- Volt Switch
+
+Ho-Oh @ Leftovers
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Atk / 140 Def / 4 SpD / 36 Spe
+Adamant Nature
+- Brave Bird
+- Sacred Fire
+- Tailwind
+- Protect
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 156 Def / 156 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic Noise
+- Foul Play
+- Trick Room
+- Helping Hand
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 220 HP / 236 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect

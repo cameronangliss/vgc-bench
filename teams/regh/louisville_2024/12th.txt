@@ -1,0 +1,66 @@
+PushUrTenper (Sneasler) @ Focus Sash
+Ability: Poison Touch
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Protect
+
+Ze (Mimikyu) @ Life Orb
+Ability: Disguise
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Shadow Claw
+- Play Rough
+- Shadow Sneak
+- Trick Room
+
+MoneyMachine (Ursaluna-Bloodmoon) @ Assault Vest
+Ability: Mind's Eye
+Tera Type: Ghost
+EVs: 156 HP / 12 Def / 212 SpA / 84 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Vacuum Wave
+
+Denji (Garchomp) @ Choice Scarf
+Ability: Rough Skin
+Shiny: Yes
+Tera Type: Fairy
+EVs: 68 HP / 188 Atk / 36 Def / 12 SpD / 204 Spe
+Adamant Nature
+- Stomping Tantrum
+- Dragon Claw
+- Rock Slide
+- Outrage
+
+Veridical (Rillaboom) @ Miracle Seed
+Ability: Grassy Surge
+Shiny: Yes
+Tera Type: Fire
+EVs: 156 HP / 252 Atk / 4 Def / 76 SpD / 20 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- Protect
+
+Walksocket (Gholdengo) @ Sitrus Berry
+Ability: Good as Gold
+Shiny: Yes
+Tera Type: Water
+EVs: 108 HP / 4 Def / 132 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

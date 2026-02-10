@@ -1,0 +1,69 @@
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 4 Def / 116 SpA / 172 SpD / 68 Spe
+Modest Nature
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+- Hyper Voice
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 124 SpA / 252 Spe
+Timid Nature
+IVs: 18 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 16 SpA
+- Scale Shot
+- Tailwind
+- Haze
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 28 SpA
+- Protect
+- Dire Claw
+- Close Combat
+- Throat Chop
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 36 Atk / 4 Def / 44 SpD / 196 Spe
+Adamant Nature
+- Knock Off
+- Parting Shot
+- Flare Blitz
+- Fake Out
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Psychic
+EVs: 244 HP / 156 Def / 4 SpA / 84 SpD / 20 Spe
+Bold Nature
+IVs: 6 Atk
+- Rage Powder
+- Spore
+- Pollen Puff
+- Protect

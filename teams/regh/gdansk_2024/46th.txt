@@ -1,0 +1,71 @@
+Ninetales-Alola @ Choice Specs
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 20 Def / 236 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Icy Wind
+- Moonblast
+
+Delphox @ Life Orb
+Ability: Blaze
+Level: 50
+Tera Type: Fighting
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 18 Atk
+- Protect
+- Tera Blast
+- Expanding Force
+- Heat Wave
+
+Indeedee (M) @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Psychic
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 12 Atk
+- Tera Blast
+- Expanding Force
+- Trick Room
+- Imprison
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+IVs: 16 SpA
+- Stone Edge
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 18 SpA
+- Protect
+- Throat Chop
+- Close Combat
+- Dire Claw
+
+Prinplup @ Eviolite
+Ability: Competitive
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 52 Def / 36 SpA / 4 SpD / 164 Spe
+Bold Nature
+IVs: 18 Atk
+- Tera Blast
+- Helping Hand
+- Haze
+- Water Pledge

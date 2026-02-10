@@ -1,0 +1,71 @@
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wave Crash
+- Flip Turn
+- Last Respects
+- Aqua Jet
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 228 HP / 188 Def / 92 SpD
+Calm Nature
+IVs: 30 Atk / 25 Spe
+- Spore
+- Rage Powder
+- Sludge Bomb
+- Protect
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Level: 70
+Shiny: Yes
+Tera Type: Grass
+EVs: 196 HP / 36 Atk / 4 Def / 140 SpD / 132 Spe
+Adamant Nature
+- Flare Blitz
+- Fake Out
+- Parting Shot
+- Knock Off
+
+Gholdengo @ Wiki Berry
+Ability: Good as Gold
+Level: 76
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 60 Def / 52 SpA / 156 SpD
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Kommo-o @ Throat Spray
+Ability: Overcoat
+Level: 65
+Shiny: Yes
+Tera Type: Fire
+EVs: 4 HP / 12 Def / 236 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Clanging Scales
+- Flamethrower
+- Aura Sphere
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 62
+Tera Type: Fairy
+EVs: 252 HP / 44 Def / 116 SpA / 92 SpD
+Quiet Nature
+IVs: 2 Atk
+- Tera Blast
+- Ice Beam
+- Trick Room
+- Recover

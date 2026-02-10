@@ -1,0 +1,68 @@
+Volcarona (M) @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 68 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Struggle Bug
+- Heat Wave
+- Rage Powder
+- Tailwind
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 44 Def / 4 SpA / 132 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Flash Cannon
+- Draco Meteor
+- Body Press
+- Snarl
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Tera Type: Steel
+EVs: 244 HP / 20 Def / 132 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Trick
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Scale Shot
+- Tailwind
+- Haze
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 124 Def / 124 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Thunder Wave
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 84 Def / 196 SpA / 4 SpD / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Hyper Voice
+- Blood Moon
+- Protect

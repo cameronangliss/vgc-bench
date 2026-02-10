@@ -1,0 +1,68 @@
+Talonflame @ Life Orb
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 18 SpA
+- Tailwind
+- Flare Blitz
+- Protect
+- Brave Bird
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 116 Atk / 60 Def / 4 SpD / 148 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 4 Def / 60 SpD / 76 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- U-turn
+- Wood Hammer
+
+Primarina @ Choice Specs
+Ability: Liquid Voice
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 4 Def / 196 SpA / 68 SpD / 76 Spe
+Modest Nature
+IVs: 14 Atk
+- Moonblast
+- Dazzling Gleam
+- Hyper Voice
+- Haze
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 28 Def / 132 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Maushold @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 100 Def / 196 SpD
+Careful Nature
+- Beat Up
+- Follow Me
+- Super Fang
+- Protect

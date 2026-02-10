@@ -1,0 +1,71 @@
+Farigiraf @ Air Balloon
+Ability: Armor Tail
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 156 Def / 108 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Dazzling Gleam
+- Calm Mind
+- Trick Room
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Follow Me
+- Helping Hand
+- Trick Room
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 100 Atk / 156 Spe
+Jolly Nature
+IVs: 24 SpA
+- U-turn
+- Close Combat
+- Earthquake
+- Final Gambit
+
+Snorlax @ Custap Berry
+Ability: Gluttony
+Level: 50
+Tera Type: Rock
+EVs: 244 HP / 252 Atk / 12 Def
+Brave Nature
+IVs: 0 Spe
+- Body Slam
+- Rock Slide
+- Earthquake
+- Belly Drum
+
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Weather Ball
+- Earth Power
+
+Armarouge @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 124 Def / 132 SpA / 4 SpD / 244 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Heat Wave
+- Stored Power
+- Endure

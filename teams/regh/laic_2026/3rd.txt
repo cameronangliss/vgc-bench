@@ -1,0 +1,73 @@
+Pelipper (M) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Archaludon (M) @ Assault Vest
+Ability: Stamina
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 212 HP / 4 Def / 4 SpA / 36 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Snarl
+- Electro Shot
+- Body Press
+
+Sinistcha-Masterpiece @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 236 HP / 20 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk / 0 Spe
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Farigiraf @ Mental Herb
+Ability: Armor Tail
+Level: 50
+Tera Type: Poison
+EVs: 188 HP / 212 Def / 108 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Helping Hand
+- Dazzling Gleam
+- Psychic
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 164 HP / 252 SpA / 92 SpD
+Quiet Nature
+IVs: 16 Atk / 9 Spe
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 4 Atk / 4 Def / 156 SpD / 140 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out

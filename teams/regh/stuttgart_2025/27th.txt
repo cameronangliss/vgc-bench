@@ -1,0 +1,67 @@
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Tera Type: Fire
+EVs: 236 HP / 116 Atk / 4 Def / 92 SpD / 60 Spe
+Adamant Nature
+IVs: 5 SpA
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 76
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Tera Type: Fairy
+EVs: 12 HP / 212 Atk / 28 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Scale Shot
+- Tailwind
+- Haze
+- Protect
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 70
+Tera Type: Water
+EVs: 100 HP / 12 Def / 116 SpA / 180 SpD / 100 Spe
+Modest Nature
+IVs: 9 Atk
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+- Hyper Voice
+
+Ninetales-Alola @ Covert Cloak
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 36 Def / 20 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icicle Spear
+- Blizzard
+- Aurora Veil
+- Icy Wind
+
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 52 Atk / 12 Def / 12 SpD / 252 Spe
+Jolly Nature
+IVs: 5 SpA
+- Bulk Up
+- Protect
+- Rage Fist
+- Drain Punch

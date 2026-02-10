@@ -1,0 +1,66 @@
+Calyrex-Shadow @ Choice Specs
+Ability: As One (Spectrier)
+Tera Type: Ghost
+EVs: 52 HP / 4 Def / 252 SpA / 44 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Pollen Puff
+- Shadow Ball
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Shiny: Yes
+Tera Type: Dark
+EVs: 132 HP / 4 Atk / 188 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Imprison
+
+Maushold @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 188 HP / 252 Def / 68 Spe
+Impish Nature
+- Feint
+- Follow Me
+- Helping Hand
+- Taunt
+
+Whimsicott (F) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 28 Def / 4 SpA / 84 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Taunt
+- Encore
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Protect
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Tera Type: Fire
+EVs: 84 HP / 36 Atk / 124 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Knock Off
+- Breaking Swipe
+- Tailwind
+- Protect

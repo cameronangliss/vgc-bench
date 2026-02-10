@@ -1,0 +1,68 @@
+Terapagos @ Grassy Seed
+Ability: Tera Shift
+Level: 85
+Tera Type: Stellar
+EVs: 44 HP / 156 Def / 236 SpA / 12 SpD / 60 Spe
+Modest Nature
+IVs: 15 Atk
+- Protect
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 82
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Astral Barrage
+- Psychic
+- Nasty Plot
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 188 Def / 68 SpD
+Impish Nature
+IVs: 26 Spe
+- Helping Hand
+- Fake Out
+- Knock Off
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Tera Type: Fire
+EVs: 212 HP / 84 Atk / 4 Def / 204 SpD / 4 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- Fake Out
+- U-turn
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 228 HP / 132 Def / 4 SpA / 12 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Thunder Wave
+- Taunt
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 60
+Tera Type: Fire
+EVs: 188 HP / 236 Def / 84 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Spore
+- Rage Powder
+- Pollen Puff

@@ -1,0 +1,67 @@
+Volcarona @ Grassy Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 116 Def / 36 SpA / 4 SpD / 100 Spe
+Modest Nature
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Water
+EVs: 12 HP / 220 Atk / 20 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+- Last Respects
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 116 Atk / 20 Def / 188 SpD / 12 Spe
+Adamant Nature
+- Wood Hammer
+- High Horsepower
+- Grassy Glide
+- Fake Out
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Aurora Veil
+- Encore
+- Protect
+
+Ursaluna-Bloodmoon @ Leftovers
+Ability: Mind's Eye
+Level: 50
+Tera Type: Electric
+EVs: 164 HP / 12 Def / 36 SpA / 252 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Yawn
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 4 Atk / 84 Def / 76 SpD / 132 Spe
+Impish Nature
+- Knock Off
+- Taunt
+- Parting Shot
+- Fake Out

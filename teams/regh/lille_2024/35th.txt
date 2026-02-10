@@ -1,0 +1,71 @@
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 172 Def / 4 SpA / 36 SpD / 44 Spe
+Bold Nature
+IVs: 10 Atk
+- Follow Me
+- Moonblast
+- Misty Terrain
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 28 SpA
+- Stomping Tantrum
+- Dragon Claw
+- Earthquake
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Encore
+- Tailwind
+- Sunny Day
+
+Hydreigon @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Snarl
+- Heat Wave
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 84 Atk / 4 Def / 20 SpD / 220 Spe
+Adamant Nature
+IVs: 2 SpA
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Gholdengo @ Iron Plate
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 4 Def / 132 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

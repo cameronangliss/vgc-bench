@@ -1,0 +1,68 @@
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 66
+Tera Type: Water
+EVs: 164 HP / 36 Def / 68 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 180 Def / 28 SpD / 60 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn
+
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 164 Def / 108 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Clear Smog
+- Rage Powder
+- Spore
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 80
+Tera Type: Ghost
+EVs: 140 HP / 244 Atk / 44 Def / 76 SpD / 4 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Ice Punch
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Fighting
+EVs: 244 HP / 4 Atk / 100 Def / 92 SpA / 68 SpD
+Quiet Nature
+- Tera Blast
+- Ice Beam
+- Trick Room
+- Recover
+
+Hydreigon @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 28 HP / 20 Def / 196 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Snarl
+- Heat Wave

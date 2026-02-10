@@ -1,0 +1,74 @@
+WrathofKhan (Kingambit) (F) @ Black Glasses
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 196 Atk / 4 Def / 36 SpD / 20 Spe
+Adamant Nature
+- Protect
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+
+Trunkmeister (Rillaboom) (F) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 60 SpD / 76 Spe
+Adamant Nature
+IVs: 27 SpA
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Litofsky (Electabuzz) (M) @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 236 HP / 252 Def / 20 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Thunderbolt
+- Taunt
+- Follow Me
+
+Heimlich (Volcarona) (M) @ Grassy Seed
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 116 Def / 36 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 4 Atk
+- Protect
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+
+Shigaraki (Sneasler) @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 16 SpA
+- Close Combat
+- Dire Claw
+- Coaching
+- Fake Out
+
+All For One (Dragonite) @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 12 SpA
+- Scale Shot
+- Haze
+- Extreme Speed
+- Protect

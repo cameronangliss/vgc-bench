@@ -1,0 +1,62 @@
+PinkPonyClub (Calyrex-Shadow) @ Focus Sash
+Ability: As One (Spectrier)
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 1 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+protec (Zamazenta) @ Rusted Shield
+Ability: Dauntless Shield
+Tera Type: Dragon
+EVs: 236 HP / 4 Atk / 156 Def / 100 SpD / 12 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Arlie (Chien-Pao) @ Assault Vest
+Ability: Sword of Ruin
+Tera Type: Poison
+EVs: 36 HP / 100 Atk / 4 Def / 116 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Ruination
+- Icy Wind
+
+Green Goober (Dragonite) @ Choice Band
+Ability: Inner Focus
+Tera Type: Normal
+EVs: 236 HP / 252 Atk / 20 SpD
+Adamant Nature
+- Extreme Speed
+- Low Kick
+- Aqua Jet
+- Outrage
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Tera Type: Electric
+EVs: 196 HP / 12 Def / 252 SpA / 12 SpD / 36 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Thunderclap
+- Dragon Pulse
+- Protect
+
+Verizon (Amoonguss) @ Rocky Helmet
+Ability: Regenerator
+Tera Type: Water
+EVs: 236 HP / 188 Def / 84 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Sludge Bomb
+- Rage Powder
+- Protect

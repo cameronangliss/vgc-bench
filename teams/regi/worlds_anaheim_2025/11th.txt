@@ -1,0 +1,67 @@
+Koraidon @ Loaded Dice
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Protect
+- Collision Course
+- Scale Shot
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 60 Def / 100 SpA / 20 SpD / 132 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Snarl
+- Electroweb
+- Draco Meteor
+
+Ho-Oh @ Clear Amulet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 108 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Sacred Fire
+- Brave Bird
+- Tailwind
+- Protect
+
+Iron Treads @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Iron Head
+- Knock Off
+- High Horsepower
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 188 Def / 28 SpD / 36 Spe
+Impish Nature
+- Will-O-Wisp
+- Fake Out
+- Parting Shot
+- Knock Off
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Taunt
+- Protect

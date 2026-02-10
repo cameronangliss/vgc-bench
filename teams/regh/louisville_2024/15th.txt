@@ -1,0 +1,67 @@
+Ninetales-Alola @ Choice Specs
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 76 Def / 196 SpA / 4 SpD / 228 Spe
+Timid Nature
+- Moonblast
+- Aurora Veil
+- Freeze-Dry
+- Blizzard
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 140 Def / 36 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 10 Atk
+- Heat Wave
+- Will-O-Wisp
+- Rage Powder
+- Tailwind
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 196 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Swords Dance
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Kommo-o @ Throat Spray
+Ability: Soundproof
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 4 Def / 92 SpA / 4 SpD / 204 Spe
+Timid Nature
+IVs: 24 Atk
+- Clanging Scales
+- Flamethrower
+- Clangorous Soul
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 116 Atk / 4 Def / 12 SpD / 204 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- High Horsepower

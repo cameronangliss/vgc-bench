@@ -1,0 +1,65 @@
+Miraidon @ Magnet
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Protect
+- Volt Switch
+
+Calyrex-Shadow @ Spooky Plate
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Astral Barrage
+- Psychic
+- Disable
+- Protect
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 100 Def / 156 SpD
+Careful Nature
+- Fake Out
+- U-turn
+- Knock Off
+- Taunt
+
+Iron Moth @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Fairy
+EVs: 20 HP / 12 Def / 244 SpA / 4 SpD / 228 Spe
+Modest Nature
+- Flamethrower
+- Heat Wave
+- Protect
+- Dazzling Gleam
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Icy Wind
+- Protect
+- Ice Beam
+- Encore
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 36 HP / 156 Atk / 108 Def / 172 SpD / 36 Spe
+Adamant Nature
+- Fake Out
+- Wild Charge
+- Low Kick
+- Drain Punch

@@ -1,0 +1,69 @@
+Typhlosion-Hisui @ Choice Scarf
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Shadow Ball
+- Sleep Talk
+- Heat Wave
+
+Toedscruel @ Covert Cloak
+Ability: Mycelium Might
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 180 Def / 4 SpA / 12 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Acid Spray
+- Earth Power
+
+Weezing-Galar @ Choice Specs
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 4 Def / 252 SpA / 4 SpD / 196 Spe
+Modest Nature
+- Dazzling Gleam
+- Sludge Bomb
+- Strange Steam
+- Tera Blast
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe
+Jolly Nature
+- Protect
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+
+Kilowattrel @ Focus Sash
+Ability: Competitive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Discharge
+- Air Slash
+- Tailwind
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 140 Def
+Brave Nature
+IVs: 0 Spe
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out

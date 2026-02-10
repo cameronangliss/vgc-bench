@@ -1,0 +1,71 @@
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Electro Shot
+- Flash Cannon
+- Dragon Pulse
+
+Kingdra @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Draco Meteor
+- Weather Ball
+- Muddy Water
+
+Politoed @ Leftovers
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 60 Def / 4 SpA / 76 SpD / 116 Spe
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Weather Ball
+- Perish Song
+- Encore
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 20 Def / 236 SpD
+Sassy Nature
+IVs: 0 Spe
+- Fake Out
+- Knock Off
+- Parting Shot
+- Protect
+
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 116 Def / 140 SpD
+Sassy Nature
+IVs: 0 Spe
+- Protect
+- Psychic
+- Fake Out
+- Trick Room
+
+Amoonguss @ Eject Button
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 196 Def / 84 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Rage Powder
+- Spore
+- Pollen Puff

@@ -1,0 +1,65 @@
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 36 Atk / 236 SpD
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 52 Def / 124 SpA / 68 SpD / 28 Spe
+Modest Nature
+- Volt Switch
+- Dazzling Gleam
+- Electro Drift
+- Draco Meteor
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 108 HP / 156 Atk / 4 Def / 116 SpD / 124 Spe
+Adamant Nature
+- Facade
+- Crunch
+- Headlong Rush
+- Protect
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Def / 60 SpD
+Bold Nature
+- Struggle Bug
+- Overheat
+- Rage Powder
+- Tailwind
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 140 Def / 116 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 236 Atk / 236 SpD / 36 Spe
+Adamant Nature
+- Fake Out
+- Heavy Slam
+- Low Kick
+- Wild Charge

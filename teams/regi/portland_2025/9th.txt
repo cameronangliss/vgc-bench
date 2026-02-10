@@ -1,0 +1,68 @@
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 116 HP / 76 Atk / 4 Def / 196 SpD / 116 Spe
+Adamant Nature
+- Protect
+- Bulk Up
+- Precipice Blades
+- Heat Crash
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 188 HP / 36 Def / 212 SpA / 4 SpD / 68 Spe
+Modest Nature
+- Volt Switch
+- Draco Meteor
+- Electro Drift
+- Snarl
+
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 196 Def / 4 SpA / 28 SpD / 44 Spe
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Rage Powder
+- Fiery Dance
+- Struggle Bug
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 124 Def / 116 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Thunder Wave
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 12 Atk / 148 Def / 116 SpD
+Brave Nature
+IVs: 0 Spe
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Taunt
+- Protect

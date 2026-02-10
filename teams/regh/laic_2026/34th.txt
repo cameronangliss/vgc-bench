@@ -1,0 +1,68 @@
+Sinistcha-Masterpiece @ Sitrus Berry
+Ability: Hospitality
+Level: 69
+Tera Type: Fairy
+EVs: 244 HP / 28 Def / 236 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Rage Powder
+- Life Dew
+- Matcha Gotcha
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 87
+Tera Type: Normal
+EVs: 148 HP / 196 SpA / 164 SpD
+Modest Nature
+IVs: 0 Atk / 0 Spe
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Protect
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 58
+Tera Type: Ghost
+EVs: 156 HP / 100 Def / 252 Spe
+Timid Nature
+- Beat Up
+- Protect
+- Taunt
+- Follow Me
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 51
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 140 SpD
+Brave Nature
+IVs: 0 Spe
+- Flare Blitz
+- U-turn
+- Fake Out
+- Knock Off
+
+Dusclops @ Eviolite
+Ability: Frisk
+Level: 53
+Tera Type: Dark
+EVs: 252 HP / 20 Def / 236 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Haze
+- Will-O-Wisp
+- Night Shade
+- Trick Room
+
+Annihilape @ Leftovers
+Ability: Defiant
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 12 Def / 100 SpD / 108 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect

@@ -1,0 +1,71 @@
+Volbeat @ Coba Berry
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 60 Def / 196 SpD
+Calm Nature
+IVs: 0 Atk
+- Encore
+- Sunny Day
+- Tailwind
+- Rain Dance
+
+Primarina @ Choice Specs
+Ability: Liquid Voice
+Level: 50
+Tera Type: Steel
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Voice
+- Weather Ball
+- Dazzling Gleam
+- Moonblast
+
+Espathra @ Focus Sash
+Ability: Speed Boost
+Level: 50
+Tera Type: Psychic
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Lumina Crash
+- Expanding Force
+- Dazzling Gleam
+
+Typhlosion-Hisui @ Charcoal
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Eruption
+- Protect
+- Shadow Ball
+- Flamethrower
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 116 Def / 4 SpA / 60 SpD / 76 Spe
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Hyper Voice
+- Trick Room
+- Imprison
+
+Archaludon @ Power Herb
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 132 SpA / 124 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Electro Shot
+- Aura Sphere
+- Dragon Pulse

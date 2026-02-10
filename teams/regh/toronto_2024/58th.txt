@@ -1,0 +1,61 @@
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Tera Type: Ghost
+EVs: 252 HP / 20 Atk / 4 Def / 20 SpD / 212 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Tera Type: Steel
+EVs: 20 HP / 212 Atk / 20 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Scale Shot
+- Haze
+- Tailwind
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Tera Type: Ghost
+EVs: 12 HP / 236 Atk / 4 Def / 52 SpD / 204 Spe
+Adamant Nature
+- Headlong Rush
+- Facade
+- Earthquake
+- Protect
+
+Annihilape @ Focus Sash
+Ability: Defiant
+Tera Type: Stellar
+EVs: 100 HP / 156 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Rage Fist
+- Coaching
+- Final Gambit
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Tera Type: Fairy
+EVs: 236 HP / 196 Def / 4 SpA / 68 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Trick Room
+- Protect

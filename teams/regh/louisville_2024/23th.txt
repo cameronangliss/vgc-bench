@@ -1,0 +1,65 @@
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Shiny: Yes
+Tera Type: Fairy
+EVs: 244 HP / 92 Def / 4 SpA / 156 SpD / 12 Spe
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Pollen Puff
+- Spore
+- Rage Powder
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Tera Type: Grass
+EVs: 236 HP / 36 Atk / 60 Def / 172 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Shiny: Yes
+Tera Type: Dark
+EVs: 204 HP / 196 Atk / 12 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Ninetales-Alola @ Choice Specs
+Ability: Snow Warning
+Shiny: Yes
+Tera Type: Ice
+EVs: 100 HP / 76 Def / 76 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Dazzling Gleam
+- Freeze-Dry
+- Moonblast
+
+Garchomp @ Choice Band
+Ability: Rough Skin
+Shiny: Yes
+Tera Type: Steel
+EVs: 100 HP / 124 Atk / 28 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+
+Dragonite @ Assault Vest
+Ability: Multiscale
+Tera Type: Flying
+EVs: 220 HP / 132 Atk / 36 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Tera Blast
+- Extreme Speed
+- Ice Spinner
+- Low Kick

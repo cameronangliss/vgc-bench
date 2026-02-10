@@ -1,0 +1,72 @@
+WrathofKhan (Kingambit) (F) @ Black Glasses
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 196 Atk / 4 Def / 20 SpD / 36 Spe
+Adamant Nature
+- Protect
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+
+Trunkmeister (Rillaboom) (F) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 140 Atk / 4 Def / 52 SpD / 60 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Litofsky (Electabuzz) (M) @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 244 HP / 228 Def / 4 SpA / 4 SpD / 28 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Thunderbolt
+- Helping Hand
+- Follow Me
+
+Pultimore (Dragapult) (M) @ Choice Specs
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Draco Meteor
+- Shadow Ball
+- Fire Blast
+- U-turn
+
+Heimlich (Volcarona) (M) @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 252 HP / 60 Def / 52 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+
+Bull CRIT!! (Tauros-Paldea-Aqua) @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 156 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Close Combat
+- Aqua Jet

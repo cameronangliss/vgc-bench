@@ -1,0 +1,69 @@
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 60 SpD
+Brave Nature
+IVs: 1 Spe
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Lunala @ Power Herb
+Ability: Shadow Shield
+Tera Type: Grass
+EVs: 220 HP / 196 SpA / 92 Spe
+Modest Nature
+IVs: 1 Atk
+- Expanding Force
+- Trick Room
+- Moongeist Beam
+- Meteor Beam
+
+Smeargle (M) @ Focus Sash
+Ability: Technician
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 68 HP / 188 Def / 252 Spe
+Jolly Nature
+- Follow Me
+- Fake Out
+- Decorate
+- Spore
+
+Urshifu (M) @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- U-turn
+
+Torkoal (M) @ Choice Specs
+Ability: Drought
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Weather Ball
+- Solar Beam
+- Earth Power
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Alluring Voice
+- Trick Room
+- Follow Me
+- Helping Hand

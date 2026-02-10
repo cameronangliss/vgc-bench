@@ -1,0 +1,68 @@
+Baxcalibur @ Loaded Dice
+Ability: Thermal Exchange
+Level: 75
+Tera Type: Ghost
+EVs: 28 HP / 236 Atk / 4 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Scale Shot
+- Icicle Spear
+- High Horsepower
+- Protect
+
+Annihilape @ Focus Sash
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rage Fist
+- Close Combat
+- Coaching
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Tera Type: Ghost
+EVs: 244 HP / 36 Atk / 100 Def / 116 SpD / 12 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Primarina @ Leftovers
+Ability: Liquid Voice
+Level: 75
+Shiny: Yes
+Tera Type: Poison
+EVs: 164 HP / 148 Def / 108 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Calm Mind
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 75
+Tera Type: Fire
+EVs: 244 HP / 116 Atk / 4 Def / 28 SpD / 116 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- Fake Out
+- High Horsepower
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Shiny: Yes
+Tera Type: Steel
+EVs: 60 HP / 20 Def / 212 SpA / 4 SpD / 212 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Trick

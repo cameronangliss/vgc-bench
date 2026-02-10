@@ -1,0 +1,61 @@
+Sensei (Grimmsnarl) @ Light Clay
+Ability: Prankster
+Shiny: Yes
+Tera Type: Ghost
+EVs: 228 HP / 4 Atk / 132 Def / 116 SpD / 28 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Thunder Wave
+
+Yuuka (Miraidon) @ Choice Specs
+Ability: Hadron Engine
+Tera Type: Fairy
+EVs: 108 HP / 4 Def / 252 SpA / 4 SpD / 140 Spe
+Timid Nature
+- Dazzling Gleam
+- Volt Switch
+- Draco Meteor
+- Electro Drift
+
+Mika (Rillaboom) (F) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 36 Atk / 4 Def / 92 SpD / 148 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Kayoko (Incineroar) (F) @ Rocky Helmet
+Ability: Intimidate
+Tera Type: Bug
+EVs: 252 HP / 4 Atk / 188 Def / 12 SpD / 52 Spe
+Impish Nature
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Ako (Calyrex-Ice) @ Icicle Plate
+Ability: As One (Glastrier)
+Tera Type: Water
+EVs: 228 HP / 36 Atk / 4 Def / 196 SpD / 44 Spe
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Hina (Annihilape) (F) @ Choice Scarf
+Ability: Defiant
+Tera Type: Grass
+EVs: 228 HP / 44 Atk / 236 Spe
+Jolly Nature
+- Close Combat
+- Final Gambit
+- Coaching
+- Rage Fist

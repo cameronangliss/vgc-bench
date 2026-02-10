@@ -1,0 +1,62 @@
+Annihilape @ Safety Goggles
+Ability: Defiant
+Tera Type: Water
+EVs: 188 HP / 68 Atk / 252 Spe
+Jolly Nature
+- Coaching
+- Close Combat
+- Rage Fist
+- Final Gambit
+
+Archaludon @ Power Herb
+Ability: Stalwart
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Electro Shot
+- Thunderbolt
+- Dragon Pulse
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Extreme Speed
+- Haze
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 4 Def / 52 SpD / 212 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Tera Type: Poison
+EVs: 172 HP / 4 Def / 116 SpA / 148 SpD / 68 Spe
+Modest Nature
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Vacuum Wave
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Tera Type: Ghost
+EVs: 44 Def / 212 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Fake Tears
+- Encore
+- Tailwind

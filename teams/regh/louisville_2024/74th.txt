@@ -1,0 +1,66 @@
+Sneasler @ Covert Cloak
+Ability: Poison Touch
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 84 Def / 164 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Hyper Voice
+- Haze
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Stomping Tantrum
+- Dragon Claw
+- Earthquake
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Protect
+- Hurricane
+- Rage Powder
+- Sleep Powder
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 196 Def / 60 SpD
+Modest Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 100 HP / 4 Def / 252 SpA / 4 SpD / 148 Spe
+Modest Nature
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot

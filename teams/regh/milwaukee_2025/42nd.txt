@@ -1,0 +1,68 @@
+Sneasler (F) @ Focus Sash
+Ability: Poison Touch
+Level: 83
+Shiny: Yes
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Protect
+- Fake Out
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 124 Def / 116 SpD / 12 Spe
+Impish Nature
+- Reflect
+- Light Screen
+- Foul Play
+- Thunder Wave
+
+Golduck @ Covert Cloak
+Ability: Cloud Nine
+Level: 70
+Tera Type: Ice
+EVs: 8 HP / 248 SpA / 252 Spe
+Timid Nature
+IVs: 26 Atk
+- Protect
+- Ice Beam
+- Muddy Water
+- Simple Beam
+
+Siva (Volcarona) (F) @ Leftovers
+Ability: Flame Body
+Tera Type: Grass
+EVs: 252 HP / 204 Def / 28 SpA / 20 Spe
+Bold Nature
+IVs: 11 Atk
+- Quiver Dance
+- Protect
+- Giga Drain
+- Fiery Dance
+
+Incineroar @ Aguav Berry
+Ability: Intimidate
+Level: 82
+Tera Type: Water
+EVs: 180 HP / 56 Atk / 200 Def / 68 SpD
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Oricorio-Sensu (M) @ Sitrus Berry
+Ability: Dancer
+Shiny: Yes
+Tera Type: Fairy
+EVs: 148 SpA / 108 SpD / 252 Spe
+Timid Nature
+IVs: 17 Atk
+- Protect
+- Revelation Dance
+- Air Slash
+- Tailwind

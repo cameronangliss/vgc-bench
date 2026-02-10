@@ -1,0 +1,67 @@
+Archaludon @ Assault Vest
+Ability: Stamina
+Shiny: Yes
+Tera Type: Grass
+EVs: 180 HP / 12 Def / 44 SpA / 164 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Flash Cannon
+- Electro Shot
+- Body Press
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Shiny: Yes
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Weather Ball
+- Hurricane
+- Tailwind
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Flip Turn
+- Wave Crash
+- Aqua Jet
+- Last Respects
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Shiny: Yes
+Tera Type: Water
+EVs: 244 HP / 180 Def / 84 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Tera Type: Ghost
+EVs: 252 HP / 116 Atk / 68 Def / 28 SpD / 44 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out

@@ -1,0 +1,68 @@
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Poison
+EVs: 20 HP / 4 Atk / 4 Def / 244 SpD / 236 Spe
+Jolly Nature
+- Scale Shot
+- Encore
+- Tailwind
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Dark
+EVs: 92 HP / 236 Atk / 12 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Play Rough
+- Behemoth Blade
+- Close Combat
+- Protect
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Disable
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 156 Atk / 4 Def / 140 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Taunt
+- Protect
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 28 Def / 116 SpA / 76 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Substitute
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+IVs: 28 Spe
+- Will-O-Wisp
+- Knock Off
+- Fake Out
+- Parting Shot

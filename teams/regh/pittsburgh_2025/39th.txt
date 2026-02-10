@@ -1,0 +1,69 @@
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 20 SpD / 236 Spe
+Adamant Nature
+- Flare Blitz
+- Parting Shot
+- Fake Out
+- Knock Off
+
+Bronzong @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 132 Def / 124 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Ice Spinner
+- Trick Room
+- Body Press
+- Iron Defense
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 236 Atk / 132 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Jumpluff @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Tera Type: Water
+EVs: 140 HP / 108 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sleep Powder
+- Sunny Day
+- Pollen Puff
+- Tailwind
+
+Charizard @ Choice Specs
+Ability: Solar Power
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Blast Burn
+- Overheat
+- Heat Wave
+- Dragon Pulse
+
+Torkoal @ Eject Pack
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Overheat
+- Helping Hand
+- Protect

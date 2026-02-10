@@ -1,0 +1,67 @@
+FASTLANE (Drifblim) @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 244 Atk / 68 Def / 28 SpD / 164 Spe
+Jolly Nature
+- Acrobatics
+- Will-O-Wisp
+- Sunny Day
+- Tailwind
+
+GEEDORAH (Hydreigon) @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 112 HP / 40 Def / 196 SpA / 12 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Earth Power
+- Snarl
+
+CROSSHAIRS (Indeedee) @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fighting
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Expanding Force
+- Tera Blast
+- Imprison
+- Trick Room
+
+CZARFACE (Sneasler) @ White Herb
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Throat Chop
+- Protect
+
+FAZERS (Dragapult) @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Phantom Force
+- Tera Blast
+- U-turn
+
+VENOMOUS (Volcarona) @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 252 Def / 36 SpA / 4 SpD / 68 Spe
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Rage Powder
+- Protect
+- Bug Buzz

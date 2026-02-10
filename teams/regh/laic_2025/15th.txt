@@ -1,0 +1,67 @@
+Ninetales-Alola (M) @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Aurora Veil
+- Encore
+- Blizzard
+- Icy Wind
+
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 20 Atk / 44 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Def / 52 SpA / 4 SpD / 212 Spe
+Modest Nature
+- Make It Rain
+- Nasty Plot
+- Shadow Ball
+- Protect
+
+Dragonite (F) @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Scale Shot
+- Tailwind
+- Extreme Speed
+- Protect
+
+Primarina @ Choice Specs
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 132 HP / 116 Def / 36 SpA / 4 SpD / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Dazzling Gleam
+- Haze
+
+Arcanine @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 236 Atk / 4 Def / 44 SpD / 220 Spe
+Jolly Nature
+- Extreme Speed
+- Flare Blitz
+- Protect
+- Will-O-Wisp

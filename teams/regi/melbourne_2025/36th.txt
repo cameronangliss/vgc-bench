@@ -1,0 +1,66 @@
+Lancelot (Zacian-Crowned) @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 204 Atk / 4 Def / 12 SpD / 172 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Sacred Sword
+- Protect
+
+Mordred (Calyrex-Shadow) @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 4 Def / 220 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Astral Barrage
+- Psychic
+- Tera Blast
+- Protect
+
+Gawain (Ogerpon-Hearthflame) (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Atk / 36 Def / 52 SpD / 156 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Manoferrea (Iron Hands) @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 156 Atk / 12 Def / 220 SpD / 44 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Fake Out
+- Low Kick
+
+Agravain (Urshifu) @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Detect
+
+Kay (Whimsicott) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Rock
+EVs: 244 HP / 60 Def / 28 SpA / 108 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Encore
+- Helping Hand

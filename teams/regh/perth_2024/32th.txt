@@ -1,0 +1,67 @@
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Earthquake
+- High Horsepower
+- Iron Head
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Atk / 20 Def / 108 SpD / 12 Spe
+Adamant Nature
+IVs: 22 SpA
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 204 Atk / 4 Def / 12 SpD / 44 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Tera Blast
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 156 Def / 140 SpD
+Bold Nature
+IVs: 4 Atk / 6 Spe
+- Pollen Puff
+- Rage Powder
+- Clear Smog
+- Spore
+
+Kommo-o @ Throat Spray
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 12 Def / 124 SpA / 4 SpD / 228 Spe
+Timid Nature
+- Protect
+- Clanging Scales
+- Clangorous Soul
+- Aura Sphere
+
+Reuniclus @ Life Orb
+Ability: Magic Guard
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 60 Def / 196 SpA
+Modest Nature
+- Protect
+- Trick Room
+- Expanding Force
+- Flash Cannon

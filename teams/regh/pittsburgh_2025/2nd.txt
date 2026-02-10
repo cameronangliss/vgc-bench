@@ -1,0 +1,70 @@
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Electro Shot
+- Flash Cannon
+- Protect
+
+Hariyama @ Assault Vest
+Ability: Thick Fat
+Level: 50
+Tera Type: Psychic
+EVs: 156 HP / 76 Atk / 52 Def / 220 SpD
+Brave Nature
+IVs: 0 Spe
+- Close Combat
+- Knock Off
+- Heavy Slam
+- Fake Out
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 196 Atk / 4 Def / 68 SpD / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Swords Dance
+
+Primarina @ Choice Specs
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 36 Def / 188 SpA / 4 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Dazzling Gleam
+- Hydro Cannon
+
+Sinistcha @ Mental Herb
+Ability: Heatproof
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 28 Def / 228 SpD
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Strength Sap
+- Calm Mind
+- Trick Room
+
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Steel
+EVs: 188 HP / 60 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Flamethrower
+- Struggle Bug
+- Rage Powder
+- Tailwind

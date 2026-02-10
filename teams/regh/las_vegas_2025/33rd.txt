@@ -1,0 +1,71 @@
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 5 SpA
+- Protect
+- Follow Me
+- Population Bomb
+- Substitute
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 156 Def / 124 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Protect
+- Rage Powder
+- Pollen Puff
+- Spore
+
+Gholdengo @ Iapapa Berry
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Def / 12 SpA / 172 SpD / 84 Spe
+Modest Nature
+IVs: 11 Atk
+- Protect
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+
+Kilowattrel @ Focus Sash
+Ability: Competitive
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 29 Atk
+- Thunderbolt
+- Protect
+- Air Slash
+- Tailwind
+
+Incineroar (M) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 4 Def / 52 SpD / 204 Spe
+Careful Nature
+IVs: 15 SpA
+- Fake Out
+- Knock Off
+- Flare Blitz
+- U-turn
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 28 HP / 212 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Protect
+- Haze
+- Scale Shot
+- Low Kick

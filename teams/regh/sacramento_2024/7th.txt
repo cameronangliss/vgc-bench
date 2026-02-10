@@ -1,0 +1,74 @@
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 252 HP / 28 Def / 172 SpA / 52 SpD / 4 Spe
+Modest Nature
+- Tera Blast
+- Ice Beam
+- Trick Room
+- Recover
+
+Hydreigon @ Safety Goggles
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 76 HP / 4 Def / 180 SpA / 12 SpD / 236 Spe
+Timid Nature
+IVs: 8 Atk
+- Snarl
+- Draco Meteor
+- Tailwind
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 236 HP / 36 Atk / 4 Def / 4 SpD / 228 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Garchomp @ Loaded Dice
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Scale Shot
+- Earthquake
+- Stomping Tantrum
+- Protect
+
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 236 HP / 116 Def / 156 SpD
+Calm Nature
+IVs: 27 Atk / 27 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 228 HP / 44 Def / 212 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 5 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

@@ -1,0 +1,68 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 116 SpD
+Careful Nature
+- Thunder Wave
+- Light Screen
+- Reflect
+- Spirit Break
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Atk / 12 Def / 124 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 4 Def / 196 SpD / 20 Spe
+Adamant Nature
+- Dual Wingbeat
+- Swords Dance
+- Protect
+- High Horsepower
+
+Archaludon @ Power Herb
+Ability: Stalwart
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 4 Def / 124 SpA / 116 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Draco Meteor
+- Thunderbolt
+- Protect
+
+Sinistcha @ Assault Vest
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Def / 68 SpA / 156 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Shadow Ball
+- Scald
+- Leaf Storm
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect

@@ -1,0 +1,60 @@
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Tera Type: Bug
+EVs: 252 HP / 4 Atk / 116 Def / 52 SpD / 84 Spe
+Impish Nature
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 76 Def / 172 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Tera Type: Electric
+EVs: 132 HP / 28 Def / 124 SpA / 4 SpD / 220 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Snarl
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Tera Type: Ghost
+EVs: 228 HP / 4 Atk / 156 Def / 116 SpD / 4 Spe
+Careful Nature
+- Reflect
+- Spirit Break
+- Light Screen
+- Thunder Wave
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Tera Type: Water
+EVs: 252 HP / 12 Atk / 100 Def / 68 SpD / 76 Spe
+Adamant Nature
+- Ivy Cudgel
+- Taunt
+- Spiky Shield
+- Follow Me
+
+Lunala @ Leftovers
+Ability: Shadow Shield
+Tera Type: Fairy
+EVs: 92 HP / 204 Def / 108 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Calm Mind
+- Protect

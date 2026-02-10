@@ -1,0 +1,68 @@
+Kareem (Incineroar) @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Atk / 116 Def / 140 SpD / 4 Spe
+Impish Nature
+- Fake Out
+- Knock Off
+- Helping Hand
+- Parting Shot
+
+Navjit (Landorus) @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Def / 76 SpA / 172 SpD / 20 Spe
+Modest Nature
+IVs: 28 Atk
+- Earth Power
+- Sludge Bomb
+- Sandsear Storm
+- Protect
+
+Mao & Agati (Calyrex-Shadow) @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Encore
+- Psychic
+- Protect
+
+Matthias (Koraidon) @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 204 Atk / 20 Def / 20 SpD / 124 Spe
+Jolly Nature
+- Flare Blitz
+- Collision Course
+- Flame Charge
+- Protect
+
+Wacka (Brute Bonnet) @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 4 Atk / 252 Def / 12 SpD / 92 Spe
+Impish Nature
+- Sucker Punch
+- Rage Powder
+- Spore
+- Seed Bomb
+
+Aaron (Raging Bolt) @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 132 Def / 180 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Dragon Pulse
+- Thunderbolt
+- Volt Switch

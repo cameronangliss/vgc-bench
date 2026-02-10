@@ -1,0 +1,69 @@
+Araquanid @ Clear Amulet
+Ability: Water Bubble
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 252 Atk / 20 Def
+Brave Nature
+IVs: 6 Spe
+- Liquidation
+- Wide Guard
+- Leech Life
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 36 Atk / 12 Def / 12 SpD / 204 Spe
+Adamant Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Knock Off
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 116 Atk / 12 Def / 92 SpD / 100 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Coaching
+- Dire Claw
+- Close Combat
+
+Ursaluna-Bloodmoon @ Leftovers
+Ability: Mind's Eye
+Level: 50
+Tera Type: Electric
+EVs: 164 HP / 44 Def / 36 SpA / 196 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Calm Mind
+- Blood Moon
+- Earth Power
+
+Ninetales-Alola @ Covert Cloak
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 100 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Disable
+- Encore
+- Blizzard
+- Aurora Veil
