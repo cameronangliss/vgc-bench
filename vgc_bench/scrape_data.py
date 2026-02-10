@@ -1,14 +1,30 @@
+"""
+Data scraping module for VGC-Bench.
+
+Downloads Pokemon data (abilities, items, moves) from Pokemon Showdown and
+extracts compact name lists used for feature indexing.
+"""
+
 import json
-import os
 import re
-import warnings
+from pathlib import Path
 
 import requests
-from sentence_transformers import SentenceTransformer
-from sklearn.decomposition import PCA
 
 
-def update_desc_embeddings(url: str, file: str, extras: dict[str, dict[str, str]] = {}):
+def update_name_list(url: str, file: str, extras: tuple[str, ...] = ()):
+    """
+    Download Pokemon data and save a list of valid entry names.
+
+    Fetches a data file from Pokemon Showdown and stores entry names.
+    The resulting lists are used to map ability/item/move names to
+    stable integer ids.
+
+    Args:
+        url: Base URL for the Pokemon Showdown data files.
+        file: Filename to download (e.g., "abilities.js").
+        extras: Additional names to prepend to the list.
+    """
     response = requests.get(f"{url}/{file}")
     if ".json" in file:
         json_text = response.text
@@ -18,39 +34,22 @@ def update_desc_embeddings(url: str, file: str, extras: dict[str, dict[str, str]
         js_literal = js_text[i:-1]
         json_text = re.sub(r"([{,])([a-zA-Z0-9_]+)(:)", r'\1"\2"\3', js_literal)
         file += "on"
-    dex = {
-        k: v["shortDesc"]
-        for k, v in {**extras, **json.loads(json_text)}.items()
-        if "shortDesc" in v
-    }
-    warnings.simplefilter(action="ignore", category=FutureWarning)
-    transformer = SentenceTransformer("paraphrase-mpnet-base-v2")
-    pca = PCA(100)
-    embeddings = transformer.encode(list(dex.values()))
-    reduced_embeddings = pca.fit_transform(embeddings).tolist()
+    dex = json.loads(json_text)
+    names = list(dict.fromkeys([*extras, *dex.keys()]))
     with open(f"data/{file}", "w") as f:
-        json.dump(dict(zip(dex.keys(), reduced_embeddings)), f)
+        json.dump(names, f)
 
 
 if __name__ == "__main__":
-    if not os.path.exists("data"):
-        os.mkdir("data")
-    update_desc_embeddings(
-        "https://play.pokemonshowdown.com/data",
-        "abilities.js",
-        extras={"null": {"shortDesc": "null"}, "": {"shortDesc": "empty"}},
+    Path("data").mkdir(exist_ok=True)
+    update_name_list(
+        "https://play.pokemonshowdown.com/data", "abilities.js", extras=("null", "")
     )
-    update_desc_embeddings(
+    update_name_list(
         "https://play.pokemonshowdown.com/data",
         "items.js",
-        extras={
-            "null": {"shortDesc": "null"},
-            "": {"shortDesc": "empty"},
-            "unknown_item": {"shortDesc": "unknown item"},
-        },
+        extras=("null", "", "unknown_item"),
     )
-    update_desc_embeddings(
-        "https://play.pokemonshowdown.com/data",
-        "moves.js",
-        extras={"no move": {"shortDesc": "no move"}},
+    update_name_list(
+        "https://play.pokemonshowdown.com/data", "moves.js", extras=("no move",)
     )

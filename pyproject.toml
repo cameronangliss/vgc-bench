@@ -5,19 +5,20 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "vgc-bench"
 version = "0.1.0"
+requires-python = ">=3.10"
 authors = [{ name = "Cameron Angliss", email = "cameronangliss99@gmail.com" }]
 dependencies = [
-    "accelerate",
+    "accelerate==1.12.0",
+    "huggingface_hub==0.24.0",
     "imitation @ git+https://github.com/cameronangliss/imitation.git@fix-build",
-    "nashpy",
-    "open-spiel",
+    "nashpy==0.0.43",
+    "open-spiel==1.6.11",
     "poke-env @ git+https://github.com/cameronangliss/poke-env.git@vgc-bench",
-    "sentence-transformers",
-    "stable_baselines3",
-    "supersuit~=3.9.0",
-    "tensorboard",
-    "torch",
-    "torch-tb-profiler",
+    "stable_baselines3==2.7.1",
+    "supersuit==3.9.3",
+    "tensorboard==2.20.0",
+    "torch==2.9.1",
+    "torch-tb-profiler==0.4.3",
 ]
 optional-dependencies = { dev = ["black", "isort", "pyright"] }
 
