@@ -28,7 +28,7 @@ from vgc_bench.src.utils import LearningStyle
 warnings.filterwarnings("ignore", category=UserWarning)
 
 HF_BC_MODEL_REPO = "cameronangliss/vgc-bench-models"
-HF_BC_MODEL_FILE = "results17/saves-bc/100.zip"
+HF_BC_MODEL_FILE = "results1/saves-bc/100.zip"
 HF_BC_MODEL_TIMESTEP = 100
 
 
