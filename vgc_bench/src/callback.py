@@ -197,9 +197,10 @@ class Callback(BaseCallback):
                         downloaded_policy, self.save_dir / f"{HF_BC_MODEL_TIMESTEP}.zip"
                     )
                     saves = [HF_BC_MODEL_TIMESTEP]
-                self.model.set_parameters(
-                    str(self.save_dir / f"{max(saves)}.zip"), device=self.model.device
-                )
+                    self.model.set_parameters(
+                        str(self.save_dir / f"{max(saves)}.zip"),
+                        device=self.model.device,
+                    )
             win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
             self.model.logger.record("train/eval", win_rate)
             if not self.behavior_clone:
