@@ -66,6 +66,7 @@ class Callback(BaseCallback):
         save_interval: int,
         team1: str | None,
         team2: str | None,
+        results_suffix: str,
     ):
         """
         Initialize the training callback.
@@ -85,6 +86,7 @@ class Callback(BaseCallback):
             save_interval: Timesteps between checkpoint saves.
             team1: Optional team string for matchup solving (requires team2).
             team2: Optional team string for matchup solving (requires team1).
+            results_suffix: Suffix appended to results<run_id> for output paths.
         """
         super().__init__()
         self.num_teams = num_teams
@@ -100,9 +102,11 @@ class Callback(BaseCallback):
                 "-xt" if not chooses_on_teampreview else "",
             ]
         )[1:]
-        self.log_dir = Path(f"results{run_id}/logs-{self.run_ident}")
-        self.save_dir = Path(
-            f"results{run_id}/saves-{self.run_ident}/{self.num_teams}-teams"
+        suffix = f"-{results_suffix}" if results_suffix else ""
+        output_dir = Path(f"results{run_id}{suffix}")
+        self.log_dir = output_dir / f"logs-{self.run_ident}"
+        self.save_dir = (
+            output_dir / f"saves-{self.run_ident}" / f"{self.num_teams}-teams"
         )
         self.log_dir.mkdir(parents=True, exist_ok=True)
         self.save_dir.mkdir(parents=True, exist_ok=True)

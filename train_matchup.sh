@@ -2,8 +2,10 @@
 
 reg=G
 port=8000
+device="cuda:0"
 num_env_workers=1
 num_eval_workers=1
+results_suffix="worlds_2024_finals"
 
 # sample teams
 # finals matchup of World Championships 2024 in Honolulu
@@ -166,6 +168,7 @@ echo "Starting training..."
 python -m vgc_bench.train \
     --reg "$reg" \
     --port "$port" \
+    --device "$device" \
     --num_envs "$num_env_workers" \
     --num_eval_workers "$num_eval_workers" \
     --behavior_clone \
@@ -173,6 +176,7 @@ python -m vgc_bench.train \
     --no_mirror_match \
     --team1 "$TEAM1" \
     --team2 "$TEAM2" \
+    --results_suffix "$results_suffix" \
     > "debug$port.log" 2>&1
 exit_status=$?
 if [ $exit_status -ne 0 ]; then

@@ -35,6 +35,7 @@ def train(
     chooses_on_teampreview: bool,
     team1: str | None,
     team2: str | None,
+    results_suffix: str,
 ):
     """
     Train a Pokemon VGC policy using reinforcement learning.
@@ -59,6 +60,7 @@ def train(
         chooses_on_teampreview: Whether policy makes teampreview decisions.
         team1: Optional team string for matchup solving (requires team2).
         team2: Optional team string for matchup solving (requires team1).
+        results_suffix: Suffix appended to results<run_id> for output paths.
     """
     save_interval = 98_304
     env = (
@@ -106,7 +108,9 @@ def train(
             "-xt" if not chooses_on_teampreview else "",
         ]
     )[1:]
-    save_dir = Path(f"results{run_id}/saves-{run_ident}/{num_teams}-teams")
+    suffix = f"-{results_suffix}" if results_suffix else ""
+    output_dir = Path(f"results{run_id}{suffix}")
+    save_dir = output_dir / f"saves-{run_ident}" / f"{num_teams}-teams"
     ppo = PPO(
         MaskedActorCriticPolicy,
         env,
@@ -119,7 +123,7 @@ def train(
         batch_size=64,
         gamma=1,
         ent_coef=0.01,
-        tensorboard_log=f"results{run_id}/logs-{run_ident}",
+        tensorboard_log=str(output_dir / f"logs-{run_ident}"),
         policy_kwargs={
             "d_model": 256,
             "num_frames": num_frames,
@@ -157,6 +161,7 @@ def train(
             save_interval,
             team1,
             team2,
+            results_suffix,
         ),
         tb_log_name=f"{num_teams}-teams",
         reset_num_timesteps=False,
@@ -222,6 +227,12 @@ if __name__ == "__main__":
         "--team2", type=str, default="", help="team 2 string for matchup solving"
     )
     parser.add_argument(
+        "--results_suffix",
+        type=str,
+        default="",
+        help="suffix appended to results<run_id> for output paths",
+    )
+    parser.add_argument(
         "--num_teams", type=int, default=2, help="number of teams to train with"
     )
     parser.add_argument(
@@ -266,6 +277,10 @@ if __name__ == "__main__":
     assert (args.team1 == "") == (
         args.team2 == ""
     ), "must provide both or neither of --team1 and --team2"
+    if args.team1 != "":
+        assert (
+            args.results_suffix != ""
+        ), "--results_suffix is required when using --team1 and --team2"
     train(
         battle_format,
         args.run_id,
@@ -282,4 +297,5 @@ if __name__ == "__main__":
         not args.no_teampreview,
         args.team1 or None,
         args.team2 or None,
+        args.results_suffix,
     )
