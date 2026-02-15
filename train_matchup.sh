@@ -5,7 +5,7 @@ port=8000
 device="cuda:0"
 num_env_workers=1
 num_eval_workers=1
-results_suffix="worlds_2024_finals"
+results_suffix="worlds-2024-finals"
 
 # sample teams
 # finals matchup of World Championships 2024 in Honolulu
