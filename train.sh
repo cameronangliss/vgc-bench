@@ -34,6 +34,7 @@ train() {
         --num_eval_workers 24 \
         --port $port \
         --device $device \
+        --behavior_clone \
         --self_play \
         > "debug$port.log" 2>&1
     exit_status=$?
