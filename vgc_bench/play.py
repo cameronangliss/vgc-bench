@@ -19,7 +19,13 @@ from vgc_bench.src.utils import format_map
 
 
 async def play(
-    battle_format: str, run_id: int, num_teams: int, n_games: int, play_on_ladder: bool
+    battle_format: str,
+    run_id: int,
+    results_suffix: str | None,
+    method: str,
+    num_teams: int,
+    n_games: int,
+    play_on_ladder: bool,
 ):
     """
     Run the trained policy in interactive play mode.
@@ -30,12 +36,23 @@ async def play(
     Args:
         battle_format: Pokemon Showdown battle format string.
         run_id: Training run identifier for loading the model.
+        results_suffix: Optional suffix appended to results<run_id> for paths.
+        method: Method string used in checkpoint directory names.
         num_teams: Number of teams the model was trained with.
         n_games: Number of games to play.
         play_on_ladder: If True, play on ladder; if False, accept challenges.
     """
     print("Setting up...")
-    path = Path(f"results{run_id}/saves-sp/{num_teams}-teams")
+    suffix = f"-{results_suffix}" if results_suffix else ""
+    results_path = Path(f"results{run_id}{suffix}")
+    if results_suffix:
+        with (results_path / "team1.txt").open() as f:
+            team1 = f.read()
+        with (results_path / "team2.txt").open() as f:
+            team2 = f.read()
+    else:
+        team1 = None
+        team2 = None
     agent = PolicyPlayer(
         account_configuration=AccountConfiguration("", ""),  # fill in
         battle_format=battle_format,
@@ -44,9 +61,12 @@ async def play(
         server_configuration=ShowdownServerConfiguration,
         accept_open_team_sheet=True,
         start_timer_on_battle_start=play_on_ladder,
-        team=RandomTeamBuilder(run_id, num_teams, battle_format),
+        team=RandomTeamBuilder(
+            run_id, num_teams, battle_format, team1=team1, team2=team2
+        ),
     )
-    filepath = sorted(path.iterdir(), key=lambda p: int(p.stem))[-1]
+    saves_path = results_path / f"saves-{method}" / f"{num_teams}-teams"
+    filepath = sorted(saves_path.iterdir(), key=lambda p: int(p.stem))[-1]
     agent.policy = PPO.load(filepath, device="cuda:0").policy
     assert isinstance(agent.policy, MaskedActorCriticPolicy)
     agent.policy.debug = True
@@ -69,6 +89,18 @@ if __name__ == "__main__":
         "--run_id", type=int, required=True, help="AI's ID from its training run"
     )
     parser.add_argument(
+        "--results_suffix",
+        type=str,
+        default=None,
+        help="suffix appended to results<run_id> for output paths",
+    )
+    parser.add_argument(
+        "--method",
+        type=str,
+        required=True,
+        help="method string for checkpoint directory, e.g. bc-do-xm",
+    )
+    parser.add_argument(
         "--num_teams", type=int, default=1, help="Number of teams AI was trained with"
     )
     parser.add_argument(
@@ -79,4 +111,14 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     battle_format = format_map[args.reg.lower()]
-    asyncio.run(play(battle_format, args.run_id, args.num_teams, args.n, args.l))
+    asyncio.run(
+        play(
+            battle_format,
+            args.run_id,
+            args.results_suffix,
+            args.method,
+            args.num_teams,
+            args.n,
+            args.l,
+        )
+    )

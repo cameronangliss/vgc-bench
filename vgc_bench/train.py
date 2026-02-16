@@ -99,7 +99,7 @@ def train(
             ]
         )
     )
-    run_ident = "".join(
+    method = "".join(
         [
             "-bc" if behavior_clone else "",
             "-" + learning_style.abbrev,
@@ -110,7 +110,7 @@ def train(
     )[1:]
     suffix = f"-{results_suffix}" if results_suffix else ""
     output_dir = Path(f"results{run_id}{suffix}")
-    save_dir = output_dir / f"saves-{run_ident}" / f"{num_teams}-teams"
+    save_dir = output_dir / f"saves-{method}" / f"{num_teams}-teams"
     ppo = PPO(
         MaskedActorCriticPolicy,
         env,
@@ -123,7 +123,7 @@ def train(
         batch_size=64,
         gamma=1,
         ent_coef=0.01,
-        tensorboard_log=str(output_dir / f"logs-{run_ident}"),
+        tensorboard_log=str(output_dir / f"logs-{method}"),
         policy_kwargs={
             "d_model": 256,
             "num_frames": num_frames,

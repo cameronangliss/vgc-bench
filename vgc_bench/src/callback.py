@@ -93,7 +93,7 @@ class Callback(BaseCallback):
         self.learning_style = learning_style
         self.behavior_clone = behavior_clone
         self.save_interval = save_interval
-        self.run_ident = "".join(
+        method = "".join(
             [
                 "-bc" if behavior_clone else "",
                 "-" + learning_style.abbrev,
@@ -104,10 +104,8 @@ class Callback(BaseCallback):
         )[1:]
         suffix = f"-{results_suffix}" if results_suffix else ""
         output_dir = Path(f"results{run_id}{suffix}")
-        self.log_dir = output_dir / f"logs-{self.run_ident}"
-        self.save_dir = (
-            output_dir / f"saves-{self.run_ident}" / f"{self.num_teams}-teams"
-        )
+        self.log_dir = output_dir / f"logs-{method}"
+        self.save_dir = output_dir / f"saves-{method}" / f"{self.num_teams}-teams"
         self.log_dir.mkdir(parents=True, exist_ok=True)
         self.save_dir.mkdir(parents=True, exist_ok=True)
         self.payoff_matrix: npt.NDArray[np.float32]
