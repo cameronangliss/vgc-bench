@@ -174,31 +174,27 @@ class Callback(BaseCallback):
         self.eval_agent.policy = self.model.policy
         self.starting_timestep = self.model.num_timesteps
         if self.model.num_timesteps < self.save_interval:
-            if self.behavior_clone:
-                saves = [
-                    int(p.stem) for p in self.save_dir.iterdir() if int(p.stem) >= 0
-                ]
-                if len(saves) == 0:
-                    print(
-                        "behavior_clone on, but no save file found. Downloading "
-                        f"{HF_BC_MODEL_FILE} from {HF_BC_MODEL_REPO}...",
-                        flush=True,
+            saves = [int(p.stem) for p in self.save_dir.iterdir() if int(p.stem) >= 0]
+            if self.behavior_clone and len(saves) == 0:
+                print(
+                    "behavior_clone on, but no save file found. Downloading "
+                    f"{HF_BC_MODEL_FILE} from {HF_BC_MODEL_REPO}...",
+                    flush=True,
+                )
+                downloaded_policy = Path(
+                    hf_hub_download(
+                        repo_id=HF_BC_MODEL_REPO,
+                        filename=HF_BC_MODEL_FILE,
+                        repo_type="model",
                     )
-                    downloaded_policy = Path(
-                        hf_hub_download(
-                            repo_id=HF_BC_MODEL_REPO,
-                            filename=HF_BC_MODEL_FILE,
-                            repo_type="model",
-                        )
-                    )
-                    shutil.copy2(
-                        downloaded_policy, self.save_dir / f"{HF_BC_MODEL_TIMESTEP}.zip"
-                    )
-                    saves = [HF_BC_MODEL_TIMESTEP]
-                    self.model.set_parameters(
-                        str(self.save_dir / f"{max(saves)}.zip"),
-                        device=self.model.device,
-                    )
+                )
+                shutil.copy2(
+                    downloaded_policy, self.save_dir / f"{HF_BC_MODEL_TIMESTEP}.zip"
+                )
+                saves = [HF_BC_MODEL_TIMESTEP]
+                self.model.set_parameters(
+                    str(self.save_dir / f"{max(saves)}.zip"), device=self.model.device
+                )
             win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
             self.model.logger.record("train/eval", win_rate)
             if not self.behavior_clone:
@@ -236,10 +232,7 @@ class Callback(BaseCallback):
             )
             for i in range(self.model.env.num_envs):
                 self.model.env.env_method(
-                    "set_opp_policy",
-                    str(selected_files[i]),
-                    self.model.device,
-                    indices=i,
+                    "set_opp_policy", selected_files[i], self.model.device, indices=i
                 )
 
     def _on_training_end(self):
@@ -252,30 +245,45 @@ class Callback(BaseCallback):
         win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
         self.model.logger.record("train/eval", win_rate)
         if self.learning_style == LearningStyle.DOUBLE_ORACLE:
-            policy_files = sorted(self.save_dir.iterdir(), key=lambda p: int(p.stem))
-            win_rates = np.array([])
-            for p in policy_files:
-                self.eval_agent2.set_policy(str(p), self.model.device)
-                win_rate = self.compare(self.eval_agent, self.eval_agent2, 100)
-                win_rates = np.append(win_rates, win_rate)
-            self.payoff_matrix = np.concat(
-                [self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1
-            )
-            win_rates = np.append(win_rates, 0.5)
-            self.payoff_matrix = np.concat(
-                [self.payoff_matrix, win_rates.reshape(1, -1)], axis=0
-            )
-            self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
-            payoff_path = self.log_dir / f"{self.num_teams}-teams-payoff-matrix.json"
-            with payoff_path.open("w") as f:
-                json.dump(
-                    [
-                        [round(win_rate, 3) for win_rate in win_rates]
-                        for win_rates in self.payoff_matrix.tolist()
-                    ],
-                    f,
-                )
+            policy_files = list(self.save_dir.iterdir())
+            self.update_payoff_matrix(policy_files)
         self.model.save(self.save_dir / f"{self.model.num_timesteps}")
+
+    def update_payoff_matrix(self, policy_files: list[Path]):
+        """
+        Expand and persist the double-oracle payoff matrix with a new policy.
+
+        Evaluates the current training policy (`self.eval_agent`) against each
+        policy in `policy_files`, appends the resulting payoffs to both axes of
+        the square matrix, recomputes the Nash opponent distribution, and writes
+        the rounded matrix to disk.
+
+        Args:
+            policy_files: Existing checkpoint files.
+        """
+        ordered_policy_files = sorted(policy_files, key=lambda p: int(p.stem))
+        win_rates = np.array([])
+        for p in ordered_policy_files:
+            self.eval_agent2.set_policy(p, self.model.device)
+            win_rate = self.compare(self.eval_agent, self.eval_agent2, 100)
+            win_rates = np.append(win_rates, win_rate)
+        self.payoff_matrix = np.concat(
+            [self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1
+        )
+        win_rates = np.append(win_rates, 0.5)
+        self.payoff_matrix = np.concat(
+            [self.payoff_matrix, win_rates.reshape(1, -1)], axis=0
+        )
+        self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
+        payoff_path = self.log_dir / f"{self.num_teams}-teams-payoff-matrix.json"
+        with payoff_path.open("w") as f:
+            json.dump(
+                [
+                    [round(win_rate, 3) for win_rate in win_rates]
+                    for win_rates in self.payoff_matrix.tolist()
+                ],
+                f,
+            )
 
     @staticmethod
     def compare(player1: Player, player2: Player, n_battles: int) -> float:

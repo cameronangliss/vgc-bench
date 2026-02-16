@@ -11,6 +11,7 @@ import io
 import random
 import zipfile
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any, Awaitable, Deque
 
 import numpy as np
@@ -78,7 +79,7 @@ class PolicyPlayer(Player):
         super().__init__(*args, **kwargs)
         self.policy = policy
 
-    def set_policy(self, policy_file: str, device: torch.device):
+    def set_policy(self, policy_file: str | Path, device: torch.device):
         """
         Load or update the policy from a checkpoint file.
 
