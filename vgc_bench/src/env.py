@@ -143,7 +143,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             env.agent2.teampreview = env.async_random_teampreview2
         if learning_style == LearningStyle.PURE_SELF_PLAY:
             if num_frames > 1:
-                env = ss.frame_stack_v2(env, stack_size=num_frames, stack_dim=0)
+                env = ss.frame_stack_v1(env, stack_size=num_frames, stack_dim=0)
             env = ss.pettingzoo_env_to_vec_env_v1(env)
             env = ss.concat_vec_envs_v1(
                 env,
