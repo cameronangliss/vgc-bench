@@ -10,7 +10,7 @@ import asyncio
 from pathlib import Path
 
 from poke_env import AccountConfiguration, ShowdownServerConfiguration
-from stable_baselines3 import PPO
+from torch import device
 
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.policy_player import PolicyPlayer
@@ -67,7 +67,7 @@ async def play(
     )
     saves_path = results_path / f"saves-{method}" / f"{num_teams}-teams"
     filepath = sorted(saves_path.iterdir(), key=lambda p: int(p.stem))[-1]
-    agent.policy = PPO.load(filepath, device="cuda:0").policy
+    agent.set_policy(filepath, device("cuda:0"))
     assert isinstance(agent.policy, MaskedActorCriticPolicy)
     agent.policy.debug = True
     print(f"Loaded model from {filepath}")
