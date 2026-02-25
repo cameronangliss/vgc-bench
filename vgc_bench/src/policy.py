@@ -46,7 +46,7 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
 
     Attributes:
         num_frames: Number of stacked frames for temporal context.
-        chooses_on_teampreview: Whether policy controls teampreview decisions.
+        choose_on_teampreview: Whether policy controls teampreview decisions.
         actor_grad: Whether to compute gradients for actor during evaluation.
         debug: Whether to print debug information during forward pass.
     """
@@ -56,7 +56,7 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         *args: Any,
         d_model: int,
         num_frames: int,
-        chooses_on_teampreview: bool,
+        choose_on_teampreview: bool,
         **kwargs: Any,
     ):
         """
@@ -65,12 +65,12 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         Args:
             d_model: Hidden size for policy/value networks and attention extractor.
             num_frames: Number of frames to stack for temporal context.
-            chooses_on_teampreview: Whether policy controls teampreview.
+            choose_on_teampreview: Whether policy controls teampreview.
             *args: Additional arguments for ActorCriticPolicy.
             **kwargs: Additional keyword arguments for ActorCriticPolicy.
         """
         self.num_frames = num_frames
-        self.chooses_on_teampreview = chooses_on_teampreview
+        self.choose_on_teampreview = choose_on_teampreview
         self.actor_grad = True
         self.debug = False
         super().__init__(
@@ -82,7 +82,7 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
             features_extractor_kwargs={
                 "d_model": d_model,
                 "num_frames": num_frames,
-                "chooses_on_teampreview": chooses_on_teampreview,
+                "choose_on_teampreview": choose_on_teampreview,
             },
             share_features_extractor=False,
         )
@@ -236,7 +236,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
         observation_space: Space[Any],
         d_model: int,
         num_frames: int,
-        chooses_on_teampreview: bool,
+        choose_on_teampreview: bool,
     ):
         """
         Initialize the attention-based feature extractor.
@@ -245,11 +245,11 @@ class AttentionExtractor(BaseFeaturesExtractor):
             observation_space: Gymnasium observation space specification.
             d_model: Hidden size for token projection and transformer layers.
             num_frames: Number of stacked frames for temporal context.
-            chooses_on_teampreview: Whether policy controls teampreview decisions.
+            choose_on_teampreview: Whether policy controls teampreview decisions.
         """
         super().__init__(observation_space, features_dim=d_model)
         self.num_frames = num_frames
-        self.chooses_on_teampreview = chooses_on_teampreview
+        self.choose_on_teampreview = choose_on_teampreview
         self.ability_embed = nn.Embedding(
             len(abilities), self.embed_len, max_norm=self.embed_len**0.5
         )

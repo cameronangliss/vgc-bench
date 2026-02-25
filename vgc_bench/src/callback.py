@@ -62,7 +62,7 @@ class Callback(BaseCallback):
         behavior_clone: bool,
         num_frames: int,
         allow_mirror_match: bool,
-        chooses_on_teampreview: bool,
+        choose_on_teampreview: bool,
         save_interval: int,
         team1: str | None,
         team2: str | None,
@@ -82,7 +82,7 @@ class Callback(BaseCallback):
             behavior_clone: Whether initialized from behavior cloning.
             num_frames: Number of frames for frame stacking.
             allow_mirror_match: Whether to allow same-team matchups.
-            chooses_on_teampreview: Whether policy makes teampreview decisions.
+            choose_on_teampreview: Whether policy makes teampreview decisions.
             save_interval: Timesteps between checkpoint saves.
             team1: Optional team string for matchup solving (requires team2).
             team2: Optional team string for matchup solving (requires team1).
@@ -99,7 +99,7 @@ class Callback(BaseCallback):
                 "-" + learning_style.abbrev,
                 f"-fs{num_frames}" if num_frames > 1 else "",
                 "-xm" if not allow_mirror_match else "",
-                "-xt" if not chooses_on_teampreview else "",
+                "-xt" if not choose_on_teampreview else "",
             ]
         )[1:]
         suffix = f"-{results_suffix}" if results_suffix else ""

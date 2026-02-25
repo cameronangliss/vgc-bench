@@ -8,7 +8,6 @@ Also implements the battle state embedding used for policy observations.
 
 import asyncio
 import io
-import random
 import zipfile
 from dataclasses import dataclass
 from pathlib import Path
@@ -33,7 +32,6 @@ from poke_env.battle import (
     Weather,
 )
 from poke_env.environment import DoublesEnv
-from poke_env.environment.env import _EnvPlayer
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
 from stable_baselines3 import PPO
 from stable_baselines3.common.policies import BasePolicy
@@ -60,12 +58,10 @@ class PolicyPlayer(Player):
     Attributes:
         policy: The neural network policy used for action selection.
         _frames: Per-battle frame history for frame stacking.
-        _teampreview_drafts: Per-battle teampreview selections.
     """
 
     policy: BasePolicy | None
     _frames: dict[str, Deque[npt.NDArray[np.float32]]] = {}
-    _teampreview_drafts: dict[str, list[int]] = {}
 
     def __init__(self, policy: BasePolicy | None = None, *args: Any, **kwargs: Any):
         """
@@ -119,7 +115,7 @@ class PolicyPlayer(Player):
             obs_tensor = torch.as_tensor(obs, device=self.policy.device).unsqueeze(0)
             action, _, _ = self.policy.forward(obs_tensor)
         action = action.cpu().numpy()[0]
-        return self.get_order(battle, action)
+        return DoublesEnv.action_to_order(action, battle)
 
     def get_observation(self, battle: DoubleBattle) -> npt.NDArray[np.float32]:
         """
@@ -135,20 +131,13 @@ class PolicyPlayer(Player):
             Numpy array observation suitable for the policy network.
         """
         assert isinstance(self.policy, MaskedActorCriticPolicy)
-        # remove finished battles
-        self._teampreview_drafts = {
-            tag: preview
-            for tag, preview in self._teampreview_drafts.items()
-            if tag in self.battles and not self.battles[tag].finished
-        }
+        # remove frames of finished battles
         self._frames = {
             tag: frame
             for tag, frame in self._frames.items()
             if tag in self.battles and not self.battles[tag].finished
         }
-        # initialize tracking for new battles
-        if battle.battle_tag not in self._teampreview_drafts:
-            self._teampreview_drafts[battle.battle_tag] = []
+        # initialize frames for new battles
         if battle.battle_tag not in self._frames and self.policy.num_frames > 1:
             self._frames[battle.battle_tag] = Deque(maxlen=self.policy.num_frames)
             for _ in range(self.policy.num_frames):
@@ -156,45 +145,17 @@ class PolicyPlayer(Player):
                     np.zeros((2 * act_len + 12 * chunk_obs_len,), dtype=np.float32)
                 )
         # embed battle into observation
-        obs = self.embed_battle(
-            battle, self._teampreview_drafts[battle.battle_tag], fake_rating=True
-        )
+        obs = self.embed_battle(battle, fake_rating=True)
         if self.policy.num_frames > 1:
             self._frames[battle.battle_tag].append(obs)
             obs = np.concatenate(self._frames[battle.battle_tag])
         return obs
 
-    def get_order(
-        self, battle: DoubleBattle, action: npt.NDArray[np.int64]
-    ) -> BattleOrder:
-        """
-        Convert a policy action to a battle order.
-
-        Handles teampreview actions specially if the policy doesn't control
-        teampreview, selecting random Pokemon in that case.
-
-        Args:
-            battle: Current battle state.
-            action: Action indices from the policy.
-
-        Returns:
-            The battle order corresponding to the action.
-        """
-        assert isinstance(self.policy, MaskedActorCriticPolicy)
-        if battle.teampreview:
-            if not self.policy.chooses_on_teampreview:
-                available_actions = [
-                    i
-                    for i in range(1, 7)
-                    if i not in self._teampreview_drafts[battle.battle_tag]
-                ]
-                action = np.array(random.sample(available_actions, k=2))
-            self._teampreview_drafts[battle.battle_tag] += action.tolist()
-        return DoublesEnv.action_to_order(action, battle)
-
     def teampreview(self, battle: AbstractBattle) -> str | Awaitable[str]:
         """
-        Select Pokemon for teampreview using the policy.
+        Select Pokemon for teampreview.
+
+        Uses random teampreview when policy-controlled teampreview is disabled.
 
         Args:
             battle: Current battle state during team preview.
@@ -202,27 +163,25 @@ class PolicyPlayer(Player):
         Returns:
             Team order string for Pokemon Showdown.
         """
-        assert isinstance(battle, DoubleBattle)
         assert isinstance(self.policy, MaskedActorCriticPolicy)
+        if not self.policy.choose_on_teampreview:
+            return self.random_teampreview(battle)
+        assert isinstance(battle, DoubleBattle)
         order1 = self.choose_move(battle)
         assert not isinstance(order1, Awaitable)
-        upd_battle = _EnvPlayer._simulate_teampreview_switchin(order1, battle)
-        order2 = self.choose_move(upd_battle)
-        assert not isinstance(order2, Awaitable)
         action1 = DoublesEnv.order_to_action(order1, battle)
-        action2 = DoublesEnv.order_to_action(order2, upd_battle)
-        if self.policy.chooses_on_teampreview:
-            return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
-        else:
-            message = self.random_teampreview(battle)
-            self._teampreview_drafts[battle.battle_tag] = [
-                int(i) for i in message[6:-2]
-            ]
-            return message
+        list(battle.team.values())[action1[0] - 1]._selected_in_teampreview = True
+        list(battle.team.values())[action1[1] - 1]._selected_in_teampreview = True
+        order2 = self.choose_move(battle)
+        assert not isinstance(order2, Awaitable)
+        action2 = DoublesEnv.order_to_action(order2, battle)
+        list(battle.team.values())[action2[0] - 1]._selected_in_teampreview = True
+        list(battle.team.values())[action2[1] - 1]._selected_in_teampreview = True
+        return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
 
     @staticmethod
     def embed_battle(
-        battle: AbstractBattle, teampreview_draft: list[int], fake_rating: bool = False
+        battle: AbstractBattle, fake_rating: bool = False
     ) -> npt.NDArray[np.float32]:
         """
         Convert a battle state to a feature vector observation.
@@ -232,7 +191,6 @@ class PolicyPlayer(Player):
 
         Args:
             battle: The battle state to embed.
-            teampreview_draft: List of Pokemon indices selected at teampreview.
             fake_rating: If True, use a fixed rating value (for self-play).
 
         Returns:
@@ -250,13 +208,8 @@ class PolicyPlayer(Player):
         opp_side = PolicyPlayer.embed_side(battle, False, opp=True)
         a1, a2 = battle.active_pokemon
         o1, o2 = battle.opponent_active_pokemon
-        assert battle.teampreview == (len(teampreview_draft) < 4)
-        assert all(
-            [
-                i in teampreview_draft
-                for i, p in enumerate(battle.team.values(), start=1)
-                if p.active
-            ]
+        assert battle.teampreview == (
+            len([p for p in battle.team.values() if p.selected_in_teampreview]) < 4
         )
         pokemons = [
             PolicyPlayer.embed_pokemon(
@@ -265,7 +218,6 @@ class PolicyPlayer(Player):
                 from_opponent=False,
                 active_a=a1 is not None and p.name == a1.name,
                 active_b=a2 is not None and p.name == a2.name,
-                in_draft=i + 1 in teampreview_draft,
             )
             for i, p in enumerate(battle.team.values())
         ]
@@ -354,14 +306,10 @@ class PolicyPlayer(Player):
 
     @staticmethod
     def embed_pokemon(
-        pokemon: Pokemon,
-        pos: int,
-        from_opponent: bool,
-        active_a: bool,
-        active_b: bool,
-        in_draft: bool = False,
+        pokemon: Pokemon, pos: int, from_opponent: bool, active_a: bool, active_b: bool
     ) -> npt.NDArray[np.float32]:
         """Embed a single Pokemon's features including stats, moves, status, and effects."""
+        assert from_opponent or not pokemon.revealed or pokemon.selected_in_teampreview
         # (mostly) stable fields
         ability_id = abilities.index(
             "null" if pokemon.ability is None else pokemon.ability
@@ -385,6 +333,7 @@ class PolicyPlayer(Player):
         # volatile fields
         hp_frac = pokemon.current_hp_fraction
         revealed = float(pokemon.revealed)
+        in_draft = float(pokemon.selected_in_teampreview)
         status = [float(s == pokemon.status) for s in Status]
         status_counter = pokemon.status_counter / 16
         boosts = [b / 6 for b in pokemon.boosts.values()]
@@ -411,6 +360,7 @@ class PolicyPlayer(Player):
                 weight,
                 hp_frac,
                 revealed,
+                in_draft,
                 *status,
                 status_counter,
                 *boosts,
@@ -424,7 +374,6 @@ class PolicyPlayer(Player):
                 float(active_b),
                 *pos_onehot,
                 float(from_opponent),
-                float(in_draft),
             ],
             dtype=np.float32,
         )
@@ -482,7 +431,13 @@ class PolicyPlayer(Player):
             actions = [0]
         elif all(battle.force_switch) and len(battle.available_switches[0]) == 1:
             actions = switch_space + [0]
-        elif battle.teampreview or active_mon is None:
+        elif battle.teampreview:
+            actions = [
+                i
+                for i, p in enumerate(battle.team.values(), start=1)
+                if not p.selected_in_teampreview
+            ]
+        elif active_mon is None:
             actions = switch_space
         else:
             move_spaces = [
@@ -548,29 +503,27 @@ class BatchPolicyPlayer(PolicyPlayer):
         await req.event.wait()
         assert req.result is not None
         action = req.result
-        return self.get_order(battle, action)
+        return DoublesEnv.action_to_order(action, battle)
 
     def teampreview(self, battle: AbstractBattle) -> Awaitable[str]:
         """Return an awaitable that resolves to the team order string."""
         return self._teampreview(battle)
 
     async def _teampreview(self, battle: AbstractBattle) -> str:
-        """Async teampreview implementation using batched inference."""
-        assert isinstance(battle, DoubleBattle)
+        """Async teampreview implementation with random fallback when disabled."""
         assert isinstance(self.policy, MaskedActorCriticPolicy)
+        if not self.policy.choose_on_teampreview:
+            return self.random_teampreview(battle)
+        assert isinstance(battle, DoubleBattle)
         order1 = await self.choose_move(battle)
-        upd_battle = _EnvPlayer._simulate_teampreview_switchin(order1, battle)
-        order2 = await self.choose_move(upd_battle)
         action1 = DoublesEnv.order_to_action(order1, battle)
-        action2 = DoublesEnv.order_to_action(order2, upd_battle)
-        if self.policy.chooses_on_teampreview:
-            return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
-        else:
-            message = self.random_teampreview(battle)
-            self._teampreview_drafts[battle.battle_tag] = [
-                int(i) for i in message[6:-2]
-            ]
-            return message
+        list(battle.team.values())[action1[0] - 1]._selected_in_teampreview = True
+        list(battle.team.values())[action1[1] - 1]._selected_in_teampreview = True
+        order2 = await self.choose_move(battle)
+        action2 = DoublesEnv.order_to_action(order2, battle)
+        list(battle.team.values())[action2[0] - 1]._selected_in_teampreview = True
+        list(battle.team.values())[action2[1] - 1]._selected_in_teampreview = True
+        return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
 
     async def _inference_loop(self) -> None:
         """Background task that batches and processes inference requests."""

@@ -121,19 +121,13 @@ def pretrain(
         div_frac: Fraction of dataset to load per training iteration.
     """
     env = ShowdownEnv(
-        learning_style=LearningStyle.PURE_SELF_PLAY,
-        chooses_on_teampreview=True,
         battle_format=battle_format,
         log_level=40,
         accept_open_team_sheet=True,
         start_listening=False,
+        choose_on_teampreview=True,
     )
-    opponent = RandomPlayer(
-        battle_format=battle_format,
-        log_level=40,
-        accept_open_team_sheet=True,
-        start_listening=False,
-    )
+    opponent = RandomPlayer(start_listening=False)
     single_agent_env = SingleAgentWrapper(env, opponent)
     ppo = PPO(
         MaskedActorCriticPolicy,
@@ -141,7 +135,7 @@ def pretrain(
         policy_kwargs={
             "d_model": 256,
             "num_frames": num_frames,
-            "chooses_on_teampreview": True,
+            "choose_on_teampreview": True,
         },
         device=device,
     )

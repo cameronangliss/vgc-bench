@@ -32,7 +32,7 @@ def train(
     behavior_clone: bool,
     num_frames: int,
     allow_mirror_match: bool,
-    chooses_on_teampreview: bool,
+    choose_on_teampreview: bool,
     team1: str | None,
     team2: str | None,
     results_suffix: str,
@@ -57,7 +57,7 @@ def train(
         behavior_clone: Whether to initialize from a BC-pretrained policy.
         num_frames: Number of frames for frame stacking.
         allow_mirror_match: Whether to allow same-team matchups.
-        chooses_on_teampreview: Whether policy makes teampreview decisions.
+        choose_on_teampreview: Whether policy makes teampreview decisions.
         team1: Optional team string for matchup solving (requires team2).
         team2: Optional team string for matchup solving (requires team1).
         results_suffix: Suffix appended to results<run_id> for output paths.
@@ -74,7 +74,7 @@ def train(
             learning_style,
             num_frames,
             allow_mirror_match,
-            chooses_on_teampreview,
+            choose_on_teampreview,
             team1,
             team2,
         )
@@ -91,7 +91,7 @@ def train(
                     learning_style,
                     num_frames,
                     allow_mirror_match,
-                    chooses_on_teampreview,
+                    choose_on_teampreview,
                     team1,
                     team2,
                 )
@@ -105,7 +105,7 @@ def train(
             "-" + learning_style.abbrev,
             f"-fs{num_frames}" if num_frames > 1 else "",
             "-xm" if not allow_mirror_match else "",
-            "-xt" if not chooses_on_teampreview else "",
+            "-xt" if not choose_on_teampreview else "",
         ]
     )[1:]
     suffix = f"-{results_suffix}" if results_suffix else ""
@@ -127,7 +127,7 @@ def train(
         policy_kwargs={
             "d_model": 256,
             "num_frames": num_frames,
-            "chooses_on_teampreview": chooses_on_teampreview,
+            "choose_on_teampreview": choose_on_teampreview,
         },
         device=device,
     )
@@ -157,7 +157,7 @@ def train(
             behavior_clone,
             num_frames,
             allow_mirror_match,
-            chooses_on_teampreview,
+            choose_on_teampreview,
             save_interval,
             team1,
             team2,

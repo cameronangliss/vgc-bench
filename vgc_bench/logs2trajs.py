@@ -23,7 +23,6 @@ from imitation.data.types import Trajectory
 from poke_env import to_id_str
 from poke_env.battle import SPECIAL_MOVES, AbstractBattle, DoubleBattle, Move
 from poke_env.environment import DoublesEnv
-from poke_env.environment.env import _EnvPlayer
 from poke_env.player import (
     BattleOrder,
     DoubleBattleOrder,
@@ -106,20 +105,24 @@ class LogReader(Player):
         assert isinstance(battle, DoubleBattle)
         id1 = self.get_teampreview_order(battle, self.next_msg, 0)
         id2 = self.get_teampreview_order(battle, self.next_msg, 1)
-        id3, id4 = random.sample([i for i in range(1, 7) if i not in [id1, id2]], k=2)
-        order_str = f"/team {id1}{id2}{id3}{id4}"
+        state1 = deepcopy(battle)
+        list(battle.team.values())[id1 - 1]._selected_in_teampreview = True
+        list(battle.team.values())[id2 - 1]._selected_in_teampreview = True
         order1a = SingleBattleOrder(list(battle.team.values())[id1 - 1])
         order1b = SingleBattleOrder(list(battle.team.values())[id2 - 1])
         order1 = DoubleBattleOrder(order1a, order1b)
         action1 = DoublesEnv.order_to_action(order1, battle, fake=True)
-        upd_battle = _EnvPlayer._simulate_teampreview_switchin(order1, battle)
+        id3, id4 = random.sample([i for i in range(1, 7) if i not in [id1, id2]], k=2)
+        state2 = deepcopy(battle)
+        list(battle.team.values())[id3 - 1]._selected_in_teampreview = True
+        list(battle.team.values())[id4 - 1]._selected_in_teampreview = True
         order2a = SingleBattleOrder(list(battle.team.values())[id3 - 1])
         order2b = SingleBattleOrder(list(battle.team.values())[id4 - 1])
         order2 = DoubleBattleOrder(order2a, order2b)
-        action2 = DoublesEnv.order_to_action(order2, upd_battle, fake=True)
-        self.states += [deepcopy(battle), upd_battle]
+        action2 = DoublesEnv.order_to_action(order2, battle, fake=True)
+        self.states += [state1, state2]
         self.actions += [action1, action2]
-        return order_str
+        return f"/team {id1}{id2}{id3}{id4}"
 
     @staticmethod
     def get_order(battle: DoubleBattle, msg: str, pos: int) -> SingleBattleOrder:
@@ -232,16 +235,21 @@ class LogReader(Player):
                 self.choose_move(battle)
             await self._handle_battle_message(split_messages)
         self.states += [deepcopy(battle)]
+        # Infer plausible backline picks from mons that were revealed later
+        # and were not part of the lead pair recorded in actions[0].
         teampreview_draft = [
             i
             for i, p in enumerate(battle.team.values(), start=1)
             if i not in self.actions[0] and p.revealed
         ]
+        # Use one revealed candidate (if any) as the 3rd teampreview slot.
         if teampreview_draft:
             rand = random.choice(range(len(teampreview_draft)))
             self.actions[1][0] = teampreview_draft.pop(rand)
+        # Use the remaining revealed candidate (if any) as the 4th slot.
         if teampreview_draft:
             self.actions[1][1] = teampreview_draft[0]
+        # Fallback: ensure the two backline picks are distinct.
         elif self.actions[1][0] == self.actions[1][1]:
             self.actions[1][1] = random.choice(
                 [
@@ -272,7 +280,9 @@ class LogReader(Player):
         for i, state in enumerate(states):
             if i in [1, 2]:
                 teampreview_draft += actions[i - 1].tolist()
-            embedded_state = PolicyPlayer.embed_battle(state, teampreview_draft)
+            for j, mon in enumerate(state.team.values(), start=1):
+                mon._selected_in_teampreview = j in teampreview_draft
+            embedded_state = PolicyPlayer.embed_battle(state)
             assert embedded_state.shape == (2 * act_len + 12 * chunk_obs_len,)
             embedded_states += [embedded_state]
         return np.stack(embedded_states, axis=0)
