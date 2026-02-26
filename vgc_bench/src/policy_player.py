@@ -145,7 +145,7 @@ class PolicyPlayer(Player):
                     np.zeros((2 * act_len + 12 * chunk_obs_len,), dtype=np.float32)
                 )
         # embed battle into observation
-        obs = self.embed_battle(battle, fake_rating=True)
+        obs = self.embed_battle(battle, fake_rating=2000)
         if self.policy.num_frames > 1:
             self._frames[battle.battle_tag].append(obs)
             obs = np.concatenate(self._frames[battle.battle_tag])
@@ -181,7 +181,7 @@ class PolicyPlayer(Player):
 
     @staticmethod
     def embed_battle(
-        battle: AbstractBattle, fake_rating: bool = False
+        battle: AbstractBattle, fake_rating: int | None = None
     ) -> npt.NDArray[np.float32]:
         """
         Convert a battle state to a feature vector observation.
@@ -191,7 +191,8 @@ class PolicyPlayer(Player):
 
         Args:
             battle: The battle state to embed.
-            fake_rating: If True, use a fixed rating value (for self-play).
+            fake_rating: Optional raw rating override for the player side.
+                If provided, opponent rating is masked to 0.
 
         Returns:
             Numpy array observation for the policy network.
@@ -205,7 +206,8 @@ class PolicyPlayer(Player):
             mask = np.array(mask1 + mask2)
         glob = PolicyPlayer.embed_global(battle)
         side = PolicyPlayer.embed_side(battle, fake_rating)
-        opp_side = PolicyPlayer.embed_side(battle, False, opp=True)
+        opp_fake_rating = None if fake_rating is None else 0
+        opp_side = PolicyPlayer.embed_side(battle, opp_fake_rating, opp=True)
         a1, a2 = battle.active_pokemon
         o1, o2 = battle.opponent_active_pokemon
         assert battle.teampreview == (
@@ -259,9 +261,17 @@ class PolicyPlayer(Player):
 
     @staticmethod
     def embed_side(
-        battle: DoubleBattle, fake_rating: bool, opp: bool = False
+        battle: DoubleBattle, fake_rating: int | None, opp: bool = False
     ) -> npt.NDArray[np.float32]:
-        """Embed side-specific state (side conditions, gimmick availability, rating)."""
+        """
+        Embed side-specific state (side conditions, gimmick availability, rating).
+
+        Args:
+            battle: Current doubles battle state.
+            fake_rating: Optional raw rating override for this side.
+                If None, read rating from battle player metadata.
+            opp: Whether to embed the opponent side.
+        """
         gims = [
             battle.can_mega_evolve[0],
             battle.can_z_move[0],
@@ -297,11 +307,14 @@ class PolicyPlayer(Player):
         ]
         gims = opp_gims if opp else gims
         gimmicks = [float(g) for g in gims]
-        player = battle.opponent_role if opp else battle.player_role
-        rat = [p for p in battle._players if p["player"] == player][0].get(
-            "rating", "0"
-        )
-        rating = 1 if fake_rating else int(rat or "0") / 2000
+        if fake_rating is not None:
+            rating = fake_rating / 2000
+        else:
+            player = battle.opponent_role if opp else battle.player_role
+            rat = [p for p in battle._players if p["player"] == player][0].get(
+                "rating", "0"
+            )
+            rating = int(rat or "0") / 2000
         return np.array([*side_conditions, *gimmicks, rating], dtype=np.float32)
 
     @staticmethod

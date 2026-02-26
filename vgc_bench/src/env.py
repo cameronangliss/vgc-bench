@@ -148,4 +148,4 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         Returns:
             Numpy array observation for the policy network.
         """
-        return PolicyPlayer.embed_battle(battle, fake_rating=True)
+        return PolicyPlayer.embed_battle(battle, fake_rating=2000)
