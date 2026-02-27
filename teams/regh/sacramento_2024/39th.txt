@@ -1,0 +1,70 @@
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Protect
+- Close Combat
+- Dire Claw
+- Throat Chop
+
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 28 Def / 252 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Trick Room
+- Armor Cannon
+- Expanding Force
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 20 Def / 92 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Facade
+- Earthquake
+- Headlong Rush
+
+Abomasnow @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 204 HP / 252 SpA / 52 Spe
+Modest Nature
+IVs: 18 Atk
+- Protect
+- Blizzard
+- Leaf Storm
+- Earth Power
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+IVs: 16 SpA
+- Dragon Darts
+- Outrage
+- Phantom Force
+- U-turn
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 236 Def / 20 SpD
+Relaxed Nature
+IVs: 10 Atk
+- Trick Room
+- Follow Me
+- Helping Hand
+- Alluring Voice

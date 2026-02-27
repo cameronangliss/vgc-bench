@@ -1,0 +1,68 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Wide Guard
+- Hurricane
+- Weather Ball
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Bug
+EVs: 116 HP / 84 Def / 116 SpA / 172 SpD / 20 Spe
+Modest Nature
+IVs: 20 Atk
+- Body Press
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Haze
+- Rain Dance
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+- Last Respects
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 140 Atk / 28 Def / 36 SpD / 60 Spe
+Adamant Nature
+- Taunt
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 52 HP / 252 SpA / 204 Spe
+Modest Nature
+IVs: 20 Atk
+- Blood Moon
+- Earth Power
+- Protect
+- Hyper Voice

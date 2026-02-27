@@ -1,0 +1,68 @@
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 52 Atk / 4 Def / 196 SpD
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Volcarona (F) @ Electric Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Def / 36 SpA / 60 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 4 Def / 244 SpA / 4 SpD / 124 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 116 Atk / 36 Def / 28 SpD / 76 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out

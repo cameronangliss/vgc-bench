@@ -1,0 +1,67 @@
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Encore
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Ghost
+EVs: 220 HP / 116 Atk / 4 Def / 68 SpD / 100 Spe
+Adamant Nature
+- Wood Hammer
+- Fake Out
+- U-turn
+- Grassy Glide
+
+Magmar @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 220 Def / 4 SpA / 4 SpD / 44 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Will-O-Wisp
+- Follow Me
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 92 HP / 252 Atk / 4 Def / 4 SpD / 156 Spe
+Adamant Nature
+- Kowtow Cleave
+- Swords Dance
+- Sucker Punch
+- Protect
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 220 Atk / 28 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Flip Turn
+- Tera Blast
+- Last Respects

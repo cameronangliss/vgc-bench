@@ -1,0 +1,67 @@
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 4 Atk / 124 Def / 4 SpD / 172 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 172 HP / 4 Def / 76 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Draining Kiss
+- Nasty Plot
+- Protect
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 172 Def / 84 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Life Dew
+- Follow Me
+- Helping Hand
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 76 Def / 124 SpD / 52 Spe
+Impish Nature
+- Knock Off
+- Fake Out
+- Taunt
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 76 Atk / 4 Def / 92 SpD / 196 Spe
+Jolly Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 164 Def / 76 SpD / 12 Spe
+Impish Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen

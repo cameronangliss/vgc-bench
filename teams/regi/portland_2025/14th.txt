@@ -1,0 +1,65 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Tera Type: Electric
+EVs: 156 HP / 4 Def / 236 SpA / 4 SpD / 108 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Lunala @ Electric Seed
+Ability: Shadow Shield
+Tera Type: Fairy
+EVs: 132 HP / 164 Def / 180 SpA / 4 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Trick Room
+- Wide Guard
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 44 Def / 68 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Facade
+- Earthquake
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Tera Type: Water
+EVs: 244 HP / 208 Def / 4 SpA / 52 SpD
+Calm Nature
+IVs: 0 Atk / 25 Spe
+- Sludge Bomb
+- Spore
+- Rage Powder
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 124 Def / 116 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 100 Def / 156 SpD
+Careful Nature
+IVs: 29 Spe
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out

@@ -1,0 +1,70 @@
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 28 Atk
+- Draco Meteor
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 12 Atk
+- Power Gem
+- Sludge Wave
+- Earth Power
+- Spiky Shield
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 4 Atk / 68 Def / 188 SpD / 4 Spe
+Impish Nature
+IVs: 0 SpA
+- Wave Crash
+- Fissure
+- Yawn
+- Protect
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 196 Atk / 4 Def / 52 SpD / 52 Spe
+Adamant Nature
+IVs: 28 SpA
+- Assurance
+- Sucker Punch
+- Low Kick
+- Protect
+
+Dragonite @ Assault Vest
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 92 HP / 252 Atk / 4 Def / 4 SpD / 156 Spe
+Adamant Nature
+IVs: 8 SpA
+- Tera Blast
+- Extreme Speed
+- Ice Spinner
+- Stomping Tantrum
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 172 HP / 76 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Coaching
+- Shadow Claw

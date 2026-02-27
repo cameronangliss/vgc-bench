@@ -1,0 +1,65 @@
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Ghost
+EVs: 76 HP / 4 Atk / 244 Def / 20 SpD / 164 Spe
+Impish Nature
+- Body Press
+- Iron Head
+- Wide Guard
+- Protect
+
+Giratina-Origin @ Griseous Core
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 252 Atk / 60 Def / 36 SpA / 52 SpD
+Brave Nature
+- Shadow Sneak
+- Poltergeist
+- Draco Meteor
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Crunch
+- Sucker Punch
+- Protect
+
+Entei @ Life Orb
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 148 HP / 252 Atk / 44 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Extreme Speed
+- Sacred Fire
+- Stone Edge
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Coaching
+- Aqua Jet
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 116 Atk / 132 Def / 12 SpD / 12 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- U-turn
+- Fake Out

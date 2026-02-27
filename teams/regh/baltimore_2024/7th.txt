@@ -1,0 +1,66 @@
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 52
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 63
+Tera Type: Dragon
+EVs: 20 HP / 4 Def / 228 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 71
+Tera Type: Fighting
+EVs: 252 HP / 4 Atk / 76 Def / 4 SpA / 172 SpD
+Sassy Nature
+- Tera Blast
+- Trick Room
+- Recover
+- Ice Beam
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Tera Type: Ghost
+EVs: 236 HP / 44 Atk / 12 Def / 20 SpD / 196 Spe
+Impish Nature
+- Parting Shot
+- Knock Off
+- Flare Blitz
+- Fake Out
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 51
+Tera Type: Ghost
+EVs: 252 HP / 132 Atk / 4 Def / 92 SpD / 28 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Substitute
+- Protect
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 55
+Tera Type: Fairy
+EVs: 252 HP / 156 Atk / 4 Def / 28 SpD / 68 Spe
+Adamant Nature
+- Low Kick
+- Tera Blast
+- Rock Slide
+- Knock Off

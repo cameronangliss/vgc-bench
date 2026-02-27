@@ -1,0 +1,67 @@
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 252 Atk / 116 Spe
+Adamant Nature
+- Kowtow Cleave
+- Protect
+- Sucker Punch
+- Swords Dance
+
+Arcanine-Hisui @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 172 HP / 20 Atk / 60 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Howl
+- Flare Blitz
+- Rock Slide
+- Protect
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 4 Def / 124 SpA / 76 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Encore
+- Tailwind
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Tera Blast
+- Outrage
+- Stomping Tantrum
+- Extreme Speed
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 4 Def / 212 SpA / 84 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect

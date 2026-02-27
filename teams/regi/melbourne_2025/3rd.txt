@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 84 Def / 164 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Nasty Plot
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 Atk / 156 Def / 12 SpD / 84 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 188 Def / 76 SpD
+Impish Nature
+IVs: 29 Spe
+- Knock Off
+- Will-O-Wisp
+- Fake Out
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 36 Atk / 4 Def / 252 SpD / 12 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Urshifu @ Black Glasses
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Detect

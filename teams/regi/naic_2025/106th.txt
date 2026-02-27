@@ -1,0 +1,66 @@
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Aqua Jet
+- Close Combat
+- U-turn
+- Surging Strikes
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 156 HP / 36 Def / 60 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Icy Wind
+- Shadow Ball
+- Protect
+- Moonblast
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Trick Room
+- Foul Play
+- Helping Hand
+- Psychic
+
+Miraidon @ Life Orb
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 36 HP / 220 SpA / 252 Spe
+Modest Nature
+- Volt Switch
+- Draco Meteor
+- Protect
+- Electro Drift
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Taunt
+- Icicle Crash
+- Protect
+- Sucker Punch
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 148 HP / 20 Atk / 156 Def / 4 SpD / 180 Spe
+Impish Nature
+- Wide Guard
+- Iron Head
+- Protect
+- Body Press

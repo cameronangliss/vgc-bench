@@ -1,0 +1,68 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fire
+EVs: 116 HP / 4 Def / 252 SpA / 4 SpD / 132 Spe
+Timid Nature
+- Electro Drift
+- Volt Switch
+- Parabolic Charge
+- Overheat
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 108 HP / 4 Def / 252 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 20 Atk
+- Protect
+- Draco Meteor
+- Rising Voltage
+- Thunderclap
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 156 HP / 204 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Light Screen
+- Grass Knot
+- Encore
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Ground
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Icy Wind
+- Ice Beam
+- U-turn
+- Protect
+
+Groudon @ Leftovers
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 4 Def / 92 SpD / 84 Spe
+Adamant Nature
+- Precipice Blades
+- Protect
+- Helping Hand
+- Heat Crash
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 164 Def / 4 SpA / 108 SpD / 28 Spe
+Bold Nature
+IVs: 0 Atk
+- Helping Hand
+- Trick Room
+- Roar
+- Foul Play

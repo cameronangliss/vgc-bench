@@ -1,0 +1,68 @@
+Indeedee @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Ground
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Expanding Force
+- Tera Blast
+- Imprison
+- Trick Room
+
+Drifblim (M) @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Grass
+EVs: 180 Def / 172 SpD / 156 Spe
+Jolly Nature
+IVs: 30 SpA
+- Acrobatics
+- Will-O-Wisp
+- Strength Sap
+- Tailwind
+
+Volcarona (F) @ Life Orb
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Bug Buzz
+- Heat Wave
+- Tera Blast
+- Protect
+
+Kommo-o (M) @ Leftovers
+Ability: Soundproof
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Def / 4 SpA / 92 SpD / 44 Spe
+Bold Nature
+- Body Press
+- Flamethrower
+- Iron Defense
+- Protect
+
+Toxtricity (M) @ Choice Specs
+Ability: Punk Rock
+Level: 50
+Tera Type: Normal
+EVs: 44 HP / 4 Def / 252 SpA / 4 SpD / 204 Spe
+Timid Nature
+- Overdrive
+- Sludge Bomb
+- Boomburst
+- Volt Switch
+
+Hydreigon (M) @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Ghost
+EVs: 124 HP / 4 Def / 116 SpA / 12 SpD / 252 Spe
+Modest Nature
+- Dark Pulse
+- Draco Meteor
+- Earth Power
+- Snarl

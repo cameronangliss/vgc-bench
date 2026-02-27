@@ -1,0 +1,68 @@
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+- Last Respects
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 8 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 12 Def / 52 SpA / 140 SpD
+Modest Nature
+IVs: 0 Atk
+- Flash Cannon
+- Body Press
+- Electro Shot
+- Dragon Pulse
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 24 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 52 HP / 20 Def / 180 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 12 Def / 156 SpA / 252 Spe
+Timid Nature
+- Icy Wind
+- Blizzard
+- Aurora Veil
+- Protect

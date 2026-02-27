@@ -1,0 +1,71 @@
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 116 Atk / 4 Def / 60 SpD / 84 Spe
+Adamant Nature
+IVs: 18 SpA
+- Fake Out
+- High Horsepower
+- Wood Hammer
+- Grassy Glide
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 26 SpA
+- Extreme Speed
+- Scale Shot
+- Protect
+- Haze
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Stellar
+EVs: 204 Atk / 52 Def / 252 Spe
+Jolly Nature
+IVs: 16 SpA
+- Dire Claw
+- Close Combat
+- Fake Out
+- Coaching
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 220 HP / 244 Atk / 28 Def / 4 SpD / 12 Spe
+Adamant Nature
+IVs: 6 SpA
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 212 Def / 4 SpA / 4 SpD / 60 Spe
+Bold Nature
+IVs: 4 Atk
+- Thunderbolt
+- Taunt
+- Follow Me
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 164 Def / 12 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 16 Atk
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect

@@ -1,0 +1,67 @@
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Protect
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Tera Blast
+- Phantom Force
+- U-turn
+
+Primarina @ Sitrus Berry
+Ability: Liquid Voice
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 172 Def / 28 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 196 Atk / 4 Def / 28 SpD / 108 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 172 HP / 196 Atk / 4 Def / 124 SpD / 12 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Magmar @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 196 Def / 4 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Overheat
+- Will-O-Wisp
+- Follow Me
+- Protect

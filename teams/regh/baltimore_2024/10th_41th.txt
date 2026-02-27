@@ -1,0 +1,68 @@
+Salamence @ Choice Specs
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Air Slash
+- Heat Wave
+- Dragon Pulse
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 196 Def / 4 SpA / 36 SpD / 28 Spe
+Calm Nature
+IVs: 0 Atk
+- Electroweb
+- Protect
+- Follow Me
+- Helping Hand
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 196 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Kowtow Cleave
+- Swords Dance
+- Sucker Punch
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 60 SpD / 76 Spe
+Adamant Nature
+- Fake Out
+- U-turn
+- Grassy Glide
+- Wood Hammer
+
+Primarina @ Life Orb
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 108 HP / 68 Def / 108 SpA / 20 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Protect

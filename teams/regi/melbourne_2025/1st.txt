@@ -1,0 +1,67 @@
+Weezing-Galar @ Covert Cloak
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 220 SpD / 36 Spe
+Careful Nature
+- Play Rough
+- Taunt
+- Will-O-Wisp
+- Protect
+
+Koraidon @ Ability Shield
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Atk / 4 Def / 60 SpD / 36 Spe
+Adamant Nature
+- Flare Blitz
+- Flame Charge
+- Collision Course
+- Protect
+
+Walking Wake @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 108 HP / 164 SpA / 236 Spe
+Timid Nature
+- Hydro Steam
+- Draco Meteor
+- Snarl
+- Aqua Jet
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flamethrower
+- Dark Pulse
+- Snarl
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 196 Def / 68 SpD
+Careful Nature
+- Knock Off
+- Fake Out
+- Parting Shot
+- Protect

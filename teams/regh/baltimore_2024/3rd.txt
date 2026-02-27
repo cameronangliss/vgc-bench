@@ -1,0 +1,70 @@
+Porygon2 @ Eviolite
+Ability: Trace
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 36 SpA / 76 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Tri Attack
+- Shadow Ball
+- Recover
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 236 Atk / 20 SpD
+Brave Nature
+IVs: 2 Spe
+- Facade
+- Earthquake
+- Headlong Rush
+- Protect
+
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 188 HP / 52 Def / 12 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Overheat
+- Struggle Bug
+- Rage Powder
+- Will-O-Wisp
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 180 Def / 76 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Taunt
+
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 68 Atk / 12 Def / 60 SpD / 228 Spe
+Jolly Nature
+- Rage Fist
+- Drain Punch
+- Protect
+- Bulk Up
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 164 HP / 4 Def / 132 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Make It Rain
+- Power Gem
+- Trick

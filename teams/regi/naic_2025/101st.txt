@@ -1,0 +1,68 @@
+Kyogre @ Mystic Water
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 4 Def / 156 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Hydro Pump
+- Ice Beam
+- Protect
+
+Volcarona @ Safety Goggles
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Def / 60 Spe
+Timid Nature
+IVs: 0 Atk
+- Struggle Bug
+- Rage Powder
+- Will-O-Wisp
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 36 Atk / 4 Def / 252 SpD / 12 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 4 SpA / 196 SpD / 52 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Encore
+- Light Screen
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Throat Chop
+- Sucker Punch
+- Protect
+
+Giratina-Origin @ Griseous Core
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 252 Atk / 52 Def / 36 SpA / 60 SpD
+Brave Nature
+- Shadow Sneak
+- Poltergeist
+- Draco Meteor
+- Protect

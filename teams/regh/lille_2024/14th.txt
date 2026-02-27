@@ -1,0 +1,68 @@
+Dragonite (M) @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 0 SpA
+- Scale Shot
+- Extreme Speed
+- Haze
+- Protect
+
+Volcarona (F) @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 20 Def / 164 SpA / 4 SpD / 188 Spe
+Timid Nature
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Sneasler (M) @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Coaching
+- Protect
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 196 Atk / 4 Def / 4 SpD / 100 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Electabuzz (M) @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 180 Def / 4 SpA / 20 SpD / 60 Spe
+Bold Nature
+IVs: 0 Atk
+- Thunderbolt
+- Follow Me
+- Taunt
+- Protect
+
+Kingambit (M) @ Black Glasses
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 220 Atk / 4 Def / 4 SpD / 28 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect

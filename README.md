@@ -1,5 +1,5 @@
 # VGC-Bench
-This is the official code for the paper [VGC-Bench: A Benchmark for Generalizing Across Diverse Team Strategies in Competitive Pokémon](https://arxiv.org/abs/2506.10326).
+This is the official code for [VGC-Bench: Towards Mastering Diverse Team Strategies in Competitive Pokémon](https://arxiv.org/abs/2506.10326).
 
 This benchmark includes:
 - multi-agent reinforcement learning (RL) with 4 Policy Space Response Oracle (PSRO) algorithms to fine-tune an agent initialized either randomly or with the output of the BC pipeline
@@ -9,7 +9,7 @@ This benchmark includes:
 
 # 🛠️ Setup
 Prerequisites:
-1. Python (I use v3.12)
+1. Python (I use v3.13)
 1. NodeJS and npm (whatever pokemon-showdown requires)
 
 Run the following to ensure that pokemon showdown is configured:
@@ -32,20 +32,13 @@ Install project dependencies by running:
 ```
 pip install .[dev]
 ```
-Setup necessary local data by running:
-```
-python vgc_bench/scrape_data.py
-```
-Setup VGC teams from regulation REG by running:
-```
-python vgc_bench/scrape_teams.py --reg <REG>
-```
+NOTE: if this doesn't work due to the `open-spiel` dependency, feel free to remove it in `pyproject.toml`. It is only necessary for the `vgc_bench/eval` module.
 
 # 👨‍💻 How to use
 
 NOTE: Unless you're playing your policy on the live Pokémon Showdown servers with [play.py](vgc_bench/play.py), you must locally host your own server by running `node pokemon-showdown start <PORT> --no-security` from `pokemon-showdown/` (done automatically if using bash scripts).
 
-All `.py` files in `vgc_bench/` are scripts and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py) and [visualize.py](vgc_bench/visualize.py)) have `--help` text. By contrast, all `.py` files in `vgc_bench/src/` are not scripts, and are not intended to be run standalone.
+All `.py` files in `vgc_bench/` are runnable modules and (with the exception of [scrape_data.py](vgc_bench/scrape_data.py) and [visualize.py](vgc_bench/visualize.py)) have `--help` text. Run them from the repo root, e.g. `python -m vgc_bench.train`. By contrast, all `.py` files in `vgc_bench/src/` are not modules, and are not intended to be run standalone.
 
 ## 🏆 Population-based Reinforcement Learning
 
@@ -56,18 +49,20 @@ The training code offers the following PSRO algorithms:
 - policy exploitation
 
 ...as well as some special training options:
-- initializing the policy with the output of the BC pipeline (requires manually copying the BC policy file into the training run's save folder)
+- initializing the policy with the output of the BC pipeline; if `--behavior_clone` is enabled and no local BC checkpoint is present, `vgc_bench.train` automatically downloads [`results17/saves-bc/100.zip`](https://huggingface.co/cameronangliss/vgc-bench-models/blob/main/results17/saves-bc/100.zip) from the [vgc-bench-models](https://huggingface.co/cameronangliss/vgc-bench-models) model repo
 - frame stacking with specified number of frames
 - excluding mirror matches (p1 and p2 using the same team)
 - starting agent with random teampreview at the beginning of each game
+- matchup solving with specific team strings (pass both `--team1` and `--team2` to train on a single matchup)
 
-See [train.sh](train.sh) for running multiple training runs simultaneously with automatic pokemon-showdown server management.
+See [train.sh](train.sh) for running multiple training runs simultaneously with automatic pokemon-showdown server management, or [train_matchup.sh](train_matchup.sh) for an example of training on a specific team matchup.
+If you don't want to run `train.py` yourself, pre-trained models are available in [vgc-bench-models](https://huggingface.co/cameronangliss/vgc-bench-models).
 
 ## 📚 Behavior Cloning
 
 1. [scrape_logs.py](vgc_bench/scrape_logs.py) scrapes logs from the [Pokémon Showdown replay database](https://replay.pokemonshowdown.com), automatically filtering out bad logs and only scraping logs with open team sheets (OTS)
     - optional parallelization (strongly recommended)
-    - if you don't need logs after 11/22/2025, just download our pre-scraped dataset of logs: [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs)
+    - if you don't need logs after 01/09/2026, just download our pre-scraped dataset of logs from [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs) and place the files in `battle-logs/`
 1. [logs2trajs.py](vgc_bench/logs2trajs.py) parses the logs into trajectories composed of state-action transitions
     - optional parallelization (strongly recommended)
     - `--min_rating` and `--only_winner` can be used to filter out low-Elo and losing trajectories respectively
@@ -75,6 +70,7 @@ See [train.sh](train.sh) for running multiple training runs simultaneously with 
     - frame stacking with specified number of frames
     - configurable fraction of dataset to load into memory at any given time (if not set low enough, program may run out of memory)
     - see [pretrain.sh](pretrain.sh) for running behavior cloning with automatic pokemon-showdown server management
+    - if you don't want to run `pretrain.py` yourself, use the pre-trained BC checkpoint in [vgc-bench-models](https://huggingface.co/cameronangliss/vgc-bench-models)
 
 ## 🤖 LLMs
 
@@ -139,10 +135,9 @@ See our paper for further results and details.
 # 📜 Cite us
 
 ```bibtex
-@article{angliss2025benchmark,
-  title={A Benchmark for Generalizing Across Diverse Team Strategies in Competitive Pok$\backslash$'emon},
-  author={Angliss, Cameron and Cui, Jiaxun and Hu, Jiaheng and Rahman, Arrasy and Stone, Peter},
-  journal={arXiv preprint arXiv:2506.10326},
-  year={2025}
+@inproceedings{anglissvgc,
+  title={VGC-Bench: Towards Mastering Diverse Team Strategies in Competitive Pok{\'e}mon},
+  author={Angliss, Cameron L and Cui, Jiaxun and Hu, Jiaheng and Rahman, Arrasy and Stone, Peter},
+  booktitle={The 25th International Conference on Autonomous Agents and Multi-Agent Systems}
 }
 ```

@@ -1,0 +1,69 @@
+Exeggutor @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Energy Ball
+- Expanding Force
+- Sleep Powder
+- Trick Room
+
+Gallade @ Clear Amulet
+Ability: Sharpness
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 252 Atk / 4 Def / 4 SpD / 36 Spe
+Adamant Nature
+- Psycho Cut
+- Sacred Sword
+- Wide Guard
+- Trick Room
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 244 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Helping Hand
+- Follow Me
+- Trick Room
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 220 Atk / 12 Def / 20 SpD / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+- Tera Blast
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Weather Ball
+- Clear Smog
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 204 HP / 212 Atk / 52 Def / 36 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Facade
+- Substitute
+- Protect

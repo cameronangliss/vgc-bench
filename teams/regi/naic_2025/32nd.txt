@@ -1,0 +1,69 @@
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 148 Atk / 124 SpD
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 188 Def / 76 SpD
+Impish Nature
+- Fake Out
+- Will-O-Wisp
+- Parting Shot
+- Knock Off
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 36 Atk / 44 Def / 188 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- U-turn
+- Grassy Glide
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 108 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog
+
+Kyogre @ Choice Scarf
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Water Spout
+- Origin Pulse
+- Ice Beam
+- Hydro Pump
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 108 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Thunderclap
+- Draco Meteor
+- Protect

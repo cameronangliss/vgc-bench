@@ -1,0 +1,68 @@
+Magmar @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 252 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 24 Atk
+- Will-O-Wisp
+- Overheat
+- Follow Me
+- Protect
+
+Salamence @ Choice Specs
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 6 Atk
+- Dragon Pulse
+- Draco Meteor
+- Heat Wave
+- Air Slash
+
+Primarina @ Sitrus Berry
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 180 HP / 76 Def / 188 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 20 Atk
+- Moonblast
+- Hyper Voice
+- Haze
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 196 Atk / 4 Def / 12 SpD / 76 Spe
+Adamant Nature
+- Wood Hammer
+- U-turn
+- Grassy Glide
+- Fake Out
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Protect
+- Fake Out
+- Dire Claw
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 220 HP / 212 Atk / 4 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Kowtow Cleave
+- Swords Dance
+- Sucker Punch
+- Protect

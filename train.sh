@@ -26,7 +26,17 @@ train() {
     showdown_pid=$(start_showdown $port)
     sleep 5
     echo "Starting training process $i..."
-    python vgc_bench/train.py --reg G --run_id $run_id --num_teams $num_teams --num_envs 24 --port $port --device $device --self_play > "debug$port.log" 2>&1
+    python -m vgc_bench.train \
+        --reg G \
+        --run_id $run_id \
+        --num_teams $num_teams \
+        --num_envs 24 \
+        --num_eval_workers 24 \
+        --port $port \
+        --device $device \
+        --behavior_clone \
+        --self_play \
+        > "debug$port.log" 2>&1
     exit_status=$?
     if [ $exit_status -ne 0 ]; then
         echo "Training process $i died with exit status $exit_status"

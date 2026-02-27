@@ -1,0 +1,63 @@
+Miraidon @ Life Orb
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Draco Meteor
+- Electro Drift
+- Volt Switch
+- Protect
+
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 116 Atk / 4 Def / 108 SpD / 44 Spe
+Adamant Nature
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+- Detect
+
+Sneasler @ Electric Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 228 HP / 156 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Low Kick
+- Dire Claw
+- Throat Chop
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 36 Atk / 44 Def / 60 SpD / 116 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Ditto @ Choice Scarf
+Ability: Imposter
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Transform

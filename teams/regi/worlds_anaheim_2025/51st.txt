@@ -1,0 +1,67 @@
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 76 HP / 252 SpD / 180 Spe
+Jolly Nature
+- Drum Beating
+- Grassy Glide
+- Fake Out
+- U-turn
+
+Calyrex-Shadow @ Covert Cloak
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 140 Def / 4 SpA / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Draining Kiss
+- Calm Mind
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Atk / 188 Def / 44 SpD / 36 Spe
+Impish Nature
+- Knock Off
+- Taunt
+- Fake Out
+- Parting Shot
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 180 Def / 84 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- Life Dew
+- Protect
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 108 HP / 4 Def / 252 SpA / 4 SpD / 140 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Snarl
+- Volt Switch
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 124 Def / 132 SpD
+Careful Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen

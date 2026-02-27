@@ -5,37 +5,40 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "vgc-bench"
 version = "0.1.0"
+requires-python = ">=3.10"
 authors = [{ name = "Cameron Angliss", email = "cameronangliss99@gmail.com" }]
 dependencies = [
-    "accelerate",
+    "accelerate==1.12.0",
+    "huggingface_hub==0.36.2",
     "imitation @ git+https://github.com/cameronangliss/imitation.git@fix-build",
-    "nashpy",
-    "open-spiel",
+    "nashpy==0.0.43",
+    "open-spiel==1.6.11",
     "poke-env @ git+https://github.com/cameronangliss/poke-env.git@vgc-bench",
-    "sentence-transformers",
-    "stable_baselines3",
-    "supersuit~=3.9.0",
-    "tensorboard",
-    "torch",
-    "torch-tb-profiler",
+    "setuptools==80.10.2",
+    "stable_baselines3==2.7.1",
+    "supersuit==3.9.3",
+    "tensorboard==2.20.0",
+    "torch==2.9.1",
+    "torch-tb-profiler==0.4.3",
+    "transformers==4.57.6",
 ]
-optional-dependencies = { dev = ["black", "isort"] }
+optional-dependencies = { dev = ["black==26.1.0", "isort==7.0.0", "pyright==1.1.408"] }
 
 [tool.setuptools.packages.find]
 include = ["vgc_bench"]
 
 [tool.black]
-line-length = 100
+line-length = 88
 skip-magic-trailing-comma = true
 
 [tool.isort]
 profile = "black"
-line_length = 100
+line_length = 88
 multi_line_output = 3
 
 [tool.pyright]
 include = ["vgc_bench"]
-pythonVersion = "3.12"
+pythonVersion = "3.13"
 reportPrivateUsage = false
 reportUnknownLambdaType = false
 reportUnknownMemberType = false

@@ -1,0 +1,66 @@
+Ceruledge @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 12 Def / 124 SpD / 4 Spe
+Adamant Nature
+- Bitter Blade
+- Close Combat
+- Poltergeist
+- Shadow Sneak
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 196 Atk / 28 Def / 12 SpD / 20 Spe
+Adamant Nature
+- Kowtow Cleave
+- Protect
+- Swords Dance
+- Sucker Punch
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Coaching
+- Protect
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 196 Atk / 20 Def / 12 SpD / 140 Spe
+Adamant Nature
+- Waterfall
+- Temper Flare
+- Protect
+- Dragon Dance
+
+Abomasnow @ Life Orb
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 180 HP / 20 Def / 252 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Aurora Veil
+- Blizzard
+- Leaf Storm
+
+Garchomp @ Loaded Dice
+Ability: Rough Skin
+Level: 50
+Tera Type: Fairy
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Scale Shot
+- Earthquake
+- Protect

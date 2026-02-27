@@ -1,0 +1,68 @@
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA
+Modest Nature
+IVs: 0 Atk / 24 Spe
+- Moongeist Beam
+- Meteor Beam
+- Wide Guard
+- Trick Room
+
+Raichu @ Assault Vest
+Ability: Lightning Rod
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 76 Def / 4 SpA / 108 SpD / 68 Spe
+Timid Nature
+- Volt Switch
+- Alluring Voice
+- Nuzzle
+- Fake Out
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 28 Atk / 4 Def / 212 SpD / 12 Spe
+Jolly Nature
+- Darkest Lariat
+- Fake Out
+- Will-O-Wisp
+- Parting Shot
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 252 Def / 4 SpD / 76 Spe
+Bold Nature
+- Body Press
+- Snarl
+- Wide Guard
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Earthquake
+- Facade
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 228 Def / 28 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Clear Smog
+- Rage Powder
+- Pollen Puff

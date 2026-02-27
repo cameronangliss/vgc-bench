@@ -1,0 +1,72 @@
+The Deep (Indeedee) @ Focus Sash
+Ability: Psychic Surge
+Level: 72
+Shiny: Yes
+Tera Type: Ground
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Expanding Force
+- Tera Blast
+- Imprison
+- Trick Room
+
+A-Train (Drifblim) (M) @ Psychic Seed
+Ability: Unburden
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 228 Def / 116 SpD / 164 Spe
+Jolly Nature
+IVs: 30 SpA
+- Acrobatics
+- Will-O-Wisp
+- Strength Sap
+- Tailwind
+
+Lamplighter (Volcarona) (M) @ Life Orb
+Ability: Flame Body
+Level: 61
+Shiny: Yes
+Tera Type: Rock
+EVs: 44 HP / 4 Def / 204 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Bug Buzz
+- Heat Wave
+- Tera Blast
+- Protect
+
+Homelander (Kommo-o) (F) @ Leftovers
+Ability: Soundproof
+Level: 69
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 116 Def / 4 SpA / 92 SpD / 44 Spe
+Bold Nature
+- Body Press
+- Flamethrower
+- Iron Defense
+- Protect
+
+Firecracker (Toxtricity) (F) @ Choice Specs
+Ability: Punk Rock
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 36 HP / 4 Def / 252 SpA / 4 SpD / 212 Spe
+Timid Nature
+- Overdrive
+- Sludge Bomb
+- Boomburst
+- Volt Switch
+
+Black Noir (Hydreigon) (F) @ Assault Vest
+Ability: Levitate
+Level: 64
+Shiny: Yes
+Tera Type: Ghost
+EVs: 124 HP / 12 Def / 116 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Dark Pulse
+- Draco Meteor
+- Earth Power
+- Snarl

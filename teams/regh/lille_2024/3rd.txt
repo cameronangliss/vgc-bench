@@ -1,0 +1,67 @@
+Baxcalibur (F) @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 252 Atk / 12 Def / 28 SpD / 204 Spe
+Adamant Nature
+- Protect
+- Icicle Spear
+- Scale Shot
+- Ice Shard
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 52
+Tera Type: Bug
+EVs: 244 HP / 64 Def / 196 SpD / 4 Spe
+Careful Nature
+- Protect
+- Liquidation
+- Yawn
+- Fissure
+
+Kingambit (M) @ Safety Goggles
+Ability: Defiant
+Level: 64
+Tera Type: Dark
+EVs: 132 HP / 212 Atk / 12 Def / 36 SpD / 116 Spe
+Adamant Nature
+- Protect
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 116 Atk / 12 Def / 156 SpD / 28 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- High Horsepower
+
+Sneasler (F) @ Focus Sash
+Ability: Unburden
+Level: 60
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 29 SpA
+- Protect
+- Close Combat
+- Dire Claw
+- Coaching
+
+Volcarona (M) @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 108 Def / 36 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 5 Atk
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Rage Powder

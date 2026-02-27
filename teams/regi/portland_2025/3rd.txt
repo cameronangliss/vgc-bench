@@ -1,0 +1,65 @@
+I CONNECT!!! (Kyogre) @ Splash Plate
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 84 Def / 156 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Hydro Pump
+- Thunder
+- Protect
+
+Ehrmantraut (Calyrex-Ice) @ Never-Melt Ice
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 4 Def / 100 SpD / 36 Spe
+Adamant Nature
+- Glacial Lance
+- Seed Bomb
+- Trick Room
+- Protect
+
+Shido (Urshifu-Rapid-Strike) @ Life Orb
+Ability: Unseen Fist
+Tera Type: Grass
+EVs: 108 HP / 156 Atk / 4 Def / 180 SpD / 60 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Protect
+
+Morjal (Amoonguss) @ Rocky Helmet
+Ability: Regenerator
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Warranty (Iron Jugulis) @ Booster Energy
+Ability: Quark Drive
+Level: 95
+Tera Type: Steel
+EVs: 236 HP / 36 Def / 68 SpA / 68 SpD / 100 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Snarl
+- Tailwind
+- Protect
+
+Trunkey (Rillaboom) @ Assault Vest
+Ability: Grassy Surge
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 76 SpD / 60 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn

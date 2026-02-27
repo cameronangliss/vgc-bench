@@ -1,0 +1,67 @@
+Cold Brew (Ninetales-Alola) @ Choice Specs
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 68 HP / 76 Def / 108 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Moonblast
+- Freeze-Dry
+- Icy Wind
+
+Mocha (Garchomp) @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Stomping Tantrum
+- Earthquake
+- Dragon Claw
+- Protect
+
+Latte (Dragonite) @ Lum Berry
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 204 Atk / 4 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Tera Blast
+- Extreme Speed
+- Low Kick
+- Protect
+
+Cappuccino (Sneasler) @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Coaching
+- Fake Out
+
+Macchiato (Kingambit) @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 204 Atk / 4 Def / 36 SpD / 76 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick
+
+Espresso (Amoonguss) @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 220 Def / 60 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Pollen Puff
+- Clear Smog
+- Rage Powder
+- Spore

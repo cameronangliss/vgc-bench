@@ -1,0 +1,72 @@
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 20 HP / 4 Def / 228 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Heat Wave
+- Expanding Force
+- Tera Blast
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 236 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Trick Room
+- Helping Hand
+- Psychic
+
+Ribombee @ Focus Sash
+Ability: Shield Dust
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Protect
+- Fake Tears
+
+Kommo-o @ Throat Spray
+Ability: Overcoat
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Clanging Scales
+- Flamethrower
+- Aura Sphere
+- Protect
+
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 148 HP / 180 Atk / 4 Def / 12 SpD / 164 Spe
+Adamant Nature
+- Brave Bird
+- Iron Head
+- Tailwind
+- Protect
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 12 Def / 148 SpA / 148 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Vacuum Wave

@@ -1,0 +1,66 @@
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 116 Def / 4 SpA / 140 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Leech Seed
+- Foul Play
+- Pollen Puff
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Ground
+EVs: 84 HP / 204 Atk / 4 Def / 52 SpD / 164 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Tera Blast
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 196 Def / 44 SpD / 12 Spe
+Impish Nature
+- Reflect
+- Light Screen
+- Thunder Wave
+- Spirit Break
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Atk / 236 Def / 12 SpD / 4 Spe
+Impish Nature
+- Fake Out
+- Parting Shot
+- Will-O-Wisp
+- Knock Off
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Ground
+EVs: 188 HP / 84 Atk / 236 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Shadow Claw
+- Coaching
+
+Miraidon @ Covert Cloak
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 108 Def / 36 SpA / 4 SpD / 108 Spe
+Modest Nature
+- Parabolic Charge
+- Dragon Pulse
+- Calm Mind
+- Protect

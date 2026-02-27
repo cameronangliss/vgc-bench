@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 84 Def / 156 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Encore
+- Disable
+- Protect
+
+Terapagos-Terastal @ Leftovers
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 156 Def / 156 SpA / 4 SpD / 20 Spe
+Bold Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Protect
+- Calm Mind
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 188 Def / 76 SpD
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 188 Def / 84 SpD
+Calm Nature
+IVs: 0 Atk / 26 Spe
+- Protect
+- Rage Powder
+- Sludge Bomb
+- Spore
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 36 Atk / 36 Def / 188 SpD / 4 Spe
+Adamant Nature
+- U-turn
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+
+Ogerpon-Cornerstone @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Stellar
+EVs: 252 HP / 52 Atk / 28 Def / 100 SpD / 76 Spe
+Jolly Nature
+- Ivy Cudgel
+- Knock Off
+- Spiky Shield
+- Follow Me

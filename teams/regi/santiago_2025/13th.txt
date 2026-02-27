@@ -1,0 +1,67 @@
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+IVs: 26 Spe
+- Will-O-Wisp
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 4 Atk / 140 Def / 116 SpD / 20 Spe
+Careful Nature
+- Thunder Wave
+- Spirit Break
+- Reflect
+- Light Screen
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 228 HP / 20 Def / 212 SpA / 4 SpD / 44 Spe
+Modest Nature
+- Volt Switch
+- Draco Meteor
+- Electro Drift
+- Snarl
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 212 Atk / 4 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 44 Def / 68 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Earthquake
+- Headlong Rush
+- Protect
+
+Lunala @ Electric Seed
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 172 Def / 180 SpA / 12 SpD / 12 Spe
+Modest Nature
+- Moongeist Beam
+- Moonblast
+- Wide Guard
+- Trick Room

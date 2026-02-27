@@ -1,0 +1,65 @@
+Calyrex-Shadow @ Covert Cloak
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 220 HP / 4 Def / 28 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Astral Barrage
+- Draining Kiss
+- Nasty Plot
+- Protect
+
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 132 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Collision Course
+- Flare Blitz
+- Flame Charge
+- Protect
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 108 Def / 20 SpD / 12 Spe
+Adamant Nature
+- Grassy Glide
+- Ivy Cudgel
+- Follow Me
+- Spiky Shield
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Atk / 12 Def / 12 SpD / 12 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- U-turn
+- Fake Out
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 4 Atk / 156 Def / 116 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Atk / 188 Def / 60 SpD / 12 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot

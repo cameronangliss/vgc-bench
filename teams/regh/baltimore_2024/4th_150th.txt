@@ -1,0 +1,74 @@
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 172 HP / 116 Atk / 28 Def / 60 SpD / 132 Spe
+Adamant Nature
+IVs: 18 SpA
+- Knock Off
+- Flare Blitz
+- Parting Shot
+- Fake Out
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 252 HP / 220 Def / 4 SpA / 28 SpD / 4 Spe
+Modest Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 164 Def / 108 SpD
+Bold Nature
+IVs: 21 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Sludge Bomb
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 140 HP / 180 Atk / 100 Def / 84 SpD / 4 Spe
+Brave Nature
+IVs: 6 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Shiny: Yes
+Tera Type: Dragon
+EVs: 44 HP / 4 Def / 196 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 5 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Flamigo @ Focus Sash
+Ability: Scrappy
+Level: 70
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 0 SpA
+- Close Combat
+- Brave Bird
+- Wide Guard
+- Protect

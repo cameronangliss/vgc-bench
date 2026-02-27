@@ -1,7 +1,15 @@
+"""
+Evaluation module for VGC-Bench.
+
+Provides functions for cross-evaluating trained agents against each other and
+baseline players, computing payoff matrices, and analyzing team statistics
+using Alpha-Rank for meta-game analysis.
+"""
+
 import argparse
 import asyncio
-import os
 import random
+from pathlib import Path
 from statistics import mean, median
 
 import numpy as np
@@ -9,12 +17,17 @@ from open_spiel.python.egt import alpharank
 from poke_env import cross_evaluate
 from poke_env.player import MaxBasePowerPlayer, RandomPlayer, SimpleHeuristicsPlayer
 from poke_env.ps_client import AccountConfiguration, ServerConfiguration
-from src.llm import LLMPlayer
-from src.policy_player import BatchPolicyPlayer
-from src.teams import RandomTeamBuilder, calc_team_similarity_score, get_team_paths
-from src.utils import format_map
 from stable_baselines3 import PPO
 from tensorboard.backend.event_processing import event_accumulator
+
+from vgc_bench.src.llm import LLMPlayer
+from vgc_bench.src.policy_player import BatchPolicyPlayer
+from vgc_bench.src.teams import (
+    RandomTeamBuilder,
+    calc_team_similarity_score,
+    get_team_paths,
+)
+from vgc_bench.src.utils import format_map
 
 
 def cross_eval_all_agents(
@@ -25,6 +38,21 @@ def cross_eval_all_agents(
     num_battles: int,
     num_llm_battles: int,
 ):
+    """
+    Run cross-evaluation of all agent types and compute average payoff matrix.
+
+    Evaluates Random, MaxBasePower, SimpleHeuristics, LLM, and various RL-trained
+    agents (SP, FP, DO, BC variants) against each other across multiple runs,
+    then uses Alpha-Rank to analyze the meta-game.
+
+    Args:
+        battle_format: Pokemon Showdown battle format string.
+        num_teams: Number of teams to use in evaluation.
+        port: Port for the Pokemon Showdown server.
+        device: CUDA device for model inference.
+        num_battles: Total number of battles for non-LLM matchups.
+        num_llm_battles: Total number of battles involving the LLM player.
+    """
     num_runs = 5
     avg_payoff_matrix = np.zeros((11, 11))
     labels = ["R", "MBP", "SH", "LLM", "SP", "FP", "DO", "BC", "BCSP", "BCFP", "BCDO"]
@@ -58,11 +86,15 @@ def cross_eval_all_agents(
             team=RandomTeamBuilder(run_id, num_teams, battle_format),
         )
         best_checkpoints = asyncio.run(
-            get_best_checkpoints(battle_format, run_id, num_teams, port, device, num_battles)
+            get_best_checkpoints(
+                battle_format, run_id, num_teams, port, device, num_battles
+            )
         )
         for method, checkpoint in best_checkpoints.items():
             agent = BatchPolicyPlayer(
-                account_configuration=AccountConfiguration(f"{run_id}/{method}/{checkpoint}", None),
+                account_configuration=AccountConfiguration(
+                    f"{run_id}/{method}/{checkpoint}", None
+                ),
                 server_configuration=ServerConfiguration(
                     f"ws://localhost:{port}/showdown/websocket",
                     "https://play.pokemonshowdown.com/action.php?",
@@ -79,8 +111,12 @@ def cross_eval_all_agents(
                 policy_path += f"/{num_teams}-teams"
             agent.policy = PPO.load(f"{policy_path}/{checkpoint}", device=device).policy
             players += [agent]
-        results = asyncio.run(cross_evaluate(players, n_challenges=num_battles // num_runs))
-        asyncio.run(llm_player.battle_against(*players, n_battles=num_llm_battles // num_runs))
+        results = asyncio.run(
+            cross_evaluate(players, n_challenges=num_battles // num_runs)
+        )
+        asyncio.run(
+            llm_player.battle_against(*players, n_battles=num_llm_battles // num_runs)
+        )
         del llm_player.model
         llm_wins = [p.n_lost_battles / p.n_finished_battles for p in players]
         llm_losses = [p.n_won_battles / p.n_finished_battles for p in players]
@@ -99,7 +135,10 @@ def cross_eval_all_agents(
         print(payoff_matrix.tolist())
         pi = alpharank.compute([payoff_matrix], use_inf_alpha=True)[2]
         alpharank.utils.print_rankings_table(
-            [avg_payoff_matrix], pi, strat_labels=labels, num_top_strats_to_print=len(pi)
+            [avg_payoff_matrix],
+            pi,
+            strat_labels=labels,
+            num_top_strats_to_print=len(pi),
         )
         avg_payoff_matrix += payoff_matrix / num_runs
     avg_payoff_matrix = avg_payoff_matrix.round(decimals=3)
@@ -121,6 +160,26 @@ async def get_best_checkpoints(
     eval_pool_size: int = 50,
     cutoff: int = 5,
 ) -> dict[str, int]:
+    """
+    Find the best checkpoint for each training method based on evaluation performance.
+
+    For each method, selects checkpoints with top-10% evaluation scores from TensorBoard
+    logs, then battles them against a random pool of other checkpoints to determine
+    which performs best in head-to-head matchups.
+
+    Args:
+        battle_format: Pokemon Showdown battle format string.
+        run_id: Training run identifier.
+        num_teams: Number of teams used during training.
+        port: Port for the Pokemon Showdown server.
+        device: CUDA device for model inference.
+        num_battles: Number of battles to run for each checkpoint evaluation.
+        eval_pool_size: Size of the random opponent pool for evaluation.
+        cutoff: Number of initial checkpoints to skip.
+
+    Returns:
+        Dictionary mapping method names to their best checkpoint timesteps.
+    """
     best_checkpoints = {}
     save_policy = BatchPolicyPlayer(
         server_configuration=ServerConfiguration(
@@ -147,41 +206,46 @@ async def get_best_checkpoints(
         team=RandomTeamBuilder(run_id, num_teams, battle_format),
     )
     filess = [
-        [
-            f"results{run_id}/saves-{method}/{num_teams}-teams/{file}"
-            for file in sorted(
-                os.listdir(f"results{run_id}/saves-{method}/{num_teams}-teams"),
-                key=lambda f: int(f[:-4]),
-            )[cutoff:]
-        ]
+        sorted(
+            Path(f"results{run_id}/saves-{method}/{num_teams}-teams").iterdir(),
+            key=lambda p: int(p.stem),
+        )[cutoff:]
         for method in ["sp", "fp", "do", "bc-sp", "bc-fp", "bc-do"]
     ]
-    files = [f for files in filess for f in files]
+    files = [file for files in filess for file in files]
     eval_pool_files = random.sample(files, eval_pool_size)
     for method in ["sp", "fp", "do", "bc", "bc-sp", "bc-fp", "bc-do"]:
         if method == "bc":
             best_checkpoints["bc"] = 100
             continue
-        data = extract_tb(f"results{run_id}/logs-{method}/{num_teams}-teams_0", "train/eval")
+        data = extract_tb(
+            f"results{run_id}/logs-{method}/{num_teams}-teams_0", "train/eval"
+        )
         eval_scores = [d[1] for d in data]
         min_score = np.percentile(eval_scores, 90)
         best_indices = np.where(eval_scores >= min_score)[0][::-1]
         checkpoints = np.array([d[0] for d in data])[best_indices]
         win_rates = {}
         for checkpoint in checkpoints:
+            save_dir = Path(f"results{run_id}/saves-{method}/{num_teams}-teams")
             save_policy.policy = PPO.load(
-                f"results{run_id}/saves-{method}/{num_teams}-teams/{checkpoint}", device=device
+                save_dir / f"{checkpoint}", device=device
             ).policy
             for f in eval_pool_files:
                 opponent.policy = PPO.load(f, device=device).policy
-                await save_policy.battle_against(opponent, n_battles=num_battles // eval_pool_size)
+                await save_policy.battle_against(
+                    opponent, n_battles=num_battles // eval_pool_size
+                )
             win_rates[checkpoint.item()] = save_policy.win_rate
             save_policy.reset_battles()
             opponent.reset_battles()
         print(
-            f"comparison of agents with top-10% eval score from {method}: {win_rates}", flush=True
+            f"comparison of agents with top-10% eval score from {method}: {win_rates}",
+            flush=True,
         )
-        best_checkpoints[method] = max(list(win_rates.items()), key=lambda tup: tup[1])[0]
+        best_checkpoints[method] = max(list(win_rates.items()), key=lambda tup: tup[1])[
+            0
+        ]
     print(f"best of run #{run_id}:", best_checkpoints, flush=True)
     return best_checkpoints
 
@@ -212,6 +276,22 @@ def cross_eval_over_team_sizes(
     num_battles: int,
     is_performance_test: bool,
 ):
+    """
+    Cross-evaluate agents trained with different team counts.
+
+    Tests whether agents trained with more teams perform better (performance test)
+    or generalize better to unseen teams (generalization test).
+
+    Args:
+        battle_format: Pokemon Showdown battle format string.
+        team_counts: List of team counts corresponding to each method.
+        methods: List of (method_name, checkpoint_list) tuples for each team count.
+        port: Port for the Pokemon Showdown server.
+        device: CUDA device for model inference.
+        num_battles: Total number of battles across all runs.
+        is_performance_test: If True, tests on minimum team count; if False,
+            tests generalization on maximum team count (out-of-distribution).
+    """
     # if is_performance_test is False, then this becomes the generalization test
     num_runs = 5
     avg_payoff_matrix = np.zeros((4, 4))
@@ -264,6 +344,17 @@ def cross_eval_over_team_sizes(
 
 
 def print_team_statistics(battle_format: str, num_teams: int):
+    """
+    Print similarity statistics between teams in the dataset.
+
+    Computes and displays worst-case similarity scores between each team and
+    its most similar neighbor, both globally and for out-of-distribution teams
+    relative to the in-distribution training set for each run.
+
+    Args:
+        battle_format: Pokemon Showdown battle format string.
+        num_teams: Number of teams in the in-distribution training set.
+    """
     num_runs = 5
     all_teams = [path.read_text() for path in get_team_paths(battle_format)]
     sim_scores = [
@@ -291,7 +382,12 @@ def print_team_statistics(battle_format: str, num_teams: int):
         teams = list(range(len(all_teams)))
         random.Random(run_id).shuffle(teams)
         sim_scores = [
-            max([calc_team_similarity_score(all_teams[i], all_teams[j]) for i in teams[:num_teams]])
+            max(
+                [
+                    calc_team_similarity_score(all_teams[i], all_teams[j])
+                    for i in teams[:num_teams]
+                ]
+            )
             for j in teams[num_teams:]
         ]
         print(
@@ -305,9 +401,15 @@ def print_team_statistics(battle_format: str, num_teams: int):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate a Pokémon AI model")
-    parser.add_argument("--reg", type=str, required=True, help="VGC regulation to eval on, i.e. G")
-    parser.add_argument("--num_teams", type=int, required=True, help="Number of teams to eval with")
-    parser.add_argument("--port", type=int, default=8000, help="Port to run showdown server on")
+    parser.add_argument(
+        "--reg", type=str, required=True, help="VGC regulation to eval on, i.e. G"
+    )
+    parser.add_argument(
+        "--num_teams", type=int, required=True, help="Number of teams to eval with"
+    )
+    parser.add_argument(
+        "--port", type=int, default=8000, help="Port to run showdown server on"
+    )
     parser.add_argument(
         "--device",
         type=str,
@@ -318,7 +420,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
     battle_format = format_map[args.reg.lower()]
     print_team_statistics(battle_format, args.num_teams)
-    cross_eval_all_agents(battle_format, args.num_teams, args.port, args.device, 1000, 100)
+    cross_eval_all_agents(
+        battle_format, args.num_teams, args.port, args.device, 1000, 100
+    )
     team_counts = [1, 4, 16, 64]
     methods = [
         ("bc-sp", [4915200, 1474560, 4816896, 1179648, 786432]),

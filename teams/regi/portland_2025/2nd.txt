@@ -1,0 +1,63 @@
+Koraidon @ Ability Shield
+Ability: Orichalcum Pulse
+Tera Type: Fire
+EVs: 252 HP / 124 Atk / 4 Def / 52 SpD / 76 Spe
+Adamant Nature
+- Protect
+- Flare Blitz
+- Collision Course
+- Flame Charge
+
+Calyrex-Shadow @ Spooky Plate
+Ability: As One (Spectrier)
+Tera Type: Dark
+EVs: 76 HP / 36 Def / 132 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Weezing-Galar (M) @ Covert Cloak
+Ability: Neutralizing Gas
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 12 Def / 180 SpD / 60 Spe
+Impish Nature
+- Protect
+- Poison Gas
+- Play Rough
+- Taunt
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Tera Type: Ghost
+EVs: 20 HP / 4 Def / 244 SpA / 4 SpD / 236 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Flamethrower
+- Dark Pulse
+
+Walking Wake @ Assault Vest
+Ability: Protosynthesis
+Tera Type: Water
+EVs: 116 HP / 4 Def / 132 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Hydro Steam
+- Draco Meteor
+- Snarl
+- Aqua Jet
+
+Brute Bonnet @ Rocky Helmet
+Ability: Protosynthesis
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 164 Def / 4 SpD / 84 Spe
+Impish Nature
+- Sucker Punch
+- Spore
+- Rage Powder
+- Seed Bomb

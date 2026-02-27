@@ -1,0 +1,67 @@
+Gholdengo @ Grassy Seed
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Def / 36 SpA / 4 SpD / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 172 HP / 92 Atk / 108 Def / 4 SpD / 132 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Coaching
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 140 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Drum Beating
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Stomping Tantrum
+- Tailwind
+- Protect
+
+Arcanine-Hisui @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Protect
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Icy Wind
+- Aurora Veil
+- Encore

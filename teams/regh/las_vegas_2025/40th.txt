@@ -1,0 +1,66 @@
+Volcarona @ Grassy Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 188 Def / 36 SpA / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Quiver Dance
+- Giga Drain
+- Heat Wave
+- Protect
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Beat Up
+- Taunt
+- Protect
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 44 Atk / 196 Def / 76 SpD / 12 Spe
+Careful Nature
+- Rage Fist
+- Bulk Up
+- Drain Punch
+- Protect
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Ground
+EVs: 140 HP / 108 Atk / 4 Def / 60 SpD / 188 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Dondozo @ Safety Goggles
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Def / 252 SpD
+Impish Nature
+- Wave Crash
+- Yawn
+- Fissure
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Def / 140 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Thunder Wave

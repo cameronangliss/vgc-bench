@@ -1,0 +1,70 @@
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 108 SpD
+Bold Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Sludge Bomb
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Inner Focus
+Level: 50
+Tera Type: Fairy
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+IVs: 10 SpA
+- Scale Shot
+- Low Kick
+- Tailwind
+- Haze
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 8 SpA
+- Protect
+- High Horsepower
+- Earthquake
+- Iron Head
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Nasty Plot
+- Protect
+- Shadow Ball
+
+Gyarados @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 36 Atk / 4 Def / 44 SpD / 180 Spe
+Adamant Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 188 HP / 204 Atk / 116 Spe
+Adamant Nature
+IVs: 28 SpA
+- Rock Slide
+- Knock Off
+- Low Kick
+- Tera Blast

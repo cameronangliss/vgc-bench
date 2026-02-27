@@ -1,0 +1,67 @@
+Cutter (Kingambit) @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 212 Atk / 4 Def / 52 SpD / 36 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick
+
+Curveball (Rillaboom) @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 156 Atk / 20 Def / 124 SpD / 204 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Knuckleball (Electabuzz) @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 196 Def / 4 SpA / 4 SpD / 68 Spe
+Bold Nature
+IVs: 0 Atk
+- Thunderbolt
+- Follow Me
+- Taunt
+- Protect
+
+Fastball (Blaziken) @ Focus Sash
+Ability: Speed Boost
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Close Combat
+- Flare Blitz
+- Coaching
+- Protect
+
+Splitter (Dragapult) @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Phantom Force
+- Tera Blast
+- U-turn
+
+Slider (Primarina) @ Sitrus Berry
+Ability: Liquid Voice
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 108 Def / 188 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
