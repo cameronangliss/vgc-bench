@@ -6,7 +6,14 @@ from copy import deepcopy
 from enum import Enum
 from typing import Any
 
-from poke_env.battle import DoubleBattle, Move, Pokemon, PokemonGender, SideCondition, Status
+from poke_env.battle import (
+    DoubleBattle,
+    Move,
+    Pokemon,
+    PokemonGender,
+    SideCondition,
+    Status,
+)
 from poke_env.data import GenData
 from poke_env.player import Player
 
@@ -42,13 +49,11 @@ class Simulator:
             if battle.player_role == "p1"
             else (battle.opponent_username, battle.player_username)
         )
-        self.stdin.write(
-            f"""
+        self.stdin.write(f"""
 >start {{"formatid":"{battle.format}"}}
 >player p1 {{"name":"{p1_username}","team":"{p1_packed_team}"}}
 >player p2 {{"name":"{p2_username}","team":"{p2_packed_team}"}}
-"""
-        )
+""")
         num_requests_seen = 0
         for msg in self.stdout:
             if "|request|" in msg:
@@ -278,7 +283,9 @@ class Simulator:
         }
 
     @classmethod
-    def _serialize_pokemon(cls, pokemon: Pokemon, position: int, gen: int) -> dict[str, Any]:
+    def _serialize_pokemon(
+        cls, pokemon: Pokemon, position: int, gen: int
+    ) -> dict[str, Any]:
         species_id = pokemon.species or pokemon.base_species
         tera_type = pokemon.tera_type
         base_stats = pokemon.base_stats
@@ -346,11 +353,17 @@ class Simulator:
             "gigantamax": False,
             "moveSlots": moveslots,
             "position": position,
-            "details": pokemon._last_details if getattr(pokemon, "_last_details", "") else "",
+            "details": (
+                pokemon._last_details if getattr(pokemon, "_last_details", "") else ""
+            ),
             "status": cls._status_to_str(pokemon.status),
             "statusState": cls._effect_state(cls._status_to_str(pokemon.status)),
             "volatiles": {
-                effect.name.lower(): {"id": effect.name.lower(), "effectOrder": 0, "turn": counter}
+                effect.name.lower(): {
+                    "id": effect.name.lower(),
+                    "effectOrder": 0,
+                    "turn": counter,
+                }
                 for effect, counter in pokemon.effects.items()
             },
             "hpType": "",
@@ -417,8 +430,12 @@ class Simulator:
             "canUltraBurst": None,
             "canGigantamax": None,
             "canTerastallize": tera_rep,
-            "maxhp": pokemon.max_hp or stored_stats.get("hp", 0) or base_stats.get("hp", 0),
-            "baseMaxhp": pokemon.max_hp or stored_stats.get("hp", 0) or base_stats.get("hp", 0),
+            "maxhp": pokemon.max_hp
+            or stored_stats.get("hp", 0)
+            or base_stats.get("hp", 0),
+            "baseMaxhp": pokemon.max_hp
+            or stored_stats.get("hp", 0)
+            or base_stats.get("hp", 0),
             "hp": (
                 pokemon.current_hp
                 if pokemon.current_hp
@@ -502,7 +519,9 @@ class Simulator:
 
         # REORDER the team: active Pokemon must be at positions 0 and 1
         # This is required because Showdown's active slots always reference positions 0/1
-        ordered_team_list = active_mons[:2] + [mon for mon in team_list if mon not in active_mons]
+        ordered_team_list = active_mons[:2] + [
+            mon for mon in team_list if mon not in active_mons
+        ]
         # Pad if we don't have 2 actives
         while len(ordered_team_list) < len(team_list):
             for mon in team_list:
@@ -511,7 +530,8 @@ class Simulator:
                     break
 
         pokemon = [
-            cls._serialize_pokemon(mon, idx, gen) for idx, mon in enumerate(ordered_team_list)
+            cls._serialize_pokemon(mon, idx, gen)
+            for idx, mon in enumerate(ordered_team_list)
         ]
         team_str = "".join(str(i + 1) for i in range(len(team_list)))
         foe = "[Side:p2]" if role == "p1" else "[Side:p1]"
@@ -535,15 +555,23 @@ class Simulator:
             "lastSelectedMove": "",
             "id": role,
             "n": 0 if role == "p1" else 1,
-            "name": battle.player_username if is_player else (battle.opponent_username or ""),
+            "name": (
+                battle.player_username
+                if is_player
+                else (battle.opponent_username or "")
+            ),
             "avatar": "",
             "pokemonLeft": sum(0 if mon.fainted else 1 for mon in team.values()),
             "active": active_slots,
             "faintedLastTurn": None,
             "faintedThisTurn": None,
             "totalFainted": sum(1 for mon in team.values() if mon.fainted),
-            "zMoveUsed": battle.used_z_move if is_player else battle.opponent_used_z_move,
-            "dynamaxUsed": battle.used_dynamax if is_player else battle.opponent_used_dynamax,
+            "zMoveUsed": (
+                battle.used_z_move if is_player else battle.opponent_used_z_move
+            ),
+            "dynamaxUsed": (
+                battle.used_dynamax if is_player else battle.opponent_used_dynamax
+            ),
             "sideConditions": cls._serialize_side_conditions(
                 battle.side_conditions if is_player else battle.opponent_side_conditions
             ),
@@ -567,7 +595,9 @@ class Simulator:
         }
 
     @classmethod
-    def _serialize_side_conditions(cls, conditions: dict[SideCondition, int]) -> dict[str, Any]:
+    def _serialize_side_conditions(
+        cls, conditions: dict[SideCondition, int]
+    ) -> dict[str, Any]:
         result: dict[str, Any] = {}
         for condition, counter in conditions.items():
             key = cls._enum_to_showdown_id(condition)

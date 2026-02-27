@@ -22,13 +22,17 @@ class ManualPlayer(Player):
 
 async def main():
     p1 = ManualPlayer(
-        account_configuration=AccountConfiguration(f"p{random.randint(0, 999999)}", None),
+        account_configuration=AccountConfiguration(
+            f"p{random.randint(0, 999999)}", None
+        ),
         battle_format="gen9vgc2024regg",
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(1, 1, "gen9vgc2024regg"),
     )
     p2 = ManualPlayer(
-        account_configuration=AccountConfiguration(f"p{random.randint(0, 999999)}", None),
+        account_configuration=AccountConfiguration(
+            f"p{random.randint(0, 999999)}", None
+        ),
         battle_format="gen9vgc2024regg",
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(1, 1, "gen9vgc2024regg"),
@@ -43,11 +47,17 @@ async def main():
     while not sim.battle.finished:
         print("p1a:", [str(o) for o in sim.battle.valid_orders[0]], flush=True)
         print("p1b:", [str(o) for o in sim.battle.valid_orders[1]], flush=True)
-        order1 = Player.choose_random_move(sim.battle).message if not sim.battle._wait else None
+        order1 = (
+            Player.choose_random_move(sim.battle).message
+            if not sim.battle._wait
+            else None
+        )
         print("p2a:", [str(o) for o in sim.opp_battle.valid_orders[0]], flush=True)
         print("p2b:", [str(o) for o in sim.opp_battle.valid_orders[1]], flush=True)
         order2 = (
-            Player.choose_random_move(sim.opp_battle).message if not sim.opp_battle._wait else None
+            Player.choose_random_move(sim.opp_battle).message
+            if not sim.opp_battle._wait
+            else None
         )
         sim.step(order1, order2)
 

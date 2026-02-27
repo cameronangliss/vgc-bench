@@ -42,7 +42,11 @@ class MCTS_PPO(PPO):
         callback.on_rollout_start()
 
         while n_steps < n_rollout_steps:
-            if self.use_sde and self.sde_sample_freq > 0 and n_steps % self.sde_sample_freq == 0:
+            if (
+                self.use_sde
+                and self.sde_sample_freq > 0
+                and n_steps % self.sde_sample_freq == 0
+            ):
                 # Sample a new noise matrix
                 self.policy.reset_noise(env.num_envs)
 
@@ -91,7 +95,9 @@ class MCTS_PPO(PPO):
                     and infos[idx].get("terminal_observation") is not None
                     and infos[idx].get("TimeLimit.truncated", False)
                 ):
-                    terminal_obs = self.policy.obs_to_tensor(infos[idx]["terminal_observation"])[0]
+                    terminal_obs = self.policy.obs_to_tensor(
+                        infos[idx]["terminal_observation"]
+                    )[0]
                     with torch.no_grad():
                         terminal_value = self.policy.predict_values(terminal_obs)[0]  # type: ignore[arg-type]
                     rewards[idx] += self.gamma * terminal_value
