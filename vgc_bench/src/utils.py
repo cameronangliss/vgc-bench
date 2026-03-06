@@ -117,6 +117,7 @@ all_formats = [
     "gen9vgc2025regjbo3",
     "gen9vgc2026regf",
     "gen9vgc2026regfbo3",
+    "gen9vgc2026regi",
 ]
 format_map = {
     "c": "gen9vgc2023regc",
