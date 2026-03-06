@@ -1,0 +1,70 @@
+Incineroar @ Ability Shield
+Ability: Intimidate
+Level: 69
+Tera Type: Grass
+EVs: 140 HP / 244 Atk / 124 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 70
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 4 Atk / 44 Def / 156 SpA / 196 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Psychic Noise
+- Hyper Voice
+- Protect
+
+Weezing-Galar (M) @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 4 SpA / 204 SpD / 44 Spe
+Bold Nature
+IVs: 0 Atk
+- Strange Steam
+- Will-O-Wisp
+- Taunt
+- Protect
+
+Latios @ Soul Dew
+Ability: Levitate
+Level: 70
+Tera Type: Steel
+EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Luster Purge
+- Tailwind
+- Protect
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 70
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 76 Def / 60 SpD / 44 Spe
+Adamant Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield

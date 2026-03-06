@@ -1,0 +1,67 @@
+Cometa (Roaring Moon) @ Booster Energy
+Ability: Protosynthesis
+Tera Type: Poison
+EVs: 116 HP / 4 Atk / 132 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Knock Off
+- Breaking Swipe
+- Tailwind
+- Protect
+
+Chimenea (Weezing-Galar) (F) @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 52
+Tera Type: Ghost
+EVs: 252 HP / 28 Def / 4 SpA / 36 SpD / 188 Spe
+Calm Nature
+IVs: 0 Atk
+- Taunt
+- Dazzling Gleam
+- Will-O-Wisp
+- Protect
+
+Kung Fu (Urshifu) (M) @ Focus Sash
+Ability: Unseen Fist
+Level: 81
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 26 SpA
+- Wicked Blow
+- Sucker Punch
+- Detect
+- Close Combat
+
+Archi (Arcanine-Hisui) (F) @ Choice Band
+Ability: Intimidate
+Level: 54
+Tera Type: Grass
+EVs: 4 HP / 244 Atk / 12 Def / 4 SpD / 244 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Head Smash
+
+Espagueti (Gholdengo) @ Life Orb
+Ability: Good as Gold
+Tera Type: Steel
+EVs: 116 HP / 68 Def / 140 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Melman (Raging Bolt) @ Assault Vest
+Ability: Protosynthesis
+Level: 75
+Tera Type: Fairy
+EVs: 124 HP / 4 Def / 172 SpA / 150 SpD / 60 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunderbolt
+- Snarl

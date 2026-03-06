@@ -1,0 +1,68 @@
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 156 Atk / 4 Def / 92 SpD / 212 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 164 Def / 92 SpD
+Careful Nature
+IVs: 24 Spe
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 164 Def / 108 SpA / 4 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Moonblast
+- Calm Mind
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 44 Def / 156 SpA / 196 SpD
+Modest Nature
+IVs: 0 Atk / 27 Spe
+- Protect
+- Psychic
+- Hyper Voice
+- Trick Room
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Spiky Shield
+- Ivy Cudgel
+- Swords Dance
+- Grassy Glide
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 116 Atk / 12 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- U-turn
+- Grassy Glide

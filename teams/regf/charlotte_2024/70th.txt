@@ -1,0 +1,66 @@
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 60 Atk / 4 Def / 36 SpD / 156 Spe
+Jolly Nature
+- Heat Crash
+- Breaking Swipe
+- Howl
+- Burning Bulwark
+
+Gyarados @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 164 Def / 36 SpD / 52 Spe
+Impish Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 124 Atk / 4 Def / 100 SpD / 68 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 252 Atk / 4 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 60 HP / 140 Atk / 52 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Heavy Slam
+- Fake Out
+
+Latios @ Soul Dew
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 84 HP / 4 Def / 244 SpA / 4 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Luster Purge
+- Draco Meteor
+- Calm Mind
+- Protect

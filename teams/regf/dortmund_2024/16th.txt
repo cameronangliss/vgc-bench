@@ -1,0 +1,65 @@
+Urshifu (M) @ Focus Sash
+Ability: Unseen Fist
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 2 SpA / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Protect
+
+Iron Hands @ Clear Amulet
+Ability: Quark Drive
+Level: 77
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 6 SpD
+Brave Nature
+IVs: 0 Spe
+- Wild Charge
+- Fake Out
+- Close Combat
+- Heavy Slam
+
+Farigiraf (M) @ Sitrus Berry
+Ability: Armor Tail
+Level: 75
+Tera Type: Fire
+EVs: 252 HP / 85 Def / 4 SpA / 156 SpD / 13 Spe
+Calm Nature
+- Trick Room
+- Dazzling Gleam
+- Psychic
+- Helping Hand
+
+Ursaluna-Bloodmoon (M) @ Life Orb
+Ability: Mind's Eye
+Level: 80
+Tera Type: Normal
+EVs: 4 HP / 4 Def / 252 SpA / 4 SpD / 246 Spe
+Modest Nature
+- Blood Moon
+- Earth Power
+- Protect
+- Hyper Voice
+
+Tornadus (M) @ Rocky Helmet
+Ability: Prankster
+Level: 80
+Tera Type: Steel
+EVs: 244 HP / 108 Def / 117 SpA / 37 SpD / 4 Spe
+Modest Nature
+- Tailwind
+- Bleakwind Storm
+- Protect
+- Taunt
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 70
+Tera Type: Fire
+EVs: 60 HP / 252 Atk / 6 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Ivy Cudgel
+- Spiky Shield
+- Wood Hammer
+- Stomping Tantrum

@@ -1,0 +1,70 @@
+ICAN'TSTOPME (Entei) @ Sitrus Berry
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 HP / 244 Atk / 12 SpD
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Protect
+
+my mistake (Gyarados) (F) @ Aguav Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 36 Atk / 100 Def / 108 SpD / 12 Spe
+Adamant Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Helping Hand
+
+Yeah Yeah (Chien-Pao) @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Zoom (Flutter Mane) @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 132 HP / 172 Def / 12 SpA / 4 SpD / 188 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Misty Terrain
+
+Slide (Rillaboom) (F) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 148 Atk / 44 Def / 60 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn
+
+SWEET TALKER (Raging Bolt) @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 132 Def / 52 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Dragon Pulse
+- Calm Mind
+- Protect

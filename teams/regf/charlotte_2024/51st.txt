@@ -1,0 +1,63 @@
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Tera Type: Steel
+EVs: 228 HP / 244 Def / 4 SpA / 4 SpD / 28 Spe
+Bold Nature
+- Rain Dance
+- Tailwind
+- Bleakwind Storm
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Tera Type: Water
+EVs: 188 HP / 140 Atk / 4 Def / 44 SpD / 132 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 84 Def / 156 SpD / 12 Spe
+Careful Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Knock Off
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 116 HP / 204 Def / 60 SpA / 4 SpD / 124 Spe
+Timid Nature
+IVs: 6 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+
+Archaludon (F) @ Assault Vest
+Ability: Stamina
+Tera Type: Grass
+EVs: 244 HP / 4 Def / 4 SpA / 244 SpD / 12 Spe
+Modest Nature
+IVs: 19 Atk
+- Draco Meteor
+- Flash Cannon
+- Electro Shot
+- Body Press

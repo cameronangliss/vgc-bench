@@ -1,0 +1,67 @@
+LazyWarlock (Tornadus) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 36 HP / 12 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Bleakwind Storm
+- Tailwind
+- Icy Wind
+
+Boosters (Gholdengo) @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 20 Def / 132 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Trick
+
+Sensei Izzy (Regidrago) @ Life Orb
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Dragon Energy
+- Draco Meteor
+- Earth Power
+- Protect
+
+Chongjun (Urshifu-Rapid-Strike) (F) @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 36 Def / 92 SpD / 164 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Alexis (Rillaboom) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 116 Atk / 4 Def / 44 SpD / 156 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+- Fake Out
+
+SebastianLL (Ogerpon-Hearthflame) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 92 Atk / 100 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Ivy Cudgel
+- Grassy Glide
+- Follow Me
+- Spiky Shield

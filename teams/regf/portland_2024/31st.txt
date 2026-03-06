@@ -1,0 +1,59 @@
+Andros (Tornadus) (M) @ Covert Cloak
+Ability: Prankster
+Tera Type: Dark
+EVs: 4 HP / 70 Def / 180 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Protect
+- Icy Wind
+- Tailwind
+- Bleakwind Storm
+
+Urshifu-Rapid-Strike (M) @ Choice Scarf
+Ability: Unseen Fist
+Tera Type: Grass
+EVs: 28 HP / 206 Atk / 4 Def / 68 SpD / 204 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+
+Entei @ Choice Band
+Ability: Inner Focus
+Tera Type: Normal
+EVs: 20 HP / 252 Atk / 238 Spe
+Jolly Nature
+- Extreme Speed
+- Roar
+- Stomping Tantrum
+- Sacred Fire
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Tera Type: Rock
+EVs: 222 HP / 156 Atk / 44 Def / 76 SpD / 12 Spe
+Adamant Nature
+- Grassy Glide
+- Fake Out
+- Stomping Tantrum
+- Wood Hammer
+
+Regidrago @ Dragon Fang
+Ability: Dragon's Maw
+Tera Type: Steel
+EVs: 12 HP / 70 Def / 252 SpA / 28 SpD / 148 Spe
+Modest Nature
+- Protect
+- Earth Power
+- Dragon Pulse
+- Dragon Energy
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Tera Type: Fairy
+EVs: 132 HP / 70 Def / 180 SpA / 20 SpD / 108 Spe
+Modest Nature
+- Protect
+- Nasty Plot
+- Shadow Ball
+- Make It Rain

@@ -1,0 +1,69 @@
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 57
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Follow Me
+- Trick Room
+- Helping Hand
+
+Iron Crown @ Booster Energy
+Ability: Quark Drive
+Tera Type: Dragon
+EVs: 204 HP / 4 Def / 220 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 20 Atk
+- Expanding Force
+- Tachyon Cutter
+- Calm Mind
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 83
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Taunt
+- Protect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 79
+Tera Type: Steel
+EVs: 180 HP / 124 Def / 44 SpA / 12 SpD / 148 Spe
+Modest Nature
+IVs: 29 Atk
+- Bleakwind Storm
+- Rain Dance
+- Tailwind
+- Protect
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 91
+Tera Type: Fire
+EVs: 172 HP / 28 Atk / 52 Def / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Landorus-Therian @ Choice Band
+Ability: Intimidate
+Level: 70
+Tera Type: Steel
+EVs: 92 HP / 148 Atk / 12 Def / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 29 SpA
+- Stomping Tantrum
+- Earthquake
+- U-turn
+- Rock Slide

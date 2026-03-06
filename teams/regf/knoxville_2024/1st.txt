@@ -1,0 +1,65 @@
+Tie? grr (Incineroar) @ Sitrus Berry
+Ability: Intimidate
+Level: 64
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 100 Def / 132 SpD / 36 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+GoldN'GoAway (Gholdengo) @ Metal Coat
+Ability: Good as Gold
+Tera Type: Fairy
+EVs: 252 HP / 44 Def / 84 SpA / 20 SpD / 108 Spe
+Modest Nature
+IVs: 5 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+It's Overpon (Ogerpon-Wellspring) @ Wellspring Mask
+Ability: Water Absorb
+Tera Type: Water
+EVs: 188 HP / 60 Atk / 68 Def / 4 SpD / 188 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+CasinoWinner (Tornadus) @ Rocky Helmet
+Ability: Prankster
+Tera Type: Steel
+EVs: 212 HP / 172 Def / 4 SpA / 108 SpD / 12 Spe
+Modest Nature
+IVs: 21 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Protect
+
+Ferdinand (Raging Bolt) @ Assault Vest
+Ability: Protosynthesis
+Level: 75
+Tera Type: Fairy
+EVs: 148 HP / 100 Def / 108 SpA / 20 SpD / 132 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Thunderbolt
+- Draco Meteor
+- Snarl
+
+GrinN'BearIt (Urshifu) (M) @ Focus Sash
+Ability: Unseen Fist
+Level: 62
+Tera Type: Dark
+EVs: 236 Atk / 20 Def / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect

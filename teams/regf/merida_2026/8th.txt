@@ -1,0 +1,70 @@
+â¤ï¸KasaTetoâ¤ï¸ (Porygon2) @ Eviolite
+Ability: Download
+Level: 62
+Shiny: Yes
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 156 Def / 36 SpA / 60 SpD
+Sassy Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+â¤ï¸Dulcibearâ¤ï¸ (Ursaluna) (F) @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 116 SpD
+Adamant Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+â
+Ishmaelâ
+ (Ogerpon-Wellspring) @ Wellspring Mask
+Ability: Water Absorb
+Tera Type: Water
+EVs: 188 HP / 76 Atk / 52 Def / 4 SpD / 188 Spe
+Jolly Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+â
+ReoNaâ
+ (Incineroar) @ Safety Goggles
+Ability: Intimidate
+Level: 57
+Tera Type: Dragon
+EVs: 252 HP / 36 Atk / 60 Def / 68 SpD / 92 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+âItaRinâ (Flutter Mane) @ Booster Energy
+Ability: Protosynthesis
+Tera Type: Grass
+EVs: 108 HP / 76 Def / 148 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+â¤ï¸Layâ¤ï¸ (Okidogi) @ Assault Vest
+Ability: Guard Dog
+Tera Type: Ghost
+EVs: 244 HP / 108 Atk / 20 Def / 68 SpD / 68 Spe
+Adamant Nature
+- Ice Punch
+- Drain Punch
+- Poison Jab
+- Knock Off

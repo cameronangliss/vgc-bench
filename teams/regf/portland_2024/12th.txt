@@ -1,0 +1,71 @@
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 156 Def / 4 SpD / 108 Spe
+Impish Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Will-O-Wisp
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Protect
+- Substitute
+
+Raging Bolt @ Safety Goggles
+Ability: Protosynthesis
+Level: 50
+Tera Type: Bug
+EVs: 132 HP / 108 Def / 252 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Protect
+- Dragon Pulse
+- Calm Mind
+
+Metagross @ Assault Vest
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 204 HP / 196 Atk / 4 Def / 100 SpD / 4 Spe
+Adamant Nature
+- Psychic Fangs
+- Brick Break
+- Heavy Slam
+- Bullet Punch
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Dazzling Gleam
+- Moonblast
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 140 Atk / 4 Def / 12 SpD / 196 Spe
+Jolly Nature
+- Ivy Cudgel
+- Follow Me
+- Power Whip
+- Spiky Shield

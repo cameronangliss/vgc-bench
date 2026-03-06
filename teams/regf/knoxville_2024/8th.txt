@@ -1,0 +1,65 @@
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 188 HP / 12 Def / 180 SpA / 100 SpD / 28 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Snarl
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Tera Type: Fairy
+EVs: 108 HP / 44 Def / 156 SpA / 196 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Psychic
+- Trick Room
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Tera Type: Poison
+EVs: 236 HP / 4 Atk / 92 Def / 156 SpD / 20 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Tera Type: Water
+EVs: 12 HP / 164 Atk / 4 Def / 76 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 188 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk / 12 Spe
+- Spore
+- Pollen Puff
+- Rage Powder
+- Protect
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 20 HP / 4 Def / 228 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Substitute
+- Protect

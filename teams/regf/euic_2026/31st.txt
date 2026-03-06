@@ -1,0 +1,68 @@
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 44 Def / 36 SpA / 140 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Encore
+- Fake Tears
+
+Entei @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 228 Atk / 12 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stone Edge
+- Flare Blitz
+
+Regidrago @ Life Orb
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Ghost
+EVs: 244 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Energy
+- Draco Meteor
+- Earth Power
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 20 HP / 188 Atk / 44 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 68 HP / 4 Def / 212 SpA / 28 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 204 Def / 12 SpD / 36 Spe
+Impish Nature
+- Ivy Cudgel
+- Power Whip
+- Follow Me
+- Spiky Shield

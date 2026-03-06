@@ -1,0 +1,66 @@
+Registeel @ Leftovers
+Ability: Clear Body
+Level: 64
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 252 Def
+Relaxed Nature
+- Iron Defense
+- Body Press
+- Heavy Slam
+- Protect
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 164 Def / 92 SpD
+Sassy Nature
+IVs: 0 Atk
+- Moonblast
+- Lunar Blessing
+- Trick Room
+- Protect
+
+Regidrago @ Dragon Fang
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 100 Def / 252 SpA / 132 SpD / 20 Spe
+Modest Nature
+- Draco Meteor
+- Dragon Energy
+- Tera Blast
+- Protect
+
+Regice @ Assault Vest
+Ability: Clear Body
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 244 SpA / 36 Spe
+Modest Nature
+- Icy Wind
+- Ice Beam
+- Thunderbolt
+- Tera Blast
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Tera Type: Fire
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Follow Me
+- Ivy Cudgel
+- Wood Hammer
+- Spiky Shield
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 80
+Tera Type: Dark
+EVs: 252 HP / 164 Def / 92 SpD
+Modest Nature
+IVs: 0 Atk
+- Snowscape
+- Tailwind
+- Bleakwind Storm
+- Taunt

@@ -1,0 +1,69 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 204 Def / 4 SpA / 4 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Taunt
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 76 HP / 252 Atk / 4 Def / 12 SpD / 164 Spe
+Adamant Nature
+- Surging Strikes
+- U-turn
+- Close Combat
+- Aqua Jet
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 236 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk
+- Rage Powder
+- Pollen Puff
+- Spore
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Atk / 188 Def / 68 SpD / 4 Spe
+Impish Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Knock Off
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 164 HP / 44 Def / 116 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Substitute
+- Sludge Bomb
+- Protect
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 4 Def / 180 SpA / 148 SpD / 52 Spe
+Modest Nature
+IVs: 20 Atk
+- Electroweb
+- Thunderclap
+- Dragon Pulse
+- Snarl

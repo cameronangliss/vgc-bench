@@ -1,0 +1,67 @@
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 54
+Tera Type: Water
+EVs: 204 HP / 116 Atk / 4 Def / 108 SpD / 76 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 252 Def / 4 SpA / 4 SpD / 12 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Thunder Wave
+- Taunt
+- Pain Split
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 156 Atk / 4 Def / 124 SpD / 84 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 188 Def / 68 SpD
+Impish Nature
+IVs: 13 Spe
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 92 HP / 124 Atk / 36 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Grassy Glide
+- Swords Dance
+- Spiky Shield
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Ice Shard
+- Sacred Sword
+- Protect

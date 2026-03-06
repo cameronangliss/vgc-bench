@@ -1,0 +1,63 @@
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 196 HP / 100 Atk / 4 Def / 4 SpD / 204 Spe
+Jolly Nature
+- Breaking Swipe
+- Heat Crash
+- Howl
+- Burning Bulwark
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 60 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 20 Def / 156 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Fake Out
+- Grassy Glide
+- High Horsepower
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 156 HP / 76 Def / 76 SpA / 4 SpD / 196 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Dazzling Gleam
+- Moonblast
+- Perish Song

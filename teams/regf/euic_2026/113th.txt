@@ -1,0 +1,68 @@
+Get silly (Smeargle) (F) @ Focus Sash
+Ability: Moody
+Level: 62
+Shiny: Yes
+Tera Type: Grass
+EVs: 36 HP / 220 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Follow Me
+- Spore
+- Decorate
+
+Get serious (Tornadus) @ Sharp Beak
+Ability: Prankster
+Shiny: Yes
+Tera Type: Steel
+EVs: 244 HP / 164 Def / 44 SpA / 12 SpD / 44 Spe
+Modest Nature
+IVs: 7 Atk
+- Protect
+- Bleakwind Storm
+- Tailwind
+- Sunny Day
+
+Bear Fair (Urshifu) (M) @ Black Glasses
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 140 HP / 236 Atk / 4 Def / 116 SpD / 12 Spe
+Adamant Nature
+- Detect
+- Close Combat
+- Wicked Blow
+- Sucker Punch
+
+Fig (Farigiraf) (F) @ Throat Spray
+Ability: Armor Tail
+Shiny: Yes
+Tera Type: Fairy
+EVs: 236 HP / 12 Def / 76 SpA / 60 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Hyper Voice
+- Psychic
+- Trick Room
+
+Go-go gadget (Flutter Mane) @ Choice Specs
+Ability: Protosynthesis
+Shiny: Yes
+Tera Type: Fairy
+EVs: 116 HP / 44 Def / 196 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 21 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Icy Wind
+
+idontknow,,, (Ogerpon-Hearthflame) @ Hearthflame Mask
+Ability: Mold Breaker
+Tera Type: Fire
+EVs: 156 HP / 76 Atk / 52 Def / 4 SpD / 220 Spe
+Adamant Nature
+- Spiky Shield
+- Ivy Cudgel
+- Wood Hammer
+- Stomping Tantrum
