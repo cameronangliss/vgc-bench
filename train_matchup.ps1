@@ -160,7 +160,7 @@ Write-Host "Saved teams to $teamDir/team1.txt and $teamDir/team2.txt"
 
 Write-Host "Starting Showdown server..."
 Push-Location pokemon-showdown
-$showdownProcess = Start-Process -FilePath "node" -ArgumentList "pokemon-showdown", "start", "$port", "--no-security" -NoNewWindow -PassThru -RedirectStandardOutput "NUL" -RedirectStandardError "NUL"
+$showdownProcess = Start-Process -FilePath "node" -ArgumentList "pokemon-showdown", "start", "$port", "--no-security" -NoNewWindow -PassThru -RedirectStandardOutput "showdown_stdout.log" -RedirectStandardError "showdown_stderr.log"
 Pop-Location
 Start-Sleep -Seconds 5
 
