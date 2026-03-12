@@ -1,16 +1,14 @@
-#!/bin/bash
-
-reg=G
-port=8000
-device="cuda:0"
-num_env_workers=1
-num_eval_workers=1
-results_suffix="worlds-2024-finals"
+$reg = "G"
+$port = 8000
+$device = "cuda:0"
+$num_env_workers = 1
+$num_eval_workers = 1
+$results_suffix = "worlds-2024-finals"
 
 # sample teams
 # finals matchup of World Championships 2024 in Honolulu
 # Luca Ceribelli vs. Yuta Ishigaki
-TEAM1="""
+$TEAM1 = @"
 Miraidon @ Choice Specs
 Ability: Hadron Engine
 Level: 50
@@ -79,8 +77,9 @@ IVs: 0 Spe
 - Low Kick
 - Wild Charge
 - Fake Out
-"""
-TEAM2="""
+"@
+
+$TEAM2 = @"
 Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
 Level: 50
@@ -150,44 +149,43 @@ Modest Nature
 - Sandsear Storm
 - Sludge Bomb
 - U-turn
-"""
+"@
 
-start_showdown() {
-    local port=$1
-    (
-        cd pokemon-showdown
-        node pokemon-showdown start "$port" --no-security > /dev/null 2>&1 &
-        echo $!
-    )
-}
+Write-Host "Starting Showdown server..."
+Push-Location pokemon-showdown
+$showdownProcess = Start-Process -FilePath "node" -ArgumentList "pokemon-showdown", "start", "$port", "--no-security" -NoNewWindow -PassThru -RedirectStandardOutput "NUL" -RedirectStandardError "NUL"
+Pop-Location
+Start-Sleep -Seconds 5
 
-echo "Starting Showdown server..."
-showdown_pid=$(start_showdown "$port")
-sleep 5  # give server time to start
 # Write teams to files for the training script to pick up
-mkdir -p "results-$results_suffix"
-echo "$TEAM1" > "results-$results_suffix/team1.txt"
-echo "$TEAM2" > "results-$results_suffix/team2.txt"
-echo "Saved teams to results-$results_suffix/team1.txt and results-$results_suffix/team2.txt"
+$teamDir = "results-$results_suffix"
+New-Item -ItemType Directory -Path $teamDir -Force | Out-Null
+$TEAM1 | Out-File -FilePath (Join-Path $teamDir "team1.txt") -Encoding utf8
+$TEAM2 | Out-File -FilePath (Join-Path $teamDir "team2.txt") -Encoding utf8
+Write-Host "Saved teams to $teamDir/team1.txt and $teamDir/team2.txt"
 
-echo "Starting training..."
-python -m vgc_bench.train \
-    --reg "$reg" \
-    --port "$port" \
-    --device "$device" \
-    --num_envs "$num_env_workers" \
-    --num_eval_workers "$num_eval_workers" \
-    --behavior_clone \
-    --self_play \
-    --no_mirror_match \
-    --team1 "$TEAM1" \
-    --team2 "$TEAM2" \
-    --results_suffix "$results_suffix" \
-    > "debug$port.log" 2>&1
-exit_status=$?
-if [ $exit_status -ne 0 ]; then
-    echo "Training process died with exit status $exit_status"
-else
-    echo "Training process finished!"
-fi
-kill $showdown_pid
+Write-Host "Starting training..."
+$trainingArgs = @(
+    "-m", "vgc_bench.train",
+    "--reg", $reg,
+    "--port", $port,
+    "--device", $device,
+    "--num_envs", $num_env_workers,
+    "--num_eval_workers", $num_eval_workers,
+    "--behavior_clone",
+    "--self_play",
+    "--no_mirror_match",
+    "--team1", $TEAM1,
+    "--team2", $TEAM2,
+    "--results_suffix", $results_suffix
+)
+
+python @trainingArgs > "debug$port.log" 2>&1
+$exit_status = $LASTEXITCODE
+
+if ($exit_status -ne 0) {
+    Write-Host "Training process died with exit status $exit_status"
+} else {
+    Write-Host "Training process finished!"
+}
+Stop-Process -Id $showdownProcess.Id -Force -ErrorAction SilentlyContinue

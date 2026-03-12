@@ -19,6 +19,8 @@ from vgc_bench.src.utils import format_map
 
 
 async def play(
+    username: str,
+    password: str | None,
     battle_format: str,
     run_id: int,
     results_suffix: str | None,
@@ -54,7 +56,7 @@ async def play(
         team1 = None
         team2 = None
     agent = PolicyPlayer(
-        account_configuration=AccountConfiguration("", ""),  # fill in
+        account_configuration=AccountConfiguration(username, password),
         battle_format=battle_format,
         log_level=40,
         max_concurrent_battles=10,
@@ -82,6 +84,12 @@ async def play(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--username", type=str, required=True, help="Pokemon Showdown username"
+    )
+    parser.add_argument(
+        "--password", type=str, default=None, help="Pokemon Showdown password"
+    )
     parser.add_argument(
         "--reg", type=str, required=True, help="VGC regulation to play in, i.e. G"
     )
@@ -113,6 +121,8 @@ if __name__ == "__main__":
     battle_format = format_map[args.reg.lower()]
     asyncio.run(
         play(
+            args.username,
+            args.password,
             battle_format,
             args.run_id,
             args.results_suffix,
