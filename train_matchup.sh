@@ -161,14 +161,15 @@ start_showdown() {
     )
 }
 
+# Write teams to files for the training script to pick up
+mkdir -p "results1-$results_suffix"
+echo "$TEAM1" > "results1-$results_suffix/team1.txt"
+echo "$TEAM2" > "results1-$results_suffix/team2.txt"
+echo "Saved teams to results1-$results_suffix/team1.txt and results1-$results_suffix/team2.txt"
+
 echo "Starting Showdown server..."
 showdown_pid=$(start_showdown "$port")
 sleep 5  # give server time to start
-# Write teams to files for the training script to pick up
-mkdir -p "results-$results_suffix"
-echo "$TEAM1" > "results-$results_suffix/team1.txt"
-echo "$TEAM2" > "results-$results_suffix/team2.txt"
-echo "Saved teams to results-$results_suffix/team1.txt and results-$results_suffix/team2.txt"
 
 echo "Starting training..."
 python -m vgc_bench.train \

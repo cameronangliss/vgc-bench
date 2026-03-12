@@ -151,18 +151,18 @@ Modest Nature
 - U-turn
 "@
 
+# Write teams to files for the training script to pick up
+$teamDir = "results1-$results_suffix"
+New-Item -ItemType Directory -Path $teamDir -Force | Out-Null
+$TEAM1 | Out-File -FilePath (Join-Path $teamDir "team1.txt") -Encoding utf8
+$TEAM2 | Out-File -FilePath (Join-Path $teamDir "team2.txt") -Encoding utf8
+Write-Host "Saved teams to $teamDir/team1.txt and $teamDir/team2.txt"
+
 Write-Host "Starting Showdown server..."
 Push-Location pokemon-showdown
 $showdownProcess = Start-Process -FilePath "node" -ArgumentList "pokemon-showdown", "start", "$port", "--no-security" -NoNewWindow -PassThru -RedirectStandardOutput "NUL" -RedirectStandardError "NUL"
 Pop-Location
 Start-Sleep -Seconds 5
-
-# Write teams to files for the training script to pick up
-$teamDir = "results-$results_suffix"
-New-Item -ItemType Directory -Path $teamDir -Force | Out-Null
-$TEAM1 | Out-File -FilePath (Join-Path $teamDir "team1.txt") -Encoding utf8
-$TEAM2 | Out-File -FilePath (Join-Path $teamDir "team2.txt") -Encoding utf8
-Write-Host "Saved teams to $teamDir/team1.txt and $teamDir/team2.txt"
 
 Write-Host "Starting training..."
 $trainingArgs = @(
