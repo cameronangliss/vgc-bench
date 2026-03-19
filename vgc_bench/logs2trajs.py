@@ -33,7 +33,7 @@ from poke_env.player import (
 from poke_env.ps_client import AccountConfiguration
 
 from vgc_bench.src.policy_player import PolicyPlayer
-from vgc_bench.src.utils import act_len, all_formats, chunk_obs_len
+from vgc_bench.src.utils import act_len, chunk_obs_len
 
 
 class LogReader(Player):
@@ -413,10 +413,9 @@ def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bo
     )
     Path("trajs").mkdir(exist_ok=True)
     total = 0
-    for f in all_formats:
-        with open(f"battle-logs/logs-{f}.json", "r") as file:
-            logs = json.load(file)
-        print(f"processing {len(logs)} {f} logs...")
+    for f in Path("battle-logs").iterdir():
+        logs = json.load(f.open())
+        print(f"processing {len(logs)} {f.stem} logs...")
         trajs = process_logs(logs, executor, min_rating, only_winner, strict)
         for i, traj in enumerate(trajs, start=total):
             with open(f"trajs/{i:08d}.pkl", "wb") as f:

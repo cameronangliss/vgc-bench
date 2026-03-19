@@ -18,7 +18,25 @@ import requests
 from poke_env.battle import Pokemon
 from poke_env.data import to_id_str
 
-from vgc_bench.src.utils import all_formats
+FORMATS = [
+    "gen9vgc2023regd",
+    "gen9vgc2024regf",
+    "gen9vgc2024regfbo3",
+    "gen9vgc2024regg",
+    "gen9vgc2024reggbo3",
+    "gen9vgc2024regh",
+    "gen9vgc2024reghbo3",
+    "gen9vgc2025regg",
+    "gen9vgc2025reggbo3",
+    "gen9vgc2025regh",
+    "gen9vgc2025reghbo3",
+    "gen9vgc2025regi",
+    "gen9vgc2025regibo3",
+    "gen9vgc2025regjbo3",
+    "gen9vgc2026regf",
+    "gen9vgc2026regfbo3",
+    "gen9vgc2026regi",
+]
 
 
 def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:
@@ -220,7 +238,7 @@ def main(num_workers: int, read_increment: int):
         num_workers: Number of parallel download threads.
         read_increment: Number of battles to search through per iteration.
     """
-    for fmt in all_formats:
+    for fmt in FORMATS:
         done = False
         while not done:
             done = scrape_logs(num_workers, read_increment, fmt)
