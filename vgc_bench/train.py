@@ -110,6 +110,10 @@ def train(
     )[1:]
     suffix = f"-{results_suffix}" if results_suffix else ""
     output_dir = Path(f"results{run_id}{suffix}")
+    if team1 and team2:
+        output_dir.mkdir(exist_ok=True)
+        (output_dir / "team1.txt").write_text(team1[1:])
+        (output_dir / "team2.txt").write_text(team2[1:])
     save_dir = output_dir / f"saves-{method}" / f"{num_teams}-teams"
     ppo = PPO(
         MaskedActorCriticPolicy,
