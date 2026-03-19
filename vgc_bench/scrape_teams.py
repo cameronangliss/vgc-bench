@@ -18,9 +18,7 @@ from vgc_bench.src.teams import calc_team_similarity_score
 SHEET_ID = "1axlwmzPA49rYkqXh7zHvAtSP-TKbM0ijGYBPRflLSWw"
 SHEET_EDIT_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit"
 SHEET_GVIZ_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq"
-
 ALLOWED_EVENTS = ("regional", "euic", "laic", "naic", "worlds")
-BANNED_ABILITIES = ("illusion", "commander")
 
 
 def slugify(text: str) -> str:
@@ -137,16 +135,6 @@ def normalize_team_text(text: str) -> str:
     return "\n\n".join(normalized) + "\n"
 
 
-def has_banned_ability(team_text: str) -> bool:
-    """Check if team has Illusion or Commander ability."""
-    return any(
-        re.search(
-            rf"^\s*Ability:\s*{ability}\s*$", team_text, re.IGNORECASE | re.MULTILINE
-        )
-        for ability in BANNED_ABILITIES
-    )
-
-
 def is_valid_event(event_name: str) -> bool:
     """Check if event should be included."""
     lower = event_name.lower()
@@ -205,7 +193,9 @@ def scrape_regulation(regulation: str) -> None:
             if not pokepaste.startswith("https://pokepast.es/"):
                 continue
             team_text = fetch_team(session, pokepaste)
-            if has_banned_ability(team_text):
+            if re.search(
+                r"^\s*Ability:\s*Illusion\s*$", team_text, re.IGNORECASE | re.MULTILINE
+            ):
                 stats["banned"] += 1
                 continue
             try:

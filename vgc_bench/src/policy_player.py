@@ -257,7 +257,10 @@ class PolicyPlayer(Player):
         ]
         teampreview = float(battle.teampreview)
         reviving = float(battle.reviving)
-        return np.array([*weather, *fields, reviving, teampreview], dtype=np.float32)
+        commanding = float(battle.commanding)
+        return np.array(
+            [*weather, *fields, teampreview, reviving, commanding], dtype=np.float32
+        )
 
     @staticmethod
     def embed_side(
@@ -328,10 +331,7 @@ class PolicyPlayer(Player):
             "null" if pokemon.ability is None else pokemon.ability
         )
         item_id = items.index("null" if pokemon.item is None else pokemon.item)
-        move_ids = [
-            moves.index("hiddenpower" if move.id.startswith("hiddenpower") else move.id)
-            for move in pokemon.moves.values()
-        ]
+        move_ids = [moves.index(move.id) for move in pokemon.moves.values()]
         move_ids += [0] * (4 - len(move_ids))
         move_embeds = [PolicyPlayer.embed_move(move) for move in pokemon.moves.values()]
         move_embeds += [np.zeros(move_obs_len, dtype=np.float32)] * (
@@ -340,7 +340,10 @@ class PolicyPlayer(Player):
         move_embeds = np.concatenate(move_embeds)
         types = [float(t in pokemon.base_types) for t in PokemonType]
         tera_type = [float(t == pokemon.tera_type) for t in PokemonType]
-        stats = [(s or 0) / 1000 for s in pokemon.stats.values()]
+        if from_opponent:
+            stats = [s / 255 for s in pokemon.base_stats.values()]
+        else:
+            stats = [s / 255 for s in pokemon.stats.values() if s is not None]
         gender = [float(g == pokemon.gender) for g in PokemonGender]
         weight = pokemon.weight / 1000
         # volatile fields

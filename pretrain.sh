@@ -1,7 +1,7 @@
 #!/bin/bash
 
 run_id=1
-num_teams=128
+num_teams=133
 port=8004
 device="cuda:0"
 

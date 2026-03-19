@@ -1,0 +1,68 @@
+Weezing @ Covert Cloak
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 4 SpA / 236 SpD / 12 Spe
+Calm Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Will-O-Wisp
+- Taunt
+- Protect
+
+Slaking @ Life Orb
+Ability: Truant
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Double-Edge
+- High Horsepower
+- Sucker Punch
+- Protect
+
+Mamoswine @ Focus Sash
+Ability: Oblivious
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Ice Shard
+- Earthquake
+- Protect
+
+Kilowattrel @ Choice Specs
+Ability: Competitive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Discharge
+- Air Slash
+- Electroweb
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 164 Atk / 4 Def / 84 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Order Up
+- Substitute
+- Protect
+
+Tatsugiri @ Assault Vest
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 68 Def / 4 SpA / 84 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Dragon Pulse
+- Draco Meteor
+- Mirror Coat

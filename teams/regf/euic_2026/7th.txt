@@ -1,0 +1,72 @@
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Helping Hand
+- Lunar Blessing
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 156 Atk / 100 SpD
+Brave Nature
+IVs: 11 Spe
+- Facade
+- Swords Dance
+- Earthquake
+- Protect
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 76 Atk / 4 Def / 12 SpD / 188 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Dondozo @ Covert Cloak
+Ability: Oblivious
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Order Up
+- Earthquake
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 244 HP / 36 Atk / 20 Def / 204 SpD
+Adamant Nature
+IVs: 22 SpA
+- Flare Blitz
+- U-turn
+- Fake Out
+- Knock Off
+
+Tatsugiri @ Safety Goggles
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 172 Def / 76 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Taunt
+- Protect

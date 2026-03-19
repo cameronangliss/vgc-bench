@@ -1,0 +1,68 @@
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Spiky Shield
+- Earth Power
+- Mortal Spin
+- Sludge Wave
+
+Typhlosion-Hisui @ Choice Scarf
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Eruption
+- Overheat
+- Shadow Ball
+- Heat Wave
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 52 HP / 252 Atk / 12 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Outrage
+- Extreme Speed
+- Earthquake
+- Stomping Tantrum
+
+Tatsugiri @ Safety Goggles
+Ability: Commander
+Level: 50
+Tera Type: Fairy
+EVs: 92 HP / 92 Def / 76 SpA / 4 SpD / 244 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Helping Hand
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 156 Atk / 140 SpD / 212 Spe
+Jolly Nature
+- Wave Crash
+- Order Up
+- Earthquake
+- Protect

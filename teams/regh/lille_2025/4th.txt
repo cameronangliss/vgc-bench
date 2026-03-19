@@ -1,0 +1,74 @@
+Daft (Weavile) @ Focus Sash
+Ability: Pickpocket
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 29 SpA
+- Knock Off
+- Triple Axel
+- Beat Up
+- Fake Out
+
+Punk (Annihilape) @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 52 HP / 204 Atk / 252 Spe
+Jolly Nature
+IVs: 15 SpA
+- Rage Fist
+- Close Combat
+- Taunt
+- Protect
+
+Manchild (Dondozo) @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 20 HP / 172 Atk / 4 Def / 60 SpD / 252 Spe
+Jolly Nature
+IVs: 28 SpA
+- Wave Crash
+- Earthquake
+- Order Up
+- Protect
+
+Lover Girl (Tatsugiri) @ Safety Goggles
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 5 Atk
+- Draco Meteor
+- Muddy Water
+- Helping Hand
+- Protect
+
+IB3 (Archaludon) @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fighting
+EVs: 212 HP / 36 Def / 36 SpA / 4 SpD / 220 Spe
+Bold Nature
+IVs: 13 Atk
+- Dragon Pulse
+- Electro Shot
+- Flash Cannon
+- Body Press
+
+PEP (Pelipper) @ Choice Scarf
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Muddy Water
+- Hurricane
+- U-turn
+- Tailwind
