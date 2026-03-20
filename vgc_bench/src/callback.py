@@ -163,6 +163,20 @@ class Callback(BaseCallback):
                 run_id, num_teams, battle_format, team1, team2, toggle
             ),
         )
+        self.eval_opponent2 = BatchPolicyPlayer(
+            server_configuration=ServerConfiguration(
+                f"ws://localhost:{port}/showdown/websocket",
+                "https://play.pokemonshowdown.com/action.php?",
+            ),
+            battle_format=battle_format,
+            log_level=log_level,
+            max_concurrent_battles=num_eval_workers,
+            accept_open_team_sheet=True,
+            open_timeout=None,
+            team=RandomTeamBuilder(
+                run_id, num_teams, battle_format, team1, team2, toggle
+            ),
+        )
 
     def _on_step(self) -> bool:
         """Called after each environment step. Returns True to continue training."""
@@ -173,6 +187,7 @@ class Callback(BaseCallback):
         assert self.model.env is not None
         self.eval_agent.policy = self.model.policy
         self.starting_timestep = self.model.num_timesteps
+        bc_policy_path = self.save_dir / f"{HF_BC_MODEL_TIMESTEP}.zip"
         if self.model.num_timesteps < self.save_interval:
             saves = [int(p.stem) for p in self.save_dir.iterdir() if int(p.stem) >= 0]
             if self.behavior_clone and len(saves) == 0:
@@ -188,17 +203,24 @@ class Callback(BaseCallback):
                         repo_type="model",
                     )
                 )
-                shutil.copy2(
-                    downloaded_policy, self.save_dir / f"{HF_BC_MODEL_TIMESTEP}.zip"
-                )
+                shutil.copy2(downloaded_policy, bc_policy_path)
                 saves = [HF_BC_MODEL_TIMESTEP]
                 self.model.set_parameters(
                     str(self.save_dir / f"{max(saves)}.zip"), device=self.model.device
                 )
-            win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
-            self.model.logger.record("train/eval", win_rate)
+            heuristic_win_rate = self.compare(
+                self.eval_agent, self.eval_opponent, 100
+            )
+            self.model.logger.record("train/heuristic-eval", heuristic_win_rate)
             if not self.behavior_clone:
                 self.model.save(self.save_dir / f"{self.model.num_timesteps}")
+        if bc_policy_path.exists():
+            self.eval_opponent2.set_policy(bc_policy_path, self.model.device)
+            if self.model.num_timesteps < self.save_interval:
+                bc_win_rate = self.compare(
+                    self.eval_agent, self.eval_opponent2, 100
+                )
+                self.model.logger.record("train/bc-eval", bc_win_rate)
         if self.learning_style == LearningStyle.EXPLOITER:
             for i in range(self.model.env.num_envs):
                 self.model.env.env_method(
@@ -242,8 +264,11 @@ class Callback(BaseCallback):
 
     def record(self):
         """Evaluate current policy, update payoff matrix for DO, and save checkpoint."""
-        win_rate = self.compare(self.eval_agent, self.eval_opponent, 1000)
-        self.model.logger.record("train/eval", win_rate)
+        heuristic_win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
+        self.model.logger.record("train/heuristic-eval", heuristic_win_rate)
+        if self.eval_opponent2.policy is not None:
+            bc_win_rate = self.compare(self.eval_agent, self.eval_opponent2, 100)
+            self.model.logger.record("train/bc-eval", bc_win_rate)
         if self.learning_style == LearningStyle.DOUBLE_ORACLE:
             policy_files = list(self.save_dir.iterdir())
             self.update_payoff_matrix(policy_files)
