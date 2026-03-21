@@ -1,0 +1,69 @@
+Volcarona @ Choice Specs
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 8 Atk
+- Heat Wave
+- Bug Buzz
+- Struggle Bug
+- Overheat
+
+Incineroar @ Aguav Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 172 Def / 84 SpD
+Careful Nature
+IVs: 6 SpA
+- Flare Blitz
+- Parting Shot
+- Fake Out
+- Knock Off
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 236 HP / 252 SpA / 20 SpD
+Modest Nature
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Vacuum Wave
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Protect
+- Follow Me
+- Beat Up
+
+Annihilape @ Spell Tag
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 22 SpA
+- Rage Fist
+- Close Combat
+- U-turn
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Misty Terrain
+- Tailwind
+- Moonblast
+- Beat Up

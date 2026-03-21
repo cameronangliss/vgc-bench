@@ -1,0 +1,68 @@
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 52 Def / 132 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 164 Def / 36 SpA / 12 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Protect
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 132 Atk / 4 Def / 4 SpD / 156 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 252 HP / 36 Atk / 44 Def / 92 SpD / 84 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- U-turn
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 28 Def / 60 SpA / 164 SpD
+Quiet Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 204 Atk / 4 Def / 4 SpD / 156 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect

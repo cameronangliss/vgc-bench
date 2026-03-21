@@ -18,7 +18,6 @@ from vgc_bench.src.teams import calc_team_similarity_score
 SHEET_ID = "1axlwmzPA49rYkqXh7zHvAtSP-TKbM0ijGYBPRflLSWw"
 SHEET_EDIT_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit"
 SHEET_GVIZ_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq"
-ALLOWED_EVENTS = ("regional", "euic", "laic", "naic", "worlds")
 
 
 def slugify(text: str) -> str:
@@ -135,16 +134,6 @@ def normalize_team_text(text: str) -> str:
     return "\n\n".join(normalized) + "\n"
 
 
-def is_valid_event(event_name: str) -> bool:
-    """Check if event should be included."""
-    lower = event_name.lower()
-    if not any(kw in lower for kw in ALLOWED_EVENTS):
-        return False
-    if "seniors" in lower or "juniors" in lower or "&" in event_name:
-        return False
-    return True
-
-
 def is_valid_placement(placement: str) -> bool:
     """Check if placement is top 64 and not juniors/seniors."""
     lower = placement.lower()
@@ -175,7 +164,7 @@ def scrape_regulation(regulation: str) -> None:
         header = rows[header_idx]
         col = {
             name: header.index(name)
-            for name in ["Category", "EVs", "Pokepaste", "Tournament / Event", "Rank"]
+            for name in ["EVs", "Pokepaste", "Tournament / Event", "Rank"]
         }
         col["Date"] = (
             header.index("Date") if "Date" in header else col["Tournament / Event"] - 1
@@ -183,9 +172,7 @@ def scrape_regulation(regulation: str) -> None:
         for row in rows[header_idx + 1 :]:
             if len(row) <= max(col.values()):
                 continue
-            # Filter by category and EVs
-            if row[col["Category"]].strip().lower() != "in person event":
-                continue
+            # Filter by EVs
             if row[col["EVs"]].strip().lower() != "yes":
                 continue
             # Fetch and validate team
@@ -211,7 +198,12 @@ def scrape_regulation(regulation: str) -> None:
             seen_teams.append(team_text)
             # Filter by event and placement
             event_name = row[col["Tournament / Event"]].strip()
-            if not is_valid_event(event_name):
+            lower_event = event_name.lower()
+            if (
+                "seniors" in lower_event
+                or "juniors" in lower_event
+                or "&" in event_name
+            ):
                 continue
             placement = row[col["Rank"]].strip()
             if not is_valid_placement(placement):

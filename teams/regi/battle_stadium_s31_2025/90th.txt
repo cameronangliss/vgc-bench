@@ -1,0 +1,68 @@
+Miraidon @ Covert Cloak
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 220 HP / 20 Def / 132 SpA / 4 SpD / 132 Spe
+Timid Nature
+- Parabolic Charge
+- Dragon Pulse
+- Calm Mind
+- Protect
+
+Groudon @ Sitrus Berry
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 4 Def / 60 SpD / 116 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- Will-O-Wisp
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 124 Def / 116 SpD / 12 Spe
+Careful Nature
+IVs: 0 Atk
+- Fake Tears
+- Reflect
+- Light Screen
+- Scary Face
+
+Volcarona @ Electric Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 20 Def / 36 SpA / 68 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 4 Atk / 156 Def / 60 SpD / 36 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Taunt
+- Icy Wind
+- Protect

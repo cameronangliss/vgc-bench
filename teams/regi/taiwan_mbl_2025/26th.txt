@@ -1,0 +1,68 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 68 Def / 4 SpA / 52 SpD / 252 Spe
+Timid Nature
+- Electro Drift
+- Snarl
+- Volt Switch
+- Draco Meteor
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 28 Def / 228 SpD
+Careful Nature
+IVs: 26 Spe
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 20 Def / 172 SpD / 28 Spe
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- High Horsepower
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 76 Def / 116 SpD / 68 Spe
+Careful Nature
+- Spirit Break
+- Parting Shot
+- Reflect
+- Light Screen
+
+Sinistcha-Masterpiece @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 204 Def / 68 SpD
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Trick Room
+- Rage Powder
+- Shadow Ball
+
+Pelipper @ Ability Shield
+Ability: Drizzle
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 76 Def / 76 SpA / 52 SpD / 52 Spe
+Bold Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Wide Guard
+- Protect

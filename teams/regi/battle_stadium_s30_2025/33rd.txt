@@ -1,0 +1,67 @@
+Calyrex-Ice @ Safety Goggles
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 4 Def / 100 SpD / 36 Spe
+Adamant Nature
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Terapagos-Stellar @ Power Herb
+Ability: Teraform Zero
+Level: 50
+Tera Type: Stellar
+EVs: 100 HP / 4 Def / 252 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Meteor Beam
+- Earth Power
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 108 Def / 44 SpD / 252 Spe
+Timid Nature
+- Spore
+- Follow Me
+- Decorate
+- Fake Out
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Follow Me
+- Spiky Shield
+- Power Whip
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 108 HP / 252 Atk / 12 Def / 108 SpD / 28 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 204 Def / 36 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Dark Pulse
+- Protect

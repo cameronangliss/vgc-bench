@@ -1,0 +1,68 @@
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Walking Wake @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Poison
+EVs: 12 HP / 244 SpA / 252 Spe
+Timid Nature
+- Hydro Steam
+- Tera Blast
+- Dragon Pulse
+- Protect
+
+Entei @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 228 Atk / 20 Def / 108 SpD / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Sacred Fire
+- Stomping Tantrum
+- Snarl
+
+Torkoal @ Heat Rock
+Ability: Drought
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 12 SpA / 244 SpD
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Yawn
+- Helping Hand
+- Protect
+
+Zapdos @ Zap Plate
+Ability: Static
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 108 Def / 116 SpA / 28 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Weather Ball
+- Helping Hand
+- Detect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 76 Atk / 116 Def / 60 SpD / 4 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Yawn
+- Protect

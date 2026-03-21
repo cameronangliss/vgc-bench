@@ -1,0 +1,69 @@
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 220 HP / 4 Def / 212 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 20 Atk
+- Protect
+- Thunderbolt
+- Dragon Pulse
+- Thunderclap
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 132 HP / 252 Atk / 4 Def / 12 SpD / 108 Spe
+Adamant Nature
+- Protect
+- Icicle Crash
+- Glaive Rush
+- Ice Shard
+
+Bronzong @ Leftovers
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 108 SpD
+Sassy Nature
+IVs: 0 Spe
+- Gyro Ball
+- Body Press
+- Iron Defense
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 116 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Facade
+- Earthquake
+- Substitute
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Psychic
+EVs: 244 HP / 172 Def / 92 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Protect
+- Sludge Bomb
+- Spore
+- Rage Powder
+
+Urshifu @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 12 HP / 252 Atk / 4 Def / 20 SpD / 220 Spe
+Adamant Nature
+- U-turn
+- Close Combat
+- Wicked Blow
+- Coaching

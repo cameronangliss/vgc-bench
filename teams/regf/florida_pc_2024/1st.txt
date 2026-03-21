@@ -1,0 +1,69 @@
+Amoonguss (M) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Rage Powder
+- Spore
+- Pollen Puff
+
+Incineroar (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 76 Def / 132 SpD / 44 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 172 HP / 76 Atk / 4 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Stomping Tantrum
+- Throat Chop
+- Tera Blast
+- Heavy Slam
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 244 HP / 52 Def / 132 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Trick
+
+Kommo-o (M) @ Leftovers
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 36 Def / 220 SpD
+Impish Nature
+- Protect
+- Body Press
+- Iron Defense
+- Iron Head
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 220 Def / 36 SpD
+Calm Nature
+IVs: 0 Atk
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room

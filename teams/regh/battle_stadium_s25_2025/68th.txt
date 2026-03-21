@@ -1,0 +1,67 @@
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Protect
+- Extreme Speed
+- Haze
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+Tera Type: Fairy
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Tera Blast
+- Protect
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Make It Rain
+- Trick
+- Power Gem
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Fighting
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 6 Atk
+- Electro Shot
+- Protect
+- Draco Meteor
+- Aura Sphere
+
+Annihilape @ Focus Sash
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rage Fist
+- Close Combat
+- Ice Punch
+- Final Gambit
+
+Scizor @ Assault Vest
+Ability: Technician
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Bullet Punch
+- Knock Off
+- Pounce
+- Tera Blast

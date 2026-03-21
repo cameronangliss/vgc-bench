@@ -1,0 +1,67 @@
+Tornadus @ Sharp Beak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 164 Def / 36 SpA / 28 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Protect
+
+Urshifu-Rapid-Strike @ Life Orb
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 108 HP / 140 Atk / 4 Def / 124 SpD / 132 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 116 Atk / 28 Def / 44 SpD / 84 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 172 Def / 4 SpA / 76 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Sludge Bomb
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 124 Def / 116 SpA / 20 SpD / 4 Spe
+Modest Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 172 Atk / 4 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect

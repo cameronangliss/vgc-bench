@@ -1,0 +1,69 @@
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 132 HP / 4 Def / 212 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Maushold-Four @ Wide Lens
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 156 Def / 76 SpD / 20 Spe
+Impish Nature
+IVs: 0 SpA
+- Population Bomb
+- Super Fang
+- Follow Me
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Extreme Speed
+- Low Kick
+- Haze
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 76 Def / 28 SpD / 36 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 68 HP / 4 Def / 116 SpA / 196 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Vacuum Wave
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Icy Wind
+- Aurora Veil
+- Encore

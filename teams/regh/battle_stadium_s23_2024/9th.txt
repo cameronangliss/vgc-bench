@@ -1,0 +1,69 @@
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+IVs: 24 SpA
+- Dire Claw
+- Close Combat
+- Throat Chop
+- Protect
+
+Indeedee @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 16 Atk
+- Expanding Force
+- Tera Blast
+- Trick Room
+- Protect
+
+Milotic @ Sitrus Berry
+Ability: Competitive
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 14 Atk
+- Scald
+- Life Dew
+- Haze
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 116 Atk / 4 Def / 84 SpD / 60 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 16 Atk
+- Blizzard
+- Freeze-Dry
+- Aurora Veil
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fairy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Protect

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>1130-1201 Premier Ball League Taiwan TOP 8  谷肇宸</title>
+		<link rel="stylesheet" href="/css/paste.css">
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/1000-0.png">
+				<img class="img-item" src="/img/items/297.png">
+			</div>
+			<pre><span class="type-steel">Gholdengo</span> @ Choice Specs
+<span class="attr">Ability: </span>Good as Gold
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-steel">Steel</span>
+<span class="attr">EVs: </span><span class="stat-hp">180 HP</span> / <span class="stat-def">4 Def</span> / <span class="stat-spa">212 SpA</span> / <span class="stat-spd">4 SpD</span> / <span class="stat-spe">108 Spe</span>
+Modest Nature
+<span class="attr">IVs: </span><span class="stat-atk">0 Atk</span>
+<span class="type-steel">-</span> Make It Rain
+<span class="type-ghost">-</span> Shadow Ball
+<span class="type-electric">-</span> Thunderbolt
+<span class="type-psychic">-</span> Trick
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/198-0.png">
+				<img class="img-item" src="/img/items/538.png">
+			</div>
+			<pre><span class="type-dark">Murkrow</span> @ Eviolite
+<span class="attr">Ability: </span>Prankster
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-ghost">Ghost</span>
+<span class="attr">EVs: </span><span class="stat-hp">252 HP</span> / <span class="stat-def">100 Def</span> / <span class="stat-spd">156 SpD</span>
+Bold Nature
+<span class="attr">IVs: </span><span class="stat-atk">7 Atk</span>
+<span class="type-dark">-</span> Foul Play
+<span class="type-dark">-</span> Taunt
+<span class="type-ice">-</span> Haze
+<span class="type-flying">-</span> Tailwind
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/0-0.png">
+				<img class="img-item" src="/img/items/271.png">
+			</div>
+			<pre>Archaludon @ Power Herb
+<span class="attr">Ability: </span>Sturdy
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-electric">Electric</span>
+<span class="attr">EVs: </span><span class="stat-def">4 Def</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spe">252 Spe</span>
+Modest Nature
+<span class="attr">IVs: </span><span class="stat-atk">0 Atk</span>
+<span class="type-steel">-</span> Flash Cannon
+- Electro Shot
+<span class="type-dragon">-</span> Draco Meteor
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/903-0.png">
+				<img class="img-item" src="/img/items/275.png">
+			</div>
+			<pre><span class="type-fighting">Sneasler</span> @ Focus Sash
+<span class="attr">Ability: </span>Poison Touch
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span>Stellar
+<span class="attr">EVs: </span><span class="stat-atk">252 Atk</span> / <span class="stat-def">4 Def</span> / <span class="stat-spe">252 Spe</span>
+Jolly Nature
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/983-0.png">
+				<img class="img-item" src="/img/items/240.png">
+			</div>
+			<pre><span class="type-dark">Kingambit</span> @ <span class="type-dark">Black Glasses</span>
+<span class="attr">Ability: </span>Defiant
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-dark">Dark</span>
+<span class="attr">EVs: </span><span class="stat-hp">204 HP</span> / <span class="stat-atk">252 Atk</span> / <span class="stat-def">44 Def</span> / <span class="stat-spd">4 SpD</span> / <span class="stat-spe">4 Spe</span>
+Adamant Nature
+<span class="type-dark">-</span> Kowtow Cleave
+<span class="type-dark">-</span> Sucker Punch
+<span class="type-normal">-</span> Swords Dance
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/936-0.png">
+				<img class="img-item" src="/img/items/540.png">
+			</div>
+			<pre><span class="type-fire">Armarouge</span> @ Rocky Helmet
+<span class="attr">Ability: </span>Flash Fire
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-dark">Dark</span>
+<span class="attr">EVs: </span><span class="stat-hp">244 HP</span> / <span class="stat-def">4 Def</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spd">4 SpD</span> / <span class="stat-spe">4 Spe</span>
+Modest Nature
+<span class="attr">IVs: </span><span class="stat-atk">0 Atk</span>
+<span class="type-fire">-</span> Armor Cannon
+<span class="type-dark">-</span> Dark Pulse
+<span class="type-psychic">-</span> Expanding Force
+<span class="type-rock">-</span> Wide Guard
+
+</pre>
+		</article>
+		<aside>
+			<h1>1130-1201 Premier Ball League Taiwan TOP 8  谷肇宸</h1>
+			<h2>&nbsp;by SilentLearner</h2>
+			<p>Format: gen9vgc2024regh</p>
+			<input id="vgcmode" type="checkbox">
+			<label for="vgcmode">Columns Mode</label> /
+			<input id="evivmode" type="checkbox">
+			<label for="evivmode">Stat Colours</label> /
+			<input id="lightmode" type="checkbox">
+			<label for="lightmode">Light Mode</label>
+		</aside>
+		<script src="/js/preferences.js"></script>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Normal
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Ghost
+EVs: 172 HP / 4 Atk / 244 Def / 4 SpD / 84 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Crunch
+- Ice Spinner
+- Sucker Punch
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Sludge Bomb
+- Spore
+- Rage Powder
+- Protect
+
+Raging Bolt @ Zap Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 228 HP / 20 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Dragon Pulse
+- Thunderclap
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 180 Atk / 116 Def / 76 SpD / 4 Spe
+Adamant Nature
+- Stomping Tantrum
+- Ruination
+- Stone Edge
+- Bulldoze

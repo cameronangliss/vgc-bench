@@ -1,0 +1,67 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 252 SpA / 108 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Snarl
+
+Terapagos-Terastal @ Leftovers
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 156 SpA / 180 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Toxic
+- Substitute
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 60 Atk / 4 Def / 148 SpD / 44 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- Fake Out
+- U-turn
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Atk / 188 Def / 28 SpD / 44 Spe
+Impish Nature
+- Knock Off
+- Fake Out
+- Will-O-Wisp
+- Parting Shot
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sacred Sword
+- Ice Shard
+- Protect
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Fiery Dance
+- Rage Powder
+- Quiver Dance
+- Protect

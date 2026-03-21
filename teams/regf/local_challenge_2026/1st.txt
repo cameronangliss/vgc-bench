@@ -1,0 +1,67 @@
+Gyarados @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 228 Def / 28 Spe
+Careful Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Latias @ Rocky Helmet
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 180 Def / 12 SpA / 12 SpD / 52 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Psyshock
+- Calm Mind
+- Recover
+
+Lucario @ Focus Sash
+Ability: Inner Focus
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Meteor Mash
+- Close Combat
+- Extreme Speed
+- Protect
+
+Regieleki @ Covert Cloak
+Ability: Transistor
+Level: 50
+Tera Type: Ice
+EVs: 44 HP / 44 Def / 252 SpA / 44 SpD / 124 Spe
+Modest Nature
+- Thunderbolt
+- Tera Blast
+- Volt Switch
+- Protect
+
+Torterra @ Assault Vest
+Ability: Shell Armor
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 244 Atk / 4 Def / 4 SpD / 84 Spe
+Adamant Nature
+- Wood Hammer
+- Headlong Rush
+- Earthquake
+- Heavy Slam
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 212 Def / 36 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Struggle Bug
+- Rage Powder
+- Protect

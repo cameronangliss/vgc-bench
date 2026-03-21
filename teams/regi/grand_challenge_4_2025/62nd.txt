@@ -1,0 +1,68 @@
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ground
+EVs: 28 HP / 156 Atk / 4 Def / 228 SpD / 92 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Kyogre @ Choice Scarf
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Water Spout
+- Hydro Pump
+- Thunder
+- Ice Beam
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Dragon
+EVs: 76 HP / 236 Atk / 20 Def / 4 SpD / 172 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Substitute
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 172 Atk / 12 Def / 236 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Wild Charge
+- Low Kick
+- Fake Out
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 180 Def / 148 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Ally Switch
+- Trick Room
+- Helping Hand

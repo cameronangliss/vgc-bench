@@ -1,0 +1,63 @@
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 132 Atk / 4 Def / 100 SpD / 20 Spe
+Adamant Nature
+- Precipice Blades
+- High Horsepower
+- Heat Crash
+- Protect
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 20 Def / 212 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 4 Atk / 156 Def / 116 SpD / 4 Spe
+Careful Nature
+- Reflect
+- Spirit Break
+- Light Screen
+- Thunder Wave
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 188 Def / 60 SpD / 4 Spe
+Impish Nature
+- Fake Out
+- Parting Shot
+- Will-O-Wisp
+- Knock Off
+
+Ditto @ Focus Sash
+Ability: Imposter
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 30 Atk / 0 Spe
+- Transform
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Tera Type: Fairy
+EVs: 204 HP / 164 Def / 28 SpA / 108 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Foul Play
+- Dazzling Gleam
+- Trick Room

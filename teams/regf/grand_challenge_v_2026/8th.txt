@@ -1,0 +1,68 @@
+Chien-Pao @ Clear Amulet
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Tera Blast
+- Sucker Punch
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Detect
+
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 188 Def / 4 SpA / 4 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Protect
+
+Landorus-Therian @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 244 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 236 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Spore
+- Rage Powder
+- Sludge Bomb
+- Clear Smog
+
+Gholdengo @ Sitrus Berry
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 116 Def / 84 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

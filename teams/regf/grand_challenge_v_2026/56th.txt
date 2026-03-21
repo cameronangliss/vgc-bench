@@ -1,0 +1,67 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 4 Atk / 116 Def / 196 SpD / 76 Spe
+Impish Nature
+- Order Up
+- Earthquake
+- Substitute
+- Protect
+
+Tatsugiri @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Stellar
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Helping Hand
+- Protect
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Dazzling Gleam
+- Helping Hand
+- Trick Room
+
+Drifblim @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Steel
+EVs: 252 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Minimize
+- Baton Pass
+- Acrobatics
+- Tailwind
+
+Iron Crown @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ground
+EVs: 116 HP / 124 Def / 220 SpA / 12 SpD / 36 Spe
+Modest Nature
+- Expanding Force
+- Tachyon Cutter
+- Tera Blast
+- Protect
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 84 HP / 68 Atk / 164 Def / 4 SpD / 188 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Spiky Shield
+- Follow Me

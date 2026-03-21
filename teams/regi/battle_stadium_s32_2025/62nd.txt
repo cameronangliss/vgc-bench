@@ -1,0 +1,68 @@
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 188 HP / 156 Def / 164 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Chien-Pao @ Assault Vest
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 28 Atk / 4 Def / 84 SpD / 132 Spe
+Jolly Nature
+- Ice Spinner
+- Ice Shard
+- Ruination
+- Sucker Punch
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Sludge Bomb
+- Spore
+- Rage Powder
+- Protect
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 4 Def / 180 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Thunderbolt
+- Dragon Pulse
+- Protect

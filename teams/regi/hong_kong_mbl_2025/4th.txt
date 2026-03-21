@@ -1,0 +1,65 @@
+Pelipper @ Ability Shield
+Ability: Drizzle
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 132 SpA / 116 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Helping Hand
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 17 SpA
+- Surging Strikes
+- U-turn
+- Aqua Jet
+- Close Combat
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 72
+Tera Type: Electric
+EVs: 252 HP / 20 Def / 196 SpA / 4 SpD / 36 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Tera Type: Bug
+EVs: 244 HP / 244 Def / 20 SpD
+Impish Nature
+- Knock Off
+- Parting Shot
+- Taunt
+- Fake Out
+
+Iron Treads @ Life Orb
+Ability: Quark Drive
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 13 SpA
+- High Horsepower
+- Steel Roller
+- Knock Off
+- Protect
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Tera Type: Water
+EVs: 188 HP / 36 Atk / 28 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect

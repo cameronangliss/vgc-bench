@@ -1,0 +1,67 @@
+Sailor moon (Cresselia) @ Mental Herb
+Ability: Levitate
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 252 SpD
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Trick Room
+- Helping Hand
+- Lunar Blessing
+
+Laquari (Incineroar) @ Safety Goggles
+Ability: Intimidate
+Shiny: Yes
+Tera Type: Water
+EVs: 244 HP / 140 Def / 124 Spe
+Impish Nature
+- Flare Blitz
+- Parting Shot
+- Fake Out
+- Taunt
+
+Osa Menor (Ursaluna) (F) @ Flame Orb
+Ability: Guts
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+1UP (Amoonguss) @ Rocky Helmet
+Ability: Regenerator
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 76 Def / 180 SpD
+Calm Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Clear Smog
+- Pollen Puff
+
+Shaddoll (Flutter Mane) @ Booster Energy
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 36 HP / 164 Def / 52 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Magatama (Chi-Yu) @ Choice Specs
+Ability: Beads of Ruin
+Tera Type: Ghost
+EVs: 228 HP / 44 Def / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Dark Pulse
+- Snarl

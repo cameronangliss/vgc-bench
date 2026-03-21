@@ -1,0 +1,70 @@
+Kyogre @ Power Anklet
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 6 Spe
+- Water Spout
+- Origin Pulse
+- Protect
+- Ice Beam
+
+Calyrex-Ice @ Mental Herb
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 68 Def / 188 SpD
+Sassy Nature
+IVs: 0 Spe
+- Glacial Lance
+- Seed Bomb
+- Psych Up
+- Trick Room
+
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 236 Atk / 172 SpD
+Brave Nature
+IVs: 0 Spe
+- Surging Strikes
+- Close Combat
+- Taunt
+- Aqua Jet
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 76 Def / 252 SpD
+Sassy Nature
+IVs: 0 Spe
+- Belly Drum
+- Drain Punch
+- Detect
+- Thunder Punch
+
+Indeedee-F @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 132 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Psychic
+- Trick Room
+- Heal Pulse
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 124 Atk / 132 Def
+Brave Nature
+- Wood Hammer
+- U-turn
+- High Horsepower
+- Fake Out

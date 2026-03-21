@@ -1,0 +1,67 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 4 SpA / 4 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Taunt
+- Charm
+- Thunder Wave
+- Moonblast
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Detect
+- Sucker Punch
+- Close Combat
+- Wicked Blow
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 156 Atk / 188 Spe
+Adamant Nature
+- Spiky Shield
+- Follow Me
+- Ivy Cudgel
+- Horn Leech
+
+Incineroar @ Custap Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 52 Def / 84 SpD / 4 Spe
+Adamant Nature
+- Flare Blitz
+- Fake Out
+- Protect
+- U-turn
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Extreme Speed
+- Iron Head
+- Scale Shot
+
+Ursaluna-Bloodmoon @ Covert Cloak
+Ability: Mind's Eye
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Def / 156 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Yawn
+- Blood Moon
+- Earth Power

@@ -1,0 +1,67 @@
+Koraidon @ Electric Seed
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 252 Def / 116 Spe
+Impish Nature
+- Heat Crash
+- Flame Charge
+- Body Press
+- Protect
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 4 Def / 196 SpA / 36 SpD / 20 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 76 Def / 140 SpD / 28 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Thunder Wave
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 220 SpD / 36 Spe
+Careful Nature
+- Knock Off
+- Taunt
+- Parting Shot
+- Fake Out
+
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Def / 4 SpA / 4 SpD / 52 Spe
+Timid Nature
+IVs: 0 Atk
+- Fiery Dance
+- Struggle Bug
+- Quiver Dance
+- Morning Sun
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect

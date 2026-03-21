@@ -1,0 +1,62 @@
+POWER (Raging Bolt) @ Leftovers
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 188 HP / 132 Def / 100 SpA / 68 SpD / 20 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Tera Blast
+- Calm Mind
+- Protect
+
+Perfect Day (Chien-Pao) @ Focus Sash
+Ability: Sword of Ruin
+Level: 60
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Protect
+- Sacred Sword
+
+DANCE (Urshifu-Rapid-Strike) @ Choice Scarf
+Ability: Unseen Fist
+Tera Type: Ghost
+EVs: 68 HP / 156 Atk / 4 Def / 100 SpD / 180 Spe
+Adamant Nature
+IVs: 9 SpA
+- Surging Strikes
+- Close Combat
+- U-turn
+- Aqua Jet
+
+Ooga Chaka (Rillaboom) @ Assault Vest
+Ability: Grassy Surge
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 4 Def / 204 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- U-turn
+- Wood Hammer
+- Grassy Glide
+
+Risung Sun (Incineroar) @ Safety Goggles
+Ability: Intimidate
+Tera Type: Ghost
+EVs: 252 HP / 76 Def / 180 SpD
+Impish Nature
+- Fake Out
+- Parting Shot
+- Knock Off
+- Flare Blitz
+
+Genesis (Landorus) @ Life Orb
+Ability: Sheer Force
+Tera Type: Poison
+EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Earth Power
+- Protect
+- Sludge Bomb
+- Substitute

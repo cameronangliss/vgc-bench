@@ -1,0 +1,68 @@
+Gholdengo @ Iron Plate
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 44 Def / 132 SpA / 20 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Regidrago @ Draco Plate
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 68 Def / 252 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Energy
+- Draco Meteor
+- Earth Power
+- Protect
+
+Ogerpon (Ogerpon-Wellspring) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 76 Atk / 124 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 92 Def / 4 SpA / 20 SpD / 180 Spe
+Timid Nature
+IVs: 0 Atk
+- Air Slash
+- Icy Wind
+- Tailwind
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 4 Atk / 188 Def / 44 SpD / 36 Spe
+Impish Nature
+- Flare Blitz
+- Snarl
+- U-turn
+- Fake Out
+
+Scream Tail @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 36 SpA / 236 Spe
+Timid Nature
+- Dazzling Gleam
+- Disable
+- Encore
+- Protect

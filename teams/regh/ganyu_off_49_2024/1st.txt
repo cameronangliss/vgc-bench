@@ -1,0 +1,70 @@
+Klefki @ Wide Lens
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 172 Def / 92 SpD
+Bold Nature
+IVs: 0 Atk
+- Metal Sound
+- Misty Terrain
+- Light Screen
+- Trick Room
+
+Noivern @ Safety Goggles
+Ability: Frisk
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 12 Def / 116 SpA / 4 SpD / 244 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Heat Wave
+- Super Fang
+- Taunt
+
+Blaziken @ Focus Sash
+Ability: Speed Boost
+Level: 50
+Tera Type: Stellar
+EVs: 60 Atk / 236 SpA / 212 Spe
+Rash Nature
+- Heat Wave
+- Aura Sphere
+- Thunder Punch
+- Detect
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 84 Def / 188 SpA
+Modest Nature
+IVs: 2 Atk / 26 Spe
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Ursaluna-Bloodmoon @ Silk Scarf
+Ability: Mind's Eye
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Def / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 30 Atk / 0 Spe
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 172 Atk / 84 Def
+Brave Nature
+IVs: 0 Spe
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+- Quick Guard

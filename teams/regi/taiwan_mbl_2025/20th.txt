@@ -1,0 +1,68 @@
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 74
+Tera Type: Normal
+EVs: 28 HP / 252 Atk / 4 Def / 4 SpD / 220 Spe
+Jolly Nature
+- Tailwind
+- Scale Shot
+- Extreme Speed
+- Encore
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 83
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Weezing-Galar (M) @ Sitrus Berry
+Ability: Neutralizing Gas
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 4 Def / 28 SpA / 196 SpD / 28 Spe
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Toxic
+- Strange Steam
+- Will-O-Wisp
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Ghost
+EVs: 164 HP / 12 Atk / 236 Def / 4 SpD / 92 Spe
+Impish Nature
+IVs: 26 SpA
+- Body Press
+- Behemoth Bash
+- Wide Guard
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 84
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Aqua Jet
+- Surging Strikes
+- Close Combat
+- U-turn
+
+Accelerator (Chien-Pao) @ Life Orb
+Ability: Sword of Ruin
+Level: 72
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Ice Shard
+- Protect

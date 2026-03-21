@@ -1,0 +1,68 @@
+Raging Bolt @ Leftovers
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 124 Def / 28 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Dragon Pulse
+- Calm Mind
+- Protect
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 84 HP / 12 Def / 148 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Substitute
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Atk / 156 Def / 68 SpD / 36 Spe
+Impish Nature
+- Flare Blitz
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 252 Atk / 4 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+- Fake Out
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 100 HP / 212 Def / 132 SpA / 4 SpD / 60 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Taunt
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 4 Def / 76 SpD / 212 Spe
+Adamant Nature
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+- U-turn

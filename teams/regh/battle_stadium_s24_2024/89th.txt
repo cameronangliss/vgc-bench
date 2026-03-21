@@ -1,0 +1,68 @@
+Kommo-o @ Throat Spray
+Ability: Soundproof
+Level: 50
+Tera Type: Fire
+EVs: 44 HP / 4 Def / 252 SpA / 4 SpD / 204 Spe
+Timid Nature
+- Clanging Scales
+- Flamethrower
+- Clangorous Soul
+- Protect
+
+Ursaluna-Bloodmoon @ Silk Scarf
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 148 HP / 4 Def / 252 SpA / 84 SpD / 20 Spe
+Modest Nature
+IVs: 6 Atk
+- Blood Moon
+- Earth Power
+- Protect
+- Hyper Voice
+
+Sinistcha @ Aguav Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 10 Atk
+- Matcha Gotcha
+- Trick Room
+- Life Dew
+- Rage Powder
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 164 Def / 92 SpD
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Bronzong @ Leftovers
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 6 SpA / 0 Spe
+- Gyro Ball
+- Iron Defense
+- Body Press
+- Trick Room
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 244 Def / 4 SpA / 4 SpD / 4 Spe
+Timid Nature
+- Electroweb
+- Eerie Impulse
+- Follow Me
+- Feint

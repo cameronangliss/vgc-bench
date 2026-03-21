@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>1130-1201 Premier Ball League Taiwan TOP 16  黃揚傑</title>
+		<link rel="stylesheet" href="/css/paste.css">
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/0-0.png">
+				<img class="img-item" src="/img/items/640.png">
+			</div>
+			<pre>Archaludon (<span class="gender-f">F</span>) @ Assault Vest
+<span class="attr">Ability: </span>Stamina
+<span class="attr">Shiny: </span>Yes
+<span class="attr">Tera Type: </span><span class="type-fighting">Fighting</span>
+<span class="attr">EVs: </span><span class="stat-hp">252 HP</span> / <span class="stat-def">12 Def</span> / <span class="stat-spa">44 SpA</span> / <span class="stat-spd">100 SpD</span> / <span class="stat-spe">100 Spe</span>
+Modest Nature
+<span class="type-steel">-</span> Flash Cannon
+<span class="type-fighting">-</span> Body Press
+- Electro Shot
+<span class="type-dark">-</span> Snarl
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/149-0.png">
+				<img class="img-item" src="/img/items/1886.png">
+			</div>
+			<pre><span class="type-dragon">Dragonite</span> (<span class="gender-f">F</span>) @ Loaded Dice
+<span class="attr">Ability: </span>Multiscale
+<span class="attr">Tera Type: </span><span class="type-fairy">Fairy</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-atk">244 Atk</span> / <span class="stat-def">4 Def</span> / <span class="stat-spd">4 SpD</span> / <span class="stat-spe">252 Spe</span>
+Jolly Nature
+<span class="type-dragon">-</span> Scale Shot
+<span class="type-flying">-</span> Tailwind
+<span class="type-ice">-</span> Haze
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/279-0.png">
+				<img class="img-item" src="/img/items/275.png">
+			</div>
+			<pre><span class="type-water">Pelipper</span> (<span class="gender-f">F</span>) @ Focus Sash
+<span class="attr">Ability: </span>Drizzle
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-ghost">Ghost</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spe">252 Spe</span>
+Timid Nature
+<span class="attr">IVs: </span><span class="stat-atk">2 Atk</span>
+<span class="type-water">-</span> Muddy Water
+<span class="type-flying">-</span> Hurricane
+<span class="type-flying">-</span> Tailwind
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/901-0.png">
+				<img class="img-item" src="/img/items/273.png">
+			</div>
+			<pre><span class="type-ground">Ursaluna</span> (<span class="gender-m">M</span>) @ Flame Orb
+<span class="attr">Ability: </span>Guts
+<span class="attr">Shiny: </span>Yes
+<span class="attr">Tera Type: </span><span class="type-ghost">Ghost</span>
+<span class="attr">EVs: </span><span class="stat-atk">252 Atk</span> / <span class="stat-spd">4 SpD</span> / <span class="stat-spe">252 Spe</span>
+Adamant Nature
+<span class="attr">IVs: </span><span class="stat-spa">25 SpA</span>
+<span class="type-normal">-</span> Facade
+<span class="type-ground">-</span> Headlong Rush
+<span class="type-ground">-</span> Earthquake
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/0-0.png">
+				<img class="img-item" src="/img/items/158.png">
+			</div>
+			<pre>Sinistcha @ Sitrus Berry
+<span class="attr">Ability: </span>Hospitality
+<span class="attr">Tera Type: </span><span class="type-dark">Dark</span>
+<span class="attr">EVs: </span><span class="stat-hp">244 HP</span> / <span class="stat-def">108 Def</span> / <span class="stat-spa">64 SpA</span> / <span class="stat-spd">80 SpD</span> / <span class="stat-spe">12 Spe</span>
+Bold Nature
+<span class="attr">IVs: </span><span class="stat-atk">19 Atk</span>
+- Matcha Gotcha
+<span class="type-water">-</span> Life Dew
+<span class="type-bug">-</span> Rage Powder
+<span class="type-psychic">-</span> Trick Room
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/1000-0.png">
+				<img class="img-item" src="/img/items/297.png">
+			</div>
+			<pre><span class="type-steel">Gholdengo</span> @ Choice Specs
+<span class="attr">Ability: </span>Good as Gold
+<span class="attr">Level: </span>50
+<span class="attr">Shiny: </span>Yes
+<span class="attr">Tera Type: </span><span class="type-flying">Flying</span>
+<span class="attr">EVs: </span><span class="stat-spa">252 SpA</span> / <span class="stat-spd">4 SpD</span> / <span class="stat-spe">252 Spe</span>
+Modest Nature
+<span class="attr">IVs: </span><span class="stat-atk">0 Atk</span>
+<span class="type-steel">-</span> Make It Rain
+<span class="type-ghost">-</span> Shadow Ball
+<span class="type-psychic">-</span> Trick
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<aside>
+			<h1>1130-1201 Premier Ball League Taiwan TOP 16  黃揚傑</h1>
+			<h2>&nbsp;by SilentLearner</h2>
+			<p>Format: gen9vgc2024regh</p>
+			<input id="vgcmode" type="checkbox">
+			<label for="vgcmode">Columns Mode</label> /
+			<input id="evivmode" type="checkbox">
+			<label for="evivmode">Stat Colours</label> /
+			<input id="lightmode" type="checkbox">
+			<label for="lightmode">Light Mode</label>
+		</aside>
+		<script src="/js/preferences.js"></script>
+	</body>
+</html>

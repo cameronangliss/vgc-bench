@@ -1,0 +1,66 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 156 Def / 180 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Ogerpon (F) @ Loaded Dice
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 60 HP / 236 Atk / 212 Spe
+Adamant Nature
+- Bullet Seed
+- Play Rough
+- Encore
+- Spiky Shield
+
+Ting-Lu @ Rocky Helmet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 212 HP / 116 Def / 180 SpD
+Impish Nature
+- Ruination
+- Sand Tomb
+- Taunt
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 44 Def / 212 SpD
+Impish Nature
+- Wave Crash
+- Fissure
+- Yawn
+- Protect
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 156 SpA / 4 SpD / 92 Spe
+Modest Nature
+- Power Gem
+- Energy Ball
+- Earth Power
+- Mortal Spin

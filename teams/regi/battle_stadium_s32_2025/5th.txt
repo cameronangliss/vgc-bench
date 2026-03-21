@@ -1,0 +1,68 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 12 Def / 252 SpA / 4 SpD / 236 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Snarl
+
+Calyrex-Ice @ Assault Vest
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 116 Atk / 52 Def / 4 SpD / 84 Spe
+Adamant Nature
+- Glacial Lance
+- High Horsepower
+- Crunch
+- Seed Bomb
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 204 Def / 12 SpA / 4 SpD / 36 Spe
+Bold Nature
+IVs: 0 Atk
+- Fiery Dance
+- Rage Powder
+- Will-O-Wisp
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Pelipper @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Helping Hand
+- Wide Guard
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 108 Def / 4 SpA / 148 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Foul Play
+- Trick Room
+- Helping Hand

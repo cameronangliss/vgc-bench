@@ -1,0 +1,66 @@
+Groudon @ Assault Vest
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Atk / 4 Def / 28 SpD / 68 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- High Horsepower
+- Crunch
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 52 Def / 36 SpA / 148 SpD / 20 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Dazzling Gleam
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Icicle Crash
+- Ruination
+- Protect
+
+Entei @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 244 Atk / 4 Def / 212 SpD / 44 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Sacred Fire
+- Stone Edge
+
+Jumpluff @ Light Clay
+Ability: Chlorophyll
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 140 Def / 4 SpA / 28 SpD / 84 Spe
+Timid Nature
+- Pollen Puff
+- Reflect
+- Light Screen
+- Tailwind
+
+Iron Hands @ Room Service
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 76 Atk / 4 Def / 252 SpD / 20 Spe
+Adamant Nature
+- Low Kick
+- Wild Charge
+- Ice Punch
+- Fake Out

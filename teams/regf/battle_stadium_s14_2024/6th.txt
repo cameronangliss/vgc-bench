@@ -1,0 +1,70 @@
+Iron Jugulis @ Booster Energy
+Ability: Quark Drive
+Level: 61
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 130 SpD / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Air Slash
+- Snarl
+- Tailwind
+- Protect
+
+ãã¿ã©ã¯ã«ã (Flutter Mane) @ Choice Specs
+Ability: Protosynthesis
+Level: 94
+Tera Type: Fairy
+EVs: 68 HP / 92 Def / 213 SpA / 4 SpD / 133 Spe
+Timid Nature
+IVs: 26 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Perish Song
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 70
+Tera Type: Water
+EVs: 126 HP / 188 Atk / 196 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+ãã¡ã­ã (Incineroar) (M) @ Sitrus Berry
+Ability: Intimidate
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 96 Def / 126 SpD / 36 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+ãªã­ãª (Farigiraf) (F) @ Mental Herb
+Ability: Armor Tail
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 160 Def / 98 SpD
+Relaxed Nature
+IVs: 1 Atk / 1 Spe
+- Psychic Noise
+- Dazzling Gleam
+- Trick Room
+- Helping Hand
+
+Ursaluna-Bloodmoon (M) @ Life Orb
+Ability: Mindâs Eye
+Level: 70
+Tera Type: Normal
+EVs: 164 HP / 252 SpA / 92 SpD
+Quiet Nature
+IVs: 1 Spe
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect

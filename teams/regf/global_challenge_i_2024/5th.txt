@@ -1,0 +1,68 @@
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 28 HP / 252 Atk / 4 Def / 12 SpD / 212 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Lash Out
+- Protect
+
+Stonjourner @ Focus Sash
+Ability: Power Spot
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Low Kick
+- Wide Guard
+- Protect
+
+Zapdos-Galar @ Choice Scarf
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Brave Bird
+- Thunderous Kick
+- U-turn
+- Stomping Tantrum
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 212 HP / 68 Def / 180 SpA / 44 SpD / 4 Spe
+Quiet Nature
+IVs: 20 Atk / 20 Spe
+- Thunderbolt
+- Thunderclap
+- Protect
+- Dragon Pulse
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 156 SpD
+Modest Nature
+IVs: 0 Atk
+- Psychic Noise
+- Dazzling Gleam
+- Trick Room
+- Helping Hand
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 252 SpA / 100 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Vacuum Wave

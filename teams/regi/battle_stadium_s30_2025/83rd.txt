@@ -1,0 +1,66 @@
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Grass
+EVs: 20 HP / 236 Def / 252 Spe
+Impish Nature
+- Protect
+- Iron Defense
+- Body Press
+- Heavy Slam
+
+Ho-Oh @ Clear Amulet
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 236 Atk / 124 Spe
+Adamant Nature
+- Sacred Fire
+- Brave Bird
+- Tailwind
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Protect
+- Sucker Punch
+- Crunch
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 52 Def / 212 SpD
+Careful Nature
+- Protect
+- Wave Crash
+- Yawn
+- Fissure
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 228 HP / 44 Def / 76 SpA / 20 SpD / 140 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Rising Voltage
+- Electroweb
+- Draco Meteor
+
+Ting-Lu @ Choice Band
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 236 Atk / 4 Def / 60 SpD / 76 Spe
+Adamant Nature
+- Stomping Tantrum
+- Earthquake
+- Throat Chop
+- Rock Slide

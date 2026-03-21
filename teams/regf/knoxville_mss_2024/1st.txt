@@ -1,0 +1,68 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 116 HP / 196 Def / 60 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Perish Song
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 68 Atk / 4 Def / 12 SpD / 204 Spe
+Jolly Nature
+- Breaking Swipe
+- Heat Crash
+- Howl
+- Burning Bulwark
+
+Kingambit (M) @ Black Glasses
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 252 HP / 196 Atk / 4 Def / 52 SpD / 4 Spe
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 124 SpD / 12 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- U-turn
+- Fake Out
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 76 Atk / 100 Def / 12 SpD / 92 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect

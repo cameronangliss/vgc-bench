@@ -1,0 +1,68 @@
+Dragonite @ Assault Vest
+Ability: Multiscale
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Stomping Tantrum
+- Ice Spinner
+- Thunder Punch
+
+Gholdengo @ Focus Sash
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 28 Atk
+- Protect
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+
+Primarina @ Choice Scarf
+Ability: Liquid Voice
+Level: 50
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk
+- Moonblast
+- Encore
+- Icy Wind
+- Hyper Voice
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 12 Def / 236 SpD / 4 Spe
+Careful Nature
+- Parting Shot
+- Fake Out
+- Flare Blitz
+- Knock Off
+
+Ursaluna-Bloodmoon @ Covert Cloak
+Ability: Mind's Eye
+Level: 50
+Tera Type: Fighting
+EVs: 148 HP / 4 Def / 196 SpA / 4 SpD / 156 Spe
+Modest Nature
+- Protect
+- Vacuum Wave
+- Blood Moon
+- Earth Power
+
+Amoonguss @ Coba Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 14 Atk / 8 Spe
+- Protect
+- Rage Powder
+- Spore
+- Clear Smog

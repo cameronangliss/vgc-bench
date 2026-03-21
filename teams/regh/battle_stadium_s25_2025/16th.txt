@@ -1,0 +1,68 @@
+Armarouge @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 10 Spe
+- Heat Wave
+- Expanding Force
+- Trick Room
+- Protect
+
+Indeedee @ Choice Specs
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 6 Atk
+- Expanding Force
+- Psychic
+- Hyper Voice
+- Tera Blast
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 252 Atk / 92 Spe
+Adamant Nature
+- Rage Fist
+- Close Combat
+- Tera Blast
+- Final Gambit
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 156 Atk / 124 Def / 4 SpD / 220 Spe
+Adamant Nature
+IVs: 24 SpA
+- Dire Claw
+- Close Combat
+- Throat Chop
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 12 HP / 12 Def / 228 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Moonblast
+- Beat Up
+- Tailwind
+- Encore
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 12 Def / 252 SpA
+Quiet Nature
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect

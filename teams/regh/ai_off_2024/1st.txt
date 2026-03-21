@@ -1,0 +1,68 @@
+Ninetales-Alola @ Icicle Plate
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Helping Hand
+- Aurora Veil
+
+Glaceon @ Assault Vest
+Ability: Snow Cloak
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+- Blizzard
+- Freeze-Dry
+- Tera Blast
+- Ice Shard
+
+Whimsicott @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 132 Def / 124 SpA
+Bold Nature
+IVs: 16 Atk
+- Helping Hand
+- Tailwind
+- Moonblast
+- Trick Room
+
+Incineroar @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Stellar
+EVs: 188 HP / 252 Atk / 68 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Close Combat
+- Thunder Punch
+
+Dragonite @ Life Orb
+Ability: Inner Focus
+Level: 50
+Tera Type: Ground
+EVs: 92 HP / 252 Atk / 164 Spe
+Adamant Nature
+IVs: 28 SpA
+- Outrage
+- Earthquake
+- Extreme Speed
+- Rock Slide
+
+Garchomp @ Choice Band
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- Iron Head

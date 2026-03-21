@@ -1,0 +1,73 @@
+Cinnabun (Furret) (F) @ Focus Sash
+Ability: Frisk
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 132 HP / 4 Atk / 20 Def / 100 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Follow Me
+- Super Fang
+- Knock Off
+
+Churro (Gholdengo) @ Life Orb
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 12 HP / 4 Def / 196 SpA / 44 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+
+Velvet (Incineroar) (F) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 44 Def / 156 SpD / 52 Spe
+Careful Nature
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Cupcake (Primarina) (F) @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 164 HP / 108 Def / 188 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Hyper Voice
+- Moonblast
+- Haze
+
+Taffy (Rillaboom) (F) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 236 HP / 252 Atk / 4 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+
+Tootsie (Sneasler) (F) @ Grassy Seed
+Ability: Unburden
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Dire Claw
+- Close Combat
+- Acrobatics

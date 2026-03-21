@@ -1,0 +1,71 @@
+Shamone Rider (Calyrex-Shadow) @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Shadow Ball
+- Protect
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 44 HP / 244 SpA / 220 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Dazzling Gleam
+- Volt Switch
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 244 HP / 36 Atk / 100 Def / 124 SpD
+Adamant Nature
+IVs: 25 Spe
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 70
+Tera Type: Water
+EVs: 236 HP / 164 Def / 108 SpD
+Bold Nature
+IVs: 0 Atk / 26 Spe
+- Psychic
+- Foul Play
+- Trick Room
+- Helping Hand
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 196 HP / 228 SpD / 84 Spe
+Timid Nature
+IVs: 30 Atk
+- Moonblast
+- Tailwind
+- Light Screen
+- Encore
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 244 Atk / 4 Def / 132 SpD / 76 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Detect

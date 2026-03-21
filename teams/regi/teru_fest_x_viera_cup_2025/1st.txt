@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 220 HP / 156 Def / 132 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Chien-Pao @ Assault Vest
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Atk / 36 Def / 84 SpD / 132 Spe
+Jolly Nature
+- Ice Spinner
+- Ruination
+- Ice Shard
+- Sucker Punch
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Flamethrower
+- Overheat
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Sludge Bomb
+- Spore
+- Rage Powder
+- Protect

@@ -1,0 +1,69 @@
+Rhyperior @ Clear Amulet
+Ability: Lightning Rod
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 252 Atk / 108 SpD
+Brave Nature
+IVs: 16 Spe
+- Rock Slide
+- High Horsepower
+- Stone Edge
+- Protect
+
+Koraidon @ Choice Scarf
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 252 Atk / 148 Spe
+Adamant Nature
+- Collision Course
+- Flare Blitz
+- Dragon Claw
+- U-turn
+
+Calyrex-Ice @ Psychic Seed
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Atk / 76 Def / 124 SpD / 60 Spe
+Impish Nature
+- Leech Seed
+- Trick Room
+- Imprison
+- Glacial Lance
+
+Exeggutor @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Grass Knot
+- Trick Room
+- Expanding Force
+- Sleep Powder
+
+Walking Wake @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 36 HP / 4 Def / 212 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Steam
+- Snarl
+- Draco Meteor
+- Weather Ball
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Shadow Ball
+- Follow Me
+- Trick Room
+- Heal Pulse

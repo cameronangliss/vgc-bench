@@ -1,0 +1,73 @@
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Def / 4 SpA / 212 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Moonblast
+- Sunny Day
+- Encore
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 4 Def / 212 SpA / 60 SpD / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Blood Moon
+- Hyper Voice
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Def / 68 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Flash Cannon
+- Body Press
+- Draco Meteor
+
+Politoed @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 164 Def / 12 SpA / 76 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Perish Song
+- Haze
+- Weather Ball
+- Protect
+
+Typhlosion-Hisui @ Choice Specs
+Ability: Blaze
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Eruption
+- Heat Wave
+- Infernal Parade
+- Solar Beam
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 244 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Follow Me
+- Imprison
+- Psychic

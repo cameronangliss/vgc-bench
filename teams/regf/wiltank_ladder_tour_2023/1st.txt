@@ -1,0 +1,72 @@
+Thundurus (M) @ Mental Herb
+Ability: Prankster
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 158 Def / 4 SpA / 92 SpD / 4 Spe
+Bold Nature
+IVs: 26 Atk
+- Wildbolt Storm
+- Eerie Impulse
+- Scary Face
+- Rain Dance
+
+Enamorus (F) @ Life Orb
+Ability: Contrary
+Level: 70
+Tera Type: Ground
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 12 Atk
+- Springtide Storm
+- Moonblast
+- Earth Power
+- Protect
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 116 Atk / 14 Def / 76 SpD / 60 Spe
+Adamant Nature
+IVs: 8 SpA
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 158 Def / 84 SpD / 28 Spe
+Impish Nature
+IVs: 3 SpA
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Archaludon (F) @ Leftovers
+Ability: Stamina
+Level: 69
+Shiny: Yes
+Tera Type: Grass
+EVs: 212 HP / 110 Def / 116 SpA / 52 SpD / 20 Spe
+Modest Nature
+IVs: 13 Atk
+- Flash Cannon
+- Electro Shot
+- Body Press
+- Protect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 70
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 52 Def / 68 SpD / 60 Spe
+Adamant Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield

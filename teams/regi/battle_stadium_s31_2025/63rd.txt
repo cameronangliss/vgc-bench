@@ -1,0 +1,66 @@
+Cinccino @ Loaded Dice
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Triple Axel
+- Rock Blast
+- Knock Off
+
+Miraidon @ Life Orb
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Protect
+- Electro Drift
+- Dazzling Gleam
+- Draco Meteor
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Ghost
+EVs: 188 HP / 156 Def / 164 Spe
+Impish Nature
+- Protect
+- Heavy Slam
+- Body Press
+- Imprison
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 124 HP / 252 Atk / 132 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Low Kick
+- Facade
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 HP / 0 Atk
+- Moonblast
+- Endeavor
+- Tailwind
+- Encore
+
+Chien-Pao @ Covert Cloak
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Protect
+- Ice Spinner
+- Ruination
+- Sucker Punch

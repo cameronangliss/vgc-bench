@@ -1,0 +1,68 @@
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 76 Atk / 4 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 4 Atk / 68 Def / 76 SpD / 116 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Snarl
+- U-turn
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Detect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 52 HP / 140 Def / 132 SpA / 4 SpD
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 116 Def / 12 SpA / 60 SpD / 76 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Protect
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 36 HP / 4 Def / 212 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Sandsear Storm
+- Sludge Bomb
+- Protect

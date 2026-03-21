@@ -1,0 +1,71 @@
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Thunderbolt
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 22 SpA
+- Earthquake
+- Extreme Speed
+- Outrage
+- Rock Slide
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 20 HP / 4 Def / 228 SpA / 252 Spe
+Timid Nature
+IVs: 6 Atk
+- Blizzard
+- Freeze-Dry
+- Protect
+- Tera Blast
+
+Cinderace @ Focus Sash
+Ability: Blaze
+Level: 50
+Tera Type: Ghost
+EVs: 108 Atk / 140 Def / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 18 SpA
+- Pyro Ball
+- Gunk Shot
+- Feint
+- Court Change
+
+Noivern @ Covert Cloak
+Ability: Frisk
+Level: 50
+Tera Type: Steel
+EVs: 180 HP / 68 Def / 4 SpD / 252 Spe
+Timid Nature
+IVs: 16 Atk
+- Super Fang
+- Tailwind
+- Taunt
+- Draco Meteor
+
+Bombirdier @ Loaded Dice
+Ability: Rocky Payload
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 0 SpA
+- Knock Off
+- Dual Wingbeat
+- Rock Blast
+- Sucker Punch

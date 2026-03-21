@@ -1,0 +1,68 @@
+Calyrex-Ice @ Never-Melt Ice
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 44 Atk / 4 Def / 164 SpD / 44 Spe
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Terapagos-Terastal @ Leftovers
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 140 Def / 180 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 188 Def / 68 SpD
+Impish Nature
+IVs: 26 Spe
+- Knock Off
+- Parting Shot
+- Will-O-Wisp
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 116 Atk / 4 Def / 172 SpD / 60 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 196 Atk / 4 Def / 108 SpD / 60 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Amoonguss @ Focus Sash
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 196 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk / 26 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect

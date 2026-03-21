@@ -1,0 +1,68 @@
+Calyrex-Ice @ Assault Vest
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 116 Atk / 164 Spe
+Adamant Nature
+- Glacial Lance
+- High Horsepower
+- Crunch
+- Seed Bomb
+
+Kyogre @ Choice Scarf
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Water Spout
+- Origin Pulse
+- Hydro Pump
+- Thunder
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Follow Me
+- Spore
+- Fake Out
+- Decorate
+
+Farigiraf @ Mental Herb
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 156 Def / 124 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Trick Room
+- Helping Hand
+- Imprison
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 53
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Bite
+- Follow Me
+- Protect
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Flamethrower
+- Rage Powder
+- Tailwind
+- Protect

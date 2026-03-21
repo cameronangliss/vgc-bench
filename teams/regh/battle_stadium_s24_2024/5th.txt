@@ -1,0 +1,70 @@
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 4 SpA / 236 SpD / 12 Spe
+Calm Nature
+IVs: 4 Atk
+- Quash
+- Tailwind
+- Foul Play
+- Screech
+
+Ursaluna @ Choice Band
+Ability: Bulletproof
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Double-Edge
+- Headlong Rush
+- Gunk Shot
+- Earthquake
+
+Ninetales-Alola @ Life Orb
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 26 Atk
+- Icy Wind
+- Blizzard
+- Moonblast
+- Protect
+
+Espathra @ Focus Sash
+Ability: Speed Boost
+Level: 50
+Tera Type: Fighting
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 10 Atk
+- Lumina Crash
+- Expanding Force
+- Tera Blast
+- Protect
+
+Indeedee (M) @ Choice Specs
+Ability: Psychic Surge
+Level: 50
+Tera Type: Psychic
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 24 Atk
+- Expanding Force
+- Psychic
+- Dazzling Gleam
+- Hyper Voice
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 10 SpA
+- Dire Claw
+- Close Combat
+- Throat Chop
+- Protect

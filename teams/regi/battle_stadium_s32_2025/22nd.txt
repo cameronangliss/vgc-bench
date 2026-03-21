@@ -1,0 +1,70 @@
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Encore
+- Protect
+
+Miraidon @ Magnet
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 36 HP / 4 Def / 212 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Protect
+
+Terapagos @ Choice Specs
+Ability: Tera Shift
+Level: 50
+Tera Type: Stellar
+EVs: 76 HP / 44 Def / 252 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Dark Pulse
+- Earth Power
+- Hyper Beam
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 36 Atk / 44 Def / 92 SpD / 84 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 236 HP / 252 Atk / 4 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Low Kick
+- Stone Edge
+
+Volcarona @ Life Orb
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 148 HP / 100 Def / 212 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Fire Blast
+- Tailwind
+- Protect

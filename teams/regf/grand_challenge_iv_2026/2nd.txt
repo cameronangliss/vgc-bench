@@ -1,0 +1,65 @@
+Tornadus @ Focus Sash
+Ability: Prankster
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Taunt
+- Tailwind
+- Protect
+
+Farigiraf @ Mental Herb
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 236 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Psychic
+- Helping Hand
+- Trick Room
+
+Basculegion @ Spooky Plate
+Ability: Adaptability
+Level: 50
+Tera Type: Dragon
+EVs: 84 HP / 252 Atk / 4 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Iron Hands @ Clear Amulet
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Close Combat
+- Wild Charge
+- Heavy Slam
+- Fake Out
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Tera Type: Fire
+EVs: 124 HP / 252 Atk / 4 Def / 68 SpD / 60 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Poison Jab
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Sandsear Storm
+- Protect

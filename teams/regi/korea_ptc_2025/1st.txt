@@ -1,0 +1,67 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 68 Def / 196 SpA / 4 SpD / 116 Spe
+Modest Nature
+- Draco Meteor
+- Dazzling Gleam
+- Electro Drift
+- Volt Switch
+
+Whimsicott (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 164 Def / 4 SpA / 68 SpD / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Moonblast
+- Light Screen
+- Tickle
+
+Incineroar (F) @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Atk / 84 Def / 156 SpD / 20 Spe
+Careful Nature
+- Fake Out
+- Parting Shot
+- Knock Off
+- Helping Hand
+
+Calyrex-Ice @ Icicle Plate
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 68 Atk / 4 Def / 172 SpD / 12 Spe
+Adamant Nature
+- Glacial Lance
+- Trick Room
+- Protect
+- Leech Seed
+
+Urshifu-Rapid-Strike (M) @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 236 Atk / 12 Def / 84 SpD / 92 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Protect
+- Taunt
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 172 HP / 4 Def / 196 SpA / 4 SpD / 132 Spe
+Modest Nature
+- Earth Power
+- Sludge Bomb
+- Protect
+- Crunch

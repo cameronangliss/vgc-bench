@@ -1,0 +1,69 @@
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 4 Def / 172 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Flamethrower
+- Snarl
+- Heat Wave
+- Overheat
+
+Groudon @ Assault Vest
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 116 Atk / 4 Def / 36 SpD / 116 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- High Horsepower
+- Brick Break
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 44 Def / 252 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Weather Ball
+- Thunderclap
+- Protect
+
+Calyrex-Ice @ Sitrus Berry
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 68 Atk / 132 Def / 60 SpD
+Brave Nature
+IVs: 0 Spe
+- Trick Room
+- Protect
+- Glacial Lance
+- High Horsepower
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Icy Wind
+- Shadow Ball
+- Moonblast
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Atk / 124 Def / 76 SpD / 4 Spe
+Impish Nature
+- Spiky Shield
+- Wood Hammer
+- Follow Me
+- Ivy Cudgel

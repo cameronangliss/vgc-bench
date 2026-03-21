@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>1130-1201 Premier Ball League Taiwan TOP 16  黃皓瓏</title>
+		<link rel="stylesheet" href="/css/paste.css">
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/983-0.png">
+				<img class="img-item" src="/img/items/240.png">
+			</div>
+			<pre><span class="type-dark">Kingambit</span> (<span class="gender-m">M</span>) @ <span class="type-dark">Black Glasses</span>
+<span class="attr">Ability: </span>Defiant
+<span class="attr">Level: </span>50
+<span class="attr">Shiny: </span>Yes
+<span class="attr">Tera Type: </span><span class="type-dark">Dark</span>
+<span class="attr">EVs: </span><span class="stat-hp">252 HP</span> / <span class="stat-atk">196 Atk</span> / <span class="stat-def">4 Def</span> / <span class="stat-spd">36 SpD</span> / <span class="stat-spe">20 Spe</span>
+Adamant Nature
+<span class="attr">IVs: </span><span class="stat-spa">27 SpA</span>
+<span class="type-dark">-</span> Kowtow Cleave
+<span class="type-steel">-</span> Iron Head
+<span class="type-normal">-</span> Protect
+<span class="type-dark">-</span> Sucker Punch
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/812-0.png">
+				<img class="img-item" src="/img/items/640.png">
+			</div>
+			<pre><span class="type-grass">Rillaboom</span> (<span class="gender-m">M</span>) @ Assault Vest
+<span class="attr">Ability: </span>Grassy Surge
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-fire">Fire</span>
+<span class="attr">EVs: </span><span class="stat-hp">132 HP</span> / <span class="stat-atk">196 Atk</span> / <span class="stat-def">108 Def</span> / <span class="stat-spd">60 SpD</span> / <span class="stat-spe">12 Spe</span>
+Adamant Nature
+<span class="attr">IVs: </span><span class="stat-spa">0 SpA</span>
+<span class="type-grass">-</span> Wood Hammer
+<span class="type-grass">-</span> Grassy Glide
+<span class="type-ground">-</span> High Horsepower
+<span class="type-normal">-</span> Fake Out
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/0-0.png">
+				<img class="img-item" src="/img/items/270.png">
+			</div>
+			<pre>Ursaluna-Bloodmoon @ Life Orb
+<span class="attr">Ability: </span>Mind&#39;s Eye
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-normal">Normal</span>
+<span class="attr">EVs: </span><span class="stat-hp">164 HP</span> / <span class="stat-spa">196 SpA</span> / <span class="stat-spe">148 Spe</span>
+Modest Nature
+<span class="attr">IVs: </span><span class="stat-atk">26 Atk</span>
+<span class="type-ground">-</span> Earth Power
+- Blood Moon
+<span class="type-normal">-</span> Protect
+<span class="type-normal">-</span> Hyper Voice
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/903-0.png">
+				<img class="img-item" src="/img/items/275.png">
+			</div>
+			<pre><span class="type-fighting">Sneasler</span> (<span class="gender-m">M</span>) @ Focus Sash
+<span class="attr">Ability: </span>Unburden
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span>Stellar
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-atk">252 Atk</span> / <span class="stat-spe">252 Spe</span>
+Jolly Nature
+<span class="attr">IVs: </span><span class="stat-spa">0 SpA</span>
+<span class="type-fighting">-</span> Close Combat
+<span class="type-poison">-</span> Dire Claw
+<span class="type-normal">-</span> Protect
+<span class="type-normal">-</span> Fake Out
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/279-0.png">
+				<img class="img-item" src="/img/items/1885.png">
+			</div>
+			<pre><span class="type-water">Pelipper</span> (<span class="gender-m">M</span>) @ Covert Cloak
+<span class="attr">Ability: </span>Drizzle
+<span class="attr">Level: </span>50
+<span class="attr">Shiny: </span>Yes
+<span class="attr">Tera Type: </span><span class="type-grass">Grass</span>
+<span class="attr">EVs: </span><span class="stat-hp">148 HP</span> / <span class="stat-def">4 Def</span> / <span class="stat-spa">116 SpA</span> / <span class="stat-spd">68 SpD</span> / <span class="stat-spe">172 Spe</span>
+Bold Nature
+<span class="attr">IVs: </span><span class="stat-atk">8 Atk</span>
+<span class="type-normal">-</span> Weather Ball
+<span class="type-flying">-</span> Hurricane
+<span class="type-normal">-</span> Protect
+<span class="type-flying">-</span> Tailwind
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/977-0.png">
+				<img class="img-item" src="/img/items/243.png">
+			</div>
+			<pre><span class="type-water">Dondozo</span> (<span class="gender-m">M</span>) @ <span class="type-water">Mystic Water</span>
+<span class="attr">Ability: </span>Unaware
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-grass">Grass</span>
+<span class="attr">EVs: </span><span class="stat-hp">244 HP</span> / <span class="stat-atk">236 Atk</span> / <span class="stat-spe">28 Spe</span>
+Adamant Nature
+<span class="attr">IVs: </span><span class="stat-spa">12 SpA</span>
+<span class="type-water">-</span> Wave Crash
+<span class="type-ground">-</span> Stomping Tantrum
+<span class="type-normal">-</span> Protect
+<span class="type-normal">-</span> Yawn
+
+</pre>
+		</article>
+		<aside>
+			<h1>1130-1201 Premier Ball League Taiwan TOP 16  黃皓瓏</h1>
+			<h2>&nbsp;by SilentLearner</h2>
+			<p>Format: gen9vgc2024regh</p>
+			<input id="vgcmode" type="checkbox">
+			<label for="vgcmode">Columns Mode</label> /
+			<input id="evivmode" type="checkbox">
+			<label for="evivmode">Stat Colours</label> /
+			<input id="lightmode" type="checkbox">
+			<label for="lightmode">Light Mode</label>
+		</aside>
+		<script src="/js/preferences.js"></script>
+	</body>
+</html>

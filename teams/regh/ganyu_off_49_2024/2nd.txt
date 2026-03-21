@@ -1,0 +1,68 @@
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpD / 4 Spe
+Careful Nature
+- Wave Crash
+- Curse
+- Yawn
+- Protect
+
+Ninetales-Alola @ Life Orb
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Moonblast
+- Freeze-Dry
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 SpA / 26 Spe
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Shadow Claw
+- Protect
+
+Dragonite @ Sky Plate
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 148 HP / 252 Atk / 108 Spe
+Adamant Nature
+- Tera Blast
+- Stomping Tantrum
+- Extreme Speed
+- Protect
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Trick
+- Protect

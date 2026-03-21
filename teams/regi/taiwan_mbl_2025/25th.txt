@@ -1,0 +1,70 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Koraidon @ Ability Shield
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Atk / 4 Def / 60 SpD / 36 Spe
+Adamant Nature
+- Collision Course
+- Flare Blitz
+- Flame Charge
+- Protect
+
+Walking Wake @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 4 Def / 212 SpA / 4 SpD / 236 Spe
+Timid Nature
+- Draco Meteor
+- Hydro Steam
+- Aqua Jet
+- Snarl
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Flamethrower
+- Ruination
+- Snarl
+
+Weezing-Galar (F) @ Covert Cloak
+Ability: Neutralizing Gas
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 12 Def / 180 SpD / 60 Spe
+Impish Nature
+- Play Rough
+- Poison Gas
+- Taunt
+- Protect
+
+Brute Bonnet @ Room Service
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 164 Def / 92 SpD
+Impish Nature
+IVs: 26 Spe
+- Seed Bomb
+- Rage Powder
+- Spore
+- Sucker Punch

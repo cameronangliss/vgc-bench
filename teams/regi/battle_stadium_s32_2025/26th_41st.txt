@@ -1,0 +1,69 @@
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 124 Atk / 12 Def / 68 SpD / 52 Spe
+Adamant Nature
+- Collision Course
+- Flare Blitz
+- Flame Charge
+- Protect
+
+Incineroar (F) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 172 Atk / 4 Def / 60 SpD / 20 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- U-turn
+- Knock Off
+
+Terapagos @ Choice Specs
+Ability: Tera Shift
+Level: 50
+Tera Type: Stellar
+EVs: 44 HP / 148 Def / 252 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Hyper Beam
+- Earth Power
+- Dark Pulse
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Moonblast
+- Shadow Ball
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 164 Def / 44 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Flamethrower
+- Quiver Dance
+- Protect
+- Struggle Bug
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Trick Room
+- Lunar Blessing
+- Helping Hand

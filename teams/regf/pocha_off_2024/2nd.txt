@@ -1,0 +1,69 @@
+Venusaur (M) @ Life Orb
+Ability: Chlorophyll
+Level: 50
+Tera Type: Fire
+EVs: 110 HP / 4 Def / 252 SpA / 4 SpD / 140 Spe
+Modest Nature
+- Energy Ball
+- Sludge Bomb
+- Weather Ball
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 94
+Tera Type: Stellar
+EVs: 252 SpA / 252 Spe
+Modest Nature
+IVs: 27 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Taunt
+- Protect
+
+Torkoal (M) @ Charcoal
+Ability: Drought
+Level: 64
+Tera Type: Fire
+EVs: 252 HP / 252 SpA
+Quiet Nature
+IVs: 3 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Earth Power
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 93
+Tera Type: Grass
+EVs: 92 HP / 252 Atk / 12 Def / 140 SpD / 12 Spe
+Adamant Nature
+IVs: 18 SpA
+- Wild Charge
+- Drain Punch
+- Heavy Slam
+- Fake Out
+
+Walking Wake @ Choice Specs
+Ability: Protosynthesis
+Level: 75
+Tera Type: Steel
+EVs: 4 HP / 4 Def / 246 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Hydro Steam
+- Draco Meteor
+- Tera Blast
+- Flamethrower
+
+Farigiraf (M) @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 230 HP / 156 Def / 124 SpD
+Relaxed Nature
+IVs: 12 Atk / 0 Spe
+- Trick Room
+- Helping Hand
+- Psychic
+- Dazzling Gleam

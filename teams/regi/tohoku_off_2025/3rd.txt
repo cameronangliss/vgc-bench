@@ -1,0 +1,68 @@
+Calyrex-Ice @ Never-Melt Ice
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 4 Def / 100 SpD / 36 Spe
+Adamant Nature
+- Glacial Lance
+- Seed Bomb
+- Trick Room
+- Protect
+
+Kyogre @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 140 Def / 44 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Ice Beam
+- Thunder
+- Protect
+
+Urshifu-Rapid-Strike @ Life Orb
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 196 Atk / 20 Def / 44 SpD / 108 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Iron Jugulis @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 36 Def / 68 SpA / 36 SpD / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Snarl
+- Tailwind
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 36 Atk / 4 Def / 220 SpD / 4 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- U-turn
+- Fake Out
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 228 Def / 44 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Pollen Puff
+- Rage Powder
+- Spore
+- Protect

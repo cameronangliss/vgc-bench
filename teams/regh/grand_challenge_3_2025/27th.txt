@@ -1,0 +1,66 @@
+Sneasler @ Psychic Seed
+Ability: Unburden
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Lash Out
+- Protect
+
+Indeedee @ Focus Sash
+Ability: Psychic Surge
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Expanding Force
+- Imprison
+- Trick Room
+- Helping Hand
+
+Pelipper @ Choice Scarf
+Ability: Drizzle
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Soak
+- Hurricane
+- Muddy Water
+
+Archaludon @ Choice Specs
+Ability: Sturdy
+Level: 50
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Draco Meteor
+
+Dondozo @ Covert Cloak
+Ability: Unaware
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Tera Blast
+- Surf
+- Rest
+- Sleep Talk
+
+Tatsugiri @ Ability Shield
+Ability: Commander
+Level: 50
+Tera Type: Ghost
+EVs: 84 HP / 44 Def / 236 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Taunt
+- Protect

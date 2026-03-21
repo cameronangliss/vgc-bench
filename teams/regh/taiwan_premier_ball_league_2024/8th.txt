@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>1130-1201 Premier Ball League Taiwan TOP 8  楊大葦</title>
+		<link rel="stylesheet" href="/css/paste.css">
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/977-0.png">
+				<img class="img-item" src="/img/items/234.png">
+			</div>
+			<pre><span class="type-water">Dondozo</span> @ Leftovers
+<span class="attr">Ability: </span>Unaware
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-steel">Steel</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-atk">252 Atk</span> / <span class="stat-def">4 Def</span> / <span class="stat-spd">4 SpD</span> / <span class="stat-spe">244 Spe</span>
+Adamant Nature
+<span class="type-water">-</span> Wave Crash
+<span class="type-dragon">-</span> Order Up
+<span class="type-ground">-</span> Earthquake
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/978-0.png">
+				<img class="img-item" src="/img/items/297.png">
+			</div>
+			<pre><span class="type-dragon">Tatsugiri</span> @ Choice Specs
+<span class="attr">Ability: </span>Commander
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-fairy">Fairy</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spe">252 Spe</span>
+Modest Nature
+<span class="attr">IVs: </span><span class="stat-atk">0 Atk</span>
+<span class="type-water">-</span> Muddy Water
+<span class="type-dragon">-</span> Draco Meteor
+<span class="type-dragon">-</span> Dragon Pulse
+<span class="type-water">-</span> Hydro Pump
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/876-0.png">
+				<img class="img-item" src="/img/items/275.png">
+			</div>
+			<pre><span class="type-psychic">Indeedee</span> @ Focus Sash
+<span class="attr">Ability: </span>Psychic Surge
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-grass">Grass</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spe">252 Spe</span>
+Timid Nature
+<span class="attr">IVs: </span><span class="stat-atk">0 Atk</span>
+<span class="type-psychic">-</span> Expanding Force
+<span class="type-normal">-</span> Helping Hand
+<span class="type-psychic">-</span> Imprison
+<span class="type-psychic">-</span> Trick Room
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/903-0.png">
+				<img class="img-item" src="/img/items/882.png">
+			</div>
+			<pre><span class="type-fighting">Sneasler</span> @ Psychic Seed
+<span class="attr">Ability: </span>Unburden
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-dark">Dark</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-atk">252 Atk</span> / <span class="stat-spe">252 Spe</span>
+Jolly Nature
+<span class="type-poison">-</span> Dire Claw
+<span class="type-fighting">-</span> Close Combat
+<span class="type-dark">-</span> Throat Chop
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/0-0.png">
+				<img class="img-item" src="/img/items/287.png">
+			</div>
+			<pre>Typhlosion-Hisui @ Choice Scarf
+<span class="attr">Ability: </span>Blaze
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-fire">Fire</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spe">252 Spe</span>
+Modest Nature
+<span class="attr">IVs: </span><span class="stat-atk">0 Atk</span>
+<span class="type-fire">-</span> Eruption
+<span class="type-fire">-</span> Heat Wave
+<span class="type-ghost">-</span> Shadow Ball
+<span class="type-fire">-</span> Overheat
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/149-0.png">
+				<img class="img-item" src="/img/items/1886.png">
+			</div>
+			<pre><span class="type-dragon">Dragonite</span> @ Loaded Dice
+<span class="attr">Ability: </span>Multiscale
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-steel">Steel</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-atk">252 Atk</span> / <span class="stat-spe">252 Spe</span>
+Adamant Nature
+<span class="type-dragon">-</span> Scale Shot
+<span class="type-steel">-</span> Iron Head
+<span class="type-ice">-</span> Haze
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<aside>
+			<h1>1130-1201 Premier Ball League Taiwan TOP 8  楊大葦</h1>
+			<h2>&nbsp;by SilentLearner</h2>
+			<p>Format: gen9vgc2024regh</p>
+			<input id="vgcmode" type="checkbox">
+			<label for="vgcmode">Columns Mode</label> /
+			<input id="evivmode" type="checkbox">
+			<label for="evivmode">Stat Colours</label> /
+			<input id="lightmode" type="checkbox">
+			<label for="lightmode">Light Mode</label>
+		</aside>
+		<script src="/js/preferences.js"></script>
+	</body>
+</html>

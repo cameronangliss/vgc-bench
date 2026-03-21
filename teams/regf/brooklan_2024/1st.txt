@@ -1,0 +1,64 @@
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Tera Type: Dragon
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Follow Me
+- Trick Room
+- Dazzling Gleam
+- Helping Hand
+
+Armarouge @ Power Herb
+Ability: Flash Fire
+Tera Type: Grass
+EVs: 92 HP / 4 Def / 252 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Trick Room
+- Heat Wave
+- Expanding Force
+- Meteor Beam
+
+Hatterene @ Life Orb
+Ability: Magic Bounce
+Tera Type: Water
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Psyshock
+- Trick Room
+- Dazzling Gleam
+- Expanding Force
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Tera Type: Dragon
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Facade
+- Swords Dance
+- Protect
+
+Urshifu @ Choice Scarf
+Ability: Unseen Fist
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- U-turn
+- Taunt
+
+Torkoal @ Charcoal
+Ability: Drought
+Tera Type: Fire
+EVs: 248 HP / 252 SpA / 8 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Weather Ball
+- Earth Power

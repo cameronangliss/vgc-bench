@@ -1,0 +1,70 @@
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 148 Atk / 108 SpD
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- Encore
+- Trick Room
+- Protect
+
+Groudon @ Iron Ball
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 SpA
+Quiet Nature
+IVs: 0 Spe
+- Precipice Blades
+- Eruption
+- Fire Blast
+- Fling
+
+Raging Bolt @ Safety Goggles
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 196 HP / 156 Def / 100 SpA / 52 SpD
+Quiet Nature
+IVs: 20 Atk / 20 Spe
+- Thunderbolt
+- Dragon Pulse
+- Weather Ball
+- Thunderclap
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 12 HP / 244 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+- Trick Room
+
+Iron Moth @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 92 Def / 28 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk / 28 SpA
+- Heat Wave
+- Overheat
+- Screech
+- Struggle Bug
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 12 HP / 196 Atk / 140 Def / 4 SpD / 156 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Taunt

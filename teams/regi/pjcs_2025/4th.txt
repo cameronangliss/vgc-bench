@@ -1,0 +1,68 @@
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 100 Atk / 20 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Sacred Sword
+- Protect
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Disable
+- Encore
+- Protect
+
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Normal
+EVs: 228 HP / 164 Def / 4 SpA / 44 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Rain Dance
+- Tailwind
+- Protect
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 20 Def / 116 SpA / 68 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Substitute
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 140 Atk / 4 Def / 116 SpD / 204 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Taunt
+- Detect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 36 Atk / 124 Def / 76 SpD / 28 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn

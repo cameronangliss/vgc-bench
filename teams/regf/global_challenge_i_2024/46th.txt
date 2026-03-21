@@ -1,0 +1,66 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Shiny: Yes
+Tera Type: Fairy
+EVs: 76 HP / 140 Def / 140 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 2 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Perish Song
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 75
+Tera Type: Fairy
+EVs: 140 HP / 132 Atk / 236 Spe
+Jolly Nature
+- Heat Crash
+- Breaking Swipe
+- Snarl
+- Burning Bulwark
+
+Urshifu-Rapid-Strike (M) @ Choice Scarf
+Ability: Unseen Fist
+Tera Type: Grass
+EVs: 44 HP / 196 Atk / 6 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Rillaboom (M) @ Grassy Seed
+Ability: Grassy Surge
+Shiny: Yes
+Tera Type: Fire
+EVs: 204 HP / 196 Atk / 20 Def / 20 SpD / 68 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- Acrobatics
+- Fake Out
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 75
+Tera Type: Fairy
+EVs: 84 HP / 100 Atk / 116 Def / 206 SpD / 4 Spe
+Impish Nature
+- Sand Tomb
+- Heavy Slam
+- Ruination
+- Body Press
+
+Raging Bolt @ Safety Goggles
+Ability: Protosynthesis
+Level: 75
+Tera Type: Fairy
+EVs: 244 HP / 92 Def / 100 SpA / 36 SpD / 36 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Dragon Pulse
+- Calm Mind
+- Protect

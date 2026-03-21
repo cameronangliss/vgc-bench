@@ -1,0 +1,68 @@
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 HP / 0 Atk
+- Moonblast
+- Endeavor
+- Tailwind
+- Encore
+
+Ceruledge @ Power Herb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 20 HP / 252 Atk / 4 Def / 4 SpD / 228 Spe
+Adamant Nature
+- Phantom Force
+- Bitter Blade
+- Shadow Sneak
+- Will-O-Wisp
+
+Brute Bonnet @ Rocky Helmet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Atk / 28 Def / 4 SpD / 220 Spe
+Jolly Nature
+- Seed Bomb
+- Crunch
+- Clear Smog
+- Spore
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 12 Def / 44 SpA / 196 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Body Press
+- Electro Shot
+- Protect
+
+Kyogre @ Life Orb
+Ability: Drizzle
+Level: 50
+Tera Type: Electric
+EVs: 108 HP / 100 Def / 116 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Thunder
+- Ice Beam
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Grass
+EVs: 252 Def / 4 SpD / 252 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>1130-1201 Premier Ball League Taiwan TOP 16  羅中佑</title>
+		<link rel="stylesheet" href="/css/paste.css">
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/968-0.png">
+				<img class="img-item" src="/img/items/650.png">
+			</div>
+			<pre><span class="type-steel">Orthworm</span> @ Safety Goggles
+<span class="attr">Ability: </span>Earth Eater
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-electric">Electric</span>
+<span class="attr">EVs: </span><span class="stat-hp">244 HP</span> / <span class="stat-atk">4 Atk</span> / <span class="stat-def">4 Def</span> / <span class="stat-spd">252 SpD</span> / <span class="stat-spe">4 Spe</span>
+Impish Nature
+<span class="type-steel">-</span> Heavy Slam
+<span class="type-fighting">-</span> Body Press
+<span class="type-normal">-</span> Helping Hand
+<span class="type-rock">-</span> Smack Down
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/876-0.png">
+				<img class="img-item" src="/img/items/287.png">
+			</div>
+			<pre><span class="type-psychic">Indeedee</span> @ Choice Scarf
+<span class="attr">Ability: </span>Inner Focus
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-fighting">Fighting</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-def">20 Def</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spd">4 SpD</span> / <span class="stat-spe">228 Spe</span>
+Modest Nature
+<span class="type-psychic">-</span> Expanding Force
+<span class="type-normal">-</span> Hyper Voice
+<span class="type-normal">-</span> Tera Blast
+<span class="type-fairy">-</span> Dazzling Gleam
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/445-0.png">
+				<img class="img-item" src="/img/items/220.png">
+			</div>
+			<pre><span class="type-dragon">Garchomp</span> @ Choice Band
+<span class="attr">Ability: </span>Rough Skin
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-steel">Steel</span>
+<span class="attr">EVs: </span><span class="stat-hp">60 HP</span> / <span class="stat-atk">100 Atk</span> / <span class="stat-def">4 Def</span> / <span class="stat-spd">92 SpD</span> / <span class="stat-spe">252 Spe</span>
+Jolly Nature
+<span class="type-dragon">-</span> Outrage
+<span class="type-rock">-</span> Rock Slide
+<span class="type-ground">-</span> Earthquake
+<span class="type-ground">-</span> Stomping Tantrum
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/0-0.png">
+				<img class="img-item" src="/img/items/275.png">
+			</div>
+			<pre>Typhlosion-Hisui @ Focus Sash
+<span class="attr">Ability: </span>Blaze
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-fire">Fire</span>
+<span class="attr">EVs: </span><span class="stat-def">4 Def</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spe">252 Spe</span>
+Timid Nature
+<span class="attr">IVs: </span><span class="stat-atk">0 Atk</span>
+<span class="type-normal">-</span> Protect
+<span class="type-fire">-</span> Overheat
+<span class="type-ghost">-</span> Shadow Ball
+<span class="type-fire">-</span> Eruption
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/1000-0.png">
+				<img class="img-item" src="/img/items/297.png">
+			</div>
+			<pre><span class="type-steel">Gholdengo</span> @ Choice Specs
+<span class="attr">Ability: </span>Good as Gold
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-flying">Flying</span>
+<span class="attr">EVs: </span><span class="stat-hp">228 HP</span> / <span class="stat-def">4 Def</span> / <span class="stat-spa">212 SpA</span> / <span class="stat-spd">44 SpD</span> / <span class="stat-spe">20 Spe</span>
+Modest Nature
+<span class="type-steel">-</span> Make It Rain
+<span class="type-ghost">-</span> Shadow Ball
+<span class="type-electric">-</span> Thunderbolt
+<span class="type-rock">-</span> Power Gem
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/198-0.png">
+				<img class="img-item" src="/img/items/538.png">
+			</div>
+			<pre><span class="type-dark">Murkrow</span> @ Eviolite
+<span class="attr">Ability: </span>Prankster
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-ghost">Ghost</span>
+<span class="attr">EVs: </span><span class="stat-hp">188 HP</span> / <span class="stat-def">204 Def</span> / <span class="stat-spd">108 SpD</span> / <span class="stat-spe">4 Spe</span>
+Bold Nature
+<span class="attr">IVs: </span><span class="stat-atk">21 Atk</span> / <span class="stat-spa">11 SpA</span>
+<span class="type-fire">-</span> Sunny Day
+<span class="type-ice">-</span> Haze
+<span class="type-flying">-</span> Tailwind
+<span class="type-dark">-</span> Foul Play
+
+</pre>
+		</article>
+		<aside>
+			<h1>1130-1201 Premier Ball League Taiwan TOP 16  羅中佑</h1>
+			<h2>&nbsp;by SilentLearner</h2>
+			<p>Format: gen9vgc2024regh</p>
+			<input id="vgcmode" type="checkbox">
+			<label for="vgcmode">Columns Mode</label> /
+			<input id="evivmode" type="checkbox">
+			<label for="evivmode">Stat Colours</label> /
+			<input id="lightmode" type="checkbox">
+			<label for="lightmode">Light Mode</label>
+		</aside>
+		<script src="/js/preferences.js"></script>
+	</body>
+</html>

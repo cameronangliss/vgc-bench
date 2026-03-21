@@ -1,0 +1,68 @@
+Miraidon @ Covert Cloak
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Snarl
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Astral Barrage
+- Dark Pulse
+- Imprison
+
+Volcarona @ Electric Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 92 Def / 4 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Flamethrower
+- Tailwind
+- Quiver Dance
+- Rage Powder
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 HP / 0 Atk
+- Moonblast
+- Endeavor
+- Tailwind
+- Encore
+
+Cinccino @ Loaded Dice
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Triple Axel
+- Rock Blast
+- Knock Off
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Aqua Jet

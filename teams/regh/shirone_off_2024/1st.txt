@@ -1,0 +1,71 @@
+Salazzle (F) @ Focus Sash
+Ability: Oblivious
+Level: 50
+Tera Type: Poison
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 22 Atk
+- Overheat
+- Acid Spray
+- Fake Out
+- Encore
+
+Kommo-o @ Choice Specs
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 76 HP / 4 Def / 236 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 4 Atk
+- Clanging Scales
+- Draco Meteor
+- Focus Blast
+- Flash Cannon
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 252 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+IVs: 24 SpA
+- Scale Shot
+- Extreme Speed
+- Low Kick
+- Protect
+
+Ursaluna-Bloodmoon @ Sitrus Berry
+Ability: Mind's Eye
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 52 Def / 196 SpA / 12 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+- Protect
+
+Meowscarada @ Choice Scarf
+Ability: Protean
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 140 Def / 4 SpD
+Adamant Nature
+IVs: 28 Spe
+- Flower Trick
+- Knock Off
+- Triple Axel
+- U-turn
+
+Ninetales-Alola @ Covert Cloak
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 68 HP / 100 SpA / 204 Spe
+Timid Nature
+IVs: 16 Atk / 16 Def / 16 SpD
+- Blizzard
+- Icy Wind
+- Aurora Veil
+- Disable

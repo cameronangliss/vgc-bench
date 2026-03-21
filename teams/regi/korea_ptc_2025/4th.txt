@@ -1,0 +1,66 @@
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 48 Def / 36 SpA / 56 SpD / 116 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Dazzling Gleam
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 4 Def / 196 SpD / 20 Spe
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 124 Def / 116 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 4 Atk / 180 Def / 68 SpD / 12 Spe
+Impish Nature
+- U-turn
+- Knock Off
+- Flare Blitz
+- Fake Out
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Iron Treads @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 28 HP / 252 Atk / 4 Def / 36 SpD / 188 Spe
+Jolly Nature
+- Steel Roller
+- High Horsepower
+- Knock Off
+- Protect

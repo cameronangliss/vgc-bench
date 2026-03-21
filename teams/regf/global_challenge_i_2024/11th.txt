@@ -1,0 +1,65 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 116 HP / 204 Def / 34 SpA / 156 Spe
+Timid Nature
+IVs: 5 Atk
+- Dazzling Gleam
+- Icy Wind
+- Sunny Day
+- Protect
+
+Entei @ Charcoal
+Ability: Inner Focus
+Tera Type: Fire
+EVs: 6 HP / 252 SpA / 252 Spe
+Modest Nature
+- Eruption
+- Overheat
+- Extreme Speed
+- Protect
+
+Urshifu (M) @ Focus Sash
+Ability: Unseen Fist
+Tera Type: Dark
+EVs: 228 Atk / 110 SpD / 172 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Raging Bolt @ Iron Ball
+Ability: Protosynthesis
+Level: 75
+Tera Type: Dragon
+EVs: 166 HP / 4 Def / 252 SpA / 84 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunderbolt
+- Protect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 70
+Tera Type: Water
+EVs: 156 HP / 158 Def / 196 Spe
+Jolly Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Glimmora (F) @ Power Herb
+Ability: Toxic Debris
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 158 Def / 100 Spe
+Modest Nature
+- Sludge Bomb
+- Meteor Beam
+- Earth Power
+- Spiky Shield

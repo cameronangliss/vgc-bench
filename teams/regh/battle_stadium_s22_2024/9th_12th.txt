@@ -1,0 +1,66 @@
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 252 Spe
+Naive Nature
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD
+- Close Combat
+- Dire Claw
+- Fake Out
+- Protect
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Trick
+
+Armarouge @ Power Herb
+Ability: Flash Fire
+Level: 50
+Tera Type: Dark
+IVs: 0 Atk
+- Flamethrower
+- Expanding Force
+- Meteor Beam
+- Protect
+
+Ninetales-Alola @ Life Orb
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Blizzard
+- Moonblast
+- Freeze-Dry
+- Protect
+
+Gastrodon @ Leftovers
+Ability: Storm Drain
+Level: 50
+Tera Type: Flying
+EVs: 220 HP / 172 Def / 4 SpA / 108 SpD / 4 Spe
+Bold Nature
+- Earth Power
+- Ice Beam
+- Yawn
+- Protect
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 244 SpA / 84 SpD
+Quiet Nature
+IVs: 0 Spe
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Vacuum Wave

@@ -1,0 +1,72 @@
+Osiris (Basculegion) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 196 Atk / 4 Def / 4 SpD / 228 Spe
+Adamant Nature
+- Wave Crash
+- Protect
+- Last Respects
+- Aqua Jet
+
+Maelstrom 9 (Kyogre) @ Ability Shield
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 44 Def / 148 SpA / 28 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Origin Pulse
+- Protect
+- Ice Beam
+
+Ibuki Mioda (Iron Jugulis) @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 188 HP / 4 Def / 76 SpA / 148 SpD / 92 Spe
+Timid Nature
+IVs: 0 Atk
+- Snarl
+- Tailwind
+- Taunt
+- Air Slash
+
+Morga (Amoonguss) (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 204 Def / 68 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Chancellor (Calyrex-Ice) @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 28 Atk / 12 Def / 188 SpD / 44 Spe
+Careful Nature
+- Glacial Lance
+- Trick Room
+- Protect
+- Leech Seed
+
+Mick Foley (Iron Hands) @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 76 HP / 180 Atk / 12 Def / 236 SpD
+Brave Nature
+IVs: 0 Spe
+- Fake Out
+- Low Kick
+- Drain Punch
+- Wild Charge

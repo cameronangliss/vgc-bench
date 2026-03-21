@@ -1,0 +1,68 @@
+Frosmoth @ Leftovers
+Ability: Ice Scales
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 4 SpA / 4 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Blizzard
+- Wide Guard
+- Quiver Dance
+- Tera Blast
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 236 Def / 4 SpA / 4 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Heat Wave
+- Will-O-Wisp
+- Rage Powder
+- Struggle Bug
+
+Ninetales-Alola @ Life Orb
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 20 Def / 252 SpA / 4 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Aurora Veil
+- Icy Wind
+- Moonblast
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Stomping Tantrum
+- Protect
+- Rock Slide
+- Breaking Swipe
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 SpD
+Careful Nature
+- Flare Blitz
+- Parting Shot
+- Fake Out
+- Knock Off
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+- Fake Out

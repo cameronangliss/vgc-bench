@@ -1,0 +1,63 @@
+Miraidon @ Covert Cloak
+Ability: Hadron Engine
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 228 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Dazzling Gleam
+- Electro Drift
+- Calm Mind
+- Protect
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Ground
+EVs: 180 HP / 68 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Shadow Claw
+- U-turn
+
+Ho-Oh @ Leftovers
+Ability: Regenerator
+Level: 70
+Tera Type: Grass
+EVs: 252 HP / 76 Atk / 156 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Tailwind
+- Sacred Fire
+- Brave Bird
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 132 Def / 116 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Tera Type: Water
+EVs: 252 HP / 172 Def / 84 SpD
+Bold Nature
+IVs: 0 Atk
+- Rage Powder
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+
+Incineroar (F) @ Rocky Helmet
+Ability: Intimidate
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 188 Def / 60 SpD / 12 Spe
+Impish Nature
+- Parting Shot
+- Fake Out
+- Knock Off
+- Taunt

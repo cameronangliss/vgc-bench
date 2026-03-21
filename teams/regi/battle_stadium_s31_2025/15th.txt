@@ -1,0 +1,68 @@
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Normal
+EVs: 76 HP / 252 Atk / 4 Def / 4 SpD / 172 Spe
+Jolly Nature
+- Behemoth Blade
+- Sacred Sword
+- Quick Attack
+- Protect
+
+Lunala @ Leftovers
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 68 Def / 180 SpA / 4 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 236 HP / 4 Atk / 4 Def / 236 SpD / 28 Spe
+Careful Nature
+- Knock Off
+- U-turn
+- Flare Blitz
+- Fake Out
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 196 HP / 252 SpA / 60 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Electroweb
+- Volt Switch
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 220 Def / 36 SpD / 252 Spe
+Timid Nature
+IVs: 0 HP / 0 Atk
+- Endeavor
+- Tailwind
+- Encore
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 220 Atk / 4 Def / 204 SpD / 20 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Taunt
+- Detect

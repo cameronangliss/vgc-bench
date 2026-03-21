@@ -1,0 +1,67 @@
+Miraidon @ Electric Seed
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 76 Def / 36 SpA / 84 SpD / 60 Spe
+Modest Nature
+- Parabolic Charge
+- Dragon Pulse
+- Calm Mind
+- Protect
+
+Iron Valiant @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 44 Def / 212 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Encore
+- Destiny Bond
+- Protect
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 36 Atk / 84 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Entrainment
+- Wide Guard
+- Follow Me
+- Baneful Bunker
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 44 Def / 212 SpD
+Careful Nature
+- Knock Off
+- Fake Out
+- Parting Shot
+- Will-O-Wisp
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- U-turn
+- Close Combat

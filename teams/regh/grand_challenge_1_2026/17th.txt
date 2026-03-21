@@ -1,0 +1,73 @@
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 12 Def / 4 SpA / 84 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Taunt
+- Fake Tears
+- Tailwind
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Vacuum Wave
+
+Jacob A (Pelipper) @ Jaboca Berry
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 108 HP / 4 Def / 164 SpA / 156 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Weather Ball
+- Muddy Water
+- Wide Guard
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Shiny: Yes
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Protect
+
+Basculegion @ Focus Sash
+Ability: Adaptability
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Tera Blast
+- Protect

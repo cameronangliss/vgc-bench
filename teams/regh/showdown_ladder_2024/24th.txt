@@ -1,0 +1,69 @@
+Circe (Gholdengo) @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Trick
+- Power Gem
+
+Scylla (Primarina) @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Voice
+- Protect
+- Moonblast
+- Haze
+
+Oddy (Baxcalibur) @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Glaive Rush
+- Icicle Crash
+- Ice Shard
+- Protect
+
+Hermes (Pelipper) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Wide Guard
+- Tailwind
+- Hurricane
+- Weather Ball
+
+THUNDER BRINGER (Archaludon) @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Body Press
+
+Athena (Samurott-Hisui) @ Life Orb
+Ability: Sharpness
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Sucker Punch
+- Night Slash
+- Sacred Sword

@@ -1,0 +1,70 @@
+Pelipper @ Choice Specs
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk / 18 Spe
+- Muddy Water
+- Weather Ball
+- Hydro Pump
+- Hurricane
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Flash Cannon
+- Draco Meteor
+- Electro Shot
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 156 HP / 188 Def / 164 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Moonblast
+- Fake Tears
+- Tailwind
+- Trick Room
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+IVs: 16 SpA
+- Final Gambit
+- Close Combat
+- Rage Fist
+- Coaching
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Outrage
+- Phantom Force
+- U-turn
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 156 HP / 252 SpA / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Vacuum Wave

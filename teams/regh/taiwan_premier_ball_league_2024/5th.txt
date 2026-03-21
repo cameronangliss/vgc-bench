@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>1130-1201 Premier Ball League Taiwan TOP 8  林靖傑</title>
+		<link rel="stylesheet" href="/css/paste.css">
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/530-0.png">
+				<img class="img-item" src="/img/items/275.png">
+			</div>
+			<pre><span class="type-ground">Excadrill</span> @ Focus Sash
+<span class="attr">Ability: </span>Sand Rush
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-ground">Ground</span>
+<span class="attr">EVs: </span><span class="stat-atk">252 Atk</span> / <span class="stat-def">4 Def</span> / <span class="stat-spe">252 Spe</span>
+Jolly Nature
+<span class="type-normal">-</span> Protect
+<span class="type-steel">-</span> Iron Head
+<span class="type-ground">-</span> High Horsepower
+<span class="type-ground">-</span> Earthquake
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/248-0.png">
+				<img class="img-item" src="/img/items/640.png">
+			</div>
+			<pre><span class="type-rock">Tyranitar</span> @ Assault Vest
+<span class="attr">Ability: </span>Sand Stream
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-flying">Flying</span>
+<span class="attr">EVs: </span><span class="stat-hp">252 HP</span> / <span class="stat-atk">252 Atk</span> / <span class="stat-def">4 Def</span>
+Adamant Nature
+<span class="type-dark">-</span> Knock Off
+<span class="type-rock">-</span> Rock Slide
+<span class="type-fighting">-</span> Low Kick
+<span class="type-normal">-</span> Tera Blast
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/823-0.png">
+				<img class="img-item" src="/img/items/186.png">
+			</div>
+			<pre><span class="type-flying">Corviknight</span> @ <span class="type-electric">Wacan Berry</span>
+<span class="attr">Ability: </span>Mirror Armor
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-dragon">Dragon</span>
+<span class="attr">EVs: </span><span class="stat-hp">252 HP</span> / <span class="stat-def">36 Def</span> / <span class="stat-spd">220 SpD</span>
+Impish Nature
+<span class="type-flying">-</span> Brave Bird
+<span class="type-bug">-</span> U-turn
+<span class="type-dark">-</span> Taunt
+<span class="type-flying">-</span> Tailwind
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/479-2.png">
+				<img class="img-item" src="/img/items/650.png">
+			</div>
+			<pre><span class="type-electric">Rotom-Wash</span> @ Safety Goggles
+<span class="attr">Ability: </span>Levitate
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-electric">Electric</span>
+<span class="attr">EVs: </span><span class="stat-hp">252 HP</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spd">4 SpD</span>
+Modest Nature
+<span class="attr">IVs: </span><span class="stat-atk">16 Atk</span>
+<span class="type-electric">-</span> Thunderbolt
+<span class="type-water">-</span> Hydro Pump
+<span class="type-fire">-</span> Will-O-Wisp
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/591-0.png">
+				<img class="img-item" src="/img/items/158.png">
+			</div>
+			<pre><span class="type-grass">Amoonguss</span> @ Sitrus Berry
+<span class="attr">Ability: </span>Regenerator
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-water">Water</span>
+<span class="attr">EVs: </span><span class="stat-hp">244 HP</span> / <span class="stat-def">156 Def</span> / <span class="stat-spd">108 SpD</span>
+Bold Nature
+<span class="attr">IVs: </span><span class="stat-atk">15 Atk</span> / <span class="stat-spe">26 Spe</span>
+<span class="type-poison">-</span> Clear Smog
+<span class="type-bug">-</span> Pollen Puff
+<span class="type-bug">-</span> Rage Powder
+<span class="type-grass">-</span> Spore
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/973-0.png">
+				<img class="img-item" src="/img/items/1885.png">
+			</div>
+			<pre><span class="type-flying">Flamigo</span> @ Covert Cloak
+<span class="attr">Ability: </span>Scrappy
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-steel">Steel</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-atk">252 Atk</span> / <span class="stat-spe">252 Spe</span>
+Jolly Nature
+<span class="type-flying">-</span> Brave Bird
+<span class="type-rock">-</span> Wide Guard
+<span class="type-fighting">-</span> Close Combat
+<span class="type-fighting">-</span> Detect
+
+</pre>
+		</article>
+		<aside>
+			<h1>1130-1201 Premier Ball League Taiwan TOP 8  林靖傑</h1>
+			<h2>&nbsp;by SilentLearner</h2>
+			<p>Format: gen9vgc2024regh</p>
+			<input id="vgcmode" type="checkbox">
+			<label for="vgcmode">Columns Mode</label> /
+			<input id="evivmode" type="checkbox">
+			<label for="evivmode">Stat Colours</label> /
+			<input id="lightmode" type="checkbox">
+			<label for="lightmode">Light Mode</label>
+		</aside>
+		<script src="/js/preferences.js"></script>
+	</body>
+</html>

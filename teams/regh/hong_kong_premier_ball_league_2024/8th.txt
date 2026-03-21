@@ -1,0 +1,67 @@
+Incineroar (M) @ Chople Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 36 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Scale Shot
+- Tailwind
+- Haze
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 28 Def / 148 SpA / 36 SpD / 44 Spe
+Modest Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 44 Def / 116 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 4 Atk
+- Hyper Voice
+- Blood Moon
+- Vacuum Wave
+- Earth Power
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 100 HP / 132 Def / 12 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icicle Spear
+- Encore
+- Icy Wind
+- Aurora Veil
+
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 52 Atk / 12 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect

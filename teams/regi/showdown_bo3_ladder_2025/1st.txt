@@ -1,0 +1,68 @@
+Ducktile's sheep (Cresselia) @ Electric Seed
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 76 Def / 36 SpA / 156 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Psychic
+- Lunar Blessing
+- Helping Hand
+- Trick Room
+
+Duckhand (Iron Hands) @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 172 Atk / 4 Def / 236 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Low Kick
+- Fake Out
+
+Ducktile's horse (Calyrex-Shadow) @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Ducktile's bike (Miraidon) @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 100 HP / 20 Def / 252 SpA / 4 SpD / 132 Spe
+Timid Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Ducktile (Ursaluna) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 156 HP / 156 Atk / 196 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Faketile (Sneasler) @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Fighting
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- Fake Out
+- Feint
+- Dire Claw

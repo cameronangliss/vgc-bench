@@ -1,0 +1,68 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Urshifu-Rapid-Strike (F) @ Choice Scarf
+Ability: Unseen Fist
+Tera Type: Water
+EVs: 68 HP / 156 Atk / 28 Def / 92 SpD / 164 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Ice Spinner
+- U-turn
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 196 HP / 132 Def / 108 SpA / 68 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Electroweb
+- Draco Meteor
+- Snarl
+
+Incineroar (F) @ Safety Goggles
+Ability: Intimidate
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 140 Def / 76 SpD / 36 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Amoonguss (F) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 244 HP / 180 Def / 4 SpA / 76 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Sludge Bomb
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 132 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

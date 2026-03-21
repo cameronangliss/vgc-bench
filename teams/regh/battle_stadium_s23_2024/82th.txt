@@ -1,0 +1,66 @@
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Shadow Claw
+- Protect
+
+Indeedee @ Choice Scarf
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Expanding Force
+- Tera Blast
+- Trick
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 196 Atk / 60 SpD
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn
+
+Ninetales-Alola @ Covert Cloak
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 36 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Blizzard
+- Protect
+- Aurora Veil
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Electric
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naughty Nature
+- Scale Shot
+- Thunderbolt
+- Low Kick
+- Haze
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect

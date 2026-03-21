@@ -1,0 +1,63 @@
+ãã©ã¤ãã³ (Miraidon) @ Choice Specs
+Ability: Hadron Engine
+Level: 72
+Tera Type: Electric
+EVs: 252 HP / 52 Def / 36 SpA / 132 SpD / 36 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Discharge
+
+ãªã¼ã­ã³ã² (Grimmsnarl) @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 4 Atk / 204 Def / 60 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Thunder Wave
+
+ããã¬ãã¯ã¹ (Calyrex-Ice) @ Leftovers
+Ability: As One (Glastrier)
+Tera Type: Fairy
+EVs: 252 HP / 36 Atk / 4 Def / 212 SpD / 4 Spe
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+ã¦ã¼ã©ãªã¹ (Urshifu-Rapid-Strike) (M) @ Choice Band
+Ability: Unseen Fist
+Tera Type: Ghost
+EVs: 108 HP / 196 Atk / 4 Def / 180 SpD / 20 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+ã¬ãªã¬ã¨ã³ (Incineroar) (M) @ Covert Cloak
+Ability: Intimidate
+Level: 64
+Tera Type: Bug
+EVs: 244 HP / 188 Def / 76 SpD
+Impish Nature
+- Fake Out
+- Flare Blitz
+- Parting Shot
+- Knock Off
+
+ã¬ãã°ã (Ursaluna) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 204 HP / 236 Atk / 4 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Facade
+- Substitute
+- Headlong Rush
+- Protect

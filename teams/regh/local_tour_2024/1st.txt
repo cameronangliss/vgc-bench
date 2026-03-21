@@ -1,0 +1,68 @@
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Low Kick
+- Haze
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 212 SpA / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Steel Beam
+- Shadow Ball
+- Power Gem
+
+Magmar @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 228 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk
+- Flamethrower
+- Taunt
+- Follow Me
+- Protect
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Grass Pledge
+- Protect
+
+Perrserker @ Assault Vest
+Ability: Steely Spirit
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Atk / 20 Spe
+Adamant Nature
+- Iron Head
+- Close Combat
+- U-turn
+- Fake Out
+
+Primarina @ Life Orb
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 188 HP / 12 Def / 188 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Water Pledge
+- Protect

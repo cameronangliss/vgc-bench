@@ -1,0 +1,68 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 196 Def / 76 SpD
+Impish Nature
+- Spirit Break
+- Parting Shot
+- Reflect
+- Light Screen
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 36 Atk / 20 Def / 20 SpD / 252 Spe
+Jolly Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 4 Def / 252 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Vacuum Wave
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 28 Def / 36 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Giga Drain
+- Heat Wave
+- Quiver Dance
+- Protect
+
+Gholdengo @ Metal Alloy
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 108 Def / 52 SpA / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 204 Atk / 12 Def / 12 SpD / 116 Spe
+Adamant Nature
+- Scale Shot
+- Stomping Tantrum
+- Extreme Speed
+- Protect

@@ -1,0 +1,69 @@
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 44 HP / 4 Def / 196 SpA / 12 SpD / 252 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Dazzling Gleam
+
+Lunala @ Electric Seed
+Ability: Shadow Shield
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 4 Def / 252 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Psyshock
+- Trick Room
+- Wide Guard
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 100 Def / 4 SpA / 84 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Encore
+- Light Screen
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Snarl
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 156 Atk / 100 Def / 156 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Low Kick
+- Heavy Slam
+- Fake Out

@@ -1,0 +1,68 @@
+Rayquaza @ Clear Amulet
+Ability: Air Lock
+Level: 50
+Tera Type: Normal
+EVs: 228 HP / 252 Atk / 28 Spe
+Adamant Nature
+- Dragon Ascent
+- Extreme Speed
+- Swords Dance
+- Protect
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Nasty Plot
+- Protect
+
+Tornadus @ Sharp Beak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 228 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Taunt
+- Tailwind
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+- Spore
+- Decorate
+- Follow Me
+- Fake Out
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- Encore
+- Protect

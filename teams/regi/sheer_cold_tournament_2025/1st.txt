@@ -1,0 +1,71 @@
+Glimmora @ Power Herb
+Ability: Toxic Debris
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 172 HP / 156 SpA / 180 Spe
+Modest Nature
+- Mortal Spin
+- Spiky Shield
+- Meteor Beam
+- Earth Power
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 116 Atk / 68 Def / 76 SpD
+Brave Nature
+IVs: 0 Spe
+- Leech Seed
+- Glacial Lance
+- Protect
+- Trick Room
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 204 HP / 236 Def / 68 Spe
+Impish Nature
+- Wide Guard
+- Heavy Slam
+- Body Press
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 204 HP / 116 Atk / 4 Def / 76 SpD / 108 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Pollen Puff
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 2 Spe
+- Facade
+- Headlong Rush
+- Close Combat
+- Protect

@@ -1,0 +1,68 @@
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 124 Def / 132 Spe
+Jolly Nature
+- Body Press
+- Imprison
+- Protect
+- Wide Guard
+
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Flare Blitz
+- Protect
+- Flame Charge
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Crunch
+- Protect
+- Sucker Punch
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Protect
+- Rage Powder
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 116 HP / 76 Def / 116 SpA / 4 SpD / 196 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Icy Wind
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 108 Def / 196 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Electroweb

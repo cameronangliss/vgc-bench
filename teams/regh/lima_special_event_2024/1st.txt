@@ -1,0 +1,69 @@
+Flamigo @ Focus Sash
+Ability: Scrappy
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Dual Wingbeat
+- Wide Guard
+- Detect
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 164 HP / 20 Def / 212 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Nasty Plot
+- Make It Rain
+- Shadow Ball
+- Protect
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 108 HP / 108 Def / 156 SpA / 132 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Trick Room
+- Psychic
+- Protect
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 4 SpA / 84 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Protect
+- Moonblast
+- Misty Terrain
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 100 Def / 28 SpD / 12 Spe
+Adamant Nature
+- Knock Off
+- U-turn
+- Flare Blitz
+- Fake Out
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 132 HP / 4 Def / 252 SpA / 116 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect

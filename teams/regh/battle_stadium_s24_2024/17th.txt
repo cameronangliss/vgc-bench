@@ -1,0 +1,70 @@
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Final Gambit
+- Rage Fist
+- U-turn
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 6 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Weather Ball
+- Protect
+
+Dusclops @ Eviolite
+Ability: Frisk
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Def / 180 SpD
+Relaxed Nature
+IVs: 4 Atk / 6 SpA / 0 Spe
+- Night Shade
+- Pain Split
+- Haze
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 14 SpA / 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Hatterene @ Life Orb
+Ability: Magic Bounce
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 44 Def / 252 SpA
+Quiet Nature
+IVs: 10 Atk / 0 Spe
+- Expanding Force
+- Dazzling Gleam
+- Trick Room
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Follow Me
+- Baton Pass
+- Trick Room

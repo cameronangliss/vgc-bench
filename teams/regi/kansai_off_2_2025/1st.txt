@@ -1,0 +1,70 @@
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 236 HP / 4 Def / 124 SpA / 68 SpD / 76 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Dragon Pulse
+- Electroweb
+- Volt Switch
+
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 180 Atk / 156 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- High Horsepower
+- Protect
+
+Jumpluff @ Wide Lens
+Ability: Chlorophyll
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Encore
+- Sleep Powder
+- Rage Powder
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Protect
+- Nasty Plot
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Snarl
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 68 Def / 84 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Trick Room

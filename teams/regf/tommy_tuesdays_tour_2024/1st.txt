@@ -1,0 +1,70 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 132 Def / 132 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+
+Basculegion @ Assault Vest
+Ability: Adaptability
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 220 Atk / 204 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Phantom Force
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Detect
+- Close Combat
+- Wicked Blow
+- Sucker Punch
+
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 180 Def / 4 SpA / 92 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Taunt
+- Scary Face
+- Tailwind
+
+Farigiraf (F) @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 92 HP / 140 Def / 76 SpA / 180 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Psychic
+- Dazzling Gleam
+- Helping Hand
+- Trick Room
+
+Iron Hands @ Clear Amulet
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 12 HP / 252 Atk / 4 Def / 148 SpD / 92 Spe
+Adamant Nature
+- Close Combat
+- Wild Charge
+- Fake Out
+- Heavy Slam

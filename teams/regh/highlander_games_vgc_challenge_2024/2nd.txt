@@ -1,0 +1,67 @@
+Squawkabilly @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 196 HP / 68 Atk / 244 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Final Gambit
+- Parting Shot
+
+Grimmsnarl (M) @ Life Orb
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 156 HP / 252 Atk / 60 Def / 36 SpD / 4 Spe
+Adamant Nature
+- False Surrender
+- Play Rough
+- Sucker Punch
+- Protect
+
+Electrode-Hisui @ Sitrus Berry
+Ability: Aftermath
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Chloroblast
+- Leech Seed
+- Thunder Wave
+- Substitute
+
+Torracat @ Eviolite
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Def / 4 SpA / 92 SpD / 84 Spe
+Timid Nature
+- Overheat
+- Fake Out
+- Will-O-Wisp
+- Parting Shot
+
+Trapinch @ Focus Sash
+Ability: Arena Trap
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Tera Blast
+- Feint
+- Protect
+
+Gholdengo @ Big Nugget
+Ability: Good as Gold
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 132 Atk / 84 Def / 52 SpA / 4 SpD
+Quiet Nature
+- Make It Rain
+- Fling
+- Nasty Plot
+- Protect

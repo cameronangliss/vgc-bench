@@ -1,0 +1,67 @@
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Tera Type: Psychic
+EVs: 212 HP / 252 SpA / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Expanding Force
+- Meteor Beam
+- Wide Guard
+
+Koraidon @ Choice Scarf
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Flare Blitz
+- Breaking Swipe
+- U-turn
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 148 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Follow Me
+- Helping Hand
+- Trick Room
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 196 Atk / 76 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 76 Def / 108 SpA / 4 SpD / 68 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Tera Blast
+
+Roaring Moon @ Clear Amulet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 92 HP / 156 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Knock Off
+- Breaking Swipe
+- Tailwind
+- Protect

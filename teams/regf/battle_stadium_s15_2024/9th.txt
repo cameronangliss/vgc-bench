@@ -1,0 +1,70 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 60 Def / 180 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Sleep Talk
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 76 Def / 244 SpA / 52 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunderbolt
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 212 Def / 60 SpD
+Bold Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Rage Powder
+- Spore
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 188 Def / 68 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Lunar Blessing
+- Trick Room
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Dragon
+EVs: 140 HP / 244 Atk / 124 Spe
+Adamant Nature
+- Scary Face
+- Earthquake
+- Headlong Rush
+- Protect

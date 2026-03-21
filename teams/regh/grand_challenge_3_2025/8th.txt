@@ -1,0 +1,68 @@
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Pelipper @ Choice Scarf
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Muddy Water
+- Hurricane
+- Icy Wind
+
+Garchomp @ Choice Band
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Outrage
+- Rock Slide
+
+Weavile @ Wide Lens
+Ability: Pressure
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Triple Axel
+- Knock Off
+- Low Kick
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Fake Tears
+- Protect
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fighting
+EVs: 60 HP / 36 Def / 252 SpA / 124 SpD / 36 Spe
+Modest Nature
+- Tera Blast
+- Psychic
+- Imprison
+- Trick Room

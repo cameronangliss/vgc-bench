@@ -1,0 +1,68 @@
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Helping Hand
+- Follow Me
+- Protect
+
+Iron Crown @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Fighting
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Expanding Force
+- Tachyon Cutter
+- Tera Blast
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+- Protect
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 4 SpA / 140 SpD / 108 Spe
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Fake Tears
+- Tailwind
+- Encore
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 60 HP / 4 Def / 188 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Dark Pulse
+- Protect

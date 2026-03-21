@@ -1,0 +1,67 @@
+ãããª (Miraidon) @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 76 Def / 36 SpA / 116 SpD / 28 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Dazzling Gleam
+- Volt Switch
+
+ãã¤ã (Lunala) @ Leftovers
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 156 HP / 164 Def / 180 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk / 27 Spe
+- Moongeist Beam
+- Moonblast
+- Trick Room
+- Protect
+
+ãªãã¡ãã (Rillaboom) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 36 Atk / 4 Def / 252 SpD / 12 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+ãã¼ãã¼ (Incineroar) @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+IVs: 25 Spe
+- Fake Out
+- Parting Shot
+- Taunt
+- Knock Off
+
+Kanemiku (Urshifu-Rapid-Strike) @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 108 HP / 212 Atk / 4 Def / 180 SpD / 4 Spe
+Adamant Nature
+- Surging Strikes
+- U-turn
+- Aqua Jet
+- Close Combat
+
+ãããã¾ (Grimmsnarl) @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 116 Def / 124 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Thunder Wave

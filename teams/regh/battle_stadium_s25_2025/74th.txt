@@ -1,0 +1,65 @@
+Garchomp @ Assault Vest
+Ability: Rough Skin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 108 Atk / 4 Def / 140 SpD / 252 Spe
+Jolly Nature
+- Scale Shot
+- Stomping Tantrum
+- Earthquake
+- Rock Slide
+
+Hawlucha @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 156 Atk / 100 Def / 252 Spe
+Jolly Nature
+- Dual Wingbeat
+- Coaching
+- Taunt
+- Endeavor
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 92 Atk / 4 Def / 60 SpD / 100 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- High Horsepower
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpD
+Impish Nature
+- Wave Crash
+- Yawn
+- Fissure
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 132 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Protect
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 204 Def / 4 SpA / 4 SpD / 44 Spe
+Timid Nature
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect

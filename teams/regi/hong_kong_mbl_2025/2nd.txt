@@ -1,0 +1,65 @@
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 52 Def / 212 SpA / 4 SpD / 132 Spe
+Timid Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Dazzling Gleam
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 4 Atk / 236 Def / 28 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- U-turn
+- Wood Hammer
+- Grassy Glide
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 4 Atk / 236 Def / 12 SpD / 12 Spe
+Impish Nature
+- Fake Out
+- Will-O-Wisp
+- Knock Off
+- Parting Shot
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 4 Atk / 68 Def / 180 SpD / 12 Spe
+Adamant Nature
+- Leech Seed
+- Protect
+- Glacial Lance
+- Trick Room
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 52 Atk / 4 Def / 4 SpD / 220 Spe
+Jolly Nature
+- Coaching
+- Rage Fist
+- Close Combat
+- Final Gambit
+
+Urshifu @ Covert Cloak
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 132 HP / 236 Atk / 4 Def / 76 SpD / 60 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Detect
+- Sucker Punch

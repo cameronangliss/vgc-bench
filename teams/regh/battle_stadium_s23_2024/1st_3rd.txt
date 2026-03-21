@@ -1,0 +1,65 @@
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fighting
+EVs: 244 HP / 76 Def / 4 SpA / 172 SpD / 12 Spe
+Bold Nature
+- Flash Cannon
+- Body Press
+- Electro Shot
+- Snarl
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 12 HP / 4 Def / 252 SpA / 4 SpD / 236 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Protect
+- Trick
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Earthquake
+- Facade
+- Headlong Rush
+- Protect
+
+Pelipper @ Safety Goggles
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 108 HP / 36 Def / 132 SpA / 4 SpD / 228 Spe
+Modest Nature
+- Muddy Water
+- Hurricane
+- Tailwind
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 68 Def / 4 SpA / 180 SpD
+Calm Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 44 Atk / 36 Def / 20 SpD / 156 Spe
+Adamant Nature
+- Scale Shot
+- Encore
+- Tailwind
+- Haze

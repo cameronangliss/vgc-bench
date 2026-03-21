@@ -1,0 +1,68 @@
+Calyrex-Ice @ Assault Vest
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 116 Atk / 164 Spe
+Adamant Nature
+- Glacial Lance
+- High Horsepower
+- Seed Bomb
+- Crunch
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 100 HP / 20 Def / 252 SpA / 4 SpD / 132 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Snarl
+- Volt Switch
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 124 Def / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Flamethrower
+- Giga Drain
+- Rage Powder
+- Quiver Dance
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Dragon Pulse
+- Thunderbolt
+- Protect
+
+Sableye @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Reflect
+- Light Screen
+- Encore
+- Quash
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Def / 252 Spe
+Timid Nature
+- Decorate
+- Follow Me
+- Spore
+- Fake Out

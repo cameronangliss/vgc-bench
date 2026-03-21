@@ -1,0 +1,70 @@
+Annihilape @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 4 Atk / 68 Def / 236 SpD / 20 Spe
+Careful Nature
+IVs: 10 SpA
+- Rage Fist
+- Protect
+- Drain Punch
+- Bulk Up
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 236 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Beat Up
+- Protect
+- Follow Me
+- Switcheroo
+
+Sinistcha @ Eject Button
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Protect
+- Life Dew
+- Rage Powder
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 132 Def / 124 SpD
+Careful Nature
+IVs: 12 SpA
+- Fake Out
+- Reflect
+- Light Screen
+- Parting Shot
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 20 SpD
+Impish Nature
+- Flare Blitz
+- Fake Out
+- Knock Off
+- U-turn
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 60 Def / 196 SpD
+Calm Nature
+IVs: 0 Atk
+- Beat Up
+- Light Screen
+- Worry Seed
+- Grassy Terrain

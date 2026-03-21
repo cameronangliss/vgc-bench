@@ -1,0 +1,69 @@
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Spiky Shield
+- Ivy Cudgel
+- Power Whip
+- Follow Me
+
+Ursaluna-Bloodmoon (M) @ Weakness Policy
+Ability: Mind's Eye
+Level: 50
+Tera Type: Ground
+EVs: 164 HP / 252 SpA / 92 SpD
+Quiet Nature
+IVs: 0 Atk
+- Protect
+- Hyper Voice
+- Earth Power
+- Blood Moon
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 156 Def / 124 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Psychic Noise
+- Helping Hand
+- Trick Room
+- Low Kick
+
+Smeargle @ Eject Pack
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 236 SpD / 60 Spe
+Careful Nature
+- Follow Me
+- Wide Guard
+- Fake Out
+- Spore
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Eruption
+- Earth Power
+- Heat Wave
+
+Alcremie (F) @ Safety Goggles
+Ability: Sweet Veil
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 204 Def / 44 SpA / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Dazzling Gleam
+- Helping Hand
+- Decorate

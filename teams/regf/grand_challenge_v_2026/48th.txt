@@ -1,0 +1,67 @@
+Iron Valiant @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 156 HP / 124 Def / 148 SpA / 4 SpD / 76 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Coaching
+- Encore
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 4 Def / 132 SpA / 12 SpD / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 52 Atk / 12 Def / 148 SpD / 68 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 44 Atk / 92 Def / 28 SpD / 116 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Dragonite @ Loaded Dice
+Ability: Inner Focus
+Level: 50
+Tera Type: Steel
+EVs: 20 HP / 252 Atk / 4 Def / 4 SpD / 228 Spe
+Adamant Nature
+- Scale Shot
+- Extreme Speed
+- Iron Head
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 188 Atk / 84 Def / 4 SpD / 228 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect

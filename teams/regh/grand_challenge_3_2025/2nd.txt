@@ -1,0 +1,68 @@
+Salamence @ Lum Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Dual Wingbeat
+- Rock Slide
+- Protect
+- Tailwind
+
+Volcarona @ Safety Goggles
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 236 Def / 4 SpA / 4 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Rage Powder
+- Heat Wave
+- Protect
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Grass
+EVs: 12 HP / 252 Atk / 4 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 4 Def / 252 SpA / 44 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Blood Moon
+- Hyper Voice
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 44 SpA / 196 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Body Press
+- Flash Cannon
+- Snarl
+- Draco Meteor
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 28 Atk / 116 Def / 100 SpD / 12 Spe
+Impish Nature
+- Light Screen
+- Reflect
+- Spirit Break
+- Thunder Wave

@@ -1,0 +1,66 @@
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 116 Atk / 4 Def / 100 SpD / 44 Spe
+Adamant Nature
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Groudon @ Assault Vest
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 76 Atk / 4 Def / 108 SpD / 212 Spe
+Adamant Nature
+- Precipice Blades
+- High Horsepower
+- Heat Crash
+- Iron Head
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 116 Def / 228 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Thunderbolt
+- Draco Meteor
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 244 Def / 252 Spe
+Jolly Nature
+- Spore
+- Follow Me
+- Fake Out
+- Decorate
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 100 HP / 132 Def / 4 SpA / 20 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Taunt
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Snarl

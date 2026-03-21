@@ -1,0 +1,59 @@
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Tera Type: Dark
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Protect
+- Astral Barrage
+- Pollen Puff
+- Psychic
+
+Maushold @ Safety Goggles
+Ability: Technician
+Tera Type: Ground
+EVs: 204 HP / 4 Atk / 156 Def / 68 SpD / 76 Spe
+Impish Nature
+- Follow Me
+- Super Fang
+- Helping Hand
+- Feint
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Tera Type: Electric
+EVs: 92 HP / 44 Def / 196 SpA / 20 SpD / 156 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Dazzling Gleam
+- Volt Switch
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 4 SpA / 220 SpD / 28 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Encore
+- Fake Tears
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Tera Type: Water
+EVs: 228 HP / 132 Atk / 36 Def / 84 SpD / 28 Spe
+Adamant Nature
+- Knock Off
+- Flare Blitz
+- U-turn
+- Fake Out
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Tera Type: Grass
+EVs: 60 HP / 108 Atk / 4 Def / 156 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Aqua Jet

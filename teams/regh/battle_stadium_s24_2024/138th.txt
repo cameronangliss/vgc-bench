@@ -1,0 +1,67 @@
+Dewgong @ Covert Cloak
+Ability: Thick Fat
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 220 Def / 36 SpD
+Careful Nature
+- Protect
+- Flip Turn
+- Fake Out
+- Perish Song
+
+Garchomp @ Loaded Dice
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Stomping Tantrum
+- Swords Dance
+- Scale Shot
+
+Gothitelle @ Leftovers
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Protect
+- Helping Hand
+- Fake Out
+- Torment
+
+Gengar @ Focus Sash
+Ability: Cursed Body
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 14 Atk
+- Shadow Ball
+- Perish Song
+- Protect
+- Encore
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Protect
+- Fake Out
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Atk / 4 Def / 12 SpD / 44 Spe
+Adamant Nature
+IVs: 28 SpA
+- Flare Blitz
+- U-turn
+- Knock Off
+- Fake Out

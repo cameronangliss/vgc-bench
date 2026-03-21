@@ -1,0 +1,67 @@
+NAH I'D WIN (Chien-Pao) @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Protect
+- Sacred Sword
+
+NAH I'D WIN (Urshifu-Rapid-Strike) @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 12 HP / 252 Atk / 28 Def / 4 SpD / 212 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+
+NAH I'D WIN (Gouging Fire) @ Safety Goggles
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 68 Atk / 4 Def / 172 SpD / 20 Spe
+Adamant Nature
+- Howl
+- Breaking Swipe
+- Heat Crash
+- Burning Bulwark
+
+NAH I'D WIN (Amoonguss) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 236 Def / 28 SpD
+Impish Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Protect
+- Pollen Puff
+
+NAH I'D WIN (Iron Hands) @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 156 Atk / 4 Def / 220 SpD / 36 Spe
+Adamant Nature
+- Drain Punch
+- Fake Out
+- Wild Charge
+- Heavy Slam
+
+NAH I'D WIN (Landorus) @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Protect
+- Substitute

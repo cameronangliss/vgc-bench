@@ -1,0 +1,70 @@
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 60 SpA / 52 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+- Body Press
+
+Greninja @ Focus Sash
+Ability: Torrent
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Water Shuriken
+- Weather Ball
+- Dark Pulse
+- Protect
+
+Pelipper @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Helping Hand
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 12 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 108 Def / 156 SpD
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 148 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room

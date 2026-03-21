@@ -1,0 +1,68 @@
+Armarouge @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 4 Def / 196 SpA / 12 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Protect
+- Stored Power
+- Heat Wave
+
+Indeedee-F @ Choice Scarf
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 44 Def / 4 SpA / 4 SpD / 204 Spe
+Timid Nature
+- Drain Punch
+- Trick Room
+- Follow Me
+- Imprison
+
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Close Combat
+- Sleep Powder
+- After You
+- Protect
+
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Solar Beam
+- Earth Power
+- Weather Ball
+
+Dondozo @ Safety Goggles
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 180 Atk / 68 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Heavy Slam
+- Earthquake
+- Protect
+
+Tatsugiri @ Quick Claw
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Protect
+- Muddy Water
+- Dragon Pulse

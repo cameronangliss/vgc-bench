@@ -1,0 +1,70 @@
+Tauros-Paldea-Blaze @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 6 SpA
+- Raging Bull
+- Close Combat
+- Rock Slide
+- Protect
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Fairy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Grass Pledge
+- Protect
+
+Ursaluna-Bloodmoon @ Silk Scarf
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 20 Def / 220 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Protect
+
+Primarina @ Life Orb
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 188 HP / 36 Def / 252 SpA / 4 SpD / 28 Spe
+Modest Nature
+IVs: 22 Atk
+- Hyper Voice
+- Moonblast
+- Water Pledge
+- Protect
+
+Magmar @ Eviolite
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Acid Spray
+- Psychic
+- Follow Me
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 236 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk
+- Hyper Voice
+- Imprison
+- Helping Hand
+- Trick Room

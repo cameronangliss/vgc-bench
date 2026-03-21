@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>1130-1201 Premier Ball League Taiwan TOP 8  李承霖</title>
+		<link rel="stylesheet" href="/css/paste.css">
+		<meta name="robots" content="noindex">
+	</head>
+	<body>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/233-0.png">
+				<img class="img-item" src="/img/items/538.png">
+			</div>
+			<pre><span class="type-normal">Porygon2</span> @ Eviolite
+<span class="attr">Ability: </span>Download
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-fighting">Fighting</span>
+<span class="attr">EVs: </span><span class="stat-hp">252 HP</span> / <span class="stat-atk">4 Atk</span> / <span class="stat-def">124 Def</span> / <span class="stat-spa">92 SpA</span> / <span class="stat-spd">36 SpD</span>
+Quiet Nature
+<span class="attr">IVs: </span><span class="stat-spe">0 Spe</span>
+<span class="type-normal">-</span> Tera Blast
+<span class="type-ice">-</span> Ice Beam
+<span class="type-psychic">-</span> Trick Room
+<span class="type-normal">-</span> Recover
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/727-0.png">
+				<img class="img-item" src="/img/items/158.png">
+			</div>
+			<pre><span class="type-fire">Incineroar</span> @ Sitrus Berry
+<span class="attr">Ability: </span>Intimidate
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-ghost">Ghost</span>
+<span class="attr">EVs: </span><span class="stat-hp">244 HP</span> / <span class="stat-atk">204 Atk</span> / <span class="stat-def">28 Def</span> / <span class="stat-spd">4 SpD</span> / <span class="stat-spe">28 Spe</span>
+Adamant Nature
+<span class="type-normal">-</span> Fake Out
+<span class="type-dark">-</span> Knock Off
+<span class="type-fire">-</span> Flare Blitz
+<span class="type-dark">-</span> Parting Shot
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/901-0.png">
+				<img class="img-item" src="/img/items/273.png">
+			</div>
+			<pre><span class="type-ground">Ursaluna</span> @ Flame Orb
+<span class="attr">Ability: </span>Guts
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-ghost">Ghost</span>
+<span class="attr">EVs: </span><span class="stat-hp">148 HP</span> / <span class="stat-atk">252 Atk</span> / <span class="stat-spe">108 Spe</span>
+Adamant Nature
+<span class="type-ground">-</span> Headlong Rush
+<span class="type-normal">-</span> Facade
+<span class="type-ground">-</span> Earthquake
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/189-0.png">
+				<img class="img-item" src="/img/items/1885.png">
+			</div>
+			<pre><span class="type-grass">Jumpluff</span> @ Covert Cloak
+<span class="attr">Ability: </span>Leaf Guard
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-water">Water</span>
+<span class="attr">EVs: </span><span class="stat-hp">252 HP</span> / <span class="stat-spd">76 SpD</span> / <span class="stat-spe">180 Spe</span>
+Timid Nature
+<span class="attr">IVs: </span><span class="stat-atk">0 Atk</span>
+<span class="type-bug">-</span> Rage Powder
+<span class="type-fire">-</span> Sunny Day
+<span class="type-flying">-</span> Tailwind
+<span class="type-grass">-</span> Sleep Powder
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/6-0.png">
+				<img class="img-item" src="/img/items/297.png">
+			</div>
+			<pre><span class="type-fire">Charizard</span> @ Choice Specs
+<span class="attr">Ability: </span>Solar Power
+<span class="attr">Level: </span>50
+<span class="attr">Tera Type: </span><span class="type-ghost">Ghost</span>
+<span class="attr">EVs: </span><span class="stat-hp">4 HP</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spe">252 Spe</span>
+Timid Nature
+<span class="attr">IVs: </span><span class="stat-atk">0 Atk</span>
+<span class="type-fire">-</span> Heat Wave
+<span class="type-fire">-</span> Overheat
+<span class="type-normal">-</span> Weather Ball
+<span class="type-dragon">-</span> Dragon Pulse
+
+</pre>
+		</article>
+		<article>
+			<div class="img">
+				<img class="img-pokemon" src="/img/pokemon/324-0.png">
+				<img class="img-item" src="/img/items/1119.png">
+			</div>
+			<pre><span class="type-fire">Torkoal</span> @ Eject Pack
+<span class="attr">Ability: </span>Drought
+<span class="attr">Tera Type: </span><span class="type-fire">Fire</span>
+<span class="attr">EVs: </span><span class="stat-hp">252 HP</span> / <span class="stat-spa">252 SpA</span> / <span class="stat-spd">4 SpD</span>
+Quiet Nature
+<span class="type-fire">-</span> Overheat
+<span class="type-fire">-</span> Eruption
+<span class="type-normal">-</span> Helping Hand
+<span class="type-normal">-</span> Protect
+
+</pre>
+		</article>
+		<aside>
+			<h1>1130-1201 Premier Ball League Taiwan TOP 8  李承霖</h1>
+			<h2>&nbsp;by SilentLearner</h2>
+			<p>Format: gen9vgc2024regh</p>
+			<input id="vgcmode" type="checkbox">
+			<label for="vgcmode">Columns Mode</label> /
+			<input id="evivmode" type="checkbox">
+			<label for="evivmode">Stat Colours</label> /
+			<input id="lightmode" type="checkbox">
+			<label for="lightmode">Light Mode</label>
+		</aside>
+		<script src="/js/preferences.js"></script>
+	</body>
+</html>

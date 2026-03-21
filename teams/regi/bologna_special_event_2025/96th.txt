@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Leftovers
+Ability: As One (Spectrier)
+Tera Type: Fairy
+EVs: 156 HP / 84 Def / 12 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Tera Blast
+- Nasty Plot
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 152 Def / 100 SpD / 12 Spe
+Impish Nature
+IVs: 0 Atk
+- Imprison
+- Protect
+- Body Press
+- Wide Guard
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 75
+Tera Type: Fairy
+EVs: 184 HP / 140 Def / 180 SpA / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunderbolt
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Tera Type: Ghost
+EVs: 180 HP / 4 Atk / 60 Def / 180 SpD / 84 Spe
+Careful Nature
+- Taunt
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 216 Def / 40 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Protect
+- After You
+- Helping Hand
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 SpA / 20 Spe
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn

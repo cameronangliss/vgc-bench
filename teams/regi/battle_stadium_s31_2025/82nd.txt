@@ -1,0 +1,67 @@
+Tatsugiri-Droopy @ Toxic Orb
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 140 Def / 116 SpD
+Calm Nature
+IVs: 0 Atk
+- Endure
+- Protect
+- Substitute
+- Dragon Pulse
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ground
+EVs: 196 HP / 228 Def / 84 SpD
+Impish Nature
+- Follow Me
+- Salt Cure
+- Baneful Bunker
+- Wide Guard
+
+Calyrex-Shadow @ Sitrus Berry
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 52 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Stored Power
+- Astral Barrage
+- Psych Up
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Order Up
+- Body Press
+- Protect
+- Substitute
+
+Muk-Alola @ Black Sludge
+Ability: Power of Alchemy
+Level: 50
+Tera Type: Poison
+EVs: 228 HP / 4 Atk / 244 Def / 28 SpD / 4 Spe
+Impish Nature
+- Disable
+- Minimize
+- Knock Off
+- Protect
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+- Electro Drift
+- Parabolic Charge
+- Volt Switch
+- Dragon Pulse

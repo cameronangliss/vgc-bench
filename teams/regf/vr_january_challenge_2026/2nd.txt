@@ -1,0 +1,68 @@
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 228 HP / 108 Def / 60 SpA / 12 SpD / 100 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Protect
+
+Landorus-Therian @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 52 HP / 204 Atk / 4 Def / 4 SpD / 244 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- Earthquake
+- U-turn
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Naive Nature
+- Ice Spinner
+- Sucker Punch
+- Icy Wind
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 180 Def / 4 SpA / 84 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Sludge Bomb
+- Protect
+
+Gholdengo @ Sitrus Berry
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 44 Def / 84 SpA / 12 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Urshifu-Rapid-Strike @ Life Orb
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 28 HP / 236 Atk / 4 Def / 36 SpD / 204 Spe
+Jolly Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect

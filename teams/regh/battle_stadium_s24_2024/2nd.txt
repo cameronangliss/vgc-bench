@@ -1,0 +1,65 @@
+Annihilape @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Tera Type: Steel
+EVs: 228 HP / 28 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Rage Fist
+- Final Gambit
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 52 HP / 20 Def / 180 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 4 Def / 52 SpD / 196 Spe
+Careful Nature
+- Parting Shot
+- Fake Out
+- Flare Blitz
+- Knock Off
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fairy
+EVs: 12 HP / 252 Atk / 4 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Earthquake
+- Facade
+- Headlong Rush
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 28 Def / 148 SpA / 36 SpD / 44 Spe
+Modest Nature
+- Tera Blast
+- Ice Beam
+- Protect
+- Trick Room
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Ghost
+EVs: 36 HP / 244 Atk / 4 Def / 4 SpD / 220 Spe
+Jolly Nature
+- Scale Shot
+- Encore
+- Tailwind
+- Haze

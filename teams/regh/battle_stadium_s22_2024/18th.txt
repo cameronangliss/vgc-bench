@@ -1,0 +1,65 @@
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 172 HP / 228 Atk / 4 Def / 76 SpD / 28 Spe
+Adamant Nature
+- Brave Bird
+- Feint
+- Quick Guard
+- Tailwind
+
+Volcarona @ Choice Specs
+Ability: Flame Body
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Heat Wave
+- Overheat
+- Bug Buzz
+- Giga Drain
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 244 Atk / 12 SpD
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Sneasler @ Grassy Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 100 HP / 252 Atk / 12 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Throat Chop
+- Protect
+
+Primarina @ Sitrus Berry
+Ability: Liquid Voice
+Level: 50
+Tera Type: Steel
+EVs: 204 HP / 52 Def / 188 SpA / 4 SpD / 60 Spe
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 252 Atk / 20 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect

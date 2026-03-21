@@ -1,0 +1,69 @@
+Weavile @ Focus Sash
+Ability: Pressure
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Knock Off
+- Ice Shard
+- Protect
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Aura Sphere
+- Electro Shot
+- Protect
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 156 Def / 4 SpA / 4 SpD / 92 Spe
+Bold Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Basculegion @ Mystic Water
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+IVs: 28 SpA
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Poliwrath @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 252 Atk / 172 Spe
+Adamant Nature
+- Liquidation
+- Close Combat
+- Haze
+- Protect
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Tera Blast
+- Trick

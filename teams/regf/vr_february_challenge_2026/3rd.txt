@@ -1,0 +1,62 @@
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Tera Type: Fairy
+EVs: 204 HP / 68 Atk / 4 Def / 4 SpD / 228 Spe
+Jolly Nature
+- Heat Crash
+- Breaking Swipe
+- Howl
+- Burning Bulwark
+
+Thundurus @ Covert Cloak
+Ability: Prankster
+Shiny: Yes
+Tera Type: Water
+EVs: 228 HP / 196 Def / 4 SpA / 36 SpD / 44 Spe
+Timid Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Thunder Wave
+- Taunt
+- Eerie Impulse
+
+Ting-Lu @ Clear Amulet
+Ability: Vessel of Ruin
+Tera Type: Poison
+EVs: 236 HP / 92 Atk / 20 Def / 84 SpD / 76 Spe
+Adamant Nature
+- Earthquake
+- Throat Chop
+- Tera Blast
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Tera Type: Grass
+EVs: 84 HP / 188 Atk / 4 Def / 12 SpD / 220 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Detect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Shiny: Yes
+Tera Type: Steel
+EVs: 28 HP / 212 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Scale Shot
+- Iron Head
+- Extreme Speed
+- Protect

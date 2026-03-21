@@ -1,0 +1,68 @@
+Terapagos-Terastal @ Covert Cloak
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 180 HP / 108 Def / 76 SpA / 92 SpD / 52 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 220 Atk / 4 Def / 4 SpD / 156 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Sacred Sword
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 172 Def / 68 SpD / 20 Spe
+Impish Nature
+- Light Screen
+- Reflect
+- Thunder Wave
+- Spirit Break
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 148 Def / 108 SpD
+Bold Nature
+IVs: 0 Atk
+- Leaf Storm
+- Rage Powder
+- Trick Room
+- Life Dew
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Snarl
+- Psychic
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 252 Atk / 4 Def / 4 SpD / 156 Spe
+Jolly Nature
+- Ivy Cudgel
+- Spiky Shield
+- Follow Me
+- Horn Leech

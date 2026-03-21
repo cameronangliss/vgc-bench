@@ -1,0 +1,70 @@
+Politoed @ Choice Specs
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 52 Def / 156 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Ice Beam
+- Earth Power
+- Weather Ball
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Bug
+EVs: 220 HP / 4 Def / 36 SpA / 236 SpD / 12 Spe
+Modest Nature
+IVs: 8 Atk
+- Electro Shot
+- Flash Cannon
+- Body Press
+- Snarl
+
+Goodra-Hisui @ Razor Claw
+Ability: Sap Sipper
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 84 Def / 156 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 28 Atk
+- Draco Meteor
+- Feint
+- Life Dew
+- Protect
+
+Dragonite @ Scope Lens
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 228 HP / 252 Atk / 4 Def / 4 SpD / 20 Spe
+Adamant Nature
+IVs: 20 SpA
+- Low Kick
+- Earthquake
+- Extreme Speed
+- Protect
+
+Salamence @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 4 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 10 Atk
+- Draco Meteor
+- Heat Wave
+- Dragon Cheer
+- Tailwind
+
+Krookodile @ Choice Scarf
+Ability: Anger Point
+Level: 50
+Tera Type: Poison
+EVs: 52 HP / 196 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Power Trip
+- Knock Off
+- Earthquake
+- Rock Slide

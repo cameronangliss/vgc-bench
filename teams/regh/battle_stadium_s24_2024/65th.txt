@@ -1,0 +1,67 @@
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Fire Punch
+- Giga Impact
+- Outrage
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+Tera Type: Fairy
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Tera Blast
+- Protect
+
+Annihilape @ Focus Sash
+Ability: Defiant
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rage Fist
+- Close Combat
+- Ice Punch
+- Encore
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Make It Rain
+- Trick
+- Power Gem
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 14 Atk
+- Draco Meteor
+- Electro Shot
+- Snarl
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 156 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out

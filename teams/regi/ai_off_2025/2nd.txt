@@ -1,0 +1,67 @@
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 84 Def / 156 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Nasty Plot
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 4 Atk / 244 Def / 4 SpD / 92 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Protect
+- Wide Guard
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 84 Atk / 148 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Ivy Cudgel
+- Grassy Glide
+- Follow Me
+- Spiky Shield
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 244 Def / 20 SpD
+Impish Nature
+- Parting Shot
+- Knock Off
+- Helping Hand
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 76 Def / 140 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Dragon Pulse
+- Thunderclap
+- Protect

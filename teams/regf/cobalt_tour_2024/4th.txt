@@ -1,0 +1,66 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 164 HP / 252 Atk / 12 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Outrage
+- Stomping Tantrum
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 252 Atk / 4 Def / 12 SpD / 36 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- High Horsepower
+
+Entei @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Grass
+EVs: 44 HP / 212 Atk / 116 Def / 4 SpD / 132 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Snarl
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 156 HP / 4 Def / 180 SpA / 164 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Thunderclap
+- Protect
+- Draco Meteor

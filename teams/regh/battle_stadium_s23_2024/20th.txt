@@ -1,0 +1,69 @@
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Icy Wind
+- Moonblast
+- Follow Me
+
+Gholdengo @ Air Balloon
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 4 Def / 180 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 124 Def / 44 SpD / 84 Spe
+Careful Nature
+IVs: 10 SpA
+- Knock Off
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Scale Shot
+- Haze
+- Extreme Speed
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 4 Def / 116 SpA / 196 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Vacuum Wave
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Dire Claw
+- Close Combat
+- Fake Out
