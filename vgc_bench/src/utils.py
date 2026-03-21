@@ -103,10 +103,10 @@ chunk_obs_len = glob_obs_len + side_obs_len + pokemon_obs_len
 format_map = {
     "c": "gen9vgc2023regc",
     "d": "gen9vgc2023regd",
-    "f": "gen9vgc2024regf",
+    "f": "gen9vgc2026regf",
     "g": "gen9vgc2024regg",
-    "h": "gen9vgc2024regh",
-    "i": "gen9vgc2025regi",
+    "h": "gen9vgc2024regg",
+    "i": "gen9vgc2026regi",
     "j": "gen9vgc2025regj",
 }
 with open("data/abilities.json") as f:
