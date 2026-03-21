@@ -115,7 +115,11 @@ def train(
         (output_dir / "team1.txt").write_text(team1[1:])
         (output_dir / "team2.txt").write_text(team2[1:])
     reg_letter = battle_format[-1]
-    teams_label = f"reg-{reg_letter}" if num_teams is None else f"reg-{reg_letter}-{num_teams}-teams"
+    teams_label = (
+        f"reg-{reg_letter}"
+        if num_teams is None
+        else f"reg-{reg_letter}-{num_teams}-teams"
+    )
     save_dir = output_dir / f"saves-{method}" / teams_label
     ppo = PPO(
         MaskedActorCriticPolicy,

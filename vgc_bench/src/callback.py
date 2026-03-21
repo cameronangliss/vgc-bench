@@ -105,7 +105,11 @@ class Callback(BaseCallback):
         output_dir = Path(f"results{run_id}{suffix}")
         self.log_dir = output_dir / f"logs-{method}"
         reg_letter = battle_format[-1]
-        self.teams_label = f"reg-{reg_letter}" if num_teams is None else f"reg-{reg_letter}-{num_teams}-teams"
+        self.teams_label = (
+            f"reg-{reg_letter}"
+            if num_teams is None
+            else f"reg-{reg_letter}-{num_teams}-teams"
+        )
         self.save_dir = output_dir / f"saves-{method}" / self.teams_label
         self.log_dir.mkdir(parents=True, exist_ok=True)
         self.save_dir.mkdir(parents=True, exist_ok=True)
