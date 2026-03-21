@@ -208,18 +208,14 @@ class Callback(BaseCallback):
                 self.model.set_parameters(
                     str(self.save_dir / f"{max(saves)}.zip"), device=self.model.device
                 )
-            heuristic_win_rate = self.compare(
-                self.eval_agent, self.eval_opponent, 100
-            )
+            heuristic_win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
             self.model.logger.record("train/heuristic-eval", heuristic_win_rate)
             if not self.behavior_clone:
                 self.model.save(self.save_dir / f"{self.model.num_timesteps}")
         if bc_policy_path.exists():
             self.eval_opponent2.set_policy(bc_policy_path, self.model.device)
             if self.model.num_timesteps < self.save_interval:
-                bc_win_rate = self.compare(
-                    self.eval_agent, self.eval_opponent2, 100
-                )
+                bc_win_rate = self.compare(self.eval_agent, self.eval_opponent2, 100)
                 self.model.logger.record("train/bc-eval", bc_win_rate)
         if self.learning_style == LearningStyle.EXPLOITER:
             for i in range(self.model.env.num_envs):
