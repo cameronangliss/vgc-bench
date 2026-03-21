@@ -25,7 +25,7 @@ async def play(
     run_id: int,
     results_suffix: str | None,
     method: str,
-    num_teams: int,
+    num_teams: int | None,
     n_games: int,
     play_on_ladder: bool,
 ):
@@ -65,7 +65,8 @@ async def play(
         start_timer_on_battle_start=play_on_ladder,
         team=RandomTeamBuilder(run_id, num_teams, reg, team1=team1, team2=team2),
     )
-    saves_path = results_path / f"saves-{method}" / f"{num_teams}-teams"
+    teams_label = f"reg-{reg}" if num_teams is None else f"reg-{reg}-{num_teams}-teams"
+    saves_path = results_path / f"saves-{method}" / teams_label
     filepath = sorted(saves_path.iterdir(), key=lambda p: int(p.stem))[-1]
     agent.set_policy(filepath, device("cuda:0"))
     assert isinstance(agent.policy, MaskedActorCriticPolicy)
@@ -107,7 +108,10 @@ if __name__ == "__main__":
         help="method string for checkpoint directory, e.g. bc-do-xm",
     )
     parser.add_argument(
-        "--num_teams", type=int, default=1, help="Number of teams AI was trained with"
+        "--num_teams",
+        type=int,
+        default=None,
+        help="Number of teams AI was trained with",
     )
     parser.add_argument(
         "-n", type=int, default=1, help="Number of games to play. Default is 1."
