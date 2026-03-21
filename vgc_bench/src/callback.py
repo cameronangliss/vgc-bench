@@ -23,7 +23,7 @@ from stable_baselines3.common.callbacks import BaseCallback
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.policy_player import BatchPolicyPlayer
 from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle
-from vgc_bench.src.utils import LearningStyle
+from vgc_bench.src.utils import LearningStyle, format_map
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
@@ -54,7 +54,7 @@ class Callback(BaseCallback):
         self,
         run_id: int,
         num_teams: int | None,
-        battle_format: str,
+        reg: str,
         num_eval_workers: int,
         log_level: int,
         port: int,
@@ -74,7 +74,7 @@ class Callback(BaseCallback):
         Args:
             run_id: Training run identifier.
             num_teams: Number of teams to use.
-            battle_format: Pokemon Showdown battle format string.
+            reg: VGC regulation letter (e.g. 'g', 'h', 'i').
             num_eval_workers: Number of parallel evaluation workers.
             log_level: Logging verbosity for Showdown clients.
             port: Port for the Pokemon Showdown server.
@@ -104,11 +104,9 @@ class Callback(BaseCallback):
         suffix = f"-{results_suffix}" if results_suffix else ""
         output_dir = Path(f"results{run_id}{suffix}")
         self.log_dir = output_dir / f"logs-{method}"
-        reg_letter = battle_format[-1]
+        battle_format = format_map[reg]
         self.teams_label = (
-            f"reg-{reg_letter}"
-            if num_teams is None
-            else f"reg-{reg_letter}-{num_teams}-teams"
+            f"reg-{reg}" if num_teams is None else f"reg-{reg}-{num_teams}-teams"
         )
         self.save_dir = output_dir / f"saves-{method}" / self.teams_label
         self.log_dir.mkdir(parents=True, exist_ok=True)
@@ -136,9 +134,7 @@ class Callback(BaseCallback):
             max_concurrent_battles=num_eval_workers,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(
-                run_id, num_teams, battle_format, team1, team2, toggle
-            ),
+            team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
         )
         self.eval_agent2 = BatchPolicyPlayer(
             server_configuration=ServerConfiguration(
@@ -150,9 +146,7 @@ class Callback(BaseCallback):
             max_concurrent_battles=num_eval_workers,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(
-                run_id, num_teams, battle_format, team1, team2, toggle
-            ),
+            team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
         )
         self.eval_opponent = SimpleHeuristicsPlayer(
             server_configuration=ServerConfiguration(
@@ -164,9 +158,7 @@ class Callback(BaseCallback):
             max_concurrent_battles=num_eval_workers,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(
-                run_id, num_teams, battle_format, team1, team2, toggle
-            ),
+            team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
         )
         self.eval_opponent2 = BatchPolicyPlayer(
             server_configuration=ServerConfiguration(
@@ -178,9 +170,7 @@ class Callback(BaseCallback):
             max_concurrent_battles=num_eval_workers,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(
-                run_id, num_teams, battle_format, team1, team2, toggle
-            ),
+            team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
         )
 
     def _on_step(self) -> bool:

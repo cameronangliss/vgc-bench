@@ -16,11 +16,11 @@ from stable_baselines3.common.vec_env import SubprocVecEnv
 from vgc_bench.src.callback import Callback
 from vgc_bench.src.env import ShowdownEnv
 from vgc_bench.src.policy import MaskedActorCriticPolicy
-from vgc_bench.src.utils import LearningStyle, format_map, set_global_seed
+from vgc_bench.src.utils import LearningStyle, set_global_seed
 
 
 def train(
-    battle_format: str,
+    reg: str,
     run_id: int,
     num_teams: int | None,
     num_envs: int,
@@ -45,7 +45,7 @@ def train(
     checkpointing.
 
     Args:
-        battle_format: Pokemon Showdown battle format string.
+        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
         run_id: Training run identifier for saving/loading.
         num_teams: Number of teams to train with.
         num_envs: Number of parallel environments.
@@ -65,7 +65,7 @@ def train(
     save_interval = 98_304
     env = (
         ShowdownEnv.create_env(
-            battle_format,
+            reg,
             run_id,
             num_teams,
             num_envs,
@@ -82,7 +82,7 @@ def train(
         else SubprocVecEnv(
             [
                 lambda: ShowdownEnv.create_env(
-                    battle_format,
+                    reg,
                     run_id,
                     1 if learning_style == LearningStyle.EXPLOITER else num_teams,
                     num_envs,
@@ -114,11 +114,10 @@ def train(
         output_dir.mkdir(exist_ok=True)
         (output_dir / "team1.txt").write_text(team1[1:])
         (output_dir / "team2.txt").write_text(team2[1:])
-    reg_letter = battle_format[-1]
     teams_label = (
-        f"reg-{reg_letter}"
+        f"reg-{reg}"
         if num_teams is None
-        else f"reg-{reg_letter}-{num_teams}-teams"
+        else f"reg-{reg}-{num_teams}-teams"
     )
     save_dir = output_dir / f"saves-{method}" / teams_label
     ppo = PPO(
@@ -159,7 +158,7 @@ def train(
         callback=Callback(
             run_id,
             num_teams,
-            battle_format,
+            reg,
             num_eval_workers,
             log_level,
             port,
@@ -265,7 +264,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     set_global_seed(args.run_id)
-    battle_format = format_map[args.reg.lower()]
+    reg = args.reg.lower()
     assert (
         int(args.exploiter)
         + int(args.self_play)
@@ -295,7 +294,7 @@ if __name__ == "__main__":
             args.results_suffix != ""
         ), "--results_suffix is required when using --team1 and --team2"
     train(
-        battle_format,
+        reg,
         args.run_id,
         args.num_teams,
         args.num_envs,

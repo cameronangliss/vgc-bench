@@ -21,7 +21,7 @@ from vgc_bench.src.utils import format_map
 async def play(
     username: str,
     password: str | None,
-    battle_format: str,
+    reg: str,
     run_id: int,
     results_suffix: str | None,
     method: str,
@@ -36,7 +36,7 @@ async def play(
     or waits to accept challenges from other players.
 
     Args:
-        battle_format: Pokemon Showdown battle format string.
+        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
         run_id: Training run identifier for loading the model.
         results_suffix: Optional suffix appended to results<run_id> for paths.
         method: Method string used in checkpoint directory names.
@@ -57,15 +57,13 @@ async def play(
         team2 = None
     agent = PolicyPlayer(
         account_configuration=AccountConfiguration(username, password),
-        battle_format=battle_format,
+        battle_format=format_map[reg],
         log_level=40,
         max_concurrent_battles=10,
         server_configuration=ShowdownServerConfiguration,
         accept_open_team_sheet=True,
         start_timer_on_battle_start=play_on_ladder,
-        team=RandomTeamBuilder(
-            run_id, num_teams, battle_format, team1=team1, team2=team2
-        ),
+        team=RandomTeamBuilder(run_id, num_teams, reg, team1=team1, team2=team2),
     )
     saves_path = results_path / f"saves-{method}" / f"{num_teams}-teams"
     filepath = sorted(saves_path.iterdir(), key=lambda p: int(p.stem))[-1]
@@ -118,12 +116,12 @@ if __name__ == "__main__":
         "-l", action="store_true", help="Play ladder. Default accepts challenges."
     )
     args = parser.parse_args()
-    battle_format = format_map[args.reg.lower()]
+    reg = args.reg.lower()
     asyncio.run(
         play(
             args.username,
             args.password,
-            battle_format,
+            reg,
             args.run_id,
             args.results_suffix,
             args.method,

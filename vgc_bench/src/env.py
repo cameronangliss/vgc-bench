@@ -20,7 +20,7 @@ from stable_baselines3.common.monitor import Monitor
 
 from vgc_bench.src.policy_player import PolicyPlayer
 from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle
-from vgc_bench.src.utils import LearningStyle, act_len, chunk_obs_len, moves
+from vgc_bench.src.utils import LearningStyle, act_len, chunk_obs_len, format_map, moves
 
 
 class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
@@ -51,7 +51,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
     @classmethod
     def create_env(
         cls,
-        battle_format: str,
+        reg: str,
         run_id: int,
         num_teams: int | None,
         num_envs: int,
@@ -72,7 +72,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         wrapper for other paradigms).
 
         Args:
-            battle_format: Pokemon Showdown battle format string.
+            reg: VGC regulation letter (e.g. 'g', 'h', 'i').
             run_id: Training run identifier.
             num_teams: Number of teams to train with, or None for all.
             num_envs: Number of parallel environments.
@@ -94,13 +94,11 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
             ),
-            battle_format=battle_format,
+            battle_format=format_map[reg],
             log_level=log_level,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(
-                run_id, num_teams, battle_format, team1, team2, toggle
-            ),
+            team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
             choose_on_teampreview=choose_on_teampreview,
         )
         if learning_style == LearningStyle.PURE_SELF_PLAY:

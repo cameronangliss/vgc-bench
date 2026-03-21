@@ -68,7 +68,7 @@ class RandomTeamBuilder(Teambuilder):
         self,
         run_id: int,
         num_teams: int | None,
-        battle_format: str,
+        reg: str,
         team1: str | None = None,
         team2: str | None = None,
         toggle: TeamToggle | None = None,
@@ -80,7 +80,7 @@ class RandomTeamBuilder(Teambuilder):
         Args:
             run_id: Training run identifier for deterministic team selection.
             num_teams: Number of teams to include in the pool, or None for all.
-            battle_format: Pokemon Showdown format string (e.g., 'gen9vgc2024regh').
+            reg: VGC regulation letter (e.g. 'g', 'h', 'i').
             team1: Optional team string for matchup solving (requires team2).
             team2: Optional team string for matchup solving (requires team1).
             toggle: Optional TeamToggle to prevent consecutive identical teams.
@@ -96,10 +96,10 @@ class RandomTeamBuilder(Teambuilder):
             packed_team2 = self.join_team(parsed_team2)
             self.teams.append(packed_team2)
             return
-        paths = get_team_paths(battle_format)
+        paths = get_team_paths(reg)
         if num_teams is None:
             num_teams = len(paths)
-        teams = get_team_ids(run_id, num_teams, battle_format, take_from_end)
+        teams = get_team_ids(run_id, num_teams, reg, take_from_end)
         for team_path in [paths[t] for t in teams]:
             parsed_team = self.parse_showdown_team(team_path.read_text())
             packed_team = self.join_team(parsed_team)
@@ -158,18 +158,18 @@ def calc_team_similarity_score(team1: str, team2: str):
     return round(similarity_score / 60, ndigits=3)
 
 
-def find_run_id(team_ids: set[int], battle_format: str) -> int:
+def find_run_id(team_ids: set[int], reg: str) -> int:
     """
     Finds lowest run_id > 0 that will have team_ids in the beginning of its team order
     """
     run_id = 1
-    while set(get_team_ids(run_id, len(team_ids), battle_format, False)) != team_ids:
+    while set(get_team_ids(run_id, len(team_ids), reg, False)) != team_ids:
         run_id += 1
     return run_id
 
 
 def get_team_ids(
-    run_id: int, num_teams: int, battle_format: str, take_from_end: bool
+    run_id: int, num_teams: int, reg: str, take_from_end: bool
 ) -> list[int]:
     """
     Get deterministically shuffled team indices for a given run.
@@ -177,29 +177,28 @@ def get_team_ids(
     Args:
         run_id: Seed for deterministic shuffling.
         num_teams: Number of team indices to return.
-        battle_format: Pokemon Showdown format string.
+        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
         take_from_end: If True, take teams from end of shuffled list.
 
     Returns:
         List of team indices.
     """
-    paths = get_team_paths(battle_format)
+    paths = get_team_paths(reg)
     teams = list(range(len(paths)))
     random.Random(run_id).shuffle(teams)
     return teams[-num_teams:] if take_from_end else teams[:num_teams]
 
 
 @cache
-def get_team_paths(battle_format: str) -> list[Path]:
+def get_team_paths(reg: str) -> list[Path]:
     """
-    Get all team file paths for a given battle format.
+    Get all team file paths for a given regulation.
 
     Args:
-        battle_format: Pokemon Showdown format string (extracts last 4 chars
-            as regulation identifier, e.g., 'regh' from 'gen9vgc2024regh').
+        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
 
     Returns:
         List of Path objects pointing to team .txt files.
     """
-    reg_path = Path("teams") / battle_format[-4:]
+    reg_path = Path("teams") / f"reg{reg}"
     return sorted(reg_path.rglob("*.txt"))

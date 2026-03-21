@@ -97,7 +97,7 @@ class TrajectoryDataset(Dataset):
 
 
 def pretrain(
-    battle_format: str,
+    reg: str,
     run_id: int,
     num_teams: int,
     port: int,
@@ -112,7 +112,7 @@ def pretrain(
     data, periodically evaluating against a SimpleHeuristics opponent.
 
     Args:
-        battle_format: Pokemon Showdown battle format string.
+        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
         run_id: Training run identifier for saving checkpoints.
         num_teams: Number of teams to use for evaluation.
         port: Port for the Pokemon Showdown server.
@@ -120,6 +120,7 @@ def pretrain(
         num_frames: Number of frames to stack for temporal context.
         div_frac: Fraction of dataset to load per training iteration.
     """
+    battle_format = format_map[reg]
     env = ShowdownEnv(
         battle_format=battle_format,
         log_level=40,
@@ -171,7 +172,7 @@ def pretrain(
         log_level=40,
         max_concurrent_battles=10,
         accept_open_team_sheet=True,
-        team=RandomTeamBuilder(run_id, num_teams, battle_format),
+        team=RandomTeamBuilder(run_id, num_teams, reg),
     )
     eval_opponent = SimpleHeuristicsPlayer(
         server_configuration=ServerConfiguration(
@@ -182,7 +183,7 @@ def pretrain(
         log_level=40,
         max_concurrent_battles=10,
         accept_open_team_sheet=True,
-        team=RandomTeamBuilder(run_id, num_teams, battle_format),
+        team=RandomTeamBuilder(run_id, num_teams, reg),
     )
     win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
     bc.logger.record("bc/eval", win_rate)
@@ -239,9 +240,9 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     set_global_seed(args.run_id)
-    battle_format = format_map[args.reg.lower()]
+    reg = args.reg.lower()
     pretrain(
-        battle_format,
+        reg,
         args.run_id,
         args.num_teams,
         args.port,
