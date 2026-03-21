@@ -114,11 +114,7 @@ def train(
         output_dir.mkdir(exist_ok=True)
         (output_dir / "team1.txt").write_text(team1[1:])
         (output_dir / "team2.txt").write_text(team2[1:])
-    teams_label = (
-        f"reg-{reg}"
-        if num_teams is None
-        else f"reg-{reg}-{num_teams}-teams"
-    )
+    teams_label = f"reg-{reg}" if num_teams is None else f"reg-{reg}-{num_teams}-teams"
     save_dir = output_dir / f"saves-{method}" / teams_label
     ppo = PPO(
         MaskedActorCriticPolicy,
