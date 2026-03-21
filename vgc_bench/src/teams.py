@@ -23,30 +23,27 @@ class TeamToggle:
         num_teams: Total number of teams available for selection.
     """
 
-    def __init__(self, num_teams: int):
-        """
-        Initialize the team toggle.
-
-        Args:
-            num_teams: Number of teams to toggle between (must be > 1).
-        """
-        assert num_teams > 1
-        self.num_teams = num_teams
+    def __init__(self):
+        """Initialize the team toggle."""
         self._last_value = None
 
-    def next(self) -> int:
+    def next(self, num_teams: int) -> int:
         """
         Get the next team index, guaranteed different from the previous call.
+
+        Args:
+            num_teams: Number of teams to choose from (must be > 1).
 
         Returns:
             Team index between 0 and num_teams-1.
         """
+        assert num_teams > 1
         if self._last_value is None:
-            self._last_value = random.choice(range(self.num_teams))
+            self._last_value = random.choice(range(num_teams))
             return self._last_value
         else:
             value = random.choice(
-                [t for t in range(self.num_teams) if t != self._last_value]
+                [t for t in range(num_teams) if t != self._last_value]
             )
             self._last_value = None
             return value
@@ -70,7 +67,7 @@ class RandomTeamBuilder(Teambuilder):
     def __init__(
         self,
         run_id: int,
-        num_teams: int,
+        num_teams: int | None,
         battle_format: str,
         team1: str | None = None,
         team2: str | None = None,
@@ -82,7 +79,7 @@ class RandomTeamBuilder(Teambuilder):
 
         Args:
             run_id: Training run identifier for deterministic team selection.
-            num_teams: Number of teams to include in the pool.
+            num_teams: Number of teams to include in the pool, or None for all.
             battle_format: Pokemon Showdown format string (e.g., 'gen9vgc2024regh').
             team1: Optional team string for matchup solving (requires team2).
             team2: Optional team string for matchup solving (requires team1).
@@ -91,7 +88,6 @@ class RandomTeamBuilder(Teambuilder):
         """
         self.teams = []
         self.toggle = toggle
-        paths = get_team_paths(battle_format)
         if team1 is not None and team2 is not None:
             parsed_team1 = self.parse_showdown_team(team1)
             packed_team1 = self.join_team(parsed_team1)
@@ -100,6 +96,9 @@ class RandomTeamBuilder(Teambuilder):
             packed_team2 = self.join_team(parsed_team2)
             self.teams.append(packed_team2)
             return
+        paths = get_team_paths(battle_format)
+        if num_teams is None:
+            num_teams = len(paths)
         teams = get_team_ids(run_id, num_teams, battle_format, take_from_end)
         for team_path in [paths[t] for t in teams]:
             parsed_team = self.parse_showdown_team(team_path.read_text())
@@ -114,7 +113,7 @@ class RandomTeamBuilder(Teambuilder):
             Packed team string, either toggled or randomly selected.
         """
         if self.toggle:
-            return self.teams[self.toggle.next()]
+            return self.teams[self.toggle.next(len(self.teams))]
         else:
             return random.choice(self.teams)
 

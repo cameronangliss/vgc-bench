@@ -22,7 +22,7 @@ from vgc_bench.src.utils import LearningStyle, format_map, set_global_seed
 def train(
     battle_format: str,
     run_id: int,
-    num_teams: int,
+    num_teams: int | None,
     num_envs: int,
     num_eval_workers: int,
     log_level: int,
@@ -114,7 +114,9 @@ def train(
         output_dir.mkdir(exist_ok=True)
         (output_dir / "team1.txt").write_text(team1[1:])
         (output_dir / "team2.txt").write_text(team2[1:])
-    save_dir = output_dir / f"saves-{method}" / f"{num_teams}-teams"
+    reg_letter = battle_format[-1]
+    teams_label = f"reg-{reg_letter}" if num_teams is None else f"reg-{reg_letter}-{num_teams}-teams"
+    save_dir = output_dir / f"saves-{method}" / teams_label
     ppo = PPO(
         MaskedActorCriticPolicy,
         env,
@@ -167,7 +169,7 @@ def train(
             team2,
             results_suffix,
         ),
-        tb_log_name=f"{num_teams}-teams",
+        tb_log_name=teams_label,
         reset_num_timesteps=False,
     )
     env.close()
@@ -237,7 +239,10 @@ if __name__ == "__main__":
         help="suffix appended to results<run_id> for output paths",
     )
     parser.add_argument(
-        "--num_teams", type=int, default=2, help="number of teams to train with"
+        "--num_teams",
+        type=int,
+        default=None,
+        help="number of teams to train with (default: all available teams)",
     )
     parser.add_argument(
         "--num_envs", type=int, default=1, help="number of parallel envs to run"

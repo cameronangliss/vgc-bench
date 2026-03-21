@@ -53,7 +53,7 @@ class Callback(BaseCallback):
     def __init__(
         self,
         run_id: int,
-        num_teams: int,
+        num_teams: int | None,
         battle_format: str,
         num_eval_workers: int,
         log_level: int,
@@ -89,7 +89,6 @@ class Callback(BaseCallback):
             results_suffix: Suffix appended to results<run_id> for output paths.
         """
         super().__init__()
-        self.num_teams = num_teams
         self.learning_style = learning_style
         self.behavior_clone = behavior_clone
         self.save_interval = save_interval
@@ -105,13 +104,15 @@ class Callback(BaseCallback):
         suffix = f"-{results_suffix}" if results_suffix else ""
         output_dir = Path(f"results{run_id}{suffix}")
         self.log_dir = output_dir / f"logs-{method}"
-        self.save_dir = output_dir / f"saves-{method}" / f"{self.num_teams}-teams"
+        reg_letter = battle_format[-1]
+        self.teams_label = f"reg-{reg_letter}" if num_teams is None else f"reg-{reg_letter}-{num_teams}-teams"
+        self.save_dir = output_dir / f"saves-{method}" / self.teams_label
         self.log_dir.mkdir(parents=True, exist_ok=True)
         self.save_dir.mkdir(parents=True, exist_ok=True)
         self.payoff_matrix: npt.NDArray[np.float32]
         self.prob_dist = None
         if self.learning_style == LearningStyle.DOUBLE_ORACLE:
-            payoff_path = self.log_dir / f"{self.num_teams}-teams-payoff-matrix.json"
+            payoff_path = self.log_dir / f"{self.teams_label}-payoff-matrix.json"
             if payoff_path.exists():
                 with payoff_path.open() as f:
                     self.payoff_matrix = np.array(json.load(f))
@@ -120,7 +121,7 @@ class Callback(BaseCallback):
             self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
         if learning_style == LearningStyle.EXPLOITER:
             num_teams = 1
-        toggle = None if allow_mirror_match else TeamToggle(num_teams)
+        toggle = None if allow_mirror_match else TeamToggle()
         self.eval_agent = BatchPolicyPlayer(
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
@@ -296,7 +297,7 @@ class Callback(BaseCallback):
             [self.payoff_matrix, win_rates.reshape(1, -1)], axis=0
         )
         self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
-        payoff_path = self.log_dir / f"{self.num_teams}-teams-payoff-matrix.json"
+        payoff_path = self.log_dir / f"{self.teams_label}-payoff-matrix.json"
         with payoff_path.open("w") as f:
             json.dump(
                 [

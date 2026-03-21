@@ -53,7 +53,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         cls,
         battle_format: str,
         run_id: int,
-        num_teams: int,
+        num_teams: int | None,
         num_envs: int,
         log_level: int,
         port: int,
@@ -74,7 +74,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         Args:
             battle_format: Pokemon Showdown battle format string.
             run_id: Training run identifier.
-            num_teams: Number of teams to train with.
+            num_teams: Number of teams to train with, or None for all.
             num_envs: Number of parallel environments.
             log_level: Logging verbosity for Showdown clients.
             port: Port for the Pokemon Showdown server.
@@ -88,7 +88,7 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         Returns:
             Wrapped Gymnasium environment ready for training.
         """
-        toggle = None if allow_mirror_match else TeamToggle(num_teams)
+        toggle = None if allow_mirror_match else TeamToggle()
         env = cls(
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
