@@ -169,11 +169,7 @@ def normalize_team_text(text: str) -> str:
         if is_raging_bolt and not has_correct_atk_iv:
             # No IVs line at all; insert after Nature line
             insert_idx = next(
-                (
-                    i + 1
-                    for i, l in enumerate(new_lines)
-                    if l.endswith("Nature")
-                ),
+                (i + 1 for i, l in enumerate(new_lines) if l.endswith("Nature")),
                 len(new_lines),
             )
             new_lines.insert(insert_idx, "IVs: 20 Atk")
@@ -196,7 +192,6 @@ def all_pokemon_have_evs(team_text: str) -> bool:
         for block in blocks
         if block.strip()
     )
-
 
 
 def is_valid_placement(placement: str) -> bool:
@@ -249,9 +244,7 @@ def scrape_regulation(regulation: str) -> None:
                 continue
             if re.search(
                 r"^\s*Ability:\s*Illusion\s*$", team_text, re.IGNORECASE | re.MULTILINE
-            ) or re.search(
-                r"@\s*Electric Gem\s*$", team_text, re.MULTILINE
-            ):
+            ) or re.search(r"@\s*Electric Gem\s*$", team_text, re.MULTILINE):
                 stats["banned"] += 1
                 continue
             try:
