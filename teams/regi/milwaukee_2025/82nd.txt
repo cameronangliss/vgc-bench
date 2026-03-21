@@ -1,4 +1,4 @@
-Fred (Koraidon) @ Clear Amulet
+Koraidon @ Clear Amulet
 Ability: Orichalcum Pulse
 Level: 50
 Tera Type: Fire
@@ -9,7 +9,7 @@ Adamant Nature
 - Flame Charge
 - Protect
 
-Wilma (Calyrex-Shadow) @ Focus Sash
+Calyrex-Shadow @ Focus Sash
 Ability: As One (Spectrier)
 Level: 50
 Tera Type: Dark
@@ -21,7 +21,7 @@ IVs: 0 Atk
 - Encore
 - Protect
 
-Dino (Raging Bolt) @ Assault Vest
+Raging Bolt @ Assault Vest
 Ability: Protosynthesis
 Level: 50
 Tera Type: Electric
@@ -33,7 +33,7 @@ IVs: 20 Atk
 - Draco Meteor
 - Thunderclap
 
-Barney (Incineroar) @ Safety Goggles
+Incineroar @ Safety Goggles
 Ability: Intimidate
 Level: 50
 Tera Type: Bug
@@ -44,7 +44,7 @@ Impish Nature
 - Parting Shot
 - Fake Out
 
-Pebbles (Ogerpon-Cornerstone) @ Cornerstone Mask
+Ogerpon-Cornerstone @ Cornerstone Mask
 Ability: Sturdy
 Level: 50
 Tera Type: Rock
@@ -56,7 +56,7 @@ IVs: 20 SpA
 - Follow Me
 - Spiky Shield
 
-Bamm Bamm (Brute Bonnet) @ Covert Cloak
+Brute Bonnet @ Covert Cloak
 Ability: Protosynthesis
 Level: 50
 Tera Type: Fairy

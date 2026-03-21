@@ -1,4 +1,4 @@
-megabeast:3 (Miraidon) @ Choice Specs
+Miraidon @ Choice Specs
 Ability: Hadron Engine
 Level: 50
 Tera Type: Fairy
@@ -9,7 +9,7 @@ Modest Nature
 - Draco Meteor
 - Dazzling Gleam
 
-hellofreak (Incineroar) (F) @ Rocky Helmet
+Incineroar (F) @ Rocky Helmet
 Ability: Intimidate
 Level: 50
 Tera Type: Ghost
@@ -21,7 +21,7 @@ IVs: 11 Spe
 - U-turn
 - Fake Out
 
-radicalqueen (Urshifu) (F) @ Focus Sash
+Urshifu (F) @ Focus Sash
 Ability: Unseen Fist
 Level: 50
 Tera Type: Dark
@@ -32,7 +32,7 @@ Adamant Nature
 - Close Combat
 - Detect
 
-partypirate (Iron Hands) @ Assault Vest
+Iron Hands @ Assault Vest
 Ability: Quark Drive
 Level: 50
 Tera Type: Poison
@@ -44,7 +44,7 @@ IVs: 0 Spe
 - Heavy Slam
 - Fake Out
 
-crimsonracer (Iron Treads) @ Choice Band
+Iron Treads @ Choice Band
 Ability: Quark Drive
 Level: 50
 Shiny: Yes
@@ -56,7 +56,7 @@ Jolly Nature
 - Steel Roller
 - Rock Slide
 
-mythicdreamr (Farigiraf) (M) @ Electric Seed
+Farigiraf (M) @ Electric Seed
 Ability: Armor Tail
 Level: 50
 Shiny: Yes

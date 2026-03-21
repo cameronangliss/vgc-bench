@@ -1,4 +1,4 @@
-Cinnabun (Furret) (F) @ Focus Sash
+Furret (F) @ Focus Sash
 Ability: Frisk
 Level: 50
 Shiny: Yes
@@ -10,7 +10,7 @@ Jolly Nature
 - Super Fang
 - Knock Off
 
-Churro (Gholdengo) @ Life Orb
+Gholdengo @ Life Orb
 Ability: Good as Gold
 Level: 50
 Shiny: Yes
@@ -23,7 +23,7 @@ IVs: 0 Atk
 - Shadow Ball
 - Nasty Plot
 
-Velvet (Incineroar) (F) @ Safety Goggles
+Incineroar (F) @ Safety Goggles
 Ability: Intimidate
 Level: 50
 Shiny: Yes
@@ -35,7 +35,7 @@ Careful Nature
 - Flare Blitz
 - Parting Shot
 
-Cupcake (Primarina) (F) @ Throat Spray
+Primarina (F) @ Throat Spray
 Ability: Liquid Voice
 Level: 50
 Shiny: Yes
@@ -48,7 +48,7 @@ IVs: 0 Atk
 - Moonblast
 - Haze
 
-Taffy (Rillaboom) (F) @ Assault Vest
+Rillaboom (F) @ Assault Vest
 Ability: Grassy Surge
 Level: 50
 Shiny: Yes
@@ -60,7 +60,7 @@ Adamant Nature
 - Grassy Glide
 - High Horsepower
 
-Tootsie (Sneasler) (F) @ Grassy Seed
+Sneasler (F) @ Grassy Seed
 Ability: Unburden
 Level: 50
 Shiny: Yes

@@ -1,4 +1,4 @@
-Cometa (Roaring Moon) @ Booster Energy
+Roaring Moon @ Booster Energy
 Ability: Protosynthesis
 Tera Type: Poison
 EVs: 116 HP / 4 Atk / 132 Def / 4 SpD / 252 Spe
@@ -8,7 +8,7 @@ Jolly Nature
 - Tailwind
 - Protect
 
-Chimenea (Weezing-Galar) (F) @ Sitrus Berry
+Weezing-Galar (F) @ Sitrus Berry
 Ability: Neutralizing Gas
 Level: 52
 Tera Type: Ghost
@@ -20,7 +20,7 @@ IVs: 0 Atk
 - Will-O-Wisp
 - Protect
 
-Kung Fu (Urshifu) (M) @ Focus Sash
+Urshifu (M) @ Focus Sash
 Ability: Unseen Fist
 Level: 81
 Tera Type: Dark
@@ -32,7 +32,7 @@ IVs: 26 SpA
 - Detect
 - Close Combat
 
-Archi (Arcanine-Hisui) (F) @ Choice Band
+Arcanine-Hisui (F) @ Choice Band
 Ability: Intimidate
 Level: 54
 Tera Type: Grass
@@ -43,7 +43,7 @@ Adamant Nature
 - Extreme Speed
 - Head Smash
 
-Espagueti (Gholdengo) @ Life Orb
+Gholdengo @ Life Orb
 Ability: Good as Gold
 Tera Type: Steel
 EVs: 116 HP / 68 Def / 140 SpA / 4 SpD / 180 Spe
@@ -54,7 +54,7 @@ IVs: 0 Atk
 - Nasty Plot
 - Protect
 
-Melman (Raging Bolt) @ Assault Vest
+Raging Bolt @ Assault Vest
 Ability: Protosynthesis
 Level: 75
 Tera Type: Fairy

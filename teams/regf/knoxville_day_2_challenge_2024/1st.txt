@@ -1,4 +1,4 @@
-Mitty (Tinkaton) @ Assault Vest
+Tinkaton @ Assault Vest
 Ability: Own Tempo
 Level: 50
 Tera Type: Fairy
@@ -9,7 +9,7 @@ Impish Nature
 - Feint
 - Play Rough
 
-One Punch Bear (Urshifu) @ Focus Sash
+Urshifu @ Focus Sash
 Ability: Unseen Fist
 Level: 50
 Tera Type: Stellar
@@ -20,7 +20,7 @@ Jolly Nature
 - Close Combat
 - Detect
 
-Sailor Moon Bear (Ursaluna) @ Flame Orb
+Ursaluna @ Flame Orb
 Ability: Guts
 Level: 50
 Tera Type: Ghost
@@ -31,7 +31,7 @@ Adamant Nature
 - Earthquake
 - Facade
 
-Wiggly bars (Cresselia) @ Safety Goggles
+Cresselia @ Safety Goggles
 Ability: Levitate
 Level: 50
 Shiny: Yes
@@ -44,7 +44,7 @@ IVs: 0 Atk / 20 Spe
 - Trick Room
 - Dazzling Gleam
 
-Mr Rizz (Tornadus) @ Rocky Helmet
+Tornadus @ Rocky Helmet
 Ability: Prankster
 Level: 50
 Tera Type: Ghost
@@ -56,7 +56,7 @@ IVs: 0 Atk
 - Bleakwind Storm
 - Swagger
 
-Great Neck (Raging Bolt) @ Booster Energy
+Raging Bolt @ Booster Energy
 Ability: Protosynthesis
 Level: 50
 Tera Type: Grass

@@ -1,4 +1,4 @@
-Andros (Tornadus) (M) @ Covert Cloak
+Tornadus (M) @ Covert Cloak
 Ability: Prankster
 Tera Type: Dark
 EVs: 4 HP / 70 Def / 180 SpA / 4 SpD / 252 Spe

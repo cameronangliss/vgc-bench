@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Tailwind
 - Protect
 
-ãã¿ã©ã¯ã«ã (Flutter Mane) @ Choice Specs
+Flutter Mane @ Choice Specs
 Ability: Protosynthesis
 Level: 94
 Tera Type: Fairy
@@ -33,7 +33,7 @@ Adamant Nature
 - Follow Me
 - Spiky Shield
 
-ãã¡ã­ã (Incineroar) (M) @ Sitrus Berry
+Incineroar (M) @ Sitrus Berry
 Ability: Intimidate
 Shiny: Yes
 Tera Type: Fairy
@@ -44,7 +44,7 @@ Impish Nature
 - Fake Out
 - Parting Shot
 
-ãªã­ãª (Farigiraf) (F) @ Mental Herb
+Farigiraf (F) @ Mental Herb
 Ability: Armor Tail
 Level: 50
 Shiny: Yes

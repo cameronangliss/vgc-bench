@@ -1,4 +1,4 @@
-Blast (Chi-Yu) @ Choice Scarf
+Chi-Yu @ Choice Scarf
 Ability: Beads of Ruin
 Level: 50
 Tera Type: Ghost
@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Overheat
 - Snarl
 
-Beam (Amoonguss) @ Rocky Helmet
+Amoonguss @ Rocky Helmet
 Ability: Regenerator
 Level: 50
 Tera Type: Water
@@ -22,7 +22,7 @@ IVs: 0 Atk / 27 Spe
 - Rage Powder
 - Protect
 
-Punch (Urshifu-Rapid-Strike) @ Safety Goggles
+Urshifu-Rapid-Strike @ Safety Goggles
 Ability: Unseen Fist
 Level: 50
 Tera Type: Water
@@ -33,7 +33,7 @@ Adamant Nature
 - Aqua Jet
 - Protect
 
-Slam (Zamazenta-Crowned) @ Rusted Shield
+Zamazenta-Crowned @ Rusted Shield
 Ability: Dauntless Shield
 Level: 50
 Tera Type: Dragon
@@ -44,7 +44,7 @@ Impish Nature
 - Wide Guard
 - Protect
 
-Voice (Flutter Mane) @ Booster Energy
+Flutter Mane @ Booster Energy
 Ability: Protosynthesis
 Level: 50
 Tera Type: Grass
@@ -56,7 +56,7 @@ IVs: 0 Atk
 - Icy Wind
 - Protect
 
-Pulse (Chien-Pao) @ Focus Sash
+Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
 Level: 50
 Tera Type: Ghost

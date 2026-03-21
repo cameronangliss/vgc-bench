@@ -1,4 +1,4 @@
-Cartman (Incineroar) @ Rocky Helmet
+Incineroar @ Rocky Helmet
 Ability: Intimidate
 Level: 50
 Tera Type: Ghost
@@ -10,7 +10,7 @@ IVs: 25 Spe
 - Knock Off
 - Parting Shot
 
-Trunkey (Rillaboom) @ Assault Vest
+Rillaboom @ Assault Vest
 Ability: Grassy Surge
 Level: 50
 Tera Type: Fire
@@ -21,7 +21,7 @@ Adamant Nature
 - Grassy Glide
 - U-turn
 
-Shido (Urshifu-Rapid-Strike) @ Focus Sash
+Urshifu-Rapid-Strike @ Focus Sash
 Ability: Unseen Fist
 Level: 50
 Tera Type: Stellar
@@ -32,7 +32,7 @@ Adamant Nature
 - Aqua Jet
 - Protect
 
-King Olly (Calyrex-Shadow) @ Life Orb
+Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
 Level: 50
 Tera Type: Normal
@@ -44,7 +44,7 @@ IVs: 0 Atk
 - Nasty Plot
 - Psychic
 
-OdinâsWrath (Raging Bolt) @ Booster Energy
+Raging Bolt @ Booster Energy
 Ability: Protosynthesis
 Tera Type: Fairy
 EVs: 188 HP / 36 Def / 180 SpA / 4 SpD / 100 Spe
@@ -55,7 +55,7 @@ IVs: 20 Atk
 - Thunderclap
 - Protect
 
-Mio (Ogerpon-Hearthflame) (F) @ Hearthflame Mask
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
 Ability: Mold Breaker
 Level: 50
 Tera Type: Fire

@@ -1,4 +1,4 @@
-Cutter (Kingambit) @ Assault Vest
+Kingambit @ Assault Vest
 Ability: Defiant
 Level: 50
 Tera Type: Fire
@@ -9,7 +9,7 @@ Adamant Nature
 - Sucker Punch
 - Low Kick
 
-Curveball (Rillaboom) @ Miracle Seed
+Rillaboom @ Miracle Seed
 Ability: Grassy Surge
 Level: 50
 Tera Type: Fire
@@ -20,7 +20,7 @@ Adamant Nature
 - U-turn
 - Fake Out
 
-Knuckleball (Electabuzz) @ Eviolite
+Electabuzz @ Eviolite
 Ability: Vital Spirit
 Level: 50
 Tera Type: Dark
@@ -32,7 +32,7 @@ IVs: 0 Atk
 - Taunt
 - Protect
 
-Fastball (Blaziken) @ Focus Sash
+Blaziken @ Focus Sash
 Ability: Speed Boost
 Level: 50
 Tera Type: Stellar
@@ -43,7 +43,7 @@ Adamant Nature
 - Coaching
 - Protect
 
-Splitter (Dragapult) @ Choice Band
+Dragapult @ Choice Band
 Ability: Clear Body
 Level: 50
 Tera Type: Ghost
@@ -54,7 +54,7 @@ Adamant Nature
 - Tera Blast
 - U-turn
 
-Slider (Primarina) @ Sitrus Berry
+Primarina @ Sitrus Berry
 Ability: Liquid Voice
 Level: 50
 Tera Type: Steel

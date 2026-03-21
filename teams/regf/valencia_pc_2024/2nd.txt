@@ -32,7 +32,6 @@ IVs: 0 Atk
 
 Raging Bolt @ Safety Goggles
 Ability: Protosynthesis
-Shiny: Yes
 Tera Type: Grass
 EVs: 196 HP / 28 Def / 252 SpA / 20 SpD / 12 Spe
 Modest Nature

@@ -1,4 +1,4 @@
-Gru (Kyogre) @ Leftovers
+Kyogre @ Leftovers
 Ability: Drizzle
 Level: 50
 Tera Type: Grass
@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Calm Mind
 - Protect
 
-Kevin (Incineroar) @ Safety Goggles
+Incineroar @ Safety Goggles
 Ability: Intimidate
 Level: 50
 Tera Type: Ghost
@@ -21,7 +21,7 @@ Impish Nature
 - Parting Shot
 - Fake Out
 
-Stuart (Rillaboom) @ Assault Vest
+Rillaboom @ Assault Vest
 Ability: Grassy Surge
 Level: 50
 Tera Type: Fire
@@ -32,7 +32,7 @@ Jolly Nature
 - U-turn
 - Fake Out
 
-Bob (Amoonguss) @ Rocky Helmet
+Amoonguss @ Rocky Helmet
 Ability: Regenerator
 Level: 50
 Tera Type: Fairy
@@ -44,7 +44,7 @@ IVs: 0 Atk / 27 Spe
 - Rage Powder
 - Protect
 
-Nefario (Urshifu-Rapid-Strike) @ Choice Scarf
+Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
 Level: 50
 Tera Type: Ghost
@@ -55,7 +55,7 @@ Adamant Nature
 - Aqua Jet
 - U-turn
 
-The Moon (Roaring Moon) @ Booster Energy
+Roaring Moon @ Booster Energy
 Ability: Protosynthesis
 Level: 50
 Tera Type: Flying

@@ -1,4 +1,4 @@
-Daft (Weavile) @ Focus Sash
+Weavile @ Focus Sash
 Ability: Pickpocket
 Level: 50
 Shiny: Yes
@@ -11,7 +11,7 @@ IVs: 29 SpA
 - Beat Up
 - Fake Out
 
-Punk (Annihilape) @ Sitrus Berry
+Annihilape @ Sitrus Berry
 Ability: Defiant
 Level: 50
 Shiny: Yes
@@ -24,7 +24,7 @@ IVs: 15 SpA
 - Taunt
 - Protect
 
-Manchild (Dondozo) @ Leftovers
+Dondozo @ Leftovers
 Ability: Unaware
 Level: 50
 Shiny: Yes
@@ -37,7 +37,7 @@ IVs: 28 SpA
 - Order Up
 - Protect
 
-Lover Girl (Tatsugiri) @ Safety Goggles
+Tatsugiri @ Safety Goggles
 Ability: Commander
 Level: 50
 Shiny: Yes
@@ -50,7 +50,7 @@ IVs: 5 Atk
 - Helping Hand
 - Protect
 
-IB3 (Archaludon) @ Assault Vest
+Archaludon @ Assault Vest
 Ability: Stamina
 Level: 50
 Tera Type: Fighting
@@ -62,7 +62,7 @@ IVs: 13 Atk
 - Flash Cannon
 - Body Press
 
-PEP (Pelipper) @ Choice Scarf
+Pelipper @ Choice Scarf
 Ability: Drizzle
 Level: 50
 Tera Type: Ghost

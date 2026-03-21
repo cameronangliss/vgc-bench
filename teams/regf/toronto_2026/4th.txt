@@ -43,7 +43,7 @@ Adamant Nature
 - High Horsepower
 - Fake Out
 
-can sub rilla (Tornadus) @ Focus Sash
+Tornadus @ Focus Sash
 Ability: Prankster
 Level: 50
 Tera Type: Ghost

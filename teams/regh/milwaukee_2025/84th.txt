@@ -1,4 +1,4 @@
-The Deep (Indeedee) @ Focus Sash
+Indeedee @ Focus Sash
 Ability: Psychic Surge
 Level: 72
 Shiny: Yes
@@ -10,7 +10,7 @@ Timid Nature
 - Imprison
 - Trick Room
 
-A-Train (Drifblim) (M) @ Psychic Seed
+Drifblim (M) @ Psychic Seed
 Ability: Unburden
 Level: 50
 Shiny: Yes
@@ -23,7 +23,7 @@ IVs: 30 SpA
 - Strength Sap
 - Tailwind
 
-Lamplighter (Volcarona) (M) @ Life Orb
+Volcarona (M) @ Life Orb
 Ability: Flame Body
 Level: 61
 Shiny: Yes
@@ -35,7 +35,7 @@ Modest Nature
 - Tera Blast
 - Protect
 
-Homelander (Kommo-o) (F) @ Leftovers
+Kommo-o (F) @ Leftovers
 Ability: Soundproof
 Level: 69
 Shiny: Yes
@@ -47,7 +47,7 @@ Bold Nature
 - Iron Defense
 - Protect
 
-Firecracker (Toxtricity) (F) @ Choice Specs
+Toxtricity (F) @ Choice Specs
 Ability: Punk Rock
 Level: 50
 Shiny: Yes
@@ -59,7 +59,7 @@ Timid Nature
 - Boomburst
 - Volt Switch
 
-Black Noir (Hydreigon) (F) @ Assault Vest
+Hydreigon (F) @ Assault Vest
 Ability: Levitate
 Level: 64
 Shiny: Yes

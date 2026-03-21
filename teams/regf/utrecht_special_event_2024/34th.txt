@@ -1,4 +1,4 @@
-POWER (Raging Bolt) @ Leftovers
+Raging Bolt @ Leftovers
 Ability: Protosynthesis
 Tera Type: Fairy
 EVs: 188 HP / 132 Def / 100 SpA / 68 SpD / 20 Spe
@@ -9,7 +9,7 @@ IVs: 20 Atk
 - Calm Mind
 - Protect
 
-Perfect Day (Chien-Pao) @ Focus Sash
+Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
 Level: 60
 Tera Type: Stellar
@@ -20,7 +20,7 @@ Jolly Nature
 - Protect
 - Sacred Sword
 
-DANCE (Urshifu-Rapid-Strike) @ Choice Scarf
+Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
 Tera Type: Ghost
 EVs: 68 HP / 156 Atk / 4 Def / 100 SpD / 180 Spe
@@ -31,7 +31,7 @@ IVs: 9 SpA
 - U-turn
 - Aqua Jet
 
-Ooga Chaka (Rillaboom) @ Assault Vest
+Rillaboom @ Assault Vest
 Ability: Grassy Surge
 Tera Type: Fire
 EVs: 252 HP / 36 Atk / 4 Def / 204 SpD / 12 Spe
@@ -41,7 +41,7 @@ Adamant Nature
 - Wood Hammer
 - Grassy Glide
 
-Risung Sun (Incineroar) @ Safety Goggles
+Incineroar @ Safety Goggles
 Ability: Intimidate
 Tera Type: Ghost
 EVs: 252 HP / 76 Def / 180 SpD
@@ -51,7 +51,7 @@ Impish Nature
 - Knock Off
 - Flare Blitz
 
-Genesis (Landorus) @ Life Orb
+Landorus @ Life Orb
 Ability: Sheer Force
 Tera Type: Poison
 EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe

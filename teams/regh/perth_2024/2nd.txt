@@ -1,4 +1,4 @@
-Dinko (Ursaluna) @ Flame Orb
+Ursaluna @ Flame Orb
 Ability: Guts
 Level: 50
 Tera Type: Fairy
@@ -9,7 +9,7 @@ Adamant Nature
 - Earthquake
 - Protect
 
-Big Bird (Kilowattrel) (F) @ Focus Sash
+Kilowattrel (F) @ Focus Sash
 Ability: Competitive
 Level: 50
 Tera Type: Ghost
@@ -21,7 +21,7 @@ IVs: 0 Atk
 - Tailwind
 - Protect
 
-Mr Worldwide (Gholdengo) @ Life Orb
+Gholdengo @ Life Orb
 Ability: Good as Gold
 Level: 50
 Tera Type: Flying
@@ -32,7 +32,7 @@ Timid Nature
 - Nasty Plot
 - Protect
 
-Pumpy the Grumpy (Incineroar) @ Assault Vest
+Incineroar @ Assault Vest
 Ability: Intimidate
 Level: 50
 Shiny: Yes
@@ -44,7 +44,7 @@ Adamant Nature
 - U-turn
 - Fake Out
 
-ë½ë¡ë (Amoonguss) @ Sitrus Berry
+Amoonguss @ Sitrus Berry
 Ability: Regenerator
 Level: 50
 Shiny: Yes
@@ -57,7 +57,7 @@ IVs: 0 Atk
 - Sludge Bomb
 - Protect
 
-Nokia Brick (Porygon2) @ Eviolite
+Porygon2 @ Eviolite
 Ability: Download
 Level: 50
 Shiny: Yes

@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Trick Room
 - Helping Hand
 
-RAOOOOOOOW (Miraidon) @ Choice Scarf
+Miraidon @ Choice Scarf
 Ability: Hadron Engine
 Level: 50
 Tera Type: Electric
@@ -21,7 +21,7 @@ Modest Nature
 - Draco Meteor
 - Volt Switch
 
-good against sun (Rayquaza) @ Clear Amulet
+Rayquaza @ Clear Amulet
 Ability: Air Lock
 Level: 50
 Tera Type: Normal

@@ -1,4 +1,4 @@
-Maziodyne (Miraidon) @ Choice Specs
+Miraidon @ Choice Specs
 Ability: Hadron Engine
 Level: 50
 Tera Type: Electric
@@ -9,7 +9,7 @@ Timid Nature
 - Draco Meteor
 - Discharge
 
-Bufudyne (Chien-Pao) @ Focus Sash
+Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
 Tera Type: Ghost
 EVs: 252 Atk / 4 Def / 252 Spe
@@ -20,7 +20,7 @@ IVs: 27 SpA
 - Sucker Punch
 - Protect
 
-God's Hand (Iron Hands) @ Assault Vest
+Iron Hands @ Assault Vest
 Ability: Quark Drive
 Tera Type: Grass
 EVs: 4 HP / 180 Atk / 44 Def / 236 SpD / 44 Spe
@@ -30,7 +30,7 @@ Adamant Nature
 - Drain Punch
 - Heavy Slam
 
-Garudyne (Talonflame) @ Life Orb
+Talonflame @ Life Orb
 Ability: Gale Wings
 Tera Type: Ground
 EVs: 4 HP / 252 Atk / 252 Spe
@@ -41,7 +41,7 @@ IVs: 1 SpA
 - Will-O-Wisp
 - Protect
 
-Megidolaon (Ursaluna-Bloodmoon) @ Silk Scarf
+Ursaluna-Bloodmoon @ Silk Scarf
 Ability: Mind's Eye
 Tera Type: Normal
 EVs: 196 HP / 4 Def / 252 SpA / 4 SpD / 52 Spe
@@ -52,7 +52,7 @@ IVs: 4 Atk
 - Calm Mind
 - Protect
 
-Psiodyne (Farigiraf) @ Electric Seed
+Farigiraf @ Electric Seed
 Ability: Armor Tail
 Level: 56
 Tera Type: Ground

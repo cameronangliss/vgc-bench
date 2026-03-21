@@ -1,4 +1,4 @@
-Anti-Hero (Yanmega) @ Focus Sash
+Yanmega @ Focus Sash
 Ability: Speed Boost
 Level: 50
 Tera Type: Ghost
@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Tailwind
 - Protect
 
-YOYOK (Ursaluna) @ Flame Orb
+Ursaluna @ Flame Orb
 Ability: Guts
 Level: 50
 Tera Type: Ghost
@@ -21,7 +21,7 @@ Adamant Nature
 - Headlong Rush
 - Protect
 
-Maroon (Porygon2) @ Eviolite
+Porygon2 @ Eviolite
 Ability: Download
 Level: 50
 Tera Type: Fighting
@@ -32,7 +32,7 @@ Modest Nature
 - Recover
 - Trick Room
 
-Karma (Incineroar) @ Safety Goggles
+Incineroar @ Safety Goggles
 Ability: Intimidate
 Level: 50
 Tera Type: Ghost
@@ -43,7 +43,7 @@ Adamant Nature
 - Flare Blitz
 - Fake Out
 
-Labyrinth (Amoonguss) @ Mental Herb
+Amoonguss @ Mental Herb
 Ability: Regenerator
 Level: 50
 Tera Type: Water
@@ -55,7 +55,7 @@ IVs: 0 Atk
 - Rage Powder
 - Spore
 
-Bejeweled (Gholdengo) @ Life Orb
+Gholdengo @ Life Orb
 Ability: Good as Gold
 Level: 50
 Tera Type: Water

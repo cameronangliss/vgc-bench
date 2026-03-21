@@ -1,4 +1,4 @@
-hot wheels (Koraidon) @ Clear Amulet
+Koraidon @ Clear Amulet
 Ability: Orichalcum Pulse
 Level: 50
 Tera Type: Fire
@@ -9,7 +9,7 @@ Adamant Nature
 - Flame Charge
 - Protect
 
-fushigi (Sandy Shocks) @ Life Orb
+Sandy Shocks @ Life Orb
 Ability: Protosynthesis
 Level: 50
 Tera Type: Water
@@ -21,7 +21,7 @@ IVs: 0 Atk
 - Earth Power
 - Volt Switch
 
-floam (Flutter Mane) @ Focus Sash
+Flutter Mane @ Focus Sash
 Ability: Protosynthesis
 Level: 50
 Tera Type: Stellar
@@ -33,7 +33,7 @@ IVs: 0 Atk
 - Icy Wind
 - Protect
 
-bop it (Rillaboom) @ Assault Vest
+Rillaboom @ Assault Vest
 Ability: Grassy Surge
 Level: 50
 Tera Type: Fire
@@ -44,7 +44,7 @@ Adamant Nature
 - U-turn
 - Fake Out
 
-pillow pets (Umbreon) @ Safety Goggles
+Umbreon @ Safety Goggles
 Ability: Inner Focus
 Level: 50
 Tera Type: Poison
@@ -56,7 +56,7 @@ IVs: 0 Atk
 - Snarl
 - Yawn
 
-silly bands (Gholdengo) @ Grassy Seed
+Gholdengo @ Grassy Seed
 Ability: Good as Gold
 Level: 50
 Tera Type: Water

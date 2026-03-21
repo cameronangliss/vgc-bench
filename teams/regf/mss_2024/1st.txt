@@ -22,7 +22,7 @@ IVs: 0 Atk
 - Earth Power
 - Protect
 
-Ogerpon (Ogerpon-Wellspring) @ Wellspring Mask
+Ogerpon-Wellspring @ Wellspring Mask
 Ability: Water Absorb
 Level: 50
 Tera Type: Water

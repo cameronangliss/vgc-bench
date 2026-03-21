@@ -1,4 +1,4 @@
-Tie? grr (Incineroar) @ Sitrus Berry
+Incineroar @ Sitrus Berry
 Ability: Intimidate
 Level: 64
 Tera Type: Grass
@@ -9,7 +9,7 @@ Adamant Nature
 - Knock Off
 - Parting Shot
 
-GoldN'GoAway (Gholdengo) @ Metal Coat
+Gholdengo @ Metal Coat
 Ability: Good as Gold
 Tera Type: Fairy
 EVs: 252 HP / 44 Def / 84 SpA / 20 SpD / 108 Spe
@@ -20,7 +20,7 @@ IVs: 5 Atk
 - Nasty Plot
 - Protect
 
-It's Overpon (Ogerpon-Wellspring) @ Wellspring Mask
+Ogerpon-Wellspring @ Wellspring Mask
 Ability: Water Absorb
 Tera Type: Water
 EVs: 188 HP / 60 Atk / 68 Def / 4 SpD / 188 Spe
@@ -30,7 +30,7 @@ Jolly Nature
 - Follow Me
 - Spiky Shield
 
-CasinoWinner (Tornadus) @ Rocky Helmet
+Tornadus @ Rocky Helmet
 Ability: Prankster
 Tera Type: Steel
 EVs: 212 HP / 172 Def / 4 SpA / 108 SpD / 12 Spe
@@ -41,7 +41,7 @@ IVs: 21 Atk
 - Rain Dance
 - Protect
 
-Ferdinand (Raging Bolt) @ Assault Vest
+Raging Bolt @ Assault Vest
 Ability: Protosynthesis
 Level: 75
 Tera Type: Fairy
@@ -53,7 +53,7 @@ IVs: 20 Atk
 - Draco Meteor
 - Snarl
 
-GrinN'BearIt (Urshifu) (M) @ Focus Sash
+Urshifu (M) @ Focus Sash
 Ability: Unseen Fist
 Level: 62
 Tera Type: Dark

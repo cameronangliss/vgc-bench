@@ -1,4 +1,4 @@
-BlackSwan (Glimmora) @ Power Herb
+Glimmora @ Power Herb
 Ability: Toxic Debris
 Level: 57
 Shiny: Yes
@@ -11,7 +11,7 @@ IVs: 0 Atk
 - Sludge Bomb
 - Spiky Shield
 
-Constance (Chi-Yu) @ Choice Specs
+Chi-Yu @ Choice Specs
 Ability: Beads of Ruin
 Level: 50
 Shiny: Yes
@@ -24,7 +24,7 @@ IVs: 20 Atk
 - Snarl
 - Overheat
 
-Kafka (Flutter Mane) @ Booster Energy
+Flutter Mane @ Booster Energy
 Ability: Protosynthesis
 Level: 50
 Tera Type: Fairy
@@ -36,7 +36,7 @@ IVs: 0 Atk
 - Moonblast
 - Protect
 
-Acheron (Urshifu) (M) @ Focus Sash
+Urshifu (M) @ Focus Sash
 Ability: Unseen Fist
 Level: 78
 Tera Type: Stellar
@@ -47,7 +47,7 @@ Adamant Nature
 - Sucker Punch
 - Detect
 
-Ruan mei (Tornadus) @ Sky Plate
+Tornadus @ Sky Plate
 Ability: Prankster
 Level: 79
 Shiny: Yes
@@ -59,7 +59,7 @@ Timid Nature
 - Bleakwind Storm
 - Protect
 
-Dahlia (Landorus-Therian) @ Choice Band
+Landorus-Therian @ Choice Band
 Ability: Intimidate
 Level: 50
 Tera Type: Ghost

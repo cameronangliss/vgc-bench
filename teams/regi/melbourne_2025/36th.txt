@@ -1,4 +1,4 @@
-Lancelot (Zacian-Crowned) @ Rusted Sword
+Zacian-Crowned @ Rusted Sword
 Ability: Intrepid Sword
 Level: 50
 Tera Type: Fairy
@@ -9,7 +9,7 @@ Jolly Nature
 - Sacred Sword
 - Protect
 
-Mordred (Calyrex-Shadow) @ Life Orb
+Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
 Level: 50
 Tera Type: Water
@@ -20,7 +20,7 @@ Timid Nature
 - Tera Blast
 - Protect
 
-Gawain (Ogerpon-Hearthflame) (F) @ Hearthflame Mask
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
 Ability: Mold Breaker
 Level: 50
 Tera Type: Fire
@@ -31,7 +31,7 @@ Adamant Nature
 - Follow Me
 - Spiky Shield
 
-Manoferrea (Iron Hands) @ Assault Vest
+Iron Hands @ Assault Vest
 Ability: Quark Drive
 Level: 50
 Tera Type: Water
@@ -42,7 +42,7 @@ Adamant Nature
 - Fake Out
 - Low Kick
 
-Agravain (Urshifu) @ Focus Sash
+Urshifu @ Focus Sash
 Ability: Unseen Fist
 Level: 50
 Tera Type: Dark
@@ -53,7 +53,7 @@ Adamant Nature
 - Sucker Punch
 - Detect
 
-Kay (Whimsicott) @ Covert Cloak
+Whimsicott @ Covert Cloak
 Ability: Prankster
 Level: 50
 Tera Type: Rock

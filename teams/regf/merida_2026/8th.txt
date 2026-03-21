@@ -1,4 +1,4 @@
-â¤ï¸KasaTetoâ¤ï¸ (Porygon2) @ Eviolite
+Porygon2 @ Eviolite
 Ability: Download
 Level: 62
 Shiny: Yes
@@ -10,7 +10,7 @@ Sassy Nature
 - Recover
 - Trick Room
 
-â¤ï¸Dulcibearâ¤ï¸ (Ursaluna) (F) @ Flame Orb
+Ursaluna (F) @ Flame Orb
 Ability: Guts
 Level: 50
 Shiny: Yes
@@ -48,7 +48,7 @@ Adamant Nature
 - Fake Out
 - Parting Shot
 
-âItaRinâ (Flutter Mane) @ Booster Energy
+Flutter Mane @ Booster Energy
 Ability: Protosynthesis
 Tera Type: Grass
 EVs: 108 HP / 76 Def / 148 SpA / 4 SpD / 172 Spe
@@ -59,7 +59,7 @@ IVs: 0 Atk
 - Icy Wind
 - Protect
 
-â¤ï¸Layâ¤ï¸ (Okidogi) @ Assault Vest
+Okidogi @ Assault Vest
 Ability: Guard Dog
 Tera Type: Ghost
 EVs: 244 HP / 108 Atk / 20 Def / 68 SpD / 68 Spe

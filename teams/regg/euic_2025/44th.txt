@@ -1,4 +1,4 @@
-Dust (Zacian-Crowned) @ Rusted Sword
+Zacian-Crowned @ Rusted Sword
 Ability: Intrepid Sword
 Level: 50
 Shiny: Yes
@@ -10,7 +10,7 @@ Adamant Nature
 - Tera Blast
 - Protect
 
-Miku (Regidrago) @ Life Orb
+Regidrago @ Life Orb
 Ability: Dragon's Maw
 Level: 50
 Shiny: Yes
@@ -23,7 +23,7 @@ IVs: 0 Atk
 - Earth Power
 - Protect
 
-I am You :D (Ditto) @ Focus Sash
+Ditto @ Focus Sash
 Ability: Imposter
 Level: 50
 Tera Type: Ghost
@@ -31,7 +31,7 @@ EVs: 252 HP / 252 Spe
 Timid Nature
 - Transform
 
-Torn R Us (Tornadus) @ Covert Cloak
+Tornadus @ Covert Cloak
 Ability: Prankster
 Level: 50
 Tera Type: Dark
@@ -43,7 +43,7 @@ IVs: 0 Atk
 - Tailwind
 - Taunt
 
-PunchyPunch (Urshifu-Rapid-Strike) @ Choice Scarf
+Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
 Level: 50
 Tera Type: Water
@@ -54,7 +54,7 @@ Adamant Nature
 - U-turn
 - Coaching
 
->:3 (Ogerpon-Hearthflame) (F) @ Hearthflame Mask
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
 Ability: Mold Breaker
 Level: 50
 Tera Type: Fire

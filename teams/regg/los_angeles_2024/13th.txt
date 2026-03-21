@@ -1,4 +1,4 @@
-Time's Arrow (Calyrex-Ice) @ Clear Amulet
+Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
 Level: 50
 Tera Type: Water
@@ -9,7 +9,7 @@ Adamant Nature
 - Trick Room
 - Protect
 
-Free Churro (Incineroar) (M) @ Safety Goggles
+Incineroar (M) @ Safety Goggles
 Ability: Intimidate
 Level: 50
 Tera Type: Ghost
@@ -20,7 +20,7 @@ Impish Nature
 - Taunt
 - Parting Shot
 
-TooMuch,Man (Amoonguss) (F) @ Rocky Helmet
+Amoonguss (F) @ Rocky Helmet
 Ability: Regenerator
 Level: 50
 Tera Type: Water
@@ -32,7 +32,7 @@ IVs: 0 Atk / 26 Spe
 - Pollen Puff
 - Protect
 
-EscapeFromLA (Raging Bolt) @ Assault Vest
+Raging Bolt @ Assault Vest
 Ability: Protosynthesis
 Level: 50
 Tera Type: Electric
@@ -44,7 +44,7 @@ IVs: 20 Atk
 - Draco Meteor
 - Volt Switch
 
-Showstopper (Urshifu) (M) @ Focus Sash
+Urshifu (M) @ Focus Sash
 Ability: Unseen Fist
 Level: 50
 Tera Type: Dark
@@ -55,7 +55,7 @@ Adamant Nature
 - Close Combat
 - Protect
 
-DownerEnding (Landorus) @ Life Orb
+Landorus @ Life Orb
 Ability: Sheer Force
 Level: 50
 Tera Type: Poison

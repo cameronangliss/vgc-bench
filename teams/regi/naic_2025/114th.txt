@@ -1,4 +1,4 @@
-Levitating (Calyrex-Shadow) @ Life Orb
+Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
 Tera Type: Dark
 EVs: 28 HP / 4 Def / 220 SpA / 4 SpD / 252 Spe
@@ -9,7 +9,7 @@ IVs: 0 Atk
 - Nasty Plot
 - Protect
 
-Hallucinate (Terapagos-Terastal) @ Choice Specs
+Terapagos-Terastal @ Choice Specs
 Ability: Tera Shell
 Level: 85
 Tera Type: Stellar
@@ -21,7 +21,7 @@ IVs: 15 Atk
 - Dark Pulse
 - Flamethrower
 
-Physical (Iron Hands) @ Assault Vest
+Iron Hands @ Assault Vest
 Ability: Quark Drive
 Level: 57
 Tera Type: Water
@@ -32,7 +32,7 @@ Adamant Nature
 - Wild Charge
 - Low Kick
 
-BreakMyHeart (Chi-Yu) @ Choice Scarf
+Chi-Yu @ Choice Scarf
 Ability: Beads of Ruin
 Level: 75
 Tera Type: Ghost
@@ -44,7 +44,7 @@ IVs: 0 Atk
 - Snarl
 - Dark Pulse
 
-PrettyPlease (Smeargle) @ Focus Sash
+Smeargle @ Focus Sash
 Ability: Moody
 Level: 65
 Tera Type: Grass
@@ -55,7 +55,7 @@ Jolly Nature
 - Decorate
 - Fake Out
 
-DontStartNow (Whimsicott) @ Covert Cloak
+Whimsicott @ Covert Cloak
 Ability: Prankster
 Level: 60
 Tera Type: Water

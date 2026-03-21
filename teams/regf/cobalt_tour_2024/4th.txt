@@ -59,7 +59,7 @@ Level: 50
 Tera Type: Electric
 EVs: 156 HP / 4 Def / 180 SpA / 164 SpD / 4 Spe
 Modest Nature
-IVs: 0 Atk
+IVs: 20 Atk
 - Thunderbolt
 - Thunderclap
 - Protect

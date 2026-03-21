@@ -1,4 +1,4 @@
-Sif (Koraidon) @ Ability Shield
+Koraidon @ Ability Shield
 Ability: Orichalcum Pulse
 Level: 95
 Tera Type: Fire
@@ -9,7 +9,7 @@ Jolly Nature
 - Dragon Claw
 - Protect
 
-Gough (Weezing-Galar) @ Sitrus Berry
+Weezing-Galar @ Sitrus Berry
 Ability: Neutralizing Gas
 Level: 51
 Tera Type: Dark
@@ -21,7 +21,7 @@ IVs: 0 Atk
 - Poison Gas
 - Protect
 
-Artorias (Chi-Yu) @ Choice Scarf
+Chi-Yu @ Choice Scarf
 Ability: Beads of Ruin
 Level: 50
 Tera Type: Ghost
@@ -33,7 +33,7 @@ IVs: 0 Atk
 - Snarl
 - Dark Pulse
 
-Ciaran (Flutter Mane) @ Choice Specs
+Flutter Mane @ Choice Specs
 Ability: Protosynthesis
 Level: 50
 Shiny: Yes
@@ -46,7 +46,7 @@ IVs: 0 Atk
 - Shadow Ball
 - Icy Wind
 
-Smough (Dondozo) @ Leftovers
+Dondozo @ Leftovers
 Ability: Unaware
 Level: 68
 Shiny: Yes
@@ -58,7 +58,7 @@ Adamant Nature
 - Wave Crash
 - Protect
 
-Ornstein (Tatsugiri) @ Focus Sash
+Tatsugiri @ Focus Sash
 Ability: Commander
 Level: 55
 Shiny: Yes

@@ -1,4 +1,4 @@
-Kareem (Incineroar) @ Rocky Helmet
+Incineroar @ Rocky Helmet
 Ability: Intimidate
 Level: 50
 Tera Type: Water
@@ -9,7 +9,7 @@ Impish Nature
 - Helping Hand
 - Parting Shot
 
-Navjit (Landorus) @ Life Orb
+Landorus @ Life Orb
 Ability: Sheer Force
 Level: 50
 Tera Type: Water
@@ -21,7 +21,7 @@ IVs: 28 Atk
 - Sandsear Storm
 - Protect
 
-Mao & Agati (Calyrex-Shadow) @ Focus Sash
+Calyrex-Shadow @ Focus Sash
 Ability: As One (Spectrier)
 Level: 50
 Tera Type: Ghost
@@ -33,7 +33,7 @@ IVs: 0 Atk
 - Psychic
 - Protect
 
-Matthias (Koraidon) @ Clear Amulet
+Koraidon @ Clear Amulet
 Ability: Orichalcum Pulse
 Level: 50
 Tera Type: Fire
@@ -44,7 +44,7 @@ Jolly Nature
 - Flame Charge
 - Protect
 
-Wacka (Brute Bonnet) @ Covert Cloak
+Brute Bonnet @ Covert Cloak
 Ability: Protosynthesis
 Level: 50
 Tera Type: Water
@@ -55,7 +55,7 @@ Impish Nature
 - Spore
 - Seed Bomb
 
-Aaron (Raging Bolt) @ Assault Vest
+Raging Bolt @ Assault Vest
 Ability: Protosynthesis
 Level: 50
 Tera Type: Electric

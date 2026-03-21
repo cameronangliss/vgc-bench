@@ -1,4 +1,4 @@
-Get silly (Smeargle) (F) @ Focus Sash
+Smeargle (F) @ Focus Sash
 Ability: Moody
 Level: 62
 Shiny: Yes
@@ -10,7 +10,7 @@ Jolly Nature
 - Spore
 - Decorate
 
-Get serious (Tornadus) @ Sharp Beak
+Tornadus @ Sharp Beak
 Ability: Prankster
 Shiny: Yes
 Tera Type: Steel
@@ -22,7 +22,7 @@ IVs: 7 Atk
 - Tailwind
 - Sunny Day
 
-Bear Fair (Urshifu) (M) @ Black Glasses
+Urshifu (M) @ Black Glasses
 Ability: Unseen Fist
 Level: 50
 Tera Type: Poison
@@ -33,7 +33,7 @@ Adamant Nature
 - Wicked Blow
 - Sucker Punch
 
-Fig (Farigiraf) (F) @ Throat Spray
+Farigiraf (F) @ Throat Spray
 Ability: Armor Tail
 Shiny: Yes
 Tera Type: Fairy
@@ -45,7 +45,7 @@ IVs: 0 Atk
 - Psychic
 - Trick Room
 
-Go-go gadget (Flutter Mane) @ Choice Specs
+Flutter Mane @ Choice Specs
 Ability: Protosynthesis
 Shiny: Yes
 Tera Type: Fairy
@@ -57,7 +57,7 @@ IVs: 21 Atk
 - Shadow Ball
 - Icy Wind
 
-idontknow,,, (Ogerpon-Hearthflame) @ Hearthflame Mask
+Ogerpon-Hearthflame @ Hearthflame Mask
 Ability: Mold Breaker
 Tera Type: Fire
 EVs: 156 HP / 76 Atk / 52 Def / 4 SpD / 220 Spe

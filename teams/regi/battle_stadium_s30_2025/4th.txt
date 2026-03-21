@@ -1,4 +1,4 @@
-MÃ²rag (Lunala) @ Electric Seed
+Lunala @ Electric Seed
 Ability: Shadow Shield
 Level: 50
 Shiny: Yes
@@ -11,7 +11,7 @@ IVs: 0 Atk
 - Trick Room
 - Wide Guard
 
-Zeke (Miraidon) @ Choice Specs
+Miraidon @ Choice Specs
 Ability: Hadron Engine
 Level: 50
 Tera Type: Ghost
@@ -22,7 +22,7 @@ Modest Nature
 - Discharge
 - Volt Switch
 
-Tora (Tornadus) @ Covert Cloak
+Tornadus @ Covert Cloak
 Ability: Prankster
 Level: 50
 Shiny: Yes
@@ -35,7 +35,7 @@ IVs: 0 Atk
 - Rain Dance
 - Taunt
 
-Nia (Incineroar) @ Rocky Helmet
+Incineroar @ Rocky Helmet
 Ability: Intimidate
 Level: 50
 Shiny: Yes
@@ -47,7 +47,7 @@ Careful Nature
 - U-turn
 - Fake Out
 
-Rex (Urshifu-Rapid-Strike) @ Focus Sash
+Urshifu-Rapid-Strike @ Focus Sash
 Ability: Unseen Fist
 Level: 50
 Tera Type: Stellar
@@ -58,7 +58,7 @@ Adamant Nature
 - Close Combat
 - Detect
 
-Vandham (Ursaluna) @ Flame Orb
+Ursaluna @ Flame Orb
 Ability: Guts
 Level: 50
 Shiny: Yes

@@ -1,4 +1,4 @@
-WrathofKhan (Kingambit) (F) @ Black Glasses
+Kingambit (F) @ Black Glasses
 Ability: Defiant
 Level: 50
 Shiny: Yes
@@ -10,7 +10,7 @@ Adamant Nature
 - Sucker Punch
 - Swords Dance
 
-Trunkmeister (Rillaboom) (F) @ Assault Vest
+Rillaboom (F) @ Assault Vest
 Ability: Grassy Surge
 Level: 50
 Shiny: Yes
@@ -23,7 +23,7 @@ IVs: 27 SpA
 - High Horsepower
 - Fake Out
 
-Litofsky (Electabuzz) (M) @ Eviolite
+Electabuzz (M) @ Eviolite
 Ability: Vital Spirit
 Level: 50
 Shiny: Yes
@@ -36,7 +36,7 @@ IVs: 0 Atk
 - Taunt
 - Follow Me
 
-Heimlich (Volcarona) (M) @ Grassy Seed
+Volcarona (M) @ Grassy Seed
 Ability: Flame Body
 Level: 50
 Shiny: Yes
@@ -49,7 +49,7 @@ IVs: 4 Atk
 - Tera Blast
 - Quiver Dance
 
-Shigaraki (Sneasler) @ Focus Sash
+Sneasler @ Focus Sash
 Ability: Unburden
 Level: 50
 Tera Type: Ghost
@@ -61,7 +61,7 @@ IVs: 16 SpA
 - Coaching
 - Fake Out
 
-All For One (Dragonite) @ Loaded Dice
+Dragonite @ Loaded Dice
 Ability: Multiscale
 Level: 50
 Tera Type: Fairy

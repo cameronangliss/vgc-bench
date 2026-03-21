@@ -1,4 +1,4 @@
-FASTLANE (Drifblim) @ Psychic Seed
+Drifblim @ Psychic Seed
 Ability: Unburden
 Level: 50
 Tera Type: Grass
@@ -9,7 +9,7 @@ Jolly Nature
 - Sunny Day
 - Tailwind
 
-GEEDORAH (Hydreigon) @ Assault Vest
+Hydreigon @ Assault Vest
 Ability: Levitate
 Level: 50
 Tera Type: Poison
@@ -21,7 +21,7 @@ IVs: 0 Atk
 - Earth Power
 - Snarl
 
-CROSSHAIRS (Indeedee) @ Focus Sash
+Indeedee @ Focus Sash
 Ability: Psychic Surge
 Level: 50
 Tera Type: Fighting
@@ -32,7 +32,7 @@ Modest Nature
 - Imprison
 - Trick Room
 
-CZARFACE (Sneasler) @ White Herb
+Sneasler @ White Herb
 Ability: Unburden
 Level: 50
 Tera Type: Stellar
@@ -43,7 +43,7 @@ Adamant Nature
 - Throat Chop
 - Protect
 
-FAZERS (Dragapult) @ Choice Band
+Dragapult @ Choice Band
 Ability: Clear Body
 Level: 50
 Tera Type: Ghost
@@ -54,7 +54,7 @@ Adamant Nature
 - Tera Blast
 - U-turn
 
-VENOMOUS (Volcarona) @ Rocky Helmet
+Volcarona @ Rocky Helmet
 Ability: Flame Body
 Level: 50
 Tera Type: Fairy

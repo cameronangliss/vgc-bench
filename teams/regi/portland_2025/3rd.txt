@@ -1,4 +1,4 @@
-I CONNECT!!! (Kyogre) @ Splash Plate
+Kyogre @ Splash Plate
 Ability: Drizzle
 Level: 50
 Tera Type: Grass
@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Thunder
 - Protect
 
-Ehrmantraut (Calyrex-Ice) @ Never-Melt Ice
+Calyrex-Ice @ Never-Melt Ice
 Ability: As One (Glastrier)
 Level: 50
 Tera Type: Grass
@@ -21,7 +21,7 @@ Adamant Nature
 - Trick Room
 - Protect
 
-Shido (Urshifu-Rapid-Strike) @ Life Orb
+Urshifu-Rapid-Strike @ Life Orb
 Ability: Unseen Fist
 Tera Type: Grass
 EVs: 108 HP / 156 Atk / 4 Def / 180 SpD / 60 Spe
@@ -31,7 +31,7 @@ Adamant Nature
 - Aqua Jet
 - Protect
 
-Morjal (Amoonguss) @ Rocky Helmet
+Amoonguss @ Rocky Helmet
 Ability: Regenerator
 Tera Type: Water
 EVs: 236 HP / 156 Def / 116 SpD
@@ -42,7 +42,7 @@ IVs: 0 Atk
 - Rage Powder
 - Protect
 
-Warranty (Iron Jugulis) @ Booster Energy
+Iron Jugulis @ Booster Energy
 Ability: Quark Drive
 Level: 95
 Tera Type: Steel
@@ -54,7 +54,7 @@ IVs: 0 Atk
 - Tailwind
 - Protect
 
-Trunkey (Rillaboom) @ Assault Vest
+Rillaboom @ Assault Vest
 Ability: Grassy Surge
 Tera Type: Fire
 EVs: 252 HP / 116 Atk / 4 Def / 76 SpD / 60 Spe

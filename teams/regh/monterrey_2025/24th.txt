@@ -9,7 +9,7 @@ IVs: 1 Atk
 - Earth Power
 - Hyper Voice
 
-Kiki (Gholdengo) @ Life Orb
+Gholdengo @ Life Orb
 Ability: Good as Gold
 Tera Type: Water
 EVs: 132 HP / 124 SpA / 252 Spe
@@ -20,7 +20,7 @@ IVs: 0 Atk
 - Nasty Plot
 - Protect
 
-MorningElegy (Incineroar) @ Safety Goggles
+Incineroar @ Safety Goggles
 Ability: Intimidate
 Shiny: Yes
 Tera Type: Ghost
@@ -31,7 +31,7 @@ Careful Nature
 - Knock Off
 - Parting Shot
 
-Joshua (Dragonite) (M) @ Loaded Dice
+Dragonite (M) @ Loaded Dice
 Ability: Multiscale
 Level: 75
 Tera Type: Fairy
@@ -42,7 +42,7 @@ Adamant Nature
 - Haze
 - Extreme Speed
 
-Bisbix (Sneasler) @ Focus Sash
+Sneasler @ Focus Sash
 Ability: Unburden
 Level: 77
 Tera Type: Stellar
@@ -54,7 +54,7 @@ IVs: 5 SpA
 - Dire Claw
 - Protect
 
-TrickRuby (Amoonguss) @ Sitrus Berry
+Amoonguss @ Sitrus Berry
 Ability: Regenerator
 Level: 51
 Tera Type: Water

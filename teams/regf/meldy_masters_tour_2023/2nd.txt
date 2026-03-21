@@ -1,4 +1,4 @@
-NAH I'D WIN (Chien-Pao) @ Focus Sash
+Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
 Level: 50
 Tera Type: Stellar
@@ -9,7 +9,7 @@ Jolly Nature
 - Protect
 - Sacred Sword
 
-NAH I'D WIN (Urshifu-Rapid-Strike) @ Choice Scarf
+Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
 Level: 50
 Tera Type: Water
@@ -20,7 +20,7 @@ Adamant Nature
 - Close Combat
 - U-turn
 
-NAH I'D WIN (Gouging Fire) @ Safety Goggles
+Gouging Fire @ Safety Goggles
 Ability: Protosynthesis
 Level: 50
 Tera Type: Fairy
@@ -31,7 +31,7 @@ Adamant Nature
 - Heat Crash
 - Burning Bulwark
 
-NAH I'D WIN (Amoonguss) @ Sitrus Berry
+Amoonguss @ Sitrus Berry
 Ability: Regenerator
 Level: 50
 Tera Type: Water
@@ -43,7 +43,7 @@ IVs: 0 Atk
 - Protect
 - Pollen Puff
 
-NAH I'D WIN (Iron Hands) @ Assault Vest
+Iron Hands @ Assault Vest
 Ability: Quark Drive
 Level: 50
 Tera Type: Water
@@ -54,7 +54,7 @@ Adamant Nature
 - Wild Charge
 - Heavy Slam
 
-NAH I'D WIN (Landorus) @ Life Orb
+Landorus @ Life Orb
 Ability: Sheer Force
 Level: 50
 Tera Type: Poison

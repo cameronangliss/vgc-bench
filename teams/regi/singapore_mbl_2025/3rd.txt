@@ -1,4 +1,4 @@
-Osiris (Basculegion) @ Life Orb
+Basculegion @ Life Orb
 Ability: Swift Swim
 Level: 50
 Tera Type: Water
@@ -9,7 +9,7 @@ Adamant Nature
 - Last Respects
 - Aqua Jet
 
-Maelstrom 9 (Kyogre) @ Ability Shield
+Kyogre @ Ability Shield
 Ability: Drizzle
 Level: 50
 Tera Type: Grass
@@ -21,7 +21,7 @@ IVs: 0 Atk
 - Protect
 - Ice Beam
 
-Ibuki Mioda (Iron Jugulis) @ Booster Energy
+Iron Jugulis @ Booster Energy
 Ability: Quark Drive
 Level: 50
 Shiny: Yes
@@ -34,7 +34,7 @@ IVs: 0 Atk
 - Taunt
 - Air Slash
 
-Morga (Amoonguss) (F) @ Rocky Helmet
+Amoonguss (F) @ Rocky Helmet
 Ability: Regenerator
 Level: 50
 Shiny: Yes
@@ -47,7 +47,7 @@ IVs: 0 Atk / 0 Spe
 - Pollen Puff
 - Protect
 
-Chancellor (Calyrex-Ice) @ Leftovers
+Calyrex-Ice @ Leftovers
 Ability: As One (Glastrier)
 Level: 50
 Tera Type: Fairy
@@ -58,7 +58,7 @@ Careful Nature
 - Protect
 - Leech Seed
 
-Mick Foley (Iron Hands) @ Assault Vest
+Iron Hands @ Assault Vest
 Ability: Quark Drive
 Level: 50
 Shiny: Yes

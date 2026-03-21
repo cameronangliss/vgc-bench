@@ -59,7 +59,7 @@ Adamant Nature
 Ogerpon-Cornerstone @ Cornerstone Mask
 Ability: Sturdy
 Level: 50
-Tera Type: Stellar
+Tera Type: Rock
 EVs: 252 HP / 52 Atk / 28 Def / 100 SpD / 76 Spe
 Jolly Nature
 - Ivy Cudgel

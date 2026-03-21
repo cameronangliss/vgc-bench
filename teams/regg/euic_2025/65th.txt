@@ -9,7 +9,7 @@ Impish Nature
 - Body Press
 - Behemoth Bash
 
-Usera (Chien-Pao) @ Focus Sash
+Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
 Level: 50
 Tera Type: Ghost
@@ -20,7 +20,7 @@ Jolly Nature
 - Crunch
 - Sucker Punch
 
-Manolo (Amoonguss) @ Rocky Helmet
+Amoonguss @ Rocky Helmet
 Ability: Regenerator
 Level: 50
 Tera Type: Water

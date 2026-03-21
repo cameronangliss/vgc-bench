@@ -1,4 +1,4 @@
-æ·å´èå¸« (Groudon) @ Assault Vest
+Groudon @ Assault Vest
 Ability: Drought
 Shiny: Yes
 Tera Type: Fire
@@ -9,7 +9,7 @@ Adamant Nature
 - Thunder Punch
 - High Horsepower
 
-ç´§æ¥æè¯¾ (Gouging Fire) @ Clear Amulet
+Gouging Fire @ Clear Amulet
 Ability: Protosynthesis
 Tera Type: Fairy
 EVs: 164 HP / 84 Atk / 4 Def / 4 SpD / 252 Spe
@@ -19,7 +19,7 @@ Jolly Nature
 - Protect
 - Breaking Swipe
 
-æè° (Raging Bolt) @ Life Orb
+Raging Bolt @ Life Orb
 Ability: Protosynthesis
 Tera Type: Electric
 EVs: 68 HP / 124 Def / 212 SpA / 44 SpD / 60 Spe
@@ -30,7 +30,7 @@ IVs: 20 Atk
 - Draco Meteor
 - Protect
 
-å£å (Volcarona) @ Rocky Helmet
+Volcarona @ Rocky Helmet
 Ability: Flame Body
 Shiny: Yes
 Tera Type: Water
@@ -42,7 +42,7 @@ IVs: 9 Atk
 - Will-O-Wisp
 - Tailwind
 
-ææ³ (Chien-Pao) @ Focus Sash
+Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
 Tera Type: Ghost
 EVs: 252 Atk / 4 Def / 252 Spe

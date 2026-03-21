@@ -34,7 +34,7 @@ IVs: 15 Atk
 - Pollen Puff
 - Protect
 
-Tatsugiri-Stretchy (Tatsugiri-Droopy) @ Focus Sash
+Tatsugiri-Droopy @ Focus Sash
 Ability: Commander
 Level: 50
 Shiny: Yes

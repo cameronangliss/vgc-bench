@@ -1,4 +1,4 @@
-Strato (Tornadus) @ Rocky Helmet
+Tornadus @ Rocky Helmet
 Ability: Prankster
 Level: 78
 Shiny: Yes
@@ -11,7 +11,7 @@ IVs: 0 Atk
 - Rain Dance
 - Protect
 
-elegyy (Volcarona) @ Leftovers
+Volcarona @ Leftovers
 Ability: Flame Body
 Level: 57
 Tera Type: Water
@@ -23,7 +23,7 @@ IVs: 0 Atk
 - Quiver Dance
 - Protect
 
-Motelo (Terapagos) (M) @ Covert Cloak
+Terapagos (M) @ Covert Cloak
 Ability: Tera Shift
 Level: 85
 Tera Type: Stellar
@@ -35,7 +35,7 @@ IVs: 15 Atk
 - Earth Power
 - Calm Mind
 
-MorningElegy (Incineroar) (M) @ Safety Goggles
+Incineroar (M) @ Safety Goggles
 Ability: Intimidate
 Level: 67
 Tera Type: Ghost
@@ -46,7 +46,7 @@ Jolly Nature
 - Parting Shot
 - Taunt
 
-Obey (Rillaboom) (M) @ Assault Vest
+Rillaboom (M) @ Assault Vest
 Ability: Grassy Surge
 Level: 52
 Shiny: Yes
@@ -58,7 +58,7 @@ Adamant Nature
 - U-turn
 - Fake Out
 
-MareeohYT (Clefairy) (M) @ Eviolite
+Clefairy (M) @ Eviolite
 Ability: Friend Guard
 Level: 66
 Shiny: Yes

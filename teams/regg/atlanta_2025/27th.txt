@@ -1,4 +1,4 @@
-Ehrmantraut (Calyrex-Ice) @ Clear Amulet
+Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
 Level: 50
 Tera Type: Poison
@@ -9,7 +9,7 @@ Adamant Nature
 - High Horsepower
 - Trick Room
 
-Ichiban (Urshifu-Rapid-Strike) @ Choice Scarf
+Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
 Level: 50
 Tera Type: Water
@@ -20,7 +20,7 @@ Adamant Nature
 - Coaching
 - U-turn
 
-Chitose (Ogerpon-Cornerstone) @ Cornerstone Mask
+Ogerpon-Cornerstone @ Cornerstone Mask
 Ability: Sturdy
 Level: 50
 Tera Type: Rock
@@ -31,7 +31,7 @@ Adamant Nature
 - Power Whip
 - Follow Me
 
-Tomizawa (Raging Bolt) @ Assault Vest
+Raging Bolt @ Assault Vest
 Ability: Protosynthesis
 Level: 50
 Tera Type: Electric
@@ -43,7 +43,7 @@ IVs: 20 Atk
 - Thunderclap
 - Volt Switch
 
-Nanba (Landorus) @ Life Orb
+Landorus @ Life Orb
 Ability: Sheer Force
 Level: 50
 Tera Type: Water
@@ -55,7 +55,7 @@ IVs: 0 Atk
 - Sludge Bomb
 - Sandsear Storm
 
-Patrickâs Pel (Pelipper) (M) @ Focus Sash
+Pelipper (M) @ Focus Sash
 Ability: Drizzle
 Tera Type: Grass
 EVs: 252 HP / 4 Def / 212 SpA / 4 SpD / 36 Spe

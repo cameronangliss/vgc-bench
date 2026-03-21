@@ -39,6 +39,7 @@ Level: 50
 Tera Type: Fairy
 EVs: 244 HP / 4 Def / 100 SpA / 4 SpD / 156 Spe
 Modest Nature
+IVs: 20 Atk
 - Thunderbolt
 - Draco Meteor
 - Thunderclap

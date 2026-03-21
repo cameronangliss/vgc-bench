@@ -33,7 +33,7 @@ IVs: 26 Atk
 - Muddy Water
 - Simple Beam
 
-Siva (Volcarona) (F) @ Leftovers
+Volcarona (F) @ Leftovers
 Ability: Flame Body
 Tera Type: Grass
 EVs: 252 HP / 204 Def / 28 SpA / 20 Spe

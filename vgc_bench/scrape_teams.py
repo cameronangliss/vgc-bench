@@ -105,7 +105,7 @@ def fetch_team(session: requests.Session, pokepaste_url: str) -> str:
 
 
 def normalize_team_text(text: str) -> str:
-    """Normalize team formatting and fix As One ability disambiguation."""
+    """Normalize team formatting, fix legality issues, and disambiguate abilities."""
     lines = [line.rstrip() for line in text.strip().splitlines()]
     blocks, block = [], []
     for line in lines:
@@ -119,19 +119,84 @@ def normalize_team_text(text: str) -> str:
     normalized = []
     for block in blocks:
         header = block[0]
+        # Strip nicknames: "Nickname (Species) @ Item" -> "Species @ Item"
+        # Must not match gender markers (M) or (F)
+        nick_match = re.match(r"^.+?\(([^)]{2,})\)\s*(.*)$", header)
+        if nick_match:
+            header = f"{nick_match.group(1)} {nick_match.group(2)}".strip()
+            block[0] = header
         asone = (
             "As One (Glastrier)"
             if "calyrex-ice" in header.lower()
             else "As One (Spectrier)"
         )
+        # Fix Urshifu form based on moves
+        has_surging = any("Surging Strikes" in line for line in block)
+        if has_surging and "urshifu-rapid-strike" not in header.lower():
+            header = re.sub(r"\bUrshifu\b", "Urshifu-Rapid-Strike", header)
+            block[0] = header
+        # Fix Ogerpon locked Tera types
+        OGERPON_TERA = {
+            "ogerpon-cornerstone": "Rock",
+            "ogerpon-hearthflame": "Fire",
+            "ogerpon-wellspring": "Water",
+        }
+        header_lower = header.lower()
+        locked_tera = next(
+            (t for form, t in OGERPON_TERA.items() if form in header_lower), None
+        )
+        is_raging_bolt = "raging bolt" in header_lower
+        has_correct_atk_iv = any(
+            re.search(r"IVs:.*\b20\s*Atk\b", line) for line in block
+        )
         new_lines = []
         for line in block:
+            if locked_tera and re.match(r"\s*Tera Type:", line):
+                line = f"Tera Type: {locked_tera}"
+            if is_raging_bolt and re.match(r"\s*Shiny:\s*Yes\s*$", line, re.IGNORECASE):
+                continue
+            if is_raging_bolt and re.match(r"\s*IVs:", line) and not has_correct_atk_iv:
+                # Fix Atk IV to 20 in existing IVs line
+                if re.search(r"\d+\s*Atk", line):
+                    line = re.sub(r"\d+(\s*Atk)", r"20\1", line)
+                else:
+                    line = re.sub(r"(IVs:\s*)", r"\g<1>20 Atk / ", line)
+                has_correct_atk_iv = True
             m = re.match(r"^(\s*Ability:\s*)(.*?)\s*$", line, re.IGNORECASE)
             if m and re.sub(r"[^a-z0-9]", "", m.group(2).lower()) == "asone":
                 line = f"{m.group(1)}{asone}"
             new_lines.append(line)
+        if is_raging_bolt and not has_correct_atk_iv:
+            # No IVs line at all; insert after Nature line
+            insert_idx = next(
+                (
+                    i + 1
+                    for i, l in enumerate(new_lines)
+                    if l.endswith("Nature")
+                ),
+                len(new_lines),
+            )
+            new_lines.insert(insert_idx, "IVs: 20 Atk")
         normalized.append("\n".join(new_lines))
     return "\n\n".join(normalized) + "\n"
+
+
+def has_duplicate_items(team_text: str) -> bool:
+    """Check if any item appears more than once on a team."""
+    items = re.findall(r"@\s*(.+)$", team_text, re.MULTILINE)
+    items = [i.strip() for i in items]
+    return len(items) != len(set(items))
+
+
+def all_pokemon_have_evs(team_text: str) -> bool:
+    """Check that every Pokemon block in the team has an EVs line."""
+    blocks = re.split(r"\n\n+", team_text.strip())
+    return all(
+        any(re.match(r"\s*EVs:", line) for line in block.splitlines())
+        for block in blocks
+        if block.strip()
+    )
+
 
 
 def is_valid_placement(placement: str) -> bool:
@@ -180,8 +245,12 @@ def scrape_regulation(regulation: str) -> None:
             if not pokepaste.startswith("https://pokepast.es/"):
                 continue
             team_text = fetch_team(session, pokepaste)
+            if not all_pokemon_have_evs(team_text) or has_duplicate_items(team_text):
+                continue
             if re.search(
                 r"^\s*Ability:\s*Illusion\s*$", team_text, re.IGNORECASE | re.MULTILINE
+            ) or re.search(
+                r"@\s*Electric Gem\s*$", team_text, re.MULTILINE
             ):
                 stats["banned"] += 1
                 continue

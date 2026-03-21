@@ -55,7 +55,7 @@ Adamant Nature
 - U-turn
 - Fake Out
 
-Urshifu @ Choice Band
+Urshifu-Rapid-Strike @ Choice Band
 Ability: Unseen Fist
 Level: 50
 Tera Type: Grass

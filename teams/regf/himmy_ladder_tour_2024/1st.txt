@@ -1,4 +1,4 @@
-3 Wishes (Tornadus) (M) @ Mental Herb
+Tornadus (M) @ Mental Herb
 Ability: Prankster
 Shiny: Yes
 Tera Type: Ghost
@@ -9,7 +9,7 @@ Bold Nature
 - Rain Dance
 - Scary Face
 
-Swag Surfin' (Urshifu-Rapid-Strike) (M) @ Mystic Water
+Urshifu-Rapid-Strike (M) @ Mystic Water
 Ability: Unseen Fist
 Tera Type: Water
 EVs: 100 HP / 156 Atk / 4 Def / 84 SpD / 164 Spe
@@ -19,7 +19,7 @@ Adamant Nature
 - Close Combat
 - Protect
 
-Facts (Indeedee-F) (F) @ Rocky Helmet
+Indeedee-F (F) @ Rocky Helmet
 Ability: Psychic Surge
 Level: 50
 Shiny: Yes
@@ -32,7 +32,7 @@ IVs: 0 Atk / 0 Spe
 - Trick Room
 - Helping Hand
 
-Robo Deer (Iron Crown) @ Booster Energy
+Iron Crown @ Booster Energy
 Ability: Quark Drive
 Tera Type: Psychic
 EVs: 108 HP / 4 Def / 140 SpA / 4 SpD / 252 Spe
@@ -43,7 +43,7 @@ IVs: 20 Atk
 - Focus Blast
 - Protect
 
-Cosmetology (Flutter Mane) @ Choice Specs
+Flutter Mane @ Choice Specs
 Ability: Protosynthesis
 Tera Type: Fairy
 EVs: 220 HP / 132 Def / 36 SpA / 4 SpD / 116 Spe
@@ -54,7 +54,7 @@ IVs: 0 Atk
 - Shadow Ball
 - Icy Wind
 
-Claptrap (Regidrago) @ Dragon Fang
+Regidrago @ Dragon Fang
 Ability: Dragonâs Maw
 Tera Type: Poison
 EVs: 4 HP / 4 Def / 236 SpA / 12 SpD / 252 Spe

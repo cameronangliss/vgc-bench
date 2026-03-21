@@ -56,7 +56,7 @@ Adamant Nature
 - Close Combat
 - U-turn
 
-Accelerator (Chien-Pao) @ Life Orb
+Chien-Pao @ Life Orb
 Ability: Sword of Ruin
 Level: 72
 Tera Type: Stellar

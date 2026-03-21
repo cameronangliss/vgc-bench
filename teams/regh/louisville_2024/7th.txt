@@ -1,4 +1,4 @@
-WrathofKhan (Kingambit) (F) @ Black Glasses
+Kingambit (F) @ Black Glasses
 Ability: Defiant
 Level: 50
 Shiny: Yes
@@ -10,7 +10,7 @@ Adamant Nature
 - Sucker Punch
 - Swords Dance
 
-Trunkmeister (Rillaboom) (F) @ Assault Vest
+Rillaboom (F) @ Assault Vest
 Ability: Grassy Surge
 Level: 50
 Shiny: Yes
@@ -22,7 +22,7 @@ Adamant Nature
 - U-turn
 - Fake Out
 
-Litofsky (Electabuzz) (M) @ Eviolite
+Electabuzz (M) @ Eviolite
 Ability: Vital Spirit
 Level: 50
 Shiny: Yes
@@ -35,7 +35,7 @@ IVs: 0 Atk
 - Helping Hand
 - Follow Me
 
-Pultimore (Dragapult) (M) @ Choice Specs
+Dragapult (M) @ Choice Specs
 Ability: Clear Body
 Level: 50
 Shiny: Yes
@@ -47,7 +47,7 @@ Modest Nature
 - Fire Blast
 - U-turn
 
-Heimlich (Volcarona) (M) @ Covert Cloak
+Volcarona (M) @ Covert Cloak
 Ability: Flame Body
 Level: 50
 Shiny: Yes
@@ -60,7 +60,7 @@ IVs: 0 Atk
 - Giga Drain
 - Quiver Dance
 
-Bull CRIT!! (Tauros-Paldea-Aqua) @ Mirror Herb
+Tauros-Paldea-Aqua @ Mirror Herb
 Ability: Intimidate
 Level: 50
 Tera Type: Water

@@ -1,4 +1,4 @@
-Gustave (Calyrex-Ice) @ Clear Amulet
+Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
 Tera Type: Fairy
 EVs: 244 HP / 116 Atk / 4 Def / 140 SpD / 4 Spe
@@ -8,7 +8,7 @@ Adamant Nature
 - High Horsepower
 - Trick Room
 
-Maelle (Miraidon) @ Assault Vest
+Miraidon @ Assault Vest
 Ability: Hadron Engine
 Tera Type: Electric
 EVs: 252 HP / 4 Def / 236 SpA / 4 SpD / 12 Spe
@@ -18,7 +18,7 @@ Modest Nature
 - Snarl
 - Volt Switch
 
-Lune (Incineroar) @ Covert Cloak
+Incineroar @ Covert Cloak
 Ability: Intimidate
 Tera Type: Bug
 EVs: 252 HP / 4 Atk / 84 Def / 156 SpD / 12 Spe
@@ -28,7 +28,7 @@ Careful Nature
 - Parting Shot
 - Fake Out
 
-Sciel (Amoonguss) @ Mental Herb
+Amoonguss @ Mental Herb
 Ability: Regenerator
 Tera Type: Fire
 EVs: 236 HP / 156 Def / 116 SpD
@@ -39,7 +39,7 @@ IVs: 0 Atk
 - Rage Powder
 - Spore
 
-Verso (Chien-Pao) @ Focus Sash
+Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
 Tera Type: Ghost
 EVs: 252 Atk / 4 Def / 252 Spe
@@ -49,7 +49,7 @@ Jolly Nature
 - Ruination
 - Sucker Punch
 
-Monoko (Iron Treads) @ Life Orb
+Iron Treads @ Life Orb
 Ability: Quark Drive
 Tera Type: Grass
 EVs: 28 HP / 252 Atk / 4 Def / 4 SpD / 220 Spe

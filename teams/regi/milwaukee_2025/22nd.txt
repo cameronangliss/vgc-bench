@@ -1,4 +1,4 @@
-Jack Black (Incineroar) @ Covert Cloak
+Incineroar @ Covert Cloak
 Ability: Intimidate
 Level: 50
 Tera Type: Fairy
@@ -10,7 +10,7 @@ IVs: 29 Spe
 - Parting Shot
 - Will-O-Wisp
 
-Pilates (Grimmsnarl) @ Light Clay
+Grimmsnarl @ Light Clay
 Ability: Prankster
 Level: 50
 Tera Type: Ghost
@@ -22,7 +22,7 @@ IVs: 0 Atk
 - Thunder Wave
 - Light Screen
 
-Tron (Miraidon) @ Choice Specs
+Miraidon @ Choice Specs
 Ability: Hadron Engine
 Level: 50
 Tera Type: Fairy
@@ -33,7 +33,7 @@ Timid Nature
 - Volt Switch
 - Dazzling Gleam
 
-Secretariat (Calyrex-Ice) @ Never-Melt Ice
+Calyrex-Ice @ Never-Melt Ice
 Ability: As One (Glastrier)
 Level: 50
 Tera Type: Water
@@ -44,7 +44,7 @@ Adamant Nature
 - High Horsepower
 - Trick Room
 
-Paddington 2 (Urshifu-Rapid-Strike) @ Choice Scarf
+Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
 Level: 50
 Tera Type: Water
@@ -55,7 +55,7 @@ Adamant Nature
 - Aqua Jet
 - U-turn
 
-Pookie (Ogerpon-Hearthflame) (F) @ Hearthflame Mask
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
 Ability: Mold Breaker
 Level: 50
 Tera Type: Fire

@@ -1,4 +1,4 @@
-Circe (Gholdengo) @ Choice Specs
+Gholdengo @ Choice Specs
 Ability: Good as Gold
 Level: 50
 Tera Type: Steel
@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Trick
 - Power Gem
 
-Scylla (Primarina) @ Throat Spray
+Primarina @ Throat Spray
 Ability: Liquid Voice
 Level: 50
 Tera Type: Grass
@@ -22,7 +22,7 @@ IVs: 0 Atk
 - Moonblast
 - Haze
 
-Oddy (Baxcalibur) @ Clear Amulet
+Baxcalibur @ Clear Amulet
 Ability: Thermal Exchange
 Level: 50
 Tera Type: Grass
@@ -33,7 +33,7 @@ Jolly Nature
 - Ice Shard
 - Protect
 
-Hermes (Pelipper) @ Focus Sash
+Pelipper @ Focus Sash
 Ability: Drizzle
 Level: 50
 Tera Type: Ghost
@@ -45,7 +45,7 @@ IVs: 0 Atk
 - Hurricane
 - Weather Ball
 
-THUNDER BRINGER (Archaludon) @ Assault Vest
+Archaludon @ Assault Vest
 Ability: Stamina
 Level: 50
 Tera Type: Fairy
@@ -57,7 +57,7 @@ IVs: 0 Atk
 - Flash Cannon
 - Body Press
 
-Athena (Samurott-Hisui) @ Life Orb
+Samurott-Hisui @ Life Orb
 Ability: Sharpness
 Level: 50
 Tera Type: Stellar

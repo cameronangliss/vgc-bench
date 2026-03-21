@@ -1,4 +1,4 @@
-ãããª (Miraidon) @ Choice Specs
+Miraidon @ Choice Specs
 Ability: Hadron Engine
 Level: 50
 Tera Type: Fairy
@@ -9,7 +9,7 @@ Modest Nature
 - Dazzling Gleam
 - Volt Switch
 
-ãã¤ã (Lunala) @ Leftovers
+Lunala @ Leftovers
 Ability: Shadow Shield
 Level: 50
 Tera Type: Fairy
@@ -21,7 +21,7 @@ IVs: 0 Atk / 27 Spe
 - Trick Room
 - Protect
 
-ãªãã¡ãã (Rillaboom) @ Assault Vest
+Rillaboom @ Assault Vest
 Ability: Grassy Surge
 Level: 50
 Tera Type: Fire
@@ -32,7 +32,7 @@ Adamant Nature
 - U-turn
 - Fake Out
 
-ãã¼ãã¼ (Incineroar) @ Rocky Helmet
+Incineroar @ Rocky Helmet
 Ability: Intimidate
 Level: 50
 Tera Type: Bug
@@ -44,7 +44,7 @@ IVs: 25 Spe
 - Taunt
 - Knock Off
 
-Kanemiku (Urshifu-Rapid-Strike) @ Choice Band
+Urshifu-Rapid-Strike @ Choice Band
 Ability: Unseen Fist
 Level: 50
 Tera Type: Ghost
@@ -55,7 +55,7 @@ Adamant Nature
 - Aqua Jet
 - Close Combat
 
-ãããã¾ (Grimmsnarl) @ Light Clay
+Grimmsnarl @ Light Clay
 Ability: Prankster
 Level: 50
 Tera Type: Ghost

@@ -59,6 +59,7 @@ Level: 50
 Tera Type: Poison
 EVs: 164 HP / 100 Def / 180 SpA / 4 SpD / 60 Spe
 Modest Nature
+IVs: 20 Atk
 - Thunderbolt
 - Thunderclap
 - Draco Meteor

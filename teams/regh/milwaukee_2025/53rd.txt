@@ -10,7 +10,7 @@ Modest Nature
 - Esper Wing
 - U-turn
 
-Indeedeedee (Indeedee-F) @ Rocky Helmet
+Indeedee-F @ Rocky Helmet
 Ability: Psychic Surge
 Level: 50
 Tera Type: Fairy
@@ -33,7 +33,7 @@ Adamant Nature
 - Throat Chop
 - Protect
 
-Toes? (Politoed) @ Mystic Water
+Politoed @ Mystic Water
 Ability: Drizzle
 Level: 50
 Shiny: Yes
@@ -46,7 +46,7 @@ IVs: 0 Atk
 - Encore
 - Protect
 
-Sauoplit (Archaludon) (M) @ Assault Vest
+Archaludon (M) @ Assault Vest
 Ability: Stamina
 Level: 50
 Tera Type: Bug
@@ -58,7 +58,7 @@ IVs: 0 Atk
 - Body Press
 - Draco Meteor
 
-Rick (Ursaluna) @ Flame Orb
+Ursaluna @ Flame Orb
 Ability: Guts
 Level: 50
 Tera Type: Ghost

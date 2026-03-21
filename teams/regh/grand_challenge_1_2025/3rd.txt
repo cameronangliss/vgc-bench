@@ -1,4 +1,4 @@
-dahyun (Pelipper) (F) @ Choice Scarf
+Pelipper (F) @ Choice Scarf
 Ability: Drizzle
 Level: 50
 Tera Type: Ghost
@@ -9,7 +9,7 @@ Timid Nature
 - Tailwind
 - U-turn
 
-tzuyu (Archaludon) (F) @ Choice Specs
+Archaludon (F) @ Choice Specs
 Ability: Sturdy
 Level: 50
 Shiny: Yes
@@ -22,7 +22,7 @@ IVs: 0 Atk
 - Draco Meteor
 - Dragon Pulse
 
-momo (Quaquaval) (F) @ Focus Sash
+Quaquaval (F) @ Focus Sash
 Ability: Moxie
 Level: 50
 Shiny: Yes
@@ -34,7 +34,7 @@ Adamant Nature
 - Close Combat
 - Protect
 
-mina (Kingambit) (F) @ Black Glasses
+Kingambit (F) @ Black Glasses
 Ability: Defiant
 Level: 50
 Tera Type: Dark
@@ -45,7 +45,7 @@ Adamant Nature
 - Iron Head
 - Protect
 
-jihyo (Rillaboom) (F) @ Assault Vest
+Rillaboom (F) @ Assault Vest
 Ability: Grassy Surge
 Level: 50
 Shiny: Yes
@@ -57,7 +57,7 @@ Adamant Nature
 - Grassy Glide
 - U-turn
 
-jeongyeon (Dragapult) (F) @ Choice Band
+Dragapult (F) @ Choice Band
 Ability: Clear Body
 Level: 50
 Shiny: Yes

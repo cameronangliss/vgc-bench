@@ -12,7 +12,7 @@ IVs: 0 Atk / 0 Spe
 - Helping Hand
 - Dazzling Gleam
 
-ç´«ç«½æ²å¯æ (Hatterene) @ Life Orb
+Hatterene @ Life Orb
 Ability: Magic Bounce
 Level: 50
 Shiny: Yes
@@ -25,7 +25,7 @@ IVs: 0 Atk / 0 Spe
 - Dazzling Gleam
 - Protect
 
-ç´«ç«½è¦ªè¡é (Gallade) @ Clear Amulet
+Gallade @ Clear Amulet
 Ability: Sharpness
 Level: 50
 Shiny: Yes
@@ -37,7 +37,7 @@ Adamant Nature
 - Sacred Sword
 - Wide Guard
 
-ä¸æ³ææç (Ursaluna) (M) @ Flame Orb
+Ursaluna (M) @ Flame Orb
 Ability: Guts
 Level: 50
 Shiny: Yes
@@ -50,7 +50,7 @@ IVs: 0 Spe
 - Swords Dance
 - Protect
 
-ç´«ç«½å¥½å¯æ (Lilligant-Hisui) @ Focus Sash
+Lilligant-Hisui @ Focus Sash
 Ability: Chlorophyll
 Level: 50
 Shiny: Yes
@@ -62,7 +62,7 @@ Jolly Nature
 - Close Combat
 - After You
 
-å¤ªæ¨å·´ææ¯ (Torkoal) (M) @ Choice Specs
+Torkoal (M) @ Choice Specs
 Ability: Drought
 Level: 50
 Shiny: Yes

@@ -1,4 +1,4 @@
-Sailor moon (Cresselia) @ Mental Herb
+Cresselia @ Mental Herb
 Ability: Levitate
 Shiny: Yes
 Tera Type: Fairy
@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Helping Hand
 - Lunar Blessing
 
-Laquari (Incineroar) @ Safety Goggles
+Incineroar @ Safety Goggles
 Ability: Intimidate
 Shiny: Yes
 Tera Type: Water
@@ -21,7 +21,7 @@ Impish Nature
 - Fake Out
 - Taunt
 
-Osa Menor (Ursaluna) (F) @ Flame Orb
+Ursaluna (F) @ Flame Orb
 Ability: Guts
 Tera Type: Ghost
 EVs: 252 Atk / 4 Def / 252 SpD
@@ -32,7 +32,7 @@ IVs: 0 Spe
 - Earthquake
 - Protect
 
-1UP (Amoonguss) @ Rocky Helmet
+Amoonguss @ Rocky Helmet
 Ability: Regenerator
 Shiny: Yes
 Tera Type: Water
@@ -44,7 +44,7 @@ IVs: 0 Atk
 - Clear Smog
 - Pollen Puff
 
-Shaddoll (Flutter Mane) @ Booster Energy
+Flutter Mane @ Booster Energy
 Ability: Protosynthesis
 Tera Type: Fairy
 EVs: 36 HP / 164 Def / 52 SpA / 4 SpD / 252 Spe
@@ -55,7 +55,7 @@ IVs: 0 Atk
 - Icy Wind
 - Protect
 
-Magatama (Chi-Yu) @ Choice Specs
+Chi-Yu @ Choice Specs
 Ability: Beads of Ruin
 Tera Type: Ghost
 EVs: 228 HP / 44 Def / 236 Spe

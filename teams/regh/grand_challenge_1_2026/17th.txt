@@ -22,7 +22,7 @@ IVs: 0 Atk
 - Earth Power
 - Vacuum Wave
 
-Jacob A (Pelipper) @ Jaboca Berry
+Pelipper @ Jaboca Berry
 Ability: Drizzle
 Level: 50
 Shiny: Yes

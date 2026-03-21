@@ -1,4 +1,4 @@
-Frostbite (Chien-Pao) @ Focus Sash
+Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
 Level: 50
 Tera Type: Stellar
@@ -10,7 +10,7 @@ IVs: 26 SpA
 - Sacred Sword
 - Protect
 
-Prince (Zacian-Crowned) @ Rusted Sword
+Zacian-Crowned @ Rusted Sword
 Ability: Intrepid Sword
 Level: 50
 Shiny: Yes
@@ -22,7 +22,7 @@ Jolly Nature
 - Swords Dance
 - Protect
 
-Runaway (Kyogre) @ Splash Plate
+Kyogre @ Splash Plate
 Ability: Drizzle
 Level: 50
 Shiny: Yes
@@ -35,7 +35,7 @@ IVs: 0 Atk
 - Hydro Pump
 - Protect
 
-Vulcan (Urshifu-Rapid-Strike) (M) @ Mystic Water
+Urshifu-Rapid-Strike (M) @ Mystic Water
 Ability: Unseen Fist
 Level: 50
 Tera Type: Water
@@ -46,7 +46,7 @@ Adamant Nature
 - Taunt
 - Detect
 
-Stars (Roaring Moon) @ Booster Energy
+Roaring Moon @ Booster Energy
 Ability: Protosynthesis
 Level: 50
 Tera Type: Flying
@@ -57,7 +57,7 @@ Jolly Nature
 - Tailwind
 - Protect
 
-METAVISION (Amoonguss) (M) @ Rocky Helmet
+Amoonguss (M) @ Rocky Helmet
 Ability: Regenerator
 Level: 50
 Shiny: Yes

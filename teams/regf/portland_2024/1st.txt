@@ -1,4 +1,4 @@
-Boundless (Dragonite) @ Choice Band
+Dragonite @ Choice Band
 Ability: Inner Focus
 Level: 55
 Tera Type: Normal
@@ -9,7 +9,7 @@ Adamant Nature
 - Aerial Ace
 - Stomping Tantrum
 
-Power House (Chien-Pao) @ Focus Sash
+Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
 Level: 60
 Tera Type: Ghost
@@ -20,7 +20,7 @@ Jolly Nature
 - Sucker Punch
 - Protect
 
-Vogue (Flutter Mane) @ Booster Energy
+Flutter Mane @ Booster Energy
 Ability: Protosynthesis
 Tera Type: Fairy
 EVs: 4 HP / 132 Def / 116 SpA / 4 SpD / 252 Spe
@@ -31,7 +31,7 @@ IVs: 12 Atk
 - Shadow Ball
 - Protect
 
-Overdog (Entei) @ Assault Vest
+Entei @ Assault Vest
 Ability: Inner Focus
 Level: 70
 Tera Type: Grass
@@ -42,7 +42,7 @@ Adamant Nature
 - Stomping Tantrum
 - Snarl
 
-Big Splash (Ogerpon-Wellspring) @ Wellspring Mask
+Ogerpon-Wellspring @ Wellspring Mask
 Ability: Water Absorb
 Level: 72
 Tera Type: Water
@@ -54,7 +54,7 @@ IVs: 20 SpA
 - Follow Me
 - Spiky Shield
 
-Shock & Awe (Raging Bolt) @ Safety Goggles
+Raging Bolt @ Safety Goggles
 Ability: Protosynthesis
 Level: 75
 Tera Type: Water

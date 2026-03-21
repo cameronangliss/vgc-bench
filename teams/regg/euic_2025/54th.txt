@@ -1,4 +1,4 @@
-Ehrmantraut (Calyrex-Ice) @ Clear Amulet
+Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
 Tera Type: Poison
 EVs: 252 HP / 116 Atk / 4 Def / 116 SpD / 20 Spe
@@ -8,7 +8,7 @@ Adamant Nature
 - High Horsepower
 - Trick Room
 
-El Girafo (Raging Bolt) @ Booster Energy
+Raging Bolt @ Booster Energy
 Ability: Protosynthesis
 Tera Type: Electric
 EVs: 188 HP / 44 Def / 252 SpA / 4 SpD / 20 Spe
@@ -19,7 +19,7 @@ IVs: 20 Atk
 - Draco Meteor
 - Thunderclap
 
-Ichiban (Urshifu-Rapid-Strike) @ Choice Scarf
+Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
 Tera Type: Water
 EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
@@ -29,7 +29,7 @@ Adamant Nature
 - Coaching
 - U-turn
 
-Adachi (Amoonguss) @ Rocky Helmet
+Amoonguss @ Rocky Helmet
 Ability: Regenerator
 Tera Type: Fairy
 EVs: 236 HP / 156 Def / 116 SpD
@@ -40,7 +40,7 @@ IVs: 0 Atk / 0 Spe
 - Rage Powder
 - Spore
 
-Nanba (Landorus) @ Life Orb
+Landorus @ Life Orb
 Ability: Sheer Force
 Tera Type: Poison
 EVs: 44 HP / 4 Def / 204 SpA / 4 SpD / 252 Spe
@@ -50,7 +50,7 @@ Timid Nature
 - Sludge Bomb
 - Sandsear Storm
 
-Patâs Pelipper (Pelipper) @ Covert Cloak
+Pelipper @ Covert Cloak
 Ability: Drizzle
 Shiny: Yes
 Tera Type: Grass

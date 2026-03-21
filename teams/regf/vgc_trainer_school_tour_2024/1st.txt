@@ -1,4 +1,4 @@
-Baja Blast (Iron Crown) @ Booster Energy
+Iron Crown @ Booster Energy
 Ability: Quark Drive
 Level: 50
 Tera Type: Psychic
@@ -10,7 +10,7 @@ IVs: 20 Atk
 - Focus Blast
 - Protect
 
-5 Layer Burrito (Indeedee-F) @ Rocky Helmet
+Indeedee-F @ Rocky Helmet
 Ability: Psychic Surge
 Level: 50
 Shiny: Yes
@@ -23,7 +23,7 @@ IVs: 0 Atk / 0 Spe
 - Helping Hand
 - Trick Room
 
-Cheesy Roll Up (Cresselia) @ Safety Goggles
+Cresselia @ Safety Goggles
 Ability: Levitate
 Level: 50
 Shiny: Yes
@@ -36,7 +36,7 @@ IVs: 27 Atk
 - Lunar Blessing
 - Trick Room
 
-Nacho BellGrande (Iron Hands) @ Sitrus Berry
+Iron Hands @ Sitrus Berry
 Ability: Quark Drive
 Level: 50
 Shiny: Yes
@@ -49,7 +49,7 @@ IVs: 0 Spe
 - Belly Drum
 - Detect
 
-Dorito Loco Taco (Torkoal) @ Charcoal
+Torkoal @ Charcoal
 Ability: Drought
 Level: 50
 Shiny: Yes
@@ -62,7 +62,7 @@ IVs: 0 Atk / 0 Spe
 - Earth Power
 - Protect
 
-Cinnamon Twists (Flutter Mane) @ Choice Specs
+Flutter Mane @ Choice Specs
 Ability: Protosynthesis
 Level: 50
 Tera Type: Fairy

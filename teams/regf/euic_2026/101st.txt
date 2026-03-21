@@ -1,4 +1,4 @@
-LazyWarlock (Tornadus) @ Focus Sash
+Tornadus @ Focus Sash
 Ability: Prankster
 Level: 50
 Tera Type: Ghost
@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Tailwind
 - Icy Wind
 
-Boosters (Gholdengo) @ Choice Specs
+Gholdengo @ Choice Specs
 Ability: Good as Gold
 Level: 50
 Tera Type: Steel
@@ -22,7 +22,7 @@ IVs: 0 Atk
 - Power Gem
 - Trick
 
-Sensei Izzy (Regidrago) @ Life Orb
+Regidrago @ Life Orb
 Ability: Dragon's Maw
 Level: 50
 Tera Type: Ghost
@@ -33,7 +33,7 @@ Timid Nature
 - Earth Power
 - Protect
 
-Chongjun (Urshifu-Rapid-Strike) (F) @ Choice Scarf
+Urshifu-Rapid-Strike (F) @ Choice Scarf
 Ability: Unseen Fist
 Level: 50
 Tera Type: Water
@@ -44,7 +44,7 @@ Adamant Nature
 - Aqua Jet
 - U-turn
 
-Alexis (Rillaboom) @ Assault Vest
+Rillaboom @ Assault Vest
 Ability: Grassy Surge
 Level: 50
 Tera Type: Fire
@@ -55,7 +55,7 @@ Adamant Nature
 - High Horsepower
 - Fake Out
 
-SebastianLL (Ogerpon-Hearthflame) @ Hearthflame Mask
+Ogerpon-Hearthflame @ Hearthflame Mask
 Ability: Mold Breaker
 Level: 50
 Tera Type: Fire

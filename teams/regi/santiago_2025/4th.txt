@@ -1,4 +1,4 @@
-Incierto (Incineroar) (M) @ Safety Goggles
+Incineroar (M) @ Safety Goggles
 Ability: Intimidate
 Level: 50
 Shiny: Yes
@@ -11,7 +11,7 @@ IVs: 0 Spe
 - Flare Blitz
 - Knock Off
 
-ET (Lunala) @ Leftovers
+Lunala @ Leftovers
 Ability: Shadow Shield
 Level: 50
 Tera Type: Fairy
@@ -23,7 +23,7 @@ IVs: 0 Atk
 - Wide Guard
 - Trick Room
 
-Mr. Hongo (Amoonguss) (F) @ Covert Cloak
+Amoonguss (F) @ Covert Cloak
 Ability: Regenerator
 Level: 50
 Tera Type: Dark
@@ -35,7 +35,7 @@ IVs: 0 Atk / 0 Spe
 - Pollen Puff
 - Protect
 
-Ushuaia (Ursaluna) (M) @ Flame Orb
+Ursaluna (M) @ Flame Orb
 Ability: Guts
 Level: 50
 Tera Type: Ghost
@@ -47,7 +47,7 @@ IVs: 14 SpA / 0 Spe
 - Earthquake
 - Protect
 
-RÃ¡pido (Koraidon) @ Life Orb
+Koraidon @ Life Orb
 Ability: Orichalcum Pulse
 Level: 50
 Tera Type: Fire
@@ -58,7 +58,7 @@ Jolly Nature
 - Flame Charge
 - Protect
 
-Agatha (Flutter Mane) @ Focus Sash
+Flutter Mane @ Focus Sash
 Ability: Protosynthesis
 Level: 50
 Shiny: Yes

@@ -31,7 +31,7 @@ Impish Nature
 - Iron Defense
 - Protect
 
-Hypergiant (Flutter Mane) @ Choice Specs
+Flutter Mane @ Choice Specs
 Ability: Protosynthesis
 Shiny: Yes
 Tera Type: Fairy
@@ -55,7 +55,7 @@ IVs: 1 Atk
 - Tailwind
 - Recover
 
-Lapis (Glimmora) (F) @ Power Herb
+Glimmora (F) @ Power Herb
 Ability: Toxic Debris
 Shiny: Yes
 Tera Type: Grass

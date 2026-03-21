@@ -1,4 +1,4 @@
-Tilly (Dondozo) @ Covert Cloak
+Dondozo @ Covert Cloak
 Ability: Oblivious
 Level: 50
 Tera Type: Grass
@@ -9,7 +9,7 @@ Adamant Nature
 - Order Up
 - Protect
 
-Morsel (Tatsugiri) @ Safety Goggles
+Tatsugiri @ Safety Goggles
 Ability: Commander
 Level: 50
 Tera Type: Fairy
@@ -21,7 +21,7 @@ IVs: 0 Atk
 - Helping Hand
 - Protect
 
-Torrent (Gholdengo) @ Choice Specs
+Gholdengo @ Choice Specs
 Ability: Good as Gold
 Level: 50
 Tera Type: Steel
@@ -33,7 +33,7 @@ IVs: 0 Atk
 - Thunderbolt
 - Power Gem
 
-Gatecrash (Dragonite) @ Choice Band
+Dragonite @ Choice Band
 Ability: Inner Focus
 Level: 50
 Tera Type: Normal
@@ -44,7 +44,7 @@ Adamant Nature
 - Stomping Tantrum
 - Outrage
 
-Conduct (Incineroar) @ Assault Vest
+Incineroar @ Assault Vest
 Ability: Intimidate
 Level: 50
 Tera Type: Grass
@@ -55,7 +55,7 @@ Adamant Nature
 - Fake Out
 - U-turn
 
-Turbine (Whimsicott) @ Focus Sash
+Whimsicott @ Focus Sash
 Ability: Prankster
 Level: 50
 Tera Type: Ghost

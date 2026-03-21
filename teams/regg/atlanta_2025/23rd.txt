@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Psychic
 - Nasty Plot
 
-Dc+GB (Mienshao) (F) @ Focus Sash
+Mienshao (F) @ Focus Sash
 Ability: Inner Focus
 Level: 50
 Shiny: Yes
@@ -56,7 +56,7 @@ IVs: 0 Atk / 0 Spe
 - After You
 - Helping Hand
 
-LMK (Roaring Moon) @ Booster Energy
+Roaring Moon @ Booster Energy
 Ability: Protosynthesis
 Level: 50
 Shiny: Yes

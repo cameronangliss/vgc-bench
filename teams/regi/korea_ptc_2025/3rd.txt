@@ -1,4 +1,4 @@
-ãã©ã¤ãã³ (Miraidon) @ Choice Specs
+Miraidon @ Choice Specs
 Ability: Hadron Engine
 Level: 72
 Tera Type: Electric
@@ -9,7 +9,7 @@ Modest Nature
 - Draco Meteor
 - Discharge
 
-ãªã¼ã­ã³ã² (Grimmsnarl) @ Light Clay
+Grimmsnarl @ Light Clay
 Ability: Prankster
 Level: 50
 Tera Type: Ghost
@@ -20,7 +20,7 @@ Careful Nature
 - Light Screen
 - Thunder Wave
 
-ããã¬ãã¯ã¹ (Calyrex-Ice) @ Leftovers
+Calyrex-Ice @ Leftovers
 Ability: As One (Glastrier)
 Tera Type: Fairy
 EVs: 252 HP / 36 Atk / 4 Def / 212 SpD / 4 Spe
@@ -30,7 +30,7 @@ Adamant Nature
 - Trick Room
 - Protect
 
-ã¦ã¼ã©ãªã¹ (Urshifu-Rapid-Strike) (M) @ Choice Band
+Urshifu-Rapid-Strike (M) @ Choice Band
 Ability: Unseen Fist
 Tera Type: Ghost
 EVs: 108 HP / 196 Atk / 4 Def / 180 SpD / 20 Spe
@@ -40,7 +40,7 @@ Adamant Nature
 - Aqua Jet
 - U-turn
 
-ã¬ãªã¬ã¨ã³ (Incineroar) (M) @ Covert Cloak
+Incineroar (M) @ Covert Cloak
 Ability: Intimidate
 Level: 64
 Tera Type: Bug
@@ -51,7 +51,7 @@ Impish Nature
 - Parting Shot
 - Knock Off
 
-ã¬ãã°ã (Ursaluna) @ Flame Orb
+Ursaluna @ Flame Orb
 Ability: Guts
 Level: 50
 Tera Type: Ghost

@@ -1,4 +1,4 @@
-SAMUDRAGUPTA (Calyrex-Ice) @ Clear Amulet
+Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
 Level: 50
 Tera Type: Fire
@@ -10,7 +10,7 @@ IVs: 0 Spe
 - Trick Room
 - Protect
 
-GroudonAtHom (Torkoal) (F) @ Choice Specs
+Torkoal (F) @ Choice Specs
 Ability: Drought
 Level: 50
 Tera Type: Fire
@@ -22,7 +22,7 @@ IVs: 0 Atk / 0 Spe
 - Earth Power
 - Heat Wave
 
-MausHaus (Maushold) @ Focus Sash
+Maushold @ Focus Sash
 Ability: Friend Guard
 Level: 50
 Shiny: Yes
@@ -35,7 +35,7 @@ IVs: 0 Atk
 - Helping Hand
 - Super Fang
 
-NoFakeOut (Farigiraf) (F) @ Life Orb
+Farigiraf (F) @ Life Orb
 Ability: Armor Tail
 Level: 50
 Tera Type: Water
@@ -59,7 +59,7 @@ Adamant Nature
 - Wood Hammer
 - High Horsepower
 
-Gadagadaahat (Raging Bolt) @ Zap Plate
+Raging Bolt @ Zap Plate
 Ability: Protosynthesis
 Level: 50
 Tera Type: Electric

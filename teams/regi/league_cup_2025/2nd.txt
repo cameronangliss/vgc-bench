@@ -1,4 +1,4 @@
-Ãclipse (Lunala) @ Power Herb
+Lunala @ Power Herb
 Ability: Shadow Shield
 Level: 50
 Shiny: Yes
@@ -11,7 +11,7 @@ IVs: 0 Atk
 - Wide Guard
 - Trick Room
 
-MÃ¡nagarmr (Zacian-Crowned) @ Rusted Sword
+Zacian-Crowned @ Rusted Sword
 Ability: Intrepid Sword
 Level: 50
 Shiny: Yes
@@ -23,7 +23,7 @@ Jolly Nature
 - Sacred Sword
 - Protect
 
-Luna Obscura (Roaring Moon) @ Booster Energy
+Roaring Moon @ Booster Energy
 Ability: Protosynthesis
 Level: 50
 Tera Type: Flying
@@ -34,7 +34,7 @@ Jolly Nature
 - Tailwind
 - Protect
 
-Blue Moon (Ogerpon-Wellspring) (F) @ Wellspring Mask
+Ogerpon-Wellspring (F) @ Wellspring Mask
 Ability: Water Absorb
 Level: 50
 Tera Type: Water
@@ -45,7 +45,7 @@ Adamant Nature
 - Follow Me
 - Spiky Shield
 
-Harvest Moon (Landorus) @ Life Orb
+Landorus @ Life Orb
 Ability: Sheer Force
 Level: 50
 Tera Type: Water
@@ -57,7 +57,7 @@ IVs: 0 Atk
 - Sludge Bomb
 - Protect
 
-Sailor Moon (Pelipper) (F) @ Focus Sash
+Pelipper (F) @ Focus Sash
 Ability: Drizzle
 Level: 50
 Shiny: Yes

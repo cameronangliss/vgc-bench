@@ -1,4 +1,4 @@
-Shamone Rider (Calyrex-Shadow) @ Spooky Plate
+Calyrex-Shadow @ Spooky Plate
 Ability: As One (Spectrier)
 Level: 50
 Tera Type: Water
@@ -10,7 +10,7 @@ IVs: 3 Atk
 - Nasty Plot
 - Protect
 
-Larry (Whimsicott) @ Covert Cloak
+Whimsicott @ Covert Cloak
 Ability: Prankster
 Level: 50
 Shiny: Yes
@@ -23,7 +23,7 @@ IVs: 30 Atk
 - Encore
 - Cotton Spore
 
-Wicked Shades (Urshifu) @ Focus Sash
+Urshifu @ Focus Sash
 Ability: Unseen Fist
 Level: 50
 Tera Type: Stellar
@@ -35,7 +35,7 @@ IVs: 2 SpA
 - Sucker Punch
 - Detect
 
-Fisto (Iron Hands) @ Assault Vest
+Iron Hands @ Assault Vest
 Ability: Quark Drive
 Level: 50
 Shiny: Yes
@@ -47,7 +47,7 @@ Adamant Nature
 - Drain Punch
 - Fake Out
 
-Piepi (Clefairy) (F) @ Eviolite
+Clefairy (F) @ Eviolite
 Ability: Friend Guard
 Level: 50
 Shiny: Yes
@@ -60,7 +60,7 @@ IVs: 0 Atk / 2 SpA / 0 Spe
 - After You
 - Protect
 
-Elizabeth (Ogerpon-Hearthflame) @ Hearthflame Mask
+Ogerpon-Hearthflame @ Hearthflame Mask
 Ability: Mold Breaker
 Level: 50
 Tera Type: Fire

@@ -1,4 +1,4 @@
-Lust (Flutter Mane) @ Choice Specs
+Flutter Mane @ Choice Specs
 Ability: Protosynthesis
 Level: 50
 Tera Type: Fairy
@@ -10,7 +10,7 @@ IVs: 15 Atk
 - Power Gem
 - Shadow Ball
 
-Sloth (Groudon) @ Clear Amulet
+Groudon @ Clear Amulet
 Ability: Drought
 Level: 50
 Tera Type: Fire
@@ -21,7 +21,7 @@ Jolly Nature
 - Thunder Punch
 - Protect
 
-Pride (Incineroar) @ Sitrus Berry
+Incineroar @ Sitrus Berry
 Ability: Intimidate
 Level: 50
 Tera Type: Grass
@@ -32,7 +32,7 @@ Impish Nature
 - Knock Off
 - Will-O-Wisp
 
-Wrath (Chi-Yu) @ Focus Sash
+Chi-Yu @ Focus Sash
 Ability: Beads of Ruin
 Level: 50
 Tera Type: Ghost
@@ -44,7 +44,7 @@ IVs: 0 Atk
 - Burning Jealousy
 - Protect
 
-Gluttony (Rillaboom) (M) @ Assault Vest
+Rillaboom (M) @ Assault Vest
 Ability: Grassy Surge
 Level: 50
 Shiny: Yes
@@ -56,7 +56,7 @@ Impish Nature
 - Grassy Glide
 - U-turn
 
-Greed (Tornadus) @ Covert Cloak
+Tornadus @ Covert Cloak
 Ability: Prankster
 Level: 50
 Tera Type: Dark

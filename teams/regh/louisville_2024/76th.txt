@@ -1,4 +1,4 @@
-Cold Brew (Ninetales-Alola) @ Choice Specs
+Ninetales-Alola @ Choice Specs
 Ability: Snow Warning
 Level: 50
 Tera Type: Ice
@@ -10,7 +10,7 @@ IVs: 0 Atk
 - Freeze-Dry
 - Icy Wind
 
-Mocha (Garchomp) @ Life Orb
+Garchomp @ Life Orb
 Ability: Rough Skin
 Level: 50
 Tera Type: Steel
@@ -21,7 +21,7 @@ Jolly Nature
 - Dragon Claw
 - Protect
 
-Latte (Dragonite) @ Lum Berry
+Dragonite @ Lum Berry
 Ability: Multiscale
 Level: 50
 Tera Type: Flying
@@ -32,7 +32,7 @@ Adamant Nature
 - Low Kick
 - Protect
 
-Cappuccino (Sneasler) @ Focus Sash
+Sneasler @ Focus Sash
 Ability: Poison Touch
 Level: 50
 Tera Type: Ghost
@@ -43,7 +43,7 @@ Jolly Nature
 - Coaching
 - Fake Out
 
-Macchiato (Kingambit) @ Assault Vest
+Kingambit @ Assault Vest
 Ability: Defiant
 Level: 50
 Tera Type: Water
@@ -54,7 +54,7 @@ Adamant Nature
 - Sucker Punch
 - Low Kick
 
-Espresso (Amoonguss) @ Covert Cloak
+Amoonguss @ Covert Cloak
 Ability: Regenerator
 Level: 50
 Tera Type: Fairy

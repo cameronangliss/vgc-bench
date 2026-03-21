@@ -29,7 +29,7 @@ Modest Nature
 - Draco Meteor
 - Dazzling Gleam
 
-Wonder Cooki (Grimmsnarl) @ Light Clay
+Grimmsnarl @ Light Clay
 Ability: Prankster
 Level: 58
 Shiny: Yes

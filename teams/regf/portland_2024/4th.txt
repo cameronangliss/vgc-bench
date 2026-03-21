@@ -48,6 +48,7 @@ Level: 50
 Tera Type: Grass
 EVs: 132 HP / 12 Def / 180 SpA / 4 SpD / 180 Spe
 Modest Nature
+IVs: 20 Atk
 - Thunderbolt
 - Thunderclap
 - Draco Meteor

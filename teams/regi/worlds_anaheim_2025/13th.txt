@@ -21,7 +21,7 @@ Impish Nature
 - Wide Guard
 - Behemoth Bash
 
-Sean (Chien-Pao) @ Life Orb
+Chien-Pao @ Life Orb
 Ability: Sword of Ruin
 Tera Type: Stellar
 EVs: 252 Atk / 4 Def / 252 Spe
@@ -43,7 +43,7 @@ IVs: 0 Atk / 27 Spe
 - Rage Powder
 - Pollen Puff
 
-Shahar (Raging Bolt) @ Magnet
+Raging Bolt @ Magnet
 Ability: Protosynthesis
 Tera Type: Electric
 EVs: 196 HP / 116 Def / 180 SpA / 12 SpD / 4 Spe
@@ -54,7 +54,7 @@ IVs: 20 Atk
 - Thunderclap
 - Protect
 
-Sebasting-Lu (Ting-Lu) @ Assault Vest
+Ting-Lu @ Assault Vest
 Ability: Vessel of Ruin
 Level: 61
 Tera Type: Fairy
