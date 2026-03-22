@@ -1,0 +1,71 @@
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Helping Hand
+- Follow Me
+- Trick Room
+
+Gallade @ Scope Lens
+Ability: Sharpness
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Sacred Sword
+- Psycho Cut
+- Trick Room
+- Wide Guard
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 12 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Weather Ball
+- Clear Smog
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 116 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Exeggutor @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Leaf Storm
+- Sleep Powder
+- Trick Room
+
+Zoroark-Hisui @ Choice Specs
+Ability: Illusion
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Beam
+- Hyper Voice
+- Shadow Ball
+- Focus Blast

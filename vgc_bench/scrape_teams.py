@@ -255,9 +255,7 @@ def scrape_regulation(regulation: str) -> None:
             team_text = fetch_team(session, pokepaste)
             if not all_pokemon_have_evs(team_text) or has_duplicate_items(team_text):
                 continue
-            if re.search(
-                r"^\s*Ability:\s*Illusion\s*$", team_text, re.IGNORECASE | re.MULTILINE
-            ) or re.search(r"@\s*Electric Gem\s*$", team_text, re.MULTILINE):
+            if re.search(r"@\s*Electric Gem\s*$", team_text, re.MULTILINE):
                 stats["banned"] += 1
                 continue
             try:

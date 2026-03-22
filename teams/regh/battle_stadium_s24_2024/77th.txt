@@ -1,0 +1,71 @@
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 160 Atk / 84 Def / 12 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Headlong Rush
+- Facade
+- Earthquake
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Fighting
+EVs: 52 HP / 228 SpA / 228 Spe
+Modest Nature
+IVs: 4 Atk
+- Protect
+- Make It Rain
+- Tera Blast
+- Thunderbolt
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 188 Def / 76 SpD
+Sassy Nature
+IVs: 0 Spe
+- Flare Blitz
+- Knock Off
+- U-turn
+- Snarl
+
+Zoroark-Hisui @ Focus Sash
+Ability: Illusion
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Hyper Voice
+- Shadow Ball
+- Icy Wind
+
+Farigiraf @ Mental Herb
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+IVs: 8 Atk / 26 Spe
+- Protect
+- Dazzling Gleam
+- Helping Hand
+- Trick Room
+
+Dragonite @ Safety Goggles
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 220 Atk / 12 Def / 12 SpD / 20 Spe
+Adamant Nature
+IVs: 16 SpA
+- Extreme Speed
+- Aerial Ace
+- Low Kick
+- Haze

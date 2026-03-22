@@ -1,0 +1,71 @@
+Gallade @ Clear Amulet
+Ability: Sharpness
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 204 Atk / 4 Def / 44 SpD
+Brave Nature
+IVs: 4 Spe
+- Psycho Cut
+- Sacred Sword
+- Trick Room
+- Wide Guard
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Follow Me
+- Helping Hand
+- Psychic
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Clear Smog
+- Weather Ball
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 116 HP / 236 Atk / 20 Def / 132 SpD
+Brave Nature
+IVs: 18 SpA / 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Hatterene @ Life Orb
+Ability: Magic Bounce
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 44 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Expanding Force
+- Dazzling Gleam
+- Protect
+- Trick Room
+
+Zoroark-Hisui @ Choice Specs
+Ability: Illusion
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 10 Atk
+- Hyper Voice
+- Shadow Ball
+- Tera Blast
+- Taunt

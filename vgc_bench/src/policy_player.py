@@ -331,9 +331,10 @@ class PolicyPlayer(Player):
             "null" if pokemon.ability is None else pokemon.ability
         )
         item_id = items.index("null" if pokemon.item is None else pokemon.item)
-        move_ids = [moves.index(move.id) for move in pokemon.moves.values()]
+        move_list = list(pokemon.moves.values())[-4:]
+        move_ids = [moves.index(move.id) for move in move_list]
         move_ids += [0] * (4 - len(move_ids))
-        move_embeds = [PolicyPlayer.embed_move(move) for move in pokemon.moves.values()]
+        move_embeds = [PolicyPlayer.embed_move(move) for move in move_list]
         move_embeds += [np.zeros(move_obs_len, dtype=np.float32)] * (
             4 - len(move_embeds)
         )
