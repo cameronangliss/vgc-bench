@@ -23,6 +23,7 @@ Adamant Nature
 
 Urshifu-Rapid-Strike @ Life Orb
 Ability: Unseen Fist
+Level: 50
 Tera Type: Grass
 EVs: 108 HP / 156 Atk / 4 Def / 180 SpD / 60 Spe
 Adamant Nature
@@ -33,6 +34,7 @@ Adamant Nature
 
 Amoonguss @ Rocky Helmet
 Ability: Regenerator
+Level: 50
 Tera Type: Water
 EVs: 236 HP / 156 Def / 116 SpD
 Relaxed Nature
@@ -44,7 +46,7 @@ IVs: 0 Atk
 
 Iron Jugulis @ Booster Energy
 Ability: Quark Drive
-Level: 95
+Level: 50
 Tera Type: Steel
 EVs: 236 HP / 36 Def / 68 SpA / 68 SpD / 100 Spe
 Timid Nature
@@ -56,6 +58,7 @@ IVs: 0 Atk
 
 Rillaboom @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Tera Type: Fire
 EVs: 252 HP / 116 Atk / 4 Def / 76 SpD / 60 Spe
 Adamant Nature

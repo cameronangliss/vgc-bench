@@ -1,5 +1,6 @@
 Annihilape @ Safety Goggles
 Ability: Defiant
+Level: 50
 Tera Type: Water
 EVs: 188 HP / 68 Atk / 252 Spe
 Jolly Nature
@@ -10,6 +11,7 @@ Jolly Nature
 
 Archaludon @ Power Herb
 Ability: Stalwart
+Level: 50
 Tera Type: Electric
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -21,6 +23,7 @@ IVs: 0 Atk
 
 Dragonite @ Loaded Dice
 Ability: Multiscale
+Level: 50
 Tera Type: Steel
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
@@ -42,6 +45,7 @@ Adamant Nature
 
 Ursaluna-Bloodmoon @ Assault Vest
 Ability: Mind's Eye
+Level: 50
 Tera Type: Poison
 EVs: 172 HP / 4 Def / 116 SpA / 148 SpD / 68 Spe
 Modest Nature
@@ -52,6 +56,7 @@ Modest Nature
 
 Whimsicott @ Focus Sash
 Ability: Prankster
+Level: 50
 Tera Type: Ghost
 EVs: 44 Def / 212 SpA / 252 Spe
 Timid Nature

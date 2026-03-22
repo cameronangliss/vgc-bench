@@ -1,5 +1,6 @@
 Sneasler @ Focus Sash
 Ability: Poison Touch
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 252 Atk / 4 Def / 252 Spe
@@ -11,6 +12,7 @@ Jolly Nature
 
 Mimikyu @ Life Orb
 Ability: Disguise
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 4 HP / 252 Atk / 252 Spe
@@ -22,6 +24,7 @@ Jolly Nature
 
 Ursaluna-Bloodmoon @ Assault Vest
 Ability: Mind's Eye
+Level: 50
 Tera Type: Ghost
 EVs: 156 HP / 12 Def / 212 SpA / 84 SpD / 44 Spe
 Modest Nature
@@ -33,6 +36,7 @@ IVs: 0 Atk
 
 Garchomp @ Choice Scarf
 Ability: Rough Skin
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 68 HP / 188 Atk / 36 Def / 12 SpD / 204 Spe
@@ -44,6 +48,7 @@ Adamant Nature
 
 Rillaboom @ Miracle Seed
 Ability: Grassy Surge
+Level: 50
 Shiny: Yes
 Tera Type: Fire
 EVs: 156 HP / 252 Atk / 4 Def / 76 SpD / 20 Spe
@@ -55,6 +60,7 @@ Adamant Nature
 
 Gholdengo @ Sitrus Berry
 Ability: Good as Gold
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 108 HP / 4 Def / 132 SpA / 12 SpD / 252 Spe

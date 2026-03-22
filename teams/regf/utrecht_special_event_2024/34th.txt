@@ -1,5 +1,6 @@
 Raging Bolt @ Leftovers
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 188 HP / 132 Def / 100 SpA / 68 SpD / 20 Spe
 Modest Nature
@@ -11,7 +12,7 @@ IVs: 20 Atk
 
 Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
-Level: 60
+Level: 50
 Tera Type: Stellar
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
@@ -22,6 +23,7 @@ Jolly Nature
 
 Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
+Level: 50
 Tera Type: Ghost
 EVs: 68 HP / 156 Atk / 4 Def / 100 SpD / 180 Spe
 Adamant Nature
@@ -33,6 +35,7 @@ IVs: 9 SpA
 
 Rillaboom @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Tera Type: Fire
 EVs: 252 HP / 36 Atk / 4 Def / 204 SpD / 12 Spe
 Adamant Nature
@@ -43,6 +46,7 @@ Adamant Nature
 
 Incineroar @ Safety Goggles
 Ability: Intimidate
+Level: 50
 Tera Type: Ghost
 EVs: 252 HP / 76 Def / 180 SpD
 Impish Nature
@@ -53,6 +57,7 @@ Impish Nature
 
 Landorus @ Life Orb
 Ability: Sheer Force
+Level: 50
 Tera Type: Poison
 EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe
 Timid Nature

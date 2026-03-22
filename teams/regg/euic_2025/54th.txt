@@ -1,5 +1,6 @@
 Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
+Level: 50
 Tera Type: Poison
 EVs: 252 HP / 116 Atk / 4 Def / 116 SpD / 20 Spe
 Adamant Nature
@@ -10,6 +11,7 @@ Adamant Nature
 
 Raging Bolt @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Electric
 EVs: 188 HP / 44 Def / 252 SpA / 4 SpD / 20 Spe
 Modest Nature
@@ -21,6 +23,7 @@ IVs: 20 Atk
 
 Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
+Level: 50
 Tera Type: Water
 EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
 Adamant Nature
@@ -31,6 +34,7 @@ Adamant Nature
 
 Amoonguss @ Rocky Helmet
 Ability: Regenerator
+Level: 50
 Tera Type: Fairy
 EVs: 236 HP / 156 Def / 116 SpD
 Relaxed Nature
@@ -42,6 +46,7 @@ IVs: 0 Atk / 0 Spe
 
 Landorus @ Life Orb
 Ability: Sheer Force
+Level: 50
 Tera Type: Poison
 EVs: 44 HP / 4 Def / 204 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -52,6 +57,7 @@ Timid Nature
 
 Pelipper @ Covert Cloak
 Ability: Drizzle
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 252 HP / 4 Def / 196 SpA / 36 SpD / 20 Spe

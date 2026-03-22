@@ -1,5 +1,6 @@
 Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
+Level: 50
 Tera Type: Ghost
 EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
@@ -22,6 +23,7 @@ IVs: 20 Def / 20 SpA / 20 SpD
 
 Entei @ Assault Vest
 Ability: Inner Focus
+Level: 50
 Tera Type: Grass
 EVs: 228 HP / 124 Atk / 52 Def / 76 SpD / 28 Spe
 Adamant Nature
@@ -32,6 +34,7 @@ Adamant Nature
 
 Raging Bolt @ Life Orb
 Ability: Protosynthesis
+Level: 50
 Tera Type: Water
 EVs: 180 HP / 140 Def / 100 SpA / 12 SpD / 76 Spe
 Modest Nature
@@ -43,6 +46,7 @@ IVs: 20 Atk
 
 Dragonite (M) @ Choice Band
 Ability: Inner Focus
+Level: 50
 Tera Type: Normal
 EVs: 100 HP / 252 Atk / 68 Def / 12 SpD / 76 Spe
 Adamant Nature
@@ -53,6 +57,7 @@ Adamant Nature
 
 Flutter Mane @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 4 HP / 132 Def / 116 SpA / 4 SpD / 252 Spe
 Modest Nature

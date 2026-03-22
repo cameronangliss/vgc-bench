@@ -1,5 +1,6 @@
 Cresselia @ Mental Herb
 Ability: Levitate
+Level: 50
 Tera Type: Steel
 EVs: 252 HP / 4 SpA / 252 Spe
 Timid Nature
@@ -11,6 +12,7 @@ IVs: 0 Atk
 
 Scream Tail @ Covert Cloak
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fire
 EVs: 4 HP / 252 SpA / 252 Spe
 Modest Nature
@@ -22,6 +24,7 @@ IVs: 0 Atk
 
 Dondozo @ Clear Amulet
 Ability: Unaware
+Level: 50
 Tera Type: Fairy
 EVs: 92 HP / 156 Atk / 4 Def / 4 SpD / 252 Spe
 Adamant Nature
@@ -32,6 +35,7 @@ Adamant Nature
 
 Tatsugiri-Stretchy @ Toxic Orb
 Ability: Commander
+Level: 50
 Tera Type: Dragon
 EVs: 252 SpA / 252 Spe
 Naive Nature
@@ -43,6 +47,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpD
 
 Comfey @ Eject Button
 Ability: Triage
+Level: 50
 Tera Type: Fairy
 EVs: 116 HP / 4 Def / 228 SpA / 4 SpD / 156 Spe
 Modest Nature
@@ -54,6 +59,7 @@ IVs: 29 Atk
 
 Ursaluna @ Master Ball
 Ability: Unnerve
+Level: 50
 Tera Type: Rock
 EVs: 67 HP / 67 Atk / 67 Def / 67 SpA / 67 SpD / 67 Spe
 Quirky Nature

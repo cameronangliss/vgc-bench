@@ -1,5 +1,6 @@
 Rillaboom @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Tera Type: Fire
 EVs: 188 HP / 164 Atk / 4 Def / 44 SpD / 108 Spe
 Adamant Nature
@@ -10,6 +11,7 @@ Adamant Nature
 
 Incineroar @ Safety Goggles
 Ability: Intimidate
+Level: 50
 Tera Type: Ghost
 EVs: 228 HP / 76 Def / 204 Spe
 Impish Nature
@@ -20,6 +22,7 @@ Impish Nature
 
 Volcarona @ Covert Cloak
 Ability: Flame Body
+Level: 50
 Tera Type: Fairy
 EVs: 132 HP / 92 Def / 36 SpA / 4 SpD / 244 Spe
 Modest Nature
@@ -30,6 +33,7 @@ Modest Nature
 
 Ursaluna-Bloodmoon @ Leftovers
 Ability: Mind's Eye
+Level: 50
 Tera Type: Electric
 EVs: 164 HP / 4 Def / 116 SpA / 132 SpD / 92 Spe
 Modest Nature
@@ -41,6 +45,7 @@ IVs: 0 Atk
 
 Ninetales-Alola @ Focus Sash
 Ability: Snow Warning
+Level: 50
 Tera Type: Ice
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
@@ -52,6 +57,7 @@ IVs: 0 Atk
 
 Basculegion @ Choice Scarf
 Ability: Adaptability
+Level: 50
 Tera Type: Grass
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature

@@ -1,5 +1,6 @@
 Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
+Level: 50
 Tera Type: Fairy
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature

@@ -1,6 +1,6 @@
 Indeedee @ Focus Sash
 Ability: Psychic Surge
-Level: 72
+Level: 50
 Shiny: Yes
 Tera Type: Ground
 EVs: 252 SpA / 4 SpD / 252 Spe
@@ -25,7 +25,7 @@ IVs: 30 SpA
 
 Volcarona (M) @ Life Orb
 Ability: Flame Body
-Level: 61
+Level: 50
 Shiny: Yes
 Tera Type: Rock
 EVs: 44 HP / 4 Def / 204 SpA / 4 SpD / 252 Spe
@@ -37,7 +37,7 @@ Modest Nature
 
 Kommo-o (F) @ Leftovers
 Ability: Soundproof
-Level: 69
+Level: 50
 Shiny: Yes
 Tera Type: Fire
 EVs: 252 HP / 116 Def / 4 SpA / 92 SpD / 44 Spe
@@ -61,7 +61,7 @@ Timid Nature
 
 Hydreigon (F) @ Assault Vest
 Ability: Levitate
-Level: 64
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 124 HP / 12 Def / 116 SpA / 4 SpD / 252 Spe

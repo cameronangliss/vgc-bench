@@ -1,5 +1,6 @@
 Miraidon @ Choice Specs
 Ability: Hadron Engine
+Level: 50
 Tera Type: Electric
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
@@ -10,6 +11,7 @@ Timid Nature
 
 Iron Hands @ Assault Vest
 Ability: Quark Drive
+Level: 50
 Tera Type: Water
 EVs: 68 HP / 164 Atk / 4 Def / 220 SpD / 52 Spe
 Adamant Nature
@@ -44,7 +46,7 @@ Careful Nature
 
 Urshifu-Rapid-Strike (M) @ Mystic Water
 Ability: Unseen Fist
-Level: 70
+Level: 50
 Tera Type: Water
 EVs: 188 HP / 76 Atk / 4 Def / 68 SpD / 172 Spe
 Adamant Nature

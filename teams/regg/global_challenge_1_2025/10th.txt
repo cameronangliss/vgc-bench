@@ -1,5 +1,6 @@
 Calyrex-Ice @ Assault Vest
 Ability: As One (Glastrier)
+Level: 50
 Tera Type: Water
 EVs: 244 HP / 116 Atk / 12 Def / 28 SpD / 108 Spe
 Adamant Nature
@@ -10,6 +11,7 @@ Adamant Nature
 
 Indeedee-F @ Psychic Seed
 Ability: Psychic Surge
+Level: 50
 Tera Type: Fairy
 EVs: 252 HP / 252 Def / 4 SpD
 Bold Nature
@@ -21,6 +23,7 @@ IVs: 0 Atk
 
 Annihilape @ Focus Sash
 Ability: Defiant
+Level: 50
 Tera Type: Stellar
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature
@@ -31,6 +34,7 @@ Jolly Nature
 
 Heatran @ Zoom Lens
 Ability: Flash Fire
+Level: 50
 Tera Type: Bug
 EVs: 252 HP / 4 Atk / 108 Def / 76 SpA / 68 SpD
 Quiet Nature
@@ -41,6 +45,7 @@ Quiet Nature
 
 Sinistcha @ Rocky Helmet
 Ability: Hospitality
+Level: 50
 Tera Type: Dark
 EVs: 252 HP / 108 Def / 4 SpA / 140 SpD / 4 Spe
 Bold Nature
@@ -52,6 +57,7 @@ IVs: 0 Atk
 
 Iron Valiant @ Booster Energy
 Ability: Quark Drive
+Level: 50
 Tera Type: Ghost
 EVs: 204 HP / 44 Def / 4 SpA / 4 SpD / 252 Spe
 Timid Nature

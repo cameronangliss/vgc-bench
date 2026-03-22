@@ -1,5 +1,6 @@
 Miraidon @ Magnet
 Ability: Hadron Engine
+Level: 50
 Tera Type: Electric
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
@@ -10,7 +11,7 @@ Timid Nature
 
 Incineroar (M) @ Sitrus Berry
 Ability: Intimidate
-Level: 68
+Level: 50
 Tera Type: Water
 EVs: 236 HP / 4 Atk / 188 Def / 76 SpD / 4 Spe
 Impish Nature
@@ -21,6 +22,7 @@ Impish Nature
 
 Ogerpon-Wellspring @ Wellspring Mask
 Ability: Water Absorb
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 4 Atk / 12 Def / 52 SpD / 188 Spe
 Jolly Nature
@@ -31,7 +33,7 @@ Jolly Nature
 
 Iron Bundle @ Covert Cloak
 Ability: Quark Drive
-Level: 58
+Level: 50
 Tera Type: Ice
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
@@ -43,6 +45,7 @@ IVs: 0 Atk
 
 Iron Valiant @ Focus Sash
 Ability: Quark Drive
+Level: 50
 Tera Type: Ghost
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature
@@ -53,7 +56,7 @@ Jolly Nature
 
 Landorus @ Life Orb
 Ability: Sheer Force
-Level: 94
+Level: 50
 Shiny: Yes
 Tera Type: Poison
 EVs: 4 HP / 252 SpA / 252 Spe

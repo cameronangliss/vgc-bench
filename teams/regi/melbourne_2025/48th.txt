@@ -1,5 +1,6 @@
 Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
+Level: 50
 Tera Type: Water
 EVs: 172 HP / 116 Atk / 20 Def / 196 SpD
 Brave Nature
@@ -11,7 +12,7 @@ IVs: 0 Spe
 
 Lunala @ Safety Goggles
 Ability: Shadow Shield
-Level: 77
+Level: 50
 Tera Type: Fairy
 EVs: 148 HP / 84 Def / 252 SpA / 24 SpD
 Quiet Nature
@@ -23,7 +24,7 @@ IVs: 0 Atk / 0 Spe
 
 Enamorus-Therian @ Choice Specs
 Ability: Overcoat
-Level: 95
+Level: 50
 Tera Type: Fairy
 EVs: 252 HP / 4 Def / 252 SpA
 Quiet Nature
@@ -35,7 +36,7 @@ IVs: 0 Atk / 2 Spe
 
 Okidogi @ Life Orb
 Ability: Guard Dog
-Level: 70
+Level: 50
 Tera Type: Grass
 EVs: 196 HP / 228 Atk / 36 Def / 44 SpD
 Brave Nature
@@ -47,6 +48,7 @@ IVs: 0 Spe
 
 Indeedee-F @ Psychic Seed
 Ability: Psychic Surge
+Level: 50
 Tera Type: Grass
 EVs: 252 HP / 252 Def / 4 SpD
 Relaxed Nature
@@ -58,7 +60,7 @@ IVs: 0 Atk / 0 Spe
 
 Smeargle @ Focus Sash
 Ability: Technician
-Level: 66
+Level: 50
 Tera Type: Grass
 EVs: 4 Atk / 252 Def / 252 Spe
 Jolly Nature

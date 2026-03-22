@@ -165,6 +165,8 @@ def normalize_team_text(text: str) -> str:
             m = re.match(r"^(\s*Ability:\s*)(.*?)\s*$", line, re.IGNORECASE)
             if m and re.sub(r"[^a-z0-9]", "", m.group(2).lower()) == "asone":
                 line = f"{m.group(1)}{asone}"
+            if re.match(r"\s*Level:", line):
+                line = "Level: 50"
             new_lines.append(line)
         if is_raging_bolt and not has_correct_atk_iv:
             # No IVs line at all; insert after Nature line
@@ -173,6 +175,17 @@ def normalize_team_text(text: str) -> str:
                 len(new_lines),
             )
             new_lines.insert(insert_idx, "IVs: 20 Atk")
+        if not any(re.match(r"\s*Level:", line) for line in new_lines):
+            # Insert Level: 50 after Ability line
+            insert_idx = next(
+                (
+                    i + 1
+                    for i, l in enumerate(new_lines)
+                    if re.match(r"\s*Ability:", l)
+                ),
+                1,
+            )
+            new_lines.insert(insert_idx, "Level: 50")
         normalized.append("\n".join(new_lines))
     return "\n\n".join(normalized) + "\n"
 

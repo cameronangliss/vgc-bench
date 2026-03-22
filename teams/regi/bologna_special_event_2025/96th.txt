@@ -1,5 +1,6 @@
 Calyrex-Shadow @ Leftovers
 Ability: As One (Spectrier)
+Level: 50
 Tera Type: Fairy
 EVs: 156 HP / 84 Def / 12 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -23,7 +24,7 @@ IVs: 0 Atk
 
 Raging Bolt @ Life Orb
 Ability: Protosynthesis
-Level: 75
+Level: 50
 Tera Type: Fairy
 EVs: 184 HP / 140 Def / 180 SpA / 4 Spe
 Modest Nature
@@ -35,6 +36,7 @@ IVs: 20 Atk
 
 Incineroar @ Safety Goggles
 Ability: Intimidate
+Level: 50
 Tera Type: Ghost
 EVs: 180 HP / 4 Atk / 60 Def / 180 SpD / 84 Spe
 Careful Nature

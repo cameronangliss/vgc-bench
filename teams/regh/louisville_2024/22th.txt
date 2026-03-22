@@ -56,6 +56,7 @@ Quiet Nature
 
 Blaziken @ Focus Sash
 Ability: Speed Boost
+Level: 50
 Tera Type: Fighting
 EVs: 252 Atk / 4 SpA / 252 Spe
 Lonely Nature

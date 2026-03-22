@@ -1,6 +1,6 @@
 Incineroar @ Ability Shield
 Ability: Intimidate
-Level: 69
+Level: 50
 Tera Type: Grass
 EVs: 140 HP / 244 Atk / 124 Spe
 Adamant Nature
@@ -11,7 +11,7 @@ Adamant Nature
 
 Ursaluna-Bloodmoon @ Life Orb
 Ability: Mind's Eye
-Level: 70
+Level: 50
 Tera Type: Normal
 EVs: 4 HP / 252 SpA / 252 SpD
 Quiet Nature
@@ -47,7 +47,7 @@ IVs: 0 Atk
 
 Latios @ Soul Dew
 Ability: Levitate
-Level: 70
+Level: 50
 Tera Type: Steel
 EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -59,7 +59,7 @@ IVs: 0 Atk
 
 Ogerpon-Wellspring @ Wellspring Mask
 Ability: Water Absorb
-Level: 70
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 76 Atk / 76 Def / 60 SpD / 44 Spe
 Adamant Nature

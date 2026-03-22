@@ -24,6 +24,7 @@ IVs: 0 Atk
 
 Sneasler @ Psychic Seed
 Ability: Unburden
+Level: 50
 Tera Type: Dark
 EVs: 4 HP / 236 Atk / 28 Def / 4 SpD / 236 Spe
 Adamant Nature
@@ -34,6 +35,7 @@ Adamant Nature
 
 Hydreigon @ Safety Goggles
 Ability: Levitate
+Level: 50
 Tera Type: Ghost
 EVs: 212 HP / 4 Def / 28 SpA / 12 SpD / 252 Spe
 Timid Nature
@@ -56,6 +58,7 @@ Jolly Nature
 
 Kingambit @ Assault Vest
 Ability: Defiant
+Level: 50
 Tera Type: Flying
 EVs: 252 HP / 220 Atk / 12 Def / 20 SpD / 4 Spe
 Adamant Nature

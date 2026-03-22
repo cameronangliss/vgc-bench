@@ -1,6 +1,6 @@
 Volcarona (F) @ Leftovers
 Ability: Flame Body
-Level: 59
+Level: 50
 Tera Type: Water
 EVs: 124 HP / 244 Def / 4 SpA / 4 SpD / 132 Spe
 Timid Nature
@@ -11,6 +11,7 @@ Timid Nature
 
 Iron Hands @ Assault Vest
 Ability: Quark Drive
+Level: 50
 Tera Type: Water
 EVs: 100 HP / 156 Atk / 4 Def / 236 SpD / 12 Spe
 Adamant Nature
@@ -21,6 +22,7 @@ Adamant Nature
 
 Miraidon @ Choice Specs
 Ability: Hadron Engine
+Level: 50
 Tera Type: Fairy
 EVs: 212 HP / 4 Def / 196 SpA / 4 SpD / 92 Spe
 Modest Nature
@@ -31,7 +33,7 @@ Modest Nature
 
 Grimmsnarl @ Light Clay
 Ability: Prankster
-Level: 58
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 140 HP / 4 Atk / 140 Def / 196 SpD / 28 Spe
@@ -43,7 +45,7 @@ Careful Nature
 
 Calyrex-Ice @ Never-Melt Ice
 Ability: As One (Glastrier)
-Level: 80
+Level: 50
 Tera Type: Water
 EVs: 228 HP / 36 Atk / 4 Def / 204 SpD / 36 Spe
 Adamant Nature
@@ -54,7 +56,7 @@ Adamant Nature
 
 Farigiraf @ Electric Seed
 Ability: Armor Tail
-Level: 99
+Level: 50
 Tera Type: Water
 EVs: 228 HP / 236 Def / 44 SpD
 Bold Nature

@@ -1,6 +1,6 @@
 Koraidon @ Life Orb
 Ability: Orichalcum Pulse
-Level: 91
+Level: 50
 Tera Type: Fire
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature
@@ -11,7 +11,7 @@ Jolly Nature
 
 Brute Bonnet @ Covert Cloak
 Ability: Protosynthesis
-Level: 77
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 4 Atk / 132 Def / 116 SpD / 4 Spe
 Impish Nature
@@ -22,7 +22,7 @@ Impish Nature
 
 Raging Bolt @ Assault Vest
 Ability: Protosynthesis
-Level: 76
+Level: 50
 Tera Type: Fairy
 EVs: 196 HP / 76 Def / 196 SpA / 4 SpD / 36 Spe
 Modest Nature
@@ -34,7 +34,7 @@ IVs: 20 Atk
 
 Incineroar @ Safety Goggles
 Ability: Intimidate
-Level: 55
+Level: 50
 Tera Type: Bug
 EVs: 252 HP / 4 Atk / 12 Def / 236 SpD / 4 Spe
 Careful Nature
@@ -45,7 +45,7 @@ Careful Nature
 
 Lunala @ Power Herb
 Ability: Shadow Shield
-Level: 77
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 44 Def / 180 SpA / 4 SpD / 28 Spe
 Modest Nature
@@ -57,7 +57,7 @@ IVs: 11 Atk
 
 Flutter Mane @ Focus Sash
 Ability: Protosynthesis
-Level: 84
+Level: 50
 Tera Type: Fairy
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature

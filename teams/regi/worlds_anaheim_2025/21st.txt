@@ -1,6 +1,6 @@
 Groudon @ Assault Vest
 Ability: Drought
-Level: 70
+Level: 50
 Tera Type: Fire
 EVs: 172 HP / 156 Atk / 4 Def / 60 SpD / 116 Spe
 Adamant Nature
@@ -11,7 +11,7 @@ Adamant Nature
 
 Chi-Yu @ Choice Scarf
 Ability: Beads of Ruin
-Level: 60
+Level: 50
 Tera Type: Ghost
 EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
 Modest Nature
@@ -23,6 +23,7 @@ IVs: 0 Atk
 
 Flutter Mane @ Focus Sash
 Ability: Protosynthesis
+Level: 50
 Tera Type: Normal
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
@@ -34,7 +35,7 @@ IVs: 1 Atk
 
 Raging Bolt @ Life Orb
 Ability: Protosynthesis
-Level: 75
+Level: 50
 Tera Type: Electric
 EVs: 20 HP / 4 Def / 252 SpA / 4 SpD / 228 Spe
 Modest Nature
@@ -46,6 +47,7 @@ IVs: 20 Atk
 
 Calyrex-Ice @ Sitrus Berry
 Ability: As One (Glastrier)
+Level: 50
 Tera Type: Water
 EVs: 244 HP / 4 Atk / 76 Def / 116 SpD / 68 Spe
 Impish Nature

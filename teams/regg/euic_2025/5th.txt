@@ -1,6 +1,6 @@
 Tornadus @ Covert Cloak
 Ability: Prankster
-Level: 78
+Level: 50
 Tera Type: Dark
 EVs: 68 HP / 196 Def / 92 SpA / 4 SpD / 148 Spe
 Bold Nature
@@ -12,6 +12,7 @@ IVs: 20 Atk
 
 Kyogre @ Mystic Water
 Ability: Drizzle
+Level: 50
 Tera Type: Grass
 EVs: 92 HP / 4 Def / 236 SpA / 4 SpD / 172 Spe
 Modest Nature
@@ -22,7 +23,7 @@ Modest Nature
 
 Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
-Level: 52
+Level: 50
 Tera Type: Water
 EVs: 28 HP / 196 Atk / 28 Def / 4 SpD / 252 Spe
 Adamant Nature
@@ -34,6 +35,7 @@ IVs: 3 SpA
 
 Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
+Level: 50
 Tera Type: Stellar
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
@@ -45,7 +47,7 @@ IVs: 3 SpA
 
 Amoonguss (F) @ Rocky Helmet
 Ability: Regenerator
-Level: 59
+Level: 50
 Tera Type: Dark
 EVs: 220 HP / 228 Def / 60 SpD
 Bold Nature
@@ -57,7 +59,7 @@ IVs: 12 Atk / 16 Spe
 
 Iron Hands @ Assault Vest
 Ability: Quark Drive
-Level: 59
+Level: 50
 Tera Type: Grass
 EVs: 12 HP / 244 Atk / 4 Def / 188 SpD / 60 Spe
 Adamant Nature

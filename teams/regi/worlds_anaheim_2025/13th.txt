@@ -1,6 +1,6 @@
 Calyrex-Shadow @ Focus Sash
 Ability: As One (Spectrier)
-Level: 80
+Level: 50
 Tera Type: Normal
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
@@ -23,6 +23,7 @@ Impish Nature
 
 Chien-Pao @ Life Orb
 Ability: Sword of Ruin
+Level: 50
 Tera Type: Stellar
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
@@ -45,6 +46,7 @@ IVs: 0 Atk / 27 Spe
 
 Raging Bolt @ Magnet
 Ability: Protosynthesis
+Level: 50
 Tera Type: Electric
 EVs: 196 HP / 116 Def / 180 SpA / 12 SpD / 4 Spe
 Modest Nature
@@ -56,7 +58,7 @@ IVs: 20 Atk
 
 Ting-Lu @ Assault Vest
 Ability: Vessel of Ruin
-Level: 61
+Level: 50
 Tera Type: Fairy
 EVs: 252 HP / 116 Def / 140 SpD
 Relaxed Nature

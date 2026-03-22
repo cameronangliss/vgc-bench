@@ -1,6 +1,6 @@
 Registeel @ Leftovers
 Ability: Clear Body
-Level: 64
+Level: 50
 Tera Type: Flying
 EVs: 252 HP / 4 Atk / 252 Def
 Relaxed Nature
@@ -45,6 +45,7 @@ Modest Nature
 
 Ogerpon-Hearthflame @ Hearthflame Mask
 Ability: Mold Breaker
+Level: 50
 Tera Type: Fire
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
@@ -55,7 +56,7 @@ Jolly Nature
 
 Tornadus @ Covert Cloak
 Ability: Prankster
-Level: 80
+Level: 50
 Tera Type: Dark
 EVs: 252 HP / 164 Def / 92 SpD
 Modest Nature

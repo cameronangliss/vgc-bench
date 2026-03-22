@@ -24,7 +24,7 @@ IVs: 17 SpA
 
 Miraidon @ Assault Vest
 Ability: Hadron Engine
-Level: 72
+Level: 50
 Tera Type: Electric
 EVs: 252 HP / 20 Def / 196 SpA / 4 SpD / 36 Spe
 Modest Nature
@@ -35,6 +35,7 @@ Modest Nature
 
 Incineroar @ Covert Cloak
 Ability: Intimidate
+Level: 50
 Tera Type: Bug
 EVs: 244 HP / 244 Def / 20 SpD
 Impish Nature
@@ -45,6 +46,7 @@ Impish Nature
 
 Iron Treads @ Life Orb
 Ability: Quark Drive
+Level: 50
 Tera Type: Ghost
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature
@@ -56,6 +58,7 @@ IVs: 13 SpA
 
 Calyrex-Ice @ Leftovers
 Ability: As One (Glastrier)
+Level: 50
 Tera Type: Water
 EVs: 188 HP / 36 Atk / 28 Def / 252 SpD / 4 Spe
 Adamant Nature

@@ -1,6 +1,6 @@
 Koraidon @ Ability Shield
 Ability: Orichalcum Pulse
-Level: 95
+Level: 50
 Tera Type: Fire
 EVs: 252 Atk / 4 SpD / 252 Spe
 Jolly Nature
@@ -11,7 +11,7 @@ Jolly Nature
 
 Weezing-Galar @ Sitrus Berry
 Ability: Neutralizing Gas
-Level: 51
+Level: 50
 Tera Type: Dark
 EVs: 252 HP / 4 Def / 4 SpA / 236 SpD / 12 Spe
 Bold Nature
@@ -48,7 +48,7 @@ IVs: 0 Atk
 
 Dondozo @ Leftovers
 Ability: Unaware
-Level: 68
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 4 HP / 236 Atk / 20 Def / 196 SpD / 52 Spe
@@ -60,7 +60,7 @@ Adamant Nature
 
 Tatsugiri @ Focus Sash
 Ability: Commander
-Level: 55
+Level: 50
 Shiny: Yes
 Tera Type: Normal
 EVs: 4 Def / 252 SpA / 252 Spe

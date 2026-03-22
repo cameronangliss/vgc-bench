@@ -1,6 +1,6 @@
 Tornadus @ Rocky Helmet
 Ability: Prankster
-Level: 78
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 164 HP / 84 Def / 116 SpA / 124 SpD / 20 Spe
@@ -13,7 +13,7 @@ IVs: 0 Atk
 
 Volcarona @ Leftovers
 Ability: Flame Body
-Level: 57
+Level: 50
 Tera Type: Water
 EVs: 124 HP / 188 Def / 36 SpA / 4 SpD / 156 Spe
 Modest Nature
@@ -25,7 +25,7 @@ IVs: 0 Atk
 
 Terapagos (M) @ Covert Cloak
 Ability: Tera Shift
-Level: 85
+Level: 50
 Tera Type: Stellar
 EVs: 44 HP / 100 Def / 164 SpA / 12 SpD / 188 Spe
 Modest Nature
@@ -37,7 +37,7 @@ IVs: 15 Atk
 
 Incineroar (M) @ Safety Goggles
 Ability: Intimidate
-Level: 67
+Level: 50
 Tera Type: Ghost
 EVs: 172 HP / 4 Atk / 28 Def / 52 SpD / 252 Spe
 Jolly Nature
@@ -48,7 +48,7 @@ Jolly Nature
 
 Rillaboom (M) @ Assault Vest
 Ability: Grassy Surge
-Level: 52
+Level: 50
 Shiny: Yes
 Tera Type: Fire
 EVs: 236 HP / 116 Atk / 4 Def / 92 SpD / 60 Spe
@@ -60,7 +60,7 @@ Adamant Nature
 
 Clefairy (M) @ Eviolite
 Ability: Friend Guard
-Level: 66
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 252 HP / 220 Def / 36 SpD

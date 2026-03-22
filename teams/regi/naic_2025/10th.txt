@@ -1,5 +1,6 @@
 Incineroar @ Rocky Helmet
 Ability: Intimidate
+Level: 50
 Tera Type: Bug
 EVs: 252 HP / 4 Atk / 116 Def / 52 SpD / 84 Spe
 Impish Nature
@@ -10,6 +11,7 @@ Impish Nature
 
 Rillaboom @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 4 Atk / 76 Def / 172 SpD / 4 Spe
 Adamant Nature
@@ -20,6 +22,7 @@ Adamant Nature
 
 Miraidon @ Choice Scarf
 Ability: Hadron Engine
+Level: 50
 Tera Type: Electric
 EVs: 132 HP / 28 Def / 124 SpA / 4 SpD / 220 Spe
 Modest Nature
@@ -30,6 +33,7 @@ Modest Nature
 
 Grimmsnarl @ Light Clay
 Ability: Prankster
+Level: 50
 Tera Type: Ghost
 EVs: 228 HP / 4 Atk / 156 Def / 116 SpD / 4 Spe
 Careful Nature
@@ -40,6 +44,7 @@ Careful Nature
 
 Ogerpon-Wellspring @ Wellspring Mask
 Ability: Water Absorb
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 12 Atk / 100 Def / 68 SpD / 76 Spe
 Adamant Nature
@@ -50,6 +55,7 @@ Adamant Nature
 
 Lunala @ Leftovers
 Ability: Shadow Shield
+Level: 50
 Tera Type: Fairy
 EVs: 92 HP / 204 Def / 108 SpA / 4 SpD / 100 Spe
 Modest Nature

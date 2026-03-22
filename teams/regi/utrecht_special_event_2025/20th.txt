@@ -1,5 +1,6 @@
 Miraidon @ Covert Cloak
 Ability: Hadron Engine
+Level: 50
 Tera Type: Fairy
 EVs: 252 HP / 4 Def / 228 SpA / 4 SpD / 20 Spe
 Modest Nature
@@ -21,7 +22,7 @@ Jolly Nature
 
 Ho-Oh @ Leftovers
 Ability: Regenerator
-Level: 70
+Level: 50
 Tera Type: Grass
 EVs: 252 HP / 76 Atk / 156 Def / 4 SpD / 20 Spe
 Adamant Nature
@@ -43,6 +44,7 @@ Careful Nature
 
 Sinistcha @ Sitrus Berry
 Ability: Hospitality
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 172 Def / 84 SpD
 Bold Nature
@@ -54,6 +56,7 @@ IVs: 0 Atk
 
 Incineroar (F) @ Rocky Helmet
 Ability: Intimidate
+Level: 50
 Tera Type: Ghost
 EVs: 244 HP / 4 Atk / 188 Def / 60 SpD / 12 Spe
 Impish Nature

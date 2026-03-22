@@ -11,7 +11,7 @@ Adamant Nature
 
 Dondozo (M) @ Leftovers
 Ability: Unaware
-Level: 52
+Level: 50
 Tera Type: Bug
 EVs: 244 HP / 64 Def / 196 SpD / 4 Spe
 Careful Nature
@@ -22,7 +22,7 @@ Careful Nature
 
 Kingambit (M) @ Safety Goggles
 Ability: Defiant
-Level: 64
+Level: 50
 Tera Type: Dark
 EVs: 132 HP / 212 Atk / 12 Def / 36 SpD / 116 Spe
 Adamant Nature
@@ -44,7 +44,7 @@ Adamant Nature
 
 Sneasler (F) @ Focus Sash
 Ability: Unburden
-Level: 60
+Level: 50
 Tera Type: Stellar
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature

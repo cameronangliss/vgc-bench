@@ -24,6 +24,7 @@ IVs: 0 Atk
 
 Gholdengo @ Choice Specs
 Ability: Good as Gold
+Level: 50
 Tera Type: Steel
 EVs: 244 HP / 20 Def / 132 SpA / 4 SpD / 108 Spe
 Modest Nature

@@ -1,5 +1,6 @@
 Articuno @ Choice Specs
 Ability: Snow Cloak
+Level: 50
 Tera Type: Ice
 EVs: 252 HP / 44 Def / 196 SpA / 4 SpD / 12 Spe
 Modest Nature
@@ -11,6 +12,7 @@ IVs: 2 Atk
 
 Ninetales-Alola @ Light Clay
 Ability: Snow Warning
+Level: 50
 Tera Type: Fire
 EVs: 84 HP / 132 Def / 84 SpA / 4 SpD / 204 Spe
 Timid Nature
@@ -22,6 +24,7 @@ IVs: 1 Atk
 
 Arcanine-Hisui @ Choice Band
 Ability: Intimidate
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 52 HP / 212 Atk / 4 Def / 4 SpD / 236 Spe
@@ -33,7 +36,7 @@ Adamant Nature
 
 Ogerpon-Wellspring @ Wellspring Mask
 Ability: Water Absorb
-Level: 70
+Level: 50
 Tera Type: Water
 EVs: 236 HP / 12 Atk / 52 Def / 4 SpD / 204 Spe
 Jolly Nature
@@ -45,6 +48,7 @@ IVs: 20 SpA
 
 Landorus @ Life Orb
 Ability: Sheer Force
+Level: 50
 Tera Type: Steel
 EVs: 84 HP / 44 Def / 124 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -55,6 +59,7 @@ Timid Nature
 
 Raging Bolt @ Assault Vest
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 244 HP / 60 Def / 100 SpA / 20 SpD / 84 Spe
 Modest Nature

@@ -36,7 +36,7 @@ IVs: 25 Spe
 
 Farigiraf @ Electric Seed
 Ability: Armor Tail
-Level: 70
+Level: 50
 Tera Type: Water
 EVs: 236 HP / 164 Def / 108 SpD
 Bold Nature

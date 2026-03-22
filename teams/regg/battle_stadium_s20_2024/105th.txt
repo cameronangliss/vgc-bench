@@ -12,6 +12,7 @@ IVs: 0 Atk
 
 Miraidon @ Choice Specs
 Ability: Hadron Engine
+Level: 50
 Tera Type: Fairy
 EVs: 108 HP / 4 Def / 244 SpA / 4 SpD / 148 Spe
 Timid Nature
@@ -56,7 +57,7 @@ IVs: 0 Atk
 
 Iron Hands @ Assault Vest
 Ability: Quark Drive
-Level: 99
+Level: 50
 Tera Type: Bug
 EVs: 140 HP / 172 Atk / 20 Def / 172 SpD / 4 Spe
 Adamant Nature

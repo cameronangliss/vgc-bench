@@ -1,5 +1,6 @@
 Tornadus (M) @ Mental Herb
 Ability: Prankster
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 220 HP / 180 Def / 4 SpA / 28 SpD / 76 Spe
@@ -11,6 +12,7 @@ Bold Nature
 
 Urshifu-Rapid-Strike (M) @ Mystic Water
 Ability: Unseen Fist
+Level: 50
 Tera Type: Water
 EVs: 100 HP / 156 Atk / 4 Def / 84 SpD / 164 Spe
 Adamant Nature
@@ -34,6 +36,7 @@ IVs: 0 Atk / 0 Spe
 
 Iron Crown @ Booster Energy
 Ability: Quark Drive
+Level: 50
 Tera Type: Psychic
 EVs: 108 HP / 4 Def / 140 SpA / 4 SpD / 252 Spe
 Modest Nature
@@ -45,6 +48,7 @@ IVs: 20 Atk
 
 Flutter Mane @ Choice Specs
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 220 HP / 132 Def / 36 SpA / 4 SpD / 116 Spe
 Modest Nature
@@ -56,6 +60,7 @@ IVs: 0 Atk
 
 Regidrago @ Dragon Fang
 Ability: Dragonâs Maw
+Level: 50
 Tera Type: Poison
 EVs: 4 HP / 4 Def / 236 SpA / 12 SpD / 252 Spe
 Modest Nature

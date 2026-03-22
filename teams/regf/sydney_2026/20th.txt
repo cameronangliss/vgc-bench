@@ -1,6 +1,6 @@
 Glimmora @ Power Herb
 Ability: Toxic Debris
-Level: 57
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 156 HP / 4 Def / 76 SpA / 20 SpD / 252 Spe
@@ -38,7 +38,7 @@ IVs: 0 Atk
 
 Urshifu (M) @ Focus Sash
 Ability: Unseen Fist
-Level: 78
+Level: 50
 Tera Type: Stellar
 EVs: 12 HP / 252 Atk / 20 Def / 4 SpD / 220 Spe
 Adamant Nature
@@ -49,7 +49,7 @@ Adamant Nature
 
 Tornadus @ Sky Plate
 Ability: Prankster
-Level: 79
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 204 HP / 76 Def / 52 SpA / 132 SpD / 44 Spe

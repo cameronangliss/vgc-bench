@@ -46,7 +46,7 @@ IVs: 0 Atk
 
 Maushold @ Wide Lens
 Ability: Technician
-Level: 53
+Level: 50
 Tera Type: Normal
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature

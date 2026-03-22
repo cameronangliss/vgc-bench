@@ -1,6 +1,6 @@
 Baxcalibur @ Loaded Dice
 Ability: Thermal Exchange
-Level: 75
+Level: 50
 Tera Type: Ghost
 EVs: 28 HP / 236 Atk / 4 Def / 4 SpD / 236 Spe
 Adamant Nature
@@ -23,6 +23,7 @@ Jolly Nature
 
 Incineroar @ Safety Goggles
 Ability: Intimidate
+Level: 50
 Tera Type: Ghost
 EVs: 244 HP / 36 Atk / 100 Def / 116 SpD / 12 Spe
 Careful Nature
@@ -33,7 +34,7 @@ Careful Nature
 
 Primarina @ Leftovers
 Ability: Liquid Voice
-Level: 75
+Level: 50
 Shiny: Yes
 Tera Type: Poison
 EVs: 164 HP / 148 Def / 108 SpA / 4 SpD / 84 Spe
@@ -46,7 +47,7 @@ IVs: 0 Atk
 
 Rillaboom @ Assault Vest
 Ability: Grassy Surge
-Level: 75
+Level: 50
 Tera Type: Fire
 EVs: 244 HP / 116 Atk / 4 Def / 28 SpD / 116 Spe
 Adamant Nature
@@ -57,6 +58,7 @@ Adamant Nature
 
 Gholdengo @ Choice Scarf
 Ability: Good as Gold
+Level: 50
 Shiny: Yes
 Tera Type: Steel
 EVs: 60 HP / 20 Def / 212 SpA / 4 SpD / 212 Spe

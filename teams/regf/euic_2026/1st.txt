@@ -1,6 +1,6 @@
 Incineroar @ Sitrus Berry
 Ability: Intimidate
-Level: 59
+Level: 50
 Tera Type: Ghost
 EVs: 252 HP / 188 Def / 68 SpD
 Relaxed Nature
@@ -11,7 +11,7 @@ Relaxed Nature
 
 Raging Bolt @ Leftovers
 Ability: Protosynthesis
-Level: 75
+Level: 50
 Tera Type: Fairy
 EVs: 196 HP / 132 Def / 108 SpA / 68 SpD / 4 Spe
 Modest Nature
@@ -34,7 +34,7 @@ Adamant Nature
 
 Ogerpon-Hearthflame @ Hearthflame Mask
 Ability: Mold Breaker
-Level: 70
+Level: 50
 Tera Type: Fire
 EVs: 44 HP / 188 Atk / 12 Def / 12 SpD / 252 Spe
 Jolly Nature

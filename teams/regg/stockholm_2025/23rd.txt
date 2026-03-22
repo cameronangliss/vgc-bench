@@ -1,5 +1,6 @@
 Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
+Level: 50
 Tera Type: Normal
 EVs: 108 HP / 4 Def / 132 SpA / 12 SpD / 252 Spe
 Timid Nature
@@ -11,6 +12,7 @@ IVs: 2 Atk
 
 Incineroar @ Rocky Helmet
 Ability: Intimidate
+Level: 50
 Tera Type: Water
 EVs: 244 HP / 188 Def / 76 SpD
 Relaxed Nature
@@ -22,6 +24,7 @@ IVs: 0 Spe
 
 Rillaboom @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Tera Type: Fire
 EVs: 244 HP / 116 Atk / 4 Def / 84 SpD / 60 Spe
 Adamant Nature
@@ -32,6 +35,7 @@ Adamant Nature
 
 Urshifu-Rapid-Strike @ Focus Sash
 Ability: Unseen Fist
+Level: 50
 Tera Type: Stellar
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
@@ -42,6 +46,7 @@ Adamant Nature
 
 Clefairy @ Eviolite
 Ability: Friend Guard
+Level: 50
 Tera Type: Grass
 EVs: 252 HP / 180 Def / 76 SpD
 Bold Nature
@@ -53,6 +58,7 @@ IVs: 0 Atk
 
 Raging Bolt @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Electric
 EVs: 196 HP / 4 Def / 212 SpA / 4 SpD / 92 Spe
 Modest Nature

@@ -53,6 +53,7 @@ IVs: 30 Atk / 0 Spe
 
 Farigiraf @ Electric Seed
 Ability: Armor Tail
+Level: 50
 Tera Type: Fairy
 EVs: 204 HP / 164 Def / 28 SpA / 108 SpD / 4 Spe
 Bold Nature

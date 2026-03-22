@@ -1,5 +1,6 @@
 Goodra-Hisui (F) @ Assault Vest
 Ability: Sap Sipper
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 252 HP / 76 Def / 156 SpA / 12 SpD / 12 Spe
@@ -12,6 +13,7 @@ IVs: 0 Atk
 
 Rillaboom (F) @ Life Orb
 Ability: Grassy Surge
+Level: 50
 Shiny: Yes
 Tera Type: Fire
 EVs: 4 HP / 252 Atk / 252 Spe
@@ -23,6 +25,7 @@ Adamant Nature
 
 Sneasler (F) @ Focus Sash
 Ability: Unburden
+Level: 50
 Tera Type: Stellar
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
@@ -33,6 +36,7 @@ Jolly Nature
 
 Incineroar (M) @ Safety Goggles
 Ability: Intimidate
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 236 HP / 4 Atk / 76 Def / 116 SpD / 76 Spe
@@ -44,6 +48,7 @@ Impish Nature
 
 Gholdengo @ Leftovers
 Ability: Good as Gold
+Level: 50
 Tera Type: Dragon
 EVs: 108 HP / 4 Def / 132 SpA / 12 SpD / 252 Spe
 Timid Nature

@@ -1,6 +1,6 @@
 Calyrex-Shadow @ Assault Vest
 Ability: As One (Spectrier)
-Level: 80
+Level: 50
 Tera Type: Fairy
 EVs: 156 HP / 124 Def / 196 SpA / 28 SpD / 4 Spe
 Modest Nature
@@ -12,7 +12,7 @@ IVs: 0 Atk
 
 Indeedee-F @ Psychic Seed
 Ability: Psychic Surge
-Level: 52
+Level: 50
 Tera Type: Grass
 EVs: 252 HP / 252 Def / 4 SpD
 Relaxed Nature
@@ -24,7 +24,7 @@ IVs: 0 Atk / 15 Spe
 
 Incineroar @ Safety Goggles
 Ability: Intimidate
-Level: 66
+Level: 50
 Tera Type: Ghost
 EVs: 252 HP / 188 Def / 68 SpD
 Relaxed Nature
@@ -36,7 +36,7 @@ IVs: 22 SpA / 1 Spe
 
 Ogerpon-Cornerstone @ Cornerstone Mask
 Ability: Sturdy
-Level: 86
+Level: 50
 Tera Type: Rock
 EVs: 140 HP / 252 Atk / 52 Def / 4 SpD / 60 Spe
 Adamant Nature
@@ -47,7 +47,7 @@ Adamant Nature
 
 Urshifu-Rapid-Strike @ Choice Band
 Ability: Unseen Fist
-Level: 65
+Level: 50
 Tera Type: Grass
 EVs: 36 HP / 236 Atk / 4 Def / 4 SpD / 228 Spe
 Adamant Nature
@@ -59,7 +59,7 @@ IVs: 4 SpA
 
 Tornadus @ Focus Sash
 Ability: Prankster
-Level: 77
+Level: 50
 Tera Type: Ghost
 EVs: 4 HP / 12 Def / 236 SpA / 4 SpD / 252 Spe
 Timid Nature

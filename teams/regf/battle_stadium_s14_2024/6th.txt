@@ -1,6 +1,6 @@
 Iron Jugulis @ Booster Energy
 Ability: Quark Drive
-Level: 61
+Level: 50
 Tera Type: Steel
 EVs: 252 HP / 4 Def / 130 SpD / 124 Spe
 Timid Nature
@@ -12,7 +12,7 @@ IVs: 0 Atk
 
 Flutter Mane @ Choice Specs
 Ability: Protosynthesis
-Level: 94
+Level: 50
 Tera Type: Fairy
 EVs: 68 HP / 92 Def / 213 SpA / 4 SpD / 133 Spe
 Timid Nature
@@ -24,7 +24,7 @@ IVs: 26 Atk
 
 Ogerpon-Wellspring (F) @ Wellspring Mask
 Ability: Water Absorb
-Level: 70
+Level: 50
 Tera Type: Water
 EVs: 126 HP / 188 Atk / 196 Spe
 Adamant Nature
@@ -35,6 +35,7 @@ Adamant Nature
 
 Incineroar (M) @ Sitrus Berry
 Ability: Intimidate
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 252 HP / 96 Def / 126 SpD / 36 Spe
@@ -59,7 +60,7 @@ IVs: 1 Atk / 1 Spe
 
 Ursaluna-Bloodmoon (M) @ Life Orb
 Ability: Mindâs Eye
-Level: 70
+Level: 50
 Tera Type: Normal
 EVs: 164 HP / 252 SpA / 92 SpD
 Quiet Nature

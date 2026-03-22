@@ -46,6 +46,7 @@ IVs: 0 Atk
 
 Raging Bolt @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 188 HP / 36 Def / 180 SpA / 4 SpD / 100 Spe
 Modest Nature

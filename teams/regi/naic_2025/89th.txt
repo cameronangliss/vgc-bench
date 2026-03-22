@@ -1,6 +1,6 @@
 Terapagos @ Grassy Seed
 Ability: Tera Shift
-Level: 85
+Level: 50
 Tera Type: Stellar
 EVs: 44 HP / 156 Def / 236 SpA / 12 SpD / 60 Spe
 Modest Nature
@@ -12,7 +12,7 @@ IVs: 15 Atk
 
 Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
-Level: 82
+Level: 50
 Tera Type: Dark
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
@@ -36,6 +36,7 @@ IVs: 26 Spe
 
 Rillaboom @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Tera Type: Fire
 EVs: 212 HP / 84 Atk / 4 Def / 204 SpD / 4 Spe
 Adamant Nature
@@ -46,6 +47,7 @@ Adamant Nature
 
 Flutter Mane @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 228 HP / 132 Def / 4 SpA / 12 SpD / 132 Spe
 Timid Nature
@@ -57,7 +59,7 @@ IVs: 0 Atk
 
 Amoonguss @ Rocky Helmet
 Ability: Regenerator
-Level: 60
+Level: 50
 Tera Type: Fire
 EVs: 188 HP / 236 Def / 84 SpD
 Sassy Nature

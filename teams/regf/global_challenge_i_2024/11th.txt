@@ -1,5 +1,6 @@
 Flutter Mane @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 116 HP / 204 Def / 34 SpA / 156 Spe
 Timid Nature
@@ -11,6 +12,7 @@ IVs: 5 Atk
 
 Entei @ Charcoal
 Ability: Inner Focus
+Level: 50
 Tera Type: Fire
 EVs: 6 HP / 252 SpA / 252 Spe
 Modest Nature
@@ -21,6 +23,7 @@ Modest Nature
 
 Urshifu (M) @ Focus Sash
 Ability: Unseen Fist
+Level: 50
 Tera Type: Dark
 EVs: 228 Atk / 110 SpD / 172 Spe
 Adamant Nature
@@ -31,7 +34,7 @@ Adamant Nature
 
 Raging Bolt @ Iron Ball
 Ability: Protosynthesis
-Level: 75
+Level: 50
 Tera Type: Dragon
 EVs: 166 HP / 4 Def / 252 SpA / 84 SpD / 4 Spe
 Modest Nature
@@ -43,7 +46,7 @@ IVs: 20 Atk
 
 Ogerpon-Wellspring (F) @ Wellspring Mask
 Ability: Water Absorb
-Level: 70
+Level: 50
 Tera Type: Water
 EVs: 156 HP / 158 Def / 196 Spe
 Jolly Nature

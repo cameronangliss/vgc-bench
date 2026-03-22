@@ -45,6 +45,7 @@ Adamant Nature
 
 Rillaboom @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Tera Type: Fire
 EVs: 252 HP / 116 Atk / 4 Def / 36 SpD / 100 Spe
 Adamant Nature

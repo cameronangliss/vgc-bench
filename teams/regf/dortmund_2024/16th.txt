@@ -1,5 +1,6 @@
 Urshifu (M) @ Focus Sash
 Ability: Unseen Fist
+Level: 50
 Tera Type: Stellar
 EVs: 252 Atk / 4 Def / 2 SpA / 252 Spe
 Adamant Nature
@@ -10,7 +11,7 @@ Adamant Nature
 
 Iron Hands @ Clear Amulet
 Ability: Quark Drive
-Level: 77
+Level: 50
 Tera Type: Fire
 EVs: 252 HP / 252 Atk / 6 SpD
 Brave Nature
@@ -22,7 +23,7 @@ IVs: 0 Spe
 
 Farigiraf (M) @ Sitrus Berry
 Ability: Armor Tail
-Level: 75
+Level: 50
 Tera Type: Fire
 EVs: 252 HP / 85 Def / 4 SpA / 156 SpD / 13 Spe
 Calm Nature
@@ -33,7 +34,7 @@ Calm Nature
 
 Ursaluna-Bloodmoon (M) @ Life Orb
 Ability: Mind's Eye
-Level: 80
+Level: 50
 Tera Type: Normal
 EVs: 4 HP / 4 Def / 252 SpA / 4 SpD / 246 Spe
 Modest Nature
@@ -44,7 +45,7 @@ Modest Nature
 
 Tornadus (M) @ Rocky Helmet
 Ability: Prankster
-Level: 80
+Level: 50
 Tera Type: Steel
 EVs: 244 HP / 108 Def / 117 SpA / 37 SpD / 4 Spe
 Modest Nature
@@ -55,7 +56,7 @@ Modest Nature
 
 Ogerpon-Hearthflame (F) @ Hearthflame Mask
 Ability: Mold Breaker
-Level: 70
+Level: 50
 Tera Type: Fire
 EVs: 60 HP / 252 Atk / 6 Def / 4 SpD / 188 Spe
 Adamant Nature

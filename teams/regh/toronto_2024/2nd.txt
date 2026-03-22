@@ -1,5 +1,6 @@
 Charizard @ Choice Specs
 Ability: Solar Power
+Level: 50
 Tera Type: Ghost
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
@@ -10,6 +11,7 @@ Timid Nature
 
 Torkoal @ Eject Pack
 Ability: Drought
+Level: 50
 Tera Type: Fire
 EVs: 252 HP / 4 Def / 252 SpA
 Modest Nature
@@ -21,7 +23,7 @@ IVs: 20 Atk / 9 Spe
 
 Porygon2 @ Eviolite
 Ability: Download
-Level: 71
+Level: 50
 Tera Type: Fighting
 EVs: 252 HP / 28 Def / 204 SpA / 20 SpD / 4 Spe
 Modest Nature
@@ -32,7 +34,7 @@ Modest Nature
 
 Incineroar @ Sitrus Berry
 Ability: Intimidate
-Level: 75
+Level: 50
 Tera Type: Ghost
 EVs: 252 HP / 36 Atk / 220 Spe
 Adamant Nature
@@ -55,7 +57,7 @@ IVs: 0 Atk / 14 SpA
 
 Ursaluna @ Flame Orb
 Ability: Guts
-Level: 64
+Level: 50
 Tera Type: Ghost
 EVs: 140 HP / 236 Atk / 132 Spe
 Adamant Nature

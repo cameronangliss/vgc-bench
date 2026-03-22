@@ -1,5 +1,6 @@
 Tornadus @ Sharp Beak
 Ability: Prankster
+Level: 50
 Tera Type: Steel
 EVs: 172 HP / 4 Def / 92 SpA / 60 SpD / 180 Spe
 Timid Nature
@@ -10,6 +11,7 @@ Timid Nature
 
 Urshifu-Rapid-Strike @ Life Orb
 Ability: Unseen Fist
+Level: 50
 Tera Type: Steel
 EVs: 28 HP / 252 Atk / 4 Def / 44 SpD / 180 Spe
 Jolly Nature
@@ -20,6 +22,7 @@ Jolly Nature
 
 Incineroar @ Assault Vest
 Ability: Intimidate
+Level: 50
 Tera Type: Grass
 EVs: 252 HP / 4 Atk / 20 Def / 92 SpD / 140 Spe
 Adamant Nature
@@ -30,6 +33,7 @@ Adamant Nature
 
 Ursaluna @ Flame Orb
 Ability: Guts
+Level: 50
 Tera Type: Ghost
 EVs: 124 HP / 156 Atk / 12 Def / 4 SpD / 212 Spe
 Adamant Nature
@@ -40,6 +44,7 @@ Adamant Nature
 
 Porygon2 @ Eviolite
 Ability: Download
+Level: 50
 Tera Type: Flying
 EVs: 252 HP / 20 Def / 116 SpA / 116 SpD
 Modest Nature
@@ -50,6 +55,7 @@ Modest Nature
 
 Amoonguss @ Rocky Helmet
 Ability: Regenerator
+Level: 50
 Tera Type: Fairy
 EVs: 252 HP / 124 Def / 12 SpA / 108 SpD / 12 Spe
 Calm Nature

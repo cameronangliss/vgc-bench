@@ -1,5 +1,6 @@
 Flutter Mane @ Choice Specs
 Ability: Protosynthesis
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 76 HP / 140 Def / 140 SpA / 4 SpD / 148 Spe
@@ -12,7 +13,7 @@ IVs: 2 Atk
 
 Gouging Fire @ Booster Energy
 Ability: Protosynthesis
-Level: 75
+Level: 50
 Tera Type: Fairy
 EVs: 140 HP / 132 Atk / 236 Spe
 Jolly Nature
@@ -23,6 +24,7 @@ Jolly Nature
 
 Urshifu-Rapid-Strike (M) @ Choice Scarf
 Ability: Unseen Fist
+Level: 50
 Tera Type: Grass
 EVs: 44 HP / 196 Atk / 6 Def / 12 SpD / 252 Spe
 Adamant Nature
@@ -33,6 +35,7 @@ Adamant Nature
 
 Rillaboom (M) @ Grassy Seed
 Ability: Grassy Surge
+Level: 50
 Shiny: Yes
 Tera Type: Fire
 EVs: 204 HP / 196 Atk / 20 Def / 20 SpD / 68 Spe
@@ -44,7 +47,7 @@ Adamant Nature
 
 Ting-Lu @ Assault Vest
 Ability: Vessel of Ruin
-Level: 75
+Level: 50
 Tera Type: Fairy
 EVs: 84 HP / 100 Atk / 116 Def / 206 SpD / 4 Spe
 Impish Nature
@@ -55,7 +58,7 @@ Impish Nature
 
 Raging Bolt @ Safety Goggles
 Ability: Protosynthesis
-Level: 75
+Level: 50
 Tera Type: Fairy
 EVs: 244 HP / 92 Def / 100 SpA / 36 SpD / 36 Spe
 Modest Nature

@@ -57,7 +57,7 @@ IVs: 0 Atk
 
 Tornadus @ Rocky Helmet
 Ability: Prankster
-Level: 84
+Level: 50
 Tera Type: Steel
 EVs: 196 HP / 236 Def / 76 Spe
 Timid Nature

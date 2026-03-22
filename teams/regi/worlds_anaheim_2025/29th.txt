@@ -1,5 +1,6 @@
 Calyrex-Shadow @ Choice Specs
 Ability: As One (Spectrier)
+Level: 50
 Tera Type: Ghost
 EVs: 52 HP / 4 Def / 252 SpA / 44 SpD / 156 Spe
 Modest Nature
@@ -11,6 +12,7 @@ IVs: 0 Atk
 
 Zamazenta-Crowned @ Rusted Shield
 Ability: Dauntless Shield
+Level: 50
 Shiny: Yes
 Tera Type: Dark
 EVs: 132 HP / 4 Atk / 188 Def / 4 SpD / 180 Spe
@@ -57,6 +59,7 @@ IVs: 0 Atk
 
 Roaring Moon @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fire
 EVs: 84 HP / 36 Atk / 124 Def / 12 SpD / 252 Spe
 Jolly Nature

@@ -1,5 +1,6 @@
 Calyrex-Shadow @ Choice Specs
 Ability: As One (Spectrier)
+Level: 50
 Tera Type: Ghost
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
@@ -11,6 +12,7 @@ IVs: 1 Atk
 
 Indeedee-F @ Rocky Helmet
 Ability: Psychic Surge
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 252 HP / 252 Def / 4 SpD
@@ -23,6 +25,7 @@ IVs: 0 Atk / 21 SpA / 11 Spe
 
 Chi-Yu @ Assault Vest
 Ability: Beads of Ruin
+Level: 50
 Tera Type: Steel
 EVs: 84 HP / 4 Def / 180 SpA / 4 SpD / 236 Spe
 Modest Nature
@@ -34,6 +37,7 @@ IVs: 18 Atk
 
 Whimsicott @ Covert Cloak
 Ability: Prankster
+Level: 50
 Tera Type: Dark
 EVs: 252 HP / 4 Def / 60 SpA / 188 SpD / 4 Spe
 Calm Nature
@@ -45,6 +49,7 @@ IVs: 6 Atk
 
 Ogerpon-Wellspring @ Wellspring Mask
 Ability: Water Absorb
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 36 Atk / 124 Def / 92 SpD / 4 Spe
 Impish Nature
@@ -56,6 +61,7 @@ IVs: 20 SpA
 
 Urshifu-Rapid-Strike (F) @ Choice Band
 Ability: Unseen Fist
+Level: 50
 Tera Type: Water
 EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
 Jolly Nature

@@ -11,6 +11,7 @@ Modest Nature
 
 Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
+Level: 50
 Tera Type: Ice
 EVs: 252 Atk / 4 Def / 252 Spe
 Naive Nature

@@ -1,6 +1,6 @@
 Koraidon @ Life Orb
 Ability: Orichalcum Pulse
-Level: 72
+Level: 50
 Tera Type: Fire
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature
@@ -11,6 +11,7 @@ Jolly Nature
 
 Incineroar @ Rocky Helmet
 Ability: Intimidate
+Level: 50
 Tera Type: Bug
 EVs: 244 HP / 244 Def / 20 SpD
 Impish Nature
@@ -22,6 +23,7 @@ IVs: 25 Spe
 
 Flutter Mane @ Focus Sash
 Ability: Protosynthesis
+Level: 50
 Shiny: Yes
 Tera Type: Normal
 EVs: 4 HP / 252 SpA / 252 Spe
@@ -34,6 +36,7 @@ IVs: 7 Atk
 
 Lunala @ Leftovers
 Ability: Shadow Shield
+Level: 50
 Tera Type: Fairy
 EVs: 228 HP / 36 Def / 180 SpA / 4 SpD / 60 Spe
 Modest Nature
@@ -45,6 +48,7 @@ IVs: 1 Atk
 
 Rillaboom @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Tera Type: Fire
 EVs: 236 HP / 36 Atk / 236 SpD
 Adamant Nature
@@ -55,6 +59,7 @@ Adamant Nature
 
 Raging Bolt @ Zap Plate
 Ability: Protosynthesis
+Level: 50
 Tera Type: Electric
 EVs: 196 HP / 76 Def / 180 SpA / 12 SpD / 44 Spe
 Modest Nature

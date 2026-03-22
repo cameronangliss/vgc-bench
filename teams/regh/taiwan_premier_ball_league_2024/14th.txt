@@ -1,6 +1,6 @@
 Indeedee-F @ Psychic Seed
 Ability: Psychic Surge
-Level: 77
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 252 HP / 252 Def / 4 SpD
@@ -13,7 +13,7 @@ IVs: 0 Atk / 0 Spe
 
 Gallade @ Clear Amulet
 Ability: Sharpness
-Level: 99
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 212 HP / 252 Atk / 4 Def / 4 SpD / 36 Spe
@@ -25,7 +25,7 @@ Adamant Nature
 
 Hatterene @ Life Orb
 Ability: Magic Bounce
-Level: 66
+Level: 50
 Shiny: Yes
 Tera Type: Psychic
 EVs: 212 HP / 44 Def / 252 SpA
@@ -38,7 +38,7 @@ IVs: 0 Atk / 0 Spe
 
 Ursaluna (M) @ Flame Orb
 Ability: Guts
-Level: 88
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 252 HP / 252 Atk / 4 SpD
@@ -51,7 +51,7 @@ IVs: 0 Spe
 
 Torkoal @ Choice Specs
 Ability: Drought
-Level: 69
+Level: 50
 Tera Type: Fire
 EVs: 252 HP / 4 Def / 252 SpA
 Quiet Nature
@@ -63,7 +63,7 @@ IVs: 0 Atk / 0 Spe
 
 Lilligant-Hisui @ Focus Sash
 Ability: Chlorophyll
-Level: 71
+Level: 50
 Tera Type: Ghost
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature

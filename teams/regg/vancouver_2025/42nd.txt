@@ -1,5 +1,6 @@
 Incineroar (M) @ Safety Goggles
 Ability: Intimidate
+Level: 50
 Shiny: Yes
 Tera Type: Bug
 EVs: 244 HP / 4 Atk / 188 Def / 12 SpD / 60 Spe
@@ -12,6 +13,7 @@ IVs: 0 SpA
 
 Urshifu-Rapid-Strike (M) @ Choice Scarf
 Ability: Unseen Fist
+Level: 50
 Tera Type: Water
 EVs: 92 HP / 76 Atk / 4 Def / 84 SpD / 252 Spe
 Adamant Nature
@@ -23,6 +25,7 @@ IVs: 20 SpA
 
 Rillaboom (M) @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Shiny: Yes
 Tera Type: Fire
 EVs: 252 HP / 4 SpD / 252 Spe
@@ -35,6 +38,7 @@ IVs: 29 SpA
 
 Lunala @ Grassy Seed
 Ability: Shadow Shield
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 116 HP / 4 Def / 132 SpA / 4 SpD / 252 Spe
@@ -47,6 +51,7 @@ IVs: 8 Atk
 
 Pelipper (F) @ Covert Cloak
 Ability: Drizzle
+Level: 50
 Tera Type: Dark
 EVs: 252 HP / 76 Def / 4 SpA / 132 SpD / 44 Spe
 Bold Nature
@@ -58,6 +63,7 @@ IVs: 0 Atk
 
 Goodra-Hisui (M) @ Leftovers
 Ability: Sap Sipper
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 236 HP / 244 Def / 28 Spe

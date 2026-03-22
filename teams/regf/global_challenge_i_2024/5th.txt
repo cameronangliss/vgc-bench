@@ -11,6 +11,7 @@ Adamant Nature
 
 Stonjourner @ Focus Sash
 Ability: Power Spot
+Level: 50
 Tera Type: Dragon
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature

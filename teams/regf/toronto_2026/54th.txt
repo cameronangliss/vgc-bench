@@ -1,6 +1,6 @@
 Rillaboom @ Assault Vest
 Ability: Grassy Surge
-Level: 54
+Level: 50
 Tera Type: Water
 EVs: 204 HP / 116 Atk / 4 Def / 108 SpD / 76 Spe
 Adamant Nature

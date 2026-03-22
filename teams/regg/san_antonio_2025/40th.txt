@@ -1,5 +1,6 @@
 Groudon @ Assault Vest
 Ability: Drought
+Level: 50
 Shiny: Yes
 Tera Type: Fire
 EVs: 188 HP / 76 Atk / 12 Def / 84 SpD / 148 Spe
@@ -11,6 +12,7 @@ Adamant Nature
 
 Gouging Fire @ Clear Amulet
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 164 HP / 84 Atk / 4 Def / 4 SpD / 252 Spe
 Jolly Nature
@@ -21,6 +23,7 @@ Jolly Nature
 
 Raging Bolt @ Life Orb
 Ability: Protosynthesis
+Level: 50
 Tera Type: Electric
 EVs: 68 HP / 124 Def / 212 SpA / 44 SpD / 60 Spe
 Modest Nature
@@ -32,6 +35,7 @@ IVs: 20 Atk
 
 Volcarona @ Rocky Helmet
 Ability: Flame Body
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 252 HP / 212 Def / 44 SpD
@@ -44,6 +48,7 @@ IVs: 9 Atk
 
 Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
+Level: 50
 Tera Type: Ghost
 EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
@@ -55,6 +60,7 @@ Adamant Nature
 æ¢
 æ³é½å¨ (Iron Valiant) @ Booster Energy
 Ability: Quark Drive
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 140 HP / 4 Atk / 100 Def / 60 SpD / 204 Spe

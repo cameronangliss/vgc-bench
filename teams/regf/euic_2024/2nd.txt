@@ -1,5 +1,6 @@
 Raging Bolt @ Leftovers
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 196 HP / 92 Def / 124 SpA / 4 SpD / 92 Spe
 Modest Nature
@@ -11,6 +12,7 @@ IVs: 20 Atk
 
 Rillaboom (M) @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Shiny: Yes
 Tera Type: Fire
 EVs: 252 HP / 116 Atk / 4 Def / 60 SpD / 76 Spe
@@ -23,6 +25,7 @@ IVs: 2 SpA
 
 Incineroar (M) @ Sitrus Berry
 Ability: Intimidate
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 236 HP / 156 Def / 116 SpD
@@ -35,6 +38,7 @@ IVs: 0 SpA
 
 Ogerpon-Hearthflame @ Hearthflame Mask
 Ability: Mold Breaker
+Level: 50
 Tera Type: Fire
 EVs: 36 HP / 220 Atk / 252 Spe
 Jolly Nature
@@ -46,6 +50,7 @@ IVs: 20 SpA
 
 Urshifu-Rapid-Strike (M) @ Focus Sash
 Ability: Unseen Fist
+Level: 50
 Tera Type: Water
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
@@ -57,6 +62,7 @@ IVs: 3 SpA
 
 Flutter Mane @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 20 HP / 236 Def / 252 Spe

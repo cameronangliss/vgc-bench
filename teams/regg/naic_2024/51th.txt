@@ -1,5 +1,6 @@
 Miraidon @ Choice Specs
 Ability: Hadron Engine
+Level: 50
 Tera Type: Electric
 EVs: 4 HP / 252 SpA / 252 Spe
 Modest Nature
@@ -10,6 +11,7 @@ Modest Nature
 
 Whimsicott @ Focus Sash
 Ability: Prankster
+Level: 50
 Tera Type: Ghost
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
@@ -21,6 +23,7 @@ IVs: 0 Atk
 
 Iron Hands @ Assault Vest
 Ability: Quark Drive
+Level: 50
 Tera Type: Water
 EVs: 68 HP / 164 Atk / 4 Def / 220 SpD / 52 Spe
 Adamant Nature
@@ -32,6 +35,7 @@ IVs: 29 SpA
 
 Farigiraf @ Electric Seed
 Ability: Armor Tail
+Level: 50
 Tera Type: Fire
 EVs: 228 HP / 164 Def / 116 SpD
 Bold Nature
@@ -43,6 +47,7 @@ IVs: 0 Atk
 
 Volcarona @ Leftovers
 Ability: Flame Body
+Level: 50
 Tera Type: Dragon
 EVs: 252 HP / 76 Def / 36 SpA / 4 SpD / 140 Spe
 Modest Nature
@@ -54,6 +59,7 @@ IVs: 0 Atk
 
 Ursaluna-Bloodmoon @ Life Orb
 Ability: Mind's Eye
+Level: 50
 Tera Type: Normal
 EVs: 4 HP / 12 Def / 132 SpA / 116 SpD / 244 Spe
 Modest Nature

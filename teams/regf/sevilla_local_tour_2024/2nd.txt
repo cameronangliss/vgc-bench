@@ -1,5 +1,6 @@
 Indeedee-F (F) @ Rocky Helmet
 Ability: Psychic Surge
+Level: 50
 Tera Type: Fairy
 EVs: 252 HP / 252 Def / 4 SpD
 Relaxed Nature
@@ -11,6 +12,7 @@ IVs: 0 Atk / 0 Spe
 
 Armarouge (F) @ Power Herb
 Ability: Flash Fire
+Level: 50
 Tera Type: Grass
 EVs: 156 HP / 252 SpA / 100 SpD
 Quiet Nature
@@ -22,6 +24,7 @@ IVs: 0 Atk / 0 Spe
 
 Hatterene (F) @ Life Orb
 Ability: Magic Bounce
+Level: 50
 Tera Type: Psychic
 EVs: 252 HP / 4 Def / 252 SpA
 Quiet Nature
@@ -33,6 +36,7 @@ IVs: 0 Atk / 0 Spe
 
 Torkoal (F) @ Charcoal
 Ability: Drought
+Level: 50
 Tera Type: Fire
 EVs: 252 HP / 4 Def / 252 SpA
 Quiet Nature
@@ -44,6 +48,7 @@ IVs: 0 Atk / 0 Spe
 
 Ursaluna (F) @ Flame Orb
 Ability: Guts
+Level: 50
 Tera Type: Ghost
 EVs: 252 HP / 252 Atk / 4 SpD
 Brave Nature
@@ -55,6 +60,7 @@ IVs: 0 Spe
 
 Urshifu (M) @ Choice Scarf
 Ability: Unseen Fist
+Level: 50
 Tera Type: Dark
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature

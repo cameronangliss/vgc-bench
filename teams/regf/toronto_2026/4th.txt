@@ -1,5 +1,6 @@
 Regidrago @ Life Orb
 Ability: Dragon's Maw
+Level: 50
 Tera Type: Ghost
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature

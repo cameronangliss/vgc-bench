@@ -1,6 +1,6 @@
 Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
-Level: 82
+Level: 50
 Tera Type: Dragon
 EVs: 140 HP / 196 Atk / 4 Def / 20 SpD / 148 Spe
 Adamant Nature
@@ -24,6 +24,7 @@ IVs: 8 Spe
 
 Landorus @ Choice Scarf
 Ability: Sheer Force
+Level: 50
 Tera Type: Water
 EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
 Modest Nature
@@ -47,7 +48,7 @@ IVs: 0 Atk / 0 Spe
 
 Regieleki @ Focus Sash
 Ability: Transistor
-Level: 70
+Level: 50
 Tera Type: Electric
 EVs: 4 HP / 252 SpA / 252 Spe
 Modest Nature

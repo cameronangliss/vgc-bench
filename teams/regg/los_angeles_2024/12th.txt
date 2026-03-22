@@ -1,5 +1,6 @@
 Rillaboom (M) @ Assault Vest
 Ability: Grassy Surge
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 188 HP / 116 Atk / 4 Def / 12 SpD / 188 Spe
@@ -12,6 +13,7 @@ IVs: 29 SpA
 
 Goodra-Hisui (M) @ Leftovers
 Ability: Sap Sipper
+Level: 50
 Tera Type: Fairy
 EVs: 236 HP / 244 Def / 28 Spe
 Impish Nature
@@ -22,6 +24,7 @@ Impish Nature
 
 Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
+Level: 50
 Tera Type: Water
 EVs: 12 Def / 244 SpA / 252 Spe
 Timid Nature
@@ -33,6 +36,7 @@ IVs: 4 Atk
 
 Dondozo (M) @ Covert Cloak
 Ability: Unaware
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 196 Atk / 76 SpD / 236 Spe
@@ -44,6 +48,7 @@ Adamant Nature
 
 Indeedee-F @ Psychic Seed
 Ability: Psychic Surge
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 252 HP / 252 Def / 4 SpD
@@ -56,6 +61,7 @@ IVs: 0 Atk / 0 Spe
 
 Tatsugiri (F) @ Bright Powder
 Ability: Commander
+Level: 50
 Shiny: Yes
 Tera Type: Dragon
 EVs: 252 HP / 20 Def / 4 SpA / 12 SpD / 220 Spe

@@ -1,6 +1,6 @@
 Indeedee-F @ Rocky Helmet
 Ability: Psychic Surge
-Level: 57
+Level: 50
 Tera Type: Fairy
 EVs: 252 HP / 252 Def / 4 SpD
 Bold Nature
@@ -12,6 +12,7 @@ IVs: 0 Atk
 
 Iron Crown @ Booster Energy
 Ability: Quark Drive
+Level: 50
 Tera Type: Dragon
 EVs: 204 HP / 4 Def / 220 SpA / 4 SpD / 76 Spe
 Modest Nature
@@ -23,7 +24,7 @@ IVs: 20 Atk
 
 Urshifu-Rapid-Strike @ Focus Sash
 Ability: Unseen Fist
-Level: 83
+Level: 50
 Tera Type: Stellar
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
@@ -34,7 +35,7 @@ Adamant Nature
 
 Tornadus @ Covert Cloak
 Ability: Prankster
-Level: 79
+Level: 50
 Tera Type: Steel
 EVs: 180 HP / 124 Def / 44 SpA / 12 SpD / 148 Spe
 Modest Nature
@@ -46,7 +47,7 @@ IVs: 29 Atk
 
 Ogerpon-Hearthflame @ Hearthflame Mask
 Ability: Mold Breaker
-Level: 91
+Level: 50
 Tera Type: Fire
 EVs: 172 HP / 28 Atk / 52 Def / 4 SpD / 252 Spe
 Jolly Nature
@@ -58,7 +59,7 @@ IVs: 20 SpA
 
 Landorus-Therian @ Choice Band
 Ability: Intimidate
-Level: 70
+Level: 50
 Tera Type: Steel
 EVs: 92 HP / 148 Atk / 12 Def / 4 SpD / 252 Spe
 Jolly Nature

@@ -25,6 +25,7 @@ Modest Nature
 
 Amoonguss @ Mental Herb
 Ability: Regenerator
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 236 HP / 164 Def / 108 SpD
@@ -50,6 +51,7 @@ IVs: 6 Spe
 
 Gholdengo @ Life Orb
 Ability: Good as Gold
+Level: 50
 Shiny: Yes
 Tera Type: Dragon
 EVs: 44 HP / 4 Def / 196 SpA / 12 SpD / 252 Spe
@@ -62,7 +64,7 @@ IVs: 5 Atk
 
 Flamigo @ Focus Sash
 Ability: Scrappy
-Level: 70
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 252 Atk / 4 Def / 252 Spe

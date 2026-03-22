@@ -44,6 +44,7 @@ Adamant Nature
 
 Maushold-Four @ Focus Sash
 Ability: Friend Guard
+Level: 50
 Tera Type: Ghost
 EVs: 156 HP / 100 Def / 252 Spe
 Timid Nature

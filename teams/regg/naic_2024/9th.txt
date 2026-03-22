@@ -11,6 +11,7 @@ Timid Nature
 
 Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
+Level: 50
 Tera Type: Ghost
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
@@ -22,6 +23,7 @@ IVs: 27 SpA
 
 Iron Hands @ Assault Vest
 Ability: Quark Drive
+Level: 50
 Tera Type: Grass
 EVs: 4 HP / 180 Atk / 44 Def / 236 SpD / 44 Spe
 Adamant Nature
@@ -32,6 +34,7 @@ Adamant Nature
 
 Talonflame @ Life Orb
 Ability: Gale Wings
+Level: 50
 Tera Type: Ground
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
@@ -43,6 +46,7 @@ IVs: 1 SpA
 
 Ursaluna-Bloodmoon @ Silk Scarf
 Ability: Mind's Eye
+Level: 50
 Tera Type: Normal
 EVs: 196 HP / 4 Def / 252 SpA / 4 SpD / 52 Spe
 Modest Nature
@@ -54,7 +58,7 @@ IVs: 4 Atk
 
 Farigiraf @ Electric Seed
 Ability: Armor Tail
-Level: 56
+Level: 50
 Tera Type: Ground
 EVs: 252 HP / 52 Def / 84 SpA / 116 SpD
 Modest Nature

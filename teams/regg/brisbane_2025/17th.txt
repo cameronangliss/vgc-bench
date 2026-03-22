@@ -1,5 +1,6 @@
 Chien-Pao @ Focus Sash
 Ability: Sword of Ruin
+Level: 50
 Tera Type: Stellar
 EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
@@ -10,7 +11,7 @@ Adamant Nature
 
 Zamazenta @ Rusted Shield
 Ability: Dauntless Shield
-Level: 70
+Level: 50
 Tera Type: Dragon
 EVs: 92 HP / 4 Atk / 244 Def / 4 SpD / 164 Spe
 Impish Nature
@@ -45,6 +46,7 @@ IVs: 0 Atk
 
 Flutter Mane @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Water
 EVs: 244 HP / 108 Def / 4 SpA / 4 SpD / 148 Spe
 Timid Nature
@@ -56,7 +58,7 @@ IVs: 4 Atk
 
 Raging Bolt @ Assault Vest
 Ability: Protosynthesis
-Level: 75
+Level: 50
 Tera Type: Grass
 EVs: 196 HP / 164 Def / 100 SpA / 4 SpD / 44 Spe
 Modest Nature

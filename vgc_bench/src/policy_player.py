@@ -343,7 +343,7 @@ class PolicyPlayer(Player):
         if from_opponent:
             stats = [s / 255 for s in pokemon.base_stats.values()]
         else:
-            stats = [s / 255 for s in pokemon.stats.values() if s is not None]
+            stats = [(0 if s is None else s / 255) for s in pokemon.stats.values()]
         gender = [float(g == pokemon.gender) for g in PokemonGender]
         weight = pokemon.weight / 1000
         # volatile fields

@@ -1,6 +1,6 @@
 Gholdengo @ Life Orb
 Ability: Good as Gold
-Level: 66
+Level: 50
 Tera Type: Water
 EVs: 164 HP / 36 Def / 68 SpA / 4 SpD / 236 Spe
 Modest Nature
@@ -35,7 +35,7 @@ IVs: 0 Atk
 
 Ursaluna @ Flame Orb
 Ability: Guts
-Level: 80
+Level: 50
 Tera Type: Ghost
 EVs: 140 HP / 244 Atk / 44 Def / 76 SpD / 4 Spe
 Adamant Nature

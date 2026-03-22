@@ -1,5 +1,6 @@
 Incineroar (M) @ Sitrus Berry
 Ability: Intimidate
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 236 HP / 4 Atk / 100 Def / 156 SpD / 14 Spe
@@ -11,6 +12,7 @@ Careful Nature
 
 Ogerpon-Wellspring (F) @ Wellspring Mask
 Ability: Water Absorb
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 132 Atk / 84 Def / 38 SpD / 4 Spe
 Adamant Nature
@@ -22,6 +24,7 @@ IVs: 20 SpA
 
 Registeel @ Leftovers
 Ability: Clear Body
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 252 HP / 12 Atk / 118 Def / 124 SpD / 4 Spe
@@ -33,6 +36,7 @@ Impish Nature
 
 Flutter Mane @ Choice Specs
 Ability: Protosynthesis
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 116 HP / 108 Def / 100 SpA / 6 SpD / 180 Spe
@@ -45,6 +49,7 @@ IVs: 14 Atk
 
 Latias (F) @ Rocky Helmet
 Ability: Levitate
+Level: 50
 Shiny: Yes
 Tera Type: Steel
 EVs: 252 HP / 20 Def / 44 SpA / 4 SpD / 190 Spe
@@ -57,6 +62,7 @@ IVs: 1 Atk
 
 Glimmora (F) @ Power Herb
 Ability: Toxic Debris
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 140 HP / 4 Def / 156 SpA / 94 SpD / 116 Spe

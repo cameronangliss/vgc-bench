@@ -57,6 +57,7 @@ IVs: 0 Atk
 
 Pelipper (M) @ Focus Sash
 Ability: Drizzle
+Level: 50
 Tera Type: Grass
 EVs: 252 HP / 4 Def / 212 SpA / 4 SpD / 36 Spe
 Modest Nature

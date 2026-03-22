@@ -1,5 +1,6 @@
 Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
+Level: 50
 Tera Type: Dark
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
@@ -10,6 +11,7 @@ Timid Nature
 
 Maushold @ Safety Goggles
 Ability: Technician
+Level: 50
 Tera Type: Ground
 EVs: 204 HP / 4 Atk / 156 Def / 68 SpD / 76 Spe
 Impish Nature
@@ -20,6 +22,7 @@ Impish Nature
 
 Miraidon @ Choice Specs
 Ability: Hadron Engine
+Level: 50
 Tera Type: Electric
 EVs: 92 HP / 44 Def / 196 SpA / 20 SpD / 156 Spe
 Timid Nature
@@ -30,6 +33,7 @@ Timid Nature
 
 Whimsicott @ Covert Cloak
 Ability: Prankster
+Level: 50
 Tera Type: Dark
 EVs: 252 HP / 4 Def / 4 SpA / 220 SpD / 28 Spe
 Timid Nature
@@ -40,6 +44,7 @@ Timid Nature
 
 Incineroar @ Assault Vest
 Ability: Intimidate
+Level: 50
 Tera Type: Water
 EVs: 228 HP / 132 Atk / 36 Def / 84 SpD / 28 Spe
 Adamant Nature
@@ -50,6 +55,7 @@ Adamant Nature
 
 Urshifu-Rapid-Strike @ Choice Band
 Ability: Unseen Fist
+Level: 50
 Tera Type: Grass
 EVs: 60 HP / 108 Atk / 4 Def / 156 SpD / 180 Spe
 Adamant Nature

@@ -1,5 +1,6 @@
 Calyrex-Ice @ Clear Amulet
 Ability: As One (Glastrier)
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 252 Atk / 4 SpD
 Brave Nature
@@ -24,6 +25,7 @@ IVs: 0 Atk / 0 Spe
 
 Ursaluna-Bloodmoon @ Life Orb
 Ability: Mind's Eye
+Level: 50
 Tera Type: Normal
 EVs: 244 HP / 252 SpA / 12 SpD
 Quiet Nature
@@ -35,6 +37,7 @@ IVs: 0 Atk / 0 Spe
 
 Indeedee-F @ Psychic Seed
 Ability: Psychic Surge
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 252 Def / 4 SpD
 Relaxed Nature
@@ -46,6 +49,7 @@ IVs: 0 Atk / 0 Spe
 
 Farigiraf (M) @ Throat Spray
 Ability: Armor Tail
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 252 HP / 252 SpA / 4 SpD

@@ -1,5 +1,6 @@
 Thundurus (M) @ Mental Herb
 Ability: Prankster
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 252 HP / 158 Def / 4 SpA / 92 SpD / 4 Spe
@@ -12,7 +13,7 @@ IVs: 26 Atk
 
 Enamorus (F) @ Life Orb
 Ability: Contrary
-Level: 70
+Level: 50
 Tera Type: Ground
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -48,7 +49,7 @@ IVs: 3 SpA
 
 Archaludon (F) @ Leftovers
 Ability: Stamina
-Level: 69
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 212 HP / 110 Def / 116 SpA / 52 SpD / 20 Spe
@@ -61,7 +62,7 @@ IVs: 13 Atk
 
 Ogerpon-Wellspring (F) @ Wellspring Mask
 Ability: Water Absorb
-Level: 70
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 76 Atk / 52 Def / 68 SpD / 60 Spe
 Adamant Nature

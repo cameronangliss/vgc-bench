@@ -1,5 +1,6 @@
 Cresselia @ Mental Herb
 Ability: Levitate
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 252 HP / 4 Def / 252 SpD
@@ -12,6 +13,7 @@ IVs: 0 Atk
 
 Incineroar @ Safety Goggles
 Ability: Intimidate
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 244 HP / 140 Def / 124 Spe
@@ -23,6 +25,7 @@ Impish Nature
 
 Ursaluna (F) @ Flame Orb
 Ability: Guts
+Level: 50
 Tera Type: Ghost
 EVs: 252 Atk / 4 Def / 252 SpD
 Brave Nature
@@ -34,6 +37,7 @@ IVs: 0 Spe
 
 Amoonguss @ Rocky Helmet
 Ability: Regenerator
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 252 HP / 76 Def / 180 SpD
@@ -46,6 +50,7 @@ IVs: 0 Atk
 
 Flutter Mane @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 36 HP / 164 Def / 52 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -57,6 +62,7 @@ IVs: 0 Atk
 
 Chi-Yu @ Choice Specs
 Ability: Beads of Ruin
+Level: 50
 Tera Type: Ghost
 EVs: 228 HP / 44 Def / 236 Spe
 Modest Nature

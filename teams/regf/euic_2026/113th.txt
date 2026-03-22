@@ -1,6 +1,6 @@
 Smeargle (F) @ Focus Sash
 Ability: Moody
-Level: 62
+Level: 50
 Shiny: Yes
 Tera Type: Grass
 EVs: 36 HP / 220 Def / 252 Spe
@@ -12,6 +12,7 @@ Jolly Nature
 
 Tornadus @ Sharp Beak
 Ability: Prankster
+Level: 50
 Shiny: Yes
 Tera Type: Steel
 EVs: 244 HP / 164 Def / 44 SpA / 12 SpD / 44 Spe
@@ -35,6 +36,7 @@ Adamant Nature
 
 Farigiraf (F) @ Throat Spray
 Ability: Armor Tail
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 236 HP / 12 Def / 76 SpA / 60 SpD / 124 Spe
@@ -47,6 +49,7 @@ IVs: 0 Atk
 
 Flutter Mane @ Choice Specs
 Ability: Protosynthesis
+Level: 50
 Shiny: Yes
 Tera Type: Fairy
 EVs: 116 HP / 44 Def / 196 SpA / 4 SpD / 148 Spe
@@ -59,6 +62,7 @@ IVs: 21 Atk
 
 Ogerpon-Hearthflame @ Hearthflame Mask
 Ability: Mold Breaker
+Level: 50
 Tera Type: Fire
 EVs: 156 HP / 76 Atk / 52 Def / 4 SpD / 220 Spe
 Adamant Nature

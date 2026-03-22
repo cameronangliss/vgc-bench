@@ -1,6 +1,6 @@
 Terapagos @ Leftovers
 Ability: Tera Shift
-Level: 85
+Level: 50
 Tera Type: Stellar
 EVs: 172 HP / 4 Def / 156 SpA / 4 SpD / 172 Spe
 Modest Nature
@@ -12,7 +12,7 @@ IVs: 15 Atk
 
 Amoonguss @ Mental Herb
 Ability: Regenerator
-Level: 64
+Level: 50
 Tera Type: Water
 EVs: 236 HP / 132 Def / 140 SpD
 Calm Nature
@@ -36,6 +36,7 @@ Impish Nature
 
 Flutter Mane @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 108 HP / 204 Def / 52 SpA / 4 SpD / 140 Spe
 Timid Nature
@@ -47,6 +48,7 @@ IVs: 0 Atk
 
 Urshifu @ Focus Sash
 Ability: Unseen Fist
+Level: 50
 Tera Type: Dark
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
@@ -57,7 +59,7 @@ Adamant Nature
 
 Landorus @ Choice Scarf
 Ability: Sheer Force
-Level: 80
+Level: 50
 Tera Type: Fairy
 EVs: 84 HP / 196 SpA / 228 Spe
 Modest Nature

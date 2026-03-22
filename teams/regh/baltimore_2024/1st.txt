@@ -34,6 +34,7 @@ Adamant Nature
 
 Amoonguss @ Sitrus Berry
 Ability: Regenerator
+Level: 50
 Tera Type: Water
 EVs: 248 HP / 68 Def / 192 SpD
 Sassy Nature

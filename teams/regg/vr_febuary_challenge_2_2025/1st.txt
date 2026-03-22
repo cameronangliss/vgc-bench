@@ -46,7 +46,7 @@ IVs: 0 Atk
 
 Flutter Mane @ Booster Energy
 Ability: Protosynthesis
-Level: 84
+Level: 50
 Tera Type: Fairy
 EVs: 132 HP / 236 Def / 20 SpA / 4 SpD / 116 Spe
 Timid Nature

@@ -1,5 +1,6 @@
 Chien-Pao @ Life Orb
 Ability: Sword of Ruin
+Level: 50
 Tera Type: Stellar
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
@@ -10,6 +11,7 @@ Jolly Nature
 
 Calyrex-Shadow @ Focus Sash
 Ability: As One (Spectrier)
+Level: 50
 Tera Type: Ghost
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -21,6 +23,7 @@ IVs: 0 Atk
 
 Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
+Level: 50
 Tera Type: Water
 EVs: 236 Atk / 20 SpD / 252 Spe
 Adamant Nature
@@ -31,6 +34,7 @@ Adamant Nature
 
 Iron Hands @ Assault Vest
 Ability: Quark Drive
+Level: 50
 Tera Type: Water
 EVs: 60 HP / 212 Atk / 236 SpD
 Brave Nature
@@ -42,6 +46,7 @@ IVs: 0 Spe
 
 Weezing-Galar @ Rocky Helmet
 Ability: Neutralizing Gas
+Level: 50
 Tera Type: Water
 EVs: 252 HP / 244 SpD / 12 Spe
 Bold Nature
@@ -53,6 +58,7 @@ IVs: 0 Atk
 
 Dragonite @ Choice Band
 Ability: Inner Focus
+Level: 50
 Tera Type: Normal
 EVs: 252 HP / 252 Atk / 4 Def
 Adamant Nature

@@ -1,5 +1,6 @@
 Raging Bolt @ Assault Vest
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 188 HP / 12 Def / 180 SpA / 100 SpD / 28 Spe
 Modest Nature
@@ -11,6 +12,7 @@ IVs: 20 Atk
 
 Farigiraf @ Throat Spray
 Ability: Armor Tail
+Level: 50
 Tera Type: Fairy
 EVs: 108 HP / 44 Def / 156 SpA / 196 SpD / 4 Spe
 Modest Nature
@@ -22,6 +24,7 @@ IVs: 0 Atk
 
 Incineroar @ Safety Goggles
 Ability: Intimidate
+Level: 50
 Tera Type: Poison
 EVs: 236 HP / 4 Atk / 92 Def / 156 SpD / 20 Spe
 Careful Nature
@@ -32,6 +35,7 @@ Careful Nature
 
 Urshifu-Rapid-Strike @ Choice Scarf
 Ability: Unseen Fist
+Level: 50
 Tera Type: Water
 EVs: 12 HP / 164 Atk / 4 Def / 76 SpD / 252 Spe
 Adamant Nature

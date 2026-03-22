@@ -1,5 +1,6 @@
 Grimmsnarl @ Light Clay
 Ability: Prankster
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 228 HP / 4 Atk / 132 Def / 116 SpD / 28 Spe
@@ -11,6 +12,7 @@ Careful Nature
 
 Miraidon @ Choice Specs
 Ability: Hadron Engine
+Level: 50
 Tera Type: Fairy
 EVs: 108 HP / 4 Def / 252 SpA / 4 SpD / 140 Spe
 Timid Nature
@@ -32,6 +34,7 @@ Adamant Nature
 
 Incineroar (F) @ Rocky Helmet
 Ability: Intimidate
+Level: 50
 Tera Type: Bug
 EVs: 252 HP / 4 Atk / 188 Def / 12 SpD / 52 Spe
 Impish Nature
@@ -42,6 +45,7 @@ Impish Nature
 
 Calyrex-Ice @ Icicle Plate
 Ability: As One (Glastrier)
+Level: 50
 Tera Type: Water
 EVs: 228 HP / 36 Atk / 4 Def / 196 SpD / 44 Spe
 Adamant Nature
@@ -52,6 +56,7 @@ Adamant Nature
 
 Annihilape (F) @ Choice Scarf
 Ability: Defiant
+Level: 50
 Tera Type: Grass
 EVs: 228 HP / 44 Atk / 236 Spe
 Jolly Nature

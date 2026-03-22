@@ -11,6 +11,7 @@ Adamant Nature
 
 Urshifu-Rapid-Strike (F) @ Choice Scarf
 Ability: Unseen Fist
+Level: 50
 Tera Type: Water
 EVs: 68 HP / 156 Atk / 28 Def / 92 SpD / 164 Spe
 Adamant Nature
@@ -21,6 +22,7 @@ Adamant Nature
 
 Raging Bolt @ Assault Vest
 Ability: Protosynthesis
+Level: 50
 Tera Type: Fairy
 EVs: 196 HP / 132 Def / 108 SpA / 68 SpD / 4 Spe
 Modest Nature
@@ -32,6 +34,7 @@ IVs: 20 Atk
 
 Incineroar (F) @ Safety Goggles
 Ability: Intimidate
+Level: 50
 Shiny: Yes
 Tera Type: Ghost
 EVs: 252 HP / 4 Atk / 140 Def / 76 SpD / 36 Spe

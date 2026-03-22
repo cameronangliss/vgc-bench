@@ -1,5 +1,6 @@
 Zamazenta @ Rusted Shield
 Ability: Dauntless Shield
+Level: 50
 Tera Type: Grass
 EVs: 204 HP / 4 Atk / 180 Def / 28 SpD / 92 Spe
 Impish Nature
@@ -10,6 +11,7 @@ Impish Nature
 
 Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
+Level: 50
 Tera Type: Dark
 EVs: 172 HP / 4 Def / 180 SpA / 12 SpD / 140 Spe
 Timid Nature
@@ -21,6 +23,7 @@ IVs: 0 Atk
 
 Tornadus @ Sharp Beak
 Ability: Prankster
+Level: 50
 Tera Type: Dragon
 EVs: 244 HP / 116 Def / 44 SpA / 92 SpD / 12 Spe
 Modest Nature

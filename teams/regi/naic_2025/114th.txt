@@ -1,5 +1,6 @@
 Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
+Level: 50
 Tera Type: Dark
 EVs: 28 HP / 4 Def / 220 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -11,7 +12,7 @@ IVs: 0 Atk
 
 Terapagos-Terastal @ Choice Specs
 Ability: Tera Shell
-Level: 85
+Level: 50
 Tera Type: Stellar
 EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
 Modest Nature
@@ -23,7 +24,7 @@ IVs: 15 Atk
 
 Iron Hands @ Assault Vest
 Ability: Quark Drive
-Level: 57
+Level: 50
 Tera Type: Water
 EVs: 36 HP / 236 Atk / 116 Def / 108 SpD / 12 Spe
 Adamant Nature
@@ -34,7 +35,7 @@ Adamant Nature
 
 Chi-Yu @ Choice Scarf
 Ability: Beads of Ruin
-Level: 75
+Level: 50
 Tera Type: Ghost
 EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
 Modest Nature
@@ -46,7 +47,7 @@ IVs: 0 Atk
 
 Smeargle @ Focus Sash
 Ability: Moody
-Level: 65
+Level: 50
 Tera Type: Grass
 EVs: 4 HP / 252 Def / 252 Spe
 Jolly Nature
@@ -57,7 +58,7 @@ Jolly Nature
 
 Whimsicott @ Covert Cloak
 Ability: Prankster
-Level: 60
+Level: 50
 Tera Type: Water
 EVs: 132 HP / 20 Def / 4 SpA / 244 SpD / 108 Spe
 Timid Nature

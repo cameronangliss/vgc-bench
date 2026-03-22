@@ -1,5 +1,6 @@
 Roaring Moon @ Booster Energy
 Ability: Protosynthesis
+Level: 50
 Tera Type: Poison
 EVs: 116 HP / 4 Atk / 132 Def / 4 SpD / 252 Spe
 Jolly Nature
@@ -10,7 +11,7 @@ Jolly Nature
 
 Weezing-Galar (F) @ Sitrus Berry
 Ability: Neutralizing Gas
-Level: 52
+Level: 50
 Tera Type: Ghost
 EVs: 252 HP / 28 Def / 4 SpA / 36 SpD / 188 Spe
 Calm Nature
@@ -22,7 +23,7 @@ IVs: 0 Atk
 
 Urshifu (M) @ Focus Sash
 Ability: Unseen Fist
-Level: 81
+Level: 50
 Tera Type: Dark
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature
@@ -34,7 +35,7 @@ IVs: 26 SpA
 
 Arcanine-Hisui (F) @ Choice Band
 Ability: Intimidate
-Level: 54
+Level: 50
 Tera Type: Grass
 EVs: 4 HP / 244 Atk / 12 Def / 4 SpD / 244 Spe
 Adamant Nature
@@ -45,6 +46,7 @@ Adamant Nature
 
 Gholdengo @ Life Orb
 Ability: Good as Gold
+Level: 50
 Tera Type: Steel
 EVs: 116 HP / 68 Def / 140 SpA / 4 SpD / 180 Spe
 Modest Nature
@@ -56,7 +58,7 @@ IVs: 0 Atk
 
 Raging Bolt @ Assault Vest
 Ability: Protosynthesis
-Level: 75
+Level: 50
 Tera Type: Fairy
 EVs: 124 HP / 4 Def / 172 SpA / 150 SpD / 60 Spe
 Modest Nature

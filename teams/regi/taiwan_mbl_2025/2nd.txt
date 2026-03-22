@@ -1,5 +1,6 @@
 Koraidon @ Ability Shield
 Ability: Orichalcum Pulse
+Level: 50
 Tera Type: Fire
 EVs: 236 HP / 116 Atk / 4 Def / 68 SpD / 84 Spe
 Adamant Nature
@@ -10,7 +11,7 @@ Adamant Nature
 
 Calyrex-Shadow @ Focus Sash
 Ability: As One (Spectrier)
-Level: 80
+Level: 50
 Tera Type: Ghost
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
@@ -22,6 +23,7 @@ IVs: 0 Atk
 
 Weezing-Galar (M) @ Covert Cloak
 Ability: Neutralizing Gas
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 252 HP / 4 Atk / 12 Def / 212 SpD / 28 Spe
@@ -33,7 +35,7 @@ Impish Nature
 
 Chi-Yu @ Choice Scarf
 Ability: Beads of Ruin
-Level: 60
+Level: 50
 Tera Type: Ghost
 EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -45,7 +47,7 @@ IVs: 0 Atk
 
 Walking Wake @ Assault Vest
 Ability: Protosynthesis
-Level: 75
+Level: 50
 Tera Type: Water
 EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
 Timid Nature
@@ -56,6 +58,7 @@ Timid Nature
 
 Brute Bonnet @ Rocky Helmet
 Ability: Protosynthesis
+Level: 50
 Shiny: Yes
 Tera Type: Fire
 EVs: 252 HP / 4 Atk / 188 Def / 64 SpD

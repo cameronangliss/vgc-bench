@@ -1,6 +1,6 @@
 Calyrex-Shadow @ Focus Sash
 Ability: As One (Spectrier)
-Level: 80
+Level: 50
 Tera Type: Ghost
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
@@ -12,6 +12,7 @@ IVs: 0 Atk
 
 Zamazenta @ Rusted Shield
 Ability: Dauntless Shield
+Level: 50
 Shiny: Yes
 Tera Type: Dragon
 EVs: 196 HP / 4 Atk / 244 Def / 4 SpD / 60 Spe
@@ -23,7 +24,7 @@ Impish Nature
 
 Ogerpon-Cornerstone @ Cornerstone Mask
 Ability: Sturdy
-Level: 70
+Level: 50
 Tera Type: Rock
 EVs: 108 HP / 84 Atk / 148 Def / 4 SpD / 164 Spe
 Adamant Nature
@@ -34,7 +35,7 @@ Adamant Nature
 
 Chien-Pao @ Life Orb
 Ability: Sword of Ruin
-Level: 60
+Level: 50
 Tera Type: Ghost
 EVs: 252 Atk / 4 SpD / 252 Spe
 Jolly Nature
@@ -45,7 +46,7 @@ Jolly Nature
 
 Raging Bolt @ Magnet
 Ability: Protosynthesis
-Level: 75
+Level: 50
 Tera Type: Electric
 EVs: 196 HP / 36 Def / 252 SpA / 20 SpD / 4 Spe
 Modest Nature
@@ -57,7 +58,7 @@ IVs: 20 Atk
 
 Amoonguss (M) @ Rocky Helmet
 Ability: Regenerator
-Level: 69
+Level: 50
 Shiny: Yes
 Tera Type: Water
 EVs: 252 HP / 180 Def / 76 SpD
