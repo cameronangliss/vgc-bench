@@ -250,7 +250,7 @@ if __name__ == "__main__":
         "--num_eval_workers", type=int, default=1, help="number of eval workers to run"
     )
     parser.add_argument(
-        "--log_level", type=int, default=25, help="log level for showdown clients"
+        "--log_level", type=int, default=40, help="log level for showdown clients"
     )
     parser.add_argument(
         "--port", type=int, default=8000, help="port to run showdown server on"
