@@ -45,31 +45,23 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
     Pokemon battle observations.
 
     Attributes:
-        num_frames: Number of stacked frames for temporal context.
         choose_on_teampreview: Whether policy controls teampreview decisions.
         actor_grad: Whether to compute gradients for actor during evaluation.
         debug: Whether to print debug information during forward pass.
     """
 
     def __init__(
-        self,
-        *args: Any,
-        d_model: int,
-        num_frames: int,
-        choose_on_teampreview: bool,
-        **kwargs: Any,
+        self, *args: Any, d_model: int, choose_on_teampreview: bool, **kwargs: Any
     ):
         """
         Initialize the masked actor-critic policy.
 
         Args:
             d_model: Hidden size for policy/value networks and attention extractor.
-            num_frames: Number of frames to stack for temporal context.
             choose_on_teampreview: Whether policy controls teampreview.
             *args: Additional arguments for ActorCriticPolicy.
             **kwargs: Additional keyword arguments for ActorCriticPolicy.
         """
-        self.num_frames = num_frames
         self.choose_on_teampreview = choose_on_teampreview
         self.actor_grad = True
         self.debug = False
@@ -81,29 +73,19 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
             features_extractor_class=AttentionExtractor,
             features_extractor_kwargs={
                 "d_model": d_model,
-                "num_frames": num_frames,
                 "choose_on_teampreview": choose_on_teampreview,
             },
             share_features_extractor=False,
         )
 
-    def forward(
-        self, obs: torch.Tensor, deterministic: bool = False
-    ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
-        """
-        Compute actions, values, and log probabilities from observations.
-
-        Args:
-            obs: Batch of observations.
-            deterministic: If True, select the most likely action.
-
-        Returns:
-            Tuple of (actions, values, log_probs).
-        """
-        action_logits, value_logits = self.get_logits(obs, actor_grad=True)
-        distribution = self.get_dist_from_logits(obs, action_logits)
+    def forward(self, obs, deterministic=False):
+        self._mask = obs["action_mask"]  # type: ignore
+        action_logits, value_logits = self.get_logits(
+            obs["observation"], actor_grad=True  # type: ignore
+        )
+        distribution = self.get_dist_from_logits(action_logits)
         actions = distribution.get_actions(deterministic=deterministic)
-        distribution2 = self.get_dist_from_logits(obs, action_logits, actions[:, :1])
+        distribution2 = self.get_dist_from_logits(action_logits, actions[:, :1])
         actions2 = distribution2.get_actions(deterministic=deterministic)
         distribution.distribution[1] = distribution2.distribution[1]
         actions[:, 1] = actions2[:, 1]
@@ -131,14 +113,14 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         actions = actions.reshape((-1, *self.action_space.shape))  # type: ignore[misc]
         return actions, value_logits, log_prob
 
-    def evaluate_actions(
-        self, obs: PyTorchObs, actions: torch.Tensor
-    ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor | None]:
-        """Evaluate given actions and return values, log probs, and entropy."""
-        assert isinstance(obs, torch.Tensor)
-        action_logits, value_logits = self.get_logits(obs, self.actor_grad)
-        distribution = self.get_dist_from_logits(obs, action_logits)
-        distribution2 = self.get_dist_from_logits(obs, action_logits, actions[:, :1])
+    def evaluate_actions(self, obs, actions):
+        assert isinstance(obs, dict)
+        self._mask = obs["action_mask"]
+        action_logits, value_logits = self.get_logits(
+            obs["observation"], self.actor_grad
+        )
+        distribution = self.get_dist_from_logits(action_logits)
+        distribution2 = self.get_dist_from_logits(action_logits, actions[:, :1])
         distribution.distribution[1] = distribution2.distribution[1]
         log_prob = distribution.log_prob(actions)
         entropy = distribution.entropy()
@@ -163,15 +145,10 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         return action_logits, value_logits
 
     def get_dist_from_logits(
-        self,
-        obs: torch.Tensor,
-        action_logits: torch.Tensor,
-        action: torch.Tensor | None = None,
+        self, action_logits: torch.Tensor, action: torch.Tensor | None = None
     ) -> MultiCategoricalDistribution:
         """Create masked action distribution from logits."""
-        batch_size = obs.size(0)
-        mask = obs.view(batch_size, self.num_frames, -1)
-        mask = mask[:, -1, : 2 * act_len]
+        mask = self._mask
         if action is not None:
             mask = self._update_mask(mask, action)
         mask = torch.where(mask == 1, 0, float("-inf"))
@@ -219,7 +196,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
 
     Processes Pokemon observations using embeddings for abilities, items, and
     moves, then applies transformer attention to produce a fixed-size feature
-    vector. Supports optional temporal frame stacking with causal attention.
+    vector.
 
     Class Attributes:
         embed_len: Dimension of embedding vectors for abilities/items/moves.
@@ -232,11 +209,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
     embed_layers: int = 3
 
     def __init__(
-        self,
-        observation_space: Space[Any],
-        d_model: int,
-        num_frames: int,
-        choose_on_teampreview: bool,
+        self, observation_space: Space[Any], d_model: int, choose_on_teampreview: bool
     ):
         """
         Initialize the attention-based feature extractor.
@@ -244,11 +217,9 @@ class AttentionExtractor(BaseFeaturesExtractor):
         Args:
             observation_space: Gymnasium observation space specification.
             d_model: Hidden size for token projection and transformer layers.
-            num_frames: Number of stacked frames for temporal context.
             choose_on_teampreview: Whether policy controls teampreview decisions.
         """
         super().__init__(observation_space, features_dim=d_model)
-        self.num_frames = num_frames
         self.choose_on_teampreview = choose_on_teampreview
         self.ability_embed = nn.Embedding(
             len(abilities), self.embed_len, max_norm=self.embed_len**0.5
@@ -273,46 +244,22 @@ class AttentionExtractor(BaseFeaturesExtractor):
             num_layers=self.embed_layers,
             enable_nested_tensor=False,
         )
-        if num_frames > 1:
-            self.frame_encoding: torch.Tensor
-            self.register_buffer("frame_encoding", torch.eye(num_frames).unsqueeze(0))
-            self.frame_proj = nn.Linear(d_model + num_frames, d_model)
-            self.mask: torch.Tensor
-            self.register_buffer(
-                "mask", nn.Transformer.generate_square_subsequent_mask(num_frames)
-            )
-            self.frame_encoder = nn.TransformerEncoder(
-                nn.TransformerEncoderLayer(
-                    d_model=d_model,
-                    nhead=self.num_heads,
-                    dim_feedforward=d_model,
-                    dropout=0,
-                    batch_first=True,
-                    norm_first=True,
-                ),
-                num_layers=self.embed_layers,
-                enable_nested_tensor=False,
-            )
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """
-        Extract features from battle observation tensor.
+        Extract features from battle observation.
 
-        Embeds Pokemon attributes, applies transformer attention across all 12
-        Pokemon (6 per side), and optionally applies temporal attention across
-        stacked frames.
+        Embeds Pokemon attributes and applies transformer attention across all
+        12 Pokemon (6 per side).
 
         Args:
-            x: Observation tensor of shape (batch, obs_dim) or
-               (batch, num_frames * obs_dim) if frame stacking.
+            x: Observation tensor of shape (batch, 12 * chunk_obs_len).
 
         Returns:
             Feature tensor of shape (batch, d_model).
         """
         batch_size = x.size(0)
-        x = x.view(batch_size, self.num_frames, -1)
-        x = x[:, :, 2 * act_len :]
-        pokemon_obs = x.view(batch_size * self.num_frames, 12, -1)
+        pokemon_obs = x.view(batch_size, 12, -1)
         # embedding
         start = glob_obs_len + side_obs_len
         pokemon_obs = torch.cat(
@@ -330,16 +277,6 @@ class AttentionExtractor(BaseFeaturesExtractor):
         )
         # pokemon encoder
         pokemon_tokens = self.pokemon_proj(pokemon_obs)
-        cls_token = self.cls_token.expand(batch_size * self.num_frames, -1, -1)
+        cls_token = self.cls_token.expand(batch_size, -1, -1)
         tokens = torch.cat([cls_token, pokemon_tokens], dim=1)
-        z = self.pokemon_encoder(tokens)[:, 0, :]
-        if self.num_frames == 1:
-            return z
-        # frame encoder
-        frame_tokens = z.view(batch_size, self.num_frames, -1)
-        frame_encoding = self.frame_encoding.expand(batch_size, -1, -1)
-        frame_tokens = torch.cat([frame_tokens, frame_encoding], dim=2)
-        frame_tokens = self.frame_proj(frame_tokens)
-        return self.frame_encoder(frame_tokens, mask=self.mask, is_causal=True)[
-            :, -1, :
-        ]
+        return self.pokemon_encoder(tokens)[:, 0, :]

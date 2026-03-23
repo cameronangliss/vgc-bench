@@ -11,7 +11,7 @@ import io
 import zipfile
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Awaitable, Deque
+from typing import Any, Awaitable
 
 import numpy as np
 import numpy.typing as npt
@@ -37,31 +37,21 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.policies import BasePolicy
 
 from vgc_bench.src.policy import MaskedActorCriticPolicy
-from vgc_bench.src.utils import (
-    abilities,
-    act_len,
-    chunk_obs_len,
-    items,
-    move_obs_len,
-    moves,
-    pokemon_obs_len,
-)
+from vgc_bench.src.utils import abilities, items, move_obs_len, moves, pokemon_obs_len
 
 
 class PolicyPlayer(Player):
     """
     A Pokemon VGC player that uses a neural network policy for decisions.
 
-    Handles battle state embedding, frame stacking for temporal context,
-    and action masking to ensure only legal moves are selected.
+    Handles battle state embedding and action masking to ensure only legal
+    moves are selected.
 
     Attributes:
         policy: The neural network policy used for action selection.
-        _frames: Per-battle frame history for frame stacking.
     """
 
     policy: BasePolicy | None
-    _frames: dict[str, Deque[npt.NDArray[np.float32]]] = {}
 
     def __init__(self, policy: BasePolicy | None = None, *args: Any, **kwargs: Any):
         """
@@ -110,46 +100,20 @@ class PolicyPlayer(Player):
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         if battle._wait:
             return DefaultBattleOrder()
-        obs = self.get_observation(battle)
+        obs = self.embed_battle(battle, fake_rating=2000)
+        mask = np.array(DoublesEnv.get_action_mask(battle))
         with torch.no_grad():
-            obs_tensor = torch.as_tensor(obs, device=self.policy.device).unsqueeze(0)
-            action, _, _ = self.policy.forward(obs_tensor)
+            obs_dict = {
+                "observation": torch.as_tensor(
+                    obs, device=self.policy.device
+                ).unsqueeze(0),
+                "action_mask": torch.as_tensor(
+                    mask, device=self.policy.device
+                ).unsqueeze(0),
+            }
+            action, _, _ = self.policy.forward(obs_dict)
         action = action.cpu().numpy()[0]
         return DoublesEnv.action_to_order(action, battle)
-
-    def get_observation(self, battle: DoubleBattle) -> npt.NDArray[np.float32]:
-        """
-        Generate the observation vector for the current battle state.
-
-        Handles frame stacking for temporal context and cleans up state
-        from finished battles.
-
-        Args:
-            battle: Current battle state.
-
-        Returns:
-            Numpy array observation suitable for the policy network.
-        """
-        assert isinstance(self.policy, MaskedActorCriticPolicy)
-        # remove frames of finished battles
-        self._frames = {
-            tag: frame
-            for tag, frame in self._frames.items()
-            if tag in self.battles and not self.battles[tag].finished
-        }
-        # initialize frames for new battles
-        if battle.battle_tag not in self._frames and self.policy.num_frames > 1:
-            self._frames[battle.battle_tag] = Deque(maxlen=self.policy.num_frames)
-            for _ in range(self.policy.num_frames):
-                self._frames[battle.battle_tag].append(
-                    np.zeros((2 * act_len + 12 * chunk_obs_len,), dtype=np.float32)
-                )
-        # embed battle into observation
-        obs = self.embed_battle(battle, fake_rating=2000)
-        if self.policy.num_frames > 1:
-            self._frames[battle.battle_tag].append(obs)
-            obs = np.concatenate(self._frames[battle.battle_tag])
-        return obs
 
     def teampreview(self, battle: AbstractBattle) -> str | Awaitable[str]:
         """
@@ -198,12 +162,6 @@ class PolicyPlayer(Player):
             Numpy array observation for the policy network.
         """
         assert isinstance(battle, DoubleBattle)
-        if not battle._last_request:
-            mask = np.ones(2 * act_len, dtype=np.float32)
-        else:
-            mask1 = PolicyPlayer.get_action_mask(battle, 0)
-            mask2 = PolicyPlayer.get_action_mask(battle, 1)
-            mask = np.array(mask1 + mask2)
         glob = PolicyPlayer.embed_global(battle)
         side = PolicyPlayer.embed_side(battle, fake_rating)
         opp_fake_rating = None if fake_rating is None else 0
@@ -238,8 +196,7 @@ class PolicyPlayer(Player):
             6 - len(opp_pokemons)
         )
         return np.concatenate(
-            [mask]
-            + [np.concatenate([glob, side, p]) for p in pokemons]
+            [np.concatenate([glob, side, p]) for p in pokemons]
             + [np.concatenate([glob, opp_side, p]) for p in opp_pokemons],
             dtype=np.float32,
         )
@@ -433,57 +390,13 @@ class PolicyPlayer(Player):
             ]
         )
 
-    @staticmethod
-    def get_action_mask(battle: DoubleBattle, pos: int) -> list[int]:
-        """Compute legal action mask for a given active slot position."""
-        switch_space = [
-            i + 1
-            for i, pokemon in enumerate(battle.team.values())
-            if not battle.trapped[pos]
-            and pokemon.base_species
-            in [p.base_species for p in battle.available_switches[pos]]
-        ]
-        active_mon = battle.active_pokemon[pos]
-        if battle._wait or (any(battle.force_switch) and not battle.force_switch[pos]):
-            actions = [0]
-        elif all(battle.force_switch) and len(battle.available_switches[0]) == 1:
-            actions = switch_space + [0]
-        elif battle.teampreview:
-            actions = [
-                i
-                for i, p in enumerate(battle.team.values(), start=1)
-                if not p.selected_in_teampreview
-            ]
-        elif active_mon is None:
-            actions = switch_space
-        else:
-            move_spaces = [
-                [
-                    7 + 5 * i + j + 2
-                    for j in battle.get_possible_showdown_targets(move, active_mon)
-                ]
-                for i, move in enumerate(active_mon.moves.values())
-                if move.id in [m.id for m in battle.available_moves[pos]]
-            ]
-            move_space = [i for s in move_spaces for i in s]
-            tera_space = [i + 80 for i in move_space if battle.can_tera[pos]]
-            if (
-                not move_space
-                and len(battle.available_moves[pos]) == 1
-                and battle.available_moves[pos][0].id in ["struggle", "recharge"]
-            ):
-                move_space = [9]
-            actions = switch_space + move_space + tera_space
-        actions = actions or [0]
-        action_mask = [int(i in actions) for i in range(act_len)]
-        return action_mask
-
 
 @dataclass
 class _BatchReq:
     """Internal request object for batched inference."""
 
     obs: npt.NDArray[np.float32]
+    mask: npt.NDArray[np.int64]
     event: asyncio.Event
     result: npt.NDArray[np.int64] | None = None
 
@@ -512,10 +425,11 @@ class BatchPolicyPlayer(PolicyPlayer):
         assert isinstance(battle, DoubleBattle)
         if battle._wait:
             return DefaultBattleOrder()
-        obs = self.get_observation(battle)
+        obs = self.embed_battle(battle, fake_rating=2000)
+        mask = np.array(DoublesEnv.get_action_mask(battle))
         if self._worker_task is None:
             self._worker_task = asyncio.create_task(self._inference_loop())
-        req = _BatchReq(obs=obs, event=asyncio.Event())
+        req = _BatchReq(obs=obs, mask=mask, event=asyncio.Event())
         await self._q.put(req)
         await req.event.wait()
         assert req.result is not None
@@ -562,9 +476,13 @@ class BatchPolicyPlayer(PolicyPlayer):
 
             # run inference
             obs = np.stack([r.obs for r in requests], axis=0)
+            masks = np.stack([r.mask for r in requests], axis=0)
             with torch.no_grad():
-                obs_tensor = torch.as_tensor(obs, device=self.policy.device)
-                actions, _, _ = self.policy.forward(obs_tensor)
+                obs_dict = {
+                    "observation": torch.as_tensor(obs, device=self.policy.device),
+                    "action_mask": torch.as_tensor(masks, device=self.policy.device),
+                }
+                actions, _, _ = self.policy.forward(obs_dict)
             actions = actions.cpu().numpy()
 
             # dispatch

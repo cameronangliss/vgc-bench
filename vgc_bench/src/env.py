@@ -23,7 +23,7 @@ from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle
 from vgc_bench.src.utils import LearningStyle, act_len, chunk_obs_len, format_map, moves
 
 
-class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
+class ShowdownEnv(DoublesEnv):
     """
     Gymnasium environment for Pokemon VGC doubles battles.
 
@@ -36,15 +36,8 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         Initialize the ShowdownEnv.
         """
         super().__init__(*args, **kwargs)
-        self.metadata = {"name": "showdown_v1", "render_modes": ["human"]}
-        self.render_mode: str | None = None
         self.observation_spaces = {
-            agent: Box(
-                -1,
-                len(moves),
-                shape=(2 * act_len + 12 * chunk_obs_len,),
-                dtype=np.float32,
-            )
+            agent: Box(-1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32)
             for agent in self.possible_agents
         }
 
@@ -58,7 +51,6 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         log_level: int,
         port: int,
         learning_style: LearningStyle,
-        num_frames: int,
         allow_mirror_match: bool,
         choose_on_teampreview: bool,
         team1: str | None,
@@ -79,7 +71,6 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             log_level: Logging verbosity for Showdown clients.
             port: Port for the Pokemon Showdown server.
             learning_style: Training paradigm to use.
-            num_frames: Number of frames for frame stacking.
             allow_mirror_match: Whether to allow same-team matchups.
             choose_on_teampreview: Whether policy controls teampreview.
             team1: Optional team string for matchup solving (requires team2).
@@ -102,8 +93,6 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
             choose_on_teampreview=choose_on_teampreview,
         )
         if learning_style == LearningStyle.PURE_SELF_PLAY:
-            if num_frames > 1:
-                env = ss.frame_stack_v1(env, stack_size=num_frames, stack_dim=0)
             env = ss.pettingzoo_env_to_vec_env_v1(env)
             env = ss.concat_vec_envs_v1(
                 env,
@@ -115,8 +104,6 @@ class ShowdownEnv(DoublesEnv[npt.NDArray[np.float32]]):
         else:
             opponent = PolicyPlayer(start_listening=False)
             env = SingleAgentWrapper(env, opponent)
-            if num_frames > 1:
-                env = FrameStackObservation(env, num_frames, padding_type="zero")
             env = Monitor(env)
             return env
 

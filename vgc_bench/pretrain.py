@@ -32,22 +32,14 @@ class TrajectoryDataset(Dataset):
     """
     PyTorch Dataset for loading trajectory data from pickle files.
 
-    Loads pre-extracted trajectories from data/trajs/ and optionally applies
-    frame stacking for temporal context.
+    Loads pre-extracted trajectories from data/trajs/.
 
     Attributes:
-        num_frames: Number of frames to stack for temporal context.
         files: List of trajectory file paths.
     """
 
-    def __init__(self, num_frames: int):
-        """
-        Initialize the dataset by discovering trajectory files.
-
-        Args:
-            num_frames: Number of frames to stack (1 = no stacking).
-        """
-        self.num_frames = num_frames
+    def __init__(self):
+        """Initialize the dataset by discovering trajectory files."""
         directory = Path("trajs")
         self.files = [file for file in directory.iterdir() if file.suffix == ".pkl"]
 
@@ -63,47 +55,15 @@ class TrajectoryDataset(Dataset):
             idx: Index of the trajectory to load.
 
         Returns:
-            Trajectory object, optionally with frame-stacked observations.
+            Trajectory object.
         """
         file_path = self.files[idx]
         with file_path.open("rb") as f:
-            traj = pickle.load(f)
-        if self.num_frames > 1:
-            traj = self._frame_stack_traj(traj)
-        return traj
-
-    def _frame_stack_traj(self, traj: Trajectory) -> Trajectory:
-        """
-        Apply frame stacking to a trajectory's observations.
-
-        Args:
-            traj: The original trajectory.
-
-        Returns:
-            New trajectory with frame-stacked observations.
-        """
-        obs = np.array(traj.obs)
-        traj_len, *obs_shape = obs.shape
-        stacked_obs = np.empty((traj_len, self.num_frames, *obs_shape), dtype=obs.dtype)
-        zero_obs = np.zeros(obs_shape, dtype=obs.dtype)
-        for i in range(traj_len):
-            for j in range(self.num_frames):
-                idx = i - j
-                if idx >= 0:
-                    stacked_obs[i, self.num_frames - 1 - j] = traj.obs[idx]
-                else:
-                    stacked_obs[i, self.num_frames - 1 - j] = zero_obs
-        return Trajectory(obs=stacked_obs, acts=traj.acts, infos=None, terminal=True)
+            return pickle.load(f)
 
 
 def pretrain(
-    reg: str,
-    run_id: int,
-    num_teams: int,
-    port: int,
-    device: str,
-    num_frames: int,
-    div_frac: float,
+    reg: str, run_id: int, num_teams: int, port: int, device: str, div_frac: float
 ):
     """
     Pretrain a policy using behavior cloning on human gameplay data.
@@ -117,7 +77,6 @@ def pretrain(
         num_teams: Number of teams to use for evaluation.
         port: Port for the Pokemon Showdown server.
         device: CUDA device for training.
-        num_frames: Number of frames to stack for temporal context.
         div_frac: Fraction of dataset to load per training iteration.
     """
     battle_format = format_map[reg]
@@ -133,14 +92,10 @@ def pretrain(
     ppo = PPO(
         MaskedActorCriticPolicy,
         single_agent_env,
-        policy_kwargs={
-            "d_model": 256,
-            "num_frames": num_frames,
-            "choose_on_teampreview": True,
-        },
+        policy_kwargs={"d_model": 256, "choose_on_teampreview": True},
         device=device,
     )
-    dataset = TrajectoryDataset(num_frames)
+    dataset = TrajectoryDataset()
     div_count = int(1 / div_frac)
     dataloader = DataLoader(
         dataset,
@@ -157,10 +112,7 @@ def pretrain(
         policy=ppo.policy,
         batch_size=1024,
         device=device,
-        custom_logger=configure(
-            f"results{run_id}/logs-bc{f'-fs{num_frames}' if num_frames > 1 else ''}",
-            ["tensorboard"],
-        ),
+        custom_logger=configure(f"results{run_id}/logs-bc", ["tensorboard"]),
     )
     eval_agent = BatchPolicyPlayer(
         policy=ppo.policy,
@@ -187,9 +139,7 @@ def pretrain(
     )
     win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
     bc.logger.record("bc/eval", win_rate)
-    ppo.save(
-        f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/0"
-    )
+    ppo.save(f"results{run_id}/saves-bc/0")
     for i in range(100):
         data = iter(dataloader)
         for _ in range(div_count):
@@ -198,21 +148,13 @@ def pretrain(
             bc.train(n_epochs=1)
         win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
         bc.logger.record("bc/eval", win_rate)
-        ppo.save(
-            f"results{run_id}/saves-bc{f'-fs{num_frames}' if num_frames > 1 else ''}/{i + 1}"
-        )
+        ppo.save(f"results{run_id}/saves-bc/{i + 1}")
     bc.train(n_epochs=1)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Pretrain a policy using behavior cloning"
-    )
-    parser.add_argument(
-        "--num_frames",
-        type=int,
-        default=1,
-        help="number of frames to use for frame stacking, default is 1 (no frame stacking)",
     )
     parser.add_argument(
         "--div_frac",
@@ -241,12 +183,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     set_global_seed(args.run_id)
     reg = args.reg.lower()
-    pretrain(
-        reg,
-        args.run_id,
-        args.num_teams,
-        args.port,
-        args.device,
-        args.num_frames,
-        args.div_frac,
-    )
+    pretrain(reg, args.run_id, args.num_teams, args.port, args.device, args.div_frac)

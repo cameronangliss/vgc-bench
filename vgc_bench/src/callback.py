@@ -60,7 +60,6 @@ class Callback(BaseCallback):
         port: int,
         learning_style: LearningStyle,
         behavior_clone: bool,
-        num_frames: int,
         allow_mirror_match: bool,
         choose_on_teampreview: bool,
         save_interval: int,
@@ -80,7 +79,6 @@ class Callback(BaseCallback):
             port: Port for the Pokemon Showdown server.
             learning_style: Training paradigm (self-play, fictitious play, etc.).
             behavior_clone: Whether initialized from behavior cloning.
-            num_frames: Number of frames for frame stacking.
             allow_mirror_match: Whether to allow same-team matchups.
             choose_on_teampreview: Whether policy makes teampreview decisions.
             save_interval: Timesteps between checkpoint saves.
@@ -96,7 +94,6 @@ class Callback(BaseCallback):
             [
                 "-bc" if behavior_clone else "",
                 "-" + learning_style.abbrev,
-                f"-fs{num_frames}" if num_frames > 1 else "",
                 "-xm" if not allow_mirror_match else "",
                 "-xt" if not choose_on_teampreview else "",
             ]

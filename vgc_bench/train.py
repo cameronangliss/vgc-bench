@@ -30,7 +30,6 @@ def train(
     device: str,
     learning_style: LearningStyle,
     behavior_clone: bool,
-    num_frames: int,
     allow_mirror_match: bool,
     choose_on_teampreview: bool,
     team1: str | None,
@@ -55,7 +54,6 @@ def train(
         device: CUDA device for training.
         learning_style: Training paradigm (self-play, fictitious play, etc.).
         behavior_clone: Whether to initialize from a BC-pretrained policy.
-        num_frames: Number of frames for frame stacking.
         allow_mirror_match: Whether to allow same-team matchups.
         choose_on_teampreview: Whether policy makes teampreview decisions.
         team1: Optional team string for matchup solving (requires team2).
@@ -72,7 +70,6 @@ def train(
             log_level,
             port,
             learning_style,
-            num_frames,
             allow_mirror_match,
             choose_on_teampreview,
             team1,
@@ -89,7 +86,6 @@ def train(
                     log_level,
                     port,
                     learning_style,
-                    num_frames,
                     allow_mirror_match,
                     choose_on_teampreview,
                     team1,
@@ -103,7 +99,6 @@ def train(
         [
             "-bc" if behavior_clone else "",
             "-" + learning_style.abbrev,
-            f"-fs{num_frames}" if num_frames > 1 else "",
             "-xm" if not allow_mirror_match else "",
             "-xt" if not choose_on_teampreview else "",
         ]
@@ -129,11 +124,7 @@ def train(
         gamma=1,
         ent_coef=0.01,
         tensorboard_log=str(output_dir / f"logs-{method}"),
-        policy_kwargs={
-            "d_model": 256,
-            "num_frames": num_frames,
-            "choose_on_teampreview": choose_on_teampreview,
-        },
+        policy_kwargs={"d_model": 256, "choose_on_teampreview": choose_on_teampreview},
         device=device,
     )
     num_saved_timesteps = 0
@@ -160,7 +151,6 @@ def train(
             port,
             learning_style,
             behavior_clone,
-            num_frames,
             allow_mirror_match,
             choose_on_teampreview,
             save_interval,
@@ -202,12 +192,6 @@ if __name__ == "__main__":
         "--behavior_clone",
         action="store_true",
         help="use bc model as initial policy; if save folder has no checkpoint, downloads default BC checkpoint from Hugging Face",
-    )
-    parser.add_argument(
-        "--num_frames",
-        type=int,
-        default=1,
-        help="number of frames to use for frame stacking, default is 1 (no frame stacking)",
     )
     parser.add_argument(
         "--no_mirror_match",
@@ -300,7 +284,6 @@ if __name__ == "__main__":
         args.device,
         style,
         args.behavior_clone,
-        args.num_frames,
         not args.no_mirror_match,
         not args.no_teampreview,
         args.team1 or None,
