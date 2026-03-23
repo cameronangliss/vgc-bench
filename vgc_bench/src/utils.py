@@ -105,7 +105,7 @@ format_map = {
     "d": "gen9vgc2023regd",
     "f": "gen9vgc2026regf",
     "g": "gen9vgc2024regg",
-    "h": "gen9vgc2024regg",
+    "h": "gen9vgc2025regh",
     "i": "gen9vgc2026regi",
     "j": "gen9vgc2025regj",
 }
