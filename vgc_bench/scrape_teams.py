@@ -178,11 +178,7 @@ def normalize_team_text(text: str) -> str:
         if not any(re.match(r"\s*Level:", line) for line in new_lines):
             # Insert Level: 50 after Ability line
             insert_idx = next(
-                (
-                    i + 1
-                    for i, l in enumerate(new_lines)
-                    if re.match(r"\s*Ability:", l)
-                ),
+                (i + 1 for i, l in enumerate(new_lines) if re.match(r"\s*Ability:", l)),
                 1,
             )
             new_lines.insert(insert_idx, "Level: 50")
