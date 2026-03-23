@@ -17,7 +17,6 @@ from poke_env.environment import DoublesEnv
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
 
 from vgc_bench.src.policy import MaskedActorCriticPolicy
-from vgc_bench.src.policy_player import PolicyPlayer
 from vgc_bench.src.utils import act_len
 
 
@@ -124,16 +123,11 @@ class LLMPlayer(Player):
             Action index for this slot.
         """
         if pos == 0:
-            mask = torch.tensor(PolicyPlayer.get_action_mask(battle, 0))
+            mask = torch.tensor(DoublesEnv.get_action_mask_individual(battle, 0))
             ally_order = None
         else:
             assert ally_action is not None
-            mask = torch.tensor(
-                [
-                    PolicyPlayer.get_action_mask(battle, 0)
-                    + PolicyPlayer.get_action_mask(battle, 1)
-                ]
-            )
+            mask = torch.tensor(DoublesEnv.get_action_mask(battle))
             ally_action_tensor = torch.tensor([[ally_action]])
             mask = MaskedActorCriticPolicy._update_mask(mask, ally_action_tensor)[
                 0, act_len:

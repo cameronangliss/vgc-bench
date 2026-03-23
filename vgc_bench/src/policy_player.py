@@ -111,7 +111,7 @@ class PolicyPlayer(Player):
                     mask, device=self.policy.device
                 ).unsqueeze(0),
             }
-            action, _, _ = self.policy.forward(obs_dict)
+            action, _, _ = self.policy.forward(obs_dict)  # type: ignore
         action = action.cpu().numpy()[0]
         return DoublesEnv.action_to_order(action, battle)
 
@@ -482,7 +482,7 @@ class BatchPolicyPlayer(PolicyPlayer):
                     "observation": torch.as_tensor(obs, device=self.policy.device),
                     "action_mask": torch.as_tensor(masks, device=self.policy.device),
                 }
-                actions, _, _ = self.policy.forward(obs_dict)
+                actions, _, _ = self.policy.forward(obs_dict)  # type: ignore
             actions = actions.cpu().numpy()
 
             # dispatch
