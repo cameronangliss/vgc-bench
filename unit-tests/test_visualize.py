@@ -1,4 +1,4 @@
-"""Tests for vgc_bench.visualize (matrix conversion functions).
+"""Unit tests for vgc_bench.visualize matrix conversion functions.
 
 We can't directly import visualize.py because it has top-level plotting code
 that executes on import. Instead we exec just the function definitions.

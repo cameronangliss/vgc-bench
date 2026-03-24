@@ -37,7 +37,8 @@ line_length = 88
 multi_line_output = 3
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["unit-tests", "integration-tests"]
+addopts = "--import-mode=importlib"
 
 [tool.pyright]
 include = ["vgc_bench"]

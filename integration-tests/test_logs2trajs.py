@@ -1,4 +1,9 @@
-"""Integration tests for vgc_bench.logs2trajs using a real battle log fixture."""
+"""Integration tests for vgc_bench.logs2trajs using a real battle log fixture.
+
+These tests exercise the full log-replay pipeline: LogReader + poke-env battle
+simulation + PolicyPlayer embedding, using a real scraped battle log and an
+async event loop.
+"""
 
 import asyncio
 import json
@@ -58,18 +63,29 @@ def _run_process_log(tag, log, role, reader_loop, **kwargs):
 
 
 class TestProcessLog:
-    @pytest.mark.xfail(
-        reason="embed_states assertion expects stale obs shape including action mask "
-        "(2*act_len + 12*chunk_obs_len) but embed_battle now returns 12*chunk_obs_len "
-        "after the auto-masking refactor in commit 244e831",
-        strict=True,
-    )
     def test_process_log_p1(self, battle_log_fixture, reader_loop):
         tag, log = battle_log_fixture
         traj = _run_process_log(
             tag, log, "p1", reader_loop, min_rating=None, only_winner=False
         )
         assert traj is not None
+        assert traj.terminal is True
+        obs_dim = 12 * chunk_obs_len
+        assert traj.obs.shape[1] == obs_dim
+        assert traj.acts.shape[1] == 2
+        assert traj.obs.shape[0] == traj.acts.shape[0] + 1
+        assert not np.any(np.isnan(traj.obs))
+        assert np.all(traj.acts >= 0)
+        assert np.all(traj.acts < act_len)
+
+    def test_process_log_p2(self, battle_log_fixture, reader_loop):
+        tag, log = battle_log_fixture
+        traj = _run_process_log(
+            tag, log, "p2", reader_loop, min_rating=None, only_winner=False
+        )
+        assert traj is not None
+        assert traj.obs.ndim == 2
+        assert traj.acts.ndim == 2
 
     def test_min_rating_filter(self, battle_log_fixture, reader_loop):
         tag, log = battle_log_fixture

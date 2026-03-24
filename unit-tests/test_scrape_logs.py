@@ -1,4 +1,4 @@
-"""Tests for vgc_bench.scrape_logs (offline-only, no network calls)."""
+"""Unit tests for vgc_bench.scrape_logs string parsing (no network calls)."""
 
 from vgc_bench.scrape_logs import get_rating
 

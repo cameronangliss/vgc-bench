@@ -1,4 +1,4 @@
-"""Tests for vgc_bench.src.llm (offline-only, no model downloads)."""
+"""Unit tests for vgc_bench.src.llm static helpers (no model downloads)."""
 
 from vgc_bench.src.llm import LLMPlayer
 

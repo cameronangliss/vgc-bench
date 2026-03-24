@@ -1,4 +1,4 @@
-"""Tests for vgc_bench.src.utils."""
+"""Unit tests for vgc_bench.src.utils."""
 
 import numpy as np
 import torch

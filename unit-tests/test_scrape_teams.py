@@ -1,4 +1,4 @@
-"""Tests for vgc_bench.scrape_teams (offline-only, no network calls)."""
+"""Unit tests for vgc_bench.scrape_teams string processing (no network calls)."""
 
 from vgc_bench.scrape_teams import (
     all_pokemon_have_evs,

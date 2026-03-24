@@ -1,7 +1,8 @@
-"""Tests for vgc_bench.pretrain (offline-only, no Showdown server)."""
+"""Integration tests for vgc_bench.pretrain TrajectoryDataset.
 
-import os
-import pickle
+These tests exercise dataset discovery and pickle deserialization using
+temporary files on disk.
+"""
 
 from vgc_bench.pretrain import TrajectoryDataset
 
