@@ -22,7 +22,7 @@ from stable_baselines3.common.callbacks import BaseCallback
 
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.policy_player import BatchPolicyPlayer
-from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle
+from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle, get_available_regs
 from vgc_bench.src.utils import LearningStyle, format_map
 
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -54,7 +54,7 @@ class Callback(BaseCallback):
         self,
         run_id: int,
         num_teams: int | None,
-        reg: str,
+        reg: str | None,
         num_eval_workers: int,
         log_level: int,
         port: int,
@@ -73,7 +73,7 @@ class Callback(BaseCallback):
         Args:
             run_id: Training run identifier.
             num_teams: Number of teams to use.
-            reg: VGC regulation letter (e.g. 'g', 'h', 'i').
+            reg: VGC regulation letter (e.g. 'g', 'h', 'i'), or None for all.
             num_eval_workers: Number of parallel evaluation workers.
             log_level: Logging verbosity for Showdown clients.
             port: Port for the Pokemon Showdown server.
@@ -99,19 +99,27 @@ class Callback(BaseCallback):
             ]
         )[1:]
         suffix = f"-{results_suffix}" if results_suffix else ""
-        output_dir = Path(f"results{run_id}{suffix}")
+        output_dir = Path(f"results{suffix}")
         self.log_dir = output_dir / f"logs-{method}"
-        battle_format = format_map[reg]
-        self.teams_label = (
-            f"reg-{reg}" if num_teams is None else f"reg-{reg}-{num_teams}-teams"
-        )
-        self.save_dir = output_dir / f"saves-{method}" / self.teams_label
+        if reg is None:
+            battle_format = format_map[get_available_regs()[0]]
+        else:
+            battle_format = format_map[reg]
+        method_dir = output_dir / f"saves-{method}"
+        if reg is not None and num_teams is not None:
+            method_dir = method_dir / f"reg{reg}-{num_teams}-teams"
+        elif reg is not None:
+            method_dir = method_dir / f"reg{reg}"
+        elif num_teams is not None:
+            method_dir = method_dir / f"{num_teams}-teams"
+        self.save_dir = method_dir / f"seed{run_id}"
+        self.save_label = str(self.save_dir.relative_to(output_dir / f"saves-{method}"))
         self.log_dir.mkdir(parents=True, exist_ok=True)
         self.save_dir.mkdir(parents=True, exist_ok=True)
         self.payoff_matrix: npt.NDArray[np.float32]
         self.prob_dist = None
         if self.learning_style == LearningStyle.DOUBLE_ORACLE:
-            payoff_path = self.log_dir / f"{self.teams_label}-payoff-matrix.json"
+            payoff_path = self.log_dir / f"{self.save_label}-payoff-matrix.json"
             if payoff_path.exists():
                 with payoff_path.open() as f:
                     self.payoff_matrix = np.array(json.load(f))
@@ -200,15 +208,17 @@ class Callback(BaseCallback):
                 self.model.set_parameters(
                     str(self.save_dir / f"{max(saves)}.zip"), device=self.model.device
                 )
-            heuristic_win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
-            self.model.logger.record("train/heuristic-eval", heuristic_win_rate)
+            heuristic_win_rates = self.compare(self.eval_agent, self.eval_opponent, 100)
+            for label, wr in heuristic_win_rates.items():
+                self.model.logger.record(f"eval/heuristic_{label}", wr)
             if not self.behavior_clone:
                 self.model.save(self.save_dir / f"{self.model.num_timesteps}")
         if bc_policy_path.exists():
             self.eval_opponent2.set_policy(bc_policy_path, self.model.device)
             if self.model.num_timesteps < self.save_interval:
-                bc_win_rate = self.compare(self.eval_agent, self.eval_opponent2, 100)
-                self.model.logger.record("train/bc-eval", bc_win_rate)
+                bc_win_rates = self.compare(self.eval_agent, self.eval_opponent2, 100)
+                for label, wr in bc_win_rates.items():
+                    self.model.logger.record(f"eval/bc_{label}", wr)
         if self.learning_style == LearningStyle.EXPLOITER:
             for i in range(self.model.env.num_envs):
                 self.model.env.env_method(
@@ -252,11 +262,13 @@ class Callback(BaseCallback):
 
     def record(self):
         """Evaluate current policy, update payoff matrix for DO, and save checkpoint."""
-        heuristic_win_rate = self.compare(self.eval_agent, self.eval_opponent, 100)
-        self.model.logger.record("train/heuristic-eval", heuristic_win_rate)
+        heuristic_win_rates = self.compare(self.eval_agent, self.eval_opponent, 100)
+        for label, wr in heuristic_win_rates.items():
+            self.model.logger.record(f"eval/heuristic_{label}", wr)
         if self.eval_opponent2.policy is not None:
-            bc_win_rate = self.compare(self.eval_agent, self.eval_opponent2, 100)
-            self.model.logger.record("train/bc-eval", bc_win_rate)
+            bc_win_rates = self.compare(self.eval_agent, self.eval_opponent2, 100)
+            for label, wr in bc_win_rates.items():
+                self.model.logger.record(f"eval/bc_{label}", wr)
         if self.learning_style == LearningStyle.DOUBLE_ORACLE:
             policy_files = list(self.save_dir.iterdir())
             self.update_payoff_matrix(policy_files)
@@ -278,8 +290,8 @@ class Callback(BaseCallback):
         win_rates = np.array([])
         for p in ordered_policy_files:
             self.eval_agent2.set_policy(p, self.model.device)
-            win_rate = self.compare(self.eval_agent, self.eval_agent2, 100)
-            win_rates = np.append(win_rates, win_rate)
+            wr = self.compare(self.eval_agent, self.eval_agent2, 100)["all"]
+            win_rates = np.append(win_rates, wr)
         self.payoff_matrix = np.concat(
             [self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1
         )
@@ -288,7 +300,7 @@ class Callback(BaseCallback):
             [self.payoff_matrix, win_rates.reshape(1, -1)], axis=0
         )
         self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
-        payoff_path = self.log_dir / f"{self.teams_label}-payoff-matrix.json"
+        payoff_path = self.log_dir / f"{self.save_label}-payoff-matrix.json"
         with payoff_path.open("w") as f:
             json.dump(
                 [
@@ -299,20 +311,43 @@ class Callback(BaseCallback):
             )
 
     @staticmethod
-    def compare(player1: Player, player2: Player, n_battles: int) -> float:
+    def compare(player1: Player, player2: Player, n_battles: int) -> dict[str, float]:
         """
-        Run battles between two players and return player1's win rate.
+        Run battles between two players and return player1's win rates.
 
         Args:
             player1: First player (whose win rate is returned).
             player2: Second player.
-            n_battles: Number of battles to run.
+            n_battles: Number of battles to run (per regulation if multi-reg).
 
         Returns:
-            Win rate of player1 as a float between 0 and 1.
+            Dict mapping label to win rate. Always contains "all". When in
+            multi-reg mode, also contains per-regulation entries like "reg-f".
         """
-        asyncio.run(player1.battle_against(player2, n_battles=n_battles))
-        win_rate = player1.win_rate
-        player1.reset_battles()
-        player2.reset_battles()
-        return win_rate
+        assert isinstance(player1._team, RandomTeamBuilder)
+        assert isinstance(player2._team, RandomTeamBuilder)
+        available_regs = player1._team.available_regs
+        if available_regs is None:
+            asyncio.run(player1.battle_against(player2, n_battles=n_battles))
+            win_rate = player1.win_rate
+            player1.reset_battles()
+            player2.reset_battles()
+            return {"all": win_rate}
+        else:
+            win_rates: dict[str, float] = {}
+            total_wins = 0
+            total_battles = 0
+            for reg in available_regs:
+                player1._team.current_reg = reg
+                player2._team.current_reg = reg
+                fmt = format_map[reg]
+                player1._format = fmt
+                player2._format = fmt
+                asyncio.run(player1.battle_against(player2, n_battles=n_battles))
+                win_rates[f"reg{reg}"] = player1.win_rate
+                total_wins += player1.n_won_battles
+                total_battles += player1.n_finished_battles
+                player1.reset_battles()
+                player2.reset_battles()
+            win_rates["all"] = total_wins / total_battles if total_battles > 0 else 0
+            return win_rates

@@ -8,6 +8,7 @@ Also implements the battle state embedding used for policy observations.
 
 import asyncio
 import io
+import json
 import zipfile
 from dataclasses import dataclass
 from pathlib import Path
@@ -31,13 +32,24 @@ from poke_env.battle import (
     Target,
     Weather,
 )
+from poke_env.data import to_id_str
 from poke_env.environment import DoublesEnv
 from poke_env.player import BattleOrder, DefaultBattleOrder, Player
 from stable_baselines3 import PPO
 from stable_baselines3.common.policies import BasePolicy
 
 from vgc_bench.src.policy import MaskedActorCriticPolicy
-from vgc_bench.src.utils import abilities, items, move_obs_len, moves, pokemon_obs_len
+from vgc_bench.src.teams import RandomTeamBuilder
+from vgc_bench.src.utils import (
+    abilities,
+    format_map,
+    items,
+    move_obs_len,
+    moves,
+    pokemon_obs_len,
+)
+
+_reverse_format_map = {v: k for k, v in format_map.items()}
 
 
 class PolicyPlayer(Player):
@@ -53,17 +65,99 @@ class PolicyPlayer(Player):
 
     policy: BasePolicy | None
 
-    def __init__(self, policy: BasePolicy | None = None, *args: Any, **kwargs: Any):
+    def __init__(
+        self,
+        policy: BasePolicy | None = None,
+        accepted_formats: set[str] | None = None,
+        *args: Any,
+        **kwargs: Any,
+    ):
         """
         Initialize the policy player.
 
         Args:
             policy: Neural network policy (can be set later via set_policy).
+            accepted_formats: If set, accept challenges of any of these formats
+                instead of only ``battle_format``. Requires the team builder to
+                be in multi-reg mode (``reg=None``) so the correct
+                regulation's teams are yielded.
             *args: Additional arguments for Player base class.
             **kwargs: Additional keyword arguments for Player base class.
         """
         super().__init__(*args, **kwargs)
         self.policy = policy
+        self._accepted_formats = accepted_formats
+
+    async def _handle_challenge_request(self, split_message: list[str]):
+        """Accept challenge requests, optionally for any recognized format."""
+        if self._accepted_formats is None:
+            return await super()._handle_challenge_request(split_message)
+        challenging_player = split_message[2].strip()
+        if challenging_player != self.username:
+            if len(split_message) >= 6:
+                fmt = split_message[5]
+                if fmt in self._accepted_formats:
+                    await self._challenge_queue.put((challenging_player, fmt))
+
+    async def _update_challenges(self, split_message: list[str]):
+        """Queue challenges, optionally accepting any recognized format."""
+        if self._accepted_formats is None:
+            return await super()._update_challenges(split_message)
+        challenges = json.loads(split_message[2]).get("challengesFrom", {})
+        for user, fmt in challenges.items():
+            if fmt in self._accepted_formats:
+                await self._challenge_queue.put((user, fmt))
+
+    async def _accept_challenges(
+        self,
+        opponent: str | list[str] | None,
+        n_challenges: int,
+        packed_team: str | None,
+    ):
+        """Accept challenges, setting format and team reg before each."""
+        if self._accepted_formats is None:
+            return await super()._accept_challenges(opponent, n_challenges, packed_team)
+        if opponent:
+            if isinstance(opponent, list):
+                opponent = [to_id_str(o) for o in opponent]
+            else:
+                opponent = to_id_str(opponent)
+        await self.ps_client.logged_in.wait()
+
+        for _ in range(n_challenges):
+            while True:
+                username, fmt = await self._challenge_queue.get()
+                username = to_id_str(username)
+                if (
+                    (opponent is None)
+                    or (opponent == username)
+                    or (isinstance(opponent, list) and (username in opponent))
+                ):
+                    self._format = fmt
+                    if (
+                        isinstance(self._team, RandomTeamBuilder)
+                        and self._team.available_regs is not None
+                    ):
+                        self._team.current_reg = _reverse_format_map[fmt]
+                    team = packed_team or self.next_team
+                    await self.ps_client.accept_challenge(username, team)
+                    await self._battle_semaphore.acquire()
+                    break
+        await self._battle_count_queue.join()
+
+    async def _create_battle(self, split_message: list[str]):
+        """Create a battle, accepting any recognized format if configured."""
+        if self._accepted_formats is None:
+            return await super()._create_battle(split_message)
+        fmt = split_message[1]
+        if fmt in self._accepted_formats:
+            saved = self._format
+            self._format = fmt
+            try:
+                return await super()._create_battle(split_message)
+            finally:
+                self._format = saved
+        return await super()._create_battle(split_message)
 
     def set_policy(self, policy_file: str | Path, device: torch.device):
         """

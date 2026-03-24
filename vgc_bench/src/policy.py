@@ -78,14 +78,12 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
             share_features_extractor=False,
         )
 
-    def forward(self, obs, deterministic=False):
-        self._mask = obs["action_mask"]  # type: ignore
-        action_logits, value_logits = self.get_logits(
-            obs["observation"], actor_grad=True  # type: ignore
-        )
-        distribution = self.get_dist_from_logits(action_logits)
+    def forward(self, obs: PyTorchObs, deterministic=False):
+        assert isinstance(obs, dict)
+        action_logits, value_logits = self.get_logits(obs, actor_grad=True)
+        distribution = self.get_dist_from_logits(action_logits, obs["action_mask"])
         actions = distribution.get_actions(deterministic=deterministic)
-        distribution2 = self.get_dist_from_logits(action_logits, actions[:, :1])
+        distribution2 = self.get_dist_from_logits(action_logits, obs["action_mask"], actions[:, :1])
         actions2 = distribution2.get_actions(deterministic=deterministic)
         distribution.distribution[1] = distribution2.distribution[1]
         actions[:, 1] = actions2[:, 1]
@@ -115,19 +113,18 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
 
     def evaluate_actions(self, obs, actions):
         assert isinstance(obs, dict)
-        self._mask = obs["action_mask"]
-        action_logits, value_logits = self.get_logits(
-            obs["observation"], self.actor_grad
+        action_logits, value_logits = self.get_logits(obs, self.actor_grad)
+        distribution = self.get_dist_from_logits(action_logits, obs["action_mask"])
+        distribution2 = self.get_dist_from_logits(
+            action_logits, obs["action_mask"], actions[:, :1]
         )
-        distribution = self.get_dist_from_logits(action_logits)
-        distribution2 = self.get_dist_from_logits(action_logits, actions[:, :1])
         distribution.distribution[1] = distribution2.distribution[1]
         log_prob = distribution.log_prob(actions)
         entropy = distribution.entropy()
         return value_logits, log_prob, entropy
 
     def get_logits(
-        self, obs: torch.Tensor, actor_grad: bool
+        self, obs: dict[str, torch.Tensor], actor_grad: bool
     ) -> tuple[torch.Tensor, torch.Tensor]:
         """Extract features and compute action/value logits."""
         actor_context = torch.enable_grad() if actor_grad else torch.no_grad()
@@ -145,10 +142,12 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         return action_logits, value_logits
 
     def get_dist_from_logits(
-        self, action_logits: torch.Tensor, action: torch.Tensor | None = None
+        self,
+        action_logits: torch.Tensor,
+        mask: torch.Tensor,
+        action: torch.Tensor | None = None,
     ) -> MultiCategoricalDistribution:
         """Create masked action distribution from logits."""
-        mask = self._mask
         if action is not None:
             mask = self._update_mask(mask, action)
         mask = torch.where(mask == 1, 0, float("-inf"))
@@ -245,7 +244,7 @@ class AttentionExtractor(BaseFeaturesExtractor):
             enable_nested_tensor=False,
         )
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
+    def forward(self, obs_dict: dict[str, torch.Tensor]) -> torch.Tensor:
         """
         Extract features from battle observation.
 
@@ -253,11 +252,13 @@ class AttentionExtractor(BaseFeaturesExtractor):
         12 Pokemon (6 per side).
 
         Args:
-            x: Observation tensor of shape (batch, 12 * chunk_obs_len).
+            x: Dict with an ``"observation"`` key containing a tensor of
+                shape (batch, 12 * chunk_obs_len).
 
         Returns:
             Feature tensor of shape (batch, d_model).
         """
+        x = obs_dict["observation"]
         batch_size = x.size(0)
         pokemon_obs = x.view(batch_size, 12, -1)
         # embedding

@@ -2,7 +2,8 @@
 Team management module for VGC-Bench.
 
 Provides team building utilities including random team selection, team toggling
-to prevent mirror matches, and team similarity scoring for analysis.
+to prevent mirror matches, multi-regulation support, and team similarity
+scoring for analysis.
 """
 
 import random
@@ -55,10 +56,14 @@ class RandomTeamBuilder(Teambuilder):
 
     Loads teams from the data directory based on the battle format and
     provides random team selection for battles. Optionally uses TeamToggle
-    to prevent mirror matches.
+    to prevent mirror matches. When ``reg`` is None, loads teams for all
+    available regulations and exposes ``available_regs`` / ``current_reg``
+    for callers to control which regulation's teams are yielded.
 
     Attributes:
-        teams: List of packed team strings ready for battle.
+        teams: List of packed team strings ready for battle (single-reg mode).
+        available_regs: List of regulation letters when in multi-reg mode.
+        current_reg: The regulation whose teams will be yielded next.
         toggle: Optional TeamToggle for preventing mirror matches.
     """
 
@@ -68,25 +73,28 @@ class RandomTeamBuilder(Teambuilder):
         self,
         run_id: int,
         num_teams: int | None,
-        reg: str,
+        reg: str | None,
         team1: str | None = None,
         team2: str | None = None,
         toggle: TeamToggle | None = None,
-        take_from_end: bool = False,
     ):
         """
         Initialize the random team builder.
 
+        When ``reg`` is None, teams are loaded for every available regulation.
+
         Args:
             run_id: Training run identifier for deterministic team selection.
             num_teams: Number of teams to include in the pool, or None for all.
-            reg: VGC regulation letter (e.g. 'g', 'h', 'i').
+            reg: VGC regulation letter (e.g. 'g', 'h', 'i'), or None for all.
             team1: Optional team string for matchup solving (requires team2).
             team2: Optional team string for matchup solving (requires team1).
             toggle: Optional TeamToggle to prevent consecutive identical teams.
-            take_from_end: If True, take teams from end of shuffled list.
         """
         self.teams = []
+        self._reg_teams: dict[str, list[str]] = {}
+        self.available_regs: list[str] | None = None
+        self.current_reg: str | None = None
         self.toggle = toggle
         if team1 is not None and team2 is not None:
             parsed_team1 = self.parse_showdown_team(team1)
@@ -96,14 +104,40 @@ class RandomTeamBuilder(Teambuilder):
             packed_team2 = self.join_team(parsed_team2)
             self.teams.append(packed_team2)
             return
+        if reg is None:
+            self.available_regs = get_available_regs()
+            self.current_reg = random.choice(self.available_regs)
+            for r in self.available_regs:
+                self._reg_teams[r] = self._load_teams(run_id, num_teams, r)
+        else:
+            self.teams = self._load_teams(run_id, num_teams, reg)
+
+    def pick_reg(self) -> None:
+        """Select a random regulation for the next battle."""
+        assert self.available_regs is not None
+        self.current_reg = random.choice(self.available_regs)
+
+    def _load_teams(self, run_id: int, num_teams: int | None, reg: str) -> list[str]:
+        """
+        Load and pack teams for a given regulation.
+
+        Args:
+            run_id: Training run identifier for deterministic team selection.
+            num_teams: Number of teams to include, or None for all.
+            reg: VGC regulation letter.
+
+        Returns:
+            List of packed team strings.
+        """
         paths = get_team_paths(reg)
-        if num_teams is None:
-            num_teams = len(paths)
-        teams = get_team_ids(run_id, num_teams, reg, take_from_end)
-        for team_path in [paths[t] for t in teams]:
+        effective_num_teams = len(paths) if num_teams is None else num_teams
+        team_ids = get_team_ids(run_id, effective_num_teams, reg)
+        teams = []
+        for team_path in [paths[t] for t in team_ids]:
             parsed_team = self.parse_showdown_team(team_path.read_text())
             packed_team = self.join_team(parsed_team)
-            self.teams.append(packed_team)
+            teams.append(packed_team)
+        return teams
 
     def yield_team(self) -> str:
         """
@@ -112,10 +146,15 @@ class RandomTeamBuilder(Teambuilder):
         Returns:
             Packed team string, either toggled or randomly selected.
         """
-        if self.toggle:
-            return self.teams[self.toggle.next(len(self.teams))]
+        if self.available_regs is not None:
+            assert self.current_reg is not None
+            teams = self._reg_teams[self.current_reg]
         else:
-            return random.choice(self.teams)
+            teams = self.teams
+        if self.toggle:
+            return teams[self.toggle.next(len(teams))]
+        else:
+            return random.choice(teams)
 
 
 def calc_team_similarity_score(team1: str, team2: str):
@@ -169,7 +208,7 @@ def find_run_id(team_ids: set[int], reg: str) -> int:
 
 
 def get_team_ids(
-    run_id: int, num_teams: int, reg: str, take_from_end: bool
+    run_id: int, num_teams: int, reg: str, take_from_end: bool = False
 ) -> list[int]:
     """
     Get deterministically shuffled team indices for a given run.
@@ -202,3 +241,18 @@ def get_team_paths(reg: str) -> list[Path]:
     """
     reg_path = Path("teams") / f"reg{reg}"
     return sorted(reg_path.rglob("*.txt"))
+
+
+def get_available_regs() -> list[str]:
+    """
+    Discover available regulations from the teams directory.
+
+    Returns:
+        Sorted list of regulation letters that have team directories.
+    """
+    teams_dir = Path("teams")
+    return sorted(
+        d.name.removeprefix("reg")
+        for d in teams_dir.iterdir()
+        if d.is_dir() and d.name.startswith("reg")
+    )

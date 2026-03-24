@@ -14,14 +14,14 @@ from torch import device
 
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.policy_player import PolicyPlayer
-from vgc_bench.src.teams import RandomTeamBuilder
+from vgc_bench.src.teams import RandomTeamBuilder, get_available_regs
 from vgc_bench.src.utils import format_map
 
 
 async def play(
     username: str,
     password: str | None,
-    reg: str,
+    reg: str | None,
     run_id: int,
     results_suffix: str | None,
     method: str,
@@ -36,7 +36,7 @@ async def play(
     or waits to accept challenges from other players.
 
     Args:
-        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
+        reg: VGC regulation letter (e.g. 'g', 'h', 'i'), or None for all.
         run_id: Training run identifier for loading the model.
         results_suffix: Optional suffix appended to results<run_id> for paths.
         method: Method string used in checkpoint directory names.
@@ -44,9 +44,10 @@ async def play(
         n_games: Number of games to play.
         play_on_ladder: If True, play on ladder; if False, accept challenges.
     """
+    assert not (play_on_ladder and reg is None), "ladder mode requires a specific --reg"
     print("Setting up...")
     suffix = f"-{results_suffix}" if results_suffix else ""
-    results_path = Path(f"results{run_id}{suffix}")
+    results_path = Path(f"results{suffix}")
     if results_suffix:
         with (results_path / "team1.txt").open() as f:
             team1 = f.read()
@@ -55,9 +56,10 @@ async def play(
     else:
         team1 = None
         team2 = None
+    battle_format = format_map[reg if reg is not None else get_available_regs()[0]]
     agent = PolicyPlayer(
         account_configuration=AccountConfiguration(username, password),
-        battle_format=format_map[reg],
+        battle_format=battle_format,
         log_level=40,
         max_concurrent_battles=10,
         server_configuration=ShowdownServerConfiguration,
@@ -65,8 +67,16 @@ async def play(
         start_timer_on_battle_start=play_on_ladder,
         team=RandomTeamBuilder(run_id, num_teams, reg, team1=team1, team2=team2),
     )
-    teams_label = f"reg-{reg}" if num_teams is None else f"reg-{reg}-{num_teams}-teams"
-    saves_path = results_path / f"saves-{method}" / teams_label
+    if reg is None:
+        agent._accepted_formats = {format_map[r] for r in get_available_regs()}
+    method_dir = results_path / f"saves-{method}"
+    if reg is not None and num_teams is not None:
+        method_dir = method_dir / f"reg{reg}-{num_teams}-teams"
+    elif reg is not None:
+        method_dir = method_dir / f"reg{reg}"
+    elif num_teams is not None:
+        method_dir = method_dir / f"{num_teams}-teams"
+    saves_path = method_dir / f"seed{run_id}"
     filepath = sorted(saves_path.iterdir(), key=lambda p: int(p.stem))[-1]
     agent.set_policy(filepath, device("cuda:0"))
     assert isinstance(agent.policy, MaskedActorCriticPolicy)
@@ -90,7 +100,10 @@ if __name__ == "__main__":
         "--password", type=str, default=None, help="Pokemon Showdown password"
     )
     parser.add_argument(
-        "--reg", type=str, required=True, help="VGC regulation to play in, i.e. G"
+        "--reg",
+        type=str,
+        default=None,
+        help="VGC regulation to play in (e.g. G). Omit to accept any regulation",
     )
     parser.add_argument(
         "--run_id", type=int, required=True, help="AI's ID from its training run"
@@ -120,7 +133,7 @@ if __name__ == "__main__":
         "-l", action="store_true", help="Play ladder. Default accepts challenges."
     )
     args = parser.parse_args()
-    reg = args.reg.lower()
+    reg = args.reg.lower() if args.reg is not None else None
     asyncio.run(
         play(
             args.username,

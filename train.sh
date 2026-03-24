@@ -21,7 +21,6 @@ train() {
     local port="${ports[$i]}"
     local device="${devices[$i]}"
 
-    mkdir -p "results$run_id"
     echo "Starting Showdown server for training process $i..."
     showdown_pid=$(start_showdown $port)
     sleep 5

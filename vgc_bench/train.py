@@ -20,7 +20,7 @@ from vgc_bench.src.utils import LearningStyle, set_global_seed
 
 
 def train(
-    reg: str,
+    reg: str | None,
     run_id: int,
     num_teams: int | None,
     num_envs: int,
@@ -44,7 +44,7 @@ def train(
     checkpointing.
 
     Args:
-        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
+        reg: VGC regulation letter (e.g. 'g', 'h', 'i'), or None for all.
         run_id: Training run identifier for saving/loading.
         num_teams: Number of teams to train with.
         num_envs: Number of parallel environments.
@@ -104,13 +104,19 @@ def train(
         ]
     )[1:]
     suffix = f"-{results_suffix}" if results_suffix else ""
-    output_dir = Path(f"results{run_id}{suffix}")
+    output_dir = Path(f"results{suffix}")
+    output_dir.mkdir(exist_ok=True)
     if team1 and team2:
-        output_dir.mkdir(exist_ok=True)
         (output_dir / "team1.txt").write_text(team1[1:])
         (output_dir / "team2.txt").write_text(team2[1:])
-    teams_label = f"reg-{reg}" if num_teams is None else f"reg-{reg}-{num_teams}-teams"
-    save_dir = output_dir / f"saves-{method}" / teams_label
+    method_dir = output_dir / f"saves-{method}"
+    if reg is not None and num_teams is not None:
+        method_dir = method_dir / f"reg{reg}-{num_teams}-teams"
+    elif reg is not None:
+        method_dir = method_dir / f"reg{reg}"
+    elif num_teams is not None:
+        method_dir = method_dir / f"{num_teams}-teams"
+    save_dir = method_dir / f"seed{run_id}"
     ppo = PPO(
         MaskedActorCriticPolicy,
         env,
@@ -158,7 +164,7 @@ def train(
             team2,
             results_suffix,
         ),
-        tb_log_name=teams_label,
+        tb_log_name=str(save_dir.relative_to(output_dir / f"saves-{method}")),
         reset_num_timesteps=False,
     )
     env.close()
@@ -204,7 +210,10 @@ if __name__ == "__main__":
         help="training agents will effectively start games after teampreview, with teampreview decision selected randomly",
     )
     parser.add_argument(
-        "--reg", type=str, required=True, help="VGC regulation to train on, i.e. G"
+        "--reg",
+        type=str,
+        default=None,
+        help="VGC regulation to train on (e.g. G). Omit to train on all regulations",
     )
     parser.add_argument(
         "--run_id", type=int, default=1, help="run ID for the training session"
@@ -244,7 +253,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     set_global_seed(args.run_id)
-    reg = args.reg.lower()
+    reg = args.reg.lower() if args.reg is not None else None
     assert (
         int(args.exploiter)
         + int(args.self_play)

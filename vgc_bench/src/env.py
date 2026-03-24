@@ -5,22 +5,21 @@ Provides a custom Gymnasium environment wrapping poke-env's DoublesEnv for
 training reinforcement learning agents on Pokemon VGC battles.
 """
 
-from typing import Any
+from typing import Any, Dict, Optional, Tuple
 
 import numpy as np
 import numpy.typing as npt
 import supersuit as ss
 from gymnasium import Env
 from gymnasium.spaces import Box
-from gymnasium.wrappers import FrameStackObservation
 from poke_env.battle import AbstractBattle
 from poke_env.environment import DoublesEnv, SingleAgentWrapper
 from poke_env.ps_client import ServerConfiguration
 from stable_baselines3.common.monitor import Monitor
 
 from vgc_bench.src.policy_player import PolicyPlayer
-from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle
-from vgc_bench.src.utils import LearningStyle, act_len, chunk_obs_len, format_map, moves
+from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle, get_available_regs
+from vgc_bench.src.utils import LearningStyle, chunk_obs_len, format_map, moves
 
 
 class ShowdownEnv(DoublesEnv):
@@ -44,7 +43,7 @@ class ShowdownEnv(DoublesEnv):
     @classmethod
     def create_env(
         cls,
-        reg: str,
+        reg: str | None,
         run_id: int,
         num_teams: int | None,
         num_envs: int,
@@ -64,7 +63,7 @@ class ShowdownEnv(DoublesEnv):
         wrapper for other paradigms).
 
         Args:
-            reg: VGC regulation letter (e.g. 'g', 'h', 'i').
+            reg: VGC regulation letter (e.g. 'g', 'h', 'i'), or None for all.
             run_id: Training run identifier.
             num_teams: Number of teams to train with, or None for all.
             num_envs: Number of parallel environments.
@@ -80,12 +79,16 @@ class ShowdownEnv(DoublesEnv):
             Wrapped Gymnasium environment ready for training.
         """
         toggle = None if allow_mirror_match else TeamToggle()
+        if reg is None:
+            battle_format = format_map[get_available_regs()[0]]
+        else:
+            battle_format = format_map[reg]
         env = cls(
             server_configuration=ServerConfiguration(
                 f"ws://localhost:{port}/showdown/websocket",
                 "https://play.pokemonshowdown.com/action.php?",
             ),
-            battle_format=format_map[reg],
+            battle_format=battle_format,
             log_level=log_level,
             accept_open_team_sheet=True,
             open_timeout=None,
@@ -106,6 +109,20 @@ class ShowdownEnv(DoublesEnv):
             env = SingleAgentWrapper(env, opponent)
             env = Monitor(env)
             return env
+
+    def reset(
+        self, seed: Optional[int] = None, options: Optional[Dict[str, Any]] = None
+    ) -> Tuple[Dict[str, Any], Dict[str, Dict[str, Any]]]:
+        """Reset the environment, updating battle format if multi-reg."""
+        if (
+            isinstance(self._team, RandomTeamBuilder)
+            and self._team.available_regs is not None
+        ):
+            self._team.pick_reg()
+            fmt = format_map[self._team.current_reg]
+            self.agent1._format = fmt
+            self.agent2._format = fmt
+        return super().reset(seed=seed, options=options)
 
     def calc_reward(self, battle: AbstractBattle) -> float:
         """
