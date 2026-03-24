@@ -283,7 +283,7 @@ class LogReader(Player):
             for j, mon in enumerate(state.team.values(), start=1):
                 mon._selected_in_teampreview = j in teampreview_draft
             embedded_state = PolicyPlayer.embed_battle(state)
-            assert embedded_state.shape == (2 * act_len + 12 * chunk_obs_len,)
+            assert embedded_state.shape == (12 * chunk_obs_len,)
             embedded_states += [embedded_state]
         return np.stack(embedded_states, axis=0)
 

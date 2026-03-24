@@ -12,6 +12,7 @@ from pathlib import Path
 
 import numpy as np
 from imitation.algorithms.bc import BC
+from imitation.data.types import DictObs, Trajectory
 from imitation.util.logger import configure
 from poke_env.environment import SingleAgentWrapper
 from poke_env.player import RandomPlayer, SimpleHeuristicsPlayer
@@ -24,7 +25,7 @@ from vgc_bench.src.env import ShowdownEnv
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.policy_player import BatchPolicyPlayer
 from vgc_bench.src.teams import RandomTeamBuilder, get_available_regs
-from vgc_bench.src.utils import format_map, set_global_seed
+from vgc_bench.src.utils import act_len, format_map, set_global_seed
 
 
 class TrajectoryDataset(Dataset):
@@ -50,15 +51,25 @@ class TrajectoryDataset(Dataset):
         """
         Load and return a trajectory by index.
 
+        Wraps raw numpy observations into DictObs with an all-ones action
+        mask so the trajectory matches the policy's Dict observation space.
+
         Args:
             idx: Index of the trajectory to load.
 
         Returns:
-            Trajectory object.
+            Trajectory object with DictObs observations.
         """
         file_path = self.files[idx]
         with file_path.open("rb") as f:
-            return pickle.load(f)
+            traj = pickle.load(f)
+        obs = traj.obs
+        n_steps = obs.shape[0]
+        dict_obs = DictObs({
+            "observation": obs,
+            "action_mask": np.ones((n_steps, 2 * act_len), dtype=np.float32),
+        })
+        return Trajectory(obs=dict_obs, acts=traj.acts, infos=traj.infos, terminal=traj.terminal)
 
 
 def pretrain(run_id: int, port: int, device: str, div_frac: float):
