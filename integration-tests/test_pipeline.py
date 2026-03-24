@@ -1,4 +1,4 @@
-"""Integration test for the full scrape → logs2trajs → pretrain → train pipeline.
+"""Integration test for the full scrape -> logs2trajs -> pretrain -> train pipeline.
 
 Scrapes a small batch of Reg D battle logs, converts them to trajectories,
 runs a short behavior cloning pretrain, then runs RL training initialized
@@ -6,11 +6,8 @@ from a BC checkpoint downloaded from the model repo.
 """
 
 import asyncio
-import json
-import os
 import pickle
 import socket
-from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 from threading import Thread
 
@@ -23,7 +20,7 @@ from poke_env.environment import SingleAgentWrapper
 from poke_env.player import RandomPlayer
 from stable_baselines3 import PPO
 
-from vgc_bench.logs2trajs import process_log, process_logs
+from vgc_bench.logs2trajs import process_log
 from vgc_bench.pretrain import TrajectoryDataset
 from vgc_bench.scrape_logs import (
     can_distinguish_team_members,
@@ -159,7 +156,7 @@ def trajs_on_disk(trajectories, tmp_path_factory):
 
 
 class TestPipeline:
-    """Test the full scrape → logs2trajs → pretrain pipeline."""
+    """Test the full scrape -> logs2trajs -> pretrain pipeline."""
 
     def test_scrape_produces_logs(self, scraped_logs):
         assert len(scraped_logs) > 0

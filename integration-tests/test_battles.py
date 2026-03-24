@@ -8,9 +8,8 @@ PolicyPlayer and LLMPlayer can complete games end-to-end.
 import asyncio
 import random
 
-import numpy as np
 import pytest
-import torch
+from poke_env.environment import SingleAgentWrapper
 from poke_env.player import RandomPlayer, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
 from stable_baselines3 import PPO
@@ -89,8 +88,6 @@ class TestPolicyPlayerBattles:
             start_listening=False,
             choose_on_teampreview=True,
         )
-        from poke_env.environment import SingleAgentWrapper
-
         opponent = RandomPlayer(start_listening=False)
         single_env = SingleAgentWrapper(env, opponent)
         ppo = PPO(
@@ -129,8 +126,6 @@ class TestPolicyPlayerBattles:
             start_listening=False,
             choose_on_teampreview=True,
         )
-        from poke_env.environment import SingleAgentWrapper
-
         opponent = RandomPlayer(start_listening=False)
         single_env = SingleAgentWrapper(env, opponent)
         ppo = PPO(

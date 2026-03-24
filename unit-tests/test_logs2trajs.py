@@ -12,7 +12,6 @@ from unittest.mock import patch
 
 import numpy as np
 import pytest
-from poke_env.ps_client import AccountConfiguration
 
 from vgc_bench.logs2trajs import LogReader, process_log
 from vgc_bench.scrape_logs import get_rating
