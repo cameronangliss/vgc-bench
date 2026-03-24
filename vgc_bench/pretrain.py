@@ -12,7 +12,6 @@ from pathlib import Path
 
 import numpy as np
 from imitation.algorithms.bc import BC
-from imitation.data.types import Trajectory
 from imitation.util.logger import configure
 from poke_env.environment import SingleAgentWrapper
 from poke_env.player import RandomPlayer, SimpleHeuristicsPlayer
@@ -24,8 +23,8 @@ from vgc_bench.src.callback import Callback
 from vgc_bench.src.env import ShowdownEnv
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.policy_player import BatchPolicyPlayer
-from vgc_bench.src.teams import RandomTeamBuilder
-from vgc_bench.src.utils import LearningStyle, format_map, set_global_seed
+from vgc_bench.src.teams import RandomTeamBuilder, get_available_regs
+from vgc_bench.src.utils import format_map, set_global_seed
 
 
 class TrajectoryDataset(Dataset):
@@ -62,24 +61,26 @@ class TrajectoryDataset(Dataset):
             return pickle.load(f)
 
 
-def pretrain(
-    reg: str, run_id: int, num_teams: int, port: int, device: str, div_frac: float
-):
+def pretrain(run_id: int, port: int, device: str, div_frac: float):
     """
     Pretrain a policy using behavior cloning on human gameplay data.
 
     Trains a neural network policy to imitate human players using trajectory
     data, periodically evaluating against a SimpleHeuristics opponent.
+    Evaluates across all available VGC regulations using all available teams.
 
     Args:
-        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
         run_id: Training run identifier for saving checkpoints.
-        num_teams: Number of teams to use for evaluation.
         port: Port for the Pokemon Showdown server.
         device: CUDA device for training.
         div_frac: Fraction of dataset to load per training iteration.
     """
-    battle_format = format_map[reg]
+    output_dir = Path("results")
+    log_dir = output_dir / "logs-bc" / f"seed{run_id}"
+    save_dir = output_dir / "saves-bc" / f"seed{run_id}"
+    log_dir.mkdir(parents=True, exist_ok=True)
+    save_dir.mkdir(parents=True, exist_ok=True)
+    battle_format = format_map[get_available_regs()[0]]
     env = ShowdownEnv(
         battle_format=battle_format,
         log_level=40,
@@ -112,7 +113,7 @@ def pretrain(
         policy=ppo.policy,
         batch_size=1024,
         device=device,
-        custom_logger=configure(f"results{run_id}/logs-bc", ["tensorboard"]),
+        custom_logger=configure(str(log_dir), ["tensorboard"]),
     )
     eval_agent = BatchPolicyPlayer(
         policy=ppo.policy,
@@ -124,7 +125,7 @@ def pretrain(
         log_level=40,
         max_concurrent_battles=10,
         accept_open_team_sheet=True,
-        team=RandomTeamBuilder(run_id, num_teams, reg),
+        team=RandomTeamBuilder(run_id, None, None),
     )
     eval_opponent = SimpleHeuristicsPlayer(
         server_configuration=ServerConfiguration(
@@ -135,11 +136,11 @@ def pretrain(
         log_level=40,
         max_concurrent_battles=10,
         accept_open_team_sheet=True,
-        team=RandomTeamBuilder(run_id, num_teams, reg),
+        team=RandomTeamBuilder(run_id, None, None),
     )
     win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
     bc.logger.record("bc/eval", win_rate)
-    ppo.save(f"results{run_id}/saves-bc/0")
+    ppo.save(save_dir / "0")
     for i in range(100):
         data = iter(dataloader)
         for _ in range(div_count):
@@ -148,7 +149,7 @@ def pretrain(
             bc.train(n_epochs=1)
         win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
         bc.logger.record("bc/eval", win_rate)
-        ppo.save(f"results{run_id}/saves-bc/{i + 1}")
+        ppo.save(save_dir / f"{i + 1}")
     bc.train(n_epochs=1)
 
 
@@ -163,16 +164,7 @@ if __name__ == "__main__":
         help="fraction of total dataset to load at a given time during training (must be <1 when dataset is large)",
     )
     parser.add_argument(
-        "--reg",
-        type=str,
-        required=True,
-        help="VGC regulation to eval against during pretraining, i.e. G",
-    )
-    parser.add_argument(
         "--run_id", type=int, default=1, help="run ID for the training session"
-    )
-    parser.add_argument(
-        "--num_teams", type=int, default=2, help="number of teams to pretrain with"
     )
     parser.add_argument(
         "--port", type=int, default=8000, help="port to run showdown server on"
@@ -182,5 +174,4 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     set_global_seed(args.run_id)
-    reg = args.reg.lower()
-    pretrain(reg, args.run_id, args.num_teams, args.port, args.device, args.div_frac)
+    pretrain(args.run_id, args.port, args.device, args.div_frac)
