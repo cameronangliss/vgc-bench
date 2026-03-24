@@ -118,7 +118,7 @@ class TestPolicyPlayerBattles:
         assert opponent.n_finished_battles == N_BATTLES
 
     def test_policy_vs_heuristics(self):
-        """PolicyPlayer with random weights completes battles against SimpleHeuristics."""
+        """PolicyPlayer (random weights) vs SimpleHeuristics."""
         env = ShowdownEnv(
             battle_format=BATTLE_FORMAT,
             log_level=40,

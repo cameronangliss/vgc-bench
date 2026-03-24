@@ -81,8 +81,4 @@ def sample_team_text():
 @pytest.fixture
 def sample_battle_log():
     """A minimal snippet of a battle log for testing log parsing helpers."""
-    return (
-        "|player|p1|Alice|102|1500\n"
-        "|player|p2|Bob|103|1200\n"
-        "|win|Alice\n"
-    )
+    return "|player|p1|Alice|102|1500\n|player|p2|Bob|103|1200\n|win|Alice\n"

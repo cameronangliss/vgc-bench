@@ -148,7 +148,9 @@ def train(
             if num_saved_timesteps < save_interval:
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
-    effective_total = total_timesteps if total_timesteps is not None else 1000 * save_interval
+    effective_total = (
+        total_timesteps if total_timesteps is not None else 1000 * save_interval
+    )
     ppo.learn(
         effective_total - num_saved_timesteps,
         callback=Callback(
@@ -175,12 +177,18 @@ def train(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Train a policy using population-based reinforcement learning. Must choose EXACTLY ONE of exploiter, self_play, fictitious_play, or double_oracle options."
+        description=(
+            "Train a policy using population-based reinforcement learning. Must choose"
+            " EXACTLY ONE of exploiter, self_play, fictitious_play, or double_oracle."
+        )
     )
     parser.add_argument(
         "--exploiter",
         action="store_true",
-        help="train against fixed policy, requires fixed policy file to be placed in save folder as -1.zip prior to training",
+        help=(
+            "train against fixed policy, requires fixed policy file in save folder as"
+            " -1.zip prior to training"
+        ),
     )
     parser.add_argument(
         "--self_play",
@@ -190,27 +198,36 @@ if __name__ == "__main__":
     parser.add_argument(
         "--fictitious_play",
         action="store_true",
-        help="p1 controlled by learning policy, p2 controlled by a past saved policy",
+        help=("p1 controlled by learning policy, p2 controlled by a past saved policy"),
     )
     parser.add_argument(
         "--double_oracle",
         action="store_true",
-        help="p1 controlled by learning policy, p2 controlled by past saved policy with selection weighted based on computed Nash equilibrium",
+        help=(
+            "p1 controlled by learning policy, p2 controlled by past saved policy with"
+            " selection weighted based on computed Nash equilibrium"
+        ),
     )
     parser.add_argument(
         "--behavior_clone",
         action="store_true",
-        help="use bc model as initial policy; if save folder has no checkpoint, downloads default BC checkpoint from Hugging Face",
+        help=(
+            "use bc model as initial policy; if save folder has no checkpoint,"
+            " downloads default BC checkpoint from Hugging Face"
+        ),
     )
     parser.add_argument(
         "--no_mirror_match",
         action="store_true",
-        help="disables same-team matchups during training, requires num_teams > 1",
+        help=("disables same-team matchups during training, requires num_teams > 1"),
     )
     parser.add_argument(
         "--no_teampreview",
         action="store_true",
-        help="training agents will effectively start games after teampreview, with teampreview decision selected randomly",
+        help=(
+            "training agents will effectively start games after teampreview, with"
+            " teampreview decision selected randomly"
+        ),
     )
     parser.add_argument(
         "--reg",
@@ -281,16 +298,17 @@ if __name__ == "__main__":
     else:
         raise TypeError()
     if style == LearningStyle.EXPLOITER:
-        assert (
-            not args.no_mirror_match
-        ), "--no_mirror_match is incompatible with --exploiter (exploiter uses a single team)"
-    assert (args.team1 == "") == (
-        args.team2 == ""
-    ), "must provide both or neither of --team1 and --team2"
+        assert not args.no_mirror_match, (
+            "--no_mirror_match is incompatible with --exploiter (exploiter uses a"
+            " single team)"
+        )
+    assert (args.team1 == "") == (args.team2 == ""), (
+        "must provide both or neither of --team1 and --team2"
+    )
     if args.team1 != "":
-        assert (
-            args.results_suffix != ""
-        ), "--results_suffix is required when using --team1 and --team2"
+        assert args.results_suffix != "", (
+            "--results_suffix is required when using --team1 and --team2"
+        )
     train(
         reg,
         args.run_id,

@@ -128,7 +128,10 @@ class TestNormalizeTeamText:
         assert "Level: 50" in result
 
     def test_fixes_ogerpon_tera_type(self):
-        text = "Ogerpon-Wellspring (F) @ Wellspring Mask\nAbility: Water Absorb\nTera Type: Grass\n"
+        text = (
+            "Ogerpon-Wellspring (F) @ Wellspring Mask\n"
+            "Ability: Water Absorb\nTera Type: Grass\n"
+        )
         result = normalize_team_text(text)
         assert "Tera Type: Water" in result
 
@@ -138,12 +141,18 @@ class TestNormalizeTeamText:
         assert "Urshifu-Rapid-Strike" in result
 
     def test_removes_raging_bolt_shiny(self):
-        text = "Raging Bolt @ Booster Energy\nAbility: Protosynthesis\nShiny: Yes\nAdamant Nature\n"
+        text = (
+            "Raging Bolt @ Booster Energy\n"
+            "Ability: Protosynthesis\nShiny: Yes\nAdamant Nature\n"
+        )
         result = normalize_team_text(text)
         assert "Shiny" not in result
 
     def test_fixes_raging_bolt_atk_iv(self):
-        text = "Raging Bolt @ Booster Energy\nAbility: Protosynthesis\nModest Nature\nIVs: 0 Atk\n"
+        text = (
+            "Raging Bolt @ Booster Energy\n"
+            "Ability: Protosynthesis\nModest Nature\nIVs: 0 Atk\n"
+        )
         result = normalize_team_text(text)
         assert "20 Atk" in result
 

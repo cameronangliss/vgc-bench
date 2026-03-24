@@ -245,9 +245,14 @@ def main(num_workers: int, read_increment: int):
         with open(f"battle-logs/logs-{fmt}.json", "r") as file:
             log_dict = json.load(file)
             logs = [log for _, log in log_dict.values()]
-        players_in_range = lambda logs, low, high: len(
-            [log for log in logs if low <= (get_rating(log, "p1") or 0) <= high]
-        ) + len([log for log in logs if low <= (get_rating(log, "p2") or 0) <= high])
+
+        def players_in_range(logs, low, high):
+            return len(
+                [log for log in logs if low <= (get_rating(log, "p1") or 0) <= high]
+            ) + len(
+                [log for log in logs if low <= (get_rating(log, "p2") or 0) <= high]
+            )
+
         max_date_epoch = max([t for t, _ in log_dict.values()])
         dt = datetime.fromtimestamp(max_date_epoch, tz=timezone.utc)
         timestr = dt.strftime("%m/%d/%Y %H:%M:%S")
@@ -283,7 +288,10 @@ if __name__ == "__main__":
         "--read_increment",
         type=int,
         default=4000,
-        help="number of logs to read through when filtering through logs (if too low, scraper may prematurely think there are no more logs to scrape)",
+        help=(
+            "number of logs to read through when filtering through logs (if too low,"
+            " scraper may prematurely think there are no more logs to scrape)"
+        ),
     )
     args = parser.parse_args()
     main(args.num_workers, args.read_increment)

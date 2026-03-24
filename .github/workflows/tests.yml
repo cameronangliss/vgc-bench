@@ -34,6 +34,12 @@ jobs:
       - name: Install dependencies
         run: pip install -e ".[dev]"
 
+      - name: Lint and format check
+        run: ruff check . && ruff format --check .
+
+      - name: Type check
+        run: pyright
+
       - name: Run unit tests
         run: pytest unit-tests/ -v --tb=short
 

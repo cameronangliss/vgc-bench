@@ -319,10 +319,9 @@ def cross_eval_over_team_sizes(
                     take_from_end=not is_performance_test,
                 ),
             )
-            agent.policy = PPO.load(
-                f"results{run_id}/saves-{method}/{num_teams}-teams/{checkpoints[run_id - 1]}",
-                device=device,
-            ).policy
+            checkpoint = checkpoints[run_id - 1]
+            path = f"results{run_id}/saves-{method}/{num_teams}-teams/{checkpoint}"
+            agent.policy = PPO.load(path, device=device).policy
             agents += [agent]
         results = asyncio.run(cross_evaluate(agents, num_battles // num_runs))
         payoff_matrix = np.array(
@@ -429,5 +428,9 @@ if __name__ == "__main__":
         ("bc-do", [3833856, 1671168, 5013504, 2654208, 4030464]),
         ("bc-sp", [1769472, 2064384, 4227072, 983040, 5013504]),
     ]
-    # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 1000, True)
-    # cross_eval_over_team_sizes(team_counts, methods, args.port, args.device, 1000, False)
+    # cross_eval_over_team_sizes(
+    #     team_counts, methods, args.port, args.device, 1000, True
+    # )
+    # cross_eval_over_team_sizes(
+    #     team_counts, methods, args.port, args.device, 1000, False
+    # )

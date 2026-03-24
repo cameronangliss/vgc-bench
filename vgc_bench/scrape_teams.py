@@ -171,14 +171,18 @@ def normalize_team_text(text: str) -> str:
         if is_raging_bolt and not has_correct_atk_iv:
             # No IVs line at all; insert after Nature line
             insert_idx = next(
-                (i + 1 for i, l in enumerate(new_lines) if l.endswith("Nature")),
+                (i + 1 for i, line in enumerate(new_lines) if line.endswith("Nature")),
                 len(new_lines),
             )
             new_lines.insert(insert_idx, "IVs: 20 Atk")
         if not any(re.match(r"\s*Level:", line) for line in new_lines):
             # Insert Level: 50 after Ability line
             insert_idx = next(
-                (i + 1 for i, l in enumerate(new_lines) if re.match(r"\s*Ability:", l)),
+                (
+                    i + 1
+                    for i, line in enumerate(new_lines)
+                    if re.match(r"\s*Ability:", line)
+                ),
                 1,
             )
             new_lines.insert(insert_idx, "Level: 50")
@@ -291,7 +295,8 @@ def scrape_regulation(regulation: str) -> None:
             stats["saved"] += 1
     print(f"Saved {stats['saved']} teams to {reg_dir}")
     print(
-        f"Skipped {stats['existing']} existing, {stats['banned']} banned, {stats['duplicates']} duplicates"
+        f"Skipped {stats['existing']} existing, {stats['banned']} banned,"
+        f" {stats['duplicates']} duplicates"
     )
 
 

@@ -65,11 +65,15 @@ class TrajectoryDataset(Dataset):
             traj = pickle.load(f)
         obs = traj.obs
         n_steps = obs.shape[0]
-        dict_obs = DictObs({
-            "observation": obs,
-            "action_mask": np.ones((n_steps, 2 * act_len), dtype=np.float32),
-        })
-        return Trajectory(obs=dict_obs, acts=traj.acts, infos=traj.infos, terminal=traj.terminal)
+        dict_obs = DictObs(
+            {
+                "observation": obs,
+                "action_mask": np.ones((n_steps, 2 * act_len), dtype=np.float32),
+            }
+        )
+        return Trajectory(
+            obs=dict_obs, acts=traj.acts, infos=traj.infos, terminal=traj.terminal
+        )
 
 
 def pretrain(
@@ -175,7 +179,10 @@ if __name__ == "__main__":
         "--div_frac",
         type=float,
         default=0.01,
-        help="fraction of total dataset to load at a given time during training (must be <1 when dataset is large)",
+        help=(
+            "fraction of total dataset to load at a given time during training (must be"
+            " <1 when dataset is large)"
+        ),
     )
     parser.add_argument(
         "--run_id", type=int, default=1, help="run ID for the training session"

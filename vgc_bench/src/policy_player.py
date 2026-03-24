@@ -297,7 +297,7 @@ class PolicyPlayer(Player):
 
     @staticmethod
     def embed_global(battle: DoubleBattle) -> npt.NDArray[np.float32]:
-        """Embed global battle state (weather, field effects, teampreview/reviving flags)."""
+        """Embed global battle state (weather, fields, etc)."""
         weather = [
             (min(battle.turn - battle.weather[w], 8) / 8 if w in battle.weather else 0)
             for w in Weather
@@ -375,7 +375,7 @@ class PolicyPlayer(Player):
     def embed_pokemon(
         pokemon: Pokemon, pos: int, from_opponent: bool, active_a: bool, active_b: bool
     ) -> npt.NDArray[np.float32]:
-        """Embed a single Pokemon's features including stats, moves, status, and effects."""
+        """Embed a Pokemon's stats, moves, status, and effects."""
         assert from_opponent or not pokemon.revealed or pokemon.selected_in_teampreview
         # (mostly) stable fields
         ability_id = abilities.index(
@@ -448,7 +448,7 @@ class PolicyPlayer(Player):
 
     @staticmethod
     def embed_move(move: Move) -> npt.NDArray[np.float32]:
-        """Embed a move's features including power, accuracy, type, and special properties."""
+        """Embed a move's power, accuracy, type, and special properties."""
         power = move.base_power / 250
         acc = move.accuracy / 100
         category = [float(c == move.category) for c in MoveCategory]

@@ -33,7 +33,9 @@ from poke_env.player import (
 from poke_env.ps_client import AccountConfiguration
 
 from vgc_bench.src.policy_player import PolicyPlayer
-from vgc_bench.src.utils import act_len, chunk_obs_len
+from vgc_bench.src.utils import chunk_obs_len
+
+_READER_LOOP: asyncio.AbstractEventLoop | None = None
 
 
 class LogReader(Player):
@@ -154,7 +156,9 @@ class LogReader(Player):
                 else:
                     move = active.moves[to_id_str(move_id)]
                 target_lines = [
-                    l for l in msg.split("\n") if f"|switch|{target_identifier}" in l
+                    line
+                    for line in msg.split("\n")
+                    if f"|switch|{target_identifier}" in line
                 ]
                 target_details = target_lines[0].split("|")[3] if target_lines else ""
                 target = (
@@ -373,6 +377,7 @@ def process_log(
     if (not only_winner or winner == username) and (
         min_rating is None or (rating and int(rating) >= min_rating)
     ):
+        assert _READER_LOOP is not None
         player = LogReader(
             account_configuration=AccountConfiguration(username, None),
             battle_format=tag.split("-")[0],
@@ -381,7 +386,8 @@ def process_log(
             loop=_READER_LOOP,
         )
         results = asyncio.run_coroutine_threadsafe(
-            player.follow_log(tag, log), _READER_LOOP
+            player.follow_log(tag, log),
+            _READER_LOOP,
         ).result()
         if results is not None:
             states, actions = results
@@ -425,7 +431,7 @@ def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bo
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Parses logs in data/ folder into trajectories stored in data/trajs/"
+        description="Parses logs into trajectories stored in data/trajs/"
     )
     parser.add_argument(
         "--num_workers", type=int, default=1, help="number of parallel log parsers"
@@ -444,7 +450,10 @@ if __name__ == "__main__":
     parser.add_argument(
         "--strict",
         action="store_true",
-        help="will crash program if a log fails to parse (WARNING: mostly useful for debugging; some logs, such as those with Ditto, are known to not parse)",
+        help=(
+            "will crash program if a log fails to parse (WARNING: mostly useful for"
+            " debugging; some logs, such as those with Ditto, are known to not parse)"
+        ),
     )
     args = parser.parse_args()
     main(args.num_workers, args.min_rating, args.only_winner, args.strict)
