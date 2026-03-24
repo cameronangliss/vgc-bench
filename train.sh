@@ -26,7 +26,6 @@ train() {
     sleep 5
     echo "Starting training process $i..."
     python -m vgc_bench.train \
-        --reg G \
         --run_id $run_id \
         --num_teams $num_teams \
         --num_envs 24 \
