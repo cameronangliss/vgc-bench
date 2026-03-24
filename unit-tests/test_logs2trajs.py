@@ -1,8 +1,7 @@
-"""Integration tests for vgc_bench.logs2trajs using a real battle log fixture.
+"""Unit tests for vgc_bench.logs2trajs using a fixture battle log.
 
-These tests exercise the full log-replay pipeline: LogReader + poke-env battle
-simulation + PolicyPlayer embedding, using a real scraped battle log and an
-async event loop.
+These tests exercise the log-replay pipeline offline using a saved battle log,
+without requiring network access or a running Showdown server.
 """
 
 import asyncio
@@ -16,6 +15,7 @@ import pytest
 from poke_env.ps_client import AccountConfiguration
 
 from vgc_bench.logs2trajs import LogReader, process_log
+from vgc_bench.scrape_logs import get_rating
 from vgc_bench.src.utils import act_len, chunk_obs_len
 
 FIXTURE_PATH = Path(__file__).parent / "fixture_battle_log.json"
@@ -23,7 +23,7 @@ FIXTURE_PATH = Path(__file__).parent / "fixture_battle_log.json"
 
 @pytest.fixture(scope="module")
 def battle_log_fixture():
-    """Load the real battle log fixture."""
+    """Load the saved battle log fixture."""
     with FIXTURE_PATH.open() as f:
         logs = json.load(f)
     tag = next(iter(logs))
@@ -113,10 +113,8 @@ class TestProcessLog:
 
 
 class TestLogParsingHelpers:
-    def test_rating_extraction_from_real_log(self, battle_log_fixture):
+    def test_rating_extraction(self, battle_log_fixture):
         _, log = battle_log_fixture
-        from vgc_bench.scrape_logs import get_rating
-
         r1 = get_rating(log, "p1")
         r2 = get_rating(log, "p2")
         assert r1 is None or isinstance(r1, int)

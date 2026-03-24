@@ -127,7 +127,7 @@ class LLMPlayer(Player):
             ally_order = None
         else:
             assert ally_action is not None
-            mask = torch.tensor(DoublesEnv.get_action_mask(battle))
+            mask = torch.tensor(DoublesEnv.get_action_mask(battle)).unsqueeze(0)
             ally_action_tensor = torch.tensor([[ally_action]])
             mask = MaskedActorCriticPolicy._update_mask(mask, ally_action_tensor)[
                 0, act_len:
@@ -189,6 +189,7 @@ class LLMPlayer(Player):
         self._teampreview_drafts[battle.battle_tag] = []
         for _ in range(2):
             actives += [self.teampreview_individual(battle, actives, bench)]
+            actives[-1]._selected_in_teampreview = True
             self._teampreview_drafts[battle.battle_tag] += [
                 i
                 for i, p in enumerate(battle.team.values(), start=1)
@@ -196,6 +197,7 @@ class LLMPlayer(Player):
             ]
         for _ in range(2):
             bench += [self.teampreview_individual(battle, actives, bench)]
+            bench[-1]._selected_in_teampreview = True
             self._teampreview_drafts[battle.battle_tag] += [
                 i for i, p in enumerate(battle.team.values(), start=1) if p == bench[-1]
             ]

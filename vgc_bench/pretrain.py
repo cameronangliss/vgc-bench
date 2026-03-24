@@ -72,7 +72,9 @@ class TrajectoryDataset(Dataset):
         return Trajectory(obs=dict_obs, acts=traj.acts, infos=traj.infos, terminal=traj.terminal)
 
 
-def pretrain(run_id: int, port: int, device: str, div_frac: float):
+def pretrain(
+    run_id: int, port: int, device: str, div_frac: float, num_epochs: int = 100
+):
     """
     Pretrain a policy using behavior cloning on human gameplay data.
 
@@ -85,6 +87,7 @@ def pretrain(run_id: int, port: int, device: str, div_frac: float):
         port: Port for the Pokemon Showdown server.
         device: CUDA device for training.
         div_frac: Fraction of dataset to load per training iteration.
+        num_epochs: Number of outer training epochs.
     """
     output_dir = Path("results")
     log_dir = output_dir / "logs-bc" / f"seed{run_id}"
@@ -152,7 +155,7 @@ def pretrain(run_id: int, port: int, device: str, div_frac: float):
     win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
     bc.logger.record("bc/eval", win_rate)
     ppo.save(save_dir / "0")
-    for i in range(100):
+    for i in range(num_epochs):
         data = iter(dataloader)
         for _ in range(div_count):
             demos = next(data)
@@ -183,6 +186,9 @@ if __name__ == "__main__":
     parser.add_argument(
         "--device", type=str, default="cuda:0", help="device to use for pretraining"
     )
+    parser.add_argument(
+        "--num_epochs", type=int, default=100, help="number of outer training epochs"
+    )
     args = parser.parse_args()
     set_global_seed(args.run_id)
-    pretrain(args.run_id, args.port, args.device, args.div_frac)
+    pretrain(args.run_id, args.port, args.device, args.div_frac, args.num_epochs)

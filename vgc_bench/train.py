@@ -35,6 +35,7 @@ def train(
     team1: str | None,
     team2: str | None,
     results_suffix: str,
+    total_timesteps: int | None = None,
 ):
     """
     Train a Pokemon VGC policy using reinforcement learning.
@@ -59,6 +60,7 @@ def train(
         team1: Optional team string for matchup solving (requires team2).
         team2: Optional team string for matchup solving (requires team1).
         results_suffix: Suffix appended to results<run_id> for output paths.
+        total_timesteps: Total training timesteps. Defaults to 1000 * save_interval.
     """
     save_interval = 98_304
     env = (
@@ -120,15 +122,15 @@ def train(
     ppo = PPO(
         MaskedActorCriticPolicy,
         env,
-        learning_rate=1e-5,
+        learning_rate=lambda p: 1e-5 * 0.1 ** (1 - p),
         n_steps=(
             3072 // (2 * num_envs)
             if learning_style == LearningStyle.PURE_SELF_PLAY
             else 3072 // num_envs
         ),
-        batch_size=64,
+        batch_size=512,
         gamma=1,
-        ent_coef=0.01,
+        ent_coef=0.02,
         tensorboard_log=str(output_dir / f"logs-{method}"),
         policy_kwargs={"d_model": 256, "choose_on_teampreview": choose_on_teampreview},
         device=device,
@@ -146,8 +148,9 @@ def train(
             if num_saved_timesteps < save_interval:
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
+    effective_total = total_timesteps if total_timesteps is not None else 1000 * save_interval
     ppo.learn(
-        51 * save_interval - num_saved_timesteps,
+        effective_total - num_saved_timesteps,
         callback=Callback(
             run_id,
             num_teams,
@@ -251,6 +254,12 @@ if __name__ == "__main__":
     parser.add_argument(
         "--device", type=str, default="cuda:0", help="device to use for training"
     )
+    parser.add_argument(
+        "--total_timesteps",
+        type=int,
+        default=None,
+        help="total training timesteps (default: 1000 * save_interval)",
+    )
     args = parser.parse_args()
     set_global_seed(args.run_id)
     reg = args.reg.lower() if args.reg is not None else None
@@ -298,4 +307,5 @@ if __name__ == "__main__":
         args.team1 or None,
         args.team2 or None,
         args.results_suffix,
+        args.total_timesteps,
     )
