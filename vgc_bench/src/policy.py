@@ -83,7 +83,9 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         action_logits, value_logits = self.get_logits(obs, actor_grad=True)
         distribution = self.get_dist_from_logits(action_logits, obs["action_mask"])
         actions = distribution.get_actions(deterministic=deterministic)
-        distribution2 = self.get_dist_from_logits(action_logits, obs["action_mask"], actions[:, :1])
+        distribution2 = self.get_dist_from_logits(
+            action_logits, obs["action_mask"], actions[:, :1]
+        )
         actions2 = distribution2.get_actions(deterministic=deterministic)
         distribution.distribution[1] = distribution2.distribution[1]
         actions[:, 1] = actions2[:, 1]
