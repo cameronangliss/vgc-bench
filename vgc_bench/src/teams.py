@@ -77,6 +77,7 @@ class RandomTeamBuilder(Teambuilder):
         team1: str | None = None,
         team2: str | None = None,
         toggle: TeamToggle | None = None,
+        take_from_end: bool = False,
     ):
         """
         Initialize the random team builder.
@@ -90,6 +91,7 @@ class RandomTeamBuilder(Teambuilder):
             team1: Optional team string for matchup solving (requires team2).
             team2: Optional team string for matchup solving (requires team1).
             toggle: Optional TeamToggle to prevent consecutive identical teams.
+            take_from_end: If True, take teams from end of shuffled list.
         """
         self.teams = []
         self._reg_teams: dict[str, list[str]] = {}
@@ -108,16 +110,24 @@ class RandomTeamBuilder(Teambuilder):
             self.available_regs = get_available_regs()
             self.current_reg = random.choice(self.available_regs)
             for r in self.available_regs:
-                self._reg_teams[r] = self._load_teams(run_id, num_teams, r)
+                self._reg_teams[r] = self._load_teams(
+                    run_id, num_teams, r, take_from_end
+                )
         else:
-            self.teams = self._load_teams(run_id, num_teams, reg)
+            self.teams = self._load_teams(run_id, num_teams, reg, take_from_end)
 
     def pick_reg(self) -> None:
         """Select a random regulation for the next battle."""
         assert self.available_regs is not None
         self.current_reg = random.choice(self.available_regs)
 
-    def _load_teams(self, run_id: int, num_teams: int | None, reg: str) -> list[str]:
+    def _load_teams(
+        self,
+        run_id: int,
+        num_teams: int | None,
+        reg: str,
+        take_from_end: bool = False,
+    ) -> list[str]:
         """
         Load and pack teams for a given regulation.
 
@@ -125,13 +135,14 @@ class RandomTeamBuilder(Teambuilder):
             run_id: Training run identifier for deterministic team selection.
             num_teams: Number of teams to include, or None for all.
             reg: VGC regulation letter.
+            take_from_end: If True, take teams from end of shuffled list.
 
         Returns:
             List of packed team strings.
         """
         paths = get_team_paths(reg)
         effective_num_teams = len(paths) if num_teams is None else num_teams
-        team_ids = get_team_ids(run_id, effective_num_teams, reg)
+        team_ids = get_team_ids(run_id, effective_num_teams, reg, take_from_end)
         teams = []
         for team_path in [paths[t] for t in team_ids]:
             parsed_team = self.parse_showdown_team(team_path.read_text())

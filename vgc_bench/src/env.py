@@ -119,6 +119,7 @@ class ShowdownEnv(DoublesEnv):
             and self._team.available_regs is not None
         ):
             self._team.pick_reg()
+            assert self._team.current_reg is not None
             fmt = format_map[self._team.current_reg]
             self.agent1._format = fmt
             self.agent2._format = fmt
