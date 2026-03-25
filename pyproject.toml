@@ -39,6 +39,7 @@ select = ["E", "F", "I", "W"]
 
 [tool.ruff.lint.isort]
 known-first-party = ["vgc_bench"]
+split-on-trailing-comma = false
 
 [tool.pytest.ini_options]
 testpaths = ["unit_tests", "integration_tests"]
