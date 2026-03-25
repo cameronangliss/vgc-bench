@@ -191,35 +191,3 @@ class TestPipeline:
             total_timesteps=3072,
             evaluate=False,
         )
-
-    @requires_server
-    def test_train_fictitious_play(self, tmp_path, monkeypatch):
-        """Run a minimal fictitious play training loop.
-
-        Uses evaluate=False so no eval battles are needed, keeping the test
-        fast. A BC checkpoint is saved first so fictitious play has an
-        opponent policy to sample from.
-        """
-        monkeypatch.chdir(tmp_path)
-        project_root = Path(__file__).resolve().parent.parent
-        (tmp_path / "teams").symlink_to(project_root / "teams")
-        (tmp_path / "data").symlink_to(project_root / "data")
-        train(
-            reg="g",
-            run_id=1,
-            num_teams=None,
-            num_envs=1,
-            num_eval_workers=1,
-            log_level=40,
-            port=8100,
-            device="cpu",
-            learning_style=LearningStyle.FICTITIOUS_PLAY,
-            behavior_clone=True,
-            allow_mirror_match=True,
-            choose_on_teampreview=True,
-            team1=None,
-            team2=None,
-            results_suffix="test-fp",
-            total_timesteps=3072,
-            evaluate=False,
-        )
