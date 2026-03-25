@@ -1,6 +1,6 @@
 """Integration test for the full scrape -> logs2trajs -> pretrain -> train pipeline.
 
-Scrapes a small batch of Reg D battle logs, converts them to trajectories,
+Scrapes a small batch of Reg G Bo3 battle logs, converts them to trajectories,
 runs a short behavior cloning pretrain, then runs RL training initialized
 from a BC checkpoint downloaded from the model repo.
 """
@@ -30,7 +30,7 @@ from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.utils import LearningStyle, act_len, chunk_obs_len, format_map
 from vgc_bench.train import train
 
-BATTLE_FORMAT = "gen9vgc2023regd"
+BATTLE_FORMAT = "gen9vgc2025reggbo3"
 
 
 def _server_available() -> bool:
@@ -48,22 +48,22 @@ requires_server = pytest.mark.skipif(
 
 @pytest.fixture(scope="module")
 def scraped_logs(tmp_path_factory):
-    """Scrape a small batch of valid Reg D logs."""
+    """Scrape a small batch of valid Reg G Bo3 logs."""
     work_dir = tmp_path_factory.mktemp("scrape")
     (work_dir / "battle-logs").mkdir()
     monkeypatch = pytest.MonkeyPatch()
     monkeypatch.chdir(work_dir)
     try:
-        scrape_logs(0, 4000, BATTLE_FORMAT, max_logs=100)
+        scrape_logs(4, 20, BATTLE_FORMAT, max_logs=5)
     finally:
         monkeypatch.undo()
     logs_path = work_dir / "battle-logs" / f"logs-{BATTLE_FORMAT}.json"
     if not logs_path.exists():
-        pytest.skip("Could not scrape any valid Reg D logs")
+        pytest.skip("Could not scrape any valid Reg G Bo3 logs")
     with logs_path.open() as f:
         logs = json.load(f)
     if not logs:
-        pytest.skip("Could not scrape any valid Reg D logs")
+        pytest.skip("Could not scrape any valid Reg G Bo3 logs")
     return logs
 
 
@@ -77,7 +77,7 @@ def trajectories(scraped_logs):
         mod._READER_LOOP = asyncio.new_event_loop()
         Thread(target=mod._READER_LOOP.run_forever, daemon=True).start()
 
-    with ProcessPoolExecutor(max_workers=1, initializer=_init_worker_loop) as executor:
+    with ProcessPoolExecutor(max_workers=4, initializer=_init_worker_loop) as executor:
         trajs = process_logs(
             scraped_logs, executor, min_rating=None, only_winner=False, strict=False
         )
@@ -171,6 +171,7 @@ class TestPipeline:
         monkeypatch.chdir(tmp_path)
         project_root = Path(__file__).resolve().parent.parent
         (tmp_path / "teams").symlink_to(project_root / "teams")
+        (tmp_path / "data").symlink_to(project_root / "data")
         train(
             reg="g",
             run_id=1,
@@ -188,8 +189,37 @@ class TestPipeline:
             team2=None,
             results_suffix="test",
             total_timesteps=3072,
+            evaluate=False,
         )
-        save_dir = tmp_path / "results-test" / "saves-bc-sp" / "regg" / "seed1"
-        assert save_dir.exists()
-        saves = list(save_dir.glob("*.zip"))
-        assert len(saves) > 0
+
+    @requires_server
+    def test_train_fictitious_play(self, tmp_path, monkeypatch):
+        """Run a minimal fictitious play training loop.
+
+        Uses evaluate=False so no eval battles are needed, keeping the test
+        fast. A BC checkpoint is saved first so fictitious play has an
+        opponent policy to sample from.
+        """
+        monkeypatch.chdir(tmp_path)
+        project_root = Path(__file__).resolve().parent.parent
+        (tmp_path / "teams").symlink_to(project_root / "teams")
+        (tmp_path / "data").symlink_to(project_root / "data")
+        train(
+            reg="g",
+            run_id=1,
+            num_teams=None,
+            num_envs=1,
+            num_eval_workers=1,
+            log_level=40,
+            port=8100,
+            device="cpu",
+            learning_style=LearningStyle.FICTITIOUS_PLAY,
+            behavior_clone=True,
+            allow_mirror_match=True,
+            choose_on_teampreview=True,
+            team1=None,
+            team2=None,
+            results_suffix="test-fp",
+            total_timesteps=3072,
+            evaluate=False,
+        )

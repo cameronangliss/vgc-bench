@@ -8,12 +8,11 @@ import asyncio
 import json
 from pathlib import Path
 from threading import Thread
-from unittest.mock import patch
 
 import numpy as np
 import pytest
 
-from vgc_bench.logs2trajs import LogReader, process_log
+from vgc_bench.logs2trajs import process_log
 from vgc_bench.scrape_logs import get_rating
 from vgc_bench.src.utils import act_len, chunk_obs_len
 
@@ -42,23 +41,14 @@ def reader_loop():
 
 
 def _run_process_log(tag, log, role, reader_loop, **kwargs):
-    """Run process_log with the _READER_LOOP patched and battle_locks pre-seeded."""
-    orig_follow = LogReader.follow_log
+    """Run process_log with the _READER_LOOP patched."""
+    import vgc_bench.logs2trajs as mod
 
-    async def patched_follow(self, tag, log):
-        battle_tag = f"battle-{tag}"
-        if battle_tag not in self.ps_client._battle_locks:
-            self.ps_client._battle_locks[battle_tag] = asyncio.Lock()
-        return await orig_follow(self, tag, log)
-
-    with patch.object(LogReader, "follow_log", patched_follow):
-        import vgc_bench.logs2trajs as mod
-
-        mod._READER_LOOP = reader_loop
-        try:
-            return process_log(tag, log, role, **kwargs)
-        finally:
-            del mod._READER_LOOP
+    mod._READER_LOOP = reader_loop
+    try:
+        return process_log(tag, log, role, **kwargs)
+    finally:
+        del mod._READER_LOOP
 
 
 class TestProcessLog:

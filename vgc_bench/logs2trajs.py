@@ -222,6 +222,7 @@ class LogReader(Player):
         self.states = []
         self.actions = []
         tag = f"battle-{tag}"
+        self.ps_client._battle_locks[tag] = asyncio.Lock()
         messages = [f">{tag}\n" + m for m in log.split("\n|\n")]
         battle = await self._create_battle(f">{tag}".split("-"))
         assert isinstance(battle, DoubleBattle)

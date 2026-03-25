@@ -66,6 +66,7 @@ class Callback(BaseCallback):
         team1: str | None,
         team2: str | None,
         results_suffix: str,
+        evaluate: bool = True,
     ):
         """
         Initialize the training callback.
@@ -85,8 +86,10 @@ class Callback(BaseCallback):
             team1: Optional team string for matchup solving (requires team2).
             team2: Optional team string for matchup solving (requires team1).
             results_suffix: Suffix appended to results<run_id> for output paths.
+            evaluate: Whether to run evaluations and save checkpoints.
         """
         super().__init__()
+        self.evaluate = evaluate
         self.learning_style = learning_style
         self.behavior_clone = behavior_clone
         self.save_interval = save_interval
@@ -129,54 +132,55 @@ class Callback(BaseCallback):
         if learning_style == LearningStyle.EXPLOITER:
             num_teams = 1
         toggle = None if allow_mirror_match else TeamToggle()
-        self.eval_agent = BatchPolicyPlayer(
-            server_configuration=ServerConfiguration(
-                f"ws://localhost:{port}/showdown/websocket",
-                "https://play.pokemonshowdown.com/action.php?",
-            ),
-            battle_format=battle_format,
-            log_level=log_level,
-            max_concurrent_battles=num_eval_workers,
-            accept_open_team_sheet=True,
-            open_timeout=None,
-            team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
-        )
-        self.eval_agent2 = BatchPolicyPlayer(
-            server_configuration=ServerConfiguration(
-                f"ws://localhost:{port}/showdown/websocket",
-                "https://play.pokemonshowdown.com/action.php?",
-            ),
-            battle_format=battle_format,
-            log_level=log_level,
-            max_concurrent_battles=num_eval_workers,
-            accept_open_team_sheet=True,
-            open_timeout=None,
-            team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
-        )
-        self.eval_opponent = SimpleHeuristicsPlayer(
-            server_configuration=ServerConfiguration(
-                f"ws://localhost:{port}/showdown/websocket",
-                "https://play.pokemonshowdown.com/action.php?",
-            ),
-            battle_format=battle_format,
-            log_level=log_level,
-            max_concurrent_battles=num_eval_workers,
-            accept_open_team_sheet=True,
-            open_timeout=None,
-            team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
-        )
-        self.eval_opponent2 = BatchPolicyPlayer(
-            server_configuration=ServerConfiguration(
-                f"ws://localhost:{port}/showdown/websocket",
-                "https://play.pokemonshowdown.com/action.php?",
-            ),
-            battle_format=battle_format,
-            log_level=log_level,
-            max_concurrent_battles=num_eval_workers,
-            accept_open_team_sheet=True,
-            open_timeout=None,
-            team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
-        )
+        if self.evaluate:
+            self.eval_agent = BatchPolicyPlayer(
+                server_configuration=ServerConfiguration(
+                    f"ws://localhost:{port}/showdown/websocket",
+                    "https://play.pokemonshowdown.com/action.php?",
+                ),
+                battle_format=battle_format,
+                log_level=log_level,
+                max_concurrent_battles=num_eval_workers,
+                accept_open_team_sheet=True,
+                open_timeout=None,
+                team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
+            )
+            self.eval_agent2 = BatchPolicyPlayer(
+                server_configuration=ServerConfiguration(
+                    f"ws://localhost:{port}/showdown/websocket",
+                    "https://play.pokemonshowdown.com/action.php?",
+                ),
+                battle_format=battle_format,
+                log_level=log_level,
+                max_concurrent_battles=num_eval_workers,
+                accept_open_team_sheet=True,
+                open_timeout=None,
+                team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
+            )
+            self.eval_opponent = SimpleHeuristicsPlayer(
+                server_configuration=ServerConfiguration(
+                    f"ws://localhost:{port}/showdown/websocket",
+                    "https://play.pokemonshowdown.com/action.php?",
+                ),
+                battle_format=battle_format,
+                log_level=log_level,
+                max_concurrent_battles=num_eval_workers,
+                accept_open_team_sheet=True,
+                open_timeout=None,
+                team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
+            )
+            self.eval_opponent2 = BatchPolicyPlayer(
+                server_configuration=ServerConfiguration(
+                    f"ws://localhost:{port}/showdown/websocket",
+                    "https://play.pokemonshowdown.com/action.php?",
+                ),
+                battle_format=battle_format,
+                log_level=log_level,
+                max_concurrent_battles=num_eval_workers,
+                accept_open_team_sheet=True,
+                open_timeout=None,
+                team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
+            )
 
     def _on_step(self) -> bool:
         """Called after each environment step. Returns True to continue training."""
@@ -185,8 +189,34 @@ class Callback(BaseCallback):
     def _on_training_start(self):
         """Initialize evaluation agent and perform initial checkpoint if needed."""
         assert self.model.env is not None
-        self.eval_agent.policy = self.model.policy
         self.starting_timestep = self.model.num_timesteps
+        if not self.evaluate:
+            if self.behavior_clone:
+                bc_policy_path = self.save_dir / f"{HF_BC_MODEL_TIMESTEP}.zip"
+                saves = [
+                    int(p.stem) for p in self.save_dir.iterdir() if int(p.stem) >= 0
+                ]
+                if len(saves) == 0:
+                    print(
+                        "behavior_clone on, but no save file found. Downloading "
+                        f"{HF_BC_MODEL_FILE} from {HF_BC_MODEL_REPO}...",
+                        flush=True,
+                    )
+                    downloaded_policy = Path(
+                        hf_hub_download(
+                            repo_id=HF_BC_MODEL_REPO,
+                            filename=HF_BC_MODEL_FILE,
+                            repo_type="model",
+                        )
+                    )
+                    shutil.copy2(downloaded_policy, bc_policy_path)
+                    saves = [HF_BC_MODEL_TIMESTEP]
+                    self.model.set_parameters(
+                        str(self.save_dir / f"{max(saves)}.zip"),
+                        device=self.model.device,
+                    )
+            return
+        self.eval_agent.policy = self.model.policy
         bc_policy_path = self.save_dir / f"{HF_BC_MODEL_TIMESTEP}.zip"
         if self.model.num_timesteps < self.save_interval:
             saves = [int(p.stem) for p in self.save_dir.iterdir() if int(p.stem) >= 0]
@@ -232,7 +262,8 @@ class Callback(BaseCallback):
         """Sample opponents for self-play and record checkpoints at intervals."""
         assert self.model.env is not None
         if (
-            self.model.num_timesteps % self.save_interval == 0
+            self.evaluate
+            and self.model.num_timesteps % self.save_interval == 0
             and self.model.num_timesteps > self.starting_timestep
         ):
             self.record()
@@ -257,7 +288,8 @@ class Callback(BaseCallback):
 
     def _on_training_end(self):
         """Record final checkpoint and flush logs."""
-        self.record()
+        if self.evaluate:
+            self.record()
         self.model.logger.dump(self.model.num_timesteps)
 
     def record(self):

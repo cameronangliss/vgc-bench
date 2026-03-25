@@ -36,6 +36,7 @@ def train(
     team2: str | None,
     results_suffix: str,
     total_timesteps: int | None = None,
+    evaluate: bool = True,
 ):
     """
     Train a Pokemon VGC policy using reinforcement learning.
@@ -61,6 +62,7 @@ def train(
         team2: Optional team string for matchup solving (requires team1).
         results_suffix: Suffix appended to results<run_id> for output paths.
         total_timesteps: Total training timesteps. Defaults to 1000 * save_interval.
+        evaluate: Whether to run evaluations and save checkpoints.
     """
     save_interval = 98_304
     env = (
@@ -168,6 +170,7 @@ def train(
             team1,
             team2,
             results_suffix,
+            evaluate,
         ),
         tb_log_name=str(save_dir.relative_to(output_dir / f"saves-{method}")),
         reset_num_timesteps=False,
