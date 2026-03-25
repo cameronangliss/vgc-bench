@@ -1,0 +1,91 @@
+name: Run tests
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+    branches:
+      - "main"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -e ".[dev]"
+
+      - name: Lint check
+        run: ruff check .
+
+      - name: Format check
+        run: ruff format --check .
+
+      - name: Type check
+        run: pyright
+
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    strategy:
+      matrix:
+        version: ['3.10', '3.11', '3.12', '3.13']
+
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.version }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -e ".[dev]"
+
+      - name: Run unit tests
+        run: pytest unit_tests/ -v --tb=short
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Cache Showdown node_modules
+        uses: actions/cache@v4
+        with:
+          path: pokemon-showdown/node_modules
+          key: showdown-${{ hashFiles('pokemon-showdown/package-lock.json') }}
+          restore-keys: showdown-
+
+      - name: Install and start Pokemon Showdown
+        run: |
+          cd pokemon-showdown
+          npm install
+          cp config/config-example.js config/config.js
+          sed -i 's/backdoor = true/backdoor = false/g' config/config.js
+          sed -i "s/exports.port = 8000/exports.port = 8100/g" config/config.js
+          node pokemon-showdown start --no-security &
+          until curl --output /dev/null --silent --head --fail http://localhost:8100; do
+            sleep 0.1
+          done
+
+      - name: Run integration tests
+        run: pytest integration_tests/ -v --tb=short

@@ -6,7 +6,7 @@ env/
 *.egg-info
 profile.prof
 
-battle-logs/
+battle_logs/
 results*/
 trajs/
 debug*.log

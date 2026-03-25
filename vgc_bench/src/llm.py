@@ -78,10 +78,11 @@ class LLMPlayer(Player):
             {
                 "role": "system",
                 "content": (
-                    "You are the strongest player of all time in competitive Pokemon VGC, "
-                    "the official competitive format for the core Pokemon video game series. "
-                    "You will do everything in your power to win this current battle, "
-                    "since this is the finals of the biggest tournament ever."
+                    "You are the strongest player of all time in competitive Pokemon"
+                    " VGC, the official competitive format for the core Pokemon video"
+                    " game series. You will do everything in your power to win this"
+                    " current battle, since this is the finals of the biggest"
+                    " tournament ever."
                 ),
             },
             {"role": "user", "content": prompt},
@@ -127,7 +128,7 @@ class LLMPlayer(Player):
             ally_order = None
         else:
             assert ally_action is not None
-            mask = torch.tensor(DoublesEnv.get_action_mask(battle))
+            mask = torch.tensor(DoublesEnv.get_action_mask(battle)).unsqueeze(0)
             ally_action_tensor = torch.tensor([[ally_action]])
             mask = MaskedActorCriticPolicy._update_mask(mask, ally_action_tensor)[
                 0, act_len:
@@ -189,6 +190,7 @@ class LLMPlayer(Player):
         self._teampreview_drafts[battle.battle_tag] = []
         for _ in range(2):
             actives += [self.teampreview_individual(battle, actives, bench)]
+            actives[-1]._selected_in_teampreview = True
             self._teampreview_drafts[battle.battle_tag] += [
                 i
                 for i, p in enumerate(battle.team.values(), start=1)
@@ -196,10 +198,13 @@ class LLMPlayer(Player):
             ]
         for _ in range(2):
             bench += [self.teampreview_individual(battle, actives, bench)]
+            bench[-1]._selected_in_teampreview = True
             self._teampreview_drafts[battle.battle_tag] += [
                 i for i, p in enumerate(battle.team.values(), start=1) if p == bench[-1]
             ]
-        return f"/team {','.join([str(i) for i in self._teampreview_drafts[battle.battle_tag]])}"
+        draft = self._teampreview_drafts[battle.battle_tag]
+        order = ",".join([str(i) for i in draft])
+        return f"/team {order}"
 
     def teampreview_individual(
         self, battle: DoubleBattle, actives: list[Pokemon], bench: list[Pokemon]
@@ -268,17 +273,56 @@ class LLMPlayer(Player):
         listed_action_space = "\n".join(
             f"{i + 1}. {name}" for i, name in enumerate(action_names)
         )
+        weather_str = (
+            ", ".join(
+                f"{w.name.lower()} (active for {battle.turn - turn} turns)"
+                for w, turn in battle.weather.items()
+            )
+            or "None"
+        )
+        fields_str = (
+            ", ".join(
+                f"{f.name.lower()} (active for {battle.turn - turn} turns)"
+                for f, turn in battle.fields.items()
+            )
+            or "None"
+        )
+        tera_str = "Tera used." if battle.used_tera else "Tera available."
+        side_conds = (
+            ", ".join(s.name.lower() for s in battle.side_conditions.keys()) or None
+        )
+        opp_tera_str = (
+            "Opponent's tera already used."
+            if battle.opponent_used_tera
+            else "Tera available for opponent!"
+        )
+        opp_side_conds = (
+            ", ".join(s.name.lower() for s in battle.opponent_side_conditions.keys())
+            or "None"
+        )
+        slot_str = f"slot {pos + 1}"
+        if active_mon is not None:
+            slot_str += f" (your {active_mon.base_species})"
+        prev_str = ""
+        if pos == 1:
+            prev_str = (
+                f" The action you already chose for your first slot was {last_order}."
+            )
+        respond_str = (
+            "Respond with the number corresponding to your chosen action. PLEASE GIVE"
+            " NO FURTHER RESPONSE THAN THAT, JUST THE NUMBER WITH NO PUNCTUATION!"
+        )
         return f"""The following is what you are currently observing:
 
 ########## GLOBAL EFFECTS ##########
 
-Active weather: {", ".join([f"{w.name.lower()} (active for {battle.turn - turn} turns)" for w, turn in battle.weather.items()]) or "None"}
-Active fields: {", ".join([f"{f.name.lower()} (active for {battle.turn - turn} turns)" for f, turn in battle.fields.items()]) or "None"}
+Active weather: {weather_str}
+Active fields: {fields_str}
 
 ########## YOUR SIDE ##########
 
-{"Tera used." if battle.used_tera else "Tera available."}
-Active side conditions: {", ".join([s.name.lower() for s in battle.side_conditions.keys()]) or None}
+{tera_str}
+Active side conditions: {side_conds}
 
 ### Active Pokemon ###
 
@@ -295,8 +339,8 @@ Slot 2: {LLMPlayer.explain_pokemon(a2)}
 ########## OPPONENT SIDE ##########
 
 Rating: {battle.opponent_rating}
-{"Opponent's tera already used." if battle.opponent_used_tera else "Tera available for opponent!"}
-Active side conditions: {", ".join([s.name.lower() for s in battle.opponent_side_conditions.keys()]) or "None"}
+{opp_tera_str}
+Active side conditions: {opp_side_conds}
 
 ### Active Pokemon ###
 
@@ -316,12 +360,12 @@ Active side conditions: {", ".join([s.name.lower() for s in battle.opponent_side
 
 ########## MAKE YOUR DECISION ##########
 
-Please select the optimal action for slot {pos + 1}{f" (your {active_mon.base_species})" if active_mon is not None else ""}. {f"The action you already chose for your first slot was {last_order}." if pos == 1 else ""}
+Please select the optimal action for {slot_str}.{prev_str}
 
 Here are your available actions:
 {listed_action_space}
 
-Respond with the number corresponding to your chosen action. PLEASE GIVE NO FURTHER RESPONSE THAN THAT, JUST THE NUMBER WITH NO PUNCTUATION!"""
+{respond_str}"""
 
     @staticmethod
     def explain_battle_teampreview(
@@ -342,6 +386,25 @@ Respond with the number corresponding to your chosen action. PLEASE GIVE NO FURT
             p for p in battle.team.values() if p not in actives and p not in bench
         ]
         opponent_pokemon = list(battle.opponent_team.values())
+        if len(actives) < 2:
+            position = len(actives) + 1
+            section = "active"
+        else:
+            position = len(bench) + 1
+            section = "bench"
+        select_str = (
+            'Please select a Pokemon from the "Your still-unchosen Pokemon" section to'
+            f' be put in position {position} of the "Your already-made {section}'
+            f' choices" section.'
+        )
+        recap_str = (
+            'Just to recap, your available responses in the "Your still-unchosen'
+            ' Pokemon" section are:'
+        )
+        respond_str = (
+            "Respond with the number corresponding to your choice. PLEASE GIVE NO"
+            " FURTHER RESPONSE THAN THAT, JUST THE NUMBER WITH NO PUNCTUATION!"
+        )
         return f"""The following is what you are currently observing in teampreview:
 
 ########## YOUR SIDE ##########
@@ -378,12 +441,12 @@ Respond with the number corresponding to your chosen action. PLEASE GIVE NO FURT
 
 ########## MAKE YOUR DECISION ##########
 
-Please select a Pokemon from the "Your still-unchosen Pokemon" section to be put in position {len(actives) + 1 if len(actives) < 2 else len(bench) + 1} of the "Your already-made {"active" if len(actives) < 2 else "bench"} choices" section.
+{select_str}
 
-Just to recap, your available responses in the "Your still-unchosen Pokemon" section are:
+{recap_str}
 {LLMPlayer.explain_remaining_pokemon_short(remaining_pokemon)}
 
-Respond with the number corresponding to your choice. PLEASE GIVE NO FURTHER RESPONSE THAN THAT, JUST THE NUMBER WITH NO PUNCTUATION!"""
+{respond_str}"""
 
     @staticmethod
     def explain_battle_order(battle: DoubleBattle, order: BattleOrder, pos: int) -> str:
@@ -483,11 +546,22 @@ Respond with the number corresponding to your choice. PLEASE GIVE NO FURTHER RES
         elif not pokemon.active:
             return LLMPlayer.explain_inactive_pokemon(pokemon)
         else:
-            return LLMPlayer.explain_inactive_pokemon(pokemon) + f"""
-{LLMPlayer.explain_boosts(pokemon.boosts)}
-Effects: {", ".join([f"{e.name.lower()} (active for {counter} turns)" for e, counter in pokemon.effects.items()]) or "None"}
-Is in first active turn (effects moves like fake out): {pokemon.first_turn}
-Number of turns user has protected in a row: {pokemon.protect_counter}"""
+            effects = (
+                ", ".join(
+                    f"{e.name.lower()} (active for {counter} turns)"
+                    for e, counter in pokemon.effects.items()
+                )
+                or "None"
+            )
+            return (
+                LLMPlayer.explain_inactive_pokemon(pokemon)
+                + f"\n{LLMPlayer.explain_boosts(pokemon.boosts)}"
+                f"\nEffects: {effects}"
+                f"\nIs in first active turn (effects moves like fake out):"
+                f" {pokemon.first_turn}"
+                f"\nNumber of turns user has protected in a row:"
+                f" {pokemon.protect_counter}"
+            )
 
     @staticmethod
     def explain_inactive_pokemon(pokemon: Pokemon) -> str:
@@ -503,7 +577,7 @@ Number of turns user has protected in a row: {pokemon.protect_counter}"""
             else "None"
         )
         if pokemon.tera_type is not None and not pokemon.is_terastallized:
-            tera_type_str += f" (unused)"
+            tera_type_str += " (unused)"
         hp_str = (
             f"{round(100 * pokemon.current_hp_fraction)}%"
             if pokemon.max_hp > 0
@@ -511,15 +585,26 @@ Number of turns user has protected in a row: {pokemon.protect_counter}"""
         )
         if pokemon.fainted:
             return f"{pokemon.base_species} | fainted"
-        return f"""{pokemon.base_species} | HP: {hp_str} | type: {type_str} | tera-type: {tera_type_str} | {reveal_str}
+        status = pokemon.status.name.lower() if pokemon.status is not None else "None"
+        move_strs = [
+            LLMPlayer.explain_move(moves[i]) if len(moves) > i else "None"
+            for i in range(4)
+        ]
+        header = (
+            f"{pokemon.base_species} | HP: {hp_str}"
+            f" | type: {type_str}"
+            f" | tera-type: {tera_type_str}"
+            f" | {reveal_str}"
+        )
+        return f"""{header}
 Ability: {pokemon.ability}
 Item: {pokemon.item}
-Status Effect: {pokemon.status.name.lower() if pokemon.status is not None else "None"}
+Status Effect: {status}
 Moves:
-    - {LLMPlayer.explain_move(moves[0]) if len(moves) > 0 else "None"}
-    - {LLMPlayer.explain_move(moves[1]) if len(moves) > 1 else "None"}
-    - {LLMPlayer.explain_move(moves[2]) if len(moves) > 2 else "None"}
-    - {LLMPlayer.explain_move(moves[3]) if len(moves) > 3 else "None"}
+    - {move_strs[0]}
+    - {move_strs[1]}
+    - {move_strs[2]}
+    - {move_strs[3]}
 Base stats:
     {pokemon.base_stats["hp"]} HP
     {pokemon.base_stats["atk"]} Attack
@@ -531,7 +616,14 @@ Base stats:
     @staticmethod
     def explain_move(move: Move) -> str:
         """Generate a one-line description of a Pokemon move."""
-        return f"{move.id} | pp: {move.current_pp}/{move.max_pp} | type: {move.type.name.lower()} | power: {move.base_power} | acc: {int(100 * move.accuracy)}% | category: {move.category.name.lower()}"
+        return (
+            f"{move.id}"
+            f" | pp: {move.current_pp}/{move.max_pp}"
+            f" | type: {move.type.name.lower()}"
+            f" | power: {move.base_power}"
+            f" | acc: {int(100 * move.accuracy)}%"
+            f" | category: {move.category.name.lower()}"
+        )
 
     @staticmethod
     def explain_boosts(boosts: dict[str, int]) -> str:

@@ -114,10 +114,9 @@ class ShowdownEnv(DoublesEnv):
         self, seed: Optional[int] = None, options: Optional[Dict[str, Any]] = None
     ) -> Tuple[Dict[str, Any], Dict[str, Dict[str, Any]]]:
         """Reset the environment, updating battle format if multi-reg."""
-        if (
-            isinstance(self._team, RandomTeamBuilder)
-            and self._team.available_regs is not None
-        ):
+        assert isinstance(self._team, RandomTeamBuilder)
+        if self._team.available_regs is not None:
+            assert self._team.current_reg is not None
             self._team.pick_reg()
             fmt = format_map[self._team.current_reg]
             self.agent1._format = fmt

@@ -39,7 +39,12 @@ FORMATS = [
 ]
 
 
-def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:
+def scrape_logs(
+    num_workers: int,
+    increment: int,
+    battle_format: str,
+    max_logs: int | None = None,
+) -> bool:
     """
     Scrape battle logs from Pokemon Showdown replay database.
 
@@ -50,11 +55,12 @@ def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:
         num_workers: Number of parallel download threads (0 for sequential).
         increment: Number of battles to search through when finding logs.
         battle_format: Pokemon Showdown format string to scrape.
+        max_logs: If set, stop after collecting this many total valid logs.
 
     Returns:
         True if no new logs were found (scraping complete), False otherwise.
     """
-    logs_path = Path(f"battle-logs/logs-{battle_format}.json")
+    logs_path = Path(f"battle_logs/logs-{battle_format}.json")
     if logs_path.exists():
         with logs_path.open("r") as f:
             old_logs = json.load(f)
@@ -87,6 +93,8 @@ def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:
         and "|-mega|" not in lj["log"]
     }
     logs = {**old_logs, **new_logs}
+    if max_logs is not None:
+        logs = dict(list(logs.items())[:max_logs])
     print(f"{battle_format}:", len(logs))
     with logs_path.open("w") as f:
         json.dump(logs, f)
@@ -242,12 +250,17 @@ def main(num_workers: int, read_increment: int):
         done = False
         while not done:
             done = scrape_logs(num_workers, read_increment, fmt)
-        with open(f"battle-logs/logs-{fmt}.json", "r") as file:
+        with open(f"battle_logs/logs-{fmt}.json", "r") as file:
             log_dict = json.load(file)
             logs = [log for _, log in log_dict.values()]
-        players_in_range = lambda logs, low, high: len(
-            [log for log in logs if low <= (get_rating(log, "p1") or 0) <= high]
-        ) + len([log for log in logs if low <= (get_rating(log, "p2") or 0) <= high])
+
+        def players_in_range(logs, low, high):
+            return len(
+                [log for log in logs if low <= (get_rating(log, "p1") or 0) <= high]
+            ) + len(
+                [log for log in logs if low <= (get_rating(log, "p2") or 0) <= high]
+            )
+
         max_date_epoch = max([t for t, _ in log_dict.values()])
         dt = datetime.fromtimestamp(max_date_epoch, tz=timezone.utc)
         timestr = dt.strftime("%m/%d/%Y %H:%M:%S")
@@ -283,7 +296,10 @@ if __name__ == "__main__":
         "--read_increment",
         type=int,
         default=4000,
-        help="number of logs to read through when filtering through logs (if too low, scraper may prematurely think there are no more logs to scrape)",
+        help=(
+            "number of logs to read through when filtering through logs (if too low,"
+            " scraper may prematurely think there are no more logs to scrape)"
+        ),
     )
     args = parser.parse_args()
     main(args.num_workers, args.read_increment)
