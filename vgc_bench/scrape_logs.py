@@ -39,7 +39,12 @@ FORMATS = [
 ]
 
 
-def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:
+def scrape_logs(
+    num_workers: int,
+    increment: int,
+    battle_format: str,
+    max_logs: int | None = None,
+) -> bool:
     """
     Scrape battle logs from Pokemon Showdown replay database.
 
@@ -50,6 +55,7 @@ def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:
         num_workers: Number of parallel download threads (0 for sequential).
         increment: Number of battles to search through when finding logs.
         battle_format: Pokemon Showdown format string to scrape.
+        max_logs: If set, stop after collecting this many total valid logs.
 
     Returns:
         True if no new logs were found (scraping complete), False otherwise.
@@ -87,6 +93,8 @@ def scrape_logs(num_workers: int, increment: int, battle_format: str) -> bool:
         and "|-mega|" not in lj["log"]
     }
     logs = {**old_logs, **new_logs}
+    if max_logs is not None:
+        logs = dict(list(logs.items())[:max_logs])
     print(f"{battle_format}:", len(logs))
     with logs_path.open("w") as f:
         json.dump(logs, f)

@@ -6,8 +6,10 @@ from a BC checkpoint downloaded from the model repo.
 """
 
 import asyncio
+import json
 import pickle
 import socket
+from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 from threading import Thread
 
@@ -20,13 +22,9 @@ from poke_env.environment import SingleAgentWrapper
 from poke_env.player import RandomPlayer
 from stable_baselines3 import PPO
 
-from vgc_bench.logs2trajs import process_log
+from vgc_bench.logs2trajs import process_logs
 from vgc_bench.pretrain import TrajectoryDataset
-from vgc_bench.scrape_logs import (
-    can_distinguish_team_members,
-    get_log_json,
-    update_battle_idents,
-)
+from vgc_bench.scrape_logs import scrape_logs
 from vgc_bench.src.env import ShowdownEnv
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.utils import LearningStyle, act_len, chunk_obs_len, format_map
@@ -48,99 +46,41 @@ requires_server = pytest.mark.skipif(
 )
 
 
-def _scrape_valid_logs(n: int) -> dict[str, tuple[str, str]]:
-    """Scrape up to *n* valid Reg D logs from the Showdown replay API.
-
-    Returns:
-        Dict mapping battle tag to (uploadtime, log) tuples.
-    """
-    battle_idents: set[str] = set()
-    oldest = 2_000_000_000
-    # Fetch pages until we have enough candidates
-    while len(battle_idents) < n * 5:
-        prev_len = len(battle_idents)
-        battle_idents, oldest = update_battle_idents(
-            battle_idents, BATTLE_FORMAT, oldest
-        )
-        if len(battle_idents) == prev_len:
-            break
-
-    valid_logs: dict[str, tuple[str, str]] = {}
-    for ident in battle_idents:
-        if len(valid_logs) >= n:
-            break
-        lj = get_log_json(ident)
-        if lj is None:
-            continue
-        log = lj["log"]
-        if (
-            log.count("|poke|p1|") == 6
-            and log.count("|poke|p2|") == 6
-            and "|turn|1" in log
-            and "|showteam|" in log.split("\n|\n")[0]
-            and can_distinguish_team_members(log.split("\n|\n")[0], "p1")
-            and can_distinguish_team_members(log.split("\n|\n")[0], "p2")
-            and "Zoroark" not in log
-            and "Zorua" not in log
-            and "|-mega|" not in log
-        ):
-            valid_logs[lj["id"]] = (str(lj["uploadtime"]), log)
-    return valid_logs
-
-
 @pytest.fixture(scope="module")
-def scraped_logs():
+def scraped_logs(tmp_path_factory):
     """Scrape a small batch of valid Reg D logs."""
-    logs = _scrape_valid_logs(5)
+    work_dir = tmp_path_factory.mktemp("scrape")
+    (work_dir / "battle-logs").mkdir()
+    monkeypatch = pytest.MonkeyPatch()
+    monkeypatch.chdir(work_dir)
+    try:
+        scrape_logs(0, 4000, BATTLE_FORMAT, max_logs=100)
+    finally:
+        monkeypatch.undo()
+    logs_path = work_dir / "battle-logs" / f"logs-{BATTLE_FORMAT}.json"
+    if not logs_path.exists():
+        pytest.skip("Could not scrape any valid Reg D logs")
+    with logs_path.open() as f:
+        logs = json.load(f)
     if not logs:
         pytest.skip("Could not scrape any valid Reg D logs")
     return logs
 
 
 @pytest.fixture(scope="module")
-def reader_loop():
-    """Event loop for LogReader."""
-    loop = asyncio.new_event_loop()
-    thread = Thread(target=loop.run_forever, daemon=True)
-    thread.start()
-    yield loop
-    loop.call_soon_threadsafe(loop.stop)
-    thread.join(timeout=5)
+def trajectories(scraped_logs):
+    """Convert scraped logs to trajectories via process_logs."""
 
-
-@pytest.fixture(scope="module")
-def trajectories(scraped_logs, reader_loop):
-    """Convert scraped logs to trajectories via process_log."""
-    from unittest.mock import patch
-
-    from vgc_bench.logs2trajs import LogReader
-
-    orig_follow = LogReader.follow_log
-
-    async def patched_follow(self, tag, log):
-        battle_tag = f"battle-{tag}"
-        if battle_tag not in self.ps_client._battle_locks:
-            self.ps_client._battle_locks[battle_tag] = asyncio.Lock()
-        return await orig_follow(self, tag, log)
-
-    trajs = []
-    with patch.object(LogReader, "follow_log", patched_follow):
+    def _init_worker_loop():
         import vgc_bench.logs2trajs as mod
 
-        mod._READER_LOOP = reader_loop
-        try:
-            for tag, (_, log) in scraped_logs.items():
-                for role in ["p1", "p2"]:
-                    try:
-                        traj = process_log(
-                            tag, log, role, min_rating=None, only_winner=False
-                        )
-                        if traj is not None:
-                            trajs.append(traj)
-                    except Exception:
-                        pass
-        finally:
-            del mod._READER_LOOP
+        mod._READER_LOOP = asyncio.new_event_loop()
+        Thread(target=mod._READER_LOOP.run_forever, daemon=True).start()
+
+    with ProcessPoolExecutor(max_workers=1, initializer=_init_worker_loop) as executor:
+        trajs = process_logs(
+            scraped_logs, executor, min_rating=None, only_winner=False, strict=False
+        )
     assert len(trajs) > 0, "No trajectories produced from scraped logs"
     return trajs
 
@@ -160,7 +100,7 @@ class TestPipeline:
 
     def test_scrape_produces_logs(self, scraped_logs):
         assert len(scraped_logs) > 0
-        for tag, (uploadtime, log) in scraped_logs.items():
+        for tag, (_, log) in scraped_logs.items():
             assert tag.startswith(BATTLE_FORMAT)
             assert "|win|" in log
 

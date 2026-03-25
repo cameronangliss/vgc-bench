@@ -198,7 +198,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--fictitious_play",
         action="store_true",
-        help=("p1 controlled by learning policy, p2 controlled by a past saved policy"),
+        help="p1 controlled by learning policy, p2 controlled by a past saved policy",
     )
     parser.add_argument(
         "--double_oracle",
@@ -219,7 +219,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--no_mirror_match",
         action="store_true",
-        help=("disables same-team matchups during training, requires num_teams > 1"),
+        help="disables same-team matchups during training, requires num_teams > 1",
     )
     parser.add_argument(
         "--no_teampreview",
