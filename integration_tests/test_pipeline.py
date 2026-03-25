@@ -126,7 +126,7 @@ class TestPipeline:
             action_space=ppo.action_space,
             rng=np.random.default_rng(42),
             policy=ppo.policy,
-            batch_size=32,
+            batch_size=4,
             device="cpu",
             custom_logger=configure(str(trajs_on_disk.parent / "logs"), ["stdout"]),
         )
@@ -146,7 +146,7 @@ class TestPipeline:
         (tmp_path / "teams").symlink_to(project_root / "teams")
         (tmp_path / "data").symlink_to(project_root / "data")
         train(
-            reg="g",
+            reg=None,
             run_id=1,
             num_teams=None,
             num_envs=1,
