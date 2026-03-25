@@ -1,4 +1,10 @@
 # VGC-Bench
+
+[![CI](https://github.com/cameronangliss/vgc-bench/actions/workflows/tests.yml/badge.svg)](https://github.com/cameronangliss/vgc-bench/actions/workflows/tests.yml)
+[![Python 3.10‒3.13](https://img.shields.io/badge/python-3.10%E2%80%933.13-blue)](https://github.com/cameronangliss/vgc-bench)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2506.10326-b31b1b)](https://arxiv.org/abs/2506.10326)
+
 This is the official code for [VGC-Bench: Towards Mastering Diverse Team Strategies in Competitive Pokémon](https://arxiv.org/abs/2506.10326).
 
 This benchmark includes:

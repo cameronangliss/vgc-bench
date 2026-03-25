@@ -1,8 +1,8 @@
-"""Integration test for the full scrape -> logs2trajs -> pretrain -> train pipeline.
+"""Integration test for the logs2trajs -> pretrain -> train pipeline.
 
-Scrapes a small batch of Reg G Bo3 battle logs, converts them to trajectories,
-runs a short behavior cloning pretrain, then runs RL training initialized
-from a BC checkpoint downloaded from the model repo.
+Loads pre-scraped Reg G Bo3 battle logs from a fixture file, converts them
+to trajectories, runs a short behavior cloning pretrain, then runs RL
+training initialized from a BC checkpoint downloaded from the model repo.
 """
 
 import asyncio
@@ -24,13 +24,10 @@ from stable_baselines3 import PPO
 
 from vgc_bench.logs2trajs import process_logs
 from vgc_bench.pretrain import TrajectoryDataset
-from vgc_bench.scrape_logs import scrape_logs
 from vgc_bench.src.env import ShowdownEnv
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.utils import LearningStyle, act_len, chunk_obs_len, format_map
 from vgc_bench.train import train
-
-BATTLE_FORMAT = "gen9vgc2025reggbo3"
 
 
 def _server_available() -> bool:
@@ -47,29 +44,11 @@ requires_server = pytest.mark.skipif(
 
 
 @pytest.fixture(scope="module")
-def scraped_logs(tmp_path_factory):
-    """Scrape a small batch of valid Reg G Bo3 logs."""
-    work_dir = tmp_path_factory.mktemp("scrape")
-    (work_dir / "battle_logs").mkdir()
-    monkeypatch = pytest.MonkeyPatch()
-    monkeypatch.chdir(work_dir)
-    try:
-        scrape_logs(4, 20, BATTLE_FORMAT, max_logs=5)
-    finally:
-        monkeypatch.undo()
-    logs_path = work_dir / "battle_logs" / f"logs-{BATTLE_FORMAT}.json"
-    if not logs_path.exists():
-        pytest.skip("Could not scrape any valid Reg G Bo3 logs")
-    with logs_path.open() as f:
+def trajectories():
+    """Load fixture logs and convert to trajectories via process_logs."""
+    fixture_path = Path(__file__).parent / "fixture_logs.json"
+    with fixture_path.open() as f:
         logs = json.load(f)
-    if not logs:
-        pytest.skip("Could not scrape any valid Reg G Bo3 logs")
-    return logs
-
-
-@pytest.fixture(scope="module")
-def trajectories(scraped_logs):
-    """Convert scraped logs to trajectories via process_logs."""
 
     def _init_worker_loop():
         import vgc_bench.logs2trajs as mod
@@ -79,9 +58,9 @@ def trajectories(scraped_logs):
 
     with ProcessPoolExecutor(max_workers=4, initializer=_init_worker_loop) as executor:
         trajs = process_logs(
-            scraped_logs, executor, min_rating=None, only_winner=False, strict=False
+            logs, executor, min_rating=None, only_winner=False, strict=False
         )
-    assert len(trajs) > 0, "No trajectories produced from scraped logs"
+    assert len(trajs) > 0, "No trajectories produced from fixture logs"
     return trajs
 
 
@@ -97,12 +76,6 @@ def trajs_on_disk(trajectories, tmp_path_factory):
 
 class TestPipeline:
     """Test the full scrape -> logs2trajs -> pretrain pipeline."""
-
-    def test_scrape_produces_logs(self, scraped_logs):
-        assert len(scraped_logs) > 0
-        for tag, (_, log) in scraped_logs.items():
-            assert tag.startswith(BATTLE_FORMAT)
-            assert "|win|" in log
 
     def test_logs2trajs_produces_trajectories(self, trajectories):
         assert len(trajectories) > 0
