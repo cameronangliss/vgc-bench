@@ -146,7 +146,7 @@ class TestPipeline:
         (tmp_path / "teams").symlink_to(project_root / "teams")
         (tmp_path / "data").symlink_to(project_root / "data")
         train(
-            reg="g",
+            reg=None,
             run_id=1,
             num_teams=None,
             num_envs=1,
