@@ -126,7 +126,7 @@ class TestPipeline:
             action_space=ppo.action_space,
             rng=np.random.default_rng(42),
             policy=ppo.policy,
-            batch_size=32,
+            batch_size=4,
             device="cpu",
             custom_logger=configure(str(trajs_on_disk.parent / "logs"), ["stdout"]),
         )
