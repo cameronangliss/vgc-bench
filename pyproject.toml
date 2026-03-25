@@ -38,7 +38,7 @@ select = ["E", "F", "I", "W"]
 known-first-party = ["vgc_bench"]
 
 [tool.pytest.ini_options]
-testpaths = ["unit-tests", "integration-tests"]
+testpaths = ["unit_tests", "integration_tests"]
 addopts = "--import-mode=importlib"
 
 [tool.pyright]

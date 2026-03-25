@@ -420,7 +420,7 @@ def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bo
     )
     Path("trajs").mkdir(exist_ok=True)
     total = 0
-    for f in Path("battle-logs").iterdir():
+    for f in Path("battle_logs").iterdir():
         logs = json.load(f.open())
         print(f"processing {len(logs)} {f.stem} logs...")
         trajs = process_logs(logs, executor, min_rating, only_winner, strict)

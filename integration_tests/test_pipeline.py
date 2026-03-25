@@ -50,14 +50,14 @@ requires_server = pytest.mark.skipif(
 def scraped_logs(tmp_path_factory):
     """Scrape a small batch of valid Reg G Bo3 logs."""
     work_dir = tmp_path_factory.mktemp("scrape")
-    (work_dir / "battle-logs").mkdir()
+    (work_dir / "battle_logs").mkdir()
     monkeypatch = pytest.MonkeyPatch()
     monkeypatch.chdir(work_dir)
     try:
         scrape_logs(4, 20, BATTLE_FORMAT, max_logs=5)
     finally:
         monkeypatch.undo()
-    logs_path = work_dir / "battle-logs" / f"logs-{BATTLE_FORMAT}.json"
+    logs_path = work_dir / "battle_logs" / f"logs-{BATTLE_FORMAT}.json"
     if not logs_path.exists():
         pytest.skip("Could not scrape any valid Reg G Bo3 logs")
     with logs_path.open() as f:
