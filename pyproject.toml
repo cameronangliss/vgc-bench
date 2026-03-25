@@ -31,6 +31,9 @@ include = ["vgc_bench"]
 line-length = 88
 extend-exclude = ["pokemon-showdown"]
 
+[tool.ruff.format]
+skip-magic-trailing-comma = true
+
 [tool.ruff.lint]
 select = ["E", "F", "I", "W"]
 

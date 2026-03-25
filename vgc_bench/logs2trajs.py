@@ -387,8 +387,7 @@ def process_log(
             loop=_READER_LOOP,
         )
         results = asyncio.run_coroutine_threadsafe(
-            player.follow_log(tag, log),
-            _READER_LOOP,
+            player.follow_log(tag, log), _READER_LOOP
         ).result()
         if results is not None:
             states, actions = results

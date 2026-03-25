@@ -40,10 +40,7 @@ FORMATS = [
 
 
 def scrape_logs(
-    num_workers: int,
-    increment: int,
-    battle_format: str,
-    max_logs: int | None = None,
+    num_workers: int, increment: int, battle_format: str, max_logs: int | None = None
 ) -> bool:
     """
     Scrape battle logs from Pokemon Showdown replay database.
