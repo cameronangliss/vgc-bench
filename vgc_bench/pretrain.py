@@ -156,7 +156,7 @@ def pretrain(
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(run_id, None, None),
     )
-    win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
+    win_rate = Callback.compare(eval_agent, eval_opponent, 100)
     bc.logger.record("bc/eval", win_rate)
     ppo.save(save_dir / "0")
     for i in range(num_epochs):
@@ -165,7 +165,7 @@ def pretrain(
             demos = next(data)
             bc.set_demonstrations(demos)
             bc.train(n_epochs=1)
-        win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
+        win_rate = Callback.compare(eval_agent, eval_opponent, 100)
         bc.logger.record("bc/eval", win_rate)
         ppo.save(save_dir / f"{i + 1}")
     bc.train(n_epochs=1)
