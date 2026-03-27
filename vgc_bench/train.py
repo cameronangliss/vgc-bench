@@ -35,7 +35,7 @@ def train(
     team1: str | None,
     team2: str | None,
     results_suffix: str,
-    total_timesteps: int | None = None,
+    total_steps: int | None = None,
     evaluate: bool = True,
 ):
     """
@@ -61,7 +61,7 @@ def train(
         team1: Optional team string for matchup solving (requires team2).
         team2: Optional team string for matchup solving (requires team1).
         results_suffix: Suffix appended to results<run_id> for output paths.
-        total_timesteps: Total training timesteps. Defaults to 1000 * save_interval.
+        total_steps: Total training timesteps. Defaults to 1000 * save_interval.
         evaluate: Whether to run evaluations and save checkpoints.
     """
     save_interval = 98_304
@@ -151,7 +151,7 @@ def train(
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
     effective_total = (
-        total_timesteps if total_timesteps is not None else 1000 * save_interval
+        total_steps if total_steps is not None else 1000 * save_interval
     )
     ppo.learn(
         effective_total - num_saved_timesteps,
@@ -275,7 +275,7 @@ if __name__ == "__main__":
         "--device", type=str, default="cuda:0", help="device to use for training"
     )
     parser.add_argument(
-        "--total_timesteps",
+        "--total_steps",
         type=int,
         default=None,
         help="total training timesteps (default: 1000 * save_interval)",
@@ -328,5 +328,5 @@ if __name__ == "__main__":
         args.team1 or None,
         args.team2 or None,
         args.results_suffix,
-        args.total_timesteps,
+        args.total_steps,
     )

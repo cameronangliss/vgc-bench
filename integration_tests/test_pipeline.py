@@ -161,6 +161,6 @@ class TestPipeline:
             team1=None,
             team2=None,
             results_suffix="test",
-            total_timesteps=3072,
+            total_steps=3072,
             evaluate=False,
         )

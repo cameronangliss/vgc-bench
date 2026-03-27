@@ -6,6 +6,7 @@ device="cuda:0"
 num_env_workers=1
 num_eval_workers=1
 results_suffix="worlds-2024-finals"
+total_steps=$((51 * 98304))  # 98304 is the number of steps per save during training
 
 # sample teams
 # finals matchup of World Championships 2024 in Honolulu
@@ -168,6 +169,7 @@ sleep 5  # give server time to start
 echo "Starting training..."
 python -m vgc_bench.train \
     --reg "$reg" \
+    --num_teams 2 \
     --port "$port" \
     --device "$device" \
     --num_envs "$num_env_workers" \
@@ -178,6 +180,7 @@ python -m vgc_bench.train \
     --team1 "$TEAM1" \
     --team2 "$TEAM2" \
     --results_suffix "$results_suffix" \
+    --total_steps "$total_steps" \
     > "debug$port.log" 2>&1
 exit_status=$?
 if [ $exit_status -ne 0 ]; then
