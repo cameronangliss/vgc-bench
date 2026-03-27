@@ -150,11 +150,10 @@ def train(
             if num_saved_timesteps < save_interval:
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
-    effective_total = (
-        total_steps if total_steps is not None else 1000 * save_interval
-    )
+    if total_steps is None:
+        total_steps = 1000 * save_interval
     ppo.learn(
-        effective_total - num_saved_timesteps,
+        total_steps - num_saved_timesteps,
         callback=Callback(
             run_id,
             num_teams,
