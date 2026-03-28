@@ -105,8 +105,7 @@ class RandomTeamBuilder(Teambuilder):
             parsed_team2 = self.parse_showdown_team(team2)
             packed_team2 = self.join_team(parsed_team2)
             self.teams.append(packed_team2)
-            return
-        if reg is None:
+        elif reg is None:
             self.available_regs = get_available_regs()
             self.current_reg = random.choice(self.available_regs)
             if num_teams is not None:
