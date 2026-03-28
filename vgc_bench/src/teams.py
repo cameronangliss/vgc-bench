@@ -109,10 +109,18 @@ class RandomTeamBuilder(Teambuilder):
         if reg is None:
             self.available_regs = get_available_regs()
             self.current_reg = random.choice(self.available_regs)
-            for r in self.available_regs:
-                self._reg_teams[r] = self._load_teams(
-                    run_id, num_teams, r, take_from_end
-                )
+            if num_teams is not None:
+                n = len(self.available_regs)
+                base, remainder = divmod(num_teams, n)
+                for i, r in enumerate(self.available_regs):
+                    self._reg_teams[r] = self._load_teams(
+                        run_id, base + (1 if i < remainder else 0), r, take_from_end
+                    )
+            else:
+                for r in self.available_regs:
+                    self._reg_teams[r] = self._load_teams(
+                        run_id, None, r, take_from_end
+                    )
         else:
             self.teams = self._load_teams(run_id, num_teams, reg, take_from_end)
 
