@@ -272,10 +272,7 @@ if __name__ == "__main__":
         "--device", type=str, default="cuda:0", help="device to use for training"
     )
     parser.add_argument(
-        "--total_steps",
-        type=int,
-        required=True,
-        help="total training timesteps",
+        "--total_steps", type=int, required=True, help="total training timesteps"
     )
     args = parser.parse_args()
     set_global_seed(args.run_id)
