@@ -35,7 +35,7 @@ def train(
     team1: str | None,
     team2: str | None,
     results_suffix: str,
-    total_steps: int | None = None,
+    total_steps: int,
     evaluate: bool = True,
 ):
     """
@@ -150,8 +150,6 @@ def train(
             if num_saved_timesteps < save_interval:
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
-    if total_steps is None:
-        total_steps = 1000 * save_interval
     ppo.learn(
         total_steps - num_saved_timesteps,
         callback=Callback(
@@ -276,8 +274,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--total_steps",
         type=int,
-        default=None,
-        help="total training timesteps (default: 1000 * save_interval)",
+        required=True,
+        help="total training timesteps",
     )
     args = parser.parse_args()
     set_global_seed(args.run_id)
