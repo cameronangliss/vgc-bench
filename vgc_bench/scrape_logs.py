@@ -57,7 +57,7 @@ def scrape_logs(
     Returns:
         True if no new logs were found (scraping complete), False otherwise.
     """
-    logs_path = Path(f"battle_logs/logs-{battle_format}.json")
+    logs_path = Path(f"battle_logs/logs_{battle_format}.json")
     if logs_path.exists():
         with logs_path.open("r") as f:
             old_logs = json.load(f)
@@ -247,7 +247,7 @@ def main(num_workers: int, read_increment: int):
         done = False
         while not done:
             done = scrape_logs(num_workers, read_increment, fmt)
-        with open(f"battle_logs/logs-{fmt}.json", "r") as file:
+        with open(f"battle_logs/logs_{fmt}.json", "r") as file:
             log_dict = json.load(file)
             logs = [log for _, log in log_dict.values()]
 

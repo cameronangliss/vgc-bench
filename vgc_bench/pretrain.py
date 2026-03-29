@@ -94,8 +94,8 @@ def pretrain(
         num_epochs: Number of outer training epochs.
     """
     output_dir = Path("results")
-    log_dir = output_dir / "logs-bc" / f"seed{run_id}"
-    save_dir = output_dir / "saves-bc" / f"seed{run_id}"
+    log_dir = output_dir / "logs_bc" / f"seed{run_id}"
+    save_dir = output_dir / "saves_bc" / f"seed{run_id}"
     log_dir.mkdir(parents=True, exist_ok=True)
     save_dir.mkdir(parents=True, exist_ok=True)
     battle_format = format_map[get_available_regs()[0]]
@@ -158,7 +158,7 @@ def pretrain(
     )
     win_rates = Callback.compare(eval_agent, eval_opponent, 100)
     for label, wr in win_rates.items():
-        bc.logger.record(f"eval/heuristic_{label}", wr)
+        bc.logger.record(f"eval/heuristic{label}", wr)
     ppo.save(save_dir / "0")
     for i in range(num_epochs):
         data = iter(dataloader)
@@ -168,7 +168,7 @@ def pretrain(
             bc.train(n_epochs=1)
         win_rates = Callback.compare(eval_agent, eval_opponent, 100)
         for label, wr in win_rates.items():
-            bc.logger.record(f"eval/heuristic_{label}", wr)
+            bc.logger.record(f"eval/heuristic{label}", wr)
         ppo.save(save_dir / f"{i + 1}")
     bc.train(n_epochs=1)
 

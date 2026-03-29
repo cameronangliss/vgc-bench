@@ -5,7 +5,7 @@ port=8000
 device="cuda:0"
 num_env_workers=1
 num_eval_workers=1
-results_suffix="worlds-2024-finals"
+results_suffix="worlds_2024_finals"
 total_steps=$((51 * 98304))  # 98304 is the number of steps per save during training
 
 # sample teams

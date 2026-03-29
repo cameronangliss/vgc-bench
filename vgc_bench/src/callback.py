@@ -28,7 +28,7 @@ from vgc_bench.src.utils import LearningStyle, format_map
 warnings.filterwarnings("ignore", category=UserWarning)
 
 HF_BC_MODEL_REPO = "cameronangliss/vgc-bench-models"
-HF_BC_MODEL_FILE = "results/saves-bc/seed1/100.zip"
+HF_BC_MODEL_FILE = "results/saves_bc/seed1/100.zip"
 HF_BC_MODEL_TIMESTEP = 100
 
 
@@ -93,36 +93,32 @@ class Callback(BaseCallback):
         self.learning_style = learning_style
         self.behavior_clone = behavior_clone
         self.save_interval = save_interval
-        method = "".join(
-            [
-                "-bc" if behavior_clone else "",
-                "-" + learning_style.abbrev,
-                "-xm" if not allow_mirror_match else "",
-                "-xt" if not choose_on_teampreview else "",
-            ]
-        )[1:]
-        suffix = f"-{results_suffix}" if results_suffix else ""
+        method_tags = [
+            "bc" if behavior_clone else None,
+            learning_style.abbrev,
+            "xm" if not allow_mirror_match else None,
+            "xt" if not choose_on_teampreview else None,
+        ]
+        method = "_".join([p for p in method_tags if p is not None])
+        suffix = f"_{results_suffix}" if results_suffix else ""
         output_dir = Path(f"results{suffix}")
-        self.log_dir = output_dir / f"logs-{method}"
+        self.log_dir = output_dir / f"logs_{method}"
         if reg is None:
             battle_format = format_map[get_available_regs()[0]]
         else:
             battle_format = format_map[reg]
-        method_dir = output_dir / f"saves-{method}"
-        if reg is not None and num_teams is not None:
-            method_dir = method_dir / f"reg{reg}-{num_teams}-teams"
-        elif reg is not None:
-            method_dir = method_dir / f"reg{reg}"
-        elif num_teams is not None:
-            method_dir = method_dir / f"{num_teams}-teams"
+        method_dir = output_dir / f"saves_{method}"
+        method_dir = method_dir / (f"reg_{reg}" if reg is not None else "reg_all")
+        if num_teams is not None:
+            method_dir = method_dir / f"{num_teams}_teams"
         self.save_dir = method_dir / f"seed{run_id}"
-        self.save_label = str(self.save_dir.relative_to(output_dir / f"saves-{method}"))
+        self.save_label = str(self.save_dir.relative_to(output_dir / f"saves_{method}"))
         self.log_dir.mkdir(parents=True, exist_ok=True)
         self.save_dir.mkdir(parents=True, exist_ok=True)
         self.payoff_matrix: npt.NDArray[np.float32]
         self.prob_dist = None
         if self.learning_style == LearningStyle.DOUBLE_ORACLE:
-            payoff_path = self.log_dir / f"{self.save_label}-payoff-matrix.json"
+            payoff_path = self.log_dir / f"{self.save_label}_payoff_matrix.json"
             if payoff_path.exists():
                 with payoff_path.open() as f:
                     self.payoff_matrix = np.array(json.load(f))
@@ -240,7 +236,7 @@ class Callback(BaseCallback):
                 )
             heuristic_win_rates = self.compare(self.eval_agent, self.eval_opponent, 100)
             for label, wr in heuristic_win_rates.items():
-                self.model.logger.record(f"eval/heuristic_{label}", wr)
+                self.model.logger.record(f"eval/heuristic{label}", wr)
             if not self.behavior_clone:
                 self.model.save(self.save_dir / f"{self.model.num_timesteps}")
         if bc_policy_path.exists():
@@ -248,7 +244,7 @@ class Callback(BaseCallback):
             if self.model.num_timesteps < self.save_interval:
                 bc_win_rates = self.compare(self.eval_agent, self.eval_opponent2, 100)
                 for label, wr in bc_win_rates.items():
-                    self.model.logger.record(f"eval/bc_{label}", wr)
+                    self.model.logger.record(f"eval/bc{label}", wr)
         if self.learning_style == LearningStyle.EXPLOITER:
             for i in range(self.model.env.num_envs):
                 self.model.env.env_method(
@@ -296,11 +292,11 @@ class Callback(BaseCallback):
         """Evaluate current policy, update payoff matrix for DO, and save checkpoint."""
         heuristic_win_rates = self.compare(self.eval_agent, self.eval_opponent, 100)
         for label, wr in heuristic_win_rates.items():
-            self.model.logger.record(f"eval/heuristic_{label}", wr)
+            self.model.logger.record(f"eval/heuristic{label}", wr)
         if self.eval_opponent2.policy is not None:
             bc_win_rates = self.compare(self.eval_agent, self.eval_opponent2, 100)
             for label, wr in bc_win_rates.items():
-                self.model.logger.record(f"eval/bc_{label}", wr)
+                self.model.logger.record(f"eval/bc{label}", wr)
         if self.learning_style == LearningStyle.DOUBLE_ORACLE:
             policy_files = list(self.save_dir.iterdir())
             self.update_payoff_matrix(policy_files)
@@ -322,7 +318,7 @@ class Callback(BaseCallback):
         win_rates = np.array([])
         for p in ordered_policy_files:
             self.eval_agent2.set_policy(p, self.model.device)
-            wr = self.compare(self.eval_agent, self.eval_agent2, 100)["all"]
+            wr = self.compare(self.eval_agent, self.eval_agent2, 100, per_reg=False)[""]
             win_rates = np.append(win_rates, wr)
         self.payoff_matrix = np.concat(
             [self.payoff_matrix, 1 - win_rates.reshape(-1, 1)], axis=1
@@ -332,7 +328,7 @@ class Callback(BaseCallback):
             [self.payoff_matrix, win_rates.reshape(1, -1)], axis=0
         )
         self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
-        payoff_path = self.log_dir / f"{self.save_label}-payoff-matrix.json"
+        payoff_path = self.log_dir / f"{self.save_label}_payoff_matrix.json"
         with payoff_path.open("w") as f:
             json.dump(
                 [
@@ -343,7 +339,9 @@ class Callback(BaseCallback):
             )
 
     @staticmethod
-    def compare(player1: Player, player2: Player, n_battles: int) -> dict[str, float]:
+    def compare(
+        player1: Player, player2: Player, n_battles: int, per_reg: bool = True
+    ) -> dict[str, float]:
         """
         Run battles between two players and return player1's win rates.
 
@@ -351,20 +349,23 @@ class Callback(BaseCallback):
             player1: First player (whose win rate is returned).
             player2: Second player.
             n_battles: Number of battles to run (per regulation if multi-reg).
+            per_reg: Whether to break down win rates by regulation in multi-reg
+                mode. When False, only the aggregate is returned.
 
         Returns:
-            Dict mapping label to win rate. Always contains "all". When in
-            multi-reg mode, also contains per-regulation entries like "reg-f".
+            Dict mapping suffix to win rate. Always contains "" (aggregate).
+            When per_reg is True and in multi-reg mode, also contains
+            per-regulation entries like "_reg_f".
         """
         assert isinstance(player1._team, RandomTeamBuilder)
         assert isinstance(player2._team, RandomTeamBuilder)
         available_regs = player1._team.available_regs
-        if available_regs is None:
+        if available_regs is None or not per_reg:
             asyncio.run(player1.battle_against(player2, n_battles=n_battles))
             win_rate = player1.win_rate
             player1.reset_battles()
             player2.reset_battles()
-            return {"all": win_rate}
+            return {"": win_rate}
         else:
             win_rates: dict[str, float] = {}
             total_wins = 0
@@ -376,10 +377,10 @@ class Callback(BaseCallback):
                 player1._format = fmt
                 player2._format = fmt
                 asyncio.run(player1.battle_against(player2, n_battles=n_battles))
-                win_rates[f"reg{reg}"] = player1.win_rate
+                win_rates[f"_reg_{reg}"] = player1.win_rate
                 total_wins += player1.n_won_battles
                 total_battles += player1.n_finished_battles
                 player1.reset_battles()
                 player2.reset_battles()
-            win_rates["all"] = total_wins / total_battles if total_battles > 0 else 0
+            win_rates[""] = total_wins / total_battles if total_battles > 0 else 0
             return win_rates

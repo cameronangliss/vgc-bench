@@ -46,7 +46,7 @@ async def play(
     """
     assert not (play_on_ladder and reg is None), "ladder mode requires a specific --reg"
     print("Setting up...")
-    suffix = f"-{results_suffix}" if results_suffix else ""
+    suffix = f"_{results_suffix}" if results_suffix else ""
     results_path = Path(f"results{suffix}")
     if results_suffix:
         with (results_path / "team1.txt").open() as f:
@@ -69,13 +69,10 @@ async def play(
     )
     if reg is None:
         agent._accepted_formats = {format_map[r] for r in get_available_regs()}
-    method_dir = results_path / f"saves-{method}"
-    if reg is not None and num_teams is not None:
-        method_dir = method_dir / f"reg{reg}-{num_teams}-teams"
-    elif reg is not None:
-        method_dir = method_dir / f"reg{reg}"
-    elif num_teams is not None:
-        method_dir = method_dir / f"{num_teams}-teams"
+    method_dir = results_path / f"saves_{method}"
+    method_dir = method_dir / (f"reg_{reg}" if reg is not None else "reg_all")
+    if num_teams is not None:
+        method_dir = method_dir / f"{num_teams}_teams"
     saves_path = method_dir / f"seed{run_id}"
     filepath = sorted(saves_path.iterdir(), key=lambda p: int(p.stem))[-1]
     agent.set_policy(filepath, device("cuda:0"))
@@ -118,7 +115,7 @@ if __name__ == "__main__":
         "--method",
         type=str,
         required=True,
-        help="method string for checkpoint directory, e.g. bc-do-xm",
+        help="method string for checkpoint directory, e.g. bc_do_xm",
     )
     parser.add_argument(
         "--num_teams",

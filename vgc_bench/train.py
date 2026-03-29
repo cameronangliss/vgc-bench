@@ -99,27 +99,23 @@ def train(
             ]
         )
     )
-    method = "".join(
-        [
-            "-bc" if behavior_clone else "",
-            "-" + learning_style.abbrev,
-            "-xm" if not allow_mirror_match else "",
-            "-xt" if not choose_on_teampreview else "",
-        ]
-    )[1:]
-    suffix = f"-{results_suffix}" if results_suffix else ""
+    method_tags = [
+        "bc" if behavior_clone else None,
+        learning_style.abbrev,
+        "xm" if not allow_mirror_match else None,
+        "xt" if not choose_on_teampreview else None,
+    ]
+    method = "_".join([p for p in method_tags if p is not None])
+    suffix = f"_{results_suffix}" if results_suffix else ""
     output_dir = Path(f"results{suffix}")
     output_dir.mkdir(exist_ok=True)
     if team1 and team2:
         (output_dir / "team1.txt").write_text(team1[1:])
         (output_dir / "team2.txt").write_text(team2[1:])
-    method_dir = output_dir / f"saves-{method}"
-    if reg is not None and num_teams is not None:
-        method_dir = method_dir / f"reg{reg}-{num_teams}-teams"
-    elif reg is not None:
-        method_dir = method_dir / f"reg{reg}"
-    elif num_teams is not None:
-        method_dir = method_dir / f"{num_teams}-teams"
+    method_dir = output_dir / f"saves_{method}"
+    method_dir = method_dir / (f"reg_{reg}" if reg is not None else "reg_all")
+    if num_teams is not None:
+        method_dir = method_dir / f"{num_teams}_teams"
     save_dir = method_dir / f"seed{run_id}"
     ppo = PPO(
         MaskedActorCriticPolicy,
@@ -133,7 +129,7 @@ def train(
         batch_size=512,
         gamma=1,
         ent_coef=0.02,
-        tensorboard_log=str(output_dir / f"logs-{method}"),
+        tensorboard_log=str(output_dir / f"logs_{method}"),
         policy_kwargs={"d_model": 256, "choose_on_teampreview": choose_on_teampreview},
         device=device,
     )
@@ -169,7 +165,7 @@ def train(
             results_suffix,
             evaluate,
         ),
-        tb_log_name=str(save_dir.relative_to(output_dir / f"saves-{method}")),
+        tb_log_name=str(save_dir.relative_to(output_dir / f"saves_{method}")),
         reset_num_timesteps=False,
     )
     env.close()
