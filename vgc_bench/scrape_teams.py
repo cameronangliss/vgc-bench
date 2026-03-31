@@ -118,13 +118,15 @@ def normalize_team_text(text: str) -> str:
         blocks.append(block)
     normalized = []
     for block in blocks:
-        header = block[0]
-        # Strip nicknames: "Nickname (Species) @ Item" -> "Species @ Item"
-        # Must not match gender markers (M) or (F)
+        # Join everything before "Ability:" into one line (fixes multi-byte
+        # Unicode nicknames split across lines), then strip the nickname.
+        header = ""
+        while block and not re.match(r"\s*Ability:", block[0]):
+            header += block.pop(0)
         nick_match = re.match(r"^.+?\(([^)]{2,})\)\s*(.*)$", header)
         if nick_match:
             header = f"{nick_match.group(1)} {nick_match.group(2)}".strip()
-            block[0] = header
+        block.insert(0, header)
         asone = (
             "As One (Glastrier)"
             if "calyrex-ice" in header.lower()

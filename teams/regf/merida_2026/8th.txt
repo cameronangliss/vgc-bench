@@ -22,9 +22,7 @@ Adamant Nature
 - Earthquake
 - Protect
 
-â
-Ishmaelâ
- (Ogerpon-Wellspring) @ Wellspring Mask
+Ogerpon-Wellspring @ Wellspring Mask
 Ability: Water Absorb
 Level: 50
 Tera Type: Water
@@ -36,9 +34,7 @@ IVs: 20 SpA
 - Follow Me
 - Spiky Shield
 
-â
-ReoNaâ
- (Incineroar) @ Safety Goggles
+Incineroar @ Safety Goggles
 Ability: Intimidate
 Level: 50
 Tera Type: Dragon
