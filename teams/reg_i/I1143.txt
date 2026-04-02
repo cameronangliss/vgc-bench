@@ -1,0 +1,70 @@
+Indeedee-F @ Eject Button
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 20 Spe
+- Psychic
+- Follow Me
+- Helping Hand
+- Trick Room
+
+Sneasler @ Iron Ball
+Ability: Unburden
+Level: 50
+Tera Type: Rock
+EVs: 132 HP / 252 Atk / 124 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Fling
+- Fake Out
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Taunt
+- Rain Dance
+
+Kyogre @ Power Lens
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 36 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Hydro Pump
+- Thunder
+- Protect
+
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+IVs: 0 Spe
+- Glacial Lance
+- Crunch
+- Trick Room
+- Protect
+
+Ting-Lu @ Safety Goggles
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 212 HP / 76 Def / 220 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Ruination
+- Stomping Tantrum
+- Whirlwind
+- Taunt

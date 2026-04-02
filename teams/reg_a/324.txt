@@ -1,0 +1,67 @@
+Gothitelle (M) @ Iapapa Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Hypnosis
+- Heal Pulse
+- Fake Out
+- Protect
+
+Gyarados (M) @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Waterfall
+- Tera Blast
+- Dragon Dance
+- Protect
+
+Kingambit (M) @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 244 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Brick Break
+
+Amoonguss (M) @ Wiki Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 20 Def / 236 SpD
+Calm Nature
+IVs: 0 Atk / 26 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Azumarill (F) @ Sitrus Berry
+Ability: Sap Sipper
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Aqua Jet
+- Sing
+- Perish Song
+- Protect
+
+Meowscarada (M) @ Choice Band
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Brick Break
+- U-turn

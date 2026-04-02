@@ -1,0 +1,68 @@
+Palafin-Hero @ Clear Amulet
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 252 Atk / 4 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Wave Crash
+- Jet Punch
+- Haze
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Wide Guard
+- Hurricane
+- Weather Ball
+- Protect
+
+Salamence @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Hurricane
+- Air Slash
+- Tailwind
+
+Tsareena @ Zoom Lens
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Helping Hand
+- Power Whip
+- Triple Axel
+- Taunt
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Swords Dance
+- Iron Head
+- Sucker Punch
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect

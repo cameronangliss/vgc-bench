@@ -1,0 +1,68 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Lunala @ Electric Seed
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 52 Def / 156 SpA / 20 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Calm Mind
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 220 SpD
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn
+
+Incineroar @ Power Bracer
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 188 Def / 68 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Zapdos-Galar @ Covert Cloak
+Ability: Defiant
+Level: 50
+Tera Type: Normal
+EVs: 156 HP / 244 Atk / 4 Def / 12 SpD / 92 Spe
+Adamant Nature
+- Thunderous Kick
+- Brave Bird
+- Taunt
+- Detect
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk / 17 Spe
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Life Dew

@@ -1,0 +1,74 @@
+Primarina @ Life Orb
+Ability: Liquid Voice
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 108 HP / 60 Def / 188 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Pledge
+- Hyper Voice
+- Moonblast
+- Protect
+
+Decidueye-Hisui @ Razor Claw
+Ability: Scrappy
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 60 HP / 196 Atk / 252 Spe
+Jolly Nature
+- Triple Arrows
+- Grass Pledge
+- Leaf Blade
+- Protect
+
+Sylveon @ Choice Specs
+Ability: Pixilate
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 108 Def / 252 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Shadow Ball
+- Hyper Beam
+- Psychic
+
+Indeedee @ Ability Shield
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 236 HP / 124 Def / 116 SpA / 4 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Dazzling Gleam
+- Trick Room
+- Imprison
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Knock Off
+- Flower Trick
+- Protect
+- Grass Pledge
+
+Weezing @ Lum Berry
+Ability: Neutralizing Gas
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 252 HP / 116 SpA / 140 SpD
+Modest Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Taunt
+- Protect
+- Sludge Bomb

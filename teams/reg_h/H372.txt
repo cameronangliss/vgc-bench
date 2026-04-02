@@ -1,0 +1,69 @@
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 180 Def / 84 SpD
+Calm Nature
+IVs: 4 Atk
+- Follow Me
+- Protect
+- Baton Pass
+- Stealth Rock
+
+Talonflame @ Sky Plate
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 12 SpA
+- Brave Bird
+- Flare Blitz
+- Quick Guard
+- Tailwind
+
+Pawmot @ Focus Sash
+Ability: Iron Fist
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Double Shock
+- Close Combat
+- Ice Punch
+- Fake Out
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 132 Atk / 92 Def / 252 SpD / 28 Spe
+Impish Nature
+IVs: 24 SpA
+- Yawn
+- Wave Crash
+- Fissure
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Draco Meteor
+- Muddy Water
+- Dragon Pulse
+- Icy Wind
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

@@ -1,0 +1,69 @@
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 16 Spe
+- Facade
+- Protect
+- Headlong Rush
+- Rock Slide
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 164 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk / 2 Spe
+- Protect
+- Rage Powder
+- Pollen Puff
+- Spore
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 100 HP / 164 Atk / 36 Def / 204 SpD
+Adamant Nature
+IVs: 6 Spe
+- Drain Punch
+- Fake Out
+- Thunder Punch
+- Heavy Slam
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 84 Def / 172 SpD
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Trick Room
+- Lunar Blessing
+- Helping Hand
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 220 Atk / 4 Def / 180 SpD / 28 Spe
+Adamant Nature
+- Flare Blitz
+- Will-O-Wisp
+- Extreme Speed
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Protect
+- Sucker Punch
+- Sacred Sword

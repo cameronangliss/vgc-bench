@@ -1,0 +1,68 @@
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 20 Atk / 44 Def / 188 SpD / 12 Spe
+Impish Nature
+IVs: 24 SpA
+- Brave Bird
+- Body Press
+- Bulk Up
+- Roost
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Coaching
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Stomping Tantrum
+- Earthquake
+- Dragon Claw
+- Protect
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 36 Def / 212 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 6 Atk
+- Blizzard
+- Freeze-Dry
+- Aurora Veil
+- Protect
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 204 HP / 212 Atk / 36 SpD / 52 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Low Kick
+
+Magmar @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 212 Def / 12 SpA / 4 SpD / 12 Spe
+Bold Nature
+IVs: 16 Atk
+- Overheat
+- Will-O-Wisp
+- Follow Me
+- Protect

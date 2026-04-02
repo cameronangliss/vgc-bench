@@ -1,0 +1,66 @@
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 4 Atk / 236 Def / 12 SpD / 12 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 196 Def / 4 SpA / 4 SpD / 52 Spe
+Bold Nature
+IVs: 0 Atk
+- Flamethrower
+- Struggle Bug
+- Rage Powder
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 172 HP / 4 Atk / 156 Def / 4 SpD / 172 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 60 HP / 4 Def / 188 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Snarl
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Ice Shard
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 228 HP / 252 Atk / 4 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Low Kick
+- Rock Slide

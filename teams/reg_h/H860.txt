@@ -1,0 +1,68 @@
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Low Kick
+- Tailwind
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 204 Atk / 4 Def / 12 SpD / 100 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 52 Def / 4 SpD / 196 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Ursaluna-Bloodmoon @ Sitrus Berry
+Ability: Mind's Eye
+Level: 50
+Tera Type: Electric
+EVs: 156 HP / 4 Def / 68 SpA / 100 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Yawn
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Kilowattrel @ Focus Sash
+Ability: Competitive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Air Slash
+- Electroweb
+- Protect

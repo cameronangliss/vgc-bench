@@ -1,0 +1,68 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 Def / 252 SpA / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Power Gem
+
+Maushold @ Mental Herb
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 188 Def / 68 Spe
+Jolly Nature
+- Helping Hand
+- Taunt
+- Feint
+- Follow Me
+
+Sandy Shocks @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Tera Blast
+- Earth Power
+- Protect
+- Thunderbolt
+
+Talonflame @ Life Orb
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Brave Bird
+- Flare Blitz
+- Protect
+- Tailwind
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 244 Def / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Imprison
+- Follow Me
+- Psychic
+- Trick Room
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Psychic
+EVs: 220 HP / 252 Atk / 36 Spe
+Adamant Nature
+- Rock Slide
+- Crunch
+- Low Kick
+- Tera Blast

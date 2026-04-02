@@ -1,0 +1,68 @@
+Maushold @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+- Beat Up
+- Taunt
+- Follow Me
+- Protect
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 36 Atk / 12 Def / 60 SpD / 220 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 188 Def / 68 SpD
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+- Rage Powder
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 100 Def / 156 SpD
+Careful Nature
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Wide Guard
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 12 Def / 116 SpA / 36 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Draco Meteor
+- Body Press
+- Flash Cannon

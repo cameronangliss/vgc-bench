@@ -1,0 +1,70 @@
+Poliwrath @ Sitrus Berry
+Ability: Swift Swim
+Level: 50
+Tera Type: Steel
+EVs: 52 HP / 212 Atk / 4 Def / 4 SpD / 236 Spe
+Jolly Nature
+- Liquidation
+- Drain Punch
+- Protect
+- Belly Drum
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Moonblast
+- Encore
+- Endeavor
+
+Magmar @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 4 SpA / 92 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Will-O-Wisp
+- Overheat
+- Taunt
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 84 Def / 196 SpD
+Calm Nature
+IVs: 0 Atk
+- Expanding Force
+- Hyper Voice
+- Trick Room
+- Imprison
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Wide Guard
+- Hurricane
+- Tailwind
+
+Hydreigon @ Razor Claw
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Heat Wave
+- Focus Energy
+- Protect

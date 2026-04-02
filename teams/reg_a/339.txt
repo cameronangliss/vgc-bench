@@ -1,0 +1,68 @@
+Dragonite (F) @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Extreme Speed
+- Dragon Claw
+- Ice Spinner
+- Iron Head
+
+Quaquaval (F) @ Focus Sash
+Ability: Moxie
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Aqua Step
+- Aqua Jet
+- Protect
+
+Ceruledge @ Safety Goggles
+Ability: Weak Armor
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 116 Atk / 100 Def / 4 SpD / 36 Spe
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Swords Dance
+- Protect
+
+Meowscarada @ Choice Scarf
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 172 HP / 212 Atk / 20 Def / 12 SpD / 92 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- U-turn
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 136 HP / 132 Def / 144 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Helping Hand
+- Protect
+
+Hydreigon @ Covert Cloak
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 Def / 212 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Flash Cannon
+- Tailwind

@@ -1,0 +1,70 @@
+Ting-Lu @ Clear Amulet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 68 HP / 156 Atk / 4 Def / 204 SpD / 76 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Ruination
+- Heavy Slam
+
+Chi-Yu @ Safety Goggles
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 156 Def / 116 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Tera Blast
+- Dark Pulse
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 44 Def / 116 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Trick Room
+- Shadow Ball
+
+Iron Bundle @ Choice Specs
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 12 HP / 4 Def / 164 SpA / 76 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tera Blast
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 156 Atk / 108 SpD
+Adamant Nature
+IVs: 10 Spe
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+
+Corviknight @ Choice Band
+Ability: Mirror Armor
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Atk / 76 SpD
+Adamant Nature
+IVs: 4 Spe
+- Tera Blast
+- U-turn
+- Iron Head
+- Brave Bird

@@ -1,0 +1,70 @@
+Calyrex-Ice @ Icicle Plate
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 36 Atk / 36 Def / 180 SpD
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- Seed Bomb
+- Trick Room
+- Protect
+
+Kyogre @ Iron Ball
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Water Spout
+- Origin Pulse
+- Ice Beam
+- Protect
+
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 236 Atk / 172 SpD
+Brave Nature
+IVs: 0 Spe
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Rillaboom @ Meadow Plate
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 132 Atk / 124 Def
+Adamant Nature
+- Wood Hammer
+- U-turn
+- Fake Out
+- Taunt
+
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 4 SpA / 12 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Sludge Bomb
+- Pollen Puff
+
+Indeedee-F @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 124 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Psychic
+- Helping Hand
+- Trick Room

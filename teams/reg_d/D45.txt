@@ -1,0 +1,67 @@
+Kleavor (M) @ Rocky Helmet
+Ability: Sharpness
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 148 Atk / 68 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Stone Axe
+- X-Scissor
+- Feint
+- Quick Guard
+
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 164 HP / 172 Def / 76 SpA / 4 SpD / 92 Spe
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Taunt
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Extreme Speed
+- Outrage
+- Stomping Tantrum
+- Aqua Jet
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Urshifu-Rapid-Strike (M) @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Ice Spinner
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 100 Def / 36 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Imprison
+- Trick Room

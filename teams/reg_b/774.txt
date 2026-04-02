@@ -1,0 +1,65 @@
+Tatsugiri (F) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 236 SpA / 20 SpD / 252 Spe
+Timid Nature
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Sleep Talk
+
+Dondozo (F) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 156 Atk / 236 Spe
+Adamant Nature
+- Wave Crash
+- Order Up
+- Substitute
+- Protect
+
+Volcarona (F) @ Focus Sash
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Overheat
+- Struggle Bug
+- Rage Powder
+- Tailwind
+
+Annihilape (M) @ Lum Berry
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 124 HP / 44 Atk / 12 Def / 108 SpD / 220 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 244 SpA / 12 SpD / 252 Spe
+Timid Nature
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Maushold @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 44 Def / 140 SpD / 68 Spe
+Jolly Nature
+- Beat Up
+- Follow Me
+- Super Fang
+- Protect

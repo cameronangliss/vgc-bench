@@ -1,0 +1,69 @@
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Solar Beam
+- Protect
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 24 Def / 132 SpA / 124 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- Psychic
+- Protect
+
+Oranguru @ Mental Herb
+Ability: Inner Focus
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 24 SpA / 92 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Instruct
+- Trick Room
+- Psychic
+- Protect
+
+Lilligant @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Leaf Storm
+- Helping Hand
+- After You
+- Protect
+
+Hariyama @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Wide Guard
+- Fake Out
+- Close Combat
+- Facade
+
+Dragapult @ Life Orb
+Ability: Clear Body
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Dance
+- Dragon Darts
+- Tera Blast
+- Will-O-Wisp

@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Grass
+EVs: 92 HP / 4 Atk / 156 Def / 4 SpD / 252 Spe
+Impish Nature
+- Heavy Slam
+- Body Press
+- Wide Guard
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 172 HP / 236 Atk / 4 Def / 36 SpD / 60 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Iron Treads @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- High Horsepower
+- Steel Roller
+- Knock Off
+- Protect
+
+Tornadus @ Sky Plate
+Ability: Prankster
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 52 Def / 4 SpA / 52 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Taunt
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk / 28 Spe
+- Psychic
+- Follow Me
+- Trick Room
+- Imprison

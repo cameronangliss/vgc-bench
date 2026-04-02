@@ -1,0 +1,69 @@
+Kingambit (M) @ Assault Vest
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 236 HP / 196 Atk / 68 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Iron Head
+- Tera Blast
+
+Torkoal (M) @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Clear Smog
+- Protect
+
+Lilligant @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ground
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- After You
+- Sleep Powder
+- Leaf Storm
+- Tera Blast
+
+Oranguru (M) @ Safety Goggles
+Ability: Inner Focus
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 108 Def / 4 SpA / 156 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Trick Room
+- Instruct
+- Psyshock
+- Taunt
+
+Hariyama (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 236 Atk / 4 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Knock Off
+- Detect
+
+Sylveon (F) @ Life Orb
+Ability: Pixilate
+Level: 50
+Tera Type: Ghost
+EVs: 148 HP / 124 Def / 236 SpA
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Calm Mind
+- Shadow Ball
+- Protect

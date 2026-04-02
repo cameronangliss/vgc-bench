@@ -1,0 +1,68 @@
+Cinderace @ Choice Scarf
+Ability: Libero
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Pyro Ball
+- Trailblaze
+- Iron Head
+- U-turn
+
+Torkoal @ Sitrus Berry
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 252 Def / 12 SpA
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Heat Wave
+- Body Press
+- Yawn
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Tornadus (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Sunny Day
+- Foul Play
+- Heat Wave
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Skill Swap
+- Trick Room
+- Imprison
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 76 SpD
+Impish Nature
+- Ruination
+- Sand Tomb
+- Stomping Tantrum
+- Snarl

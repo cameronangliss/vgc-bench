@@ -1,0 +1,68 @@
+Ho-Oh @ Clear Amulet
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 156 Atk / 108 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Sacred Fire
+- Brave Bird
+- Tailwind
+- Protect
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 28 HP / 4 Def / 252 SpA / 4 SpD / 220 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Dazzling Gleam
+- Draco Meteor
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 92 HP / 236 Atk / 12 Def / 164 SpD
+Brave Nature
+IVs: 2 Spe
+- Low Kick
+- Drain Punch
+- Wild Charge
+- Fake Out
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 164 Def / 92 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Foul Play
+- Helping Hand
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 116 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Earthquake
+- Headlong Rush
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 76 Def / 180 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot

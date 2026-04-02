@@ -1,0 +1,66 @@
+Dragonite (F) @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Outrage
+- Brick Break
+- Extreme Speed
+- Stomping Tantrum
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Protect
+- Throat Chop
+- Sucker Punch
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 252 Atk / 4 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Protect
+- Flare Blitz
+- Extreme Speed
+- Will-O-Wisp
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Dazzling Gleam
+- Moonblast
+- Protect
+
+Great Tusk @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Headlong Rush
+- Earthquake
+- Close Combat
+
+Talonflame (M) @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Tailwind
+- Taunt
+- Brave Bird
+- Will-O-Wisp

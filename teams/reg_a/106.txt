@@ -1,0 +1,65 @@
+Murkrow (M) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Haze
+- Tailwind
+- Air Slash
+
+Meowscarada (M) @ Life Orb
+Ability: Overgrow
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Flower Trick
+- Sucker Punch
+- Knock Off
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+EVs: 76 HP / 4 Def / 252 SpA / 4 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Psyshock
+- Steel Beam
+
+Tyranitar (M) @ Lum Berry
+Ability: Sand Stream
+Level: 50
+EVs: 220 HP / 44 Atk / 4 Def / 76 SpD / 164 Spe
+Adamant Nature
+- Crunch
+- Rock Slide
+- Dragon Dance
+- Protect
+
+Arcanine (M) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Atk / 4 Def / 76 SpD / 100 Spe
+Adamant Nature
+- Flare Blitz
+- Bulldoze
+- Snarl
+- Extreme Speed
+
+Garchomp (M) @ Clear Amulet
+Ability: Sand Veil
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Swords Dance
+- Earthquake
+- Protect

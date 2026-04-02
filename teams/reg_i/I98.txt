@@ -1,0 +1,65 @@
+Kyogre @ Mystic Water
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 132 Def / 116 SpA / 4 SpD / 156 Spe
+Modest Nature
+- Water Spout
+- Origin Pulse
+- Ice Beam
+- Protect
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Astral Barrage
+- Encore
+- Disable
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 4 Atk / 188 Def / 60 SpD / 4 Spe
+Impish Nature
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 20 Def / 76 SpD / 44 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 148 HP / 84 Atk / 76 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Knock Off
+- Acrobatics
+- Tailwind
+- Protect

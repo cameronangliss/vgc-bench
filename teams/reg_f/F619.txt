@@ -1,0 +1,68 @@
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 84 HP / 196 Atk / 36 Def / 44 SpD / 148 Spe
+Adamant Nature
+- Icicle Crash
+- Glaive Rush
+- Ice Shard
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 44 Atk / 76 Def / 124 SpD / 20 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 204 Def / 52 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Taunt
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 180 Def / 92 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Sludge Bomb
+- Rage Powder
+- Spore
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 132 HP / 60 Def / 180 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

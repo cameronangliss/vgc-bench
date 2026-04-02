@@ -1,0 +1,67 @@
+Talonflame (F) @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Tailwind
+- Flare Blitz
+- Brave Bird
+- Taunt
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Play Rough
+- Protect
+
+Iron Hands @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+IVs: 2 Spe
+- Fake Out
+- Wild Charge
+- Drain Punch
+- Earthquake
+
+Baxcalibur (F) @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Dragon
+EVs: 252 Atk / 100 Def / 156 SpD
+Adamant Nature
+- Swords Dance
+- Ice Shard
+- Glaive Rush
+- Protect
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 196 HP / 116 Def / 196 SpD
+Sassy Nature
+- Thunder Wave
+- Light Screen
+- Reflect
+- Spirit Break
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 4 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Snarl
+- Heat Wave
+- Protect

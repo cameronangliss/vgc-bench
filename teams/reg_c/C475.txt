@@ -1,0 +1,67 @@
+Braviary @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Brave Bird
+- Close Combat
+- Rock Slide
+- U-turn
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 76 HP / 252 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Flare Blitz
+- Wild Charge
+- Extreme Speed
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 60 HP / 252 Def / 36 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Energy Ball
+- Protect
+
+Chien-Pao @ Sitrus Berry
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 220 Atk / 44 Def / 36 SpD / 68 Spe
+Jolly Nature
+- Icicle Crash
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 20 Spe
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Pollen Puff
+- Leech Seed
+- Protect
+
+Ting-Lu @ Soft Sand
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 36 HP / 156 Atk / 4 Def / 84 SpD / 228 Spe
+Adamant Nature
+- Earthquake
+- Heavy Slam
+- Ruination
+- Taunt

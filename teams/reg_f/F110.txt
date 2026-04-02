@@ -1,0 +1,68 @@
+Ninetales @ Rocky Helmet
+Ability: Drought
+Level: 50
+Tera Type: Ghost
+EVs: 196 HP / 36 Def / 20 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Will-O-Wisp
+- Disable
+- Protect
+
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 196 Def / 4 SpA / 76 SpD / 4 Spe
+Calm Nature
+- Fake Out
+- Protect
+- Psychic Noise
+- Trick Room
+
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Grass
+EVs: 52 HP / 84 Atk / 36 Def / 116 SpD / 220 Spe
+Impish Nature
+- Wave Crash
+- Order Up
+- Protect
+- Yawn
+
+Tatsugiri @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Poison
+EVs: 20 HP / 156 Def / 76 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Taunt
+- Protect
+
+Scream Tail @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 116 Def / 4 SpA / 36 SpD / 116 Spe
+Timid Nature
+IVs: 0 Atk
+- Perish Song
+- Protect
+- Encore
+- Dazzling Gleam
+
+Incineroar @ Figy Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 60 Def / 180 SpD / 28 Spe
+Careful Nature
+- Flare Blitz
+- Parting Shot
+- Fake Out
+- Fire Spin

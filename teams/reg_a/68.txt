@@ -1,0 +1,66 @@
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 252 HP / 12 Def / 76 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Thunderbolt
+- Protect
+- Nasty Plot
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Protect
+- Dragon Claw
+- Swords Dance
+
+Arcanine @ Figy Berry
+Ability: Intimidate
+Level: 50
+EVs: 236 HP / 44 Def / 4 SpA / 4 SpD / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 156 Def / 100 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Protect
+- Foul Play
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 140 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Foul Play
+- Taunt
+- Quash

@@ -1,0 +1,68 @@
+Dragonite (M) @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 116 HP / 252 Atk / 140 Spe
+Adamant Nature
+- Extreme Speed
+- Tera Blast
+- Outrage
+- Earthquake
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- Protect
+
+Talonflame (F) @ Life Orb
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Brave Bird
+- Will-O-Wisp
+- Tailwind
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 4 Def / 252 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Tera Blast
+- Focus Blast
+
+Dondozo (F) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Flying
+EVs: 116 HP / 180 Atk / 212 Spe
+Jolly Nature
+- Wave Crash
+- Order Up
+- Yawn
+- Protect
+
+Tatsugiri-Stretchy (F) @ Choice Scarf
+Ability: Storm Drain
+Level: 50
+Tera Type: Dragon
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Dragon Pulse
+- Icy Wind

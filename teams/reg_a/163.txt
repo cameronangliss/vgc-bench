@@ -1,0 +1,69 @@
+Meowscarada @ Clear Amulet
+Ability: Protean
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 0 SpA
+- Flower Trick
+- Play Rough
+- Knock Off
+- U-turn
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 0 SpA
+- Brave Bird
+- U-turn
+- Protect
+- Tailwind
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Hydro Pump
+- Volt Switch
+- Protect
+- Thunderbolt
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Recover
+- Salt Cure
+- Body Press
+- Iron Defense
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 252 SpD / 8 Spe
+Careful Nature
+IVs: 0 SpA
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Snarl
+- Will-O-Wisp
+- Protect
+- Heat Wave

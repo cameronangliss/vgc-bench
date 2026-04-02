@@ -1,0 +1,69 @@
+Tornadus (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 148 Def / 4 SpA / 36 SpD / 68 Spe
+Bold Nature
+IVs: 9 Atk
+- Bleakwind Storm
+- Tailwind
+- Taunt
+- Sunny Day
+
+Walking Wake @ Mystic Water
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 4 Def / 252 SpA / 4 SpD / 190 Spe
+Modest Nature
+- Hydro Steam
+- Dragon Pulse
+- Flamethrower
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 6 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 20 HP / 102 Def / 196 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 2 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Power Gem
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 150 Atk / 8 Def / 100 Spe
+Adamant Nature
+IVs: 13 SpA
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Entei @ Life Orb
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 60 HP / 252 Atk / 4 Def / 4 SpD / 190 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Protect

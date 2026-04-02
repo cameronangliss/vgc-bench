@@ -1,0 +1,69 @@
+Flutter Mane @ Room Service
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 252 Def / 36 SpA
+Modest Nature
+IVs: 0 Atk / 29 Spe
+- Moonblast
+- Pain Split
+- Protect
+- Trick Room
+
+Chi-Yu @ Safety Goggles
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Substitute
+- Protect
+
+Wo-Chien @ Choice Specs
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Energy Ball
+- Dark Pulse
+- Leaf Storm
+- Pollen Puff
+
+Dragonite @ Lum Berry
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Tera Blast
+- Extreme Speed
+- Stomping Tantrum
+- Protect
+
+Dondozo @ Sitrus Berry
+Ability: Water Veil
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 12 Def / 252 SpD
+Adamant Nature
+- Wave Crash
+- Heavy Slam
+- Tera Blast
+- Yawn
+
+Tatsugiri @ Assault Vest
+Ability: Commander
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Muddy Water
+- Draco Meteor
+- Hydro Pump

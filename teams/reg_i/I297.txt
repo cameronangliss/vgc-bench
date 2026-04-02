@@ -1,0 +1,67 @@
+Calyrex-Shadow @ Choice Scarf
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 4 Def / 252 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Will-O-Wisp
+- Trick
+
+Lunala @ Rocky Helmet
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 108 Def / 180 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Wide Guard
+- Trick Room
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 196 Atk / 4 Def / 44 SpD / 12 Spe
+Adamant Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- U-turn
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 236 Atk / 4 Def / 172 SpD / 52 Spe
+Adamant Nature
+- Surging Strikes
+- U-turn
+- Aqua Jet
+- Detect
+
+Rillaboom @ Choice Band
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 252 Atk / 4 Def / 84 SpD / 28 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+- U-turn
+
+Ting-Lu @ Sitrus Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 12 Def / 244 SpD
+Careful Nature
+- Ruination
+- Heavy Slam
+- Stealth Rock
+- Whirlwind

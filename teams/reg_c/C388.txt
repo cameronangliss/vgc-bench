@@ -1,0 +1,68 @@
+Ting-Lu @ Clear Amulet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 252 Atk / 12 SpD
+Adamant Nature
+- Earthquake
+- Ruination
+- Heavy Slam
+- Protect
+
+Glimmora @ Choice Scarf
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Energy Ball
+- Power Gem
+- Earth Power
+
+Whiscash (F) @ Leftovers
+Ability: Anticipation
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 188 Def / 76 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Earth Power
+- Helping Hand
+- Scary Face
+- Tickle
+
+Ceruledge (M) @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 244 Atk / 52 Def
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Iron Head
+- Flare Blitz
+
+Tinkaton @ Light Clay
+Ability: Mold Breaker
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 92 Def / 164 SpD
+Careful Nature
+- Knock Off
+- Reflect
+- Light Screen
+- Thunder Wave
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Aqua Jet
+- Thunder Punch
+- Outrage

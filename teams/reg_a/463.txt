@@ -1,0 +1,67 @@
+Volcarona (F) @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 36 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Bug Buzz
+- Quiver Dance
+- Protect
+
+Tauros-Paldea-Aqua @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wave Crash
+- Raging Bull
+- Close Combat
+- Chilling Water
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Clear Smog
+- Rage Powder
+- Spore
+
+Pawmot (F) @ Focus Sash
+Ability: Natural Cure
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Double Shock
+- Revival Blessing
+- Fake Out
+
+Baxcalibur (M) @ Life Orb
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Dragon
+EVs: 228 HP / 36 Atk / 60 Def / 140 SpD / 44 Spe
+Adamant Nature
+- Glaive Rush
+- Ice Shard
+- Swords Dance
+- Protect
+
+Garganacl (F) @ Sitrus Berry
+Ability: Purifying Salt
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 20 Def / 236 SpD
+Careful Nature
+- Salt Cure
+- Recover
+- Wide Guard
+- Protect

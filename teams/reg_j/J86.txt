@@ -1,0 +1,68 @@
+Arceus-Fairy @ Pixie Plate
+Ability: Multitype
+Level: 50
+Tera Type: Dragon
+EVs: 228 HP / 4 Def / 76 SpA / 68 SpD / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Judgment
+- Will-O-Wisp
+- Taunt
+- Protect
+
+Terapagos-Terastal @ Leftovers
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 244 Def / 84 SpA / 4 Spe
+Bold Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 236 Def / 20 SpD
+Impish Nature
+- U-turn
+- Flare Blitz
+- Fake Out
+- Helping Hand
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 252 Atk / 4 Def / 12 SpD / 68 Spe
+Adamant Nature
+- U-turn
+- Wood Hammer
+- Fake Out
+- Grassy Glide
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 188 HP / 4 Atk / 92 Def / 4 SpD / 220 Spe
+Jolly Nature
+- Ivy Cudgel
+- Knock Off
+- Follow Me
+- Spiky Shield
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Trick

@@ -1,0 +1,66 @@
+Muk-Alola (F) @ Leftovers
+Ability: Power of Alchemy
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 198 Def / 60 SpD
+Impish Nature
+- Knock Off
+- Minimize
+- Substitute
+- Protect
+
+Smeargle (F) @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Normal
+EVs: 248 HP / 10 Def / 252 Spe
+Jolly Nature
+- Spore
+- Wide Guard
+- Follow Me
+- Fake Out
+
+Gholdengo @ Covert Cloak
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 198 SpA / 60 Spe
+Bashful Nature
+IVs: 23 Atk
+- Make It Rain
+- Shadow Ball
+- Thunder
+- Recover
+
+Latias (F) @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Psychic
+EVs: 252 HP / 6 Def / 252 Spe
+Timid Nature
+- Stored Power
+- Thunder
+- Psych Up
+- Recover
+
+Flamigo (M) @ White Herb
+Ability: Costar
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 6 Spe
+Lonely Nature
+- Throat Chop
+- Acrobatics
+- Wide Guard
+- Close Combat
+
+Amoonguss (F) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 109 Def / 148 SpD
+Bold Nature
+- Clear Smog
+- Pollen Puff
+- Rage Powder
+- Spore

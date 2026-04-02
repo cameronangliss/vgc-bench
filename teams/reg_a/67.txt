@@ -1,0 +1,67 @@
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Heat Wave
+- Eruption
+- Helping Hand
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 4 Atk / 204 Def / 44 SpD / 20 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Thunder Wave
+
+Glimmora @ Life Orb
+Ability: Toxic Debris
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Power Gem
+- Sludge Bomb
+- Tera Blast
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Extreme Speed
+- Iron Head
+- Dragon Claw
+- Fire Punch
+
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 156 Def / 100 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Protect
+- Clear Smog
+
+Lilligant (F) @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sleep Powder
+- Leaf Storm
+- After You
+- Protect

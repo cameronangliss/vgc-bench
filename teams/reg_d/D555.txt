@@ -1,0 +1,65 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Tornadus @ Life Orb
+Ability: Prankster
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 84 SpA / 172 Spe
+Timid Nature
+- Bleakwind Storm
+- Tera Blast
+- Tailwind
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 44 SpA / 212 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Regidrago @ Choice Scarf
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Dragon Energy
+- Draco Meteor
+- Earth Power
+- Tera Blast
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 100 HP / 252 Atk / 12 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Flare Blitz
+- Head Smash
+- Rock Slide
+- Extreme Speed
+
+Scizor @ Clear Amulet
+Ability: Technician
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Bullet Punch
+- Feint
+- Helping Hand
+- Quick Guard

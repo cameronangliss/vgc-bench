@@ -1,0 +1,67 @@
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 236 Atk / 252 Def / 12 SpD / 4 Spe
+Impish Nature
+- Throat Chop
+- Fissure
+- Heavy Slam
+- Stomping Tantrum
+
+Iron Valiant @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Leaf Blade
+- Shadow Sneak
+- Close Combat
+- Spirit Break
+
+Amoonguss (F) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 228 HP / 124 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Rage Powder
+- Spore
+- Pollen Puff
+
+Baxcalibur (M) @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 84 HP / 252 Atk / 4 Def / 108 SpD / 60 Spe
+Adamant Nature
+- Icicle Crash
+- Glaive Rush
+- Ice Shard
+- Protect
+
+Gyarados (M) @ Lum Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 148 HP / 244 Atk / 4 Def / 4 SpD / 108 Spe
+Jolly Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Iron Head
+
+Kingambit (M) @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Protect
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance

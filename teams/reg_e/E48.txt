@@ -1,0 +1,68 @@
+Sableye @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 60 Def / 196 SpD
+Careful Nature
+IVs: 0 Atk
+- Foul Play
+- Reflect
+- Light Screen
+- Will-O-Wisp
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 92 HP / 156 Atk / 20 Def / 236 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+- Fake Out
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 204 HP / 252 Atk / 4 Def / 12 SpD / 36 Spe
+Adamant Nature
+- Glaive Rush
+- Swords Dance
+- Ice Shard
+- Protect
+
+Arcanine-Hisui @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 20 Def / 92 SpD / 28 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Protect
+
+Empoleon @ Leftovers
+Ability: Competitive
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 92 Def / 4 SpA / 148 SpD / 12 Spe
+Calm Nature
+IVs: 0 Atk
+- Hydro Pump
+- Flash Cannon
+- Yawn
+- Protect
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 20 Def / 236 SpD
+Sassy Nature
+IVs: 0 Atk / 2 Spe
+- Matcha Gotcha
+- Strength Sap
+- Rage Powder
+- Trick Room

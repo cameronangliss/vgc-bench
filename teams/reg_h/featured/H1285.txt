@@ -1,0 +1,67 @@
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 100 HP / 156 Atk / 12 Def / 28 SpD / 212 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Low Kick
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 156 Def / 36 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 132 Def / 116 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Thunder Wave
+
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 20 Atk / 4 Def / 68 SpD / 188 Spe
+Adamant Nature
+- Brave Bird
+- Bulk Up
+- Tailwind
+- Body Press
+
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Psychic
+EVs: 252 HP / 236 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Sludge Bomb
+- Spore
+- Rage Powder

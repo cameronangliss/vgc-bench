@@ -1,0 +1,66 @@
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 156 Def / 140 SpD
+Bold Nature
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 116 Atk / 4 Def / 116 SpD / 20 Spe
+Adamant Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Iron Head
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 68 Atk / 4 Def / 52 SpD / 132 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Will-O-Wisp
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 116 HP / 252 Atk / 140 Spe
+Adamant Nature
+- Headlong Rush
+- Facade
+- Rock Slide
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 116 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 180 HP / 252 Atk / 4 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Glaive Rush
+- Icicle Crash
+- Ice Shard
+- Protect

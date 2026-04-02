@@ -1,0 +1,66 @@
+Gyarados @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 100 HP / 148 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 0 Atk
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Coaching
+- Fake Out
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 92 HP / 124 Atk / 4 Def / 76 SpD / 212 Spe
+Adamant Nature
+- Rock Throw
+- Knock Off
+- Ice Punch
+- Low Kick
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 242 Spe
+Adamant Nature
+- Stomping Tantrum
+- Earthquake
+- Dragon Claw
+- Protect
+
+Yanma @ Eviolite
+Ability: Compound Eyes
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Hypnosis
+- Screech
+- Protect
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dragon Darts
+- U-turn
+- Phantom Force
+- Tera Blast

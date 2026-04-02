@@ -1,0 +1,65 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 28 Def / 196 SpA / 4 SpD / 28 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Snarl
+- Volt Switch
+
+Solgaleo @ Covert Cloak
+Ability: Full Metal Body
+Level: 50
+Tera Type: Dark
+EVs: 132 HP / 180 Atk / 12 Def / 172 SpD / 12 Spe
+Adamant Nature
+- Sunsteel Strike
+- Close Combat
+- Wide Guard
+- Trick Room
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 188 Def / 68 SpD
+Impish Nature
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Iron Leaves @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Normal
+EVs: 92 HP / 156 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Leaf Blade
+- Psyblade
+- Megahorn
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 196 Atk / 4 Def / 44 SpD / 92 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- U-turn
+- Detect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 44 Def / 68 SpD / 4 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect

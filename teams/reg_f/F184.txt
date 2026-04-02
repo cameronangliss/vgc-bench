@@ -1,0 +1,70 @@
+Latias (F) @ Safety Goggles
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 52 Def / 4 SpA / 4 SpD / 196 Spe
+Timid Nature
+IVs: 27 Atk
+- Recover
+- Mist Ball
+- Icy Wind
+- Psych Up
+
+Tatsugiri (F) @ Haban Berry
+Ability: Commander
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 4 SpA / 92 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Substitute
+- Draco Meteor
+- Hydro Pump
+
+Dondozo (F) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 124 HP / 6 Atk / 4 Def / 212 SpD / 164 Spe
+Impish Nature
+IVs: 10 SpA
+- Protect
+- Substitute
+- Order Up
+- Earthquake
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 20 HP / 4 Def / 244 SpA / 4 SpD / 238 Spe
+Timid Nature
+IVs: 25 Atk
+- Protect
+- Dark Pulse
+- Heat Wave
+- Overheat
+
+Glimmora (M) @ Sitrus Berry
+Ability: Toxic Debris
+Level: 50
+Tera Type: Fairy
+EVs: 246 HP / 212 Def / 4 SpA / 44 SpD / 4 Spe
+Bold Nature
+- Spiky Shield
+- Mortal Spin
+- Sludge Bomb
+- Earth Power
+
+Murkrow (F) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 246 Def / 12 SpD
+Impish Nature
+- Sucker Punch
+- Sunny Day
+- Tailwind
+- Perish Song

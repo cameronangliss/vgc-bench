@@ -1,0 +1,68 @@
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Protect
+
+Tatsugiri @ Safety Goggles
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 132 Def / 4 SpA / 4 SpD / 116 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Helping Hand
+- Protect
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 244 Atk / 12 SpD
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick
+
+Dondozo @ Rocky Helmet
+Ability: Oblivious
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 140 Atk / 4 Def / 108 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Order Up
+- Earthquake
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 116 Def / 212 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Stomping Tantrum
+- Rock Slide

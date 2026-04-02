@@ -1,0 +1,68 @@
+Regice @ Life Orb
+Ability: Ice Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Thunderbolt
+- Tera Blast
+- Protect
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 228 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Icy Wind
+- Moonblast
+- Aurora Veil
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Detect
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 92 Def / 156 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Icy Wind
+- Haze
+- Protect
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 196 Atk / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Tera Blast
+- Rock Slide
+- U-turn
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 252 Atk / 60 Spe
+Adamant Nature
+- Grassy Glide
+- U-turn
+- Wood Hammer
+- Fake Out

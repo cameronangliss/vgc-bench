@@ -1,0 +1,68 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Thundurus-Therian @ Assault Vest
+Ability: Volt Absorb
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 4 Def / 76 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Volt Switch
+- Tera Blast
+- Snarl
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 140 HP / 252 Atk / 4 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Aerial Ace
+- Extreme Speed
+- Iron Head
+- Stomping Tantrum
+
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 84 Def / 4 SpA / 164 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Twister
+- Protect
+- Wide Guard
+
+Basculegion @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Steel
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Last Respects
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect

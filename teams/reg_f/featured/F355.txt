@@ -1,0 +1,67 @@
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Poison
+EVs: 116 HP / 4 Atk / 132 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Knock Off
+- Breaking Swipe
+- Tailwind
+- Protect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Atk / 100 Def / 100 SpD / 4 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Spiky Shield
+- Follow Me
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 68 Def / 132 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 4 Def / 172 SpA / 92 SpD / 116 Spe
+Modest Nature
+IVs: 20 Atk
+- Electroweb
+- Thunderclap
+- Draco Meteor
+- Snarl
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Wicked Blow
+- Sucker Punch
+- Detect
+- Close Combat
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 244 Atk / 12 Def / 4 SpD / 244 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Head Smash

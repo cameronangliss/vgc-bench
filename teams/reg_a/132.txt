@@ -1,0 +1,65 @@
+Skeledirge (M) @ Safety Goggles
+Ability: Unaware
+Level: 50
+EVs: 236 HP / 140 Def / 44 SpA / 84 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Torch Song
+- Shadow Ball
+- Slack Off
+- Protect
+
+Meowscarada (F) @ Life Orb
+Ability: Protean
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- U-turn
+- Protect
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 252 HP / 100 Def / 76 SpA / 76 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Protect
+
+Baxcalibur (M) @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ground
+EVs: 116 HP / 132 Atk / 20 Def / 60 SpD / 180 Spe
+Adamant Nature
+- Icicle Crash
+- Stomping Tantrum
+- Dragon Dance
+- Protect
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Tera Blast
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 156 Def / 108 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot

@@ -1,0 +1,68 @@
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 252 Def / 52 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 18 Atk
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Scale Shot
+- Haze
+- Extreme Speed
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 44 HP / 172 Atk / 52 Def / 4 SpD / 236 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Coaching
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 116 Atk / 4 Def / 132 SpD / 20 Spe
+Adamant Nature
+IVs: 0 SpA
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 220 Def / 36 Spe
+Bold Nature
+- Thunderbolt
+- Follow Me
+- Taunt
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 84 Atk / 4 Def / 164 SpD / 4 Spe
+Adamant Nature
+IVs: 18 SpA
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out

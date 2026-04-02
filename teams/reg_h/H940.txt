@@ -1,0 +1,70 @@
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 0 SpA
+- Flare Blitz
+- Will-O-Wisp
+- Brave Bird
+- Tailwind
+
+Garchomp @ Soft Sand
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 22 SpA
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Protect
+
+Weezing-Galar @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Flying
+EVs: 156 HP / 20 Def / 4 SpA / 76 SpD / 252 Spe
+Timid Nature
+IVs: 14 Atk
+- Strange Steam
+- Taunt
+- Will-O-Wisp
+- Protect
+
+Incineroar @ Ability Shield
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 116 Def / 84 SpD / 52 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Hydreigon @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 44 HP / 4 Def / 196 SpA / 12 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Snarl
+- Draco Meteor
+- Heat Wave

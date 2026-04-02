@@ -1,0 +1,70 @@
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 92 HP / 108 Def / 156 SpA / 148 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Dazzling Gleam
+- Imprison
+- Trick Room
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 172 Def / 68 SpA / 4 SpD / 100 Spe
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Rain Dance
+- Taunt
+- Tailwind
+
+Iron Hands @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 76 Atk / 100 Def / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Fake Out
+- Ice Punch
+- Wild Charge
+- Close Combat
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 4 Def / 108 SpD / 180 Spe
+Adamant Nature
+- Aqua Jet
+- Close Combat
+- Surging Strikes
+- Protect
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 36 Def / 156 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Substitute
+- Heat Wave
+- Tera Blast
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 84 Def / 156 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt

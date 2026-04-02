@@ -1,0 +1,67 @@
+Kleavor @ Choice Scarf
+Ability: Sharpness
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 4 Def / 140 SpD / 76 Spe
+Adamant Nature
+- Stone Axe
+- X-Scissor
+- U-turn
+- Rock Slide
+
+Samurott-Hisui @ Assault Vest
+Ability: Sharpness
+Level: 50
+Tera Type: Psychic
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Ceaseless Edge
+- Tera Blast
+- Sucker Punch
+- Aqua Cutter
+
+Dondozo @ Choice Band
+Ability: Oblivious
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Heavy Slam
+- Earthquake
+- Rock Slide
+- Wave Crash
+
+Tatsugiri @ Ability Shield
+Ability: Commander
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Protect
+
+Indeedee (M) @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Expanding Force
+- Hyper Voice
+- Trick Room
+- Imprison
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 76 Atk / 132 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Dire Claw
+- Throat Chop
+- Close Combat
+- Protect

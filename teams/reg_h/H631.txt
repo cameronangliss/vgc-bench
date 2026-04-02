@@ -1,0 +1,67 @@
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Coaching
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Scale Shot
+- Extreme Speed
+- Low Kick
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Aurora Veil
+- Protect
+
+Metagross @ Assault Vest
+Ability: Clear Body
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 196 Atk / 12 Def / 12 SpD / 44 Spe
+Adamant Nature
+- Heavy Slam
+- Psychic Fangs
+- Stomping Tantrum
+- Bullet Punch
+
+Magmar @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 180 Def / 4 SpA / 36 SpD / 36 Spe
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Clear Smog
+- Follow Me
+- Protect

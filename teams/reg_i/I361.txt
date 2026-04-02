@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Spell Tag
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 144 HP / 16 Def / 88 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Astral Barrage
+- Tera Blast
+- Nasty Plot
+- Protect
+
+Zamazenta @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 132 HP / 48 Def / 72 SpD / 252 Spe
+Impish Nature
+- Heavy Slam
+- Body Press
+- Wide Guard
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Detect
+- Close Combat
+- Aqua Jet
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 100 Def / 164 SpD
+Careful Nature
+- Flare Blitz
+- Fake Out
+- Darkest Lariat
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 12 Def / 84 SpD / 44 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Life Dew
+- Follow Me
+- After You
+- Protect

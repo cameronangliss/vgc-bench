@@ -1,0 +1,66 @@
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Giga Impact
+- Dragon Claw
+- U-turn
+
+Decidueye-Hisui @ Choice Scarf
+Ability: Scrappy
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Triple Arrows
+- Leaf Blade
+- Close Combat
+- Brave Bird
+
+Samurott-Hisui @ Assault Vest
+Ability: Sharpness
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ceaseless Edge
+- Razor Shell
+- Sucker Punch
+- Sacred Sword
+
+Arcanine-Hisui @ Focus Sash
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Flare Blitz
+- Extreme Speed
+- Close Combat
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 220 HP / 12 Def / 172 SpA / 12 SpD / 92 Spe
+Modest Nature
+IVs: 14 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 4 SpA / 36 SpD / 36 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Light Screen
+- Tickle

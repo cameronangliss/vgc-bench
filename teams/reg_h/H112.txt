@@ -1,0 +1,68 @@
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Def / 36 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Quiver Dance
+- Fiery Dance
+- Struggle Bug
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 36 SpD / 100 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn
+
+Tauros-Paldea-Aqua @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Wave Crash
+- Bulk Up
+- Protect
+
+Clefable @ Safety Goggles
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Moonblast
+- Helping Hand
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Trick
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Sucker Punch
+- Tera Blast
+- U-turn

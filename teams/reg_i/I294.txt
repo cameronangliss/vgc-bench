@@ -1,0 +1,67 @@
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 156 SpD
+Relaxed Nature
+IVs: 16 Spe
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 4 Def / 252 SpA / 4 SpD / 108 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Dazzling Gleam
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 84 SpD / 52 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 164 Def / 92 SpD
+Impish Nature
+- Knock Off
+- Fake Out
+- Will-O-Wisp
+- Parting Shot
+
+Mandibuzz @ Electric Seed
+Ability: Overcoat
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 204 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Snarl
+- Taunt
+- Roost
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Sludge Bomb
+- Mortal Spin
+- Power Gem
+- Spiky Shield

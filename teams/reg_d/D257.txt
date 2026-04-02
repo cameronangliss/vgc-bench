@@ -1,0 +1,67 @@
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Extreme Speed
+- Low Kick
+- Aerial Ace
+- Outrage
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+
+Heatran @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 180 HP / 36 Def / 108 SpA / 124 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Flash Cannon
+- Earth Power
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 188 HP / 172 Def / 148 SpD
+Careful Nature
+- Protect
+- Recover
+- Salt Cure
+- Wide Guard
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Spore
+- Rage Powder
+- Leaf Storm
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 204 Atk / 116 Def / 180 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Ice Punch

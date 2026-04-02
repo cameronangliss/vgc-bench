@@ -1,0 +1,69 @@
+Terapagos-Terastal @ Leftovers
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 100 Def / 76 SpA / 12 SpD / 148 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Dark Pulse
+- Calm Mind
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 204 HP / 124 Def / 180 Spe
+Jolly Nature
+IVs: 0 Atk
+- Body Press
+- Wide Guard
+- Imprison
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Atk / 188 Def / 68 SpD / 4 Spe
+Impish Nature
+- Knock Off
+- Parting Shot
+- Will-O-Wisp
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 28 Def / 60 SpD / 52 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Spore
+- Lunar Blessing
+- Follow Me
+- Topsy-Turvy
+
+Tornadus @ Ability Shield
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 228 HP / 52 Def / 36 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Rain Dance
+- Tailwind
+- Protect

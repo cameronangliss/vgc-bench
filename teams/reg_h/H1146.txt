@@ -1,0 +1,68 @@
+Kommo-o (M) @ Leftovers
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 36 Def / 116 SpD / 100 Spe
+Impish Nature
+- Body Press
+- Throat Chop
+- Protect
+- Iron Defense
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Tera Blast
+
+Rillaboom (M) @ Meadow Plate
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 228 Atk / 4 Def / 36 SpD / 36 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- Fake Out
+- U-turn
+
+Magmar @ Eviolite
+Ability: Flame Body
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 180 Def / 4 SpA / 68 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Follow Me
+- Protect
+- Taunt
+
+Primarina @ Sitrus Berry
+Ability: Liquid Voice
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 76 Def / 108 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Protect
+- Haze
+
+Salamence @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Air Slash
+- Protect
+- Tailwind

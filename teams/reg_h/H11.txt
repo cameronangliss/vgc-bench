@@ -1,0 +1,67 @@
+Snorlax @ Figy Berry
+Ability: Gluttony
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Def
+Impish Nature
+- Earthquake
+- Belly Drum
+- Body Slam
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Protect
+- Follow Me
+- Trick Room
+
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk
+- Expanding Force
+- Heat Wave
+- Trick Room
+- Wide Guard
+
+Medicham @ Covert Cloak
+Ability: Pure Power
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 84 Atk / 44 Def / 124 SpD / 4 Spe
+Impish Nature
+- Fake Out
+- Close Combat
+- Trick Room
+- Skill Swap
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Tera Blast
+
+Gyarados @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 188 HP / 252 Atk / 68 Spe
+Adamant Nature
+- Iron Head
+- Waterfall
+- Taunt
+- Thunder Wave

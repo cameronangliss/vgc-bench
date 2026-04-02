@@ -1,0 +1,68 @@
+Mismagius @ Leftovers
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Trick Room
+- Pain Split
+- Protect
+
+Armarouge @ Flame Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Expanding Force
+- Armor Cannon
+- Fling
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 252 SpD
+Sassy Nature
+IVs: 0 Atk
+- Trick Room
+- Follow Me
+- Heal Pulse
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Fake Out
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+
+Metagross @ Assault Vest
+Ability: Clear Body
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Bullet Punch
+- Hammer Arm
+- Psychic Fangs
+- Explosion
+
+Ursaluna @ Weakness Policy
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Earthquake
+- Shadow Claw
+- Protect

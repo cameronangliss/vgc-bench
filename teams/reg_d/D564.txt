@@ -1,0 +1,70 @@
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 184 HP / 172 Atk / 12 Def / 140 SpD
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Tera Blast
+- Rock Slide
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 76 HP / 132 Def / 156 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Heat Wave
+- Snarl
+- Overheat
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Protect
+- Shadow Ball
+
+Abomasnow @ Rocky Helmet
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 132 Def / 140 SpA
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Leaf Storm
+- Earth Power
+- Aurora Veil
+
+Cresselia @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 244 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Trick Room
+- Lunar Blessing
+- Helping Hand
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 172 HP / 12 Def / 164 SpA / 100 SpD / 60 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Hydro Pump
+- Protect

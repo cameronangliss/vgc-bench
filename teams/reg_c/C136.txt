@@ -1,0 +1,70 @@
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Lava Plume
+- Protect
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 4 Def / 196 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+
+Dachsbun @ Leftovers
+Ability: Well-Baked Body
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+IVs: 0 Atk
+- Body Press
+- Protect
+- Yawn
+- Wish
+
+Great Tusk @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Headlong Rush
+- Earthquake
+- Rock Slide
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 108 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk
+- Sunny Day
+- Taunt
+- Foul Play
+- Tailwind
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump
+- Protect

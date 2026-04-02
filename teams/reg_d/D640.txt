@@ -1,0 +1,69 @@
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 236 Def / 4 SpA / 28 SpD / 12 Spe
+Bold Nature
+IVs: 3 Atk
+- Bleakwind Storm
+- Tailwind
+- Taunt
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Heatran @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 4 Def / 84 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 1 Atk
+- Heat Wave
+- Flash Cannon
+- Earth Power
+- Tera Blast
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Bold Nature
+IVs: 3 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 100 HP / 252 Atk / 36 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Stomping Tantrum
+- Rock Slide
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 76 Def / 76 SpA / 12 SpD / 116 Spe
+Modest Nature
+IVs: 5 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Substitute
+- Protect

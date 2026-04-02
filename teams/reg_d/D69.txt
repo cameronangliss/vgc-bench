@@ -1,0 +1,70 @@
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 36 Def / 68 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Rain Dance
+- Bleakwind Storm
+- Taunt
+- Tailwind
+
+Zapdos @ Choice Scarf
+Ability: Static
+Level: 50
+Tera Type: Steel
+EVs: 76 HP / 196 SpA / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hurricane
+- Discharge
+- Volt Switch
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Dark Pulse
+- Heat Wave
+- Overheat
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 76 Def / 116 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 4 Def / 108 SpD / 180 Spe
+Adamant Nature
+- Detect
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Worry Seed

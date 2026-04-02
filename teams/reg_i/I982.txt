@@ -1,0 +1,66 @@
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Snarl
+- Volt Switch
+
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- Imprison
+- Trick Room
+- Protect
+
+Raichu-Alola @ Focus Sash
+Ability: Surge Surfer
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Electroweb
+- Endeavor
+- Fake Out
+- Feint
+
+Urshifu-Rapid-Strike (M) @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 156 HP / 196 Atk / 36 Def / 20 SpD / 100 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 172 Atk / 60 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Protect
+- Earthquake
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 100 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield

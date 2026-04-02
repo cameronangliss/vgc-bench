@@ -1,0 +1,67 @@
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 124 Def / 92 SpA / 36 SpD / 4 Spe
+Modest Nature
+- Trick Room
+- Tera Blast
+- Ice Beam
+- Recover
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 36 Atk / 4 Def / 92 SpD / 124 Spe
+Adamant Nature
+- Flare Blitz
+- U-turn
+- Fake Out
+- Knock Off
+
+Urshifu-Rapid-Strike @ Life Orb
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 108 HP / 212 Atk / 4 Def / 84 SpD / 100 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 172 Atk / 196 Spe
+Adamant Nature
+- Headlong Rush
+- Facade
+- Earthquake
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 236 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Protect
+- Sludge Bomb
+- Rage Powder
+
+Tornadus @ Sharp Beak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 100 Def / 4 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Protect
+- Tailwind
+- Rain Dance

@@ -1,0 +1,66 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Fighting
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 116 HP / 236 Atk / 4 Def / 12 SpD / 140 Spe
+Adamant Nature
+- Tera Blast
+- Extreme Speed
+- Outrage
+- Thunder Punch
+
+Iron Treads @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 252 Atk / 4 Def / 4 SpD / 220 Spe
+Jolly Nature
+- Stomping Tantrum
+- Iron Head
+- Rock Slide
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 28 Def / 252 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt
+
+Talonflame @ Life Orb
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 76 HP / 252 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Brave Bird
+- Feint
+- Tailwind
+- Protect
+
+Maushold-Four @ Rocky Helmet
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 188 HP / 4 Atk / 212 Def / 4 SpD / 100 Spe
+Jolly Nature
+- Super Fang
+- Follow Me
+- Feint
+- Protect

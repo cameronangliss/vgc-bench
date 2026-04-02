@@ -1,0 +1,70 @@
+Iron Jugulis @ Covert Cloak
+Ability: Quark Drive
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 36 Def / 68 SpA / 36 SpD / 116 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Cheer
+- Air Slash
+- Snarl
+- Tailwind
+
+Miraidon @ Scope Lens
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 220 SpA / 12 SpD / 20 Spe
+Modest Nature
+- Draco Meteor
+- Discharge
+- Protect
+- Dazzling Gleam
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 236 Atk / 132 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Protect
+- Headlong Rush
+- Earthquake
+
+Palkia @ Lustrous Orb
+Ability: Telepathy
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 132 Def / 132 SpA / 124 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Spacial Rend
+- Hydro Pump
+- Trick Room
+- Psych Up
+
+Iron Moth @ Power Herb
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 44 HP / 116 Def / 92 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Meteor Beam
+- Protect
+- Sludge Wave
+- Fiery Dance
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Power Whip
+- Follow Me
+- Spiky Shield

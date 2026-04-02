@@ -1,0 +1,71 @@
+Ceruledge @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 228 HP / 196 Atk / 4 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Shadow Sneak
+- Bitter Blade
+- Bulk Up
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Ice Spinner
+- Sacred Sword
+- Protect
+
+Orthworm @ Sitrus Berry
+Ability: Earth Eater
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 196 HP / 252 Def / 60 SpD
+Sassy Nature
+IVs: 0 Spe
+- Iron Head
+- Shed Tail
+- Body Press
+- Protect
+
+Great Tusk @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 4 Def / 28 SpD / 220 Spe
+Jolly Nature
+- Earthquake
+- Headlong Rush
+- Close Combat
+- Rock Slide
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Encore
+- Protect
+
+Brute Bonnet @ Loaded Dice
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 236 Atk / 12 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Spore
+- Rage Powder
+- Bullet Seed
+- Crunch

@@ -1,0 +1,70 @@
+Calyrex-Shadow @ Spell Tag
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 180 HP / 44 Def / 20 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Dark Pulse
+- Psych Up
+- Protect
+
+Miraidon @ Covert Cloak
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 76 Def / 52 SpA / 4 SpD / 124 Spe
+Timid Nature
+- Electro Drift
+- Parabolic Charge
+- Dragon Pulse
+- Calm Mind
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 252 Def / 60 SpA / 20 SpD / 44 Spe
+Bold Nature
+IVs: 0 Atk
+- Fiery Dance
+- Rage Powder
+- Quiver Dance
+- Giga Drain
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 4 Def / 108 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Brick Break
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 196 Def / 60 SpD
+Sassy Nature
+IVs: 0 Spe
+- Fake Out
+- U-turn
+- Roar
+- Knock Off
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 164 Def / 52 SpD / 36 Spe
+Careful Nature
+IVs: 0 Atk
+- Parting Shot
+- Light Screen
+- Reflect
+- Thunder Wave

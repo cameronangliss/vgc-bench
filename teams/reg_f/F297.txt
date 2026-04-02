@@ -1,0 +1,71 @@
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 180 HP / 84 Def / 180 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunderbolt
+- Volt Switch
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 1 Atk / 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 29 Atk
+- Heat Wave
+- Protect
+- Snarl
+- Dark Pulse
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 76 Atk / 132 Def / 140 SpD / 4 Spe
+Adamant Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 76 HP / 140 Def / 36 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 8 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Power Gem
+
+Mamoswine (M) @ Loaded Dice
+Ability: Thick Fat
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 52 HP / 76 Atk / 238 Def / 92 SpD / 52 Spe
+Adamant Nature
+- High Horsepower
+- Haze
+- Protect
+- Icicle Spear
+
+Tornadus (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 172 HP / 60 Def / 116 SpA / 6 SpD / 156 Spe
+Timid Nature
+- Rain Dance
+- Bleakwind Storm
+- Tailwind
+- Taunt

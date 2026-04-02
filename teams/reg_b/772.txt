@@ -1,0 +1,68 @@
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 108 HP / 236 Atk / 4 Def / 4 SpA / 156 SpD
+Brave Nature
+- Wild Charge
+- Drain Punch
+- Volt Switch
+- Fake Out
+
+Sandy Shocks @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 52 HP / 204 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Thunderbolt
+- Earth Power
+- Gravity
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Dazzling Gleam
+- Substitute
+
+Espathra @ Focus Sash
+Ability: Speed Boost
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Protect
+- Lumina Crash
+- Pounce
+- Hypnosis
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 116 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Rage Powder
+- Spore
+- Pollen Puff
+
+Arcanine @ Aguav Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 52 Atk / 212 SpD
+Careful Nature
+- Protect
+- Flare Blitz
+- Snarl
+- Will-O-Wisp

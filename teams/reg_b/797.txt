@@ -1,0 +1,71 @@
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 204 HP / 76 Atk / 44 Def / 4 SpA / 180 SpD
+Brave Nature
+IVs: 0 Spe
+- Thunder Punch
+- Brick Break
+- Fake Out
+- Volt Switch
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 164 Atk / 52 Def / 4 SpD / 124 Spe
+Adamant Nature
+- Acrobatics
+- Throat Chop
+- Tailwind
+- Protect
+
+Arcanine (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 124 HP / 4 Atk / 4 Def / 180 SpD / 196 Spe
+Jolly Nature
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Iron Bundle @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 44 HP / 4 Def / 164 SpA / 44 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Chilling Water
+- Encore
+- Protect
+
+Amoonguss (F) @ Room Service
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 28 Def / 236 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Tera Blast
+- Protect

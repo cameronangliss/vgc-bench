@@ -1,0 +1,74 @@
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Outrage
+- U-turn
+- Sucker Punch
+
+Sneasler @ Iron Ball
+Ability: Unburden
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 172 HP / 252 Atk / 84 Def
+Brave Nature
+- Close Combat
+- Dire Claw
+- Fling
+- Fake Out
+
+Espathra (F) @ Room Service
+Ability: Opportunist
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 236 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Lumina Crash
+- Trick Room
+- Roost
+- Skill Swap
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 196 Def / 60 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- Skill Swap
+- Trick Room
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 252 SpA / 12 SpD
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Weather Ball
+- Solar Beam

@@ -1,0 +1,73 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 116 HP / 156 Atk / 4 Def / 156 SpD / 76 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Order Up
+- Protect
+
+Tatsugiri @ Rocky Helmet
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 244 Def / 4 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Helping Hand
+- Protect
+
+Arceus @ Life Orb
+Ability: Multitype
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 172 HP / 252 Atk / 4 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Extreme Speed
+- Swords Dance
+- Double-Edge
+- Protect
+
+Miraidon @ Magnet
+Ability: Hadron Engine
+Level: 50
+Shiny: Yes
+Tera Type: Electric
+EVs: 140 HP / 4 Def / 236 SpA / 4 SpD / 124 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 252 HP / 116 Atk / 28 Def / 92 SpD / 20 Spe
+Adamant Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- U-turn
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump
+- Protect

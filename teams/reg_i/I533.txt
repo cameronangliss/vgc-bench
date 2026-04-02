@@ -1,0 +1,66 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Encore
+- Psychic
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Fairy
+EVs: 92 HP / 252 Atk / 164 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Sacred Sword
+- Protect
+
+Weezing @ Rocky Helmet
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 236 SpD / 20 Spe
+Impish Nature
+- Toxic Spikes
+- Taunt
+- Gunk Shot
+- Protect
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Crunch
+- Sucker Punch
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Outrage
+- Iron Head
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Aqua Jet

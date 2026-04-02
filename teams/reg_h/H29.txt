@@ -1,0 +1,67 @@
+Hydreigon @ Razor Claw
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 24 Atk
+- Draco Meteor
+- Dark Pulse
+- Tera Blast
+- Protect
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 132 Def / 4 SpA / 116 SpD
+Bold Nature
+IVs: 24 Atk / 2 Spe
+- Dazzling Gleam
+- Thunder Wave
+- Follow Me
+- Protect
+
+Salazzle @ Focus Sash
+Ability: Oblivious
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Sludge Bomb
+- Flamethrower
+- Fake Out
+- Dragon Cheer
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Samurott-Hisui @ Assault Vest
+Ability: Sharpness
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 172 Atk / 60 Def / 68 SpD / 108 Spe
+Adamant Nature
+- Aqua Cutter
+- Night Slash
+- Sacred Sword
+- Aqua Jet
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Def / 60 SpA / 4 SpD / 116 Spe
+Timid Nature
+- Tailwind
+- Moonblast
+- Encore
+- Protect

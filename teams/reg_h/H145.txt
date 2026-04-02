@@ -1,0 +1,67 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Dark
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Basculegion @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 20 Def / 4 SpD / 228 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Gallade @ Black Belt
+Ability: Sharpness
+Level: 50
+Tera Type: Steel
+EVs: 220 HP / 124 Atk / 4 Def / 20 SpD / 140 Spe
+Adamant Nature
+- Sacred Sword
+- Feint
+- Wide Guard
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 156 HP / 4 Def / 244 SpA / 4 SpD / 92 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Focus Blast
+- Trick
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 4 Def / 116 SpA / 244 SpD / 20 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Draco Meteor
+- Body Press
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 180 Def / 76 SpD
+Relaxed Nature
+IVs: 12 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Pollen Puff
+- Clear Smog

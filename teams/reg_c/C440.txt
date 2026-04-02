@@ -1,0 +1,67 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 76 Atk / 204 SpD / 228 Spe
+Adamant Nature
+- Earthquake
+- Order Up
+- Tera Blast
+- Protect
+
+Tatsugiri-Stretchy @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 236 SpA / 20 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Draco Meteor
+- Muddy Water
+- Sleep Talk
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 156 Def / 4 SpA / 124 SpD / 12 Spe
+Modest Nature
+- Power Gem
+- Sludge Bomb
+- Mortal Spin
+- Earth Power
+
+Pawmot @ Focus Sash
+Ability: Natural Cure
+Level: 50
+Tera Type: Electric
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Double Shock
+- Revival Blessing
+
+Talonflame @ Safety Goggles
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Tailwind
+- Quick Guard
+- Will-O-Wisp
+- Brave Bird
+
+Gholdengo @ Sitrus Berry
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 4 Def / 252 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Nasty Plot
+- Make It Rain
+- Shadow Ball

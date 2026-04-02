@@ -1,0 +1,68 @@
+Corviknight @ Rocky Helmet
+Ability: Mirror Armor
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 252 SpD / 12 Spe
+Calm Nature
+IVs: 0 Atk
+- Iron Defense
+- Body Press
+- Taunt
+- Roost
+
+Spectrier @ Focus Sash
+Ability: Grim Neigh
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Will-O-Wisp
+- Hex
+- Draining Kiss
+
+Gyarados @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 228 HP / 60 Atk / 84 Def / 92 SpD / 44 Spe
+Impish Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Dragon Tail
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 100 Atk / 252 SpD
+Adamant Nature
+- Fake Out
+- Heavy Slam
+- Wild Charge
+- Drain Punch
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 220 Atk / 36 Def / 252 Spe
+Jolly Nature
+- Wicked Blow
+- Sucker Punch
+- U-turn
+- Close Combat
+
+Thundurus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 156 Def / 4 SpA / 4 SpD / 116 Spe
+Bold Nature
+IVs: 0 Atk
+- Thunderbolt
+- Thunder Wave
+- Leer
+- Eerie Impulse

@@ -1,0 +1,69 @@
+Volcarona (M) @ Leftovers
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 244 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 68 Def / 156 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Helping Hand
+- Protect
+
+Kingambit (M) @ Assault Vest
+Ability: Supreme Overlord
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 244 Atk / 12 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Low Kick
+- Sucker Punch
+
+Florges @ Mirror Herb
+Ability: Flower Veil
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Grassy Terrain
+- Skill Swap
+- Protect
+
+Garchomp (M) @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Grimmsnarl (M) @ Babiri Berry
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Atk / 124 Def / 36 SpD / 92 Spe
+Careful Nature
+- Brick Break
+- Thunder Wave
+- Taunt
+- Fake Out

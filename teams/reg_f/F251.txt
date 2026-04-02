@@ -1,0 +1,70 @@
+Politoed (F) @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 14 Def / 252 SpD
+Calm Nature
+- Helping Hand
+- Muddy Water
+- Perish Song
+- Protect
+
+Kingdra (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 148 HP / 4 Def / 244 SpA / 12 SpD / 102 Spe
+Modest Nature
+- Muddy Water
+- Draco Meteor
+- Hurricane
+- Protect
+
+Scizor (M) @ Choice Band
+Ability: Technician
+Level: 50
+Tera Type: Dark
+EVs: 222 HP / 4 Atk / 92 Def / 4 SpD / 188 Spe
+Adamant Nature
+IVs: 5 SpA
+- Bullet Punch
+- U-turn
+- Close Combat
+- Iron Head
+
+Rillaboom (M) @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 60 Atk / 196 SpD
+Careful Nature
+IVs: 5 SpA
+- Wood Hammer
+- Protect
+- Grassy Glide
+- Fake Out
+
+Incineroar (M) @ Iapapa Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 68 Def / 196 SpD
+Careful Nature
+IVs: 5 SpA
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Raging Bolt @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 236 SpA / 180 SpD / 92 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunder
+- Volt Switch

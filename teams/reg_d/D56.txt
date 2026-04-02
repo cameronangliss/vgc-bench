@@ -1,0 +1,69 @@
+Moltres-Galar @ Sitrus Berry
+Ability: Berserk
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 140 Def / 84 SpA / 4 SpD / 28 Spe
+Modest Nature
+- Fiery Wrath
+- Sucker Punch
+- Air Slash
+- Tailwind
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 76 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Drain Punch
+- U-turn
+
+Goodra-Hisui @ Leftovers
+Ability: Shell Armor
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Shelter
+- Body Press
+- Flash Cannon
+
+Thundurus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 236 Def / 44 Spe
+Bold Nature
+IVs: 0 Atk
+- Thunder Wave
+- Taunt
+- Rain Dance
+- Thunderbolt
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 4 SpA / 4 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Worry Seed
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 92 Def / 116 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam

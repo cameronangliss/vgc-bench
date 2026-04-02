@@ -1,0 +1,69 @@
+Koraidon @ Life Orb
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Flare Blitz
+- Flame Charge
+- Protect
+
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 92 HP / 28 Def / 180 SpA / 204 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Meteor Beam
+- Trick Room
+- Wide Guard
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 4 Atk / 188 Def / 60 SpD / 4 Spe
+Impish Nature
+- Flare Blitz
+- Fake Out
+- Knock Off
+- Parting Shot
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Knock Off
+- Acrobatics
+- Tailwind
+- Protect
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 188 HP / 132 Def / 100 SpA / 52 SpD / 36 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Thunderbolt
+- Volt Switch
+- Draco Meteor
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Power Whip
+- Follow Me
+- Spiky Shield

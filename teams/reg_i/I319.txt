@@ -1,0 +1,68 @@
+Kyogre @ Leftovers
+Ability: Drizzle
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 212 Def / 20 SpA / 12 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Origin Pulse
+- Ice Beam
+- Calm Mind
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 180 Atk / 4 Def / 4 SpD / 84 Spe
+Adamant Nature
+- Behemoth Blade
+- Play Rough
+- Sacred Sword
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 12 Atk / 60 Def / 140 SpD / 52 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Struggle Bug
+- Rage Powder
+- Will-O-Wisp
+- Tailwind
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 44 Def / 60 SpA / 132 SpD / 20 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Thunder Wave
+- Taunt
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 116 Atk / 12 Def / 20 SpD / 108 Spe
+Adamant Nature
+- Scale Shot
+- Extreme Speed
+- Haze
+- Thunder Wave

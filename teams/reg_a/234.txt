@@ -1,0 +1,66 @@
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 232 HP / 16 Def / 252 SpA / 8 SpD
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Heat Wave
+- Trick Room
+- Wide Guard
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 172 Def / 84 SpD
+Calm Nature
+IVs: 0 Atk
+- Follow Me
+- Helping Hand
+- Psychic
+- Protect
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Substitute
+- Protect
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 212 Atk / 4 Def / 84 SpD / 12 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Brick Break
+- Sucker Punch
+
+Meowscarada @ Choice Band
+Ability: Protean
+Level: 50
+EVs: 76 HP / 252 Atk / 4 Def / 4 SpD / 172 Spe
+Jolly Nature
+- Flower Trick
+- Play Rough
+- Knock Off
+- U-turn
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+IVs: 0 Atk
+- Tailwind
+- Taunt
+- Foul Play
+- Haze

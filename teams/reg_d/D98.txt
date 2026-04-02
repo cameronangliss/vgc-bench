@@ -1,0 +1,72 @@
+Chien-Pao @ Clear Amulet
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 116 HP / 252 Atk / 4 Def / 36 SpD / 100 Spe
+- Sucker Punch
+- Ice Spinner
+- Haze
+- Protect
+
+Dragonite (M) @ Choice Band
+Ability: Multiscale
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 236 HP / 252 Atk / 20 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Brick Break
+- Aqua Jet
+
+Regieleki @ Focus Sash
+Ability: Transistor
+Level: 50
+Shiny: Yes
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Electroweb
+- Volt Switch
+- Eerie Impulse
+- Tera Blast
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 76 HP / 4 Def / 252 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Focus Blast
+- Trick
+
+Cresselia @ Rocky Helmet
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 228 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Ally Switch
+- Trick Room
+- Lunar Blessing
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 148 HP / 252 Atk / 108 SpD
+Brave Nature
+IVs: 0 Spe
+- Ruination
+- Throat Chop
+- Earthquake
+- Rock Slide

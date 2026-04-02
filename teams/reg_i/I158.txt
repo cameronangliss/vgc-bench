@@ -1,0 +1,67 @@
+Calyrex-Shadow @ Spell Tag
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Normal
+EVs: 76 HP / 140 Def / 36 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Astral Barrage
+- Psychic
+- Nasty Plot
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 Atk / 84 Def / 4 SpD / 164 Spe
+Impish Nature
+- Protect
+- Body Press
+- Behemoth Bash
+- Wide Guard
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Throat Chop
+- Sucker Punch
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Coaching
+- U-turn
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 76 Atk / 4 Def / 12 SpD / 212 Spe
+Adamant Nature
+- Spiky Shield
+- Ivy Cudgel
+- Follow Me
+- Wood Hammer
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 20 Def / 100 SpA / 20 SpD / 252 Spe
+Modest Nature
+IVs: 20 Atk
+- Electroweb
+- Thunderclap
+- Thunderbolt
+- Draco Meteor

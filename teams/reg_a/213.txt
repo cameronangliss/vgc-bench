@@ -1,0 +1,69 @@
+Meowscarada (F) @ Choice Band
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- U-turn
+- Trick
+- Flower Trick
+- Knock Off
+
+Murkrow (F) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 140 Def / 116 SpD
+Calm Nature
+IVs: 0 Atk
+- Taunt
+- Foul Play
+- Tailwind
+- Haze
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Swords Dance
+- Protect
+
+Amoonguss (M) @ Leftovers
+Ability: Regenerator
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 4 Spe
+- Spore
+- Protect
+- Rage Powder
+- Clear Smog
+
+Hydreigon (F) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Snarl
+- Heat Wave
+- Flash Cannon
+- Draco Meteor
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot

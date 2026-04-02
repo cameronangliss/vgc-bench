@@ -1,0 +1,68 @@
+Abomasnow (F) @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Energy Ball
+- Earth Power
+- Protect
+
+Glaceon (M) @ Choice Specs
+Ability: Snow Cloak
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Shadow Ball
+- Tera Blast
+
+Tatsugiri-Stretchy (M) @ Choice Scarf
+Ability: Commander
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Hydro Pump
+- Dragon Pulse
+
+Dondozo (M) @ Clear Amulet
+Ability: Unaware
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Order Up
+- Earthquake
+- Substitute
+
+Armarouge (F) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Armor Cannon
+- Expanding Force
+- Aura Sphere
+- Trick Room
+
+Indeedee-F (F) @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Follow Me
+- Helping Hand
+- Protect

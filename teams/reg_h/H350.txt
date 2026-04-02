@@ -1,0 +1,69 @@
+Golem-Alola @ Choice Band
+Ability: Galvanize
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Explosion
+- Double-Edge
+- Giga Impact
+- Rock Slide
+
+Farigiraf (M) @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Trick Room
+- Tera Blast
+- Psychic
+- Helping Hand
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Torkoal (M) @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Weather Ball
+- Body Press
+- Protect
+
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 0 SpA
+- Sleep Powder
+- Close Combat
+- After You
+- Solar Blade
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- After You
+- Sunny Day
+- Follow Me

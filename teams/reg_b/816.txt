@@ -1,0 +1,72 @@
+Tauros-Paldea-Aqua @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 198 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 6 SpA
+- Aqua Jet
+- Close Combat
+- Wave Crash
+- Protect
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 158 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Hydreigon (M) @ Scope Lens
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 SpA / 6 SpD / 252 Spe
+Timid Nature
+IVs: 10 Atk
+- Focus Energy
+- Draco Meteor
+- Dark Pulse
+- Flash Cannon
+
+Coalossal (M) @ Weakness Policy
+Ability: Steam Engine
+Level: 50
+Tera Type: Rock
+EVs: 30 HP / 236 Atk / 4 Def / 4 SpD / 236 Spe
+Adamant Nature
+IVs: 4 SpA
+- Rock Slide
+- Flare Blitz
+- Explosion
+- Protect
+
+Dragapult (F) @ Focus Sash
+Ability: Clear Body
+Level: 50
+Tera Type: Steel
+EVs: 92 HP / 206 Atk / 212 Spe
+Jolly Nature
+IVs: 0 SpA
+- Dragon Dance
+- Dragon Darts
+- Surf
+- Tera Blast
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 HP / 238 Atk / 4 Def / 252 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Volt Switch

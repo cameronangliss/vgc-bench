@@ -1,0 +1,68 @@
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Phantom Force
+- U-turn
+- Tera Blast
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 124 Def / 116 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Electro Shot
+- Body Press
+- Flash Cannon
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Weather Ball
+- Tailwind
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 196 Def / 68 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Pollen Puff
+- Clear Smog
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Poison
+EVs: 236 HP / 4 Atk / 140 Def / 116 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Misty Terrain
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Taunt
+- Protect

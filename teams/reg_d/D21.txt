@@ -1,0 +1,71 @@
+Enamorus @ Assault Vest
+Ability: Contrary
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 244 HP / 4 Def / 20 SpA / 12 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Springtide Storm
+- Sludge Bomb
+- Earth Power
+
+Thundurus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 84 HP / 156 Def / 36 SpA / 12 SpD / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Eerie Impulse
+- Thunder Wave
+- Wildbolt Storm
+- Volt Switch
+
+Amoonguss @ Rocky Helmet
+Ability: Effect Spore
+Level: 50
+Shiny: Yes
+Tera Type: Electric
+EVs: 244 HP / 156 Def / 108 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 236 HP / 68 Atk / 4 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Flare Blitz
+- Extreme Speed
+- Howl
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 68 Atk / 12 Def / 172 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 140 HP / 172 Atk / 60 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Crunch
+- Protect

@@ -1,0 +1,75 @@
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Protect
+- Acrobatics
+- Night Slash
+- Dragon Dance
+
+Brute Bonnet @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 Def
+IVs: 13 Spe
+Shiny: Yes
+Brave Nature
+- Tera Blast
+- Close Combat
+- Seed Bomb
+- Sucker Punch
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 116 Def / 156 SpD
+IVs: 0 Atk
+Shiny: Yes
+Sassy Nature
+- Rage Powder
+- Spore
+- Pollen Puff
+- Clear Smog
+
+Hatterene @ Focus Sash
+Ability: Magic Bounce
+Level: 50
+Tera Type: Psychic
+EVs: 252 HP / 252 SpA / 4 SpD
+IVs: 0 Atk / 0 Spe
+Quiet Nature
+- Trick Room
+- Dazzling Gleam
+- Psychic
+- Protect
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 Spe
+IVs: 0 Atk
+Shiny: Yes
+Modest Nature
+- Moonblast
+- Shadow Ball
+- Mystical Fire
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Ivs: 0 Atk / 0 Spe
+Shiny: Yes
+Quiet Nature
+- Protect
+- Solar Beam
+- Eruption
+- Flamethrower

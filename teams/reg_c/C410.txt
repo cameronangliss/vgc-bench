@@ -1,0 +1,69 @@
+Skeledirge @ Safety Goggles
+Ability: Unaware
+Level: 50
+Tera Type: Fairy
+EVs: 76 HP / 164 Def / 132 SpA / 116 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Torch Song
+- Hex
+- Slack Off
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 220 HP / 12 Def / 148 SpA / 100 SpD / 28 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Encore
+- Protect
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 92 Def / 44 SpA / 220 SpD / 12 Spe
+Modest Nature
+- Mortal Spin
+- Power Gem
+- Sludge Bomb
+- Earth Power
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 92 Def / 124 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 124 Def / 132 SpD
+Calm Nature
+IVs: 0 Atk
+- Leech Seed
+- Foul Play
+- Pollen Puff
+- Protect
+
+Gyarados @ Figy Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 4 Atk / 84 Def / 132 SpD / 44 Spe
+Impish Nature
+- Waterfall
+- Iron Head
+- Thunder Wave
+- Taunt

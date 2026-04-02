@@ -1,0 +1,68 @@
+Talonflame (M) @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 204 HP / 20 Atk / 4 Def / 28 SpD / 252 Spe
+Jolly Nature
+- Taunt
+- Brave Bird
+- Tailwind
+- Will-O-Wisp
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 148 HP / 4 Def / 212 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Substitute
+- Protect
+
+Meowscarada (M) @ Life Orb
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Protect
+- Sucker Punch
+
+Glimmora (M) @ Choice Specs
+Ability: Toxic Debris
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Dazzling Gleam
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 220 Atk / 4 Def / 68 SpD / 212 Spe
+Jolly Nature
+- Tera Blast
+- Earthquake
+- Protect
+- Order Up
+
+Tatsugiri (F) @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Taunt
+- Muddy Water
+- Protect

@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Normal
+EVs: 20 HP / 100 Def / 132 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Expanding Force
+- Pollen Puff
+- Protect
+
+Koraidon @ Ability Shield
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Close Combat
+- Flame Charge
+- Protect
+
+Weezing-Galar @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 124 Def / 84 SpA / 36 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Poison Gas
+- Toxic Spikes
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 196 Atk / 4 Def / 36 SpD / 20 Spe
+Impish Nature
+- Body Press
+- Earthquake
+- Order Up
+- Protect
+
+Brute Bonnet @ Room Service
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Atk / 132 Def / 124 SpD / 4 Spe
+Impish Nature
+- Spore
+- Seed Bomb
+- Rage Powder
+- Sucker Punch
+
+Tatsugiri-Droopy @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Stellar
+EVs: 124 HP / 156 Def / 172 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Icy Wind
+- Draco Meteor
+- Protect

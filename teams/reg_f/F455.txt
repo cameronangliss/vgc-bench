@@ -1,0 +1,67 @@
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 116 Atk / 60 Def / 76 SpD / 52 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Milotic @ Sitrus Berry
+Ability: Competitive
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 164 Def / 4 SpA / 68 SpD / 44 Spe
+Bold Nature
+IVs: 0 Atk
+- Scald
+- Rain Dance
+- Icy Wind
+- Recover
+
+Arcanine-Hisui (M) @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 52 HP / 196 Atk / 28 Def / 4 SpD / 228 Spe
+Adamant Nature
+- Extreme Speed
+- Flare Blitz
+- Rock Slide
+- Tera Blast
+
+Zapdos @ Rocky Helmet
+Ability: Static
+Level: 50
+Tera Type: Steel
+EVs: 188 HP / 116 Def / 44 SpA / 12 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Thunderbolt
+- Tailwind
+- Roost
+
+Roaring Moon @ Clear Amulet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 220 Atk / 28 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Throat Chop
+- Dragon Dance
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect

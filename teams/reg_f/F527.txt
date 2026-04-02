@@ -1,0 +1,68 @@
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 124 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- U-turn
+- Grassy Glide
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 4 Def / 124 SpD / 164 Spe
+Adamant Nature
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+- U-turn
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Fairy
+EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Regidrago @ Dragon Fang
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Energy
+- Draco Meteor
+- Earth Power
+- Protect
+
+Tornadus @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 36 HP / 12 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 84 Def / 28 SpD / 68 Spe
+Adamant Nature
+- Ivy Cudgel
+- Grassy Glide
+- Follow Me
+- Spiky Shield

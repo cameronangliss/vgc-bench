@@ -1,0 +1,70 @@
+Talonflame (M) @ Focus Sash
+Ability: Gale Wings
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Air Slash
+- Overheat
+- Protect
+- Tailwind
+
+Skeledirge (M) @ Expert Belt
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 92 HP / 124 Def / 252 SpA / 4 SpD / 36 Spe
+Modest Nature
+- Torch Song
+- Shadow Ball
+- Protect
+- Tera Blast
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 44 HP / 252 Atk / 28 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Close Combat
+- Shadow Claw
+- Earthquake
+- Rock Slide
+
+Tyranitar (F) @ Weakness Policy
+Ability: Sand Stream
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 108 HP / 252 Atk / 4 Def / 12 SpD / 132 Spe
+Adamant Nature
+- Rock Slide
+- Crunch
+- Protect
+- Fire Punch
+
+Houndstone (M) @ Spell Tag
+Ability: Sand Rush
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 12 HP / 252 Atk / 4 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Last Respects
+- Will-O-Wisp
+- Protect
+- Shadow Sneak

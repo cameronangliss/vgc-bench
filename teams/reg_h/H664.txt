@@ -1,0 +1,67 @@
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+- Iron Head
+- Scale Shot
+- Protect
+- Haze
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 196 Atk / 60 Def
+Adamant Nature
+- Knock Off
+- Fake Out
+- Flare Blitz
+- U-turn
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Flash Cannon
+- Electro Shot
+- Aura Sphere
+- Protect
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 16 Atk
+- Blizzard
+- Aurora Veil
+- Protect
+- Encore
+
+Primeape @ Eviolite
+Ability: Anger Point
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 44 Def / 220 Spe
+Jolly Nature
+IVs: 10 SpA
+- Drain Punch
+- Rage Fist
+- Taunt
+- Protect

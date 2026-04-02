@@ -1,0 +1,70 @@
+Incineroar (F) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 6 Atk / 100 Def / 156 SpD / 12 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Parting Shot
+- Knock Off
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 20 HP / 84 Def / 196 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 29 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Thunderbolt
+
+Amoonguss (F) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 156 Def / 2 SpA / 116 SpD
+Bold Nature
+IVs: 27 Atk
+- Protect
+- Spore
+- Rage Powder
+- Pollen Puff
+
+Urshifu-Rapid-Strike (F) @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 20 HP / 180 Atk / 6 Def / 92 SpD / 212 Spe
+Jolly Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Dragonite (F) @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 252 Atk / 4 Def / 4 SpD / 69 Spe
+Adamant Nature
+IVs: 21 SpA
+- Aerial Ace
+- Stomping Tantrum
+- Extreme Speed
+- Thunder Punch
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 6 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword

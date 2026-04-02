@@ -1,0 +1,72 @@
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Perish Song
+- Haze
+
+Sylveon (M) @ Expert Belt
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 28 Def / 236 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Substitute
+- Protect
+
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 236 Atk / 12 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Swords Dance
+- Protect
+
+Hydreigon (M) @ Assault Vest
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 188 HP / 52 Def / 116 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Flash Cannon
+- Snarl
+
+Gothitelle (F) @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 244 HP / 60 Def / 204 SpD
+Calm Nature
+- Protect
+- Fake Out
+- Helping Hand
+- Trick Room
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 116 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Rage Powder
+- Spore
+- Pollen Puff

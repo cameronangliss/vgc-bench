@@ -1,0 +1,68 @@
+Cresselia @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 180 Def / 4 SpA / 60 SpD / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Trick Room
+- Ally Switch
+- Lunar Blessing
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+- Facade
+- Earthquake
+- Swords Dance
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 220 Atk / 20 Def / 92 SpD / 44 Spe
+Adamant Nature
+- Fake Out
+- Wild Charge
+- Volt Switch
+- Drain Punch
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Pollen Puff
+- Rage Powder
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 124 Def / 156 SpA / 4 SpD / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Thunderbolt
+
+Arcanine-Hisui @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 156 HP / 156 Atk / 196 Spe
+Adamant Nature
+- Rock Slide
+- Extreme Speed
+- Flare Blitz
+- Protect

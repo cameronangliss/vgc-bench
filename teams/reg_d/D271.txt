@@ -1,0 +1,65 @@
+Arcanine-Hisui @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 196 Atk / 108 Def / 12 SpD / 28 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Bulldoze
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 204 Def / 60 SpA / 12 SpD / 132 Spe
+Modest Nature
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Goodra-Hisui @ Rocky Helmet
+Ability: Shell Armor
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 236 Def / 4 SpD / 12 Spe
+Careful Nature
+- Heavy Slam
+- Body Press
+- Shelter
+- Life Dew
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 156 HP / 116 Atk / 4 Def / 12 SpD / 220 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- Tera Blast
+- U-turn
+
+Moltres-Galar @ Sitrus Berry
+Ability: Berserk
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 140 Def / 84 SpA / 12 SpD / 20 Spe
+Modest Nature
+- Fiery Wrath
+- Air Slash
+- Nasty Plot
+- Protect
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 4 SpA / 20 SpD / 76 Spe
+Bold Nature
+- Psychic
+- Lunar Blessing
+- Skill Swap
+- Trick Room

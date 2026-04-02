@@ -1,0 +1,66 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Naive Nature
+- Protect
+- Ice Spinner
+- Icy Wind
+- Sucker Punch
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 100 HP / 252 Atk / 4 Def / 4 SpD / 148 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Stomping Tantrum
+- Outrage
+
+Urshifu-Rapid-Strike @ Splash Plate
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 60 HP / 188 Atk / 4 Def / 100 SpD / 156 Spe
+Adamant Nature
+- Protect
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Spiky Shield
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 236 HP / 148 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Tera Blast
+
+Thundurus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 164 Def / 36 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Taunt
+- Rain Dance
+- Thunder Wave

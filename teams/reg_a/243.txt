@@ -1,0 +1,69 @@
+Spiritomb (F) @ Mental Herb
+Ability: Infiltrator
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 4 Atk / 132 Def / 52 SpA / 108 SpD
+Sassy Nature
+IVs: 0 Spe
+- Icy Wind
+- Trick Room
+- Shadow Ball
+- Shadow Sneak
+
+Luxray (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Flying
+EVs: 156 HP / 188 Atk / 44 Def / 12 SpD / 108 Spe
+Adamant Nature
+- Protect
+- Wild Charge
+- Ice Fang
+- Tera Blast
+
+Skeledirge (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 116 Def / 36 SpA / 116 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Torch Song
+- Protect
+- Will-O-Wisp
+- Tera Blast
+
+Arboliva (M) @ Throat Spray
+Ability: Seed Sower
+Level: 50
+Tera Type: Normal
+EVs: 204 HP / 12 Def / 252 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Safeguard
+- Giga Drain
+- Hyper Voice
+
+Pelipper (M) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Hydro Pump
+- Protect
+- Hurricane
+
+Drednaw (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Liquidation
+- Rock Slide
+- Protect
+- Swords Dance

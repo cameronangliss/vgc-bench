@@ -1,0 +1,68 @@
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Thunderbolt
+
+Glimmora @ Power Herb
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Meteor Beam
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Talonflame @ Life Orb
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Brave Bird
+- Flare Blitz
+- Tailwind
+- Will-O-Wisp
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Aerial Ace
+- Earthquake
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Order Up
+- Protect
+
+Tatsugiri @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Dragon Pulse
+- Protect

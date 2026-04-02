@@ -1,0 +1,71 @@
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 172 HP / 100 Atk / 36 Def / 36 SpD / 164 Spe
+Jolly Nature
+- Protect
+- Behemoth Blade
+- Play Rough
+- Tera Blast
+
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 212 HP / 164 Def / 20 SpA / 20 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Trick Room
+- Wide Guard
+- Meteor Beam
+- Moongeist Beam
+
+Tornadus @ Sky Plate
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 196 HP / 76 Def / 36 SpA / 156 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Taunt
+- Rain Dance
+- Bleakwind Storm
+
+Rillaboom (F) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 188 HP / 36 Atk / 44 Def / 236 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- U-turn
+- Grassy Glide
+- Wood Hammer
+
+Urshifu-Rapid-Strike (F) @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 20 HP / 236 Atk / 252 Spe
+Adamant Nature
+- U-turn
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+
+Smeargle (F) @ Focus Sash
+Ability: Moody
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+- Fake Out
+- Decorate
+- Follow Me
+- Spore

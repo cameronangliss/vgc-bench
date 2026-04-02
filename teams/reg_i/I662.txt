@@ -1,0 +1,69 @@
+Charizard @ Choice Scarf
+Ability: Solar Power
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Weather Ball
+- Blast Burn
+- Dragon Pulse
+
+Koraidon @ Choice Band
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Flare Blitz
+- Dragon Claw
+- U-turn
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 252 Atk / 124 Def
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 36 HP / 4 Def / 244 SpA / 20 SpD / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Meteor Beam
+- Trick Room
+- Wide Guard
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Pollen Puff
+- Rage Powder
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Shadow Ball
+- Protect

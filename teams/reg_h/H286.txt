@@ -1,0 +1,65 @@
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 12 Def / 204 SpA / 20 SpD / 20 Spe
+Modest Nature
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Body Press
+
+Basculegion @ Mystic Water
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Aqua Jet
+- Last Respects
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Hurricane
+- Weather Ball
+- Tailwind
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 108 SpD
+Bold Nature
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 188 HP / 116 Atk / 4 Def / 4 SpD / 196 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Taunt
+- Protect

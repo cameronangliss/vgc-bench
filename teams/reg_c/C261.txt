@@ -1,0 +1,69 @@
+Jumpluff @ Wide Lens
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sleep Powder
+- Encore
+- Rage Powder
+- Pollen Puff
+
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Earth Power
+- Solar Beam
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Haze
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Stomping Tantrum
+- Aerial Ace
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Wild Charge
+- Facade
+- Fake Out
+
+Flutter Mane @ Iron Ball
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 60 Def / 196 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Moonblast
+- Power Gem
+- Protect
+- Trick Room

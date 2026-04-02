@@ -1,0 +1,66 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 116 Def / 4 SpA / 4 SpD / 132 Spe
+Timid Nature
+- Snarl
+- Electro Drift
+- Dragon Tail
+- Volt Switch
+
+Glimmora @ Electric Seed
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Mortal Spin
+- Rock Tomb
+- Spiky Shield
+- Sludge Bomb
+
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 116 Atk / 188 Spe
+Adamant Nature
+- Glacial Lance
+- Agility
+- Protect
+- High Horsepower
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Trick Room
+- Rage Powder
+- Life Dew
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 188 Def / 76 SpD
+Relaxed Nature
+- Fake Out
+- Knock Off
+- Parting Shot
+- Taunt

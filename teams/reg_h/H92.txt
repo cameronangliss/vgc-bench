@@ -1,0 +1,69 @@
+Crabominable (M) @ Covert Cloak
+Ability: Hyper Cutter
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Ice Hammer
+- Drain Punch
+- Thunder Punch
+- Protect
+
+Oranguru @ Safety Goggles
+Ability: Inner Focus
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 108 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Imprison
+- Trick Room
+- Instruct
+- Protect
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 180 HP / 172 Atk / 156 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- U-turn
+- Rage Fist
+
+Smeargle @ Eject Pack
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 252 Spe
+Hasty Nature
+- Fake Out
+- Follow Me
+- Spore
+- Water Shuriken
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 252 SpA / 12 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heatwave
+- Clear Smog
+- Protect

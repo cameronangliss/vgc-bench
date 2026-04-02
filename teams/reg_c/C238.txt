@@ -1,0 +1,68 @@
+Orthworm @ Sitrus Berry
+Ability: Earth Eater
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 4 Atk / 36 Def / 252 SpD / 4 Spe
+Impish Nature
+- Iron Defense
+- Body Press
+- Heavy Slam
+- Shed Tail
+
+Ting-Lu @ Choice Band
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 76 Atk / 4 Def / 252 SpD / 172 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Bulldoze
+- Throat Chop
+
+Dragonite @ Lum Berry
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Extreme Speed
+- Tera Blast
+- Earthquake
+- Dragon Dance
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Haze
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 100 HP / 116 Def / 132 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Rotom-Wash @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Ghost
+EVs: 188 HP / 4 Def / 156 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Helping Hand

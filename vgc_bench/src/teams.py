@@ -122,14 +122,15 @@ class RandomTeamBuilder(Teambuilder):
                     self._reg_teams[r] = self._load_teams(
                         run_id, None, r, take_from_end
                     )
-            self.current_reg = random.choice(self.available_regs)
+            self.pick_reg()
         else:
             self.teams = self._load_teams(run_id, num_teams, reg, take_from_end)
 
     def pick_reg(self) -> None:
-        """Select a random regulation for the next battle."""
+        """Select a regulation for the next battle, weighted by team count."""
         assert self.available_regs is not None
-        self.current_reg = random.choice(self.available_regs)
+        weights = [len(self._reg_teams[r]) for r in self.available_regs]
+        self.current_reg = random.choices(self.available_regs, weights=weights)[0]
 
     def _load_teams(
         self, run_id: int, num_teams: int | None, reg: str, take_from_end: bool
@@ -256,7 +257,7 @@ def get_team_paths(reg: str) -> list[Path]:
     Returns:
         List of Path objects pointing to team .txt files.
     """
-    reg_path = Path("teams") / f"reg{reg}"
+    reg_path = Path("teams") / f"reg_{reg}"
     return sorted(reg_path.rglob("*.txt"))
 
 
@@ -269,7 +270,7 @@ def get_available_regs() -> list[str]:
     """
     teams_dir = Path("teams")
     return sorted(
-        d.name.removeprefix("reg")
+        d.name.removeprefix("reg_")
         for d in teams_dir.iterdir()
-        if d.is_dir() and d.name.startswith("reg")
+        if d.is_dir() and d.name.startswith("reg_")
     )

@@ -1,0 +1,68 @@
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 100 SpD
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Taunt
+- Tailwind
+- Haze
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Def / 172 SpA / 20 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Nasty Plot
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 32 HP / 220 SpA / 148 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Baxcalibur @ Assault Vest
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 60 Atk / 100 Def / 44 SpD / 84 Spe
+Adamant Nature
+- Glaive Rush
+- Icicle Crash
+- Ice Shard
+- Tera Blast
+
+Gardevoir @ Focus Sash
+Ability: Trace
+Level: 50
+Tera Type: Ghost
+EVs: 100 HP / 100 SpA / 160 SpD / 148 Spe
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Heal Pulse
+- Helping Hand
+- Trick Room
+
+Garchomp @ Choice Band
+Ability: Rough Skin
+Level: 50
+Tera Type: Dark
+EVs: 188 Atk / 68 SpD / 252 Spe
+Jolly Nature
+- Crunch
+- Earthquake
+- Stomping Tantrum
+- Rock Slide

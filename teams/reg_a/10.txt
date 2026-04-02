@@ -1,0 +1,67 @@
+Grimmsnarl @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 220 HP / 4 Atk / 156 Def / 108 SpD / 20 Spe
+Careful Nature
+IVs: 1 Def / 23 SpA / 18 Spe
+- Thunder Wave
+- Parting Shot
+- Foul Play
+- Fake Out
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Power Gem
+- Make It Rain
+- Shadow Ball
+
+Amoonguss (F) @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 16 HP / 0 Atk / 24 Def / 22 SpA / 1 Spe
+- Protect
+- Rage Powder
+- Giga Drain
+- Spore
+
+Palafin (M) @ Eject Button
+Ability: Zero to Hero
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flip Turn
+- Jet Punch
+- Liquidation
+- Protect
+
+Dragapult (M) @ Focus Sash
+Ability: Clear Body
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Surf
+- Will-O-Wisp
+- Helping Hand
+- Dragon Darts
+
+Coalossal (F) @ Absorb Bulb
+Ability: Steam Engine
+Level: 50
+Tera Type: Dragon
+EVs: 108 HP / 4 Def / 252 SpA / 108 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Power Gem
+- Tera Blast
+- Heat Wave

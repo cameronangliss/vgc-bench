@@ -1,0 +1,72 @@
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 228 HP / 196 Def / 76 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Rage Powder
+- Heat Wave
+- Will-O-Wisp
+
+Toxtricity @ Throat Spray
+Ability: Punk Rock
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 92 HP / 252 SpA / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Boomburst
+- Overdrive
+- Sludge Bomb
+- Protect
+
+Annihilape @ Choice Band
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rage Fist
+- Drain Punch
+- Close Combat
+- U-turn
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 4 Def / 236 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Power Gem
+- Earth Power
+- Sludge Bomb
+- Energy Ball
+
+Garganacl @ Clear Amulet
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 180 Def / 76 SpD
+Relaxed Nature
+IVs: 0 SpA / 0 Spe
+- Wide Guard
+- Body Press
+- Salt Cure
+- Recover
+
+Gothitelle @ Sitrus Berry
+Ability: Frisk
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 180 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk / 0 Spe
+- Fake Out
+- Trick Room
+- Helping Hand
+- Psychic

@@ -1,0 +1,69 @@
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 4 Def / 148 SpA / 92 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Dragon
+EVs: 116 HP / 156 Atk / 12 Def / 220 SpD / 4 Spe
+Adamant Nature
+- Order Up
+- Earthquake
+- Substitute
+- Protect
+
+Tatsugiri (F) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Taunt
+- Icy Wind
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 196 HP / 28 Def / 236 SpA / 12 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Yawn
+- Detect
+
+Ceruledge (F) @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 60 Def / 12 SpD / 68 Spe
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Tera Blast
+- Bulk Up
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 60 Def / 196 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Encore
+- Protect

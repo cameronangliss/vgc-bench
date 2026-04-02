@@ -1,0 +1,67 @@
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Heat Wave
+- Shadow Ball
+- Solar Beam
+
+Brute Bonnet @ Rocky Helmet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Atk / 68 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Seed Bomb
+- Sucker Punch
+- Rage Powder
+- Spore
+
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 180 Def / 4 SpA / 68 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Sunny Day
+- Taunt
+- Tailwind
+
+Azumarill @ Life Orb
+Ability: Huge Power
+Level: 50
+Tera Type: Water
+EVs: 108 HP / 252 Atk / 4 Def / 12 SpD / 132 Spe
+Adamant Nature
+- Aqua Jet
+- Play Rough
+- Liquidation
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Throat Chop
+- Sacred Sword
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 76 Atk / 84 Def / 252 SpD / 12 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+- Fake Out

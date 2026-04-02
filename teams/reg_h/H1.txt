@@ -1,0 +1,68 @@
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 68 Def / 36 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Quiver Dance
+- Heat Wave
+- Giga Drain
+- Protect
+
+Tauros-Paldea-Aqua @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 180 HP / 76 Atk / 4 Def / 4 SpD / 244 Spe
+Adamant Nature
+- Close Combat
+- Raging Bull
+- Aqua Jet
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 20 Def / 12 SpD / 108 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 164 HP / 252 Atk / 92 Spe
+Adamant Nature
+- Icicle Crash
+- Glaive Rush
+- Ice Shard
+- Protect
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Follow Me
+- Protect
+- Thunder Wave
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Focus Blast

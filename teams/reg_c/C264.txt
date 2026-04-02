@@ -1,0 +1,68 @@
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Ice
+EVs: 236 Atk / 36 SpD / 236 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Tera Blast
+- Protect
+
+Tatsugiri @ Life Orb
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 12 HP / 68 Def / 172 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Dragon Pulse
+- Protect
+
+Abomasnow @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Energy Ball
+- Helping Hand
+- Aurora Veil
+
+Iron Bundle @ Choice Specs
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Hydro Pump
+- Water Pulse
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 228 HP / 2 Atk / 76 Def
+Adamant Nature
+- Extreme Speed
+- Facade
+- Aerial Ace
+- Low Kick
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 196 HP / 156 Atk / 4 Def / 92 SpD / 60 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Ruination
+- Heavy Slam

@@ -1,0 +1,69 @@
+Hydreigon (M) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Snarl
+- Earth Power
+- Tera Blast
+- Protect
+
+Farigiraf (F) @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 108 Def / 4 SpA / 100 SpD / 44 Spe
+Bold Nature
+IVs: 0 Atk
+- Hyper Voice
+- Dazzling Gleam
+- Imprison
+- Trick Room
+
+Kingambit (F) @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 252 Atk / 36 SpD
+Brave Nature
+IVs: 0 Spe
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Tera Blast
+
+Annihilape (F) @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Tera Type: Steel
+EVs: 180 HP / 252 Atk / 44 Def / 4 SpD / 28 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Maushold-Four @ Wide Lens
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Encore
+- Follow Me
+- Protect
+
+Gengar (M) @ Focus Sash
+Ability: Cursed Body
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Sludge Bomb
+- Icy Wind
+- Haze

@@ -1,0 +1,68 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 204 Def / 52 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 76 HP / 156 Atk / 20 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Poison Jab
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 68 Def / 140 SpA / 4 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 204 Def / 4 SpA / 4 SpD / 52 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Taunt
+- Sunny Day
+
+Landorus-Therian @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 36 Atk / 12 Def / 108 SpD / 124 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+
+Arcanine-Hisui @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 116 Atk / 4 Def / 28 SpD / 148 Spe
+Adamant Nature
+- Flare Blitz
+- Will-O-Wisp
+- Rock Slide
+- Protect

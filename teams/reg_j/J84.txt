@@ -1,0 +1,71 @@
+Magearna @ Covert Cloak
+Ability: Soul-Heart
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Fleur Cannon
+- Trick Room
+- Protect
+
+Calyrex-Shadow @ Iron Ball
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Grass
+EVs: 252 Def / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Astral Barrage
+- Psychic
+- Trick Room
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Fake Out
+- Follow Me
+- Spore
+- Instruct
+
+Annihilape @ Power Weight
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Rage Fist
+- Close Combat
+- Final Gambit
+- Encore
+
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Surging Strikes
+- Close Combat
+- Taunt
+- Detect
+
+Whimsicott @ Coba Berry
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Moonblast
+- Fake Tears
+- Misty Terrain
+- Trick Room

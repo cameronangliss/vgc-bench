@@ -1,0 +1,69 @@
+Maushold @ Rocky Helmet
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Super Fang
+- Follow Me
+- Taunt
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 20 Def / 156 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Nasty Plot
+- Make It Rain
+- Shadow Ball
+
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 164 HP / 172 Def / 76 SpA / 4 SpD / 92 Spe
+Bold Nature
+IVs: 0 Atk
+- Taunt
+- Tailwind
+- Bleakwind Storm
+- Sunny Day
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 140 HP / 92 Def / 76 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 84 HP / 180 Atk / 36 Def / 28 SpD / 180 Spe
+Adamant Nature
+- Sucker Punch
+- Wicked Blow
+- U-turn
+- Close Combat

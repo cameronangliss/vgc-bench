@@ -1,0 +1,68 @@
+Iron Crown @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Psychic
+EVs: 76 HP / 4 Def / 172 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 20 Atk
+- Expanding Force
+- Tachyon Cutter
+- Focus Blast
+- Protect
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+- Follow Me
+- Dazzling Gleam
+- Helping Hand
+- Trick Room
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 188 Def / 52 SpA / 12 SpD / 4 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Rain Dance
+- Sunny Day
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 60 Def / 20 SpD / 100 Spe
+Adamant Nature
+- Spiky Shield
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Heat Wave
+- Dark Pulse
+- Snarl
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 148 Def / 52 SpA / 4 SpD / 180 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Perish Song

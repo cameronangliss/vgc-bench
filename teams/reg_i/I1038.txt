@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 28 HP / 4 Def / 220 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Pollen Puff
+- Protect
+
+Groudon @ Assault Vest
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Atk / 100 SpD
+Brave Nature
+- Precipice Blades
+- Heat Crash
+- High Horsepower
+- Overheat
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Baton Pass
+- Trick Room
+- Follow Me
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+- Follow Me
+- Spore
+- Decorate
+- Feint
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 252 SpA / 116 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunderbolt
+- Protect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 12 Atk / 164 Def / 4 SpD / 76 Spe
+Impish Nature
+- Ivy Cudgel
+- Wood Hammer
+- Taunt
+- Spiky Shield

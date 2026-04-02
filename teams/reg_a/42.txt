@@ -1,0 +1,62 @@
+Meowscarada (M) @ Choice Band
+Ability: Overgrow
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- U-turn
+- Sucker Punch
+
+Raichu (M) @ Focus Sash
+Ability: Static
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Nuzzle
+- Light Screen
+- Reflect
+
+Pawmot (F) @ Choice Scarf
+Ability: Volt Absorb
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Double Shock
+- Wild Charge
+- Revival Blessing
+
+Golduck (F) @ Life Orb
+Ability: Swift Swim
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Surf
+- Ice Beam
+- Grass Knot
+- Rain Dance
+
+Jumpluff (F) @ Rocky Helmet
+Ability: Chlorophyll
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Sleep Powder
+- Leech Seed
+- U-turn
+- Strength Sap
+
+Azumarill (M) @ Sitrus Berry
+Ability: Huge Power
+Level: 50
+EVs: 228 HP / 252 Atk / 12 Def / 12 SpD / 4 Spe
+Adamant Nature
+- Waterfall
+- Play Rough
+- Aqua Jet
+- Belly Drum

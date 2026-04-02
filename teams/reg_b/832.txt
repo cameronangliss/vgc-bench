@@ -1,0 +1,66 @@
+Great Tusk @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+- Headlong Rush
+- Earthquake
+- Close Combat
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Icy Wind
+- Protect
+- Hydro Pump
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+- Tailwind
+- Brave Bird
+- Will-O-Wisp
+- Taunt
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 SpA
+Brave Nature
+- Rock Slide
+- Assurance
+- Tera Blast
+- Ice Punch
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Dazzling Gleam

@@ -1,0 +1,67 @@
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 116 HP / 252 SpA / 140 Spe
+Modest Nature
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 76 Atk / 188 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Stomping Tantrum
+- Spiky Shield
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 36 Atk / 20 Def / 4 SpD / 196 Spe
+Adamant Nature
+- Flare Blitz
+- U-turn
+- Fake Out
+- Knock Off
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 44 SpA / 4 SpD / 204 Spe
+Modest Nature
+- Bleakwind Storm
+- Tailwind
+- Taunt
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 27 Spe
+- Spore
+- Sludge Bomb
+- Protect
+- Rage Powder
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 156 HP / 44 Def / 156 SpA / 148 SpD
+Modest Nature
+IVs: 0 Atk / 27 Spe
+- Hyper Voice
+- Psychic
+- Trick Room
+- Protect

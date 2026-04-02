@@ -1,0 +1,61 @@
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Waterfall
+- Tera Blast
+- Dragon Dance
+- Protect
+
+Kingambit @ Lum Berry
+Ability: Defiant
+Level: 50
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Iron Head
+- Tera Blast
+- Sucker Punch
+- Protect
+
+Rotom-Heat @ Choice Specs
+Ability: Levitate
+Level: 50
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Overheat
+- Volt Switch
+- Discharge
+
+Amoonguss @ Leftovers
+Ability: Regenerator
+Level: 50
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Protect
+- Clear Smog
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 244 HP / 188 Def / 76 SpD
+Impish Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot

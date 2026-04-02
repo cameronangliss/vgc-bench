@@ -1,0 +1,69 @@
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk
+- Life Dew
+- Rage Powder
+- Trick Room
+- Matcha Gotcha
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Extreme Speed
+- Haze
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Mild Nature
+IVs: 0 Atk
+- Protect
+- Hurricane
+- Tailwind
+- Weather Ball
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Trick
+- Protect
+- Make It Rain
+- Shadow Ball
+
+Tauros-Paldea-Aqua @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wave Crash
+- Close Combat
+- Aqua Jet
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 36 SpA / 108 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Snarl
+- Electro Shot
+- Body Press

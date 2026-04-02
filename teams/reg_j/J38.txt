@@ -1,0 +1,68 @@
+Meloetta @ Assault Vest
+Ability: Serene Grace
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 60 Def / 172 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Psychic
+- Shadow Ball
+- Thunder
+- U-turn
+
+Kyogre @ Leftovers
+Ability: Drizzle
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 28 Def / 76 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Origin Pulse
+- Ice Beam
+- Calm Mind
+- Protect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 228 Def / 20 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Rain Dance
+- Tailwind
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 116 Def / 140 SpD
+Impish Nature
+- Knock Off
+- Fake Out
+- Taunt
+- Parting Shot
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect

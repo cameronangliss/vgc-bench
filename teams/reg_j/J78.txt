@@ -1,0 +1,70 @@
+Magearna @ Choice Specs
+Ability: Soul-Heart
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Fleur Cannon
+- Helping Hand
+- Steel Beam
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ground
+EVs: 28 HP / 4 Def / 220 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Tera Blast
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 196 Atk / 60 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Facade
+- Earthquake
+- Protect
+
+Armarouge @ Power Herb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Armor Cannon
+- Meteor Beam
+- Ally Switch
+- Wide Guard
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 220 SpD / 36 Spe
+Careful Nature
+IVs: 0 Atk
+- Moonblast
+- Encore
+- Tailwind
+- Trick Room
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 172 HP / 76 Atk / 180 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Ivy Cudgel
+- Helping Hand
+- Follow Me
+- Spiky Shield

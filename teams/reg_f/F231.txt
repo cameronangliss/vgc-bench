@@ -1,0 +1,70 @@
+Scizor (F) @ Expert Belt
+Ability: Technician
+Level: 50
+Tera Type: Dragon
+EVs: 220 HP / 116 Atk / 76 Def / 60 SpD / 38 Spe
+Adamant Nature
+- Protect
+- Quick Guard
+- Bug Bite
+- Bullet Punch
+
+Araquanid (F) @ Clear Amulet
+Ability: Water Bubble
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 238 HP / 252 Atk / 20 Def
+Brave Nature
+IVs: 7 Spe
+- Protect
+- Wide Guard
+- Leech Life
+- Liquidation
+
+Regieleki @ Focus Sash
+Ability: Transistor
+Level: 50
+Tera Type: Ice
+EVs: 100 HP / 4 Def / 150 SpA / 12 SpD / 244 Spe
+Modest Nature
+- Protect
+- Tera Blast
+- Electroweb
+- Thunderbolt
+
+Incineroar (M) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 212 HP / 4 Atk / 94 Def / 196 SpD / 4 Spe
+Impish Nature
+IVs: 8 SpA
+- Fake Out
+- Flare Blitz
+- U-turn
+- Knock Off
+
+Landorus (M) @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 132 HP / 4 Def / 102 SpA / 20 SpD / 252 Spe
+Timid Nature
+IVs: 23 Atk
+- Protect
+- Sludge Bomb
+- Earth Power
+- Sandsear Storm
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 126 HP / 10 Def / 252 SpA / 4 SpD / 116 Spe
+Timid Nature
+IVs: 9 Atk
+- Protect
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam

@@ -1,0 +1,67 @@
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 12 Atk / 52 Def / 20 SpD / 188 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 60 Atk / 52 Def / 4 SpD / 228 Spe
+Adamant Nature
+- U-turn
+- Earthquake
+- Rock Slide
+- Tera Blast
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 60 Def / 100 SpA / 20 SpD / 84 Spe
+Modest Nature
+IVs: 20 Atk
+- Electroweb
+- Draco Meteor
+- Thunderclap
+- Snarl
+
+Articuno @ Choice Specs
+Ability: Snow Cloak
+Level: 50
+Tera Type: Ice
+EVs: 252 HP / 44 Def / 196 SpA / 4 SpD / 12 Spe
+Modest Nature
+- Blizzard
+- Ice Beam
+- Freeze-Dry
+- Sheer Cold
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 84 HP / 132 Def / 84 SpA / 4 SpD / 204 Spe
+Timid Nature
+- Blizzard
+- Moonblast
+- Aurora Veil
+- Helping Hand
+
+Heatran @ Rocky Helmet
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 140 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Magma Storm
+- Taunt
+- Will-O-Wisp
+- Protect

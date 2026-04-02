@@ -1,0 +1,70 @@
+Annihilape (M) @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 84 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Maushold @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 148 Def / 108 Spe
+Timid Nature
+IVs: 0 Atk
+- Beat Up
+- Taunt
+- Follow Me
+- Protect
+
+Klefki @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 148 Def / 4 SpA / 100 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Light Screen
+- Reflect
+- Misty Terrain
+
+Sinistcha @ Aguav Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 28 Def / 228 SpD
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Life Dew
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 20 Def / 196 SpA / 20 SpD / 28 Spe
+Modest Nature
+IVs: 2 Atk
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Vacuum Wave
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 4 Atk
+- Blizzard
+- Freeze-Dry
+- Encore
+- Protect

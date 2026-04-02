@@ -1,0 +1,66 @@
+Baxcalibur (M) @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Glaive Rush
+- Icicle Spear
+- Ice Shard
+- Protect
+
+Garganacl (M) @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 60 Def / 196 SpD
+Careful Nature
+- Salt Cure
+- Recover
+- Wide Guard
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 4 Def / 20 SpA / 68 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Focus Blast
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- Protect
+
+Mimikyu (F) @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Play Rough
+- Shadow Claw
+- Shadow Sneak
+- Protect
+
+Tauros-Paldea-Water @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 28 Atk / 68 Def / 12 SpD / 156 Spe
+Impish Nature
+- Close Combat
+- Wave Crash
+- Aqua Jet
+- Protect

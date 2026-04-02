@@ -1,0 +1,67 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Discharge
+
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Atk / 4 Def / 36 SpD / 60 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- Swords Dance
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 108 Def / 124 SpD / 20 Spe
+Careful Nature
+- Spirit Break
+- Fake Out
+- Reflect
+- Light Screen
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 212 Def / 44 Spe
+Timid Nature
+IVs: 0 Atk
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Knock Off
+- Snarl
+- Fake Out
+- U-turn
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Normal
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 HP / 0 Atk
+- Moonblast
+- Tailwind
+- Endeavor
+- Encore

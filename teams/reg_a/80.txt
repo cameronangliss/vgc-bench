@@ -1,0 +1,69 @@
+Corviknight (M) @ Rocky Helmet
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 140 Def / 116 SpD
+Impish Nature
+- Iron Head
+- Iron Defense
+- Body Press
+- Roost
+
+Sylveon (M) @ Leftovers
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 76 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Tera Blast
+- Hyper Voice
+- Calm Mind
+- Protect
+
+Hydreigon (F) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Tailwind
+- Protect
+- Dark Pulse
+
+Arcanine (F) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 92 Atk / 4 Def / 156 SpD / 4 Spe
+Adamant Nature
+- Play Rough
+- Close Combat
+- Extreme Speed
+- Flare Blitz
+
+Gastrodon-East (M) @ Sitrus Berry
+Ability: Storm Drain
+Level: 50
+Tera Type: Fire
+EVs: 116 HP / 252 Def / 140 SpD
+Bold Nature
+IVs: 0 Atk
+- Earth Power
+- Icy Wind
+- Recover
+- Clear Smog
+
+Amoonguss (F) @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 252 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Giga Drain
+- Rage Powder
+- Spore
+- Clear Smog

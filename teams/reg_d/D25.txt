@@ -1,0 +1,66 @@
+Kleavor @ Choice Scarf
+Ability: Sharpness
+Level: 50
+Tera Type: Grass
+EVs: 44 HP / 252 Atk / 4 Def / 12 SpD / 196 Spe
+Jolly Nature
+- Stone Axe
+- Close Combat
+- Tera Blast
+- U-turn
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 36 Def / 68 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Rain Dance
+- Bleakwind Storm
+- Taunt
+- Tailwind
+
+Basculegion (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Protect
+- Last Respects
+- Wave Crash
+- Aqua Jet
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 204 Atk / 4 Def / 4 SpD / 100 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Aerial Ace
+- Aqua Jet
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+
+Tsareena @ Sitrus Berry
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 156 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Protect
+- Helping Hand
+- Low Sweep
+- Power Whip

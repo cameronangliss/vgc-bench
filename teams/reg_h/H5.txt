@@ -1,0 +1,70 @@
+Ninetales-Alola @ Light Clay
+Ability: Snow Cloak
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Moonblast
+- Aurora Veil
+- Encore
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ghost
+EVs: 44 HP / 20 Atk / 100 Def / 108 SpD / 236 Spe
+Jolly Nature
+- Glaive Rush
+- High Horsepower
+- Swords Dance
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 44 Def / 52 SpA / 36 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 92 Def / 156 SpD / 20 Spe
+Careful Nature
+IVs: 0 Atk
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 156 Def / 4 SpD / 20 Spe
+Adamant Nature
+IVs: 0 Atk
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 44 Def / 156 SpA / 196 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Psychic Noise
+- Imprison
+- Trick Room

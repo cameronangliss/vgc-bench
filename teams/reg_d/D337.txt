@@ -1,0 +1,66 @@
+Thundurus @ Wide Lens
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 52 Def / 136 SpA / 4 SpD / 152 Spe
+Modest Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Swagger
+- Rain Dance
+- Thunder Wave
+
+Basculegion @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Sneasler @ Mirror Herb
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dire Claw
+- Acrobatics
+- Rock Slide
+- Protect
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 252 Atk / 36 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Arcanine @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 148 Def / 4 SpD / 100 Spe
+Adamant Nature
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+- Morning Sun
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 52 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Knock Off
+- U-turn

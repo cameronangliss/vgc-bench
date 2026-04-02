@@ -1,0 +1,67 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+
+Annihilape @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 28 Def / 92 SpD / 132 Spe
+Jolly Nature
+- Protect
+- Rage Fist
+- Drain Punch
+- Bulk Up
+
+Dragonite @ Assault Vest
+Ability: Multiscale
+Level: 50
+Tera Type: Ground
+EVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Extreme Speed
+- Iron Head
+- Earthquake
+- Aqua Jet
+
+Maushold @ Mago Berry
+Ability: Friend Guard
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 196 Def / 68 Spe
+Bold Nature
+- Protect
+- Follow Me
+- Taunt
+- Beat Up
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 36 Def / 44 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Icy Wind
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 220 SpA / 36 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump

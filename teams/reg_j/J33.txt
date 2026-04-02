@@ -1,0 +1,70 @@
+Magearna-Original @ Safety Goggles
+Ability: Soul-Heart
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 116 Def / 160 SpA / 44 SpD
+Quiet Nature
+IVs: 0 Spe
+- Protect
+- Trick Room
+- Dazzling Gleam
+- Flash Cannon
+
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Normal
+EVs: 188 HP / 120 Atk / 44 Def / 156 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Trick Room
+- High Horsepower
+- Glacial Lance
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 164 HP / 4 Def / 196 SpA / 116 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Blood Moon
+- Earth Power
+- Hyper Voice
+
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- U-turn
+- Rage Fist
+- Close Combat
+- Final Gambit
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Ground
+EVs: 188 HP / 196 Def / 8 SpA / 116 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Trick Room
+- Helping Hand
+- Psychic
+
+Smeargle (F) @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 28 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Spiky Shield
+- Follow Me
+- Spore
+- Ruination

@@ -1,0 +1,69 @@
+Delphox @ Psychic Seed
+Ability: Magician
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Heat Wave
+- Dazzling Gleam
+- Trick Room
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Helping Hand
+- Trick Room
+- Dazzling Gleam
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Earth Power
+- Heat Wave
+- Protect
+
+Zapdos-Galar @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- Stomping Tantrum
+- U-turn
+
+Flutter Mane @ Fairy Feather
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 76 HP / 100 Def / 172 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Icy Wind
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect

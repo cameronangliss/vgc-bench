@@ -1,0 +1,71 @@
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Moonblast
+- Lunar Blessing
+- Ally Switch
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 124 HP / 156 Atk / 36 Def / 4 SpA / 188 SpD
+Brave Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Volt Switch
+
+Ursaluna-Bloodmoon @ Throat Spray
+Ability: Mind's Eye
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 92 HP / 252 Atk / 4 Def / 4 SpD / 156 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Lash Out
+- Sucker Punch
+- Protect
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 164 HP / 52 Atk / 68 Def / 4 SpD / 220 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- Tera Blast
+- U-turn

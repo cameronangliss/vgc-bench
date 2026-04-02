@@ -1,0 +1,69 @@
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 28 HP / 252 Atk / 4 Def / 4 SpD / 220 Spe
+Adamant Nature
+- Collision Course
+- Flare Blitz
+- Flame Charge
+- Protect
+
+Scovillain @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Overheat
+- Rage Powder
+- Spicy Extract
+- Protect
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Volt Switch
+- Snarl
+- Draco Meteor
+- Electro Drift
+
+Chesnaught @ Electric Seed
+Ability: Bulletproof
+Level: 50
+Tera Type: Steel
+EVs: 228 HP / 220 Def / 60 Spe
+Bold Nature
+IVs: 0 Atk
+- Leech Seed
+- Wide Guard
+- Body Press
+- Spiky Shield
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- After You
+- Protect
+- Life Dew
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Def / 4 SpA / 52 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Helping Hand
+- Psychic
+- Follow Me
+- Protect

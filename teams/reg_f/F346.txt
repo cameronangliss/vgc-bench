@@ -1,0 +1,69 @@
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 68 Atk / 4 Def / 44 SpD / 252 Spe
+Jolly Nature
+- Heat Crash
+- Breaking Swipe
+- Howl
+- Burning Bulwark
+
+Corviknight (F) @ Rocky Helmet
+Ability: Mirror Armor
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 244 HP / 100 Atk / 76 Def / 4 SpD / 84 Spe
+Adamant Nature
+- Brave Bird
+- Iron Head
+- Tailwind
+- Roost
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 68 HP / 132 Def / 132 SpA / 4 SpD / 172 Spe
+Timid Nature
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Power Gem
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 188 HP / 148 Def / 100 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Electroweb
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 84 Atk / 4 Def / 12 SpD / 204 Spe
+Adamant Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield

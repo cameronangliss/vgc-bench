@@ -1,0 +1,69 @@
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Poison
+EVs: 204 HP / 132 Atk / 172 SpD
+Brave Nature
+IVs: 14 SpA / 0 Spe
+- Grassy Glide
+- Wood Hammer
+- Fake Out
+- U-turn
+
+Kommo-o @ Grassy Seed
+Ability: Soundproof
+Level: 50
+Tera Type: Steel
+EVs: 204 HP / 4 Atk / 156 Def / 124 SpD / 20 Spe
+Impish Nature
+- Body Press
+- Throat Chop
+- Bulk Up
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 116 Atk / 12 Def / 124 SpD / 12 Spe
+Adamant Nature
+- Knock Off
+- Protect
+- Fake Out
+- Parting Shot
+
+Basculegion-F @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Stellar
+EVs: 28 HP / 68 Def / 252 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 12 Atk
+- Shadow Ball
+- Hydro Pump
+- Ice Beam
+- Protect
+
+Gothitelle @ Leftovers
+Ability: Shadow Tag
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 92 Def / 4 SpA / 156 SpD / 12 Spe
+Calm Nature
+IVs: 16 Atk
+- Protect
+- Psychic Noise
+- Trick Room
+- Fake Out
+
+Politoed @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 132 Def / 20 SpA / 140 SpD / 4 Spe
+Calm Nature
+IVs: 12 Atk
+- Weather Ball
+- Perish Song
+- Helping Hand
+- Protect

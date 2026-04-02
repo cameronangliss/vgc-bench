@@ -2,82 +2,10 @@
 
 from vgc_bench.scrape_teams import (
     all_pokemon_have_evs,
-    event_slug,
-    extract_year,
     get_regulation_sheets,
     has_duplicate_items,
-    is_valid_placement,
-    normalize_event_name,
     normalize_team_text,
-    placement_to_filename,
-    slugify,
 )
-
-
-class TestSlugify:
-    def test_basic(self):
-        assert slugify("Hello World!") == "hello_world"
-
-    def test_unicode(self):
-        assert slugify("São Paulo") == "sao_paulo"
-
-    def test_empty(self):
-        assert slugify("") == ""
-
-    def test_special_chars(self):
-        assert slugify("a---b___c") == "a_b_c"
-
-
-class TestNormalizeEventName:
-    def test_strips_regional_championships(self):
-        assert "Regional Championships" not in normalize_event_name(
-            "Atlanta Regional Championships"
-        )
-
-    def test_strips_regionals(self):
-        assert "Regionals" not in normalize_event_name("Atlanta Regionals 2024")
-
-    def test_preserves_other_text(self):
-        assert "Atlanta" in normalize_event_name("Atlanta Regional Championships")
-
-
-class TestExtractYear:
-    def test_from_event_name(self):
-        assert extract_year("Atlanta 2024", "") == "2024"
-
-    def test_from_date_string(self):
-        assert extract_year("Atlanta", "15 Jan 2024") == "2024"
-
-    def test_no_year(self):
-        assert extract_year("Atlanta", "unknown") is None
-
-    def test_date_with_sept_abbreviation(self):
-        assert extract_year("Event", "15 Sept 2023") == "2023"
-
-
-class TestEventSlug:
-    def test_basic(self):
-        slug = event_slug("Atlanta 2024", "15 Jan 2024")
-        assert "atlanta" in slug
-        assert "2024" in slug
-
-    def test_removes_year_from_name(self):
-        slug = event_slug("Atlanta 2024", "")
-        assert slug.count("2024") == 1
-
-
-class TestPlacementToFilename:
-    def test_champion(self):
-        assert placement_to_filename("Champion") == "1st"
-
-    def test_winner(self):
-        assert placement_to_filename("Winner") == "1st"
-
-    def test_runner_up(self):
-        assert placement_to_filename("Runner Up") == "2nd"
-
-    def test_numeric(self):
-        assert placement_to_filename("3rd") == "3rd"
 
 
 class TestHasDuplicateItems:
@@ -96,18 +24,6 @@ class TestAllPokemonHaveEvs:
     def test_missing_evs(self):
         text = "Mon1 @ Item\nAbility: Blaze\n\nMon2 @ Item\nAbility: Blaze\n"
         assert all_pokemon_have_evs(text) is False
-
-
-class TestIsValidPlacement:
-    def test_valid(self):
-        assert is_valid_placement("1st") is True
-        assert is_valid_placement("Champion") is True
-
-    def test_juniors(self):
-        assert is_valid_placement("1st Juniors") is False
-
-    def test_seniors(self):
-        assert is_valid_placement("1st Seniors") is False
 
 
 class TestNormalizeTeamText:
@@ -158,18 +74,26 @@ class TestNormalizeTeamText:
 
 
 class TestGetRegulationSheets:
-    def test_finds_featured(self):
-        sheets = ["Reg G Featured Teams", "Reg H Featured Teams", "Other Sheet"]
-        result = get_regulation_sheets(sheets, "G")
-        assert "Reg G Featured Teams" in result
-        assert "Reg H Featured Teams" not in result
+    def test_finds_featured_and_regular(self):
+        sheets = [
+            "Reg G Featured Teams",
+            "Reg H Featured Teams",
+            "SV Regulation G",
+            "SV Regulation H",
+        ]
+        featured, regular = get_regulation_sheets(sheets, "G")
+        assert "Reg G Featured Teams" in featured
+        assert "Reg H Featured Teams" not in featured
+        assert "SV Regulation G" in regular
+        assert "SV Regulation H" not in regular
 
     def test_excludes_presentable(self):
         sheets = ["Reg G Featured Teams Presentable", "Reg G Featured Teams"]
-        result = get_regulation_sheets(sheets, "G")
-        assert len(result) == 1
-        assert "Presentable" not in result[0]
+        featured, _regular = get_regulation_sheets(sheets, "G")
+        assert len(featured) == 1
+        assert "Presentable" not in featured[0]
 
     def test_fallback(self):
-        result = get_regulation_sheets([], "G")
-        assert len(result) == 1
+        featured, regular = get_regulation_sheets([], "G")
+        assert featured == []
+        assert regular == ["SV Regulation G"]

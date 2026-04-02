@@ -1,0 +1,70 @@
+Arcanine-Hisui @ Ability Shield
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Icicle Crash
+- Sucker Punch
+- Throat Chop
+
+Weezing-Galar @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 252 HP / 4 Def / 4 SpA / 244 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Toxic Spikes
+- Poison Gas
+- Sludge Bomb
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 20 Def / 12 SpD / 28 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Outrage
+- Earthquake
+
+Dondozo @ Rocky Helmet
+Ability: Oblivious
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Wave Crash
+- Order Up
+- Earthquake
+
+Tatsugiri @ Safety Goggles
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 140 Def / 76 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Helping Hand
+- Draco Meteor
+- Muddy Water

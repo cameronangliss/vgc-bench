@@ -1,0 +1,68 @@
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 100 Def / 4 SpA / 148 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Aurora Veil
+- Blizzard
+- Moonblast
+- Protect
+
+Empoleon @ Assault Vest
+Ability: Competitive
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Ice Beam
+- Hydro Pump
+- Flash Cannon
+- Vacuum Wave
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 220 Atk / 28 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Acrobatics
+- Knock Off
+- Dragon Dance
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpA
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Strength Sap
+- Trick Room
+- Rage Powder
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Wicked Blow
+- Sucker Punch
+- Protect
+
+Arcanine-Hisui @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 44 Atk / 36 Def / 164 SpD / 20 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Protect

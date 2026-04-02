@@ -1,0 +1,67 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Atk / 20 Def / 228 SpD / 12 Spe
+Careful Nature
+- Rest
+- Order Up
+- Earthquake
+- Protect
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Coaching
+- U-turn
+- Close Combat
+- Final Gambit
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 236 HP / 252 Atk / 4 Def / 12 SpD / 4 Spe
+Adamant Nature
+- Outrage
+- Extreme Speed
+- Ice Spinner
+- Aerial Ace
+
+Weezing-Galar @ Covert Cloak
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 20 Def / 236 SpD / 12 Spe
+Careful Nature
+IVs: 0 Atk
+- Poison Gas
+- Strange Steam
+- Toxic Spikes
+- Protect
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Shadow Claw
+- Helping Hand
+
+Tatsugiri @ Assault Vest
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 92 Def / 44 SpA / 100 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Mirror Coat
+- Draco Meteor
+- Counter

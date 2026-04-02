@@ -1,0 +1,71 @@
+Arcanine-Hisui (M) @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 0 SpA
+- Rock Slide
+- Flare Blitz
+- Extreme Speed
+- Head Smash
+
+Clefable (F) @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 236 HP / 206 Def / 36 SpA / 4 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Thunder Wave
+- Follow Me
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Iron Jugulis @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 28 Def / 4 SpA / 134 SpD / 92 Spe
+Timid Nature
+IVs: 0 Atk
+- Air Slash
+- Snarl
+- Tailwind
+- Protect
+
+Rillaboom (F) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Ghost
+EVs: 188 HP / 212 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+IVs: 0 SpA
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+- Fake Out
+
+Urshifu-Rapid-Strike (F) @ Splash Plate
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 78 Atk / 4 Def / 164 SpD / 12 Spe
+Adamant Nature
+IVs: 0 SpA
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect

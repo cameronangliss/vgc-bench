@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Disable
+- Gravity
+- Protect
+
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 92 HP / 156 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- Swords Dance
+- Protect
+
+Jumpluff @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 52 Def / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Sleep Powder
+- Encore
+- Helping Hand
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 188 Def / 4 SpD / 68 Spe
+Impish Nature
+- Flare Blitz
+- Parting Shot
+- Taunt
+- Fake Out
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 68 HP / 4 Def / 252 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Protect
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Poison Jab

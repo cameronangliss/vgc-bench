@@ -1,0 +1,71 @@
+Necrozma-Dawn-Wings @ Power Herb
+Ability: Prism Armor
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Spe
+- Moongeist Beam
+- Meteor Beam
+- Trick Room
+- Photon Geyser
+
+Magearna @ Fairy Feather
+Ability: Soul-Heart
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Flash Cannon
+- Dazzling Gleam
+- Trick Room
+- Fleur Cannon
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Psychic
+- Helping Hand
+- Trick Room
+
+Smeargle @ Focus Sash
+Ability: Own Tempo
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Spore
+- Wide Guard
+- Decorate
+
+Annihilape @ Iron Ball
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Rage Fist
+- Close Combat
+- Encore
+- Final Gambit
+
+Alcremie @ Mental Herb
+Ability: Sweet Veil
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Decorate
+- Encore
+- Fake Tears

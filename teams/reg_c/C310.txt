@@ -1,0 +1,68 @@
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 100 Def / 156 SpD
+Impish Nature
+- Sunny Day
+- Tailwind
+- Thunder Wave
+- Foul Play
+
+Great Tusk @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Headlong Rush
+- Protect
+- Earthquake
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Protect
+
+Brute Bonnet @ Loaded Dice
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Bullet Seed
+- Tera Blast
+- Spore
+- Sucker Punch
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 36 HP / 252 SpA / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Snarl
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 124 HP / 4 Def / 124 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
+- Protect

@@ -1,0 +1,68 @@
+Jolteon @ Covert Cloak
+Ability: Volt Absorb
+Level: 50
+Tera Type: Fairy
+EVs: 36 HP / 252 SpA / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Electroweb
+- Alluring Voice
+- Fake Tears
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 36 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Bulk Up
+- Rage Fist
+- Drain Punch
+- Protect
+
+Pelipper @ Rocky Helmet
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 236 HP / 20 Def / 116 SpA / 92 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Weather Ball
+- Hurricane
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 36 Atk / 116 Def / 84 SpD / 20 Spe
+Impish Nature
+- Reflect
+- Light Screen
+- Misty Terrain
+- Spirit Break
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Steel
+EVs: 204 HP / 12 Def / 76 SpA / 196 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Body Press
+- Dragon Pulse
+- Snarl
+
+Meganium @ Loaded Dice
+Ability: Leaf Guard
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 20 Atk / 116 Def / 76 SpD / 76 Spe
+Careful Nature
+- Knock Off
+- Bullet Seed
+- Protect
+- Heal Pulse

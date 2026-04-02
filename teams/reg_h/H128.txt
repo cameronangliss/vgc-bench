@@ -1,0 +1,67 @@
+Ninetales-Alola @ Covert Cloak
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 20 Def / 4 SpA / 28 SpD / 236 Spe
+Timid Nature
+IVs: 0 Atk
+- Aurora Veil
+- Moonblast
+- Encore
+- Disable
+
+Frosmoth @ Leftovers
+Ability: Ice Scales
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 252 Def / 76 SpA / 4 SpD / 100 Spe
+Modest Nature
+- Quiver Dance
+- Blizzard
+- Tera Blast
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 44 Atk / 52 Def / 156 SpD
+Careful Nature
+IVs: 12 Spe
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Annihilape @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 76 Atk / 4 Def / 84 SpD / 116 Spe
+Jolly Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Maushold @ Mental Herb
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 212 SpD / 52 Spe
+Careful Nature
+- Beat Up
+- Follow Me
+- Taunt
+- Helping Hand
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 116 Atk / 4 Def / 108 SpD / 84 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn

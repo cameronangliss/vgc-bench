@@ -1,0 +1,68 @@
+Okidogi @ Leftovers
+Ability: Guard Dog
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 20 Atk / 4 Def / 228 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Knock Off
+- Protect
+- Bulk Up
+
+Sableye @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Encore
+- Will-O-Wisp
+- Light Screen
+- Reflect
+
+Rillaboom @ Mago Berry
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 44 Atk / 132 Def / 44 SpD / 36 Spe
+Adamant Nature
+- Wood Hammer
+- U-turn
+- Fake Out
+- Taunt
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 116 Def / 4 SpA / 4 SpD / 140 Spe
+Bold Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Protect
+- Quiver Dance
+
+Ting-Lu @ Wiki Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 36 Atk / 4 Def / 180 SpD / 36 Spe
+Impish Nature
+- Sand Tomb
+- Ruination
+- Heavy Slam
+- Taunt
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 76 Def / 84 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Energy Ball

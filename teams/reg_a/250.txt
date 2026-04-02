@@ -1,0 +1,70 @@
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 204 Def / 52 SpD
+Modest Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Helping Hand
+- Trick Room
+
+Armarouge (F) @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 36 Def / 220 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Tera Blast
+- Heat Wave
+- Expanding Force
+- Trick Room
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 252 SpA / 44 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Baxcalibur (M) @ Assault Vest
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Glaive Rush
+- Icicle Spear
+- Ice Shard
+- Brick Break
+
+Annihilape (M) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Final Gambit
+- Shadow Claw
+- U-turn
+
+Mudsdale (M) @ Choice Band
+Ability: Stamina
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+IVs: 0 Spe
+- High Horsepower
+- Heavy Slam
+- Rock Slide
+- Close Combat

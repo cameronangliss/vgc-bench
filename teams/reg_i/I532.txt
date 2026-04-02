@@ -1,0 +1,67 @@
+Miraidon @ Electric Seed
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 180 HP / 20 Def / 236 SpA / 4 SpD / 68 Spe
+Modest Nature
+- Electro Drift
+- Parabolic Charge
+- Dragon Pulse
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 92 Def / 172 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Whimsicott @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 132 Def / 132 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Cotton Spore
+- Light Screen
+- Tailwind
+
+Urshifu-Rapid-Strike @ Assault Vest
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 252 Atk / 4 Def / 108 SpD / 52 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Drain Punch
+- Aqua Jet
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Ice Shard
+- Sucker Punch
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 132 HP / 252 Def / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Thunder Wave
+- Taunt

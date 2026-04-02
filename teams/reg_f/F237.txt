@@ -1,0 +1,68 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 12 Atk / 124 Def / 116 SpD / 4 Spe
+Impish Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Registeel @ Leftovers
+Ability: Clear Body
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 156 Def / 92 SpD / 4 Spe
+Careful Nature
+- Protect
+- Iron Defense
+- Body Press
+- Heavy Slam
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 180 Def / 84 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Aqua Jet
+
+Latias @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 76 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Calm Mind
+- Recover
+- Mist Ball
+- Draining Kiss
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 180 HP / 148 Def / 100 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Snarl

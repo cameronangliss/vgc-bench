@@ -1,0 +1,63 @@
+Dondozo @ Clear Amulet
+Ability: Unaware
+Level: 50
+EVs: 60 HP / 252 Atk / 4 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Substitute
+- Protect
+
+Jolteon @ Choice Specs
+Ability: Volt Absorb
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Volt Switch
+- Thunderbolt
+- Shadow Ball
+- Hyper Voice
+
+Tatsugiri @ Black Sludge
+Ability: Commander
+Level: 50
+EVs: 252 SpA / 252 Spe
+Naive Nature
+IVs: 0 HP / 0 Atk / 0 SpD
+- Icy Wind
+- Chilling Water
+- Endure
+- Helping Hand
+
+Flamigo @ Covert Cloak
+Ability: Costar
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Brave Bird
+- Throat Chop
+- Tailwind
+
+Maushold-Four @ Sitrus Berry
+Ability: Friend Guard
+Level: 50
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Follow Me
+- Helping Hand
+- Super Fang
+- Encore
+
+Dragapult @ Life Orb
+Ability: Clear Body
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Phantom Force
+- Psychic Fangs
+- Protect

@@ -1,0 +1,69 @@
+Thundurus-Therian @ Choice Specs
+Ability: Volt Absorb
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 4 Def / 252 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Thunder
+- Volt Switch
+- Tera Blast
+
+Tornadus (M) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Rain Dance
+- Tailwind
+- Protect
+
+Landorus (M) @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sandsear Storm
+- Psychic
+- Sludge Bomb
+- Protect
+
+Enamorus-Therian (F) @ Sitrus Berry
+Ability: Overcoat
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Springtide Storm
+- Mystical Fire
+- Taunt
+- Protect
+
+Goodra-Hisui @ Choice Band
+Ability: Sap Sipper
+Level: 50
+Tera Type: Ground
+EVs: 236 HP / 252 Atk / 4 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Iron Head
+- Outrage
+- Earthquake
+- Ice Spinner
+
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 20 Def / 4 SpD / 228 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect

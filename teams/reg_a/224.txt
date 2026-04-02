@@ -1,0 +1,65 @@
+Drednaw @ Clear Amulet
+Ability: Swift Swim
+Level: 50
+EVs: 12 HP / 196 Atk / 4 Def / 108 SpD / 188 Spe
+Adamant Nature
+- Waterfall
+- Rock Slide
+- Ice Spinner
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Hydro Pump
+- Tailwind
+- Wide Guard
+
+Tsareena @ Choice Scarf
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Fairy
+EVs: 92 HP / 196 Atk / 4 Def / 4 SpD / 212 Spe
+Jolly Nature
+- Trop Kick
+- U-turn
+- Low Sweep
+- Play Rough
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 236 HP / 252 Atk / 4 Def / 12 SpD / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Brick Break
+
+Toxtricity @ Choice Specs
+Ability: Punk Rock
+Level: 50
+Tera Type: Normal
+EVs: 68 HP / 36 Def / 220 SpA / 44 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Overdrive
+- Sludge Bomb
+- Boomburst
+- Hex
+
+Sableye @ Wide Lens
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 60 Def / 196 SpD
+Calm Nature
+- Snarl
+- Fake Out
+- Will-O-Wisp
+- Quash

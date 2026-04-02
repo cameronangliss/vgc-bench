@@ -1,0 +1,68 @@
+Rhyperior @ Clear Amulet
+Ability: Solid Rock
+Level: 50
+Tera Type: Bug
+EVs: 20 HP / 252 Atk / 236 SpD
+Brave Nature
+IVs: 0 Spe
+- Rock Slide
+- High Horsepower
+- Megahorn
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 28 Atk / 76 Def / 36 SpA / 116 SpD
+Quiet Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 28 Def / 156 SpD / 36 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 60 Def / 36 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Power Gem
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 180 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 252 SpA / 116 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Protect

@@ -1,0 +1,67 @@
+Kleavor @ Rocky Helmet
+Ability: Sharpness
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 212 Atk / 4 Def / 4 SpD / 36 Spe
+Adamant Nature
+- Stone Axe
+- X-Scissor
+- Feint
+- Protect
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 68 Def / 156 SpA / 4 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 204 HP / 252 Atk / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Stomping Tantrum
+- Ice Spinner
+- Outrage
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 76 Atk / 84 Def / 196 SpD / 4 Spe
+Adamant Nature
+- Wave Crash
+- Body Press
+- Curse
+- Protect
+
+Tornadus @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 172 HP / 188 SpA / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Taunt
+- Bleakwind Storm
+- Rain Dance

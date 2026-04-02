@@ -1,0 +1,66 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 52 Def / 196 SpD / 4 Spe
+Careful Nature
+- Reflect
+- Light Screen
+- Spirit Break
+- Fake Out
+
+Meowscarada (F) @ Choice Band
+Ability: Protean
+Level: 50
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Play Rough
+- U-turn
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Dragon Claw
+- Earthquake
+- Protect
+
+Kilowattrel (F) @ Focus Sash
+Ability: Wind Power
+Level: 50
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Volt Switch
+- Air Slash
+- Tailwind
+
+Skeledirge (M) @ Assault Vest
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 236 SpA / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Torch Song
+- Shadow Ball
+- Tera Blast
+- Snarl
+
+Annihilape (F) @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 124 Atk / 12 Def / 156 SpD / 36 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect

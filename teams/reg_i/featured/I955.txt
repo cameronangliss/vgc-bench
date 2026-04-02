@@ -1,0 +1,64 @@
+Calyrex-Shadow @ Choice Specs
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 4 Def / 196 SpA / 156 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Pollen Puff
+- Expanding Force
+
+Maushold @ Rocky Helmet
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 180 Def / 4 SpD / 68 Spe
+Impish Nature
+- Helping Hand
+- Feint
+- Follow Me
+- Taunt
+
+Ditto @ Focus Sash
+Ability: Imposter
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 4 Def / 252 Spe
+Jolly Nature
+IVs: 30 Atk
+- Transform
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Atk / 244 Def / 4 SpD / 20 Spe
+Impish Nature
+- Body Press
+- Wide Guard
+- Heavy Slam
+- Imprison
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 140 Def / 4 SpD / 108 Spe
+Jolly Nature
+- Knock Off
+- Tailwind
+- Breaking Swipe
+- Acrobatics
+
+Weezing-Galar @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 4 Atk / 4 Def / 204 SpD / 44 Spe
+Impish Nature
+- Taunt
+- Will-O-Wisp
+- Play Rough
+- Protect

@@ -1,0 +1,65 @@
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 204 Atk / 108 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Outrage
+- Aqua Jet
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+
+Sneasler @ Grassy Seed
+Ability: Pressure
+Level: 50
+Tera Type: Poison
+EVs: 124 HP / 236 Atk / 4 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Protect
+- Close Combat
+- Dire Claw
+- Quick Guard
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 196 Atk / 60 Spe
+Adamant Nature
+- Fake Out
+- Drum Beating
+- Knock Off
+- U-turn
+
+Mimikyu @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Shadow Claw
+- Shadow Sneak
+- Play Rough
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 4 Def / 108 SpD / 180 Spe
+Adamant Nature
+- Detect
+- Surging Strikes
+- Close Combat
+- Aqua Jet

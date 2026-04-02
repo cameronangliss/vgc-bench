@@ -1,0 +1,70 @@
+Rotom-Heat @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 244 HP / 12 Def / 132 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Overheat
+- Volt Switch
+- Protect
+
+Iron Jugulis @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 4 SpA / 132 SpD / 116 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Tailwind
+- Air Slash
+- Snarl
+
+Flutter Mane @ Leftovers
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 148 Def / 8 SpA / 116 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Protect
+- Substitute
+- Shadow Ball
+
+Baxcalibur @ Life Orb
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Shard
+- Glaive Rush
+- Protect
+- Icicle Crash
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 156 Def / 100 SpD
+Calm Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Tauros-Paldea-Aqua @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 156 Atk / 4 Def / 164 SpD / 76 Spe
+Adamant Nature
+- Raging Bull
+- Aqua Jet
+- Close Combat
+- Protect

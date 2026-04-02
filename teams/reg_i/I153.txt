@@ -1,0 +1,69 @@
+Brute Bonnet @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 132 Def / 100 SpD / 20 Spe
+Impish Nature
+- Seed Bomb
+- Sucker Punch
+- Spore
+- Rage Powder
+
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 52 Def / 196 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Meteor Beam
+- Trick Room
+- Wide Guard
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Poison
+EVs: 220 HP / 252 Atk / 36 Def
+Brave Nature
+IVs: 5 Spe
+- Earthquake
+- Headlong Rush
+- Facade
+- Protect
+
+Koraidon @ Life Orb
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- Flare Blitz
+- Flame Charge
+- Protect
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 116 HP / 148 Def / 124 SpA / 84 SpD / 36 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Snarl
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 28 HP / 76 Def / 164 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Dark Pulse
+- Snarl

@@ -1,0 +1,71 @@
+Dondozo (M) @ Rocky Helmet
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 28 HP / 220 Atk / 4 Def / 30 SpD / 228 Spe
+Adamant Nature
+IVs: 24 SpA
+- Wave Crash
+- Order Up
+- Earthquake
+- Protect
+
+Tatsugiri (F) @ Choice Scarf
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 60 HP / 4 Def / 236 SpA / 4 SpD / 204 Spe
+Timid Nature
+IVs: 19 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Dragon Pulse
+
+Dragapult (M) @ Choice Band
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 36 HP / 252 Atk / 4 Def / 4 SpD / 214 Spe
+Jolly Nature
+IVs: 28 SpA
+- Dragon Darts
+- Phantom Force
+- U-turn
+- Outrage
+
+Enamorus-Therian (F) @ Leftovers
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 100 Def / 36 SpA / 116 SpD / 6 Spe
+Modest Nature
+- Moonblast
+- Earth Power
+- Taunt
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 6 Def / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Entei @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 142 HP / 252 Atk / 4 Def / 52 SpD / 60 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Trailblaze

@@ -1,0 +1,76 @@
+Indeedee-F @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Follow Me
+- Helping Hand
+- Trick Room
+
+Gallade @ Clear Amulet
+Ability: Sharpness
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 100 HP / 252 Atk / 4 Def / 116 SpD / 36 Spe
+Adamant Nature
+IVs: 29 SpA
+- Psycho Cut
+- Sacred Sword
+- Wide Guard
+- Trick Room
+
+Zoroark-Hisui @ Choice Specs
+Ability: Illusion
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Voice
+- Shadow Ball
+- Hyper Beam
+- Taunt
+
+Armarouge @ Power Herb
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 28 Atk
+- Heat Wave
+- Expanding Force
+- Meteor Beam
+- Protect
+
+Hatterene @ Life Orb
+Ability: Magic Bounce
+Level: 50
+Tera Type: Poison
+EVs: 84 HP / 116 Def / 252 SpA / 56 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Expanding Force
+- Dazzling Gleam
+- Trick Room
+- Mystical Fire
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 140 HP / 252 Atk / 76 Def / 4 SpA / 36 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect

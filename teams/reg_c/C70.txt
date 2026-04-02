@@ -1,0 +1,68 @@
+Tyranitar @ Choice Band
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Rock Slide
+- Low Kick
+- Tera Blast
+- Assurance
+
+Garchomp @ Clear Amulet
+Ability: Sand Veil
+Level: 50
+Tera Type: Fire
+EVs: 236 Atk / 20 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Tera Blast
+- Protect
+- Substitute
+
+Talonflame @ Safety Goggles
+Ability: Gale Wings
+Level: 50
+Tera Type: Normal
+EVs: 188 HP / 252 Def / 68 Spe
+Jolly Nature
+- Brave Bird
+- Taunt
+- Protect
+- Tailwind
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Icy Wind
+- Protect
+- Encore
+
+Gastrodon @ Lum Berry
+Ability: Storm Drain
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Def / 252 SpA
+Relaxed Nature
+IVs: 0 Atk / 6 Spe
+- Muddy Water
+- Recover
+- Yawn
+- Clear Smog

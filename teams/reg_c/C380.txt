@@ -1,0 +1,68 @@
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Iron Head
+- Fire Punch
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Ice Spinner
+- Sacred Sword
+- Haze
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Overheat
+- Heat Wave
+- Dark Pulse
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Substitute
+
+Brute Bonnet @ Loaded Dice
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 252 Atk / 12 Spe
+Adamant Nature
+- Sucker Punch
+- Bullet Seed
+- Close Combat
+- Spore
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Focus Blast
+- Trick

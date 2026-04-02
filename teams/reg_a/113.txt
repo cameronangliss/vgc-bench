@@ -1,0 +1,65 @@
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Soak
+- Icy Wind
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 252 Atk / 4 Def / 132 SpD / 52 Spe
+Adamant Nature
+- Substitute
+- Order Up
+- Wave Crash
+- Earthquake
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+EVs: 244 HP / 252 SpA / 12 Spe
+Modest Nature
+- Protect
+- Hyper Voice
+- Yawn
+- Quick Attack
+
+Hydreigon @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Draco Meteor
+- Dark Pulse
+- Flash Cannon
+
+Armarouge @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 4 Def / 244 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Trick Room
+- Wide Guard
+- Armor Cannon
+- Psychic
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Fake Tears
+- Flower Trick
+- Knock Off
+- Trick Room

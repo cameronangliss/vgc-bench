@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Leftovers
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Astral Barrage
+- Draining Kiss
+- Calm Mind
+- Protect
+
+Koraidon @ Safety Goggles
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Def / 252 Spe
+Jolly Nature
+- Collision Course
+- Flare Blitz
+- Taunt
+- Protect
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+IVs: 20 Atk
+- Snarl
+- Volt Switch
+- Draco Meteor
+- Dragon Tail
+
+Incineroar @ Red Card
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 188 Def / 68 SpD
+Impish Nature
+- Fake Out
+- Parting Shot
+- Taunt
+- Roar
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 164 Def / 92 Spe
+Impish Nature
+- Spirit Break
+- Fake Out
+- Reflect
+- Light Screen
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Protect
+- Helping Hand
+- Life Dew

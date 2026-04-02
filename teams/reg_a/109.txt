@@ -1,0 +1,67 @@
+Kilowattrel (M) @ Life Orb
+Ability: Competitive
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Thunder
+- Hurricane
+- Discharge
+
+Meowscarada (F) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 252 Atk / 244 Spe
+Jolly Nature
+- Protect
+- Flower Trick
+- Knock Off
+- Grassy Terrain
+
+Pelipper (M) @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 76 HP / 252 SpA / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Hydro Pump
+- Tailwind
+- Wide Guard
+
+Amoonguss (F) @ Wiki Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Giga Drain
+
+Palafin (F) @ Choice Band
+Ability: Zero to Hero
+Level: 50
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Flip Turn
+- Jet Punch
+- Wave Crash
+- Close Combat
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+EVs: 52 HP / 252 SpA / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt

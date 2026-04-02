@@ -1,0 +1,68 @@
+Calyrex-Ice @ Icicle Plate
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Ice
+EVs: 180 HP / 252 Atk / 4 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Glacial Lance
+- Icicle Spear
+- High Horsepower
+- Protect
+
+Mew @ Covert Cloak
+Ability: Synchronize
+Level: 50
+Tera Type: Normal
+EVs: 228 HP / 4 Def / 252 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Fire Pledge
+- Water Pledge
+- Protect
+
+Iron Boulder @ Choice Band
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 244 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Mighty Cleave
+- Psycho Cut
+- Sacred Sword
+- Earthquake
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 204 Def / 36 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Psychic
+- Helping Hand
+- Follow Me
+- Trick Room
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Grass Pledge
+- Spore
+- Wide Guard
+- Spiky Shield
+
+Rillaboom @ Choice Scarf
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Wood Hammer
+- Grass Pledge
+- High Horsepower
+- U-turn

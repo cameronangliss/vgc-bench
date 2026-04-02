@@ -1,0 +1,68 @@
+Terapagos-Terastal @ Leftovers
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 52 Def / 132 SpA / 4 SpD / 148 Spe
+Bold Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Protect
+- Calm Mind
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 244 HP / 4 Atk / 188 Def / 60 SpD / 12 Spe
+Impish Nature
+- Knock Off
+- Fake Out
+- Parting Shot
+- Will-O-Wisp
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 244 HP / 36 Atk / 4 Def / 220 SpD / 4 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- Fake Out
+- U-turn
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 12 HP / 188 Atk / 52 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Spiky Shield
+- Follow Me
+- Power Whip
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 188 Def / 212 Spe
+Timid Nature
+- Moonblast
+- Icy Wind
+- Thunder Wave
+- Taunt
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Astral Barrage
+- Protect
+- Will-O-Wisp
+- Pollen Puff

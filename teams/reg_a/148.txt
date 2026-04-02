@@ -1,0 +1,65 @@
+Murkrow @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 236 HP / 252 Atk / 12 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Tailwind
+- Taunt
+- Haze
+- Brave Bird
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 252 Spe
+Adamant Nature
+- Final Gambit
+- Close Combat
+- Rage Fist
+- U-turn
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+EVs: 212 HP / 252 SpA / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Trick
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 252 Atk / 4 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Extreme Speed
+- Dragon Claw
+- Fire Punch
+- Ice Spinner
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Order Up
+- Wave Crash
+- Substitute
+- Protect
+
+Tatsugiri @ Focus Sash
+Ability: Commander
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Mirror Coat
+- Helping Hand
+- Protect

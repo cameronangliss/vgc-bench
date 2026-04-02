@@ -1,0 +1,69 @@
+Dondozo (F) @ Rocky Helmet
+Ability: Unaware
+Level: 50
+Tera Type: Fairy
+EVs: 5 HP / 116 Atk / 4 Def / 1 SpA / 132 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Wave Crash
+- Earthquake
+- Body Press
+
+Tatsugiri (M) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Fairy
+EVs: 12 HP / 53 Def / 189 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 15 Atk
+- Dragon Pulse
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+
+Glimmora (M) @ Power Herb
+Ability: Toxic Debris
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 HP / 6 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Spiky Shield
+- Meteor Beam
+- Sludge Bomb
+- Mortal Spin
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Fairy
+EVs: 52 HP / 6 Def / 252 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Nasty Plot
+- Make It Rain
+- Shadow Ball
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 214 HP / 76 Atk / 124 Def / 12 SpD / 84 Spe
+Jolly Nature
+IVs: 20 SpA
+- Spiky Shield
+- Follow Me
+- Ivy Cudgel
+- Horn Leech
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 30 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Tailwind
+- Acrobatics
+- Knock Off

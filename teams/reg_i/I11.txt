@@ -1,0 +1,69 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 84 Def / 164 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Imprison
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+IVs: 0 Atk
+- Body Press
+- Wide Guard
+- Imprison
+- Protect
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 148 Def / 100 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunderbolt
+- Volt Switch
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Ice Spinner
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 212 HP / 252 Atk / 44 SpD
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Iron Head
+- Giga Impact
+
+Weezing-Galar @ Rocky Helmet
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 12 Def / 4 SpA / 236 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Poison Gas
+- Toxic Spikes
+- Sludge Bomb
+- Protect

@@ -1,0 +1,68 @@
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 180 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Helping Hand
+- Lunar Blessing
+- Trick Room
+
+Ursaluna-Bloodmoon @ Throat Spray
+Ability: Mind's Eye
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 4 Def / 124 SpA / 212 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 76 HP / 156 Atk / 4 Def / 236 SpD / 36 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Atk / 20 Def / 12 SpD / 68 Spe
+Adamant Nature
+- Ivy Cudgel
+- Follow Me
+- Horn Leech
+- Spiky Shield
+
+Arcanine-Hisui @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 116 Atk / 4 Def / 12 SpD / 140 Spe
+Adamant Nature
+- Rock Slide
+- Flare Blitz
+- Extreme Speed
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 196 Def / 36 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect

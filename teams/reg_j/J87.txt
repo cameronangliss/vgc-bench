@@ -1,0 +1,70 @@
+Calyrex-Ice @ Safety Goggles
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 148 Atk / 108 SpD
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Encore
+
+Clefairy @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk
+Brave Nature
+IVs: 0 HP / 0 Def / 0 SpD / 0 Spe
+- Endeavor
+- Knock Off
+- Follow Me
+- Encore
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 12 HP / 196 Atk / 140 Def / 4 SpD / 156 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Taunt
+
+Gallade @ Life Orb
+Ability: Sharpness
+Level: 50
+Tera Type: Dark
+EVs: 188 HP / 252 Atk / 68 Def
+Brave Nature
+IVs: 0 Spe
+- Sacred Sword
+- Leaf Blade
+- Trick Room
+- Shadow Sneak
+
+Annihilape @ Power Belt
+Ability: Vital Spirit
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Rage Fist
+- Final Gambit
+- Close Combat
+- Encore
+
+Magearna @ Covert Cloak
+Ability: Soul-Heart
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 60 Def / 156 SpA / 36 SpD
+Quiet Nature
+IVs: 0 Atk / 18 Spe
+- Dazzling Gleam
+- Fleur Cannon
+- Trick Room
+- Encore

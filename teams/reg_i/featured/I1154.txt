@@ -1,0 +1,68 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Sucker Punch
+- Ruination
+- Ice Spinner
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 12 Atk / 252 Def / 4 SpD / 20 Spe
+Impish Nature
+- Ivy Cudgel
+- Spiky Shield
+- Follow Me
+- Helping Hand
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 28 Def / 4 SpA / 196 SpD / 28 Spe
+Calm Nature
+IVs: 0 Atk
+- Encore
+- Moonblast
+- Tailwind
+- Taunt
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 188 HP / 4 Def / 180 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Thunderbolt
+- Dragon Pulse
+- Protect
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 108 HP / 36 Def / 100 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Psychic
+- Astral Barrage
+- Pollen Puff
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 196 HP / 4 Atk / 156 Def / 44 SpD / 108 Spe
+Impish Nature
+- Body Press
+- Wide Guard
+- Protect
+- Iron Head

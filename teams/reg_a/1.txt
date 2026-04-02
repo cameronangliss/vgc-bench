@@ -1,0 +1,68 @@
+Armarouge (M) @ Covert Cloak
+Ability: Flash Fire
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Heat Wave
+- Armor Cannon
+- Psyshock
+- Trick Room
+
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Final Gambit
+- Rock Tomb
+- U-turn
+
+Kingambit (M) @ Life Orb
+Ability: Supreme Overlord
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+
+Toedscruel (M) @ Occa Berry
+Ability: Mycelium Might
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk / 8 Spe
+- Earth Power
+- Spore
+- Trick Room
+- Rage Powder
+
+Maschiff (F) @ Focus Sash
+Ability: Intimidate
+Level: 50
+EVs: 1 HP
+Modest Nature
+IVs: 0 Atk
+- Endeavor
+- Destiny Bond
+- Helping Hand
+- Protect
+
+Arboliva (M) @ Choice Specs
+Ability: Seed Sower
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Energy Ball
+- Leaf Storm
+- Hyper Voice
+- Earth Power

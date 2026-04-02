@@ -1,0 +1,68 @@
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Steel
+EVs: 100 HP / 28 Def / 196 SpA / 4 SpD / 180 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Substitute
+- Protect
+
+Entei @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 Atk / 60 Def / 252 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Flare Blitz
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 188 HP / 140 Def / 20 SpA / 84 SpD / 76 Spe
+Modest Nature
+IVs: 20 Atk
+- Dragon Pulse
+- Thunderclap
+- Electroweb
+- Snarl
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 236 Atk / 20 Def / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 156 Def / 4 SpA / 4 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Taunt
+- Protect
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 60 Atk / 108 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield

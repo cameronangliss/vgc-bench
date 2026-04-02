@@ -1,0 +1,68 @@
+Suicune @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 12 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Scald
+- Snarl
+- Icy Wind
+- Mirror Coat
+
+Entei @ Life Orb
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 188 Atk / 4 Def / 60 SpD / 252 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Protect
+
+Iron Treads @ Clear Amulet
+Ability: Quark Drive
+Level: 50
+Tera Type: Fairy
+EVs: 12 HP / 244 Atk / 4 Def / 4 SpD / 236 Spe
+Jolly Nature
+- Stomping Tantrum
+- Iron Head
+- Ice Spinner
+- Protect
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 76 Def / 4 SpA / 156 SpD / 20 Spe
+Calm Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Shadow Ball
+- Life Dew
+- Rage Powder
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Thundurus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 140 Def / 116 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Thunder Wave
+- Eerie Impulse
+- Electric Terrain

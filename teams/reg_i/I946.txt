@@ -1,0 +1,68 @@
+Miraidon @ Electric Seed
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 252 SpA / 124 Spe
+Timid Nature
+- Electro Drift
+- Dragon Pulse
+- Calm Mind
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Normal
+EVs: 100 HP / 252 Atk / 156 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Swords Dance
+- Protect
+
+Goodra-Hisui @ Leftovers
+Ability: Shell Armor
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 100 Def / 236 SpD
+Calm Nature
+IVs: 0 Atk
+- Shelter
+- Acid Armor
+- Body Press
+- Life Dew
+
+Bronzong @ Kasib Berry
+Ability: Levitate
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 4 Atk / 252 Def
+Relaxed Nature
+IVs: 0 Spe
+- Gyro Ball
+- Body Press
+- Payback
+- Skill Swap
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 124 SpD / 244 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Protect

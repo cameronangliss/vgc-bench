@@ -1,0 +1,67 @@
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 84 Atk / 12 Def / 156 SpD / 12 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Protect
+- Bulk Up
+
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 Atk / 252 SpD
+Adamant Nature
+- Body Press
+- Brave Bird
+- Bulk Up
+- Roost
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+- Tailwind
+- Moonblast
+- Beat Up
+- Sunny Day
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Moonblast
+- Aurora Veil
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Beat Up
+- Follow Me
+- Taunt
+
+Typhlosion-Hisui @ Choice Scarf
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Heat Wave
+- Flamethrower
+- Shadow Ball

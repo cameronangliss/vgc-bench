@@ -1,0 +1,74 @@
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Taunt
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Lunar Blessing
+- Helping Hand
+- Moonblast
+
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 228 HP / 252 SpA / 28 SpD
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Armor Cannon
+- Heat Wave
+- Trick Room
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Helping Hand
+- Trick Room
+- Follow Me
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Wild Charge
+- Extreme Speed
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 212 HP / 156 Atk / 140 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Swords Dance
+- Protect
+- High Horsepower

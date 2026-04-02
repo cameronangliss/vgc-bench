@@ -1,0 +1,68 @@
+Eternatus @ Leftovers
+Ability: Pressure
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 116 Def / 196 SpD
+Calm Nature
+IVs: 0 Atk
+- Dynamax Cannon
+- Toxic Spikes
+- Protect
+- Recover
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Stellar
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Pollen Puff
+- Astral Barrage
+- Psychic
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Def / 252 SpD
+Impish Nature
+- Reflect
+- Light Screen
+- Thunder Wave
+- Metronome
+
+Ting-Lu @ Rocky Helmet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 212 HP / 116 Def / 180 SpD
+Impish Nature
+- Ruination
+- Stealth Rock
+- Throat Chop
+- Whirlwind
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 220 SpD
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- Stomping Tantrum
+
+Volcarona @ Grassy Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 252 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Struggle Bug
+- Overheat
+- Rage Powder
+- Will-O-Wisp

@@ -1,0 +1,67 @@
+Annihilape @ Focus Sash
+Ability: Defiant
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Rage Fist
+- Taunt
+- Coaching
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Scale Shot
+- Haze
+- Extreme Speed
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 4 Def / 164 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Incineroar @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 76 Def / 60 SpD / 124 Spe
+Impish Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 84 Atk / 4 Def / 164 SpD / 4 Spe
+Adamant Nature
+IVs: 18 SpA
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 220 Def / 36 Spe
+Bold Nature
+- Electroweb
+- Follow Me
+- Taunt
+- Protect

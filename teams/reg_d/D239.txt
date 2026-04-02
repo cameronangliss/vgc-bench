@@ -1,0 +1,68 @@
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Aqua Jet
+- Close Combat
+- Surging Strikes
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 36 Def / 180 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Substitute
+- Heat Wave
+- Tera Blast
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 228 Def / 116 SpA / 4 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Thunderbolt
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 188 HP / 164 Atk / 28 Def / 92 SpD / 36 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+
+Cresselia @ Rocky Helmet
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 180 Def / 4 SpA / 60 SpD / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Trick Room
+- Lunar Blessing
+- Ally Switch
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 180 Atk / 92 SpD
+Adamant Nature
+- Protect
+- Facade
+- Earthquake
+- Ice Punch

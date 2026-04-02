@@ -1,0 +1,70 @@
+Pelipper @ Safety Goggles
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 10 Atk
+- Hurricane
+- Helping Hand
+- Tailwind
+- Wide Guard
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Tera Blast
+- Phantom Force
+
+Kingdra @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Flying
+EVs: 68 HP / 4 Def / 220 SpA / 12 SpD / 204 Spe
+Modest Nature
+IVs: 26 Atk
+- Draco Meteor
+- Muddy Water
+- Hurricane
+- Clear Smog
+
+Overqwil @ Clear Amulet
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 36 HP / 196 Atk / 4 Def / 20 SpD / 252 Spe
+Adamant Nature
+IVs: 8 SpA
+- Gunk Shot
+- Throat Chop
+- Liquidation
+- Aqua Jet
+
+Barraskewda @ Focus Sash
+Ability: Swift Swim
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 2 SpA
+- Liquidation
+- Close Combat
+- Poison Jab
+- Flip Turn
+
+Archaludon @ Covert Cloak
+Ability: Stalwart
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 4 Def / 228 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 20 Atk
+- Steel Beam
+- Electro Shot
+- Draco Meteor
+- Roar

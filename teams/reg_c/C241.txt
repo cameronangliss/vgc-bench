@@ -1,0 +1,67 @@
+Iron Moth @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 68 Def / 244 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 3 Atk
+- Heat Wave
+- Energy Ball
+- Sludge Wave
+- Protect
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+Tera Type: Dragon
+EVs: 68 HP / 156 Atk / 4 Def / 156 SpD / 124 Spe
+Adamant Nature
+- Brave Bird
+- Iron Head
+- Bulk Up
+- Tailwind
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 188 HP / 44 Def / 132 SpA / 140 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Protect
+
+Iron Treads @ Choice Band
+Ability: Quark Drive
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 4 Def / 36 SpD / 212 Spe
+Adamant Nature
+- Earthquake
+- Iron Head
+- Ice Spinner
+- Wild Charge
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Ground
+EVs: 180 HP / 76 Atk / 92 Def / 76 SpD / 84 Spe
+Adamant Nature
+- Earthquake
+- Heavy Slam
+- Throat Chop
+- Rock Slide
+
+Tsareena @ Wide Lens
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 172 Atk / 84 Spe
+Adamant Nature
+- Power Whip
+- High Jump Kick
+- Taunt
+- Protect

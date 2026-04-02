@@ -1,0 +1,68 @@
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 4 Def / 124 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Tatsugiri-Stretchy (M) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 44 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Soak
+
+Pawmot (M) @ Focus Sash
+Ability: Natural Cure
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Fake Out
+- Double Shock
+- Close Combat
+- Revival Blessing
+
+Volcarona (M) @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 244 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Rage Powder
+- Tailwind
+- Struggle Bug
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Dragon
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Order Up
+- Substitute
+- Protect
+
+Meowscarada (M) @ Choice Band
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- U-turn
+- Sucker Punch

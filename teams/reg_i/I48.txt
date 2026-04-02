@@ -1,0 +1,72 @@
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Trick Room
+- Follow Me
+- Helping Hand
+
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 4 Def / 28 SpD / 28 Spe
+Adamant Nature
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 4 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Hyper Voice
+- Blood Moon
+- Protect
+
+Smeargle (M) @ Focus Sash
+Ability: Own Tempo
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 236 HP / 196 Def / 76 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Follow Me
+- Fake Out
+- Decorate
+- Spore
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Iron Head
+
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 236 SpA / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Trick Room
+- Moongeist Beam
+- Meteor Beam

@@ -1,0 +1,69 @@
+Slither Wing @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 68 HP / 252 Atk / 188 Spe
+Jolly Nature
+- First Impression
+- Leech Life
+- Close Combat
+- Protect
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Jet Punch
+- Protect
+- Wave Crash
+- Haze
+
+Pelipper @ Safety Goggles
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 220 SpA / 60 SpD
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Tailwind
+- Wide Guard
+- Helping Hand
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 140 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Rage Powder
+- Spore
+- Pollen Puff
+
+Iron Moth @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Protect
+- Energy Ball
+- Heat Wave
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 204 HP / 252 Atk / 4 Def / 36 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Wild Charge
+- Close Combat
+- Heavy Slam

@@ -1,0 +1,69 @@
+Charizard @ Life Orb
+Ability: Solar Power
+Level: 50
+Tera Type: Grass
+EVs: 116 HP / 252 SpA / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Heat Wave
+- Tera Blast
+- Protect
+
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 252 Atk / 20 Spe
+Adamant Nature
+- Earthquake
+- High Horsepower
+- Heat Crash
+- Protect
+
+Dialga-Origin @ Adamant Crystal
+Ability: Telepathy
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Dragon Pulse
+- Flash Cannon
+- Trick Room
+- Protect
+
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Defog
+- Entrainment
+- Coaching
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Discharge
+- Snarl
+- Draco Meteor
+
+Walking Wake @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 244 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Steam
+- Draco Meteor
+- Sunny Day
+- Protect

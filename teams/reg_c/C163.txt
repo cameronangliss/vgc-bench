@@ -1,0 +1,68 @@
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 164 Atk / 4 Def / 84 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Maushold-Four @ Sitrus Berry
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 60 Def / 196 SpD
+Careful Nature
+- Beat Up
+- Follow Me
+- Taunt
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 20 Atk / 4 Def / 228 SpD / 4 Spe
+Careful Nature
+- Wave Crash
+- Yawn
+- Substitute
+- Protect
+
+Tatsugiri @ Focus Sash
+Ability: Storm Drain
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Protect
+
+Iron Moth @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 108 HP / 12 Def / 132 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Acid Spray
+- Energy Ball
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 12 Def / 84 SpA / 188 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Power Gem

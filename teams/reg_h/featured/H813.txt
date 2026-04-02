@@ -1,0 +1,69 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Wide Guard
+- Protect
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Last Respects
+- Flip Turn
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Overqwil @ Black Glasses
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 16 SpA
+- Throat Chop
+- Poison Jab
+- Haze
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 92 Def / 76 SpA / 12 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Body Press
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 20 Def / 52 SpD / 180 Spe
+Jolly Nature
+- Tailwind
+- Brave Bird
+- Protect
+- Taunt

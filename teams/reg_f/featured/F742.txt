@@ -1,0 +1,70 @@
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- U-turn
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 188 HP / 4 Def / 252 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 20 Atk
+- Dragon Pulse
+- Thunderclap
+- Thunderbolt
+- Protect
+
+Tornadus @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Sunny Day
+- Taunt
+- Tailwind
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 4 Def / 252 SpA / 4 SpD / 244 Spe
+Modest Nature
+IVs: 20 Atk
+- Heat Wave
+- Overheat
+- Dark Pulse
+- Snarl
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 60 Def / 164 SpA / 68 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Psyshock
+- Trick Room
+- Protect
+
+Okidogi @ Assault Vest
+Ability: Guard Dog
+Level: 50
+Tera Type: Steel
+EVs: 108 HP / 252 Atk / 4 Def / 28 SpD / 116 Spe
+Adamant Nature
+- Gunk Shot
+- Drain Punch
+- Upper Hand
+- High Horsepower

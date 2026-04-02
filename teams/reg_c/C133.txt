@@ -1,0 +1,68 @@
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Dragon Claw
+- Protect
+
+Corviknight @ Safety Goggles
+Ability: Mirror Armor
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 132 Atk / 4 Def / 84 SpD / 36 Spe
+Adamant Nature
+- Tailwind
+- Brave Bird
+- Iron Head
+- Roost
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 12 Def / 116 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+- Protect
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 4 Def / 180 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+- Protect
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 84 Def / 132 SpD / 36 Spe
+Impish Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Helping Hand
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Pollen Puff
+- Spore
+- Clear Smog

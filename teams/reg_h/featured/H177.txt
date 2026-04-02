@@ -1,0 +1,68 @@
+Weezing-Galar @ Focus Sash
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Sludge Bomb
+- Strange Steam
+- Taunt
+
+Slaking @ Life Orb
+Ability: Truant
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Double-Edge
+- Knock Off
+- High Horsepower
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Earthquake
+- Tera Blast
+- Order Up
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Hydro Pump
+- Draco Meteor
+- Icy Wind
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Make It Rain
+- Shadow Ball
+- Trick
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dual Wingbeat
+- Flare Blitz
+- Tailwind
+- Protect

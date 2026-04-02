@@ -1,0 +1,75 @@
+Jumpluff @ Yache Berry
+Ability: Chlorophyll
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 100 HP / 132 Def / 76 SpD / 200 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Encore
+- Sleep Powder
+- Rage Powder
+
+Torkoal @ Heat Rock
+Ability: Drought
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Helping Hand
+- Solar Beam
+- Heat Wave
+- Body Press
+
+Baxcalibur @ Life Orb
+Ability: Thermal Exchange
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 196 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Protect
+- Glaive Rush
+- Ice Shard
+- Icicle Crash
+
+Sandy Shocks @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 4 HP / 4 Def / 252 SpA / 20 SpD / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Volt Switch
+- Thunderbolt
+- Flash Cannon
+- Earth Power
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Trick Room
+- Imprison
+
+Tauros-Paldea-Blaze @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 100 HP / 28 Atk / 4 Def / 132 SpD / 244 Spe
+Careful Nature
+- Raging Bull
+- Close Combat
+- Will-O-Wisp
+- Protect

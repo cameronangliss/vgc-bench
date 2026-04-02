@@ -1,0 +1,70 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 156 Def / 36 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Power Gem
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Def / 84 SpA / 52 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Encore
+- Protect
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 4 Def / 100 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Flamethrower
+- Heat Wave
+- Overheat
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 4 SpA / 68 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 180 Def / 68 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Parting Shot
+- Reflect
+- Light Screen
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 180 Def / 4 SpA / 76 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect

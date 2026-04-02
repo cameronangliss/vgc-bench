@@ -1,0 +1,68 @@
+Misdreavus @ Eviolite
+Ability: Levitate
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Foul Play
+- Trick Room
+- Perish Song
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 108 HP / 244 Atk / 156 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Earthquake
+- Shadow Claw
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 108 HP / 148 Atk / 252 SpD
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Tera Blast
+- Fake Out
+
+Azumarill @ Sitrus Berry
+Ability: Huge Power
+Level: 50
+Tera Type: Water
+EVs: 140 HP / 196 Atk / 172 SpD
+Adamant Nature
+- Liquidation
+- Aqua Jet
+- Play Rough
+- Protect
+
+Tsareena @ Loaded Dice
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Atk / 12 Def / 12 SpD / 76 Spe
+Adamant Nature
+- Bullet Seed
+- Low Kick
+- Tera Blast
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 252 SpA / 44 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Tera Blast

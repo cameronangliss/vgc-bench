@@ -1,0 +1,68 @@
+Iron Boulder @ Choice Band
+Ability: Quark Drive
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 28 SpD / 228 Spe
+Jolly Nature
+- Mighty Cleave
+- Psycho Cut
+- Quick Attack
+- Throat Chop
+
+Kyogre @ Assault Vest
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 236 Atk / 4 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Liquidation
+- Body Slam
+- Heavy Slam
+- Sheer Cold
+
+Miraidon @ Electric Seed
+Ability: Hadron Engine
+Level: 50
+Tera Type: Flying
+EVs: 140 HP / 252 Atk / 116 SpD
+Adamant Nature
+- Acrobatics
+- Supercell Slam
+- Swords Dance
+- Protect
+
+Brute Bonnet @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 28 Def / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Dark Pulse
+
+Thundurus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 156 Def / 12 SpA / 84 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Thunder
+- Eerie Impulse
+- Electric Terrain
+- Scary Face
+
+Iron Valiant @ Mental Herb
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 4 Def / 4 SpA / 156 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Encore
+- Coaching

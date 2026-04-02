@@ -1,0 +1,70 @@
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 244 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Psychic
+- Helping Hand
+- Trick Room
+
+Hatterene @ Life Orb
+Ability: Magic Bounce
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 44 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Expanding Force
+- Dazzling Gleam
+- Trick Room
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 252 SpA / 12 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Weather Ball
+- Clear Smog
+- Protect
+
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sleep Powder
+- After You
+- Leaf Blade
+- Close Combat
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 236 Atk / 132 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Facade
+- Swords Dance
+- Protect
+
+Gallade @ Clear Amulet
+Ability: Sharpness
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 196 Atk / 60 Def
+Brave Nature
+IVs: 0 Spe
+- Sacred Sword
+- Psycho Cut
+- Wide Guard
+- Trick Room

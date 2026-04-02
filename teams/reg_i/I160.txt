@@ -1,0 +1,67 @@
+Calyrex-Shadow @ Spell Tag
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Normal
+EVs: 76 HP / 140 Def / 36 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Astral Barrage
+- Psychic
+- Nasty Plot
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 Atk / 84 Def / 4 SpD / 164 Spe
+Impish Nature
+- Protect
+- Body Press
+- Behemoth Bash
+- Wide Guard
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 12 Def / 44 SpD / 4 Spe
+Adamant Nature
+IVs: 5 Spe
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Atk / 156 Def / 76 SpD / 28 Spe
+Impish Nature
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Coaching
+- U-turn
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 76 Atk / 4 Def / 12 SpD / 212 Spe
+Adamant Nature
+- Spiky Shield
+- Ivy Cudgel
+- Follow Me
+- Grassy Glide

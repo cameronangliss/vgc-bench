@@ -1,0 +1,68 @@
+Hoopa-Unbound @ Life Orb
+Ability: Magician
+Level: 50
+Tera Type: Dark
+EVs: 108 HP / 236 Atk / 68 Def / 96 Spe
+Adamant Nature
+- Protect
+- Trick Room
+- Hyperspace Fury
+- Drain Punch
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 28 HP / 4 Def / 188 SpA / 36 SpD / 252 Spe
+Timid Nature
+- Volt Switch
+- Dazzling Gleam
+- Draco Meteor
+- Electro Drift
+
+Farigiraf (F) @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 76 Def / 8 SpA / 236 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Helping Hand
+- Trick Room
+- Foul Play
+- Psychic
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 88 Atk / 12 Def / 172 SpD
+Brave Nature
+IVs: 0 Spe
+- Fake Out
+- Low Kick
+- Wild Charge
+- Drain Punch
+
+Whimsicott (F) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Encore
+- Light Screen
+- Moonblast
+
+Landorus @ Choice Scarf
+Ability: Sheer Force
+Level: 50
+Tera Type: Ground
+EVs: 36 HP / 20 Def / 196 SpA / 20 SpD / 236 Spe
+Modest Nature
+- U-turn
+- Earth Power
+- Sludge Bomb
+- Sandsear Storm

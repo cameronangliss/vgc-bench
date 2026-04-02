@@ -1,0 +1,65 @@
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Knock Off
+- Sucker Punch
+- Flower Trick
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 124 HP / 4 Def / 252 SpA / 4 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Rock Slide
+- Dragon Claw
+- Earthquake
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 244 HP / 180 Def / 4 SpA / 76 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Helping Hand
+- Thunderbolt
+- Hydro Pump
+
+Volcarona (M) @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 204 Def / 4 SpA / 4 SpD / 44 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Rage Powder
+- Struggle Bug
+- Heat Wave
+
+Murkrow (M) @ Eviolite
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Foul Play
+- Taunt
+- Haze

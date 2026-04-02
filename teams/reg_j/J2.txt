@@ -1,0 +1,69 @@
+Magearna @ Leftovers
+Ability: Soul-Heart
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Def / 164 SpA / 36 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Flash Cannon
+- Trick Room
+- Protect
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 20 Atk / 236 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Shadow Claw
+- U-turn
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 12 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Protect
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Helping Hand
+- Trick Room
+- Psychic
+
+Lunala @ Spell Tag
+Ability: Shadow Shield
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 180 SpA / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Expanding Force
+- Wide Guard
+- Trick Room
+
+Regieleki @ Normal Gem
+Ability: Transistor
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Explosion
+- Supercell Slam
+- Extreme Speed
+- Protect

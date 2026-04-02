@@ -1,0 +1,68 @@
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Encore
+- Protect
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 12 Def / 116 SpA / 212 SpD / 20 Spe
+Modest Nature
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Vacuum Wave
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 60 Def / 100 SpD / 92 Spe
+Jolly Nature
+- Beat Up
+- Taunt
+- Follow Me
+- Protect
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 68 Atk / 252 Spe
+Jolly Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Klefki @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 68 Def / 4 SpA / 180 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Reflect
+- Light Screen
+- Misty Terrain
+
+Sinistcha-Masterpiece @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 28 Def / 228 SpD
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room

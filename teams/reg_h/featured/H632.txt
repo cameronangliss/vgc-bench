@@ -1,0 +1,65 @@
+Dondozo @ Wiki Berry
+Ability: Unaware
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 Def / 252 SpD
+Impish Nature
+- Protect
+- Order Up
+- Outrage
+- Fissure
+
+Tatsugiri @ Choice Specs
+Ability: Commander
+Level: 50
+Tera Type: Psychic
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+- Hydro Pump
+- Draco Meteor
+- Memento
+- Baton Pass
+
+Alomomola @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Protect
+- Wide Guard
+- Wish
+- Scald
+
+Palafin @ Clear Amulet
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Jet Punch
+- Ice Punch
+- Drain Punch
+
+Luxray @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+- Protect
+- Electroweb
+- Snarl
+- Helping Hand
+
+Serperior @ Choice Scarf
+Ability: Contrary
+Level: 50
+Tera Type: Ice
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Leaf Storm
+- Dragon Pulse
+- Hyper Beam
+- Tera Blast

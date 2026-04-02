@@ -1,0 +1,68 @@
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Encore
+- Protect
+
+Annihilape @ Choice Scarf
+Ability: Vital Spirit
+Level: 50
+Tera Type: Steel
+EVs: 172 HP / 84 Atk / 252 Spe
+Jolly Nature
+- Final Gambit
+- Tera Blast
+- Close Combat
+- Shadow Claw
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Icy Wind
+- Perish Song
+- Protect
+
+Pawmot @ Focus Sash
+Ability: Volt Absorb
+Level: 50
+Tera Type: Electric
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Double Shock
+- Close Combat
+- Revival Blessing
+- Protect
+
+Oranguru @ Colbur Berry
+Ability: Inner Focus
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Instruct
+- Foul Play
+- Encore
+- Trick Room
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Fissure
+- Protect

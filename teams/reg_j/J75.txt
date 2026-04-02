@@ -1,0 +1,67 @@
+Magearna @ Assault Vest
+Ability: Soul-Heart
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 236 SpA / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Fleur Cannon
+- Shadow Ball
+- Aura Sphere
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 252 SpA / 108 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Snarl
+- Dazzling Gleam
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Ivy Cudgel
+- Encore
+- Spiky Shield
+- Follow Me
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 164 Def / 92 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Protect
+- Imprison
+- Trick Room
+
+Mienshao @ Focus Sash
+Ability: Inner Focus
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Fake Out
+- Wide Guard
+- Knock Off
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect

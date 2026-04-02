@@ -1,0 +1,70 @@
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Atk / 12 Def / 76 SpD / 12 Spe
+Adamant Nature
+IVs: 6 SpA
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 212 HP / 164 Atk / 132 Spe
+Adamant Nature
+IVs: 0 SpA
+- Dragon Claw
+- Ice Spinner
+- Low Kick
+- Extreme Speed
+
+Primarina @ Assault Vest
+Ability: Liquid Voice
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 140 Def / 116 SpA
+Modest Nature
+- Moonblast
+- Hyper Voice
+- Aqua Jet
+- Energy Ball
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 4 Atk
+- Electroweb
+- Psychic
+- Follow Me
+- Protect
+
+Gallade @ Focus Sash
+Ability: Sharpness
+Level: 50
+Tera Type: Fighting
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 10 SpA
+- Sacred Sword
+- Psycho Cut
+- Night Slash
+- Protect

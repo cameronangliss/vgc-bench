@@ -1,0 +1,69 @@
+Ninetales-Alola @ Rocky Helmet
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Blizzard
+- Moonblast
+- Encore
+- Aurora Veil
+
+Regice @ Choice Specs
+Ability: Ice Body
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 172 SpA / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Ice Beam
+- Thunderbolt
+- Tera Blast
+
+Tatsugiri @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Taunt
+- Protect
+
+Dondozo @ Choice Band
+Ability: Oblivious
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Earthquake
+- Rock Slide
+- Tera Blast
+
+Incineroar @ Figy Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Knock Off
+- Will-O-Wisp
+- Fake Out
+
+Tornadus @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 236 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk / 29 Spe
+- Bleakwind Storm
+- Protect
+- Snowscape
+- Tailwind

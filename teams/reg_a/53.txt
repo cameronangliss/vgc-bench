@@ -1,0 +1,65 @@
+Gholdengo @ Weakness Policy
+Ability: Good as Gold
+Level: 50
+Tera Type: Ghost
+EVs: 164 HP / 156 SpA / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Nasty Plot
+- Make It Rain
+- Shadow Ball
+- Protect
+
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Rock Slide
+- Earthquake
+- Protect
+
+Meowscarada (M) @ Life Orb
+Ability: Protean
+Level: 50
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flower Trick
+- U-turn
+- Play Rough
+- Brick Break
+
+Rotom-Wash @ Leftovers
+Ability: Levitate
+Level: 50
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Thunderbolt
+- Hydro Pump
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 196 Def / 60 SpD
+Calm Nature
+- Reflect
+- Light Screen
+- Parting Shot
+- Spirit Break
+
+Amoonguss (F) @ Occa Berry
+Ability: Regenerator
+Level: 50
+EVs: 236 HP / 156 Def / 116 SpD
+Calm Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Protect
+- Clear Smog

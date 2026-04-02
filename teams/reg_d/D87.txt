@@ -1,0 +1,67 @@
+Arcanine-Hisui @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 196 Atk / 4 Def / 28 SpD / 68 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Tera Blast
+
+Gastrodon @ Leftovers
+Ability: Storm Drain
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 172 Def / 84 SpD
+Bold Nature
+IVs: 0 Atk
+- Ice Beam
+- Earth Power
+- Protect
+- Yawn
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 196 Def / 44 SpA / 12 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Stored Power
+- Moonblast
+- Calm Mind
+- Lunar Blessing
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 180 Def / 76 SpD
+Careful Nature
+- Spirit Break
+- Parting Shot
+- Reflect
+- Light Screen
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 12 HP / 156 Atk / 4 Def / 220 SpD / 116 Spe
+Adamant Nature
+- Drain Punch
+- Thunder Punch
+- Protect
+- Swords Dance
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 180 HP / 28 Atk / 44 Def / 12 SpD / 244 Spe
+Adamant Nature
+- Acrobatics
+- Throat Chop
+- Protect
+- Dragon Dance

@@ -1,0 +1,69 @@
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 212 Def / 4 SpA / 36 SpD / 4 Spe
+Careful Nature
+- Thunder Wave
+- Reflect
+- Light Screen
+- Spirit Break
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 60 Def / 20 SpA / 100 SpD / 84 Spe
+Bold Nature
+IVs: 20 Atk
+- Fiery Dance
+- Giga Drain
+- Tailwind
+- Rage Powder
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Atk / 100 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 6 Atk
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Protect
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 20 Def / 236 SpD
+Timid Nature
+IVs: 18 Atk
+- Thunderbolt
+- Follow Me
+- Feint
+- Protect
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Clear Smog
+- Spore
+- Rage Powder

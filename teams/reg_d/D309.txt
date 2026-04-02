@@ -1,0 +1,68 @@
+Regidrago @ Dragon Fang
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 100 Def / 252 SpA / 12 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Energy
+- Dragon Pulse
+- Earth Power
+- Protect
+
+Tornadus @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 44 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Icy Wind
+- Tailwind
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 76 Def / 132 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 180 Atk / 4 Def / 84 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 68 Def / 60 SpD / 12 Spe
+Adamant Nature
+- Drum Beating
+- Wood Hammer
+- U-turn
+- Fake Out
+
+Mimikyu @ Rocky Helmet
+Ability: Disguise
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 244 Atk / 36 Def
+Adamant Nature
+- Play Rough
+- Shadow Sneak
+- Taunt
+- Trick Room

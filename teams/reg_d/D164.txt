@@ -1,0 +1,73 @@
+Braviary-Hisui @ Choice Specs
+Ability: Tinted Lens
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Psyshock
+- Dazzling Gleam
+- Air Slash
+
+Oranguru @ Mental Herb
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 244 HP / 188 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk
+- Instruct
+- Trick Room
+- Encore
+- Foul Play
+
+Gastrodon @ Sitrus Berry
+Ability: Storm Drain
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Recover
+- Muddy Water
+- Ice Beam
+
+Chi-Yu @ Room Service
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Bug
+EVs: 100 HP / 156 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Heat Wave
+- Tera Blast
+- Dark Pulse
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 SpD
+Sassy Nature
+IVs: 0 Spe
+- Fake Out
+- Drain Punch
+- Volt Switch
+- Heavy Slam
+
+Farigiraf @ Life Orb
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Dazzling Gleam
+- Psychic
+- Trick Room

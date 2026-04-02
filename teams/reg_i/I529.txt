@@ -1,0 +1,68 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 236 HP / 4 Def / 244 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 164 Atk / 92 SpD
+Adamant Nature
+IVs: 16 Spe
+- Glacial Lance
+- Trick Room
+- Protect
+- Seed Bomb
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 4 Def / 252 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Snarl
+- Overheat
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk / 16 Spe
+- Blood Moon
+- Earth Power
+- Protect
+- Hyper Voice
+
+Talonflame @ Electric Seed
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 36 HP / 252 Atk / 4 Def / 4 SpD / 212 Spe
+Jolly Nature
+- Tailwind
+- Sunny Day
+- Acrobatics
+- Quick Guard

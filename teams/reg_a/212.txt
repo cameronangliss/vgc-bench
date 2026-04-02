@@ -1,0 +1,70 @@
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+EVs: 244 HP / 252 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Dazzling Gleam
+- Helping Hand
+- Protect
+
+Armarouge (F) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 4 Def / 252 SpA / 20 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Armor Cannon
+- Trick Room
+- Protect
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Encore
+- Follow Me
+- Protect
+
+Hydreigon (M) @ Choice Specs
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Heat Wave
+- Dark Pulse
+- Flash Cannon
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Shiny: Yes
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Protect
+- Trick Room
+
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Shiny: Yes
+EVs: 252 HP / 140 Def / 108 SpD / 4 Spe
+Impish Nature
+IVs: 0 Atk
+- Taunt
+- Haze
+- Tailwind
+- Foul Play

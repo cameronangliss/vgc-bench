@@ -1,0 +1,69 @@
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Facade
+- Close Combat
+- Protect
+
+Wyrdeer @ Mental Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 60 Def / 196 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Trick Room
+- Light Screen
+- Helping Hand
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Tera Blast
+- Low Kick
+- Rock Slide
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 76 Def / 60 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Ice Spinner
+- Sacred Sword
+- Protect

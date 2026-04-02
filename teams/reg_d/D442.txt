@@ -1,0 +1,71 @@
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Spe
+- Expanding Force
+- Aura Sphere
+- Armor Cannon
+- Trick Room
+
+Oranguru @ Mental Herb
+Ability: Inner Focus
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 188 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk / 16 Spe
+- Encore
+- Trick Room
+- Instruct
+- Taunt
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 188 Def / 68 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Dazzling Gleam
+- Imprison
+- Trick Room
+
+Hariyama @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Rock
+EVs: 28 HP / 236 Atk / 244 SpD
+Brave Nature
+IVs: 0 Spe
+- Wide Guard
+- Close Combat
+- Fake Out
+- Rock Slide
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Def / 244 SpA
+Quiet Nature
+IVs: 20 Spe
+- Eruption
+- Heat Wave
+- Clear Smog
+- Earth Power
+
+Hatterene @ Covert Cloak
+Ability: Magic Bounce
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 44 Def / 252 SpA
+Quiet Nature
+IVs: 0 Spe
+- Skill Swap
+- Dazzling Gleam
+- Psychic
+- Trick Room

@@ -1,0 +1,67 @@
+Smeargle @ Loaded Dice
+Ability: Moody
+Level: 50
+Tera Type: Normal
+EVs: 228 HP / 140 Def / 140 SpD
+Jolly Nature
+IVs: 10 Atk / 14 SpA
+- Water Shuriken
+- Spiky Shield
+- Follow Me
+- Pollen Puff
+
+Archaludon @ Maranga Berry
+Ability: Stamina
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Body Press
+- Snarl
+- Electro Shot
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Helping Hand
+- Wide Guard
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 252 Atk / 28 Def / 60 SpD / 4 Spe
+Adamant Nature
+- Jet Punch
+- Wave Crash
+- Protect
+- Haze
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 116 Def / 188 SpD
+Bold Nature
+- Matcha Gotcha
+- Psych Up
+- Calm Mind
+- Strength Sap
+
+Clefable @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 52 Def / 36 SpA / 156 SpD / 20 Spe
+Calm Nature
+IVs: 28 Atk
+- Stored Power
+- Moonlight
+- Psych Up
+- Calm Mind

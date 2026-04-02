@@ -1,0 +1,67 @@
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 172 HP / 116 SpA / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Taunt
+- Bleakwind Storm
+- Rain Dance
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 252 Atk / 212 Spe
+Jolly Nature
+- Close Combat
+- Aqua Jet
+- Surging Strikes
+- Detect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 100 HP / 252 Atk / 60 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Extreme Speed
+- Iron Head
+- Outrage
+- Stomping Tantrum
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 156 Atk / 132 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Ice Punch
+- Fake Out
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 116 Def / 76 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam

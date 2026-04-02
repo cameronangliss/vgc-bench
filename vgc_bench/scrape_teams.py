@@ -5,66 +5,16 @@ Scrapes competitive VGC team data from the VGCPastes Google Sheets database.
 import argparse
 import csv
 import re
-import unicodedata
-from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote_plus
 
 import requests
 from poke_env.teambuilder import Teambuilder
 
-from vgc_bench.src.teams import calc_team_similarity_score
 
 SHEET_ID = "1axlwmzPA49rYkqXh7zHvAtSP-TKbM0ijGYBPRflLSWw"
 SHEET_EDIT_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit"
 SHEET_GVIZ_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq"
-
-
-def slugify(text: str) -> str:
-    """Convert text to a URL/filename-safe slug."""
-    text = unicodedata.normalize("NFKD", text)
-    text = text.encode("ascii", "ignore").decode("ascii").lower()
-    text = re.sub(r"[^a-z0-9]+", "_", text)
-    return re.sub(r"_+", "_", text).strip("_")
-
-
-def normalize_event_name(name: str) -> str:
-    """Remove common suffixes like 'Regional Championships'."""
-    name = re.sub(r"\bregional\s+championships?\b", "", name, flags=re.IGNORECASE)
-    name = re.sub(r"\bregionals?\b", "", name, flags=re.IGNORECASE)
-    return re.sub(r"\s+", " ", name).strip()
-
-
-def extract_year(event_name: str, date_str: str) -> str | None:
-    """Extract year from event name, falling back to date string."""
-    match = re.search(r"\b(20\d{2})\b", event_name)
-    if match:
-        return match.group(1)
-    date_str = date_str.strip().replace("Sept", "Sep")
-    for fmt in ("%d %b %Y", "%d %B %Y", "%d %b, %Y", "%d %B, %Y", "%b %Y", "%B %Y"):
-        try:
-            return str(datetime.strptime(date_str, fmt).year)
-        except ValueError:
-            pass
-    return None
-
-
-def event_slug(event_name: str, date_str: str) -> str:
-    """Generate slugified event identifier with year."""
-    normalized = re.sub(r"\b\d{4}\b", "", normalize_event_name(event_name)).strip()
-    base = slugify(normalized) or slugify(normalize_event_name(event_name)) or "event"
-    year = extract_year(event_name, date_str)
-    return f"{base}_{year}" if year else base
-
-
-def placement_to_filename(placement: str) -> str:
-    """Convert placement to filename (e.g., 'Champion' -> '1st')."""
-    normalized = slugify(placement)
-    if normalized in {"champion", "winner"}:
-        return "1st"
-    if normalized == "runner_up":
-        return "2nd"
-    return normalized or "unknown"
 
 
 def fetch_sheet_names(session: requests.Session) -> list[str]:
@@ -75,17 +25,27 @@ def fetch_sheet_names(session: requests.Session) -> list[str]:
     return list(dict.fromkeys(names))  # dedupe preserving order
 
 
-def get_regulation_sheets(all_sheets: list[str], regulation: str) -> list[str]:
-    """Find featured team sheets for a regulation."""
+def get_regulation_sheets(
+    all_sheets: list[str], regulation: str
+) -> tuple[list[str], list[str]]:
+    """Find featured and regular team sheets for a regulation."""
     reg = regulation.lower()
-    sheets = [
+    featured = [
         name
         for name in all_sheets
         if "featured" in name.lower()
         and "presentable" not in name.lower()
         and (f"reg {reg}" in name.lower() or f"regulation {reg}" in name.lower())
     ]
-    return sheets or [f"Reg {regulation.upper()} Featured Teams"]
+    regular = [
+        name
+        for name in all_sheets
+        if "featured" not in name.lower()
+        and f"regulation {reg}" in name.lower()
+    ]
+    if not regular:
+        regular = [f"SV Regulation {regulation.upper()}"]
+    return featured, regular
 
 
 def fetch_csv(session: requests.Session, sheet_name: str) -> list[list[str]]:
@@ -209,108 +169,97 @@ def all_pokemon_have_evs(team_text: str) -> bool:
     )
 
 
-def is_valid_placement(placement: str) -> bool:
-    """Check if placement is top 64 and not juniors/seniors."""
-    lower = placement.lower()
-    if "juniors" in lower or "seniors" in lower:
-        return False
-    filename = placement_to_filename(placement)
-    if not filename[0].isdigit():
-        return False
-    return True
-
-
 def scrape_regulation(regulation: str) -> None:
-    """Scrape featured teams for a VGC regulation."""
-    reg_dir = Path("teams") / f"reg{regulation.lower()}"
+    """Scrape teams for a VGC regulation from featured and regular sheets."""
+    reg_dir = Path("teams") / f"reg_{regulation.lower()}"
     reg_dir.mkdir(parents=True, exist_ok=True)
     session = requests.Session()
-    sheets = get_regulation_sheets(fetch_sheet_names(session), regulation)
-    seen_teams: list[str] = []
-    event_dirs: dict[str, Path] = {}
-    stats = {"saved": 0, "duplicates": 0, "banned": 0, "existing": 0}
-    for sheet in sheets:
-        rows = fetch_csv(session, sheet)
-        header_idx = next(
-            i
-            for i, r in enumerate(rows)
-            if r and r[0].strip() == "Team ID" and "Pokepaste" in r
-        )
-        header = rows[header_idx]
-        col = {
-            name: header.index(name)
-            for name in ["EVs", "Pokepaste", "Tournament / Event", "Rank"]
-        }
-        col["Date"] = (
-            header.index("Date") if "Date" in header else col["Tournament / Event"] - 1
-        )
-        for row in rows[header_idx + 1 :]:
-            if len(row) <= max(col.values()):
+    featured_sheets, regular_sheets = get_regulation_sheets(
+        fetch_sheet_names(session), regulation
+    )
+    featured_dir = reg_dir / "featured"
+    if featured_sheets:
+        featured_dir.mkdir(parents=True, exist_ok=True)
+    seen_ids = {p.stem for p in reg_dir.rglob("*.txt")}
+    existing = len(seen_ids)
+    stats = {"saved": 0, "invalid": 0}
+    for is_featured, sheets in [(True, featured_sheets), (False, regular_sheets)]:
+        out_dir = featured_dir if is_featured else reg_dir
+        for sheet in sheets:
+            rows = fetch_csv(session, sheet)
+            header_idx = next(
+                (
+                    i
+                    for i, r in enumerate(rows)
+                    if r and "Pokepaste" in r
+                ),
+                None,
+            )
+            if header_idx is None:
                 continue
-            # Filter by EVs
-            if row[col["EVs"]].strip().lower() != "yes":
-                continue
-            # Fetch and validate team
-            pokepaste = row[col["Pokepaste"]].strip()
-            if not pokepaste.startswith("https://pokepast.es/"):
-                continue
-            team_text = fetch_team(session, pokepaste)
-            if not all_pokemon_have_evs(team_text) or has_duplicate_items(team_text):
-                continue
-            if re.search(r"@\s*Electric Gem\s*$", team_text, re.MULTILINE):
-                stats["banned"] += 1
-                continue
-            try:
-                Teambuilder.parse_showdown_team(team_text)
-            except KeyError:
-                continue
-            if any(
-                calc_team_similarity_score(team_text, prev) == 1.0
-                for prev in seen_teams
-            ):
-                stats["duplicates"] += 1
-                continue
-            seen_teams.append(team_text)
-            # Filter by event and placement
-            event_name = row[col["Tournament / Event"]].strip()
-            lower_event = event_name.lower()
-            if (
-                "seniors" in lower_event
-                or "juniors" in lower_event
-                or "&" in event_name
-            ):
-                continue
-            placement = row[col["Rank"]].strip()
-            if not is_valid_placement(placement):
-                continue
-            # Save team
-            date_str = row[col["Date"]].strip()
-            key = event_slug(event_name, date_str)
-            if key not in event_dirs:
-                event_dirs[key] = reg_dir / key
-                event_dirs[key].mkdir(parents=True, exist_ok=True)
-            out_path = event_dirs[key] / f"{placement_to_filename(placement)}.txt"
-            if out_path.exists():
-                stats["existing"] += 1
-                continue
-            out_path.write_text(team_text)
-            stats["saved"] += 1
-    print(f"Saved {stats['saved']} teams to {reg_dir}")
+            header = rows[header_idx]
+            evs_col = header.index("EVs")
+            paste_col = header.index("Pokepaste")
+            for row in rows[header_idx + 1 :]:
+                if len(row) <= max(evs_col, paste_col):
+                    continue
+                team_id = row[0].strip()
+                if not team_id or team_id in seen_ids:
+                    continue
+                if row[evs_col].strip().lower() != "yes":
+                    continue
+                pokepaste = row[paste_col].strip()
+                if not pokepaste.startswith("https://pokepast.es/"):
+                    continue
+                team_text = fetch_team(session, pokepaste)
+                if not all_pokemon_have_evs(team_text) or has_duplicate_items(
+                    team_text
+                ):
+                    continue
+                if re.search(r"@\s*Electric Gem\s*$", team_text, re.MULTILINE):
+                    stats["invalid"] += 1
+                    continue
+                try:
+                    Teambuilder.parse_showdown_team(team_text)
+                except KeyError:
+                    continue
+                seen_ids.add(team_id)
+                (out_dir / f"{team_id}.txt").write_text(team_text)
+                stats["saved"] += 1
+    total = existing + stats["saved"]
+    print(f"Saved {stats['saved']} new teams to {reg_dir} ({total} total)")
     print(
-        f"Skipped {stats['existing']} existing, {stats['banned']} banned,"
-        f" {stats['duplicates']} duplicates"
+        f"Skipped {stats['invalid']} invalid"
     )
 
 
+def discover_regulations(sheet_names: list[str]) -> list[str]:
+    """Extract available regulation letters from sheet names."""
+    regs = set()
+    for name in sheet_names:
+        m = re.search(r"regulation\s+([a-z])", name, re.IGNORECASE)
+        if m:
+            regs.add(m.group(1).upper())
+    return sorted(regs)
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Scrape VGCPastes Featured Teams")
-    parser.add_argument("--reg", "-r", required=True, help="Regulation letter (e.g. G)")
+    parser = argparse.ArgumentParser(description="Scrape VGCPastes Teams")
+    parser.add_argument("--reg", "-r", help="Regulation letter (e.g. G). Omit for all.")
     args = parser.parse_args()
-    reg = args.reg.strip().upper()
-    if len(reg) != 1 or not reg.isalpha():
-        raise ValueError("--reg must be a single letter")
     Path("teams").mkdir(exist_ok=True)
-    scrape_regulation(reg)
+    if args.reg:
+        reg = args.reg.strip().upper()
+        if len(reg) != 1 or not reg.isalpha():
+            raise ValueError("--reg must be a single letter")
+        scrape_regulation(reg)
+    else:
+        session = requests.Session()
+        regs = discover_regulations(fetch_sheet_names(session))
+        print(f"Found regulations: {', '.join(regs)}")
+        for reg in regs:
+            print(f"\n--- Regulation {reg} ---")
+            scrape_regulation(reg)
 
 
 if __name__ == "__main__":

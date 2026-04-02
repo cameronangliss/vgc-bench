@@ -1,0 +1,71 @@
+Zapdos @ Safety Goggles
+Ability: Static
+Level: 50
+Tera Type: Ice
+EVs: 124 HP / 4 Def / 204 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Detect
+- Tera Blast
+- Volt Switch
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 132 HP / 116 Atk / 164 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Fake Out
+- Knock Off
+- U-turn
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 196 HP / 52 Def / 4 SpA / 252 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Sunny Day
+- Protect
+
+Typhlosion-Hisui @ Choice Specs
+Ability: Frisk
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 44 HP / 4 Def / 252 SpA / 4 SpD / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Eruption
+- Heat Wave
+- Shadow Ball
+- Tera Blast
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Heat Wave
+- Psychic
+- Protect

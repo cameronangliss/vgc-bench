@@ -1,0 +1,66 @@
+Murkrow (M) @ Eviolite
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 244 HP / 108 Def / 156 SpD
+Careful Nature
+- Brave Bird
+- Tailwind
+- Icy Wind
+- Haze
+
+Hydreigon (M) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Heat Wave
+- Protect
+
+Meowscarada (M) @ Choice Band
+Ability: Protean
+Level: 50
+EVs: 12 HP / 204 Atk / 4 Def / 36 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- Brick Break
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Encore
+- Protect
+
+Farigiraf (M) @ Iapapa Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 76 SpA / 124 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Tera Blast
+- Psychic
+- Trick Room
+- Imprison
+
+Garchomp (M) @ Lum Berry
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Rock Slide
+- Earthquake
+- Protect

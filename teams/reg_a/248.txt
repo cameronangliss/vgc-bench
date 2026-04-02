@@ -1,0 +1,66 @@
+Tauros-Paldea-Water @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 12 HP / 252 Atk / 4 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Wave Crash
+- Close Combat
+- Aqua Jet
+- Protect
+
+Pelipper (F) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 252 SpA / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Hydro Pump
+- Hurricane
+- Icy Wind
+
+Corviknight (M) @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 124 HP / 4 Atk / 252 Def / 52 SpD / 76 Spe
+Impish Nature
+- Body Press
+- Iron Defense
+- Brave Bird
+- Roost
+
+Meowscarada (M) @ Choice Band
+Ability: Protean
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Brick Break
+- U-turn
+
+Ceruledge (F) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Bulk Up
+- Bitter Blade
+- Shadow Sneak
+- Protect
+
+Hydreigon (F) @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 108 HP / 148 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Flash Cannon
+- Snarl

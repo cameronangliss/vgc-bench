@@ -1,0 +1,68 @@
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 196 HP / 4 Atk / 76 Def / 196 SpD / 36 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 76 Atk / 156 Def / 76 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 164 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Follow Me
+- Skill Swap
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 212 Def / 20 SpA / 28 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Tauros-Paldea-Aqua @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 84 HP / 196 Atk / 4 Def / 156 SpD / 68 Spe
+Adamant Nature
+- Wave Crash
+- Close Combat
+- Aqua Jet
+- Protect
+
+Gengar @ Focus Sash
+Ability: Cursed Body
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Shadow Ball
+- Taunt
+- Protect

@@ -1,0 +1,66 @@
+Annihilape (F) @ Choice Scarf
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Shadow Claw
+- Rock Slide
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 108 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Encore
+- Protect
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 140 Def / 116 SpD
+Careful Nature
+- Fake Out
+- Sucker Punch
+- Reflect
+- Light Screen
+
+Volcarona (M) @ Choice Specs
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Struggle Bug
+- Giga Drain
+- Overheat
+
+Kingambit (M) @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Iron Head
+- Sucker Punch
+- Kowtow Cleave
+- Swords Dance
+
+Dragonite (M) @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 252 Atk / 12 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Brick Break
+- Earthquake

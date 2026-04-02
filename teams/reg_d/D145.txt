@@ -1,0 +1,68 @@
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Iron Moth @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Fiery Dance
+- Sludge Wave
+- Energy Ball
+- Protect
+
+Rillaboom @ Loaded Dice
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 76 Def / 140 SpD / 4 Spe
+Adamant Nature
+- Bullet Seed
+- U-turn
+- Fake Out
+- Taunt
+
+Tinkaton @ Sitrus Berry
+Ability: Mold Breaker
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 68 Atk / 4 Def / 36 SpD / 148 Spe
+Careful Nature
+- Play Rough
+- Encore
+- Feint
+- Fake Out
+
+Landorus-Therian @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 116 Atk / 4 Def / 12 SpD / 212 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- Fissure
+- U-turn
+
+Gastrodon-East @ Leftovers
+Ability: Storm Drain
+Level: 50
+Tera Type: Poison
+EVs: 180 HP / 204 Def / 124 SpD
+Bold Nature
+IVs: 0 Atk
+- Earth Power
+- Ice Beam
+- Yawn
+- Protect

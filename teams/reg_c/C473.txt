@@ -1,0 +1,68 @@
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Claw
+- Tera Blast
+- Fire Punch
+- Extreme Speed
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Haze
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 20 HP / 92 Def / 252 SpA / 4 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Substitute
+- Protect
+
+Rotom-Wash @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 76 Def / 180 SpA
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Protect
+
+Ting-Lu @ Clear Amulet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Earthquake
+- Heavy Slam
+- Rock Slide
+- Tera Blast
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Rage Powder
+- Spore
+- Protect

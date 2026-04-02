@@ -1,0 +1,66 @@
+Ting-Lu @ Clear Amulet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 100 HP / 156 Atk / 252 SpD
+Adamant Nature
+- Earthquake
+- Tera Blast
+- Throat Chop
+- Protect
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 164 HP / 84 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Heat Crash
+- Howl
+- Breaking Swipe
+- Burning Bulwark
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Dragonite (F) @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 20 HP / 252 Atk / 4 Def / 4 SpD / 228 Spe
+Adamant Nature
+- Scale Shot
+- Iron Head
+- Extreme Speed
+- Protect
+
+Zapdos-Galar @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 60 HP / 196 Atk / 4 Def / 12 SpD / 236 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- Dual Wingbeat
+- Coaching
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 4 SpA / 92 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Trick Room
+- Strength Sap
+- Rage Powder

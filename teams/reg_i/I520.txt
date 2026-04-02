@@ -1,0 +1,67 @@
+Lunala @ Leftovers
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 220 HP / 52 Def / 180 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Calm Mind
+- Protect
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 4 Def / 252 SpA / 4 SpD / 116 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Snarl
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 4 Atk / 188 Def / 28 SpD / 36 Spe
+Impish Nature
+- Fake Out
+- Knock Off
+- Parting Shot
+- Taunt
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 76 SpD / 60 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Protect
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 212 Def / 4 SpA / 4 SpD / 36 Spe
+Bold Nature
+IVs: 0 Atk
+- Rage Powder
+- Tailwind
+- Fiery Dance
+- Will-O-Wisp

@@ -1,0 +1,67 @@
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 156 Atk / 4 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Volt Switch
+- Wild Charge
+- Fake Out
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Hydro Pump
+- Icy Wind
+- Freeze-Dry
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 148 Def / 76 SpA / 4 SpD / 116 Spe
+Modest Nature
+- Protect
+- Tera Blast
+- Hyper Voice
+- Quick Attack
+
+Great Tusk @ Clear Amulet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 52 HP / 228 Atk / 92 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Protect
+- Brick Break
+- Ice Spinner
+- Headlong Rush
+
+Arcanine (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 60 Atk / 4 Def / 20 SpD / 220 Spe
+Jolly Nature
+- Protect
+- Snarl
+- Flare Blitz
+- Will-O-Wisp
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 236 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Power Gem

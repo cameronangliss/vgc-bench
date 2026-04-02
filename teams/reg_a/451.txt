@@ -1,0 +1,68 @@
+Talonflame (F) @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Brave Bird
+- Will-O-Wisp
+- Taunt
+- Tailwind
+
+Pawmot (M) @ Focus Sash
+Ability: Natural Cure
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Double Shock
+- Revival Blessing
+- Fake Out
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 4 Def / 124 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+
+Tatsugiri-Stretchy (F) @ Choice Scarf
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Soak
+
+Meowscarada (M) @ Choice Band
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- U-turn
+
+Dondozo (F) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Order Up
+- Tera Blast

@@ -1,0 +1,68 @@
+Excadrill @ Clear Amulet
+Ability: Sand Rush
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- High Horsepower
+- Rock Slide
+- Iron Head
+- Protect
+
+Tyranitar (F) @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 52 HP / 236 Atk / 108 Def / 108 SpD / 4 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Low Kick
+
+Salamence @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Air Slash
+- Tailwind
+- Protect
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 196 Atk / 4 Def / 20 SpD / 84 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn
+
+Primarina @ Splash Plate
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 84 Def / 108 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Hyper Voice
+- Haze
+- Protect
+
+Magmar @ Eviolite
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Flamethrower
+- Follow Me
+- Taunt
+- Protect

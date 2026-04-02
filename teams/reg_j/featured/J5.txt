@@ -1,0 +1,70 @@
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 SpA
+Brave Nature
+IVs: 28 Spe
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Magearna-Original @ Covert Cloak
+Ability: Soul-Heart
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 124 Def / 4 SpA / 128 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Fleur Cannon
+- Flash Cannon
+- Trick Room
+- Protect
+
+Farigiraf (F) @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Ground
+EVs: 188 HP / 188 Def / 4 SpA / 124 SpD
+Relaxed Nature
+IVs: 2 Spe
+- Tera Blast
+- Hyper Voice
+- Helping Hand
+- Trick Room
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Final Gambit
+- Shadow Ball
+- Close Combat
+- Shadow Punch
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 20 Def / 252 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Flamethrower
+- Earth Power
+- Protect
+
+Amoonguss @ Figy Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 104 Def / 4 SpA / 148 SpD
+Sassy Nature
+IVs: 0 Atk / 18 Spe
+- Pollen Puff
+- Rage Powder
+- Spore
+- Protect

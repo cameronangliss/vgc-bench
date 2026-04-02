@@ -1,0 +1,71 @@
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 12 HP / 4 Atk / 28 Def / 236 SpD / 228 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+    252+ SpA Raging Bolt Thunderclap vs. 12 HP / 236 SpD Urshifu-Rapid Strike: 150-176 (84.7 - 99.4%) -- guaranteed 2HKO
+    252+ Atk Choice Band Sword of Ruin Tera-Normal Dragonite Extreme Speed vs. 12 HP / 28 Def Urshifu-Rapid Strike: 148-175 (83.6 - 98.8%) -- guaranteed 2HKO
+    Outspeeds max speed base 80s, set rain and it kills everything
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 156 HP / 4 Def / 92 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Rain Dance
+- Taunt
+- Bleakwind Storm
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 148 Def / 28 SpD / 4 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 100 Def / 156 SpD / 12 Spe
+Careful Nature
+- Fake Out
+- Parting Shot
+- Knock Off
+- Flare Blitz
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 132 Def / 36 SpA / 4 SpD / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Misty Terrain
+- Icy Wind
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Sandsear Storm
+- Protect

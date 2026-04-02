@@ -1,0 +1,69 @@
+Salamence @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Dragon
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Draco Meteor
+- Tailwind
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 124 Def / 116 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Electro Shot
+- Body Press
+- Flash Cannon
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 196 Def / 68 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Pollen Puff
+- Clear Smog
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 220 HP / 252 Atk / 4 Def / 4 SpD / 28 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 252 Atk / 4 Def / 4 SpD / 84 Spe
+Adamant Nature
+- Wave Crash
+- Flip Turn
+- Aqua Jet
+- Last Respects

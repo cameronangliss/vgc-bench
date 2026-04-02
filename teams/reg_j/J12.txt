@@ -1,0 +1,68 @@
+Arceus @ Choice Band
+Ability: Multitype
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Double-Edge
+- Extreme Speed
+- Earthquake
+- Flare Blitz
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 196 HP / 4 Atk / 132 Def / 12 SpD / 164 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Chien-Pao @ Assault Vest
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 188 HP / 180 SpD / 140 Spe
+Jolly Nature
+- Ruination
+- Ice Spinner
+- Sucker Punch
+- Ice Shard
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 236 Def / 4 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Shadow Ball
+- Taunt
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Thunderbolt
+- Draco Meteor
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 236 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Sludge Bomb
+- Protect

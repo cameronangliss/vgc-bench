@@ -1,0 +1,69 @@
+Jumpluff @ Rocky Helmet
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 212 Def / 84 Spe
+Timid Nature
+IVs: 0 Atk
+- Helping Hand
+- Tailwind
+- Leaf Storm
+- Rage Powder
+
+Torkoal @ Eject Pack
+Ability: Drought
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Def / 4 SpA / 164 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Clear Smog
+- Helping Hand
+- Yawn
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 140 Def / 36 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Flamethrower
+- Overheat
+
+Roaring Moon @ Choice Band
+Ability: Protosynthesis
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Throat Chop
+- Breaking Swipe
+- U-turn
+
+Brute Bonnet @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 148 Atk / 4 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Bullet Seed
+- Spore
+- Sucker Punch
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Trick Room
+- Protect

@@ -1,0 +1,63 @@
+Ceruledge (M) @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Normal
+EVs: 212 HP / 212 Atk / 60 Def / 12 SpD / 12 Spe
+Adamant Nature
+- Bulk Up
+- Bitter Blade
+- Protect
+- Phantom Force
+
+Maushold-Four @ Wide Lens
+Ability: Friend Guard
+Level: 50
+EVs: 236 HP / 100 Def / 172 Spe
+Jolly Nature
+- Follow Me
+- Protect
+- Encore
+- Population Bomb
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Normal
+EVs: 132 HP / 12 Def / 252 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Talonflame (F) @ Focus Sash
+Ability: Gale Wings
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Taunt
+- Protect
+
+Rotom-Mow @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 252 HP / 20 Def / 116 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Nasty Plot
+- Leaf Storm
+- Protect
+
+Azumarill (F) @ Assault Vest
+Ability: Huge Power
+Level: 50
+EVs: 140 HP / 252 Atk / 116 Spe
+Adamant Nature
+- Aqua Jet
+- Liquidation
+- Play Rough
+- Icy Wind

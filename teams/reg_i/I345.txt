@@ -1,0 +1,66 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpD
+Careful Nature
+- Body Press
+- Protect
+- Order Up
+- Yawn
+
+Tatsugiri-Droopy @ Black Sludge
+Ability: Commander
+Level: 50
+Tera Type: Poison
+EVs: 252 SpA / 252 Spe
+Naive Nature
+IVs: 0 Atk
+- Whirlpool
+- Icy Wind
+- Draco Meteor
+- Endure
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Atk / 116 Def / 92 SpD / 44 Spe
+Impish Nature
+- Sand Tomb
+- Ruination
+- Throat Chop
+- Stomping Tantrum
+
+Ho-Oh @ Clear Amulet
+Ability: Pressure
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 4 Atk / 252 Def / 12 SpD / 12 Spe
+Impish Nature
+- Sacred Fire
+- Life Dew
+- Protect
+- Psych Up
+
+Sneasler @ Electric Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Careful Nature
+- Dire Claw
+- Close Combat
+- Protect
+- Toxic Spikes
+
+Miraidon @ Covert Cloak
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Snarl
+- Volt Switch
+- Electro Drift
+- Protect

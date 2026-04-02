@@ -1,0 +1,64 @@
+Brambleghast @ Coba Berry
+Ability: Wind Rider
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Shadow Sneak
+- Strength Sap
+- Seed Bomb
+- Protect
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 140 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Foul Play
+- Haze
+- Quash
+
+Palafin @ Life Orb
+Ability: Zero to Hero
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flip Turn
+- Jet Punch
+- Close Combat
+- Ice Punch
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Make It Rain
+- Tera Blast
+- Thunderbolt
+- Shadow Ball
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Brick Break
+- Poison Jab
+- Protect
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 4 Def / 252 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Hyper Voice
+- Protect
+- Tera Blast
+- Quick Attack

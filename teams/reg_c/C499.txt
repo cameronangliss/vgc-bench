@@ -1,0 +1,68 @@
+Glimmora @ Shuca Berry
+Ability: Corrosion
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Def / 4 SpA / 124 SpD / 132 Spe
+Calm Nature
+- Mortal Spin
+- Power Gem
+- Stealth Rock
+- Spiky Shield
+
+Wo-Chien @ Assault Vest
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 4 SpA / 4 SpD / 92 Spe
+Bold Nature
+IVs: 0 Atk
+- Leaf Storm
+- Ruination
+- Body Press
+- Mud Shot
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 4 Def / 236 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Dark Pulse
+- Protect
+
+Bruxish @ Life Orb
+Ability: Dazzling
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Psychic Fangs
+- Protect
+
+Dondozo @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 180 HP / 76 Atk / 4 Def / 244 SpD / 4 Spe
+Adamant Nature
+- Wave Crash
+- Heavy Slam
+- Yawn
+- Protect

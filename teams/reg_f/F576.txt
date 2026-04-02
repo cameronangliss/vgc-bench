@@ -1,0 +1,73 @@
+Raging Bolt @ Leftovers
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 92 Def / 124 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 20 Atk
+- Protect
+- Calm Mind
+- Dragon Pulse
+- Thunderclap
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 60 SpD / 76 Spe
+Adamant Nature
+IVs: 2 SpA
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Incineroar (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 SpA
+- Parting Shot
+- Knock Off
+- Will-O-Wisp
+- Fake Out
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 36 HP / 220 Atk / 252 Spe
+Jolly Nature
+IVs: 20 SpA
+- Spiky Shield
+- Grassy Glide
+- Ivy Cudgel
+- Swords Dance
+
+Urshifu-Rapid-Strike (M) @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 3 SpA
+- Protect
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Poison
+EVs: 220 HP / 252 Def / 12 SpA / 4 SpD / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Taunt
+- Pain Split
+- Thunder Wave

@@ -1,0 +1,70 @@
+Torkoal @ Weakness Policy
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Protect
+- Earth Power
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Taunt
+- Population Bomb
+- Follow Me
+- U-turn
+
+Bruxish @ Focus Sash
+Ability: Dazzling
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 116 Atk / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Trick Room
+- Aqua Jet
+- Psychic Fangs
+
+Urshifu @ Life Orb
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk / 0 Spe
+- Lunar Blessing
+- Trick Room
+- Helping Hand
+- Moonblast
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Facade
+- Headlong Rush
+- Protect

@@ -1,0 +1,65 @@
+Murkrow @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Icy Wind
+- Tailwind
+- Taunt
+- Sunny Day
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 84 HP / 12 Def / 196 SpA / 12 SpD / 204 Spe
+Modest Nature
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 84 Def / 116 SpA / 4 SpD / 156 Spe
+Modest Nature
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Tera Blast
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Great Tusk @ Clear Amulet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 36 HP / 252 Atk / 4 Def / 156 SpD / 60 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Tera Blast
+- Protect
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 100 Def / 140 SpD / 12 Spe
+Impish Nature
+- Salt Cure
+- Iron Defense
+- Recover
+- Protect

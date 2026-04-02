@@ -1,0 +1,67 @@
+Latios @ Soul Dew
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Luster Purge
+- Tailwind
+- Protect
+
+Entei @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stone Edge
+- Stomping Tantrum
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Lash Out
+- Ice Shard
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 76 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Cobalion @ Covert Cloak
+Ability: Justified
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 4 Atk / 164 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Body Press
+- Heavy Slam
+- Iron Defense
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 4 Def / 36 SpD / 212 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Ice Spinner
+- Aqua Jet

@@ -1,0 +1,69 @@
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 132 Atk / 38 Def / 12 SpD / 84 Spe
+Adamant Nature
+- Spiky Shield
+- Follow Me
+- Ivy Cudgel
+- Horn Leech
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Def / 100 SpA / 84 SpD / 70 Spe
+Modest Nature
+IVs: 20 Atk
+- Electroweb
+- Thunderclap
+- Draco Meteor
+- Snarl
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 196 Def / 54 SpA / 4 SpD / 140 Spe
+Timid Nature
+IVs: 18 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Perish Song
+
+Iron Boulder @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Fairy
+EVs: 6 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 20 SpA
+- Protect
+- Mighty Cleave
+- Psycho Cut
+- Sacred Sword
+
+Incineroar (M) @ Mago Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 190 Def / 60 SpD / 20 Spe
+Impish Nature
+IVs: 24 SpA
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Weezing (F) @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 76 Def / 4 SpA / 150 SpD / 28 Spe
+Bold Nature
+- Protect
+- Will-O-Wisp
+- Taunt
+- Sludge Bomb

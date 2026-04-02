@@ -1,0 +1,71 @@
+Gothitelle (F) @ Safety Goggles
+Ability: Shadow Tag
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 236 HP / 76 Def / 196 SpD
+Calm Nature
+- Psychic
+- Heal Pulse
+- Trick Room
+- Fake Out
+
+Dragapult (M) @ Choice Band
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Dragon Claw
+- Dragon Darts
+- Tera Blast
+- U-turn
+
+Gyarados (F) @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 52 HP / 212 Atk / 52 Def / 60 SpD / 132 Spe
+Adamant Nature
+- Waterfall
+- Earthquake
+- Dragon Dance
+- Protect
+
+Talonflame (M) @ Focus Sash
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Brave Bird
+- Will-O-Wisp
+- Tailwind
+- Protect
+
+Hydreigon (F) @ Choice Specs
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Flash Cannon
+- Snarl
+
+Amoonguss (M) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Clear Smog
+- Spore
+- Rage Powder
+- Protect

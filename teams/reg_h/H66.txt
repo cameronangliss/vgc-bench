@@ -1,0 +1,74 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 36 HP / 220 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 44 HP / 4 Def / 114 SpA / 134 SpD / 212 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Body Press
+- Flash Cannon
+- Draco Meteor
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 100 Def / 132 SpA / 40 SpD
+Modest Nature
+IVs: 0 Atk
+- Rage Powder
+- Matcha Gotcha
+- Trick Room
+- Protect
+
+Goodra @ Wise Glasses
+Ability: Sap Sipper
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 4 Atk / 144 Def / 52 SpA / 56 SpD
+Sassy Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Life Dew
+- Volt Switch
+- Protect
+
+Gyarados @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 36 HP / 252 Atk / 220 Spe
+Jolly Nature
+- Dragon Tail
+- Waterfall
+- Dragon Cheer
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Breaking Swipe
+- Ice Spinner
+- Stomping Tantrum

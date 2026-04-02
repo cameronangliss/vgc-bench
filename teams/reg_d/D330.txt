@@ -1,0 +1,69 @@
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 244 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Helping Hand
+- Lunar Blessing
+- Trick Room
+
+Electrode-Hisui @ Loaded Dice
+Ability: Soundproof
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 4 Def / 92 SpA / 100 SpD / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Leaf Storm
+- Volt Switch
+- Bullet Seed
+- Thunder Wave
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 60 HP / 172 Atk / 236 Def / 36 SpD / 4 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Heavy Slam
+- Fake Out
+
+Heatran @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 4 Def / 156 SpA / 92 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Earth Power
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 172 Atk / 84 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Earthquake
+- Shadow Claw
+- Protect
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 212 Atk / 164 Spe
+Jolly Nature
+- Rage Fist
+- Close Combat
+- U-turn
+- Final Gambit

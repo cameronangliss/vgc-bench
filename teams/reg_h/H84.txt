@@ -1,0 +1,69 @@
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Steel Beam
+
+Murkrow @ Eviolite
+Ability: Insomnia
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 60 Def / 60 SpD / 132 Spe
+Adamant Nature
+- Brave Bird
+- Tailwind
+- Haze
+- Taunt
+
+Decidueye-Hisui @ Choice Band
+Ability: Scrappy
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 36 Def / 196 Spe
+Adamant Nature
+- Triple Arrows
+- Leaf Blade
+- Brave Bird
+- Sucker Punch
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 68 HP / 108 Def / 148 SpA / 12 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Earth Power
+- Snarl
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 164 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Follow Me
+- Helping Hand
+- Protect

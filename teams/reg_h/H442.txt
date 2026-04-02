@@ -1,0 +1,69 @@
+Gallade @ Life Orb
+Ability: Sharpness
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 22 SpA / 0 Spe
+- Sacred Sword
+- Psycho Cut
+- Night Slash
+- Trick Room
+
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Flamethrower
+- Earth Power
+
+Hatterene @ Iron Ball
+Ability: Magic Bounce
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Def / 140 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Heal Pulse
+- Skill Swap
+- Trick Room
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Grass
+EVs: 188 HP / 164 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Helping Hand
+- Protect
+- Trick Room
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Rage Fist
+- U-turn
+
+Lilligant-Hisui (F) @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sleep Powder
+- Close Combat
+- Leaf Blade
+- After You

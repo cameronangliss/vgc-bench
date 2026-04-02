@@ -1,0 +1,67 @@
+Dondozo (F) @ Sitrus Berry
+Ability: Oblivious
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 86 Def / 188 SpD
+Careful Nature
+IVs: 29 SpA
+- Wave Crash
+- Heavy Slam
+- Yawn
+- Protect
+
+Ting-Lu @ Leftovers
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Dragon
+EVs: 212 HP / 118 Def / 180 SpD
+Impish Nature
+- Sand Tomb
+- Taunt
+- Ruination
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Ice Shard
+- Sacred Sword
+- Protect
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 6 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Focus Energy
+- Spiky Shield
+
+Scizor (M) @ Rocky Helmet
+Ability: Technician
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 236 HP / 252 Atk / 22 Def
+Adamant Nature
+- Bullet Punch
+- U-turn
+- Quick Guard
+- Feint
+
+Zapdos-Galar @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- U-turn
+- Coaching

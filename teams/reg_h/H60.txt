@@ -1,0 +1,69 @@
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 100 Def / 156 SpD
+Careful Nature
+IVs: 20 SpA
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 252 Atk / 4 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Ninetales-Alola @ Covert Cloak
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 4 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Aurora Veil
+- Disable
+- Encore
+
+Frosmoth @ Leftovers
+Ability: Ice Scales
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 172 Def / 4 SpA / 4 SpD / 92 Spe
+Bold Nature
+IVs: 4 Atk
+- Blizzard
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Maushold-Four @ Rocky Helmet
+Ability: Friend Guard
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 244 Def / 12 Spe
+Impish Nature
+- Follow Me
+- Beat Up
+- Taunt
+- Protect
+
+Annihilape @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 36 Atk / 12 Def / 244 SpD / 28 Spe
+Adamant Nature
+IVs: 26 SpA
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect

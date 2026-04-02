@@ -1,0 +1,68 @@
+Ho-Oh @ Leftovers
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 236 Def / 20 Spe
+Impish Nature
+- Sacred Fire
+- Brave Bird
+- Life Dew
+- Protect
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 236 HP / 44 Def / 164 SpA / 44 SpD / 12 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Thunderbolt
+- Dragon Pulse
+- Protect
+
+Pecharunt @ Black Sludge
+Ability: Poison Puppeteer
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 SpD / 4 Spe
+Timid Nature
+IVs: 0 Atk
+- Malignant Chain
+- Poison Gas
+- Recover
+- Protect
+
+Garganacl @ Sitrus Berry
+Ability: Purifying Salt
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Salt Cure
+- Recover
+- Wide Guard
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 228 Atk / 20 Def
+Adamant Nature
+IVs: 0 Spe
+- Earthquake
+- Sand Tomb
+- Ruination
+- Heavy Slam
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield

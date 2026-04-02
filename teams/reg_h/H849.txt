@@ -1,0 +1,66 @@
+Milotic @ Safety Goggles
+Ability: Competitive
+Level: 50
+Tera Type: Dragon
+EVs: 228 HP / 164 Def / 20 SpA / 4 SpD / 92 Spe
+Bold Nature
+IVs: 0 Atk
+- Scald
+- Icy Wind
+- Haze
+- Protect
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 124 HP / 252 Atk / 4 Def / 12 SpD / 116 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Tera Blast
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 172 HP / 4 Atk / 76 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Will-O-Wisp
+- Taunt
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Stomping Tantrum
+- Earthquake
+- Dragon Claw
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+- Protect
+- Rage Powder
+- Spore
+- Pollen Puff
+
+Gholdengo @ Iron Plate
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

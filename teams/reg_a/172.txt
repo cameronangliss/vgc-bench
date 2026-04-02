@@ -1,0 +1,68 @@
+Hatterene @ Covert Cloak
+Ability: Magic Bounce
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 132 Def / 252 SpA
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Imprison
+- Trick Room
+- Dazzling Gleam
+
+Hariyama (M) @ Flame Orb
+Ability: Guts
+Level: 50
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+IVs: 13 SpA / 26 Spe
+- Detect
+- Fake Out
+- Close Combat
+- Wide Guard
+
+Amoonguss (F) @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 10 Atk
+- Protect
+- Rage Powder
+- Giga Drain
+- Spore
+
+Weavile (M) @ Focus Sash
+Ability: Pressure
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 16 HP / 8 Def / 19 SpA / 29 SpD
+- Protect
+- Night Slash
+- Ice Spinner
+- Fake Out
+
+Kilowattrel (F) @ Life Orb
+Ability: Wind Power
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 26 HP / 22 Atk / 27 Def / 24 SpA / 29 SpD / 29 Spe
+- Tailwind
+- Thunderbolt
+- Air Slash
+- Protect
+
+Skeledirge (F) @ Throat Spray
+Ability: Unaware
+Level: 50
+Tera Type: Dark
+EVs: 100 HP / 156 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk / 14 Spe
+- Protect
+- Torch Song
+- Earth Power
+- Slack Off

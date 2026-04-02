@@ -1,0 +1,67 @@
+Murkrow (M) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 108 Def / 148 SpD
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Taunt
+- Haze
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Swords Dance
+- Protect
+
+Hydreigon (M) @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 84 HP / 4 Def / 252 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Snarl
+- Tera Blast
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 92 HP / 4 Def / 212 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Salazzle @ Focus Sash
+Ability: Oblivious
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Overheat
+- Fake Out
+- Will-O-Wisp
+- Encore
+
+Meowscarada (F) @ Choice Band
+Ability: Protean
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- U-turn

@@ -1,0 +1,66 @@
+Okidogi @ Leftovers
+Ability: Guard Dog
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 92 Atk / 4 Def / 92 SpD / 92 Spe
+Adamant Nature
+- Drain Punch
+- Poison Jab
+- Bulk Up
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 100 HP / 156 Atk / 252 SpD
+Brave Nature
+- Stomping Tantrum
+- Ruination
+- Heavy Slam
+- Earthquake
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 36 Atk / 28 Def / 156 SpD / 36 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 180 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Flutter Mane @ Fairy Feather
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 76 HP / 100 Def / 204 SpA / 4 SpD / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Trick Room
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Haze
+- Protect

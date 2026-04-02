@@ -1,0 +1,69 @@
+Terapagos-Stellar @ Leftovers
+Ability: Teraform Zero
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 108 Def / 76 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 15 Atk
+- Protect
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Astral Barrage
+- Encore
+- Disable
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 4 Atk / 164 Def / 68 SpD / 28 Spe
+Impish Nature
+- Knock Off
+- Parting Shot
+- Will-O-Wisp
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 12 Def / 44 SpD / 4 Spe
+Adamant Nature
+IVs: 5 Spe
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 196 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk / 21 Spe
+- Protect
+- Spore
+- Rage Powder
+- Pollen Puff
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Coaching
+- U-turn

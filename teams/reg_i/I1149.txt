@@ -1,0 +1,71 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 204 HP / 20 Def / 252 SpA / 4 SpD / 28 Spe
+Modest Nature
+- Electro Drift
+- Snarl
+- Draco Meteor
+- Volt Switch
+
+Calyrex-Shadow @ Spell Tag
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 140 HP / 84 Def / 4 SpA / 28 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Draining Kiss
+- Nasty Plot
+- Protect
+
+Volcarona (M) @ Electric Seed
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 252 HP / 116 Def / 4 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Flamethrower
+- Struggle Bug
+- Quiver Dance
+- Protect
+
+Incineroar (M) @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 252 HP / 4 Atk / 100 Def / 132 SpD / 20 Spe
+Careful Nature
+- Fake Out
+- Knock Off
+- Roar
+- U-turn
+
+Clefairy (M) @ Eviolite
+Ability: Friend Guard
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- Protect
+- After You
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 92 Def / 108 SpD / 20 Spe
+Adamant Nature
+- Wood Hammer
+- U-turn
+- Grassy Glide
+- Fake Out

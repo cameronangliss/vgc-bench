@@ -1,0 +1,68 @@
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+EVs: 108 HP / 100 Def / 132 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Focus Blast
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Haze
+- Foul Play
+- Taunt
+
+Dragonite @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 108 HP / 252 Atk / 4 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Extreme Speed
+- Dragon Claw
+- Low Kick
+- Earthquake
+
+Hydreigon @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Draco Meteor
+- Protect
+
+Ceruledge @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 60 Def / 12 SpD / 68 Spe
+Adamant Nature
+- Bulk Up
+- Tera Blast
+- Bitter Blade
+- Shadow Sneak
+
+Gengar @ Focus Sash
+Ability: Cursed Body
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Sludge Bomb
+- Shadow Ball
+- Hypnosis

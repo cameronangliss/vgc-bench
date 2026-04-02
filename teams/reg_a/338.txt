@@ -1,0 +1,68 @@
+Abomasnow @ Occa Berry
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 44 Def / 212 SpD
+Calm Nature
+- Blizzard
+- Aurora Veil
+- Rock Slide
+- Protect
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Dragon
+EVs: 252 Atk / 76 SpD / 180 Spe
+Jolly Nature
+- Icicle Spear
+- Glaive Rush
+- Dragon Dance
+- Protect
+
+Armarouge @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Heat Wave
+- Dark Pulse
+- Energy Ball
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 SpD
+Calm Nature
+IVs: 0 Atk
+- Helping Hand
+- Follow Me
+- Protect
+- Psychic
+
+Kingambit @ Life Orb
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 SpD
+Adamant Nature
+- Sucker Punch
+- Iron Head
+- Protect
+- Kowtow Cleave
+
+Rotom-Heat @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Overheat
+- Nasty Plot
+- Thunderbolt
+- Will-O-Wisp

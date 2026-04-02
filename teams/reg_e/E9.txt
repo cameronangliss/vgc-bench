@@ -1,0 +1,68 @@
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 28 HP / 252 Atk / 4 Def / 4 SpD / 220 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Quick Attack
+- Spiky Shield
+
+Okidogi @ Assault Vest
+Ability: Guard Dog
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Drain Punch
+- Gunk Shot
+- Knock Off
+- Ice Punch
+
+Tornadus (M) @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 244 Def / 20 SpA
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Sunny Day
+- Tailwind
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sacred Sword
+- Ice Shard
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 92 HP / 20 Def / 196 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Power Gem
+
+Landorus-Therian @ Wide Lens
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Sandsear Storm
+- Sludge Bomb
+- Taunt
+- Protect

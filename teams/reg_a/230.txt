@@ -1,0 +1,69 @@
+Pyroar (F) @ Choice Specs
+Ability: Unnerve
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Voice
+- Heat Wave
+- Tera Blast
+- Snarl
+
+Meowscarada (F) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Knock Off
+- U-turn
+- Flower Trick
+- Protect
+
+Masquerain (M) @ Bright Powder
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Air Slash
+- Tailwind
+- Bug Buzz
+- Power Split
+
+Dondozo (M) @ Choice Band
+Ability: Oblivious
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Wave Crash
+- Rock Slide
+- Earthquake
+- Ice Fang
+
+Skuntank (M) @ Assault Vest
+Ability: Stench
+Level: 50
+Tera Type: Flying
+EVs: 20 HP / 172 Atk / 4 Def / 60 SpD / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Crunch
+- Gunk Shot
+- Play Rough
+
+Tropius (M) @ Sitrus Berry
+Ability: Harvest
+Level: 50
+Tera Type: Rock
+EVs: 244 HP / 84 Def / 68 SpA / 108 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Wide Guard
+- Air Slash
+- Tailwind
+- Giga Drain

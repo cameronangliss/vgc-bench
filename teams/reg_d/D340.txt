@@ -1,0 +1,69 @@
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 36 HP / 156 Def / 164 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Sunny Day
+- Bleakwind Storm
+- Taunt
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 244 Def / 84 SpA / 12 SpD / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Flying
+EVs: 92 HP / 4 Def / 220 SpA / 52 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Tera Blast
+
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 44 HP / 252 Atk / 4 SpD / 204 Spe
+Jolly Nature
+- Encore
+- After You
+- Close Combat
+- Solar Blade
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 252 SpA / 28 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Earth Power
+- Protect
+
+Baxcalibur @ Assault Vest
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ground
+EVs: 248 Atk / 172 Def / 28 SpD / 60 Spe
+Adamant Nature
+- Glaive Rush
+- Ice Shard
+- Icicle Crash
+- Earthquake

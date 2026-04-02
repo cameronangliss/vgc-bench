@@ -1,0 +1,68 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Sucker Punch
+- Sacred Sword
+- Icicle Crash
+- Ice Shard
+
+Iron Bundle @ Choice Specs
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 68 HP / 188 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
+
+Urshifu @ Black Glasses
+Ability: Unseen Fist
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 252 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 4 Def / 4 SpA / 68 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Snowscape
+- Scary Face
+- Bleakwind Storm
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 220 Atk / 68 Def / 140 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Earthquake
+- Wild Charge
+- Heavy Slam
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 100 HP / 216 Def / 36 SpA / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Trick Room
+- Imprison

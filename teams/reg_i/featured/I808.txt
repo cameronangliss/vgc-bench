@@ -1,0 +1,68 @@
+Terapagos-Terastal @ Electric Seed
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 236 Def / 76 SpA / 12 SpD / 12 Spe
+Bold Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+- Protect
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 108 HP / 68 Def / 116 SpA / 4 SpD / 212 Spe
+Modest Nature
+- Electro Drift
+- Snarl
+- Volt Switch
+- Draco Meteor
+
+Sinistcha @ Focus Sash
+Ability: Hospitality
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 252 Def / 68 SpA
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Rage Powder
+- Strength Sap
+- Protect
+
+Iron Treads @ Choice Band
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- High Horsepower
+- Steel Roller
+- Iron Head
+- Ice Spinner
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 164 Def / 92 SpD
+Impish Nature
+IVs: 29 Spe
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rain Dance
+- Surging Strikes
+- U-turn
+- Close Combat

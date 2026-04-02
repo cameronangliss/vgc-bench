@@ -1,0 +1,67 @@
+Baxcalibur @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 132 HP / 116 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Icicle Spear
+- Scale Shot
+- Swords Dance
+- Protect
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Def / 4 SpA / 12 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Aurora Veil
+- Protect
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 108 Def / 76 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Earth Power
+- Substitute
+- Protect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 156 Atk / 4 Def / 12 SpD / 172 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 132 HP / 116 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+- Tera Blast
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 156 Atk / 4 Def / 252 SpD / 20 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Heavy Slam

@@ -1,0 +1,73 @@
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- After You
+- Solar Blade
+- Close Combat
+
+Torkoal (M) @ Charcoal
+Ability: Drought
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 13 Spe
+- Protect
+- Eruption
+- Heat Wave
+- Earth Power
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 76 Atk / 108 Def / 220 SpD
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Volt Switch
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 164 Def / 12 SpA / 76 SpD / 4 Spe
+Calm Nature
+IVs: 25 Atk
+- Trick Room
+- Helping Hand
+- Lunar Blessing
+- Moonblast
+
+Ursaluna (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 156 Atk / 100 SpD
+Brave Nature
+IVs: 0 SpA / 16 Spe
+- Protect
+- Facade
+- Earthquake
+- Shadow Claw
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 100 HP / 244 Def / 44 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Thunderbolt

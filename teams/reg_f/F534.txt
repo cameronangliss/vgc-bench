@@ -1,0 +1,68 @@
+Regidrago @ Dragon Fang
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Steel
+EVs: 12 HP / 44 Def / 236 SpA / 100 SpD / 116 Spe
+Modest Nature
+- Dragon Energy
+- Draco Meteor
+- Earth Power
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 100 Def / 76 SpD / 76 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 68 Def / 100 SpA / 68 SpD / 76 Spe
+Modest Nature
+IVs: 20 Atk
+- Draco Meteor
+- Thunderclap
+- Electroweb
+- Snarl
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 228 HP / 4 Def / 52 SpA / 172 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 20 Def / 12 SpD / 188 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 188 Def / 4 SpA / 68 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Spore
+- Rage Powder
+- Protect

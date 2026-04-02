@@ -1,0 +1,73 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Hydro Pump
+- Tailwind
+- Helping Hand
+
+Basculegion @ Life Orb
+Ability: Swift Swim
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 108 HP / 252 Atk / 36 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Last Respects
+- Protect
+
+Thundurus-Therian @ Choice Specs
+Ability: Volt Absorb
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 92 HP / 12 Def / 84 SpA / 68 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Volt Switch
+- Grass Knot
+- Tera Blast
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 236 HP / 180 Def / 92 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Giga Drain
+- Pollen Puff
+- Spore
+- Rage Powder
+
+Goodra-Hisui (F) @ Leftovers
+Ability: Sap Sipper
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 236 HP / 236 Def / 36 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Shelter
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 164 Def / 124 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Protect

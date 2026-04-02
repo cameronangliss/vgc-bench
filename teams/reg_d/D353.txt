@@ -1,0 +1,69 @@
+Raichu @ Assault Vest
+Ability: Lightning Rod
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 196 Def / 4 SpA / 52 SpD / 4 Spe
+Bold Nature
+- Fake Out
+- Nuzzle
+- Volt Switch
+- Grass Knot
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 44 HP / 252 SpA / 104 SpD / 108 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Encore
+- Freeze-Dry
+- Hydro Pump
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Pollen Puff
+- Rage Powder
+- Protect
+
+Moltres-Galar @ Sitrus Berry
+Ability: Berserk
+Level: 50
+Tera Type: Poison
+EVs: 212 HP / 92 Def / 196 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Nasty Plot
+- Fiery Wrath
+- Air Slash
+- Protect
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Stomping Tantrum
+- U-turn
+- Tera Blast
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 100 Def / 156 SpD
+Impish Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot

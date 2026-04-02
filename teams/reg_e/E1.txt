@@ -1,0 +1,68 @@
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Ivy Cudgel
+- Follow Me
+- Wood Hammer
+- Spiky Shield
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 20 Def / 124 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Flamethrower
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Landorus-Therian @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 196 Atk / 4 Def / 68 SpD / 196 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+- Giga Impact
+
+Gholdengo @ Sitrus Berry
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 4 Def / 132 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Nasty Plot
+- Make It Rain
+- Shadow Ball
+- Protect
+
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 156 HP / 188 Def / 4 SpA / 12 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Taunt
+- Icy Wind
+- Bleakwind Storm
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 44 HP / 196 Atk / 12 Def / 60 SpD / 196 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Head Smash

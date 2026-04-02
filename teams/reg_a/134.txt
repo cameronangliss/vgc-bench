@@ -1,0 +1,67 @@
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Protect
+
+Gyarados @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 196 Atk / 4 Def / 4 SpD / 148 Spe
+Adamant Nature
+- Waterfall
+- Earthquake
+- Iron Head
+- Tera Blast
+
+Murkrow @ Eject Button
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Tailwind
+- Brave Bird
+- Haze
+- Taunt
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Ghost
+EVs: 76 HP / 4 Def / 252 SpA / 4 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Psyshock
+- Dazzling Gleam
+
+Pawmot @ Focus Sash
+Ability: Volt Absorb
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Double Shock
+- Revival Blessing
+- Fake Out
+- Close Combat
+
+Armarouge @ Aguav Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Psychic
+EVs: 244 HP / 4 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Armor Cannon
+- Wide Guard
+- Will-O-Wisp
+- Psychic

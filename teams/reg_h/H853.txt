@@ -1,0 +1,65 @@
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Coaching
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Extreme Speed
+- Haze
+- Protect
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 12 Def / 52 SpD / 76 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Taunt
+- Fake Out
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Wave Crash
+- Flip Turn
+- Last Respects
+- Tera Blast
+
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 108 Def / 36 SpA / 4 SpD / 108 Spe
+Modest Nature
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 196 Atk / 12 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Low Kick

@@ -1,0 +1,68 @@
+Armarouge @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 12 Def / 196 SpA / 28 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Wide Guard
+- Trick Room
+- Armor Cannon
+
+Meowscarada @ Life Orb
+Ability: Overgrow
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Brick Break
+- Protect
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 92 Def / 164 SpA
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Yawn
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 84 Atk / 4 Def / 124 SpD / 52 Spe
+Impish Nature
+- Earthquake
+- Order Up
+- Rest
+- Sleep Talk
+
+Tatsugiri @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 220 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Dazzling Gleam
+- Trick Room
+- Helping Hand

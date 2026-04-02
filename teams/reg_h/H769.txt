@@ -1,0 +1,66 @@
+Torterra @ Loaded Dice
+Ability: Shell Armor
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Bullet Seed
+- Earthquake
+- Rock Blast
+- Shell Smash
+
+Dodrio @ Focus Sash
+Ability: Early Bird
+Level: 50
+Tera Type: Ghost
+EVs: 252 Spe
+Naive Nature
+IVs: 0 HP / 0 Atk
+- Endeavor
+- Taunt
+- Tailwind
+- Protect
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+- Moonblast
+- Icy Wind
+- Follow Me
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 252 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 164 SpD / 92 Spe
+Jolly Nature
+- Beat Up
+- Taunt
+- Follow Me
+- Protect
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 12 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect

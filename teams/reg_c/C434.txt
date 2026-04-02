@@ -1,0 +1,65 @@
+Arcanine (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 156 Def / 44 SpD / 52 Spe
+Impish Nature
+- Flare Blitz
+- Extreme Speed
+- Will-O-Wisp
+- Howl
+
+Palafin (M) @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 252 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Wave Crash
+- Jet Punch
+- Haze
+- Protect
+
+Meowscarada (F) @ Choice Band
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Play Rough
+- U-turn
+
+Scizor (M) @ Clear Amulet
+Ability: Technician
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 252 Atk / 100 SpD
+Adamant Nature
+- Pounce
+- Bullet Punch
+- Close Combat
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Throat Chop
+- Ice Spinner
+- Sacred Sword
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 156 Atk / 28 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Throat Chop
+- Stomping Tantrum
+- Heavy Slam
+- Fissure

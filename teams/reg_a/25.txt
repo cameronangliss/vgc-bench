@@ -1,0 +1,68 @@
+Annihilape (M) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Shadow Claw
+- Rock Slide
+
+Lilligant @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sleep Powder
+- After You
+- Leaf Storm
+- Protect
+
+Torkoal (M) @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Clear Smog
+- Protect
+
+Oranguru (M) @ Sitrus Berry
+Ability: Inner Focus
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 108 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Instruct
+- Foul Play
+- Taunt
+
+Indeedee-F @ Eject Button
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 204 Def / 52 SpD
+Impish Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Helping Hand
+- Healing Wish
+
+Hariyama (F) @ Flame Orb
+Ability: Guts
+Level: 50
+EVs: 156 HP / 236 Atk / 116 SpD
+Adamant Nature
+IVs: 0 Spe
+- Close Combat
+- Fake Out
+- Heavy Slam
+- Protect

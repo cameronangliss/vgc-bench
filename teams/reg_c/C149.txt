@@ -1,0 +1,70 @@
+Ting-Lu @ Choice Band
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 252 Atk / 156 SpD
+Brave Nature
+IVs: 0 Spe
+- Stomping Tantrum
+- Earthquake
+- Rock Slide
+- Throat Chop
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 244 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Clear Smog
+- Rage Powder
+- Spore
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Nasty Plot
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 204 Def / 44 SpA / 4 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Gyarados @ Mago Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 20 Atk / 148 Def / 76 SpD / 12 Spe
+Careful Nature
+- Waterfall
+- Taunt
+- Thunder Wave
+- Helping Hand
+
+Bronzong @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 156 Def / 108 SpD
+Sassy Nature
+IVs: 0 Spe
+- Gyro Ball
+- Body Press
+- Iron Defense
+- Trick Room

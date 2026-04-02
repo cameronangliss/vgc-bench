@@ -1,0 +1,71 @@
+Regieleki @ Covert Cloak
+Ability: Transistor
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 84 Def / 44 SpA / 124 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunder
+- Electroweb
+- Tera Blast
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 148 Def / 12 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Encore
+- Freeze-Dry
+- Protect
+
+Urshifu (M) @ Assault Vest
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 124 HP / 124 Atk / 84 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Poison Jab
+
+Toedscruel (M) @ Sitrus Berry
+Ability: Mycelium Might
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 244 Def / 68 SpA
+Bold Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Giga Drain
+- Earth Power
+
+Heatran (F) @ Chilan Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 76 Def / 156 SpA / 68 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Heat Wave
+- Substitute
+- Protect
+
+Cresselia @ Leftovers
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 228 HP / 156 Def / 44 SpA / 76 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Lunar Blessing
+- Skill Swap
+- Moonblast
+- Helping Hand

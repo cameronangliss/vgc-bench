@@ -1,0 +1,68 @@
+Ninetales-Alola (F) @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 180 HP / 196 Def / 4 SpA / 108 SpD / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Aurora Veil
+- Icy Wind
+- Encore
+- Protect
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Poison
+EVs: 156 HP / 156 Atk / 196 Spe
+Jolly Nature
+- Breaking Swipe
+- Knock Off
+- Protect
+- Tailwind
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 124 Def / 60 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Perish Song
+- Shadow Ball
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Stomping Tantrum
+- Tera Blast
+- U-turn
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 20 HP / 92 Atk / 4 Def / 236 SpD / 156 Spe
+Adamant Nature
+- Drain Punch
+- Fake Out
+- Heavy Slam
+- Wild Charge
+
+Heatran (F) @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 252 SpA / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Flash Cannon
+- Heat Wave
+- Protect

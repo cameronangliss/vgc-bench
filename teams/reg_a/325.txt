@@ -1,0 +1,68 @@
+Hydreigon @ Scope Lens
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Draco Meteor
+- Focus Energy
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Swords Dance
+- Protect
+
+Gholdengo @ Sitrus Berry
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 100 HP / 12 Def / 236 SpA / 12 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 9 Spe
+- Protect
+- Pollen Puff
+- Rage Powder
+- Spore
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Foul Play
+- Haze
+- Tailwind
+- Torment
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 108 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Population Bomb
+- Encore
+- Follow Me
+- Protect

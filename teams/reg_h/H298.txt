@@ -1,0 +1,70 @@
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Shadow Ball
+- Focus Blast
+- Flamethrower
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 12 Atk
+- Tailwind
+- Sunny Day
+- Encore
+- Moonblast
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Flash Cannon
+- Electro Shot
+- Protect
+- Dragon Pulse
+
+Indeedee (M) @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Psychic
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 8 Atk
+- Expanding Force
+- Imprison
+- Psychic
+- Trick Room
+
+Ursaluna-Bloodmoon @ Silk Scarf
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 4 Def / 252 SpA / 52 SpD / 196 Spe
+Modest Nature
+IVs: 6 Atk
+- Blood Moon
+- Earth Power
+- Protect
+- Hyper Voice
+
+Breloom @ Loaded Dice
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Bullet Seed
+- Spore
+- Protect
+- Mach Punch

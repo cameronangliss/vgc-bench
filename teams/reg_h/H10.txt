@@ -1,0 +1,69 @@
+Magmortar @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 132 Def / 124 SpA
+Modest Nature
+IVs: 0 Atk
+- Flamethrower
+- Thunderbolt
+- Follow Me
+- Clear Smog
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 236 Atk / 148 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- U-turn
+- Fake Out
+
+Slowbro @ Covert Cloak
+Ability: Oblivious
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Scald
+- Psychic
+- Flamethrower
+
+Gholdengo @ Scope Lens
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpD
+Adamant Nature
+- Body Press
+- Brave Bird
+- Roost
+- Bulk Up

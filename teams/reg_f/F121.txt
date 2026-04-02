@@ -1,0 +1,70 @@
+Incineroar @ Figy Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 4 Atk / 76 Def / 212 SpD / 4 Spe
+Impish Nature
+- Parting Shot
+- Flare Blitz
+- Fake Out
+- Snarl
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 12 Def / 196 SpA / 60 SpD
+Quiet Nature
+IVs: 0 Spe
+- Heat Wave
+- Earth Power
+- Protect
+- Temper Flare
+
+Walking Wake @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Poison
+EVs: 140 HP / 4 Def / 116 SpA / 20 SpD / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Steam
+- Protect
+- Flamethrower
+- Dragon Pulse
+
+Charizard @ Rocky Helmet
+Ability: Solar Power
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 12 Def / 84 SpA / 116 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Scorching Sands
+- Air Slash
+- Heat Wave
+
+Venusaur @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Tera Type: Poison
+EVs: 100 HP / 20 Def / 124 SpA / 28 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Sludge Bomb
+- Earth Power
+- Sleep Powder
+
+Whimsicott @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sunny Day
+- Taunt
+- Dazzling Gleam
+- Tailwind

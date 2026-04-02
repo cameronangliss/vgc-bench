@@ -1,0 +1,67 @@
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 100 HP / 252 Atk / 156 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Low Kick
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- High Horsepower
+- Iron Head
+- Protect
+
+Gastrodon-East @ Leftovers
+Ability: Storm Drain
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 36 Def / 220 SpA
+Modest Nature
+IVs: 0 Atk / 0 Spe
+- Earth Power
+- Icy Wind
+- Clear Smog
+- Protect
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- U-turn
+- Coaching
+- Final Gambit
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 116 SpD
+Sassy Nature
+IVs: 28 Spe
+- Spirit Break
+- Reflect
+- Light Screen
+- Misty Terrain
+
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 196 Atk / 140 Def / 84 SpD / 84 Spe
+Impish Nature
+- Brave Bird
+- Power Trip
+- Bulk Up
+- Roost

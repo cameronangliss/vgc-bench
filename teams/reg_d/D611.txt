@@ -1,0 +1,67 @@
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 44 Def / 164 SpA / 12 SpD / 36 Spe
+Modest Nature
+- Heat Wave
+- Tera Blast
+- Substitute
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Atk / 4 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Facade
+- Earthquake
+- Bulk Up
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Protect
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Ice Beam
+- Lunar Blessing
+- Trick Room
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 84 Def / 108 SpA / 4 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 100 Atk / 4 Def / 252 SpD / 20 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Volt Switch
+- Fake Out

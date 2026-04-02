@@ -1,0 +1,67 @@
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 244 Def / 12 SpD
+Bold Nature
+IVs: 0 Atk
+- Clear Smog
+- Spore
+- Rage Powder
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 4 Def / 52 SpA / 52 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 140 Atk / 20 Def / 92 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Phantom Force
+- Flip Turn
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Acrobatics
+- Dire Claw
+- Close Combat
+- Protect
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 68 HP / 188 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 196 Def / 68 SpD / 4 Spe
+Impish Nature
+- Knock Off
+- Fake Out
+- Will-O-Wisp
+- Parting Shot

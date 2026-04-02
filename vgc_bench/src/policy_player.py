@@ -42,14 +42,12 @@ from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.teams import RandomTeamBuilder
 from vgc_bench.src.utils import (
     abilities,
-    format_map,
     items,
     move_obs_len,
     moves,
+    normalize_format,
     pokemon_obs_len,
 )
-
-_reverse_format_map = {v: k for k, v in format_map.items()}
 
 
 class PolicyPlayer(Player):
@@ -95,9 +93,9 @@ class PolicyPlayer(Player):
         challenging_player = split_message[2].strip()
         if challenging_player != self.username:
             if len(split_message) >= 6:
-                fmt = split_message[5]
-                if fmt in self._accepted_formats:
-                    await self._challenge_queue.put((challenging_player, fmt))
+                canonical = normalize_format(split_message[5])
+                if canonical and canonical in self._accepted_formats:
+                    await self._challenge_queue.put((challenging_player, canonical))
 
     async def _update_challenges(self, split_message: list[str]):
         """Queue challenges, optionally accepting any recognized format."""
@@ -105,8 +103,9 @@ class PolicyPlayer(Player):
             return await super()._update_challenges(split_message)
         challenges = json.loads(split_message[2]).get("challengesFrom", {})
         for user, fmt in challenges.items():
-            if fmt in self._accepted_formats:
-                await self._challenge_queue.put((user, fmt))
+            canonical = normalize_format(fmt)
+            if canonical and canonical in self._accepted_formats:
+                await self._challenge_queue.put((user, canonical))
 
     async def _accept_challenges(
         self,
@@ -138,7 +137,7 @@ class PolicyPlayer(Player):
                         isinstance(self._team, RandomTeamBuilder)
                         and self._team.available_regs is not None
                     ):
-                        self._team.current_reg = _reverse_format_map[fmt]
+                        self._team.current_reg = fmt[-1]
                     team = packed_team or self.next_team
                     await self.ps_client.accept_challenge(username, team)
                     await self._battle_semaphore.acquire()
@@ -149,10 +148,10 @@ class PolicyPlayer(Player):
         """Create a battle, accepting any recognized format if configured."""
         if self._accepted_formats is None:
             return await super()._create_battle(split_message)
-        fmt = split_message[1]
-        if fmt in self._accepted_formats:
+        canonical = normalize_format(split_message[1])
+        if canonical and canonical in self._accepted_formats:
             saved = self._format
-            self._format = fmt
+            self._format = canonical
             try:
                 return await super()._create_battle(split_message)
             finally:

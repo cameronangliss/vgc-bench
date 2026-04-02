@@ -1,0 +1,73 @@
+Clefable (F) @ Rocky Helmet
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 244 HP / 212 Def / 52 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Moonblast
+- Skill Swap
+- Protect
+
+Kingambit (M) @ Safety Goggles
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 196 Atk / 28 Def / 28 SpD / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Volcarona (F) @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 252 HP / 100 Def / 4 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Dragonite (M) @ Assault Vest
+Ability: Multiscale
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 244 HP / 204 Atk / 12 Def / 12 SpD / 36 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Stomping Tantrum
+- Ice Spinner
+
+Sneasler (M) @ Focus Sash
+Ability: Unburden
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Coaching
+- Fake Out
+
+Rillaboom (M) @ Meadow Plate
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 100 HP / 196 Atk / 12 Def / 12 SpD / 188 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Taunt
+- Fake Out

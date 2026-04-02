@@ -1,0 +1,66 @@
+Espathra @ Focus Sash
+Ability: Speed Boost
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Lumina Crash
+- Expanding Force
+- Reflect
+- Protect
+
+Archaludon @ Power Herb
+Ability: Stamina
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Electro Shot
+- Dragon Pulse
+- Aura Sphere
+- Protect
+
+Ursaluna-Bloodmoon @ Silk Scarf
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 52 HP / 4 Def / 252 SpA / 4 SpD / 196 Spe
+Modest Nature
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Protect
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Psyshock
+- Alluring Voice
+- Follow Me
+- Trick Room
+
+Primarina @ Life Orb
+Ability: Liquid Voice
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 12 Def / 252 SpA / 4 SpD / 36 Spe
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Tera Blast
+- Protect
+
+Armarouge @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+- Heat Wave
+- Expanding Force
+- Aura Sphere
+- Trick Room

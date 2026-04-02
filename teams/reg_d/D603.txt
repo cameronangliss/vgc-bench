@@ -1,0 +1,66 @@
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 156 Atk / 4 Def / 116 SpD / 188 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Protect
+
+Landorus-Therian @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 36 HP / 252 Atk / 220 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- Tera Blast
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 4 SpA / 4 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 140 HP / 76 Atk / 4 Def / 252 SpD / 36 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+- Fake Out
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Crunch
+- Sucker Punch
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 180 HP / 228 Def / 76 SpA / 4 SpD / 20 Spe
+Timid Nature
+- Moonblast
+- Icy Wind
+- Taunt
+- Protect

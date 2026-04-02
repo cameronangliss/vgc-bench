@@ -1,0 +1,68 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 156 Def / 92 SpD / 4 Spe
+Impish Nature
+- Light Screen
+- Reflect
+- Fake Out
+- Parting Shot
+
+Chi-Yu @ Assault Vest
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 44 Def / 4 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Flamethrower
+- Snarl
+- Tera Blast
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 244 Def / 20 SpD
+Relaxed Nature
+IVs: 29 Spe
+- Bullet Seed
+- Pollen Puff
+- Spore
+- Rage Powder
+
+Annihilape @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 28 Def / 188 SpD / 4 Spe
+Careful Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 60 HP / 252 Def / 44 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Dazzling Gleam
+- Shadow Ball
+- Substitute
+
+Tauros-Paldea-Aqua @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Raging Bull
+- Close Combat
+- Protect
+- Aqua Jet

@@ -1,0 +1,70 @@
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 4 Def / 196 SpA / 76 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Armor Cannon
+- Expanding Force
+- Wide Guard
+- Trick Room
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Follow Me
+- Helping Hand
+- Dazzling Gleam
+- Trick Room
+
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 12 Spe
+- Eruption
+- Flamethrower
+- Heat Wave
+- Earth Power
+
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Solar Blade
+- Close Combat
+- Encore
+- After You
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 196 Atk / 4 Def / 52 SpD
+Brave Nature
+IVs: 0 Spe
+- Tera Blast
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+
+Enamorus-Therian (F) @ Fairy Feather
+Ability: Overcoat
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Moonblast
+- Dazzling Gleam
+- Earth Power
+- Protect

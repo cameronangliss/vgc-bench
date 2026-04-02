@@ -1,0 +1,70 @@
+Rhyperior @ Clear Amulet
+Ability: Lightning Rod
+Level: 50
+Tera Type: Grass
+EVs: 128 HP / 156 Atk / 4 Def / 220 SpD
+Adamant Nature
+- High Horsepower
+- Rock Slide
+- Ice Punch
+- Protect
+
+Tyranitar @ Focus Sash
+Ability: Sand Stream
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Rock Slide
+- Crunch
+- Stomping Tantrum
+- Protect
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Trick Room
+- Helping Hand
+- Dazzling Gleam
+
+Braviary-Hisui (M) @ Life Orb
+Ability: Tinted Lens
+Level: 50
+Tera Type: Psychic
+EVs: 140 HP / 4 Def / 140 SpA / 4 SpD / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Expanding Force
+- Esper Wing
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 244 HP / 156 Atk / 44 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Primarina @ Fairy Feather
+Ability: Torrent
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 140 Def / 188 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Haze
+- Hydro Pump
+- Protect
