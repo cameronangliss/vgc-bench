@@ -1,4 +1,4 @@
-Tauros-Paldea-Water @ Clear Amulet
+Tauros-Paldea-Aqua @ Clear Amulet
 Ability: Intimidate
 Level: 50
 Shiny: Yes

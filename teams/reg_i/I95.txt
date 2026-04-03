@@ -59,7 +59,6 @@ Level: 50
 Tera Type: Fairy
 EVs: 188 HP / 36 Def / 180 SpA / 4 SpD / 100 Spe
 Modest Nature
-IVs: 20 Atk
 - Protect
 - Thunderbolt
 - Draco Meteor

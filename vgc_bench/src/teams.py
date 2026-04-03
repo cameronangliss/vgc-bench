@@ -67,15 +67,12 @@ class RandomTeamBuilder(Teambuilder):
         toggle: Optional TeamToggle for preventing mirror matches.
     """
 
-    teams: list[str]
-
     def __init__(
         self,
         run_id: int,
         num_teams: int | None,
         reg: str | None,
-        team1: str | None = None,
-        team2: str | None = None,
+        custom_team_paths: list[Path] | None = None,
         toggle: TeamToggle | None = None,
         take_from_end: bool = False,
     ):
@@ -83,60 +80,56 @@ class RandomTeamBuilder(Teambuilder):
         Initialize the random team builder.
 
         When ``reg`` is None, teams are loaded for every available regulation.
+        Teams are stored as file paths and loaded on demand in yield_team().
 
         Args:
             run_id: Training run identifier for deterministic team selection.
             num_teams: Number of teams to include in the pool, or None for all.
             reg: VGC regulation letter (e.g. 'g', 'h', 'i'), or None for all.
-            team1: Optional team string for matchup solving (requires team2).
-            team2: Optional team string for matchup solving (requires team1).
+            custom_team_paths: Optional explicit list of team file paths (e.g. for
+                matchup solving). Overrides reg/num_teams selection.
             toggle: Optional TeamToggle to prevent consecutive identical teams.
             take_from_end: If True, take teams from end of shuffled list.
         """
-        self.teams = []
-        self._reg_teams: dict[str, list[str]] = {}
+        self._team_paths: list[Path] = []
+        self._reg_paths: dict[str, list[Path]] = {}
         self.available_regs: list[str] | None = None
         self.current_reg: str | None = None
         self.toggle = toggle
-        if team1 is not None and team2 is not None:
-            parsed_team1 = self.parse_showdown_team(team1)
-            packed_team1 = self.join_team(parsed_team1)
-            self.teams.append(packed_team1)
-            parsed_team2 = self.parse_showdown_team(team2)
-            packed_team2 = self.join_team(parsed_team2)
-            self.teams.append(packed_team2)
+        if custom_team_paths is not None:
+            self._team_paths = custom_team_paths
         elif reg is None:
             self.available_regs = get_available_regs()
             if num_teams is not None:
                 n = len(self.available_regs)
                 base, remainder = divmod(num_teams, n)
                 for i, r in enumerate(self.available_regs):
-                    teams = self._load_teams(
+                    paths = self._select_paths(
                         run_id, base + (1 if i < remainder else 0), r, take_from_end
                     )
-                    if teams:
-                        self._reg_teams[r] = teams
-                self.available_regs = list(self._reg_teams.keys())
+                    if paths:
+                        self._reg_paths[r] = paths
+                self.available_regs = list(self._reg_paths.keys())
             else:
                 for r in self.available_regs:
-                    self._reg_teams[r] = self._load_teams(
+                    self._reg_paths[r] = self._select_paths(
                         run_id, None, r, take_from_end
                     )
             self.pick_reg()
         else:
-            self.teams = self._load_teams(run_id, num_teams, reg, take_from_end)
+            self._team_paths = self._select_paths(run_id, num_teams, reg, take_from_end)
 
     def pick_reg(self) -> None:
-        """Select a regulation for the next battle, weighted by team count."""
+        """Select a regulation uniformly at random for the next battle."""
         assert self.available_regs is not None
-        weights = [len(self._reg_teams[r]) for r in self.available_regs]
-        self.current_reg = random.choices(self.available_regs, weights=weights)[0]
+        self.current_reg = random.choice(self.available_regs)
 
-    def _load_teams(
-        self, run_id: int, num_teams: int | None, reg: str, take_from_end: bool
-    ) -> list[str]:
+    @staticmethod
+    def _select_paths(
+        run_id: int, num_teams: int | None, reg: str, take_from_end: bool
+    ) -> list[Path]:
         """
-        Load and pack teams for a given regulation.
+        Select team file paths for a given regulation.
 
         Args:
             run_id: Training run identifier for deterministic team selection.
@@ -145,34 +138,33 @@ class RandomTeamBuilder(Teambuilder):
             take_from_end: If True, take teams from end of shuffled list.
 
         Returns:
-            List of packed team strings.
+            List of Path objects for the selected teams.
         """
         paths = get_team_paths(reg)
         effective_num_teams = len(paths) if num_teams is None else num_teams
         team_ids = get_team_ids(run_id, effective_num_teams, reg, take_from_end)
-        teams = []
-        for team_path in [paths[t] for t in team_ids]:
-            parsed_team = self.parse_showdown_team(team_path.read_text())
-            packed_team = self.join_team(parsed_team)
-            teams.append(packed_team)
-        return teams
+        return [paths[t] for t in team_ids]
+
+    def _load_team(self, path: Path) -> str:
+        """Read a team file and return a packed team string."""
+        return self.join_team(self.parse_showdown_team(path.read_text()))
 
     def yield_team(self) -> str:
         """
-        Get a team for the next battle.
+        Get a team for the next battle, loading from file on demand.
 
         Returns:
             Packed team string, either toggled or randomly selected.
         """
         if self.available_regs is not None:
             assert self.current_reg is not None
-            teams = self._reg_teams[self.current_reg]
+            paths = self._reg_paths[self.current_reg]
         else:
-            teams = self.teams
+            paths = self._team_paths
         if self.toggle:
-            return teams[self.toggle.next(len(teams))]
+            return self._load_team(paths[self.toggle.next(len(paths))])
         else:
-            return random.choice(teams)
+            return self._load_team(random.choice(paths))
 
 
 def calc_team_similarity_score(team1: str, team2: str):

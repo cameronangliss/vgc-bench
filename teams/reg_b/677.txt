@@ -1,4 +1,4 @@
-Tauros-Paldea-Water @ Mirror Herb
+Tauros-Paldea-Aqua @ Mirror Herb
 Ability: Intimidate
 Level: 50
 Tera Type: Fire

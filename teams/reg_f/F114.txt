@@ -4,7 +4,7 @@ Level: 50
 Tera Type: Dark
 EVs: 116 HP / 76 Def / 252 SpA / 4 SpD / 60 Spe
 Timid Nature
-IVs: 0 Atk
+IVs: 20 Atk
 - Tachyon Cutter
 - Expanding Force
 - Protect

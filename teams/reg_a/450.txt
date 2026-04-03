@@ -56,7 +56,7 @@ Adamant Nature
 - Ice Shard
 - Swords Dance
 
-Tauros-Paldea-Water @ Mirror Herb
+Tauros-Paldea-Aqua @ Mirror Herb
 Ability: Intimidate
 Level: 50
 Tera Type: Steel

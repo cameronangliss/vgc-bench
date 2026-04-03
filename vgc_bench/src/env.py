@@ -5,6 +5,7 @@ Provides a custom Gymnasium environment wrapping poke-env's DoublesEnv for
 training reinforcement learning agents on Pokemon VGC battles.
 """
 
+from pathlib import Path
 from typing import Any, Dict, Optional, Tuple
 
 import numpy as np
@@ -52,8 +53,7 @@ class ShowdownEnv(DoublesEnv):
         learning_style: LearningStyle,
         allow_mirror_match: bool,
         choose_on_teampreview: bool,
-        team1: str | None,
-        team2: str | None,
+        team_paths: list[Path] | None = None,
     ) -> Env:
         """
         Factory method to create a properly wrapped training environment.
@@ -72,8 +72,7 @@ class ShowdownEnv(DoublesEnv):
             learning_style: Training paradigm to use.
             allow_mirror_match: Whether to allow same-team matchups.
             choose_on_teampreview: Whether policy controls teampreview.
-            team1: Optional team string for matchup solving (requires team2).
-            team2: Optional team string for matchup solving (requires team1).
+            team_paths: Optional list of team file paths for matchup solving.
 
         Returns:
             Wrapped Gymnasium environment ready for training.
@@ -92,7 +91,7 @@ class ShowdownEnv(DoublesEnv):
             log_level=log_level,
             accept_open_team_sheet=True,
             open_timeout=None,
-            team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
+            team=RandomTeamBuilder(run_id, num_teams, reg, team_paths, toggle),
             choose_on_teampreview=choose_on_teampreview,
         )
         if learning_style == LearningStyle.PURE_SELF_PLAY:

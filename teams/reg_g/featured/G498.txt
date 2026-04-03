@@ -60,7 +60,6 @@ Level: 50
 Tera Type: Electric
 EVs: 164 HP / 4 Def / 252 SpA / 4 SpD / 84 Spe
 Modest Nature
-IVs: 20 Atk
 - Thunderbolt
 - Thunderclap
 - Dragon Pulse

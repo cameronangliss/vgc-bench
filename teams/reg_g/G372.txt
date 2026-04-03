@@ -37,7 +37,6 @@ Level: 50
 Tera Type: Electric
 EVs: 84 HP / 180 Def / 108 SpA / 4 SpD / 132 Spe
 Modest Nature
-IVs: 20 Atk
 - Draco Meteor
 - Volt Switch
 - Thunderclap

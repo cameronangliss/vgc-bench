@@ -4,7 +4,7 @@ Level: 50
 Tera Type: Fairy
 EVs: 252 HP / 252 SpA / 4 SpD
 Modest Nature
-IVs: 0 Atk / 18 Spe
+IVs: 30 Atk / 18 Spe
 - Fleur Cannon
 - Dazzling Gleam
 - Trick Room

@@ -43,7 +43,7 @@ IVs: 0 Atk
 - Expanding Force
 - Protect
 
-Tauros-Paldea-Water @ Safety Goggles
+Tauros-Paldea-Aqua @ Safety Goggles
 Ability: Intimidate
 Level: 50
 Tera Type: Flying

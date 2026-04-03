@@ -21,7 +21,7 @@ Timid Nature
 - Fake Out
 - Taunt
 
-Tauros-Paldea-Water @ Safety Goggles
+Tauros-Paldea-Aqua @ Safety Goggles
 Ability: Intimidate
 Level: 50
 Tera Type: Fire

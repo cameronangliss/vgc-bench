@@ -34,7 +34,7 @@ IVs: 0 Atk
 - Psyshock
 - Hyper Beam
 
-Tauros-Paldea-Water @ Life Orb
+Tauros-Paldea-Aqua @ Life Orb
 Ability: Intimidate
 Level: 50
 Tera Type: Water

@@ -4,7 +4,7 @@ Level: 50
 Tera Type: Stellar
 EVs: 172 HP / 4 Def / 252 SpA / 12 SpD / 68 Spe
 Modest Nature
-IVs: 0 Atk
+IVs: 15 Atk
 - Tera Starstorm
 - Earth Power
 - Meteor Beam

@@ -1,7 +1,6 @@
 Enamorus @ Assault Vest
 Ability: Contrary
 Level: 50
-Shiny: Yes
 Tera Type: Fairy
 EVs: 244 HP / 4 Def / 20 SpA / 12 SpD / 228 Spe
 Timid Nature

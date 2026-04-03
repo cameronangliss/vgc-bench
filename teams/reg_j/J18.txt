@@ -4,7 +4,7 @@ Level: 50
 Tera Type: Water
 EVs: 252 HP / 252 SpA / 4 SpD
 Modest Nature
-IVs: 0 Atk
+IVs: 30 Atk
 - Fleur Cannon
 - Dazzling Gleam
 - Trick Room

@@ -59,7 +59,6 @@ Level: 50
 Tera Type: Water
 EVs: 148 HP / 148 Def / 52 SpA / 4 SpD / 156 Spe
 Modest Nature
-IVs: 20 Atk
 - Thunderbolt
 - Electroweb
 - Thunderclap

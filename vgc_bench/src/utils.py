@@ -119,6 +119,8 @@ def normalize_format(fmt: str) -> str | None:
     """Map any gen9vgcXXXXregY format string to our canonical version."""
     m = re.match(r"gen9vgc\d{4}reg([a-j])", fmt)
     return format_map.get(m.group(1)) if m else None
+
+
 with open("data/abilities.json") as f:
     abilities: list[str] = json.load(f)
 with open("data/items.json") as f:

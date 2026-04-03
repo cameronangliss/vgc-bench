@@ -66,7 +66,7 @@ Ability: Drought
 Level: 50
 Tera Type: Fire
 EVs: 252 HP / 252 SpA / 4 SpD
-Ivs: 0 Atk / 0 Spe
+IVs: 0 Atk / 0 Spe
 Shiny: Yes
 Quiet Nature
 - Protect

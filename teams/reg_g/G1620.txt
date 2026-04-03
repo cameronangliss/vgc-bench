@@ -15,7 +15,7 @@ Level: 50
 Tera Type: Ground
 EVs: 28 HP / 76 Def / 140 SpA / 12 SpD / 252 Spe
 Timid Nature
-IVs: 0 Atk
+IVs: 20 Atk
 - Tachyon Cutter
 - Psychic Noise
 - Tera Blast

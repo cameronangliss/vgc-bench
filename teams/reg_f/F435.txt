@@ -8,9 +8,6 @@ Adamant Nature
 - Aqua Jet
 - Close Combat
 - U-turn
-    252+ SpA Raging Bolt Thunderclap vs. 12 HP / 236 SpD Urshifu-Rapid Strike: 150-176 (84.7 - 99.4%) -- guaranteed 2HKO
-    252+ Atk Choice Band Sword of Ruin Tera-Normal Dragonite Extreme Speed vs. 12 HP / 28 Def Urshifu-Rapid Strike: 148-175 (83.6 - 98.8%) -- guaranteed 2HKO
-    Outspeeds max speed base 80s, set rain and it kills everything
 
 Tornadus @ Covert Cloak
 Ability: Prankster

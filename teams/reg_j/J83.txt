@@ -4,7 +4,7 @@ Level: 50
 Tera Type: Fairy
 EVs: 236 HP / 4 Def / 236 SpA / 4 SpD / 28 Spe
 Modest Nature
-IVs: 0 Atk
+IVs: 30 Atk
 - Dazzling Gleam
 - Draining Kiss
 - Flash Cannon

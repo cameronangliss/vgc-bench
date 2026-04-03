@@ -15,7 +15,6 @@ Level: 50
 Tera Type: Fairy
 EVs: 196 HP / 140 Def / 124 SpA / 4 SpD / 44 Spe
 Modest Nature
-IVs: 20 Atk
 - Dragon Pulse
 - Thunderclap
 - Calm Mind

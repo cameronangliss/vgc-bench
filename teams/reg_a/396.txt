@@ -56,7 +56,7 @@ IVs: 0 Atk
 - Discharge
 - Tera Blast
 
-Tauros-Paldea-Water @ Life Orb
+Tauros-Paldea-Aqua @ Life Orb
 Ability: Intimidate
 Level: 50
 Tera Type: Water

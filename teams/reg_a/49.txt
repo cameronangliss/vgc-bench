@@ -9,7 +9,7 @@ IVs: 0 Atk
 - Will-O-Wisp
 - Icy Wind
 
-Tauros-Paldea-Water @ Assault Vest
+Tauros-Paldea-Aqua @ Assault Vest
 Ability: Anger Point
 Level: 50
 Tera Type: Ground

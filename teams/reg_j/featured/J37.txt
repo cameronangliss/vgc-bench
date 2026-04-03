@@ -4,7 +4,7 @@ Level: 50
 Tera Type: Normal
 EVs: 252 HP / 252 SpA
 Modest Nature
-IVs: 0 Atk / 24 Spe
+IVs: 30 Atk / 24 Spe
 - Fleur Cannon
 - Dazzling Gleam
 - Trick Room

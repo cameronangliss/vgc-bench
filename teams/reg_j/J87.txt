@@ -63,7 +63,7 @@ Level: 50
 Tera Type: Grass
 EVs: 252 HP / 60 Def / 156 SpA / 36 SpD
 Quiet Nature
-IVs: 0 Atk / 18 Spe
+IVs: 30 Atk / 18 Spe
 - Dazzling Gleam
 - Fleur Cannon
 - Trick Room

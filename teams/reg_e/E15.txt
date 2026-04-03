@@ -26,7 +26,6 @@ Brave Nature
 Ursaluna-Bloodmoon @ Throat Spray
 Ability: Mind's Eye
 Level: 50
-Shiny: Yes
 Tera Type: Ghost
 EVs: 252 HP / 252 SpA / 4 SpD
 Quiet Nature

@@ -42,7 +42,7 @@ IVs: 0 Atk
 - Trick Room
 - Protect
 
-Tauros-Paldea-Water @ Assault Vest
+Tauros-Paldea-Aqua @ Assault Vest
 Ability: Anger Point
 Level: 50
 Tera Type: Fire

@@ -62,7 +62,7 @@ Level: 50
 Tera Type: Fire
 EVs: 4 HP / 252 Atk / 252 Spe
 Jolly Nature
-IVs: 21 SpA
+IVs: 20 SpA
 - Spiky Shield
 - Ivy Cudgel
 - Grassy Glide

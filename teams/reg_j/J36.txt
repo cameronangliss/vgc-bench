@@ -16,7 +16,7 @@ Level: 50
 Tera Type: Fairy
 EVs: 172 HP / 84 Def / 156 SpA / 92 SpD
 Quiet Nature
-IVs: 0 Atk / 8 Spe
+IVs: 30 Atk / 8 Spe
 - Fleur Cannon
 - Flash Cannon
 - Protect

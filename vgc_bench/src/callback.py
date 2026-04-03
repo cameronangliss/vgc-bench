@@ -63,8 +63,7 @@ class Callback(BaseCallback):
         allow_mirror_match: bool,
         choose_on_teampreview: bool,
         save_interval: int,
-        team1: str | None,
-        team2: str | None,
+        team_paths: list[Path] | None,
         results_suffix: str,
         evaluate: bool = True,
     ):
@@ -83,8 +82,7 @@ class Callback(BaseCallback):
             allow_mirror_match: Whether to allow same-team matchups.
             choose_on_teampreview: Whether policy makes teampreview decisions.
             save_interval: Timesteps between checkpoint saves.
-            team1: Optional team string for matchup solving (requires team2).
-            team2: Optional team string for matchup solving (requires team1).
+            team_paths: Optional list of team file paths for matchup solving.
             results_suffix: Suffix appended to results<run_id> for output paths.
             evaluate: Whether to run evaluations and save checkpoints.
         """
@@ -139,7 +137,7 @@ class Callback(BaseCallback):
                 max_concurrent_battles=num_eval_workers,
                 accept_open_team_sheet=True,
                 open_timeout=None,
-                team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
+                team=RandomTeamBuilder(run_id, num_teams, reg, team_paths, toggle),
             )
             self.eval_agent2 = BatchPolicyPlayer(
                 server_configuration=ServerConfiguration(
@@ -151,7 +149,7 @@ class Callback(BaseCallback):
                 max_concurrent_battles=num_eval_workers,
                 accept_open_team_sheet=True,
                 open_timeout=None,
-                team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
+                team=RandomTeamBuilder(run_id, num_teams, reg, team_paths, toggle),
             )
             self.eval_opponent = SimpleHeuristicsPlayer(
                 server_configuration=ServerConfiguration(
@@ -163,7 +161,7 @@ class Callback(BaseCallback):
                 max_concurrent_battles=num_eval_workers,
                 accept_open_team_sheet=True,
                 open_timeout=None,
-                team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
+                team=RandomTeamBuilder(run_id, num_teams, reg, team_paths, toggle),
             )
             self.eval_opponent2 = BatchPolicyPlayer(
                 server_configuration=ServerConfiguration(
@@ -175,7 +173,7 @@ class Callback(BaseCallback):
                 max_concurrent_battles=num_eval_workers,
                 accept_open_team_sheet=True,
                 open_timeout=None,
-                team=RandomTeamBuilder(run_id, num_teams, reg, team1, team2, toggle),
+                team=RandomTeamBuilder(run_id, num_teams, reg, team_paths, toggle),
             )
 
     def _on_step(self) -> bool:

@@ -49,7 +49,6 @@ Level: 50
 Tera Type: Normal
 EVs: 188 HP / 252 SpA / 68 SpD
 Modest Nature
-IVs: 20 Atk
 - Draco Meteor
 - Thunderbolt
 - Thunderclap
