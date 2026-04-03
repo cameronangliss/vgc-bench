@@ -18,6 +18,7 @@ from huggingface_hub import hf_hub_download
 from nashpy import Game
 from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
+from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import BaseCallback
 
 from vgc_bench.src.policy import MaskedActorCriticPolicy
@@ -66,6 +67,7 @@ class Callback(BaseCallback):
         team1: str | None,
         team2: str | None,
         results_suffix: str,
+        total_steps: int,
         evaluate: bool = True,
     ):
         """
@@ -86,10 +88,12 @@ class Callback(BaseCallback):
             team1: Optional team string for matchup solving (requires team2).
             team2: Optional team string for matchup solving (requires team1).
             results_suffix: Suffix appended to results<run_id> for output paths.
+            total_steps: Total training timesteps for entropy coefficient decay.
             evaluate: Whether to run evaluations and save checkpoints.
         """
         super().__init__()
         self.evaluate = evaluate
+        self.total_steps = total_steps
         self.learning_style = learning_style
         self.behavior_clone = behavior_clone
         self.save_interval = save_interval
@@ -256,7 +260,11 @@ class Callback(BaseCallback):
 
     def _on_rollout_start(self):
         """Sample opponents for self-play and record checkpoints at intervals."""
+        assert isinstance(self.model, PPO)
         assert self.model.env is not None
+        progress = min(self.model.num_timesteps / self.total_steps, 1.0)
+        self.model.ent_coef = 0.1 * 0.1**progress
+        self.model.logger.record("train/ent_coef", self.model.ent_coef)
         if (
             self.evaluate
             and self.model.num_timesteps % self.save_interval == 0
