@@ -2,7 +2,7 @@ Calyrex-Shadow @ Life Orb
 Ability: As One (Spectrier)
 Level: 50
 Tera Type: Normal
-EVs: 108 HP/12 Def/196 SpA/28 SpD/164 Spe
+EVs: 108 HP / 12 Def / 196 SpA / 28 SpD / 164 Spe
 Timid Nature
 IVs: 0 Atk
 - Protect
@@ -14,7 +14,7 @@ Flutter Mane @ Focus Sash
 Ability: Protosynthesis
 Level: 50
 Tera Type: Fairy
-EVs: 4 Def/252 SpA/252 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 IVs: 0 Atk
 - Protect
@@ -26,7 +26,7 @@ Koraidon @ Clear Amulet
 Ability: Orichalcum Pulse
 Level: 50
 Tera Type: Fire
-EVs: 252 HP/108 Atk/12 Def/60 SpD/76 Spe
+EVs: 252 HP / 108 Atk / 12 Def / 60 SpD / 76 Spe
 Adamant Nature
 - Protect
 - Flame Charge
@@ -37,7 +37,7 @@ Clefairy @ Eviolite
 Ability: Friend Guard
 Level: 50
 Tera Type: Grass
-EVs: 244 HP/196 Def/68 SpD
+EVs: 244 HP / 196 Def / 68 SpD
 Bold Nature
 IVs: 0 Atk / 0 Spe
 - Protect
@@ -49,7 +49,7 @@ Incineroar @ Assault Vest
 Ability: Intimidate
 Level: 50
 Tera Type: Water
-EVs: 244 HP/172 Def/92 SpD
+EVs: 244 HP / 172 Def / 92 SpD
 Brave Nature
 IVs: 4 SpA / 14 Spe
 - Flare Blitz
@@ -61,7 +61,7 @@ Ting-Lu @ Leftovers
 Ability: Vessel of Ruin
 Level: 50
 Tera Type: Fairy
-EVs: 204 HP/132 Def/172 SpD
+EVs: 204 HP / 132 Def / 172 SpD
 Impish Nature
 - Protect
 - Throat Chop

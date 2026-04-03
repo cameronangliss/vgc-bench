@@ -156,6 +156,9 @@ def normalize_team_text(text: str) -> str:
                 r"\s*ivs:", line, re.IGNORECASE
             ) and not line.lstrip().startswith("IVs:"):
                 line = re.sub(r"(?i)^(\s*)ivs:", r"\1IVs:", line)
+            # Space out EV/IV slash separators
+            if re.match(r"\s*(EVs|IVs):", line):
+                line = re.sub(r"\s*/\s*", " / ", line)
             # Drop non-header lines that aren't valid fields
             # (e.g. damage calc notes, comments left in pokepaste)
             if i > 0 and not FIELD_PATTERN.match(line):
