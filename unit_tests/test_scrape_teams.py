@@ -1,29 +1,6 @@
 """Unit tests for vgc_bench.scrape_teams string processing (no network calls)."""
 
-from vgc_bench.scrape_teams import (
-    all_pokemon_have_evs,
-    get_regulation_sheets,
-    has_duplicate_items,
-    normalize_team_text,
-)
-
-
-class TestHasDuplicateItems:
-    def test_no_duplicates(self, sample_team_text):
-        assert has_duplicate_items(sample_team_text) is False
-
-    def test_with_duplicates(self):
-        text = "Mon1 @ Focus Sash\n\nMon2 @ Focus Sash\n"
-        assert has_duplicate_items(text) is True
-
-
-class TestAllPokemonHaveEvs:
-    def test_valid_team(self, sample_team_text):
-        assert all_pokemon_have_evs(sample_team_text) is True
-
-    def test_missing_evs(self):
-        text = "Mon1 @ Item\nAbility: Blaze\n\nMon2 @ Item\nAbility: Blaze\n"
-        assert all_pokemon_have_evs(text) is False
+from vgc_bench.scrape_teams import get_regulation_sheets, normalize_team_text
 
 
 class TestNormalizeTeamText:
