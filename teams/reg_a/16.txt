@@ -33,7 +33,7 @@ Garchomp @ Clear Amulet
 Ability: Rough Skin
 Level: 50
 Tera Type: Ground
-EVs: 252 Atk / 4 Sp. Def / 252 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
 Jolly Nature
 - Iron Head
 - Earthquake
@@ -56,7 +56,7 @@ Rotom-Heat @ Occa Berry
 Ability: Levitate
 Level: 50
 Tera Type: Electric
-EVs: 252 HP / 212 Sp. Atk / 44 Spe
+EVs: 252 HP / 212 SpA / 44 Spe
 Modest Nature
 - Thunderbolt
 - Discharge
