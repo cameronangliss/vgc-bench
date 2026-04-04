@@ -1,0 +1,69 @@
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Tailwind
+- Brave Bird
+- Will-O-Wisp
+- Taunt
+
+Great Tusk @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 132 HP / 228 Atk / 12 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Headlong Rush
+- Earthquake
+- Ice Spinner
+- Brick Break
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 196 Def / 76 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Clear Smog
+- Pollen Puff
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 208 HP / 76 Def / 52 SpA / 136 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 164 Atk / 44 Def / 4 SpD / 84 Spe
+Adamant Nature
+- Breaking Swipe
+- Throat Chop
+- Acrobatics
+- Protect

@@ -1,0 +1,70 @@
+Slither Wing @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 212 Atk / 36 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Flame Charge
+- First Impression
+- Close Combat
+- Leech Life
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ice
+EVs: 12 HP / 4 Def / 172 SpA / 68 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Icy Wind
+- Protect
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 196 HP / 44 Def / 108 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Dark Pulse
+- Psychic
+
+Abomasnow @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Aurora Veil
+- Protect
+- Blizzard
+- Giga Drain
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 188 HP / 44 Def / 68 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Power Gem
+
+Corviknight (M) @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 100 Atk / 4 Def / 52 SpD / 132 Spe
+Adamant Nature
+- Tailwind
+- Brave Bird
+- Bulk Up
+- Roost

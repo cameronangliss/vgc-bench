@@ -1,0 +1,68 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 180 Def / 60 SpD / 12 Spe
+Careful Nature
+- Reflect
+- Light Screen
+- Parting Shot
+- Spirit Break
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 252 Def / 68 SpA / 4 SpD / 84 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Landorus-Therian @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 156 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 244 SpD / 12 Spe
+Adamant Nature
+- Thunder Punch
+- Drain Punch
+- Swords Dance
+- Detect
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 44 Def / 196 SpA / 148 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Moonblast
+- Calm Mind
+- Lunar Blessing
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Clear Smog
+- Pollen Puff

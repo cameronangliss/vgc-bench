@@ -46,16 +46,10 @@ async def play(
     """
     assert not (play_on_ladder and reg is None), "ladder mode requires a specific --reg"
     print("Setting up...")
-    suffix = f"_{results_suffix}" if results_suffix else ""
-    results_path = Path(f"results{suffix}")
+    results_path = Path(f"results_{results_suffix}")
+    team_paths = None
     if results_suffix:
-        with (results_path / "team1.txt").open() as f:
-            team1 = f.read()
-        with (results_path / "team2.txt").open() as f:
-            team2 = f.read()
-    else:
-        team1 = None
-        team2 = None
+        team_paths = [results_path / "team1.txt", results_path / "team2.txt"]
     battle_format = format_map[reg if reg is not None else get_available_regs()[0]]
     agent = PolicyPlayer(
         account_configuration=AccountConfiguration(username, password),
@@ -65,7 +59,7 @@ async def play(
         server_configuration=ShowdownServerConfiguration,
         accept_open_team_sheet=True,
         start_timer_on_battle_start=play_on_ladder,
-        team=RandomTeamBuilder(run_id, num_teams, reg, team1=team1, team2=team2),
+        team=RandomTeamBuilder(run_id, num_teams, reg, team_paths),
     )
     if reg is None:
         agent._accepted_formats = {format_map[r] for r in get_available_regs()}

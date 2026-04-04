@@ -1,0 +1,68 @@
+Excadrill (M) @ Clear Amulet
+Ability: Sand Rush
+Level: 50
+Tera Type: Ground
+EVs: 100 HP / 252 Atk / 156 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Iron Head
+- Protect
+
+Tyranitar (M) @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Tera Blast
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 44 HP / 156 Atk / 12 Def / 84 SpD / 212 Spe
+Jolly Nature
+- Tailwind
+- Brave Bird
+- Taunt
+- Will-O-Wisp
+
+Primarina (M) @ Life Orb
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 188 HP / 92 Def / 188 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Hyper Voice
+- Haze
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 188 Def / 108 SpD
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Kommo-o @ Throat Spray
+Ability: Overcoat
+Level: 50
+Tera Type: Ghost
+EVs: 68 HP / 4 Def / 236 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Aura Sphere
+- Clanging Scales
+- Clangorous Soul
+- Protect

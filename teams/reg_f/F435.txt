@@ -1,0 +1,68 @@
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 12 HP / 4 Atk / 28 Def / 236 SpD / 228 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 156 HP / 4 Def / 92 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Rain Dance
+- Taunt
+- Bleakwind Storm
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 148 Def / 28 SpD / 4 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 100 Def / 156 SpD / 12 Spe
+Careful Nature
+- Fake Out
+- Parting Shot
+- Knock Off
+- Flare Blitz
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 132 Def / 36 SpA / 4 SpD / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Misty Terrain
+- Icy Wind
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Sandsear Storm
+- Protect

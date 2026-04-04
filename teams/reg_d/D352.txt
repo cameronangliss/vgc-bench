@@ -1,0 +1,68 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 252 HP / 4 Atk / 124 Def / 116 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Thunder Wave
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 252 Atk / 4 Def / 60 SpD / 60 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- U-turn
+- Stomping Tantrum
+
+Landorus-Therian @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 196 Atk / 36 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Hex
+- Trick
+- Power Gem
+
+Heatran (M) @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 180 HP / 116 Def / 76 SpA / 20 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Earth Power
+- Substitute
+- Protect
+
+Gyarados @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 20 Atk / 84 Def / 132 SpD / 20 Spe
+Impish Nature
+- Waterfall
+- Icy Wind
+- Taunt
+- Helping Hand

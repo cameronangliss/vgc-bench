@@ -1,0 +1,68 @@
+Maushold-Four @ Mental Herb
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 60 Def / 196 SpD
+Calm Nature
+- Follow Me
+- Baby-Doll Eyes
+- Thunder Wave
+- Protect
+
+Muk-Alola @ Aguav Berry
+Ability: Power of Alchemy
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 180 Def / 100 SpD
+Careful Nature
+IVs: 12 SpA
+- Knock Off
+- Pain Split
+- Stockpile
+- Minimize
+
+Comfey @ Wiki Berry
+Ability: Triage
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+- Draining Kiss
+- Floral Healing
+- Calm Mind
+- Psych Up
+
+Flamigo @ Sitrus Berry
+Ability: Costar
+Level: 50
+Tera Type: Fire
+EVs: 116 HP / 156 Atk / 4 Def / 20 SpD / 212 Spe
+Adamant Nature
+IVs: 20 SpA
+- Low Kick
+- Brave Bird
+- Throat Chop
+- Substitute
+
+Weezing-Galar @ Focus Sash
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Dazzling Gleam
+- Sludge Bomb
+- Heat Wave
+- Protect
+
+Slaking @ Life Orb
+Ability: Truant
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 10 SpA
+- Double-Edge
+- Rock Slide
+- Earthquake
+- Protect

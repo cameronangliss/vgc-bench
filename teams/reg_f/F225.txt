@@ -1,0 +1,72 @@
+Farigiraf (F) @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 108 HP / 1 Atk / 45 Def / 156 SpA / 196 SpD / 4 Spe
+Modest Nature
+IVs: 23 Atk
+- Protect
+- Hyper Voice
+- Psychic
+- Trick Room
+
+Tinkaton (F) @ Assault Vest
+Ability: Mold Breaker
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 2 Atk / 172 Def / 84 SpD
+Jolly Nature
+IVs: 25 SpA / 13 Spe
+- Gigaton Hammer
+- Fake Out
+- Knock Off
+- Feint
+
+Urshifu (M) @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 6 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 30 SpA
+- Sucker Punch
+- Wicked Blow
+- Close Combat
+- Protect
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Psychic
+EVs: 252 Atk / 5 Def / 1 SpD / 252 Spe
+Jolly Nature
+IVs: 24 SpA
+- Ice Spinner
+- Sacred Sword
+- Lash Out
+- Psychic Fangs
+
+Ursaluna-Bloodmoon (M) @ Safety Goggles
+Ability: Mind’s Eye
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Blood Moon
+- Hyper Voice
+- Protect
+
+Regieleki @ Choice Band
+Ability: Transistor
+Level: 50
+Tera Type: Electric
+EVs: 252 Atk / 6 Def / 252 Spe
+Adamant Nature
+IVs: 25 Atk
+- Extreme Speed
+- Supercell Slam
+- Volt Switch
+- Electroweb

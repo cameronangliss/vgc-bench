@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Shadow Ball
+- Encore
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 36 Atk / 220 SpD
+Adamant Nature
+- U-turn
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 4 Atk / 44 Def / 156 SpD / 52 Spe
+Careful Nature
+- Parting Shot
+- Flare Blitz
+- Fake Out
+- Taunt
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk / 26 Spe
+- Spore
+- Pollen Puff
+- Protect
+- Rage Powder
+
+Terapagos-Terastal @ Leftovers
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 180 HP / 84 Def / 156 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Substitute
+- Calm Mind
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn

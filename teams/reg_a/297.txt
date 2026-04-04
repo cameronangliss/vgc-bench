@@ -1,0 +1,69 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 204 Def / 52 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Thunder Wave
+
+Annihilape (M) @ Leftovers
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 236 HP / 116 Atk / 12 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Flower Trick
+- Knock Off
+- Protect
+
+Talonflame (M) @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brave Bird
+- Will-O-Wisp
+- Tailwind
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 252 SpA / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Amoonguss (M) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 164 Def / 108 SpD
+Bold Nature
+IVs: 0 Atk
+- Clear Smog
+- Rage Powder
+- Spore
+- Protect

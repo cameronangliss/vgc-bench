@@ -1,0 +1,68 @@
+Tornadus @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 220 HP / 36 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Sunny Day
+- Bleakwind Storm
+- Icy Wind
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 220 Atk / 28 Def / 44 SpD / 212 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Poison Jab
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 12 HP / 4 Def / 252 SpA / 4 SpD / 236 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Snarl
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Psychic
+- Helping Hand
+- Follow Me
+
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 252 SpD
+Adamant Nature
+- Wave Crash
+- Heavy Slam
+- Yawn
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 60 Atk / 172 Def / 28 SpD / 4 Spe
+Impish Nature
+- Wood Hammer
+- Knock Off
+- U-turn
+- Fake Out

@@ -1,0 +1,69 @@
+Magnezone @ Choice Specs
+Ability: Analytic
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Thunder
+- Tera Blast
+- Volt Switch
+- Flash Cannon
+
+Iron Jugulis @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Dark Pulse
+- Earth Power
+- Protect
+
+Pelipper (M) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Wide Guard
+- Hydro Pump
+- Hurricane
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Pollen Puff
+
+Mimikyu @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Shadow Sneak
+- Play Rough
+- Taunt
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Jet Punch
+- Protect
+- Close Combat
+- Wave Crash

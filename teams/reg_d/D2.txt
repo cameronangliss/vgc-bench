@@ -1,0 +1,67 @@
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 128 Def / 128 SpD
+Sassy Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Psychic
+- Trick
+
+Iron Hands @ Lum Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 SpD
+Adamant Nature
+- Fake Out
+- Volt Switch
+- Wild Charge
+- Drain Punch
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ground
+EVs: 200 HP / 252 Atk / 56 SpD
+Brave Nature
+- Protect
+- Earthquake
+- Facade
+- Play Rough
+
+Moltres-Galar @ Assault Vest
+Ability: Berserk
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+- Hurricane
+- Air Slash
+- Sucker Punch
+- Fiery Wrath
+
+Basculegion (M) @ Mystic Water
+Ability: Adaptability
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+- Protect
+- Aqua Jet
+- Wave Crash
+- Last Respects
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk
+- Eruption
+- Protect
+- Flamethrower
+- Solar Beam

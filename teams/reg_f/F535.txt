@@ -1,0 +1,67 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 220 Def / 36 SpD
+Careful Nature
+- Thunder Wave
+- Light Screen
+- Reflect
+- Spirit Break
+
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 76 Atk / 4 Def / 116 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 196 Atk / 44 Def / 76 SpD / 60 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- High Horsepower
+- Wood Hammer
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 116 Atk / 36 Def / 108 SpD / 12 Spe
+Adamant Nature
+- Flare Blitz
+- Fake Out
+- Knock Off
+- Parting Shot
+
+Raging Bolt @ Leftovers
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 188 HP / 76 Def / 180 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Dragon Pulse
+- Protect
+- Calm Mind
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 156 Def / 36 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Mystical Fire

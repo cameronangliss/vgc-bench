@@ -1,0 +1,68 @@
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 68 Def / 4 SpA / 12 SpD / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Overheat
+- Struggle Bug
+- Tailwind
+- Rage Powder
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Gholdengo @ Grassy Seed
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Def / 52 SpA / 156 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 116 HP / 124 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Knock Off
+- Rock Slide
+- Low Kick
+- Tera Blast
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 236 Atk / 4 Def / 92 SpD / 36 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fairy
+EVs: 188 HP / 68 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Rage Fist
+- Final Gambit
+- Taunt

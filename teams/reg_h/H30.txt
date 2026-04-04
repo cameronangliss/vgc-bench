@@ -1,0 +1,69 @@
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Water
+EVs: 140 HP / 196 Atk / 12 Def / 60 SpD / 100 Spe
+Adamant Nature
+IVs: 16 SpA
+- Icicle Crash
+- Glaive Rush
+- Ice Shard
+- Protect
+
+Ninetales-Alola @ Covert Cloak
+Ability: Snow Warning
+Level: 50
+Tera Type: Dark
+EVs: 220 HP / 20 Def / 4 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 2 Atk
+- Blizzard
+- Icy Wind
+- Aurora Veil
+- Moonblast
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 4 Def / 52 SpA / 12 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 196 Atk / 28 Def / 76 SpD / 76 Spe
+Adamant Nature
+IVs: 20 SpA
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 60 Def / 36 SpA / 4 SpD / 156 Spe
+Modest Nature
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Tauros-Paldea-Aqua @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Raging Bull
+- Close Combat
+- Aqua Jet
+- Protect

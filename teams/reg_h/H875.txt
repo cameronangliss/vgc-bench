@@ -1,0 +1,68 @@
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 24 SpA
+- Dire Claw
+- Close Combat
+- Feint
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Dazzling Gleam
+- Shadow Ball
+- Trick
+
+Pelipper @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 4 Def / 60 SpA / 60 SpD / 140 Spe
+Modest Nature
+IVs: 6 Atk
+- Hurricane
+- Weather Ball
+- Tailwind
+- Wide Guard
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fighting
+EVs: 244 HP / 76 Def / 4 SpA / 172 SpD / 12 Spe
+Bold Nature
+- Flash Cannon
+- Body Press
+- Electro Shot
+- Snarl
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 212 Atk / 28 Def / 252 Spe
+Jolly Nature
+- Flip Turn
+- Wave Crash
+- Aqua Jet
+- Last Respects
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Atk / 148 Def / 92 SpD
+Calm Nature
+- Spore
+- Pollen Puff
+- Rage Powder
+- Clear Smog

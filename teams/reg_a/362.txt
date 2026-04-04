@@ -1,0 +1,68 @@
+Pelipper (M) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Hydro Pump
+- Tailwind
+- Protect
+
+Garchomp (M) @ Choice Band
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Claw
+- Stone Edge
+- Poison Jab
+- Earthquake
+
+Magnezone @ Air Balloon
+Ability: Magnet Pull
+Level: 50
+Tera Type: Fire
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Flash Cannon
+- Thunder
+- Tera Blast
+
+Klefki (F) @ Leftovers
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+IVs: 0 Atk
+- Thunder Wave
+- Foul Play
+- Protect
+- Trick Room
+
+Floatzel (F) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Aqua Jet
+- Liquidation
+- Wave Crash
+- Ice Fang
+
+Arcanine (M) @ Aguav Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Atk / 92 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Protect
+- Snarl

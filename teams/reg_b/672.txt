@@ -1,0 +1,67 @@
+Iron Valiant @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Fairy
+EVs: 60 Atk / 196 SpA / 252 Spe
+Naive Nature
+- Moonblast
+- Close Combat
+- Icy Wind
+- Protect
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 204 HP / 156 Atk / 4 Def / 140 SpD / 4 Spe
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Brick Break
+
+Ceruledge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Ghost
+EVs: 148 HP / 196 Atk / 20 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Swords Dance
+- Protect
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 100 Def / 60 SpA / 100 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 180 Def / 116 SpD
+Impish Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Pollen Puff
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Dragon Claw
+- Iron Head

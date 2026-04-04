@@ -1,0 +1,69 @@
+Chi-Yu @ Safety Goggles
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 108 Def / 76 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Nasty Plot
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog
+
+Gyarados @ Figy Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 36 Atk / 4 Def / 148 SpD / 84 Spe
+Careful Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 220 Atk / 4 Def / 124 SpD / 20 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Volt Switch
+
+Ting-Lu @ Leftovers
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 76 Atk / 60 Def / 140 SpD / 68 Spe
+Careful Nature
+- Stomping Tantrum
+- Heavy Slam
+- Ruination
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 12 Def / 116 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Substitute
+- Protect

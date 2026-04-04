@@ -1,0 +1,69 @@
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Draco Meteor
+- Electro Drift
+- Volt Switch
+- Dazzling Gleam
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Aqua Jet
+- U-turn
+- Surging Strikes
+
+Vikavolt @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Bug Buzz
+- Thunderbolt
+- Flash Cannon
+- Energy Ball
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 108 HP / 44 Def / 100 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Astral Barrage
+- Psychic
+- Nasty Plot
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+IVs: 28 SpD
+- Follow Me
+- Decorate
+- Fake Out
+- Spore
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 84 Def / 84 SpA / 36 SpD / 52 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Rain Dance
+- Sunny Day

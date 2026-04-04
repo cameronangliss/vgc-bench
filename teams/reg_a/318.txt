@@ -1,0 +1,68 @@
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 140 Def / 116 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot
+
+Sylveon (M) @ Choice Specs
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 12 Def / 164 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Hyper Beam
+- Shadow Ball
+- Tera Blast
+
+Garchomp (F) @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Dragonite (F) @ Assault Vest
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 148 HP / 252 Atk / 4 Def / 12 SpD / 92 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Wing Attack
+- Stomping Tantrum
+
+Volcarona (F) @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 140 Def / 36 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Amoonguss (F) @ Coba Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 76 SpD
+Bold Nature
+IVs: 0 Atk
+- Clear Smog
+- Pollen Puff
+- Spore
+- Rage Powder

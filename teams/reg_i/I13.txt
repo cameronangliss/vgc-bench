@@ -1,0 +1,65 @@
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 84 Atk / 28 Def / 44 SpD / 100 Spe
+Jolly Nature
+- Collision Course
+- Flare Blitz
+- Flame Charge
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Normal
+EVs: 28 HP / 252 Atk / 4 Def / 52 SpD / 172 Spe
+Jolly Nature
+- Behemoth Blade
+- Sacred Sword
+- Play Rough
+- Protect
+
+Walking Wake @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Steam
+- Flamethrower
+- Draco Meteor
+- Protect
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 20 Atk
+- Thunderclap
+- Thunderbolt
+- Draco Meteor
+- Protect
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 116 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Light Screen
+- Encore
+
+Ditto @ Focus Sash
+Ability: Imposter
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 124 Def / 4 SpA / 100 SpD / 28 Spe
+Bold Nature
+- Transform

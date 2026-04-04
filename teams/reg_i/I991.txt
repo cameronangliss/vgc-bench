@@ -1,0 +1,66 @@
+Miraidon @ Covert Cloak
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 236 HP / 4 Def / 252 SpA / 4 SpD / 12 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Protect
+
+Rayquaza @ Focus Sash
+Ability: Air Lock
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 12 SpA / 244 Spe
+Lonely Nature
+- Extreme Speed
+- Dragon Ascent
+- Draco Meteor
+- Protect
+
+Ting-Lu @ Choice Band
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 76 HP / 236 Atk / 196 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Lash Out
+- Tera Blast
+
+Volcarona @ Electric Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 204 Def / 52 SpD
+Bold Nature
+IVs: 0 Atk
+- Fiery Dance
+- Rage Powder
+- Tailwind
+- Protect
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 220 Def / 28 SpD / 4 Spe
+Impish Nature
+- Brave Bird
+- Tailwind
+- Haze
+- Quash
+
+Urshifu-Rapid-Strike @ Life Orb
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 236 Atk / 4 Def / 28 SpD / 164 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Detect

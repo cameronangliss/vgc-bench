@@ -9,6 +9,7 @@ and provides training configuration utilities.
 import json
 import os
 import random
+import re
 from enum import Enum, auto, unique
 
 import numpy as np
@@ -101,14 +102,25 @@ chunk_obs_len = glob_obs_len + side_obs_len + pokemon_obs_len
 
 # pokemon data
 format_map = {
+    "a": "gen9vgc2022rega",
+    "b": "gen9vgc2023regb",
     "c": "gen9vgc2023regc",
     "d": "gen9vgc2023regd",
-    "f": "gen9vgc2026regf",
+    "e": "gen9vgc2024rege",
+    "f": "gen9vgc2024regf",
     "g": "gen9vgc2024regg",
-    "h": "gen9vgc2025regh",
-    "i": "gen9vgc2026regi",
+    "h": "gen9vgc2024regh",
+    "i": "gen9vgc2025regi",
     "j": "gen9vgc2025regj",
 }
+
+
+def normalize_format(fmt: str) -> str | None:
+    """Map any gen9vgcXXXXregY format string to our canonical version."""
+    m = re.match(r"gen9vgc\d{4}reg([a-j])", fmt)
+    return format_map.get(m.group(1)) if m else None
+
+
 with open("data/abilities.json") as f:
     abilities: list[str] = json.load(f)
 with open("data/items.json") as f:

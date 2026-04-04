@@ -1,0 +1,69 @@
+Annihilape (M) @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 180 HP / 116 Atk / 212 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Encore
+- Protect
+
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 164 Def / 100 SpD
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Haze
+- Tailwind
+- Quash
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Power Gem
+
+Tyranitar (M) @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Rock Slide
+- Assurance
+- Ice Punch
+- Tera Blast
+
+Lycanroc (M) @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Close Combat
+- Endeavor
+- Bulldoze

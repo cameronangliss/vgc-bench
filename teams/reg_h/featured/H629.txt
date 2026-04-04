@@ -1,0 +1,66 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 156 Atk / 4 Def / 100 SpD / 4 Spe
+Adamant Nature
+- Liquidation
+- Yawn
+- Fissure
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Coaching
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 196 Atk / 4 Def / 76 SpD / 100 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+
+Baxcalibur @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Icicle Spear
+- Scale Shot
+- Ice Shard
+- Protect
+
+Clefable @ Safety Goggles
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 212 Def / 4 SpA / 36 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Moonblast
+- Life Dew
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 252 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Swords Dance
+- Protect

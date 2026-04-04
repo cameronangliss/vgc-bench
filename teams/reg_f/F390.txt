@@ -1,0 +1,69 @@
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 116 Def / 76 SpA / 4 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Leer
+- Icy Wind
+- Tailwind
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 4 Atk / 188 Def / 76 SpD / 4 Spe
+Careful Nature
+- Fake Out
+- Parting Shot
+- Knock Off
+- Flare Blitz
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+
+Furret (M) @ Aguav Berry
+Ability: Frisk
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 204 Def / 52 SpD
+Impish Nature
+- Super Fang
+- Sucker Punch
+- Helping Hand
+- Follow Me
+
+Baxcalibur (M) @ Choice Band
+Ability: Thermal Exchange
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 84 HP / 252 Atk / 4 Def / 20 SpD / 148 Spe
+Adamant Nature
+- Icicle Crash
+- Ice Shard
+- Glaive Rush
+- Earthquake
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 84 HP / 252 SpA / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect

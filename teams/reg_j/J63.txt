@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Pollen Puff
+- Protect
+
+Arceus-Fairy @ Pixie Plate
+Ability: Multitype
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 28 Def / 108 SpA / 132 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Judgment
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 188 Def / 68 SpD
+Impish Nature
+- Knock Off
+- Taunt
+- Parting Shot
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 52 Atk / 4 Def / 196 SpD / 52 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- U-turn
+- Fake Out
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- Life Dew
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Low Kick
+- Rock Slide

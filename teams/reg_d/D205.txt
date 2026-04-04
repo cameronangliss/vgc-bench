@@ -1,0 +1,71 @@
+Gyarados (F) @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 220 HP / 236 SpD / 52 Spe
+Careful Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Iron Hands @ Safety Goggles
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 76 HP / 116 Atk / 28 Def / 204 SpD / 84 Spe
+Adamant Nature
+- Drain Punch
+- Thunder Punch
+- Swords Dance
+- Detect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 244 HP / 188 Def / 4 SpA / 60 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Clear Smog
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 68 Def / 20 SpA / 180 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Trick Room
+- Lunar Blessing
+- Ally Switch
+- Moonblast
+
+Moltres-Galar @ Assault Vest
+Ability: Berserk
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 252 HP / 68 Def / 76 SpA / 28 SpD / 84 Spe
+Modest Nature
+- Fiery Wrath
+- Snarl
+- Air Slash
+- Sucker Punch
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 20 HP / 108 Def / 164 SpA / 4 SpD / 212 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Protect
+- Shadow Ball
+- Moonblast

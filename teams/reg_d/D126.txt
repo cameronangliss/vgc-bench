@@ -1,0 +1,67 @@
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 180 HP / 4 Def / 252 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Armor Cannon
+- Expanding Force
+- Energy Ball
+- Trick Room
+
+Indeedee-F @ Eject Button
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 252 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Helping Hand
+- Follow Me
+- Protect
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 20 HP / 220 Atk / 12 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Acrobatics
+- Breaking Swipe
+- Tailwind
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Bug
+EVs: 188 HP / 252 Atk / 28 Def / 4 SpD / 36 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Rock Slide
+- Protect
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 252 Atk / 36 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Cinderace @ Choice Scarf
+Ability: Libero
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Double Kick
+- Pyro Ball
+- Trailblaze
+- U-turn

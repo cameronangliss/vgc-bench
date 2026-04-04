@@ -1,0 +1,69 @@
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Clear Smog
+- Spore
+- Rage Powder
+
+Glastrier @ Assault Vest
+Ability: Chilling Neigh
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 196 Atk / 60 SpD
+Brave Nature
+IVs: 2 Spe
+- Icicle Crash
+- Stomping Tantrum
+- Heavy Slam
+- Close Combat
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 116 Atk / 4 Def / 220 SpD / 4 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Volt Switch
+- Fake Out
+
+Slowking @ Safety Goggles
+Ability: Oblivious
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 212 Def / 44 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Heal Pulse
+- Chilly Reception
+- Trick Room
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 196 Atk / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- Tera Blast
+- U-turn
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 108 Def / 252 SpA / 4 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Protect

@@ -1,0 +1,68 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 18 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Def / 4 SpA / 244 SpD / 12 Spe
+Modest Nature
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Body Press
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 188 Def / 68 SpD
+Impish Nature
+- Knock Off
+- Will-O-Wisp
+- Fake Out
+- Parting Shot
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 SpD / 4 Spe
+Bold Nature
+IVs: 18 Atk
+- Matcha Gotcha
+- Strength Sap
+- Rage Powder
+- Trick Room
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 164 HP / 252 SpA / 92 SpD
+Quiet Nature
+IVs: 0 Spe
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect

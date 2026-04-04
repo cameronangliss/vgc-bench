@@ -1,0 +1,67 @@
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Atk / 4 Def / 68 SpD / 28 Spe
+Adamant Nature
+- Protect
+- Precipice Blades
+- High Horsepower
+- Heat Crash
+
+Lunala @ Twisted Spoon
+Ability: Shadow Shield
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 44 Def / 196 SpA / 84 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Moongeist Beam
+- Wide Guard
+- Trick Room
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- Shadow Ball
+- Trick Room
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 20 HP / 132 Atk / 100 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Acrobatics
+- Knock Off
+- Tailwind
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Detect
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 76 Atk / 4 Def / 12 SpD / 212 Spe
+Adamant Nature
+- Spiky Shield
+- Ivy Cudgel
+- Follow Me
+- Wood Hammer

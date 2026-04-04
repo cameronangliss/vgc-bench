@@ -1,0 +1,68 @@
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 172 Def / 84 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Encore
+- Life Dew
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Atk / 84 Def / 132 SpD / 52 Spe
+Careful Nature
+- Knock Off
+- Parting Shot
+- Fake Out
+- Roar
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 44 Atk / 4 Def / 92 SpD / 116 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn
+
+Calyrex-Shadow @ Spell Tag
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 188 HP / 132 Def / 36 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Astral Barrage
+- Draining Kiss
+- Nasty Plot
+- Protect
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 44 HP / 4 Def / 252 SpA / 12 SpD / 196 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Volcarona @ Electric Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 100 Def / 20 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Flamethrower
+- Quiver Dance
+- Struggle Bug
+- Protect

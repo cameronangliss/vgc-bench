@@ -1,0 +1,69 @@
+Latios @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 28 HP / 252 SpA / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Luster Purge
+- Draco Meteor
+- Tera Blast
+- Tailwind
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Entei @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Snarl
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 76 HP / 100 Def / 164 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 108 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Primarina @ Leftovers
+Ability: Liquid Voice
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 12 Def / 188 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Calm Mind
+- Protect

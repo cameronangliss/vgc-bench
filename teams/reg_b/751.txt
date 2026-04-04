@@ -1,0 +1,68 @@
+Floatzel @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Wave Crash
+- Ice Spinner
+- Aqua Jet
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 4 Def / 4 SpA / 76 SpD / 172 Spe
+Calm Nature
+IVs: 2 Atk
+- Hurricane
+- Hydro Pump
+- Protect
+- Tailwind
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Sucker Punch
+- Iron Head
+- Tera Blast
+- Protect
+
+Great Tusk @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 220 HP / 84 Atk / 4 Def / 196 SpD / 4 Spe
+Adamant Nature
+- Headlong Rush
+- Close Combat
+- Iron Head
+- Ice Spinner
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 60 Atk / 252 Spe
+Jolly Nature
+- Will-O-Wisp
+- Flare Blitz
+- Extreme Speed
+- Snarl
+
+Rotom-Mow @ Choice Scarf
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 60 HP / 196 SpA / 252 Spe
+Timid Nature
+IVs: 9 Atk
+- Trick
+- Volt Switch
+- Thunder
+- Leaf Storm

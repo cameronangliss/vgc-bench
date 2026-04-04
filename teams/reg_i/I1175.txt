@@ -1,0 +1,66 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 52 HP / 84 Def / 204 SpA / 12 SpD / 156 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Snarl
+- Volt Switch
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 76 Atk / 140 SpD / 52 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 4 Atk / 156 Def / 68 SpD / 52 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Volcarona @ Electric Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 156 Def / 4 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Ogerpon @ Covert Cloak
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 76 Atk / 36 Def / 44 SpD / 188 Spe
+Adamant Nature
+- Ivy Cudgel
+- Knock Off
+- Taunt
+- Spiky Shield
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Crunch
+- Sucker Punch
+- Protect

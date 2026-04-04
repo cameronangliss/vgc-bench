@@ -1,0 +1,67 @@
+Pelipper @ Rocky Helmet
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 36 Def / 204 SpA / 12 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Hurricane
+- Hydro Pump
+- Helping Hand
+- Wide Guard
+
+Basculegion (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 244 Atk / 252 Spe
+Adamant Nature
+- Wave Crash
+- Protect
+- Aqua Jet
+- Last Respects
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 196 Atk / 252 SpD
+Adamant Nature
+- Knock Off
+- U-turn
+- Wood Hammer
+- Fake Out
+
+Thundurus @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 68 Def / 20 SpA / 156 SpD / 28 Spe
+Calm Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Eerie Impulse
+- Leer
+- Thunder Wave
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Protect
+- Sacred Sword
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 100 Atk / 140 Def / 252 SpD
+Adamant Nature
+- Facade
+- Headlong Rush
+- Protect
+- Earthquake

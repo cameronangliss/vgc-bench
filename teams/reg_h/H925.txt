@@ -1,0 +1,70 @@
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 140 Def / 68 SpA / 4 SpD / 44 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Blizzard
+- Encore
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+IVs: 28 SpA
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 132 Def / 4 SpA / 4 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Electroweb
+- Taunt
+- Follow Me
+- Protect
+
+Sneasler @ Grassy Seed
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 44 HP / 172 Atk / 52 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Acrobatics
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 124 Atk / 132 SpD
+Adamant Nature
+IVs: 14 SpA
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out

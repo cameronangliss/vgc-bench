@@ -1,0 +1,67 @@
+Dudunsparce (M) @ Covert Cloak
+Ability: Rattled
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 20 Atk / 84 Def / 148 SpD / 4 Spe
+Careful Nature
+- Tailwind
+- Helping Hand
+- Tera Blast
+- Roost
+
+Weavile (M) @ Focus Sash
+Ability: Pressure
+Level: 50
+Tera Type: Ice
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Ice Spinner
+- Protect
+- Foul Play
+
+Skeledirge (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 116 Def / 36 SpA / 116 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Torch Song
+- Protect
+- Will-O-Wisp
+- Tera Blast
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Flash Cannon
+- Shadow Ball
+- Power Gem
+
+Maushold-Four @ Sitrus Berry
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 76 Atk / 180 Spe
+Jolly Nature
+- Follow Me
+- Protect
+- Population Bomb
+- Helping Hand
+
+Salamence (M) @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 180 HP / 124 Atk / 84 Def / 52 SpD / 68 Spe
+Jolly Nature
+- Dragon Dance
+- Protect
+- Dragon Claw
+- Dual Wingbeat

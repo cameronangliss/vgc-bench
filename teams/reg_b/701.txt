@@ -1,0 +1,69 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 132 Def / 116 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Misty Terrain
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 76 Atk / 12 Def / 28 SpD / 172 Spe
+Adamant Nature
+- Flare Blitz
+- Snarl
+- Extreme Speed
+- Psychic Fangs
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 76 Atk / 52 Def / 252 SpD / 44 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Swords Dance
+- Protect
+
+Gastrodon-East @ Covert Cloak
+Ability: Storm Drain
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 116 Def / 140 SpA / 68 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Muddy Water
+- Recover
+- Protect
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 108 HP / 140 Def / 156 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Yawn
+- Protect
+
+Corviknight @ Safety Goggles
+Ability: Mirror Armor
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 252 HP / 100 Atk / 12 Def / 108 SpD / 36 Spe
+Adamant Nature
+- Iron Head
+- Brave Bird
+- Bulk Up
+- Roost

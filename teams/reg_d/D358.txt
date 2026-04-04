@@ -1,0 +1,67 @@
+Zapdos @ Rocky Helmet
+Ability: Static
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 156 Def / 4 SpA / 52 SpD / 100 Spe
+Bold Nature
+IVs: 27 Atk
+- Tailwind
+- Thunderbolt
+- Hurricane
+- Roost
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 124 Atk / 4 Def / 116 SpD / 132 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Landorus-Therian @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 124 HP / 36 Atk / 36 Def / 108 SpD / 204 Spe
+Adamant Nature
+- Tera Blast
+- Rock Slide
+- U-turn
+- Stomping Tantrum
+
+Rillaboom (M) @ Meadow Plate
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 76 Atk / 36 Def / 188 SpD / 76 Spe
+Adamant Nature
+- Drum Beating
+- Fake Out
+- Knock Off
+- U-turn
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 68 Def / 76 SpA / 4 SpD / 228 Spe
+Modest Nature
+- Earth Power
+- Heat Wave
+- Flash Cannon
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 156 HP / 116 Def / 36 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Icy Wind

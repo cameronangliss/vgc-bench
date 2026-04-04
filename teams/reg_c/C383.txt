@@ -1,0 +1,68 @@
+Dondozo @ Figy Berry
+Ability: Oblivious
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 20 SpD / 236 Spe
+Adamant Nature
+- Wave Crash
+- Tera Blast
+- Rock Slide
+- Earthquake
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Wing Attack
+- Aqua Jet
+
+Tatsugiri-Stretchy @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 20 Def / 236 SpA / 4 SpD / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Hydro Pump
+- Icy Wind
+- Sleep Talk
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 76 HP / 180 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind
+- Protect
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Protect

@@ -1,0 +1,67 @@
+Arceus @ Choice Band
+Ability: Multitype
+Level: 50
+Tera Type: Normal
+EVs: 28 HP / 252 Atk / 228 Spe
+Adamant Nature
+- Extreme Speed
+- Flare Blitz
+- Earthquake
+- Trick
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 92 HP / 12 Def / 196 SpA / 4 SpD / 204 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Dragon Pulse
+- Snarl
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 164 Def / 4 SpA / 108 SpD / 28 Spe
+Bold Nature
+IVs: 0 Atk
+- Psychic Noise
+- Foul Play
+- Helping Hand
+- Trick Room
+
+Volcarona @ Electric Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 196 Def / 4 SpA / 4 SpD / 108 Spe
+Bold Nature
+IVs: 0 Atk
+- Fiery Dance
+- Rage Powder
+- Tailwind
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 236 Atk / 20 SpD / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect

@@ -1,0 +1,71 @@
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+IVs: 0 SpA
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Low Kick
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+IVs: 8 SpA
+- Iron Head
+- High Horsepower
+- Rock Slide
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def
+Relaxed Nature
+IVs: 6 Atk / 0 Spe
+- Psychic
+- Follow Me
+- Trick Room
+- Helping Hand
+
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 116 HP / 252 SpA / 12 SpD / 124 Spe
+Modest Nature
+IVs: 10 Atk
+- Armor Cannon
+- Expanding Force
+- Wide Guard
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 12 Atk / 244 SpD / 252 Spe
+Adamant Nature
+IVs: 12 SpA
+- Wave Crash
+- Earthquake
+- Order Up
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Memento

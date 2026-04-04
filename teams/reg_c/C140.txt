@@ -1,0 +1,68 @@
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 188 Def / 68 SpD
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Leech Seed
+- Pollen Puff
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Flying
+EVs: 132 HP / 164 Def / 4 SpA / 116 SpD / 92 Spe
+Timid Nature
+- Power Gem
+- Earth Power
+- Spiky Shield
+- Mortal Spin
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 84 HP / 28 Def / 252 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Snarl
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 132 Def / 212 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Dazzling Gleam
+- Moonblast
+- Thunderbolt
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 236 Atk / 252 Def / 12 SpD / 4 Spe
+Adamant Nature
+- Ruination
+- Fissure
+- Heavy Slam
+- Stomping Tantrum
+
+Gyarados (M) @ Lum Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 244 Atk / 4 Def / 4 SpD / 108 Spe
+Jolly Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect

@@ -1,0 +1,65 @@
+Annihilape (M) @ Punching Glove
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Bulk Up
+- Rage Fist
+- Rock Slide
+- Drain Punch
+
+Arcanine (F) @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Careful Nature
+- Extreme Speed
+- Flare Blitz
+- Snarl
+- Protect
+
+Farigiraf (F) @ Focus Sash
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Psychic
+- Dazzling Gleam
+- Tera Blast
+- Ally Switch
+
+Meowscarada (F) @ Choice Scarf
+Ability: Protean
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- U-turn
+- Knock Off
+- Flower Trick
+- Play Rough
+
+Glimmora (M) @ Shuca Berry
+Ability: Toxic Debris
+Level: 50
+Tera Type: Flying
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Sludge Bomb
+- Mortal Spin
+- Power Gem
+- Spikes
+
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Quash
+- Feather Dance
+- Thunder Wave
+- Taunt

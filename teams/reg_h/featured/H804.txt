@@ -1,0 +1,74 @@
+Kilowattrel (F) @ Focus Sash
+Ability: Competitive
+Level: 50
+Shiny: Yes
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Discharge
+- Air Slash
+- Tailwind
+- Protect
+
+Tauros-Paldea-Blaze @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Raging Bull
+- Close Combat
+- Tera Blast
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Focus Blast
+- Power Gem
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Follow Me
+- Skill Swap
+- Trick Room
+
+Gardevoir (F) @ Choice Scarf
+Ability: Telepathy
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Psychic
+- Expanding Force

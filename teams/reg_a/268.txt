@@ -1,0 +1,69 @@
+Salamence (M) @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 196 Atk / 4 Def / 4 SpD / 244 Spe
+Jolly Nature
+- Dragon Claw
+- Tera Blast
+- Dragon Dance
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 4 Def / 252 SpA / 4 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Make It Rain
+- Thunderbolt
+- Tera Blast
+
+Meowscarada (F) @ Choice Band
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Flower Trick
+- U-turn
+- Brick Break
+
+Hydreigon (M) @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 60 HP / 4 Def / 188 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Snarl
+- Draco Meteor
+- Heat Wave
+- Earth Power
+
+Murkrow (M) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Quash
+- Haze
+
+Amoonguss (M) @ Iron Ball
+Ability: Regenerator
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 76 Def / 188 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Clear Smog
+- Spore
+- Rage Powder
+- Protect

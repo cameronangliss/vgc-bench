@@ -1,0 +1,70 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 84 Def / 172 SpD
+Careful Nature
+IVs: 12 SpA
+- Reflect
+- Light Screen
+- Parting Shot
+- Spirit Break
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 12 Def / 172 SpD / 36 Spe
+Adamant Nature
+IVs: 24 SpA
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 68 HP / 4 Def / 252 SpA / 4 SpD / 180 Spe
+Timid Nature
+IVs: 10 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 36 Def / 4 SpA / 4 SpD / 220 Spe
+Timid Nature
+IVs: 14 Atk
+- Electroweb
+- Taunt
+- Follow Me
+- Protect
+
+Sinistcha @ Eject Button
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 4 SpA / 244 SpD / 4 Spe
+Calm Nature
+IVs: 6 Atk
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 108 Def / 148 SpD
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot

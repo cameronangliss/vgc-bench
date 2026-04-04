@@ -1,0 +1,69 @@
+Poliwhirl @ Focus Sash
+Ability: Swift Swim
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 HP / 0 Atk
+- Encore
+- Endeavor
+- Protect
+- Icy Wind
+
+Kyogre @ Life Orb
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 4 Def / 252 SpA / 4 SpD / 244 Spe
+Timid Nature
+IVs: 0 Atk
+- Water Spout
+- Protect
+- Ice Beam
+- Origin Pulse
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Helping Hand
+- Trick Room
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Ground
+EVs: 84 HP / 252 Atk / 4 Def / 4 SpD / 164 Spe
+Jolly Nature
+- Tera Blast
+- Play Rough
+- Behemoth Blade
+- Protect
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 20 Def / 236 SpD
+Careful Nature
+- Taunt
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Tornadus @ Sharp Beak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 4 Def / 252 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Protect
+- Rain Dance
+- Tailwind

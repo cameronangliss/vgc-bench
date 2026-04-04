@@ -1,0 +1,66 @@
+Iron Crown @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 158 HP / 40 Def / 108 SpA / 11 SpD / 193 Spe
+Timid Nature
+- Tachyon Cutter
+- Expanding Force
+- Protect
+- Tera Blast
+
+Indeedee-F (F) @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 3 Atk / 252 Def / 3 SpD
+Bold Nature
+IVs: 16 Atk / 1 Spe
+- Dazzling Gleam
+- Follow Me
+- Helping Hand
+- Trick Room
+
+Tornadus (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 180 HP / 44 Def / 76 SpA / 4 SpD / 206 Spe
+Timid Nature
+- Bleakwind Storm
+- Taunt
+- Rain Dance
+- Tailwind
+
+Urshifu-Rapid-Strike (M) @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 6 Def / 252 Spe
+Jolly Nature
+- Surging Strikes
+- U-turn
+- Close Combat
+- Aqua Jet
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 122 HP / 2 Atk / 60 Def / 132 SpA / 7 SpD / 187 Spe
+Timid Nature
+- Heat Wave
+- Dark Pulse
+- Snarl
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 192 HP / 79 Def / 84 SpA / 4 SpD / 151 Spe
+Modest Nature
+- Dazzling Gleam
+- Shadow Ball
+- Mystical Fire
+- Moonblast

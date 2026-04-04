@@ -1,0 +1,72 @@
+Garganacl (F) @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 12 Def / 236 SpD / 4 Spe
+Careful Nature
+- Salt Cure
+- Body Press
+- Recover
+- Iron Defense
+
+Vaporeon (F) @ Sitrus Berry
+Ability: Water Absorb
+Level: 50
+Tera Type: Fire
+EVs: 116 HP / 244 Def / 108 SpA / 36 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Muddy Water
+- Ice Beam
+- Haze
+
+Grimmsnarl @ Roseli Berry
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 4 Atk / 172 Def / 84 SpD / 20 Spe
+Careful Nature
+- Parting Shot
+- Spirit Break
+- Taunt
+- Fake Out
+
+Sylveon (F) @ Babiri Berry
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 228 HP / 236 Def / 12 SpA / 4 SpD / 28 Spe
+Bold Nature
+IVs: 0 Atk
+- Detect
+- Hyper Voice
+- Yawn
+- Tera Blast
+
+Amoonguss (M) @ Focus Sash
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 20 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Spore
+- Sludge Bomb
+- Rage Powder
+
+Hydreigon (F) @ Safety Goggles
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 188 HP / 4 Def / 36 SpA / 28 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Dark Pulse
+- Dragon Pulse
+- Nasty Plot

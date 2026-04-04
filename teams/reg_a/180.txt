@@ -1,0 +1,70 @@
+Ceruledge (F) @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Protect
+- Tera Blast
+- Bitter Blade
+- Shadow Sneak
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 4 Def / 252 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Yawn
+- Protect
+
+Quaquaval (M) @ Life Orb
+Ability: Moxie
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 252 Atk / 4 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Detect
+- Aqua Step
+- Close Combat
+- Brave Bird
+
+Garchomp (F) @ Choice Band
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Stomping Tantrum
+
+Orthworm (F) @ Leftovers
+Ability: Earth Eater
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 252 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Shed Tail
+- Iron Defense
+- Body Press
+
+Kilowattrel (F) @ Focus Sash
+Ability: Competitive
+Level: 50
+Shiny: Yes
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Tailwind
+- Thunderbolt
+- Air Slash

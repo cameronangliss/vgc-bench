@@ -1,0 +1,65 @@
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 244 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Jet Punch
+- Haze
+- Protect
+- Wave Crash
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Protect
+- Throat Chop
+- Sucker Punch
+
+Articuno @ Choice Specs
+Ability: Snow Cloak
+Level: 50
+Tera Type: Ice
+EVs: 244 HP / 12 Def / 244 SpA / 4 SpD / 4 Spe
+Modest Nature
+- Freeze-Dry
+- Sheer Cold
+- Ice Beam
+- Blizzard
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Electric
+EVs: 12 HP / 244 Atk / 252 SpD
+Adamant Nature
+- Ice Punch
+- Drain Punch
+- Fake Out
+- Thunder Punch
+
+Arcanine @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 188 HP / 252 Atk / 68 Spe
+Adamant Nature
+- Extreme Speed
+- Wild Charge
+- Close Combat
+- Flare Blitz
+
+Abomasnow @ Icy Rock
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Atk / 4 Def / 236 SpA / 4 SpD
+Quiet Nature
+- Protect
+- Ice Shard
+- Energy Ball
+- Blizzard

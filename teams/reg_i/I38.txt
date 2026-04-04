@@ -1,0 +1,67 @@
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 252 Atk / 4 Def / 4 SpD / 156 Spe
+Jolly Nature
+- Play Rough
+- Behemoth Blade
+- Sacred Sword
+- Protect
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Imprison
+- Protect
+
+Tornadus @ Ability Shield
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk / 29 Spe
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Protect
+
+Urshifu-Rapid-Strike (M) @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 196 Atk / 4 Def / 36 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Taunt
+- Detect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 36 Atk / 4 Def / 220 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Knock Off
+- Fake Out
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 12 HP / 188 Atk / 52 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Power Whip
+- Follow Me
+- Spiky Shield

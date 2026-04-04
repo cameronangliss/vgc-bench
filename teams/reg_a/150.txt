@@ -1,0 +1,68 @@
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 12 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Rotom-Wash @ Wiki Berry
+Ability: Levitate
+Level: 50
+EVs: 148 HP / 180 SpA / 180 SpD
+Calm Nature
+IVs: 0 Atk
+- Volt Switch
+- Hydro Pump
+- Will-O-Wisp
+- Protect
+
+Arboliva @ Expert Belt
+Ability: Seed Sower
+Level: 50
+Tera Type: Ghost
+EVs: 180 HP / 116 SpA / 212 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Dazzling Gleam
+- Giga Drain
+- Protect
+
+Sylveon @ Leftovers
+Ability: Pixilate
+Level: 50
+EVs: 172 HP / 196 Def / 76 SpA / 12 SpD / 52 Spe
+Bold Nature
+IVs: 0 Atk
+- Hyper Voice
+- Substitute
+- Calm Mind
+- Protect
+
+Hydreigon @ Focus Sash
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Dark Pulse
+- Dragon Pulse
+- Protect
+
+Gallade @ Mental Herb
+Ability: Sharpness
+Level: 50
+Tera Type: Dark
+EVs: 132 HP / 180 Atk / 196 Def
+Impish Nature
+- Wide Guard
+- Trick Room
+- Psycho Cut
+- Sacred Sword

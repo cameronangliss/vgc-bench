@@ -1,0 +1,68 @@
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 36 Def / 4 SpA / 196 SpD / 28 Spe
+Calm Nature
+- Fake Out
+- Psychic
+- Heal Pulse
+- Thunder Wave
+
+Scream Tail @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 4 Def / 4 SpA / 44 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Encore
+- Protect
+- Dazzling Gleam
+- Disable
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 236 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Wave Crash
+- Protect
+- Jet Punch
+- Taunt
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 140 Def / 116 SpD
+Calm Nature
+IVs: 0 Atk
+- Leech Seed
+- Foul Play
+- Protect
+- Pollen Puff
+
+Volcarona @ Safety Goggles
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 92 Def / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Quiver Dance
+- Heat Wave
+- Protect
+- Giga Drain
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Earth Power
+- Power Gem
+- Spiky Shield
+- Mortal Spin

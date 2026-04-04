@@ -1,0 +1,68 @@
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 100 Atk / 252 SpD
+Adamant Nature
+- Fake Out
+- Heavy Slam
+- Wild Charge
+- Drain Punch
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 204 HP / 172 Def / 132 SpD
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Icy Wind
+- Lunar Blessing
+- Moonblast
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 28 Atk / 204 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Swords Dance
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Def / 140 SpD
+Careful Nature
+- Reflect
+- Light Screen
+- Fake Tears
+- Spirit Break
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 148 Def / 4 SpA / 44 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Tera Blast
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Encore
+- Icy Wind
+- Protect

@@ -1,0 +1,68 @@
+Tornadus (M) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Def / 108 SpA / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Taunt
+
+Kyogre @ Choice Specs
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Water Spout
+- Origin Pulse
+- Hydro Pump
+- Ice Beam
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Behemoth Blade
+- Play Rough
+- Sacred Sword
+- Protect
+
+Cinccino @ Life Orb
+Ability: Skill Link
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Blast
+- Bullet Seed
+- Triple Axel
+- Thunder Wave
+
+Farigiraf @ Rocky Helmet
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 156 Def / 68 SpA / 156 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Twin Beam
+- Foul Play
+- Trick Room
+- Helping Hand
+
+Tsareena @ Wide Lens
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Ice
+EVs: 68 HP / 252 Atk / 12 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Power Whip
+- Triple Axel
+- Helping Hand
+- Protect

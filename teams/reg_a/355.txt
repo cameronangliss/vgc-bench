@@ -1,0 +1,69 @@
+Rabsca @ Focus Sash
+Ability: Telepathy
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Revival Blessing
+- Trick Room
+- Bug Buzz
+- Tera Blast
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Earthquake
+- Rock Tomb
+- Dragon Claw
+- Outrage
+
+Kilowattrel @ Life Orb
+Ability: Competitive
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Discharge
+- Tailwind
+- Air Slash
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 84 Atk / 172 Def / 252 Spe
+Jolly Nature
+- Follow Me
+- Protect
+- Population Bomb
+- Encore
+
+Hydreigon @ Scope Lens
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Heat Wave
+- Tailwind
+- Focus Energy
+
+Skeledirge @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 4 Def / 180 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Torch Song
+- Shadow Ball
+- Slack Off
+- Yawn

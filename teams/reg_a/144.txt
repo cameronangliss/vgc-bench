@@ -1,0 +1,66 @@
+Glalie @ Leftovers
+Ability: Moody
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Substitute
+- Double Team
+- Frost Breath
+
+Flamigo @ White Herb
+Ability: Costar
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Acrobatics
+- Close Combat
+- Throat Chop
+- Protect
+
+Indeedee-F @ Colbur Berry
+Ability: Psychic Surge
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Dazzling Gleam
+- Helping Hand
+- Follow Me
+
+Armarouge @ Life Orb
+Ability: Weak Armor
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Expanding Force
+- Wide Guard
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Sucker Punch
+- Iron Head
+- Swords Dance
+- Protect
+
+Maushold @ Focus Sash
+Ability: Friend Guard
+Level: 50
+EVs: 248 HP / 8 Atk / 252 Spe
+Jolly Nature
+IVs: 0 Atk
+- Follow Me
+- Taunt
+- Protect
+- Super Fang

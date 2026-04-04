@@ -1,0 +1,72 @@
+Ursaluna-Bloodmoon (M) @ Silk Scarf
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 166 HP / 252 SpA / 92 SpD
+Quiet Nature
+IVs: 10 Atk
+- Blood Moon
+- Earth Power
+- Protect
+- Hyper Voice
+
+Hatterene (F) @ Covert Cloak
+Ability: Magic Bounce
+Level: 50
+Shiny: Yes
+Tera Type: Psychic
+EVs: 252 HP / 6 Def / 252 SpA
+Quiet Nature
+IVs: 21 Atk / 4 Spe
+- Dazzling Gleam
+- Expanding Force
+- Protect
+- Trick Room
+
+Indeedee-F (F) @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 6 SpD
+Calm Nature
+IVs: 20 Atk / 10 Spe
+- Dazzling Gleam
+- Helping Hand
+- Follow Me
+- Trick Room
+
+Tornadus (M) @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 104 Def / 126 SpA / 28 Spe
+Bold Nature
+IVs: 1 Atk
+- Bleakwind Storm
+- Sunny Day
+- Tailwind
+- Taunt
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 60 HP / 66 Def / 252 SpA / 132 Spe
+Modest Nature
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Icy Wind
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 6 Def / 252 SpA / 252 Spe
+Modest Nature
+- Heat Wave
+- Overheat
+- Dark Pulse
+- Snarl

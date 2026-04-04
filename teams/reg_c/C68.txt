@@ -1,0 +1,67 @@
+Ting-Lu @ Sitrus Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 196 Def / 52 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Body Press
+- Ruination
+- Fissure
+- Stealth Rock
+
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 220 SpD / 36 Spe
+Impish Nature
+- Protect
+- Wave Crash
+- Yawn
+- Fissure
+
+Talonflame @ Rocky Helmet
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 60 Atk / 140 Def / 4 SpD / 52 Spe
+Impish Nature
+- Brave Bird
+- Feint
+- Tailwind
+- Taunt
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 220 Def / 100 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Tera Blast
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Tera Blast
+- Rock Slide
+- Aqua Jet

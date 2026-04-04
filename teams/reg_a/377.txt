@@ -1,0 +1,70 @@
+Hariyama (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 124 Def / 124 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Wide Guard
+- Knock Off
+
+Amoonguss (F) @ Wiki Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 212 Def / 44 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Clear Smog
+- Protect
+
+Frosmoth (M) @ Life Orb
+Ability: Ice Scales
+Level: 50
+Tera Type: Electric
+EVs: 188 SpA / 92 SpD / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Ice Beam
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Kingambit (M) @ Assault Vest
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Tera Blast
+
+Farigiraf (M) @ Focus Sash
+Ability: Armor Tail
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Hyper Voice
+- Imprison
+- Trick Room
+
+Sylveon (F) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 92 HP / 4 Atk / 156 Def / 252 SpA / 4 SpD
+Quiet Nature
+- Hyper Voice
+- Quick Attack
+- Tera Blast
+- Protect

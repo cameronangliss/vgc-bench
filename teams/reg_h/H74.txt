@@ -1,0 +1,67 @@
+Slaking @ Life Orb
+Ability: Truant
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Double-Edge
+- Sucker Punch
+- High Horsepower
+
+Weezing @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 28 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Sludge Bomb
+- Taunt
+- Will-O-Wisp
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 132 HP / 204 Atk / 28 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Rock Slide
+- Stomping Tantrum
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 4 Def / 52 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- High Horsepower
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 4 Def / 252 SpA / 12 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Trick
+
+Quaquaval @ Focus Sash
+Ability: Moxie
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Close Combat
+- Aqua Step
+- Aqua Jet

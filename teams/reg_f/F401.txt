@@ -1,0 +1,67 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Weather Ball
+- Tailwind
+- Protect
+
+Archaludon @ Custap Berry
+Ability: Sturdy
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Draco Meteor
+- Heavy Slam
+- Electro Shot
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 60 HP / 236 Atk / 28 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Ice Spinner
+- Aqua Jet
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 4 Def / 132 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Sandsear Storm
+- Sludge Bomb
+- Earth Power
+- Protect
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Taunt
+- Grassy Glide
+- Fake Out
+
+Chien-Pao @ Choice Band
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Lash Out
+- Sacred Sword
+- Sucker Punch

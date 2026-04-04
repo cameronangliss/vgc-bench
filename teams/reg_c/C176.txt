@@ -1,0 +1,69 @@
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 76 Atk / 84 Def / 124 SpD / 44 Spe
+Adamant Nature
+- Stomping Tantrum
+- Stone Edge
+- Heavy Slam
+- Ruination
+
+Ceruledge @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 116 Atk / 108 Def / 60 SpD / 28 Spe
+Adamant Nature
+- Bitter Blade
+- Tera Blast
+- Bulk Up
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 132 Def / 108 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Thunderbolt
+
+Amoonguss @ Occa Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Gyarados @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 36 Atk / 28 Def / 108 SpD / 84 Spe
+Careful Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 44 HP / 4 Def / 228 SpA / 204 SpD / 28 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
+- Protect

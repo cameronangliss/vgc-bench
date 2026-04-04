@@ -1,0 +1,66 @@
+Giratina-Origin @ Griseous Core
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 92 HP / 252 Atk / 100 Def / 36 SpD / 28 Spe
+Adamant Nature
+- Poltergeist
+- Breaking Swipe
+- Shadow Sneak
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 188 HP / 156 Def / 156 Spe
+Impish Nature
+- Body Press
+- Behemoth Bash
+- Wide Guard
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Crunch
+- Ice Shard
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 132 HP / 180 Atk / 100 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Earthquake
+- Ruination
+- Stomping Tantrum
+- Heavy Slam
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 116 Def / 252 SpD
+Impish Nature
+- Wave Crash
+- Yawn
+- Body Press
+- Protect
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 60 Def / 100 SpA / 20 SpD / 76 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Protect

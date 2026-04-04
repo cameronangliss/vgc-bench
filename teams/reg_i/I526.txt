@@ -1,0 +1,67 @@
+Koraidon @ Life Orb
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Flame Charge
+- Close Combat
+- Flare Blitz
+
+Lunala @ Leftovers
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 132 Def / 244 SpA / 4 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Calm Mind
+- Dazzling Gleam
+- Moongeist Beam
+
+Brute Bonnet @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 148 Def / 108 SpD
+Impish Nature
+- Spore
+- Rage Powder
+- Sucker Punch
+- Seed Bomb
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 220 Def / 36 SpD
+Impish Nature
+- Fake Out
+- Parting Shot
+- Will-O-Wisp
+- Knock Off
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 4 Def / 132 SpA / 52 SpD / 108 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Snarl
+- Electroweb
+- Dragon Pulse
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 116 Atk / 20 Def / 172 SpD / 68 Spe
+Adamant Nature
+- Fake Out
+- U-turn
+- Grassy Glide
+- Wood Hammer

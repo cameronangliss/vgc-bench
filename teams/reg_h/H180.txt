@@ -1,0 +1,73 @@
+Kommo-o (F) @ Throat Spray
+Ability: Soundproof
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 SpA / 36 SpD / 220 Spe
+Timid Nature
+- Clangorous Soul
+- Clanging Scales
+- Flamethrower
+- Protect
+
+Gothitelle (F) @ Safety Goggles
+Ability: Shadow Tag
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Fake Out
+- Psychic Noise
+- Trick Room
+- Protect
+
+Sinistcha-Masterpiece @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Trick Room
+- Rage Powder
+- Life Dew
+
+Incineroar (F) @ Aguav Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 156 SpD
+Impish Nature
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Primarina (F) @ Life Orb
+Ability: Liquid Voice
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Icy Wind
+- Protect
+
+Ursaluna (F) @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Facade
+- Protect
+- Headlong Rush

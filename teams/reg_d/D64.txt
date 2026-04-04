@@ -1,0 +1,67 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Arcanine-Hisui @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 252 Atk / 12 Def / 12 SpD / 156 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Wild Charge
+- Extreme Speed
+
+Thundurus (M) @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 20 Def / 76 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Sunny Day
+- Taunt
+- Thunder Wave
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Outrage
+- Extreme Speed
+- Aerial Ace
+- Aqua Jet
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 252 SpA / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Power Gem
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fairy
+EVs: 140 HP / 252 Atk / 60 Def / 44 SpD / 4 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Bulk Up
+- Protect

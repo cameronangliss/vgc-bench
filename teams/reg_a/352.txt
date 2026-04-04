@@ -1,0 +1,70 @@
+Goodra (F) @ Choice Specs
+Ability: Sap Sipper
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 124 Def / 252 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Tera Blast
+- Thunder
+- Dragon Pulse
+
+Pelipper (F) @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Hydro Pump
+- Protect
+- Hurricane
+
+Annihilape (M) @ Figy Berry
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 196 Atk / 4 Def / 4 SpD / 140 Spe
+Adamant Nature
+IVs: 0 SpA
+- Bulk Up
+- Drain Punch
+- Protect
+- Rage Fist
+
+Beartic (M) @ Ability Shield
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 252 Atk / 12 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Earthquake
+- Swords Dance
+- Icicle Crash
+- Liquidation
+
+Kingambit (M) @ Assault Vest
+Ability: Supreme Overlord
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Atk / 12 Def / 12 SpD / 36 Spe
+Adamant Nature
+IVs: 0 SpA
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Brick Break
+
+Farigiraf (M) @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Normal
+EVs: 92 HP / 252 Def / 156 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Psychic
+- Trick Room
+- Hyper Voice
+- Imprison

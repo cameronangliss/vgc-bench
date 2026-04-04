@@ -1,0 +1,70 @@
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Fake Out
+- Close Combat
+- Iron Head
+- Thunder Punch
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Clear Smog
+- Protect
+- Heat Wave
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Perish Song
+- Protect
+- Shadow Ball
+
+Oranguru @ Safety Goggles
+Ability: Inner Focus
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 220 Def / 52 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Instruct
+- Trick Room
+- Psyshock
+- Protect
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 52 HP / 172 Atk / 20 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Dragon Claw
+- Earthquake
+- Protect
+
+Maushold-Four @ Sitrus Berry
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Follow Me
+- Encore
+- Protect
+- Population Bomb

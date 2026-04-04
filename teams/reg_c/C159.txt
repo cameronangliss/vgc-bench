@@ -1,0 +1,69 @@
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 116 Def / 92 SpD / 48 Spe
+Impish Nature
+- Drain Punch
+- Protect
+- Rage Fist
+- Bulk Up
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Def / 68 SpD / 72 Spe
+Jolly Nature
+- Beat Up
+- Protect
+- Follow Me
+- Super Fang
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 204 HP / 32 Atk / 60 Def / 204 SpD / 8 Spe
+Careful Nature
+- Flare Blitz
+- Extreme Speed
+- Protect
+- Will-O-Wisp
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Protect
+- Taunt
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tera Blast
+- Freeze-Dry
+- Hydro Pump
+- Protect
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Haze
+- Ice Spinner
+- Sucker Punch
+- Protect

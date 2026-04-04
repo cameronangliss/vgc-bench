@@ -1,0 +1,70 @@
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 188 Def / 68 SpD
+Impish Nature
+IVs: 14 SpA / 29 Spe
+- Knock Off
+- Parting Shot
+- Fake Out
+- Helping Hand
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 204 HP / 4 Atk / 76 Def / 68 SpD / 156 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 84 Atk / 68 Def / 84 SpD / 20 Spe
+Adamant Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Grassy Glide
+- Follow Me
+- Spiky Shield
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 180 HP / 28 Def / 236 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Thunderclap
+- Dragon Pulse
+- Protect
+
+Calyrex-Shadow @ Spell Tag
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 172 HP / 12 Def / 140 SpA / 28 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Astral Barrage
+- Nasty Plot
+- Protect
+- Psychic
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 116 Atk / 20 Def / 140 SpD / 28 Spe
+Adamant Nature
+IVs: 0 SpA
+- Grassy Glide
+- Wood Hammer
+- U-turn
+- Fake Out

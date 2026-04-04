@@ -1,0 +1,67 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 204 Def / 36 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Regieleki @ Choice Scarf
+Ability: Transistor
+Level: 50
+Tera Type: Water
+EVs: 196 Def / 236 SpA / 76 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Electroweb
+- Thunder
+- Volt Switch
+
+Urshifu-Rapid-Strike @ Life Orb
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 4 Def / 44 SpD / 204 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Rillaboom @ Loaded Dice
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 252 Atk / 4 Def / 92 SpD / 12 Spe
+Adamant Nature
+- Bullet Seed
+- U-turn
+- Fake Out
+- Taunt
+
+Arcanine-Hisui @ Air Balloon
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Rock Slide
+- Flare Blitz
+- Head Smash
+- Extreme Speed

@@ -1,0 +1,66 @@
+Indeedee-F (F) @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+EVs: 236 HP / 220 Def / 52 SpD
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Helping Hand
+- Trick Room
+
+Armarouge @ Focus Sash
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 220 SpA / 36 SpD
+Modest Nature
+IVs: 0 Atk / 0 Spe
+- Expanding Force
+- Flamethrower
+- Wide Guard
+- Trick Room
+
+Hatterene @ Covert Cloak
+Ability: Magic Bounce
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 4 Atk / 36 Def / 188 SpA / 132 SpD
+Sassy Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Psychic
+- Trick Room
+- Protect
+
+Farigiraf @ Life Orb
+Ability: Armor Tail
+Level: 50
+EVs: 156 HP / 36 Def / 164 SpA / 36 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Trick Room
+- Imprison
+- Hyper Voice
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Flamethrower
+- Solar Beam
+- Earth Power
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 236 HP / 156 Def / 116 SpD
+Careful Nature
+- Parting Shot
+- Light Screen
+- Reflect
+- Spirit Break

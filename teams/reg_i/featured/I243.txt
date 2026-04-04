@@ -1,0 +1,68 @@
+Lunala @ Electric Seed
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 172 Def / 180 SpA / 12 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Trick Room
+- Wide Guard
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 44 Def / 4 SpA / 68 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Facade
+- Earthquake
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 84 HP / 212 Atk / 4 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Surging Strikes
+- U-turn
+- Aqua Jet
+- Close Combat
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 20 Def / 212 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 4 Atk / 156 Def / 116 SpD / 4 Spe
+Careful Nature
+- Reflect
+- Spirit Break
+- Light Screen
+- Thunder Wave
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+IVs: 29 Spe
+- Fake Out
+- Parting Shot
+- Will-O-Wisp
+- Knock Off

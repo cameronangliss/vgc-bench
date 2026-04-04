@@ -1,0 +1,77 @@
+Iron Hands @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 140 HP / 156 Atk / 212 SpD
+Brave Nature
+IVs: 0 SpA / 0 Spe
+- Rock Slide
+- Fake Out
+- Drain Punch
+- Wild Charge
+
+Farigiraf (F) @ Wiki Berry
+Ability: Armor Tail
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 172 HP / 180 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Nasty Plot
+- Dazzling Gleam
+- Psychic
+
+Maushold-Four @ Mental Herb
+Ability: Friend Guard
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 116 SpD
+Careful Nature
+IVs: 0 SpA
+- Follow Me
+- Taunt
+- U-turn
+- Super Fang
+
+Oranguru @ Sitrus Berry
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 2 Spe
+- Trick Room
+- Instruct
+- Encore
+- Psychic
+
+Torkoal (M) @ Choice Specs
+Ability: Drought
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Solar Beam
+- Heat Wave
+- Earth Power
+
+Weezing-Galar (F) @ Rocky Helmet
+Ability: Neutralizing Gas
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 52 Def / 204 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Will-O-Wisp
+- Sludge Bomb
+- Dazzling Gleam

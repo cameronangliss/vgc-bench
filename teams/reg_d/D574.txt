@@ -1,0 +1,72 @@
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 28 HP / 252 SpA / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Moltres-Galar @ Sitrus Berry
+Ability: Berserk
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 244 HP / 92 Def / 4 SpA / 4 SpD / 164 Spe
+Calm Nature
+IVs: 0 Atk
+- Fiery Wrath
+- Air Slash
+- Tailwind
+- Nasty Plot
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 92 HP / 164 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Icy Wind
+
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 20 HP / 252 SpA / 236 Spe
+Timid Nature
+IVs: 0 Atk
+- Expanding Force
+- Armor Cannon
+- Aura Sphere
+- Wide Guard
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Trick Room
+- Follow Me
+- Helping Hand
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Clear Smog
+- Earth Power
+- Heat Wave

@@ -1,0 +1,70 @@
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Snarl
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 188 Atk / 4 Def / 108 SpD
+Adamant Nature
+IVs: 27 SpA / 21 Spe
+- Drain Punch
+- Fake Out
+- Wild Charge
+- Volt Switch
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 184 HP / 32 Def / 220 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Mystical Fire
+- Moonblast
+
+Torkoal (F) @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 40 Def / 200 SpD
+Bold Nature
+- Eruption
+- Flamethrower
+- Earth Power
+- Protect
+
+Amoonguss (F) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 120 Def / 8 SpA / 128 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Rage Powder
+- Spore
+- Protect

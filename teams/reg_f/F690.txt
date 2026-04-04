@@ -1,0 +1,68 @@
+Moltres-Galar @ Sitrus Berry
+Ability: Berserk
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 28 Def / 156 SpA / 36 SpD / 76 Spe
+Calm Nature
+IVs: 0 Atk
+- Fiery Wrath
+- Air Slash
+- Nasty Plot
+- Protect
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 156 HP / 212 Atk / 44 Def / 28 SpD / 44 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 68 Def / 100 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Dragon Pulse
+- Thunderclap
+- Electroweb
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 84 HP / 252 Atk / 4 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 36 Atk / 4 Def / 20 SpD / 196 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Parting Shot
+- Protect

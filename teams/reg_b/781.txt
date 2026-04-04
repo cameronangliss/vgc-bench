@@ -1,0 +1,70 @@
+Brute Bonnet @ Sitrus Berry
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 10 SpA / 0 Spe
+- Seed Bomb
+- Sucker Punch
+- Tera Blast
+- Spore
+
+Garganacl (M) @ Aguav Berry
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 20 Def / 236 SpD
+Careful Nature
+- Recover
+- Wide Guard
+- Salt Cure
+- Protect
+
+Tauros-Paldea-Blaze (M) @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Fighting
+EVs: 180 HP / 28 Atk / 4 Def / 44 SpD / 252 Spe
+Jolly Nature
+- Raging Bull
+- Close Combat
+- Will-O-Wisp
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 16 Atk
+- Hydro Pump
+- Icy Wind
+- Freeze-Dry
+- Protect
+
+Scizor (M) @ Covert Cloak
+Ability: Technician
+Level: 50
+Tera Type: Water
+EVs: 52 HP
+Adamant Nature
+IVs: 14 SpA
+- Bullet Punch
+- Pounce
+- Swords Dance
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Taunt
+- Protect

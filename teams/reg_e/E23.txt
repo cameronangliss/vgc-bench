@@ -1,0 +1,68 @@
+Kommo-o @ Throat Spray
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 76 HP / 4 Def / 164 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Clanging Scales
+- Clangorous Soul
+- Protect
+- Flash Cannon
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 SpA
+Relaxed Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Follow Me
+- After You
+- Helping Hand
+
+Arcanine-Hisui @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 44 Atk / 36 Def / 164 SpD / 20 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Protect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 252 Atk / 4 Def / 4 SpD / 188 Spe
+Jolly Nature
+- Swords Dance
+- Horn Leech
+- Ivy Cudgel
+- Spiky Shield
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpA
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Strength Sap
+- Trick Room
+- Rage Powder
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Atk / 52 Def / 124 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Wild Charge
+- Drain Punch
+- Heavy Slam

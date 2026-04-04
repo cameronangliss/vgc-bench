@@ -1,0 +1,68 @@
+Wo-Chien @ Sitrus Berry
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Pollen Puff
+- Leech Seed
+- Protect
+
+Goodra-Hisui @ Leftovers
+Ability: Shell Armor
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 252 SpD
+Sassy Nature
+- Heavy Slam
+- Body Press
+- Shelter
+- Life Dew
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Lunar Blessing
+- Trick Room
+- Helping Hand
+
+Gyarados @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Waterfall
+- Tera Blast
+- Taunt
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Drain Punch
+- Thunder Punch
+- Volt Switch
+- Fake Out
+
+Enamorus-Therian @ Pixie Plate
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Earth Power
+- Calm Mind
+- Protect

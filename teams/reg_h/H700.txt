@@ -1,0 +1,68 @@
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 156 Atk / 4 Def / 12 SpD / 196 Spe
+Adamant Nature
+- Headlong Rush
+- Facade
+- Earthquake
+- Protect
+
+Jumpluff @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sleep Powder
+- Sunny Day
+- Tailwind
+- Rage Powder
+
+Charizard @ Choice Specs
+Ability: Solar Power
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Heat Wave
+- Overheat
+- Weather Ball
+
+Torkoal @ Eject Pack
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Spe
+- Clear Smog
+- Eruption
+- Overheat
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 220 HP / 4 Atk / 4 Def / 236 SpD / 44 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 100 Def / 116 SpA / 4 SpD / 36 Spe
+Modest Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room

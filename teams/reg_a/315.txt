@@ -1,0 +1,66 @@
+Tatsugiri (M) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Hydro Pump
+
+Maushold @ Sitrus Berry
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 132 Def / 124 SpD
+Careful Nature
+- Super Fang
+- Beat Up
+- Follow Me
+- Protect
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- Protect
+
+Dondozo (F) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Wave Crash
+- Earthquake
+- Tera Blast
+- Protect
+
+Arcanine (M) @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 124 HP / 252 Atk / 132 Spe
+Adamant Nature
+- Extreme Speed
+- Flare Blitz
+- Close Combat
+- Psychic Fangs
+
+Annihilape (M) @ Lum Berry
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 52 Atk / 4 Def / 44 SpD / 156 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect

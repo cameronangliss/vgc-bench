@@ -1,0 +1,69 @@
+Miraidon @ Covert Cloak
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 236 HP / 4 Def / 252 SpA / 4 SpD / 12 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 172 Atk / 84 SpD
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Tornadus @ Ability Shield
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Rain Dance
+- Tailwind
+- Foul Play
+
+Urshifu-Rapid-Strike @ Life Orb
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 60 HP / 252 Atk / 4 Def / 92 SpD / 100 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Ice Spinner
+- Aqua Jet
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 116 Def / 252 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Endeavor
+- Tailwind
+- Light Screen
+- Encore
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 188 Def / 4 SpA / 20 SpD / 44 Spe
+Bold Nature
+IVs: 0 Atk
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+- Rage Powder

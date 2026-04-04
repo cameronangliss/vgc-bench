@@ -1,0 +1,67 @@
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 4 Atk / 156 Def / 4 SpD / 252 Spe
+Impish Nature
+- Body Press
+- Behemoth Bash
+- Iron Defense
+- Protect
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 44 HP / 4 Def / 244 SpA / 12 SpD / 204 Spe
+Modest Nature
+- Electro Drift
+- Dazzling Gleam
+- Volt Switch
+- Draco Meteor
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 84 Def / 4 SpA / 140 SpD / 28 Spe
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Light Screen
+- Encore
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Sucker Punch
+- Ice Spinner
+- Crunch
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 36 Atk / 44 Def / 124 SpD / 52 Spe
+Adamant Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- U-turn
+
+Ursaluna-Bloodmoon @ Focus Sash
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+- Protect

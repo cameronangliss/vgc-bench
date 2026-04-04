@@ -1,0 +1,65 @@
+Drednaw @ White Herb
+Ability: Swift Swim
+Level: 50
+EVs: 236 HP / 212 Atk / 28 Def / 4 SpD / 28 Spe
+Adamant Nature
+- Protect
+- Liquidation
+- Rock Slide
+- Shell Smash
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Helping Hand
+- Hurricane
+- Wide Guard
+
+Indeedee-F (F) @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+EVs: 236 HP / 116 Def / 4 SpA / 132 SpD / 20 Spe
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Imprison
+- Trick Room
+- Follow Me
+
+Barraskewda @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 92 HP / 252 Atk / 4 Def / 4 SpD / 156 Spe
+Jolly Nature
+- Protect
+- Liquidation
+- Close Combat
+- Psychic Fangs
+
+Kilowattrel @ Choice Specs
+Ability: Volt Absorb
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunder
+- Volt Switch
+- Hurricane
+- Air Slash
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 60 Atk / 196 Spe
+Jolly Nature
+- Rage Fist
+- Final Gambit
+- Close Combat
+- U-turn

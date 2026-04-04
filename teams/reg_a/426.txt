@@ -1,0 +1,67 @@
+Rabsca (M) @ Leppa Berry
+Ability: Synchronize
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Revival Blessing
+- Sleep Talk
+- Rest
+- Defense Curl
+
+Dragapult (M) @ Choice Band
+Ability: Cursed Body
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Phantom Force
+- Sucker Punch
+- Curse
+
+Drifblim (F) @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Normal
+EVs: 252 Def / 220 SpD / 36 Spe
+Timid Nature
+- Strength Sap
+- Will-O-Wisp
+- Minimize
+- Baton Pass
+
+Annihilape (M) @ Choice Scarf
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fighting
+EVs: 172 HP / 196 Atk / 132 Spe
+Adamant Nature
+IVs: 29 SpA
+- Final Gambit
+- Close Combat
+- Rage Fist
+- Rock Slide
+
+Indeedee-F @ Colbur Berry
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Psychic
+- Follow Me
+- Protect
+- Trick Room
+
+Tyranitar (M) @ Quick Claw
+Ability: Sand Stream
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+IVs: 23 SpA
+- Rock Slide
+- Crunch
+- Dragon Tail
+- Protect

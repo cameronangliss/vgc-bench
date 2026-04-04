@@ -1,0 +1,70 @@
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 68 Def / 44 SpD / 70 Spe
+Adamant Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Pincurchin (M) @ Assault Vest
+Ability: Electric Surge
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 6 Def / 252 SpD
+Relaxed Nature
+IVs: 26 Spe
+- Sucker Punch
+- Discharge
+- Electroweb
+- Scald
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 246 HP / 252 SpA / 12 SpD
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Rising Voltage
+- Protect
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 68 Atk / 28 Def / 162 SpD
+Careful Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Iron Leaves @ Clear Amulet
+Ability: Quark Drive
+Level: 50
+Tera Type: Psychic
+EVs: 156 Atk / 102 Def / 252 Spe
+Jolly Nature
+- Psyblade
+- Leaf Blade
+- Protect
+- Sacred Sword
+
+Landorus-Therian (M) @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 212 HP / 36 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- U-turn
+- Rock Slide
+- Tera Blast

@@ -1,0 +1,69 @@
+Arceus @ Covert Cloak
+Ability: Multitype
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 156 Def / 4 SpA / 20 SpD / 76 Spe
+Bold Nature
+IVs: 0 Atk
+- Body Press
+- Stored Power
+- Cosmic Power
+- Recover
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Pollen Puff
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 196 Atk / 4 Def / 12 SpD / 44 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Shadow Ball
+- Rage Powder
+- Strength Sap
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 68 HP / 140 Def / 252 SpA / 44 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunderbolt
+- Protect
+
+Iron Valiant @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 204 HP / 4 Atk / 100 Def / 20 SpD / 180 Spe
+Jolly Nature
+- Spirit Break
+- Feint
+- Wide Guard
+- Protect

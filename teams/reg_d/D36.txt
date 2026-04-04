@@ -1,0 +1,73 @@
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 60 HP / 252 Atk / 4 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- U-turn
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Trick Room
+- Imprison
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 20 Def / 156 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Make It Rain
+- Shadow Ball
+- Trick
+
+Landorus-Therian @ Life Orb
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Rock
+EVs: 196 HP / 244 Atk / 68 Spe
+Adamant Nature
+- Stomping Tantrum
+- Earthquake
+- Rock Slide
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 92 HP / 4 Def / 156 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump
+- Protect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 4 SpA / 36 SpD / 60 Spe
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Protect
+- Icy Wind

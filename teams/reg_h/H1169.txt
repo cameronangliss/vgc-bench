@@ -1,0 +1,68 @@
+Spewpa @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 228 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk
+- Struggle Bug
+- String Shot
+- Rage Powder
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 68 Def / 148 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 116 Atk / 4 Def / 116 SpD / 36 Spe
+Careful Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+
+Ninetales-Alola @ Choice Scarf
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 252 SpA / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Icy Wind
+- Moonblast
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 196 HP / 4 Atk / 220 Def / 20 SpD / 68 Spe
+Impish Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Dragonite @ Covert Cloak
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 60 HP / 188 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Low Kick
+- Haze
+- Protect

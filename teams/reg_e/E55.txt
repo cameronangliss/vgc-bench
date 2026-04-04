@@ -1,0 +1,68 @@
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 236 Def / 20 SpA
+Bold Nature
+IVs: 0 Atk
+- Ruination
+- Pollen Puff
+- Giga Drain
+- Leech Seed
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Electric
+EVs: 156 Atk / 92 Def / 244 SpD
+Brave Nature
+- Fake Out
+- Volt Switch
+- Drain Punch
+- Wild Charge
+
+Muk-Alola @ Sitrus Berry
+Ability: Poison Touch
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 Def / 244 SpD
+Impish Nature
+IVs: 6 Spe
+- Toxic
+- Protect
+- Minimize
+- Knock Off
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 20 Def / 76 SpA / 148 Spe
+Modest Nature
+- Mortal Spin
+- Power Gem
+- Spiky Shield
+- Earth Power
+
+Carbink @ Mental Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Def / 252 SpD
+Impish Nature
+IVs: 23 Spe
+- Protect
+- Rock Slide
+- Trick Room
+- Guard Split
+
+Chansey @ Eviolite
+Ability: Natural Cure
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Copycat
+- Skill Swap
+- Soft-Boiled
+- Seismic Toss

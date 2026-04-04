@@ -1,0 +1,68 @@
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpD
+Impish Nature
+IVs: 8 Spe
+- Salt Cure
+- Recover
+- Wide Guard
+- Protect
+
+Abomasnow @ Sitrus Berry
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 84 HP / 4 Def / 220 SpA / 4 SpD / 196 Spe
+Modest Nature
+- Blizzard
+- Leaf Storm
+- Ice Shard
+- Aurora Veil
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 236 Atk / 4 Def / 12 SpD / 4 Spe
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Extreme Speed
+- Snarl
+
+Garchomp @ Choice Band
+Ability: Rough Skin
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Outrage
+- Rock Slide
+- Stomping Tantrum
+
+Talonflame @ Rocky Helmet
+Ability: Gale Wings
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 196 Def / 60 SpA
+Timid Nature
+IVs: 0 Atk
+- Air Slash
+- Will-O-Wisp
+- Tailwind
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 44 HP / 4 Def / 196 SpA / 204 SpD / 60 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Hydro Pump
+- Aurora Veil
+- Protect

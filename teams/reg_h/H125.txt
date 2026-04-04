@@ -1,0 +1,70 @@
+Annihilape @ Lum Berry
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 36 Atk / 12 Def / 236 SpD / 68 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 204 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Beat Up
+- Follow Me
+- Taunt
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 68 Def / 188 SpD
+Calm Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 12 Def / 44 SpA / 228 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Flash Cannon
+- Body Press
+- Draco Meteor
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect
+
+Hydreigon @ Scope Lens
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Focus Energy
+- Protect

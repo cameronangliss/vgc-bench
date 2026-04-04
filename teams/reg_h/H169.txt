@@ -1,0 +1,68 @@
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Protect
+
+Dusclops @ Eviolite
+Ability: Frisk
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Atk / 252 SpD
+Sassy Nature
+IVs: 0 Spe
+- Night Shade
+- Pain Split
+- Haze
+- Trick Room
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 220 Atk / 4 Def / 12 SpD / 20 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Scale Shot
+- Extreme Speed
+- Iron Head
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Fake Tears
+- Encore
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 60 HP / 252 SpA / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect

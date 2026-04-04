@@ -1,0 +1,67 @@
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 92 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Aurora Veil
+- Disable
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 60 SpD
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+- Fake Out
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 116 HP / 116 Atk / 4 Def / 20 SpD / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Tera Blast
+- Rock Slide
+- U-turn
+
+Baxcalibur @ Loaded Dice
+Ability: Ice Body
+Level: 50
+Tera Type: Poison
+EVs: 140 HP / 180 Atk / 188 Spe
+Jolly Nature
+- Icicle Spear
+- Scale Shot
+- Swords Dance
+- Protect
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 4 Def / 236 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Earth Power
+- Will-O-Wisp
+- Protect
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 156 Atk / 4 Def / 28 SpD / 156 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Taunt
+- Spiky Shield

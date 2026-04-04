@@ -1,0 +1,72 @@
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Aqua Jet
+- Wave Crash
+- Last Respects
+- Flip Turn
+
+Incineroar (F) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 36 Atk / 220 SpD
+Adamant Nature
+IVs: 10 Spe
+- Knock Off
+- Flare Blitz
+- U-turn
+- Fake Out
+
+Amoonguss (F) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 244 HP / 188 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Rage Powder
+- Spore
+- Protect
+
+Dusclops (F) @ Eviolite
+Ability: Pressure
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 180 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk
+- Night Shade
+- Pain Split
+- Trick Room
+- Haze
+
+Kommo-o (F) @ Leftovers
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 36 Def / 4 SpA / 212 SpD / 4 Spe
+Bold Nature
+- Iron Defense
+- Body Press
+- Protect
+- Flash Cannon
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 252 SpA / 12 SpD
+Quiet Nature
+IVs: 0 Spe
+- Blood Moon
+- Hyper Voice
+- Protect
+- Earth Power

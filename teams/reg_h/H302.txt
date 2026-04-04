@@ -1,0 +1,69 @@
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 236 HP / 252 SpA / 20 SpD
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 116 Def / 68 SpA / 4 SpD / 68 Spe
+Bold Nature
+IVs: 0 Atk
+- Fiery Dance
+- Giga Drain
+- Struggle Bug
+- Rage Powder
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 116 Atk / 12 Def / 76 SpD / 68 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 172 HP / 124 Def / 156 SpA / 28 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 252 Atk / 12 SpD
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Swords Dance
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Atk / 108 Def / 108 SpA / 36 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Thunderbolt
+- Ice Beam
+- Recover
+- Trick Room

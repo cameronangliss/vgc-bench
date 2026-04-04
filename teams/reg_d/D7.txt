@@ -1,0 +1,71 @@
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Earthquake
+- Headlong Rush
+- Facade
+- Protect
+
+Heatran @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 180 HP / 252 SpA / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Earth Power
+- Tera Blast
+
+Regieleki @ Magnet
+Ability: Transistor
+Level: 50
+Tera Type: Ice
+EVs: 76 HP / 252 SpA / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Electroweb
+- Thunderbolt
+- Tera Blast
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 252 Spe
+Jolly Nature
+- Aqua Jet
+- Surging Strikes
+- Close Combat
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect

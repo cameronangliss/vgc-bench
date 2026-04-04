@@ -1,0 +1,69 @@
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Sandsear Storm
+- Sludge Bomb
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Protect
+- Sacred Sword
+
+Urshifu @ Black Glasses
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Def / 36 SpA / 44 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Taunt
+- Protect
+
+Heatran @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Bug
+EVs: 156 HP / 4 Def / 252 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Tera Blast
+- Earth Power
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 116 Def / 116 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Thunderbolt
+- Dazzling Gleam
+- Protect

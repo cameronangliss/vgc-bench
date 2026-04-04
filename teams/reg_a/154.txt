@@ -1,0 +1,64 @@
+Grimmsnarl (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Spirit Break
+- Misty Terrain
+- Light Screen
+- Reflect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk / 0 Spe
+- Clear Smog
+- Energy Ball
+- Rage Powder
+- Spore
+
+Gyarados @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpA / 252 Spe
+Adamant Nature
+- Dragon Dance
+- Protect
+- Waterfall
+- Tera Blast
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Crunch
+- Thunder Punch
+
+Rotom-Heat @ Life Orb
+Ability: Levitate
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Overheat
+- Protect
+- Thunderbolt
+- Dark Pulse
+
+Bronzong @ Leftovers
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Iron Defense
+- Body Press
+- Trick Room
+- Iron Head

@@ -1,0 +1,67 @@
+Zapdos-Galar @ Grassy Seed
+Ability: Defiant
+Level: 50
+Tera Type: Electric
+EVs: 220 HP / 44 Atk / 92 Def / 148 SpD / 4 Spe
+Adamant Nature
+- Detect
+- Bulk Up
+- Thunderous Kick
+- Acrobatics
+
+Cresselia @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 124 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk
+- Trick Room
+- Lunar Blessing
+- Icy Wind
+- Moonblast
+
+Rillaboom @ Aguav Berry
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 116 Atk / 140 Def / 108 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- U-turn
+- Knock Off
+- Wood Hammer
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 140 HP / 76 Atk / 116 Def / 172 SpD / 4 Spe
+Adamant Nature
+- Protect
+- Haze
+- Jet Punch
+- Wave Crash
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Trick
+- Thunderbolt
+- Shadow Ball
+- Make It Rain
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 236 Atk / 60 Def / 124 SpD / 4 Spe
+Adamant Nature
+- Rock Slide
+- Tera Blast
+- Stomping Tantrum
+- Earthquake

@@ -1,0 +1,68 @@
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 68 Atk / 4 Def / 124 SpD / 60 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 4 Atk / 4 Def / 252 SpD / 108 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- Bulk Up
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 244 Def / 20 SpD
+Impish Nature
+- Knock Off
+- Fake Out
+- Parting Shot
+- Will-O-Wisp
+
+Jumpluff @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 4 SpA / 164 SpD / 84 Spe
+Timid Nature
+IVs: 0 Atk
+- Leaf Storm
+- Tailwind
+- Sleep Powder
+- Rage Powder
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Pollen Puff
+- Protect
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 44 Def / 180 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 20 Atk
+- Draco Meteor
+- Thunderbolt
+- Thunderclap
+- Protect

@@ -1,0 +1,67 @@
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Earthquake
+- Ice Spinner
+- Dragon Claw
+
+Mimikyu @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 252 Atk / 108 Spe
+Adamant Nature
+- Shadow Claw
+- Shadow Sneak
+- Play Rough
+- Protect
+
+Chi-Yu @ Rocky Helmet
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Dark Pulse
+- Heat Wave
+- Will-O-Wisp
+
+Palafin @ Safety Goggles
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Wave Crash
+- Jet Punch
+- Protect
+- Haze
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Steel
+EVs: 2 HP / 252 Atk / 4 Def / 116 SpD / 136 Spe
+Adamant Nature
+- Ice Shard
+- Ice Spinner
+- Protect
+- Throat Chop

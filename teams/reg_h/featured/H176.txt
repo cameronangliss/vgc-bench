@@ -1,0 +1,70 @@
+Decidueye-Hisui @ Scope Lens
+Ability: Scrappy
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Leaf Blade
+- Protect
+- Brave Bird
+- Triple Arrows
+
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 10 SpA
+- Wave Crash
+- Aqua Jet
+- Protect
+- Last Respects
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fairy
+EVs: 200 HP / 232 SpA / 76 Spe
+Modest Nature
+IVs: 24 Atk
+- Draco Meteor
+- Flash Cannon
+- Body Press
+- Electro Shot
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Weather Ball
+- Hurricane
+- Protect
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Calm Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- After You
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect

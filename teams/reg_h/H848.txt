@@ -1,0 +1,68 @@
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Clear Smog
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 108 HP / 156 Atk / 4 Def / 44 SpD / 196 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 25 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Tailwind
+- Sleep Powder
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 4 Def / 132 SpD / 116 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 100 Def / 116 SpA / 4 SpD / 36 Spe
+Modest Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 220 HP / 4 Def / 132 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

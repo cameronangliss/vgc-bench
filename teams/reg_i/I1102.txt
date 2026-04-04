@@ -1,0 +1,70 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 92 HP / 4 Def / 228 SpA / 4 SpD / 180 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 4 Atk / 180 Def / 28 SpD / 92 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Crunch
+- Sucker Punch
+- Protect
+
+Volcarona @ Electric Seed
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 228 HP / 4 Def / 36 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Flamethrower
+- Struggle Bug
+- Quiver Dance
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 100 HP / 204 Atk / 60 Def / 92 SpD / 52 Spe
+Adamant Nature
+- Low Kick
+- Wild Charge
+- Ice Punch
+- Fake Out
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 236 HP / 188 Def / 84 SpD
+Calm Nature
+IVs: 0 Atk / 27 Spe
+- Spore
+- Pollen Puff
+- Rage Powder
+- Protect

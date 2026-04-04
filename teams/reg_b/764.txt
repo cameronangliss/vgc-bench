@@ -1,0 +1,66 @@
+Scream Tail @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 100 Def / 156 SpD
+Careful Nature
+- Trick Room
+- Helping Hand
+- Psychic Fangs
+- Sing
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Clear Smog
+- Protect
+
+Brute Bonnet @ Loaded Dice
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Spore
+- Bullet Seed
+- Crunch
+- Sucker Punch
+
+Slither Wing @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- First Impression
+- U-turn
+- Flare Blitz
+- Close Combat
+
+Great Tusk @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Earthquake
+- Headlong Rush
+- Close Combat
+- Protect
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Acrobatics
+- Tailwind
+- Throat Chop
+- Protect

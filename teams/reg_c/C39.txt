@@ -1,0 +1,67 @@
+Baxcalibur @ Assault Vest
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ground
+EVs: 84 HP / 252 Atk / 4 Def / 20 SpD / 148 Spe
+Adamant Nature
+- Icicle Crash
+- Ice Shard
+- Glaive Rush
+- Earthquake
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 4 HP / 212 Atk / 76 Def / 4 SpD / 212 Spe
+Jolly Nature
+- Population Bomb
+- Shadow Claw
+- Follow Me
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Throat Chop
+- Haze
+- Protect
+
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 132 Def / 4 SpA / 100 SpD / 20 Spe
+Bold Nature
+- Psychic
+- Fake Out
+- Trick Room
+- Helping Hand
+
+Talonflame @ Safety Goggles
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 60 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Brave Bird
+- Will-O-Wisp
+- Quick Guard
+- Tailwind
+
+Gastrodon-East (M) @ Covert Cloak
+Ability: Storm Drain
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 116 Def / 140 SpA / 68 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Ice Beam
+- Earth Power
+- Recover
+- Protect

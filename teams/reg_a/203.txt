@@ -1,0 +1,66 @@
+Annihilape (F) @ Leftovers
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 180 HP / 124 Atk / 12 Def / 156 SpD / 36 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 164 HP / 196 Def / 148 SpD
+Impish Nature
+- Spirit Break
+- Parting Shot
+- Reflect
+- Light Screen
+
+Talonflame (F) @ Focus Sash
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Tailwind
+- Quick Attack
+- Taunt
+- Brave Bird
+
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Iron Head
+- Protect
+
+Hydreigon (M) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 12 HP / 244 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Heat Wave
+- Protect
+
+Meowscarada (F) @ Choice Band
+Ability: Protean
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- U-turn

@@ -1,0 +1,68 @@
+Tatsugiri (M) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Dragon Pulse
+
+Pawmot (F) @ Focus Sash
+Ability: Iron Fist
+Level: 50
+Tera Type: Electric
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Double Shock
+- Mach Punch
+- Revival Blessing
+
+Torkoal (M) @ Life Orb
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Earth Power
+- Eruption
+- Protect
+
+Meowscarada (F) @ Choice Band
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Play Rough
+- U-turn
+
+Gothitelle @ Colbur Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Psychic
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Fake Out
+- Psyshock
+- Hypnosis
+- Trick Room
+
+Dondozo (M) @ Assault Vest
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Wave Crash
+- Rock Slide
+- Earthquake
+- Order Up

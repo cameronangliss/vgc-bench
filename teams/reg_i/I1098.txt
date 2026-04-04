@@ -1,0 +1,68 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 4 Def / 116 SpA / 20 SpD / 116 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Iron Treads @ Choice Band
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- High Horsepower
+- Rock Slide
+- Ice Spinner
+- Steel Roller
+
+Terapagos @ Electric Seed
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 236 Def / 76 SpA / 12 SpD / 12 Spe
+Bold Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+- Protect
+
+Sinistcha-Masterpiece @ Focus Sash
+Ability: Hospitality
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 108 Def / 148 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Shadow Ball
+- Rage Powder
+- Strength Sap
+- Trick Room
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Rain Dance
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 4 Atk / 188 Def / 60 SpD / 4 Spe
+Impish Nature
+- Fake Out
+- Will-O-Wisp
+- Knock Off
+- Parting Shot

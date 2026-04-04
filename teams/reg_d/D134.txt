@@ -1,0 +1,69 @@
+Heatran (M) @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 140 Def / 76 SpA / 28 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Earth Power
+- Substitute
+- Protect
+
+Samurott-Hisui (M) @ Choice Scarf
+Ability: Sharpness
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Aqua Cutter
+- Sacred Sword
+- Ceaseless Edge
+- Drill Run
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 60 HP / 196 Atk / 84 Def / 156 SpD / 12 Spe
+Adamant Nature
+- Drum Beating
+- Knock Off
+- U-turn
+- Fake Out
+
+Corviknight (M) @ Safety Goggles
+Ability: Mirror Armor
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 252 HP / 4 Atk / 4 Def / 116 SpD / 132 Spe
+Careful Nature
+- Brave Bird
+- Iron Head
+- Tailwind
+- Roost
+
+Enamorus @ Lum Berry
+Ability: Contrary
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Superpower
+- Play Rough
+- Taunt
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Icy Wind
+- Protect

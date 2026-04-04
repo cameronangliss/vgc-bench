@@ -1,0 +1,69 @@
+Misdreavus @ Eviolite
+Ability: Levitate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 220 Def / 36 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Night Shade
+- Pain Split
+- Perish Song
+- Trick Room
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 20 Def / 252 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Chi-Yu @ Sitrus Berry
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 140 HP / 212 SpA / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+- Protect
+
+Vivillon-Fancy @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Pollen Puff
+- Rage Powder
+- Safeguard
+- Protect
+
+Ting-Lu @ Clear Amulet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Ground
+EVs: 164 HP / 236 Atk / 4 Def / 12 SpD / 92 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 12 HP / 236 Atk / 4 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+- Protect

@@ -1,0 +1,70 @@
+Hydrapple @ Assault Vest
+Ability: Regenerator
+Level: 50
+Tera Type: Poison
+EVs: 212 HP / 236 SpA / 60 SpD
+Modest Nature
+IVs: 0 Atk / 0 Spe
+- Fickle Beam
+- Giga Drain
+- Earth Power
+- Pollen Puff
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 116 SpD
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 180 Def / 76 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Follow Me
+- Life Dew
+
+Bombirdier @ Life Orb
+Ability: Rocky Payload
+Level: 50
+Shiny: Yes
+Tera Type: Rock
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Dual Wingbeat
+- Rock Slide
+- Sucker Punch
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 4 Def / 124 SpD / 164 Spe
+Adamant Nature
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+- U-turn
+
+Regieleki @ Covert Cloak
+Ability: Transistor
+Level: 50
+Tera Type: Ice
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Thunderbolt
+- Tera Blast
+- Electroweb

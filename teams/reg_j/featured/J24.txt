@@ -1,0 +1,67 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Fairy
+EVs: 28 HP / 4 Atk / 84 Def / 164 SpD / 228 Spe
+Impish Nature
+- Wave Crash
+- Body Press
+- Substitute
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Surf
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 244 Def / 252 Spe
+Jolly Nature
+- Spore
+- Follow Me
+- Wide Guard
+- Fake Out
+
+Calyrex-Shadow @ Choice Specs
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Pollen Puff
+- Shadow Ball
+
+Volcanion @ Assault Vest
+Ability: Water Absorb
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 28 Def / 236 SpA / 12 SpD / 28 Spe
+Modest Nature
+- Steam Eruption
+- Heat Wave
+- Tera Blast
+- Earth Power
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 252 Atk / 12 Spe
+Adamant Nature
+- Extreme Speed
+- Low Kick
+- Rock Slide
+- Iron Head

@@ -1,0 +1,67 @@
+Hoopa-Unbound @ White Herb
+Ability: Magician
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 156 Atk / 4 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Hyperspace Fury
+- Zen Headbutt
+- Drain Punch
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Fairy
+EVs: 172 HP / 164 Atk / 4 Def / 4 SpD / 164 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Sacred Sword
+- Protect
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Rage Fist
+- Final Gambit
+- Coaching
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 188 HP / 92 Def / 44 SpA / 4 SpD / 180 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Taunt
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 196 Def / 60 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Clear Smog

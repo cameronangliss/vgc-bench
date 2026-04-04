@@ -1,0 +1,68 @@
+Palafin @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 92 Atk / 4 Def / 12 SpD / 180 Spe
+Adamant Nature
+- Wave Crash
+- Flip Turn
+- Close Combat
+- Ice Punch
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Phantom Force
+- Tera Blast
+- U-turn
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 92 HP / 4 Def / 100 SpA / 60 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump
+- Protect
+
+Armarouge @ Shuca Berry
+Ability: Weak Armor
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 252 SpA / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Heat Wave
+- Clear Smog
+- Protect
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Trick Room
+- Helping Hand

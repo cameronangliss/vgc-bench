@@ -1,0 +1,68 @@
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 92 Def / 4 SpA / 156 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Trick Room
+- Protect
+- Lunar Blessing
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 36 Def / 84 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Giga Drain
+- Heat Wave
+- Quiver Dance
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 4 Atk / 100 Def / 156 SpD / 4 Spe
+Adamant Nature
+- Spirit Break
+- Parting Shot
+- Reflect
+- Light Screen
+
+Gastrodon @ Sitrus Berry
+Ability: Storm Drain
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 124 Def / 20 SpA / 108 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Ice Beam
+- Muddy Water
+- Clear Smog
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 84 Atk / 12 Def / 148 SpD / 12 Spe
+Adamant Nature
+- Earthquake
+- Swords Dance
+- Facade
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 172 HP / 76 Atk / 4 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Wild Charge
+- Fake Out
+- Drain Punch
+- Heavy Slam

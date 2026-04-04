@@ -1,0 +1,68 @@
+Orthworm @ Sitrus Berry
+Ability: Earth Eater
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 4 Atk / 44 Def / 196 SpD / 20 Spe
+Careful Nature
+- Shed Tail
+- Body Press
+- Iron Defense
+- Heavy Slam
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 36 Atk / 4 Def / 220 SpD / 196 Spe
+Adamant Nature
+- Earthquake
+- Ruination
+- Heavy Slam
+- Bulldoze
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 44 HP / 4 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Hydro Pump
+- Freeze-Dry
+- Protect
+
+Dragonite @ Lum Berry
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Dance
+- Tera Blast
+- Earthquake
+- Extreme Speed
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 92 HP / 156 Def / 100 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Dazzling Gleam
+- Moonblast
+- Thunderbolt
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Taunt
+- Heat Wave
+- Dark Pulse
+- Protect

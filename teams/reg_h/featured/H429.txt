@@ -1,0 +1,74 @@
+Sneasler (M) @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Protect
+
+Dragapult (M) @ Choice Band
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Outrage
+- Phantom Force
+- U-turn
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 196 HP / 116 Atk / 20 Def / 76 SpD / 100 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Primarina (M) @ Sitrus Berry
+Ability: Liquid Voice
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 252 HP / 60 Def / 36 SpA / 36 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Electabuzz (M) @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 180 Def / 4 SpA / 68 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Electroweb
+- Follow Me
+- Taunt
+- Protect
+
+Salamence (M) @ Choice Specs
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dragon Pulse
+- Air Slash
+- Heat Wave

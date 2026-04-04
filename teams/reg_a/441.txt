@@ -1,0 +1,68 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 220 Def / 36 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Foul Play
+
+Scovillain @ Leftovers
+Ability: Moody
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 132 Def / 124 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Rage Powder
+- Spicy Extract
+- Flamethrower
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect
+
+Corviknight @ Safety Goggles
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 20 Atk / 4 Def / 20 SpD / 252 Spe
+Adamant Nature
+- Brave Bird
+- Bulk Up
+- Roost
+- Tailwind
+
+Rotom-Wash @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Thunderbolt
+- Trick
+- Volt Switch
+
+Gallade @ Focus Sash
+Ability: Sharpness
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 196 Atk / 52 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Sacred Sword
+- Psycho Cut
+- Will-O-Wisp
+- Trick Room

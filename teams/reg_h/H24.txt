@@ -1,0 +1,70 @@
+Gardevoir @ Choice Specs
+Ability: Telepathy
+Level: 50
+Tera Type: Fairy
+EVs: 76 HP / 60 Def / 132 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 6 Atk
+- Moonblast
+- Expanding Force
+- Dazzling Gleam
+- Thunderbolt
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 76 HP / 252 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+IVs: 8 SpA
+- Flare Blitz
+- Wild Charge
+- Close Combat
+- Extreme Speed
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 6 SpA
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Sludge Bomb
+- Spore
+- Rage Powder
+- Protect
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 244 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 2 Atk
+- Scald
+- Icy Wind
+- Haze
+- Protect
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Trick Room
+- Protect

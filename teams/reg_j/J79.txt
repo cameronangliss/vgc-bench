@@ -1,0 +1,68 @@
+Arceus-Flying @ Sky Plate
+Ability: Multitype
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 4 Def / 252 SpA / 12 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Judgment
+- Recover
+- Trick Room
+- Protect
+
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Flame Charge
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 196 Atk / 60 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Facade
+- Earthquake
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 228 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Brute Bonnet @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 164 Def / 84 Spe
+Impish Nature
+- Seed Bomb
+- Sucker Punch
+- Spore
+- Rage Powder
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 132 Atk / 36 Def / 68 SpD / 28 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn

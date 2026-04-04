@@ -1,0 +1,67 @@
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 116 HP / 156 Atk / 4 Def / 220 SpD / 12 Spe
+Adamant Nature
+- Earthquake
+- Payback
+- Heavy Slam
+- Ruination
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 12 Def / 12 SpA / 12 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 156 Def / 68 SpD / 28 Spe
+Impish Nature
+- Follow Me
+- Super Fang
+- Feint
+- Protect
+
+Gyarados @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Waterfall
+- Iron Head
+- Chilling Water
+- Icy Wind
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 244 Def / 4 SpA / 12 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Pollen Puff
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect

@@ -1,0 +1,69 @@
+Toedscruel @ Covert Cloak
+Ability: Mycelium Might
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 44 Def / 4 SpA / 52 SpD / 196 Spe
+Timid Nature
+IVs: 0 Atk
+- Grass Knot
+- Acid Spray
+- Spore
+- Rage Powder
+
+Weezing-Galar @ Focus Sash
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Ghost
+EVs: 68 HP / 84 Def / 196 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Strange Steam
+- Taunt
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 28 Def / 36 SpA / 84 SpD / 108 Spe
+Modest Nature
+- Tera Blast
+- Icy Wind
+- Recover
+- Trick Room
+
+Miraidon @ Electric Seed
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 140 HP / 220 Def / 124 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Parabolic Charge
+- Dragon Pulse
+- Calm Mind
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 188 Def / 68 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Knock Off
+- U-turn
+- Helping Hand
+- Fake Out
+
+Calyrex-Shadow @ Choice Scarf
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 60 HP / 84 Def / 204 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Snarl
+- Shadow Ball
+- Trick

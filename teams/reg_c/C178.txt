@@ -1,0 +1,65 @@
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Shadow Ball
+- Substitute
+- Moonblast
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 156 Def / 36 SpA / 4 SpD / 76 Spe
+Timid Nature
+- Giga Drain
+- Quiver Dance
+- Protect
+- Heat Wave
+
+Maushold-Four @ Wide Lens
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 68 Atk / 12 Def / 4 SpD / 220 Spe
+Jolly Nature
+- Follow Me
+- Protect
+- Population Bomb
+- Encore
+
+Revavroom @ Clear Amulet
+Ability: Overcoat
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 92 Atk / 12 Def / 76 SpD / 76 Spe
+Adamant Nature
+- Protect
+- Poison Jab
+- Shift Gear
+- Iron Head
+
+Tauros-Paldea-Aqua @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 244 Atk / 4 Def / 12 SpD / 220 Spe
+Jolly Nature
+- Protect
+- Aqua Jet
+- Wave Crash
+- Close Combat
+
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 172 HP / 12 Def / 204 SpA / 28 SpD / 92 Spe
+Modest Nature
+- Snarl
+- Dark Pulse
+- Earth Power
+- Draco Meteor

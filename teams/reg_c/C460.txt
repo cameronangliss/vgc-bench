@@ -1,0 +1,68 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 36 Def / 196 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Thunderbolt
+- Dazzling Gleam
+
+Dragonite @ Lum Berry
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 20 HP / 252 Atk / 4 Def / 4 SpD / 228 Spe
+Jolly Nature
+- Tera Blast
+- Low Kick
+- Extreme Speed
+- Dragon Dance
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
+- Protect
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Nasty Plot
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 236 Atk / 4 Def / 84 SpD / 180 Spe
+Adamant Nature
+- Earthquake
+- Heavy Slam
+- Ruination
+- Stomping Tantrum
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 36 Atk / 4 Def / 92 SpD / 132 Spe
+Adamant Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect

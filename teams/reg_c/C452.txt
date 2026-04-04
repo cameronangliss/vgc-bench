@@ -1,0 +1,68 @@
+Dragapult @ Focus Sash
+Ability: Clear Body
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Thunder Wave
+- Disable
+- Protect
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 100 Def / 180 SpA / 4 SpD / 76 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Protect
+
+Chi-Yu @ Safety Goggles
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 52 Def / 196 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Nasty Plot
+- Protect
+
+Lurantis @ Leftovers
+Ability: Contrary
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 4 Def / 252 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Leaf Storm
+- Pollen Puff
+- Tera Blast
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 140 Def / 116 SpD
+Careful Nature
+- Spirit Break
+- Scary Face
+- Light Screen
+- Reflect
+
+Scizor @ Clear Amulet
+Ability: Technician
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Bullet Punch
+- Close Combat
+- Swords Dance
+- Protect

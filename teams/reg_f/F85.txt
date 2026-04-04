@@ -1,0 +1,65 @@
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 20 Def / 236 SpD
+Sassy Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Helping Hand
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 76 Def / 36 SpA / 4 SpD / 140 Spe
+Modest Nature
+- Flamethrower
+- Quiver Dance
+- Giga Drain
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 252 Atk / 4 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 204 Def / 60 SpA / 4 SpD / 124 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 76 SpD
+Calm Nature
+- Spore
+- Pollen Puff
+- Rage Powder
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 76 Atk / 4 Def / 252 SpD / 172 Spe
+Adamant Nature
+- Fake Out
+- Wild Charge
+- Heavy Slam
+- Drain Punch

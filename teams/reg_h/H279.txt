@@ -1,0 +1,65 @@
+Dragonite @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Stomping Tantrum
+- Extreme Speed
+- Ice Spinner
+- Tera Blast
+
+Clefable @ Safety Goggles
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Moonblast
+- Protect
+- Helping Hand
+- Follow Me
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 12 SpD / 252 Spe
+Adamant Nature
+- Earthquake
+- Wave Crash
+- Protect
+- Order Up
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Coaching
+- U-turn
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Protect
+- Sucker Punch
+- Iron Head
+- Kowtow Cleave
+
+Tatsugiri @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Draco Meteor
+- Protect
+- Taunt
+- Muddy Water

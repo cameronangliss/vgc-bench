@@ -1,0 +1,67 @@
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Def / 60 SpD
+Bold Nature
+IVs: 3 Atk / 27 Spe
+- Protect
+- Pollen Puff
+- Rage Powder
+- Spore
+
+Gothitelle @ Kasib Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 156 Def / 100 SpD
+Calm Nature
+- Psychic
+- Fake Out
+- Taunt
+- Trick Room
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 68 Atk / 4 Def / 4 SpD / 196 Spe
+Adamant Nature
+- Protect
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 116 HP / 52 Atk / 28 Def / 252 SpD / 60 Spe
+Careful Nature
+- Drain Punch
+- Thunder Punch
+- Fake Out
+- Belly Drum
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 220 Atk / 12 Def / 20 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Acrobatics
+- Dragon Dance
+- Substitute
+
+Iron Bundle @ Expert Belt
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 156 HP / 100 Def / 252 Spe
+Timid Nature
+IVs: 1 Atk
+- Protect
+- Chilling Water
+- Freeze-Dry
+- Encore

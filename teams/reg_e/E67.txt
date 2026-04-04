@@ -1,0 +1,68 @@
+Okidogi @ Assault Vest
+Ability: Guard Dog
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 172 Atk / 4 Def / 140 SpD / 20 Spe
+Adamant Nature
+- Gunk Shot
+- Ice Punch
+- Knock Off
+- Drain Punch
+
+Glastrier @ Clear Amulet
+Ability: Chilling Neigh
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 28 Atk / 116 Def / 156 SpD / 4 Spe
+Careful Nature
+- Icicle Crash
+- Heavy Slam
+- Protect
+- Stomping Tantrum
+
+Landorus-Therian @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 132 HP / 116 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Stomping Tantrum
+- Tera Blast
+- U-turn
+- Protect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Taunt
+- Tailwind
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 124 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk / 23 Spe
+- Protect
+- Rage Powder
+- Pollen Puff
+- Spore
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 252 Def / 116 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Overheat
+- Heat Wave
+- Snarl

@@ -1,0 +1,68 @@
+Overqwil @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 36 HP / 252 Atk / 220 Spe
+Adamant Nature
+- Poison Jab
+- Liquidation
+- Throat Chop
+- Protect
+
+Orthworm @ Leftovers
+Ability: Earth Eater
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Body Press
+- Iron Defense
+- Heavy Slam
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 28 HP / 4 Def / 252 SpA / 20 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Wide Guard
+- Tailwind
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 204 Def / 52 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Rage Powder
+- Spore
+- Clear Smog
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 SpA / 180 SpD
+Modest Nature
+IVs: 0 Atk
+- Body Press
+- Flash Cannon
+- Electro Shot
+- Draco Meteor
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 84 HP / 172 Atk / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Protect
+- Stomping Tantrum
+- Earthquake

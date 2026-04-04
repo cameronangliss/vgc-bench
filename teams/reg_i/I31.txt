@@ -1,0 +1,67 @@
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 116 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Collision Course
+- Flame Charge
+- Protect
+
+Ogerpon-Cornerstone @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Spiky Shield
+- Follow Me
+
+Calyrex-Shadow @ Spell Tag
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 100 HP / 36 Def / 116 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Nasty Plot
+- Psychic
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Grass
+EVs: 12 HP / 244 Def / 252 Spe
+Jolly Nature
+IVs: 0 Atk
+- Spore
+- Follow Me
+- Wide Guard
+- Spiky Shield
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 4 Atk / 188 Def / 60 SpD / 12 Spe
+Impish Nature
+- Knock Off
+- Parting Shot
+- Fake Out
+- Flare Blitz
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 36 Atk / 4 Def / 220 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Fake Out
+- U-turn
+- Grassy Glide

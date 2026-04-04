@@ -1,0 +1,66 @@
+Garganacl @ Sitrus Berry
+Ability: Purifying Salt
+Level: 50
+Tera Type: Poison
+EVs: 196 HP / 76 Def / 236 SpD
+Careful Nature
+- Salt Cure
+- Recover
+- Wide Guard
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 212 Def / 4 SpA / 44 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Dondozo @ Safety Goggles
+Ability: Unaware
+Level: 50
+Tera Type: Dragon
+EVs: 196 HP / 156 Atk / 36 Def / 116 SpD / 4 Spe
+Careful Nature
+- Wave Crash
+- Fissure
+- Yawn
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 196 Def / 60 SpD
+Careful Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 116 HP / 116 Atk / 4 Def / 156 SpD / 116 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 92 HP / 76 Atk / 180 Def / 156 SpD / 4 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Sand Tomb

@@ -1,0 +1,68 @@
+Lokix @ Safety Goggles
+Ability: Tinted Lens
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- X-Scissor
+- Swords Dance
+- Throat Chop
+- Protect
+
+Venonat @ Eviolite
+Ability: Compound Eyes
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 164 Def / 92 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Sleep Powder
+- Rage Powder
+- Toxic
+- Morning Sun
+
+Araquanid @ Mystic Water
+Ability: Water Bubble
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Atk / 20 Def
+Adamant Nature
+- Liquidation
+- Leech Life
+- Wide Guard
+- Protect
+
+Ribombee @ Focus Sash
+Ability: Shield Dust
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sunny Day
+- Tailwind
+- Moonblast
+- Fake Tears
+
+Volcarona @ Choice Specs
+Ability: Flame Body
+Level: 50
+Tera Type: Fire
+EVs: 20 HP / 252 SpA / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Fiery Dance
+- Heat Wave
+- Overheat
+- Bug Buzz
+
+Kleavor @ Assault Vest
+Ability: Sharpness
+Level: 50
+Tera Type: Water
+EVs: 68 HP / 252 Atk / 188 Spe
+Adamant Nature
+- Stone Axe
+- X-Scissor
+- Rock Blast
+- Aerial Ace

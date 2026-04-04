@@ -1,0 +1,70 @@
+Torkoal (F) @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 6 SpD
+Quiet Nature
+IVs: 30 Atk / 0 Spe
+- Heat Wave
+- Eruption
+- Helping Hand
+- Protect
+
+Walking Wake @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 38 HP / 4 Def / 220 SpA / 12 SpD / 236 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Steam
+- Draco Meteor
+- Flamethrower
+- Protect
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 6 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Spiky Shield
+- Follow Me
+- Wood Hammer
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 180 HP / 100 SpA / 230 SpD
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Snarl
+- Thunderbolt
+- Draco Meteor
+
+Farigiraf (F) @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 156 Def / 110 SpD
+Bold Nature
+- Trick Room
+- Helping Hand
+- Protect
+- Dazzling Gleam
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 92 HP / 110 Def / 52 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 2 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Misty Terrain
+- Moonblast

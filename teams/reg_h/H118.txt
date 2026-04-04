@@ -1,0 +1,67 @@
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Encore
+- Aurora Veil
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 92 Atk / 4 Def / 124 SpD / 164 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Yawn
+- Protect
+
+Tatsugiri @ Safety Goggles
+Ability: Commander
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Dragon Pulse
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Aerial Ace
+- Earthquake
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Power Gem
+- Mortal Spin
+- Earth Power
+- Spiky Shield
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 116 Atk / 68 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out

@@ -1,0 +1,65 @@
+Scizor (M) @ Choice Band
+Ability: Technician
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Bullet Punch
+- Quick Attack
+- Aerial Ace
+- U-turn
+
+Amoonguss (F) @ Iron Ball
+Ability: Effect Spore
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Foul Play
+- Substitute
+
+Baxcalibur (F) @ Assault Vest
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Glaive Rush
+- Iron Head
+- Ice Shard
+- Icicle Crash
+
+Mimikyu (F) @ Mental Herb
+Ability: Disguise
+Level: 50
+Tera Type: Fairy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Shadow Sneak
+- Will-O-Wisp
+- Play Rough
+- Taunt
+
+Palafin (F) @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flip Turn
+- Wave Crash
+- Ice Punch
+- Close Combat
+
+Coalossal (F) @ Weakness Policy
+Ability: Steam Engine
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+- Heat Wave
+- Earth Power
+- Rock Slide
+- Protect

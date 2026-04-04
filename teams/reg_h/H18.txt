@@ -1,0 +1,67 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 60 Def / 52 SpA / 44 SpD / 116 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 36 SpA / 152 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Electro Shot
+- Flash Cannon
+- Body Press
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 36 Def / 156 SpD / 76 Spe
+Careful Nature
+- Fake Out
+- Parting Shot
+- Knock Off
+- Will-O-Wisp
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 108 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Protect
+- Pollen Puff
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 204 Def / 76 SpD
+Careful Nature
+- Parting Shot
+- Light Screen
+- Reflect
+- Spirit Break

@@ -1,0 +1,69 @@
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 4 Def / 180 SpA / 44 SpD / 68 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Dragon Pulse
+- Thunderclap
+- Weather Ball
+
+Gouging Fire @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 36 HP / 252 Atk / 4 Def / 4 SpD / 212 Spe
+Adamant Nature
+- Flare Blitz
+- Breaking Swipe
+- Double Kick
+- Heat Crash
+
+Walking Wake @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 20 Atk
+- Hydro Steam
+- Draco Meteor
+- Tera Blast
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Sunny Day
+- Protect
+
+Corviknight @ Safety Goggles
+Ability: Mirror Armor
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 196 Def / 60 Spe
+Impish Nature
+- Iron Head
+- Body Press
+- Iron Defense
+- Roost
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Clear Smog
+- Protect

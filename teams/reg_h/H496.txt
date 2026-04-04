@@ -1,0 +1,68 @@
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Foul Play
+- Tailwind
+- Haze
+- Taunt
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Protect
+- Stomping Tantrum
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Fiery Dance
+- Struggle Bug
+- Protect
+- Rage Powder
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 252 Atk / 4 Def / 12 SpD / 100 Spe
+Adamant Nature
+IVs: 16 SpA
+- Grassy Glide
+- Wood Hammer
+- Fake Out
+- U-turn
+
+Palafin @ Choice Band
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+IVs: 16 SpA
+- Jet Punch
+- Wave Crash
+- Close Combat
+- Flip Turn
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Power Gem

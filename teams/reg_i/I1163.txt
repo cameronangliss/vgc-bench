@@ -1,0 +1,68 @@
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 140 Def / 60 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Taunt
+- Tailwind
+- Protect
+
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 172 Atk / 4 Def / 52 SpD / 28 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- High Horsepower
+- Protect
+
+Lunala @ Bright Powder
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 92 Def / 252 SpA / 12 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Wide Guard
+- Trick Room
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 20 Def / 252 SpA / 84 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Rising Voltage
+- Draco Meteor
+- Volt Switch
+- Thunderclap
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+- Decorate
+- Spore
+- Follow Me
+- Fake Out
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 92 Atk / 12 Def / 68 SpD / 84 Spe
+Adamant Nature
+- Ivy Cudgel
+- Bullet Seed
+- Follow Me
+- Spiky Shield

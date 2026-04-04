@@ -1,0 +1,69 @@
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 212 SpA / 36 SpD / 4 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Quick Attack
+- Helping Hand
+
+Dondozo @ Life Orb
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Surf
+- Hydro Pump
+- Hyper Beam
+- Protect
+
+Tatsugiri-Droopy @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Dragon Cheer
+- Rain Dance
+
+Kingdra @ Choice Specs
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Weather Ball
+- Draco Meteor
+- Surf
+- Hurricane
+
+Archaludon @ Safety Goggles
+Ability: Sturdy
+Level: 50
+Tera Type: Electric
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 26 SpA
+- Tera Blast
+- Outrage
+- Extreme Speed
+- Earthquake

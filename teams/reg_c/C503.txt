@@ -1,0 +1,68 @@
+Garchomp @ Choice Band
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Outrage
+- Tera Blast
+- Rock Slide
+
+Talonflame @ Rocky Helmet
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 60 Atk / 172 Def / 20 SpD / 4 Spe
+Impish Nature
+- Brave Bird
+- Will-O-Wisp
+- Tailwind
+- Protect
+
+Flutter Mane @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 124 Def / 252 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Mystical Fire
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Blizzard
+- Hydro Pump
+- Freeze-Dry
+- Aurora Veil
+
+Abomasnow @ Choice Specs
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 4 Def / 252 SpA / 4 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Leaf Storm
+- Tera Blast
+- Earth Power
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect

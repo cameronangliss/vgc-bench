@@ -1,0 +1,70 @@
+Arcanine (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 78 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+IVs: 30 SpA
+- Protect
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 6 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Mystical Fire
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 12 HP / 204 Atk / 4 Def / 198 SpD / 92 Spe
+Adamant Nature
+- Fake Out
+- Wild Charge
+- Drain Punch
+- Iron Head
+
+Iron Bundle @ Covert Cloak
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 252 SpA / 6 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind
+
+Lycanroc (M) @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Ghost
+EVs: 6 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 30 SpA
+- Protect
+- Rock Slide
+- Close Combat
+- Psychic Fangs
+
+Tyranitar (M) @ Clear Amulet
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 206 HP / 220 Atk / 20 Def / 12 SpD / 52 Spe
+Adamant Nature
+IVs: 30 SpA
+- Protect
+- Rock Slide
+- Assurance
+- Tera Blast

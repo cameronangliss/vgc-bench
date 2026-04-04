@@ -1,0 +1,67 @@
+Landorus-Therian @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 36 Atk / 84 Def / 68 SpD / 68 Spe
+Adamant Nature
+- Stomping Tantrum
+- Tera Blast
+- U-turn
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 196 Atk / 4 Def / 84 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Protect
+- Taunt
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 140 Def / 132 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Dazzling Gleam
+- Moonblast
+- Energy Ball
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 188 Def / 4 SpA / 60 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 212 Atk / 12 Def / 140 SpD / 60 Spe
+Adamant Nature
+- Wild Charge
+- Volt Switch
+- Drain Punch
+- Fake Out

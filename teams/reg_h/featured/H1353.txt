@@ -1,0 +1,69 @@
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Sunny Day
+- Encore
+
+Typhlosion-Hisui @ Choice Specs
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 20 Def / 252 SpA / 4 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Eruption
+- Overheat
+- Shadow Ball
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 180 Def / 76 SpA / 28 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Trick Room
+- Hyper Voice
+- Psychic
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 20 Def / 228 SpA / 12 SpD / 244 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Hyper Voice
+- Blood Moon
+- Earth Power
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 124 Atk / 12 Def / 44 SpD / 76 Spe
+Adamant Nature
+- U-turn
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 36 Atk / 4 Def / 108 SpD / 108 Spe
+Adamant Nature
+- Parting Shot
+- Knock Off
+- Flare Blitz
+- Fake Out

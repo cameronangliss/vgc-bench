@@ -1,0 +1,68 @@
+Articuno @ Choice Specs
+Ability: Snow Cloak
+Level: 50
+Tera Type: Ice
+EVs: 252 HP / 12 Def / 124 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Ice Beam
+- Freeze-Dry
+- Sheer Cold
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 84 HP / 132 Def / 76 SpA / 4 SpD / 212 Spe
+Timid Nature
+- Blizzard
+- Moonblast
+- Aurora Veil
+- Helping Hand
+
+Lycanroc @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Shiny: Yes
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Close Combat
+- Protect
+- Accelerock
+
+Tyranitar @ Clear Amulet
+Ability: Sand Stream
+Level: 50
+Tera Type: Grass
+EVs: 44 HP / 204 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Protect
+- Tera Blast
+
+Dondozo (M) @ Rocky Helmet
+Ability: Unaware
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 148 Atk / 4 Def / 100 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Order Up
+- Earthquake
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 20 HP / 4 Def / 252 SpA / 4 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dragon Pulse
+- Muddy Water
+- Icy Wind

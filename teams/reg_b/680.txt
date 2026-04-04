@@ -1,0 +1,71 @@
+Pelipper (M) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Twister
+- Wide Guard
+- Hurricane
+- Hydro Pump
+
+Drednaw (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Liquidation
+- Rock Slide
+- Ice Spinner
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Steel Beam
+- Shadow Ball
+- Power Gem
+
+Amoonguss (M) @ Aguav Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 116 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 6 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Pollen Puff
+
+Iron Valiant @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Close Combat
+- Spirit Break
+- Icy Wind
+
+Sableye (F) @ Roseli Berry
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Fake Out
+- Rain Dance
+- Will-O-Wisp
+- Foul Play

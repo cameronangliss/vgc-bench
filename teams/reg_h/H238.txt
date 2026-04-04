@@ -1,0 +1,67 @@
+Murkrow @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+- Brave Bird
+- Night Shade
+- Tailwind
+- Haze
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 188 Def / 52 SpA / 28 Spe
+Modest Nature
+IVs: 10 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 164 HP / 4 Def / 196 SpA / 132 SpD / 12 Spe
+Modest Nature
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+- Hyper Voice
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Electro Shot
+- Draco Meteor
+- Protect
+- Flash Cannon
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 244 Atk / 252 Spe
+Jolly Nature
+- Tera Blast
+- Scale Shot
+- Extreme Speed
+- Protect
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 108 HP / 252 Atk / 148 Spe
+Adamant Nature
+IVs: 18 SpA
+- Protect
+- Low Kick
+- Kowtow Cleave
+- Sucker Punch

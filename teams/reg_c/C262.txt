@@ -1,0 +1,68 @@
+Azumarill @ Assault Vest
+Ability: Huge Power
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 252 Atk / 4 Def / 12 SpD / 20 Spe
+Adamant Nature
+- Aqua Jet
+- Liquidation
+- Play Rough
+- Tera Blast
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 196 Def / 148 SpA / 12 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Energy Ball
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 36 HP / 52 Def / 196 SpA / 4 SpD / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Snarl
+- Heat Wave
+- Tera Blast
+
+Gholdengo @ Air Balloon
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 4 Def / 212 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Nasty Plot
+- Make It Rain
+- Power Gem
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Haze
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+
+Maushold-Four @ Sitrus Berry
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 180 Def / 68 SpD / 12 Spe
+Impish Nature
+- Protect
+- Super Fang
+- Follow Me
+- Feint

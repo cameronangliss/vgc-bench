@@ -1,0 +1,67 @@
+Wugtrio @ Choice Band
+Ability: Sand Veil
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Triple Dive
+- Aqua Jet
+- Sucker Punch
+- Throat Chop
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 124 Atk / 12 Def / 12 SpD / 108 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Low Kick
+
+Garchomp @ Clear Amulet
+Ability: Sand Veil
+Level: 50
+Tera Type: Fairy
+EVs: 76 HP / 28 Atk / 12 Def / 140 SpD / 252 Spe
+Jolly Nature
+- Stomping Tantrum
+- Dragon Claw
+- Swords Dance
+- Protect
+
+Mandibuzz @ Sitrus Berry
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 60 Def / 196 SpD
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Taunt
+- Roost
+- Tailwind
+
+Indeedee (M) @ Choice Scarf
+Ability: Psychic Surge
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Hyper Voice
+- Psychic
+- Trick
+
+Delphox @ Psychic Seed
+Ability: Magician
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Heat Wave
+- Expanding Force
+- Tera Blast
+- Protect

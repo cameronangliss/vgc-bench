@@ -1,0 +1,70 @@
+Typhlosion-Hisui @ Charcoal
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Eruption
+- Heat Wave
+- Shadow Ball
+- Protect
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 4 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Moonblast
+- Sunny Day
+- Encore
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 52 Def / 108 SpA / 28 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Hyper Voice
+- Haze
+- Protect
+
+Meowscarada @ Focus Sash
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- U-turn
+- Protect
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 156 Def / 124 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic Noise
+- Hyper Voice
+- Helping Hand
+- Trick Room

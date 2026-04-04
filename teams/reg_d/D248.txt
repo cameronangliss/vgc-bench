@@ -1,0 +1,67 @@
+Brambleghast @ Rocky Helmet
+Ability: Wind Rider
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Power Whip
+- Shadow Sneak
+- Strength Sap
+- Protect
+
+Urshifu @ Dread Plate
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Detect
+
+Arcanine-Hisui @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Will-O-Wisp
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 84 Def / 4 SpA / 28 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Taunt
+- Tailwind
+- Leer
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 252 Def / 100 SpA / 4 SpD / 4 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 76 HP / 132 Atk / 4 Def / 172 SpD / 124 Spe
+Adamant Nature
+- Drain Punch
+- Thunder Punch
+- Heavy Slam
+- Fake Out

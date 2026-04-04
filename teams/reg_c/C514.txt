@@ -1,0 +1,70 @@
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Icy Wind
+- Encore
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 228 Atk / 4 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Extreme Speed
+- Stomping Tantrum
+- Rock Slide
+- Aqua Jet
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 60 Def / 4 SpA / 52 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+- Overheat
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 228 HP / 84 Def / 36 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Trick Room
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 108 Atk / 4 Def / 252 SpD / 68 Spe
+Adamant Nature
+- Thunder Punch
+- Drain Punch
+- Heavy Slam
+- Fake Out
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk / 3 Spe
+- Rage Powder
+- Pollen Puff
+- Protect
+- Spore

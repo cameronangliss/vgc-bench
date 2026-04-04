@@ -1,0 +1,68 @@
+Lapras (F) @ Leftovers
+Ability: Water Absorb
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 36 Def / 92 SpA / 36 SpD / 92 Spe
+Calm Nature
+IVs: 0 Atk
+- Perish Song
+- Protect
+- Freeze-Dry
+- Muddy Water
+
+Incineroar (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 92 Def / 156 SpD / 20 Spe
+Careful Nature
+- Fake Out
+- Knock Off
+- Parting Shot
+- Flare Blitz
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 148 Atk / 12 Def / 44 SpD / 52 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Knock Off
+- U-turn
+
+Gothitelle (F) @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 124 Def / 132 SpD
+Calm Nature
+IVs: 0 Atk
+- Fake Out
+- Protect
+- Psychic
+- Trick Room
+
+Annihilape (M) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Final Gambit
+- U-turn
+- Shadow Claw
+- Close Combat
+
+Kingambit (M) @ Black Glasses
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+- Iron Head

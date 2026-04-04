@@ -1,0 +1,66 @@
+Dondozo (F) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 116 HP / 172 Atk / 220 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Earthquake
+- Substitute
+
+Arcanine (M) @ Choice Band
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 156 HP / 156 Atk / 4 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Flare Blitz
+- Psychic Fangs
+- Extreme Speed
+- Close Combat
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Trick
+- Make It Rain
+- Shadow Ball
+- Power Gem
+
+Tatsugiri (M) @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Protect
+
+Sylveon (M) @ Babiri Berry
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 4 Atk / 252 Def / 84 SpA / 4 SpD
+Quiet Nature
+- Tera Blast
+- Hyper Voice
+- Quick Attack
+- Detect
+
+Meowscarada (M) @ Life Orb
+Ability: Overgrow
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Knock Off
+- Flower Trick
+- Protect

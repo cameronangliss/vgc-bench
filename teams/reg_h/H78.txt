@@ -1,0 +1,72 @@
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 212 Def / 44 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Follow Me
+- Helping Hand
+- Psychic
+- Trick Room
+
+Hatterene @ Life Orb
+Ability: Magic Bounce
+Level: 50
+Tera Type: Fire
+EVs: 84 HP / 116 Def / 252 SpA / 52 SpD
+Quiet Nature
+IVs: 0 Spe
+- Expanding Force
+- Dazzling Gleam
+- Trick Room
+- Mystical Fire
+
+Gallade @ Scope Lens
+Ability: Sharpness
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 252 Atk / 60 Def / 92 SpD
+Brave Nature
+IVs: 0 Spe
+- Sacred Sword
+- Psycho Cut
+- Trick Room
+- Wide Guard
+
+Araquanid @ Clear Amulet
+Ability: Water Bubble
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 252 Atk / 140 Def
+Brave Nature
+IVs: 0 Spe
+- Liquidation
+- Leech Life
+- Wide Guard
+- Protect
+
+Pelipper @ Mystic Water
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 116 HP / 4 Def / 252 SpA / 100 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 196 HP / 76 Def / 60 SpA / 140 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Body Press

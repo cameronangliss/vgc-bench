@@ -1,0 +1,70 @@
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 20 Def / 132 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tera Blast
+- Dark Pulse
+- Heat Wave
+- Overheat
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 60 HP / 132 Def / 180 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+
+Iron Hands @ Safety Goggles
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 36 HP / 156 Atk / 60 Def / 204 SpD / 52 Spe
+Adamant Nature
+- Detect
+- Swords Dance
+- Drain Punch
+- Wild Charge
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 204 HP / 4 Atk / 36 Def / 212 SpD / 52 Spe
+Careful Nature
+- Waterfall
+- Iron Head
+- Thunder Wave
+- Taunt
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 188 Def / 76 SpD
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 148 Atk / 4 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Stomping Tantrum
+- Ruination
+- Heavy Slam
+- Earthquake

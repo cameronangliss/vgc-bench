@@ -1,0 +1,70 @@
+Zoroark-Hisui @ Focus Sash
+Ability: Illusion
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bitter Malice
+- Hyper Voice
+- Burning Jealousy
+- Protect
+
+Dialga-Origin @ Adamant Crystal
+Ability: Telepathy
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 236 SpA / 20 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Flash Cannon
+- Draco Meteor
+- Earth Power
+- Trick Room
+
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 196 Atk / 60 SpD
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Blaze
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 28 Spe
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 108 HP / 244 Atk / 156 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 68 Atk / 28 Def / 92 SpD / 68 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield

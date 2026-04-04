@@ -1,0 +1,68 @@
+Weezing-Galar @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 SpD / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Poison Gas
+- Toxic Spikes
+- Protect
+
+Brute Bonnet @ Mental Herb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 Spe
+Impish Nature
+- Seed Bomb
+- Sucker Punch
+- Spore
+- Rage Powder
+
+Arceus @ Throat Spray
+Ability: Multitype
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 164 SpA / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Fire Blast
+- Snarl
+- Protect
+
+Koraidon @ Ability Shield
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Flame Charge
+- Flare Blitz
+- Collision Course
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 196 Atk / 4 Def / 44 SpD / 20 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Hex
+- Thunder Wave
+- Protect

@@ -1,0 +1,68 @@
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Def / 4 SpA / 132 SpD / 4 Spe
+Bold Nature
+- Moonblast
+- Tailwind
+- Encore
+- Fake Tears
+
+Archaludon @ Power Herb
+Ability: Stalwart
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 12 Def / 116 SpA / 28 SpD / 204 Spe
+Modest Nature
+IVs: 6 Atk
+- Dragon Pulse
+- Electro Shot
+- Thunderbolt
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 12 Def / 44 SpD / 84 Spe
+Adamant Nature
+- Flare Blitz
+- Fake Out
+- Knock Off
+- U-turn
+
+Annihilape (M) @ Focus Sash
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 14 SpA
+- Close Combat
+- Rage Fist
+- Coaching
+- Taunt
+
+Dragonite (F) @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Scale Shot
+- Extreme Speed
+- Haze
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 19 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Trick

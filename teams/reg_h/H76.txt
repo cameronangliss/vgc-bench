@@ -1,0 +1,68 @@
+Salamence @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 252 Spe
+Timid Nature
+- Hurricane
+- Draco Meteor
+- Tera Blast
+- Tailwind
+
+Arcanine-Hisui @ Choice Band
+Ability: Rock Head
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Flare Blitz
+- Head Smash
+- Extreme Speed
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 92 Atk / 12 Def / 132 SpD / 76 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Overqwil @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Poison
+EVs: 12 HP / 252 Atk / 36 Def / 4 SpD / 204 Spe
+Jolly Nature
+- Poison Jab
+- Throat Chop
+- Haze
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Wide Guard
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 196 HP / 76 Def / 60 SpA / 140 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Body Press

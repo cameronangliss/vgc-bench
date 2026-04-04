@@ -1,0 +1,71 @@
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Arboliva @ Sitrus Berry
+Ability: Harvest
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 148 Def / 116 SpA
+Quiet Nature
+IVs: 0 Atk / 10 Spe
+- Hyper Voice
+- Earth Power
+- Pollen Puff
+- Strength Sap
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 252 SpA / 92 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Solar Beam
+- Protect
+
+Sylveon @ Choice Specs
+Ability: Pixilate
+Level: 50
+Tera Type: Grass
+EVs: 92 HP / 164 Def / 252 SpA
+Quiet Nature
+IVs: 0 Spe
+- Hyper Voice
+- Hyper Beam
+- Tera Blast
+- Quick Attack
+
+Stantler @ Eviolite
+Ability: Intimidate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 172 Def / 84 SpD
+Relaxed Nature
+IVs: 0 Atk / 6 Spe
+- Helping Hand
+- Hypnosis
+- Reflect
+- Trick Room
+
+Garganacl @ Hard Stone
+Ability: Purifying Salt
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 252 Atk / 36 SpD
+Brave Nature
+IVs: 16 Spe
+- Stone Edge
+- Rock Slide
+- Rock Blast
+- Earthquake

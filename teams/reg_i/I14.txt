@@ -1,0 +1,67 @@
+Ho-Oh @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Sacred Fire
+- Recover
+- Whirlwind
+- Protect
+
+Eternatus @ Black Sludge
+Ability: Pressure
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 108 Def / 4 SpA / 116 SpD / 28 Spe
+Calm Nature
+IVs: 0 Atk
+- Dynamax Cannon
+- Recover
+- Toxic Spikes
+- Protect
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 164 Def / 92 SpD
+Impish Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 36 Def / 212 SpD
+Impish Nature
+- Ruination
+- Body Press
+- Throat Chop
+- Stomping Tantrum
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 4 Atk / 196 Def / 188 SpD / 4 Spe
+Impish Nature
+- Protect
+- Order Up
+- Body Press
+- Heavy Slam
+
+Tatsugiri-Droopy @ Safety Goggles
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Taunt
+- Protect

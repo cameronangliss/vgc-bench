@@ -1,0 +1,70 @@
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 124 Def / 12 SpA / 116 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Moonblast
+- Trick Room
+- Lunar Blessing
+- Thunderbolt
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ground
+EVs: 132 HP / 252 Atk / 60 Def / 60 SpD
+Brave Nature
+- Protect
+- Earthquake
+- Facade
+- Rock Slide
+
+Bronzong @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 140 Def / 116 SpD
+Sassy Nature
+IVs: 0 Spe
+- Trick Room
+- Gyro Ball
+- Safeguard
+- Protect
+
+Abomasnow @ Weakness Policy
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Def / 220 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Giga Drain
+- Blizzard
+- Earth Power
+- Aurora Veil
+
+Glastrier @ Life Orb
+Ability: Chilling Neigh
+Level: 50
+Tera Type: Ice
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Icicle Crash
+- Stomping Tantrum
+- Heavy Slam
+- Swords Dance
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Flying
+EVs: 84 HP / 252 Atk / 92 Def / 76 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Wild Charge
+- Volt Switch
+- Fake Out

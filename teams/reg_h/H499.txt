@@ -1,0 +1,65 @@
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Coaching
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 252 Atk / 52 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Tera Blast
+- Extreme Speed
+- Scale Shot
+- Protect
+
+Primarina @ Sitrus Berry
+Ability: Liquid Voice
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 28 Def / 28 SpA / 4 SpD / 196 Spe
+Modest Nature
+- Moonblast
+- Hyper Voice
+- Haze
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 60 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- High Horsepower
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 196 Def / 4 SpA / 28 SpD / 28 Spe
+Calm Nature
+- Protect
+- Follow Me
+- Taunt
+- Electroweb

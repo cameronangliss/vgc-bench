@@ -1,0 +1,69 @@
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 108 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Protect
+- Encore
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 8 Spe
+- Pollen Puff
+- Rage Powder
+- Protect
+- Spore
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Swords Dance
+- Protect
+
+Hydreigon (M) @ Scope Lens
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Heat Wave
+- Focus Energy
+- Protect
+
+Murkrow (M) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+IVs: 0 Atk
+- Tailwind
+- Torment
+- Foul Play
+- Haze
+
+Gholdengo @ Sitrus Berry
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 100 HP / 12 Def / 236 SpA / 12 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

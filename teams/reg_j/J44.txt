@@ -1,0 +1,70 @@
+Arceus @ Leftovers
+Ability: Multitype
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 172 Def / 4 SpA / 76 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Judgment
+- Perish Song
+- Recover
+- Protect
+
+Calyrex-Shadow @ Bright Powder
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Weezing-Galar @ Black Sludge
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Will-O-Wisp
+- Substitute
+- Protect
+
+Incineroar @ Eject Button
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 172 Def / 76 SpD / 4 Spe
+Impish Nature
+- Knock Off
+- Parting Shot
+- Will-O-Wisp
+- Fake Out
+
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 196 Def / 60 SpD
+Bold Nature
+IVs: 14 Atk / 4 Spe
+- Foul Play
+- Fake Out
+- Substitute
+- Protect
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 116 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk
+- Protect
+- Pollen Puff
+- Spore
+- Synthesis

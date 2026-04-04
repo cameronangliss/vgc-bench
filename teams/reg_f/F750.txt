@@ -1,0 +1,69 @@
+Regice @ Choice Specs
+Ability: Ice Body
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 116 Def / 196 SpA
+Quiet Nature
+IVs: 0 Atk / 26 Spe
+- Blizzard
+- Ice Beam
+- Thunderbolt
+- Sleep Talk
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 124 HP / 44 Def / 84 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Aurora Veil
+- Encore
+- Protect
+
+Registeel @ Leftovers
+Ability: Clear Body
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 236 Def / 108 SpD
+Relaxed Nature
+IVs: 10 Spe
+- Body Press
+- Heavy Slam
+- Iron Defense
+- Protect
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 148 Def / 108 SpD
+Sassy Nature
+IVs: 0 Atk / 4 Spe
+- Psychic
+- Lunar Blessing
+- Trick Room
+- Helping Hand
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 108 Atk / 204 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Bug
+EVs: 100 HP / 156 SpA / 252 SpD
+Modest Nature
+- Power Gem
+- Sludge Bomb
+- Mortal Spin
+- Earth Power

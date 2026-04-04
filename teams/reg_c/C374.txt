@@ -1,0 +1,69 @@
+Roaring Moon @ Loaded Dice
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 20 HP / 52 Atk / 188 Def / 4 SpD / 244 Spe
+Adamant Nature
+- Scale Shot
+- Iron Head
+- Substitute
+- Dragon Dance
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Freeze-Dry
+- Encore
+- Substitute
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Overheat
+- Nasty Plot
+- Tera Blast
+
+Mimikyu @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Play Rough
+- Shadow Claw
+- Shadow Sneak
+- Curse
+
+Rotom-Wash @ Leftovers
+Ability: Levitate
+Level: 50
+Tera Type: Ghost
+EVs: 124 HP / 252 SpA / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Stored Power
+- Nasty Plot
+- Substitute
+
+Amoonguss @ Eject Pack
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Leaf Storm
+- Clear Smog
+- Toxic
+- Spore

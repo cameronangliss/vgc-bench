@@ -1,0 +1,69 @@
+Hydreigon (F) @ Covert Cloak
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 60 HP / 20 Def / 252 SpA / 28 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Tailwind
+- Protect
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Encore
+- Protect
+
+Skeledirge (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 244 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Torch Song
+- Shadow Ball
+- Substitute
+- Protect
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Sucker Punch
+- Knock Off
+- Protect
+
+Toxtricity-Low-Key (F) @ Life Orb
+Ability: Punk Rock
+Level: 50
+Tera Type: Normal
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Overdrive
+- Boomburst
+- Sludge Bomb
+- Protect
+
+Amoonguss (M) @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 204 Def / 52 SpD
+Relaxed Nature
+IVs: 0 Atk / 14 Spe
+- Clear Smog
+- Spore
+- Rage Powder
+- Protect

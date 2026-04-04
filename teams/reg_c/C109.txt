@@ -1,0 +1,68 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 68 Def / 36 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Dazzling Gleam
+- Icy Wind
+- Protect
+
+Chi-Yu @ Sitrus Berry
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 68 Def / 116 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Heat Wave
+- Tera Blast
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 100 HP / 204 Atk / 204 Spe
+Adamant Nature
+- Dragon Claw
+- Rock Slide
+- Tera Blast
+- Extreme Speed
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Wave Crash
+- Body Press
+- Yawn
+- Protect
+
+Tatsugiri-Stretchy @ Choice Specs
+Ability: Storm Drain
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Tera Blast
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Power Gem
+- Mortal Spin
+- Earth Power
+- Spiky Shield

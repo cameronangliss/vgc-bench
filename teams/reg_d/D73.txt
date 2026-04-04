@@ -1,0 +1,68 @@
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Icy Wind
+- Encore
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 20 HP / 252 Atk / 236 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Earthquake
+- Order Up
+
+Zoroark-Hisui @ Focus Sash
+Ability: Illusion
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Voice
+- Shadow Ball
+- Flamethrower
+- Protect
+
+Tatsugiri @ Sitrus Berry
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Protect
+
+Urshifu @ Assault Vest
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Close Combat
+- Iron Head
+- Wicked Blow
+
+Azelf @ Choice Scarf
+Ability: Levitate
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Explosion
+- U-turn
+- Play Rough
+- Trick

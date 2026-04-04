@@ -1,0 +1,67 @@
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 156 HP / 4 Def / 164 SpA / 44 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Hydro Pump
+- Protect
+
+Abomasnow @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Def / 132 SpA / 4 SpD / 4 Spe
+Modest Nature
+- Ice Shard
+- Blizzard
+- Protect
+- Leaf Storm
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 44 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Brave Bird
+- Protect
+- Tailwind
+- Feint
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Brick Break
+- Rock Slide
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 60 Def / 92 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Thunderbolt
+
+Dragonite @ Lum Berry
+Ability: Multiscale
+Level: 50
+Tera Type: Ground
+EVs: 188 HP / 252 Atk / 4 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Earthquake
+- Low Kick
+- Extreme Speed
+- Safeguard

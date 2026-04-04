@@ -1,0 +1,68 @@
+Espeon @ Life Orb
+Ability: Magic Bounce
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Psych Up
+- Dazzling Gleam
+- Expanding Force
+- Morning Sun
+
+Muk-Alola @ Leftovers
+Ability: Power of Alchemy
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 60 Atk / 196 Def
+Adamant Nature
+- Toxic
+- Knock Off
+- Minimize
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Fake Out
+- Wide Guard
+- Spore
+- Follow Me
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Helping Hand
+- Heal Pulse
+- Alluring Voice
+
+Drifblim @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Imprison
+- Haze
+- Protect
+- Clear Smog
+
+Flamigo @ Sitrus Berry
+Ability: Costar
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Protect
+- Brave Bird
+- Roost

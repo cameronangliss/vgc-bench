@@ -1,0 +1,68 @@
+Rillaboom @ Loaded Dice
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 116 Atk / 12 Def / 20 SpD / 116 Spe
+Adamant Nature
+- Bullet Seed
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 180 Def / 4 SpA / 4 SpD / 68 Spe
+Bold Nature
+IVs: 0 Atk
+- Electroweb
+- Taunt
+- Follow Me
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 4 Def / 44 SpA / 148 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Body Press
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 236 Atk / 20 Def / 252 Spe
+Adamant Nature
+- Wave Crash
+- Flip Turn
+- Aqua Jet
+- Last Respects

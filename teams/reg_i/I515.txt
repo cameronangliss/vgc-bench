@@ -1,0 +1,66 @@
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 252 Atk / 4 Def / 12 SpD / 172 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Swords Dance
+- Protect
+
+Kyogre @ Mystic Water
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Def / 156 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Water Spout
+- Origin Pulse
+- Ice Beam
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Taunt
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Pollen Puff
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 84 HP / 172 Atk / 252 SpD
+Brave Nature
+- Fake Out
+- Low Kick
+- Drain Punch
+- Wild Charge
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Knock Off
+- Acrobatics
+- Protect
+- Tailwind

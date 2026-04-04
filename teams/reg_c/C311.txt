@@ -1,0 +1,68 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 84 HP / 252 Def / 124 SpA / 12 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Hex
+- Moonblast
+- Protect
+- Substitute
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 172 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tera Blast
+- Dark Pulse
+- Flamethrower
+- Protect
+
+Dragonite @ Safety Goggles
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 148 HP / 252 Atk / 108 Spe
+Adamant Nature
+- Wing Attack
+- Stomping Tantrum
+- Extreme Speed
+- Protect
+
+Ting-Lu @ Lum Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Protect
+- Stealth Rock
+
+Dondozo @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 12 Def / 252 SpD
+Careful Nature
+- Bulldoze
+- Wave Crash
+- Yawn
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Power Gem
+- Earth Power
+- Toxic
+- Spiky Shield

@@ -1,0 +1,65 @@
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 244 Def / 68 Spe
+Impish Nature
+- Protect
+- Heavy Slam
+- Wide Guard
+- Body Press
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 188 HP / 60 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+- Protect
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 196 Def / 76 SpD
+Calm Nature
+- Spore
+- Sludge Bomb
+- Rage Powder
+- Protect
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Taunt
+- Sucker Punch
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 140 SpD
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Protect
+- Psychic
+- Astral Barrage
+- Encore

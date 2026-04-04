@@ -1,0 +1,63 @@
+Goodra @ Choice Specs
+Ability: Sap Sipper
+Level: 50
+Tera Type: Water
+EVs: 12 HP / 20 Def / 252 SpA / 4 SpD / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Thunderbolt
+- Flamethrower
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+EVs: 92 HP / 252 Def / 156 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Psychic
+- Protect
+- Imprison
+- Trick Room
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+Level: 50
+EVs: 252 HP / 52 Atk / 204 Spe
+Adamant Nature
+- Flare Blitz
+- Snarl
+- Wild Charge
+- Close Combat
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Protect
+- Sucker Punch
+- U-turn
+
+Annihilape @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 196 Atk / 140 Spe
+Adamant Nature
+- Rage Fist
+- Protect
+- Bulk Up
+- Drain Punch
+
+Grimmsnarl (M) @ Lagging Tail
+Ability: Prankster
+Level: 50
+EVs: 244 HP / 204 Atk / 60 SpD
+Adamant Nature
+- Spirit Break
+- Reflect
+- Misty Terrain
+- Trick

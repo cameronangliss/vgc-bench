@@ -1,0 +1,65 @@
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 36 Atk / 4 Def / 36 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Bulk Up
+- Drain Punch
+- Rage Fist
+
+Pelipper @ Life Orb
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Tailwind
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 108 Def / 148 SpD
+Bold Nature
+- Matcha Gotcha
+- Trick Room
+- Life Dew
+- Rage Powder
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Fairy
+EVs: 76 HP / 4 Atk / 252 Def / 4 SpD / 172 Spe
+Jolly Nature
+- Follow Me
+- Taunt
+- Beat Up
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 12 Def / 116 SpA / 116 SpD / 12 Spe
+Modest Nature
+- Dragon Pulse
+- Electro Shot
+- Snarl
+- Body Press
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 116 SpD
+Careful Nature
+- Thunder Wave
+- Light Screen
+- Reflect
+- Spirit Break

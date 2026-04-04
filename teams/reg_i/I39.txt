@@ -1,0 +1,66 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Astral Barrage
+- Disable
+- Psyshock
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 12 HP / 244 Def / 252 Spe
+Impish Nature
+- Body Press
+- Wide Guard
+- Heavy Slam
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 116 Atk / 4 Def / 124 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- U-turn
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 196 Atk / 4 Def / 36 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Detect
+- Taunt
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 27 Spe
+- Spore
+- Protect
+- Rage Powder
+- Sludge Bomb
+
+Pelipper @ Life Orb
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect

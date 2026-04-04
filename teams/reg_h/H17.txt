@@ -1,0 +1,74 @@
+Talonflame (F) @ Safety Goggles
+Ability: Gale Wings
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Brave Bird
+- Flare Blitz
+- Tailwind
+- Protect
+
+Rotom-Mow @ Choice Specs
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Discharge
+- Volt Switch
+- Leaf Storm
+- Trick
+
+Samurott-Hisui (F) @ Scope Lens
+Ability: Sharpness
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Aqua Cutter
+- Night Slash
+- Sacred Sword
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Protect
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Gardevoir (F) @ Focus Sash
+Ability: Telepathy
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Psychic
+- Trick Room
+- Protect

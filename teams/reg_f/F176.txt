@@ -1,0 +1,69 @@
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 92 HP / 164 Atk / 2 SpA / 252 Spe
+Jolly Nature
+- Heat Crash
+- Breaking Swipe
+- Dragon Cheer
+- Howl
+
+Okidogi (M) @ Sitrus Berry
+Ability: Guard Dog
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 252 Atk / 94 Spe
+Adamant Nature
+IVs: 20 SpA
+- Poison Jab
+- Drain Punch
+- Knock Off
+- Protect
+
+Latios (M) @ Scope Lens
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 2 Atk / 252 SpA / 252 Spe
+Timid Nature
+IVs: 9 Atk
+- Draco Meteor
+- Luster Purge
+- Tailwind
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 6 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 24 SpA
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 206 HP / 116 Atk / 188 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 196 HP / 236 Atk / 2 SpA / 76 SpD
+Adamant Nature
+IVs: 8 SpA / 14 Spe
+- Stomping Tantrum
+- Ruination
+- Throat Chop
+- Heavy Slam

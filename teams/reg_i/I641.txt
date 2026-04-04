@@ -1,0 +1,69 @@
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 20 HP / 4 Def / 228 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Substitute
+- Protect
+
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 116 Atk / 4 Def / 52 SpD / 132 Spe
+Adamant Nature
+- Flare Blitz
+- Collision Course
+- Flame Charge
+- Protect
+
+Tsareena @ Loaded Dice
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 236 Atk / 4 Def / 12 SpD / 4 Spe
+Adamant Nature
+- Bullet Seed
+- Triple Axel
+- Taunt
+- Helping Hand
+
+Flamigo @ Focus Sash
+Ability: Scrappy
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Feint
+- Wide Guard
+- Protect
+
+Sandy Shocks @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 4 Def / 228 SpA / 20 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Earth Power
+- Electroweb
+- Volt Switch
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 20 HP / 4 Def / 228 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flamethrower
+- Dark Pulse
+- Overheat

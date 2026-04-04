@@ -1,0 +1,72 @@
+Pelipper (F) @ Damp Rock
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 212 HP / 164 SpD / 132 Spe
+Calm Nature
+IVs: 0 Atk
+- Wide Guard
+- Hurricane
+- Tailwind
+- Hydro Pump
+
+Salamence (M) @ Life Orb
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Tailwind
+- Draco Meteor
+- Hurricane
+
+Palafin (M) @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Jet Punch
+- Haze
+- Wave Crash
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 100 HP / 20 Def / 132 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+
+Kingambit (M) @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 156 Atk / 4 Def / 4 SpD / 100 Spe
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Iron Head
+- Low Kick
+
+Amoonguss (M) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 180 Def / 4 SpA / 68 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Pollen Puff
+- Spore
+- Rage Powder

@@ -1,0 +1,68 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Def / 140 SpD
+Careful Nature
+- Reflect
+- Light Screen
+- Parting Shot
+- Spirit Break
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 116 Def / 28 SpA / 148 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Nasty Plot
+- Protect
+- Make It Rain
+- Shadow Ball
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Clear Smog
+- Pollen Puff
+
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Atk / 156 SpD
+Adamant Nature
+- Surging Strikes
+- Drain Punch
+- Swords Dance
+- Protect
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 44 HP / 252 Atk / 212 Spe
+Adamant Nature
+- U-turn
+- Rock Slide
+- Stomping Tantrum
+- Tera Blast
+
+Goodra-Hisui @ Assault Vest
+Ability: Sap Sipper
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Thunderbolt
+- Ice Beam
+- Mud Shot

@@ -1,0 +1,67 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Shard
+- Throat Chop
+- Ice Spinner
+- Protect
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Jet Punch
+- Wave Crash
+- Protect
+- Haze
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 92 Def / 180 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Spore
+- Rage Powder
+- Pollen Puff
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 252 Atk / 4 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Extreme Speed
+- Flare Blitz
+- Will-O-Wisp
+- Protect
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 20 HP / 236 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Dazzling Gleam
+- Substitute
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 108 HP / 228 Atk / 4 Def / 156 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Volt Switch
+- Wild Charge

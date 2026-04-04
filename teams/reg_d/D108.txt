@@ -1,0 +1,68 @@
+Basculegion @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 244 Atk / 4 Def / 4 SpD / 228 Spe
+Jolly Nature
+- Aqua Jet
+- Wave Crash
+- Last Respects
+- Protect
+
+Regieleki @ Focus Sash
+Ability: Transistor
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Electroweb
+- Thunderbolt
+- Tera Blast
+- Protect
+
+Zapdos-Galar @ Grassy Seed
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 84 HP / 252 Atk / 4 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Acrobatics
+- Thunderous Kick
+- Stomping Tantrum
+- Detect
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 188 Atk / 4 Def / 28 SpD / 36 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Knock Off
+- U-turn
+
+Tornadus (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Taunt
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 52 HP / 12 Def / 252 SpA / 4 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Make It Rain
+- Trick
+- Thunderbolt

@@ -1,0 +1,66 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Haze
+
+Dragonite @ Lum Berry
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Tera Blast
+- Aqua Jet
+- Tailwind
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Def / 4 SpA
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Trick Room
+- Protect
+
+Ting-Lu @ Weakness Policy
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 4 Def / 12 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Throat Chop
+- Protect
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 116 SpD
+Impish Nature
+- U-turn
+- Taunt
+- Sunny Day
+- Tailwind
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 172 HP / 116 Atk / 220 Spe
+Adamant Nature
+- Rage Fist
+- Thunder Punch
+- Bulldoze
+- Final Gambit

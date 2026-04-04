@@ -1,0 +1,69 @@
+Golduck @ Safety Goggles
+Ability: Swift Swim
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 4 SpA / 76 SpD / 36 Spe
+Calm Nature
+IVs: 0 Atk
+- Simple Beam
+- Yawn
+- Skill Swap
+- Chilling Water
+
+Pelipper @ Life Orb
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 100 HP / 4 Def / 196 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Wide Guard
+- Tailwind
+- Helping Hand
+
+Dondozo @ Assault Vest
+Ability: Oblivious
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 68 Def / 116 SpA / 212 SpD / 108 Spe
+Modest Nature
+- Surf
+- Order Up
+- Tera Blast
+- Body Press
+
+Tatsugiri-Droopy @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 60 HP / 252 SpA / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Soak
+- Muddy Water
+- Draco Meteor
+- Mirror Coat
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 4 Def / 196 SpA / 36 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunder
+- Nasty Plot
+- Hydro Pump
+- Protect
+
+Brute Bonnet @ Loaded Dice
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 252 Atk / 60 Spe
+Adamant Nature
+- Rage Powder
+- Spore
+- Bullet Seed
+- Tera Blast

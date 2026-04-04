@@ -1,0 +1,70 @@
+Calyrex-Shadow @ Spooky Plate
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 44 HP / 84 Def / 124 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Gravity
+- Protect
+
+Darkrai @ Wide Lens
+Ability: Bad Dreams
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Void
+- Dark Pulse
+- Focus Blast
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 84 Atk / 4 Def / 164 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Tornadus @ Lum Berry
+Ability: Prankster
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 180 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Taunt
+- Protect
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 4 Def / 196 SpA / 124 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Sandsear Storm
+- Earth Power
+- Sludge Bomb
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Spore
+- Follow Me
+- Ruination
+- Wide Guard

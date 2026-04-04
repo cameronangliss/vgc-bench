@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Nasty Plot
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 252 Atk / 4 Def / 12 SpD / 68 Spe
+Adamant Nature
+- U-turn
+- Wood Hammer
+- Fake Out
+- Grassy Glide
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+- Spore
+- Fake Out
+- Decorate
+- Follow Me
+
+Terapagos-Terastal @ Choice Specs
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 44 Def / 236 SpA / 4 SpD / 220 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Dazzling Gleam
+- Tri Attack
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 252 Atk / 20 Def / 4 SpD / 100 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Taunt
+- Detect
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 44 Def / 4 SpA / 196 SpD / 28 Spe
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Fake Tears
+- Encore

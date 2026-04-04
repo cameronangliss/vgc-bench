@@ -1,0 +1,66 @@
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 12 HP / 252 Atk / 4 Def / 4 SpD / 236 Spe
+Jolly Nature
+- Tailwind
+- Will-O-Wisp
+- Brave Bird
+- Taunt
+
+Gastrodon-East (F) @ Leftovers
+Ability: Storm Drain
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 180 HP / 140 Def / 188 SpD
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Clear Smog
+- Ice Beam
+- Muddy Water
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+EVs: 60 HP / 140 Def / 212 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Shadow Ball
+- Calm Mind
+- Detect
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 44 HP / 108 Atk / 4 Def / 100 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Earthquake
+- Tera Blast
+- Dragon Claw
+
+Kingambit @ Life Orb
+Ability: Defiant
+Level: 50
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Sucker Punch
+- Iron Head
+- Kowtow Cleave
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Follow Me
+- Helping Hand
+- Protect
+- Population Bomb

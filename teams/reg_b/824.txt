@@ -1,0 +1,69 @@
+Iron Thorns @ Choice Band
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 140 HP / 204 Atk / 4 Def / 4 SpD / 156 Spe
+Adamant Nature
+- Rock Slide
+- Wild Charge
+- Tera Blast
+- Low Kick
+
+Iron Treads @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Ground
+EVs: 44 HP / 220 Atk / 4 Def / 12 SpD / 228 Spe
+Adamant Nature
+- Earthquake
+- Heavy Slam
+- Ice Spinner
+- Stomping Tantrum
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 4 Def / 4 SpD / 244 Spe
+Adamant Nature
+- Acrobatics
+- Earthquake
+- Dragon Claw
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Dazzling Gleam
+- Trick Room
+- Imprison
+
+Rotom-Heat @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 12 HP / 4 Def / 220 SpA / 20 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Thunderbolt
+- Overheat
+- Tera Blast
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 228 Def / 68 Spe
+Bold Nature
+IVs: 0 Atk
+- Haze
+- Tailwind
+- Foul Play
+- Protect

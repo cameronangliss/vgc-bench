@@ -1,0 +1,67 @@
+Annihilape (M) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 172 HP / 116 Atk / 4 Def / 4 SpD / 212 Spe
+Adamant Nature
+- Close Combat
+- Rage Fist
+- Final Gambit
+- U-turn
+
+Volcarona (F) @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 156 Def / 36 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Dragonite (M) @ Life Orb
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 12 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Fire Punch
+- Extreme Speed
+- Dragon Dance
+- Protect
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 252 SpD
+Impish Nature
+- Liquidation
+- Fissure
+- Yawn
+- Protect
+
+Garganacl (F) @ Sitrus Berry
+Ability: Purifying Salt
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 4 Def / 236 SpD / 12 Spe
+Careful Nature
+- Salt Cure
+- Body Press
+- Wide Guard
+- Stealth Rock
+
+Amoonguss (F) @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 220 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Bullet Seed
+- Pollen Puff
+- Spore
+- Rage Powder

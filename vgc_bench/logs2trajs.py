@@ -31,6 +31,7 @@ from poke_env.player import (
     SingleBattleOrder,
 )
 from poke_env.ps_client import AccountConfiguration
+from poke_env.teambuilder import Teambuilder
 
 from vgc_bench.src.policy_player import PolicyPlayer
 from vgc_bench.src.utils import chunk_obs_len
@@ -229,6 +230,18 @@ class LogReader(Player):
         battle.logger = None
         split_messages = [m.split("|") for m in messages[0].split("\n")]
         await self._handle_battle_message(split_messages)
+        for split_message in split_messages:
+            if len(split_message) > 1 and split_message[1] == "showteam":
+                role = split_message[2]
+                if role != battle.player_role:
+                    continue
+                teambuilder_team = Teambuilder.parse_packed_team(
+                    "|".join(split_message[3:])
+                )
+                battle.apply_teambuilder_team(
+                    role, teambuilder_team, battle.teampreview_team
+                )
+                break
         for i in range(1, len(messages)):
             split_messages = [m.split("|") for m in messages[i].split("\n")]
             self.next_msg = messages[i]

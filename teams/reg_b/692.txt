@@ -1,0 +1,68 @@
+Salazzle @ Eject Pack
+Ability: Oblivious
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Fake Out
+- Overheat
+- Acid Spray
+- Encore
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Tailwind
+- Protect
+- Acrobatics
+- Jaw Lock
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Tera Blast
+
+Salamence @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 4 Def / 20 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Heat Wave
+- Protect
+- Helping Hand
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 108 Def / 36 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Mystical Fire
+- Shadow Ball
+
+Gastrodon @ Zoom Lens
+Ability: Storm Drain
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 116 Def / 140 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Clear Smog
+- Earth Power
+- Muddy Water
+- Recover

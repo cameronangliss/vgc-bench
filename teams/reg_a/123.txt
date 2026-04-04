@@ -1,0 +1,66 @@
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Swords Dance
+- Protect
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Haze
+- Tailwind
+- Taunt
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 244 HP / 4 Atk / 68 Def / 76 SpD / 116 Spe
+Jolly Nature
+- Flare Blitz
+- Will-O-Wisp
+- Helping Hand
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 212 HP / 4 Def / 252 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Kilowattrel @ Choice Specs
+Ability: Competitive
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Discharge
+- Thunderbolt
+- Volt Switch
+- Air Slash
+
+Gardevoir @ Choice Scarf
+Ability: Telepathy
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Psychic
+- Moonblast
+- Dazzling Gleam
+- Mystical Fire

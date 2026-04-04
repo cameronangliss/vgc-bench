@@ -1,0 +1,73 @@
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Tera Blast
+- Earthquake
+- Protect
+- Order Up
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Hydro Pump
+- Muddy Water
+- Icy Wind
+
+Gholdengo @ Weakness Policy
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 36 HP / 4 Def / 252 SpA / 4 SpD / 212 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Thunderbolt
+- Shadow Ball
+- Protect
+
+Dragonite (M) @ Lansat Berry
+Ability: Multiscale
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Extreme Speed
+- Stomping Tantrum
+- Fling
+- Tailwind
+
+Weezing-Galar @ Focus Sash
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Sludge Bomb
+- Strange Steam
+- Taunt
+
+Slaking @ Life Orb
+Ability: Truant
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Double-Edge
+- High Horsepower
+- Knock Off

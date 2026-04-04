@@ -1,0 +1,67 @@
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 212 Def / 44 Spe
+Timid Nature
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpD
+Impish Nature
+- Wave Crash
+- Fissure
+- Yawn
+- Protect
+
+Gholdengo @ Focus Sash
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Beat Up
+- Follow Me
+- Protect
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 188 HP / 252 Atk / 68 Spe
+Adamant Nature
+- Close Combat
+- Rage Fist
+- Final Gambit
+- Stealth Rock
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 SpA / 252 SpD
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Flash Cannon
+- Mirror Coat
+- Body Press

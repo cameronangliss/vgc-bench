@@ -1,0 +1,68 @@
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 108 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Ting-Lu @ Lum Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 68 HP / 156 Atk / 28 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Heavy Slam
+- Stomping Tantrum
+- Ruination
+- Protect
+
+Gyarados @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 68 Def / 4 SpD / 180 Spe
+Careful Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Iron Hands @ Leftovers
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 76 Atk / 68 Def / 252 SpD / 28 Spe
+Adamant Nature
+- Drain Punch
+- Thunder Punch
+- Swords Dance
+- Detect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 84 Def / 156 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+
+Chi-Yu @ Safety Goggles
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 132 Def / 52 SpA / 28 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Flamethrower
+- Nasty Plot
+- Protect

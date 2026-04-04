@@ -1,0 +1,69 @@
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 14 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Earth Power
+- Flamethrower
+
+Azumarill @ Life Orb
+Ability: Huge Power
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 252 Atk / 20 SpD
+Adamant Nature
+- Aqua Jet
+- Liquidation
+- Play Rough
+- Protect
+
+Arboliva @ Throat Spray
+Ability: Seed Sower
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Energy Ball
+- Protect
+- Earth Power
+
+Spiritomb @ Leftovers
+Ability: Infiltrator
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 228 Def / 28 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Will-O-Wisp
+- Shadow Sneak
+- Trick Room
+- Foul Play
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+IVs: 2 SpA
+- Rage Fist
+- Final Gambit
+- Close Combat
+- U-turn
+
+Klefki @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 212 HP / 156 Def / 140 SpD
+Careful Nature
+- Reflect
+- Light Screen
+- Trick Room
+- Play Rough

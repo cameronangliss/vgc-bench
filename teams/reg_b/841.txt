@@ -1,0 +1,69 @@
+Mimikyu @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 252 Atk / 188 Spe
+Jolly Nature
+- Play Rough
+- Shadow Sneak
+- Curse
+- Protect
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 SpD
+Impish Nature
+- Salt Cure
+- Protect
+- Recover
+- Wide Guard
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 76 HP / 156 Atk / 4 Def / 252 SpD / 20 Spe
+Adamant Nature
+- Fake Out
+- Volt Switch
+- Wild Charge
+- Drain Punch
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 4 Atk / 36 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Acrobatics
+- Throat Chop
+- Dragon Dance
+- Protect
+
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 24 Spe
+- Protect
+- Rage Powder
+- Pollen Puff
+- Spore
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Protect
+- Freeze-Dry
+- Encore
+- Hydro Pump

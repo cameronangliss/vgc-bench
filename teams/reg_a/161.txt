@@ -1,0 +1,66 @@
+Kilowattrel @ Focus Sash
+Ability: Competitive
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Discharge
+- Air Slash
+- Protect
+- Tailwind
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 76 Def / 172 SpD / 4 Spe
+Impish Nature
+- Salt Cure
+- Wide Guard
+- Protect
+- Recover
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 156 Atk / 44 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Protect
+- Rock Slide
+
+Arcanine @ Figy Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 156 Atk / 4 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Protect
+- Will-O-Wisp
+
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Snarl
+- Dark Pulse
+- Tera Blast
+- Draco Meteor
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot

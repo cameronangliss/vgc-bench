@@ -1,0 +1,66 @@
+Palafin (M) @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flip Turn
+- Wave Crash
+- Ice Punch
+- Tera Blast
+
+Kingambit (M) @ Life Orb
+Ability: Defiant
+Level: 50
+Shiny: Yes
+EVs: 92 HP / 252 Atk / 4 Def / 4 SpD / 156 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Protect
+
+Hariyama (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ground
+EVs: 116 HP / 100 Atk / 36 Def / 252 SpD / 4 Spe
+Careful Nature
+- Drain Punch
+- Headlong Rush
+- Detect
+- Fake Out
+
+Arcanine (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+EVs: 244 HP / 4 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Kilowattrel (M) @ Focus Sash
+Ability: Competitive
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Air Slash
+- Tailwind
+- Protect
+
+Arboliva (M) @ Leftovers
+Ability: Seed Sower
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 188 Def / 60 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Leech Seed
+- Strength Sap
+- Earth Power
+- Protect

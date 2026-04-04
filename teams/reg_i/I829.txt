@@ -1,0 +1,71 @@
+Calyrex-Ice @ Never-Melt Ice
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 204 Atk / 60 SpD
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- Close Combat
+- Crunch
+- Trick Room
+
+Indeedee-F @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 164 Def / 92 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Trick Room
+- Helping Hand
+- Alluring Voice
+
+Lunala @ Safety Goggles
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 52 Def / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Moonblast
+- Expanding Force
+- Trick Room
+- Dazzling Gleam
+
+Ursaluna-Bloodmoon @ Flame Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Fairy
+EVs: 140 HP / 252 SpA / 116 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Blood Moon
+- Protect
+- Earth Power
+- Moonblast
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 236 Atk / 108 SpD
+Brave Nature
+IVs: 0 Spe
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Iron Hands @ Power Bracer
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Low Kick
+- Brick Break
+- Wild Charge
+- Heavy Slam

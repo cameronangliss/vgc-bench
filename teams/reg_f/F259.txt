@@ -1,0 +1,70 @@
+Walking Wake @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 4 Def / 4 SpA / 166 SpD / 92 Spe
+Timid Nature
+- Scald
+- Breaking Swipe
+- Snarl
+- Protect
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 100 Def / 158 SpD
+Careful Nature
+IVs: 24 SpA / 21 Spe
+- Flare Blitz
+- Fake Out
+- Parting Shot
+- Taunt
+
+Amoonguss (M) @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 238 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 13 Atk
+- Pollen Puff
+- Rage Powder
+- Spore
+- Toxic
+
+Raging Bolt @ Leftovers
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 132 Def / 100 SpA / 20 SpD / 6 Spe
+Modest Nature
+IVs: 20 Atk
+- Tera Blast
+- Thunderclap
+- Calm Mind
+- Protect
+
+Urshifu (F) @ Assault Vest
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 36 HP / 236 Atk / 4 Def / 230 SpD / 4 Spe
+Adamant Nature
+IVs: 7 SpA
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Poison Jab
+
+Flutter Mane @ Fairy Feather
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 76 HP / 140 Def / 164 SpA / 4 SpD / 124 Spe
+Timid Nature
+IVs: 13 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Protect

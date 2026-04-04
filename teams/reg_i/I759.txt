@@ -1,0 +1,66 @@
+Iron Jugulis @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 36 Def / 28 SpA / 4 SpD / 204 Spe
+Timid Nature
+- Snarl
+- Hurricane
+- Tailwind
+- Protect
+
+Kyogre @ Splash Plate
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 92 HP / 4 Def / 156 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Water Spout
+- Hydro Pump
+- Thunder
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 100 HP / 156 Def / 252 Spe
+Jolly Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Rain Dance
+- U-turn
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 116 Def / 156 SpD
+Sassy Nature
+IVs: 0 Spe
+- Spore
+- Pollen Puff
+- Rage Powder
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Ruination
+- Sucker Punch
+- Protect

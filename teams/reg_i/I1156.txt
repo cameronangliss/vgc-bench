@@ -1,0 +1,67 @@
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 4 Def / 212 SpD / 4 Spe
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 244 HP / 4 Atk / 244 Def / 12 SpD / 4 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Whimsicott (F) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 36 SpD / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Encore
+- Light Screen
+- Tailwind
+- Moonblast
+
+Ditto @ Electric Seed
+Ability: Imposter
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 30 Atk
+- Transform

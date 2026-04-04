@@ -1,0 +1,67 @@
+Miraidon @ Life Orb
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 92 HP / 4 Def / 252 SpA / 4 SpD / 156 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Protect
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 156 Def / 60 SpD / 36 Spe
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Trick Room
+- Helping Hand
+- Ally Switch
+
+Calyrex-Ice @ Assault Vest
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 196 Atk / 108 Spe
+Adamant Nature
+- Glacial Lance
+- Seed Bomb
+- Crunch
+- High Horsepower
+
+Magmar @ Eviolite
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 220 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk
+- Flamethrower
+- Will-O-Wisp
+- Follow Me
+- Taunt
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Ice Spinner
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 4 Atk / 252 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Spore
+- Follow Me
+- Decorate

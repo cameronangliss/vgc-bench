@@ -1,0 +1,68 @@
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Rain Dance
+- Taunt
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Detect
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 20 Def / 156 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 212 HP / 156 Atk / 4 Def / 76 SpD / 60 Spe
+Adamant Nature
+- Wood Hammer
+- Fake Out
+- Knock Off
+- U-turn
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Icicle Crash
+- Sacred Sword
+- Sucker Punch
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Stomping Tantrum
+- Aerial Ace

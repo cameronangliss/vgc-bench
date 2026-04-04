@@ -1,0 +1,66 @@
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Lava Plume
+- Shadow Ball
+- Eruption
+- Heat Wave
+
+Coalossal @ Maranga Berry
+Ability: Steam Engine
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 236 Def / 36 SpD / 108 Spe
+Impish Nature
+- Iron Defense
+- Body Press
+- Rock Slide
+- Protect
+
+Comfey @ Wiki Berry
+Ability: Triage
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+- Draining Kiss
+- Floral Healing
+- Calm Mind
+- Psych Up
+
+Blissey @ Leftovers
+Ability: Serene Grace
+Level: 50
+Tera Type: Ghost
+EVs: 44 HP / 252 Def / 100 SpA / 36 SpD / 76 Spe
+Careful Nature
+- Rock Slide
+- Stored Power
+- Calm Mind
+- Psych Up
+
+Slaking @ Life Orb
+Ability: Truant
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 10 SpA
+- Double-Edge
+- Rock Slide
+- Earthquake
+- Protect
+
+Weezing-Galar @ Focus Sash
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Dazzling Gleam
+- Sludge Bomb
+- Heat Wave
+- Protect

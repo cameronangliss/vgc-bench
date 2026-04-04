@@ -1,0 +1,68 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 12 HP / 252 Atk / 44 Def / 4 SpD / 196 Spe
+Adamant Nature
+- Icicle Crash
+- Crunch
+- Sucker Punch
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 252 Atk / 4 Def / 44 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- U-turn
+- Grassy Glide
+- Fake Out
+
+Gastrodon-East @ Sitrus Berry
+Ability: Storm Drain
+Level: 50
+Tera Type: Poison
+EVs: 188 HP / 228 Def / 4 SpA / 84 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Ice Beam
+- Clear Smog
+- Protect
+
+Kommo-o @ Leftovers
+Ability: Bulletproof
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 116 Def / 4 SpA / 140 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Body Press
+- Flamethrower
+- Protect
+- Iron Defense
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 188 Def / 92 SpA / 4 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Power Gem
+- Shadow Ball
+
+Landorus-Therian @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 36 Atk / 84 Def / 68 SpD / 68 Spe
+Adamant Nature
+- Stomping Tantrum
+- U-turn
+- Tera Blast
+- Protect

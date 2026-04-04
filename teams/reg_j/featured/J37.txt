@@ -1,0 +1,69 @@
+Magearna @ Life Orb
+Ability: Soul-Heart
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 SpA
+Modest Nature
+IVs: 30 Atk / 24 Spe
+- Fleur Cannon
+- Dazzling Gleam
+- Trick Room
+- Protect
+
+Kyogre @ Mystic Water
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 44 Def / 172 SpA / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Hydro Pump
+- Thunder
+- Protect
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Trick Room
+- Helping Hand
+- Psychic
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 116 HP / 196 Atk / 4 Def / 180 SpD / 12 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Iron Jugulis @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 84 Def / 36 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Snarl
+- Hurricane
+- Taunt
+- Tailwind

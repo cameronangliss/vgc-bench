@@ -1,0 +1,69 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 12 Def / 44 SpA / 164 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Snarl
+- Draco Meteor
+- Body Press
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 76 Def / 156 SpD / 36 Spe
+Careful Nature
+- Fake Out
+- Will-O-Wisp
+- Knock Off
+- Parting Shot
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 132 Def / 236 SpA / 36 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Psychic
+- Trick Room
+- Helping Hand
+
+Gholdengo @ Grassy Seed
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 100 HP / 4 Def / 212 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 148 Atk / 44 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Grassy Glide
+- High Horsepower
+- Wood Hammer
+- Fake Out

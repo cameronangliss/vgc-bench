@@ -1,0 +1,67 @@
+Tyranitar @ Leftovers
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+- Snarl
+- Protect
+- Rock Slide
+- Taunt
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Atk / 4 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Jet Punch
+- Protect
+- Ice Punch
+- Wave Crash
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog
+
+Lycanroc @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Protect
+- Close Combat
+- Endeavor
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 52 HP / 252 Atk / 4 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Will-O-Wisp
+- Protect
+- Extreme Speed
+- Flare Blitz
+
+Bellibolt @ Assault Vest
+Ability: Electromorphosis
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 68 Def / 132 SpA / 52 SpD
+Quiet Nature
+- Sucker Punch
+- Parabolic Charge
+- Thunderbolt
+- Muddy Water

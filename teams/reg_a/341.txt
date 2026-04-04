@@ -1,0 +1,70 @@
+Haunter (M) @ Eviolite
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 84 HP / 212 Def / 12 SpA / 196 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Sludge Bomb
+- Perish Song
+- Taunt
+
+Hydreigon (F) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Dark Pulse
+- Flash Cannon
+- Draco Meteor
+
+Gothitelle (M) @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Shiny: Yes
+Tera Type: Psychic
+EVs: 244 HP / 60 Def / 4 SpA / 196 SpD / 4 Spe
+Calm Nature
+- Fake Out
+- Protect
+- Trick Room
+- Psychic
+
+Talonflame (M) @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Tailwind
+- Taunt
+- Will-O-Wisp
+- Flare Blitz
+
+Garchomp (M) @ Choice Band
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 164 Atk / 44 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Stomping Tantrum
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 20 HP / 4 Def / 244 SpA / 132 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Focus Blast
+- Thunderbolt

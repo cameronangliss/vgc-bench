@@ -1,0 +1,67 @@
+Ninetales-Alola @ Choice Specs
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 60 Def / 196 SpA / 252 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Moonblast
+- Dark Pulse
+
+Avalugg @ Loaded Dice
+Ability: Sturdy
+Level: 50
+Tera Type: Fighting
+EVs: 180 HP / 76 Atk / 252 Def
+Impish Nature
+- Icicle Spear
+- Body Press
+- Wide Guard
+- Protect
+
+Tentacruel @ Covert Cloak
+Ability: Clear Body
+Level: 50
+Tera Type: Ground
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 6 Atk
+- Muddy Water
+- Sludge Bomb
+- Tera Blast
+- Protect
+
+Archaludon @ Sitrus Berry
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 108 SpA / 140 SpD / 4 Spe
+Calm Nature
+- Electro Shot
+- Flash Cannon
+- Body Press
+- Protect
+
+Krookodile @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 220 Atk / 36 SpD / 252 Spe
+Jolly Nature
+- Knock Off
+- High Horsepower
+- Scale Shot
+- Protect
+
+Flamigo @ Focus Sash
+Ability: Scrappy
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 24 SpA
+- Close Combat
+- Brave Bird
+- Tailwind
+- Protect

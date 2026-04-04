@@ -1,0 +1,69 @@
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 180 HP / 100 Atk / 12 Def / 196 SpD / 20 Spe
+Impish Nature
+- Order Up
+- Earthquake
+- Rest
+- Sleep Talk
+
+Tatsugiri (M) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 16 Atk
+- Draco Meteor
+- Hydro Pump
+- Muddy Water
+- Icy Wind
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 12 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Steel Beam
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 20 HP / 252 Atk / 36 Def / 4 SpD / 196 Spe
+Adamant Nature
+IVs: 24 SpA
+- Extreme Speed
+- Tera Blast
+- Low Kick
+- Outrage
+
+Pawmot (F) @ Focus Sash
+Ability: Volt Absorb
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Double Shock
+- Close Combat
+- Revival Blessing
+- Fake Out
+
+Talonflame (F) @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Brave Bird
+- Tailwind
+- Protect

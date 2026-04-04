@@ -1,0 +1,67 @@
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 36 Atk / 60 Def / 156 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Glacial Lance
+- Leech Seed
+- Trick Room
+
+Kyogre @ Mystic Water
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 148 Def / 100 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Water Spout
+- Thunder
+- Hydro Pump
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 4 Def / 68 SpD / 148 Spe
+Adamant Nature
+- Wood Hammer
+- U-turn
+- Grassy Glide
+- Fake Out
+
+Overqwil @ Black Sludge
+Ability: Intimidate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 52 Def / 204 SpD
+Careful Nature
+- Protect
+- Barb Barrage
+- Taunt
+- Toxic Spikes
+
+Grimmsnarl @ Lagging Tail
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 4 Atk / 220 Def / 36 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Trick
+- Reflect
+- Light Screen

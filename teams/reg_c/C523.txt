@@ -1,0 +1,69 @@
+Scizor @ Safety Goggles
+Ability: Technician
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 164 Atk / 4 Def / 68 SpD / 28 Spe
+Adamant Nature
+- Bullet Punch
+- Pounce
+- Swords Dance
+- Protect
+
+Sandy Shocks @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 44 HP / 4 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Thunderbolt
+- Substitute
+- Protect
+
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 172 HP / 12 Def / 204 SpA / 28 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Earth Power
+- Snarl
+
+Azumarill @ Sitrus Berry
+Ability: Huge Power
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 180 Atk / 20 Def / 20 SpD / 44 Spe
+Adamant Nature
+- Aqua Jet
+- Play Rough
+- Belly Drum
+- Protect
+
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 20 Def / 116 SpA / 140 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Psychic
+- Heat Wave
+- Trick Room
+- Protect
+
+Amoonguss @ Black Sludge
+Ability: Regenerator
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 156 Def / 4 SpA / 92 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect

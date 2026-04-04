@@ -1,0 +1,68 @@
+Darkrai @ Wide Lens
+Ability: Bad Dreams
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 44 Def / 4 SpA / 4 SpD / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Dark Void
+- Hypnosis
+- Substitute
+
+Groudon @ Soft Sand
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Atk / 4 Def / 60 SpD / 36 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- Bulk Up
+- Protect
+
+Sableye @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Encore
+- Disable
+- Gravity
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 108 SpD / 28 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 204 HP / 4 Def / 252 SpA / 44 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Thunderclap
+- Draco Meteor
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Def / 4 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+- Protect

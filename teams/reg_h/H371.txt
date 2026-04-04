@@ -1,0 +1,65 @@
+Kingambit @ Dread Plate
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 76 SpD
+Bold Nature
+- Follow Me
+- Electroweb
+- Taunt
+- Protect
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 52 Def / 188 SpA / 12 SpD / 4 Spe
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Coaching
+- Protect
+
+Ceruledge @ Grassy Seed
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 116 Atk / 4 Def / 68 SpD / 108 Spe
+Adamant Nature
+- Bitter Blade
+- Poltergeist
+- Protect
+- Bulk Up

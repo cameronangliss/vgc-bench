@@ -1,0 +1,68 @@
+Darkrai @ Covert Cloak
+Ability: Bad Dreams
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Void
+- Substitute
+- Dark Pulse
+- Hypnosis
+
+Terapagos-Terastal @ Leftovers
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 236 Def / 84 SpA / 12 SpD / 4 Spe
+Bold Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Impish Nature
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 12 Atk / 76 Def / 108 SpD / 60 Spe
+Impish Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Amoonguss @ Focus Sash
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Pollen Puff
+- Rage Powder
+- Spore

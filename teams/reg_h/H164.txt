@@ -1,0 +1,69 @@
+Dondozo @ Clear Amulet
+Ability: Unaware
+Level: 50
+Tera Type: Electric
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Wave Crash
+- Earthquake
+- Tera Blast
+- Protect
+
+Tatsugiri-Stretchy @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Dragon Pulse
+- Icy Wind
+
+Incineroar @ Safety Goggles
+Ability: Blaze
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 252 Atk / 92 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 212 HP / 164 Atk / 4 Def / 124 SpD / 4 Spe
+Adamant Nature
+IVs: 0 SpA
+- Dragon Claw
+- Aerial Ace
+- Low Kick
+- Extreme Speed
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Zoroark-Hisui @ Focus Sash
+Ability: Illusion
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bitter Malice
+- Hyper Voice
+- Burning Jealousy
+- Protect

@@ -65,6 +65,16 @@ def train(
         evaluate: Whether to run evaluations and save checkpoints.
     """
     save_interval = 98_304
+    suffix = f"_{results_suffix}" if results_suffix else ""
+    output_dir = Path(f"results{suffix}")
+    output_dir.mkdir(exist_ok=True)
+    team_paths = None
+    if team1 and team2:
+        team1_path = output_dir / "team1.txt"
+        team2_path = output_dir / "team2.txt"
+        team1_path.write_text(team1[1:])
+        team2_path.write_text(team2[1:])
+        team_paths = [team1_path, team2_path]
     env = (
         ShowdownEnv.create_env(
             reg,
@@ -76,8 +86,7 @@ def train(
             learning_style,
             allow_mirror_match,
             choose_on_teampreview,
-            team1,
-            team2,
+            team_paths,
         )
         if learning_style == LearningStyle.PURE_SELF_PLAY
         else SubprocVecEnv(
@@ -92,8 +101,7 @@ def train(
                     learning_style,
                     allow_mirror_match,
                     choose_on_teampreview,
-                    team1,
-                    team2,
+                    team_paths,
                 )
                 for _ in range(num_envs)
             ]
@@ -106,12 +114,6 @@ def train(
         "xt" if not choose_on_teampreview else None,
     ]
     method = "_".join([p for p in method_tags if p is not None])
-    suffix = f"_{results_suffix}" if results_suffix else ""
-    output_dir = Path(f"results{suffix}")
-    output_dir.mkdir(exist_ok=True)
-    if team1 and team2:
-        (output_dir / "team1.txt").write_text(team1[1:])
-        (output_dir / "team2.txt").write_text(team2[1:])
     method_dir = output_dir / f"saves_{method}"
     method_dir = method_dir / (f"reg_{reg}" if reg is not None else "reg_all")
     if num_teams is not None:
@@ -160,8 +162,7 @@ def train(
             allow_mirror_match,
             choose_on_teampreview,
             save_interval,
-            team1,
-            team2,
+            team_paths,
             results_suffix,
             total_steps,
             evaluate,

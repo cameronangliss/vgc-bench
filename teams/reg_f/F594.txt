@@ -1,0 +1,68 @@
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 140 HP / 116 Def / 252 SpD
+Relaxed Nature
+- Stomping Tantrum
+- Fissure
+- Heavy Slam
+- Snarl
+
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 12 Def / 252 SpD
+Impish Nature
+- Wave Crash
+- Fissure
+- Yawn
+- Protect
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 100 Atk / 148 Def / 52 SpD / 4 Spe
+Impish Nature
+- Breaking Swipe
+- Heat Crash
+- Howl
+- Burning Bulwark
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Poison
+EVs: 236 HP / 180 Def / 4 SpA / 84 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room
+
+Naclstack @ Eviolite
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 12 Def / 244 SpD
+Impish Nature
+IVs: 28 Spe
+- Salt Cure
+- Fissure
+- Recover
+- Protect
+
+Pyroar (M) @ Choice Specs
+Ability: Rivalry
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Beam
+- Overheat
+- Hyper Voice
+- Heat Wave

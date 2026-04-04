@@ -1,0 +1,66 @@
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Darts
+- U-turn
+- Outrage
+- Phantom Force
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+- Swords Dance
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 116 Atk / 4 Def / 116 SpD / 20 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Magmar @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 180 Def / 4 SpA / 68 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Helping Hand
+- Follow Me
+- Overheat
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Electric
+EVs: 172 HP / 76 Atk / 4 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Wave Crash
+- Protect
+- Yawn
+- Fissure
+
+Porygon-Z @ Life Orb
+Ability: Adaptability
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Tera Blast
+- Dark Pulse
+- Hyper Beam
+- Protect

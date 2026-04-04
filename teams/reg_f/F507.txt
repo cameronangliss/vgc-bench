@@ -1,0 +1,68 @@
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 76 Def / 108 SpD / 76 Spe
+Impish Nature
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 132 Def / 4 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Perish Song
+
+Kommo-o @ Leftovers
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 36 Def / 204 SpD / 12 Spe
+Impish Nature
+- Body Press
+- Iron Defense
+- Protect
+- Iron Head
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 172 Atk / 4 Def / 12 SpD / 68 Spe
+Adamant Nature
+- Snarl
+- Stomping Tantrum
+- Heavy Slam
+- Ruination
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Protect
+- Spore
+- Pollen Puff
+- Rage Powder
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Atk / 124 Def / 92 SpA / 36 SpD
+Quiet Nature
+IVs: 0 Spe
+- Tera Blast
+- Trick Room
+- Recover
+- Ice Beam

@@ -1,0 +1,69 @@
+Tornadus @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Sunny Day
+- Tailwind
+- Taunt
+
+Urshifu @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Iron Head
+- U-turn
+
+Cresselia @ Rocky Helmet
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Ally Switch
+- Trick Room
+- Lunar Blessing
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 236 Atk / 4 Def / 20 SpD / 12 Spe
+Adamant Nature
+- Facade
+- Earthquake
+- Bulk Up
+- Protect
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 212 SpA / 76 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 60 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Thunderbolt

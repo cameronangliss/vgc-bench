@@ -1,0 +1,67 @@
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Helping Hand
+- Trick Room
+- Follow Me
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Protect
+- Sacred Sword
+
+Heatran @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 188 HP / 236 SpA / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Earth Power
+- Tera Blast
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Protect
+
+Rillaboom @ Leftovers
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 4 Def / 100 SpD / 36 Spe
+Adamant Nature
+- Fake Out
+- Knock Off
+- Wood Hammer
+- Protect

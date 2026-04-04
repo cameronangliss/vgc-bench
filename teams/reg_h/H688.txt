@@ -1,0 +1,67 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 28 HP / 4 Def / 252 SpA / 20 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Wide Guard
+- Tailwind
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 252 Atk / 4 Def / 60 SpD / 20 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Swords Dance
+- Sucker Punch
+- Kowtow Cleave
+- Protect
+
+Sneasler @ Grassy Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Protect
+- Throat Chop
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 204 Def / 52 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Rage Powder
+- Spore
+- Clear Smog
+
+Spiritomb @ Sitrus Berry
+Ability: Infiltrator
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+- Hex
+- Snarl
+- Trick Room
+- Will-O-Wisp

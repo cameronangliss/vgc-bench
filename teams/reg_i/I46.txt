@@ -1,0 +1,68 @@
+Tornadus (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 148 Def / 4 SpA / 36 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Protect
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 20 HP / 236 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Sandsear Storm
+- Sludge Bomb
+- Protect
+
+Kyogre @ Splash Plate
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 12 Def / 236 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Water Spout
+- Origin Pulse
+- Ice Beam
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Fairy
+EVs: 92 HP / 236 Atk / 180 Spe
+Jolly Nature
+- Play Rough
+- Behemoth Blade
+- Substitute
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Urshifu-Rapid-Strike (M) @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 236 Atk / 188 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Taunt
+- Detect

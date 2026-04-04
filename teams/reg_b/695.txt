@@ -1,0 +1,67 @@
+Roaring Moon @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Throat Chop
+- Tailwind
+- Iron Head
+
+Salazzle @ Focus Sash
+Ability: Oblivious
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Sludge Bomb
+- Overheat
+- Fake Out
+- Endeavor
+
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 116 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 2 Spe
+- Rage Powder
+- Leaf Storm
+- Spore
+- Pollen Puff
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 108 Def / 76 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Substitute
+- Dazzling Gleam
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 236 Atk / 252 SpD / 20 Spe
+Adamant Nature
+- Close Combat
+- Wild Charge
+- Fake Out
+- Heavy Slam
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 20 Def / 236 SpD
+Careful Nature
+- Protect
+- Salt Cure
+- Recover
+- Wide Guard

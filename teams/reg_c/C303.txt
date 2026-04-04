@@ -1,0 +1,69 @@
+Ting-Lu @ Weakness Policy
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 36 Def / 220 SpD
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Rock Slide
+- Throat Chop
+- Protect
+
+Bronzong @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 188 Def / 68 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Body Press
+- Ice Spinner
+- Stealth Rock
+- Trick Room
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 236 Atk / 4 Def / 244 SpD / 20 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Electric Terrain
+- Swords Dance
+
+Gyarados @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 20 HP / 252 Atk / 4 Def / 4 SpD / 228 Spe
+Jolly Nature
+- Waterfall
+- Tera Blast
+- Thunder Wave
+- Stone Edge
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 12 HP / 4 Def / 196 SpA / 44 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Hydro Pump
+- Aurora Veil
+
+Abomasnow @ Choice Specs
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 4 Def / 244 SpA / 28 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Leaf Storm
+- Earth Power
+- Tera Blast

@@ -1,0 +1,70 @@
+Urshifu-Rapid-Strike @ Power Anklet
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Atk / 12 Def / 44 SpD
+Brave Nature
+IVs: 0 Spe
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Pelipper @ Choice Specs
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hurricane
+- Weather Ball
+- Muddy Water
+- Wide Guard
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 252 Def / 140 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Dazzling Gleam
+- Helping Hand
+- Trick Room
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 44 Def / 252 SpA
+Quiet Nature
+IVs: 0 Spe
+- Make It Rain
+- Thunderbolt
+- Shadow Ball
+- Protect
+
+Flutter Mane @ Maranga Berry
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 36 Def / 220 SpD
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Trick Room
+- Protect
+
+Regieleki @ Choice Band
+Ability: Transistor
+Level: 50
+Tera Type: Normal
+EVs: 116 HP / 132 Atk / 4 Def / 180 SpD / 76 Spe
+Adamant Nature
+- Extreme Speed
+- Explosion
+- Volt Switch
+- Wild Charge

@@ -1,0 +1,71 @@
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 4 Def / 132 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Thundurus @ Safety Goggles
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Thunder Wave
+- Eerie Impulse
+- Taunt
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Rage Powder
+- Spore
+- Protect
+
+Arcanine-Hisui (M) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 36 Def / 12 SpD / 92 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Snarl
+- Extreme Speed
+
+Gastrodon (F) @ Sitrus Berry
+Ability: Storm Drain
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 116 Def / 140 SpD
+Bold Nature
+IVs: 0 Atk / 8 Spe
+- Earth Power
+- Ice Beam
+- Recover
+- Yawn
+
+Landorus-Therian @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 116 Atk / 36 Def / 12 SpD / 132 Spe
+Adamant Nature
+- Stomping Tantrum
+- Tera Blast
+- Swords Dance
+- Protect

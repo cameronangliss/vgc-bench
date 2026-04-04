@@ -1,0 +1,69 @@
+Sneasler (F) @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Throat Chop
+- Close Combat
+- Dire Claw
+- Fake Out
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Flip Turn
+- Wave Crash
+- Last Respects
+- Aqua Jet
+
+Pelipper (M) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Follow Me
+- Helping Hand
+- Psychic
+
+Lurantis (M) @ Assault Vest
+Ability: Contrary
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 252 Atk / 12 SpD
+Brave Nature
+IVs: 0 Spe
+- Superpower
+- Leaf Blade
+- Knock Off
+- Leech Life
+
+Hatterene @ Life Orb
+Ability: Magic Bounce
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Expanding Force
+- Dazzling Gleam
+- Charm

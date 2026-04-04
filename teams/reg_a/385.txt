@@ -1,0 +1,70 @@
+Garchomp (M) @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 36 HP / 252 Atk / 220 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Iron Head
+- Protect
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 252 SpA / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Yawn
+- Detect
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 60 Def / 196 SpD
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Helping Hand
+- Follow Me
+- Protect
+
+Armarouge (M) @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Armor Cannon
+- Expanding Force
+- Trick Room
+- Wide Guard
+
+Annihilape (F) @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 20 Def / 236 SpD
+Careful Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Taunt
+- Haze

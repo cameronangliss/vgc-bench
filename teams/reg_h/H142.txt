@@ -1,0 +1,69 @@
+Mimikyu @ Mental Herb
+Ability: Disguise
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 156 Atk / 124 SpD
+Adamant Nature
+- Play Rough
+- Wood Hammer
+- Trick Room
+- Will-O-Wisp
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- U-turn
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 12 Def / 116 SpA / 52 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Flash Cannon
+- Electro Shot
+- Body Press
+- Draco Meteor
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 164 HP / 4 Def / 252 SpA / 36 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 52 Def / 4 SpA / 156 SpD / 44 Spe
+Calm Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Rage Powder
+- Imprison
+- Trick Room
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 4 Def / 244 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot

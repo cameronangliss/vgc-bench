@@ -1,0 +1,73 @@
+Tsareena @ Wide Lens
+Ability: Queenly Majesty
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 132 HP / 156 Atk / 4 Def / 4 SpD / 212 Spe
+Adamant Nature
+- Power Whip
+- Triple Axel
+- Helping Hand
+- Protect
+
+Flamigo @ Focus Sash
+Ability: Scrappy
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Brave Bird
+- Tailwind
+- Detect
+
+Kingdra @ Choice Specs
+Ability: Swift Swim
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 20 HP / 4 Def / 252 SpA / 4 SpD / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Draco Meteor
+- Muddy Water
+- Scald
+
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 76 Def / 44 SpA / 116 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Body Press
+- Flash Cannon
+- Electro Shot
+- Draco Meteor
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

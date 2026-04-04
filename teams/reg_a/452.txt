@@ -1,0 +1,70 @@
+Baxcalibur (F) @ Figy Berry
+Ability: Thermal Exchange
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 188 HP / 60 Atk / 12 Def / 68 SpD / 180 Spe
+Adamant Nature
+- Ice Shard
+- Glaive Rush
+- Swords Dance
+- Protect
+
+Salazzle @ Focus Sash
+Ability: Oblivious
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Overheat
+- Sludge Bomb
+- Fake Out
+- Taunt
+
+Tauros-Paldea-Aqua @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Raging Bull
+- Close Combat
+- Aqua Jet
+- Protect
+
+Gholdengo @ Sitrus Berry
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 68 Def / 108 SpA / 36 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Hydreigon (M) @ Scope Lens
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Heat Wave
+- Focus Energy
+- Protect
+
+Amoonguss (M) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 8 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Pollen Puff

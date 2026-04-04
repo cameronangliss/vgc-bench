@@ -1,0 +1,66 @@
+Maushold @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 100 SpD
+Impish Nature
+- Follow Me
+- Super Fang
+- Feint
+- Protect
+
+Annihilape @ Sitrus Berry
+Ability: Vital Spirit
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 132 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Rage Fist
+- Drain Punch
+- Protect
+- Bulk Up
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 68 Def / 116 SpA / 52 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Tera Blast
+
+Talonflame @ Wide Lens
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 172 HP / 204 Atk / 20 Def / 4 SpD / 108 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Will-O-Wisp
+- Taunt
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Haze
+
+Dragonite @ Assault Vest
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 220 HP / 252 Atk / 4 Def / 4 SpD / 28 Spe
+Adamant Nature
+- Extreme Speed
+- Earthquake
+- Iron Head
+- Stomping Tantrum

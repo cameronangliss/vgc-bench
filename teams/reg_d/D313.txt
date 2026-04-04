@@ -1,0 +1,68 @@
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 204 SpA / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Protect
+- Substitute
+- Earth Power
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 84 Atk / 28 Def / 92 SpD / 52 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Knock Off
+- U-turn
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+- U-turn
+
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 172 Def / 4 SpA / 76 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Sunny Day
+- Bleakwind Storm
+- Rain Dance
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 60 HP / 196 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Mystical Fire
+
+Tyranitar @ Sitrus Berry
+Ability: Sand Stream
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 124 Atk / 172 Spe
+Adamant Nature
+- Rock Slide
+- Tera Blast
+- Protect
+- Assurance

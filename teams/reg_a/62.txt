@@ -1,0 +1,68 @@
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Body Press
+- Yawn
+- Protect
+
+Armarouge (F) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Armor Cannon
+- Expanding Force
+- Energy Ball
+- Trick Room
+
+Lilligant (F) @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Leaf Storm
+- Tera Blast
+- Sleep Powder
+- After You
+
+Gyarados (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Tera Blast
+- Dragon Dance
+- Waterfall
+- Protect
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Earthquake
+- Swords Dance
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 204 Def / 52 SpD
+Impish Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Helping Hand
+- Protect

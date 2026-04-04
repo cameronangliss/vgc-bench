@@ -1,0 +1,66 @@
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 164 HP / 4 Def / 84 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Shadow Ball
+- Trick
+- Power Gem
+- Make It Rain
+
+Porygon2 @ Eviolite
+Ability: Trace
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+- Trick Room
+- Recover
+- Tri Attack
+- Shadow Ball
+
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Rage Fist
+- Protect
+- Bulk Up
+- Drain Punch
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 140 Def / 116 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Taunt
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Facade
+- Headlong Rush
+- Earthquake
+
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 188 HP / 68 Def / 252 Spe
+Timid Nature
+- Struggle Bug
+- Rage Powder
+- Will-O-Wisp
+- Overheat

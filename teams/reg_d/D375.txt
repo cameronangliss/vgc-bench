@@ -1,0 +1,68 @@
+Moltres-Galar @ Sitrus Berry
+Ability: Berserk
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 116 Def / 76 SpA / 4 SpD / 100 Spe
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Air Slash
+- Nasty Plot
+- Fiery Wrath
+
+Zapdos-Galar @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Steel
+EVs: 20 HP / 252 Atk / 236 Spe
+Adamant Nature
+- Brave Bird
+- U-turn
+- Low Sweep
+- Tera Blast
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 60 HP / 76 Atk / 4 Def / 236 SpD / 132 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+
+Landorus-Therian @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 36 Atk / 4 Def / 132 SpD / 108 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Tomb
+- U-turn
+- Protect
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Protect
+- Rage Powder
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 100 Def / 116 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Protect
+- Substitute

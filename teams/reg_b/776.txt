@@ -1,0 +1,68 @@
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Perish Song
+- Protect
+- Shadow Ball
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 76 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Flare Blitz
+- Will-O-Wisp
+- Snarl
+- Protect
+
+Gothitelle @ Leftovers
+Ability: Shadow Tag
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 116 Def / 4 SpA / 140 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Fake Out
+- Protect
+- Heal Pulse
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 164 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Protect
+- Pollen Puff
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 156 Atk / 4 Def / 252 SpD / 20 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Volt Switch
+- Fake Out
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 252 Atk / 4 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Jet Punch
+- Close Combat

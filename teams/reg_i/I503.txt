@@ -1,0 +1,69 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 36 Def / 196 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Discharge
+- Volt Switch
+- Electro Drift
+- Draco Meteor
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 236 Def / 4 SpA / 4 SpD / 164 Spe
+Bold Nature
+IVs: 18 Atk
+- Body Press
+- Snarl
+- Wide Guard
+- Substitute
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 164 Def / 12 SpA / 92 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Foul Play
+- Psychic
+- Helping Hand
+
+Iron Moth @ Choice Scarf
+Ability: Quark Drive
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 76 Def / 236 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 14 Atk
+- Sludge Wave
+- Fiery Dance
+- Acid Spray
+- Energy Ball
+
+Rhydon @ Eviolite
+Ability: Lightning Rod
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 12 Def / 244 SpD
+Brave Nature
+IVs: 15 Spe
+- High Horsepower
+- Rock Slide
+- Icy Wind
+- Protect
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 36 Def / 4 SpA / 196 SpD / 20 Spe
+Calm Nature
+- Dark Pulse
+- Pollen Puff
+- Leech Seed
+- Protect

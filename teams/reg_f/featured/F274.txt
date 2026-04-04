@@ -1,0 +1,68 @@
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Aqua Jet
+
+Weezing-Galar @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Strange Steam
+- Taunt
+- Protect
+- Will-O-Wisp
+
+Incineroar @ Figy Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 252 SpD / 12 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 212 HP / 12 Def / 252 SpA / 28 SpD / 4 Spe
+Modest Nature
+- Thunderclap
+- Thunderbolt
+- Draco Meteor
+- Heavy Slam
+
+Amoonguss @ Wiki Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 4 SpA / 100 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Pollen Puff
+- Sludge Bomb
+- Rage Powder
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 100 Def / 132 SpA / 4 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Energy Ball

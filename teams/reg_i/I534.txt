@@ -1,0 +1,70 @@
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 100 Def / 156 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Glacial Lance
+- High Horsepower
+- Trick Room
+
+Kyogre @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 220 Def / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Water Spout
+- Ice Beam
+- Thunder
+
+Scraggy @ Eviolite
+Ability: Intimidate
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 Def / 252 SpD
+Sassy Nature
+IVs: 0 Spe
+- Fake Out
+- Foul Play
+- Coaching
+- Endeavor
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 252 Atk / 4 Def / 12 SpD / 108 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 180 Def / 92 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Pollen Puff
+- Clear Smog
+
+Sentret @ Focus Sash
+Ability: Frisk
+Level: 50
+Tera Type: Grass
+EVs: 60 HP / 252 Atk / 196 Def
+Brave Nature
+IVs: 0 Spe
+- Follow Me
+- Knock Off
+- Sucker Punch
+- Endeavor

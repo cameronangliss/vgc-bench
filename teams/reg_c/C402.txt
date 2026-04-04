@@ -1,0 +1,68 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 36 Atk / 4 Def / 252 SpD / 212 Spe
+Jolly Nature
+- Wave Crash
+- Earthquake
+- Yawn
+- Protect
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 156 Def / 4 SpA / 100 SpD / 4 Spe
+Bold Nature
+- Power Gem
+- Earth Power
+- Mortal Spin
+- Energy Ball
+
+Tatsugiri @ Bright Powder
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 108 Def / 76 SpA / 60 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Helping Hand
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind
+- Protect
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Overheat
+- Heat Wave
+- Protect
+
+Corviknight @ Safety Goggles
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 108 Def / 148 SpD
+Impish Nature
+- Body Press
+- Heavy Slam
+- Iron Defense
+- Roost

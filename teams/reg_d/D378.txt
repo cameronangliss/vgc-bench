@@ -1,0 +1,68 @@
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 68 HP / 60 Atk / 132 Def / 20 SpD / 228 Spe
+Jolly Nature
+- Rock Tomb
+- Stomping Tantrum
+- U-turn
+- Tera Blast
+
+Tornadus @ Sky Plate
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 204 Def / 4 SpA / 4 SpD / 44 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Protect
+- Sunny Day
+- Bleakwind Storm
+
+Heatran @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 36 Def / 172 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Tera Blast
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 228 Def / 116 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Thunderbolt
+
+Urshifu @ Dread Plate
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 124 HP / 252 Atk / 4 Def / 124 SpD / 4 Spe
+Adamant Nature
+- Close Combat
+- Wicked Blow
+- Sucker Punch
+- Detect
+
+Rillaboom @ Aguav Berry
+Ability: Grassy Surge
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Atk / 116 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Wood Hammer
+- Fake Out
+- Stomping Tantrum
+- Taunt

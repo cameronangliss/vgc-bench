@@ -1,0 +1,70 @@
+Regieleki @ Choice Band
+Ability: Transistor
+Level: 50
+Tera Type: Normal
+EVs: 68 HP / 252 Atk / 92 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Explosion
+- Extreme Speed
+- Wild Charge
+- Electroweb
+
+Spiritomb @ Safety Goggles
+Ability: Infiltrator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Pain Split
+- Hypnosis
+- Trick Room
+- Sucker Punch
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Brick Break
+- Protect
+
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Def / 244 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Flamethrower
+- Earth Power
+- Solar Beam
+
+Regidrago @ Dragon Fang
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Dragon
+EVs: 132 Def / 252 SpA / 124 SpD
+Quiet Nature
+IVs: 0 Spe
+- Dragon Energy
+- Draco Meteor
+- Dragon Pulse
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Helping Hand
+- Psychic
+- Follow Me
+- Trick Room

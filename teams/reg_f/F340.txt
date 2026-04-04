@@ -1,0 +1,66 @@
+Rillaboom @ Choice Band
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 116 Atk / 156 SpD
+Adamant Nature
+- U-turn
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+
+Klefki @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 164 Def / 92 SpD
+Careful Nature
+- Light Screen
+- Reflect
+- Play Rough
+- Trick Room
+
+Tsareena @ Assault Vest
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 252 Atk / 12 SpD
+Adamant Nature
+- Grassy Glide
+- Power Whip
+- High Jump Kick
+- Triple Axel
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 4 Atk / 68 Def / 228 SpD / 4 Spe
+Impish Nature
+- Breaking Swipe
+- Burning Bulwark
+- Heat Crash
+- Morning Sun
+
+Landorus-Therian @ Choice Specs
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 SpA / 60 SpD
+Modest Nature
+IVs: 0 Atk
+- Sandsear Storm
+- Earth Power
+- Sludge Bomb
+- Psychic
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 180 Def
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Grassy Glide
+- Spiky Shield

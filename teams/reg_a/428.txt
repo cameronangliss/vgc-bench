@@ -1,0 +1,67 @@
+Annihilape @ Weakness Policy
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Atk / 76 Def / 156 SpD / 12 Spe
+Adamant Nature
+- Protect
+- Bulk Up
+- Rage Fist
+- Drain Punch
+
+Baxcalibur (F) @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ice
+EVs: 204 HP / 252 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Glaive Rush
+- Icicle Spear
+- Ice Shard
+- Protect
+
+Kingambit (F) @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 252 Atk / 4 Def / 44 SpD / 20 Spe
+Adamant Nature
+- Iron Head
+- Tera Blast
+- Kowtow Cleave
+- Sucker Punch
+
+Volcarona (M) @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 196 Def / 4 SpA / 60 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Struggle Bug
+- Rage Powder
+- Protect
+
+Tauros-Paldea-Aqua @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 4 Def / 4 SpD / 244 Spe
+Jolly Nature
+- Close Combat
+- Raging Bull
+- Protect
+- Tera Blast
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 236 HP / 68 Def / 124 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Protect
+- Nasty Plot

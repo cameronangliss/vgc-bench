@@ -1,0 +1,69 @@
+Flutter Mane @ Sitrus Berry
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 252 Def / 4 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Thunderbolt
+- Protect
+
+Florges @ Safety Goggles
+Ability: Flower Veil
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Def / 52 SpA / 4 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Pollen Puff
+- Calm Mind
+- Synthesis
+
+Gyarados @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Waterfall
+- Tera Blast
+- Taunt
+- Dragon Dance
+
+Arcanine @ Passho Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 156 Atk / 4 Def / 12 SpD / 84 Spe
+Adamant Nature
+- Flare Blitz
+- Snarl
+- Extreme Speed
+- Will-O-Wisp
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Def / 4 SpA / 196 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Pollen Puff
+- Leech Seed
+- Protect
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Trick

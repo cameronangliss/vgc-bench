@@ -1,0 +1,67 @@
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Normal
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Substitute
+- Astral Barrage
+- Psychic
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 4 Atk / 156 Def / 4 SpD / 164 Spe
+Impish Nature
+- Wide Guard
+- Body Press
+- Heavy Slam
+- Protect
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 116 HP / 4 Def / 252 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Thunderclap
+- Dragon Pulse
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ruination
+- Icicle Crash
+- Sucker Punch
+- Protect
+
+Whimsicott (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 20 Def / 4 SpA / 84 SpD / 148 Spe
+Timid Nature
+- Tailwind
+- Fake Tears
+- Misty Terrain
+- Moonblast
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 44 Def / 76 SpD / 60 Spe
+Adamant Nature
+- Follow Me
+- Ivy Cudgel
+- Taunt
+- Spiky Shield

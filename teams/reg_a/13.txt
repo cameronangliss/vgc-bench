@@ -1,0 +1,65 @@
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Protect
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 140 Def / 116 SpD
+Careful Nature
+- Reflect
+- Light Screen
+- Parting Shot
+- Spirit Break
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Tailwind
+- Brave Bird
+- Quick Guard
+- Taunt
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 252 HP / 76 SpA / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Thunderbolt
+- Nasty Plot
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Amoonguss @ Occa Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 164 Def / 92 SpD
+Calm Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Giga Drain
+- Clear Smog

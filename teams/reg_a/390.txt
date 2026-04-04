@@ -1,0 +1,67 @@
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Giga Drain
+- Pollen Puff
+
+Gyarados @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Hasty Nature
+- Dragon Dance
+- Waterfall
+- Protect
+- Tera Blast
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 52 Atk / 52 Def / 44 SpD / 116 Spe
+Adamant Nature
+- Sucker Punch
+- Iron Head
+- Kowtow Cleave
+- Low Kick
+
+Talonflame @ Focus Sash
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Tailwind
+- Brave Bird
+- Flare Blitz
+- Will-O-Wisp
+
+Meowscarada @ Choice Band
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Play Rough
+- Knock Off
+- U-turn
+
+Annihilape @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Atk / 164 Def / 76 SpD / 4 Spe
+Careful Nature
+- Protect
+- Drain Punch
+- Rage Fist
+- Bulk Up

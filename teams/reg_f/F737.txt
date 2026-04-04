@@ -1,0 +1,68 @@
+Iron Crown @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Dragon
+EVs: 204 HP / 20 Def / 220 SpA / 12 SpD / 52 Spe
+Modest Nature
+IVs: 20 Atk
+- Tachyon Cutter
+- Expanding Force
+- Calm Mind
+- Protect
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Helping Hand
+- Trick Room
+- Dazzling Gleam
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 180 HP / 92 Def / 44 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Rain Dance
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Taunt
+- Protect
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 92 Atk / 52 Def / 12 SpD / 188 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Landorus-Therian @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 92 HP / 156 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- U-turn

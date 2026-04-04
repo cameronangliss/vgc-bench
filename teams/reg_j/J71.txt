@@ -1,0 +1,67 @@
+Arceus @ Covert Cloak
+Ability: Multitype
+Level: 50
+Tera Type: Normal
+EVs: 220 HP / 156 Atk / 68 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Extreme Speed
+- Shadow Claw
+- Taunt
+- Swords Dance
+
+Kyogre @ Assault Vest
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 100 HP / 4 Def / 148 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Water Spout
+- Origin Pulse
+- Thunder
+- Ice Beam
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 172 HP / 252 Atk / 4 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Wood Hammer
+- U-turn
+- Grassy Glide
+- Fake Out
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ice
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Ice Shard
+- Protect
+
+Moltres @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Hurricane
+- Will-O-Wisp
+- Roost
+- Protect

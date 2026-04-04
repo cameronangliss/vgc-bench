@@ -1,0 +1,67 @@
+Urshifu-Rapid-Strike @ Splash Plate
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 252 Atk / 20 Def / 36 SpD / 172 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Detect
+- Aqua Jet
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 252 Atk / 20 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Wood Hammer
+- U-turn
+- Knock Off
+- Fake Out
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 76 HP / 252 Atk / 180 Spe
+Adamant Nature
+- Extreme Speed
+- Flare Blitz
+- Rock Slide
+- Head Smash
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 156 Def / 148 SpD
+Bold Nature
+IVs: 0 Atk
+- Body Press
+- Heat Wave
+- Iron Defense
+- Protect
+
+Tornadus @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 52 Def / 4 SpA / 28 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Icy Wind
+- Protect
+- Bleakwind Storm
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 132 Def / 148 SpA / 4 SpD / 124 Spe
+Timid Nature
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+- Moonblast

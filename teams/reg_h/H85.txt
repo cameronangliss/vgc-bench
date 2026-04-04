@@ -1,0 +1,68 @@
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 92 HP / 140 Atk / 156 Def / 116 SpD / 4 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Ice Punch
+
+Excadrill @ Clear Amulet
+Ability: Sand Rush
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 44 Def / 36 SpD / 172 Spe
+Adamant Nature
+- High Horsepower
+- Iron Head
+- Rock Slide
+- Protect
+
+Kommo-o @ Throat Spray
+Ability: Soundproof
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 4 Def / 68 SpA / 116 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Clangorous Soul
+- Clanging Scales
+- Flamethrower
+- Protect
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 116 HP / 116 Atk / 4 Def / 156 SpD / 116 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 164 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Follow Me
+- Helping Hand
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Steel Beam

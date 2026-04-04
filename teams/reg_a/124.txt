@@ -1,0 +1,68 @@
+Toxapex (F) @ Black Sludge
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 108 Def / 148 SpD
+Calm Nature
+IVs: 0 Atk / 12 Spe
+- Toxic
+- Infestation
+- Recover
+- Baneful Bunker
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 12 Atk / 148 Def / 92 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Fake Out
+- Reflect
+- Light Screen
+
+Ceruledge (F) @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 36 Atk / 196 Def / 20 SpD / 4 Spe
+Adamant Nature
+- Bitter Blade
+- Iron Head
+- Brick Break
+- Shadow Sneak
+
+Misdreavus (M) @ Eviolite
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+IVs: 0 Atk
+- Night Shade
+- Will-O-Wisp
+- Pain Split
+- Trick Room
+
+Goodra (F) @ Sitrus Berry
+Ability: Sap Sipper
+Level: 50
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Draco Meteor
+- Flamethrower
+- Life Dew
+- Protect
+
+Orthworm (M) @ Leftovers
+Ability: Earth Eater
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+IVs: 0 Atk
+- Body Press
+- Metal Burst
+- Iron Defense
+- Protect

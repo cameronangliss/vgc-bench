@@ -1,0 +1,68 @@
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 44 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Draco Meteor
+- Dragon Pulse
+- Muddy Water
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 20 HP / 84 Atk / 4 Def / 196 SpD / 204 Spe
+Adamant Nature
+- Substitute
+- Order Up
+- Protect
+- Wave Crash
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 140 Def / 36 SpA / 100 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Overheat
+- Struggle Bug
+- Rage Powder
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Taunt
+- Moonblast
+- Protect
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 196 Atk / 4 Def / 52 SpD / 52 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Tera Blast
+
+Brute Bonnet @ Loaded Dice
+Ability: Protosynthesis
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 100 Atk / 36 Def / 116 SpD / 4 Spe
+Adamant Nature
+- Sucker Punch
+- Bullet Seed
+- Spore
+- Protect

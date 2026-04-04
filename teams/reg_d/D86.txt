@@ -1,0 +1,68 @@
+Dragonite @ Silk Scarf
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Aerial Ace
+- Extreme Speed
+- Protect
+- Aqua Jet
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Protect
+- Sucker Punch
+- Sacred Sword
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 52 HP / 252 Atk / 12 Def / 140 SpD / 52 Spe
+Adamant Nature
+- Drain Punch
+- Heavy Slam
+- Fake Out
+- Wild Charge
+
+Heatran @ Choice Specs
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk / 17 Spe
+- Earth Power
+- Heat Wave
+- Flash Cannon
+- Overheat
+
+Dondozo @ Life Orb
+Ability: Unaware
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 28 SpD / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Surf
+- Tera Blast
+- Rest
+- Sleep Talk
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Icy Wind
+- Draco Meteor
+- Sleep Talk

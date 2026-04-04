@@ -1,0 +1,69 @@
+Kommo-o @ Throat Spray
+Ability: Soundproof
+Level: 50
+Tera Type: Steel
+EVs: 172 HP / 84 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Clanging Scales
+- Flash Cannon
+- Clangorous Soul
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Helping Hand
+- Follow Me
+- Icy Wind
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 156 Atk / 4 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+- Fake Out
+
+Sinistcha-Masterpiece @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 188 Def / 4 SpA / 68 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Rage Powder
+- Matcha Gotcha
+- Trick Room
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Fire
+EVs: 60 HP / 236 Atk / 4 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Ursaluna-Bloodmoon @ Leftovers
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 212 HP / 12 Def / 124 SpA / 116 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Blood Moon
+- Hyper Voice
+- Calm Mind

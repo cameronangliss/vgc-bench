@@ -1,0 +1,71 @@
+Annihilape @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 244 HP / 36 Atk / 12 Def / 140 SpD / 76 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 Atk / 12 SpD / 244 Spe
+Adamant Nature
+- Wave Crash
+- Order Up
+- Tera Blast
+- Protect
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Beat Up
+- Follow Me
+- Taunt
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 244 HP / 4 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Misty Terrain
+- Light Screen
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Tera Blast

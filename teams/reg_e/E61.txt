@@ -1,0 +1,70 @@
+Empoleon @ Assault Vest
+Ability: Competitive
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 4 Def / 244 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Flash Cannon
+- Hydro Pump
+- Blizzard
+- Vacuum Wave
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 44 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Rain Dance
+- Bleakwind Storm
+- Taunt
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 100 Def / 4 SpA / 148 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Aurora Veil
+- Blizzard
+- Moonblast
+- Protect
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 244 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Rage Powder
+- Matcha Gotcha
+- Trick Room
+- Strength Sap
+
+Okidogi @ Leftovers
+Ability: Guard Dog
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 172 Atk / 4 Def / 100 SpD / 4 Spe
+Adamant Nature
+- Poison Jab
+- Drain Punch
+- Bulk Up
+- Protect
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Wicked Blow
+- Sucker Punch
+- U-turn
+- Close Combat

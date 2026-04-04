@@ -1,0 +1,67 @@
+Flutter Mane @ Sitrus Berry
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpA
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Trick Room
+- Protect
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Spe
+Jolly Nature
+- Brave Bird
+- Feint
+- Tailwind
+- Protect
+
+Baxcalibur @ Assault Vest
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Glaive Rush
+- Icicle Crash
+- Ice Shard
+- Earthquake
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 52 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Nasty Plot
+- Protect
+- Shadow Ball
+
+Maushold-Four @ Wide Lens
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 188 Def / 68 Spe
+Impish Nature
+- Follow Me
+- Super Fang
+- Protect
+- Feint
+
+Brute Bonnet @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 244 Atk / 4 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Seed Bomb
+- Clear Smog
+- Close Combat
+- Sucker Punch

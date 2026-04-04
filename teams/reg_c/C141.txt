@@ -1,0 +1,68 @@
+Torkoal @ Heat Rock
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Earth Power
+- Will-O-Wisp
+- Fissure
+
+Lilligant @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sleep Powder
+- After You
+- Leaf Storm
+- Protect
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+
+Great Tusk @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 Atk / 4 Spe
+Jolly Nature
+- Earthquake
+- Knock Off
+- Close Combat
+- Rock Slide
+
+Chien-Pao @ Choice Band
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Sacred Sword
+- Ice Spinner
+- Crunch
+
+Ceruledge @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 196 Atk / 92 Def / 4 SpA / 4 Spe
+Naughty Nature
+- Tera Blast
+- Bitter Blade
+- Close Combat
+- Shadow Sneak

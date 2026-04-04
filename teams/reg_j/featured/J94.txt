@@ -1,0 +1,68 @@
+Terapagos-Terastal @ Covert Cloak
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 92 HP / 252 SpA / 164 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+- Protect
+
+Arceus-Fairy @ Pixie Plate
+Ability: Multitype
+Level: 50
+Tera Type: Dark
+EVs: 180 HP / 76 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Judgment
+- Tailwind
+- Will-O-Wisp
+- Taunt
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 220 Def / 4 SpD / 28 Spe
+Impish Nature
+- Knock Off
+- U-turn
+- Helping Hand
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 156 HP / 252 Atk / 4 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 252 SpA / 124 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Protect

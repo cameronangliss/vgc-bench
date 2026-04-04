@@ -1,0 +1,68 @@
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 252 Atk / 4 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Flare Blitz
+- Collision Course
+- Flame Charge
+- Protect
+
+Giratina-Origin @ Griseous Core
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 92 HP / 252 Atk / 100 Def / 36 SpD / 28 Spe
+Adamant Nature
+- Poltergeist
+- Breaking Swipe
+- Shadow Sneak
+- Protect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 84 Def / 20 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Sunny Day
+- Tailwind
+- Protect
+
+Great Tusk @ Choice Band
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Headlong Rush
+- Close Combat
+- Earthquake
+- Knock Off
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Icy Wind
+- Moonblast
+- Thunder Wave
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Overheat
+- Snarl
+- Heat Wave

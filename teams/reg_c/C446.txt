@@ -1,0 +1,67 @@
+Oranguru @ Choice Specs
+Ability: Symbiosis
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 Def / 4 SpD
+Sassy Nature
+- Bulldoze
+- Instruct
+- Trick Room
+- Psychic
+
+Bellibolt @ Weakness Policy
+Ability: Electromorphosis
+Level: 50
+Tera Type: Flying
+EVs: 180 HP / 4 Atk / 148 Def / 4 SpA / 172 SpD
+Relaxed Nature
+- Parabolic Charge
+- Tera Blast
+- Weather Ball
+- Sucker Punch
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 252 SpA / 92 SpD / 164 Spe
+Calm Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
+
+Abomasnow @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Grass
+EVs: 200 HP / 252 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Aurora Veil
+- Leaf Storm
+- Helping Hand
+- Blizzard
+
+Baxcalibur @ Choice Band
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Earthquake
+- Glaive Rush
+- Tera Blast
+- Icicle Crash
+
+Iron Treads @ Choice Scarf
+Ability: Quark Drive
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Earthquake
+- Iron Head
+- Ice Spinner
+- Volt Switch

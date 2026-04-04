@@ -1,0 +1,67 @@
+Meloetta @ Choice Scarf
+Ability: Serene Grace
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 36 Def / 4 SpD / 212 Spe
+Jolly Nature
+- Relic Song
+- Close Combat
+- Coaching
+- Trick
+
+Giratina @ Clear Amulet
+Ability: Telepathy
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 252 Atk / 4 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Poltergeist
+- Breaking Swipe
+- Shadow Sneak
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 196 Atk / 4 Def / 108 SpD / 68 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Crunch
+- Sacred Sword
+- Ice Shard
+- Protect
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 252 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Flamethrower
+- Struggle Bug
+- Tailwind
+- Rage Powder
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 188 HP / 252 Atk / 68 Def
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Earthquake
+- Headlong Rush
+- Protect

@@ -1,0 +1,70 @@
+Oricorio-Sensu @ Sitrus Berry
+Ability: Dancer
+Level: 50
+Tera Type: Fairy
+EVs: 92 HP / 4 Def / 164 SpA / 4 SpD / 244 Spe
+Modest Nature
+IVs: 0 Atk
+- Revelation Dance
+- Air Slash
+- Quiver Dance
+- Protect
+
+Quaquaval @ Choice Scarf
+Ability: Moxie
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Aqua Step
+- Close Combat
+- Brave Bird
+- Ice Spinner
+
+Torkoal @ Eject Pack
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 15 Atk / 14 Spe
+- Overheat
+- Eruption
+- Earth Power
+- Protect
+
+Lilligant @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Leaf Storm
+- After You
+- Sleep Powder
+- Protect
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 92 SpA / 212 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Hyper Voice
+- Imprison
+- Trick Room
+
+Thundurus (M) @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Electric
+EVs: 236 HP / 244 Def / 4 SpA / 20 SpD / 4 Spe
+Bold Nature
+IVs: 9 Atk
+- Wildbolt Storm
+- Taunt
+- Thunder Wave
+- Sunny Day

@@ -1,0 +1,66 @@
+Cresselia @ Rocky Helmet
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 236 Def / 12 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Calm Mind
+- Lunar Blessing
+- Trick Room
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 244 Def / 44 Spe
+Timid Nature
+- Heat Wave
+- Bug Buzz
+- Quiver Dance
+- Protect
+
+Rillaboom @ Figy Berry
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 84 Atk / 4 Def / 156 SpD / 12 Spe
+Adamant Nature
+- Wood Hammer
+- Stomping Tantrum
+- Fake Out
+- Worry Seed
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 180 Def / 76 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 4 Atk / 4 Def / 252 SpD / 4 Spe
+Careful Nature
+- Wave Crash
+- Fissure
+- Curse
+- Protect
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 44 Atk / 36 Def / 164 SpD / 20 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Tera Blast

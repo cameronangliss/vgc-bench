@@ -1,0 +1,69 @@
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Dazzling Gleam
+- Trick Room
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 4 Def / 172 SpA / 68 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 252 SpA / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Flamethrower
+- Heat Wave
+- Tera Blast
+
+Iron Hands @ Safety Goggles
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 252 SpD / 52 Spe
+Careful Nature
+- Detect
+- Drain Punch
+- Thunder Punch
+- Swords Dance
+
+Grimmsnarl @ Roseli Berry
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Def / 100 SpD
+Careful Nature
+- Spirit Break
+- Fake Out
+- Scary Face
+- Light Screen
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 180 Def / 4 SpA / 76 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Clear Smog
+- Pollen Puff
+- Spore
+- Rage Powder

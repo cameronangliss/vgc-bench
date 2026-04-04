@@ -1,0 +1,70 @@
+Rotom-Wash @ Leftovers
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 76 Def / 172 SpA / 4 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Thunderbolt
+- Will-O-Wisp
+- Volt Switch
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 36 HP / 252 SpA / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 44 HP / 4 Def / 114 SpA / 134 SpD / 212 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Body Press
+- Snarl
+- Draco Meteor
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 148 Atk / 44 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Grassy Glide
+- High Horsepower
+- Wood Hammer
+- Fake Out
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+Tera Type: Fairy
+EVs: 60 HP / 4 Def / 252 SpA / 4 SpD / 188 Spe
+Modest Nature
+- Quick Attack
+- Hyper Voice
+- Tera Blast
+- Protect
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Ghost
+EVs: 100 HP / 252 Atk / 156 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Last Respects
+- Flip Turn

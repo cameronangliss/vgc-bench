@@ -1,0 +1,67 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 148 HP / 164 Def / 52 SpA / 4 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 132 HP / 252 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Aqua Jet
+- Low Kick
+
+Chi-Yu @ Assault Vest
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 4 Def / 244 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Snarl
+- Tera Blast
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Great Tusk @ Clear Amulet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Headlong Rush
+- Close Combat
+- Rock Slide
+- Protect
+
+Maushold-Four @ Sitrus Berry
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 156 Def / 28 SpD / 76 Spe
+Jolly Nature
+- Follow Me
+- Super Fang
+- Feint
+- Protect

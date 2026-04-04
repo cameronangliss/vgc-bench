@@ -1,0 +1,68 @@
+Florges-Blue @ Choice Specs
+Ability: Symbiosis
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 164 Def / 60 SpA / 4 SpD / 100 Spe
+Modest Nature
+- Helping Hand
+- Tera Blast
+- Moonblast
+- Psychic
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 124 Def / 116 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Icy Wind
+- Protect
+
+Chi-Yu @ Covert Cloak
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 124 Def / 84 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Dark Pulse
+- Taunt
+
+Latios @ Soul Dew
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 28 Def / 100 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Tailwind
+- Draco Meteor
+- Luster Purge
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 44 Atk / 4 Def / 12 SpD / 196 Spe
+Jolly Nature
+- Follow Me
+- Ivy Cudgel
+- Spiky Shield
+- Horn Leech
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 116 Atk / 20 Def / 44 SpD / 84 Spe
+Adamant Nature
+- Fake Out
+- U-turn
+- Flare Blitz
+- Knock Off

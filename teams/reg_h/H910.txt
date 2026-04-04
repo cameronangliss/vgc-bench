@@ -1,0 +1,68 @@
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Tailwind
+- Will-O-Wisp
+- Brave Bird
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Taunt
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 180 HP / 124 Atk / 4 Def / 4 SpD / 196 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Drain Punch
+- Fake Out
+
+Tinkaton @ Covert Cloak
+Ability: Mold Breaker
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 124 HP / 124 Atk / 76 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Gigaton Hammer
+- Knock Off
+- Play Rough
+- Fake Out
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Earthquake
+- Dragon Claw
+- Protect

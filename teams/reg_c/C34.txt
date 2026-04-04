@@ -1,0 +1,67 @@
+Baxcalibur (M) @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 84 HP / 172 Atk / 4 Def / 4 SpD / 244 Spe
+Adamant Nature
+- Glaive Rush
+- Icicle Crash
+- Dragon Dance
+- Protect
+
+Palafin (F) @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Atk / 60 SpD
+Adamant Nature
+- Wave Crash
+- Jet Punch
+- Haze
+- Protect
+
+Arcanine (M) @ Figy Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 20 Atk / 188 Def / 4 SpD / 220 Spe
+Jolly Nature
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 4 Def / 52 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Mystical Fire
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Def / 220 SpD
+Impish Nature
+- Stomping Tantrum
+- Ruination
+- Heavy Slam
+- Fissure
+
+Amoonguss (F) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Leaf Storm
+- Pollen Puff
+- Spore
+- Protect

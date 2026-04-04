@@ -1,0 +1,70 @@
+Serperior @ Light Clay
+Ability: Contrary
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 244 HP / 4 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Leaf Storm
+- Light Screen
+- Reflect
+- Glare
+
+Ceruledge @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 116 Atk / 52 Def / 76 SpD / 12 Spe
+Adamant Nature
+- Bulk Up
+- Bitter Blade
+- Poltergeist
+- Protect
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 20 HP / 252 Atk / 236 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Throat Chop
+- Swords Dance
+
+Indeedee-F @ Sitrus Berry
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 204 Def / 4 SpA / 36 SpD / 20 Spe
+Calm Nature
+IVs: 0 Atk
+- Follow Me
+- Protect
+- Helping Hand
+- Psychic
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Ghost
+EVs: 156 HP / 4 Def / 196 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Vacuum Wave
+
+Hydreigon @ Scope Lens
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 36 HP / 20 Def / 196 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Focus Energy
+- Draco Meteor
+- Protect
+- Dark Pulse

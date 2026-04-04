@@ -1,0 +1,69 @@
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 12 Def / 244 SpD
+Bold Nature
+IVs: 23 Atk
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 68 SpA / 188 SpD
+Modest Nature
+IVs: 25 Atk
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Body Press
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 4 Atk
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 196 Atk / 4 Def / 100 SpD / 84 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- U-turn
+- Protect
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Steel
+EVs: 84 HP / 12 Def / 156 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 19 Atk
+- Sandsear Storm
+- Sludge Bomb
+- Substitute
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 76 Def / 156 SpD / 20 Spe
+Careful Nature
+- Helping Hand
+- Knock Off
+- Parting Shot
+- Fake Out

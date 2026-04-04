@@ -1,0 +1,67 @@
+Goodra-Hisui @ Leftovers
+Ability: Shell Armor
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Atk / 248 Def / 4 SpD
+Impish Nature
+- Shelter
+- Protect
+- Body Press
+- Heavy Slam
+
+Sneasler (F) @ Grassy Seed
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Taunt
+- Dire Claw
+- Close Combat
+- Acrobatics
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Fake Out
+- Drum Beating
+- U-turn
+- Knock Off
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- U-turn
+- Close Combat
+- Aqua Jet
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 56 Def / 164 SpA / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Helping Hand
+- Lunar Blessing
+- Psychic
+
+Heatran (M) @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Flash Cannon
+- Heat Wave
+- Earth Power

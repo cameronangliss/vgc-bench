@@ -1,0 +1,67 @@
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 28 Def / 196 SpA / 4 SpD / 28 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Dazzling Gleam
+- Draco Meteor
+
+Koraidon @ Life Orb
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Flare Blitz
+- Flame Charge
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 180 HP / 68 Def / 180 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 20 Atk
+- Rising Voltage
+- Draco Meteor
+- Thunderclap
+- Electroweb
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 244 Def / 12 SpD / 4 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 236 Atk / 52 Def / 220 Spe
+Adamant Nature
+- Ivy Cudgel
+- Power Whip
+- Follow Me
+- Spiky Shield

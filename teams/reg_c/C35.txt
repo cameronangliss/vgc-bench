@@ -1,0 +1,67 @@
+Lycanroc (F) @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Bulldoze
+- Close Combat
+- Endeavor
+
+Tyranitar (F) @ Choice Band
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Assurance
+- Low Kick
+- Tera Blast
+
+Annihilape (M) @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 12 Atk / 148 Def / 68 SpD / 28 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Def / 220 SpD
+Impish Nature
+- Ruination
+- Body Press
+- Heavy Slam
+- Snarl
+
+Armarouge (F) @ Shuca Berry
+Ability: Weak Armor
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 4 Def / 252 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Armor Cannon
+- Clear Smog
+- Protect
+
+Indeedee-F (F) @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Psychic
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Helping Hand
+- Protect

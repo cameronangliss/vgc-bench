@@ -1,0 +1,68 @@
+Terapagos @ Rocky Helmet
+Ability: Tera Shift
+Level: 50
+Tera Type: Stellar
+EVs: 220 HP / 132 Def / 92 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Stealth Rock
+- Dark Pulse
+- Protect
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Encore
+- Disable
+- Protect
+
+Rillaboom @ Covert Cloak
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 196 Atk / 4 Def / 60 SpD / 76 Spe
+Adamant Nature
+- Drum Beating
+- Fake Out
+- Grassy Glide
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 204 Def / 4 SpA / 4 SpD / 44 Spe
+Timid Nature
+IVs: 0 Atk
+- Fiery Dance
+- Quiver Dance
+- Protect
+- Rage Powder
+
+Landorus @ Choice Scarf
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Earth Power
+- Sludge Bomb
+- Sandsear Storm
+- U-turn
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 188 Def / 68 SpD
+Bold Nature
+- Mortal Spin
+- Power Gem
+- Sludge Bomb
+- Mud Shot

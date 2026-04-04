@@ -1,0 +1,69 @@
+Incineroar (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 116 Atk / 44 Def / 92 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Helping Hand
+- Parting Shot
+
+Amoonguss (F) @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Psychic
+EVs: 244 HP / 156 Def / 4 SpA / 100 SpD / 4 Spe
+Bold Nature
+IVs: 14 Atk
+- Protect
+- Spore
+- Rage Powder
+- Pollen Puff
+
+Zoroark-Hisui @ Life Orb
+Ability: Illusion
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Voice
+- Hyper Beam
+- Shadow Ball
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Dire Claw
+- Close Combat
+- Acid Spray
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Ghost
+EVs: 100 HP / 4 Def / 252 SpA / 148 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+
+Samurott-Hisui @ Choice Scarf
+Ability: Sharpness
+Level: 50
+Tera Type: Poison
+EVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Aqua Cutter
+- Night Slash
+- Sacred Sword
+- X-Scissor

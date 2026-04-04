@@ -1,0 +1,67 @@
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Coaching
+- Fake Out
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Dragon Claw
+- Protect
+
+Dragonite @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 204 Atk / 4 Def / 12 SpD / 228 Spe
+Adamant Nature
+- Extreme Speed
+- Tera Blast
+- Stomping Tantrum
+- Ice Spinner
+
+Primarina @ Sitrus Berry
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 228 HP / 188 Def / 28 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Magmar @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 196 Def / 12 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Overheat
+- Taunt
+- Follow Me
+- Protect

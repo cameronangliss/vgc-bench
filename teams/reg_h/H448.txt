@@ -1,0 +1,70 @@
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 20 Atk
+- Hurricane
+- Sleep Powder
+- Rage Powder
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 14 SpA
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Protect
+
+Flamigo @ Covert Cloak
+Ability: Scrappy
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 26 SpA
+- Dual Wingbeat
+- Close Combat
+- Feint
+- Wide Guard
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Atk / 28 Def / 204 SpA / 20 SpD
+Quiet Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Gholdengo @ Iron Plate
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 188 Def / 52 SpA / 28 Spe
+Modest Nature
+IVs: 2 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 36 Atk / 220 SpD
+Adamant Nature
+IVs: 2 SpA
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out

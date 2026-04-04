@@ -1,0 +1,66 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 180 Def / 76 SpD
+Careful Nature
+- Light Screen
+- Reflect
+- Misty Terrain
+- Spirit Break
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 68 Def / 140 SpA / 44 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Trick
+
+Ting-Lu @ Leftovers
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 92 Atk / 84 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Ruination
+- Heavy Slam
+- Sand Tomb
+- Protect
+
+Staraptor @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 196 HP / 156 Atk / 4 Def / 4 SpD / 148 Spe
+Adamant Nature
+- Brave Bird
+- U-turn
+- Tailwind
+- Final Gambit
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Aqua Jet
+- Outrage
+- Stomping Tantrum

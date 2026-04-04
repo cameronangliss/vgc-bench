@@ -1,0 +1,68 @@
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Heat Wave
+- Lava Plume
+- Snarl
+
+Dachsbun @ Leftovers
+Ability: Well-Baked Body
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+IVs: 0 Atk
+- Protect
+- Body Press
+- Yawn
+- Wish
+
+Dragonite @ Clear Amulet
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Protect
+- Extreme Speed
+- Tera Blast
+- Iron Head
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 4 Def / 252 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Perish Song
+- Dazzling Gleam
+- Shadow Ball
+
+Azumarill @ Lum Berry
+Ability: Huge Power
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Protect
+- Aqua Jet
+- Liquidation
+- Play Rough
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sucker Punch
+- Throat Chop

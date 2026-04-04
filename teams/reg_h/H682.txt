@@ -1,0 +1,68 @@
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 124 Def / 116 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Electro Shot
+- Flash Cannon
+- Body Press
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Haze
+- Rain Dance
+- Foul Play
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+- Last Respects
+
+Indeedee @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Psychic
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Helping Hand
+- Trick Room
+- Protect
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 244 Atk / 12 SpD / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Throat Chop
+- Protect
+
+Delphox @ Life Orb
+Ability: Blaze
+Level: 50
+Tera Type: Fighting
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Expanding Force
+- Heat Wave
+- Tera Blast
+- Protect

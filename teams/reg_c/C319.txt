@@ -1,0 +1,70 @@
+Bronzong @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpD
+Sassy Nature
+IVs: 0 Spe
+- Gyro Ball
+- Body Press
+- Trick Room
+- Gravity
+
+Ting-Lu @ Choice Band
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Stomping Tantrum
+- Throat Chop
+- Rock Slide
+
+Vivillon-Fancy @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Pollen Puff
+- Rage Powder
+- Sleep Powder
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 228 HP / 4 Def / 212 SpA / 4 SpD / 60 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Hydro Pump
+- Protect
+
+Ceruledge @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 20 Atk / 12 Def / 212 SpD / 20 Spe
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Swords Dance
+- Protect
+
+Abomasnow @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Blizzard
+- Energy Ball
+- Aurora Veil
+- Helping Hand

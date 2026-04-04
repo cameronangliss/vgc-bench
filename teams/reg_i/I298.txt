@@ -1,0 +1,67 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 124 HP / 196 SpA / 188 Spe
+Modest Nature
+- Electro Drift
+- Dragon Pulse
+- Volt Switch
+- Parabolic Charge
+
+Ho-Oh @ Leftovers
+Ability: Regenerator
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 156 Atk / 76 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Sacred Fire
+- Brave Bird
+- Protect
+- Tailwind
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Atk / 36 Def / 204 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 228 Def / 4 SpA / 20 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Rage Powder
+- Life Dew
+- Trick Room
+
+Sneasler @ Electric Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 76 Atk / 116 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Throat Chop
+- Close Combat
+- Protect
+- Coaching

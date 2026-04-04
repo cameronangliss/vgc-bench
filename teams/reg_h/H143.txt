@@ -1,0 +1,69 @@
+Gardevoir @ Focus Sash
+Ability: Telepathy
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Expanding Force
+- Moonblast
+- Imprison
+- Trick Room
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 6 SpA
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dual Wingbeat
+- Will-O-Wisp
+- Tailwind
+- Protect
+
+Samurott-Hisui @ Scope Lens
+Ability: Sharpness
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 20 SpA
+- Aqua Cutter
+- Night Slash
+- Sacred Sword
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk
+- Make It Rain
+- Shadow Ball
+- Focus Blast
+- Protect
+
+Rotom-Mow @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Rock
+EVs: 188 HP / 124 SpA / 196 Spe
+Modest Nature
+IVs: 16 Atk
+- Discharge
+- Leaf Storm
+- Volt Switch
+- Trick

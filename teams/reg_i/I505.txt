@@ -1,0 +1,69 @@
+Bayleef @ Eviolite
+Ability: Leaf Guard
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 108 SpD
+Bold Nature
+IVs: 0 Atk
+- Synthesis
+- Protect
+- Leech Seed
+- Heal Pulse
+
+Eternatus @ Covert Cloak
+Ability: Pressure
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 124 Def / 188 SpD
+Bold Nature
+IVs: 0 Atk
+- Fire Spin
+- Protect
+- Cosmic Power
+- Recover
+
+Lugia @ Binding Band
+Ability: Pressure
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 188 Def / 68 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Recover
+- Psych Up
+- Whirlpool
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 26 Atk
+- Spiky Shield
+- Fake Out
+- Follow Me
+- Wide Guard
+
+Muk-Alola @ Leftovers
+Ability: Power of Alchemy
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 4 Atk / 100 Def / 92 SpD / 92 Spe
+Careful Nature
+- Knock Off
+- Toxic
+- Minimize
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 4 Atk / 132 Def / 4 SpA / 124 SpD
+Relaxed Nature
+- Fake Out
+- Metronome
+- Reflect
+- Light Screen

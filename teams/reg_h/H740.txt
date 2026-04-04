@@ -1,0 +1,66 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 68 Def / 196 SpD
+Careful Nature
+- Protect
+- Liquidation
+- Fissure
+- Yawn
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Outrage
+- Extreme Speed
+- Stomping Tantrum
+- Ice Spinner
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 84 Def / 164 SpD / 20 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 108 Def / 4 SpA / 164 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Strength Sap
+- Rage Powder
+- Trick Room
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Close Combat
+- Dire Claw
+- Coaching
+
+Weezing @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 12 Atk / 84 Def / 156 SpD / 4 Spe
+Impish Nature
+- Protect
+- Gunk Shot
+- Poison Gas
+- Taunt

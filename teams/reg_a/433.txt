@@ -1,0 +1,67 @@
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Def / 252 SpD
+Sassy Nature
+- Iron Defense
+- Body Press
+- Salt Cure
+- Wide Guard
+
+Dragapult @ Life Orb
+Ability: Clear Body
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Phantom Force
+- Protect
+- Dragon Dance
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 84 Def / 76 SpA / 92 SpD
+Quiet Nature
+IVs: 0 Atk
+- Hyper Voice
+- Trick Room
+- Psychic
+- Dazzling Gleam
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 204 Def / 52 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Clear Smog
+- Spore
+- Rage Powder
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Supreme Overlord
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Protect
+
+Palafin-Hero @ Choice Band
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk
+Adamant Nature
+- Jet Punch
+- Flip Turn
+- Drain Punch
+- Wave Crash

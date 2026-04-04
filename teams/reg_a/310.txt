@@ -1,0 +1,68 @@
+Kingambit (M) @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+
+Hariyama (F) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 252 Def / 4 SpD
+Brave Nature
+IVs: 17 Spe
+- Close Combat
+- Knock Off
+- Fake Out
+- Wide Guard
+
+Torkoal (M) @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Earth Power
+- Clear Smog
+- Flamethrower
+
+Meowscarada (F) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Sucker Punch
+- Knock Off
+- Protect
+
+Dragonite (F) @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Stomping Tantrum
+- Ice Spinner
+
+Farigiraf (F) @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 172 Def / 44 SpA / 108 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Shadow Ball
+- Trick Room
+- Protect

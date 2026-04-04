@@ -1,0 +1,69 @@
+Volcarona @ Life Orb
+Ability: Flame Body
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Bug Buzz
+- Overheat
+- Protect
+
+Ribombee @ Focus Sash
+Ability: Shield Dust
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Sunny Day
+- Tailwind
+- Fake Tears
+
+Kleavor @ Safety Goggles
+Ability: Sheer Force
+Level: 50
+Tera Type: Ghost
+EVs: 188 HP / 196 Atk / 12 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Protect
+- Rock Slide
+- Lunge
+- Swords Dance
+
+Venonat @ Eviolite
+Ability: Compound Eyes
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 172 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk / 15 Spe
+- Rage Powder
+- Sleep Powder
+- Acid Spray
+- Disable
+
+Scizor @ Assault Vest
+Ability: Technician
+Level: 50
+Tera Type: Fighting
+EVs: 236 HP / 156 Atk / 4 Def / 12 SpD / 100 Spe
+Adamant Nature
+- Bullet Punch
+- Knock Off
+- Close Combat
+- U-turn
+
+Araquanid @ Clear Amulet
+Ability: Water Bubble
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 15 Spe
+- Protect
+- Liquidation
+- Leech Life
+- Wide Guard

@@ -1,0 +1,68 @@
+Toxapex @ Black Sludge
+Ability: Regenerator
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 164 Def / 94 SpD
+Calm Nature
+IVs: 0 Atk
+- Baneful Bunker
+- Toxic
+- Infestation
+- Haze
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 204 HP / 4 Def / 4 SpA / 252 SpD / 44 Spe
+Bold Nature
+IVs: 0 Atk
+- Leech Seed
+- Protect
+- Foul Play
+- Pollen Puff
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 60 HP / 172 Atk / 14 Def / 252 SpD / 12 Spe
+Careful Nature
+- Fissure
+- Heavy Slam
+- Stomping Tantrum
+- Ruination
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 78 Def / 180 SpD
+Careful Nature
+- Reflect
+- Light Screen
+- Spirit Break
+- Taunt
+
+Corviknight @ Safety Goggles
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 172 Atk / 6 Def / 84 SpD / 12 Spe
+Adamant Nature
+- Iron Defense
+- Iron Head
+- Roost
+- Body Press
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 6 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Overheat
+- Heat Wave
+- Dark Pulse
+- Snarl
