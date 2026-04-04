@@ -138,8 +138,13 @@ class PolicyPlayer(Player):
                         and self._team.available_regs is not None
                     ):
                         self._team.current_reg = fmt[-1]
-                    team = packed_team or self.next_team
-                    await self.ps_client.accept_challenge(username, team)
+                    if packed_team:
+                        self._current_packed_team = packed_team
+                    else:
+                        self.get_next_team()
+                    await self.ps_client.accept_challenge(
+                        username, self._current_packed_team
+                    )
                     await self._battle_semaphore.acquire()
                     break
         await self._battle_count_queue.join()
