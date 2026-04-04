@@ -35,7 +35,7 @@ IVs: 0 Atk
 - Protect
 
 Ursaluna-Bloodmoon @ Assault Vest
-Ability: Mindâs Eye
+Ability: Mind’s Eye
 Level: 50
 Tera Type: Water
 EVs: 148 HP / 4 Def / 116 SpA / 100 SpD / 140 Spe

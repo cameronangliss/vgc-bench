@@ -22,7 +22,7 @@ Modest Nature
 - Protect
 
 Ursaluna-Bloodmoon @ Life Orb
-Ability: Mindâs Eye
+Ability: Mind’s Eye
 Level: 50
 Tera Type: Normal
 EVs: 4 HP / 4 Def / 252 SpA / 4 SpD / 244 Spe

@@ -61,6 +61,7 @@ def fetch_team(session: requests.Session, pokepaste_url: str) -> str:
     paste_id = pokepaste_url.rstrip("/").split("/")[-1]
     resp = session.get(f"https://pokepast.es/{paste_id}/raw", timeout=30)
     resp.raise_for_status()
+    resp.encoding = "utf-8"
     return normalize_team_text(resp.text)
 
 
@@ -78,18 +79,10 @@ def normalize_team_text(text: str) -> str:
         blocks.append(block)
     normalized = []
     for block in blocks:
-        # Join everything before "Ability:" or "Level:" into one line (fixes
-        # multi-byte Unicode nicknames split across lines), then strip the
-        # nickname.
-        header = ""
-        while block and not re.match(r"\s*(Ability|Level):", block[0]):
-            header += block.pop(0)
-        # Fix "@ ItemLevel: 50" concatenation from bad pokepaste formatting
-        header = re.sub(r"(@ .+?)Level:\s*\d+", r"\1", header)
-        nick_match = re.match(r"^.+?\(([^)]{2,})\)\s*(.*)$", header)
-        if nick_match:
-            header = f"{nick_match.group(1)} {nick_match.group(2)}".strip()
-        block.insert(0, header)
+        header = block[0]
+        # Strip nicknames: "Nickname (Species) ..." -> "Species ..."
+        header = re.sub(r"^.+\(([^()]{2,})\)", r"\1", header, count=1).strip()
+        block[0] = header
         asone = (
             "As One (Glastrier)"
             if "calyrex-ice" in header.lower()

@@ -35,7 +35,7 @@ IVs: 20 SpA
 - Spiky Shield
 
 Ursaluna-Bloodmoon (M) @ Assault Vest
-Ability: Mindâs Eye
+Ability: Mind’s Eye
 Level: 50
 Tera Type: Normal
 EVs: 4 HP / 4 Def / 252 SpA / 6 SpD / 244 Spe

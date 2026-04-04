@@ -48,7 +48,7 @@ IVs: 24 SpA
 - Psychic Fangs
 
 Ursaluna-Bloodmoon (M) @ Safety Goggles
-Ability: Mindâs Eye
+Ability: Mind’s Eye
 Level: 50
 Tera Type: Normal
 EVs: 252 HP / 252 SpA

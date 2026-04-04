@@ -20,7 +20,7 @@ Jolly Nature
 - Close Combat
 - Protect
 
-? (Tornadus @ Mental Herb
+Tornadus @ Mental Herb
 Ability: Prankster
 Level: 50
 Tera Type: Ground

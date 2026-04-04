@@ -33,7 +33,7 @@ Relaxed Nature
 - Trick Room
 
 Ursaluna-Bloodmoon (M) @ Life Orb
-Ability: Mindâs Eye
+Ability: Mind’s Eye
 Level: 50
 Tera Type: Normal
 EVs: 84 HP / 252 SpA / 174 SpD

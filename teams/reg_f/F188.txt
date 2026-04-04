@@ -61,7 +61,7 @@ IVs: 20 SpA
 - Spiky Shield
 
 Ursaluna-Bloodmoon (M) @ Life Orb
-Ability: Mindâs Eye
+Ability: Mind’s Eye
 Level: 50
 Tera Type: Normal
 EVs: 244 HP / 124 Def / 142 SpA

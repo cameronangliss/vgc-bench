@@ -59,7 +59,7 @@ IVs: 1 Atk / 1 Spe
 - Helping Hand
 
 Ursaluna-Bloodmoon (M) @ Life Orb
-Ability: Mindâs Eye
+Ability: Mind’s Eye
 Level: 50
 Tera Type: Normal
 EVs: 164 HP / 252 SpA / 92 SpD

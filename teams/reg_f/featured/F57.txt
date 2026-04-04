@@ -59,7 +59,7 @@ IVs: 0 Atk
 - Icy Wind
 
 Regidrago @ Dragon Fang
-Ability: Dragonâs Maw
+Ability: Dragon’s Maw
 Level: 50
 Tera Type: Poison
 EVs: 4 HP / 4 Def / 236 SpA / 12 SpD / 252 Spe

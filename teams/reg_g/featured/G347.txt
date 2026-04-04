@@ -56,7 +56,7 @@ IVs: 0 Atk
 - Trick Room
 
 Ursaluna-Bloodmoon @ Life Orb
-Ability: Mindâs Eye
+Ability: Mind’s Eye
 Level: 50
 Tera Type: Normal
 EVs: 164 HP / 4 Def / 252 SpA / 36 SpD / 52 Spe
