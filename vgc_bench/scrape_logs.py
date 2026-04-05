@@ -36,6 +36,7 @@ FORMATS = [
     "gen9vgc2026regf",
     "gen9vgc2026regfbo3",
     "gen9vgc2026regi",
+    "gen9vgc2026regibo3",
 ]
 
 
