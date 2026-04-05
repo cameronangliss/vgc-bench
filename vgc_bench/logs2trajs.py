@@ -361,7 +361,8 @@ def process_logs(
     num_trans = sum([len(t.acts) for t in trajs])
     print(
         f"prepared {len(trajs)} trajectories with {num_trans} transitions "
-        f"({num_empty} discarded trajs, {num_errors} failed traj reads)"
+        f"({num_empty} discarded trajs, {num_errors} failed traj reads)",
+        flush=True,
     )
     return trajs
 
@@ -434,7 +435,7 @@ def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bo
     total = 0
     for f in Path("battle_logs").iterdir():
         logs = json.load(f.open())
-        print(f"processing {len(logs)} {f.stem} logs...")
+        print(f"processing {len(logs)} {f.stem} logs...", flush=True)
         trajs = process_logs(logs, executor, min_rating, only_winner, strict)
         for i, traj in enumerate(trajs, start=total):
             with open(f"trajs/{i:08d}.pkl", "wb") as f:
