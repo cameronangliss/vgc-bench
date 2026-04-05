@@ -68,7 +68,7 @@ If you don't want to run `train.py` yourself, pre-trained models are available i
 
 1. [scrape_logs.py](vgc_bench/scrape_logs.py) scrapes logs from the [Pokémon Showdown replay database](https://replay.pokemonshowdown.com), automatically filtering out bad logs and only scraping logs with open team sheets (OTS)
     - optional parallelization (strongly recommended)
-    - if you don't need logs after 03/10/2026, just download our pre-scraped dataset of logs from [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs) and place the files in `battle_logs/`
+    - if you don't need logs after 04/03/2026, just download our pre-scraped dataset of logs from [vgc-battle-logs](https://huggingface.co/datasets/cameronangliss/vgc-battle-logs) and place the files in `battle_logs/`
 1. [logs2trajs.py](vgc_bench/logs2trajs.py) parses the logs into trajectories composed of state-action transitions
     - optional parallelization (strongly recommended)
     - `--min_rating` and `--only_winner` can be used to filter out low-Elo and losing trajectories respectively
