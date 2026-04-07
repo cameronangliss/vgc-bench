@@ -261,7 +261,7 @@ class Callback(BaseCallback):
         assert isinstance(self.model, PPO)
         assert self.model.env is not None
         progress = min(self.model.num_timesteps / self.total_steps, 1.0)
-        self.model.ent_coef = 0.1 * 0.1**progress
+        self.model.ent_coef = 0.05 * (0.01 / 0.05) ** progress
         self.model.logger.record("train/ent_coef", self.model.ent_coef)
         if (
             self.evaluate
@@ -272,9 +272,7 @@ class Callback(BaseCallback):
         self.model.logger.dump(self.model.num_timesteps)
         if self.behavior_clone:
             assert isinstance(self.model.policy, MaskedActorCriticPolicy)
-            self.model.policy.actor_grad = (
-                self.model.num_timesteps >= self.save_interval
-            )
+            self.model.policy.actor_grad = self.model.num_timesteps >= 98_304
         if self.learning_style in [
             LearningStyle.FICTITIOUS_PLAY,
             LearningStyle.DOUBLE_ORACLE,

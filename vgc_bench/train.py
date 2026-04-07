@@ -64,7 +64,7 @@ def train(
         total_steps: Total training timesteps. Defaults to 1000 * save_interval.
         evaluate: Whether to run evaluations and save checkpoints.
     """
-    save_interval = 98_304
+    save_interval = 983_040
     suffix = f"_{results_suffix}" if results_suffix else ""
     output_dir = Path(f"results{suffix}")
     output_dir.mkdir(exist_ok=True)
@@ -122,7 +122,7 @@ def train(
     ppo = PPO(
         MaskedActorCriticPolicy,
         env,
-        learning_rate=lambda p: 1e-5 * 0.1 ** (1 - p),
+        learning_rate=lambda p: 1e-5 * 0.3 ** (1 - p),
         n_steps=(
             3072 // (2 * num_envs)
             if learning_style == LearningStyle.PURE_SELF_PLAY
