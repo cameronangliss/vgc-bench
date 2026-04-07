@@ -46,13 +46,14 @@ async def play(
     """
     assert not (play_on_ladder and reg is None), "ladder mode requires a specific --reg"
     print("Setting up...")
-    results_path = Path(f"results_{results_suffix}")
+    results_path = Path(f"results{f'_{results_suffix}' if results_suffix else ''}")
     team_paths = None
     if results_suffix:
         team_paths = [results_path / "team1.txt", results_path / "team2.txt"]
     battle_format = format_map[reg if reg is not None else get_available_regs()[0]]
     agent = PolicyPlayer(
         account_configuration=AccountConfiguration(username, password),
+        avatar="turo-ai",
         battle_format=battle_format,
         log_level=40,
         max_concurrent_battles=10,
