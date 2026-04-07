@@ -115,10 +115,9 @@ format_map = {
 }
 
 
-def normalize_format(fmt: str) -> str | None:
-    """Map any gen9vgcXXXXregY format string to our canonical version."""
-    m = re.match(r"gen9vgc\d{4}reg([a-j])", fmt)
-    return format_map.get(m.group(1)) if m else None
+def is_vgc_format(fmt: str) -> bool:
+    """Check if a format string is a recognized VGC format."""
+    return bool(re.match(r"gen9vgc\d{4}reg[a-j]", fmt))
 
 
 with open("data/abilities.json") as f:

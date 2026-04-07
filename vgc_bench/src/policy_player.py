@@ -45,7 +45,7 @@ from vgc_bench.src.utils import (
     items,
     move_obs_len,
     moves,
-    normalize_format,
+    is_vgc_format,
     pokemon_obs_len,
 )
 
@@ -66,7 +66,7 @@ class PolicyPlayer(Player):
     def __init__(
         self,
         policy: BasePolicy | None = None,
-        accepted_formats: set[str] | None = None,
+        accept_all_formats: bool = False,
         *args: Any,
         **kwargs: Any,
     ):
@@ -75,37 +75,36 @@ class PolicyPlayer(Player):
 
         Args:
             policy: Neural network policy (can be set later via set_policy).
-            accepted_formats: If set, accept challenges of any of these formats
-                instead of only ``battle_format``. Requires the team builder to
-                be in multi-reg mode (``reg=None``) so the correct
-                regulation's teams are yielded.
+            accept_all_formats: If True, accept challenges in any recognized
+                VGC format instead of only ``battle_format``. Requires the
+                team builder to be in multi-reg mode (``reg=None``) so the
+                correct regulation's teams are yielded.
             *args: Additional arguments for Player base class.
             **kwargs: Additional keyword arguments for Player base class.
         """
         super().__init__(*args, **kwargs)
         self.policy = policy
-        self._accepted_formats = accepted_formats
+        self._accept_all_formats = accept_all_formats
 
     async def _handle_challenge_request(self, split_message: list[str]):
         """Accept challenge requests, optionally for any recognized format."""
-        if self._accepted_formats is None:
+        if not self._accept_all_formats:
             return await super()._handle_challenge_request(split_message)
         challenging_player = split_message[2].strip()
         if challenging_player != self.username:
             if len(split_message) >= 6:
-                canonical = normalize_format(split_message[5])
-                if canonical and canonical in self._accepted_formats:
-                    await self._challenge_queue.put((challenging_player, canonical))
+                fmt = split_message[5]
+                if is_vgc_format(fmt):
+                    await self._challenge_queue.put((challenging_player, fmt))
 
     async def _update_challenges(self, split_message: list[str]):
         """Queue challenges, optionally accepting any recognized format."""
-        if self._accepted_formats is None:
+        if not self._accept_all_formats:
             return await super()._update_challenges(split_message)
         challenges = json.loads(split_message[2]).get("challengesFrom", {})
         for user, fmt in challenges.items():
-            canonical = normalize_format(fmt)
-            if canonical and canonical in self._accepted_formats:
-                await self._challenge_queue.put((user, canonical))
+            if is_vgc_format(fmt):
+                await self._challenge_queue.put((user, fmt))
 
     async def _accept_challenges(
         self,
@@ -114,7 +113,7 @@ class PolicyPlayer(Player):
         packed_team: str | None,
     ):
         """Accept challenges, setting format and team reg before each."""
-        if self._accepted_formats is None:
+        if not self._accept_all_formats:
             return await super()._accept_challenges(opponent, n_challenges, packed_team)
         if opponent:
             if isinstance(opponent, list):
@@ -151,12 +150,11 @@ class PolicyPlayer(Player):
 
     async def _create_battle(self, split_message: list[str]):
         """Create a battle, accepting any recognized format if configured."""
-        if self._accepted_formats is None:
+        if not self._accept_all_formats:
             return await super()._create_battle(split_message)
-        canonical = normalize_format(split_message[1])
-        if canonical and canonical in self._accepted_formats:
+        if is_vgc_format(split_message[1]):
             saved = self._format
-            self._format = canonical
+            self._format = split_message[1]
             try:
                 return await super()._create_battle(split_message)
             finally:

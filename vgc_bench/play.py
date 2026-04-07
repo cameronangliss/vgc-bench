@@ -63,7 +63,7 @@ async def play(
         team=RandomTeamBuilder(run_id, num_teams, reg, team_paths),
     )
     if reg is None:
-        agent._accepted_formats = {format_map[r] for r in get_available_regs()}
+        agent._accept_all_formats = True
     method_dir = results_path / f"saves_{method}"
     method_dir = method_dir / (f"reg_{reg}" if reg is not None else "reg_all")
     if num_teams is not None:
