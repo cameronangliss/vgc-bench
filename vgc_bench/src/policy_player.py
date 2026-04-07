@@ -42,10 +42,10 @@ from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.teams import RandomTeamBuilder
 from vgc_bench.src.utils import (
     abilities,
+    is_vgc_format,
     items,
     move_obs_len,
     moves,
-    is_vgc_format,
     pokemon_obs_len,
 )
 
