@@ -130,7 +130,7 @@ def train(
         ),
         batch_size=512,
         gamma=1,
-        ent_coef=0.1,
+        # ent_coef is set in callback.py based on training progress
         tensorboard_log=str(output_dir / f"logs_{method}"),
         policy_kwargs={"d_model": 256, "choose_on_teampreview": choose_on_teampreview},
         device=device,
