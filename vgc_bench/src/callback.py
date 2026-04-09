@@ -168,6 +168,7 @@ class Callback(BaseCallback):
                 team=RandomTeamBuilder(run_id, num_teams, reg, team_paths, toggle),
             )
             self.eval_opponent2 = BatchPolicyPlayer(
+                deterministic=True,
                 server_configuration=ServerConfiguration(
                     f"ws://localhost:{port}/showdown/websocket",
                     "https://play.pokemonshowdown.com/action.php?",
