@@ -67,6 +67,7 @@ class PolicyPlayer(Player):
         self,
         policy: BasePolicy | None = None,
         accept_all_formats: bool = False,
+        deterministic: bool = False,
         *args: Any,
         **kwargs: Any,
     ):
@@ -79,12 +80,15 @@ class PolicyPlayer(Player):
                 VGC format instead of only ``battle_format``. Requires the
                 team builder to be in multi-reg mode (``reg=None``) so the
                 correct regulation's teams are yielded.
+            deterministic: If True, always pick the highest-probability action
+                instead of sampling from the distribution.
             *args: Additional arguments for Player base class.
             **kwargs: Additional keyword arguments for Player base class.
         """
         super().__init__(*args, **kwargs)
         self.policy = policy
         self._accept_all_formats = accept_all_formats
+        self.deterministic = deterministic
 
     async def _handle_challenge_request(self, split_message: list[str]):
         """Accept challenge requests, optionally for any recognized format."""
@@ -207,7 +211,9 @@ class PolicyPlayer(Player):
                     mask, device=self.policy.device
                 ).unsqueeze(0),
             }
-            action, _, _ = self.policy.forward(obs_dict)  # type: ignore
+            action, _, _ = self.policy.forward(
+                obs_dict, deterministic=self.deterministic
+            )
         action = action.cpu().numpy()[0]
         return DoublesEnv.action_to_order(action, battle)
 
@@ -578,7 +584,9 @@ class BatchPolicyPlayer(PolicyPlayer):
                     "observation": torch.as_tensor(obs, device=self.policy.device),
                     "action_mask": torch.as_tensor(masks, device=self.policy.device),
                 }
-                actions, _, _ = self.policy.forward(obs_dict)  # type: ignore
+                actions, _, _ = self.policy.forward(
+                    obs_dict, deterministic=self.deterministic
+                )
             actions = actions.cpu().numpy()
 
             # dispatch
