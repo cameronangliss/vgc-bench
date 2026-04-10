@@ -1,11 +1,10 @@
 """Unit tests for vgc_bench.src.teams."""
 
 from vgc_bench.src.teams import (
+    RandomTeamBuilder,
     TeamToggle,
     calc_team_similarity_score,
     get_available_regs,
-    get_team_ids,
-    get_team_paths,
 )
 
 
@@ -41,7 +40,7 @@ class TestCalcTeamSimilarityScore:
         assert 0.0 <= score <= 1.0
 
     def test_different_teams_from_disk(self):
-        paths = get_team_paths("g")
+        paths = RandomTeamBuilder.get_team_paths("g")
         if len(paths) >= 2:
             t1 = paths[0].read_text()
             t2 = paths[-1].read_text()
@@ -49,30 +48,10 @@ class TestCalcTeamSimilarityScore:
             assert 0.0 <= score <= 1.0
 
 
-class TestGetTeamIds:
-    def test_deterministic(self):
-        ids1 = get_team_ids(1, 10, "g")
-        ids2 = get_team_ids(1, 10, "g")
-        assert ids1 == ids2
-
-    def test_different_seeds(self):
-        ids1 = get_team_ids(1, 10, "g")
-        ids2 = get_team_ids(2, 10, "g")
-        assert ids1 != ids2
-
-    def test_correct_length(self):
-        ids = get_team_ids(1, 5, "g")
-        assert len(ids) == 5
-
-    def test_take_from_end(self):
-        ids_front = get_team_ids(1, 5, "g", take_from_end=False)
-        ids_back = get_team_ids(1, 5, "g", take_from_end=True)
-        assert ids_front != ids_back
-
 
 class TestGetTeamPaths:
     def test_returns_paths(self):
-        paths = get_team_paths("g")
+        paths = RandomTeamBuilder.get_team_paths("g")
         assert len(paths) > 0
         for p in paths:
             assert p.suffix == ".txt"

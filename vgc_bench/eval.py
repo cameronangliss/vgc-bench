@@ -22,11 +22,7 @@ from tensorboard.backend.event_processing import event_accumulator
 
 from vgc_bench.src.llm import LLMPlayer
 from vgc_bench.src.policy_player import BatchPolicyPlayer
-from vgc_bench.src.teams import (
-    RandomTeamBuilder,
-    calc_team_similarity_score,
-    get_team_paths,
-)
+from vgc_bench.src.teams import RandomTeamBuilder, calc_team_similarity_score
 from vgc_bench.src.utils import format_map
 
 
@@ -378,7 +374,7 @@ def print_team_statistics(reg: str, num_teams: int):
         num_teams: Number of teams in the in-distribution training set.
     """
     num_runs = 5
-    all_teams = [path.read_text() for path in get_team_paths(reg)]
+    all_teams = [path.read_text() for path in RandomTeamBuilder.get_team_paths(reg)]
     sim_scores = [
         max(
             [
