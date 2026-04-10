@@ -75,7 +75,7 @@ class RandomTeamBuilder(Teambuilder):
         custom_team_paths: list[Path] | None = None,
         toggle: TeamToggle | None = None,
         take_from_end: bool = False,
-        featured_only: bool = False,
+        prefer_featured: bool = False,
     ):
         """
         Initialize the random team builder.
@@ -91,7 +91,8 @@ class RandomTeamBuilder(Teambuilder):
                 matchup solving). Overrides reg/num_teams selection.
             toggle: Optional TeamToggle to prevent consecutive identical teams.
             take_from_end: If True, take teams from end of shuffled list.
-            featured_only: If True, only pick teams from the featured/ subdirectory.
+            prefer_featured: If True, prefer teams from the featured/ subdirectory,
+                falling back to all teams if it doesn't exist.
         """
         self._team_paths: list[Path] = []
         self._reg_paths: dict[str, list[Path]] = {}
@@ -111,7 +112,7 @@ class RandomTeamBuilder(Teambuilder):
                         base + (1 if i < remainder else 0),
                         r,
                         take_from_end,
-                        featured_only,
+                        prefer_featured,
                     )
                     if paths:
                         self._reg_paths[r] = paths
@@ -119,12 +120,12 @@ class RandomTeamBuilder(Teambuilder):
             else:
                 for r in self.available_regs:
                     self._reg_paths[r] = self._select_paths(
-                        run_id, None, r, take_from_end, featured_only
+                        run_id, None, r, take_from_end, prefer_featured
                     )
             self.pick_reg()
         else:
             self._team_paths = self._select_paths(
-                run_id, num_teams, reg, take_from_end, featured_only
+                run_id, num_teams, reg, take_from_end, prefer_featured
             )
 
     def pick_reg(self) -> None:
@@ -138,7 +139,7 @@ class RandomTeamBuilder(Teambuilder):
         num_teams: int | None,
         reg: str,
         take_from_end: bool,
-        featured_only: bool = False,
+        prefer_featured: bool = False,
     ) -> list[Path]:
         """
         Select team file paths for a given regulation.
@@ -148,12 +149,13 @@ class RandomTeamBuilder(Teambuilder):
             num_teams: Number of teams to include, or None for all.
             reg: VGC regulation letter.
             take_from_end: If True, take teams from end of shuffled list.
-            featured_only: If True, only pick teams from the featured/ subdirectory.
+            prefer_featured: If True, prefer teams from the featured/ subdirectory,
+                falling back to all teams if it doesn't exist.
 
         Returns:
             List of Path objects for the selected teams.
         """
-        paths = RandomTeamBuilder.get_team_paths(reg, featured_only)
+        paths = RandomTeamBuilder.get_team_paths(reg, prefer_featured)
         effective_num_teams = len(paths) if num_teams is None else num_teams
         teams = list(range(len(paths)))
         random.Random(run_id).shuffle(teams)
@@ -187,26 +189,22 @@ class RandomTeamBuilder(Teambuilder):
 
     @staticmethod
     @cache
-    def get_team_paths(reg: str, featured_only: bool = False) -> list[Path]:
+    def get_team_paths(reg: str, prefer_featured: bool = False) -> list[Path]:
         """
         Get all team file paths for a given regulation.
 
         Args:
             reg: VGC regulation letter (e.g. 'g', 'h', 'i').
-            featured_only: If True, only return teams from the featured/ subdirectory.
+            prefer_featured: If True, only return teams from the featured/ subdirectory.
 
         Returns:
             List of Path objects pointing to team .txt files.
         """
         reg_path = Path("teams") / f"reg_{reg}"
-        if featured_only:
+        if prefer_featured:
             featured_path = reg_path / "featured"
-            if not featured_path.is_dir():
-                raise FileNotFoundError(
-                    f"No featured/ directory found for regulation {reg} "
-                    f"(expected {featured_path})"
-                )
-            return sorted(featured_path.rglob("*.txt"))
+            if featured_path.is_dir():
+                return sorted(featured_path.rglob("*.txt"))
         return sorted(reg_path.rglob("*.txt"))
 
 
