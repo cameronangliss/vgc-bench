@@ -60,13 +60,7 @@ async def play(
         server_configuration=ShowdownServerConfiguration,
         accept_open_team_sheet=True,
         start_timer_on_battle_start=play_on_ladder,
-        team=RandomTeamBuilder(
-            run_id,
-            num_teams,
-            reg,
-            team_paths,
-            featured_only=True,
-        ),
+        team=RandomTeamBuilder(run_id, num_teams, reg, team_paths, featured_only=True),
     )
     if reg is None:
         agent._accept_all_formats = True

@@ -48,7 +48,6 @@ class TestCalcTeamSimilarityScore:
             assert 0.0 <= score <= 1.0
 
 
-
 class TestGetTeamPaths:
     def test_returns_paths(self):
         paths = RandomTeamBuilder.get_team_paths("g")
