@@ -94,7 +94,7 @@ def train(
                 lambda: ShowdownEnv.create_env(
                     reg,
                     run_id,
-                    1 if learning_style == LearningStyle.EXPLOITER else num_teams,
+                    num_teams,
                     num_envs,
                     log_level,
                     port,
@@ -292,11 +292,6 @@ if __name__ == "__main__":
         style = LearningStyle.DOUBLE_ORACLE
     else:
         raise TypeError()
-    if style == LearningStyle.EXPLOITER:
-        assert not args.no_mirror_match, (
-            "--no_mirror_match is incompatible with --exploiter (exploiter uses a"
-            " single team)"
-        )
     assert (args.team1 == "") == (args.team2 == ""), (
         "must provide both or neither of --team1 and --team2"
     )

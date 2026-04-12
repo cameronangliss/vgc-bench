@@ -127,8 +127,6 @@ class Callback(BaseCallback):
             else:
                 self.payoff_matrix = np.array([[0.5]])
             self.prob_dist = Game(self.payoff_matrix).linear_program()[0].tolist()
-        if learning_style == LearningStyle.EXPLOITER:
-            num_teams = 1
         toggle = None if allow_mirror_match else TeamToggle()
         if self.evaluate:
             self.eval_agent = BatchPolicyPlayer(
