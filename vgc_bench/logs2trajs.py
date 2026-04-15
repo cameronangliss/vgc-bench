@@ -53,6 +53,8 @@ class LogReader(Player):
         next_msg: The next message to process from the log.
     """
 
+    MESSAGES_TO_IGNORE = Player.MESSAGES_TO_IGNORE | {"uhtml"}
+
     states: list[DoubleBattle]
     actions: list[npt.NDArray[np.int64]]
     msg: str | None

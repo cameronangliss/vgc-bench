@@ -121,7 +121,7 @@ def is_vgc_format(fmt: str) -> bool:
 
 
 def get_reg_from_format(fmt: str) -> str:
-    """Extract the regulation letter from a VGC format string (e.g. 'gen9vgc2026regibo3' -> 'i')."""
+    """Extract the regulation letter from a VGC format string"""
     m = re.match(r"gen9vgc\d{4}reg([a-j])", fmt)
     assert m is not None, f"not a valid VGC format: {fmt}"
     return m.group(1)
