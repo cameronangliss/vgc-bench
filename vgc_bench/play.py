@@ -56,7 +56,7 @@ async def play(
         avatar="turo-ai",
         battle_format=battle_format,
         log_level=40,
-        max_concurrent_battles=10,
+        max_concurrent_battles=3,
         server_configuration=ShowdownServerConfiguration,
         accept_open_team_sheet=True,
         start_timer_on_battle_start=play_on_ladder,
