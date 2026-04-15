@@ -42,6 +42,7 @@ from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.teams import RandomTeamBuilder
 from vgc_bench.src.utils import (
     abilities,
+    get_reg_from_format,
     is_vgc_format,
     items,
     move_obs_len,
@@ -68,6 +69,7 @@ class PolicyPlayer(Player):
         policy: BasePolicy | None = None,
         accept_all_formats: bool = False,
         deterministic: bool = False,
+        invitee: str | None = None,
         *args: Any,
         **kwargs: Any,
     ):
@@ -89,6 +91,7 @@ class PolicyPlayer(Player):
         self.policy = policy
         self._accept_all_formats = accept_all_formats
         self.deterministic = deterministic
+        self.invitee = invitee
 
     async def _handle_challenge_request(self, split_message: list[str]):
         """Accept challenge requests, optionally for any recognized format."""
@@ -140,7 +143,7 @@ class PolicyPlayer(Player):
                         isinstance(self._team, RandomTeamBuilder)
                         and self._team.available_regs is not None
                     ):
-                        self._team.current_reg = fmt[-1]
+                        self._team.current_reg = get_reg_from_format(fmt)
                     if packed_team:
                         self._current_packed_team = packed_team
                     else:
@@ -155,15 +158,33 @@ class PolicyPlayer(Player):
     async def _create_battle(self, split_message: list[str]):
         """Create a battle, accepting any recognized format if configured."""
         if not self._accept_all_formats:
-            return await super()._create_battle(split_message)
-        if is_vgc_format(split_message[1]):
-            saved = self._format
+            battle = await super()._create_battle(split_message)
+        elif is_vgc_format(split_message[1]):
+            saved = self.format
             self._format = split_message[1]
             try:
-                return await super()._create_battle(split_message)
+                battle = await super()._create_battle(split_message)
             finally:
                 self._format = saved
-        return await super()._create_battle(split_message)
+        else:
+            battle = await super()._create_battle(split_message)
+        if self.invitee is not None and "bo3" not in self.format:
+            await self.ps_client.send_message(
+                f"/invite {self.invitee}", battle.battle_tag
+            )
+        return battle
+
+    async def _handle_bestof_message(self, split_messages):
+        """Handle best-of series messages, inviting spectator to the lobby."""
+        if self.invitee is not None:
+            game_tag = split_messages[0][0][1:]  # strip >
+            for split_message in split_messages[1:]:
+                if len(split_message) >= 2 and split_message[1] == "init":
+                    await self.ps_client.send_message(
+                        f"/invite {self.invitee}", room=game_tag
+                    )
+                    break
+        await super()._handle_bestof_message(split_messages)
 
     def set_policy(self, policy_file: str | Path, device: torch.device):
         """
