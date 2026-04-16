@@ -1,0 +1,68 @@
+Sneasler @ Electric Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 92 HP / 236 Atk / 36 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Toxic Spikes
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 4 Def / 236 SpA / 4 SpD / 12 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Snarl
+- Volt Switch
+
+Zacian @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Dark
+EVs: 180 HP / 156 Atk / 4 Def / 4 SpD / 164 Spe
+Jolly Nature
+- Protect
+- Iron Head
+- Play Rough
+- Swords Dance
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Sucker Punch
+- Ruination
+- Icicle Crash
+
+Gothitelle @ Leftovers
+Ability: Shadow Tag
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 196 Def / 4 SpA / 52 SpD / 4 Spe
+Bold Nature
+- Protect
+- Fake Out
+- Psychic
+- Taunt
+
+Scream Tail @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 88 Def / 68 SpD / 100 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Encore
+- Disable
+- Perish Song

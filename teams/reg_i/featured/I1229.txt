@@ -1,0 +1,67 @@
+Falinks @ Focus Sash
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Close Combat
+- Knock Off
+- Upper Hand
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 4 Def / 196 SpA / 20 SpD / 148 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpD / 4 Spe
+Impish Nature
+- Protect
+- Glacial Lance
+- Leech Seed
+- Trick Room
+
+Volcarona @ Electric Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Def / 4 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 148 Atk / 12 Def / 76 SpD / 20 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 100 Def / 164 SpD
+Careful Nature
+IVs: 29 Spe
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+- Fake Out

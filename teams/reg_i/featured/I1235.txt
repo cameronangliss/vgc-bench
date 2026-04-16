@@ -1,0 +1,67 @@
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 188 Def / 52 SpD / 12 Spe
+Impish Nature
+- Knock Off
+- Fake Out
+- Taunt
+- Parting Shot
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 100 SpD
+Impish Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 100 Def / 116 SpA / 4 SpD / 180 Spe
+Modest Nature
+- Astral Barrage
+- Draining Kiss
+- Nasty Plot
+- Protect
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 236 HP / 220 Def / 52 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Life Dew
+- Follow Me
+- Helping Hand
+- Protect
+
+Zamazenta @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Atk / 156 Def / 92 SpD / 20 Spe
+Impish Nature
+- Body Press
+- Iron Head
+- Wide Guard
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 44 Def / 76 SpD / 20 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out

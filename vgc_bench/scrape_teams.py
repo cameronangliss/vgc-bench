@@ -262,6 +262,10 @@ def scrape_regulation(regulation: str, validator: TeamValidator) -> None:
                 if not pokepaste.startswith("https://pokepast.es/"):
                     continue
                 team_text = fetch_team(session, pokepaste)
+                num_pokemon = team_text.strip().split("\n\n")
+                if len(num_pokemon) != 6:
+                    stats["invalid"] += 1
+                    continue
                 error = validator.validate(team_text, regulation)
                 if error:
                     stats["invalid"] += 1

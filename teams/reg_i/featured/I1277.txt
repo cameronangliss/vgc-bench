@@ -1,0 +1,68 @@
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 196 Atk / 4 Def / 12 SpD / 124 Spe
+Adamant Nature
+- Flare Blitz
+- Low Kick
+- Flame Charge
+- Protect
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 20 Def / 244 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Protect
+- Sludge Bomb
+- Sandsear Storm
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 108 Def / 148 SpD
+Impish Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 84 Atk / 4 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 44 Atk / 212 SpD
+Adamant Nature
+IVs: 0 Spe
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Grass
+EVs: 60 HP / 196 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Spore
+- Follow Me
+- Ruination
+- Spiky Shield

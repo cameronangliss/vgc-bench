@@ -1,0 +1,68 @@
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 36 Atk / 140 Def / 84 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn
+
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 196 Atk / 4 Def / 68 SpD / 52 Spe
+Adamant Nature
+- Low Kick
+- Protect
+- Flame Charge
+- Flare Blitz
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Ground
+EVs: 244 HP / 228 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Follow Me
+- After You
+- Helping Hand
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 84 Def / 156 SpD / 12 Spe
+Careful Nature
+- Flare Blitz
+- U-turn
+- Helping Hand
+- Fake Out
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 92 HP / 4 Def / 220 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Nasty Plot
+- Protect

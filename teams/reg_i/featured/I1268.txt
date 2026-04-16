@@ -1,0 +1,69 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Disable
+- Protect
+
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 252 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- Helping Hand
+- Protect
+
+Jumpluff @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 76 SpD / 180 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Sleep Powder
+- Encore
+- Pollen Puff
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Dark Pulse
+- Flamethrower
+
+Brute Bonnet @ Sitrus Berry
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 164 Def / 172 SpD
+Impish Nature
+IVs: 19 Spe
+- Spore
+- Rage Powder
+- Sucker Punch
+- Seed Bomb
+
+Iron Treads @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- High Horsepower
+- Iron Head
+- Steel Roller
+- Protect

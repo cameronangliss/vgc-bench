@@ -1,0 +1,67 @@
+Calyrex-Shadow @ Covert Cloak
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 172 HP / 236 Def / 4 SpA / 12 SpD / 84 Spe
+Bold Nature
+IVs: 0 Atk
+- Astral Barrage
+- Draining Kiss
+- Calm Mind
+- Protect
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 4 Def / 220 SpA / 4 SpD / 140 Spe
+Timid Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 68 Atk / 20 Def / 244 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 188 Def / 92 Spe
+Impish Nature
+- Fake Out
+- Knock Off
+- Parting Shot
+- Taunt
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 172 Def / 84 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Follow Me
+- Helping Hand
+- Life Dew
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 116 Atk / 140 SpD / 252 Spe
+Jolly Nature
+- Fake Out
+- Follow Me
+- Spore
+- Decorate
