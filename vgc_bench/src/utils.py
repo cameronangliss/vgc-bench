@@ -96,7 +96,7 @@ pokemon_obs_len = (
     + len(PokemonGender)
     + 2 * len(PokemonType)
     + len(Status)
-    + 39
+    + 45
 )
 chunk_obs_len = glob_obs_len + side_obs_len + pokemon_obs_len
 

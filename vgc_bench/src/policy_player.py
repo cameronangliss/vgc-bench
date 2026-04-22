@@ -421,10 +421,12 @@ class PolicyPlayer(Player):
         move_embeds = np.concatenate(move_embeds)
         types = [float(t in pokemon.base_types) for t in PokemonType]
         tera_type = [float(t == pokemon.tera_type) for t in PokemonType]
+        base_stats = [s / 255 for s in pokemon.base_stats.values()]
         if from_opponent:
-            stats = [s / 255 for s in pokemon.base_stats.values()]
+            stats = [-1] * 6
         else:
-            stats = [(0 if s is None else s / 255) for s in pokemon.stats.values()]
+            stats = [s / 255 for s in pokemon.stats.values() if s is not None]
+            assert len(stats) == 6
         gender = [float(g == pokemon.gender) for g in PokemonGender]
         weight = pokemon.weight / 1000
         # volatile fields
@@ -452,6 +454,7 @@ class PolicyPlayer(Player):
                 *move_embeds,
                 *types,
                 *tera_type,
+                *base_stats,
                 *stats,
                 *gender,
                 weight,
