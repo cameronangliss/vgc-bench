@@ -234,6 +234,11 @@ if __name__ == "__main__":
         help="VGC regulation to train on (e.g. G). Omit to train on all regulations",
     )
     parser.add_argument(
+        "--champions",
+        action="store_true",
+        help="train on Champions VGC (currently Reg M-A)",
+    )
+    parser.add_argument(
         "--run_id", type=int, default=1, help="run ID for the training session"
     )
     parser.add_argument(
@@ -275,6 +280,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     set_global_seed(args.run_id)
     reg = args.reg.lower() if args.reg is not None else None
+    if args.champions and reg is None:
+        reg = "ma"
     assert (
         int(args.exploiter)
         + int(args.self_play)

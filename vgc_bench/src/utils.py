@@ -112,17 +112,18 @@ format_map = {
     "h": "gen9vgc2024regh",
     "i": "gen9vgc2025regi",
     "j": "gen9vgc2025regj",
+    "ma": "gen9championsvgc2026regma",
 }
 
 
 def is_vgc_format(fmt: str) -> bool:
     """Check if a format string is a recognized VGC format."""
-    return bool(re.match(r"gen9vgc\d{4}reg[a-j]", fmt))
+    return bool(re.match(r"gen9(?:champions)?vgc\d{4}reg(ma|[a-j])(?:bo\d+)?$", fmt))
 
 
 def get_reg_from_format(fmt: str) -> str:
-    """Extract the regulation letter from a VGC format string"""
-    m = re.match(r"gen9vgc\d{4}reg([a-j])", fmt)
+    """Extract the regulation identifier from a VGC format string"""
+    m = re.match(r"gen9(?:champions)?vgc\d{4}reg(ma|[a-j])(?:bo\d+)?$", fmt)
     assert m is not None, f"not a valid VGC format: {fmt}"
     return m.group(1)
 

@@ -51,7 +51,7 @@ class TrajectoryDataset(Dataset):
         """
         Load and return a trajectory by index.
 
-        Wraps raw numpy observations into DictObs with an all-ones action
+        Wraps raw numpy observations into DictObs with a synthetic action
         mask so the trajectory matches the policy's Dict observation space.
 
         Args:
@@ -65,10 +65,13 @@ class TrajectoryDataset(Dataset):
             traj = pickle.load(f)
         obs = traj.obs
         n_steps = obs.shape[0]
+        action_mask = np.ones((n_steps, 2 * act_len), dtype=np.float32)
+        action_mask[:, 27:87] = 0
+        action_mask[:, act_len + 27 : act_len + 87] = 0
         dict_obs = DictObs(
             {
                 "observation": obs,
-                "action_mask": np.ones((n_steps, 2 * act_len), dtype=np.float32),
+                "action_mask": action_mask,
             }
         )
         return Trajectory(

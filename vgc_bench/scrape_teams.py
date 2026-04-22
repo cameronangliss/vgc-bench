@@ -31,6 +31,24 @@ def get_regulation_sheets(
 ) -> tuple[list[str], list[str]]:
     """Find featured and regular team sheets for a regulation."""
     reg = regulation.lower()
+    if reg == "ma":
+        featured = [
+            name
+            for name in all_sheets
+            if "featured" in name.lower()
+            and "presentable" not in name.lower()
+            and "champions" in name.lower()
+            and "m-a" in name.lower()
+        ]
+        regular = [
+            name
+            for name in all_sheets
+            if "featured" not in name.lower()
+            and "presentable" not in name.lower()
+            and "champions" in name.lower()
+            and "m-a" in name.lower()
+        ]
+        return featured, regular
     featured = [
         name
         for name in all_sheets
@@ -290,15 +308,20 @@ def discover_regulations(sheet_names: list[str]) -> list[str]:
 
 def main():
     parser = argparse.ArgumentParser(description="Scrape VGCPastes Teams")
-    parser.add_argument("--reg", "-r", help="Regulation letter (e.g. G). Omit for all.")
+    parser.add_argument("--reg", "-r", help="Regulation id (e.g. G or MA). Omit for all.")
+    parser.add_argument(
+        "--champions",
+        action="store_true",
+        help="Scrape Champions VGC teams (currently defaults to Reg M-A)",
+    )
     args = parser.parse_args()
+    reg = args.reg.strip() if args.reg else None
+    if args.champions and reg is None:
+        reg = "ma"
     Path("teams").mkdir(exist_ok=True)
     validator = TeamValidator()
     try:
-        if args.reg:
-            reg = args.reg.strip().upper()
-            if len(reg) != 1 or not reg.isalpha():
-                raise ValueError("--reg must be a single letter")
+        if reg:
             scrape_regulation(reg, validator)
         else:
             session = requests.Session()
