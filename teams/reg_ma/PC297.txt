@@ -1,0 +1,59 @@
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 5 Atk / 17 Def / 10 SpD / 3 Spe
+Adamant Nature
+- Darkest Lariat
+- Fake Out
+- Parting Shot
+- Protect
+
+Sandaconda @ Focus Sash
+Ability: Sand Spit
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- Endeavor
+- High Horsepower
+- Glare
+- Endure
+
+Scovillain @ Scovillainite
+Ability: Moody
+Level: 50
+EVs: 32 HP / 15 Def / 1 SpA / 12 SpD / 6 Spe
+Bold Nature
+- Leech Seed
+- Burning Jealousy
+- Rage Powder
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Close Combat
+- Fake Out
+- Dire Claw
+- Protect
+
+Goodra-Hisui @ Leftovers
+Ability: Shell Armor
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Bold Nature
+- Body Press
+- Muddy Water
+- Shelter
+- Protect

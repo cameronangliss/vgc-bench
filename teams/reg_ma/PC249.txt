@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Light of Ruin
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 22 HP / 32 Atk / 1 SpD / 11 Spe
+Adamant Nature
+- Dual Wingbeat
+- Tailwind
+- Feint
+- Protect
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 1 Def / 15 SpA / 1 SpD / 18 Spe
+Modest Nature
+- Hydro Pump
+- Thunderbolt
+- Electroweb
+- Protect
+
+Garchomp @ Soft Sand
+Ability: Rough Skin
+Level: 50
+EVs: 8 HP / 32 Atk / 1 Def / 1 SpD / 24 Spe
+Adamant Nature
+- Stomping Tantrum
+- Earthquake
+- Rock Slide
+- Protect
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 12 HP / 3 Def / 20 SpA / 7 SpD / 24 Spe
+Modest Nature
+- Psychic
+- Hyper Voice
+- Trick Room
+- Helping Hand
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 1 HP / 1 Def / 31 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Sludge Bomb
+- Power Gem
+- Spiky Shield
+- Earth Power

@@ -1,0 +1,59 @@
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Rock Tomb
+- Fake Out
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 6 HP / 16 Def / 30 SpA / 14 Spe
+Modest Nature
+- Heat Wave
+- Protect
+- Weather Ball
+- Air Slash
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 15 Def / 18 SpD / 1 Spe
+Timid Nature
+- Follow Me
+- Taunt
+- Protect
+- Super Fang
+
+Gardevoir @ Gardevoirite
+Ability: Telepathy
+Level: 50
+EVs: 24 HP / 32 SpA / 10 Spe
+Modest Nature
+- Psyshock
+- Hyper Voice
+- Calm Mind
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Aqua Jet
+- Flip Turn
+- Last Respects
+- Wave Crash
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Protect
+- Tailwind

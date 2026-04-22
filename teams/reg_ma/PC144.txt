@@ -1,0 +1,59 @@
+Froslass (F) @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Blizzard
+- Shadow Ball
+- Aurora Veil
+- Protect
+
+Zoroark-Hisui @ Choice Scarf
+Ability: Illusion
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Modest Nature
+- Hyper Voice
+- Shadow Ball
+- Focus Blast
+- Hyper Beam
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 7 SpA / 27 Spe
+Gentle Nature
+- Hydro Pump
+- Thunderbolt
+- Will-O-Wisp
+- Protect
+
+Incineroar @ Black Belt
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 12 Atk / 23 Spe
+Adamant Nature
+- Flare Blitz
+- Throat Chop
+- Low Kick
+- Fake Out
+
+Dragonite @ Lum Berry
+Ability: Inner Focus
+Level: 50
+EVs: 21 HP / 32 Atk / 13 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Fire Punch
+- Tailwind
+
+Meowscarada @ Focus Sash
+Ability: Protean
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Flower Trick
+- Triple Axel
+- Fake Tears
+- Protect

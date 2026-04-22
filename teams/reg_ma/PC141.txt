@@ -1,0 +1,59 @@
+Gardevoir @ Gardevoirite
+Ability: Trace
+Level: 50
+EVs: 32 HP / 14 Def / 5 SpA / 15 Spe
+Modest Nature
+- Psyshock
+- Hyper Voice
+- Calm Mind
+- Protect
+
+Aegislash @ Spell Tag
+Ability: Stance Change
+Level: 50
+EVs: 32 HP / 10 Atk / 1 Def / 1 SpD / 22 Spe
+Adamant Nature
+- Iron Head
+- Poltergeist
+- Shadow Sneak
+- King's Shield
+
+Rotom-Heat @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 20 HP / 15 SpA / 30 Spe
+Modest Nature
+- Thunderbolt
+- Overheat
+- Volt Switch
+- Electroweb
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Hydreigon @ Chople Berry
+Ability: Levitate
+Level: 50
+EVs: 20 HP / 2 Def / 15 SpA / 1 SpD / 28 Spe
+Modest Nature
+- Dark Pulse
+- Draco Meteor
+- Earth Power
+- Protect
+
+Tauros-Paldea-Aqua (M) @ Mystic Water
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 6 Atk / 1 Def / 21 SpD / 7 Spe
+Careful Nature
+- Wave Crash
+- Close Combat
+- Aqua Jet
+- Protect

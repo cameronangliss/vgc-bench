@@ -1,0 +1,59 @@
+Kangaskhan (F) @ Kangaskhanite
+Ability: Inner Focus
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Double-Edge
+- Fake Out
+- Sucker Punch
+- Drain Punch
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Hydreigon @ Focus Sash
+Ability: Levitate
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Draco Meteor
+- Dark Pulse
+- Tailwind
+- Protect
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 7 HP / 32 Atk / 1 Def / 1 SpD / 25 Spe
+Jolly Nature
+- Flare Blitz
+- Will-O-Wisp
+- Protect
+- Extreme Speed
+
+Aegislash @ Leftovers
+Ability: Stance Change
+Level: 50
+EVs: 26 HP / 32 SpA / 8 Spe
+Modest Nature
+- Shadow Ball
+- King's Shield
+- Flash Cannon
+- Substitute
+
+Gyarados @ Lum Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 3 Atk / 14 Def / 4 SpD / 13 Spe
+Jolly Nature
+- Taunt
+- Thunder Wave
+- Waterfall
+- Stone Edge

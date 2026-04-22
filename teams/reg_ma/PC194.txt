@@ -1,0 +1,59 @@
+Kingambit @ Bright Powder
+Ability: Defiant
+Level: 50
+EVs: 30 HP / 32 Atk / 1 Def / 1 SpD / 2 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+EVs: 32 HP / 8 Def / 5 SpA / 20 SpD / 1 Spe
+Calm Nature
+- Moonblast
+- Helping Hand
+- Follow Me
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 2 Def / 25 SpA / 2 SpD / 5 Spe
+Modest Nature
+- Hurricane
+- Tailwind
+- Weather Ball
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Protect
+
+Dragonite @ Dragoninite
+Ability: Inner Focus
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Draco Meteor
+- Hurricane
+- Tailwind
+- Protect
+
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+EVs: 15 HP / 32 Atk / 19 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+- Last Respects

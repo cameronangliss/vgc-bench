@@ -1,0 +1,59 @@
+Typhlosion-Hisui @ Choice Scarf
+Ability: Blaze
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Shadow Ball
+- Eruption
+- Infernal Parade
+- Overheat
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Timid Nature
+- Tailwind
+- Sunny Day
+- Encore
+- Fake Tears
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 21 Def / 12 SpA / 1 Spe
+Bold Nature
+- Muddy Water
+- Coil
+- Recover
+- Hypnosis
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 26 HP / 17 Atk / 1 Def / 1 SpD / 21 Spe
+Adamant Nature
+- Crunch
+- Rock Slide
+- Protect
+- Dragon Dance
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 Atk / 11 Def / 18 SpD / 3 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 1 Def / 20 SpA / 1 SpD / 12 Spe
+Modest Nature
+- Growth
+- Leech Seed
+- Giga Drain
+- Sludge Bomb

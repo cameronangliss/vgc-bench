@@ -1,0 +1,59 @@
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- Dragon Claw
+- Earthquake
+
+Venusaur @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Sludge Bomb
+- Sleep Powder
+- Protect
+- Leaf Storm
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Weather Ball
+- Heat Wave
+- Solar Beam
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Protect
+
+Aerodactyl @ Lum Berry
+Ability: Unnerve
+Level: 50
+EVs: 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Rock Slide
+- Wide Guard
+- Tailwind
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 32 HP / 32 SpA / 2 Spe
+Modest Nature
+- Hyper Voice
+- Protect
+- Helping Hand
+- Quick Attack

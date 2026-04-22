@@ -1,0 +1,65 @@
+Charizard @ Charizardite Y
+Ability: Solar Power
+Level: 50
+Tera Type: Fire
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Weather Ball
+- Heat Wave
+- Solar Beam
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Sunny Day
+- Encore
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Water
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Last Respects
+- Flip Turn
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Normal
+EVs: 31 HP / 5 Def / 10 SpA / 18 SpD / 2 Spe
+Modest Nature
+- Psychic
+- Hyper Voice
+- Helping Hand
+- Trick Room
+
+Kangaskhan @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+Tera Type: Normal
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Fake Out
+- Double-Edge
+- Drain Punch
+- Sucker Punch
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+Tera Type: Fighting
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Rock Tomb

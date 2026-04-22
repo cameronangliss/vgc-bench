@@ -1,0 +1,59 @@
+Meganium @ Meganiumite
+Ability: Leaf Guard
+Level: 50
+EVs: 32 HP / 27 SpA / 7 Spe
+Modest Nature
+- Protect
+- Weather Ball
+- Dazzling Gleam
+- Solar Beam
+
+Archaludon @ Dragon Fang
+Ability: Stalwart
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Modest Nature
+- Protect
+- Flash Cannon
+- Steel Beam
+- Draco Meteor
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Heat Wave
+- Shadow Ball
+- Overheat
+- Eruption
+
+Tauros-Paldea-Aqua (M) @ White Herb
+Ability: Intimidate
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Wave Crash
+- Close Combat
+- Aqua Jet
+
+Kangaskhan (F) @ Kangaskhanite
+Ability: Inner Focus
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Fake Out
+- Double-Edge
+- Sucker Punch
+- Low Kick

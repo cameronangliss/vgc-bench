@@ -1,0 +1,59 @@
+Tyranitar @ Focus Sash
+Ability: Sand Stream
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- Protect
+- Dragon Dance
+- Knock Off
+- Rock Slide
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Coaching
+- Close Combat
+- Dire Claw
+- Fake Out
+
+Gyarados @ Gyaradosite
+Ability: Intimidate
+Level: 50
+EVs: 13 HP / 27 Atk / 26 Spe
+Jolly Nature
+- Protect
+- Dragon Dance
+- Crunch
+- Waterfall
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 2 Def / 15 SpA / 17 Spe
+Modest Nature
+- Protect
+- Calm Mind
+- Dazzling Gleam
+- Moonblast
+
+Maushold-Four @ Occa Berry
+Ability: Friend Guard
+Level: 50
+EVs: 31 HP / 1 SpD / 32 Spe
+Timid Nature
+- Protect
+- Follow Me
+- Super Fang
+- Taunt
+
+Rotom-Heat @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Overheat
+- Reflect
+- Dark Pulse
+- Nasty Plot

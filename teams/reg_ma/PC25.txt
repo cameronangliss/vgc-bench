@@ -1,0 +1,59 @@
+Sinistcha @ Leftovers
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Protect
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Careful Nature
+- Reflect
+- Light Screen
+- Foul Play
+- Encore
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 27 Def / 5 SpA / 1 SpD / 1 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Relaxed Nature
+- Flare Blitz
+- Will-O-Wisp
+- Parting Shot
+- Fake Out
+
+Excadrill @ White Herb
+Ability: Sand Rush
+Level: 50
+EVs: 32 Atk / 32 Spe
+Adamant Nature
+- Earthquake
+- High Horsepower
+- Iron Head
+- Protect
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 6 Atk / 1 Def / 4 SpD / 23 Spe
+Adamant Nature
+- Rock Slide
+- Crunch
+- Low Kick
+- Protect

@@ -1,0 +1,59 @@
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+- Rage Powder
+
+Drampa @ Drampanite
+Ability: Cloud Nine
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Modest Nature
+- Hyper Voice
+- Calm Mind
+- Protect
+- Earth Power
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Tailwind
+- Hurricane
+- Weather Ball
+
+Alakazam @ Colbur Berry
+Ability: Inner Focus
+Level: 50
+EVs: 32 HP / 2 Def / 32 Spe
+Timid Nature
+- Light Screen
+- Reflect
+- Speed Swap
+- Psychic
+
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Protect
+- Bug Bite
+- Bullet Punch
+- Swords Dance
+
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Last Respects
+- Aqua Jet

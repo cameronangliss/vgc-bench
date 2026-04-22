@@ -1,0 +1,59 @@
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 19 HP / 1 Def / 31 SpA / 15 Spe
+Modest Nature
+- Shell Smash
+- Water Spout
+- Dark Pulse
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 13 HP / 30 Atk / 23 Spe
+Adamant Nature
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+- Earthquake
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 20 HP / 31 Atk / 15 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Protect
+- Fake Out
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 7 HP / 27 Def / 25 SpA / 7 Spe
+Modest Nature
+- Detect
+- Quick Attack
+- Hyper Voice
+- Helping Hand
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 9 Def / 24 SpD / 1 Spe
+Calm Nature
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+- Rage Powder

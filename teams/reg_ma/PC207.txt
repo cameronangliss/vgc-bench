@@ -1,0 +1,59 @@
+Meganium @ Meganiumite
+Ability: Overgrow
+Level: 50
+EVs: 21 HP / 32 SpA / 1 SpD / 12 Spe
+Modest Nature
+- Solar Beam
+- Dazzling Gleam
+- Weather Ball
+- Protect
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 26 HP / 26 Atk / 6 SpD / 8 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Ice Punch
+- Protect
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 27 HP / 15 Atk / 4 Def / 1 SpD / 19 Spe
+Jolly Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- High Horsepower
+- Iron Head
+- Earthquake
+- Protect
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 28 HP / 25 Atk / 1 Def / 8 SpD / 4 Spe
+Adamant Nature
+- Dual Wingbeat
+- Iron Head
+- Tailwind
+- Roost
+
+Rotom-Heat @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 10 SpA / 24 Spe
+Timid Nature
+- Thunderbolt
+- Overheat
+- Electroweb
+- Volt Switch

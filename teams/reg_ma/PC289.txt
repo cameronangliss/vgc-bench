@@ -1,0 +1,59 @@
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 32 HP / 11 Def / 20 SpA / 1 SpD / 2 Spe
+Modest Nature
+- Sludge Bomb
+- Earth Power
+- Power Gem
+- Spiky Shield
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 5 Atk / 1 Def / 6 SpD / 22 Spe
+Adamant Nature
+- Flare Blitz
+- Parting Shot
+- Darkest Lariat
+- Fake Out
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Tailwind
+- Dual Wingbeat
+- Protect
+
+Tyranitar @ Chople Berry
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 6 Atk / 7 Def / 1 SpD / 20 Spe
+Adamant Nature
+- Knock Off
+- Low Kick
+- Rock Slide
+- Protect
+
+Rotom-Wash @ Leftovers
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 2 Def / 1 SpA / 13 SpD / 18 Spe
+Calm Nature
+- Hydro Pump
+- Will-O-Wisp
+- Volt Switch
+- Protect
+
+Garchomp @ Bright Powder
+Ability: Sand Veil
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Stomping Tantrum
+- Earthquake
+- Protect

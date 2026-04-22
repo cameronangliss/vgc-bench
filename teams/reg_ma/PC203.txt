@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Solar Power
+Level: 50
+EVs: 24 HP / 6 Def / 22 SpA / 14 Spe
+Modest Nature
+- Heat Wave
+- Overheat
+- Solar Beam
+- Protect
+
+Whimsicott @ Coba Berry
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Tailwind
+- Sunny Day
+- Moonblast
+- Protect
+
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+EVs: 32 SpA / 32 Spe
+Modest Nature
+- Shadow Ball
+- Heat Wave
+- Solar Beam
+- Eruption
+
+Venusaur @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 4 HP / 2 Def / 8 SpA / 20 SpD / 32 Spe
+Timid Nature
+- Sludge Bomb
+- Energy Ball
+- Sleep Powder
+- Protect
+
+Arcanine-Hisui @ Lum Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Flare Blitz
+- Protect
+- Will-O-Wisp
+- Rock Slide
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Taunt
+- Protect

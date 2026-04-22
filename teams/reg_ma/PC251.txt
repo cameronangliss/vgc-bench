@@ -1,0 +1,59 @@
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- High Horsepower
+- Iron Head
+- Earthquake
+- Protect
+
+Tyranitar @ Chople Berry
+Ability: Sand Stream
+Level: 50
+EVs: 20 HP / 32 Atk / 14 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Protect
+- Ice Punch
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 1 Def / 15 SpA / 14 SpD / 4 Spe
+Modest Nature
+- Thunderbolt
+- Hydro Pump
+- Protect
+- Volt Switch
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 21 HP / 12 Atk / 14 Def / 1 SpD / 18 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Protect
+- Fake Out
+
+Dragapult @ Colbur Berry
+Ability: Clear Body
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dragon Darts
+- Phantom Force
+- Protect
+- Will-O-Wisp
+
+Meganium @ Meganiumite
+Ability: Overgrow
+Level: 50
+EVs: 32 HP / 1 Def / 27 SpA / 1 SpD / 5 Spe
+Modest Nature
+- Solar Beam
+- Dazzling Gleam
+- Protect
+- Weather Ball

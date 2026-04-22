@@ -1,0 +1,59 @@
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 1 Atk / 10 Def / 23 SpD / 1 Spe
+Careful Nature
+- Parting Shot
+- Fake Out
+- Protect
+- Throat Chop
+
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 9 Def / 1 SpA / 1 SpD / 23 Spe
+Timid Nature
+- Shadow Ball
+- Perish Song
+- Protect
+- Substitute
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 10 Def / 1 SpA / 23 SpD / 1 Spe
+Calm Nature
+- Matcha Gotcha
+- Rage Powder
+- Protect
+- Life Dew
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 30 Atk / 2 Def / 2 Spe
+Adamant Nature
+- Iron Head
+- Protect
+- Low Kick
+- Sucker Punch
+
+Tyranitar @ Choice Scarf
+Ability: Sand Stream
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Stone Edge
+- Ice Punch
+- Low Kick
+- Rock Slide
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 5 HP / 1 Def / 30 SpA / 1 SpD / 29 Spe
+Modest Nature
+- Clanging Scales
+- Clangorous Soul
+- Aura Sphere
+- Protect

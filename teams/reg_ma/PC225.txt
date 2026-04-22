@@ -1,0 +1,59 @@
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- High Horsepower
+- Iron Head
+- Protect
+- Rock Slide
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 16 Atk / 1 Def / 1 SpD / 16 Spe
+Adamant Nature
+- Knock Off
+- Rock Slide
+- Low Kick
+- Protect
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 2 Def / 15 SpA / 2 SpD / 16 Spe
+Modest Nature
+- Thunderbolt
+- Hydro Pump
+- Protect
+- Will-O-Wisp
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 1 Atk / 20 Def / 11 SpD / 4 Spe
+Impish Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 10 HP / 2 Def / 21 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Protect
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+
+Sinistcha @ Leftovers
+Ability: Hospitality
+Level: 50
+EVs: 30 HP / 24 Def / 1 SpA / 11 SpD
+Bold Nature
+- Matcha Gotcha
+- Trick Room
+- Rage Powder
+- Strength Sap

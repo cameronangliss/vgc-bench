@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Modest Nature
+- Moonblast
+- Draining Kiss
+- Calm Mind
+- Protect
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Atk / 20 Def / 1 SpA / 12 SpD
+Relaxed Nature
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+- Fake Out
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+EVs: 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Calm Nature
+- Matcha Gotcha
+- Strength Sap
+- Rage Powder
+- Trick Room
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Ice Fang
+- Dual Wingbeat
+- Protect
+
+Dragapult @ Kasib Berry
+Ability: Clear Body
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Timid Nature
+- Shadow Ball
+- Breaking Swipe
+- Light Screen
+- Reflect

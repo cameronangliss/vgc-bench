@@ -1,0 +1,59 @@
+Greninja @ Greninjite
+Ability: Protean
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Dark Pulse
+- Blizzard
+- Flip Turn
+- Protect
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Power Gem
+- Spiky Shield
+- Sludge Bomb
+- Earth Power
+
+Arcanine @ Black Belt
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 17 Atk / 1 SpD / 16 Spe
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Protect
+- Extreme Speed
+
+Vanilluxe @ Choice Scarf
+Ability: Snow Warning
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Blizzard
+- Ice Beam
+- Icy Wind
+- Freeze-Dry
+
+Basculegion-F (F) @ Mystic Water
+Ability: Adaptability
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Modest Nature
+- Shadow Ball
+- Muddy Water
+- Aqua Jet
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Protect

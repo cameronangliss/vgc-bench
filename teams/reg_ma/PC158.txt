@@ -1,0 +1,59 @@
+Tyranitar @ Chople Berry
+Ability: Sand Stream
+Level: 50
+EVs: 18 HP / 24 Atk / 24 Def
+Adamant Nature
+- Knock Off
+- Ice Punch
+- Low Kick
+- Rock Slide
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Spiky Shield
+- Power Gem
+- Sludge Bomb
+- Earth Power
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Protect
+- Iron Head
+- High Horsepower
+- Rock Slide
+
+Sinistcha @ Lum Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 18 Def / 16 SpA
+Bold Nature
+- Strength Sap
+- Rage Powder
+- Matcha Gotcha
+- Life Dew
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 1 Atk / 32 Def
+Impish Nature
+- Bulk Up
+- Roost
+- Brave Bird
+- Body Press
+
+Milotic @ Sitrus Berry
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 14 Atk / 20 SpA
+Modest Nature
+- Icy Wind
+- Scald
+- Protect
+- Recover

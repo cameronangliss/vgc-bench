@@ -1,0 +1,59 @@
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 3 Atk / 20 Def / 11 SpD
+Relaxed Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 21 HP / 32 Def / 13 SpD
+Modest Nature
+- Hyper Voice
+- Twin Beam
+- Protect
+- Trick Room
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 29 Def / 5 SpA
+Modest Nature
+- Dazzling Gleam
+- Draining Kiss
+- Calm Mind
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 23 HP / 10 Atk / 1 Def / 1 SpD / 31 Spe
+Adamant Nature
+- Rock Slide
+- Stomping Tantrum
+- Dragon Claw
+- Breaking Swipe
+
+Venusaur @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Sleep Powder
+- Sludge Bomb
+- Leaf Storm
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Heat Wave
+- Earth Power
+- Protect

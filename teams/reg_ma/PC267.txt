@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 31 HP / 15 SpA / 20 Spe
+Modest Nature
+- Draining Kiss
+- Dazzling Gleam
+- Light of Ruin
+- Protect
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 22 HP / 21 Def / 6 SpA / 9 SpD / 8 Spe
+Bold Nature
+- Scald
+- Icy Wind
+- Life Dew
+- Protect
+
+Garchomp @ Soft Sand
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Stomping Tantrum
+- Earthquake
+- Protect
+
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+EVs: 27 HP / 1 Def / 15 SpD / 23 Spe
+Careful Nature
+- Brave Bird
+- Body Press
+- Iron Defense
+- Tailwind
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 1 HP / 32 Atk / 2 Def / 2 SpD / 29 Spe
+Jolly Nature
+- Knock Off
+- Rock Slide
+- Dragon Dance
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Protect
+- Fake Out

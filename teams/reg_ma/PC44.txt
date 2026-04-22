@@ -1,0 +1,59 @@
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Protect
+- Dire Claw
+- Close Combat
+- Fake Out
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 7 Atk / 1 Def / 1 SpD / 25 Spe
+Adamant Nature
+- Protect
+- Iron Defense
+- Body Press
+- Brave Bird
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 1 Atk / 24 Def / 10 SpD / 1 Spe
+Impish Nature
+- Parting Shot
+- Darkest Lariat
+- Flare Blitz
+- Fake Out
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 8 Def / 15 SpA / 3 SpD / 8 Spe
+Modest Nature
+- Protect
+- Will-O-Wisp
+- Thunderbolt
+- Hydro Pump
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Protect
+- Rock Slide
+- Earthquake
+- Iron Head
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Protect
+- Dragon Dance
+- Rock Slide
+- Knock Off

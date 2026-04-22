@@ -1,0 +1,59 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Tailwind
+- Wide Guard
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Draco Meteor
+- Fire Blast
+- Ice Beam
+- Extreme Speed
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 28 HP / 1 Def / 6 SpA / 23 SpD / 8 Spe
+Modest Nature
+- Thunderbolt
+- Flash Cannon
+- Electro Shot
+- Dragon Pulse
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 16 Def / 17 SpD
+Careful Nature
+- Protect
+- Parting Shot
+- Fake Out
+- Flare Blitz
+
+Palafin @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Wave Crash
+- Flip Turn
+- Close Combat
+- Jet Punch
+
+Excadrill @ Metal Coat
+Ability: Mold Breaker
+Level: 50
+EVs: 1 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Earthquake
+- Iron Head
+- X-Scissor
+- Swords Dance
