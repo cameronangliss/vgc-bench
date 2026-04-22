@@ -308,7 +308,9 @@ def discover_regulations(sheet_names: list[str]) -> list[str]:
 
 def main():
     parser = argparse.ArgumentParser(description="Scrape VGCPastes Teams")
-    parser.add_argument("--reg", "-r", help="Regulation id (e.g. G or MA). Omit for all.")
+    parser.add_argument(
+        "--reg", "-r", help="Regulation id (e.g. G or MA). Omit for all."
+    )
     parser.add_argument(
         "--champions",
         action="store_true",
