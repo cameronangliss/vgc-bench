@@ -366,7 +366,7 @@ class PolicyPlayer(Player):
             battle.opponent_used_mega_evolve,
             battle.opponent_used_z_move,
             battle.opponent_used_dynamax,
-            battle._opponent_used_tera,
+            battle.opponent_used_tera,
         ]
         side_conds = battle.opponent_side_conditions if opp else battle.side_conditions
         side_conditions = [
