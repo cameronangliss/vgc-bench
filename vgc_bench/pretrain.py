@@ -65,10 +65,12 @@ class TrajectoryDataset(Dataset):
             traj = pickle.load(f)
         obs = traj.obs
         n_steps = obs.shape[0]
-        action_mask = np.ones((n_steps, 2 * act_len), dtype=np.float32)
-        action_mask[:, 27:87] = 0
-        action_mask[:, act_len + 27 : act_len + 87] = 0
-        dict_obs = DictObs({"observation": obs, "action_mask": action_mask})
+        dict_obs = DictObs(
+            {
+                "observation": obs,
+                "action_mask": np.ones((n_steps, 2 * act_len), dtype=np.float32),
+            }
+        )
         return Trajectory(
             obs=dict_obs, acts=traj.acts, infos=traj.infos, terminal=traj.terminal
         )

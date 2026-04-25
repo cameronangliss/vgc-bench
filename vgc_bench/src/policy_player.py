@@ -291,9 +291,6 @@ class PolicyPlayer(Player):
         opp_side = PolicyPlayer.embed_side(battle, opp_fake_rating, opp=True)
         a1, a2 = battle.active_pokemon
         o1, o2 = battle.opponent_active_pokemon
-        assert battle.teampreview == (
-            len([p for p in battle.team.values() if p.selected_in_teampreview]) < 4
-        )
         pokemons = [
             PolicyPlayer.embed_pokemon(
                 p,
@@ -335,11 +332,15 @@ class PolicyPlayer(Player):
             min(battle.turn - battle.fields[f], 8) / 8 if f in battle.fields else 0
             for f in Field
         ]
+        champions_format = float(
+            battle.format is not None and "champions" in battle.format
+        )
         teampreview = float(battle.teampreview)
         reviving = float(battle.reviving)
         commanding = float(battle.commanding)
         return np.array(
-            [*weather, *fields, teampreview, reviving, commanding], dtype=np.float32
+            [*weather, *fields, champions_format, teampreview, reviving, commanding],
+            dtype=np.float32,
         )
 
     @staticmethod
