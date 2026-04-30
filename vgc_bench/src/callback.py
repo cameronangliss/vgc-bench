@@ -260,7 +260,7 @@ class Callback(BaseCallback):
         assert isinstance(self.model, PPO)
         assert self.model.env is not None
         progress = min(self.model.num_timesteps / self.total_steps, 1.0)
-        self.model.ent_coef = 0.05 * (0.01 / 0.05) ** progress
+        self.model.ent_coef = max(0.02, 0.05 * (0.001 / 0.05) ** progress)
         self.model.logger.record("train/ent_coef", self.model.ent_coef)
         if (
             self.evaluate
