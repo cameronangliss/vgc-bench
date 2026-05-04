@@ -1,0 +1,59 @@
+Aegislash @ Spell Tag
+Ability: Stance Change
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Sacred Sword
+- Poltergeist
+- Shadow Sneak
+- King's Shield
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 12 Def / 22 Spe
+Modest Nature
+- Calm Mind
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 11 Def / 10 SpA / 1 SpD / 12 Spe
+Modest Nature
+- Scald
+- Icy Wind
+- Protect
+- Recover
+
+Garchomp @ White Herb
+Ability: Rough Skin
+Level: 50
+EVs: 24 HP / 10 Atk / 32 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Talonflame @ Focus Sash
+Ability: Gale Wings
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dual Wingbeat
+- Flare Blitz
+- Tailwind
+- Protect
+
+Tsareena (F) @ Choice Scarf
+Ability: Queenly Majesty
+Level: 50
+EVs: 4 HP / 32 Atk / 1 Def / 1 SpD / 28 Spe
+Jolly Nature
+- Trop Kick
+- Low Kick
+- Triple Axel
+- Zen Headbutt

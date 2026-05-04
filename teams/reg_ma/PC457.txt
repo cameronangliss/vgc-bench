@@ -1,0 +1,57 @@
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 2 SpA / 32 SpD
+Bold Nature
+- Protect
+- Flash Cannon
+- Electro Shot
+- Dragon Pulse
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Flip Turn
+- Wave Crash
+- Aqua Jet
+- Last Respects
+
+Chesnaught @ Chesnaughtite
+Ability: Bulletproof
+Level: 50
+EVs: 32 HP / 8 Def / 26 SpD
+Relaxed Nature
+- Spiky Shield
+- Body Press
+- Iron Defense
+- Leech Seed
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Weather Ball
+- Hurricane
+- Tailwind
+
+Slowking-Galar @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+EVs: 32 HP / 28 Def / 6 SpD
+Relaxed Nature
+- Sludge Bomb
+- Eerie Spell
+- Heal Pulse
+- Trick Room
+
+Kangaskhan (F) @ Silk Scarf
+Ability: Scrappy
+Level: 50
+EVs: 30 HP / 32 Atk / 4 Spe
+Adamant Nature
+- Fake Out
+- Last Resort

@@ -1,0 +1,59 @@
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 8 SpA / 26 SpD
+Calm Nature
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Aura Sphere
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 20 HP / 23 Def / 23 SpA
+Quiet Nature
+- Hyper Voice
+- Psychic
+- Round
+- Draining Kiss
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Round
+- Rock Slide
+- Ice Fang
+- Dual Wingbeat
+
+Pidgeot @ Pidgeotite
+Ability: Keen Eye
+Level: 50
+EVs: 12 HP / 21 Def / 5 SpA / 28 Spe
+Timid Nature
+- Round
+- Heat Wave
+- Protect
+- Hurricane
+
+Heliolisk @ Magnet
+Ability: Solar Power
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Volt Switch
+- Round
+- Weather Ball
+- Electroweb
+
+Torkoal @ Sitrus Berry
+Ability: Drought
+Level: 50
+EVs: 2 HP / 32 Def / 32 SpA
+Quiet Nature
+- Eruption
+- Overheat
+- Solar Beam
+- Will-O-Wisp

@@ -1,0 +1,59 @@
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 24 HP / 10 Def / 32 Spe
+Timid Nature
+- Shadow Ball
+- Disable
+- Perish Song
+- Protect
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Impish Nature
+- Follow Me
+- Helping Hand
+- Encore
+- Protect
+
+Politoed @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 26 HP / 30 Def / 10 SpD
+Calm Nature
+- Weather Ball
+- Encore
+- Perish Song
+- Protect
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 10 HP / 24 SpA / 32 Spe
+Modest Nature
+- Clanging Scales
+- Aura Sphere
+- Clangorous Soul
+- Protect
+
+Raichu @ Focus Sash
+Ability: Lightning Rod
+Level: 50
+EVs: 32 SpA / 32 Spe
+Timid Nature
+- Volt Switch
+- Thunder
+- Encore
+- Fake Out
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+EVs: 32 HP / 30 Atk / 3 Spe
+Adamant Nature
+- Flip Turn
+- Jet Punch
+- Drain Punch
+- Protect

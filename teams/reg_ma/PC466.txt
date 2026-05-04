@@ -1,0 +1,59 @@
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 15 HP / 18 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Protect
+- Close Combat
+- Fake Out
+- Dire Claw
+
+Archaludon @ Choice Scarf
+Ability: Sturdy
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Snarl
+- Flash Cannon
+- Electro Shot
+- Draco Meteor
+
+Basculegion (M) @ Focus Sash
+Ability: Swift Swim
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Protect
+- Liquidation
+- Last Respects
+- Aqua Jet
+
+Scovillain @ Scovillainite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Calm Nature
+- Protect
+- Overheat
+- Leech Seed
+- Rage Powder
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 32 HP / 8 Atk / 26 Spe
+Jolly Nature
+- Protect
+- Dual Wingbeat
+- Rock Slide
+- Tailwind
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 10 Def / 10 SpA / 14 SpD
+Bold Nature
+- Protect
+- Hurricane
+- Weather Ball
+- Wide Guard

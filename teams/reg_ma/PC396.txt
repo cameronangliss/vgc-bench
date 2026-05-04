@@ -1,0 +1,59 @@
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Protect
+- Dual Wingbeat
+- Flare Blitz
+- Tailwind
+
+Garchomp @ Roseli Berry
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Rock Slide
+- Earthquake
+- Dragon Claw
+
+Basculegion (M) @ Sitrus Berry
+Ability: Adaptability
+Level: 50
+EVs: 13 HP / 28 Atk / 8 Def / 8 SpD / 9 Spe
+Adamant Nature
+- Protect
+- Liquidation
+- Last Respects
+- Aqua Jet
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 25 Atk / 9 Spe
+Adamant Nature
+- Protect
+- Sucker Punch
+- Iron Head
+- Kowtow Cleave
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 10 HP / 15 Atk / 23 Def / 18 Spe
+Jolly Nature
+- Protect
+- Close Combat
+- Gunk Shot
+- Fake Out
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 10 HP / 19 Def / 25 SpA / 12 Spe
+Modest Nature
+- Protect
+- Light of Ruin
+- Dazzling Gleam
+- Moonblast

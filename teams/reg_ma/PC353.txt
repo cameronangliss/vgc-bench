@@ -1,0 +1,59 @@
+Charizard @ Charizardite X
+Ability: Blaze
+Level: 50
+EVs: 18 HP / 16 Atk / 32 Spe
+Adamant Nature
+- Protect
+- Dragon Dance
+- Dragon Claw
+- Flare Blitz
+
+Aegislash @ Focus Sash
+Ability: Stance Change
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Shadow Sneak
+- Close Combat
+- Iron Head
+- Poltergeist
+
+Milotic @ Leftovers
+Ability: Marvel Scale
+Level: 50
+EVs: 32 HP / 21 Def / 1 SpA / 12 Spe
+Bold Nature
+- Protect
+- Scald
+- Icy Wind
+- Recover
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 31 HP / 17 SpD / 18 Spe
+Modest Nature
+- Protect
+- Leech Seed
+- Sludge Bomb
+- Earth Power
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Icy Wind
+- Last Respects
+- Flip Turn
+- Wave Crash
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 26 HP / 14 Atk / 26 Spe
+Adamant Nature
+- Protect
+- Earthquake
+- Rock Slide
+- Dragon Claw

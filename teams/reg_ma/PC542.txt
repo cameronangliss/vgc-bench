@@ -1,0 +1,59 @@
+Dragonite @ Leftovers
+Ability: Multiscale
+Level: 50
+EVs: 31 HP / 19 Def / 13 SpD / 3 Spe
+Impish Nature
+- Breaking Swipe
+- Low Kick
+- Roost
+- Protect
+
+Glimmora-Mega @ Glimmoranite
+Ability: Adaptability
+Level: 50
+EVs: 27 HP / 21 Def / 18 SpD
+Bold Nature
+- Power Gem
+- Sludge Bomb
+- Mortal Spin
+- Spiky Shield
+
+Torterra @ Sitrus Berry
+Ability: Shell Armor
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Impish Nature
+- Wood Hammer
+- High Horsepower
+- Leech Seed
+- Protect
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Impish Nature
+- Fake Out
+- Flare Blitz
+- Darkest Lariat
+- Will-O-Wisp
+
+Rotom-Wash @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 7 SpD / 27 Spe
+Timid Nature
+- Hydro Pump
+- Thunderbolt
+- Electroweb
+- Volt Switch
+
+Scizor-Mega @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 32 HP / 7 Def / 27 SpD
+Impish Nature
+- Sandstorm
+- Bullet Punch
+- Close Combat
+- Protect

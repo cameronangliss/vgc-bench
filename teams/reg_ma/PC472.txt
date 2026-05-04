@@ -1,0 +1,59 @@
+Charizard @ Charizardite X
+Ability: Blaze
+Level: 50
+EVs: 22 HP / 32 Atk / 1 SpD / 11 Spe
+Adamant Nature
+- Flare Blitz
+- Dragon Claw
+- Thunder Punch
+- Dragon Dance
+
+Incineroar @ White Herb
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Brave Nature
+- Flare Blitz
+- Darkest Lariat
+- Fake Out
+- Close Combat
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 31 HP / 22 Def / 1 SpA / 12 SpD
+Relaxed Nature
+- Hyper Voice
+- Psychic
+- Trick Room
+- Protect
+
+Venusaur @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Energy Ball
+- Sludge Bomb
+- Sleep Powder
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Swords Dance
+
+Hatterene (F) @ Fairy Feather
+Ability: Magic Bounce
+Level: 50
+EVs: 27 HP / 6 Def / 32 SpA
+Quiet Nature
+- Dazzling Gleam
+- Psychic
+- Trick Room
+- Protect

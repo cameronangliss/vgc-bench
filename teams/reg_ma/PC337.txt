@@ -1,0 +1,59 @@
+Sinistcha @ Leftovers
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 9 SpA / 24 SpD
+Calm Nature
+- Matcha Gotcha
+- Strength Sap
+- Rage Powder
+- Trick Room
+
+Basculegion (M) @ Spell Tag
+Ability: Swift Swim
+Level: 50
+EVs: 3 HP / 32 Atk / 1 Def / 1 SpD / 29 Spe
+Adamant Nature
+- Last Respects
+- Aqua Jet
+- Protect
+- Wave Crash
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 29 HP / 1 Atk / 24 Def / 10 SpD / 2 Spe
+Impish Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Darkest Lariat
+
+Glalie @ Glalitite
+Ability: Moody
+Level: 50
+EVs: 28 HP / 30 Atk / 8 Spe
+Adamant Nature
+- Explosion
+- Protect
+- Substitute
+- Sheer Cold
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 4 SpD / 28 Spe
+Timid Nature
+- Tailwind
+- Moonblast
+- Protect
+- Encore
+
+Pelipper @ Choice Scarf
+Ability: Drizzle
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Modest Nature
+- Muddy Water
+- Icy Wind
+- Hurricane
+- Weather Ball

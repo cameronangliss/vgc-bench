@@ -1,0 +1,59 @@
+Tsareena (F) @ Miracle Seed
+Ability: Queenly Majesty
+Level: 50
+EVs: 30 HP / 14 Atk / 4 Def / 1 SpD / 17 Spe
+Adamant Nature
+- Power Whip
+- Triple Axel
+- Protect
+- Helping Hand
+
+Typhlosion-Hisui @ Choice Scarf
+Ability: Blaze
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Eruption
+- Heat Wave
+- Shadow Ball
+- Overheat
+
+Tauros-Paldea-Aqua (M) @ Mystic Water
+Ability: Intimidate
+Level: 50
+EVs: 13 HP / 32 Atk / 21 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Close Combat
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Modest Nature
+- Light of Ruin
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Dragapult @ Colbur Berry
+Ability: Clear Body
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dragon Darts
+- Sucker Punch
+- Psychic Fangs
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Tailwind
+- Moonblast
+- Encore
+- Sunny Day

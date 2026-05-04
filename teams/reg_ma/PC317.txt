@@ -1,0 +1,59 @@
+Scizor @ Metal Coat
+Ability: Technician
+Level: 50
+EVs: 24 HP / 30 Atk / 1 Def / 10 SpD / 1 Spe
+Adamant Nature
+- Bullet Punch
+- Swords Dance
+- Bug Bite
+- Protect
+
+Politoed @ Leftovers
+Ability: Drizzle
+Level: 50
+EVs: 27 HP / 26 Def / 1 SpA / 10 SpD / 2 Spe
+Calm Nature
+- Weather Ball
+- Icy Wind
+- Helping Hand
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Icy Wind
+- Last Respects
+- Flip Turn
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Close Combat
+- Fake Out
+- Protect
+- Dire Claw
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 24 Def / 1 SpA / 8 SpD / 1 Spe
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 23 HP / 6 Def / 25 SpA / 1 SpD / 11 Spe
+Modest Nature
+- Draco Meteor
+- Hurricane
+- Dragon Pulse
+- Protect

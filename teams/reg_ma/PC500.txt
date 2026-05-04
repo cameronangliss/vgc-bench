@@ -1,0 +1,59 @@
+Sharpedo @ Sharpedonite
+Ability: Speed Boost
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Protect
+- Liquidation
+- Crunch
+- Psychic Fangs
+
+Morpeko @ Focus Sash
+Ability: Hunger Switch
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- Protect
+- Fake Out
+- Aura Wheel
+- Knock Off
+
+Vanilluxe @ Choice Scarf
+Ability: Snow Warning
+Level: 50
+EVs: 25 HP / 1 Def / 10 SpA / 2 SpD / 28 Spe
+Modest Nature
+- Blizzard
+- Freeze-Dry
+- Sheer Cold
+- Icy Wind
+
+Meganium @ Meganiumite
+Ability: Leaf Guard
+Level: 50
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Modest Nature
+- Protect
+- Solar Beam
+- Weather Ball
+- Dazzling Gleam
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 31 HP / 6 Def / 10 SpA / 18 SpD / 1 Spe
+Modest Nature
+- Protect
+- Hyper Voice
+- Psychic
+- Trick Room
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 15 Atk / 6 Def / 13 SpD
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot

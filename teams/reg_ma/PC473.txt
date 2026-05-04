@@ -1,0 +1,59 @@
+Crabominable @ Crabominite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Brave Nature
+- Ice Hammer
+- Drain Punch
+- Mach Punch
+- Protect
+
+Slowking @ Colbur Berry
+Ability: Regenerator
+Level: 50
+EVs: 32 HP / 16 Def / 10 SpA / 8 SpD
+Quiet Nature
+- Chilly Reception
+- Scald
+- Psychic
+- Trick Room
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 25 Atk / 1 Def / 8 SpD
+Adamant Nature
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+- Fake Out
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Flip Turn
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 9 SpA / 20 SpD / 1 Spe
+Calm Nature
+- Rage Powder
+- Matcha Gotcha
+- Life Dew
+- Trick Room

@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 27 HP / 12 Def / 5 SpA / 22 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Aerial Ace
+- Tailwind
+- Wide Guard
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Acrobatics
+- Fake Out
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Assurance
+- Iron Head
+- Sucker Punch
+- Protect
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 30 HP / 6 Def / 30 SpD
+Calm Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 27 HP / 30 Atk / 1 Def / 7 SpD / 1 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Howl
+- Protect

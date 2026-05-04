@@ -1,0 +1,59 @@
+Audino @ Audinite
+Ability: Regenerator
+Level: 50
+EVs: 32 HP / 7 Def / 20 SpA / 7 SpD
+Bold Nature
+- Dazzling Gleam
+- Helping Hand
+- Life Dew
+- Trick Room
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 2 HP / 32 SpA / 32 SpD
+Modest Nature
+- Scald
+- Ice Beam
+- Recover
+- Protect
+
+Sinistcha @ Occa Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 13 Def / 2 SpA / 19 SpD
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 30 HP / 16 Atk / 19 SpD
+Adamant Nature
+- Sucker Punch
+- Iron Head
+- Kowtow Cleave
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Weather Ball
+- Eruption
+- Solar Beam
+- Protect

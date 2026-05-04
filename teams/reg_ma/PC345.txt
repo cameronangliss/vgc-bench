@@ -1,0 +1,59 @@
+Conkeldurr @ Leftovers
+Ability: Guts
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Drain Punch
+- Mach Punch
+- Knock Off
+- Protect
+
+Incineroar @ Lum Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 8 Def / 20 SpD / 6 Spe
+Careful Nature
+- Parting Shot
+- Throat Chop
+- Flare Blitz
+- Fake Out
+
+Hydreigon @ Focus Sash
+Ability: Levitate
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Dark Pulse
+- Draco Meteor
+- Tailwind
+
+Emboar @ Emboarite
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Flare Blitz
+- Close Combat
+- Protect
+- Sucker Punch
+
+Reuniclus @ Sitrus Berry
+Ability: Overcoat
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Psychic
+- Energy Ball
+- Protect
+- Trick Room
+
+Cofagrigus @ Mental Herb
+Ability: Mummy
+Level: 50
+EVs: 32 HP / 5 Def / 29 SpD
+Relaxed Nature
+- Will-O-Wisp
+- Protect
+- Shadow Ball
+- Trick Room

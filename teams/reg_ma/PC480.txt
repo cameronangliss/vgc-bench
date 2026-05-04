@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 11 HP / 23 SpA / 32 Spe
+Modest Nature
+- Protect
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
+
+Gengar @ Gengarite
+Ability: Shadow Tag
+Level: 50
+EVs: 32 HP / 10 Def / 24 Spe
+Timid Nature
+- Shadow Ball
+- Thunder Wave
+- Protect
+- Icy Wind
+
+Aerodactyl @ Hard Stone
+Ability: Unnerve
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- Dual Wingbeat
+- Rock Slide
+- Taunt
+- Protect
+
+Aegislash @ Metal Coat
+Ability: Stance Change
+Level: 50
+EVs: 24 HP / 32 Atk / 10 Spe
+Adamant Nature
+- Iron Head
+- Poltergeist
+- Sacred Sword
+- King's Shield
+
+Basculegion (M) @ Kasib Berry
+Ability: Adaptability
+Level: 50
+EVs: 12 HP / 11 Atk / 32 Def / 1 SpD / 10 Spe
+Adamant Nature
+- Aqua Jet
+- Protect
+- Wave Crash
+- Last Respects
+
+Passimian @ Sitrus Berry
+Ability: Defiant
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Close Combat
+- Coaching
+- Rock Slide
+- Protect

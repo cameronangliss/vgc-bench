@@ -1,0 +1,59 @@
+Rotom-Heat @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 13 Def / 3 SpA / 3 SpD / 15 Spe
+Bold Nature
+- Overheat
+- Protect
+- Will-O-Wisp
+- Thunderbolt
+
+Aerodactyl @ Focus Sash
+Ability: Pressure
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Rock Slide
+- Tailwind
+- Wide Guard
+- Protect
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Modest Nature
+- Dark Pulse
+- Flamethrower
+- U-turn
+- Draco Meteor
+
+Venusaur @ Venusaurite
+Ability: Overgrow
+Level: 50
+EVs: 32 HP / 7 Def / 16 SpA / 10 SpD / 1 Spe
+Bold Nature
+- Protect
+- Leech Seed
+- Sludge Bomb
+- Giga Drain
+
+Palafin @ White Herb
+Ability: Zero to Hero
+Level: 50
+EVs: 26 HP / 30 Atk / 2 Def / 2 SpD / 6 Spe
+Adamant Nature
+- Jet Punch
+- Flip Turn
+- Protect
+- Drain Punch
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 SpA / 32 SpD / 2 Spe
+Mild Nature
+- Protect
+- Draco Meteor
+- Aura Sphere
+- Snarl

@@ -1,0 +1,59 @@
+Altaria @ Altarianite
+Ability: Cloud Nine
+Level: 50
+EVs: 32 HP / 32 SpA
+Modest Nature
+- Hyper Voice
+- Tailwind
+- Roost
+- Protect
+
+Dedenne @ Sitrus Berry
+Ability: Cheek Pouch
+Level: 50
+EVs: 32 HP / 2 Def / 32 Spe
+Timid Nature
+- Dazzling Gleam
+- Super Fang
+- Volt Switch
+- Protect
+
+Arcanine @ Black Belt
+Ability: Intimidate
+Level: 50
+EVs: 20 HP / 30 Atk / 16 Spe
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Extreme Speed
+- Protect
+
+Basculegion-F (F) @ Mystic Water
+Ability: Adaptability
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Modest Nature
+- Shadow Ball
+- Muddy Water
+- Icy Wind
+- Protect
+
+Meowscarada @ Choice Scarf
+Ability: Protean
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Flower Trick
+- Throat Chop
+- Triple Axel
+- Low Kick
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
