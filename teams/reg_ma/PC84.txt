@@ -1,0 +1,59 @@
+Aggron @ Aggronite
+Ability: Sturdy
+Level: 50
+EVs: 32 HP / 14 Atk / 20 Def
+Impish Nature
+- Body Press
+- Iron Defense
+- Heavy Slam
+- Protect
+
+Farigiraf @ Mental Herb
+Ability: Armor Tail
+Level: 50
+EVs: 31 HP / 17 Def / 10 SpA / 7 SpD / 1 Spe
+Modest Nature
+- Helping Hand
+- Trick Room
+- Hyper Voice
+- Psychic Noise
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- U-turn
+- Weather Ball
+- Tailwind
+
+Camerupt @ Cameruptite
+Ability: Solid Rock
+Level: 50
+EVs: 32 HP / 32 SpA
+Quiet Nature
+- Flamethrower
+- Earth Power
+- Heat Wave
+- Eruption
+
+Araquanid @ Mystic Water
+Ability: Water Bubble
+Level: 50
+EVs: 32 HP / 32 Atk / 1 SpD
+Brave Nature
+- Wide Guard
+- Liquidation
+- Leech Life
+- Protect
+
+Starmie @ Starminite
+Ability: Illuminate
+Level: 50
+EVs: 1 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Ice Spinner
+- Liquidation
+- Zen Headbutt
+- Protect

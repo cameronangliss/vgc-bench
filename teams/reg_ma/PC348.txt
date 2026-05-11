@@ -1,0 +1,59 @@
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 3 HP / 31 SpA / 32 Spe
+Timid Nature
+- Spiky Shield
+- Power Gem
+- Substitute
+- Sludge Bomb
+
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 15 Def / 19 SpD
+Impish Nature
+- Iron Defense
+- Brave Bird
+- Body Press
+- Roost
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+EVs: 32 HP / 5 Def / 5 SpA / 24 Spe
+Modest Nature
+- Protect
+- Quiver Dance
+- Giga Drain
+- Heat Wave
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+
+Gyarados @ Gyaradosite
+Ability: Intimidate
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Dragon Dance
+- Waterfall
+- Crunch
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Hasty Nature
+- Protect
+- Blizzard
+- Encore
+- Aurora Veil

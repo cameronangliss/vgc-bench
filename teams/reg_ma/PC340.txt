@@ -1,0 +1,59 @@
+Alakazam @ Alakazite
+Ability: Inner Focus
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Expanding Force
+- Shadow Ball
+- Focus Blast
+- Protect
+
+Meowstic (M) @ Colbur Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Bold Nature
+- Psychic Terrain
+- Expanding Force
+- Fake Out
+- Helping Hand
+
+Dragapult @ Focus Sash
+Ability: Clear Body
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dragon Darts
+- Phantom Force
+- Protect
+- Psychic Fangs
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 9 Def / 5 SpA / 13 SpD / 8 Spe
+Modest Nature
+- Thunderbolt
+- Will-O-Wisp
+- Protect
+- Hydro Pump
+
+Farigiraf @ Lum Berry
+Ability: Armor Tail
+Level: 50
+EVs: 28 HP / 26 Def / 12 SpD
+Bold Nature
+- Imprison
+- Hyper Voice
+- Protect
+- Trick Room

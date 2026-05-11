@@ -1,0 +1,59 @@
+Meowstic (M) @ Mental Herb
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 20 Def / 12 SpD
+Bold Nature
+- Fake Out
+- Light Screen
+- Reflect
+- Yawn
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 15 SpA / 19 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Protect
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- High Horsepower
+- Iron Head
+- Rock Slide
+- Protect
+
+Milotic @ Sitrus Berry
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 21 Def / 11 SpA / 1 SpD / 1 Spe
+Modest Nature
+- Scald
+- Ice Beam
+- Life Dew
+- Protect
+
+Archaludon @ Choice Scarf
+Ability: Sturdy
+Level: 50
+EVs: 1 Def / 32 SpA / 32 Spe
+Modest Nature
+- Draco Meteor
+- Flash Cannon
+- Thunderbolt
+- Snarl

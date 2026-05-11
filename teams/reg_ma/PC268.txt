@@ -1,0 +1,59 @@
+Skarmory @ Skarmorite
+Ability: Sturdy
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- Feint
+- Iron Head
+- Brave Bird
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Protect
+- Weather Ball
+- Hurricane
+- Tailwind
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+EVs: 31 HP / 20 Atk / 4 Def / 11 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 15 Atk / 11 Def / 8 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Dire Claw
+- Protect
+- Close Combat
+- Fake Out
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Adamant Nature
+- Jet Punch
+- Protect
+- Flip Turn
+- Wave Crash

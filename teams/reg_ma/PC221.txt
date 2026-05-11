@@ -1,0 +1,59 @@
+Rotom-Heat @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 32 SpA / 2 Spe
+Modest Nature
+- Protect
+- Thunderbolt
+- Overheat
+- Helping Hand
+
+Aegislash @ Leftovers
+Ability: Stance Change
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- King's Shield
+- Wide Guard
+- Flash Cannon
+- Shadow Ball
+
+Tyranitar @ Choice Scarf
+Ability: Sand Stream
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Knock Off
+- Ice Punch
+- Superpower
+
+Starmie @ Starminite
+Ability: Natural Cure
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Liquidation
+- Skill Swap
+- Zen Headbutt
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+
+Garchomp @ White Herb
+Ability: Sand Veil
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Iron Head
+- Earthquake
+- Dragon Claw

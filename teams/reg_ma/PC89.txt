@@ -1,0 +1,59 @@
+Hawlucha @ Hawluchanite
+Ability: Limber
+Level: 50
+EVs: 6 HP / 28 Atk / 32 Spe
+Jolly Nature
+- Flying Press
+- Brave Bird
+- Entrainment
+- Protect
+
+Zoroark-Hisui @ Choice Scarf
+Ability: Illusion
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Hyper Voice
+- Shadow Ball
+- Icy Wind
+- Trick
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Earthquake
+- Iron Head
+- Horn Drill
+- Protect
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 26 Atk / 8 Spe
+Adamant Nature
+- Rock Slide
+- Crunch
+- Low Kick
+- Protect
+
+Garchomp @ Bright Powder
+Ability: Sand Veil
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Primarina @ Leftovers
+Ability: Liquid Voice
+Level: 50
+EVs: 31 HP / 11 Def / 24 SpA
+Quiet Nature
+- Hyper Voice
+- Moonblast
+- Calm Mind
+- Protect

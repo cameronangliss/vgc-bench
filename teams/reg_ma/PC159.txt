@@ -1,0 +1,59 @@
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 20 HP / 20 Atk / 26 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 18 HP / 25 Atk / 1 Def / 1 SpD / 21 Spe
+Adamant Nature
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+- Protect
+
+Archaludon @ Choice Scarf
+Ability: Sturdy
+Level: 50
+EVs: 1 Def / 32 SpA / 32 Spe
+Modest Nature
+- Draco Meteor
+- Flash Cannon
+- Thunderbolt
+- Snarl
+
+Rotom-Wash @ Leftovers
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 21 SpA / 12 SpD / 1 Spe
+Modest Nature
+- Hydro Pump
+- Thunderbolt
+- Will-O-Wisp
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 15 Atk / 16 Def / 1 SpD / 2 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+- Protect

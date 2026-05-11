@@ -1,0 +1,59 @@
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 21 HP / 25 Atk / 20 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Dragon Dance
+- Wide Guard
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Acrobatics
+- Fake Out
+
+Kingambit @ Black Belt
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Brave Nature
+- Assurance
+- Iron Head
+- Sucker Punch
+- Protect
+
+Sinistcha @ Mental Herb
+Ability: Hospitality
+Level: 50
+EVs: 30 HP / 6 Def / 30 SpD
+Sassy Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Primarina @ Mystic Water
+Ability: Liquid Voice
+Level: 50
+EVs: 27 HP / 7 Def / 32 SpA
+Quiet Nature
+- Hyper Voice
+- Moonblast
+- Round
+- Protect
+
+Zoroark-Hisui @ Choice Scarf
+Ability: Illusion
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Hyper Voice
+- Shadow Ball
+- Flamethrower
+- Round

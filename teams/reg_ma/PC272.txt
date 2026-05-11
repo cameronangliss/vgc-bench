@@ -1,0 +1,59 @@
+Tinkaton (F) @ Sitrus Berry
+Ability: Own Tempo
+Level: 50
+EVs: 31 HP / 15 Atk / 9 Def / 11 Spe
+Adamant Nature
+- Gigaton Hammer
+- Play Rough
+- Helping Hand
+- Fake Out
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Sludge Wave
+- Power Gem
+- Earth Power
+- Spiky Shield
+
+Noivern @ Focus Sash
+Ability: Telepathy
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Draco Meteor
+- Air Slash
+- Tailwind
+- Protect
+
+Typhlosion-Hisui @ Charcoal
+Ability: Frisk
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Modest Nature
+- Eruption
+- Heat Wave
+- Shadow Ball
+- Protect
+
+Conkeldurr @ Black Belt
+Ability: Iron Fist
+Level: 50
+EVs: 27 HP / 20 Atk / 19 SpD
+Adamant Nature
+- Drain Punch
+- Mach Punch
+- Ice Punch
+- Wide Guard
+
+Rotom-Mow @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 18 HP / 16 SpA / 32 Spe
+Modest Nature
+- Thunderbolt
+- Leaf Storm
+- Electroweb
+- Will-O-Wisp

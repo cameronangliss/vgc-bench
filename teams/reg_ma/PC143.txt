@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Solar Power
+Level: 50
+EVs: 12 HP / 10 Def / 11 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Solar Beam
+- Heat Wave
+- Protect
+- Overheat
+
+Garchomp @ White Herb
+Ability: Rough Skin
+Level: 50
+EVs: 6 HP / 26 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Rotom-Mow @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 11 Def / 10 SpA / 12 SpD / 1 Spe
+Bold Nature
+- Thunderbolt
+- Will-O-Wisp
+- Leaf Storm
+- Protect
+
+Dragapult @ Focus Sash
+Ability: Clear Body
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Dragon Darts
+- Phantom Force
+- Thunder Wave
+- Protect
+
+Lucario @ Lucarionite
+Ability: Inner Focus
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Close Combat
+- Protect
+- Bullet Punch
+- Ice Punch
+
+Tyranitar @ Choice Scarf
+Ability: Sand Stream
+Level: 50
+EVs: 3 HP / 32 Atk / 1 Def / 1 SpD / 29 Spe
+Jolly Nature
+- Rock Slide
+- Crunch
+- Low Kick
+- Stone Edge

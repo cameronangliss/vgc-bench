@@ -1,0 +1,59 @@
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Brave Bird
+- Flare Blitz
+- Tailwind
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Light of Ruin
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Garchomp @ Soft Sand
+Ability: Rough Skin
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 20 Atk / 13 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Icy Wind
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Gunk Shot
+- Feint
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Hyper Voice
+- Psychic
+- Helping Hand
+- Trick Room

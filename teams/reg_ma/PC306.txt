@@ -1,0 +1,59 @@
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 9 HP / 23 Def / 5 SpA / 29 Spe
+Timid Nature
+- Protect
+- Psychic
+- Encore
+- Heat Wave
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Last Respects
+- Protect
+- Aqua Jet
+- Liquidation
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 9 Def / 25 Spe
+Jolly Nature
+- Super Fang
+- Feint
+- Protect
+- Follow Me
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 23 HP / 20 Atk / 8 Def / 12 SpD / 3 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Protect
+- Dragon Claw
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 21 Atk / 7 SpD / 6 Spe
+Adamant Nature
+- Sucker Punch
+- Iron Head
+- Protect
+- Kowtow Cleave
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 10 HP / 24 SpA / 32 Spe
+Timid Nature
+- Light of Ruin
+- Dazzling Gleam
+- Moonblast
+- Protect

@@ -1,0 +1,59 @@
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+- Dragon Claw
+
+Gardevoir @ Sitrus Berry
+Ability: Telepathy
+Level: 50
+EVs: 24 HP / 8 Def / 1 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+- Imprison
+
+Whimsicott @ Mental Herb
+Ability: Prankster
+Level: 50
+EVs: 12 HP / 22 Def / 32 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Sunny Day
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Rock Tomb
+- Fake Out
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Last Respects
+- Protect
+- Wave Crash
+- Aqua Jet
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 9 Def / 7 SpA / 18 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect

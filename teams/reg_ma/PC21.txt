@@ -1,0 +1,59 @@
+Clefable @ Clefablite
+Ability: Unaware
+Level: 50
+EVs: 32 HP / 28 Def / 4 SpA / 2 SpD
+Modest Nature
+- Calm Mind
+- Protect
+- Moonblast
+- Follow Me
+
+Greninja @ Focus Sash
+Ability: Torrent
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Water Pulse
+- Icy Wind
+- Dark Pulse
+
+Garchomp @ White Herb
+Ability: Rough Skin
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Protect
+- Dragon Claw
+- Stomping Tantrum
+- Earthquake
+
+Lucario @ Lucarionite
+Ability: Inner Focus
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Close Combat
+- Bullet Punch
+- Extreme Speed
+- Protect
+
+Froslass (F) @ Froslassite
+Ability: Snow Cloak
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Protect
+- Shadow Ball
+- Aurora Veil
+- Blizzard
+
+Aerodactyl @ Lum Berry
+Ability: Pressure
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Tailwind
+- Protect
+- Dual Wingbeat

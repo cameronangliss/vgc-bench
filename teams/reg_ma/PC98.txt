@@ -1,0 +1,59 @@
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 30 HP / 32 Atk / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 32 HP / 4 Def / 24 SpA / 1 SpD / 5 Spe
+Modest Nature
+- Protect
+- Roost
+- Fire Spin
+- Dragon Pulse
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Protect
+- Dire Claw
+- Close Combat
+- Rock Tomb
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 25 HP / 10 Def / 11 SpA / 1 SpD / 19 Spe
+Calm Nature
+- Protect
+- Sludge Bomb
+- Earth Power
+- Leech Seed
+
+Incineroar @ Lum Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 22 Def / 12 SpD
+Impish Nature
+- Fake Out
+- Parting Shot
+- Darkest Lariat
+- Flare Blitz
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Last Respects
+- Wave Crash
+- Aqua Jet
+- Flip Turn

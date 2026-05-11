@@ -1,0 +1,59 @@
+Clefable @ Clefablite
+Ability: Unaware
+Level: 50
+EVs: 31 HP / 7 Def / 5 SpA / 20 SpD / 3 Spe
+Calm Nature
+- Moonblast
+- Stored Power
+- Psych Up
+- Moonlight
+
+Starmie @ Leftovers
+Ability: Analytic
+Level: 50
+EVs: 32 HP / 8 Def / 25 SpD / 1 Spe
+Calm Nature
+- Scald
+- Cosmic Power
+- Recover
+- Minimize
+
+Meowstic (M) @ Chesto Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 23 Def / 1 SpA / 9 SpD / 1 Spe
+Calm Nature
+- Stored Power
+- Charge Beam
+- Psych Up
+- Rest
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Fake Out
+- Dire Claw
+- Rock Slide
+- Close Combat
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Tailwind
+- Upper Hand
+- Brave Bird
+- Sunny Day
+
+Garchomp @ White Herb
+Ability: Rough Skin
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect

@@ -1,0 +1,59 @@
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 16 HP / 32 Def / 18 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Rain Dance
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- Wide Guard
+
+Starmie @ Starminite
+Ability: Natural Cure
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Liquidation
+- Aqua Jet
+- Zen Headbutt
+- Protect
+
+Aegislash @ Spell Tag
+Ability: Stance Change
+Level: 50
+EVs: 28 HP / 32 Atk / 6 Spe
+Adamant Nature
+- Iron Head
+- Shadow Sneak
+- Poltergeist
+- King's Shield
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 6 SpA / 25 SpD / 3 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Dragon Pulse
+- Protect
+
+Maushold @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Impish Nature
+- Super Fang
+- Follow Me
+- Feint
+- Protect

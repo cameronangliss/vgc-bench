@@ -1,0 +1,59 @@
+Tyranitar @ Chople Berry
+Ability: Sand Stream
+Level: 50
+EVs: 13 HP / 16 Atk / 2 Def / 8 SpD / 27 Spe
+Adamant Nature
+- Rock Slide
+- Low Kick
+- Knock Off
+- Ice Punch
+
+Milotic @ Lum Berry
+Ability: Competitive
+Level: 50
+EVs: 31 HP / 17 Def / 2 SpA / 5 SpD / 11 Spe
+Calm Nature
+- Life Dew
+- Scald
+- Icy Wind
+- Haze
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 19 Def / 14 SpD / 1 Spe
+Impish Nature
+- Body Press
+- Roost
+- Bulk Up
+- Brave Bird
+
+Sinistcha @ Sitrus Berry
+Ability: Heatproof
+Level: 50
+EVs: 32 HP / 4 Def / 29 SpD / 1 Spe
+Bold Nature
+- Calm Mind
+- Rage Powder
+- Matcha Gotcha
+- Strength Sap
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Spiky Shield
+- Sludge Bomb
+- Earth Power
+- Power Gem
+
+Dragonite @ Mental Herb
+Ability: Inner Focus
+Level: 50
+EVs: 25 HP / 32 Atk / 1 Def / 1 SpD / 7 Spe
+Adamant Nature
+- Protect
+- Ice Spinner
+- Dragon Claw
+- Tailwind

@@ -1,0 +1,59 @@
+Orthworm @ Sitrus Berry
+Ability: Earth Eater
+Level: 50
+EVs: 32 HP / 1 Atk / 25 Def / 8 SpD
+Impish Nature
+- Heavy Slam
+- Shed Tail
+- Body Press
+- Iron Defense
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Draco Meteor
+- Hurricane
+- Tailwind
+
+Starmie @ Starminite
+Ability: Natural Cure
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Liquidation
+- Psycho Cut
+- Protect
+- Ice Spinner
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect
+
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Last Respects
+- Wave Crash
+- Flip Turn
+- Protect
+
+Decidueye-Hisui @ Scope Lens
+Ability: Scrappy
+Level: 50
+EVs: 28 HP / 32 Atk / 1 Def / 1 SpD / 4 Spe
+Adamant Nature
+- Triple Arrows
+- Leaf Blade
+- Protect
+- Brave Bird

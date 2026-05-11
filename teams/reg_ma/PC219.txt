@@ -1,0 +1,59 @@
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 18 HP / 17 Def / 4 SpA / 27 Spe
+Modest Nature
+- Sludge Bomb
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 5 Atk / 6 Def / 12 SpD / 11 Spe
+Adamant Nature
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+- Fake Out
+
+Kommo-o @ Dragon Fang
+Ability: Overcoat
+Level: 50
+EVs: 5 HP / 1 Def / 30 SpA / 1 SpD / 29 Spe
+Modest Nature
+- Clanging Scales
+- Aura Sphere
+- Clangorous Soul
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet
+
+Maushold @ Focus Sash
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Super Fang
+- Follow Me
+- Encore
+- Protect
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 17 Def / 2 SpA / 4 SpD / 12 Spe
+Bold Nature
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Protect

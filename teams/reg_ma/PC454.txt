@@ -1,0 +1,59 @@
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 18 Def / 10 SpD / 6 Spe
+Careful Nature
+- Parting Shot
+- Throat Chop
+- Flare Blitz
+- Fake Out
+
+Greninja @ Greninjite
+Ability: Protean
+Level: 50
+EVs: 8 HP / 32 SpA / 26 Spe
+Timid Nature
+- Protect
+- Blizzard
+- Dark Pulse
+- Low Kick
+
+Gengar @ Focus Sash
+Ability: Cursed Body
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Sludge Bomb
+- Destiny Bond
+- Shadow Ball
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+EVs: 22 HP / 10 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- Stomping Tantrum
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Calm Nature
+- Protect
+- Scald
+- Icy Wind
+- Recover
+
+Vanilluxe @ Choice Scarf
+Ability: Snow Warning
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Aurora Veil
+- Freeze-Dry
+- Blizzard
+- Icy Wind

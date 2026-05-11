@@ -1,0 +1,59 @@
+Garchomp @ White Herb
+Ability: Rough Skin
+Level: 50
+EVs: 22 HP / 10 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Dragon Claw
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Light of Ruin
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Kangaskhan (F) @ Kangaskhanite
+Ability: Inner Focus
+Level: 50
+EVs: 29 HP / 32 Atk / 5 Spe
+Adamant Nature
+- Fake Out
+- Double-Edge
+- Sucker Punch
+- Drain Punch
+
+Aegislash @ Spell Tag
+Ability: Stance Change
+Level: 50
+EVs: 29 HP / 30 Atk / 7 Spe
+Adamant Nature
+- King's Shield
+- Sacred Sword
+- Poltergeist
+- Shadow Sneak
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Rock Slide
+- Wide Guard
+- Tailwind
+
+Rotom-Wash @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 2 Def / 32 Spe
+Timid Nature
+- Electroweb
+- Hydro Pump
+- Thunderbolt
+- Will-O-Wisp

@@ -1,0 +1,59 @@
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 26 HP / 16 Atk / 1 Def / 6 SpD / 17 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Protect
+- Ice Punch
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 29 HP / 9 Def / 1 SpA / 26 SpD / 1 Spe
+Calm Nature
+- Scald
+- Icy Wind
+- Protect
+- Recover
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 3 Def / 1 SpA / 30 SpD
+Modest Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 30 Atk / 2 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Protect
+- Fake Out
+
+Rotom-Heat @ Passho Berry
+Ability: Levitate
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Overheat
+- Protect
+- Volt Switch
+- Thunderbolt
+
+Garchomp @ Focus Sash
+Ability: Sand Veil
+Level: 50
+EVs: 1 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Protect
+- Rock Slide

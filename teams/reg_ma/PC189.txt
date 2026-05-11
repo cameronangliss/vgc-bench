@@ -1,0 +1,59 @@
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Aura Sphere
+- Dragon Pulse
+- Water Pulse
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Tailwind
+- Weather Ball
+- Hurricane
+
+Archaludon @ Choice Scarf
+Ability: Stamina
+Level: 50
+EVs: 17 HP / 4 Def / 5 SpA / 21 SpD / 19 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Snarl
+- Draco Meteor
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Atk / 18 Def / 10 SpD / 5 Spe
+Careful Nature
+- Fake Out
+- Parting Shot
+- Darkest Lariat
+- Protect
+
+Sinistcha @ Colbur Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 8 Def / 1 SpA / 24 SpD / 1 Spe
+Calm Nature
+- Protect
+- Trick Room
+- Rage Powder
+- Matcha Gotcha
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Protect
+- Fake Out
+- Close Combat
+- Dire Claw

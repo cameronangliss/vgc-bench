@@ -1,0 +1,59 @@
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 2 HP / 1 Def / 29 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Brave Bird
+- Flare Blitz
+- Tailwind
+- Protect
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Last Respects
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+
+Decidueye-Hisui @ Scope Lens
+Ability: Scrappy
+Level: 50
+EVs: 5 HP / 28 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Triple Arrows
+- Leaf Blade
+- Upper Hand
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 30 HP / 20 Def / 1 SpA / 9 SpD / 6 Spe
+Bold Nature
+- Dazzling Gleam
+- Psychic
+- Imprison
+- Trick Room

@@ -6,6 +6,7 @@ from vgc_bench.src.teams import (
     calc_team_similarity_score,
     get_available_regs,
 )
+from vgc_bench.src.utils import format_map
 
 
 class TestTeamToggle:
@@ -62,8 +63,8 @@ class TestGetAvailableRegs:
         regs = get_available_regs()
         assert len(regs) > 0
         for r in regs:
-            assert len(r) == 1
             assert r.isalpha()
+            assert r in format_map
 
     def test_sorted(self):
         regs = get_available_regs()

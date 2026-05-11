@@ -1,0 +1,59 @@
+Milotic @ Sitrus Berry
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 21 Def / 10 SpA / 1 SpD / 2 Spe
+Modest Nature
+- Scald
+- Ice Beam
+- Life Dew
+- Protect
+
+Kangaskhan (F) @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 32 HP / 5 Atk / 2 Def / 27 Spe
+Adamant Nature
+- Double-Edge
+- Drain Punch
+- Sucker Punch
+- Fake Out
+
+Ninetales-Alola @ Choice Scarf
+Ability: Snow Warning
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Blizzard
+- Icy Wind
+- Aurora Veil
+- Freeze-Dry
+
+Ceruledge @ Colbur Berry
+Ability: Flash Fire
+Level: 50
+EVs: 30 HP / 32 Atk / 4 Spe
+Adamant Nature
+- Bitter Blade
+- Swords Dance
+- Shadow Sneak
+- Protect
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Sleep Powder
+- Rage Powder
+- Protect
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 26 HP / 1 Def / 17 SpA / 1 SpD / 21 Spe
+Timid Nature
+- Clanging Scales
+- Aura Sphere
+- Clangorous Soul
+- Protect

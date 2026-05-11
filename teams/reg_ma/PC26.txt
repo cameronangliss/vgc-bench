@@ -1,0 +1,59 @@
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 26 HP / 17 Atk / 13 Def / 1 SpD / 9 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Protect
+- Low Kick
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Swords Dance
+- Rock Slide
+- Earthquake
+- Protect
+
+Gyarados @ Lum Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Atk / 17 Def / 10 SpD / 6 Spe
+Careful Nature
+- Protect
+- Waterfall
+- Taunt
+- Thunder Wave
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 1 Atk / 7 Def / 25 SpD / 1 Spe
+Careful Nature
+- Roost
+- Bulk Up
+- Brave Bird
+- Body Press
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 24 Def / 1 SpA / 8 SpD / 1 Spe
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Rotom-Heat @ Quick Claw
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 13 Def / 1 SpA / 2 SpD / 18 Spe
+Bold Nature
+- Overheat
+- Volt Switch
+- Will-O-Wisp
+- Protect

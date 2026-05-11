@@ -1,0 +1,59 @@
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Fake Out
+- Water Spout
+- Dark Pulse
+- Aura Sphere
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Iron Head
+- Kowtow Cleave
+- Low Kick
+- Sucker Punch
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Protect
+- Dire Claw
+- Close Combat
+- Fake Out
+
+Sinistcha @ Leftovers
+Ability: Heatproof
+Level: 50
+EVs: 31 HP / 7 Def / 28 SpD
+Sassy Nature
+- Calm Mind
+- Matcha Gotcha
+- Shadow Ball
+- Trick Room
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 19 HP / 18 Def / 29 SpD
+Sassy Nature
+- Twin Beam
+- Rain Dance
+- Low Kick
+- Trick Room
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Flip Turn
+- Wave Crash
+- Last Respects
+- Aqua Jet

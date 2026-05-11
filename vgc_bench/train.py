@@ -122,7 +122,7 @@ def train(
     ppo = PPO(
         MaskedActorCriticPolicy,
         env,
-        learning_rate=lambda p: 1e-5 * 0.3 ** (1 - p),
+        learning_rate=1e-5,
         n_steps=(
             3072 // (2 * num_envs)
             if learning_style == LearningStyle.PURE_SELF_PLAY
@@ -234,6 +234,11 @@ if __name__ == "__main__":
         help="VGC regulation to train on (e.g. G). Omit to train on all regulations",
     )
     parser.add_argument(
+        "--champions",
+        action="store_true",
+        help="train on Champions VGC (currently Reg M-A)",
+    )
+    parser.add_argument(
         "--run_id", type=int, default=1, help="run ID for the training session"
     )
     parser.add_argument(
@@ -275,6 +280,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     set_global_seed(args.run_id)
     reg = args.reg.lower() if args.reg is not None else None
+    if args.champions and reg is None:
+        reg = "ma"
     assert (
         int(args.exploiter)
         + int(args.self_play)

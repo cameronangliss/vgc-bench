@@ -1,0 +1,59 @@
+Greninja-Mega @ Greninjite
+Ability: Protean
+Level: 50
+EVs: 8 HP / 32 SpA / 26 Spe
+Naive Nature
+- Blizzard
+- Water Shuriken
+- Dark Pulse
+- Protect
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Blizzard
+- Aurora Veil
+- Protect
+- Freeze-Dry
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Stomping Tantrum
+- Dragon Claw
+- Rock Slide
+- Earthquake
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 17 Atk / 32 Def / 15 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Protect
+- Rock Tomb
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Atk / 18 Def / 10 SpD / 5 Spe
+Careful Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Scizor-Mega @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 30 HP / 30 Atk / 6 Spe
+Adamant Nature
+- Bullet Punch
+- Swords Dance
+- Bug Bite
+- Protect

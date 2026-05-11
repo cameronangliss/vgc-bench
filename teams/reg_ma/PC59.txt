@@ -1,0 +1,65 @@
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+Tera Type: Rock
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Araquanid @ Mystic Water
+Ability: Water Bubble
+Level: 50
+Tera Type: Water
+EVs: 32 HP / 30 Atk / 4 SpD
+Brave Nature
+- Liquidation
+- Icy Wind
+- Wide Guard
+- Protect
+
+Goodra-Hisui @ Leftovers
+Ability: Gooey
+Level: 50
+Tera Type: Steel
+EVs: 32 HP / 15 Def / 14 SpA / 5 Spe
+Bold Nature
+- Ice Beam
+- Thunderbolt
+- Body Press
+- Shelter
+
+Talonflame @ Focus Sash
+Ability: Gale Wings
+Level: 50
+Tera Type: Fire
+EVs: 32 Atk / 7 SpA / 27 Spe
+Naive Nature
+- Brave Bird
+- Overheat
+- Tailwind
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+Tera Type: Fighting
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- U-turn
+- Fake Out
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Grass
+EVs: 32 HP / 14 Def / 1 SpA / 19 SpD
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room

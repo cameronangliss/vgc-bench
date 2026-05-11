@@ -1,0 +1,59 @@
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 24 HP / 1 Def / 10 SpA / 1 SpD / 30 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Protect
+- Disable
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Protect
+- Encore
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 5 Atk / 14 Def / 8 SpD / 7 Spe
+Adamant Nature
+- Flare Blitz
+- Darkest Lariat
+- Fake Out
+- Parting Shot
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Rock Tomb
+- Dire Claw
+- Close Combat
+
+Sinistcha @ Occa Berry
+Ability: Hospitality
+Level: 50
+EVs: 30 HP / 5 Def / 1 SpA / 28 SpD / 2 Spe
+Bold Nature
+- Trick Room
+- Rage Powder
+- Matcha Gotcha
+- Strength Sap
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+EVs: 24 HP / 32 Atk / 1 Def / 1 SpD / 8 Spe
+Adamant Nature
+- Wave Crash
+- Protect
+- Close Combat
+- Jet Punch

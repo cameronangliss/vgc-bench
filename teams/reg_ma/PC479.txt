@@ -1,0 +1,59 @@
+Gyarados @ Gyaradosite
+Ability: Intimidate
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Dragon Dance
+- Waterfall
+- Crunch
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 15 HP / 18 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Protect
+- Close Combat
+- Fake Out
+- Dire Claw
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Rock Slide
+- Stomping Tantrum
+- Earthquake
+- Dragon Claw
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 16 HP / 21 Def / 29 Spe
+Timid Nature
+- Protect
+- Psychic
+- Calm Mind
+- Heat Wave
+
+Kingambit @ Focus Sash
+Ability: Defiant
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Protect
+- Iron Head
+- Low Kick
+- Sucker Punch
+
+Clefable @ Sitrus Berry
+Ability: Magic Guard
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Bold Nature
+- Protect
+- Moonblast
+- Follow Me
+- Helping Hand

@@ -1,0 +1,59 @@
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+EVs: 32 Atk / 15 Def / 19 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Last Respects
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 22 HP / 25 SpA / 1 SpD / 18 Spe
+Modest Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- Wide Guard
+
+Tsareena (F) @ Choice Scarf
+Ability: Queenly Majesty
+Level: 50
+EVs: 4 HP / 32 Atk / 30 Spe
+Jolly Nature
+- Trop Kick
+- Triple Axel
+- Zen Headbutt
+- U-turn
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 5 SpA / 27 SpD / 2 Spe
+Modest Nature
+- Electro Shot
+- Draco Meteor
+- Aura Sphere
+- Protect
+
+Manectric @ Manectite
+Ability: Lightning Rod
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Timid Nature
+- Thunder
+- Volt Switch
+- Snarl
+- Protect

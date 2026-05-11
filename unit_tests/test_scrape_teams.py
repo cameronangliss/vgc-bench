@@ -74,3 +74,19 @@ class TestGetRegulationSheets:
         featured, regular = get_regulation_sheets([], "G")
         assert featured == []
         assert regular == ["SV Regulation G"]
+
+    def test_finds_champions_regular(self):
+        sheets = ["Champions M-A", "SV Regulation I", "Reg I Featured Teams"]
+        featured, regular = get_regulation_sheets(sheets, "ma")
+        assert featured == []
+        assert regular == ["Champions M-A"]
+
+    def test_finds_champions_featured(self):
+        sheets = [
+            "Champions M-A",
+            "Champions M-A Featured Teams",
+            "Champions M-A Featured Teams Presentable",
+        ]
+        featured, regular = get_regulation_sheets(sheets, "ma")
+        assert featured == ["Champions M-A Featured Teams"]
+        assert regular == ["Champions M-A"]

@@ -37,6 +37,8 @@ FORMATS = [
     "gen9vgc2026regfbo3",
     "gen9vgc2026regi",
     "gen9vgc2026regibo3",
+    "gen9championsvgc2026regma",
+    "gen9championsvgc2026regmabo3",
 ]
 
 
@@ -88,7 +90,6 @@ def scrape_logs(
         and can_distinguish_team_members(lj["log"].split("\n|\n")[0], "p2")
         and "Zoroark" not in lj["log"]
         and "Zorua" not in lj["log"]
-        and "|-mega|" not in lj["log"]
     }
     logs = {**old_logs, **new_logs}
     if max_logs is not None:

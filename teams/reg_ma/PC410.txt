@@ -1,0 +1,59 @@
+Kommo-o @ Dragon Fang
+Ability: Overcoat
+Level: 50
+EVs: 3 HP / 30 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Draco Meteor
+- Clanging Scales
+- Aura Sphere
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 10 HP / 20 Atk / 4 SpD / 32 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 24 HP / 13 Def / 3 SpA / 26 Spe
+Timid Nature
+- Sludge Bomb
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 23 Def / 2 SpA / 9 Spe
+Bold Nature
+- Hydro Pump
+- Volt Switch
+- Will-O-Wisp
+- Protect
+
+Tinkaton @ Shuca Berry
+Ability: Mold Breaker
+Level: 50
+EVs: 32 HP / 1 Atk / 25 Def / 8 Spe
+Jolly Nature
+- Gigaton Hammer
+- Fake Out
+- Encore
+- Protect
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 16 Atk / 2 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Rock Slide
+- Crunch
+- Low Kick
+- Protect

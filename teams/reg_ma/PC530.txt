@@ -1,0 +1,59 @@
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Taunt
+- Sucker Punch
+- Flower Trick
+- Protect
+
+Talonflame @ Mental Herb
+Ability: Gale Wings
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rain Dance
+- Brave Bird
+- Tailwind
+- Quick Guard
+
+Lucario @ Lucarionite
+Ability: Inner Focus
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Meteor Mash
+- Close Combat
+- Bullet Punch
+- Detect
+
+Starmie @ Starminite
+Ability: Natural Cure
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Liquidation
+- Ice Spinner
+- Zen Headbutt
+- Protect
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Weather Ball
+- Protect
+- Tailwind
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Wave Crash
+- Flip Turn
+- Aqua Jet
+- Last Respects

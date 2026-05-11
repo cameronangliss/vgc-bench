@@ -1,0 +1,59 @@
+Tyranitar @ Choice Scarf
+Ability: Sand Stream
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Stone Edge
+- Ice Punch
+- Low Kick
+- Rock Slide
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 3 Atk / 16 Def / 10 SpD / 5 Spe
+Careful Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 11 HP / 12 Def / 10 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Will-O-Wisp
+- Protect
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- High Horsepower
+- Iron Head
+- Rock Slide
+- Protect
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 5 HP / 1 Def / 30 SpA / 1 SpD / 29 Spe
+Modest Nature
+- Clanging Scales
+- Clangorous Soul
+- Aura Sphere
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 10 Def / 1 SpA / 23 SpD / 1 Spe
+Calm Nature
+- Matcha Gotcha
+- Rage Powder
+- Protect
+- Life Dew

@@ -1,0 +1,59 @@
+Banette-Mega @ Banettite
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Rain Dance
+- Destiny Bond
+- Encore
+- Poltergeist
+
+Tinkaton (F) @ Occa Berry
+Ability: Mold Breaker
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Fake Out
+- Protect
+- Gigaton Hammer
+- Play Rough
+
+Scovillain-Mega @ Scovillainite
+Ability: Spicy Spray
+Level: 50
+EVs: 29 HP / 32 SpA / 5 Spe
+Modest Nature
+- Protect
+- Flamethrower
+- Energy Ball
+- Rage Powder
+
+Samurott-Hisui @ White Herb
+Ability: Sharpness
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Aqua Jet
+- Protect
+- Razor Shell
+- Night Slash
+
+Gallade (M) @ Choice Scarf
+Ability: Sharpness
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Psycho Cut
+- Sacred Sword
+- Ice Punch
+- Stone Edge
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 16 HP / 18 SpA / 32 Spe
+Modest Nature
+- Tailwind
+- Taunt
+- Moonblast
+- Sunny Day

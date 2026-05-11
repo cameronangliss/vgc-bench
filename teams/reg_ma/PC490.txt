@@ -1,0 +1,59 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect
+
+Basculegion @ Mystic Water
+Ability: Swift Swim
+Level: 50
+EVs: 4 HP / 29 Atk / 6 Def / 1 SpD / 26 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 10 HP / 1 Def / 32 SpA / 13 SpD / 10 Spe
+Modest Nature
+- Hurricane
+- Dragon Pulse
+- Tailwind
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 24 HP / 32 Atk / 1 Def / 8 SpD / 1 Spe
+Adamant Nature
+- Bullet Punch
+- Bug Bite
+- Swords Dance
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 25 HP / 5 Atk / 1 Def / 12 SpD / 23 Spe
+Adamant Nature
+- Throat Chop
+- Flare Blitz
+- Parting Shot
+- Fake Out

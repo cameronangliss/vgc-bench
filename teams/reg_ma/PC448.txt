@@ -1,0 +1,59 @@
+Manectric @ Manectite
+Ability: Lightning Rod
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Thunderbolt
+- Volt Switch
+- Overheat
+- Protect
+
+Tauros-Paldea-Aqua (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 10 HP / 32 Atk / 24 Spe
+Adamant Nature
+- Aqua Jet
+- Wave Crash
+- Close Combat
+- Protect
+
+Tyranitar @ Focus Sash
+Ability: Sand Stream
+Level: 50
+EVs: 19 HP / 32 Atk / 15 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Protect
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 26 SpD / 8 Spe
+Careful Nature
+- Brave Bird
+- Iron Defense
+- Body Press
+- Roost
+
+Whimsicott @ Coba Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 2 SpD / 32 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Encore
+- Protect
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 20 SpA / 13 SpD / 1 Spe
+Modest Nature
+- Psychic
+- Hyper Voice
+- Helping Hand
+- Trick Room

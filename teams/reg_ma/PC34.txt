@@ -1,0 +1,59 @@
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 22 HP / 1 Def / 1 SpA / 10 SpD / 32 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Disable
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Tailwind
+- Encore
+- Moonblast
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 20 Atk / 14 Def / 1 SpD / 30 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Rock Slide
+- Protect
+
+Incineroar @ Charti Berry
+Ability: Intimidate
+Level: 50
+EVs: 26 HP / 5 Atk / 15 Def / 18 SpD
+Adamant Nature
+- Parting Shot
+- Flare Blitz
+- Throat Chop
+- Fake Out
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 23 Def / 9 SpA / 1 SpD / 1 Spe
+Bold Nature
+- Hydro Pump
+- Thunderbolt
+- Will-O-Wisp
+- Protect
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 1 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Scale Shot
+- Extreme Speed
+- Low Kick
+- Protect

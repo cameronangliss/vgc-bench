@@ -144,13 +144,8 @@ class PolicyPlayer(Player):
                         and self._team.available_regs is not None
                     ):
                         self._team.current_reg = get_reg_from_format(fmt)
-                    if packed_team:
-                        self._current_packed_team = packed_team
-                    else:
-                        self.get_next_team()
-                    await self.ps_client.accept_challenge(
-                        username, self._current_packed_team
-                    )
+                    team = packed_team or self.next_team
+                    await self.ps_client.accept_challenge(username, team)
                     await self._battle_semaphore.acquire()
                     break
         await self._battle_count_queue.join()
@@ -291,9 +286,6 @@ class PolicyPlayer(Player):
         opp_side = PolicyPlayer.embed_side(battle, opp_fake_rating, opp=True)
         a1, a2 = battle.active_pokemon
         o1, o2 = battle.opponent_active_pokemon
-        assert battle.teampreview == (
-            len([p for p in battle.team.values() if p.selected_in_teampreview]) < 4
-        )
         pokemons = [
             PolicyPlayer.embed_pokemon(
                 p,
@@ -335,11 +327,15 @@ class PolicyPlayer(Player):
             min(battle.turn - battle.fields[f], 8) / 8 if f in battle.fields else 0
             for f in Field
         ]
+        champions_format = float(
+            battle.format is not None and "champions" in battle.format
+        )
         teampreview = float(battle.teampreview)
         reviving = float(battle.reviving)
         commanding = float(battle.commanding)
         return np.array(
-            [*weather, *fields, teampreview, reviving, commanding], dtype=np.float32
+            [*weather, *fields, champions_format, teampreview, reviving, commanding],
+            dtype=np.float32,
         )
 
     @staticmethod
@@ -365,7 +361,7 @@ class PolicyPlayer(Player):
             battle.opponent_used_mega_evolve,
             battle.opponent_used_z_move,
             battle.opponent_used_dynamax,
-            battle._opponent_used_tera,
+            battle.opponent_used_tera,
         ]
         side_conds = battle.opponent_side_conditions if opp else battle.side_conditions
         side_conditions = [
@@ -421,10 +417,12 @@ class PolicyPlayer(Player):
         move_embeds = np.concatenate(move_embeds)
         types = [float(t in pokemon.base_types) for t in PokemonType]
         tera_type = [float(t == pokemon.tera_type) for t in PokemonType]
+        base_stats = [s / 255 for s in pokemon.base_stats.values()]
         if from_opponent:
-            stats = [s / 255 for s in pokemon.base_stats.values()]
+            stats = [-1] * 6
         else:
-            stats = [(0 if s is None else s / 255) for s in pokemon.stats.values()]
+            stats = [s / 255 for s in pokemon.stats.values() if s is not None]
+            assert len(stats) == 6
         gender = [float(g == pokemon.gender) for g in PokemonGender]
         weight = pokemon.weight / 1000
         # volatile fields
@@ -452,6 +450,7 @@ class PolicyPlayer(Player):
                 *move_embeds,
                 *types,
                 *tera_type,
+                *base_stats,
                 *stats,
                 *gender,
                 weight,

@@ -1,0 +1,59 @@
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 26 Atk / 8 Spe
+Adamant Nature
+- Protect
+- Rock Slide
+- Crunch
+- Ice Punch
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Close Combat
+- Dire Claw
+- Fake Out
+
+Aggron @ Aggronite
+Ability: Sturdy
+Level: 50
+EVs: 32 HP / 2 Atk / 30 SpD / 2 Spe
+Impish Nature
+- Protect
+- Heavy Slam
+- Body Press
+- Iron Defense
+
+Sinistcha @ Bright Powder
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 6 SpA / 21 SpD / 3 Spe
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+- Rage Powder
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 31 HP / 20 Def / 15 SpD
+Bold Nature
+- Protect
+- Twin Beam
+- Helping Hand
+- Trick Room

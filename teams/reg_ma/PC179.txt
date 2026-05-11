@@ -1,0 +1,59 @@
+Froslass (F) @ Froslassite
+Ability: Snow Cloak
+Level: 50
+EVs: 2 HP / 30 SpA / 32 Spe
+Timid Nature
+- Protect
+- Aurora Veil
+- Shadow Ball
+- Blizzard
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Timid Nature
+- Icy Wind
+- Protect
+- Aurora Veil
+- Moonblast
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 31 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Protect
+- Fake Out
+- Dire Claw
+- Close Combat
+
+Sinistcha @ Leftovers
+Ability: Hospitality
+Level: 50
+EVs: 30 HP / 13 Def / 2 SpA / 20 SpD / 1 Spe
+Calm Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Atk / 11 Def / 12 SpD / 10 Spe
+Careful Nature
+- Fake Out
+- Throat Chop
+- Flare Blitz
+- Parting Shot

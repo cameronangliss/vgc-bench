@@ -1,0 +1,59 @@
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 29 HP / 4 Atk / 9 Def / 20 SpD / 4 Spe
+Careful Nature
+- Throat Chop
+- Fake Out
+- Flare Blitz
+- Parting Shot
+
+Slowking @ Colbur Berry
+Ability: Regenerator
+Level: 50
+EVs: 32 HP / 23 Def / 1 SpA / 10 SpD
+Calm Nature
+- Scald
+- Psychic Noise
+- Trick Room
+- Chilly Reception
+
+Crabominable @ Crabominite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 28 Atk / 1 Def / 5 SpD
+Brave Nature
+- Ice Hammer
+- Drain Punch
+- Close Combat
+- Protect
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 16 HP / 1 Def / 32 SpA / 1 SpD / 16 Spe
+Modest Nature
+- Earth Power
+- Power Gem
+- Spiky Shield
+- Sludge Bomb
+
+Tsareena (F) @ White Herb
+Ability: Queenly Majesty
+Level: 50
+EVs: 32 HP / 20 Atk / 1 Def / 13 SpD
+Adamant Nature
+- Low Kick
+- Trop Kick
+- Triple Axel
+- Protect
+
+Zoroark-Hisui @ Focus Sash
+Ability: Illusion
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Bitter Malice
+- Hyper Beam
+- Icy Wind
+- Taunt

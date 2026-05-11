@@ -1,0 +1,59 @@
+Whimsicott @ Fairy Feather
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Sunny Day
+- Tailwind
+- Protect
+
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Eruption
+- Shadow Ball
+- Heat Wave
+- Overheat
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 10 HP / 32 SpA / 18 SpD / 6 Spe
+Modest Nature
+- Eruption
+- Solar Beam
+- Heat Wave
+- Helping Hand
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Sleep Powder
+- Rage Powder
+- Protect
+
+Rhyperior @ White Herb
+Ability: Solid Rock
+Level: 50
+EVs: 3 HP / 32 Atk / 31 SpD
+Brave Nature
+- High Horsepower
+- Rock Slide
+- Ice Punch
+- Protect
+
+Slowbro @ Slowbronite
+Ability: Oblivious
+Level: 50
+EVs: 31 HP / 3 Def / 32 SpD
+Relaxed Nature
+- Ice Beam
+- Body Press
+- Skill Swap
+- Trick Room

@@ -1,0 +1,59 @@
+Victreebel @ Victreebelite
+Ability: Chlorophyll
+Level: 50
+EVs: 25 HP / 9 Def / 32 SpA
+Modest Nature
+- Strength Sap
+- Sludge Bomb
+- Protect
+- Energy Ball
+
+Mamoswine @ Choice Scarf
+Ability: Oblivious
+Level: 50
+EVs: 29 HP / 32 Atk / 5 Spe
+Adamant Nature
+- Earthquake
+- High Horsepower
+- Icicle Crash
+- Ice Shard
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Dual Wingbeat
+- Rock Slide
+- Tailwind
+
+Gyarados @ Lum Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 8 Atk / 16 Def / 10 SpD
+Careful Nature
+- Waterfall
+- Protect
+- Ice Fang
+- Thunder Wave
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 20 Def / 6 SpA / 8 SpD
+Bold Nature
+- Hurricane
+- Wide Guard
+- Protect
+- Weather Ball
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Protect
+- Taunt

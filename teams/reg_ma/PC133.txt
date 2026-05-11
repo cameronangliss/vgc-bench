@@ -1,0 +1,59 @@
+Mimikyu @ Mental Herb
+Ability: Disguise
+Level: 50
+EVs: 32 HP / 18 Atk / 14 SpD
+Adamant Nature
+- Trick Room
+- Shadow Sneak
+- Play Rough
+- Will-O-Wisp
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 14 HP / 1 Def / 24 SpA / 1 SpD / 26 Spe
+Timid Nature
+- Tailwind
+- Dark Pulse
+- Draco Meteor
+- Earth Power
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 10 HP / 1 Def / 17 SpA / 6 SpD / 32 Spe
+Timid Nature
+- Spiky Shield
+- Sludge Bomb
+- Power Gem
+- Earth Power
+
+Conkeldurr @ Black Belt
+Ability: Iron Fist
+Level: 50
+EVs: 31 HP / 31 Atk / 3 SpD
+Adamant Nature
+- Protect
+- Ice Punch
+- Mach Punch
+- Drain Punch
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 4 Atk / 11 Def / 8 SpD / 11 Spe
+Impish Nature
+- Icy Wind
+- Waterfall
+- Thunder Wave
+- Taunt
+
+Incineroar @ Lum Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 3 Atk / 15 Def / 10 SpD / 6 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot

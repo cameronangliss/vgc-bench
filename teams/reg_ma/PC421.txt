@@ -1,0 +1,59 @@
+Charizard @ Charizardite X
+Ability: Blaze
+Level: 50
+EVs: 14 HP / 21 Atk / 1 Def / 1 SpD / 29 Spe
+Adamant Nature
+- Protect
+- Dragon Dance
+- Dragon Claw
+- Flare Blitz
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 17 HP / 26 Atk / 1 Def / 1 SpD / 21 Spe
+Adamant Nature
+- Protect
+- Crunch
+- Rock Slide
+- High Horsepower
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 29 HP / 22 Def / 1 SpA / 14 Spe
+Calm Nature
+- Protect
+- Icy Wind
+- Scald
+- Recover
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Coaching
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 5 Atk / 10 Def / 10 SpD / 11 Spe
+Adamant Nature
+- Fake Out
+- Parting Shot
+- Throat Chop
+- Flare Blitz
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 5 Def / 1 SpA / 29 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room

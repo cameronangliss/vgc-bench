@@ -1,0 +1,59 @@
+Froslass (F) @ Froslassite
+Ability: Snow Cloak
+Level: 50
+EVs: 12 HP / 9 Def / 12 SpA / 3 SpD / 30 Spe
+Timid Nature
+- Blizzard
+- Aurora Veil
+- Shadow Ball
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 24 HP / 11 Atk / 4 SpD / 25 Spe
+Jolly Nature
+- Dire Claw
+- Acrobatics
+- Close Combat
+- Fake Out
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 1 Atk / 13 Def / 21 SpD
+Careful Nature
+- Flare Blitz
+- Fake Out
+- Darkest Lariat
+- Parting Shot
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 16 Atk / 2 Def / 13 SpD / 2 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Protect
+
+Rotom-Wash @ Magnet
+Ability: Levitate
+Level: 50
+EVs: 12 HP / 6 Def / 15 SpA / 10 SpD / 23 Spe
+Timid Nature
+- Hydro Pump
+- Thunderbolt
+- Volt Switch
+- Protect
+
+Sinistcha @ Leftovers
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 22 Def / 4 SpA / 8 SpD
+Relaxed Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room
