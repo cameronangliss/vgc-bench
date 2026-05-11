@@ -64,6 +64,11 @@ class LogReader(Player):
         self.actions = []
         self.next_msg = None
 
+        async def _noop(*args, **kwargs):
+            pass
+
+        self.ps_client.send_message = _noop
+
     async def _handle_battle_request(
         self, battle: AbstractBattle, maybe_default_order: bool = False
     ):
