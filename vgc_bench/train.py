@@ -122,7 +122,7 @@ def train(
     ppo = PPO(
         MaskedActorCriticPolicy,
         env,
-        learning_rate=lambda p: 1e-5 * 0.3 ** (1 - p),
+        learning_rate=1e-5,
         n_steps=(
             3072 // (2 * num_envs)
             if learning_style == LearningStyle.PURE_SELF_PLAY
