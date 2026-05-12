@@ -40,6 +40,11 @@ pip install .[dev]
 ```
 NOTE: if this doesn't work due to the `open-spiel` dependency, feel free to remove it in `pyproject.toml`. It is only necessary for the `vgc_bench/eval` module.
 
+If the project doesn't work at first, the reason is usually that one of the following is not up to date:
+1. vgc-bench itself (remember to pull from this repo as changes come in for the latest fixes/updates)
+1. pokemon-showdown (pinned as a submodule in this repo, YOU HAVE TO USE THE ONE PINNED HERE)
+1. poke-env (pinned in pyproject.toml and updated frequently; just because you have it pip installed doesn't mean it is the latest version!)
+
 # 👨‍💻 How to use
 
 NOTE: Unless you're playing your policy on the live Pokémon Showdown servers with [play.py](vgc_bench/play.py), you must locally host your own server by running `node pokemon-showdown start <PORT> --no-security` from `pokemon-showdown/` (done automatically if using bash scripts).
