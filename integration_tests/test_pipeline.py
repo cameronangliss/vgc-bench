@@ -5,13 +5,11 @@ to trajectories, runs a short behavior cloning pretrain, then runs RL
 training initialized from a BC checkpoint downloaded from the model repo.
 """
 
-import asyncio
 import json
 import pickle
 import socket
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
-from threading import Thread
 
 import numpy as np
 import pytest
@@ -22,7 +20,7 @@ from poke_env.environment import SingleAgentWrapper
 from poke_env.player import RandomPlayer
 from stable_baselines3 import PPO
 
-from vgc_bench.logs2trajs import process_logs
+from vgc_bench.logs2trajs import _init_worker_loop, process_logs
 from vgc_bench.pretrain import TrajectoryDataset
 from vgc_bench.src.env import ShowdownEnv
 from vgc_bench.src.policy import MaskedActorCriticPolicy
