@@ -5,13 +5,11 @@ to trajectories, runs a short behavior cloning pretrain, then runs RL
 training initialized from a BC checkpoint downloaded from the model repo.
 """
 
-import asyncio
 import json
 import pickle
 import socket
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
-from threading import Thread
 
 import numpy as np
 import pytest
@@ -22,7 +20,7 @@ from poke_env.environment import SingleAgentWrapper
 from poke_env.player import RandomPlayer
 from stable_baselines3 import PPO
 
-from vgc_bench.logs2trajs import process_logs
+from vgc_bench.logs2trajs import _init_worker_loop, process_logs
 from vgc_bench.pretrain import TrajectoryDataset
 from vgc_bench.src.env import ShowdownEnv
 from vgc_bench.src.policy import MaskedActorCriticPolicy
@@ -49,12 +47,6 @@ def trajectories():
     fixture_path = Path(__file__).parent / "fixture_logs.json"
     with fixture_path.open() as f:
         logs = json.load(f)
-
-    def _init_worker_loop():
-        import vgc_bench.logs2trajs as mod
-
-        mod._READER_LOOP = asyncio.new_event_loop()
-        Thread(target=mod._READER_LOOP.run_forever, daemon=True).start()
 
     with ProcessPoolExecutor(max_workers=4, initializer=_init_worker_loop) as executor:
         trajs = process_logs(

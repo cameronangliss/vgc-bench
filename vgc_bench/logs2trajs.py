@@ -37,6 +37,12 @@ from vgc_bench.src.utils import chunk_obs_len
 _READER_LOOP: asyncio.AbstractEventLoop | None = None
 
 
+def _init_worker_loop():
+    global _READER_LOOP
+    _READER_LOOP = asyncio.new_event_loop()
+    Thread(target=_READER_LOOP.run_forever, daemon=True).start()
+
+
 class LogReader(Player):
     """
     A player that reads and replays battle logs to extract state-action pairs.
@@ -405,11 +411,6 @@ def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bo
         only_winner: If True, only extract winner trajectories.
         strict: If True, crash on parsing errors; otherwise skip problematic logs.
     """
-
-    def _init_worker_loop():
-        global _READER_LOOP
-        _READER_LOOP = asyncio.new_event_loop()
-        Thread(target=_READER_LOOP.run_forever, daemon=True).start()
 
     executor = ProcessPoolExecutor(
         max_workers=num_workers, initializer=_init_worker_loop
