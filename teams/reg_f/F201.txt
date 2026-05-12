@@ -1,0 +1,67 @@
+Ting-Lu @ Clear Amulet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 76 HP / 252 Atk / 4 Def / 172 SpD / 4 Spe
+Adamant Nature
+- Stomping Tantrum
+- Payback
+- Heavy Slam
+- Protect
+
+Gyarados @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 36 Atk / 100 Def / 108 SpD / 12 Spe
+Adamant Nature
+- Waterfall
+- Taunt
+- Thunder Wave
+- Helping Hand
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 68 Atk / 4 Def / 12 SpD / 204 Spe
+Jolly Nature
+- Breaking Swipe
+- Heat Crash
+- Howl
+- Burning Bulwark
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 108 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Pollen Puff
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 196 Def / 60 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Perish Song
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 196 Atk / 4 Def / 52 SpD / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect

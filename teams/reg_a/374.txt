@@ -1,0 +1,70 @@
+Meowscarada (F) @ Choice Band
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Petal Blizzard
+- U-turn
+- Brick Break
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+
+Pawmot (M) @ Focus Sash
+Ability: Volt Absorb
+Level: 50
+Shiny: Yes
+Tera Type: Electric
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Fake Out
+- Double Shock
+- Revival Blessing
+- Close Combat
+
+Gothitelle (F) @ Figy Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 196 Def / 60 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Protect
+- Hypnosis
+- Trick Room
+- Fake Out
+
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Def / 132 SpD / 4 Spe
+Careful Nature
+IVs: 0 Atk
+- Tailwind
+- Perish Song
+- Foul Play
+- Haze
+
+Azumarill (F) @ Sitrus Berry
+Ability: Sap Sipper
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 84 Def / 172 SpD
+Bold Nature
+IVs: 0 Atk
+- Chilling Water
+- Perish Song
+- Protect
+- Sing

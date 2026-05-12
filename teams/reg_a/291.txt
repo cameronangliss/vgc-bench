@@ -1,0 +1,68 @@
+Salamence (F) @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 140 Atk / 188 Spe
+Adamant Nature
+- Dual Wingbeat
+- Tera Blast
+- Dragon Dance
+- Protect
+
+Armarouge (F) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 28 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Armor Cannon
+- Expanding Force
+- Energy Ball
+- Trick Room
+
+Indeedee-F @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Imprison
+- Protect
+
+Kingambit (F) @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Brick Break
+
+Ursaring (M) @ Eviolite
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 140 Atk / 116 SpD
+Brave Nature
+IVs: 0 Spe
+- Double-Edge
+- Hammer Arm
+- High Horsepower
+- Protect
+
+Palafin (M) @ Sitrus Berry
+Ability: Zero to Hero
+Level: 50
+Tera Type: Psychic
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Wave Crash
+- Jet Punch
+- Close Combat
+- Haze

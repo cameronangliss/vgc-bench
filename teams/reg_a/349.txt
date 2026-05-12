@@ -1,0 +1,71 @@
+Farigiraf @ Mental Herb
+Ability: Armor Tail
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Dazzling Gleam
+- Trick Room
+- Protect
+
+Hariyama (F) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fighting
+EVs: 156 HP / 236 Atk / 116 SpD
+Adamant Nature
+IVs: 0 Spe
+- Close Combat
+- Fake Out
+- Heavy Slam
+- Wide Guard
+
+Torkoal (M) @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Clear Smog
+- Protect
+
+Mudsdale @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 140 Atk / 116 SpD
+Brave Nature
+IVs: 0 Spe
+- High Horsepower
+- Iron Head
+- Rock Slide
+- Close Combat
+
+Kingambit @ Life Orb
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 236 HP / 252 Atk / 4 Def / 12 SpD
+Brave Nature
+IVs: 0 Spe
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Protect
+
+Lilligant @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Grass
+EVs: 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Leaf Storm
+- Sleep Powder
+- After You
+- Protect

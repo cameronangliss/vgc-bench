@@ -1,0 +1,68 @@
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 244 Atk / 20 Def / 4 SpD / 236 Spe
+Jolly Nature
+- Flare Blitz
+- Rock Slide
+- Extreme Speed
+- Head Smash
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Atk / 68 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Articuno @ Choice Specs
+Ability: Snow Cloak
+Level: 50
+Tera Type: Ice
+EVs: 220 HP / 12 Def / 196 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Ice Beam
+- Freeze-Dry
+- Sheer Cold
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 76 Def / 100 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 20 Atk
+- Draco Meteor
+- Thunderclap
+- Electroweb
+- Snarl
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 84 HP / 132 Def / 60 SpA / 4 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Moonblast
+- Aurora Veil
+- Helping Hand
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Steel
+EVs: 84 HP / 44 Def / 116 SpA / 12 SpD / 252 Spe
+Timid Nature
+- Earth Power
+- Sludge Bomb
+- Substitute
+- Protect

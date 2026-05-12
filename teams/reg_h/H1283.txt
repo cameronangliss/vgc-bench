@@ -1,0 +1,70 @@
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 204 Def / 52 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Trick Room
+- Follow Me
+- Helping Hand
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 84 Def / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Struggle Bug
+- Rage Powder
+- Tailwind
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Tyranitar @ Choice Band
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 228 Atk / 4 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Tera Blast
+
+Reuniclus @ Life Orb
+Ability: Magic Guard
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Tera Blast
+- Expanding Force
+- Trick Room
+- Protect
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 12 Def / 116 SpA / 164 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Vacuum Wave

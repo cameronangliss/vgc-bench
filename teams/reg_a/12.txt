@@ -1,0 +1,63 @@
+Tyranitar (F) @ Weakness Policy
+Ability: Sand Stream
+Level: 50
+EVs: 252 HP / 20 Atk / 100 Def / 108 SpD / 28 Spe
+Impish Nature
+- Protect
+- Brick Break
+- Crunch
+- Rock Slide
+
+Bronzong @ Mental Herb
+Ability: Levitate
+Level: 50
+EVs: 236 HP / 236 Def / 36 SpD
+Sassy Nature
+IVs: 0 Atk / 24 Spe
+- Imprison
+- Trick Room
+- Bulldoze
+- Helping Hand
+
+Houndstone (M) @ Electric Seed
+Ability: Sand Rush
+Level: 50
+EVs: 4 HP / 252 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Snarl
+- Will-O-Wisp
+- Bulldoze
+- Body Press
+
+Garchomp (F) @ Focus Sash
+Ability: Sand Veil
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Rock Slide
+- Dragon Claw
+- Earthquake
+
+Gyarados (M) @ Choice Scarf
+Ability: Intimidate
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icy Wind
+- Crunch
+- Earthquake
+- Waterfall
+
+Pincurchin (F) @ Life Orb
+Ability: Electric Surge
+Level: 50
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 16 Spe
+- Protect
+- Curse
+- Liquidation
+- Zing Zap

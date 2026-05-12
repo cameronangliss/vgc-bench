@@ -1,0 +1,67 @@
+Calyrex-Shadow @ Choice Scarf
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Normal
+EVs: 52 HP / 196 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Psychic
+- Shadow Ball
+- Astral Barrage
+- Trick
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 68 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Imprison
+- Heavy Slam
+- Body Press
+- Wide Guard
+
+Urshifu-Rapid-Strike @ Covert Cloak
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 4 Def / 20 SpD / 156 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Ice Shard
+- Crunch
+- Ice Spinner
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 252 Atk
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Thunderbolt
+- Draco Meteor
+- Protect

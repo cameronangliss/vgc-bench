@@ -1,0 +1,65 @@
+Dondozo @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 12 Def / 252 SpD
+Careful Nature
+- Wave Crash
+- Heavy Slam
+- Yawn
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Power Gem
+- Earth Power
+- Mortal Spin
+- Spiky Shield
+
+Arcanine @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 204 HP / 236 Atk / 68 Spe
+Adamant Nature
+- Flare Blitz
+- Wild Charge
+- Extreme Speed
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 236 Atk / 76 Spe
+Adamant Nature
+- Earthquake
+- Ruination
+- Heavy Slam
+- Tera Blast
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Substitute
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Tera Blast
+- Dragon Claw
+- Low Kick
+- Extreme Speed

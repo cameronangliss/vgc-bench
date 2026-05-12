@@ -1,0 +1,68 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Def / 116 SpD
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Parting Shot
+
+Venusaur @ Weakness Policy
+Ability: Chlorophyll
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 76 Def / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Giga Drain
+- Sludge Bomb
+- Earth Power
+- Sleep Powder
+
+Walking Wake @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 108 HP / 4 Def / 140 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Hydro Steam
+- Draco Meteor
+- Protect
+- Flip Turn
+
+Torkoal @ Sitrus Berry
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 SpA / 60 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Burning Jealousy
+- Protect
+- Helping Hand
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 156 HP / 52 Def / 180 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Weather Ball
+- Dragon Pulse
+- Electroweb
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 100 Def / 76 SpD / 92 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot

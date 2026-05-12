@@ -1,0 +1,70 @@
+Kilowattrel (M) @ Focus Sash
+Ability: Wind Power
+Level: 50
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Air Slash
+- Endeavor
+- Tailwind
+
+Hydreigon (M) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Dark Pulse
+- Dragon Pulse
+- Flash Cannon
+
+Hariyama (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 236 HP / 28 Atk / 116 Def / 124 SpD
+Sassy Nature
+IVs: 26 Spe
+- Fake Out
+- Close Combat
+- Wide Guard
+- Knock Off
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Steel Beam
+- Shadow Ball
+- Psychic
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 156 HP / 36 Atk / 60 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Population Bomb
+- Encore
+- Follow Me
+- Protect
+
+Sylveon (F) @ Sitrus Berry
+Ability: Pixilate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 196 SpA / 52 SpD / 4 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Yawn
+- Protect

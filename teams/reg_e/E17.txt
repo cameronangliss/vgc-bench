@@ -1,0 +1,69 @@
+Snorlax @ Clear Amulet
+Ability: Thick Fat
+Level: 50
+Tera Type: Ghost
+EVs: 44 HP / 252 Atk / 212 Def
+Adamant Nature
+IVs: 21 Spe
+- High Horsepower
+- Heavy Slam
+- Ice Punch
+- Helping Hand
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 204 Def / 108 SpA
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Protect
+
+Munkidori (M) @ Focus Sash
+Ability: Frisk
+Level: 50
+Tera Type: Poison
+EVs: 44 Def / 252 SpA / 212 Spe
+Timid Nature
+IVs: 0 Atk
+- Psychic
+- Sludge Bomb
+- Fake Out
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Iron Head
+- Fire Punch
+
+Regieleki @ Choice Scarf
+Ability: Transistor
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Thunder
+- Electroweb
+- Volt Switch
+
+Tauros-Paldea-Aqua @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 252 Def
+Impish Nature
+- Body Press
+- Raging Bull
+- Aqua Jet
+- Protect

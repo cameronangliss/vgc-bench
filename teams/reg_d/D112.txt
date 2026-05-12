@@ -1,0 +1,69 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 76 Def / 116 SpA / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Gastrodon-East @ Leftovers
+Ability: Storm Drain
+Level: 50
+Tera Type: Poison
+EVs: 180 HP / 204 Def / 124 SpD
+Bold Nature
+IVs: 0 Atk
+- Earth Power
+- Ice Beam
+- Recover
+- Protect
+
+Landorus-Therian @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 4 Atk / 124 Def / 20 SpD / 148 Spe
+Impish Nature
+- Stomping Tantrum
+- Rock Tomb
+- Taunt
+- U-turn
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Clear Smog
+- Pollen Puff
+- Spore
+- Rage Powder
+
+Volcarona @ Safety Goggles
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 140 Def / 36 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Fiery Dance
+- Bug Buzz
+- Giga Drain
+- Quiver Dance
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 76 HP / 236 Atk / 28 Def / 164 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+- Fake Out

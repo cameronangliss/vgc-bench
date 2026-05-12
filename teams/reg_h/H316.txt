@@ -1,0 +1,68 @@
+Toxapex @ Leftovers
+Ability: Regenerator
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 132 Def / 124 SpD
+Bold Nature
+IVs: 0 Atk
+- Baneful Bunker
+- Haze
+- Recover
+- Toxic
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Protect
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+
+Pelipper @ Ability Shield
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 140 Def / 4 SpA / 108 SpD
+Bold Nature
+IVs: 0 Atk
+- Wide Guard
+- Tailwind
+- Hurricane
+- Weather Ball
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 52 SpA / 4 SpD / 196 Spe
+Timid Nature
+IVs: 0 Atk
+- Electro Shot
+- Body Press
+- Draco Meteor
+- Flash Cannon
+
+Maushold @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+- Beat Up
+- Follow Me
+- Encore
+- Protect
+
+Barraskewda @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Psychic Fangs
+- Crunch
+- Aqua Jet
+- Flip Turn

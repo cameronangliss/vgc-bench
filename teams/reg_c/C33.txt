@@ -1,0 +1,68 @@
+Dondozo (F) @ Life Orb
+Ability: Unaware
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Wave Crash
+- Tera Blast
+- Earthquake
+- Protect
+
+Tatsugiri-Droopy (F) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Sleep Talk
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 220 Def / 36 SpD
+Calm Nature
+IVs: 0 Atk
+- Ruination
+- Leech Seed
+- Snarl
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 4 Def / 52 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Hex
+- Dazzling Gleam
+- Mystical Fire
+
+Arcanine (M) @ Figy Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 20 Atk / 188 Def / 4 SpD / 220 Spe
+Jolly Nature
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Glimmora (F) @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Def / 172 SpA / 28 SpD / 60 Spe
+Modest Nature
+- Mortal Spin
+- Power Gem
+- Earth Power
+- Energy Ball

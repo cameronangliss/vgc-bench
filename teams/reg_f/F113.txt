@@ -1,0 +1,70 @@
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 70 HP / 252 SpA / 8 SpD / 180 Spe
+Timid Nature
+IVs: 26 Atk
+- Heat Wave
+- Snarl
+- Dark Pulse
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 6 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 23 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Icy Wind
+
+Torkoal (M) @ Eject Button
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 6 Def / 252 SpD
+Bold Nature
+IVs: 4 Atk / 28 Spe
+- Eruption
+- Earth Power
+- Clear Smog
+- Helping Hand
+
+Urshifu (M) @ Black Glasses
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 6 Def / 252 Spe
+Jolly Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 100 HP / 76 Def / 244 SpA / 4 SpD / 86 Spe
+Modest Nature
+IVs: 20 Atk / 20 Spe
+- Thunderclap
+- Dragon Pulse
+- Volt Switch
+- Snarl
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 100 Def / 158 SpD
+Careful Nature
+- Flare Blitz
+- Parting Shot
+- Fake Out
+- Helping Hand

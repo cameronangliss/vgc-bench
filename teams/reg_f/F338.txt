@@ -1,0 +1,68 @@
+Tornadus (M) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 6 HP / 252 SpA / 252 Spe
+Timid Nature
+- Protect
+- Tailwind
+- Rain Dance
+- Bleakwind Storm
+
+Urshifu-Rapid-Strike (M) @ Assault Vest
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 76 Atk / 30 Def / 92 SpD / 172 Spe
+Adamant Nature
+IVs: 1 SpA
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Ice Spinner
+
+Archaludon (M) @ Power Herb
+Ability: Stalwart
+Level: 50
+Tera Type: Stellar
+EVs: 6 HP / 252 SpA / 252 Spe
+Timid Nature
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Protect
+
+Landorus (M) @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 6 Def / 236 SpA / 12 SpD / 252 Spe
+Timid Nature
+- Earth Power
+- Sludge Bomb
+- Sandsear Storm
+- Protect
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 6 Def / 252 SpA
+Quiet Nature
+IVs: 11 Atk
+- Sludge Bomb
+- Grass Knot
+- Spore
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 158 Def / 132 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 28 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Taunt

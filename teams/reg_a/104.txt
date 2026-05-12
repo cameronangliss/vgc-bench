@@ -1,0 +1,64 @@
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 236 Atk / 36 Def / 4 SpD / 228 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect
+
+Murkrow @ Covert Cloak
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 212 Def / 44 Spe
+Impish Nature
+- Brave Bird
+- Tailwind
+- Haze
+- Whirlwind
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+EVs: 140 HP / 4 Def / 156 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Flash Cannon
+- Shadow Ball
+- Trick
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 60 Atk / 4 Def / 4 SpD / 188 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Rage Fist
+- U-turn
+
+Torkoal @ Safety Goggles
+Ability: Drought
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Flamethrower
+- Body Press
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 252 HP / 84 SpA / 172 SpD
+Sassy Nature
+IVs: 0 Atk
+- Hyper Voice
+- Helping Hand
+- Trick Room
+- Protect

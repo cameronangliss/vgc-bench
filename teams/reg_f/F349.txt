@@ -1,0 +1,68 @@
+Pelipper (F) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 6 HP / 252 SpA / 252 Spe
+Timid Nature
+- Hurricane
+- Helping Hand
+- Tailwind
+- Wide Guard
+
+Archaludon (M) @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 36 SpA / 180 SpD / 38 Spe
+Modest Nature
+IVs: 22 Atk
+- Dragon Pulse
+- Flash Cannon
+- Body Press
+- Electro Shot
+
+Amoonguss (F) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 252 Def / 14 SpD
+Sassy Nature
+IVs: 18 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Pollen Puff
+- Sludge Bomb
+
+Urshifu-Rapid-Strike (M) @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 70 HP / 156 Atk / 20 Def / 92 SpD / 172 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Ice Spinner
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 110 Def / 196 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 21 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Energy Ball
+
+Baxcalibur (F) @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 198 Atk / 60 Spe
+Adamant Nature
+- Protect
+- Icicle Crash
+- Ice Shard
+- Glaive Rush

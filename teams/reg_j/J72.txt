@@ -1,0 +1,68 @@
+Arceus @ Covert Cloak
+Ability: Multitype
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 4 Atk / 4 Def / 4 SpD / 244 Spe
+Jolly Nature
+- Extreme Speed
+- Taunt
+- Icy Wind
+- Stealth Rock
+
+Koraidon @ Loaded Dice
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 196 Atk / 4 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Flare Blitz
+- Scale Shot
+- Collision Course
+- Protect
+
+Walking Wake @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 244 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Steam
+- Draco Meteor
+- Flamethrower
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Icy Wind
+- Moonblast
+- Protect
+
+Incineroar @ Leftovers
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+IVs: 28 Spe
+- Knock Off
+- Fake Out
+- Parting Shot
+- Protect
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 68 Def / 4 SpA / 148 SpD / 44 Spe
+Calm Nature
+- Mortal Spin
+- Power Gem
+- Sludge Bomb
+- Mud Shot

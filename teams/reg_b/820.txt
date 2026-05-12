@@ -1,0 +1,70 @@
+Sandy Shocks @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 52 HP / 204 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Thunderbolt
+- Protect
+- Tera Blast
+
+Gastrodon @ Covert Cloak
+Ability: Storm Drain
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 252 Def / 60 SpA
+Modest Nature
+IVs: 0 Atk
+- Recover
+- Clear Smog
+- Ice Beam
+- Earth Power
+
+Indeedee-F @ Sitrus Berry
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Trick Room
+- Imprison
+- Follow Me
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Low Kick
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+
+Iron Moth @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 132 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Acid Spray
+- Heat Wave
+- Energy Ball

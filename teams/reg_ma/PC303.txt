@@ -1,0 +1,59 @@
+Zoroark-Hisui @ Focus Sash
+Ability: Illusion
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Flamethrower
+- Nasty Plot
+- Bitter Malice
+- Hyper Voice
+
+Garchomp @ Bright Powder
+Ability: Sand Veil
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+- Rock Slide
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Calm Nature
+- Ice Beam
+- Icy Wind
+- Protect
+- Scald
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet
+
+Hydrapple @ Coba Berry
+Ability: Regenerator
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Modest Nature
+- Fickle Beam
+- Protect
+- Syrup Bomb
+- Earth Power
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 26 HP / 31 Atk / 9 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Protect
+- Dragon Dance

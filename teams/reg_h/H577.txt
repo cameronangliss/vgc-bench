@@ -1,0 +1,68 @@
+Ursaluna-Bloodmoon @ Assault Vest
+Ability:  Mind's Eye
+Level: 50
+Tera Type: Ghost
+EVs: 100 HP / 4 Def / 252 SpA / 148 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+
+Gholdengo @ Sitrus Berry
+Ability:  Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 108 HP / 4 Def / 132 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Amoonguss (F) @ Rocky Helmet
+Ability:  Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 212 Def / 52 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Incineroar @ Safety Goggles
+Ability:  Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 36 Atk / 20 Def / 204 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Mimikyu @ Life Orb
+Ability:  Disguise
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Shadow Claw
+- Shadow Sneak
+- Play Rough
+- Trick Room
+
+Sneasler (M) @ Focus Sash
+Ability:  Poison Touch
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Protect

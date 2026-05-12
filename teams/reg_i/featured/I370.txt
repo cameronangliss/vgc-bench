@@ -1,0 +1,68 @@
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 236 Def / 4 SpA / 76 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Psychic Noise
+- Trick Room
+- Helping Hand
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 204 HP / 28 Def / 252 SpA / 12 SpD / 12 Spe
+Modest Nature
+- Snarl
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+
+Rayquaza @ Clear Amulet
+Ability: Air Lock
+Level: 50
+Tera Type: Normal
+EVs: 140 HP / 252 Atk / 4 Def / 28 SpD / 84 Spe
+Adamant Nature
+- Protect
+- Dragon Ascent
+- Extreme Speed
+- Swords Dance
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Throat Chop
+- Icicle Crash
+- Sucker Punch
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 108 HP / 204 Atk / 60 Def / 132 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Wild Charge
+- Low Kick
+- Fake Out
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 228 HP / 244 Def / 4 SpA / 28 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Rage Powder
+- Flamethrower
+- Protect
+- Struggle Bug

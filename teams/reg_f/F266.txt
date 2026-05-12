@@ -1,0 +1,68 @@
+Farigiraf (F) @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 108 HP / 164 Def / 236 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Helping Hand
+- Ally Switch
+- Trick Room
+
+Urshifu-Rapid-Strike (M) @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 172 Atk / 100 SpD / 178 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 6 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Power Gem
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 12 HP / 252 Atk / 4 Def / 172 SpD / 70 Spe
+Adamant Nature
+IVs: 23 SpA
+- Fake Out
+- Wood Hammer
+- High Horsepower
+- Grassy Glide
+
+Ursaluna-Bloodmoon (M) @ Silk Scarf
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 100 HP / 212 SpA / 156 SpD / 42 Spe
+Modest Nature
+- Protect
+- Blood Moon
+- Hyper Voice
+- Earth Power
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 100 Def / 76 SpD / 4 Spe
+Adamant Nature
+- Ivy Cudgel
+- Grassy Glide
+- Taunt
+- Follow Me

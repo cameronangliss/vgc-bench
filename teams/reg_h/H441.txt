@@ -1,0 +1,68 @@
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Population Bomb
+- Taunt
+- Follow Me
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 4 Def / 4 SpA / 204 SpD / 76 Spe
+Bold Nature
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Body Press
+
+Zoroark-Hisui @ Choice Scarf
+Ability: Illusion
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 24 Atk
+- Shadow Ball
+- Icy Wind
+- U-turn
+- Trick
+
+Gastrodon-East @ Sitrus Berry
+Ability: Storm Drain
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 20 Atk / 0 Spe
+- Earth Power
+- Ice Beam
+- Clear Smog
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 244 Def / 12 SpD
+Bold Nature
+- Psychic
+- Follow Me
+- Imprison
+- Trick Room
+
+Armarouge @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 4 Def / 252 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Heat Wave
+- Aura Sphere
+- Protect

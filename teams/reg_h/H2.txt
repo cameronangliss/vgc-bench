@@ -1,0 +1,67 @@
+Palafin-Hero @ Clear Amulet
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 84 Atk / 76 Def / 140 SpD / 132 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Close Combat
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 92 Def / 156 SpD / 20 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 156 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Murkrow @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+- Brave Bird
+- Tailwind
+- Haze
+- Rain Dance
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 116 HP / 252 SpA / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect
+
+Hydreigon @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 100 HP / 4 Def / 188 SpA / 68 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Flash Cannon
+- Dark Pulse
+- Flamethrower

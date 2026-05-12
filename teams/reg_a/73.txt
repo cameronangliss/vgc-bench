@@ -1,0 +1,69 @@
+Abomasnow (M) @ Babiri Berry
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 SpA / 156 SpD
+Modest Nature
+- Blizzard
+- Ice Shard
+- Protect
+- Aurora Veil
+
+Glaceon (M) @ Leftovers
+Ability: Snow Cloak
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 156 SpA
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Tera Blast
+- Protect
+- Calm Mind
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Protect
+- Swords Dance
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 SpA / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Protect
+- Nasty Plot
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 196 HP / 252 SpA / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Armarouge @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Armor Cannon
+- Psychic
+- Protect
+- Wide Guard

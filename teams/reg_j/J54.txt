@@ -1,0 +1,70 @@
+Magearna @ Safety Goggles
+Ability: Soul-Heart
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 236 SpA / 68 Spe
+Modest Nature
+IVs: 30 Atk
+- Fleur Cannon
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Kyogre @ Choice Scarf
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Origin Pulse
+- Water Spout
+- Hydro Pump
+- Thunder
+
+Ursaluna-Bloodmoon @ Focus Sash
+Ability: Mind's Eye
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Protect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 228 HP / 164 Def / 4 SpA / 44 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Rain Dance
+- Tailwind
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 116 Atk / 4 Def / 108 SpD / 28 Spe
+Adamant Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- U-turn
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 100 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect

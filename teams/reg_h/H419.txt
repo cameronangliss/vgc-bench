@@ -1,0 +1,65 @@
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 44 Def / 4 SpA / 196 SpD / 12 Spe
+Bold Nature
+- Body Press
+- Flamethrower
+- Iron Defense
+- Protect
+
+Drifblim @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Acrobatics
+- Will-O-Wisp
+- Strength Sap
+- Tailwind
+
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Ghost
+EVs: 124 HP / 4 Def / 116 SpA / 12 SpD / 252 Spe
+Modest Nature
+- Dark Pulse
+- Draco Meteor
+- Earth Power
+- Snarl
+
+Toxtricity @ Choice Specs
+Ability: Punk Rock
+Level: 50
+Tera Type: Normal
+EVs: 52 HP / 204 SpA / 252 Spe
+Modest Nature
+- Overdrive
+- Sludge Bomb
+- Boomburst
+- Volt Switch
+
+Volcarona @ Life Orb
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Bug Buzz
+- Heat Wave
+- Tera Blast
+- Protect
+
+Indeedee @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Ground
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Expanding Force
+- Tera Blast
+- Imprison
+- Trick Room

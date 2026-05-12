@@ -1,0 +1,66 @@
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 12 Atk / 4 Def / 204 SpD / 36 Spe
+Adamant Nature
+- Protect
+- Swords Dance
+- Earthquake
+- Facade
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 4 Def / 108 SpD / 180 Spe
+Adamant Nature
+- Detect
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Icicle Crash
+- Sucker Punch
+- Crunch
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 4 SpA / 92 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Lunar Blessing
+- Trick Room
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 204 Def / 68 SpA / 4 SpD / 84 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Energy Ball
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 4 SpA / 108 SpD / 4 Spe
+Bold Nature
+- Protect
+- Rage Powder
+- Spore
+- Pollen Puff

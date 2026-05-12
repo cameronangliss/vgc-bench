@@ -1,0 +1,66 @@
+Klefki @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 148 Def / 108 SpD
+Calm Nature
+IVs: 0 Atk
+- Reflect
+- Light Screen
+- Thunder Wave
+- Dazzling Gleam
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 4 Atk / 140 Def / 164 SpD / 20 Spe
+Careful Nature
+- Bulk Up
+- Drain Punch
+- Rage Fist
+- Protect
+
+Squawkabilly @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 196 HP / 68 Atk / 244 Spe
+Jolly Nature
+- Parting Shot
+- Tailwind
+- Brave Bird
+- Final Gambit
+
+Dudunsparce-Three-Segment @ Wide Lens
+Ability: Serene Grace
+Level: 50
+Tera Type: Ghost
+EVs: 92 Def / 164 SpD / 252 Spe
+Jolly Nature
+- Glare
+- Rock Slide
+- Hyper Drill
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 252 Def / 204 SpD
+Impish Nature
+- Ruination
+- Fissure
+- Stomping Tantrum
+- Heavy Slam
+
+Tatsugiri @ Safety Goggles
+Ability: Storm Drain
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 212 Def / 44 Spe
+Bold Nature
+- Draco Meteor
+- Rapid Spin
+- Taunt
+- Protect

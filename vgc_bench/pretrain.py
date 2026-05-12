@@ -51,7 +51,7 @@ class TrajectoryDataset(Dataset):
         """
         Load and return a trajectory by index.
 
-        Wraps raw numpy observations into DictObs with an all-ones action
+        Wraps raw numpy observations into DictObs with a synthetic action
         mask so the trajectory matches the policy's Dict observation space.
 
         Args:
@@ -65,12 +65,10 @@ class TrajectoryDataset(Dataset):
             traj = pickle.load(f)
         obs = traj.obs
         n_steps = obs.shape[0]
-        dict_obs = DictObs(
-            {
-                "observation": obs,
-                "action_mask": np.ones((n_steps, 2 * act_len), dtype=np.float32),
-            }
-        )
+        action_mask = np.ones((n_steps, 2 * act_len), dtype=np.float32)
+        action_mask[:, 47:87] = 0
+        action_mask[:, act_len + 47 : act_len + 87] = 0
+        dict_obs = DictObs({"observation": obs, "action_mask": action_mask})
         return Trajectory(
             obs=dict_obs, acts=traj.acts, infos=traj.infos, terminal=traj.terminal
         )
@@ -94,8 +92,8 @@ def pretrain(
         num_epochs: Number of outer training epochs.
     """
     output_dir = Path("results")
-    log_dir = output_dir / "logs-bc" / f"seed{run_id}"
-    save_dir = output_dir / "saves-bc" / f"seed{run_id}"
+    log_dir = output_dir / "logs_bc" / f"seed{run_id}"
+    save_dir = output_dir / "saves_bc" / f"seed{run_id}"
     log_dir.mkdir(parents=True, exist_ok=True)
     save_dir.mkdir(parents=True, exist_ok=True)
     battle_format = format_map[get_available_regs()[0]]
@@ -156,18 +154,20 @@ def pretrain(
         accept_open_team_sheet=True,
         team=RandomTeamBuilder(run_id, None, None),
     )
-    win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
-    bc.logger.record("bc/eval", win_rate)
+    win_rates = Callback.compare(eval_agent, eval_opponent, 100)
+    for label, wr in win_rates.items():
+        bc.logger.record(f"eval/heuristic{label}", wr)
     ppo.save(save_dir / "0")
-    for i in range(num_epochs):
+    for i in range(1, num_epochs + 1):
         data = iter(dataloader)
         for _ in range(div_count):
             demos = next(data)
             bc.set_demonstrations(demos)
             bc.train(n_epochs=1)
-        win_rate = Callback.compare(eval_agent, eval_opponent, 1000)
-        bc.logger.record("bc/eval", win_rate)
-        ppo.save(save_dir / f"{i + 1}")
+        win_rates = Callback.compare(eval_agent, eval_opponent, 100)
+        for label, wr in win_rates.items():
+            bc.logger.record(f"eval/heuristic{label}", wr)
+        ppo.save(save_dir / str(i))
     bc.train(n_epochs=1)
 
 

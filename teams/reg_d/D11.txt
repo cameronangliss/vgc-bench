@@ -1,0 +1,68 @@
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 36 Atk / 100 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 4 Def / 68 SpD / 180 Spe
+Jolly Nature
+- Super Fang
+- Follow Me
+- Beat Up
+- Protect
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tera Blast
+- Dark Pulse
+- Heat Wave
+- Flamethrower
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 4 Def / 100 SpA / 60 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump
+- Protect
+
+Thundurus @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 252 Def / 12 SpD
+Calm Nature
+IVs: 0 Atk
+- Thunder Wave
+- Scary Face
+- Taunt
+- Wildbolt Storm
+
+Landorus-Therian @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 68 HP / 100 Atk / 4 Def / 84 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Tera Blast
+- U-turn

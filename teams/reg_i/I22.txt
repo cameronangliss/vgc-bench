@@ -1,0 +1,68 @@
+Calyrex-Ice @ Assault Vest
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Ground
+EVs: 188 HP / 116 Atk / 204 Spe
+Adamant Nature
+- Glacial Lance
+- Icicle Crash
+- Seed Bomb
+- High Horsepower
+
+Scrafty @ Focus Sash
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 44 SpD / 212 Spe
+Jolly Nature
+- Fake Out
+- Super Fang
+- Coaching
+- Quick Guard
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 20 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Aurora Veil
+- Encore
+- Helping Hand
+
+Miraidon @ Covert Cloak
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 108 HP / 4 Def / 196 SpA / 12 SpD / 188 Spe
+Modest Nature
+- Electro Drift
+- Discharge
+- Dazzling Gleam
+- Protect
+
+Landorus @ Choice Scarf
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sandsear Storm
+- Sludge Bomb
+- Earth Power
+- Grass Knot
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 12 Def / 244 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Heavy Slam
+- Fissure
+- Protect
+- Yawn

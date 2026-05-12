@@ -1,0 +1,72 @@
+Garchomp (M) @ Life Orb
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Earthquake
+- Protect
+- Dragon Claw
+
+Hydreigon (M) @ Assault Vest
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 172 HP / 44 Def / 212 SpA / 12 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Flamethrower
+- Snarl
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 172 HP / 140 Def / 156 SpA / 4 SpD / 36 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Protect
+- Calm Mind
+
+Arcanine (F) @ Leftovers
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 188 HP / 124 Atk / 52 Def / 76 SpD / 68 Spe
+Adamant Nature
+- Flare Blitz
+- Will-O-Wisp
+- Extreme Speed
+- Protect
+
+Murkrow (M) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 108 Def / 148 SpD
+Impish Nature
+IVs: 0 Atk
+- Foul Play
+- Haze
+- Tailwind
+- Taunt
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 20 Def / 76 SpA / 36 SpD / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Nasty Plot
+- Protect
+- Hydro Pump

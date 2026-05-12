@@ -1,0 +1,68 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 156 HP / 4 Def / 196 SpA / 4 SpD / 148 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Discharge
+
+Palkia @ Lustrous Orb
+Ability: Telepathy
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 156 SpA
+Modest Nature
+IVs: 0 Atk
+- Spacial Rend
+- Hydro Pump
+- Trick Room
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 236 HP / 4 Atk / 100 Def / 76 SpD / 92 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 236 Atk / 20 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Facade
+- Earthquake
+- Protect
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Ground
+EVs: 132 HP / 236 Def / 140 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic Noise
+- Foul Play
+- Helping Hand
+- Trick Room
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 76 Atk / 92 Def / 12 SpD / 84 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield

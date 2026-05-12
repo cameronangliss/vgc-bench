@@ -1,0 +1,70 @@
+Calyrex-Ice @ Covert Cloak
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 196 Atk / 60 SpD
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Protect
+
+Kyogre @ Splash Plate
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Origin Pulse
+- Water Spout
+- Ice Beam
+- Protect
+
+Venonat @ Eviolite
+Ability: Compound Eyes
+Level: 50
+Tera Type: Ghost
+EVs: 252 Def / 252 SpD
+Relaxed Nature
+IVs: 8 HP / 0 Atk / 0 Spe
+- Endeavor
+- Sleep Powder
+- Skill Swap
+- Rage Powder
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 156 SpD
+Bold Nature
+IVs: 0 Atk
+- Hyper Voice
+- Psychic Noise
+- Foul Play
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 108 HP / 244 Atk / 156 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 236 Atk / 20 SpD / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn

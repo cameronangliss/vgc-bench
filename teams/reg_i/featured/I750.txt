@@ -1,0 +1,68 @@
+Koraidon @ Life Orb
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Close Combat
+- Flame Charge
+- Protect
+
+Terapagos @ Leftovers
+Ability: Tera Shift
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 236 Def / 76 SpA / 12 SpD / 12 Spe
+Bold Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 60 Atk / 4 Def / 172 SpD / 20 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 236 Def / 28 Spe
+Impish Nature
+- Knock Off
+- Fake Out
+- Taunt
+- U-turn
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 212 Def / 4 SpA / 4 SpD / 36 Spe
+Bold Nature
+IVs: 0 Atk
+- Morning Sun
+- Overheat
+- Struggle Bug
+- Rage Powder

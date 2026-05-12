@@ -1,0 +1,68 @@
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 44 HP / 252 Atk / 212 Spe
+- Rock Slide
+- Tera Blast
+- Low Kick
+- Knock Off
+
+Sylveon @ Life Orb
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 68 Def / 252 SpA
+Modest Nature
+- Hyper Voice
+- Protect
+- Tera Blast
+- Quick Attack
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 212 HP / 12 Def / 156 SpA / 44 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Nasty Plot
+- Make It Rain
+- Shadow Ball
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 204 Def / 52 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Rage Powder
+- Spore
+- Clear Smog
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 148 HP / 252 Atk / 108 Spe
+Adamant Nature
+- Tera Blast
+- Extreme Speed
+- Outrage
+- Low Kick
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Moonblast
+- Energy Ball
+- Encore

@@ -1,0 +1,67 @@
+Palafin-Hero @ Choice Band
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Flip Turn
+- Jet Punch
+- Close Combat
+- Ice Punch
+
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Hurricane
+- Tailwind
+- Wide Guard
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Trick Room
+- Protect
+
+Scizor @ Clear Amulet
+Ability: Technician
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 156 Atk / 4 Def / 4 SpD / 100 Spe
+Adamant Nature
+- Bullet Punch
+- Pounce
+- Swords Dance
+- Protect
+
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 4 Def / 196 SpA / 12 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Heat Wave
+- Snarl
+
+Grimmsnarl @ Babiri Berry
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 124 Def / 116 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Taunt

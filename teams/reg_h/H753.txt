@@ -1,0 +1,71 @@
+Electrode @ Light Clay
+Ability: Soundproof
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 84 Def / 4 SpA / 52 SpD / 116 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Rain Dance
+- Volt Switch
+- Light Screen
+
+Meowstic-F @ Focus Sash
+Ability: Competitive
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Psychic Noise
+- Alluring Voice
+- Energy Ball
+
+Poliwrath @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 4 SpA
+- Liquidation
+- Close Combat
+- Encore
+- Protect
+
+Persian-Alola @ Covert Cloak
+Ability: Fur Coat
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 12 SpD / 252 Spe
+Jolly Nature
+IVs: 4 SpA
+- Fake Out
+- Knock Off
+- Parting Shot
+- Taunt
+
+Slowbro-Galar @ Leftovers
+Ability: Quick Draw
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 252 Def / 76 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Calm Mind
+- Muddy Water
+- Shell Side Arm
+
+Poltchageist @ Eviolite
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Energy Ball
+- Life Dew
+- Rage Powder

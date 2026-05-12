@@ -1,0 +1,67 @@
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 26 SpA
+- Extreme Speed
+- Scale Shot
+- Tailwind
+- Protect
+
+Tyranitar @ Choice Band
+Ability: Sand Stream
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Knock Off
+- Stone Edge
+- Low Kick
+
+Metagross @ Assault Vest
+Ability: Clear Body
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 196 Atk / 60 SpD
+Adamant Nature
+- Heavy Slam
+- Explosion
+- Knock Off
+- Bullet Punch
+
+Annihilape @ Focus Sash
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rage Fist
+- Close Combat
+- Encore
+- Coaching
+
+Volcarona @ Choice Specs
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 12 Def / 236 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Heat Wave
+- Tera Blast
+- Overheat
+- Struggle Bug
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 24 Atk / 0 SpA / 0 Spe
+- Matcha Gotcha
+- Trick Room
+- Rage Powder
+- Curse

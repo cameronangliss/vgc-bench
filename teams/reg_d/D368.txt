@@ -1,0 +1,69 @@
+Clodsire @ Leftovers
+Ability: Water Absorb
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Def / 4 SpD
+Sassy Nature
+IVs: 0 Spe
+- Poison Jab
+- Yawn
+- Helping Hand
+- Protect
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Detect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 108 Def / 156 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt
+
+Cresselia @ Covert Cloak
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 204 Def / 52 SpD
+Relaxed Nature
+IVs: 0 Atk / 19 Spe
+- Moonblast
+- Lunar Blessing
+- Light Screen
+- Trick Room
+
+Iron Hands @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 Atk / 12 Def / 228 SpD / 12 Spe
+Adamant Nature
+- Drain Punch
+- Thunder Punch
+- Ice Punch
+- Swords Dance
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Water
+EVs: 140 HP / 252 Atk / 116 Def
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Earthquake
+- Headlong Rush
+- Protect

@@ -1,0 +1,67 @@
+Ceruledge (M) @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 196 Atk / 60 SpD
+Adamant Nature
+- Bulk Up
+- Bitter Blade
+- Shadow Sneak
+- Protect
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 180 Def / 4 SpA / 60 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Tera Blast
+- Nasty Plot
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 60 Def / 196 SpD
+Careful Nature
+- Reflect
+- Light Screen
+- Spirit Break
+- Parting Shot
+
+Sylveon (M) @ Leftovers
+Ability: Pixilate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 76 Def / 164 SpA / 12 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk / 3 Spe
+- Calm Mind
+- Hyper Voice
+- Substitute
+- Protect
+
+Garchomp (M) @ Lum Berry
+Ability: Sand Veil
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 156 Atk / 4 Def / 76 SpD / 20 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Swords Dance
+- Protect
+
+Garganacl (F) @ Bright Powder
+Ability: Purifying Salt
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 76 Def / 172 SpD / 4 Spe
+Impish Nature
+- Iron Defense
+- Body Press
+- Recover
+- Salt Cure

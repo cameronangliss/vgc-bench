@@ -1,0 +1,68 @@
+Gengar @ Focus Sash
+Ability: Cursed Body
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Sludge Bomb
+- Shadow Ball
+- Haze
+- Taunt
+
+Clefable @ Safety Goggles
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 92 Def / 172 SpD
+Calm Nature
+IVs: 6 Atk
+- Moonblast
+- Follow Me
+- Helping Hand
+- Protect
+
+Kingambit @ Dread Plate
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+IVs: 0 SpA
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Tauros-Paldea-Blaze @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 236 Atk / 12 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Will-O-Wisp
+- Protect
+
+Pelipper @ Life Orb
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 10 Atk
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 116 Atk / 36 Def / 4 SpD / 220 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out

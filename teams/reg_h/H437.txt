@@ -1,0 +1,69 @@
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Atk / 124 Def / 92 SpA / 36 SpD
+Quiet Nature
+IVs: 0 Spe
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 20 Def / 196 SpD / 36 Spe
+Careful Nature
+- Fake Out
+- Knock Off
+- Parting Shot
+- Taunt
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 196 Def / 76 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Pollen Puff
+- Clear Smog
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 236 Atk / 132 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Substitute
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 212 HP / 148 Def / 132 SpA / 12 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Flamigo @ Focus Sash
+Ability: Scrappy
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- Wide Guard
+- Protect

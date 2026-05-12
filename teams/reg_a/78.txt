@@ -1,0 +1,66 @@
+Baxcalibur @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 44 Atk / 12 Def / 68 SpD / 252 Spe
+Adamant Nature
+- Icicle Spear
+- Tera Blast
+- Dragon Dance
+- Protect
+
+Kilowattrel @ Focus Sash
+Ability: Wind Power
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Electro Ball
+- Tailwind
+- Eerie Impulse
+- Feather Dance
+
+Skeledirge @ Throat Spray
+Ability: Blaze
+Level: 50
+EVs: 212 HP / 20 Def / 76 SpA / 196 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Torch Song
+- Shadow Ball
+- Heat Wave
+- Protect
+
+Tauros-Paldea-Aqua @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Close Combat
+- Raging Bull
+- Protect
+
+Tinkaton @ Assault Vest
+Ability: Own Tempo
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 116 Atk / 140 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Gigaton Hammer
+- Knock Off
+- Fake Out
+- Feint
+
+Toedscruel @ Sitrus Berry
+Ability: Mycelium Might
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 244 Def / 12 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Earth Power
+- Spore
+- Rage Powder
+- Trick Room

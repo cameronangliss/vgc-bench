@@ -1,0 +1,68 @@
+Abomasnow @ Rocky Helmet
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 132 Def / 124 SpA
+Modest Nature
+- Blizzard
+- Energy Ball
+- Aurora Veil
+- Helping Hand
+
+Rotom-Frost @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Blizzard
+- Discharge
+- Volt Switch
+
+Blaziken @ Life Orb
+Ability: Speed Boost
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 16 Atk
+- Heat Wave
+- Aura Sphere
+- Detect
+- Vacuum Wave
+
+Samurott-Hisui @ Scope Lens
+Ability: Sharpness
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Aqua Cutter
+- Night Slash
+- Protect
+- Sucker Punch
+
+Talonflame
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 188 HP / 252 Atk / 68 Spe
+Adamant Nature
+IVs: 22 SpA
+- Acrobatics
+- Tailwind
+- Protect
+- Quick Guard
+
+Garchomp @ Earth Plate
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Protect
+- Stomping Tantrum

@@ -1,0 +1,68 @@
+Delibird @ Focus Sash
+Ability: Insomnia
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Fake Out
+- Tailwind
+- Seed Bomb
+- Ice Spinner
+
+Stantler @ Clear Amulet
+Ability: Sap Sipper
+Level: 50
+Tera Type: Dark
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Trick Room
+- Double Kick
+- Thrash
+- Tera Blast
+
+Sawsbuck-Autumn @ Life Orb
+Ability: Sap Sipper
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 164 HP / 252 Atk / 4 Def / 4 SpD / 84 Spe
+Adamant Nature
+- Protect
+- Swords Dance
+- Horn Leech
+- Tera Blast
+
+Beartic @ Wide Lens
+Ability: Swift Swim
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 4 Def / 28 SpD / 220 Spe
+Jolly Nature
+- Close Combat
+- Aqua Jet
+- Play Rough
+- Protect
+
+Coalossal @ Weakness Policy
+Ability: Steam Engine
+Level: 50
+Tera Type: Rock
+EVs: 44 HP / 4 Def / 252 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Power Gem
+- Heat Wave
+- Flamethrower
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Detect
+- Rain Dance
+- Disable
+- Encore

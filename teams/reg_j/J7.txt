@@ -1,0 +1,70 @@
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 196 Def / 60 SpD
+Calm Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Trick Room
+- Helping Hand
+- Follow Me
+
+Deoxys-Attack @ Focus Sash
+Ability: Pressure
+Level: 50
+Tera Type: Psychic
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Expanding Force
+- Psycho Boost
+- Shadow Ball
+- Superpower
+
+Whimsicott (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 180 Def / 4 SpA / 68 SpD / 4 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Moonblast
+- Light Screen
+- Tickle
+
+Koraidon @ Choice Band
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 100 HP / 148 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Flare Blitz
+- U-turn
+- Close Combat
+- Outrage
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 92 Def / 164 SpA / 4 SpD / 52 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Thunderbolt
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 4 Def / 252 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Snarl
+- Dark Pulse
+- Heat Wave
+- Overheat

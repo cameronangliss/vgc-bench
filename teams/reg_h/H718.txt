@@ -1,0 +1,68 @@
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Atk / 4 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 252 Atk / 44 Def / 76 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 252 SpA / 12 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Earth Power
+- Hyper Voice
+- Blood Moon
+- Protect
+
+Clefable @ Mental Herb
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 20 Atk
+- Follow Me
+- Moonblast
+- Helping Hand
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 Def / 140 SpA / 20 SpD / 92 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Farigiraf @ Lum Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fighting
+EVs: 228 HP / 108 Def / 4 SpA / 156 SpD / 12 Spe
+Bold Nature
+IVs: 28 Atk
+- Trick Room
+- Twin Beam
+- Tera Blast
+- Protect

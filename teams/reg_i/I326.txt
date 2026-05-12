@@ -1,0 +1,66 @@
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Ground
+EVs: 76 HP / 252 Atk / 4 Def / 4 SpD / 172 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Tera Blast
+- Protect
+
+Kyogre @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 140 Def / 76 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Ice Beam
+- Thunder
+- Protect
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 172 Def / 76 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Thunder Wave
+- Screech
+- Rain Dance
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 156 Def / 84 SpD / 12 Spe
+Careful Nature
+- Light Screen
+- Reflect
+- Spirit Break
+- Fake Out
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 44 Def / 4 SpA / 4 SpD / 204 Spe
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Leech Seed
+- Pollen Puff
+- Protect
+
+Ditto @ Focus Sash
+Ability: Imposter
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Spe
+Timid Nature
+IVs: 30 Atk
+- Transform

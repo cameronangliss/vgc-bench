@@ -1,0 +1,73 @@
+Scream Tail @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 52 Def / 4 SpA / 12 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Encore
+- Protect
+- Disable
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Protect
+- Icy Wind
+- Freeze-Dry
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 36 Def / 116 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Power Gem
+- Dazzling Gleam
+- Moonblast
+
+Annihilape (F) @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 36 Atk / 28 Def / 92 SpD / 108 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Chi-Yu @ Safety Goggles
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 4 Def / 116 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Dark Pulse
+- Nasty Plot
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Spore
+- Pollen Puff
+- Rage Powder

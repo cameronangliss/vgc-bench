@@ -1,0 +1,70 @@
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 140 SpD / 132 Spe
+Jolly Nature
+IVs: 0 Atk
+- Super Fang
+- Follow Me
+- Baby-Doll Eyes
+- Protect
+
+Gholdengo @ Covert Cloak
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 4 Def / 28 SpA / 60 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind
+- Protect
+
+Dragonite @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 180 HP / 252 Atk / 4 Def / 12 SpD / 60 Spe
+Adamant Nature
+- Dragon Claw
+- Tera Blast
+- Extreme Speed
+- Ice Spinner
+
+Great Tusk @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Headlong Rush
+- Close Combat
+- Earthquake
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Def / 52 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Bug Buzz
+- Quiver Dance
+- Protect

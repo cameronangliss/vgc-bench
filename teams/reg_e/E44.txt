@@ -1,0 +1,65 @@
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 60 Spe
+Adamant Nature
+- Grassy Glide
+- High Horsepower
+- U-turn
+- Fake Out
+
+Tornadus @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Air Slash
+- Scary Face
+- Tailwind
+- Protect
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Wicked Blow
+- Poison Jab
+- Sucker Punch
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Ivy Cudgel
+- Grassy Glide
+- Bullet Seed
+- Spiky Shield
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Rock
+EVs: 116 HP / 116 Atk / 4 Def / 20 SpD / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- Rock Tomb
+- U-turn
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Power Gem

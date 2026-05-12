@@ -1,0 +1,69 @@
+Armarouge (M) @ Weakness Policy
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 20 Spe
+- Expanding Force
+- Armor Cannon
+- Energy Ball
+- Trick Room
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 148 Def / 108 SpA
+Quiet Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Follow Me
+- Helping Hand
+- Protect
+
+Torkoal (F) @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 6 Spe
+- Eruption
+- Heat Wave
+- Clear Smog
+- Protect
+
+Hariyama (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fighting
+EVs: 252 Atk / 124 Def / 132 SpD
+Brave Nature
+IVs: 20 Spe
+- Close Combat
+- Knock Off
+- Fake Out
+- Wide Guard
+
+Dragonite (F) @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 204 HP / 252 Atk / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Dragon Claw
+- Fire Punch
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- Protect

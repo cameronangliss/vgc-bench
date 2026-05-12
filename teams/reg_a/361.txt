@@ -1,0 +1,68 @@
+Scovillain (F) @ Choice Scarf
+Ability: Chlorophyll
+Level: 50
+Tera Type: Fairy
+EVs: 36 HP / 220 Def / 60 SpA / 4 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Flamethrower
+- Grass Knot
+- Tera Blast
+- Spicy Extract
+
+Torkoal (M) @ Sitrus Berry
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+IVs: 0 Atk / 0 Spe
+- Heat Wave
+- Protect
+- Helping Hand
+- Yawn
+
+Dragapult (F) @ Mirror Herb
+Ability: Clear Body
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Tera Blast
+- Substitute
+- Protect
+
+Grafaiai (F) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Gunk Shot
+- Parting Shot
+- Foul Play
+- Swagger
+
+Rotom-Wash @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Ice
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Tera Blast
+- Volt Switch
+
+Meowscarada (M) @ Choice Band
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 108 Atk / 140 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Foul Play
+- Brick Break
+- Sucker Punch

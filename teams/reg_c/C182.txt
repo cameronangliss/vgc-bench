@@ -1,0 +1,71 @@
+Hawlucha (M) @ Psychic Seed
+Ability: Unburden
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 100 HP / 252 Atk / 4 Def / 4 SpD / 148 Spe
+Adamant Nature
+- Flying Press
+- Acrobatics
+- Swords Dance
+- Detect
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Psychic
+- Heal Pulse
+- Protect
+
+Armarouge (M) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 20 Def / 252 SpA / 12 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Armor Cannon
+- Expanding Force
+- Wide Guard
+- Protect
+
+Palafin (F) @ Eject Pack
+Ability: Zero to Hero
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 108 HP / 236 Atk / 164 Spe
+Adamant Nature
+- Wave Crash
+- Jet Punch
+- Close Combat
+- Protect
+
+Sandy Shocks @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 44 HP / 4 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Earth Power
+- Tera Blast
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Throat Chop
+- Ice Spinner
+- Haze
+- Protect

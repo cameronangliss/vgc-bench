@@ -1,0 +1,59 @@
+Garchomp @ Garchompite
+Ability: Rough Skin
+Level: 50
+EVs: 10 HP / 30 Atk / 26 Spe
+Adamant Nature
+- Earth Power
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Gardevoir @ Choice Scarf
+Ability: Telepathy
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Psychic
+- Icy Wind
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 15 Def / 10 SpD / 9 Spe
+Impish Nature
+- Brave Bird
+- Body Press
+- Roost
+- Tailwind
+
+Tyranitar @ Focus Sash
+Ability: Sand Stream
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Thunder Wave
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 29 SpD
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Protect
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 6 HP / 16 Def / 31 SpA / 13 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Weather Ball
+- Protect

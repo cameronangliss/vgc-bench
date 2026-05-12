@@ -1,0 +1,68 @@
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Earth Power
+- Protect
+- Sandsear Storm
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Atk / 36 Def / 12 SpD / 52 Spe
+Adamant Nature
+- Follow Me
+- Ivy Cudgel
+- Horn Leech
+- Spiky Shield
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 36 HP / 220 Atk / 252 Spe
+Jolly Nature
+- Knock Off
+- Acrobatics
+- Protect
+- Tailwind
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Thunderbolt
+
+Gouging Fire @ Clear Amulet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 44 HP / 252 Atk / 212 Spe
+Adamant Nature
+- Howl
+- Flare Blitz
+- Burning Bulwark
+- Dragon Claw
+
+Latias @ Soul Dew
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 68 HP / 252 SpA / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Calm Mind
+- Psychic
+- Protect

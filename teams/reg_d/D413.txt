@@ -1,0 +1,68 @@
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 196 Atk / 4 Def / 68 SpD / 12 Spe
+Adamant Nature
+- Rock Slide
+- Flare Blitz
+- Close Combat
+- Extreme Speed
+
+Regidrago @ Dragon Fang
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Fairy
+EVs: 92 Def / 252 SpA / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Energy
+- Dragon Pulse
+- Earth Power
+- Protect
+
+Tornadus @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 84 Def / 164 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Icy Wind
+- Tailwind
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 4 Def / 116 SpD / 172 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 124 Atk / 116 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Wood Hammer
+- Stomping Tantrum
+- U-turn
+- Fake Out
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 28 Def / 132 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Focus Blast

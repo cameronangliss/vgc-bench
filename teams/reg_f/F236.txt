@@ -1,0 +1,72 @@
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 244 HP / 180 SpA / 86 SpD
+Modest Nature
+IVs: 23 Atk
+- Tera Blast
+- Icy Wind
+- Recover
+- Trick Room
+
+Enamorus-Therian (F) @ Fairy Feather
+Ability: Overcoat
+Level: 50
+Tera Type: Fairy
+EVs: 238 HP / 252 SpA / 20 SpD
+Quiet Nature
+IVs: 15 Atk / 6 Spe
+- Dazzling Gleam
+- Moonblast
+- Earth Power
+- Protect
+
+Urshifu (M) @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 6 Def / 252 Spe
+Jolly Nature
+IVs: 19 SpA
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 166 HP / 140 SpA / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Trick
+
+Entei @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Grass
+EVs: 20 HP / 196 Atk / 4 Def / 100 SpD / 190 Spe
+Adamant Nature
+IVs: 9 SpA
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Trailblaze
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 6 SpD / 252 Spe
+Jolly Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield

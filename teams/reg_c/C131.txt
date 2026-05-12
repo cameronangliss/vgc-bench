@@ -1,0 +1,68 @@
+Ceruledge (M) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 116 Atk / 84 Def / 60 SpD / 20 Spe
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Tera Blast
+- Protect
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 84 Def / 132 SpD / 36 Spe
+Impish Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Helping Hand
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 12 Def / 116 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Thunderbolt
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 236 Atk / 4 Def / 252 SpD / 12 Spe
+Adamant Nature
+- Earthquake
+- Payback
+- Stomping Tantrum
+- Heavy Slam
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Pollen Puff
+- Clear Smog
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 12 HP / 204 Atk / 20 Def / 20 SpD / 252 Spe
+Adamant Nature
+- Glaive Rush
+- Icicle Crash
+- Dragon Dance
+- Protect

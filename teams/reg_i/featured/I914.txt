@@ -1,0 +1,68 @@
+Lunala @ Leftovers
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Tailwind
+- Moonblast
+- Protect
+
+Terapagos-Terastal @ Choice Specs
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 116 Def / 252 SpA / 140 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Tri Attack
+- Hyper Beam
+- Earth Power
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 60 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Dark
+EVs: 132 HP / 124 Atk / 252 Spe
+Jolly Nature
+- Breaking Swipe
+- Flare Blitz
+- Crunch
+- Burning Bulwark
+
+Flamigo @ Focus Sash
+Ability: Scrappy
+Level: 50
+Tera Type: Grass
+EVs: 60 Atk / 196 Def / 252 Spe
+Jolly Nature
+IVs: 2 HP
+- Endeavor
+- Feint
+- Wide Guard
+- Detect

@@ -1,0 +1,70 @@
+Eternatus @ Life Orb
+Ability: Pressure
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dynamax Cannon
+- Sludge Bomb
+- Protect
+- Flamethrower
+
+Calyrex-Shadow @ Spell Tag
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 28 HP / 84 Def / 140 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Draining Kiss
+- Protect
+- Nasty Plot
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 180 Def / 84 SpD
+Relaxed Nature
+IVs: 0 Atk / 28 Spe
+- Follow Me
+- Protect
+- Helping Hand
+- Life Dew
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Dark Pulse
+- Overheat
+
+Mienshao @ Focus Sash
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Wide Guard
+- Feint
+
+Weezing-Galar @ Covert Cloak
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 12 Def / 180 SpD / 60 Spe
+Impish Nature
+- Play Rough
+- Will-O-Wisp
+- Protect
+- Taunt

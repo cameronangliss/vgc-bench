@@ -1,0 +1,67 @@
+Gothitelle (F) @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+- Trick Room
+- Fake Out
+- Psychic
+- Helping Hand
+
+Iron Hands @ Safety Goggles
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 76 Atk / 4 Def / 228 SpD / 4 Spe
+Adamant Nature
+- Swords Dance
+- Drain Punch
+- Wild Charge
+- Protect
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Throat Chop
+- Sacred Sword
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 252 Atk / 4 Def / 172 SpD / 4 Spe
+Adamant Nature
+- Jet Punch
+- Wave Crash
+- Haze
+- Protect
+
+Amoonguss @ Wiki Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Protect
+- Rage Powder

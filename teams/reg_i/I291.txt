@@ -1,0 +1,68 @@
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 252 Atk / 172 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Sacred Sword
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 244 Atk / 124 SpD
+Brave Nature
+IVs: 0 Spe
+- Low Kick
+- Wild Charge
+- Fake Out
+- Drain Punch
+
+Kyogre @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 4 Def / 252 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Origin Pulse
+- Hydro Pump
+- Ice Beam
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Ice Spinner
+- Aqua Jet
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Crunch
+- Sucker Punch
+- Protect
+
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Normal
+EVs: 236 HP / 172 Def / 100 SpA
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Hurricane
+- Rain Dance
+- Tailwind

@@ -1,0 +1,71 @@
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 204 Def / 52 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- Psychic
+- Protect
+
+Armarouge @ Covert Cloak
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 236 HP / 252 SpA / 20 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Armor Cannon
+- Expanding Force
+- Trick Room
+- Protect
+
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 140 Def / 108 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Haze
+- Tailwind
+- Foul Play
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Trick Room
+- Protect
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 196 HP / 28 Def / 236 SpA / 12 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Yawn
+- Detect

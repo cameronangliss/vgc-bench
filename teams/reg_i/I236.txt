@@ -1,0 +1,64 @@
+Ditto @ Focus Sash
+Ability: Imposter
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 HP / 4 Atk / 252 Def
+Relaxed Nature
+IVs: 0 Spe
+- Transform
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 100 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Thunder Wave
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 4 Atk / 244 Def / 4 SpD / 252 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Dazzling Gleam
+
+Entei @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 172 Atk / 44 Def / 132 SpD / 12 Spe
+Adamant Nature
+- Sacred Fire
+- Crunch
+- Extreme Speed
+- Stone Edge
+
+Iron Leaves @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Stellar
+EVs: 92 HP / 156 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Psyblade
+- Leaf Blade
+- Quick Guard
+- Protect

@@ -1,0 +1,68 @@
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Haze
+- Taunt
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect
+
+Kingambit @ Lum Berry
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+
+Quaquaval @ Clear Amulet
+Ability: Moxie
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Aqua Step
+- Close Combat
+- Ice Spinner
+- Protect
+
+Volcarona @ Charcoal
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 12 Def / 76 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Amoonguss @ Occa Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 60 Def / 196 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Protect
+- Pollen Puff

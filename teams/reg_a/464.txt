@@ -1,0 +1,67 @@
+Dondozo (F) @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 116 HP / 204 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Order Up
+- Yawn
+
+Dragonite (F) @ Safety Goggles
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 124 Atk / 4 Def / 4 SpD / 132 Spe
+Adamant Nature
+- Extreme Speed
+- Low Kick
+- Fire Spin
+- Roost
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Flower Trick
+- Knock Off
+- U-turn
+
+Volcarona (M) @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 76 Def / 4 SpA / 4 SpD / 180 Spe
+Timid Nature
+- Protect
+- Overheat
+- Struggle Bug
+- Rage Powder
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+
+Tatsugiri-Stretchy (F) @ Choice Scarf
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Soak

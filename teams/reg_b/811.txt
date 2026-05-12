@@ -1,0 +1,68 @@
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 84 Def / 116 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Giga Drain
+- Quiver Dance
+- Heat Wave
+
+Amoonguss @ Room Service
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 172 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 2 Spe
+- Spore
+- Rage Powder
+- Clear Smog
+- Pollen Puff
+
+Gyarados @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Ground
+EVs: 68 HP / 236 Atk / 4 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Dragon Dance
+- Tera Blast
+- Protect
+- Waterfall
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 44 HP / 204 Atk / 116 Def / 108 SpD / 36 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Thunder Punch
+- Heavy Slam
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 196 Atk / 108 SpD
+Adamant Nature
+- Protect
+- Sucker Punch
+- Iron Head
+- Kowtow Cleave
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Taunt
+- Moonblast
+- Shadow Ball

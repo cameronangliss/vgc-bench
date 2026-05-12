@@ -1,0 +1,68 @@
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 68 HP / 252 SpA / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Flamethrower
+- Overheat
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 20 Def / 76 SpA / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Trick Room
+- Imprison
+
+Tornadus (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 124 Def / 36 SpA / 84 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Sunny Day
+- Tailwind
+- Protect
+
+Brute Bonnet @ Loaded Dice
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 116 HP / 172 Atk / 220 Spe
+Adamant Nature
+- Spore
+- Bullet Seed
+- Taunt
+- Sucker Punch
+
+Great Tusk @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Headlong Rush
+- Close Combat
+- Endeavor
+- Protect
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 4 Atk / 244 SpD / 12 Spe
+Adamant Nature
+- Drain Punch
+- Thunder Punch
+- Ice Punch
+- Swords Dance

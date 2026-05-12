@@ -1,0 +1,66 @@
+Registeel @ Leftovers
+Ability: Clear Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 124 Def / 132 SpD
+Impish Nature
+- Body Press
+- Iron Defense
+- Heavy Slam
+- Protect
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 220 SpA / 36 SpD
+Bold Nature
+IVs: 0 Atk
+- Ice Beam
+- Moonblast
+- Lunar Blessing
+- Trick Room
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 156 Atk / 188 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 116 SpA / 252 Spe
+Modest Nature
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Snarl
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 252 SpA / 116 Spe
+Modest Nature
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Protect
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 196 Atk / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Tera Blast
+- Rock Slide
+- U-turn

@@ -1,0 +1,62 @@
+Espathra @ Focus Sash
+Ability: Speed Boost
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Lumina Crash
+- Protect
+- Dazzling Gleam
+- Calm Mind
+
+Palafin @ Assault Vest
+Ability: Zero to Hero
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Jet Punch
+- Close Combat
+- Flip Turn
+- Iron Head
+
+Meowscarada @ Life Orb
+Ability: Protean
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Knock Off
+- Play Rough
+- U-turn
+- Flower Trick
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Protect
+- Calm Mind
+- Tera Blast
+
+Umbreon @ Sitrus Berry
+Ability: Inner Focus
+Level: 50
+EVs: 252 HP / 156 Def / 100 SpD
+Calm Nature
+IVs: 0 Atk
+- Helping Hand
+- Foul Play
+- Snarl
+- Yawn
+
+Arcanine @ Clear Amulet
+Ability: Intimidate
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Careful Nature
+- Extreme Speed
+- Flare Blitz
+- Snarl
+- Protect

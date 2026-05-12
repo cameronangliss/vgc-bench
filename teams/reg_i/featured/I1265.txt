@@ -1,0 +1,66 @@
+Poliwag @ Focus Sash
+Ability: Swift Swim
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 HP / 0 Atk
+- Icy Wind
+- Encore
+- Protect
+- Endeavor
+
+Kyogre @ Choice Scarf
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 12 HP / 4 Def / 252 SpA / 4 SpD / 236 Spe
+Timid Nature
+- Water Spout
+- Origin Pulse
+- Ice Beam
+- Tera Blast
+
+Tsareena @ Loaded Dice
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 76 Atk / 28 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Triple Axel
+- Bullet Seed
+- Taunt
+- Protect
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Ground
+EVs: 84 HP / 236 Atk / 4 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Play Rough
+- Behemoth Blade
+- Tera Blast
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 4 Atk / 188 Def / 76 SpD / 12 Spe
+Impish Nature
+- Fake Out
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+
+Raichu @ Assault Vest
+Ability: Lightning Rod
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 76 Def / 4 SpA / 12 SpD / 180 Spe
+Timid Nature
+- Fake Out
+- Feint
+- Nuzzle
+- Volt Switch

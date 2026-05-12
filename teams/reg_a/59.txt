@@ -1,0 +1,67 @@
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Helping Hand
+- Tailwind
+- Protect
+
+Drednaw @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Liquidation
+- Rock Slide
+- Tera Blast
+- Protect
+
+Palafin @ Clear Amulet
+Ability: Zero to Hero
+Level: 50
+EVs: 124 HP / 252 Atk / 132 Spe
+Adamant Nature
+- Wave Crash
+- Jet Punch
+- Ice Punch
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 252 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Clear Smog
+- Spore
+- Rage Powder
+- Protect
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Flash Cannon
+- Earth Power
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+EVs: 180 HP / 252 SpA / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt

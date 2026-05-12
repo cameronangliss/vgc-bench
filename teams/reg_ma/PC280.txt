@@ -1,0 +1,59 @@
+Oranguru @ Sitrus Berry
+Ability: Inner Focus
+Level: 50
+EVs: 32 HP / 20 Def / 12 SpD / 2 Spe
+Relaxed Nature
+- Psychic
+- Instruct
+- Trick Room
+- Protect
+
+Rhyperior @ White Herb
+Ability: Solid Rock
+Level: 50
+EVs: 20 HP / 32 Atk / 14 SpD
+Brave Nature
+- Rock Slide
+- High Horsepower
+- Earthquake
+- Protect
+
+Crabominable @ Crabominite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Ice Punch
+- Drain Punch
+- Mach Punch
+- Protect
+
+Primarina @ Fairy Feather
+Ability: Liquid Voice
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Hyper Voice
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Flip Turn
+
+Incineroar @ Leftovers
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Sassy Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot

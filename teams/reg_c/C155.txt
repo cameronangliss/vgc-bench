@@ -1,0 +1,65 @@
+Bruxish @ Choice Scarf
+Ability: Dazzling
+Level: 50
+Tera Type: Water
+EVs: 20 HP / 172 Atk / 68 Def / 4 SpD / 244 Spe
+Jolly Nature
+- Wave Crash
+- Aqua Jet
+- Surf
+- Psychic Fangs
+
+Coalossal @ Weakness Policy
+Ability: Steam Engine
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Flare Blitz
+- Earthquake
+- Protect
+
+Abomasnow @ Sitrus Berry
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 20 Def / 140 SpA / 4 SpD / 92 Spe
+Modest Nature
+- Blizzard
+- Energy Ball
+- Ice Shard
+- Helping Hand
+
+Iron Bundle @ Choice Specs
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 180 SpA / 76 SpD / 252 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Hydro Pump
+- Flip Turn
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ice
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Ice Spinner
+- Sacred Sword
+- Protect
+
+Dragonite @ Safety Goggles
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Aqua Jet
+- Tera Blast
+- Protect

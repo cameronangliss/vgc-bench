@@ -1,0 +1,67 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 4 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+- Electro Drift
+- Dragon Pulse
+- Volt Switch
+- Discharge
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Fire
+EVs: 156 HP / 156 Def / 196 Spe
+Jolly Nature
+- Body Press
+- Heavy Slam
+- Iron Defense
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Crunch
+- Ice Shard
+- Protect
+
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Atk / 180 Def / 36 SpD / 36 Spe
+Careful Nature
+- Foul Play
+- Fake Out
+- Misty Terrain
+- Light Screen
+
+Ting-Lu @ Rocky Helmet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Ruination
+- Snarl
+- Stealth Rock
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 108 SpD
+Bold Nature
+IVs: 0 Atk / 24 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect

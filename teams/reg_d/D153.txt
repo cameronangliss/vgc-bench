@@ -1,0 +1,68 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Lunar Blessing
+- Trick Room
+- Helping Hand
+
+Heatran @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 180 HP / 12 Def / 252 SpA / 12 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Earth Power
+- Tera Blast
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 164 HP / 172 Def / 20 SpA / 4 SpD / 148 Spe
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Taunt
+- Rain Dance
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Detect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 4 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Facade
+- Earthquake
+- Drain Punch
+- Protect

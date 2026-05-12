@@ -1,0 +1,59 @@
+Venusaur @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Leaf Storm
+- Sludge Bomb
+- Sleep Powder
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Protect
+- Eruption
+- Heat Wave
+- Earth Power
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 27 HP / 16 Def / 2 SpA / 21 SpD
+Sassy Nature
+- Protect
+- Hyper Voice
+- Twin Beam
+- Trick Room
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 17 Def / 5 SpA / 12 Spe
+Modest Nature
+- Protect
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Rock Slide
+- Stomping Tantrum
+- Dragon Claw
+- Breaking Swipe
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 1 Atk / 17 Def / 12 SpD / 6 Spe
+Careful Nature
+- Flare Blitz
+- Darkest Lariat
+- Fake Out
+- Parting Shot

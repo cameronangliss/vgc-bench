@@ -1,0 +1,67 @@
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 28 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+- Overheat
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Extreme Speed
+- Tera Blast
+- Low Kick
+- Thunder Punch
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 220 SpD / 36 Spe
+Careful Nature
+- Protect
+- Wave Crash
+- Bulldoze
+- Yawn
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 196 HP / 236 Atk / 4 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Earthquake
+- Heavy Slam
+- Stomping Tantrum
+- Ruination
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 20 Def / 76 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Dazzling Gleam
+- Shadow Ball
+- Substitute

@@ -1,0 +1,59 @@
+Chimecho @ Chimechite
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Boomburst
+- Flash Cannon
+- Helping Hand
+- Trick Room
+
+Rotom-Wash @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Electroweb
+- Will-O-Wisp
+- Hydro Pump
+- Volt Switch
+
+Incineroar @ Passho Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 25 Atk / 9 SpD
+Brave Nature
+- Darkest Lariat
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Mudsdale @ Soft Sand
+Ability: Inner Focus
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- High Horsepower
+- Earthquake
+- Rock Slide
+- Protect
+
+Chandelure @ Focus Sash
+Ability: Flash Fire
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Heat Wave
+- Trick Room
+- Shadow Ball
+
+Kommo-o @ Dragon Fang
+Ability: Soundproof
+Level: 50
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Modest Nature
+- Aura Sphere
+- Draco Meteor
+- Clanging Scales
+- Protect

@@ -1,0 +1,68 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 20 Def / 36 SpA / 212 SpD / 28 Spe
+Modest Nature
+- Draco Meteor
+- Electro Shot
+- Flash Cannon
+- Body Press
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 196 Def / 68 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Pollen Puff
+- Spore
+- Clear Smog
+
+Basculegion @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 252 Atk / 12 Def / 12 SpD / 132 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Tera Blast
+- Flip Turn
+
+Salamence @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Hurricane
+- Tailwind
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 212 HP / 252 Atk / 4 Def / 12 SpD / 28 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect

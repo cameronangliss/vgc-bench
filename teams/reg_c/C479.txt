@@ -1,0 +1,68 @@
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 252 Atk / 20 Spe
+Adamant Nature
+- Assurance
+- Iron Head
+- Sucker Punch
+- Tera Blast
+
+Maushold @ Rocky Helmet
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 76 SpD / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Super Fang
+- Follow Me
+- Taunt
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Haze
+
+Mimikyu @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 252 Atk / 28 Def
+Adamant Nature
+- Play Rough
+- Shadow Claw
+- Shadow Sneak
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
+- Protect
+
+Gholdengo @ Covert Cloak
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 212 SpA / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Tera Blast
+- Nasty Plot

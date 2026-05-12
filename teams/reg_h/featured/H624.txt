@@ -1,0 +1,71 @@
+Gastrodon-East @ Leftovers
+Ability: Storm Drain
+Level: 50
+Tera Type: Fairy
+EVs: 180 HP / 252 Def / 76 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Earth Power
+- Clear Smog
+- Yawn
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Grass
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Draco Meteor
+- Flash Cannon
+- Electro Shot
+
+Espeon @ Focus Sash
+Ability: Magic Bounce
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Expanding Force
+- Imprison
+- Trick Room
+
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 36 Atk / 92 Def / 124 SpD / 36 Spe
+Adamant Nature
+IVs: 0 SpA
+- Protect
+- Drain Punch
+- Rage Fist
+- Bulk Up
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 60 Atk / 4 Def / 140 SpD / 84 Spe
+Adamant Nature
+IVs: 0 SpA
+- High Horsepower
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 0 SpA
+- Dual Wingbeat
+- Taunt
+- Will-O-Wisp
+- Tailwind

@@ -1,0 +1,66 @@
+Talonflame (F) @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Tailwind
+- Brave Bird
+- Flare Blitz
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 220 HP / 4 Atk / 116 Def / 156 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Foul Play
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Dragon Claw
+- Rock Slide
+- Protect
+- Earthquake
+
+Gyarados (M) @ Lum Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Waterfall
+- Ice Fang
+- Tera Blast
+- Protect
+
+Breloom (F) @ Loaded Dice
+Ability: Technician
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Mach Punch
+- Bullet Seed
+- Rock Slide
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Flash Cannon
+- Power Gem

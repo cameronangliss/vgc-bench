@@ -1,0 +1,67 @@
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Protect
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Protect
+- Tailwind
+- Sleep Powder
+- Hurricane
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 180 Def / 68 SpD / 4 Spe
+Impish Nature
+- Fake Out
+- Flare Blitz
+- Knock Off
+- Parting Shot
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Fighting
+EVs: 244 HP / 4 Atk / 108 Def / 116 SpA / 36 SpD
+Quiet Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 132 Def / 108 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 236 HP / 116 Def / 132 SpA / 4 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

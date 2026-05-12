@@ -1,0 +1,68 @@
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 76 HP / 100 Atk / 4 Def / 252 SpD / 76 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 156 Def / 132 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 252 Atk / 4 Def / 124 SpD / 100 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Detect
+
+Landorus-Therian @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 180 HP / 204 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Stomping Tantrum
+- Tera Blast
+- U-turn
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 4 SpA / 12 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Pollen Puff
+- Rage Powder
+- Protect
+
+Chi-Yu @ Charcoal
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Overheat
+- Protect

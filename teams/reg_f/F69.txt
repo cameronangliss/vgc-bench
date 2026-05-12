@@ -1,0 +1,65 @@
+Urshifu-Rapid-Strike @ Mystic Water
+Level: 50
+Ability: Unseen Fist
+EVs: 44 HP / 180 Atk / 28 Def / 0 SpA / 44 SpD / 212 Spe
+Jolly Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Tornadus @ Rocky Helmet
+Level: 50
+Ability: Prankster
+EVs: 244 HP / 0 Atk / 116 Def / 76 SpA / 4 SpD / 68 Spe
+Timid Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Tailwind
+- Bleakwind Storm
+- Taunt
+- Rain Dance
+
+Rillaboom @ Assault Vest
+Level: 50
+Ability: Grassy Surge
+EVs: 244 HP / 132 Atk / 36 Def / 0 SpA / 44 SpD / 52 Spe
+Adamant Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Grassy Glide
+- Wood Hammer
+- Fake Out
+- High Horsepower
+
+Landorus @ Life Orb
+Level: 50
+Ability: Sheer Force
+EVs: 148 HP / 0 Atk / 4 Def / 116 SpA / 12 SpD / 228 Spe
+Modest Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sludge Bomb
+- Earth Power
+- Sandsear Storm
+- Protect
+
+Incineroar @ Sitrus Berry
+Level: 50
+Ability: Intimidate
+EVs: 244 HP / 20 Atk / 100 Def / 0 SpA / 100 SpD / 44 Spe
+Careful Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Parting Shot
+- Fake Out
+- Knock Off
+
+Flutter Mane @ Booster Energy
+Level: 50
+Ability: Protosynthesis
+EVs: 4 HP / 0 Atk / 0 Def / 252 SpA / 0 SpD / 252 Spe
+Timid Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Protect

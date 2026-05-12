@@ -1,0 +1,67 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 196 Def / 60 SpD
+Careful Nature
+- Wave Crash
+- Substitute
+- Protect
+- Body Press
+
+Tatsugiri-Stretchy @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Taunt
+- Protect
+- Dragon Pulse
+
+Urshifu @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Poison Jab
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 124 Def / 12 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Taunt
+- Icy Wind
+- Moonblast
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Atk / 52 Def / 4 SpD / 188 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Spiky Shield
+- Follow Me
+
+Glimmora @ Sitrus Berry
+Ability: Toxic Debris
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 44 Def / 12 SpA / 196 SpD / 4 Spe
+Calm Nature
+- Spiky Shield
+- Power Gem
+- Toxic Spikes
+- Mortal Spin

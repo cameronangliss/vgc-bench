@@ -1,0 +1,72 @@
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Will-O-Wisp
+- Flare Blitz
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Earthquake
+- Stomping Tantrum
+- Scale Shot
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 228 HP / 4 Def / 196 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Haze
+- Hyper Voice
+- Moonblast
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 20 HP / 236 Atk / 4 Def / 12 SpD / 236 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Acid Spray
+
+Indeedee @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Expanding Force
+- Trick Room
+- Imprison
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 76 HP / 4 Def / 212 SpA / 4 SpD / 212 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Steel Beam

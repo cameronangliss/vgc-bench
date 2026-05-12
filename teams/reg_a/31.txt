@@ -1,0 +1,71 @@
+Sylveon @ Leftovers
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 84 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Calm Mind
+- Protect
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 156 Atk / 4 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Flare Blitz
+- Play Rough
+- Close Combat
+- Extreme Speed
+
+Gastrodon-East @ Sitrus Berry
+Ability: Storm Drain
+Level: 50
+Tera Type: Fire
+EVs: 116 HP / 252 Def / 140 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Earth Power
+- Clear Smog
+- Icy Wind
+- Recover
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 252 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Giga Drain
+- Clear Smog
+- Spore
+- Rage Powder
+
+Corviknight @ Rocky Helmet
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 140 Def / 116 SpD
+Impish Nature
+IVs: 0 SpA
+- Iron Head
+- Body Press
+- Iron Defense
+- Roost
+
+Hydreigon @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Earth Power
+- Tailwind
+- Protect

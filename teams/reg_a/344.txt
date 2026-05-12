@@ -1,0 +1,70 @@
+Pelipper (F) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Hydro Pump
+- Tailwind
+- Protect
+
+Golduck (F) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Surf
+- Ice Beam
+- Protect
+
+Indeedee-F @ Life Orb
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Psyshock
+- Hyper Voice
+- Dazzling Gleam
+- Imprison
+
+Drifblim (F) @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 252 Def / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Icy Wind
+- Helping Hand
+- Tailwind
+
+Armarouge (F) @ Choice Specs
+Ability: Flash Fire
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Armor Cannon
+- Expanding Force
+- Psychic
+- Wide Guard
+
+Scizor (M) @ Choice Band
+Ability: Technician
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Bullet Punch
+- U-turn
+- Close Combat
+- Thief

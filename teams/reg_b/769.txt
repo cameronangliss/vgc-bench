@@ -1,0 +1,67 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Dragon
+EVs: 12 HP / 140 Atk / 4 Def / 100 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Order Up
+- Substitute
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Sleep Talk
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Power Gem
+
+Pawmot @ Focus Sash
+Ability: Natural Cure
+Level: 50
+Tera Type: Electric
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Fake Out
+- Double Shock
+- Close Combat
+- Revival Blessing
+
+Great Tusk @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Headlong Rush
+- Close Combat
+- Earthquake
+- Protect
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 204 Atk / 4 Def / 36 SpD / 252 Spe
+Jolly Nature
+- Brave Bird
+- Taunt
+- Will-O-Wisp
+- Tailwind

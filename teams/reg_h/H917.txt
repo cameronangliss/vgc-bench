@@ -1,0 +1,68 @@
+Politoed @ Leftovers
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 124 Def / 4 SpA / 156 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Weather Ball
+- Perish Song
+- Protect
+- Helping Hand
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Fighting
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Tera Blast
+
+Kingdra @ Choice Specs
+Ability: Swift Swim
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Muddy Water
+- Draco Meteor
+- Hurricane
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 116 Atk / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- U-turn
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+
+Incineroar @ Eject Button
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 28 Def / 76 SpD / 156 Spe
+Careful Nature
+- Fake Out
+- Parting Shot
+- Throat Chop
+- Protect
+
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+- Fake Out
+- Protect
+- Taunt
+- Psychic

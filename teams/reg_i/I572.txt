@@ -1,0 +1,68 @@
+Terapagos-Terastal @ Covert Cloak
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 204 HP / 4 Def / 236 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Calm Mind
+- Protect
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 204 Atk / 44 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Taunt
+- Follow Me
+- Spiky Shield
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 196 Def / 44 SpD / 28 Spe
+Impish Nature
+- Knock Off
+- Fake Out
+- Parting Shot
+- Will-O-Wisp
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 84 Atk / 4 Def / 116 SpD / 68 Spe
+Adamant Nature
+- Drum Beating
+- Fake Out
+- U-turn
+- Grassy Glide
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Protect
+- Disable
+- Psychic
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 4 Spe
+- Protect
+- Wide Guard
+- Salt Cure
+- Recover

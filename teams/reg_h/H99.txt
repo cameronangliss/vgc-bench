@@ -1,0 +1,69 @@
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 140 Def / 116 SpD
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Life Dew
+- Follow Me
+- Helping Hand
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Dragon
+EVs: 228 HP / 196 Atk / 4 Def / 28 SpD / 52 Spe
+Adamant Nature
+- Protect
+- Glaive Rush
+- Icicle Crash
+- Ice Shard
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 196 HP / 4 Def / 84 SpA / 20 SpD / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 60 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 228 HP / 52 Def / 36 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Flamethrower
+- Giga Drain
+- Quiver Dance
+
+Primarina @ Mystic Water
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 52 Def / 188 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Hyper Voice
+- Moonblast
+- Haze

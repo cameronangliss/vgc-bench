@@ -1,0 +1,67 @@
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 236 Atk / 220 SpD / 52 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Heavy Slam
+- Fake Out
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 76 Def / 172 SpA / 4 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Thunderbolt
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 12 Atk / 4 Def / 196 SpD / 172 Spe
+Careful Nature
+- Wave Crash
+- Yawn
+- Fissure
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 204 Atk / 108 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Dragon Claw
+- Thunder Punch
+
+Ting-Lu @ Safety Goggles
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 12 Atk / 4 Def / 236 SpD / 92 Spe
+Careful Nature
+- Earthquake
+- Throat Chop
+- Taunt
+- Protect
+
+Gholdengo @ Covert Cloak
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 76 Def / 4 SpA / 12 SpD / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

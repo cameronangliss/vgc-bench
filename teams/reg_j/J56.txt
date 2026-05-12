@@ -1,0 +1,66 @@
+Arceus @ Clear Amulet
+Ability: Multitype
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 236 Atk / 92 Spe
+Adamant Nature
+- Extreme Speed
+- Flare Blitz
+- Swords Dance
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Crunch
+- Sucker Punch
+- Protect
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 92 HP / 4 Def / 196 SpA / 4 SpD / 212 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Snarl
+- Volt Switch
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Foul Play
+- Helping Hand
+- Trick Room
+
+Iron Hands @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 252 Atk / 180 SpD
+Brave Nature
+- Wild Charge
+- Low Kick
+- Drain Punch
+- Fake Out
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 180 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield

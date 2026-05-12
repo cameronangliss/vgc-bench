@@ -1,0 +1,68 @@
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Sunny Day
+- Taunt
+
+Charizard @ Life Orb
+Ability: Solar Power
+Level: 50
+Tera Type: Fire
+EVs: 44 HP / 4 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Air Slash
+- Protect
+
+Great Tusk @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Headlong Rush
+- Earthquake
+- Close Combat
+- Rock Slide
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 156 Atk / 4 Def / 220 SpD / 124 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Volt Switch
+- Fake Out
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 116 Def / 76 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Imprison
+- Trick Room
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 116 Atk / 4 Def / 100 SpD / 76 Spe
+Adamant Nature
+- Wood Hammer
+- Knock Off
+- U-turn
+- Fake Out

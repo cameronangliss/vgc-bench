@@ -36,6 +36,9 @@ FORMATS = [
     "gen9vgc2026regf",
     "gen9vgc2026regfbo3",
     "gen9vgc2026regi",
+    "gen9vgc2026regibo3",
+    "gen9championsvgc2026regma",
+    "gen9championsvgc2026regmabo3",
 ]
 
 
@@ -57,7 +60,7 @@ def scrape_logs(
     Returns:
         True if no new logs were found (scraping complete), False otherwise.
     """
-    logs_path = Path(f"battle_logs/logs-{battle_format}.json")
+    logs_path = Path(f"battle_logs/logs_{battle_format}.json")
     if logs_path.exists():
         with logs_path.open("r") as f:
             old_logs = json.load(f)
@@ -87,7 +90,6 @@ def scrape_logs(
         and can_distinguish_team_members(lj["log"].split("\n|\n")[0], "p2")
         and "Zoroark" not in lj["log"]
         and "Zorua" not in lj["log"]
-        and "|-mega|" not in lj["log"]
     }
     logs = {**old_logs, **new_logs}
     if max_logs is not None:
@@ -247,7 +249,7 @@ def main(num_workers: int, read_increment: int):
         done = False
         while not done:
             done = scrape_logs(num_workers, read_increment, fmt)
-        with open(f"battle_logs/logs-{fmt}.json", "r") as file:
+        with open(f"battle_logs/logs_{fmt}.json", "r") as file:
             log_dict = json.load(file)
             logs = [log for _, log in log_dict.values()]
 

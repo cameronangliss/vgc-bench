@@ -1,0 +1,72 @@
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 4 Def / 4 SpD / 244 Spe
+Adamant Nature
+- Order Up
+- Earthquake
+- Tera Blast
+- Protect
+
+Tatsugiri-Stretchy (M) @ Choice Scarf
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Hydro Pump
+- Muddy Water
+- Icy Wind
+
+Sylveon (F) @ Sitrus Berry
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 164 HP / 252 Def / 84 SpA / 4 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Tera Blast
+- Protect
+
+Meowscarada (F) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- Protect
+
+Talonflame (M) @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Will-O-Wisp
+- Protect
+
+Kingambit (F) @ Assault Vest
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Tera Blast

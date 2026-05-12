@@ -1,0 +1,69 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 228 Def / 116 SpA / 4 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+
+Cresselia @ Rocky Helmet
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 236 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Trick Room
+- Lunar Blessing
+- Ally Switch
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 180 Atk / 92 SpD
+Adamant Nature
+IVs: 2 Spe
+- Facade
+- Earthquake
+- Swords Dance
+- Protect
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpA
+Modest Nature
+IVs: 0 Atk
+- Magma Storm
+- Body Press
+- Iron Defense
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 12 HP / 236 Atk / 4 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Thunder Punch
+- Heavy Slam
+- Fake Out

@@ -1,0 +1,68 @@
+Garchomp @ Life Orb
+Ability: Sand Veil
+Level: 50
+Tera Type: Ground
+EVs: 44 HP / 204 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 124 Atk / 4 Def / 12 SpD / 116 Spe
+Adamant Nature
+- Rock Slide
+- Crunch
+- Ice Punch
+- Tera Blast
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+Tera Type: Flying
+EVs: 148 HP / 180 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Tailwind
+- Brave Bird
+- Bulk Up
+- Roost
+
+Amoonguss @ Occa Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Protect
+
+Rotom-Wash @ Light Clay
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 4 Def / 116 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Thunderbolt
+- Light Screen
+- Reflect
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 28 Def / 116 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Quiver Dance
+- Bug Buzz
+- Protect

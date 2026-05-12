@@ -1,0 +1,67 @@
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dragon
+EVs: 180 HP / 172 Def / 156 SpD
+Bold Nature
+- Psychic
+- Hypnosis
+- Fake Out
+- Protect
+
+Politoed @ Mental Herb
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 196 Def / 36 SpA / 92 SpD / 116 Spe
+Bold Nature
+IVs: 0 Atk
+- Muddy Water
+- Haze
+- Perish Song
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 76 Atk / 156 Def / 76 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 4 Atk / 92 Def / 156 SpD / 20 Spe
+Careful Nature
+- Fake Out
+- Parting Shot
+- Knock Off
+- Flare Blitz
+
+Flamigo @ Life Orb
+Ability: Scrappy
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Brave Bird
+- Throat Chop
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Steel Beam

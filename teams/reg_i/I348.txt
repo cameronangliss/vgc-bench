@@ -1,0 +1,66 @@
+Sneasler @ Electric Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 36 HP / 172 Atk / 92 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Fake Out
+- Throat Chop
+- Dire Claw
+- Close Combat
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Ghost
+EVs: 132 HP / 4 Def / 124 SpA / 36 SpD / 212 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Dazzling Gleam
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Stellar
+EVs: 196 HP / 124 Atk / 4 Def / 12 SpD / 172 Spe
+Jolly Nature
+- Protect
+- Behemoth Blade
+- Play Rough
+- Substitute
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Rain Dance
+- Bleakwind Storm
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Protect
+- Taunt
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 44 Atk / 188 Def / 4 SpD / 20 Spe
+Impish Nature
+- Follow Me
+- Ivy Cudgel
+- Wood Hammer
+- Spiky Shield

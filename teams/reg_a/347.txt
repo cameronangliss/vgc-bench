@@ -1,0 +1,64 @@
+Stonjourner (F) @ Choice Scarf
+Ability: Power Spot
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Rock Tomb
+- Gravity
+- Wide Guard
+
+Garchomp (M) @ Choice Band
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Earthquake
+
+Gardevoir (M) @ Focus Sash
+Ability: Telepathy
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Psychic
+- Mystical Fire
+- Healing Wish
+
+Maushold @ Life Orb
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 156 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 6 SpA
+- Population Bomb
+- Play Rough
+- Follow Me
+- Protect
+
+Talonflame (F) @ Charcoal
+Ability: Gale Wings
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Feint
+- Tailwind
+- Protect
+
+Orthworm (F) @ Leftovers
+Ability: Earth Eater
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 252 SpD
+Impish Nature
+- Iron Head
+- Body Press
+- Coil
+- Substitute

@@ -1,0 +1,68 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 92 Def / 132 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Mystical Fire
+
+Iron Moth @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Dark
+EVs: 140 Def / 116 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Acid Spray
+- Toxic Spikes
+- Protect
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Order Up
+- Tera Blast
+- Protect
+
+Tatsugiri-Stretchy (M) @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Protect
+
+Dragonite (F) @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Tera Blast
+- Low Kick
+- Dragon Claw
+
+Kingambit (M) @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick

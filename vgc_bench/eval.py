@@ -22,11 +22,7 @@ from tensorboard.backend.event_processing import event_accumulator
 
 from vgc_bench.src.llm import LLMPlayer
 from vgc_bench.src.policy_player import BatchPolicyPlayer
-from vgc_bench.src.teams import (
-    RandomTeamBuilder,
-    calc_team_similarity_score,
-    get_team_paths,
-)
+from vgc_bench.src.teams import RandomTeamBuilder, calc_team_similarity_score
 from vgc_bench.src.utils import format_map
 
 
@@ -106,9 +102,9 @@ def cross_eval_all_agents(
                 open_timeout=None,
                 team=RandomTeamBuilder(run_id, num_teams, reg),
             )
-            save_dir = output_dir / f"saves-{method}"
+            save_dir = output_dir / f"saves_{method}"
             if method != "bc":
-                save_dir = save_dir / f"reg{reg}-{num_teams}-teams"
+                save_dir = save_dir / f"reg_{reg}" / f"{num_teams}_teams"
             save_dir = save_dir / f"seed{run_id}"
             agent.policy = PPO.load(save_dir / str(checkpoint), device=device).policy
             players += [agent]
@@ -212,22 +208,23 @@ async def get_best_checkpoints(
         sorted(
             (
                 output_dir
-                / f"saves-{method}"
-                / f"reg{reg}-{num_teams}-teams"
+                / f"saves_{method}"
+                / f"reg_{reg}"
+                / f"{num_teams}_teams"
                 / f"seed{run_id}"
             ).iterdir(),
             key=lambda p: int(p.stem),
         )[cutoff:]
-        for method in ["sp", "fp", "do", "bc-sp", "bc-fp", "bc-do"]
+        for method in ["sp", "fp", "do", "bc_sp", "bc_fp", "bc_do"]
     ]
     files = [file for files in filess for file in files]
     eval_pool_files = random.sample(files, eval_pool_size)
-    for method in ["sp", "fp", "do", "bc", "bc-sp", "bc-fp", "bc-do"]:
+    for method in ["sp", "fp", "do", "bc", "bc_sp", "bc_fp", "bc_do"]:
         if method == "bc":
             best_checkpoints["bc"] = 100
             continue
-        save_label = f"reg{reg}-{num_teams}-teams/seed{run_id}"
-        log_path = str(output_dir / f"logs-{method}" / f"{save_label}_0")
+        save_label = f"reg_{reg}/{num_teams}_teams/seed{run_id}"
+        log_path = str(output_dir / f"logs_{method}" / f"{save_label}_0")
         data = extract_tb(log_path, "train/eval")
         eval_scores = [d[1] for d in data]
         min_score = np.percentile(eval_scores, 90)
@@ -237,8 +234,9 @@ async def get_best_checkpoints(
         for checkpoint in checkpoints:
             save_dir = (
                 output_dir
-                / f"saves-{method}"
-                / f"reg{reg}-{num_teams}-teams"
+                / f"saves_{method}"
+                / f"reg_{reg}"
+                / f"{num_teams}_teams"
                 / f"seed{run_id}"
             )
             save_policy.policy = PPO.load(
@@ -315,7 +313,7 @@ def cross_eval_over_team_sizes(
         for num_teams, (method, checkpoints) in zip(team_counts, methods):
             agent = BatchPolicyPlayer(
                 account_configuration=AccountConfiguration.generate(
-                    f"{run_id}/{method}/{num_teams}-teams"
+                    f"{run_id}/{method}/{num_teams}_teams"
                 ),
                 server_configuration=ServerConfiguration(
                     f"ws://localhost:{port}/showdown/websocket",
@@ -336,8 +334,9 @@ def cross_eval_over_team_sizes(
             checkpoint = checkpoints[run_id - 1]
             save_dir = (
                 output_dir
-                / f"saves-{method}"
-                / f"reg{reg}-{num_teams}-teams"
+                / f"saves_{method}"
+                / f"reg_{reg}"
+                / f"{num_teams}_teams"
                 / f"seed{run_id}"
             )
             agent.policy = PPO.load(save_dir / str(checkpoint), device=device).policy
@@ -357,7 +356,7 @@ def cross_eval_over_team_sizes(
     alpharank.utils.print_rankings_table(
         [avg_payoff_matrix],
         pi,
-        strat_labels=[f"{n}-teams" for n in team_counts],
+        strat_labels=[f"{n}_teams" for n in team_counts],
         num_top_strats_to_print=len(pi),
     )
 
@@ -375,7 +374,7 @@ def print_team_statistics(reg: str, num_teams: int):
         num_teams: Number of teams in the in-distribution training set.
     """
     num_runs = 5
-    all_teams = [path.read_text() for path in get_team_paths(reg)]
+    all_teams = [path.read_text() for path in RandomTeamBuilder.get_team_paths(reg)]
     sim_scores = [
         max(
             [
@@ -442,10 +441,10 @@ if __name__ == "__main__":
     cross_eval_all_agents(reg, args.num_teams, args.port, args.device, 1000, 100)
     team_counts = [1, 4, 16, 64]
     methods = [
-        ("bc-sp", [4915200, 1474560, 4816896, 1179648, 786432]),
-        ("bc-sp", [589824, 3047424, 4128768, 983040, 3538944]),
-        ("bc-do", [3833856, 1671168, 5013504, 2654208, 4030464]),
-        ("bc-sp", [1769472, 2064384, 4227072, 983040, 5013504]),
+        ("bc_sp", [4915200, 1474560, 4816896, 1179648, 786432]),
+        ("bc_sp", [589824, 3047424, 4128768, 983040, 3538944]),
+        ("bc_do", [3833856, 1671168, 5013504, 2654208, 4030464]),
+        ("bc_sp", [1769472, 2064384, 4227072, 983040, 5013504]),
     ]
     # cross_eval_over_team_sizes(
     #     team_counts, methods, args.port, args.device, 1000, True

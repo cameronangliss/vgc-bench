@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Protect
+- Encore
+
+Arceus @ Clear Amulet
+Ability: Multitype
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 236 Atk / 20 Spe
+Adamant Nature
+- Extreme Speed
+- Flare Blitz
+- Protect
+- Swords Dance
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Heat Wave
+- Flamethrower
+- Overheat
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 20 Atk / 4 Def / 172 SpD / 60 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 164 Def / 92 SpD
+Impish Nature
+- Fake Out
+- Knock Off
+- U-turn
+- Will-O-Wisp
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Follow Me
+- Helping Hand
+- Encore

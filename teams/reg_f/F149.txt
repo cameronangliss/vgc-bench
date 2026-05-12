@@ -1,0 +1,66 @@
+Excadrill @ Clear Amulet
+Ability: Sand Rush
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Iron Head
+- High Horsepower
+- Rock Slide
+- Protect
+
+Tyranitar @ Choice Band
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 204 Atk / 52 Spe
+Adamant Nature
+- Rock Slide
+- Lash Out
+- Low Kick
+- Tera Blast
+
+Latias @ Rocky Helmet
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 156 SpA / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Mist Ball
+- Ice Beam
+- Tailwind
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 252 Atk / 60 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- U-turn
+- Fake Out
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 116 Atk / 52 Def / 4 SpD / 84 Spe
+Adamant Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Entei @ Safety Goggles
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Sacred Fire
+- Stomping Tantrum
+- Extreme Speed
+- Snarl

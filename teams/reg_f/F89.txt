@@ -1,0 +1,70 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 6 SpD / 252 Spe
+Jolly Nature
+IVs: 8 SpA
+- Icicle Crash
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Entei @ Life Orb
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 148 HP / 252 Atk / 4 Def / 60 SpD / 44 Spe
+Adamant Nature
+- Sacred Fire
+- Stomping Tantrum
+- Extreme Speed
+- Protect
+
+Tornadus (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 204 Def / 52 Spe
+Timid Nature
+- Bleakwind Storm
+- Tailwind
+- Sunny Day
+- Taunt
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 134 HP / 252 Def / 4 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 3 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Mystical Fire
+
+Rillaboom (F) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 172 HP / 252 Atk / 4 Def / 30 SpD / 52 Spe
+Adamant Nature
+- Grassy Glide
+- High Horsepower
+- Wood Hammer
+- Fake Out
+
+Walking Wake @ Mystic Water
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 6 HP / 252 SpA / 252 Spe
+Naive Nature
+IVs: 7 Atk
+- Hydro Steam
+- Draco Meteor
+- Flamethrower
+- Protect

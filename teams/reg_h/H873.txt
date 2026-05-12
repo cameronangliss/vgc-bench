@@ -1,0 +1,70 @@
+Sneasler @ Grassy Seed
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 100 HP / 252 Atk / 12 Def / 4 SpD / 140 Spe
+Adamant Nature
+IVs: 26 SpA
+- Acrobatics
+- Close Combat
+- Swords Dance
+- Protect
+
+Rillaboom @ Meadow Plate
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 116 Atk / 20 Def / 172 SpD / 68 Spe
+Adamant Nature
+IVs: 28 SpA
+- Grassy Glide
+- High Horsepower
+- U-turn
+- Fake Out
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 20 Atk / 60 Def / 180 SpD / 20 Spe
+Careful Nature
+IVs: 10 SpA
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Ursaluna-Bloodmoon @ Covert Cloak
+Ability: Mind's Eye
+Level: 50
+Tera Type: Fighting
+EVs: 148 HP / 4 Def / 196 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 10 Atk
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+- Protect
+
+Dragonite @ Assault Vest
+Ability: Multiscale
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Thunder Punch
+- Ice Spinner
+- Stomping Tantrum
+
+Gholdengo @ Focus Sash
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 22 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

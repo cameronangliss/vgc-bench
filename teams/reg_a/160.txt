@@ -1,0 +1,66 @@
+Armarouge @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 116 HP / 196 SpA / 196 SpD
+Modest Nature
+IVs: 0 Atk
+- Trick Room
+- Expanding Force
+- Armor Cannon
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Shadow Ball
+- Helping Hand
+- Protect
+
+Kingambit @ Focus Sash
+Ability: Supreme Overlord
+Level: 50
+EVs: 252 HP / 196 Atk / 60 SpD
+Adamant Nature
+- Sucker Punch
+- Iron Head
+- Kowtow Cleave
+- Protect
+
+Meowscarada @ Iron Ball
+Ability: Protean
+Level: 50
+EVs: 252 HP / 236 Atk / 20 Def
+Brave Nature
+IVs: 0 Spe
+- Flower Trick
+- Knock Off
+- Trick Room
+- Protect
+
+Hariyama @ Flame Orb
+Ability: Guts
+Level: 50
+EVs: 236 Atk / 156 Def / 116 SpD
+Adamant Nature
+- Fake Out
+- Wide Guard
+- Close Combat
+- Protect
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 20 Def / 236 SpA
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Calm Mind
+- Protect

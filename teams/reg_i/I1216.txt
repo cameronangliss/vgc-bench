@@ -1,0 +1,67 @@
+Calyrex-Shadow @ Choice Specs
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Shadow Ball
+- Psychic
+- Pollen Puff
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 92 Def / 172 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Imprison
+
+Whimsicott @ Ring Target
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 4 SpA / 220 SpD / 28 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Misty Terrain
+- Tailwind
+- Switcheroo
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Ice Shard
+- Sucker Punch
+- Protect
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Spiky Shield
+- Follow Me
+
+Maushold-Four @ Covert Cloak
+Ability: Friend Guard
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 4 Atk / 76 Def / 108 SpD / 68 Spe
+Impish Nature
+- Follow Me
+- Feint
+- Helping Hand
+- Taunt

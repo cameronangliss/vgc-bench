@@ -1,0 +1,63 @@
+Arcanine @ Mago Berry
+Ability: Intimidate
+Level: 50
+EVs: 252 HP / 36 SpA / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Will-O-Wisp
+- Snarl
+- Flamethrower
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 252 HP / 84 SpA / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Nasty Plot
+- Thunderbolt
+- Hydro Pump
+
+Amoonguss @ Leftovers
+Ability: Regenerator
+Level: 50
+EVs: 252 HP / 180 Def / 76 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Rage Powder
+- Spore
+- Energy Ball
+
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 128 Def / 128 SpD
+Impish Nature
+- Fake Out
+- Thunder Wave
+- Parting Shot
+- Spirit Break
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Swords Dance
+- Rock Slide
+- Earthquake
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Dazzling Gleam
+- Shadow Ball
+- Make It Rain

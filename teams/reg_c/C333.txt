@@ -1,0 +1,74 @@
+Oranguru @ Mental Herb
+Ability: Telepathy
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 244 HP / 188 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Instruct
+- Encore
+- Protect
+
+Iron Hands @ Safety Goggles
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 60 HP / 252 Atk / 44 Def / 148 SpD
+Brave Nature
+IVs: 0 Spe
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Swords Dance
+
+Ting-Lu @ Weakness Policy
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 28 HP / 252 Atk / 228 SpD
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Throat Chop
+- Rock Slide
+- Protect
+
+Amoonguss @ Wiki Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 220 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 244 HP / 148 Def / 116 SpD
+Careful Nature
+- Reflect
+- Light Screen
+- Spirit Break
+- Parting Shot
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Def / 212 SpA / 52 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

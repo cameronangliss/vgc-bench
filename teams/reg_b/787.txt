@@ -1,0 +1,68 @@
+Iron Moth @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 108 HP / 12 Def / 132 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Acid Spray
+- Energy Ball
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 4 Def / 76 SpA / 4 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Mystical Fire
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 124 Atk / 36 Def / 132 SpD / 212 Spe
+Jolly Nature
+- Wave Crash
+- Order Up
+- Substitute
+- Protect
+
+Tatsugiri @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Taunt
+- Protect
+
+Dragonite (M) @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 20 Def / 4 SpD / 36 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Stomping Tantrum
+- Low Kick
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 44 Atk / 4 Def / 156 SpD / 52 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Tera Blast
+- Sucker Punch

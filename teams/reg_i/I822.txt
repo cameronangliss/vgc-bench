@@ -1,0 +1,71 @@
+Gouging Fire @ Clear Amulet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 164 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Burning Bulwark
+- Breaking Swipe
+- Flare Blitz
+- Snarl
+
+Raging Bolt @ Safety Goggles
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 196 HP / 60 Def / 196 SpA / 52 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Protect
+
+Groudon @ Assault Vest
+Ability: Drought
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 244 HP / 180 Atk / 12 Def / 44 SpD / 28 Spe
+Adamant Nature
+- Precipice Blades
+- High Horsepower
+- Heat Crash
+- Rock Slide
+
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 4 Def / 4 SpD / 244 Spe
+Adamant Nature
+- Close Combat
+- Coaching
+- Sleep Powder
+- Protect
+
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 92 HP / 44 Def / 196 SpA / 100 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Meteor Beam
+- Wide Guard
+- Trick Room
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 220 HP / 4 Atk / 140 Def / 116 SpD / 28 Spe
+Careful Nature
+- Spirit Break
+- Foul Play
+- Reflect
+- Light Screen

@@ -1,0 +1,71 @@
+Duskull @ Eviolite
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 100 Def / 156 SpD
+Impish Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Trick Room
+- Pain Split
+- Haze
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 60 HP / 252 Atk / 196 SpD
+Brave Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 60 Def / 4 SpA / 188 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Life Dew
+- Rage Powder
+- Trick Room
+- Matcha Gotcha
+
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Weather Ball
+- Earth Power
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Trick Room
+- Psychic
+- Helping Hand
+
+Armarouge @ Power Herb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 252 SpA / 156 SpD
+Quiet Nature
+IVs: 0 Atk
+- Meteor Beam
+- Armor Cannon
+- Expanding Force
+- Trick Room

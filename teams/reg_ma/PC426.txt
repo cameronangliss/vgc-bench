@@ -1,0 +1,59 @@
+Scovillain @ Scovillainite
+Ability: Moody
+Level: 50
+EVs: 32 HP / 21 Def / 3 SpD / 10 Spe
+Timid Nature
+- Overheat
+- Leaf Storm
+- Rage Powder
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- U-turn
+
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+EVs: 12 HP / 32 Atk / 4 Def / 18 Spe
+Adamant Nature
+- Last Respects
+- Wave Crash
+- Aqua Jet
+- Protect
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 22 HP / 25 SpA / 19 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Tailwind
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 18 HP / 1 Def / 25 SpA / 11 SpD / 11 Spe
+Modest Nature
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 26 HP / 6 Def / 12 SpA / 22 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
+- Protect

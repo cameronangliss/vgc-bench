@@ -1,0 +1,72 @@
+Hariyama (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 124 Def / 132 SpD
+Brave Nature
+IVs: 0 Spe
+- Close Combat
+- Knock Off
+- Fake Out
+- Wide Guard
+
+Oranguru (M) @ Mental Herb
+Ability: Inner Focus
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 172 Def / 92 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Foul Play
+- Yawn
+- Instruct
+- Trick Room
+
+Torkoal (M) @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Eruption
+- Heat Wave
+- Earth Power
+
+Kingambit (M) @ Black Glasses
+Ability: Supreme Overlord
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+
+Scovillain (M) @ Life Orb
+Ability: Chlorophyll
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Rage Powder
+- Flamethrower
+- Energy Ball
+- Tera Blast
+
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 4 Atk / 252 Spe
+Adamant Nature
+- Final Gambit
+- Close Combat
+- Rage Fist
+- Rock Slide

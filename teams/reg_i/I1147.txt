@@ -1,0 +1,68 @@
+Lunala @ Safety Goggles
+Ability: Shadow Shield
+Level: 50
+Tera Type: Dark
+EVs: 132 HP / 52 Def / 252 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Wide Guard
+- Expanding Force
+- Moongeist Beam
+- Trick Room
+
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Steel
+EVs: 188 HP / 252 Atk / 4 Def / 28 SpD / 36 Spe
+Adamant Nature
+- Heat Crash
+- Precipice Blades
+- Protect
+- Thunder Punch
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 100 Atk / 156 Spe
+Jolly Nature
+- Ivy Cudgel
+- Follow Me
+- Wood Hammer
+- Spiky Shield
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Power Gem
+- Thunder Wave
+- Protect
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 108 Def / 52 SpA / 92 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Encore
+- Protect
+
+Meowstic @ Eject Button
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 252 SpD
+Impish Nature
+- Light Screen
+- Reflect
+- Psychic Terrain
+- Fake Out

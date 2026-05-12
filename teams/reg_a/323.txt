@@ -1,0 +1,67 @@
+Annihilape (F) @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 20 Atk / 12 Def / 116 SpD / 172 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Arcanine (M) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 108 Atk / 4 Def / 36 SpD / 156 Spe
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Extreme Speed
+- Snarl
+
+Maushold @ Wide Lens
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 100 Atk / 76 Def / 44 SpD / 36 Spe
+Impish Nature
+- Population Bomb
+- Beat Up
+- Follow Me
+- Protect
+
+Murkrow (M) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Haze
+- Screech
+
+Kingambit (F) @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Protect
+
+Hydreigon (M) @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 52 Def / 116 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Heat Wave
+- Nasty Plot

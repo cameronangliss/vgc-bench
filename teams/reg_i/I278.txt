@@ -1,0 +1,68 @@
+Koraidon @ Assault Vest
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Flame Charge
+- U-turn
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Protect
+- Perish Song
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Pollen Puff
+- Protect
+- Rage Powder
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 156 Def / 68 SpD / 28 Spe
+Impish Nature
+- Knock Off
+- Fake Out
+- Parting Shot
+- Protect
+
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fire
+EVs: 124 HP / 196 Atk / 188 Spe
+Adamant Nature
+- Glacial Lance
+- Encore
+- Trick Room
+- Protect
+
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 204 Def / 52 SpD
+Quiet Nature
+IVs: 6 Atk / 4 Spe
+- Fake Out
+- Trick Room
+- Protect
+- Heal Pulse

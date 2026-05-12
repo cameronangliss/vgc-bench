@@ -1,0 +1,68 @@
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Facade
+- Swords Dance
+- Protect
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Lunar Blessing
+- Trick Room
+- Ally Switch
+- Moonblast
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 140 HP / 156 Atk / 4 Def / 204 SpD / 4 Spe
+Adamant Nature
+- Heavy Slam
+- Fake Out
+- Drain Punch
+- Wild Charge
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Tera Blast
+- Ice Spinner
+- Extreme Speed
+- Stomping Tantrum
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 60 Def / 196 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Close Combat
+- Wicked Blow
+- Sucker Punch
+- Protect

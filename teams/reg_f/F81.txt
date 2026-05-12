@@ -1,0 +1,72 @@
+Iron Crown @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 220 SpA / 38 Spe
+Modest Nature
+IVs: 20 Atk
+- Expanding Force
+- Tachyon Cutter
+- Tera Blast
+- Protect
+
+Indeedee-F (F) @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 252 Def / 6 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Helping Hand
+- Dazzling Gleam
+- Trick Room
+
+Annihilape (M) @ Leftovers
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 46 SpD / 92 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Flutter Mane @ Fairy Feather
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 76 HP / 100 Def / 180 SpA / 4 SpD / 150 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Perish Song
+- Protect
+
+Landorus-Therian (M) @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 60 HP / 196 Atk / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Tera Blast
+- Rock Slide
+- U-turn
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 78 Atk / 180 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield

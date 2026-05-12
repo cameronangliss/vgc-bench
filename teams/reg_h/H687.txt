@@ -1,0 +1,69 @@
+Indeedee-F @ Sitrus Berry
+Ability: Psychic Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Follow Me
+- Helping Hand
+- Trick Room
+- Psychic
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+- Facade
+- Earthquake
+- Protect
+- Headlong Rush
+
+Hatterene @ Life Orb
+Ability: Magic Bounce
+Level: 50
+Tera Type: Psychic
+EVs: 212 HP / 44 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Expanding Force
+- Dazzling Gleam
+- Protect
+- Trick Room
+
+Torkoal @ Eject Pack
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Flamethrower
+- Protect
+
+Charizard @ Choice Specs
+Ability: Solar Power
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Overheat
+- Heat Wave
+- Air Slash
+- Dragon Pulse
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Protect
+- Throat Chop

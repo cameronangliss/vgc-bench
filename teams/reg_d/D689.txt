@@ -1,0 +1,68 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Protect
+- Ice Spinner
+- Crunch
+- Sucker Punch
+
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 164 Atk / 28 Def / 244 SpD / 68 Spe
+Adamant Nature
+- Detect
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 172 HP / 52 Def / 52 SpA / 4 SpD / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 188 Def / 92 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Spore
+- Rage Powder
+- Pollen Puff
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 36 Atk / 4 Def / 4 SpD / 212 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+- Tera Blast
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 76 Atk / 52 Def / 252 SpD / 12 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Fake Out
+- Heavy Slam

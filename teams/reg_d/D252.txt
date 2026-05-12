@@ -1,0 +1,69 @@
+Charizard (M) @ Choice Scarf
+Ability: Solar Power
+Level: 50
+Tera Type: Fire
+EVs: 44 HP / 212 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Air Slash
+- Solar Beam
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 140 HP / 70 Def / 200 SpA / 100 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Protect
+
+Torkoal @ Eject Pack
+Ability: Drought
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Def / 180 SpD
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Clear Smog
+- Helping Hand
+- Protect
+
+Landorus-Therian @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 68 Atk / 44 Def / 52 SpD / 116 Spe
+Adamant Nature
+- Stomping Tantrum
+- Earthquake
+- Rock Slide
+- U-turn
+
+Thundurus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 20 Def / 76 SpA / 12 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Taunt
+- Sunny Day
+- Wildbolt Storm
+- Scary Face

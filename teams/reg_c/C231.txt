@@ -1,0 +1,69 @@
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Spiky Shield
+- Power Gem
+- Toxic
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 100 HP / 76 Def / 196 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Substitute
+- Protect
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Def / 4 SpA / 196 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Pollen Puff
+- Foul Play
+- Leech Seed
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 52 HP / 156 Atk / 4 Def / 188 SpD / 108 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Wild Charge
+- Heavy Slam
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tera Blast
+- Dark Pulse
+- Heat Wave
+- Protect
+
+Talonflame @ Safety Goggles
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 204 HP / 44 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Taunt
+- Will-O-Wisp

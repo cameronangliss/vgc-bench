@@ -1,0 +1,68 @@
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 156 Atk / 4 Def / 44 SpD / 68 Spe
+Adamant Nature
+- Heat Crash
+- Precipice Blades
+- High Horsepower
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Spore
+- Follow Me
+- Decorate
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 140 Def / 204 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Thunderclap
+- Draco Meteor
+- Protect
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 52 HP / 4 Def / 196 SpA / 12 SpD / 244 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flamethrower
+- Dark Pulse
+- Snarl
+
+Calyrex-Ice @ Never-Melt Ice
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 4 Def / 108 SpD / 28 Spe
+Adamant Nature
+- Trick Room
+- Glacial Lance
+- Protect
+- High Horsepower
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 76 Def / 180 SpA / 4 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Misty Terrain

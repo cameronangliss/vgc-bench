@@ -1,0 +1,66 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 4 Atk / 196 Def / 148 SpD / 156 Spe
+Impish Nature
+- Protect
+- Wave Crash
+- Earthquake
+- Body Press
+
+Tatsugiri-Droopy @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+
+Weezing-Galar @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 4 SpA / 236 SpD / 12 Spe
+Bold Nature
+- Protect
+- Poison Gas
+- Toxic Spikes
+- Strange Steam
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Throat Chop
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 156 Atk / 4 Def / 92 SpD / 212 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Aqua Jet
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Stomping Tantrum
+- Outrage
+- Aerial Ace

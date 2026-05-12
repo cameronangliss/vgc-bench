@@ -1,0 +1,67 @@
+Dondozo @ Life Orb
+Ability: Oblivious
+Level: 50
+Tera Type: Fire
+EVs: 12 HP / 252 Atk / 4 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Tera Blast
+- Protect
+
+Tatsugiri-Stretchy @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 132 Def / 188 SpA / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Dragon Pulse
+- Icy Wind
+- Sleep Talk
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 236 HP / 252 Atk / 20 Spe
+Adamant Nature
+- Extreme Speed
+- Aqua Jet
+- Aerial Ace
+- Earthquake
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 28 Def / 116 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Mystical Fire
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Salt Cure
+- Iron Defense
+- Recover
+- Protect

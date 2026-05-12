@@ -1,0 +1,68 @@
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 36 Atk / 4 Def / 76 SpD / 252 Spe
+Jolly Nature
+- Heat Crash
+- Breaking Swipe
+- Howl
+- Burning Bulwark
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Zapdos-Galar @ Choice Scarf
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- U-turn
+- Knock Off
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 76 Atk / 12 Def / 12 SpD / 204 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Tinkaton @ Assault Vest
+Ability: Mold Breaker
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Gigaton Hammer
+- Play Rough
+- Fake Out
+- Feint
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 76 Def / 36 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect

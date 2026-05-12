@@ -1,0 +1,64 @@
+Mimikyu @ Mental Herb
+Ability: Disguise
+Level: 50
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Play Rough
+- Shadow Sneak
+- Taunt
+- Trick Room
+
+Hariyama @ Flame Orb
+Ability: Guts
+Level: 50
+EVs: 28 HP / 252 Atk / 4 Def / 220 SpD / 4 Spe
+Adamant Nature
+- Close Combat
+- Thunder Punch
+- Knock Off
+- Fake Out
+
+Lilligant @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Leaf Storm
+- Tera Blast
+- After You
+- Sleep Powder
+
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Solar Beam
+- Body Press
+
+Oranguru @ Safety Goggles
+Ability: Inner Focus
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk
+- Foul Play
+- Instruct
+- Trick Room
+- Protect
+
+Lucario @ Choice Scarf
+Ability: Inner Focus
+Level: 50
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Meteor Mash
+- Ice Punch
+- Final Gambit

@@ -1,0 +1,70 @@
+Arcanine (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+EVs: 244 HP / 68 Atk / 28 Def / 156 SpD / 12 Spe
+Careful Nature
+- Flare Blitz
+- Snarl
+- Extreme Speed
+- Protect
+
+Amoonguss (M) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 236 HP / 236 Def / 4 SpA / 28 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Rage Powder
+- Spore
+- Protect
+
+Rotom-Wash @ Leftovers
+Ability: Levitate
+Level: 50
+Shiny: Yes
+EVs: 252 HP / 20 Def / 52 SpA / 180 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Nasty Plot
+- Protect
+
+Kingambit (M) @ Life Orb
+Ability: Defiant
+Level: 50
+Shiny: Yes
+EVs: 188 HP / 204 Atk / 68 Def / 44 SpD / 4 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Protect
+
+Farigiraf (F) @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Shiny: Yes
+EVs: 236 HP / 44 Def / 148 SpA / 76 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Psychic
+- Helping Hand
+- Trick Room
+
+Annihilape (M) @ Assault Vest
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 228 HP / 172 Atk / 12 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Ice Punch
+- Poison Jab

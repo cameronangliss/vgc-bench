@@ -1,0 +1,67 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 20 Def / 212 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 116 Atk / 20 Def / 12 SpD / 156 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Swords Dance
+- Protect
+
+Volcarona @ Electric Seed
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 116 Def / 4 SpA / 132 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Fiery Dance
+- Will-O-Wisp
+- Rage Powder
+- Protect
+
+Iron Jugulis @ Covert Cloak
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 44 Def / 52 SpA / 100 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Snarl
+- Air Slash
+- Taunt
+- Tailwind
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 20 Def / 196 SpD / 76 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sacred Sword
+- Sucker Punch
+- Protect

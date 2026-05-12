@@ -1,0 +1,67 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 220 HP / 20 Def / 252 SpA / 4 SpD / 12 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Calyrex-Shadow @ Electric Seed
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 12 Def / 4 SpA / 84 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Pollen Puff
+- Disable
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Impish Nature
+- Knock Off
+- Parting Shot
+- Brick Break
+- Fake Out
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 156 Atk / 132 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Low Kick
+- Wild Charge
+- Fake Out
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 220 Atk / 4 Def / 4 SpD / 28 Spe
+Jolly Nature
+- Brave Bird
+- Feint
+- Tailwind
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 132 HP / 252 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Extreme Speed
+- Low Kick
+- Aerial Ace
+- Aqua Jet

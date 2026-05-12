@@ -1,0 +1,68 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Protect
+- Sacred Sword
+- Sucker Punch
+
+Tauros-Paldea-Aqua @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 28 Atk / 68 Def / 12 SpD / 156 Spe
+Impish Nature
+- Wave Crash
+- Close Combat
+- Aqua Jet
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 252 Atk / 76 Spe
+Adamant Nature
+- Extreme Speed
+- Rock Slide
+- Stomping Tantrum
+- Low Kick
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Pollen Puff
+- Rage Powder
+- Clear Smog
+
+Chi-Yu @ Leftovers
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 124 Def / 4 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Taunt
+- Dark Pulse
+- Protect
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 228 HP / 108 Def / 52 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+- Power Gem

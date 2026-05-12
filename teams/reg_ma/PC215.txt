@@ -1,0 +1,59 @@
+Blastoise @ Blastoisinite
+Ability: Torrent
+Level: 50
+EVs: 32 HP / 20 SpA / 14 Spe
+Modest Nature
+- Water Spout
+- Ice Beam
+- Shell Smash
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 30 HP / 6 Def / 30 SpD
+Calm Nature
+- Matcha Gotcha
+- Rage Powder
+- Strength Sap
+- Trick Room
+
+Incineroar @ Lum Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 1 Atk / 13 Def / 20 SpD / 2 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 12 Atk / 22 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Protect
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 17 HP / 32 Atk / 17 Spe
+Adamant Nature
+- High Horsepower
+- Iron Head
+- Rock Slide
+- Protect
+
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Modest Nature
+- Eruption
+- Shadow Ball
+- Overheat
+- Heat Wave

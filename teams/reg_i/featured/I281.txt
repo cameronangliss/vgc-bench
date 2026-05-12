@@ -1,0 +1,67 @@
+Groudon @ Choice Scarf
+Ability: Drought
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Precipice Blades
+- High Horsepower
+- Heat Crash
+- Crunch
+
+Ho-Oh @ Clear Amulet
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 164 Atk / 12 Def / 44 SpD / 132 Spe
+Careful Nature
+- Sacred Fire
+- Brave Bird
+- Tailwind
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Power Gem
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 76 Atk / 4 Def / 252 SpD / 52 Spe
+Adamant Nature
+- Drain Punch
+- Low Kick
+- Wild Charge
+- Fake Out
+
+Sableye @ Red Card
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Will-O-Wisp
+- Sunny Day
+- Gravity
+
+Infernape @ Focus Sash
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Heat Wave
+- Aura Sphere
+- Fake Out
+- Endeavor

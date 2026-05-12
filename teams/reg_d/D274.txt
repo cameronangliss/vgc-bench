@@ -1,0 +1,67 @@
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 148 Def / 12 SpA / 92 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Moonblast
+- Lunar Blessing
+- Helping Hand
+- Trick Room
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 36 HP / 156 Atk / 20 Def / 116 SpD / 180 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Close Combat
+- Extreme Speed
+
+Azumarill @ Life Orb
+Ability: Huge Power
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 252 Atk / 68 Spe
+Adamant Nature
+- Aqua Jet
+- Play Rough
+- Liquidation
+- Protect
+
+Rillaboom @ Loaded Dice
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 44 Atk / 4 Def / 252 SpD / 68 Spe
+Adamant Nature
+- Bullet Seed
+- U-turn
+- Fake Out
+- Taunt
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 44 Def / 4 SpA / 28 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 236 Atk / 28 Def / 164 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Ice Punch
+- Fake Out

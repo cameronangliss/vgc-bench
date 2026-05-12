@@ -1,0 +1,69 @@
+Chi-Yu @ Sitrus Berry
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 168 SpA / 84 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 4 Def / 252 SpA / 4 SpD / 36 Spe
+Timid Nature
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 224 HP / 156 Def / 128 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Protect
+- Rage Powder
+- Pollen Puff
+- Spore
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 252 Atk / 4 Def / 84 SpD / 4 Spe
+Careful Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Tera Blast
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 68 HP / 20 Def / 252 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 27 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

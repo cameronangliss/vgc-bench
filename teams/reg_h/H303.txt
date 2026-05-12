@@ -1,0 +1,69 @@
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Swords Dance
+- Headlong Rush
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 22 Spe
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Atk / 156 Def / 76 SpD / 28 Spe
+Impish Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 18 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 132 SpA / 132 SpD
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Tera Blast

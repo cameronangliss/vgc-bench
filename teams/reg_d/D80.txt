@@ -1,0 +1,66 @@
+Overqwil @ Choice Band
+Ability: Swift Swim
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Gunk Shot
+- Self-Destruct
+- Liquidation
+- Aqua Jet
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+
+Dragonite @ Silk Scarf
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 132 HP / 252 Atk / 12 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Outrage
+- Dragon Tail
+
+Basculegion (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Protect
+- Last Respects
+- Wave Crash
+- Aqua Jet
+
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 100 Def / 116 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Hurricane
+- Tailwind
+- Wide Guard
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 236 Atk / 4 Def / 28 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Rock Slide

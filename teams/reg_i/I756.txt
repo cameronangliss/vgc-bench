@@ -1,0 +1,70 @@
+Bastiodon @ Electric Seed
+Ability: Sturdy
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 196 HP / 76 Def / 236 SpD
+Sassy Nature
+IVs: 26 Atk / 4 SpA / 0 Spe
+- Wide Guard
+- Body Press
+- Fissure
+- Foul Play
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 84 Def / 196 SpA / 12 SpD / 108 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Dazzling Gleam
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Psychic
+- Astral Barrage
+- Protect
+- Pollen Puff
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Taunt
+- Detect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 172 HP / 4 Atk / 4 Def / 124 SpD / 204 Spe
+Jolly Nature
+- Fake Out
+- Knock Off
+- Parting Shot
+- Taunt
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 44 Def / 4 SpA / 172 SpD / 36 Spe
+Timid Nature
+IVs: 6 Atk
+- Fake Tears
+- Tailwind
+- Moonblast
+- Encore

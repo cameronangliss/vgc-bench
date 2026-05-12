@@ -1,0 +1,67 @@
+Iron Thorns @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Flying
+EVs: 196 HP / 180 Atk / 84 Def / 44 SpD / 4 Spe
+Impish Nature
+- Thunder Punch
+- Ice Punch
+- Rock Slide
+- Tera Blast
+
+Indeedee-F (F) @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Psychic
+EVs: 252 HP / 220 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Dazzling Gleam
+- Psychic
+- Follow Me
+
+Maushold @ Focus Sash
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Follow Me
+- Population Bomb
+- Super Fang
+- Chilling Water
+
+Annihilape @ Life Orb
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 116 Atk / 12 Def / 180 SpD / 4 Spe
+Careful Nature
+- Bulk Up
+- Drain Punch
+- Rage Fist
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 196 Def / 76 SpD
+Impish Nature
+- Reflect
+- Light Screen
+- Spirit Break
+- Taunt
+
+Armarouge @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 140 Def / 36 SpA / 76 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Mystical Fire
+- Wide Guard
+- Expanding Force
+- Trick Room

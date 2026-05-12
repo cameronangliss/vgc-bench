@@ -1,0 +1,74 @@
+Annihilape (M) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Coaching
+- U-turn
+
+Dragapult (M) @ Choice Band
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Outrage
+- Phantom Force
+- U-turn
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 20 Def / 196 SpA / 36 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Hyper Voice
+- Blood Moon
+- Vacuum Wave
+
+Farigiraf (M) @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 228 HP / 76 Def / 84 SpA / 116 SpD
+Modest Nature
+IVs: 0 Atk / 18 Spe
+- Psychic Noise
+- Trick Room
+- Hyper Voice
+- Helping Hand
+
+Smeargle (M) @ Focus Sash
+Ability: Own Tempo
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Follow Me
+- Decorate
+- Wide Guard
+
+Torkoal (M) @ Choice Specs
+Ability: Drought
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Weather Ball
+- Earth Power

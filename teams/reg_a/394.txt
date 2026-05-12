@@ -1,0 +1,69 @@
+Scovillain (M) @ Leftovers
+Ability: Moody
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 60 Def / 92 SpA / 76 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Flamethrower
+- Tera Blast
+- Giga Drain
+
+Maushold-Four @ Figy Berry
+Ability: Friend Guard
+Level: 50
+Tera Type: Normal
+EVs: 236 HP / 100 Def / 172 Spe
+Jolly Nature
+IVs: 0 Atk
+- Follow Me
+- Encore
+- Protect
+- Super Fang
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 132 Def / 116 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot
+
+Vaporeon (F) @ Sitrus Berry
+Ability: Water Absorb
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 124 Def / 92 SpA / 36 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Hydro Pump
+- Yawn
+- Haze
+
+Scizor (F) @ Assault Vest
+Ability: Technician
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Pounce
+- Bullet Punch
+- Tera Blast
+- U-turn
+
+Hydreigon (F) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Tailwind
+- Flash Cannon
+- Dark Pulse

@@ -1,0 +1,59 @@
+Beedrill @ Beedrillite
+Ability: Sniper
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Poison Jab
+- Drill Run
+- U-turn
+- Protect
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Aurora Veil
+- Freeze-Dry
+- Blizzard
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Rock Slide
+- Dragon Claw
+- Stomping Tantrum
+- Earthquake
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 15 Def / 19 SpD
+Bold Nature
+- Snarl
+- Overheat
+- Fake Out
+- Parting Shot
+
+Chesnaught @ Chesnaughtite
+Ability: Bulletproof
+Level: 50
+EVs: 32 HP / 18 Def / 16 SpD
+Relaxed Nature
+- Leech Seed
+- Spiky Shield
+- Drain Punch
+- Wood Hammer
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpA
+Modest Nature
+- Hydro Pump
+- Volt Switch
+- Protect
+- Will-O-Wisp

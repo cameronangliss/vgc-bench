@@ -1,0 +1,72 @@
+Koraidon @ Life Orb
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Close Combat
+- Flame Charge
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 236 HP / 4 Atk / 36 Def / 156 SpD / 76 Spe
+Careful Nature
+- Taunt
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Volcarona @ Grassy Seed
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 132 HP / 100 Def / 36 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Quiver Dance
+- Fiery Dance
+- Giga Drain
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Lunala @ Leftovers
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 220 HP / 84 Def / 100 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Calm Mind
+- Protect
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 196 HP / 60 Atk / 4 Def / 92 SpD / 156 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- U-turn
+- Grassy Glide

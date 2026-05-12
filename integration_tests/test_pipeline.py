@@ -102,8 +102,18 @@ class TestPipeline:
         assert isinstance(sample.obs, DictObs)
         assert "observation" in sample.obs._d
         assert "action_mask" in sample.obs._d
-        assert sample.obs._d["action_mask"].shape[1] == 2 * act_len
-        assert np.all(sample.obs._d["action_mask"] == 1)
+        mask = sample.obs._d["action_mask"]
+        assert mask.shape[1] == 2 * act_len
+        assert np.all(mask[:, 47:87] == 0)
+        assert np.all(mask[:, act_len + 47 : act_len + 87] == 0)
+        assert np.all(
+            np.delete(
+                mask,
+                list(range(47, 87)) + list(range(act_len + 47, act_len + 87)),
+                axis=1,
+            )
+            == 1
+        )
 
         # Create a minimal PPO + BC setup and train 1 epoch
         env = ShowdownEnv(
@@ -161,6 +171,6 @@ class TestPipeline:
             team1=None,
             team2=None,
             results_suffix="test",
-            total_timesteps=3072,
+            total_steps=3072,
             evaluate=False,
         )

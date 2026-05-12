@@ -42,14 +42,13 @@ from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.teams import RandomTeamBuilder
 from vgc_bench.src.utils import (
     abilities,
-    format_map,
+    get_reg_from_format,
+    is_vgc_format,
     items,
     move_obs_len,
     moves,
     pokemon_obs_len,
 )
-
-_reverse_format_map = {v: k for k, v in format_map.items()}
 
 
 class PolicyPlayer(Player):
@@ -68,7 +67,9 @@ class PolicyPlayer(Player):
     def __init__(
         self,
         policy: BasePolicy | None = None,
-        accepted_formats: set[str] | None = None,
+        accept_all_formats: bool = False,
+        deterministic: bool = False,
+        invitee: str | None = None,
         *args: Any,
         **kwargs: Any,
     ):
@@ -77,35 +78,39 @@ class PolicyPlayer(Player):
 
         Args:
             policy: Neural network policy (can be set later via set_policy).
-            accepted_formats: If set, accept challenges of any of these formats
-                instead of only ``battle_format``. Requires the team builder to
-                be in multi-reg mode (``reg=None``) so the correct
-                regulation's teams are yielded.
+            accept_all_formats: If True, accept challenges in any recognized
+                VGC format instead of only ``battle_format``. Requires the
+                team builder to be in multi-reg mode (``reg=None``) so the
+                correct regulation's teams are yielded.
+            deterministic: If True, always pick the highest-probability action
+                instead of sampling from the distribution.
             *args: Additional arguments for Player base class.
             **kwargs: Additional keyword arguments for Player base class.
         """
         super().__init__(*args, **kwargs)
         self.policy = policy
-        self._accepted_formats = accepted_formats
+        self._accept_all_formats = accept_all_formats
+        self.deterministic = deterministic
+        self.invitee = invitee
 
     async def _handle_challenge_request(self, split_message: list[str]):
         """Accept challenge requests, optionally for any recognized format."""
-        if self._accepted_formats is None:
+        if not self._accept_all_formats:
             return await super()._handle_challenge_request(split_message)
         challenging_player = split_message[2].strip()
         if challenging_player != self.username:
             if len(split_message) >= 6:
                 fmt = split_message[5]
-                if fmt in self._accepted_formats:
+                if is_vgc_format(fmt):
                     await self._challenge_queue.put((challenging_player, fmt))
 
     async def _update_challenges(self, split_message: list[str]):
         """Queue challenges, optionally accepting any recognized format."""
-        if self._accepted_formats is None:
+        if not self._accept_all_formats:
             return await super()._update_challenges(split_message)
         challenges = json.loads(split_message[2]).get("challengesFrom", {})
         for user, fmt in challenges.items():
-            if fmt in self._accepted_formats:
+            if is_vgc_format(fmt):
                 await self._challenge_queue.put((user, fmt))
 
     async def _accept_challenges(
@@ -115,7 +120,7 @@ class PolicyPlayer(Player):
         packed_team: str | None,
     ):
         """Accept challenges, setting format and team reg before each."""
-        if self._accepted_formats is None:
+        if not self._accept_all_formats:
             return await super()._accept_challenges(opponent, n_challenges, packed_team)
         if opponent:
             if isinstance(opponent, list):
@@ -138,7 +143,7 @@ class PolicyPlayer(Player):
                         isinstance(self._team, RandomTeamBuilder)
                         and self._team.available_regs is not None
                     ):
-                        self._team.current_reg = _reverse_format_map[fmt]
+                        self._team.current_reg = get_reg_from_format(fmt)
                     team = packed_team or self.next_team
                     await self.ps_client.accept_challenge(username, team)
                     await self._battle_semaphore.acquire()
@@ -147,17 +152,34 @@ class PolicyPlayer(Player):
 
     async def _create_battle(self, split_message: list[str]):
         """Create a battle, accepting any recognized format if configured."""
-        if self._accepted_formats is None:
-            return await super()._create_battle(split_message)
-        fmt = split_message[1]
-        if fmt in self._accepted_formats:
-            saved = self._format
-            self._format = fmt
+        if not self._accept_all_formats:
+            battle = await super()._create_battle(split_message)
+        elif is_vgc_format(split_message[1]):
+            saved = self.format
+            self._format = split_message[1]
             try:
-                return await super()._create_battle(split_message)
+                battle = await super()._create_battle(split_message)
             finally:
                 self._format = saved
-        return await super()._create_battle(split_message)
+        else:
+            battle = await super()._create_battle(split_message)
+        if self.invitee is not None and "bo3" not in self.format:
+            await self.ps_client.send_message(
+                f"/invite {self.invitee}", battle.battle_tag
+            )
+        return battle
+
+    async def _handle_bestof_message(self, split_messages):
+        """Handle best-of series messages, inviting spectator to the lobby."""
+        if self.invitee is not None:
+            game_tag = split_messages[0][0][1:]  # strip >
+            for split_message in split_messages[1:]:
+                if len(split_message) >= 2 and split_message[1] == "init":
+                    await self.ps_client.send_message(
+                        f"/invite {self.invitee}", room=game_tag
+                    )
+                    break
+        await super()._handle_bestof_message(split_messages)
 
     def set_policy(self, policy_file: str | Path, device: torch.device):
         """
@@ -205,7 +227,9 @@ class PolicyPlayer(Player):
                     mask, device=self.policy.device
                 ).unsqueeze(0),
             }
-            action, _, _ = self.policy.forward(obs_dict)  # type: ignore
+            action, _, _ = self.policy.forward(
+                obs_dict, deterministic=self.deterministic
+            )
         action = action.cpu().numpy()[0]
         return DoublesEnv.action_to_order(action, battle)
 
@@ -262,9 +286,6 @@ class PolicyPlayer(Player):
         opp_side = PolicyPlayer.embed_side(battle, opp_fake_rating, opp=True)
         a1, a2 = battle.active_pokemon
         o1, o2 = battle.opponent_active_pokemon
-        assert battle.teampreview == (
-            len([p for p in battle.team.values() if p.selected_in_teampreview]) < 4
-        )
         pokemons = [
             PolicyPlayer.embed_pokemon(
                 p,
@@ -306,11 +327,15 @@ class PolicyPlayer(Player):
             min(battle.turn - battle.fields[f], 8) / 8 if f in battle.fields else 0
             for f in Field
         ]
+        champions_format = float(
+            battle.format is not None and "champions" in battle.format
+        )
         teampreview = float(battle.teampreview)
         reviving = float(battle.reviving)
         commanding = float(battle.commanding)
         return np.array(
-            [*weather, *fields, teampreview, reviving, commanding], dtype=np.float32
+            [*weather, *fields, champions_format, teampreview, reviving, commanding],
+            dtype=np.float32,
         )
 
     @staticmethod
@@ -336,7 +361,7 @@ class PolicyPlayer(Player):
             battle.opponent_used_mega_evolve,
             battle.opponent_used_z_move,
             battle.opponent_used_dynamax,
-            battle._opponent_used_tera,
+            battle.opponent_used_tera,
         ]
         side_conds = battle.opponent_side_conditions if opp else battle.side_conditions
         side_conditions = [
@@ -392,10 +417,12 @@ class PolicyPlayer(Player):
         move_embeds = np.concatenate(move_embeds)
         types = [float(t in pokemon.base_types) for t in PokemonType]
         tera_type = [float(t == pokemon.tera_type) for t in PokemonType]
+        base_stats = [s / 255 for s in pokemon.base_stats.values()]
         if from_opponent:
-            stats = [s / 255 for s in pokemon.base_stats.values()]
+            stats = [-1] * 6
         else:
-            stats = [(0 if s is None else s / 255) for s in pokemon.stats.values()]
+            stats = [s / 255 for s in pokemon.stats.values() if s is not None]
+            assert len(stats) == 6
         gender = [float(g == pokemon.gender) for g in PokemonGender]
         weight = pokemon.weight / 1000
         # volatile fields
@@ -423,6 +450,7 @@ class PolicyPlayer(Player):
                 *move_embeds,
                 *types,
                 *tera_type,
+                *base_stats,
                 *stats,
                 *gender,
                 weight,
@@ -576,7 +604,9 @@ class BatchPolicyPlayer(PolicyPlayer):
                     "observation": torch.as_tensor(obs, device=self.policy.device),
                     "action_mask": torch.as_tensor(masks, device=self.policy.device),
                 }
-                actions, _, _ = self.policy.forward(obs_dict)  # type: ignore
+                actions, _, _ = self.policy.forward(
+                    obs_dict, deterministic=self.deterministic
+                )
             actions = actions.cpu().numpy()
 
             # dispatch

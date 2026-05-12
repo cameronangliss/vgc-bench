@@ -1,0 +1,69 @@
+Barraskewda (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 252 Atk / 20 Def / 28 SpD / 108 Spe
+Adamant Nature
+- Liquidation
+- Ice Fang
+- Tera Blast
+- Protect
+
+Pelipper (M) @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 196 SpA / 60 Spe
+Modest Nature
+IVs: 18 Atk
+- Hurricane
+- Chilling Water
+- Tailwind
+- Wide Guard
+
+Gholdengo @ Focus Sash
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunder
+- Protect
+
+Toxicroak (M) @ Assault Vest
+Ability: Dry Skin
+Level: 50
+Tera Type: Dark
+EVs: 140 HP / 252 Atk / 36 Def / 68 SpD / 12 Spe
+Adamant Nature
+- Poison Jab
+- Drain Punch
+- Sucker Punch
+- Protect
+
+Amoonguss (M) @ Wiki Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 156 Def / 108 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Clear Smog
+- Rage Powder
+- Spore
+- Protect
+
+Farigiraf (M) @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Normal
+EVs: 36 HP / 8 Atk / 220 Def / 44 SpA / 196 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Hyper Voice
+- Helping Hand
+- Trick Room
+- Imprison

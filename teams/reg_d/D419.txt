@@ -1,0 +1,68 @@
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- U-turn
+
+Landorus-Therian @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 252 Def / 28 Spe
+Impish Nature
+- Protect
+- Taunt
+- U-turn
+- Stomping Tantrum
+
+Tornadus @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 244 SpA / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Rain Dance
+- Bleakwind Storm
+- Icy Wind
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 196 Atk / 12 Def / 132 SpD / 36 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- U-turn
+- Stomping Tantrum
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 220 HP / 4 Def / 204 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Nasty Plot
+- Shadow Ball
+- Protect
+
+Thundurus-Therian @ Life Orb
+Ability: Volt Absorb
+Level: 50
+Tera Type: Flying
+EVs: 92 HP / 12 Def / 84 SpA / 68 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Volt Switch
+- Tera Blast
+- Protect

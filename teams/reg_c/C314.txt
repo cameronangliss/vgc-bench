@@ -1,0 +1,66 @@
+Dragapult @ Life Orb
+Ability: Clear Body
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Phantom Force
+- Substitute
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 188 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Tera Blast
+- Extreme Speed
+- Dragon Claw
+- Thunder Punch
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Azumarill @ Assault Vest
+Ability: Huge Power
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 252 Atk / 44 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Liquidation
+- Play Rough
+- Aqua Jet
+- Superpower
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 4 Def / 132 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Thunderbolt
+- Nasty Plot
+- Protect
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Atk / 92 Def / 68 SpD / 100 Spe
+Jolly Nature
+- Flare Blitz
+- Extreme Speed
+- Howl
+- Protect

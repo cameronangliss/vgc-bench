@@ -1,0 +1,70 @@
+Archaludon (F) @ Assault Vest
+Ability: Stamina
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 12 Def / 124 SpA / 116 SpD / 4 Spe
+Modest Nature
+IVs: 9 Atk
+- Flash Cannon
+- Dragon Pulse
+- Electro Shot
+- Body Press
+
+Araquanid (F) @ Clear Amulet
+Ability: Water Bubble
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+IVs: 27 Spe
+- Liquidation
+- Leech Life
+- Substitute
+- Protect
+
+Sinistcha @ Mental Herb
+Ability: Heatproof
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 188 Def / 68 SpD
+Relaxed Nature
+IVs: 0 Atk / 2 Spe
+- Matcha Gotcha
+- Calm Mind
+- Strength Sap
+- Trick Room
+
+Farigiraf (M) @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 180 HP / 76 Def / 252 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Uproar
+- Psychic Noise
+- Rain Dance
+- Trick Room
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 156 Def / 76 SpD / 36 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Urshifu-Rapid-Strike (M) @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Ice Spinner
+- U-turn

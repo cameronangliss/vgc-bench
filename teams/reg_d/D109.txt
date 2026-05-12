@@ -1,0 +1,70 @@
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 116 Atk / 156 Def / 100 SpD
+Brave Nature
+IVs: 0 SpA / 0 Spe
+- Drain Punch
+- Wood Hammer
+- Knock Off
+- U-turn
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Dazzling Gleam
+- Protect
+- Follow Me
+
+Misdreavus @ Eviolite
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Taunt
+- Will-O-Wisp
+- Foul Play
+
+Pincurchin @ Focus Sash
+Ability: Electric Surge
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 228 Atk / 28 SpA
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Sucker Punch
+- Hydro Pump
+- Spark
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 196 Def / 60 SpD
+Careful Nature
+- Reflect
+- Light Screen
+- Parting Shot
+- Spirit Break
+
+Goodra-Hisui @ Leftovers
+Ability: Shell Armor
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 236 Def / 76 SpD
+Sassy Nature
+IVs: 0 Spe
+- Acid Armor
+- Protect
+- Body Press
+- Heavy Slam

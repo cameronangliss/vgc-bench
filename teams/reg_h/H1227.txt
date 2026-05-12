@@ -1,0 +1,70 @@
+Palossand @ Weakness Policy
+Ability: Water Compaction
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 156 SpA / 100 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Amnesia
+- Earth Power
+- Shadow Ball
+- Shore Up
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 116 HP / 140 Def / 252 Spe
+Jolly Nature
+IVs: 0 Atk
+- Spore
+- Follow Me
+- Spiky Shield
+- Water Shuriken
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 236 HP / 204 Atk / 4 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Low Kick
+- Tera Blast
+- Knock Off
+- Rock Slide
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Trick Room
+- Dazzling Gleam
+- Helping Hand
+
+Espathra @ Twisted Spoon
+Ability: Speed Boost
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 4 Def / 252 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Psych Up
+- Stored Power
+- Protect
+- Expanding Force
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 236 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Acrobatics
+- Close Combat
+- Swords Dance
+- Protect

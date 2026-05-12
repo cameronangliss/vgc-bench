@@ -1,0 +1,70 @@
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ground
+EVs: 172 HP / 172 Atk / 60 Def / 100 SpD
+Adamant Nature
+- Headlong Rush
+- Facade
+- Bulk Up
+- Protect
+
+Cresselia @ Covert Cloak
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 4 SpA / 92 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Moonblast
+- Helping Hand
+- Trick Room
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 188 HP / 196 Atk / 4 Def / 116 SpD
+Adamant Nature
+IVs: 20 Spe
+- Drain Punch
+- Fake Out
+- Wild Charge
+- Volt Switch
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 76 Def / 84 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Mystical Fire
+- Moonblast
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 132 Def / 4 SpA / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Rage Powder
+- Spore
+- Protect

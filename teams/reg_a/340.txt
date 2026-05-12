@@ -1,0 +1,67 @@
+Lycanroc (M) @ Choice Band
+Ability: Sand Rush
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Tera Blast
+- Play Rough
+- Drill Run
+
+Tyranitar (F) @ Weakness Policy
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Rock Slide
+- Tera Blast
+- Helping Hand
+- Protect
+
+Garchomp (F) @ Sitrus Berry
+Ability: Sand Veil
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Atk / 100 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Swords Dance
+- Protect
+
+Sableye (M) @ Air Balloon
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 116 Def / 140 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Reflect
+- Encore
+- Disable
+
+Sylveon (M) @ Babiri Berry
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 188 Def / 76 SpA
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Helping Hand
+- Yawn
+- Protect
+
+Kingambit (M) @ Life Orb
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 156 HP / 252 Atk / 100 Spe
+Adamant Nature
+- Iron Head
+- Low Kick
+- Sucker Punch
+- Protect

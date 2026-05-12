@@ -1,0 +1,67 @@
+Kyogre @ Choice Scarf
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Waterfall
+- Hydro Pump
+- Thunder
+- Ice Beam
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 236 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Clear Smog
+- Spore
+- Rage Powder
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 252 Def / 68 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Iron Defense
+- Protect
+
+Iron Jugulis @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ground
+EVs: 164 HP / 4 Def / 68 SpA / 180 SpD / 92 Spe
+Timid Nature
+IVs: 0 Atk
+- Snarl
+- Hurricane
+- Tailwind
+- Protect
+
+Ceruledge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 252 Atk / 28 Spe
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Tera Blast
+- Protect
+
+Zebstrika @ Focus Sash
+Ability: Lightning Rod
+Level: 50
+Tera Type: Ghost
+EVs: 196 HP / 4 Atk / 44 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Supercell Slam
+- Taunt
+- Screech
+- Protect

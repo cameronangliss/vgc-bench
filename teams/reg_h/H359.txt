@@ -1,0 +1,73 @@
+Pelipper (M) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Archaludon (M) @ Assault Vest
+Ability: Stamina
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 244 HP / 20 Def / 36 SpA / 156 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Flash Cannon
+- Body Press
+- Draco Meteor
+
+Rillaboom (M) @ Loaded Dice
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 148 HP / 116 Atk / 4 Def / 164 SpD / 76 Spe
+Adamant Nature
+- Bullet Seed
+- Grassy Glide
+- Fake Out
+- Taunt
+
+Basculegion @ Life Orb
+Ability: Swift Swim
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Metagross @ Choice Band
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Iron Head
+- Psychic Fangs
+- Knock Off
+- Bullet Punch
+
+Overqwil (M) @ Clear Amulet
+Ability: Swift Swim
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Crunch
+- Poison Jab
+- Haze
+- Protect

@@ -1,0 +1,59 @@
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Timid Nature
+- Protect
+- Perish Song
+- Disable
+- Shadow Ball
+
+Politoed @ Wacan Berry
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 13 Def / 1 SpA / 20 SpD / 1 Spe
+Calm Nature
+- Protect
+- Helping Hand
+- Muddy Water
+- Perish Song
+
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Wave Crash
+- Flip Turn
+- Last Respects
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpA / 28 SpD / 4 Spe
+Bold Nature
+- Electro Shot
+- Snarl
+- Draco Meteor
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 1 Atk / 17 Def / 14 SpD / 3 Spe
+Careful Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Sinistcha @ Mental Herb
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Calm Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Protect

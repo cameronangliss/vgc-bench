@@ -1,0 +1,66 @@
+Baxcalibur @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Shard
+- Icicle Spear
+- Scale Shot
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Coaching
+- Fake Out
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 180 HP / 252 Atk / 12 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Tera Blast
+
+Gastrodon @ Sitrus Berry
+Ability: Storm Drain
+Level: 50
+Tera Type: Fairy
+EVs: 172 HP / 252 Def / 84 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Earth Power
+- Clear Smog
+- Yawn
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 12 Def / 36 SpA / 4 SpD / 236 Spe
+Modest Nature
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 12 Def / 4 SpD / 124 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- High Horsepower

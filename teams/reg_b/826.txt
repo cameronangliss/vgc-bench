@@ -1,0 +1,70 @@
+Hariyama @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+IVs: 29 Spe
+- Close Combat
+- Knock Off
+- Wide Guard
+- Fake Out
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 76 Atk / 212 SpD
+Adamant Nature
+- Thunder Punch
+- Drain Punch
+- Ice Punch
+- Swords Dance
+
+Hydreigon @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Snarl
+- Protect
+
+Iron Jugulis @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Flying
+EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Air Slash
+- Snarl
+- Protect
+
+Misdreavus @ Eviolite
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 188 Def / 68 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Hex
+- Will-O-Wisp
+- Trick Room
+- Pain Split
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect

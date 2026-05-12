@@ -1,0 +1,67 @@
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Sludge Bomb
+- Power Gem
+- Mortal Spin
+- Spiky Shield
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 108 HP / 4 Def / 140 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Substitute
+- Protect
+
+Tatsugiri @ Ability Shield
+Ability: Commander
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 92 Def / 76 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Helping Hand
+- Protect
+
+Ting-Lu @ Figy Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 12 Def / 252 SpD
+Careful Nature
+- Throat Chop
+- Ruination
+- Sand Tomb
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Fairy
+EVs: 28 HP / 4 Atk / 236 Def / 4 SpD / 236 Spe
+Impish Nature
+- Wave Crash
+- Body Press
+- Substitute
+- Protect
+
+Groudon @ Choice Scarf
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 252 Spe
+Timid Nature
+- Earthquake
+- Eruption
+- Earth Power
+- Crunch

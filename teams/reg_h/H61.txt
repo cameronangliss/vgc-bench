@@ -1,0 +1,67 @@
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- High Horsepower
+- Iron Head
+- Horn Drill
+- Protect
+
+Tyranitar @ Weakness Policy
+Ability: Sand Stream
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+- Rock Slide
+- Lash Out
+- Low Kick
+- Protect
+
+Meowscarada @ Choice Band
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- U-turn
+
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Heat Wave
+- Flamethrower
+- Shadow Ball
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 164 HP / 4 Def / 252 SpA / 84 SpD / 4 Spe
+Modest Nature
+- Blood Moon
+- Hyper Voice
+- Earthquake
+- Vacuum Wave
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 156 Def / 124 SpD
+Relaxed Nature
+IVs: 2 Atk
+- Psychic Noise
+- Bulldoze
+- Helping Hand
+- Trick Room

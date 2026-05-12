@@ -1,0 +1,69 @@
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Earthquake
+- Outrage
+- Iron Head
+- Extreme Speed
+
+Coalossal @ Weakness Policy
+Ability: Steam Engine
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Flare Blitz
+- Explosion
+- Protect
+
+Azumarill @ Wiki Berry
+Ability: Sap Sipper
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 116 Def / 140 SpD
+Relaxed Nature
+IVs: 2 Spe
+- Aqua Jet
+- Charm
+- Perish Song
+- Protect
+
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 0 Spe
+- Fake Out
+- Heal Pulse
+- Trick Room
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 244 Atk / 188 SpD
+Brave Nature
+IVs: 0 Spe
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Volt Switch
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 44 Def / 228 SpD
+Calm Nature
+IVs: 0 Atk
+- Taunt
+- Screech
+- Perish Song
+- Tailwind

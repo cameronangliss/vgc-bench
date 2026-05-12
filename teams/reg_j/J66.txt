@@ -1,0 +1,67 @@
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 12 HP / 244 Def / 252 Spe
+Jolly Nature
+- Follow Me
+- Thunder Wave
+- Feint
+- Protect
+
+Kyogre @ Splash Plate
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Ice Beam
+- Origin Pulse
+- Protect
+
+Arceus @ Silk Scarf
+Ability: Multitype
+Level: 50
+Tera Type: Ghost
+EVs: 148 HP / 236 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Extreme Speed
+- Shadow Claw
+- Swords Dance
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Tornadus @ Safety Goggles
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 100 HP / 132 Def / 156 SpA / 28 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Rain Dance
+- Tailwind
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 36 Atk / 52 Def / 116 SpD / 84 Spe
+Adamant Nature
+- Wood Hammer
+- Fake Out
+- Grassy Glide
+- U-turn

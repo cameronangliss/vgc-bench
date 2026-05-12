@@ -1,0 +1,68 @@
+Primarina @ Grassy Seed
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 164 HP / 124 Def / 156 SpA / 60 SpD / 4 Spe
+Modest Nature
+- Protect
+- Calm Mind
+- Moonblast
+- Hyper Voice
+
+Kommo-o @ Safety Goggles
+Ability: Bulletproof
+Level: 50
+Tera Type: Steel
+EVs: 204 HP / 156 Def / 148 SpD
+Impish Nature
+- Iron Defense
+- Body Press
+- Protect
+- Throat Chop
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 172 HP / 4 Atk / 140 Def / 164 SpD / 28 Spe
+Careful Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Knock Off
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 252 HP / 132 Def / 124 SpD
+Bold Nature
+IVs: 29 Spe
+- Tera Blast
+- Eerie Impulse
+- Recover
+- Trick Room
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 124 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Trick

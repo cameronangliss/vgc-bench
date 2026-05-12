@@ -1,0 +1,68 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 140 HP / 116 Def / 252 SpD
+Impish Nature
+- Liquidation
+- Fissure
+- Yawn
+- Protect
+
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 204 Def / 36 SpA / 4 SpD / 140 Spe
+Modest Nature
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 44 Def / 156 SpD / 52 Spe
+Careful Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 124 Atk / 132 SpD
+Adamant Nature
+IVs: 18 SpA
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 26 SpA
+- Dragon Darts
+- Outrage
+- Phantom Force
+- U-turn
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 4 SpA
+- Dire Claw
+- Close Combat
+- Fake Out
+- Coaching

@@ -1,0 +1,66 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 12 Def / 196 SpA / 4 SpD / 156 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Snarl
+
+Ho-Oh @ Life Orb
+Ability: Regenerator
+Level: 50
+Tera Type: Ground
+EVs: 140 HP / 252 Atk / 116 Spe
+Adamant Nature
+- Sacred Fire
+- Brave Bird
+- Tera Blast
+- Protect
+
+Urshifu-Rapid-Strike @ Iron Ball
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Surging Strikes
+- Aqua Jet
+- Fling
+- Detect
+
+Ditto @ Focus Sash
+Ability: Imposter
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 30 Atk
+- Transform
+
+Whimsicott @ Eject Button
+Ability: Prankster
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Light Screen
+- Protect
+- Tailwind
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 228 Atk / 76 Def / 108 SpD / 8 Spe
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Wild Charge
+- Low Kick
+- Fake Out

@@ -1,0 +1,69 @@
+Spiritomb (M) @ Roseli Berry
+Ability: Infiltrator
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 108 SpA / 148 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Will-O-Wisp
+- Snarl
+- Trick Room
+- Pain Split
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fighting
+EVs: 252 Atk / 4 Def / 252 SpD
+Adamant Nature
+IVs: 0 Spe
+- Fake Out
+- Ice Punch
+- Drain Punch
+- Thunder Punch
+
+Scizor (M) @ Choice Band
+Ability: Technician
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Thief
+- Close Combat
+- Bullet Punch
+- U-turn
+
+Pelipper (F) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Hurricane
+- Hydro Pump
+- Wide Guard
+- U-turn
+
+Farigiraf (F) @ Mental Herb
+Ability: Armor Tail
+Level: 50
+Tera Type: Poison
+EVs: 180 HP / 188 Def / 76 SpA / 60 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Trick Room
+- Psychic
+- Dazzling Gleam
+
+Pincurchin (F) @ Eject Button
+Ability: Electric Surge
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Thunder
+- Protect
+- Hydro Pump
+- Thunderbolt

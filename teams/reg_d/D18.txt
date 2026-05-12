@@ -1,0 +1,67 @@
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 236 Atk / 4 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Protect
+- Jet Punch
+- Wave Crash
+- Haze
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 196 Atk / 4 Def / 44 SpD / 20 Spe
+Adamant Nature
+- Drum Beating
+- U-turn
+- Knock Off
+- Fake Out
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 236 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Earth Power
+- Substitute
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 188 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Lunar Blessing
+- Trick Room
+- Helping Hand
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 156 Atk / 12 Def / 124 SpD / 4 Spe
+Adamant Nature
+- Protect
+- Facade
+- Headlong Rush
+- Close Combat
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch

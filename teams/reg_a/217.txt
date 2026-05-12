@@ -1,0 +1,68 @@
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 92 Def / 4 SpA / 148 SpD / 12 Spe
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Icy Wind
+- Tailwind
+- Haze
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Swords Dance
+- Protect
+
+Breloom @ Focus Sash
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Bullet Seed
+- Mach Punch
+- Protect
+- Spore
+
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 76 HP / 4 Def / 164 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Snarl
+- Heat Wave
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 4 Def / 36 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Focus Blast
+- Trick
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 76 Atk / 4 Def / 124 SpD / 60 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Play Rough
+- Protect

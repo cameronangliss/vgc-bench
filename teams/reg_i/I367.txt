@@ -1,0 +1,68 @@
+Lugia @ Electric Seed
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Calm Mind
+- Recover
+- Aeroblast
+- Protect
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 28 HP / 252 SpA / 228 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Dazzling Gleam
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 164 Atk / 64 Def / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Low Kick
+- Drain Punch
+- Fake Out
+- Heavy Slam
+
+Entei @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Sacred Fire
+- Crunch
+- Stone Edge
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Throat Chop
+- Protect
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 60 SpA / 24 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Encore
+- Light Screen
+- Moonblast

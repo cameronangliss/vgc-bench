@@ -1,0 +1,67 @@
+Farigiraf @ Mental Herb
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 132 Def / 132 SpD
+Calm Nature
+- Helping Hand
+- Trick Room
+- Dazzling Gleam
+- Psychic
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 108 HP / 4 Def / 252 SpA / 4 SpD / 140 Spe
+Modest Nature
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 148 HP / 164 Atk / 4 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Stomping Tantrum
+- Spiky Shield
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 140 SpD
+Adamant Nature
+IVs: 27 Spe
+- Flare Blitz
+- U-turn
+- Fake Out
+- Knock Off
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 36 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Taunt
+- Tailwind
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 236 Def / 36 SpD
+Bold Nature
+- Spore
+- Sludge Bomb
+- Protect
+- Rage Powder

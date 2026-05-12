@@ -1,0 +1,68 @@
+Bellibolt @ Weakness Policy
+Ability: Electromorphosis
+Level: 50
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Thunderbolt
+- Muddy Water
+- Discharge
+- Protect
+
+Toedscruel (M) @ Occa Berry
+Ability: Mycelium Might
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Def / 180 SpD
+Modest Nature
+IVs: 0 Atk
+- Energy Ball
+- Spore
+- Rage Powder
+- Trick Room
+
+Bronzong @ Covert Cloak
+Ability: Levitate
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 180 Def / 76 SpD
+Relaxed Nature
+IVs: 10 Atk / 0 Spe
+- Body Press
+- Bulldoze
+- Iron Defense
+- Trick Room
+
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Rage Fist
+- Final Gambit
+- Close Combat
+- U-turn
+
+Skeledirge (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 52 SpA / 204 SpD
+Modest Nature
+IVs: 0 Atk / 17 Spe
+- Torch Song
+- Shadow Ball
+- Will-O-Wisp
+- Slack Off
+
+Gyarados (F) @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Waterfall
+- Dragon Dance
+- Tera Blast
+- Protect

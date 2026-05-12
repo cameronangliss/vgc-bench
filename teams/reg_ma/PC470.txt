@@ -1,0 +1,59 @@
+Altaria @ Sitrus Berry
+Ability: Cloud Nine
+Level: 50
+EVs: 32 HP / 23 Atk / 1 Def / 1 SpD / 9 Spe
+Impish Nature
+- Tailwind
+- Will-O-Wisp
+- Brave Bird
+- Protect
+
+Basculegion (M) @ Mystic Water
+Ability: Adaptability
+Level: 50
+EVs: 6 HP / 18 Atk / 29 Def / 1 SpD / 12 Spe
+Adamant Nature
+- Last Respects
+- Protect
+- Aqua Jet
+- Wave Crash
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 1 Def / 1 SpD / 30 Spe
+Adamant Nature
+- Breaking Swipe
+- Rock Tomb
+- Stomping Tantrum
+- Earthquake
+
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 32 HP / 32 Atk / 1 SpD / 1 Spe
+Adamant Nature
+- Bullet Punch
+- Protect
+- Bug Bite
+- Swords Dance
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 31 HP / 20 Def / 10 SpA / 5 Spe
+Modest Nature
+- Quick Attack
+- Protect
+- Hyper Voice
+- Yawn
+
+Heliolisk @ Focus Sash
+Ability: Dry Skin
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Focus Blast
+- Ally Switch
+- Thunderbolt

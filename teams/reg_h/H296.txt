@@ -1,0 +1,69 @@
+Scrafty @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 172 Atk / 44 Def / 36 SpD
+Sassy Nature
+IVs: 0 Spe
+- Fake Out
+- Knock Off
+- Close Combat
+- Protect
+
+Mimikyu @ Mental Herb
+Ability: Disguise
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 36 Atk / 180 Def / 36 SpD
+Sassy Nature
+IVs: 0 Spe
+- Trick Room
+- Will-O-Wisp
+- Shadow Claw
+- Play Rough
+
+Metagross @ Assault Vest
+Ability: Clear Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Psychic Fangs
+- Bullet Punch
+- Heavy Slam
+- Stomping Tantrum
+
+Hydreigon @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Draco Meteor
+- Dragon Pulse
+- Dark Pulse
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flip Turn
+- Last Respects
+- Wave Crash
+- Soak
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Protect
+- Trick Room

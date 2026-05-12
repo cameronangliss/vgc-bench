@@ -1,0 +1,66 @@
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 252 Atk / 20 Def / 4 SpD / 4 Spe
+Jolly Nature
+- Rage Fist
+- Drain Punch
+- Protect
+- Bulk Up
+
+Talonflame @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Tailwind
+- Brave Bird
+- Will-O-Wisp
+- Flare Blitz
+
+Gyarados @ Lum Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 252 Atk / 196 Spe
+Jolly Nature
+- Dragon Dance
+- Waterfall
+- Tera Blast
+- Protect
+
+Cetitan @ Assault Vest
+Ability: Slush Rush
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+- Ice Shard
+- Ice Spinner
+- Liquidation
+- Heavy Slam
+
+Brute Bonnet @ Loaded Dice
+Ability: Protosynthesis
+Level: 50
+Tera Type: Dark
+EVs: 212 HP / 252 Atk / 12 Def / 28 SpD
+Adamant Nature
+- Spore
+- Rage Powder
+- Bullet Seed
+- Sucker Punch
+
+Abomasnow @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Blizzard
+- Aurora Veil
+- Energy Ball

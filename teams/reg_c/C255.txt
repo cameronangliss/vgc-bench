@@ -1,0 +1,68 @@
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 44 Atk / 60 Def / 132 SpD / 28 Spe
+Careful Nature
+- Brave Bird
+- Iron Head
+- Bulk Up
+- Tailwind
+
+Ting-Lu @ Choice Band
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Ground
+EVs: 164 HP / 236 Atk / 4 Def / 60 SpD / 44 Spe
+Adamant Nature
+- Stomping Tantrum
+- Earthquake
+- Throat Chop
+- Rock Slide
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 36 HP / 4 Def / 252 SpA / 4 SpD / 212 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Trick Room
+- Protect
+
+Iron Moth @ Choice Scarf
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Energy Ball
+- Acid Spray
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Icy Wind
+- Hydro Pump
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Flying
+EVs: 100 HP / 156 Atk / 252 SpD
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Volt Switch

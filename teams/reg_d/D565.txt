@@ -1,0 +1,68 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 164 HP / 76 Def / 68 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Protect
+
+Moltres-Galar @ Sitrus Berry
+Ability: Berserk
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 4 Def / 196 SpA / 4 SpD / 60 Spe
+Calm Nature
+IVs: 0 Atk
+- Fiery Wrath
+- Air Slash
+- Tailwind
+- Taunt
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 180 Def / 4 SpA / 76 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Clear Smog
+- Spore
+- Rage Powder
+
+Arcanine-Hisui @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 44 Atk / 4 Def / 36 SpD / 180 Spe
+Adamant Nature
+- Rock Slide
+- Flare Blitz
+- Extreme Speed
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 76 Atk / 4 Def / 236 SpD / 188 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+- Fake Out

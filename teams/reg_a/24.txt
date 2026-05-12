@@ -1,0 +1,67 @@
+Talonflame @ Expert Belt
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Brave Bird
+- Quick Guard
+- Tailwind
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 44 HP / 204 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Earthquake
+- Dragon Claw
+- Protect
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+EVs: 52 HP / 4 Def / 252 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Gyarados @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 116 Atk / 28 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Waterfall
+- Dragon Dance
+- Tera Blast
+- Protect
+
+Gardevoir @ Choice Scarf
+Ability: Telepathy
+Level: 50
+Tera Type: Fairy
+EVs: 60 Def / 196 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Psyshock
+- Trick
+
+Amoonguss @ Occa Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 116 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Clear Smog
+- Rage Powder
+- Spore
+- Protect

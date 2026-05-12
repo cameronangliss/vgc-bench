@@ -1,0 +1,68 @@
+Kleavor @ Rocky Helmet
+Ability: Sharpness
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 212 Atk / 4 Def / 4 SpD / 36 Spe
+Adamant Nature
+- Protect
+- X-Scissor
+- Stone Axe
+- Feint
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 4 Def / 156 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Sunny Day
+- Taunt
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 4 Def / 252 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Flash Cannon
+- Earth Power
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 68 Atk / 132 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Wood Hammer
+- Stomping Tantrum
+- U-turn
+- Fake Out
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 196 Def / 108 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Thunderbolt
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Detect
+- Close Combat
+- Wicked Blow
+- Sucker Punch

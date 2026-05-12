@@ -1,0 +1,67 @@
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Hyper Voice
+- Helping Hand
+- Trick Room
+
+Sylveon @ Leftovers
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 132 Def / 76 SpA / 12 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Calm Mind
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Flamethrower
+- Earth Power
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Protect
+- Clear Smog
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Phantom Force
+- Dragon Claw
+- U-turn
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 220 Atk / 36 SpD
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Tera Blast
+- Sucker Punch

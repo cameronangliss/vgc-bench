@@ -1,0 +1,69 @@
+Lucario @ Covert Cloak
+Ability: Justified
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Detect
+- Extreme Speed
+- Meteor Mash
+
+Maushold @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Jolly Nature
+- Beat Up
+- Taunt
+- Protect
+- Follow Me
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Ground
+EVs: 148 HP / 84 Def / 156 SpA / 4 SpD / 116 Spe
+Modest Nature
+- Hyper Voice
+- Tera Blast
+- Protect
+- Weather Ball
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 36 Def / 220 SpD
+Careful Nature
+IVs: 0 Atk
+- Tailwind
+- Rain Dance
+- Haze
+- Foul Play
+
+Zoroark-Hisui @ Choice Specs
+Ability: Illusion
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Hyper Voice
+- Bitter Malice
+- Tera Blast
+- Flamethrower
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 164 SpA / 68 SpD / 20 Spe
+Modest Nature
+- Draco Meteor
+- Electro Shot
+- Body Press
+- Flash Cannon

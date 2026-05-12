@@ -1,0 +1,70 @@
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 44 Def / 116 SpA / 52 SpD / 76 Spe
+Modest Nature
+- Electro Shot
+- Draco Meteor
+- Body Press
+- Protect
+
+Politoed @ Choice Specs
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Def / 236 SpA / 12 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Ice Beam
+- Tera Blast
+- Weather Ball
+
+Basculegion (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+IVs: 8 SpA
+- Aqua Jet
+- Wave Crash
+- Protect
+- Last Respects
+
+Vikavolt @ Magnet
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 6 Atk / 16 Spe
+- Thunderbolt
+- Bug Buzz
+- Protect
+- Discharge
+
+Bronzong @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Gyro Ball
+- Iron Defense
+- Body Press
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 140 HP / 156 Atk / 108 Def / 100 SpD
+Brave Nature
+IVs: 4 SpA / 0 Spe
+- Earthquake
+- Facade
+- Protect
+- Headlong Rush

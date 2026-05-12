@@ -1,0 +1,72 @@
+Tyranitar (F) @ Focus Sash
+Ability: Sand Stream
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Protect
+- Low Kick
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 132 HP / 116 Atk / 4 Def / 44 SpD / 212 Spe
+Adamant Nature
+- Grassy Glide
+- Fake Out
+- High Horsepower
+- Wood Hammer
+
+Clefable (F) @ Rocky Helmet
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 180 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk
+- Moonblast
+- Life Dew
+- Follow Me
+- Helping Hand
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 36 HP / 4 Def / 252 SpA / 4 SpD / 212 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Trick
+- Thunderbolt
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 236 HP / 116 Atk / 4 Def / 148 SpD / 4 Spe
+Adamant Nature
+- Parting Shot
+- Fake Out
+- Flare Blitz
+- Knock Off
+
+Kommo-o (F) @ Throat Spray
+Ability: Bulletproof
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 148 HP / 4 Def / 156 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Clanging Scales
+- Aura Sphere
+- Clangorous Soul
+- Protect

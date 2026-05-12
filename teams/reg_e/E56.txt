@@ -1,0 +1,67 @@
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 148 Def / 28 SpD / 4 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Swords Dance
+- Spiky Shield
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 52 HP / 196 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- U-turn
+- Rock Slide
+- Tera Blast
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 236 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk / 26 Spe
+- Sludge Bomb
+- Pollen Puff
+- Rage Powder
+- Spore
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 236 Def / 84 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 156 Atk / 4 Def / 212 SpD / 44 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Heavy Slam

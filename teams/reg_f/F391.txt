@@ -1,0 +1,68 @@
+Toxapex (F) @ Leftovers
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 252 HP / 192 Def / 64 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Recover
+- Baneful Bunker
+- Toxic
+- Infestation
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 252 Atk / 4 Def / 4 SpD / 220 Spe
+Adamant Nature
+- U-turn
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+
+Pelipper @ Rocky Helmet
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 4 Def / 4 SpA / 76 SpD / 172 Spe
+Calm Nature
+IVs: 0 Atk
+- Wide Guard
+- Hurricane
+- Tailwind
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Sucker Punch
+- Sacred Sword
+- Icicle Crash
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Electric
+EVs: 212 HP / 12 Def / 44 SpA / 180 SpD / 60 Spe
+Modest Nature
+- Electro Shot
+- Draco Meteor
+- Heavy Slam
+- Body Press
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Protect
+- Fake Out
+- Grassy Glide
+- Wood Hammer

@@ -1,0 +1,68 @@
+Suicune @ Sitrus Berry
+Ability: Inner Focus
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 116 Def / 44 SpA / 36 SpD / 68 Spe
+Bold Nature
+IVs: 0 Atk
+- Scald
+- Icy Wind
+- Tailwind
+- Snarl
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 60 HP / 196 Atk / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Grassy Glide
+- Stomping Tantrum
+- Spiky Shield
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Rock
+EVs: 132 HP / 252 Atk / 4 Def / 60 SpD / 60 Spe
+Adamant Nature
+- Grassy Glide
+- U-turn
+- Wood Hammer
+- Fake Out
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 252 SpA / 116 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunderbolt
+- Protect
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 196 Atk / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Tera Blast
+- Rock Slide
+- U-turn
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 100 Def / 116 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect

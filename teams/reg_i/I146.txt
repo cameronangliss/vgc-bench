@@ -1,0 +1,67 @@
+Miraidon @ Life Orb
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 28 HP / 4 Def / 220 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Protect
+
+Ho-Oh @ Clear Amulet
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 180 HP / 156 Atk / 92 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Sacred Fire
+- Brave Bird
+- Tailwind
+- Protect
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 244 Def / 92 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Foul Play
+- Helping Hand
+- Trick Room
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 36 HP / 156 Atk / 4 Def / 252 SpD / 60 Spe
+Adamant Nature
+- Fake Out
+- Wild Charge
+- Volt Switch
+- Drain Punch
+
+Iron Valiant @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 204 HP / 100 Def / 4 SpA / 28 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Wide Guard
+- Disable
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 188 HP / 252 Atk / 4 Def / 12 SpD / 52 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect

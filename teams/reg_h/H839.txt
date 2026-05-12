@@ -1,0 +1,65 @@
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 196 Def / 84 SpD
+Bold Nature
+- Protect
+- Rage Powder
+- Pollen Puff
+- Spore
+
+Hydreigon @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Earth Power
+- Draco Meteor
+- Snarl
+- Dark Pulse
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 4 Def / 60 SpD / 188 Spe
+Jolly Nature
+- Wave Crash
+- Jet Punch
+- Haze
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 4 Def / 132 SpA / 12 SpD / 228 Spe
+Modest Nature
+- Shadow Ball
+- Protect
+- Make It Rain
+- Nasty Plot
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Protect
+- Weather Ball
+- Tailwind
+- Hurricane
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 36 Atk / 52 Def / 92 SpD / 92 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn

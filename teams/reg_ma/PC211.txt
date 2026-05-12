@@ -1,0 +1,59 @@
+Meowscarada @ Choice Scarf
+Ability: Protean
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Triple Axel
+- Low Kick
+
+Delphox @ Delphoxite
+Ability: Magician
+Level: 50
+EVs: 15 HP / 15 Def / 6 SpA / 30 Spe
+Timid Nature
+- Heat Wave
+- Psychic
+- Encore
+- Protect
+
+Corviknight @ Occa Berry
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 6 Atk / 5 Def / 21 SpD / 2 Spe
+Impish Nature
+- Brave Bird
+- Taunt
+- Tailwind
+- Roost
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 32 HP / 17 Atk / 17 Spe
+Adamant Nature
+- Earthquake
+- Scale Shot
+- Rock Slide
+- Protect
+
+Sylveon @ Leftovers
+Ability: Pixilate
+Level: 50
+EVs: 32 HP / 29 SpA / 5 Spe
+Modest Nature
+- Hyper Voice
+- Substitute
+- Calm Mind
+- Protect
+
+Manectric @ Manectite
+Ability: Lightning Rod
+Level: 50
+EVs: 22 HP / 1 Def / 9 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Thunderbolt
+- Snarl
+- Thunder Wave
+- Protect

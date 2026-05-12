@@ -1,0 +1,69 @@
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 244 Def / 172 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 100 SpA / 148 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Meteor Beam
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 164 Atk / 252 Def
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 156 Def / 100 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Moonblast
+- Lunar Blessing
+- Trick Room
+- Helping Hand
+
+Clefable @ Rocky Helmet
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Helping Hand
+- Follow Me
+- Protect
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 36 HP / 220 Atk / 252 Spe
+Jolly Nature
+- Acrobatics
+- Knock Off
+- Tailwind
+- Protect

@@ -1,0 +1,67 @@
+Chien-Pao @ Sitrus Berry
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 108 Atk / 92 Def / 36 SpD / 36 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Haze
+
+Abomasnow @ Life Orb
+Ability: Snow Warning
+Level: 50
+Tera Type: Ice
+EVs: 252 HP / 4 Atk / 252 SpA
+Quiet Nature
+IVs: 0 Spe
+- Blizzard
+- Energy Ball
+- Ice Shard
+- Helping Hand
+
+Ting-Lu @ Weakness Policy
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 52 HP / 252 Atk / 204 SpD
+Adamant Nature
+- Earthquake
+- Tera Blast
+- Heavy Slam
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Low Kick
+- Tera Blast
+- Dragon Claw
+- Extreme Speed
+
+Masquerain @ Occa Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Haze
+- Struggle Bug
+- Aqua Jet
+- Power Split
+
+Iron Bundle @ Choice Specs
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind

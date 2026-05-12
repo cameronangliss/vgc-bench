@@ -1,0 +1,68 @@
+Arceus-Ghost @ Spooky Plate
+Ability: Multitype
+Level: 50
+Tera Type: Fairy
+EVs: 108 HP / 4 Def / 156 SpA / 12 SpD / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Judgment
+- Protect
+- Calm Mind
+- Dazzling Gleam
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 4 Atk / 180 Def / 52 SpD / 68 Spe
+Impish Nature
+- Body Press
+- Protect
+- Wide Guard
+- Heavy Slam
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 108 Def / 124 SpD / 20 Spe
+Careful Nature
+- Knock Off
+- Parting Shot
+- Fake Out
+- Will-O-Wisp
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 76 Def / 124 SpD / 20 Spe
+Adamant Nature
+- Wood Hammer
+- U-turn
+- Fake Out
+- Grassy Glide
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 196 HP / 4 Def / 252 SpA / 36 SpD / 20 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Protect
+- Thunderclap
+- Draco Meteor
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 212 Def / 44 SpD
+Bold Nature
+IVs: 0 Atk / 4 Spe
+- Pollen Puff
+- Clear Smog
+- Rage Powder
+- Spore

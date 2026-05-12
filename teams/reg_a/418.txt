@@ -1,0 +1,73 @@
+Annihilape (M) @ Choice Scarf
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Final Gambit
+- U-turn
+- Rage Fist
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 36 HP / 220 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Beat Up
+- Encore
+- Protect
+
+Indeedee-F @ Mirror Herb
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Psychic
+- Trick Room
+- Skill Swap
+
+Armarouge (M) @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 116 HP / 12 Def / 252 SpA / 4 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Heat Wave
+- Protect
+- Dark Pulse
+
+Torkoal (F) @ Choice Specs
+Ability: Drought
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Solar Beam
+- Earth Power
+
+Sylveon (F) @ Life Orb
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 228 HP / 12 Atk / 108 Def / 156 SpA / 4 SpD
+Quiet Nature
+- Hyper Voice
+- Quick Attack
+- Tera Blast
+- Substitute

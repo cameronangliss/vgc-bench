@@ -1,0 +1,68 @@
+Hydreigon (M) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 12 HP / 4 Def / 236 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Dark Pulse
+- Draco Meteor
+- Heat Wave
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Population Bomb
+- Tera Blast
+- Follow Me
+
+Gholdengo @ White Herb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 4 Def / 212 SpA / 4 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Taunt
+- Haze
+
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Earthquake
+- Dragon Claw
+- Rock Slide
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 4 Atk / 84 Def / 236 SpA / 20 SpD
+Quiet Nature
+- Protect
+- Hyper Voice
+- Quick Attack
+- Tera Blast

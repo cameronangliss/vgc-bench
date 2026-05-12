@@ -1,0 +1,71 @@
+Oranguru (F) @ Mental Herb
+Ability: Inner Focus
+Level: 50
+Tera Type: Psychic
+EVs: 108 HP / 156 Def / 244 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Instruct
+- Taunt
+- Foul Play
+
+Hariyama (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Dark
+EVs: 100 Atk / 172 Def / 236 SpD
+Adamant Nature
+IVs: 0 Spe
+- Fake Out
+- Close Combat
+- Knock Off
+- Rock Slide
+
+Kingambit (F) @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+
+Arboliva (F) @ Sitrus Berry
+Ability: Seed Sower
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 68 Def / 132 SpA / 52 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Strength Sap
+- Grass Knot
+- Earth Power
+
+Torkoal (F) @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Eruption
+- Heat Wave
+- Earth Power
+
+Lilligant @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- After You
+- Sleep Powder
+- Leaf Storm

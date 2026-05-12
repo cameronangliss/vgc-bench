@@ -1,0 +1,70 @@
+Cleffa @ Custap Berry
+Ability: Friend Guard
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Def / 252 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Helping Hand
+- Endeavor
+- Endure
+- Heal Pulse
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 140 Def / 116 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Life Dew
+- Helping Hand
+- Protect
+
+Clefable @ Rocky Helmet
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 252 Def / 28 Spe
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Moonblast
+- Life Dew
+- Helping Hand
+
+Arceus @ Silk Scarf
+Ability: Multitype
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Shadow Claw
+- Swords Dance
+- Protect
+
+Volcarona @ Charcoal
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 44 Def / 36 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Struggle Bug
+- Flamethrower
+- Quiver Dance
+
+Terapagos-Terastal @ Covert Cloak
+Ability: Tera Shift
+Level: 50
+Tera Type: Stellar
+EVs: 164 HP / 4 Def / 252 SpA / 28 SpD / 60 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Calm Mind
+- Flamethrower
+- Protect

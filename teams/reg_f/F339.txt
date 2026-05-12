@@ -1,0 +1,67 @@
+Weezing-Galar @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 4 Def / 164 SpD / 84 Spe
+Careful Nature
+- Strange Steam
+- Gunk Shot
+- Taunt
+- Protect
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Aurora Veil
+- Helping Hand
+- Moonblast
+- Misty Terrain
+
+Iron Bundle @ Choice Specs
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Blizzard
+- Hydro Pump
+- Icy Wind
+
+Incineroar @ Ability Shield
+Ability: Intimidate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 36 Atk / 220 SpD
+Adamant Nature
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Baxcalibur @ Assault Vest
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 116 Atk / 140 SpD
+Adamant Nature
+- Glaive Rush
+- Earthquake
+- Ice Shard
+- Icicle Crash
+
+Regigigas @ Choice Scarf
+Ability: Slow Start
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Crush Grip
+- High Horsepower
+- Heavy Slam
+- Knock Off

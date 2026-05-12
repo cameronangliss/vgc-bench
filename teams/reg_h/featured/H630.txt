@@ -1,0 +1,68 @@
+Dedenne @ Choice Specs
+Ability: Pickup
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Thunderbolt
+- Discharge
+- Volt Switch
+
+Dugtrio-Alola @ Choice Band
+Ability: Tangling Hair
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Iron Head
+- Earthquake
+- Stomping Tantrum
+- Sucker Punch
+
+Leafeon @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Knock Off
+- Solar Blade
+- Fake Tears
+- Protect
+
+Malamar @ Leftovers
+Ability: Contrary
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 60 Atk / 4 Def / 84 SpD / 108 Spe
+Adamant Nature
+- Throat Chop
+- Superpower
+- Topsy-Turvy
+- Protect
+
+Ninetales @ Wide Lens
+Ability: Drought
+Level: 50
+Tera Type: Flying
+EVs: 68 HP / 4 Def / 252 SpA / 4 SpD / 180 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Fire Blast
+- Hypnosis
+- Protect
+
+Noivern @ Covert Cloak
+Ability: Telepathy
+Level: 50
+Tera Type: Steel
+EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Air Slash
+- Draco Meteor
+- Tailwind
+- Protect

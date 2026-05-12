@@ -1,0 +1,67 @@
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Phantom Force
+- U-turn
+- Outrage
+
+Volcarona @ Choice Scarf
+Ability: Flame Body
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 52 Def / 196 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Struggle Bug
+- Will-O-Wisp
+
+Garchomp @ Soft Sand
+Ability: Rough Skin
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Protect
+
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 68 Def / 12 SpD / 60 Spe
+Adamant Nature
+- Dual Wingbeat
+- Bulk Up
+- Tailwind
+- Roost
+
+Slaking @ Life Orb
+Ability: Truant
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Double-Edge
+- High Horsepower
+- Knock Off
+- Sucker Punch
+
+Weezing-Galar @ Focus Sash
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 4 Def / 204 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Dazzling Gleam
+- Flamethrower
+- Protect

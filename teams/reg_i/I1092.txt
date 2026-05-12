@@ -1,0 +1,69 @@
+Kyogre @ Choice Specs
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 236 SpA / 244 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Ice Beam
+- Hydro Pump
+- Origin Pulse
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Grass
+EVs: 12 HP / 4 Atk / 236 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Imprison
+- Wide Guard
+- Heavy Slam
+- Body Press
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Sucker Punch
+- Ruination
+- Icicle Crash
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 188 HP / 196 Def / 8 SpA / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Trick Room
+- Helping Hand
+- Psychic
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 196 HP / 156 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk
+- Tailwind
+- Taunt
+- Rain Dance
+- Hurricane
+
+Rhyperior (F) @ Assault Vest
+Ability: Lightning Rod
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 84 Atk / 196 SpD
+Sassy Nature
+IVs: 0 Spe
+- Rock Slide
+- High Horsepower
+- Megahorn
+- Crunch

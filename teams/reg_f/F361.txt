@@ -1,0 +1,72 @@
+Ursaluna-Bloodmoon (M) @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 6 HP / 252 SpA / 252 SpD
+Quiet Nature
+IVs: 0 Spe
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Protect
+
+Latios (M) @ Soul Dew
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 4 Def / 246 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 9 Atk
+- Luster Purge
+- Draco Meteor
+- Protect
+- Tailwind
+
+Incineroar (M) @ Ability Shield
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 134 HP / 244 Atk / 132 Spe
+Adamant Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 76 Def / 60 SpD / 46 Spe
+Adamant Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Follow Me
+- Horn Leech
+- Spiky Shield
+
+Farigiraf (F) @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 44 Def / 156 SpA / 202 SpD
+Quiet Nature
+IVs: 10 Atk / 0 Spe
+- Hyper Voice
+- Protect
+- Trick Room
+- Psyshock
+
+Weezing-Galar (F) @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 4 SpA / 206 SpD / 44 Spe
+Bold Nature
+IVs: 22 Atk
+- Dazzling Gleam
+- Will-O-Wisp
+- Taunt
+- Protect

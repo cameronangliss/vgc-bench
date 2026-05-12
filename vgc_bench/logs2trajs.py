@@ -10,7 +10,6 @@ import argparse
 import asyncio
 import json
 import pickle
-import random
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from copy import deepcopy
 from itertools import islice
@@ -52,6 +51,8 @@ class LogReader(Player):
         next_msg: The next message to process from the log.
     """
 
+    MESSAGES_TO_IGNORE = Player.MESSAGES_TO_IGNORE | {"uhtml"}
+
     states: list[DoubleBattle]
     actions: list[npt.NDArray[np.int64]]
     msg: str | None
@@ -62,6 +63,11 @@ class LogReader(Player):
         self.states = []
         self.actions = []
         self.next_msg = None
+
+        async def _noop(*args, **kwargs):
+            pass
+
+        self.ps_client.send_message = _noop
 
     async def _handle_battle_request(
         self, battle: AbstractBattle, maybe_default_order: bool = False
@@ -97,6 +103,10 @@ class LogReader(Player):
         """
         Extract teampreview choices from the log and record the state-action pairs.
 
+        Only the lead picks (slot 1 and 2) are recorded here, since those are
+        known exactly from the log. The backline state-action pair is deferred to
+        follow_log, which adds it only if both backline Pokemon are later revealed.
+
         Args:
             battle: The current battle state during team preview.
 
@@ -114,17 +124,10 @@ class LogReader(Player):
         order1b = SingleBattleOrder(list(battle.team.values())[id2 - 1])
         order1 = DoubleBattleOrder(order1a, order1b)
         action1 = DoublesEnv.order_to_action(order1, battle, fake=True)
-        id3, id4 = random.sample([i for i in range(1, 7) if i not in [id1, id2]], k=2)
-        state2 = deepcopy(battle)
-        list(battle.team.values())[id3 - 1]._selected_in_teampreview = True
-        list(battle.team.values())[id4 - 1]._selected_in_teampreview = True
-        order2a = SingleBattleOrder(list(battle.team.values())[id3 - 1])
-        order2b = SingleBattleOrder(list(battle.team.values())[id4 - 1])
-        order2 = DoubleBattleOrder(order2a, order2b)
-        action2 = DoublesEnv.order_to_action(order2, battle, fake=True)
-        self.states += [state1, state2]
-        self.actions += [action1, action2]
-        return f"/team {id1}{id2}{id3}{id4}"
+        self._teampreview_state2 = deepcopy(battle)
+        self.states += [state1]
+        self.actions += [action1]
+        return ""
 
     @staticmethod
     def get_order(battle: DoubleBattle, msg: str, pos: int) -> SingleBattleOrder:
@@ -166,9 +169,11 @@ class LogReader(Player):
                     if ": " in target_identifier
                     else None
                 )
+                did_mega = f"|-mega|{identifier}|" in msg
                 did_tera = f"|-terastallize|{identifier}|" in msg
                 order = SingleBattleOrder(
                     move,
+                    mega=did_mega,
                     terastallize=did_tera,
                     move_target=battle.to_showdown_target(move, target),
                 )
@@ -240,35 +245,22 @@ class LogReader(Player):
                 self.choose_move(battle)
             await self._handle_battle_message(split_messages)
         self.states += [deepcopy(battle)]
-        # Infer plausible backline picks from mons that were revealed later
-        # and were not part of the lead pair recorded in actions[0].
-        teampreview_draft = [
-            i
-            for i, p in enumerate(battle.team.values(), start=1)
-            if i not in self.actions[0] and p.revealed
+        revealed_indices = [
+            i for i, p in enumerate(battle.team.values(), start=1) if p.revealed
         ]
-        # Use one revealed candidate (if any) as the 3rd teampreview slot.
-        if teampreview_draft:
-            rand = random.choice(range(len(teampreview_draft)))
-            self.actions[1][0] = teampreview_draft.pop(rand)
-        # Use the remaining revealed candidate (if any) as the 4th slot.
-        if teampreview_draft:
-            self.actions[1][1] = teampreview_draft[0]
-        # Fallback: ensure the two backline picks are distinct.
-        elif self.actions[1][0] == self.actions[1][1]:
-            self.actions[1][1] = random.choice(
-                [
-                    i
-                    for i in range(1, 7)
-                    if i not in self.actions[0] and i not in self.actions[1]
-                ]
-            )
+        non_lead_revealed = [i for i in revealed_indices if i not in self.actions[0]]
+        if len(non_lead_revealed) > 1:
+            assert len(non_lead_revealed) == 2
+            self.states.insert(1, self._teampreview_state2)
+            self.actions.insert(1, np.array(non_lead_revealed))
         actions = np.stack(self.actions, axis=0)
-        return self.embed_states(self.states, actions), actions
+        return self.embed_states(self.states, actions, revealed_indices), actions
 
     @staticmethod
     def embed_states(
-        states: list[DoubleBattle], actions: npt.NDArray[np.int64]
+        states: list[DoubleBattle],
+        actions: npt.NDArray[np.int64],
+        revealed_indices: list[int],
     ) -> npt.NDArray[np.float32]:
         """
         Convert a list of battle states to embedded observation arrays.
@@ -276,15 +268,19 @@ class LogReader(Player):
         Args:
             states: List of battle states to embed.
             actions: Actions taken at each state (used for teampreview tracking).
+            revealed_indices: 1-indexed slots of all revealed Pokemon on our side.
 
         Returns:
             Stacked array of embedded state observations.
         """
         embedded_states = []
-        teampreview_draft = []
         for i, state in enumerate(states):
-            if i in [1, 2]:
-                teampreview_draft += actions[i - 1].tolist()
+            if i == 0:
+                teampreview_draft = []
+            elif i == 1 and state.teampreview:
+                teampreview_draft = actions[0].tolist()
+            else:
+                teampreview_draft = revealed_indices
             for j, mon in enumerate(state.team.values(), start=1):
                 mon._selected_in_teampreview = j in teampreview_draft
             embedded_state = PolicyPlayer.embed_battle(state)
@@ -348,7 +344,8 @@ def process_logs(
     num_trans = sum([len(t.acts) for t in trajs])
     print(
         f"prepared {len(trajs)} trajectories with {num_trans} transitions "
-        f"({num_empty} discarded trajs, {num_errors} failed traj reads)"
+        f"({num_empty} discarded trajs, {num_errors} failed traj reads)",
+        flush=True,
     )
     return trajs
 
@@ -421,7 +418,7 @@ def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bo
     total = 0
     for f in Path("battle_logs").iterdir():
         logs = json.load(f.open())
-        print(f"processing {len(logs)} {f.stem} logs...")
+        print(f"processing {len(logs)} {f.stem} logs...", flush=True)
         trajs = process_logs(logs, executor, min_rating, only_winner, strict)
         for i, traj in enumerate(trajs, start=total):
             with open(f"trajs/{i:08d}.pkl", "wb") as f:

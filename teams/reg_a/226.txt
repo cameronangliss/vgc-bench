@@ -1,0 +1,68 @@
+Corviknight @ Safety Goggles
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 204 Atk / 4 Def / 20 SpD / 28 Spe
+Adamant Nature
+- Brave Bird
+- Bulk Up
+- Tailwind
+- Roost
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 108 Def / 116 SpD / 36 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Taunt
+- Light Screen
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Tera Blast
+- Protect
+
+Rotom-Wash @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 4 Def / 140 SpA / 28 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Volt Switch
+- Trick
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 156 Def / 68 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Bug Buzz
+- Quiver Dance
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 172 Def / 4 SpA / 84 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Clear Smog
+- Pollen Puff

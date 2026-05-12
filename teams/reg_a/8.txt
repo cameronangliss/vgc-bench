@@ -1,0 +1,62 @@
+Amoonguss @ Aguav Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Clear Smog
+- Spore
+- Rage Powder
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 36 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Extreme Speed
+- Earthquake
+- Iron Head
+- Fire Punch
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+EVs: 252 HP / 4 Atk / 4 Def / 4 SpD / 244 Spe
+Careful Nature
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 52 Def / 204 SpD
+Impish Nature
+- Foul Play
+- Helping Hand
+- Will-O-Wisp
+- Fake Out
+
+Kingambit @ Life Orb
+Ability: Defiant
+Level: 50
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+
+Palafin @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Wave Crash
+- Close Combat
+- Iron Head
+- Flip Turn

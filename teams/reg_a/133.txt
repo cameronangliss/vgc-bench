@@ -1,0 +1,67 @@
+Kilowattrel @ Focus Sash
+Ability: Competitive
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Protect
+- Thunderbolt
+- Air Slash
+
+Dondozo @ Assault Vest
+Ability: Oblivious
+Level: 50
+Tera Type: Dragon
+EVs: 188 HP / 108 Atk / 212 Spe
+Jolly Nature
+- Order Up
+- Earthquake
+- Rock Slide
+- Liquidation
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Spe
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Protect
+
+Revavroom @ Clear Amulet
+Ability: Overcoat
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 160 Atk / 4 SpD / 92 Spe
+Adamant Nature
+- Shift Gear
+- Poison Jab
+- Iron Head
+- Tera Blast
+
+Tatsugiri @ Safety Goggles
+Ability: Commander
+Level: 50
+EVs: 208 HP / 100 Def / 156 SpA / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Muddy Water
+- Nasty Plot
+- Protect
+
+Espathra @ Wide Lens
+Ability: Speed Boost
+Level: 50
+Tera Type: Dark
+EVs: 44 HP / 52 Def / 188 SpA / 60 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Hypnosis
+- Trick Room
+- Lumina Crash
+- Protect

@@ -1,0 +1,67 @@
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 124 Atk / 44 Def / 12 SpD / 76 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Ice Punch
+
+Excadrill @ Clear Amulet
+Ability: Sand Rush
+Level: 50
+Tera Type: Dragon
+EVs: 180 HP / 116 Atk / 44 Def / 52 SpD / 116 Spe
+Adamant Nature
+- High Horsepower
+- Iron Head
+- Rock Slide
+- Protect
+
+Gyarados @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 36 Atk / 100 Def / 108 SpD / 12 Spe
+Adamant Nature
+- Waterfall
+- Taunt
+- Thunder Wave
+- Helping Hand
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 68 Atk / 4 Def / 20 SpD / 204 Spe
+Jolly Nature
+- Breaking Swipe
+- Heat Crash
+- Howl
+- Burning Bulwark
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 108 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Pollen Puff
+- Spore
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 212 Def / 60 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Icy Wind

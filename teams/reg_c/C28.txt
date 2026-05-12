@@ -1,0 +1,69 @@
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+
+Sableye @ Focus Sash
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 228 HP / 4 Atk / 156 Def / 116 SpD / 4 Spe
+Impish Nature
+- Fake Out
+- Encore
+- Disable
+- Will-O-Wisp
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Freeze-Dry
+- Icy Wind
+- Hydro Pump
+
+Breloom @ Loaded Dice
+Ability: Technician
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 52 Def / 200 Spe
+Jolly Nature
+- Protect
+- Bullet Seed
+- Mach Punch
+- Spore
+
+Tauros-Paldea-Blaze @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 92 SpD / 160 Spe
+Jolly Nature
+- Protect
+- Flare Blitz
+- Close Combat
+- Drill Run
+
+Chien-Pao @ Leftovers
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 196 Def / 60 Spe
+Jolly Nature
+- Substitute
+- Swords Dance
+- Crunch
+- Icicle Crash

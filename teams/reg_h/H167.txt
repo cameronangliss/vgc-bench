@@ -1,0 +1,68 @@
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 116 Atk / 4 Def / 132 SpD / 20 Spe
+Adamant Nature
+IVs: 0 SpA
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 4 Def / 204 SpD / 12 Spe
+Adamant Nature
+IVs: 18 SpA
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 132 Def / 12 SpA / 108 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Follow Me
+- Life Dew
+- Protect
+
+Primarina @ Life Orb
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 60 Def / 188 SpA / 4 SpD / 4 Spe
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 180 HP / 140 Def / 36 SpA / 4 SpD / 148 Spe
+Modest Nature
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Sneasler @ Grassy Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dragon
+EVs: 92 HP / 84 Atk / 92 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Swords Dance
+- Protect

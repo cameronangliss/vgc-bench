@@ -1,0 +1,67 @@
+Annihilape @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 4 Def / 28 SpD / 220 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Thunder Punch
+- Bulldoze
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe
+Jolly Nature
+- Population Bomb
+- Feint
+- Taunt
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 156 Def / 116 SpA / 4 SpD / 4 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Atk / 4 Def / 236 SpD / 20 Spe
+Careful Nature
+- Wave Crash
+- Yawn
+- Fissure
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 172 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick

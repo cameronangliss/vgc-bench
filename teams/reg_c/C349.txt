@@ -1,0 +1,68 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 28 HP / 68 Def / 156 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Hex
+- Substitute
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 6 Atk
+- Power Gem
+- Earth Power
+- Spiky Shield
+- Mortal Spin
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 44 Def / 124 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Flamethrower
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 228 HP / 204 Atk / 76 Def
+Adamant Nature
+- Aerial Ace
+- Extreme Speed
+- Earthquake
+- Low Kick
+
+Dondozo @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 12 Atk / 140 Def / 252 SpD / 4 Spe
+Impish Nature
+- Yawn
+- Wave Crash
+- Protect
+- Body Press
+
+Ting-Lu @ Lum Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 108 HP / 124 Atk / 20 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Stomping Tantrum
+- Ruination
+- Taunt
+- Stealth Rock

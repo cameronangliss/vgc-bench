@@ -1,0 +1,67 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 204 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Outrage
+- Low Kick
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 116 Def / 116 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Thunderbolt
+- Dazzling Gleam
+- Protect
+
+Samurott-Hisui @ Life Orb
+Ability: Sharpness
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Aqua Cutter
+- Ceaseless Edge
+- Sacred Sword
+- Protect
+
+Goodra-Hisui @ Leftovers
+Ability: Shell Armor
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+- Protect
+- Shelter
+- Body Press
+- Heavy Slam
+
+Heatran @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Bug
+EVs: 156 HP / 4 Def / 252 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Tera Blast
+- Earth Power

@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 30 HP / 1 Def / 15 SpA / 1 SpD / 19 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Overheat
+- Protect
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 30 HP / 4 Def / 32 Spe
+Jolly Nature
+- Protect
+- Follow Me
+- Super Fang
+- Encore
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Feint
+- Dire Claw
+- Close Combat
+- Fake Out
+
+Dragapult @ Lum Berry
+Ability: Infiltrator
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Naive Nature
+- Draco Meteor
+- Shadow Ball
+- Will-O-Wisp
+- Psychic Fangs
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 24 HP / 32 Atk / 2 Def / 5 SpD / 3 Spe
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Iron Head
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 6 HP / 25 Atk / 2 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Stone Edge
+- Stomping Tantrum
+- Rock Slide
+- Dragon Claw

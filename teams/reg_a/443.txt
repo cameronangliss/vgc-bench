@@ -1,0 +1,66 @@
+Dragonite (F) @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Extreme Speed
+- Dragon Claw
+- Ice Spinner
+- Stomping Tantrum
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Thunder Wave
+- Feint
+- Protect
+
+Pawmot (F) @ Focus Sash
+Ability: Volt Absorb
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Nuzzle
+- Revival Blessing
+- Fake Out
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 108 Def / 92 SpA / 4 SpD / 52 Spe
+Modest Nature
+- Thunderbolt
+- Hydro Pump
+- Tera Blast
+- Protect
+
+Mimikyu (M) @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Play Rough
+- Shadow Claw
+- Shadow Sneak
+- Protect
+
+Armarouge (F) @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 244 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Armor Cannon
+- Dark Pulse
+- Wide Guard
+- Trick Room

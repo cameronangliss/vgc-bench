@@ -1,0 +1,67 @@
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind
+- Protect
+
+Rotom-Heat @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 108 HP / 4 Def / 236 SpA / 4 SpD / 156 Spe
+Modest Nature
+- Overheat
+- Thunderbolt
+- Volt Switch
+- Trick
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Shadow Ball
+- Dazzling Gleam
+- Mystical Fire
+- Protect
+
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 156 Atk / 4 Def / 76 SpD / 20 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Protect
+
+Amoonguss (M) @ Occa Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 164 Def / 116 SpD
+Sassy Nature
+- Clear Smog
+- Spore
+- Rage Powder
+- Protect
+
+Grimmsnarl @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 60 Def / 196 SpD
+Careful Nature
+- Spirit Break
+- Fake Out
+- Parting Shot
+- Thunder Wave

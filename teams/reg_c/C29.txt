@@ -1,0 +1,70 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 164 Def / 92 SpD
+Calm Nature
+- Light Screen
+- Reflect
+- Spirit Break
+- Fake Out
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Tailwind
+- Brave Bird
+- Flare Blitz
+- Sunny Day
+
+Great Tusk @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Headlong Rush
+- Close Combat
+- Protect
+- Earthquake
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 76 SpA / 100 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Protect
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Snarl
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 252 Def / 4 SpA / 12 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Power Gem

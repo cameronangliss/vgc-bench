@@ -1,0 +1,67 @@
+Whimsicott @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 SpD / 4 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Encore
+- Light Screen
+
+Gouging Fire @ Choice Band
+Ability: Protosynthesis
+Level: 50
+Tera Type: Dragon
+EVs: 84 HP / 164 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Outrage
+- Stone Edge
+- Heat Crash
+
+Groudon @ Wide Lens
+Ability: Drought
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 84 Atk / 4 Def / 36 SpD / 132 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- Will-O-Wisp
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 116 Def / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Leaf Blade
+- Low Sweep
+- Sleep Powder
+- Coaching
+
+Solgaleo @ Covert Cloak
+Ability: Full Metal Body
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Sunsteel Strike
+- Rock Slide
+- Knock Off
+- Wide Guard

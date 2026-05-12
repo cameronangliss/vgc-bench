@@ -1,0 +1,69 @@
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 94 HP / 4 Def / 124 SpA / 36 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 84 Def / 36 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Thunderbolt
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 12 Def / 196 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+- Protect
+
+Wo-Chien @ Assault Vest
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 124 Def / 116 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Giga Drain
+- Tera Blast
+- Ruination
+- Pollen Puff
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 132 HP / 252 Atk / 4 Def / 36 SpD / 84 Spe
+Adamant Nature
+- Icicle Crash
+- Glaive Rush
+- Ice Shard
+- Protect
+
+Scizor @ Sitrus Berry
+Ability: Technician
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 252 Atk / 4 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Bullet Punch
+- Close Combat
+- Tailwind
+- Protect

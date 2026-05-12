@@ -1,0 +1,68 @@
+Murkrow (M) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Sucker Punch
+- Drill Peck
+- Haze
+- Tailwind
+
+Hydreigon (F) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Heat Wave
+- Tailwind
+
+Bronzong @ Bright Powder
+Ability: Levitate
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 108 Def / 148 SpD
+Sassy Nature
+IVs: 0 Spe
+- Ice Spinner
+- Earthquake
+- Trick Room
+- Helping Hand
+
+Bellibolt (M) @ Weakness Policy
+Ability: Electromorphosis
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 124 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Thunderbolt
+- Discharge
+- Hyper Voice
+- Parabolic Charge
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- Substitute
+- Protect
+
+Donphan (F) @ Soft Sand
+Ability: Sturdy
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Earthquake
+- Ice Spinner
+- High Horsepower
+- Ice Shard

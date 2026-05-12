@@ -1,0 +1,67 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 196 Def / 60 SpD
+Impish Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot
+
+Cresselia @ Wiki Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 236 Def / 4 SpA / 12 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Moonblast
+- Calm Mind
+- Lunar Blessing
+
+Urshifu-Rapid-Strike @ Loaded Dice
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 76 Atk / 12 Def / 164 SpD / 4 Spe
+Adamant Nature
+- Surging Strikes
+- Drain Punch
+- Bulk Up
+- Detect
+
+Gholdengo @ Sitrus Berry
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Def / 212 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Goodra-Hisui @ Rocky Helmet
+Ability: Shell Armor
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+- Heavy Slam
+- Thunderbolt
+- Body Press
+- Shelter
+
+Landorus-Therian @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 196 Atk / 12 Def / 12 SpD / 44 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- U-turn
+- Grass Knot

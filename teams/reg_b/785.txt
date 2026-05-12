@@ -1,0 +1,69 @@
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 172 Atk / 12 Def / 60 SpD / 12 Spe
+Adamant Nature
+- Volt Switch
+- Drain Punch
+- Fake Out
+- Wild Charge
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 204 HP / 36 Atk / 164 Def / 52 SpD / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Will-O-Wisp
+- Snarl
+- Flare Blitz
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 180 Def / 76 SpD
+Careful Nature
+IVs: 0 Spe
+- Recover
+- Salt Cure
+- Fissure
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 124 Def / 132 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Leaf Storm
+- Spore
+- Rage Powder
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Perish Song
+- Protect

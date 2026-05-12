@@ -1,0 +1,59 @@
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+EVs: 25 HP / 32 Atk / 9 Spe
+Adamant Nature
+- Jet Punch
+- Wave Crash
+- Flip Turn
+- Protect
+
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Lonely Nature
+- Bullet Punch
+- Bug Bite
+- Swords Dance
+- Protect
+
+Politoed @ Leftovers
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 15 Def / 1 SpD / 18 Spe
+Bold Nature
+- Weather Ball
+- Encore
+- Helping Hand
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 22 Def / 10 SpD / 2 Spe
+Careful Nature
+- Fake Out
+- Throat Chop
+- Flare Blitz
+- Parting Shot
+
+Lucario @ Lucarionite
+Ability: Inner Focus
+Level: 50
+EVs: 24 HP / 30 Atk / 12 Spe
+Adamant Nature
+- Bullet Punch
+- Meteor Mash
+- Close Combat
+- Protect
+
+Sinistcha @ Miracle Seed
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 3 Def / 30 SpD / 1 Spe
+Calm Nature
+- Rage Powder
+- Matcha Gotcha
+- Life Dew
+- Trick Room

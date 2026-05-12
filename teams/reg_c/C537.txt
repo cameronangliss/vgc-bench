@@ -1,0 +1,69 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 28 HP / 180 Def / 84 SpA / 4 SpD / 212 Spe
+Modest Nature
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt
+- Protect
+
+Volcarona (M) @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 236 Def / 4 SpA / 20 SpD / 4 Spe
+Modest Nature
+- Overheat
+- Will-O-Wisp
+- Rage Powder
+- Protect
+
+Meowscarada (F) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- U-turn
+- Protect
+
+Braviary @ Safety Goggles
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 140 HP / 100 Atk / 140 Def / 92 SpD / 36 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- Tailwind
+- Protect
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 4 HP / 132 Atk / 36 Def / 84 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Heavy Slam
+- Substitute
+- Protect
+
+Tatsugiri-Stretchy (M) @ Choice Scarf
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 12 HP / 36 Def / 204 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Dragon Pulse

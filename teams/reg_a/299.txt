@@ -1,0 +1,66 @@
+Tatsugiri (F) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Hydro Pump
+- Icy Wind
+
+Dondozo (F) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Flying
+EVs: 116 HP / 156 Atk / 236 Spe
+Adamant Nature
+- Wave Crash
+- Rock Slide
+- Tera Blast
+- Protect
+
+Sylveon (M) @ Babiri Berry
+Ability: Pixilate
+Level: 50
+Tera Type: Flying
+EVs: 140 HP / 156 Def / 156 SpA / 4 SpD / 52 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Yawn
+- Detect
+
+Meowscarada (F) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- U-turn
+- Protect
+
+Arcanine (M) @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 92 HP / 236 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Will-O-Wisp
+- Protect
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Earthquake
+- Poison Jab
+- Protect

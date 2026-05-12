@@ -1,0 +1,71 @@
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 60 HP / 100 Atk / 44 Def / 52 SpD / 252 Spe
+Jolly Nature
+- Throat Chop
+- Acrobatics
+- Tailwind
+- Protect
+
+Iron Bundle @ Choice Scarf
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Icy Wind
+- Hydro Pump
+- Freeze-Dry
+- Flip Turn
+
+Tauros-Paldea-Blaze @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 164 HP / 84 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Raging Bull
+- Close Combat
+- Will-O-Wisp
+- Protect
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 252 HP / 116 Atk / 4 Def / 100 SpD / 36 Spe
+Adamant Nature
+- Iron Head
+- Sucker Punch
+- Kowtow Cleave
+- Low Kick
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 164 HP / 84 Def / 156 SpA / 12 SpD / 92 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Tera Blast
+- Protect
+
+Sandy Shocks @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 148 HP / 228 SpA / 132 Spe
+Modest Nature
+- Earth Power
+- Volt Switch
+- Thunderbolt
+- Protect

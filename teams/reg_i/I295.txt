@@ -1,0 +1,68 @@
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Def / 252 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Coaching
+
+Kyogre @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 156 Def / 116 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk / 28 Spe
+- Water Spout
+- Hydro Pump
+- Ice Beam
+- Protect
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 28 Def / 236 SpD
+Calm Nature
+IVs: 0 Atk
+- Leaf Storm
+- Trick Room
+- Life Dew
+- Rage Powder
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 236 Def / 12 SpD / 12 Spe
+Impish Nature
+- Knock Off
+- Taunt
+- Parting Shot
+- Fake Out
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 244 Atk / 28 Def
+Adamant Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Poison Jab
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 252 Atk / 12 Def
+Brave Nature
+IVs: 8 Spe
+- Stomping Tantrum
+- Payback
+- Tera Blast
+- Ruination

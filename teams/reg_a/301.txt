@@ -1,0 +1,69 @@
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 100 Def / 156 SpD
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Protect
+- Haze
+
+Armarouge (M) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Dark
+EVs: 148 HP / 4 Def / 220 SpA / 76 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Armor Cannon
+- Expanding Force
+- Trick Room
+- Wide Guard
+
+Annihilape (M) @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Atk / 76 Def / 156 SpD / 12 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Dragonite (F) @ Assault Vest
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 252 Atk / 36 Def / 4 SpD / 36 Spe
+Adamant Nature
+- Extreme Speed
+- Ice Spinner
+- Earthquake
+- Brick Break
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 68 HP / 4 Def / 228 SpA / 4 SpD / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 244 HP / 228 Def / 36 SpD
+Bold Nature
+- Protect
+- Beat Up
+- Encore
+- Follow Me

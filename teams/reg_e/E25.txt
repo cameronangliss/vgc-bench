@@ -1,0 +1,68 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 76 HP / 100 Def / 116 SpA / 4 SpD / 212 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Dragon
+EVs: 196 HP / 4 Def / 252 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Vacuum Wave
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 196 Atk / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Tera Blast
+- Rock Slide
+- U-turn
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 68 HP / 252 Atk / 188 Spe
+Jolly Nature
+- Ivy Cudgel
+- Grassy Glide
+- Follow Me
+- Spiky Shield
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 220 SpA / 28 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Ice Beam
+- Lunar Blessing
+- Trick Room
+
+Rillaboom @ Meadow Plate
+Ability: Grassy Surge
+Level: 50
+Tera Type: Ghost
+EVs: 132 HP / 196 Atk / 4 Def / 76 SpD / 100 Spe
+Adamant Nature
+- Grassy Glide
+- High Horsepower
+- Wood Hammer
+- Fake Out

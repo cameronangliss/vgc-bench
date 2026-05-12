@@ -1,0 +1,70 @@
+Urshifu-Rapid-Strike (M) @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 116 Atk / 52 Def / 84 SpD / 4 Spe
+Adamant Nature
+- Aqua Jet
+- Surging Strikes
+- Close Combat
+- Protect
+
+Moltres-Galar @ Sitrus Berry
+Ability: Berserk
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 68 Def / 76 SpA / 28 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Air Slash
+- Nasty Plot
+- Fiery Wrath
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 188 HP / 196 Atk / 4 Def / 12 SpD / 108 Spe
+Adamant Nature
+- U-turn
+- Knock Off
+- Wood Hammer
+- Fake Out
+
+Sneasler (M) @ Grassy Seed
+Ability: Unburden
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 92 HP / 252 Atk / 4 Def / 4 SpD / 156 Spe
+Adamant Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Acrobatics
+
+Thundurus @ Wiki Berry
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 148 Def / 108 SpD
+Calm Nature
+IVs: 0 Atk
+- Thunderbolt
+- Eerie Impulse
+- Thunder Wave
+- Taunt
+
+Heatran (M) @ Chople Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 4 Def / 212 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Earth Power
+- Flamethrower
+- Tera Blast

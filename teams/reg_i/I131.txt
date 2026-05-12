@@ -1,0 +1,65 @@
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 108 SpD / 28 Spe
+Adamant Nature
+- Glacial Lance
+- High Horsepower
+- Protect
+- Trick Room
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 4 Def / 220 SpA / 4 SpD / 212 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Dazzling Gleam
+- Volt Switch
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 172 HP / 212 Atk / 124 SpD
+Adamant Nature
+IVs: 0 Spe
+- Wild Charge
+- Low Kick
+- Fake Out
+- Volt Switch
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 156 Def / 124 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic Noise
+- Foul Play
+- Helping Hand
+- Trick Room
+
+Ditto @ Choice Scarf
+Ability: Imposter
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 SpD
+Sassy Nature
+IVs: 30 Atk
+- Transform
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Gentle Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect

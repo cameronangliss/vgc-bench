@@ -1,0 +1,64 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 132 Def / 124 SpD
+Careful Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Ho-Oh @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Atk / 92 Def / 28 SpD / 60 Spe
+Adamant Nature
+IVs: 24 SpA
+- Sacred Fire
+- Brave Bird
+- Tailwind
+- Protect
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Dazzling Gleam
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Atk / 140 Def / 60 SpD / 4 Spe
+Adamant Nature
+IVs: 9 SpA
+- Knock Off
+- Fake Out
+- Flare Blitz
+- U-turn
+
+Sneasler @ Electric Seed
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 68 HP / 252 Atk / 60 Def / 20 SpD / 108 Spe
+Adamant Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Sunny Day
+
+Ditto @ Focus Sash
+Ability: Imposter
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+- Transform

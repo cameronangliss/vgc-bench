@@ -1,0 +1,68 @@
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 60 HP / 252 Atk / 4 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Flare Blitz
+- Collision Course
+- U-turn
+- Protect
+
+Ho-Oh @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 156 Atk / 84 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Sacred Fire
+- Life Dew
+- Tailwind
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 68 Def / 188 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 196 HP / 36 Def / 60 SpA / 84 SpD / 132 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Volt Switch
+- Snarl
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Throat Chop
+- Sucker Punch
+- Protect
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 236 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog

@@ -1,0 +1,68 @@
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 220 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Atk / 20 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Arceus-Fairy @ Pixie Plate
+Ability: Multitype
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 204 SpA / 52 SpD
+Modest Nature
+IVs: 0 Atk
+- Judgment
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 84 Atk / 4 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 156 SpD
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 108 HP / 92 Atk / 92 Def / 4 SpD / 212 Spe
+Adamant Nature
+- Ivy Cudgel
+- Low Kick
+- Follow Me
+- Spiky Shield

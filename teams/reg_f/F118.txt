@@ -1,0 +1,68 @@
+Kingdra @ Wide Lens
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 4 Def / 252 SpA / 4 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Hydro Pump
+- Protect
+
+Scrafty @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 252 Atk / 52 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Knock Off
+- Ice Punch
+
+Pelipper @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 4 SpA / 244 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Hurricane
+- Helping Hand
+- Tailwind
+- Protect
+
+Metagross @ Assault Vest
+Ability: Clear Body
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Heavy Slam
+- Psychic Fangs
+- Stomping Tantrum
+- Bullet Punch
+
+Tsareena @ Figy Berry
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 140 Atk / 28 Def / 44 SpD / 44 Spe
+Adamant Nature
+- Power Whip
+- Low Kick
+- Taunt
+- Protect
+
+Thundurus @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 204 HP / 4 Def / 116 SpA / 4 SpD / 180 Spe
+Timid Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Weather Ball
+- Thunder Wave
+- Rain Dance

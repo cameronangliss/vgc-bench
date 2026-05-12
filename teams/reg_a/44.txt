@@ -1,0 +1,67 @@
+Baxcalibur (M) @ Assault Vest
+Ability: Thermal Exchange
+Level: 50
+EVs: 228 HP / 252 Atk / 28 Spe
+Adamant Nature
+- Glaive Rush
+- Icicle Spear
+- Ice Shard
+- Brick Break
+
+Farigiraf (M) @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 236 Def / 196 SpA / 76 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Twin Beam
+- Dazzling Gleam
+- Trick Room
+- Protect
+
+Mudsdale (F) @ Choice Band
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 4 Spe
+- High Horsepower
+- Rock Slide
+- Heavy Slam
+- Close Combat
+
+Armarouge (F) @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+EVs: 252 HP / 36 Def / 220 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Armor Cannon
+- Heat Wave
+- Psychic
+- Trick Room
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 252 SpA / 44 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Annihilape (M) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Final Gambit
+- Phantom Force
+- U-turn

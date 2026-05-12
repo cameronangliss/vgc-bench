@@ -1,0 +1,68 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 216 HP / 76 Def / 84 SpA / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Dark Pulse
+- Nasty Plot
+
+Dragonite @ Safety Goggles
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 196 Atk / 68 Spe
+Adamant Nature
+- Tailwind
+- Stomping Tantrum
+- Extreme Speed
+- Ice Spinner
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 60 Atk / 244 SpD / 204 Spe
+Adamant Nature
+- Protect
+- Substitute
+- Wave Crash
+- Earthquake
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Sleep Talk
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 44 HP / 140 Atk / 76 Def / 108 SpD / 140 Spe
+Adamant Nature
+- Volt Switch
+- Fake Out
+- Close Combat
+- Wild Charge

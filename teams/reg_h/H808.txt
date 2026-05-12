@@ -1,0 +1,65 @@
+Dragonite (M) @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 236 Atk / 4 Def / 12 SpD / 60 Spe
+Adamant Nature
+- Extreme Speed
+- Ice Spinner
+- Stomping Tantrum
+- Outrage
+
+Archaludon (F) @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Draco Meteor
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Kingambit (M) @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 236 Atk / 4 Def / 12 SpD / 4 Spe
+Adamant Nature
+- Assurance
+- Sucker Punch
+- Iron Head
+- Low Kick
+
+Volcarona (M) @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 124 Def / 84 SpA / 4 SpD / 44 Spe
+Modest Nature
+- Struggle Bug
+- Overheat
+- Rage Powder
+- Protect
+
+Gengar (M) @ Focus Sash
+Ability: Cursed Body
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Wave
+- Haze
+- Protect
+
+Annihilape (M) @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 20 Atk / 236 Spe
+Jolly Nature
+- Close Combat
+- Final Gambit
+- Protect
+- Shadow Claw

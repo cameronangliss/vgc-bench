@@ -1,0 +1,70 @@
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+Level: 50
+Tera Type: Fighting
+EVs: 60 HP / 236 Atk / 212 Spe
+Jolly Nature
+- Behemoth Blade
+- Play Rough
+- Sacred Sword
+- Protect
+
+Kyogre @ Assault Vest
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 108 HP / 156 SpA / 244 Spe
+Timid Nature
+IVs: 0 Atk
+- Water Spout
+- Origin Pulse
+- Ice Beam
+- Thunder
+
+Pikachu @ Focus Sash
+Ability: Lightning Rod
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+IVs: 0 HP / 18 Def / 14 SpD
+- Nuzzle
+- Endeavor
+- Upper Hand
+- Fake Out
+
+Moltres-Galar @ Covert Cloak
+Ability: Berserk
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 156 SpA / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Fiery Wrath
+- Hurricane
+- Tailwind
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 252 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Foul Play
+- Pollen Puff
+- Spore
+- Rage Powder
+
+Grimmsnarl @ Power Bracer
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 212 Def / 4 SpA / 36 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Fake Out
+- Trick
+- Scary Face

@@ -1,0 +1,70 @@
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 204 Def / 52 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Moonblast
+- Energy Ball
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 252 HP / 68 Def / 116 SpA / 68 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Ice Beam
+- Thunderbolt
+- Recover
+- Trick Room
+
+Okidogi @ Assault Vest
+Ability: Guard Dog
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 92 Atk / 4 Def / 108 SpD / 52 Spe
+Adamant Nature
+- Poison Jab
+- Upper Hand
+- Drain Punch
+- Knock Off
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 100 Atk / 4 Def / 4 SpD / 204 Spe
+Jolly Nature
+- Burning Bulwark
+- Breaking Swipe
+- Howl
+- Heat Crash
+
+Sinistcha-Masterpiece @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 108 Def / 164 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room

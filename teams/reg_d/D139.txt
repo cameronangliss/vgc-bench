@@ -1,0 +1,68 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 100 Def / 108 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Thunderbolt
+
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 180 HP / 36 Def / 12 SpA / 132 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Taunt
+- Sunny Day
+- Bleakwind Storm
+- Tailwind
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+- Protect
+
+Heatran @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 84 Def / 140 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Tera Blast
+- Heat Wave
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 108 Atk / 52 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Heavy Slam
+- Wild Charge

@@ -1,0 +1,68 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 0 SpA
+- Order Up
+- Earthquake
+- Tera Blast
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 14 Atk
+- Draco Meteor
+- Hydro Pump
+- Muddy Water
+- Icy Wind
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 28 HP / 228 Atk / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Will-O-Wisp
+- Protect
+
+Hydreigon @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 24 Atk
+- Draco Meteor
+- Dark Pulse
+- Heat Wave
+- Tailwind
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- U-turn
+- Protect
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 252 SpA / 76 Spe
+Modest Nature
+IVs: 2 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

@@ -1,0 +1,74 @@
+Sinistcha-Masterpiece @ Rocky Helmet
+Ability: Heatproof
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 228 HP / 116 Def / 84 SpA / 36 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Shadow Ball
+- Rage Powder
+- Trick Room
+
+Arcanine-Hisui (M) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 180 HP / 228 Atk / 52 Def / 12 SpD / 36 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Close Combat
+- Psychic Fangs
+
+Pelipper (F) @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 252 HP / 28 Def / 116 SpA / 84 SpD / 28 Spe
+Bold Nature
+IVs: 0 Atk
+- Muddy Water
+- Hurricane
+- Tailwind
+- Wide Guard
+
+Archaludon (F) @ Life Orb
+Ability: Stalwart
+Level: 50
+Shiny: Yes
+Tera Type: Electric
+EVs: 28 HP / 36 Def / 236 SpA / 20 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Flash Cannon
+- Electro Shot
+- Draco Meteor
+- Protect
+
+Ursaluna (F) @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 140 HP / 220 Atk / 20 Def / 12 SpD / 116 Spe
+Adamant Nature
+- Facade
+- Earthquake
+- Play Rough
+- Protect
+
+Weavile (M) @ Safety Goggles
+Ability: Pressure
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 92 HP / 164 Atk / 20 Def / 4 SpD / 228 Spe
+Jolly Nature
+- Knock Off
+- Triple Axel
+- Helping Hand
+- Taunt

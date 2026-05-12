@@ -1,0 +1,68 @@
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 124 Def / 76 SpA / 4 SpD / 52 Spe
+Modest Nature
+- Detect
+- Hyper Voice
+- Tera Blast
+- Quick Attack
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Psychic
+- Helping Hand
+- Trick Room
+
+Armarouge @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Expanding Force
+- Trick Room
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Rock
+EVs: 12 HP / 156 Atk / 76 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Rock Slide
+
+Archaludon @ Power Herb
+Ability: Sturdy
+Level: 50
+Tera Type: Grass
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Electro Shot
+- Flash Cannon
+- Dark Pulse
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 148 HP / 252 Atk / 108 Spe
+Adamant Nature
+- Scale Shot
+- Low Kick
+- Tailwind
+- Haze

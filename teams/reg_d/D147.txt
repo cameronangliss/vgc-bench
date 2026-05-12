@@ -1,0 +1,67 @@
+Basculegion (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 204 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 116 SpA / 132 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Wide Guard
+- Helping Hand
+- Tailwind
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 76 Def / 140 SpD / 4 Spe
+Adamant Nature
+- Wood Hammer
+- U-turn
+- Fake Out
+- Knock Off
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 20 HP / 156 Atk / 4 Def / 116 SpD / 212 Spe
+Adamant Nature
+- Flare Blitz
+- Rock Slide
+- Tera Blast
+- Extreme Speed
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 52 SpA / 28 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

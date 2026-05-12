@@ -1,0 +1,69 @@
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 164 Def / 180 SpA / 60 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Expanding Force
+- Meteor Beam
+- Tailwind
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ground
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Headlong Rush
+- Facade
+- Earthquake
+- Protect
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 196 SpA / 188 Spe
+Modest Nature
+- Draco Meteor
+- Electro Drift
+- Dazzling Gleam
+- Discharge
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Bug
+EVs: 220 HP / 20 Def / 164 SpA / 52 SpD / 52 Spe
+Bold Nature
+IVs: 0 Atk
+- Draco Meteor
+- Body Press
+- Foul Play
+- Flash Cannon
+
+Bastiodon @ Leftovers
+Ability: Sturdy
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 100 Def / 156 SpD
+Brave Nature
+IVs: 8 Atk / 18 Spe
+- Iron Defense
+- Metal Burst
+- Body Press
+- Wide Guard
+
+Gastrodon-East @ Sitrus Berry
+Ability: Storm Drain
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Protect
+- Earth Power
+- Clear Smog
+- Yawn

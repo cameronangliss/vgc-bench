@@ -1,0 +1,66 @@
+Indeedee-F @ Colbur Berry
+Ability: Psychic Surge
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 196 Def / 4 SpA / 52 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Follow Me
+- Heal Pulse
+- Trick Room
+
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 116 Def / 128 SpD / 8 Spe
+Careful Nature
+- Tailwind
+- Foul Play
+- Quash
+- Haze
+
+Armarouge (M) @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 44 Def / 36 SpA / 164 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Trick Room
+- Armor Cannon
+- Wide Guard
+
+Meowscarada @ Choice Band
+Ability: Protean
+Level: 50
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Flower Trick
+- Brick Break
+- Knock Off
+- U-turn
+
+Annihilape (M) @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Atk / 164 Def / 76 SpD / 4 Spe
+Careful Nature
+- Protect
+- Drain Punch
+- Rage Fist
+- Bulk Up
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 60 Def / 192 Spe
+Timid Nature
+- Beat Up
+- Follow Me
+- Protect
+- Feint

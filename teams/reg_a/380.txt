@@ -1,0 +1,70 @@
+Tyranitar (M) @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 156 Atk / 4 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Assurance
+- Rock Slide
+- Tera Blast
+- Ice Punch
+
+Garchomp (M) @ Bright Powder
+Ability: Sand Veil
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 76 Atk / 4 Def / 4 SpD / 220 Spe
+Adamant Nature
+- Swords Dance
+- Dragon Claw
+- Earthquake
+- Protect
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 44 HP / 84 Atk / 4 Def / 124 SpD / 252 Spe
+Adamant Nature
+- Order Up
+- Wave Crash
+- Protect
+- Fissure
+
+Lycanroc (F) @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Endure
+- Endeavor
+- Close Combat
+
+Tatsugiri (M) @ Sitrus Berry
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 100 HP / 212 Def / 28 SpA / 84 SpD / 84 Spe
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Draco Meteor
+- Icy Wind
+- Muddy Water
+
+Rotom-Heat @ Choice Specs
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Electric
+EVs: 84 HP / 172 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Overheat
+- Thunderbolt
+- Volt Switch
+- Trick

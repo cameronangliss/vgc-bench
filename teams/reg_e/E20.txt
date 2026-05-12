@@ -1,0 +1,67 @@
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 220 HP / 12 Def / 20 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 156 Atk / 4 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Volt Switch
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 196 Atk / 60 SpD
+Adamant Nature
+- Sucker Punch
+- Assurance
+- Iron Head
+- Protect
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 132 HP / 116 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+- Tera Blast
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 188 Atk / 4 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Ivy Cudgel
+- Horn Leech
+- Swords Dance
+- Spiky Shield
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 84 Def / 180 SpD
+Calm Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Strength Sap
+- Rage Powder
+- Trick Room

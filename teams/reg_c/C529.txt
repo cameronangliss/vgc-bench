@@ -1,0 +1,70 @@
+Dondozo @ Lum Berry
+Ability: Oblivious
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 156 Atk / 4 Def / 92 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Rock Slide
+- Heavy Slam
+- Protect
+
+Tatsugiri-Droopy @ Dragon Fang
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 100 Def / 60 SpA / 92 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Helping Hand
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 244 HP / 156 Def / 4 SpA / 92 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Clear Smog
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 12 Atk / 148 Def / 36 SpD / 60 Spe
+Jolly Nature
+- Flare Blitz
+- Will-O-Wisp
+- Howl
+- Extreme Speed
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 132 HP / 108 Atk / 4 Def / 52 SpD / 212 Spe
+Adamant Nature
+- Icicle Crash
+- Glaive Rush
+- Ice Shard
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 44 Def / 68 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Perish Song

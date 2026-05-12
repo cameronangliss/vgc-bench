@@ -1,0 +1,71 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 100 HP / 244 Def / 44 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Thunderbolt
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 164 HP / 100 Atk / 244 SpD
+Careful Nature
+- Stomping Tantrum
+- Heavy Slam
+- Ruination
+- Rock Tomb
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 116 HP / 252 SpA / 140 Spe
+Modest Nature
+- Protect
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+
+Amoonguss (M) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 244 HP / 100 Def / 164 SpD
+Bold Nature
+IVs: 0 Atk / 26 Spe
+- Protect
+- Pollen Puff
+- Spore
+- Rage Powder
+
+Gyarados (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 140 HP / 244 Atk / 12 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Protect
+- Waterfall
+- Thunder Wave
+- Taunt
+
+Corviknight (F) @ Occa Berry
+Ability: Mirror Armor
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 216 HP / 68 Atk / 116 Def / 96 SpD / 12 Spe
+Careful Nature
+IVs: 21 SpA
+- Brave Bird
+- Bulk Up
+- Tailwind
+- Roost

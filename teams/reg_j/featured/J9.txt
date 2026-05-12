@@ -1,0 +1,70 @@
+Mewtwo @ Leftovers
+Ability: Pressure
+Level: 50
+Tera Type: Dragon
+EVs: 212 HP / 20 Def / 4 SpA / 228 SpD / 44 Spe
+Timid Nature
+IVs: 0 Atk
+- Psystrike
+- Aura Sphere
+- Life Dew
+- Protect
+
+Incineroar (M) @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 156 Def / 100 SpD
+Impish Nature
+- Fake Out
+- Knock Off
+- Will-O-Wisp
+- Parting Shot
+
+Deoxys-Defense @ Sitrus Berry
+Ability: Pressure
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk
+- Night Shade
+- Cosmic Power
+- Recover
+- Protect
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 124 SpD / 12 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 204 Def / 44 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Thunder Wave
+
+Urshifu-Rapid-Strike (M) @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect

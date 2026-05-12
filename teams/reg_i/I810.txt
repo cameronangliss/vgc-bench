@@ -1,0 +1,67 @@
+Scream Tail @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 44 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Encore
+- Protect
+- Dazzling Gleam
+- Disable
+
+Terapagos-Terastal @ Choice Specs
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 172 HP / 196 SpA / 140 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Flamethrower
+- Earth Power
+- Dark Pulse
+
+Jolteon @ Focus Sash
+Ability: Volt Absorb
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Electroweb
+- Fake Tears
+- Detect
+
+Urshifu-Rapid-Strike @ Splash Plate
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 196 Atk / 4 Def / 36 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Detect
+
+Ditto @ Choice Scarf
+Ability: Imposter
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 4 Def / 252 Spe
+Jolly Nature
+IVs: 30 Atk
+- Transform
+
+Eternatus @ Power Herb
+Ability: Pressure
+Level: 50
+Tera Type: Water
+EVs: 20 Def / 252 SpA / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Dynamax Cannon
+- Protect
+- Meteor Beam
+- Flamethrower

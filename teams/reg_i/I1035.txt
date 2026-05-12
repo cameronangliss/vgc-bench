@@ -1,0 +1,68 @@
+Eternatus @ Binding Band
+Ability: Pressure
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 68 Def / 4 SpA / 36 SpD / 148 Spe
+Calm Nature
+IVs: 0 Atk
+- Fire Spin
+- Cosmic Power
+- Recover
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Power Gem
+- Sludge Bomb
+- Mortal Spin
+- Spiky Shield
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 156 HP / 76 Atk / 196 Def / 76 SpD / 4 Spe
+Adamant Nature
+- Ruination
+- Stomping Tantrum
+- Sand Tomb
+- Snarl
+
+Lunala @ Leftovers
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 180 SpA / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Will-O-Wisp
+- Wide Guard
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 124 Def / 12 SpD / 44 Spe
+Impish Nature
+- Ivy Cudgel
+- Leech Seed
+- Follow Me
+- Spiky Shield
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect

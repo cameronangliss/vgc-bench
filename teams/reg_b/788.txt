@@ -1,0 +1,68 @@
+Flutter Mane @ Expert Belt
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 180 Def / 116 SpA / 12 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Mystical Fire
+- Shadow Ball
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 188 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Leaf Storm
+- Pollen Puff
+- Rage Powder
+- Spore
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 124 Atk / 4 Def / 12 SpD / 172 Spe
+Jolly Nature
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind
+- Protect
+
+Dragonite @ Life Orb
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 252 Atk / 76 Spe
+Adamant Nature
+- Extreme Speed
+- Ice Spinner
+- Stomping Tantrum
+- Dragon Dance
+
+Great Tusk @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Headlong Rush
+- Close Combat
+- Earthquake
+- Protect

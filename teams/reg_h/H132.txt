@@ -1,0 +1,69 @@
+Dragonite @ Maranga Berry
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 188 Def / 4 SpA / 44 SpD / 60 Spe
+Bold Nature
+IVs: 0 Atk
+- Air Slash
+- Fire Spin
+- Thunder Wave
+- Roost
+
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 68 Def / 188 SpD
+Impish Nature
+IVs: 26 SpA / 6 Spe
+- Wave Crash
+- Heavy Slam
+- Yawn
+- Protect
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 68 HP / 4 Def / 236 SpA / 4 SpD / 196 Spe
+Timid Nature
+IVs: 26 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Rillaboom @ Choice Band
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 252 Atk / 36 Def / 4 SpD / 28 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+- U-turn
+
+Ursaluna-Bloodmoon @ Focus Sash
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 196 Spe
+Timid Nature
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 220 Def / 20 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 28 Atk
+- Heat Wave
+- Bug Buzz
+- Quiver Dance
+- Protect

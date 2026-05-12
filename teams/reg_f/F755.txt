@@ -1,0 +1,67 @@
+Regigigas @ Life Orb
+Ability: Slow Start
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Crush Grip
+- Heat Crash
+- High Horsepower
+- Protect
+
+Weezing-Galar @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Def / 4 SpA / 236 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Poison Gas
+- Toxic Spikes
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Atk / 100 Def / 108 SpD / 52 Spe
+Impish Nature
+- Order Up
+- Body Press
+- Earthquake
+- Protect
+
+Tatsugiri-Droopy @ Safety Goggles
+Ability: Commander
+Level: 50
+Tera Type: Fairy
+EVs: 20 HP / 156 Def / 76 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 204 HP / 252 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Outrage
+- Extreme Speed
+- Iron Head
+- Low Kick
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 196 Atk / 44 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Throat Chop
+- Taunt
+- Protect

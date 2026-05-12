@@ -1,0 +1,71 @@
+Blaziken (M) @ Life Orb
+Ability: Speed Boost
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 44 Atk / 212 SpA / 252 Spe
+Naive Nature
+- Close Combat
+- Flamethrower
+- Protect
+- Tera Blast
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 140 HP / 44 Atk / 4 Def / 132 SpD / 188 Spe
+Jolly Nature
+- Power Whip
+- Ivy Cudgel
+- Spiky Shield
+- Focus Energy
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 3 Atk / 8 Spe
+- Dazzling Gleam
+- Follow Me
+- Trick Room
+- Helping Hand
+
+Iron Crown @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ground
+EVs: 172 SpA / 84 SpD / 252 Spe
+Timid Nature
+IVs: 20 Atk
+- Tachyon Cutter
+- Expanding Force
+- Protect
+- Tera Blast
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ground
+EVs: 196 HP / 4 Def / 92 SpA / 4 SpD / 212 Spe
+Timid Nature
+IVs: 4 Atk
+- Air Slash
+- Tera Blast
+- Tailwind
+- Icy Wind
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 244 SpA / 20 SpD
+Modest Nature
+IVs: 20 Atk
+- Draco Meteor
+- Thunderbolt
+- Protect
+- Thunderclap

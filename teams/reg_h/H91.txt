@@ -1,0 +1,69 @@
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 140 Def / 124 SpD
+Impish Nature
+- Tailwind
+- Haze
+- Sunny Day
+- Brave Bird
+
+Typhlosion-Hisui @ Choice Specs
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Eruption
+- Heat Wave
+- Shadow Ball
+- Flamethrower
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Farigiraf @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 156 Def / 124 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic Noise
+- Hyper Voice
+- Helping Hand
+- Trick Room
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 52 Def / 108 SpA / 28 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Ice Beam
+- Protect
+
+Meowscarada @ Focus Sash
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- U-turn
+- Protect

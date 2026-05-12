@@ -1,0 +1,70 @@
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Flamethrower
+- Dark Pulse
+- Tera Blast
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 252 Def / 56 SpA / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Trick Room
+- Imprison
+
+Amoonguss (M) @ Wiki Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Grass Knot
+- Spore
+- Rage Powder
+- Protect
+
+Thundurus @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 108 Def / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Eerie Impulse
+- Scary Face
+- Taunt
+
+Baxcalibur (M) @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 116 Atk / 252 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Icicle Spear
+- Glaive Rush
+- Ice Shard
+- Protect
+
+Tauros-Paldea-Aqua @ Expert Belt
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 56 HP / 196 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Wave Crash
+- Close Combat
+- Aqua Jet
+- Protect

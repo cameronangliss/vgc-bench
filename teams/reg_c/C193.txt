@@ -1,0 +1,75 @@
+Bronzong @ Safety Goggles
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 84 Atk / 172 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Gyro Ball
+- Trick Room
+- Safeguard
+- Protect
+
+Skeledirge (M) @ Throat Spray
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 220 SpA / 36 SpD
+Quiet Nature
+IVs: 0 Spe
+- Torch Song
+- Shadow Ball
+- Slack Off
+- Protect
+
+Breloom (M) @ Loaded Dice
+Ability: Technician
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Bullet Seed
+- Mach Punch
+- Spore
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 220 Atk / 36 Def
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- Ruination
+
+Palafin-Hero (M) @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 172 Atk / 84 SpD
+Brave Nature
+IVs: 0 Spe
+- Jet Punch
+- Wave Crash
+- Haze
+- Protect
+
+Mimikyu @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 140 Atk / 116 Def
+Brave Nature
+IVs: 0 Spe
+- Play Rough
+- Shadow Sneak
+- Trick Room
+- Protect

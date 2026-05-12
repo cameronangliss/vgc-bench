@@ -1,0 +1,70 @@
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 HP / 0 Atk
+- Endeavor
+- Tailwind
+- Helping Hand
+- Dazzling Gleam
+
+Iron Crown @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 236 Def / 92 SpA / 4 SpD
+Quiet Nature
+IVs: 20 Atk
+- Expanding Force
+- Tachyon Cutter
+- Focus Blast
+- Tera Blast
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 244 Def / 12 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Dazzling Gleam
+- Follow Me
+- Trick Room
+
+Flutter Mane @ Iapapa Berry
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 252 Def / 12 SpD
+Relaxed Nature
+IVs: 0 Atk / 20 Spe
+- Dazzling Gleam
+- Shadow Ball
+- Helping Hand
+- Trick Room
+
+Roaring Moon @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Knock Off
+- Rock Slide
+- Protect
+- Tera Blast
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Detect
+- Belly Drum
+- Rock Slide

@@ -1,0 +1,68 @@
+Pelipper (F) @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 28 Def / 36 SpA / 196 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Hurricane
+- Hydro Pump
+- Tailwind
+- Protect
+
+Amoonguss (F) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 140 Def / 132 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Pollen Puff
+- Leaf Storm
+- Spore
+- Rage Powder
+
+Dragonite (M) @ Sharp Beak
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Def / 244 SpA / 4 SpD / 4 Spe
+Modest Nature
+- Hurricane
+- Draco Meteor
+- Extreme Speed
+- Protect
+
+Palafin @ Choice Band
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Jet Punch
+- Wave Crash
+- Close Combat
+- Flip Turn
+
+Kingambit (M) @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 116 Atk / 4 Def / 100 SpD / 36 Spe
+Adamant Nature
+- Protect
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Thunder
+- Shadow Ball
+- Steel Beam

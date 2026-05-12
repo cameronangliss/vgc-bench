@@ -1,0 +1,70 @@
+Murkrow (M) @ Eviolite
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Taunt
+- Foul Play
+- Haze
+- Tailwind
+
+Hydreigon (F) @ Life Orb
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunder Wave
+- Dark Pulse
+- Flash Cannon
+- Draco Meteor
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Follow Me
+- Charm
+- Population Bomb
+- Encore
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Atk / 36 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Ceruledge (M) @ Muscle Band
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 60 Def / 12 SpD / 68 Spe
+Adamant Nature
+- Bulk Up
+- Tera Blast
+- Shadow Sneak
+- Bitter Blade
+
+Gholdengo @ Assault Vest
+Ability: Good as Gold
+Level: 50
+Tera Type: Ghost
+EVs: 20 HP / 4 Def / 244 SpA / 164 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Steel Beam
+- Shadow Ball
+- Make It Rain

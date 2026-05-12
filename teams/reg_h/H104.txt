@@ -1,0 +1,73 @@
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 36 HP / 4 Def / 212 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Nasty Plot
+- Make It Rain
+- Shadow Ball
+- Protect
+
+Dondozo @ Safety Goggles
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 36 HP / 220 Atk / 4 Def / 36 SpD / 212 Spe
+Jolly Nature
+- Wave Crash
+- Protect
+- Body Press
+- Earthquake
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Icy Wind
+- Muddy Water
+- Sleep Talk
+
+Dragonite (F) @ Choice Band
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 180 HP / 252 Atk / 76 Spe
+Adamant Nature
+- Stomping Tantrum
+- Low Kick
+- Outrage
+- Extreme Speed
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Will-O-Wisp
+- Flare Blitz
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 196 HP / 88 Atk / 156 SpD / 68 Spe
+Adamant Nature
+- Fake Out
+- U-turn
+- Grassy Glide
+- Wood Hammer

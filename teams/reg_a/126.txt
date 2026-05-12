@@ -1,0 +1,65 @@
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+EVs: 4 HP / 132 Atk / 84 Def / 36 SpD / 252 Spe
+Jolly Nature
+- Population Bomb
+- Encore
+- Follow Me
+- Protect
+
+Zoroark @ Focus Sash
+Ability: Illusion
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Flamethrower
+- Snarl
+- Dark Pulse
+- Protect
+
+Rotom-Wash @ Choice Specs
+Ability: Levitate
+Level: 50
+EVs: 204 HP / 252 SpA / 52 SpD
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Shadow Ball
+- Volt Switch
+
+Scizor @ Clear Amulet
+Ability: Technician
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Bullet Punch
+- Close Combat
+- Swords Dance
+- Protect
+
+Meowscarada (F) @ Life Orb
+Ability: Overgrow
+Level: 50
+EVs: 44 HP / 252 Atk / 212 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- Protect
+
+Hydreigon (M) @ Haban Berry
+Ability: Levitate
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Tailwind
+- Protect

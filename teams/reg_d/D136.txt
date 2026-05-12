@@ -1,0 +1,70 @@
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 132 HP / 252 Atk / 124 SpD
+Brave Nature
+IVs: 6 Spe
+- Facade
+- Earthquake
+- Headlong Rush
+- Protect
+
+Cresselia @ Colbur Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 92 Def / 4 SpA / 156 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Ice Beam
+- Trick Room
+- Dazzling Gleam
+- Lunar Blessing
+
+Heatran @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 12 Def / 188 SpA / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Flash Cannon
+- Earth Power
+- Heat Wave
+- Tera Blast
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 188 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Pollen Puff
+- Protect
+
+Wyrdeer @ Mental Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 116 Atk / 140 SpD
+Adamant Nature
+IVs: 11 Spe
+- Psyshield Bash
+- Helping Hand
+- Trick Room
+- Protect

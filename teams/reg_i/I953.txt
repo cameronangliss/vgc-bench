@@ -1,0 +1,69 @@
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 116 Atk / 4 Def / 116 SpD / 20 Spe
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Kyogre @ Iron Ball
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Water Spout
+- Hydro Pump
+- Thunder
+- Protect
+
+Landorus @ Choice Scarf
+Ability: Sheer Force
+Level: 50
+Tera Type: Ghost
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Sandsear Storm
+- Earth Power
+- Sludge Bomb
+- U-turn
+
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 12 SpA / 236 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Taunt
+- Rain Dance
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Own Tempo
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Baneful Bunker
+- Wide Guard
+- Follow Me
+- Decorate
+
+Farigiraf @ Choice Specs
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 60 HP / 196 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Dazzling Gleam
+- Psychic
+- Shadow Ball

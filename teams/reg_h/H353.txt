@@ -1,0 +1,68 @@
+Vivillon-Fancy @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Rage Powder
+- Sleep Powder
+- Hurricane
+
+Weezing-Galar @ Leftovers
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 12 Def / 4 SpA / 180 SpD / 60 Spe
+Calm Nature
+IVs: 0 Atk
+- Haze
+- Dazzling Gleam
+- Sludge Bomb
+- Protect
+
+Typhlosion-Hisui @ Choice Scarf
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 44 Def / 244 SpA / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Shadow Ball
+- Heat Wave
+- Overheat
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Stomping Tantrum
+- Dragon Claw
+- Earthquake
+
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 124 Atk / 4 Def / 52 SpD / 84 Spe
+Adamant Nature
+- Protect
+- Tailwind
+- Roost
+- Brave Bird
+
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 252 Atk / 4 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Close Combat
+- Shadow Claw
+- Taunt
+- Protect

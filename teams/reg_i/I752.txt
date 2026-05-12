@@ -1,0 +1,67 @@
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 28 HP / 4 Def / 220 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Encore
+- Protect
+
+Weezing-Galar @ Covert Cloak
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 12 Def / 172 SpD / 68 Spe
+Impish Nature
+- Protect
+- Poison Gas
+- Play Rough
+- Taunt
+
+Koraidon @ Ability Shield
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 124 Atk / 4 Def / 52 SpD / 76 Spe
+Adamant Nature
+- Flame Charge
+- Flare Blitz
+- Collision Course
+- Protect
+
+Brute Bonnet @ Rocky Helmet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 132 Def / 4 SpD / 108 Spe
+Impish Nature
+- Seed Bomb
+- Spore
+- Rage Powder
+- Sucker Punch
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 20 HP / 4 Def / 244 SpA / 4 SpD / 236 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Ruination
+- Snarl
+- Flamethrower
+
+Walking Wake @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 4 Def / 164 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Hydro Steam
+- Draco Meteor
+- Snarl
+- Aqua Jet

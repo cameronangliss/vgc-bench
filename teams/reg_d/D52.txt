@@ -1,0 +1,67 @@
+Zapdos @ Aguav Berry
+Ability: Static
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 124 Def / 116 SpA / 36 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hurricane
+- Tera Blast
+- Protect
+
+Heatran (F) @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 4 Atk / 84 Def / 156 SpA / 60 SpD
+Quiet Nature
+- Heat Wave
+- Heavy Slam
+- Tera Blast
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 76 HP / 236 Atk / 36 Def / 76 SpD / 84 Spe
+Adamant Nature
+- Stomping Tantrum
+- Heavy Slam
+- Rock Slide
+- Throat Chop
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Ghost
+EVs: 148 HP / 236 Def / 4 SpA / 92 SpD / 28 Spe
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Clear Smog
+- Rage Powder
+- Spore
+
+Rillaboom (F) @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 124 Atk / 52 Def / 156 SpD / 44 Spe
+Adamant Nature
+- Drum Beating
+- Fake Out
+- Knock Off
+- U-turn
+
+Annihilape (F) @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 180 HP / 36 Atk / 108 Def / 172 SpD / 12 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect

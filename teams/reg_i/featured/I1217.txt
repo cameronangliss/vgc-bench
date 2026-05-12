@@ -1,0 +1,67 @@
+Lunala @ Choice Specs
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Psychic
+- Dazzling Gleam
+
+Rayquaza @ Assault Vest
+Ability: Air Lock
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Dragon Ascent
+- Crunch
+- U-turn
+- Extreme Speed
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Tera Blast
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 68 Def / 180 SpD / 4 Spe
+Careful Nature
+- Knock Off
+- Parting Shot
+- Fake Out
+- Protect
+
+Rillaboom @ Choice Band
+Ability: Grassy Surge
+Level: 50
+Tera Type: Ground
+EVs: 236 HP / 4 Atk / 4 Def / 236 SpD / 28 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- High Horsepower
+
+Ursaluna-Bloodmoon @ Covert Cloak
+Ability: Mind's Eye
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 68 Def / 100 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+- Protect

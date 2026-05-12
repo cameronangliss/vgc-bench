@@ -1,0 +1,70 @@
+Roaring Moon @ Choice Band
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Tera Blast
+- Breaking Swipe
+- Throat Chop
+- Rock Slide
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Psychic
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 36 HP / 252 Def / 164 SpA / 4 SpD / 52 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Power Gem
+
+Sableye @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 124 Def / 132 SpD
+Impish Nature
+IVs: 0 Atk
+- Foul Play
+- Encore
+- Sunny Day
+- Light Screen
+
+Jumpluff @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Solar Beam
+- Sleep Powder
+- Rage Powder
+- Tailwind
+
+Torkoal @ Eject Button
+Ability: Drought
+Level: 50
+Tera Type: Fighting
+EVs: 236 HP / 252 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Body Press
+- Yawn
+- Helping Hand

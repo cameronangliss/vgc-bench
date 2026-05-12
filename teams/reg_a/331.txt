@@ -1,0 +1,71 @@
+Slowbro @ Safety Goggles
+Ability: Oblivious
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Def / 204 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Body Press
+- Hydro Pump
+- Iron Defense
+- Trick Room
+
+Crabominable @ Assault Vest
+Ability: Iron Fist
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 252 Atk / 60 Def
+Brave Nature
+IVs: 0 Spe
+- Close Combat
+- Ice Spinner
+- Crabhammer
+- Gunk Shot
+
+Amoonguss @ Aguav Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 172 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Rage Powder
+- Spore
+- Protect
+
+Hariyama @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Fighting
+EVs: 220 HP / 220 Atk / 68 Def
+Brave Nature
+IVs: 0 Spe
+- Fake Out
+- Close Combat
+- Headlong Rush
+- Wide Guard
+
+Misdreavus @ Eviolite
+Ability: Levitate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 164 Def / 92 SpD
+Bold Nature
+IVs: 0 Atk
+- Night Shade
+- Will-O-Wisp
+- Trick Room
+- Taunt
+
+Florges (F) @ Leftovers
+Ability: Flower Veil
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 140 Def / 116 SpA
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Pollen Puff
+- Calm Mind
+- Protect

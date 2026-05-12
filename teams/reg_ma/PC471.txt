@@ -1,0 +1,59 @@
+Froslass (F) @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 15 Def / 1 SpA / 18 Spe
+Timid Nature
+- Protect
+- Blizzard
+- Shadow Ball
+- Aurora Veil
+
+Glaceon @ Never-Melt Ice
+Ability: Snow Cloak
+Level: 50
+EVs: 25 HP / 1 Def / 30 SpA / 10 Spe
+Modest Nature
+- Protect
+- Blizzard
+- Freeze-Dry
+- Ice Shard
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 26 HP / 15 Atk / 25 Spe
+Adamant Nature
+- Protect
+- Stomping Tantrum
+- Rock Slide
+- Swords Dance
+
+Arcanine-Hisui @ Choice Scarf
+Ability: Intimidate
+Level: 50
+EVs: 7 HP / 29 Atk / 1 Def / 1 SpD / 28 Spe
+Adamant Nature
+- Rock Slide
+- Flare Blitz
+- Close Combat
+- Extreme Speed
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Last Respects
+- Protect
+- Liquidation
+- Aqua Jet
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 30 HP / 18 Atk / 2 Def / 1 SpD / 15 Spe
+Adamant Nature
+- Protect
+- Iron Head
+- Low Kick
+- Sucker Punch

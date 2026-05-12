@@ -1,0 +1,64 @@
+Annihilape @ Punching Glove
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 56 HP / 188 Atk / 12 Def / 252 Spe
+Jolly Nature
+- Protect
+- Rage Fist
+- U-turn
+- Drain Punch
+
+Maushold-Four @ Covert Cloak
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Follow Me
+- Beat Up
+- Helping Hand
+- Super Fang
+
+Armarouge @ Focus Sash
+Ability: Flash Fire
+Level: 50
+EVs: 252 HP / 56 Def / 144 SpA / 56 SpD
+Quiet Nature
+IVs: 0 Atk
+- Trick Room
+- Heat Wave
+- Wide Guard
+- Psyshock
+
+Garchomp @ Clear Amulet
+Ability: Sand Veil
+Level: 50
+Tera Type: Steel
+EVs: 102 HP / 154 Atk / 252 Spe
+Adamant Nature
+- Dragon Claw
+- Rock Tomb
+- Stomping Tantrum
+- Swords Dance
+
+Torkoal @ Sitrus Berry
+Ability: Drought
+Level: 50
+EVs: 252 HP / 184 SpA / 72 SpD
+Sassy Nature
+IVs: 0 Atk
+- Heat Wave
+- Yawn
+- Earth Power
+- Protect
+
+Meowscarada @ Life Orb
+Ability: Protean
+Level: 50
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- U-turn
+- Play Rough
+- Protect

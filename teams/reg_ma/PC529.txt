@@ -1,0 +1,59 @@
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Modest Nature
+- Helping Hand
+- Hyper Voice
+- Trick Room
+- Psychic
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 18 HP / 21 SpA / 27 Spe
+Modest Nature
+- Protect
+- Heat Wave
+- Weather Ball
+- Solar Beam
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 18 HP / 24 Atk / 1 Def / 1 SpD / 22 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Stomping Tantrum
+- Dragon Claw
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Modest Nature
+- Protect
+- Light of Ruin
+- Dazzling Gleam
+- Moonblast
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Protect
+- Fake Out
+- Close Combat
+- Dire Claw
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Adamant Nature
+- Protect
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head

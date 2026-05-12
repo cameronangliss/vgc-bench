@@ -1,0 +1,67 @@
+Kommo-o @ Clear Amulet
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 76 Atk / 4 Def / 60 SpD / 116 Spe
+Adamant Nature
+- Drain Punch
+- Clangorous Soul
+- Protect
+- Iron Head
+
+Espeon @ Aguav Berry
+Ability: Magic Bounce
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 180 Def / 76 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Draining Kiss
+- Psych Up
+- Stored Power
+- Protect
+
+Tornadus @ King's Rock
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 92 Def / 4 SpA / 132 SpD / 28 Spe
+Calm Nature
+- Bleakwind Storm
+- Taunt
+- Tailwind
+- Fling
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 212 Atk / 12 Def / 140 SpD / 60 Spe
+Adamant Nature
+- Wild Charge
+- Volt Switch
+- Drain Punch
+- Fake Out
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Extreme Speed
+- Flare Blitz
+- Rock Slide
+- Head Smash
+
+Sinistcha-Masterpiece @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 52 Def / 12 SpA / 196 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Rage Powder
+- Protect
+- Matcha Gotcha

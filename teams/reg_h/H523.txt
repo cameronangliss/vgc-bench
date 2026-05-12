@@ -1,0 +1,65 @@
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 100 Atk / 36 Def / 140 SpD / 20 Spe
+Adamant Nature
+- Brave Bird
+- Body Press
+- Bulk Up
+- Roost
+
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 132 Def / 36 SpA / 4 SpD / 108 Spe
+Modest Nature
+- Flamethrower
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 44 HP / 236 Atk / 4 Def / 4 SpD / 220 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+
+Dragonite @ Life Orb
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 100 HP / 252 Atk / 4 Def / 4 SpD / 148 Spe
+Adamant Nature
+- Tera Blast
+- Extreme Speed
+- Stomping Tantrum
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Coaching
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 52 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Blizzard
+- Encore
+- Aurora Veil
+- Protect

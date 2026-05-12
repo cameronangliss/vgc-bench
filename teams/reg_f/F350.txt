@@ -1,0 +1,72 @@
+Registeel @ Leftovers
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 6 Atk / 164 Def / 76 SpD / 12 Spe
+Impish Nature
+- Protect
+- Heavy Slam
+- Iron Defense
+- Body Press
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 236 HP / 6 Atk / 156 Def / 4 SpD / 108 Spe
+Impish Nature
+- Parting Shot
+- Knock Off
+- Flare Blitz
+- Fake Out
+
+Cresselia (F) @ Safety Goggles
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 172 Def / 86 SpD
+Relaxed Nature
+IVs: 0 Atk / 18 Spe
+- Lunar Blessing
+- Trick Room
+- Icy Wind
+- Moonblast
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 140 Atk / 6 Def / 12 SpD / 196 Spe
+Jolly Nature
+- Spiky Shield
+- Follow Me
+- Horn Leech
+- Ivy Cudgel
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 6 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Bug
+EVs: 100 HP / 76 Def / 244 SpA / 4 SpD / 86 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Volt Switch
+- Snarl

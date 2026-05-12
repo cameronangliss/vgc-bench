@@ -1,0 +1,59 @@
+Beedrill @ Beedrillite
+Ability: Swarm
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Poison Jab
+- U-turn
+- Knock Off
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 26 HP / 21 Def / 1 SpA / 14 SpD / 4 Spe
+Bold Nature
+- Psychic
+- Hyper Voice
+- Helping Hand
+- Trick Room
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Atk / 12 Def / 13 SpD / 8 Spe
+Impish Nature
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+- Fake Out
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Stomping Tantrum
+- Dragon Claw
+- Protect
+
+Milotic @ Leftovers
+Ability: Cute Charm
+Level: 50
+EVs: 32 HP / 11 Def / 1 SpA / 14 SpD / 8 Spe
+Bold Nature
+- Scald
+- Ice Beam
+- Icy Wind
+- Protect
+
+Conkeldurr @ Black Belt
+Ability: Iron Fist
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Adamant Nature
+- Mach Punch
+- Drain Punch
+- Ice Punch
+- Thunder Punch

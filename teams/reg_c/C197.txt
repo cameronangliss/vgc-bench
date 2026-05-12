@@ -1,0 +1,67 @@
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump
+- Protect
+
+Dondozo @ Lum Berry
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 76 Atk / 4 Def / 60 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Order Up
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+- Hurricane
+- U-turn
+- Tailwind
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Dragon Pulse
+- Surf
+- Draco Meteor
+
+Drednaw @ Assault Vest
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 180 Atk / 4 Def / 68 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Ice Spinner
+- Liquidation
+
+Palafin @ Sitrus Berry
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 252 Atk / 4 Def / 4 SpD / 12 Spe
+Jolly Nature
+- Jet Punch
+- Wave Crash
+- Haze
+- Protect

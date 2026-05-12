@@ -1,0 +1,69 @@
+Pecharunt @ Rocky Helmet
+Ability: Poison Puppeteer
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 4 Def / 4 SpA / 172 SpD / 76 Spe
+Calm Nature
+IVs: 0 Atk
+- Poison Gas
+- Malignant Chain
+- Hex
+- Protect
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 60 HP / 76 Def / 116 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Snarl
+- Volt Switch
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 4 Def / 196 SpD / 52 Spe
+Careful Nature
+- Earthquake
+- Body Press
+- Order Up
+- Protect
+
+Tatsugiri-Droopy @ Bright Powder
+Ability: Commander
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Protect
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 164 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Overheat
+- Dark Pulse
+
+Iron Valiant @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Wide Guard
+- Disable
+- Protect

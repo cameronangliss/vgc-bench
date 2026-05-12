@@ -1,0 +1,70 @@
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 12 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Moonblast
+- Shadow Ball
+- Trick Room
+- Protect
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 SpD
+Brave Nature
+- Drain Punch
+- Earthquake
+- Belly Drum
+- Detect
+
+Chi-Yu @ Life Orb
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 28 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Heat Wave
+- Overheat
+- Dark Pulse
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 252 SpA / 20 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Flamethrower
+- Earth Power
+- Protect
+
+Lilligant @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 252 Def / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Pollen Puff
+- Sleep Powder
+- After You
+- Encore
+
+Ting-Lu @ Weakness Policy
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Stomping Tantrum
+- Rock Slide
+- Throat Chop
+- Protect

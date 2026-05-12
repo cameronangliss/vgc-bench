@@ -1,0 +1,67 @@
+Lycanroc @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Close Combat
+- Endeavor
+- Endure
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 124 Atk / 4 Def / 12 SpD / 116 Spe
+Adamant Nature
+- Rock Slide
+- Tera Blast
+- Assurance
+- Ice Punch
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 204 Atk / 4 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Order Up
+- Earthquake
+- Substitute
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Taunt
+
+Meowscarada @ Life Orb
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Sucker Punch
+- Knock Off
+- Protect
+
+Rotom-Heat @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 20 Def / 116 SpA / 4 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Volt Switch
+- Overheat
+- Trick

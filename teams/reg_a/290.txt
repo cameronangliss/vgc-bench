@@ -1,0 +1,69 @@
+Toedscool (F) @ Eviolite
+Ability: Mycelium Might
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 244 Def / 12 SpD
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Spore
+- Rage Powder
+- Mirror Coat
+
+Skeledirge (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 36 Def / 4 SpA / 180 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Torch Song
+- Tera Blast
+- Slack Off
+
+Kingambit (F) @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 124 HP / 252 Atk / 4 Def / 4 SpD / 124 Spe
+Adamant Nature
+- Protect
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- U-turn
+- Rage Fist
+
+Hydreigon (F) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Dark Pulse
+- Draco Meteor
+- Tailwind
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Flower Trick
+- Knock Off
+- Sucker Punch

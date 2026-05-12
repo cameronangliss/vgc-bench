@@ -1,0 +1,68 @@
+Baxcalibur (M) @ Figy Berry
+Ability: Thermal Exchange
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Swords Dance
+- Glaive Rush
+- Ice Shard
+- Protect
+
+Salazzle @ Eject Pack
+Ability: Oblivious
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 44 SpA / 252 Spe
+Timid Nature
+- Fake Out
+- Sludge Bomb
+- Overheat
+- Encore
+
+Mimikyu (F) @ Life Orb
+Ability: Disguise
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 172 HP / 252 Atk / 84 Spe
+Adamant Nature
+- Shadow Claw
+- Shadow Sneak
+- Play Rough
+- Trick Room
+
+Azumarill (F) @ Assault Vest
+Ability: Huge Power
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Liquidation
+- Play Rough
+- Ice Spinner
+- Aqua Jet
+
+Volcarona (M) @ Wiki Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 164 Def / 52 SpA / 4 SpD / 36 Spe
+Bold Nature
+- Rage Powder
+- Fiery Dance
+- Will-O-Wisp
+- Struggle Bug
+
+Umbreon (F) @ Sitrus Berry
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Foul Play
+- Skill Swap
+- Helping Hand
+- Taunt

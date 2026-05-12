@@ -1,0 +1,66 @@
+Arceus-Flying @ Sky Plate
+Ability: Multitype
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 4 Def / 252 SpA / 12 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Judgment
+- Recover
+- Tailwind
+- Protect
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 188 HP / 4 Def / 196 SpA / 4 SpD / 116 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Snarl
+
+Iron Treads @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 28 HP / 252 Atk / 4 Def / 4 SpD / 220 Spe
+Jolly Nature
+- High Horsepower
+- Earthquake
+- Steel Roller
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 132 Atk / 36 Def / 68 SpD / 28 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 172 HP / 76 Atk / 180 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Ivy Cudgel
+- Helping Hand
+- Follow Me
+- Spiky Shield

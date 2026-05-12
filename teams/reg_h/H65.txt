@@ -1,0 +1,70 @@
+Volcarona (F) @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 116 Def / 4 SpA / 4 SpD / 140 Spe
+Bold Nature
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Incineroar (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 76 Def / 156 SpD / 20 Spe
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Primarina (M) @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 108 HP / 140 Def / 252 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 172 HP / 4 Def / 252 SpA / 20 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 SpA / 252 SpD
+Modest Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+- Rage Powder
+
+Ninetales-Alola (M) @ Light Clay
+Ability: Snow Warning
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Aurora Veil
+- Encore
+- Protect

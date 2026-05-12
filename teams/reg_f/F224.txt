@@ -1,0 +1,72 @@
+Whimsicott (F) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 6 Def / 252 SpD
+Sassy Nature
+IVs: 11 Atk / 1 Spe
+- Moonblast
+- Taunt
+- Helping Hand
+- Trick Room
+
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 6 SpD / 252 Spe
+Jolly Nature
+- Final Gambit
+- Shadow Claw
+- Close Combat
+- U-turn
+
+Urshifu (M) @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 92 HP / 252 Atk / 166 SpD
+Brave Nature
+IVs: 0 SpA / 0 Spe
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Iron Head
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 20 Spe
+Naughty Nature
+IVs: 20 Def / 20 SpA / 20 SpD
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Tsareena (F) @ Wide Lens
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Stellar
+EVs: 252 HP / 252 Atk / 6 SpD
+Brave Nature
+IVs: 0 SpA / 0 Spe
+- Power Whip
+- Triple Axel
+- High Jump Kick
+- Helping Hand
+
+Torkoal (M) @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 166 HP / 252 SpA / 92 SpD
+Quiet Nature
+IVs: 12 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Weather Ball
+- Earth Power

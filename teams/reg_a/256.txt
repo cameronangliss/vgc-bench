@@ -1,0 +1,68 @@
+Kingambit (F) @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 124 Atk / 4 Def / 108 SpD / 20 Spe
+Adamant Nature
+- Protect
+- Sucker Punch
+- Kowtow Cleave
+- Iron Head
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 76 Atk / 124 Def / 44 SpD / 12 Spe
+Adamant Nature
+- Light Screen
+- Reflect
+- Spirit Break
+- Sucker Punch
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 196 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Clear Smog
+- Pollen Puff
+
+Azumarill (M) @ Life Orb
+Ability: Huge Power
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 244 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Protect
+- Play Rough
+- Aqua Jet
+- Waterfall
+
+Skeledirge (M) @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Def / 76 SpA / 100 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Slack Off
+- Tera Blast
+- Shadow Ball
+- Torch Song
+
+Hydreigon (M) @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 60 Def / 36 SpA / 12 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Snarl
+- Dark Pulse
+- Draco Meteor
+- Tera Blast

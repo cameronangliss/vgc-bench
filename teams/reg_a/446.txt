@@ -1,0 +1,70 @@
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 68 Def / 36 SpA / 68 SpD / 100 Spe
+Timid Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Thunderbolt
+- Hydro Pump
+- Protect
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 84 HP / 236 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Close Combat
+- Snarl
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 116 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk
+- Spore
+- Clear Smog
+- Rage Powder
+- Pollen Puff
+
+Hydreigon @ Scope Lens
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Focus Energy
+- Protect
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 32 SpD / 68 Spe
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Beat Up
+- Protect
+- Super Fang
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 228 SpD / 148 Spe
+Careful Nature
+- Rage Fist
+- Bulk Up
+- Drain Punch
+- Protect

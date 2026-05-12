@@ -1,0 +1,70 @@
+Oranguru @ Colbur Berry
+Ability: Telepathy
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 236 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Trick Room
+- Instruct
+- Encore
+
+Ting-Lu @ Choice Band
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 252 Atk / 204 SpD
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+- Throat Chop
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 124 Def / 204 SpA / 4 SpD / 76 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Thunderbolt
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 252 SpA / 20 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Heat Wave
+- Eruption
+- Earth Power
+- Helping Hand
+
+Dragonite @ Clear Amulet
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 60 Spe
+Adamant Nature
+- Extreme Speed
+- Thunder Punch
+- Low Kick
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 220 HP / 4 Def / 204 SpA / 4 SpD / 76 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Encore
+- Protect

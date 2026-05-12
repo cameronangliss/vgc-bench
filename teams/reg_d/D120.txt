@@ -1,0 +1,68 @@
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 236 Def / 4 SpA / 12 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Clear Smog
+- Rage Powder
+- Pollen Puff
+
+Urshifu-Rapid-Strike @ Protective Pads
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 156 Atk / 4 Def / 108 SpD / 180 Spe
+Adamant Nature
+- Detect
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 76 Def / 116 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+
+Cresselia @ Leftovers
+Ability: Levitate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 108 Def / 4 SpA / 76 SpD / 68 Spe
+Calm Nature
+IVs: 0 Atk
+- Icy Wind
+- Helping Hand
+- Lunar Blessing
+- Trick Room
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 204 Atk / 108 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Aqua Jet
+- Outrage
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Atk / 28 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Protect
+- Earthquake
+- Facade
+- Shadow Claw

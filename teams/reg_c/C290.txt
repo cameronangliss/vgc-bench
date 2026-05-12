@@ -1,0 +1,67 @@
+Tatsugiri @ Safety Goggles
+Ability: Commander
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 172 Def / 12 SpA / 20 SpD / 52 Spe
+Calm Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Muddy Water
+- Icy Wind
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 28 Atk / 4 Def / 212 SpD / 12 Spe
+Careful Nature
+- Wave Crash
+- Order Up
+- Yawn
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 76 Atk / 4 Def / 172 SpD / 12 Spe
+Adamant Nature
+- Stomping Tantrum
+- Heavy Slam
+- Ruination
+- Fissure
+
+Dragonite @ Lum Berry
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 132 HP / 252 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Tera Blast
+- Stomping Tantrum
+- Extreme Speed
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 20 HP / 4 Def / 228 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Mystical Fire
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Power Gem
+- Earth Power
+- Mortal Spin
+- Spiky Shield

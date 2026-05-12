@@ -1,0 +1,68 @@
+Iron Crown @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Dark
+EVs: 116 HP / 76 Def / 252 SpA / 4 SpD / 60 Spe
+Timid Nature
+IVs: 20 Atk
+- Tachyon Cutter
+- Expanding Force
+- Protect
+- Calm Mind
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 244 Def / 12 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Helping Hand
+- Follow Me
+- Trick Room
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 92 Def / 116 SpA / 76 SpD / 4 Spe
+Modest Nature
+- Electro Shot
+- Body Press
+- Heavy Slam
+- Draco Meteor
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 92 Def / 4 SpA / 132 SpD / 28 Spe
+Calm Nature
+IVs: 0 Atk
+- Tailwind
+- Rain Dance
+- Bleakwind Storm
+- Icy Wind
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 76 HP / 116 Atk / 60 Def / 44 SpD / 212 Spe
+Adamant Nature
+- Stomping Tantrum
+- U-turn
+- Tera Blast
+- Rock Slide
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 180 Atk / 28 Def / 44 SpD / 212 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect

@@ -1,0 +1,68 @@
+Dondozo @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 140 Def / 116 SpD
+Impish Nature
+- Body Press
+- Heavy Slam
+- Protect
+- Avalanche
+
+Tatsugiri-Stretchy @ Choice Specs
+Ability: Storm Drain
+Level: 50
+Tera Type: Dragon
+EVs: 156 HP / 252 SpA / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Surf
+- Muddy Water
+- Icy Wind
+- Dragon Pulse
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 108 HP / 4 Def / 252 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Tera Blast
+
+Scizor @ Life Orb
+Ability: Technician
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Bullet Punch
+- Pounce
+- Protect
+- Trailblaze
+
+Breloom @ Leftovers
+Ability: Technician
+Level: 50
+Tera Type: Fighting
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Mach Punch
+- Bullet Seed
+- Protect
+- Spore
+
+Vaporeon @ Assault Vest
+Ability: Water Absorb
+Level: 50
+Tera Type: Flying
+EVs: 12 HP / 252 SpA / 244 Spe
+Modest Nature
+IVs: 0 Atk
+- Surf
+- Muddy Water
+- Ice Beam
+- Shadow Ball

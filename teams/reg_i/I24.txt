@@ -1,0 +1,70 @@
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 44 Def / 108 SpD / 28 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- Protect
+- High Horsepower
+
+Lunala @ Power Herb
+Ability: Shadow Shield
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 228 HP / 12 Def / 100 SpA / 116 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Meteor Beam
+- Wide Guard
+- Trick Room
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 148 Def / 100 SpA / 52 SpD / 60 Spe
+Modest Nature
+IVs: 20 Atk
+- Volt Switch
+- Thunderclap
+- Draco Meteor
+- Electroweb
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 188 Def / 68 SpD
+Relaxed Nature
+IVs: 24 Spe
+- Fake Out
+- Knock Off
+- Will-O-Wisp
+- U-turn
+
+Iron Valiant @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 124 HP / 4 Atk / 4 Def / 204 SpD / 172 Spe
+Jolly Nature
+- Spirit Break
+- Wide Guard
+- Coaching
+- Icy Wind
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 12 Atk / 244 Def / 4 SpD / 20 Spe
+Impish Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield

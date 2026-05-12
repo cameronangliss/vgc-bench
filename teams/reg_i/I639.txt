@@ -1,0 +1,67 @@
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 4 Def / 4 SpD / 132 Spe
+Adamant Nature
+- Trick Room
+- Glacial Lance
+- High Horsepower
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 180 HP / 4 Atk / 156 Def / 4 SpD / 164 Spe
+Impish Nature
+- Wide Guard
+- Body Press
+- Heavy Slam
+- Protect
+
+Regieleki @ Focus Sash
+Ability: Transistor
+Level: 50
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Electroweb
+- Electro Ball
+- Volt Switch
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 44 HP / 196 Atk / 4 Def / 108 SpD / 156 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 132 HP / 4 Def / 116 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Taunt
+- Protect
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 12 HP / 252 Atk / 52 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Follow Me
+- Power Whip
+- Ivy Cudgel
+- Spiky Shield

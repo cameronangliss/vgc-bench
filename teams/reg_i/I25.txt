@@ -1,0 +1,68 @@
+Miraidon @ Life Orb
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 4 Def / 196 SpA / 4 SpD / 108 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Dazzling Gleam
+- Protect
+
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 252 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Flare Blitz
+- Collision Course
+- Flame Charge
+- Protect
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 164 SpD / 108 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Light Screen
+- Encore
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Gothitelle @ Leftovers
+Ability: Shadow Tag
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Def / 4 SpA / 52 SpD / 4 Spe
+Bold Nature
+- Psychic
+- Fake Out
+- Taunt
+- Protect
+
+Scream Tail @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 100 Def / 68 SpD / 92 Spe
+Timid Nature
+IVs: 0 Atk
+- Encore
+- Disable
+- Perish Song
+- Protect

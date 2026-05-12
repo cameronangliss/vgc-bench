@@ -1,0 +1,71 @@
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Follow Me
+- Trick Room
+- Skill Swap
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 12 Def / 244 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Flamethrower
+- Clear Smog
+- Protect
+
+Armarouge @ Covert Cloak
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 120 HP / 52 Def / 252 SpA / 84 SpD
+Modest Nature
+IVs: 0 Atk / 4 Spe
+- Expanding Force
+- Armor Cannon
+- Energy Ball
+- Trick Room
+
+Iron Hands @ Clear Amulet
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 156 Atk / 4 Def / 92 SpD
+Adamant Nature
+IVs: 0 Spe
+- Fake Out
+- Drain Punch
+- Thunder Punch
+- Swords Dance
+
+Enamorus-Therian (F) @ Life Orb
+Ability: Overcoat
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 4 Def / 252 SpA / 12 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Dazzling Gleam
+- Sludge Bomb
+- Grass Knot
+
+Glastrier @ Choice Band
+Ability: Chilling Neigh
+Level: 50
+Tera Type: Ice
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Icicle Crash
+- Body Press
+- Close Combat
+- Facade

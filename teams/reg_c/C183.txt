@@ -1,0 +1,69 @@
+Azumarill @ Choice Band
+Ability: Huge Power
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 252 Atk / 4 Def / 4 SpD / 100 Spe
+Adamant Nature
+- Liquidation
+- Play Rough
+- Aqua Jet
+- Brick Break
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Atk / 4 Def / 4 SpD / 92 Spe
+Adamant Nature
+IVs: 8 SpA
+- Flare Blitz
+- Will-O-Wisp
+- Howl
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 84 Atk / 252 SpD
+Sassy Nature
+IVs: 0 Spe
+- Ruination
+- Stomping Tantrum
+- Heavy Slam
+- Payback
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 252 Atk / 28 Spe
+Adamant Nature
+- Ice Shard
+- Glaive Rush
+- Icicle Crash
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 116 Def / 252 SpA / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Energy Ball
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 236 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Clear Smog
+- Rage Powder

@@ -1,0 +1,67 @@
+Rillaboom @ Leftovers
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 228 Atk
+Adamant Nature
+- Wood Hammer
+- Protect
+- Knock Off
+- Fake Out
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Detect
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+
+Tornadus (M) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 188 HP / 180 SpA / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Rain Dance
+- Taunt
+- Tailwind
+- Bleakwind Storm
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 52 HP / 228 SpA / 228 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+- Power Gem
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Flare Blitz
+- Extreme Speed
+- Close Combat
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Fake Out
+- Wild Charge
+- Drain Punch
+- Close Combat

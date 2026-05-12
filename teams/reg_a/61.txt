@@ -1,0 +1,63 @@
+Skeledirge @ Assault Vest
+Ability: Unaware
+Level: 50
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Snarl
+- Torch Song
+- Shadow Ball
+- Tera Blast
+
+Bronzong @ Lum Berry
+Ability: Levitate
+Level: 50
+EVs: 252 HP / 4 Atk / 252 Def
+Adamant Nature
+- Body Press
+- Iron Head
+- Trick Room
+- Protect
+
+Amoonguss @ Bright Powder
+Ability: Regenerator
+Level: 50
+EVs: 252 HP / 124 Def / 4 SpA / 124 SpD
+Bold Nature
+IVs: 0 Atk / 26 Spe
+- Clear Smog
+- Rage Powder
+- Spore
+- Protect
+
+Quaquaval @ Choice Scarf
+Ability: Moxie
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Brick Break
+- Aqua Step
+- U-turn
+- Ice Spinner
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 12 Atk / 116 Def / 124 SpD / 4 Spe
+Adamant Nature
+- Light Screen
+- Reflect
+- Parting Shot
+- Spirit Break
+
+Kilowattrel @ Focus Sash
+Ability: Wind Power
+Level: 50
+Shiny: Yes
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Air Slash
+- Volt Switch
+- Thunder Wave
+- Tailwind

@@ -1,0 +1,68 @@
+Kingambit (F) @ Assault Vest
+Ability: Supreme Overlord
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 252 Atk / 4 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Iron Head
+- Tera Blast
+- Kowtow Cleave
+- Sucker Punch
+
+Gengar (M) @ Focus Sash
+Ability: Cursed Body
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Sludge Bomb
+- Icy Wind
+- Haze
+
+Amoonguss (F) @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Def / 140 SpD
+Sassy Nature
+IVs: 0 Atk / 6 Spe
+- Rage Powder
+- Protect
+- Spore
+- Clear Smog
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 236 HP / 68 Def / 124 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Protect
+- Nasty Plot
+
+Gallade @ Life Orb
+Ability: Sharpness
+Level: 50
+Tera Type: Fighting
+EVs: 116 HP / 252 Atk / 44 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Psycho Cut
+- Sacred Sword
+- Trick Room
+- Protect
+
+Talonflame (F) @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Tailwind
+- Flare Blitz
+- Will-O-Wisp
+- Brave Bird

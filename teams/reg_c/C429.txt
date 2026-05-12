@@ -1,0 +1,68 @@
+Dragapult (M) @ Choice Band
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 28 HP / 204 Atk / 12 Def / 44 SpD / 220 Spe
+Jolly Nature
+- Dragon Darts
+- Outrage
+- Phantom Force
+- Tera Blast
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Ice Shard
+- Sacred Sword
+- Protect
+
+Tauros-Paldea-Aqua @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 116 HP / 116 Atk / 28 Def / 68 SpD / 180 Spe
+Jolly Nature
+- Close Combat
+- Wave Crash
+- Aqua Jet
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 36 Def / 20 SpA / 4 SpD / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Protect
+- Nasty Plot
+- Thunderbolt
+
+Amoonguss (M) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 4 SpA / 100 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Rage Powder
+- Spore
+- Clear Smog
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 68 HP / 156 Atk / 12 Def / 220 SpD / 52 Spe
+Adamant Nature
+- Stomping Tantrum
+- Heavy Slam
+- Sand Tomb
+- Ruination

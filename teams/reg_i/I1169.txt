@@ -1,0 +1,68 @@
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 124 HP / 212 Atk / 4 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Flame Charge
+- Low Kick
+- Flare Blitz
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Calyrex-Ice @ Never-Melt Ice
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 68 Atk / 124 Def / 60 SpD
+Brave Nature
+IVs: 0 Spe
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 68 HP / 52 Def / 252 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Dragon Pulse
+- Thunderclap
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 180 HP / 20 Atk / 52 Def / 60 SpD / 196 Spe
+Jolly Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Ogerpon-Cornerstone @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 68 HP / 220 Atk / 4 Def / 4 SpD / 212 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield

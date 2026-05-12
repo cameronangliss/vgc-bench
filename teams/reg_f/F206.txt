@@ -1,0 +1,66 @@
+Gloom @ Eviolite
+Ability: Chlorophyll
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 188 Def / 68 SpD
+Calm Nature
+IVs: 0 Atk
+- Strength Sap
+- Leech Seed
+- Substitute
+- Toxic
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 140 HP / 252 Atk / 116 SpD
+Adamant Nature
+- Earthquake
+- Heavy Slam
+- Snarl
+- Stomping Tantrum
+
+Riolu @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Coaching
+- Screech
+- Quick Guard
+- Feint
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 140 HP / 116 Atk / 252 Spe
+Jolly Nature
+- Tailwind
+- Acrobatics
+- Knock Off
+- Protect
+
+Muk-Alola @ Leftovers
+Ability: Power of Alchemy
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 220 Def / 36 SpD
+Adamant Nature
+- Minimize
+- Substitute
+- Knock Off
+- Toxic
+
+Smeargle @ Covert Cloak
+Ability: Moody
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Atk / 140 Def / 76 SpD / 36 Spe
+Jolly Nature
+- Fake Out
+- Spore
+- Follow Me
+- Final Gambit

@@ -1,0 +1,67 @@
+Great Tusk @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Bulldoze
+- Close Combat
+- Headlong Rush
+- Rock Slide
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 236 Atk / 20 Spe
+Adamant Nature
+- Waterfall
+- Iron Head
+- Taunt
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 28 HP / 252 Atk / 4 Def / 188 SpD / 36 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Volt Switch
+- Fake Out
+
+Chi-Yu @ Safety Goggles
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 252 SpA / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Flamethrower
+- Tera Blast
+- Protect
+
+Vivillon-Fancy @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Sleep Powder
+- Tailwind
+- Protect
+
+Lucario @ Life Orb
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 212 HP / 252 Atk / 44 SpA
+Lonely Nature
+- Bullet Punch
+- Vacuum Wave
+- Extreme Speed
+- Protect

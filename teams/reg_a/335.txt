@@ -1,0 +1,68 @@
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Stomping Tantrum
+- Dragon Claw
+- Iron Head
+- Protect
+
+Meowscarada (M) @ Life Orb
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Sucker Punch
+- Knock Off
+- U-turn
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 252 SpA / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Shadow Ball
+- Tera Blast
+- Protect
+
+Maushold-Four @ Sitrus Berry
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 68 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Super Fang
+- Follow Me
+- Helping Hand
+- Protect
+
+Ceruledge (F) @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Bitter Blade
+- Shadow Claw
+- Shadow Sneak
+- Protect
+
+Kilowattrel (F) @ Focus Sash
+Ability: Competitive
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Discharge
+- Thunderbolt
+- Air Slash
+- Tailwind

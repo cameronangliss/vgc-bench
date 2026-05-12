@@ -1,0 +1,68 @@
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Earthquake
+- Dragon Claw
+- Swords Dance
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 244 HP / 156 Def / 4 SpA / 100 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Hydro Pump
+- Thunderbolt
+- Will-O-Wisp
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+
+Sylveon (M) @ Leftovers
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 172 HP / 116 Def / 76 SpA / 116 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Calm Mind
+- Hyper Voice
+- Tera Blast
+- Protect
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+IVs: 0 Atk
+- Tailwind
+- Haze
+- Foul Play
+- Taunt
+
+Hydreigon @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Snarl
+- Heat Wave
+- Dark Pulse

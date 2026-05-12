@@ -1,0 +1,68 @@
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 54 Atk / 4 Def / 4 SpD / 196 Spe
+Jolly Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 198 HP / 252 SpA / 24 SpD / 36 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Snarl
+- Electroweb
+
+Heatran (M) @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 44 Def / 100 SpA / 4 SpD / 116 Spe
+Modest Nature
+- Earth Power
+- Substitute
+- Heat Wave
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 6 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Ice Shard
+- Protect
+- Sucker Punch
+
+Primarina (M) @ Sitrus Berry
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 164 Def / 28 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 13 Atk
+- Moonblast
+- Hyper Voice
+- Haze
+- Protect
+
+Dragonite (M) @ Clear Amulet
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 6 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Iron Head
+- Extreme Speed
+- Stomping Tantrum
+- Dragon Dance

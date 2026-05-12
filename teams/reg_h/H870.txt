@@ -1,0 +1,69 @@
+Blaziken @ Focus Sash
+Ability: Speed Boost
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Heat Wave
+- Scorching Sands
+- Coaching
+- Detect
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Extreme Speed
+- Ice Spinner
+- Haze
+
+Jumpluff @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Tera Type: Dark
+EVs: 116 HP / 188 Def / 204 Spe
+Timid Nature
+IVs: 20 Atk
+- Tailwind
+- Sleep Powder
+- Encore
+- Rage Powder
+
+Torkoal @ Eject Pack
+Ability: Drought
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 2 Atk / 0 Spe
+- Overheat
+- Eruption
+- Burning Jealousy
+- Helping Hand
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 44 HP / 252 Atk / 204 Spe
+Adamant Nature
+IVs: 10 SpA
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Mimikyu @ Mental Herb
+Ability: Disguise
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 228 Atk / 28 Def
+Adamant Nature
+IVs: 2 SpA
+- Play Rough
+- Shadow Sneak
+- Trick Room
+- Taunt

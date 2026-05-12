@@ -1,0 +1,65 @@
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Atk / 68 Def / 180 SpD / 4 Spe
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Trick Room
+- Protect
+
+Smeargle (M) @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Grass
+EVs: 4 Atk / 252 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Follow Me
+- Spore
+- Decorate
+
+Kyogre @ Mystic Water
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 236 SpA / 204 Spe
+Modest Nature
+- Water Spout
+- Origin Pulse
+- Hydro Pump
+- Protect
+
+Basculegion (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Tornadus (M) @ Sharp Beak
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 4 Def / 76 SpA / 4 SpD / 180 Spe
+Modest Nature
+- Tailwind
+- Bleakwind Storm
+- Taunt
+- Protect
+
+Ogerpon (F) @ Loaded Dice
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Bullet Seed
+- Encore
+- Spiky Shield
+- Follow Me

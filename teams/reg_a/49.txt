@@ -1,0 +1,64 @@
+Froslass (F) @ Focus Sash
+Ability: Cursed Body
+Level: 50
+EVs: 108 HP / 148 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Frost Breath
+- Taunt
+- Will-O-Wisp
+- Icy Wind
+
+Tauros-Paldea-Aqua @ Assault Vest
+Ability: Anger Point
+Level: 50
+Tera Type: Ground
+EVs: 132 HP / 108 Atk / 4 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Raging Bull
+- Close Combat
+- Aqua Jet
+- Earthquake
+
+Salamence (F) @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 156 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Dragon Claw
+- Dual Wingbeat
+- Protect
+- Dragon Dance
+
+Maushold-Four @ Sitrus Berry
+Ability: Friend Guard
+Level: 50
+EVs: 244 HP / 4 Atk / 156 Def / 76 SpD / 28 Spe
+Impish Nature
+- Population Bomb
+- Feint
+- Follow Me
+- Protect
+
+Rotom-Heat @ Choice Specs
+Ability: Levitate
+Level: 50
+EVs: 44 HP / 20 Def / 188 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Overheat
+- Volt Switch
+- Trick
+
+Garganacl (M) @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 20 Def / 236 SpD
+Careful Nature
+- Recover
+- Iron Defense
+- Salt Cure
+- Body Press

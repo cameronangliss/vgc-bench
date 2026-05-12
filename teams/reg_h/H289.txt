@@ -1,0 +1,70 @@
+Pelipper @ Covert Cloak
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 196 SpA / 60 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hurricane
+- U-turn
+- Tailwind
+- Protect
+
+Glimmora @ Sitrus Berry
+Ability: Toxic Debris
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 SpA / 180 SpD
+Modest Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Earth Power
+- Mortal Spin
+- Spiky Shield
+
+Tatsugiri-Droopy @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Dragon Pulse
+- Icy Wind
+- Protect
+
+Dondozo @ Life Orb
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 28 HP / 252 SpA / 228 Spe
+Modest Nature
+- Surf
+- Tera Blast
+- Wave Crash
+- Protect
+
+Sableye @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Encore
+- Disable
+- Rain Dance
+- Light Screen
+
+Goodra-Hisui @ Assault Vest
+Ability: Sap Sipper
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Heavy Slam
+- Thunderbolt
+- Ice Beam

@@ -1,0 +1,69 @@
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+Tera Type: Grass
+EVs: 188 HP / 140 Def / 76 SpA / 4 SpD / 100 Spe
+Modest Nature
+IVs: 8 Atk
+- Scald
+- Icy Wind
+- Haze
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 20 HP / 4 Def / 228 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 10 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Tauros-Paldea-Blaze @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 188 Atk / 4 Def / 68 SpD / 180 Spe
+Jolly Nature
+IVs: 4 SpA
+- Flare Blitz
+- Close Combat
+- Will-O-Wisp
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 188 Def / 68 SpD
+Relaxed Nature
+IVs: 24 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Sludge Bomb
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 20 SpD / 36 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Ice Spinner
+- Stomping Tantrum
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 188 HP / 220 Atk / 4 Def / 28 SpD / 68 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Low Kick

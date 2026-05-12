@@ -1,0 +1,69 @@
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Feint
+- Fake Out
+
+Iron Bundle @ Never-Melt Ice
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Ice Beam
+- Protect
+
+Sylveon @ Choice Specs
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 180 Def / 76 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Hyper Beam
+- Sleep Talk
+
+Landorus-Therian @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 116 HP / 204 Def / 148 SpA / 4 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 148 Def / 4 SpA / 100 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Taunt
+- Scary Face

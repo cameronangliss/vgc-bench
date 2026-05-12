@@ -1,0 +1,68 @@
+Arceus-Fairy @ Pixie Plate
+Ability: Multitype
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Def / 4 SpA / 4 SpD / 132 Spe
+Calm Nature
+IVs: 0 Atk
+- Judgment
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Groudon @ Assault Vest
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 28 Def / 140 SpD / 12 Spe
+Adamant Nature
+- Precipice Blades
+- High Horsepower
+- Fire Punch
+- Crunch
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 244 HP / 188 Def / 76 SpD
+Relaxed Nature
+- Flare Blitz
+- Fake Out
+- Parting Shot
+- Roar
+
+Raging Bolt @ Magnet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 92 Def / 108 SpA / 52 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Dragon Pulse
+- Thunderclap
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ice
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Ruination
+- Protect

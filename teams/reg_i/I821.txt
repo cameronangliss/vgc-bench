@@ -1,0 +1,67 @@
+Calyrex-Ice @ Clear Amulet
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 4 Def / 100 SpD / 36 Spe
+Adamant Nature
+- Protect
+- Trick Room
+- Glacial Lance
+- Leech Seed
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 236 Atk / 76 Def / 108 SpD
+Brave Nature
+IVs: 0 Spe
+- Fake Out
+- Low Kick
+- Wild Charge
+- Drain Punch
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Spiky Shield
+- Follow Me
+- Encore
+- Ivy Cudgel
+
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 156 HP / 4 Def / 196 SpA / 4 SpD / 148 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Snarl
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Def / 4 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Quiver Dance
+- Fiery Dance
+- Giga Drain
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 196 Def / 52 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Sucker Punch
+- Light Screen
+- Reflect

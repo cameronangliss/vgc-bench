@@ -1,0 +1,59 @@
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 11 HP / 17 Def / 9 SpA / 29 Spe
+Timid Nature
+- Heat Wave
+- Psychic
+- Substitute
+- Protect
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+- Last Respects
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 15 Def / 5 SpD / 14 Spe
+Impish Nature
+- Brave Bird
+- Body Press
+- Tailwind
+- Roost
+
+Garchomp @ Haban Berry
+Ability: Rough Skin
+Level: 50
+EVs: 12 HP / 25 Atk / 29 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Aurora Veil
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 16 HP / 11 Atk / 21 Def / 18 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect

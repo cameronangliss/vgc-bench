@@ -1,0 +1,67 @@
+Lycanroc (M) @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Close Combat
+- Endeavor
+- Endure
+
+Tyranitar (F) @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Rock Slide
+- Assurance
+- Tera Blast
+- Ice Punch
+
+Dragonite (M) @ Life Orb
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Low Kick
+- Fire Punch
+
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Rage Fist
+- Final Gambit
+- U-turn
+
+Volcarona (M) @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 252 Def / 92 Spe
+Bold Nature
+IVs: 0 Atk
+- Heat Wave
+- Bug Buzz
+- Quiver Dance
+- Protect
+
+Vaporeon (M) @ Leftovers
+Ability: Water Absorb
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Muddy Water
+- Haze
+- Yawn
+- Protect

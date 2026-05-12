@@ -1,0 +1,65 @@
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Coaching
+- Fake Out
+
+Samurott-Hisui @ Assault Vest
+Ability: Sharpness
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Aqua Cutter
+- Knock Off
+- Sacred Sword
+- Sucker Punch
+
+Ninetales-Alola @ Covert Cloak
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 68 HP / 188 Def / 252 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Icy Wind
+- Aurora Veil
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Magmar @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 180 Def / 4 SpA / 28 SpD / 44 Spe
+Bold Nature
+- Protect
+- Will-O-Wisp
+- Follow Me
+- Heat Wave
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Stomping Tantrum
+- Scale Shot
+- Protect

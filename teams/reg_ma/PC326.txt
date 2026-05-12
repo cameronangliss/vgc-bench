@@ -1,0 +1,59 @@
+Hatterene (F) @ Fairy Feather
+Ability: Magic Bounce
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Protect
+- Psychic
+- Trick Room
+- Dazzling Gleam
+
+Oranguru @ Mental Herb
+Ability: Inner Focus
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Bold Nature
+- Protect
+- Instruct
+- Psychic
+- Trick Room
+
+Golurk @ Golurkite
+Ability: Iron Fist
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Protect
+- Thunder Punch
+- Headlong Rush
+- Drain Punch
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
+- Follow Me
+- Population Bomb
+- Taunt
+- Helping Hand
+
+Hydreigon @ Black Glasses
+Ability: Levitate
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Draco Meteor
+- Nasty Plot
+- Heat Wave
+- Dark Pulse
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Protect
+- Earth Power
+- Heat Wave

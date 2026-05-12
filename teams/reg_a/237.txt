@@ -1,0 +1,66 @@
+Pachirisu (F) @ Sitrus Berry
+Ability: Pickup
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Nuzzle
+- Follow Me
+- Super Fang
+- Protect
+
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Taunt
+- Haze
+
+Annihilape (M) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 4 Def / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Phantom Force
+- U-turn
+
+Arcanine (F) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 4 Atk / 68 Def / 76 SpD / 116 Spe
+Jolly Nature
+- Flare Blitz
+- Snarl
+- Extreme Speed
+- Will-O-Wisp
+
+Gyarados (F) @ Wacan Berry
+Ability: Moxie
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Dance
+- Tera Blast
+- Earthquake
+- Waterfall
+
+Meowscarada (M) @ Choice Band
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- U-turn
+- Knock Off
+- Sucker Punch

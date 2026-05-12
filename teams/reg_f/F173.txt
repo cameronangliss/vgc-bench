@@ -1,0 +1,66 @@
+Tinkaton @ Clear Amulet
+Ability: Mold Breaker
+Level: 50
+Tera Type: Dragon
+EVs: 156 HP / 36 Atk / 100 Def / 4 SpD / 212 Spe
+Jolly Nature
+- Fake Out
+- Play Rough
+- Gigaton Hammer
+- Encore
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 60 Atk / 4 Def / 36 SpD / 156 Spe
+Jolly Nature
+- Heat Crash
+- Breaking Swipe
+- Burning Bulwark
+- Howl
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 76 Atk / 92 Def / 12 SpD / 84 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Spiky Shield
+- Follow Me
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 36 HP / 156 Atk / 60 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Iron Boulder @ White Herb
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 52 HP / 196 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Mighty Cleave
+- Close Combat
+- Protect
+- Quick Guard
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 204 HP / 236 Def / 4 SpA / 12 SpD / 52 Spe
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Rain Dance
+- Tailwind
+- Protect

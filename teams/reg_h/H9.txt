@@ -1,0 +1,68 @@
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 100 HP / 116 Atk / 4 Def / 212 SpD / 76 Spe
+Careful Nature
+IVs: 5 SpA
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 236 HP / 156 Def / 116 SpD
+Impish Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 44 Def / 52 SpA / 36 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Spe
+Jolly Nature
+- Beat Up
+- Follow Me
+- Taunt
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 116 HP / 252 SpA / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 156 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn

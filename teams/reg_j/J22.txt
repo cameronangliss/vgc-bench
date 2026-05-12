@@ -1,0 +1,69 @@
+Shaymin-Sky @ Choice Scarf
+Ability: Serene Grace
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 12 Def / 252 SpA / 28 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Seed Flare
+- Air Slash
+- Earth Power
+- Dazzling Gleam
+
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Dazzling Gleam
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 236 Atk / 12 Def / 204 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Low Kick
+- Wild Charge
+- Fake Out
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 164 Def / 92 SpD
+Sassy Nature
+IVs: 0 Atk / 14 Spe
+- Foul Play
+- Psychic Noise
+- Trick Room
+- Roar
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 196 Def / 36 SpD / 20 Spe
+Impish Nature
+- Knock Off
+- Taunt
+- U-turn
+- Fake Out
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Snarl
+- Protect

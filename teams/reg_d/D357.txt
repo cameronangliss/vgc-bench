@@ -1,0 +1,66 @@
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 76 Def / 132 SpA / 4 SpD / 84 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ice
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Landorus-Therian @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 20 Atk / 4 Def / 220 SpD / 52 Spe
+Adamant Nature
+- Stomping Tantrum
+- Earthquake
+- Rock Slide
+- U-turn
+
+Tornadus @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 244 Def / 4 SpA / 4 SpD / 28 Spe
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Taunt
+- Rain Dance
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 188 Def / 4 SpA / 60 SpD / 12 Spe
+Bold Nature
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog
+
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect

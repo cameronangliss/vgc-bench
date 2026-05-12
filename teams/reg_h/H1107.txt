@@ -1,0 +1,69 @@
+Vivillon @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 24 Atk
+- Pollen Puff
+- Protect
+- Safeguard
+- Rage Powder
+
+Sneasler @ Life Orb
+Ability: Poison Touch
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 20 SpA
+- Close Combat
+- Dire Claw
+- U-turn
+- Fake Out
+
+Hydreigon @ Scope Lens
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+- Draco Meteor
+- Flash Cannon
+- Focus Energy
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 204 HP / 252 Atk / 52 SpD
+Adamant Nature
+IVs: 20 SpA / 4 Spe
+- Earthquake
+- Facade
+- Swords Dance
+- Protect
+
+Kommo-o @ Choice Specs
+Ability: Soundproof
+Level: 50
+Tera Type: Fire
+EVs: 148 HP / 4 Def / 252 SpA / 4 SpD / 100 Spe
+Modest Nature
+- Draco Meteor
+- Clanging Scales
+- Aura Sphere
+- Flamethrower
+
+Misdreavus @ Eviolite
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 172 Def / 28 SpA / 52 SpD
+Relaxed Nature
+IVs: 2 Atk / 0 Spe
+- Shadow Ball
+- Thunderbolt
+- Trick Room
+- Nasty Plot

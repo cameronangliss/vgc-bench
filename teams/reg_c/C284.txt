@@ -1,0 +1,68 @@
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Aerial Ace
+- Low Kick
+- Thunder Punch
+- Extreme Speed
+
+Dondozo @ Assault Vest
+Ability: Oblivious
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 124 SpD / 132 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Rock Slide
+- Tera Blast
+
+Tatsugiri @ Lum Berry
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 188 HP / 132 SpA / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Helping Hand
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 188 HP / 116 SpA / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Thunderbolt
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 68 HP / 252 SpA / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Thunderbolt
+- Trick
+- Protect

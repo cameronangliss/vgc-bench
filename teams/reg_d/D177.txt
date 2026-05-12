@@ -1,0 +1,69 @@
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 108 HP / 140 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- U-turn
+- Stomping Tantrum
+
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 4 SpA / 84 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Taunt
+- Protect
+
+Regidrago @ Draco Plate
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Steel
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Energy
+- Dragon Pulse
+- Tera Blast
+- Protect
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+- Detect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 4 Def / 132 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Focus Blast
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Trick Room
+- Protect

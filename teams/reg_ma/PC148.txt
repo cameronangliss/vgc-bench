@@ -1,0 +1,59 @@
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 29 HP / 4 Atk / 13 Def / 9 SpD / 11 Spe
+Careful Nature
+- Flare Blitz
+- Close Combat
+- Fake Out
+- Parting Shot
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 32 HP / 32 SpA / 2 Spe
+Modest Nature
+- Hyper Voice
+- Shadow Ball
+- Quick Attack
+- Protect
+
+Skarmory @ Skarmorite
+Ability: Sturdy
+Level: 50
+EVs: 32 HP / 8 Atk / 25 SpD / 1 Spe
+Adamant Nature
+- Iron Head
+- Iron Defense
+- Body Press
+- Roost
+
+Dragapult @ Lum Berry
+Ability: Clear Body
+Level: 50
+EVs: 21 HP / 32 Atk / 1 Def / 1 SpD / 11 Spe
+Adamant Nature
+- Dragon Darts
+- Reflect
+- Light Screen
+- Thunder Wave
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+
+Manectric @ Manectite
+Ability: Static
+Level: 50
+EVs: 15 HP / 32 SpA / 19 Spe
+Modest Nature
+- Thunderbolt
+- Overheat
+- Snarl
+- Volt Switch

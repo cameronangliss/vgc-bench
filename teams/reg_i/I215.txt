@@ -1,0 +1,69 @@
+Toxapex @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 140 Def / 124 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Wide Guard
+- Toxic
+- Baneful Bunker
+- Haze
+
+Rhydon @ Eviolite
+Ability: Lightning Rod
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 92 Atk / 12 Def / 4 SpA / 148 SpD
+Brave Nature
+IVs: 0 Spe
+- High Horsepower
+- Rock Slide
+- Swords Dance
+- Protect
+
+Ho-Oh @ Leftovers
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 76 Atk / 252 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Protect
+- Tailwind
+- Sacred Fire
+- Brave Bird
+
+Walking Wake @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Draco Meteor
+- Snarl
+- Hydro Steam
+
+Koraidon @ Assault Vest
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 148 HP / 148 Atk / 4 Def / 20 SpD / 188 Spe
+Adamant Nature
+- Collision Course
+- U-turn
+- Flame Charge
+- Flare Blitz
+
+Comfey @ Sitrus Berry
+Ability: Triage
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 244 Def / 12 SpA
+Calm Nature
+IVs: 0 Atk
+- Draining Kiss
+- Synthesis
+- Protect
+- Floral Healing

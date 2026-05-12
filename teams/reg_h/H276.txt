@@ -1,0 +1,72 @@
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 252 HP / 4 Def / 116 SpA / 52 SpD / 84 Spe
+Modest Nature
+- Draco Meteor
+- Electro Shot
+- Flash Cannon
+- Dragon Tail
+
+Politoed @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 244 HP / 244 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Muddy Water
+- Perish Song
+- Hypnosis
+- Protect
+
+Flamigo @ Focus Sash
+Ability: Scrappy
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Endeavor
+- Dual Wingbeat
+- Tailwind
+
+Tsareena @ Wide Lens
+Ability: Sweet Veil
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 236 HP / 252 Atk / 4 Def / 12 SpD / 4 Spe
+Adamant Nature
+- Power Whip
+- Triple Axel
+- Light Screen
+- Protect
+
+Clefable @ Mental Herb
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Moonblast
+- Encore
+- Protect
+
+Incineroar @ Figy Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 148 Atk / 100 Def / 4 SpD / 4 Spe
+Impish Nature
+- Flare Blitz
+- Close Combat
+- Fake Out
+- Roar

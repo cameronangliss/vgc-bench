@@ -1,0 +1,69 @@
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Rage Fist
+- Close Combat
+- U-turn
+- Final Gambit
+
+Farigiraf (F) @ Mental Herb
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 140 Def / 132 SpD
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Hyper Beam
+- Imprison
+- Trick Room
+
+Torkoal (M) @ Choice Specs
+Ability: Drought
+Level: 50
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Solar Beam
+- Earth Power
+
+Gastrodon (M) @ Leftovers
+Ability: Storm Drain
+Level: 50
+Tera Type: Ground
+EVs: 132 HP / 252 Def / 124 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Earth Power
+- Ice Beam
+- Yawn
+- Clear Smog
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Helping Hand
+- Follow Me
+- Protect
+
+Armarouge (F) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 252 SpA / 28 SpD
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Expanding Force
+- Energy Ball
+- Trick Room

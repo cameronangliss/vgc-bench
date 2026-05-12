@@ -1,0 +1,66 @@
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 76 Atk / 4 Def / 252 SpD / 60 Spe
+Adamant Nature
+- Wave Crash
+- Heavy Slam
+- Yawn
+- Protect
+
+Tatsugiri-Droopy @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 44 HP / 36 Def / 236 SpA / 4 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Protect
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 172 HP / 252 Atk / 4 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Aerial Ace
+- Aqua Jet
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Ting-Lu @ Sitrus Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 12 Atk / 116 Def / 252 SpD / 68 Spe
+Impish Nature
+- Earthquake
+- Ruination
+- Taunt
+- Stealth Rock
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 140 Def / 4 SpA / 84 SpD / 28 Spe
+Modest Nature
+- Power Gem
+- Energy Ball
+- Earth Power
+- Mortal Spin

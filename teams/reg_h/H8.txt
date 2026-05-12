@@ -1,0 +1,68 @@
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Steel
+EVs: 188 HP / 4 Atk / 36 Def / 164 SpD / 116 Spe
+Adamant Nature
+- Order Up
+- Earthquake
+- Wave Crash
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Hydro Pump
+- Muddy Water
+- Icy Wind
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+- Brave Bird
+- Flare Blitz
+- Tailwind
+- Protect
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Swords Dance
+- Protect
+
+Gardevoir @ Focus Sash
+Ability: Telepathy
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Aura Sphere
+- Protect
+
+Rotom-Mow @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Discharge
+- Leaf Storm
+- Electroweb
+- Volt Switch

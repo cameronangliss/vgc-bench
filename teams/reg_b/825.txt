@@ -1,0 +1,71 @@
+Mudsdale @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- High Horsepower
+- Rock Slide
+- Tera Blast
+- Low Kick
+
+Indeedee-F @ Aguav Berry
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Helping Hand
+- Follow Me
+- Psyshock
+- Trick Room
+
+Torkoal @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Earth Power
+- Overheat
+
+Hatterene @ Life Orb
+Ability: Magic Bounce
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Dazzling Gleam
+- Psychic
+- Mystical Fire
+
+Armarouge @ Iron Ball
+Ability: Flash Fire
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 6 Spe
+- Expanding Force
+- Armor Cannon
+- Trick Room
+- Wide Guard
+
+Gothitelle @ Twisted Spoon
+Ability: Competitive
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 140 Def / 116 SpA
+Modest Nature
+IVs: 25 Spe
+- Fake Out
+- Taunt
+- Trick Room
+- Psychic

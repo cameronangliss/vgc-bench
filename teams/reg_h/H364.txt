@@ -1,0 +1,69 @@
+Lycanroc @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Close Combat
+- Protect
+- Endeavor
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Tera Blast
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Imprison
+- Trick Room
+
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 4 Def / 252 SpA / 4 SpD / 244 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Energy Ball
+- Heat Wave
+- Protect
+
+Dondozo @ Clear Amulet
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Order Up
+- Earthquake
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Sleep Talk
+- Icy Wind

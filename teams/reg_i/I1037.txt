@@ -1,0 +1,66 @@
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 180 HP / 180 SpA / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Nasty Plot
+- Protect
+
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 4 Def / 108 SpD / 140 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- High Horsepower
+- Protect
+
+Entei @ Safety Goggles
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 52 Atk / 36 Def / 116 SpD / 60 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 76 Atk / 4 Def / 172 SpD / 12 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+- Spore
+- Follow Me
+- Wide Guard
+- Fake Out
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Poison
+EVs: 132 HP / 68 Atk / 108 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Knock Off
+- Taunt
+- Tailwind
+- Protect

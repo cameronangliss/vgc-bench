@@ -1,0 +1,69 @@
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 60 HP / 4 Def / 164 SpA / 28 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Snarl
+- Flash Cannon
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 108 HP / 36 Def / 60 SpA / 52 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Air Slash
+- Overheat
+- Tailwind
+- Will-O-Wisp
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 0 SpA
+- Flower Trick
+- Knock Off
+- U-turn
+- Protect
+
+Dondozo @ Safety Goggles
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 44 HP / 84 Atk / 4 Def / 124 SpD / 252 Spe
+Adamant Nature
+IVs: 0 SpA
+- Order Up
+- Earthquake
+- Rest
+- Sleep Talk
+
+Ceruledge @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 60 Atk / 44 Def / 140 SpD / 68 Spe
+Adamant Nature
+IVs: 0 SpA
+- Protect
+- Bitter Blade
+- Shadow Sneak
+- Bulk Up
+
+Tatsugiri @ Sitrus Berry
+Ability: Commander
+Level: 50
+EVs: 100 HP / 212 Def / 28 SpA / 84 SpD / 84 Spe
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Draco Meteor
+- Icy Wind
+- Muddy Water

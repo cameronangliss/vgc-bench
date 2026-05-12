@@ -1,0 +1,65 @@
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Magnezone @ Choice Specs
+Ability: Sturdy
+Level: 50
+Tera Type: Flying
+EVs: 60 HP / 252 SpA / 196 Spe
+Timid Nature
+- Volt Switch
+- Thunderbolt
+- Tera Blast
+- Flash Cannon
+
+Breloom @ Focus Sash
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Bullet Seed
+- Mach Punch
+- Spore
+- Protect
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Icy Wind
+- Sucker Punch
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 76 HP / 100 Def / 116 SpA / 4 SpD / 212 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Will-O-Wisp
+- Quick Guard

@@ -1,0 +1,67 @@
+Latias (F) @ Rocky Helmet
+IVs: 0 Atk
+EVs: 252 HP / 4 Def / 252 Spe
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+Timid Nature
+- Psych Up
+- Draining Kiss
+- Mist Ball
+- Calm Mind
+
+Smeargle (F) @ Focus Sash
+EVs: 4 HP / 252 Atk / 252 Spe
+Ability: Moody
+Tera Type: Ghost
+Level: 50
+Jolly Nature
+- Fake Out
+- Follow Me
+- Spore
+- Explosion
+
+Muk-Alola (F) @ Leftovers
+EVs: 252 HP / 252 Def / 6 SpD
+Ability: Power of Alchemy
+Tera Type: Water
+Level: 50
+Impish Nature
+- Knock Off
+- Toxic
+- Minimize
+- Protect
+
+Flamigo (F) @ Sitrus Berry
+EVs: 244 HP / 4 Atk / 4 Def / 4 SpD / 252 Spe
+Ability: Costar
+Level: 50
+Tera Type: Steel
+Jolly Nature
+- Brave Bird
+- Roost
+- Close Combat
+- Wide Guard
+
+Urshifu (F) @ Black Glasses
+EVs: 4 HP / 252 Atk / 252 Spe
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+Adamant Nature
+- Detect
+- Sucker Punch
+- Close Combat
+- Wicked Blow
+
+Flutter Mane @ Booster Energy
+IVs: 0 Atk
+EVs: 124 HP / 140 Def / 116 SpA / 4 SpD / 124 Spe
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+Timid Nature
+- Moonblast
+- Icy Wind
+- Shadow Ball
+- Protect

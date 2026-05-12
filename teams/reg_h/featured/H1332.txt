@@ -1,0 +1,68 @@
+Lucario (M) @ Focus Sash
+Ability: Inner Focus
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Extreme Speed
+- Meteor Mash
+- Detect
+
+Tyranitar (F) @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 124 HP / 124 Atk / 4 Def / 52 SpD / 204 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Low Kick
+
+Garchomp (F) @ Life Orb
+Ability: Sand Veil
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Talonflame (F) @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 36 Def / 20 SpD / 212 Spe
+Jolly Nature
+- Brave Bird
+- Will-O-Wisp
+- Tailwind
+- Taunt
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 116 HP / 20 Def / 132 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Sinistcha-Masterpiece @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 84 Def / 180 SpD
+Sassy Nature
+IVs: 0 Atk / 22 Spe
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Strength Sap

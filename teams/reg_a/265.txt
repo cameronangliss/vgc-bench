@@ -1,0 +1,64 @@
+Meowscarada @ Choice Band
+Ability: Overgrow
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Play Rough
+- Knock Off
+- U-turn
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 4 Def / 188 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Quiver Dance
+- Giga Drain
+- Protect
+
+Pawmot @ Focus Sash
+Ability: Iron Fist
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Double Shock
+- Close Combat
+- Revival Blessing
+- Fake Out
+
+Florges @ Mirror Herb
+Ability: Flower Veil
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Def / 204 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Pollen Puff
+- Skill Swap
+- Protect
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Population Bomb
+- Encore
+- Follow Me
+- Protect
+
+Gyarados @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Waterfall
+- Tera Blast
+- Dragon Dance
+- Protect

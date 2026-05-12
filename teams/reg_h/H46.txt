@@ -1,0 +1,69 @@
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Ice Spinner
+- Stomping Tantrum
+- Outrage
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 52 Def / 108 SpA / 44 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 212 HP / 4 Def / 132 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Tailwind
+- Taunt
+- Brave Bird
+- Will-O-Wisp
+
+Glimmora @ Power Herb
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 12 Def / 164 SpA / 12 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Meteor Beam
+- Earth Power
+- Spiky Shield
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 156 Def / 108 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect

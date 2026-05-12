@@ -1,0 +1,68 @@
+Regidrago @ Choice Specs
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 164 Def / 252 SpA / 68 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Energy
+- Draco Meteor
+- Tera Blast
+- Earth Power
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 164 Atk / 4 Def / 12 SpD / 212 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+
+Thundurus (M) @ Sitrus Berry
+Ability: Prankster
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 Def / 4 SpA
+Modest Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Eerie Impulse
+- Scary Face
+- Taunt
+
+Tornadus (M) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 12 Def / 244 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Icy Wind
+- Tailwind
+- Protect
+
+Enamorus (F) @ Pixie Plate
+Ability: Contrary
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Atk / 244 Def / 4 SpA / 4 SpD
+Relaxed Nature
+- Springtide Storm
+- Draining Kiss
+- Superpower
+- Protect
+
+Grimmsnarl (M) @ Iron Ball
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 84 Def / 172 SpD
+Careful Nature
+- Fake Out
+- Trick
+- Fake Tears
+- Parting Shot

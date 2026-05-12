@@ -1,0 +1,67 @@
+Tauros-Paldea-Aqua @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 36 HP / 220 Atk / 252 Spe
+Jolly Nature
+- Raging Bull
+- Close Combat
+- Protect
+- Aqua Jet
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Salt Cure
+- Recover
+- Wide Guard
+- Protect
+
+Iron Moth @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Toxic Spikes
+- Psychic
+- Protect
+
+Iron Valiant @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 36 HP / 132 Atk / 4 Def / 84 SpD / 252 Spe
+Adamant Nature
+- Spirit Break
+- Shadow Sneak
+- Shadow Claw
+- Protect
+
+Meowscarada @ Assault Vest
+Ability: Protean
+Level: 50
+Tera Type: Ghost
+EVs: 60 HP / 140 Atk / 52 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Sucker Punch
+- Knock Off
+- U-turn
+
+Gholdengo @ Sitrus Berry
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 108 HP / 4 Def / 140 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

@@ -1,0 +1,71 @@
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 156 Def / 124 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Moonblast
+- Lunar Blessing
+- Trick Room
+- Skill Swap
+
+Muk-Alola (F) @ Black Sludge
+Ability: Power of Alchemy
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 220 HP / 4 Atk / 244 Def / 28 SpD / 12 Spe
+Impish Nature
+- Minimize
+- Substitute
+- Protect
+- Knock Off
+
+Sylveon @ Sitrus Berry
+Ability: Pixilate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 100 Def / 156 SpA
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Psych Up
+- Substitute
+- Protect
+
+Scovillain @ Mental Herb
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Rage Powder
+- Leech Seed
+- Protect
+
+Slowbro @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Fairy
+EVs: 172 HP / 252 Def / 84 SpD
+Bold Nature
+IVs: 0 Atk
+- Psych Up
+- Trick Room
+- Body Press
+- Slack Off
+
+Maushold-Four @ Rocky Helmet
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Super Fang
+- Follow Me
+- Taunt
+- Protect

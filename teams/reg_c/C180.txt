@@ -1,0 +1,68 @@
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 180 HP / 84 Def / 4 SpA / 212 SpD / 28 Spe
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Hyper Voice
+- Trick Room
+- Protect
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Tailwind
+- Acrobatics
+- Breaking Swipe
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 220 HP / 36 Atk / 252 SpD
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Bulldoze
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Nasty Plot
+- Protect
+
+Baxcalibur @ Life Orb
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Poison
+EVs: 212 HP / 252 Atk / 4 Def / 36 SpD / 4 Spe
+Adamant Nature
+- Icicle Crash
+- Ice Shard
+- Glaive Rush
+- Protect
+
+Gyarados @ Aguav Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 20 Atk / 60 Def / 148 SpD / 28 Spe
+Careful Nature
+- Waterfall
+- Taunt
+- Thunder Wave
+- Protect

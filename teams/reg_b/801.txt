@@ -1,0 +1,71 @@
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Protect
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 116 HP / 156 Atk / 236 Spe
+Adamant Nature
+- Wave Crash
+- Order Up
+- Substitute
+- Protect
+
+Tatsugiri (F) @ Choice Scarf
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Dragon Pulse
+
+Iron Moth @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Heat Wave
+- Acid Spray
+- Energy Ball
+- Protect
+
+Brute Bonnet @ Sitrus Berry
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Seed Bomb
+- Spore
+- Sucker Punch
+- Rage Powder
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 164 HP / 252 Atk / 92 SpD
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Fake Out
+- Volt Switch

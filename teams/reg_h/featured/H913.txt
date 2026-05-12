@@ -1,0 +1,74 @@
+Ninetales-Alola (F) @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Shiny: Yes
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Freeze-Dry
+- Blizzard
+- Roar
+
+Garchomp (M) @ Loaded Dice
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Stomping Tantrum
+- Scale Shot
+- Earthquake
+
+Annihilape (M) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- U-turn
+- Earthquake
+- Coaching
+
+Armarouge (M) @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+Shiny: Yes
+Tera Type: Psychic
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Endure
+- Expanding Force
+- Heat Wave
+- Stored Power
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 236 Def / 20 SpD
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Psychic
+- Helping Hand
+- Trick Room
+
+Sneasler (F) @ Psychic Seed
+Ability: Unburden
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Dire Claw
+- Close Combat
+- Throat Chop

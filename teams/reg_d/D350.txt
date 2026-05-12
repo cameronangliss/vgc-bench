@@ -1,0 +1,71 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 180 Def / 68 SpD / 4 Spe
+Careful Nature
+- Thunder Wave
+- Spirit Break
+- Reflect
+- Light Screen
+
+Zapdos @ Grassy Seed
+Ability: Static
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 244 HP / 76 Def / 36 SpA / 76 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Thunderbolt
+- Hurricane
+- Roost
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 36 Atk / 76 Def / 140 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Drum Beating
+- Knock Off
+- U-turn
+
+Heatran @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 220 HP / 60 Def / 76 SpA / 60 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Substitute
+- Heat Wave
+- Flash Cannon
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Aqua Jet
+- Surging Strikes
+- Close Combat
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 44 HP / 44 Def / 188 SpA / 4 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Sandsear Storm
+- Earth Power
+- Sludge Bomb

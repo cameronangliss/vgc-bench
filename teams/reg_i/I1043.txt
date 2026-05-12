@@ -1,0 +1,67 @@
+Groudon @ Wide Lens
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 108 SpD / 148 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- Will-O-Wisp
+- Protect
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 132 HP / 252 SpA / 4 SpD / 116 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Parabolic Charge
+- Volt Switch
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Def / 4 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Fiery Dance
+- Struggle Bug
+- Quiver Dance
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Taunt
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 188 Def / 68 SpD
+Impish Nature
+- Flare Blitz
+- Knock Off
+- Parting Shot
+- Fake Out
+
+Grimmsnarl @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 220 Def / 36 SpD
+Impish Nature
+- Spirit Break
+- Fake Out
+- Parting Shot
+- Light Screen

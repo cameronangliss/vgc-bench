@@ -1,0 +1,69 @@
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Flying
+EVs: 228 HP / 204 Def / 76 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Trick Room
+- Fake Out
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 76 Def / 228 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Thunderbolt
+- Perish Song
+
+Scream Tail @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 100 Def / 108 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Perish Song
+- Encore
+- Disable
+- Protect
+
+Arcanine @ Expert Belt
+Ability: Intimidate
+Level: 50
+Tera Type: Electric
+EVs: 172 HP / 28 Atk / 132 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Flare Blitz
+- Wild Charge
+- Will-O-Wisp
+- Protect
+
+Ting-Lu @ Weakness Policy
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 52 HP / 244 Atk / 4 Def / 204 SpD / 4 Spe
+Adamant Nature
+- Stomping Tantrum
+- Stone Edge
+- Tera Blast
+- Protect
+
+Azumarill @ Covert Cloak
+Ability: Sap Sipper
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 124 Def / 132 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Aqua Jet
+- Perish Song
+- Sing
+- Protect

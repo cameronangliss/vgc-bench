@@ -1,0 +1,68 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 68 HP / 76 Def / 228 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 5 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+
+Gouging Fire @ Clear Amulet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 116 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Heat Crash
+- Dragon Claw
+- Dragon Dance
+- Burning Bulwark
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Def / 4 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 15 Atk
+- Moonblast
+- Tailwind
+- Sunny Day
+- Encore
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Poison
+EVs: 36 HP / 4 Def / 212 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Earth Power
+- Sludge Bomb
+- Substitute
+- Protect
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 52 Def / 68 SpD / 60 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield

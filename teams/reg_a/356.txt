@@ -1,0 +1,73 @@
+Pelipper (F) @ Damp Rock
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 76 HP / 252 SpA / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Protect
+- Tailwind
+- Helping Hand
+
+Drednaw (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Naughty Nature
+- Liquidation
+- Rock Slide
+- Tera Blast
+- Protect
+
+Breloom (M) @ Focus Sash
+Ability: Technician
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Bullet Seed
+- Mach Punch
+- Protect
+- Spore
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 76 HP / 244 SpA / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Steel Beam
+- Thunder
+
+Hydreigon (F) @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 116 HP / 252 SpA / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Snarl
+- Draco Meteor
+- Protect
+
+Rotom-Frost @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 244 SpA / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Volt Switch
+- Tera Blast
+- Thunderbolt

@@ -1,0 +1,57 @@
+Kangaskhan (F) @ Silk Scarf
+Ability: Scrappy
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Last Resort
+- Fake Out
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Protect
+- Weather Ball
+- Helping Hand
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 25 Def / 9 SpD
+Relaxed Nature
+- Psychic
+- Trick Room
+- Hyper Voice
+- Nasty Plot
+
+Glimmora @ Choice Scarf
+Ability: Toxic Debris
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Acid Armor
+- Earth Power
+- Power Gem
+- Sludge Bomb
+
+Scovillain @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Rage Powder
+- Overheat
+- Leaf Storm
+
+Dragapult @ White Herb
+Ability: Clear Body
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Draco Meteor
+- Shadow Ball
+- Flamethrower

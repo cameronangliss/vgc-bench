@@ -1,0 +1,67 @@
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Rock Slide
+- Earthquake
+- Protect
+
+Hydreigon @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Flash Cannon
+- Tailwind
+- Protect
+
+Armarouge @ Mirror Herb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 252 SpA / 12 SpD
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Expanding Force
+- Energy Ball
+- Protect
+
+Indeedee-F @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Helping Hand
+- Follow Me
+- Protect
+- Skill Swap
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 252 HP / 140 Def / 36 SpA / 4 SpD / 76 Spe
+Timid Nature
+IVs: 0 Atk
+- Discharge
+- Protect
+- Nasty Plot
+- Will-O-Wisp
+
+Flamigo @ White Herb
+Ability: Costar
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Brave Bird
+- Close Combat
+- Wide Guard

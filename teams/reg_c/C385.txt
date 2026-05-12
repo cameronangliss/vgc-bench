@@ -1,0 +1,68 @@
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 60 Def / 116 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Trick Room
+- Protect
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 36 HP / 172 Def / 68 SpA / 12 SpD / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Heat Wave
+- Overheat
+- Will-O-Wisp
+
+Gyarados @ Wide Lens
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 52 Atk / 4 Def / 92 SpD / 116 Spe
+Adamant Nature
+- Waterfall
+- Taunt
+- Thunder Wave
+- Protect
+
+Ting-Lu @ Lum Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 196 HP / 172 Atk / 4 Def / 60 SpD / 76 Spe
+Adamant Nature
+- Earthquake
+- Heavy Slam
+- Rest
+- Protect
+
+Iron Hands @ Leftovers
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 4 Atk / 4 Def / 252 SpD / 28 Spe
+Careful Nature
+- Drain Punch
+- Thunder Punch
+- Swords Dance
+- Fake Out
+
+Amoonguss @ Occa Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 188 Def / 4 SpA / 44 SpD / 20 Spe
+Calm Nature
+IVs: 0 Atk
+- Clear Smog
+- Pollen Puff
+- Spore
+- Protect

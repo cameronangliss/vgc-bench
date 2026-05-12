@@ -1,0 +1,70 @@
+Terapagos-Terastal @ Choice Specs
+Ability: Tera Shell
+Level: 50
+Tera Type: Stellar
+EVs: 4 Def / 244 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 15 Atk
+- Tera Starstorm
+- Earth Power
+- Flamethrower
+- Dark Pulse
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Spore
+- Decorate
+- Follow Me
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 28 HP / 4 Def / 220 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Nasty Plot
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Bug
+EVs: 84 HP / 236 Atk / 76 Def / 108 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Low Kick
+- Heavy Slam
+- Fake Out
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Overheat
+- Dark Pulse
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 188 HP / 52 SpA / 236 SpD / 28 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Fake Tears
+- Encore

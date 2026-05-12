@@ -1,0 +1,64 @@
+Armarouge (F) @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+EVs: 116 HP / 252 SpA / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Armor Cannon
+- Stored Power
+- Protect
+
+Salamence (M) @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Iron Head
+- Dragon Dance
+- Protect
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Beat Up
+- Follow Me
+- Taunt
+- Protect
+
+Flamigo (F) @ Life Orb
+Ability: Costar
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Brave Bird
+- Throat Chop
+- Detect
+
+Indeedee-F (F) @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Helping Hand
+- Follow Me
+- Protect
+
+Palafin (F) @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Wave Crash
+- Flip Turn
+- Ice Punch
+- Jet Punch

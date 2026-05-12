@@ -1,0 +1,69 @@
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 84 Def / 36 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Dark Pulse
+- Tera Blast
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 76 Def / 204 SpA / 4 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Gyarados @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 116 Atk / 20 Def / 92 SpD / 28 Spe
+Adamant Nature
+- Waterfall
+- Iron Head
+- Whirlpool
+- Taunt
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Dragonite @ Lum Berry
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 204 Atk / 4 Def / 4 SpD / 100 Spe
+Adamant Nature
+- Extreme Speed
+- Low Kick
+- Ice Spinner
+- Tailwind
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 68 Def / 52 SpA / 116 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Thunderbolt
+- Nasty Plot
+- Protect

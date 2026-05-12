@@ -1,0 +1,69 @@
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 164 HP / 52 Def / 132 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Sunny Day
+- Tailwind
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 36 HP / 252 Def / 164 SpA / 4 SpD / 52 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Tera Blast
+- Overheat
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Waterfall
+- Tera Blast
+- Dragon Dance
+- Protect
+
+Brambleghast @ Rocky Helmet
+Ability: Wind Rider
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 252 Def / 12 Spe
+Impish Nature
+- Power Whip
+- Shadow Sneak
+- Strength Sap
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 252 Atk / 4 Def / 172 SpD
+Adamant Nature
+IVs: 6 Spe
+- Wild Charge
+- Drain Punch
+- Heavy Slam
+- Fake Out

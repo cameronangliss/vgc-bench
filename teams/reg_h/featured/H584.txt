@@ -1,0 +1,67 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 24 Atk
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Bug
+EVs: 252 HP / 4 Def / 116 SpA / 76 SpD / 60 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Draco Meteor
+- Body Press
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Dark
+EVs: 228 HP / 60 Def / 220 SpD
+Bold Nature
+IVs: 28 Atk
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 124 SpA / 252 Spe
+Modest Nature
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Weavile @ Wide Lens
+Ability: Pressure
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Triple Axel
+- Icy Wind
+- Beat Up
+- Fake Out
+
+Weezing-Galar @ Choice Specs
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Dazzling Gleam
+- Sludge Bomb
+- Sludge Wave
+- Heat Wave

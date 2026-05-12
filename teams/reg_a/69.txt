@@ -1,0 +1,71 @@
+Dondozo (M) @ Figy Berry
+Ability: Oblivious
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 4 HP / 220 Atk / 4 Def / 28 SpD / 252 Spe
+Jolly Nature
+- Ice Fang
+- Liquidation
+- Earthquake
+- Order Up
+
+Tatsugiri (M) @ Choice Specs
+Ability: Commander
+Level: 50
+Shiny: Yes
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Dragon Pulse
+- Icy Wind
+- Draco Meteor
+
+Abomasnow (M) @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Shiny: Yes
+Tera Type: Ice
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Aurora Veil
+- Giga Drain
+- Blizzard
+
+Armarouge (F) @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+Shiny: Yes
+EVs: 116 HP / 252 SpA / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Stored Power
+- Armor Cannon
+- Expanding Force
+
+Baxcalibur (M) @ Snowball
+Ability: Thermal Exchange
+Level: 50
+Shiny: Yes
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Glaive Rush
+- Protect
+- Dragon Dance
+- Icicle Crash
+
+Dragapult (F) @ Choice Scarf
+Ability: Infiltrator
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Dance
+- Sucker Punch
+- Phantom Force
+- U-turn

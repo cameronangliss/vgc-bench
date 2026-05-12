@@ -1,0 +1,67 @@
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- Protect
+
+Baxcalibur @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 236 Atk / 20 Def / 4 SpD / 84 Spe
+Adamant Nature
+- Glaive Rush
+- Icicle Spear
+- Ice Shard
+- Protect
+
+Volcarona @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 252 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Overheat
+- Struggle Bug
+- Rage Powder
+- Protect
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 12 Def / 252 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Salt Cure
+- Recover
+- Wide Guard
+- Protect
+
+Azumarill @ Sitrus Berry
+Ability: Huge Power
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 236 Atk / 76 SpD
+Adamant Nature
+- Liquidation
+- Play Rough
+- Perish Song
+- Protect
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 204 HP / 244 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Iron Head
+- Low Kick

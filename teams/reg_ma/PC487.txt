@@ -1,0 +1,59 @@
+Tsareena (F) @ Kebia Berry
+Ability: Queenly Majesty
+Level: 50
+EVs: 32 HP / 26 Atk / 8 Spe
+Jolly Nature
+- Triple Axel
+- Power Whip
+- Taunt
+- Protect
+
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 30 HP / 30 Atk / 6 Spe
+Adamant Nature
+- Bullet Punch
+- Bug Bite
+- Swords Dance
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Tailwind
+- Weather Ball
+- Hurricane
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Wave Crash
+- Flip Turn
+- Aqua Jet
+- Last Respects
+
+Garchomp @ White Herb
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 12 Def / 15 SpA / 8 Spe
+Modest Nature
+- Hydro Pump
+- Thunderbolt
+- Will-O-Wisp
+- Protect

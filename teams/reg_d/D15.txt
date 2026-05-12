@@ -1,0 +1,70 @@
+Cresselia @ Rocky Helmet
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Lunar Blessing
+- Trick Room
+- Psychic
+- Protect
+
+Heatran @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 20 HP / 4 Def / 252 SpA / 4 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Overheat
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 188 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Rage Powder
+- Pollen Puff
+- Spore
+
+Landorus-Therian (M) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 36 Atk / 220 SpD
+Adamant Nature
+IVs: 27 Spe
+- Stomping Tantrum
+- Earthquake
+- U-turn
+- Hammer Arm
+
+Palafin-Hero @ Safety Goggles
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Jet Punch
+- Wave Crash
+- Protect
+- Bulk Up
+
+Regieleki @ Choice Specs
+Ability: Transistor
+Level: 50
+Tera Type: Electric
+EVs: 52 HP / 100 Def / 252 SpA / 100 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Volt Switch
+- Thunderbolt
+- Electroweb
+- Electro Ball

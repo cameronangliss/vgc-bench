@@ -1,0 +1,71 @@
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Protect
+
+Azumarill (F) @ Sitrus Berry
+Ability: Huge Power
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 236 Atk / 116 Spe
+Adamant Nature
+IVs: 0 SpA
+- Liquidation
+- Play Rough
+- Aqua Jet
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 132 Def / 116 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Taunt
+
+Annihilape (M) @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 36 Atk / 116 Def / 172 SpD / 4 Spe
+Adamant Nature
+IVs: 12 SpA
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Hydreigon (M) @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 52 Def / 116 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Snarl
+- Draco Meteor
+- Fire Blast
+
+Meowscarada (F) @ Choice Band
+Ability: Protean
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Flower Trick
+- Play Rough
+- Knock Off
+- U-turn

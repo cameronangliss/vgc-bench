@@ -1,0 +1,66 @@
+Gengar (M) @ Focus Sash
+Ability: Cursed Body
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Sludge Bomb
+- Taunt
+- Haze
+
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Atk / 44 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Protect
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 108 Def / 92 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Thunderbolt
+- Tera Blast
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 156 Def / 36 SpD / 60 Spe
+Impish Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen
+
+Corviknight (F) @ Rocky Helmet
+Ability: Mirror Armor
+Level: 50
+EVs: 172 HP / 76 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Iron Head
+- Brave Bird
+- Tailwind
+- Taunt
+
+Annihilape (M) @ Lum Berry
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 116 Atk / 12 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect

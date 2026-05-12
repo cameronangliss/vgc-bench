@@ -1,0 +1,68 @@
+Ursaluna-Bloodmoon @ Leftovers
+Ability: Mind's Eye
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 12 Def / 196 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Protect
+- Yawn
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 76 Def / 140 SpD / 36 Spe
+Adamant Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 148 HP / 196 Atk / 4 Def / 92 SpD / 60 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- High Horsepower
+
+Sneasler @ Grassy Seed
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 76 Atk / 92 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Acrobatics
+- Close Combat
+- Swords Dance
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Icy Wind
+- Encore
+- Protect

@@ -1,0 +1,72 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Mystical Fire
+
+Armarouge (M) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 228 HP / 252 SpA / 28 SpD
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Armor Cannon
+- Trick Room
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 2 Atk / 3 Spe
+- Follow Me
+- Dazzling Gleam
+- Helping Hand
+- Trick Room
+
+Great Tusk @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Headlong Rush
+- Close Combat
+- Taunt
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Hydro Pump
+- Freeze-Dry
+- Protect
+
+Hydreigon @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Psychic
+EVs: 108 HP / 36 Def / 164 SpA / 4 SpD / 196 Spe
+Timid Nature
+IVs: 0 Atk
+- Snarl
+- Draco Meteor
+- Dark Pulse
+- Tailwind

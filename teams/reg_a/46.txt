@@ -1,0 +1,66 @@
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 4 Atk / 252 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Protect
+
+Talonflame (F) @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Tailwind
+- Flare Blitz
+- Brave Bird
+- Taunt
+
+Meowscarada (F) @ Focus Sash
+Ability: Protean
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Play Rough
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Trick
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Nasty Plot
+- Protect
+
+Amoonguss (F) @ Occa Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Spore
+- Clear Smog
+- Rage Powder
+- Protect

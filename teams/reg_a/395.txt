@@ -1,0 +1,68 @@
+Cetitan @ Assault Vest
+Ability: Slush Rush
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Liquidation
+- Ice Spinner
+- Tera Blast
+- Heavy Slam
+
+Baxcalibur @ Life Orb
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 196 Atk / 128 Def / 180 Spe
+Jolly Nature
+- Dragon Dance
+- Stomping Tantrum
+- Dragon Claw
+- Icicle Crash
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Ice
+EVs: 252 HP / 116 Atk / 140 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Frosmoth @ Light Clay
+Ability: Ice Scales
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Icy Wind
+- Aurora Veil
+- Tailwind
+- Wide Guard
+
+Abomasnow @ Icy Rock
+Ability: Snow Warning
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Earth Power
+- Leaf Storm
+- Aurora Veil
+
+Glaceon @ Bright Powder
+Ability: Snow Cloak
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Shadow Ball
+- Protect

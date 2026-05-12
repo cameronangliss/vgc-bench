@@ -1,0 +1,65 @@
+Baxcalibur (F) @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Glaive Rush
+- Icicle Spear
+- Ice Shard
+- Protect
+
+Volcarona (F) @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 212 Def / 4 SpA / 4 SpD / 36 Spe
+Timid Nature
+- Overheat
+- Struggle Bug
+- Rage Powder
+- Tailwind
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Sucker Punch
+- Protect
+
+Mimikyu (M) @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 252 Atk / 108 Spe
+Adamant Nature
+- Shadow Claw
+- Play Rough
+- Shadow Sneak
+- Protect
+
+Sandy Shocks @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 52 HP / 204 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Earth Power
+- Tera Blast
+- Protect
+
+Garganacl (F) @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 60 Def / 196 SpD
+Careful Nature
+- Salt Cure
+- Recover
+- Wide Guard
+- Protect

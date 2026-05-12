@@ -1,0 +1,68 @@
+Dragonite @ Covert Cloak
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 124 Atk / 68 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Tailwind
+- Haze
+- Stomping Tantrum
+- Ice Punch
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 28 HP / 252 Atk / 4 Def / 4 SpD / 220 Spe
+Adamant Nature
+- Protect
+- Earthquake
+- Facade
+- Headlong Rush
+
+Politoed @ Choice Specs
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 180 HP / 4 Def / 244 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Muddy Water
+- Weather Ball
+- Ice Beam
+- Earth Power
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 36 SpA / 116 SpD / 100 Spe
+Calm Nature
+IVs: 0 Atk
+- Electro Shot
+- Snarl
+- Draco Meteor
+- Body Press
+
+Indeedee @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Expanding Force
+- Imprison
+- Trick Room
+- Protect
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Throat Chop
+- Dire Claw
+- Close Combat

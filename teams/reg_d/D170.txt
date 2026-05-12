@@ -1,0 +1,71 @@
+Avalugg-Hisui @ Weakness Policy
+Ability: Strong Jaw
+Level: 50
+Shiny: Yes
+Tera Type: Rock
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Ice Fang
+- Rock Slide
+- Earthquake
+- Protect
+
+Bronzong @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpD
+Sassy Nature
+IVs: 0 Spe
+- Safeguard
+- Bulldoze
+- Gyro Ball
+- Trick Room
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- U-turn
+- Tera Blast
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 4 Def / 236 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Tera Blast
+- Earth Power
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 156 Def / 4 SpA / 100 SpD / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Giga Drain
+
+Zapdos @ Sitrus Berry
+Ability: Static
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 92 Def / 36 SpA / 132 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Tailwind
+- Eerie Impulse
+- Roost

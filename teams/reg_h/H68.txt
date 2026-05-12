@@ -1,0 +1,67 @@
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+
+Gardevoir @ Focus Sash
+Ability: Telepathy
+Level: 50
+Tera Type: Ghost
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Psychic
+- Trick Room
+- Imprison
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Brave Bird
+- Will-O-Wisp
+- Tailwind
+
+Toxtricity @ Choice Specs
+Ability: Punk Rock
+Level: 50
+Tera Type: Normal
+EVs: 20 HP / 4 Def / 220 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Overdrive
+- Boomburst
+- Sludge Bomb
+- Toxic
+
+Tsareena @ Wide Lens
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Ghost
+EVs: 124 HP / 156 Atk / 4 Def / 20 SpD / 204 Spe
+Adamant Nature
+- Protect
+- Power Whip
+- Triple Axel
+- Helping Hand
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Water
+EVs: 220 Atk / 36 Def / 252 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet

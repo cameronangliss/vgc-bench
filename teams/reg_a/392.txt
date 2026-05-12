@@ -1,0 +1,69 @@
+Flareon @ Toxic Orb
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 236 Atk / 20 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Quick Attack
+- Flare Blitz
+- Protect
+
+Azumarill (F) @ Life Orb
+Ability: Huge Power
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 236 HP / 252 Atk / 4 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Liquidation
+- Play Rough
+- Aqua Jet
+- Protect
+
+Arboliva @ Throat Spray
+Ability: Seed Sower
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Energy Ball
+- Hyper Voice
+- Earth Power
+
+Gallade @ Focus Sash
+Ability: Sharpness
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Sacred Sword
+- Trick Room
+- Imprison
+- Will-O-Wisp
+
+Tinkaton @ Assault Vest
+Ability: Mold Breaker
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 116 Atk / 140 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Gigaton Hammer
+- Knock Off
+- Fake Out
+- Feint
+
+Gothitelle @ Safety Goggles
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 20 Def / 236 SpD
+Sassy Nature
+- Fake Out
+- Trick Room
+- Foul Play
+- Helping Hand

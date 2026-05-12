@@ -1,0 +1,70 @@
+Muk-Alola (F) @ Leftovers
+Ability: Power of Alchemy
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Def / 62 SpD
+Impish Nature
+IVs: 28 SpA
+- Knock Off
+- Minimize
+- Substitute
+- Protect
+
+Smeargle (M) @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 30 Def / 252 Spe
+Jolly Nature
+IVs: 6 SpA
+- Spore
+- Fake Out
+- Wide Guard
+- Follow Me
+
+Flamigo (F) @ White Herb
+Ability: Costar
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Atk / 6 Spe
+Adamant Nature
+IVs: 25 SpA
+- Acrobatics
+- Close Combat
+- Swords Dance
+- Wide Guard
+
+Latias (F) @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 6 Def / 252 Spe
+Timid Nature
+- Stored Power
+- Draining Kiss
+- Psych Up
+- Recover
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 68 Def / 198 SpD
+Bold Nature
+IVs: 14 Atk
+- Matcha Gotcha
+- Life Dew
+- Psych Up
+- Rage Powder
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 248 HP / 152 Def / 110 SpD
+Impish Nature
+IVs: 22 SpA
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot

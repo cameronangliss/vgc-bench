@@ -1,0 +1,68 @@
+Rotom-Heat @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 4 Def / 68 SpA / 4 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Overheat
+- Nasty Plot
+- Thunderbolt
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Protect
+- Swords Dance
+
+Tinkaton @ Assault Vest
+Ability: Mold Breaker
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 60 Def / 4 SpD / 188 Spe
+Jolly Nature
+- Fake Out
+- Rock Tomb
+- Knock Off
+- Gigaton Hammer
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Foul Play
+- Haze
+- Icy Wind
+
+Breloom @ Focus Sash
+Ability: Technician
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Bullet Seed
+- Spore
+- Protect
+- Mach Punch
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Nasty Plot
+- Make It Rain
+- Protect
+- Shadow Ball

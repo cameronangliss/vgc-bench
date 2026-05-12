@@ -1,0 +1,68 @@
+Typhlosion-Hisui @ Choice Specs
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Eruption
+- Heat Wave
+- Shadow Ball
+- Overheat
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Def / 108 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Sunny Day
+- Encore
+- Moonblast
+
+Tauros-Paldea-Aqua @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Protect
+- Aqua Jet
+- Raging Bull
+- Close Combat
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 12 HP / 4 Def / 252 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Blood Moon
+- Hyper Voice
+- Earth Power
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Low Kick
+
+Maushold-Four @ Wide Lens
+Ability: Friend Guard
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+- Population Bomb
+- Taunt
+- Follow Me
+- Protect

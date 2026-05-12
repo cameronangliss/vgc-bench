@@ -1,0 +1,68 @@
+Garchomp @ Clear Amulet
+Ability: Sand Veil
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+- Swords Dance
+- Earthquake
+- Dragon Claw
+- Protect
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 132 HP / 172 Atk / 4 Def / 4 SpD / 196 Spe
+Adamant Nature
+IVs: 12 SpA
+- Rock Slide
+- Knock Off
+- Low Kick
+- Tera Blast
+
+Salamence @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 92 Def / 4 SpA / 36 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Hurricane
+- Tailwind
+- Protect
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 148 Def / 108 SpD
+Impish Nature
+- Brave Bird
+- Body Press
+- Bulk Up
+- Roost
+
+Milotic @ Rocky Helmet
+Ability: Competitive
+Level: 50
+Tera Type: Grass
+EVs: 36 HP / 252 Def / 220 SpA
+Modest Nature
+IVs: 0 Atk
+- Scald
+- Ice Beam
+- Haze
+- Life Dew
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 204 Def / 44 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Heat Wave
+- Rage Powder
+- Protect
+- Quiver Dance

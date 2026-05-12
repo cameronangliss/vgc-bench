@@ -1,0 +1,69 @@
+Farigiraf (F) @ Safety Goggles
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 156 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Light Screen
+- Uproar
+- Helping Hand
+- Trick Room
+
+Torkoal (M) @ Choice Specs
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Earth Power
+- Heat Wave
+- Helping Hand
+
+Clefairy (M) @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 60 Def / 196 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Encore
+- Follow Me
+- Healing Wish
+- Moonblast
+
+Iron Hands @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 244 Atk / 4 Def / 252 SpD
+Adamant Nature
+- Close Combat
+- Wild Charge
+- Fake Out
+- Drain Punch
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 SpD
+Brave Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Poison Jab
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 SpD
+Quiet Nature
+IVs: 0 Atk
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Vacuum Wave

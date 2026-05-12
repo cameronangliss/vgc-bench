@@ -1,0 +1,69 @@
+Kommo-o @ Throat Spray
+Ability: Soundproof
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Clanging Scales
+- Clangorous Soul
+- Flamethrower
+- Protect
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 12 Def / 204 SpD / 36 Spe
+Careful Nature
+- Flare Blitz
+- Fake Out
+- Parting Shot
+- Knock Off
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 36 Def / 236 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 156 HP / 12 Def / 196 SpA / 100 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Vacuum Wave
+
+Electabuzz @ Eviolite
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 180 Def / 4 SpA / 20 SpD / 68 Spe
+Bold Nature
+IVs: 0 Atk
+- Electroweb
+- Follow Me
+- Taunt
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Protect

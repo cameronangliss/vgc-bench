@@ -1,0 +1,65 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 100 Def / 60 SpA / 4 SpD / 116 Spe
+Timid Nature
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 84 Atk / 44 Def / 4 SpD / 212 Spe
+Jolly Nature
+- Stomping Tantrum
+- Tera Blast
+- Rock Slide
+- U-turn
+
+Tornadus @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Bleakwind Storm
+- Tailwind
+- Sunny Day
+- Protect
+
+Urshifu @ Life Orb
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Detect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Atk / 116 Def / 52 SpD / 36 Spe
+Adamant Nature
+- Wood Hammer
+- Stomping Tantrum
+- Fake Out
+- U-turn
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 204 SpA / 92 Spe
+Modest Nature
+- Heat Wave
+- Tera Blast
+- Earth Power
+- Protect

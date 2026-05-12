@@ -1,0 +1,64 @@
+Amoonguss (F) @ Aguav Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Poison
+EVs: 236 HP / 132 Def / 140 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Pollen Puff
+
+Murkrow (F) @ Covert Cloak
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Quash
+- Haze
+- Brave Bird
+- Tailwind
+
+Ceruledge (F) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 228 Atk / 4 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Protect
+- Bulk Up
+- Shadow Sneak
+- Bitter Blade
+
+Hydreigon (M) @ Haban Berry
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 4 Def / 108 SpA / 4 SpD / 148 Spe
+Timid Nature
+- Protect
+- U-turn
+- Dark Pulse
+- Draco Meteor
+
+Hariyama (M) @ Flame Orb
+Ability: Guts
+Level: 50
+EVs: 252 Atk / 4 Def / 252 SpD
+Careful Nature
+IVs: 0 Spe
+- Close Combat
+- Fake Out
+- Wide Guard
+- Knock Off
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+EVs: 4 HP / 212 Def / 252 SpA / 4 SpD / 36 Spe
+Modest Nature
+- Detect
+- Hyper Voice
+- Quick Attack
+- Shadow Ball

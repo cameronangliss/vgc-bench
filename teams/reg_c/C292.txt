@@ -1,0 +1,66 @@
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 156 Atk / 4 Def / 84 SpD / 252 Spe
+Jolly Nature
+- Population Bomb
+- Substitute
+- Encore
+- Protect
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Shadow Claw
+- Close Combat
+- Rock Slide
+- Final Gambit
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 180 HP / 252 Atk / 4 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Tera Blast
+- Extreme Speed
+- Outrage
+- Aerial Ace
+
+Ting-Lu @ Sitrus Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 252 SpD / 4 Spe
+Careful Nature
+- Stomping Tantrum
+- Heavy Slam
+- Ruination
+- Stealth Rock
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 236 SpD / 20 Spe
+Careful Nature
+- Liquidation
+- Yawn
+- Substitute
+- Protect

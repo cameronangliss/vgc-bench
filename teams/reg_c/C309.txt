@@ -1,0 +1,66 @@
+Ting-Lu @ Choice Band
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 148 HP / 252 Atk / 108 Spe
+Adamant Nature
+- Earthquake
+- Throat Chop
+- Rock Slide
+- Heavy Slam
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 28 HP / 252 Atk / 28 Def / 4 SpD / 196 Spe
+Adamant Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Haze
+
+Dragonite @ Lum Berry
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Aerial Ace
+- Rock Slide
+- Extreme Speed
+- Aqua Jet
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 108 SpA / 148 SpD / 252 Spe
+Timid Nature
+- Hydro Pump
+- Freeze-Dry
+- Flip Turn
+- Protect
+
+Vivillon-Fancy @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+Tera Type: Flying
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hurricane
+- Sleep Powder
+- Tailwind
+- Protect
+
+Coalossal @ Weakness Policy
+Ability: Steam Engine
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Rock Slide
+- Flare Blitz
+- Earthquake
+- Protect

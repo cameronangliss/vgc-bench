@@ -1,0 +1,68 @@
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 92 Def / 4 SpA / 140 SpD / 20 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Freeze-Dry
+- Icy Wind
+- Encore
+
+Great Tusk @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Headlong Rush
+- Earthquake
+- Close Combat
+
+Dragonite (F) @ Assault Vest
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 196 HP / 100 Atk / 4 Def / 12 SpD / 196 Spe
+Adamant Nature
+- Tera Blast
+- Low Kick
+- Ice Spinner
+- Aqua Jet
+
+Kingambit (F) @ Chople Berry
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 164 Atk / 4 Def / 4 SpD / 100 Spe
+Adamant Nature
+- Protect
+- Iron Head
+- Low Kick
+- Sucker Punch
+
+Armarouge (M) @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 12 Def / 140 SpA / 4 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Armor Cannon
+- Wide Guard
+- Expanding Force
+
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 220 SpA / 52 SpD
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Psychic
+- Follow Me
+- Dazzling Gleam

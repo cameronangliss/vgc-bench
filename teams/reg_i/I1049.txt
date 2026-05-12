@@ -1,0 +1,67 @@
+Calyrex-Shadow @ Spell Tag
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 188 HP / 132 Def / 36 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Astral Barrage
+- Draining Kiss
+- Protect
+- Nasty Plot
+
+Koraidon @ Choice Scarf
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Collision Course
+- Dragon Claw
+- U-turn
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 156 Def / 68 SpD / 28 Spe
+Impish Nature
+- Flare Blitz
+- Fake Out
+- Parting Shot
+- Taunt
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 100 Atk / 4 Def / 116 SpD / 36 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 180 Def / 76 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- After You
+- Life Dew
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 244 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Spore
+- Follow Me
+- Wide Guard

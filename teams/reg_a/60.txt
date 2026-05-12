@@ -1,0 +1,65 @@
+Baxcalibur (M) @ Assault Vest
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 108 Atk / 132 Def / 20 SpD / 4 Spe
+Adamant Nature
+- Icicle Crash
+- Glaive Rush
+- Tera Blast
+- Ice Shard
+
+Armarouge (M) @ Choice Scarf
+Ability: Flash Fire
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Lava Plume
+- Expanding Force
+- Armor Cannon
+- Dark Pulse
+
+Gothitelle (F) @ Colbur Berry
+Ability: Shadow Tag
+Level: 50
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 0 Spe
+- Charm
+- Psychic
+- Trick Room
+- Fake Out
+
+Amoonguss (M) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+EVs: 236 HP / 84 Def / 188 SpD
+Sassy Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Protect
+- Clear Smog
+
+Garganacl (F) @ Bright Powder
+Ability: Purifying Salt
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 148 Def / 132 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Iron Defense
+- Recover
+- Salt Cure
+- Body Press
+
+Gyarados (M) @ Lum Berry
+Ability: Intimidate
+Level: 50
+EVs: 172 HP / 100 Atk / 12 Def / 28 SpD / 196 Spe
+Jolly Nature
+- Dragon Dance
+- Waterfall
+- Iron Head
+- Taunt

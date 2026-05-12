@@ -1,0 +1,68 @@
+Tornadus @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Protect
+- Bleakwind Storm
+- Rain Dance
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 252 Atk / 4 Def / 44 SpD / 84 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Raging Bolt @ Safety Goggles
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 180 HP / 36 Def / 180 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 20 Atk
+- Draco Meteor
+- Thunderbolt
+- Thunderclap
+- Roar
+
+Arcanine-Hisui @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Rock Slide
+- Protect
+
+Ogerpon (F) @ Rocky Helmet
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 204 Def / 4 SpD / 60 Spe
+Impish Nature
+- Ivy Cudgel
+- Follow Me
+- Spiky Shield
+- Encore
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Ghost
+EVs: 20 HP / 4 Def / 244 SpA / 212 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Vacuum Wave

@@ -1,0 +1,68 @@
+Abomasnow @ Weakness Policy
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 36 Def / 252 SpA
+Modest Nature
+- Blizzard
+- Giga Drain
+- Ice Shard
+- Protect
+
+Iron Bundle @ Light Clay
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Aurora Veil
+- Protect
+
+Azumarill @ Mystic Water
+Ability: Huge Power
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 252 Atk / 4 Def / 4 SpD / 12 Spe
+Adamant Nature
+- Liquidation
+- Play Rough
+- Aqua Jet
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 60 Def / 188 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Dazzling Gleam
+- Moonblast
+- Psyshock
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 236 Atk / 4 Def / 124 SpD / 12 Spe
+Adamant Nature
+- Stomping Tantrum
+- Heavy Slam
+- Tera Blast
+- Earthquake
+
+Chi-Yu @ Covert Cloak
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 28 Def / 212 SpA / 4 SpD / 180 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+- Protect

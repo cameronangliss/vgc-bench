@@ -1,0 +1,71 @@
+Regidrago @ Choice Specs
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 100 Def / 252 SpA / 100 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Dragon Energy
+- Tera Blast
+- Draco Meteor
+- Earth Power
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Taunt
+- Leer
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Taunt
+- Heat Wave
+- Dark Pulse
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 252 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 236 Def / 20 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Knock Off
+- Wood Hammer
+- U-turn
+
+Copperajah @ Life Orb
+Ability: Sheer Force
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Iron Head
+- Play Rough
+- High Horsepower
+- Protect

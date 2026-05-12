@@ -1,0 +1,64 @@
+Farigiraf (F) @ Focus Sash
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 132 Def / 124 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Shadow Ball
+- Dazzling Gleam
+- Psychic
+
+Greedent (M) @ Iapapa Berry
+Ability: Gluttony
+Level: 50
+EVs: 148 HP / 92 Atk / 100 Def / 164 SpD
+Careful Nature
+IVs: 0 Spe
+- Protect
+- Body Slam
+- Belly Drum
+- Crunch
+
+Tyranitar (M) @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 220 Atk / 20 Def / 12 SpD / 4 Spe
+Adamant Nature
+- Thunder Punch
+- Dragon Claw
+- Rock Slide
+- Crunch
+
+Houndstone (F) @ Colbur Berry
+Ability: Sand Rush
+Level: 50
+EVs: 108 HP / 132 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Protect
+- Last Respects
+- Shadow Sneak
+- Ice Fang
+
+Rotom-Heat @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 236 HP / 20 Def / 108 SpA / 52 SpD / 92 Spe
+Timid Nature
+IVs: 0 Atk
+- Nasty Plot
+- Will-O-Wisp
+- Thunderbolt
+- Overheat
+
+Quaquaval (M) @ Choice Band
+Ability: Moxie
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- Aqua Step
+- U-turn

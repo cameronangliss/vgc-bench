@@ -1,0 +1,67 @@
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 212 Atk / 4 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Detect
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+
+Rillaboom @ Sitrus Berry
+Ability: Grassy Surge
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 12 Atk / 228 Def / 4 SpD / 12 Spe
+Impish Nature
+- Protect
+- Drum Beating
+- Knock Off
+- Fake Out
+
+Scream Tail @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 76 Def / 180 Spe
+Timid Nature
+- Protect
+- Rock Tomb
+- Encore
+- Disable
+
+Zapdos @ Rocky Helmet
+Ability: Static
+Level: 50
+Tera Type: Flying
+EVs: 236 HP / 172 Def / 12 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Detect
+- Thunderbolt
+- Hurricane
+- Tailwind
+
+Kleavor @ Assault Vest
+Ability: Sharpness
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 204 Def / 20 SpD / 28 Spe
+Adamant Nature
+- Stone Axe
+- X-Scissor
+- Brick Break
+- Feint
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Bug
+EVs: 228 HP / 196 Def / 4 SpA / 28 SpD / 52 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Overheat
+- Flash Cannon
+- Earth Power

@@ -1,0 +1,66 @@
+Goodra-Hisui @ Leftovers
+Ability: Sap Sipper
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 236 Def / 20 SpD
+Impish Nature
+- Heavy Slam
+- Shelter
+- Body Press
+- Life Dew
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Atk / 124 Def / 116 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 196 Atk / 52 Def / 60 SpD / 68 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- U-turn
+- Knock Off
+
+Urshifu-Rapid-Strike @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Protect
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 220 HP / 28 Def / 196 SpA / 60 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Lunar Blessing
+- Trick Room
+- Calm Mind
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Water
+EVs: 140 HP / 156 Atk / 68 Def / 132 SpD / 12 Spe
+Adamant Nature
+- Headlong Rush
+- Facade
+- Shadow Claw
+- Protect

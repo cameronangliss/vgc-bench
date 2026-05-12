@@ -1,0 +1,66 @@
+Koraidon @ Loaded Dice
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 228 Atk / 4 Def / 12 SpD / 12 Spe
+Adamant Nature
+- Flare Blitz
+- Collision Course
+- Scale Shot
+- Protect
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 156 Atk / 100 SpD
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Protect
+- Trick Room
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Icy Wind
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 116 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Grassy Glide
+- High Horsepower
+- Fake Out
+- U-turn
+
+Incineroar @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 132 Atk / 124 SpD
+Adamant Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Alomomola @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Poison
+EVs: 100 HP / 156 Def / 252 SpD
+Careful Nature
+- Flip Turn
+- Tickle
+- Aqua Jet
+- Wide Guard

@@ -1,0 +1,59 @@
+Starmie @ Starminite
+Ability: Natural Cure
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Liquidation
+- Flip Turn
+- Aqua Jet
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Atk / 9 Def / 20 SpD / 4 Spe
+Careful Nature
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+- Fake Out
+
+Sinistcha @ Leftovers
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 29 SpD
+Bold Nature
+- Leaf Storm
+- Rage Powder
+- Life Dew
+- Protect
+
+Gardevoir @ Choice Scarf
+Ability: Telepathy
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Psychic
+- Icy Wind
+
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 30 HP / 1 Def / 1 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Disable
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Tickle
+- Encore

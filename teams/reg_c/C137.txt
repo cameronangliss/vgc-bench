@@ -1,0 +1,69 @@
+Stantler @ Eviolite
+Ability: Intimidate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Def / 252 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Hypnosis
+- Skill Swap
+- Trick Room
+- Helping Hand
+
+Wigglytuff @ Life Orb
+Ability: Competitive
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Hyper Voice
+- Sleep Talk
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Flamethrower
+- Protect
+
+Hariyama @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 Def / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Knock Off
+- Close Combat
+- Fake Out
+- Wide Guard
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Sucker Punch
+- Protect
+- Sacred Sword
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Low Kick
+- Aerial Ace

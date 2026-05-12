@@ -1,0 +1,71 @@
+Dondozo (F) @ Safety Goggles
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 68 HP / 216 Atk / 16 Def / 136 SpD / 72 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Order Up
+- Earthquake
+
+Ninetales-Alola (F) @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Blizzard
+- Freeze-Dry
+
+Kingambit (F) @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 216 Atk / 16 Def / 56 SpD / 32 Spe
+Adamant Nature
+- Kowtow Cleave
+- Low Kick
+- Tera Blast
+- Sucker Punch
+
+Tatsugiri (F) @ Blunder Policy
+Ability: Commander
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Follow Me
+- Taunt
+- Population Bomb
+
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Coaching
+- Close Combat
+- Rage Fist
+- Final Gambit

@@ -1,0 +1,67 @@
+Salamence @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Dual Wingbeat
+- Tera Blast
+- Tailwind
+- Protect
+
+Tyranitar @ Choice Band
+Ability: Sand Stream
+Level: 50
+Tera Type: Dragon
+EVs: 132 HP / 124 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Heavy Slam
+
+Metagross @ Sitrus Berry
+Ability: Clear Body
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 4 Def / 4 SpD / 132 Spe
+Adamant Nature
+- Heavy Slam
+- Ice Punch
+- Stomping Tantrum
+- Protect
+
+Blaziken @ Focus Sash
+Ability: Speed Boost
+Level: 50
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Aura Sphere
+- Coaching
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 156 Atk / 100 SpD
+Adamant Nature
+- Double-Edge
+- Tera Blast
+- Trick Room
+- Recover
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk / 27 Spe
+- Pollen Puff
+- Clear Smog
+- Spore
+- Rage Powder

@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Solar Power
+Level: 50
+EVs: 18 HP / 21 SpA / 27 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Weather Ball
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Sunny Day
+- Encore
+- Tailwind
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 8 HP / 30 Atk / 6 SpD / 22 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Protect
+
+Gallade (M) @ Galladite
+Ability: Sharpness
+Level: 50
+EVs: 6 HP / 32 Atk / 1 Def / 27 Spe
+Jolly Nature
+- Sacred Sword
+- Thunder Punch
+- Ice Punch
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 5 Atk / 11 Def / 8 SpD / 12 Spe
+Adamant Nature
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+- Fake Out

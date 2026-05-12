@@ -1,0 +1,70 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 6 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 21 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Latias (F) @ Rocky Helmet
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 180 Def / 78 Spe
+Timid Nature
+- Mist Ball
+- Icy Wind
+- Recover
+- Tailwind
+
+Entei @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Grass
+EVs: 6 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Snarl
+
+Amoonguss (M) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 244 HP / 158 Def / 108 SpD
+Bold Nature
+IVs: 24 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Urshifu (F) @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 6 SpD / 252 Spe
+Adamant Nature
+IVs: 3 SpA
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Metagross @ Choice Band
+Ability: Clear Body
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 Atk / 6 Def / 252 Spe
+Adamant Nature
+- Heavy Slam
+- Bullet Punch
+- Explosion
+- Trick

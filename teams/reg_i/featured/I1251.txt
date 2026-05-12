@@ -1,0 +1,67 @@
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 204 HP / 116 Atk / 4 Def / 52 SpD / 132 Spe
+Adamant Nature
+- Flare Blitz
+- Collision Course
+- Flame Charge
+- Protect
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 28 HP / 4 Def / 212 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Substitute
+- Protect
+
+Whimsicott (F) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 148 HP / 4 Def / 4 SpA / 100 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Taunt
+- Encore
+
+Ditto @ Quick Claw
+Ability: Imposter
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Transform
+
+Rillaboom (M) @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 108 Def / 124 SpD / 20 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- U-turn
+
+Flamigo (M) @ Focus Sash
+Ability: Scrappy
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Feint
+- Wide Guard
+- Detect

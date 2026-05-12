@@ -1,0 +1,68 @@
+Tornadus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 4 SpA / 92 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Bleakwind Storm
+- Rain Dance
+- Tailwind
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Ice Spinner
+- U-turn
+
+Kyogre @ Choice Specs
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Water Spout
+- Origin Pulse
+- Ice Beam
+- Hydro Pump
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Nasty Plot
+- Protect
+
+Toxicroak @ Focus Sash
+Ability: Dry Skin
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Fake Out
+- Feint
+- Acid Spray
+- Upper Hand
+
+Rhydon @ Eviolite
+Ability: Lightning Rod
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 76 Atk / 4 Def / 252 SpD / 76 Spe
+Adamant Nature
+- Swords Dance
+- High Horsepower
+- Rock Slide
+- Protect

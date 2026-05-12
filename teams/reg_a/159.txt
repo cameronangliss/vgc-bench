@@ -1,0 +1,67 @@
+Torkoal (M) @ Iron Ball
+Ability: Drought
+Level: 50
+EVs: 236 HP / 252 SpA / 20 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Earth Power
+- Flamethrower
+- Protect
+
+Amoonguss (M) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Grass Knot
+- Spore
+- Rage Powder
+- Clear Smog
+
+Annihilape (M) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- Shadow Claw
+- U-turn
+- Final Gambit
+
+Slowking (F) @ Safety Goggles
+Ability: Oblivious
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 172 SpA / 92 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Ice Beam
+- Swagger
+- Trick Room
+
+Dragonite (M) @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Fire Punch
+- Thunder Punch
+
+Mudsdale (F) @ Assault Vest
+Ability: Own Tempo
+Level: 50
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- High Horsepower
+- Close Combat
+- Heavy Slam

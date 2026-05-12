@@ -1,0 +1,67 @@
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 52 Def / 28 SpD / 60 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- U-turn
+- Stomping Tantrum
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 52 Def / 4 SpA / 4 SpD / 196 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Trick Room
+- Lunar Blessing
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 108 Def / 4 SpA / 76 SpD / 68 Spe
+Bold Nature
+IVs: 0 Atk
+- Iron Defense
+- Body Press
+- Magma Storm
+- Protect
+
+Landorus-Therian @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 36 Atk / 12 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Stomping Tantrum
+- U-turn
+- Rock Slide
+- Taunt
+
+Dondozo @ Rocky Helmet
+Ability: Oblivious
+Level: 50
+Tera Type: Steel
+EVs: 172 HP / 76 Atk / 4 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Wave Crash
+- Yawn
+- Heavy Slam
+- Protect
+
+Kleavor @ Choice Scarf
+Ability: Sharpness
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Stone Axe
+- X-Scissor
+- U-turn
+- Close Combat

@@ -1,0 +1,68 @@
+Pikachu (M) @ Eviolite
+Ability: Lightning Rod
+Level: 50
+Tera Type: Flying
+EVs: 172 HP / 196 Atk / 140 Spe
+Jolly Nature
+- Fake Out
+- Quick Attack
+- Helping Hand
+- Nuzzle
+
+Pelipper (M) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Hurricane
+- Wide Guard
+- Hydro Pump
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 132 HP / 252 SpA / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+
+Beartic (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 44 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Liquidation
+- Aqua Jet
+- Icicle Crash
+
+Amoonguss (M) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 140 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Pollen Puff
+- Rage Powder
+- Clear Smog
+
+Dragonite (M) @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 236 HP / 164 Atk / 108 Spe
+Jolly Nature
+- Extreme Speed
+- Dragon Claw
+- Low Kick
+- Waterfall

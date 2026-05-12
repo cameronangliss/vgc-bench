@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 92 HP / 4 Def / 228 SpA / 4 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Nasty Plot
+- Protect
+
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 196 Atk / 4 Def / 68 SpD / 52 Spe
+Adamant Nature
+- Flare Blitz
+- Low Kick
+- Flame Charge
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 76 Def / 108 SpD / 36 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- U-turn
+- Fake Out
+
+Rillaboom @ Sitrus Berry
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Wood Hammer
+- U-turn
+- Grassy Glide
+- Fake Out
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Ground
+EVs: 244 HP / 228 Def / 36 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- Encore
+- Protect

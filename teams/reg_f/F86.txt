@@ -1,0 +1,65 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 252 Atk / 76 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Aerial Ace
+- Earthquake
+
+Glimmora @ Power Herb
+Ability: Toxic Debris
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Meteor Beam
+- Sludge Bomb
+- Mortal Spin
+- Spiky Shield
+
+Ogerpon @ Covert Cloak
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Superpower
+- Follow Me
+- Spiky Shield
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Protect
+
+Dondozo @ Rocky Helmet
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Order Up
+- Protect

@@ -1,0 +1,69 @@
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Rain Dance
+- Bleakwind Storm
+- Protect
+
+Thundurus @ Safety Goggles
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Eerie Impulse
+- Electric Terrain
+- Sunny Day
+- Wildbolt Storm
+
+Raging Bolt @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 20 Atk
+- Weather Ball
+- Thunderclap
+- Rising Voltage
+- Dragon Pulse
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 172 Atk / 4 Def / 12 SpD / 68 Spe
+Adamant Nature
+- Rock Slide
+- Ice Punch
+- Knock Off
+- Low Kick
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 252 Atk / 4 Def / 44 SpD / 84 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Detect
+- Aqua Jet
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 20 HP / 124 Def / 196 SpA / 4 SpD / 68 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Icy Wind

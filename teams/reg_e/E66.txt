@@ -1,0 +1,68 @@
+Rillaboom @ Grassy Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Knock Off
+- Protect
+- Grassy Glide
+- Wood Hammer
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Rain Dance
+- Bleakwind Storm
+- Tailwind
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Ground
+EVs: 252 SpA / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Hyper Voice
+- Protect
+
+Iron Moth @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Fiery Dance
+- Dazzling Gleam
+- Acid Spray
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Iron Head
+- Close Combat
+- Aqua Jet
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Poison
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Protect
+- Follow Me
+- Shadow Claw
+- Population Bomb

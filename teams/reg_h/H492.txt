@@ -1,0 +1,68 @@
+Weezing-Galar @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Ghost
+EVs: 148 HP / 20 Def / 164 SpA / 172 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Taunt
+- Will-O-Wisp
+- Sludge Bomb
+- Protect
+
+Typhlosion-Hisui @ Choice Specs
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Overheat
+- Shadow Ball
+- Flamethrower
+
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Sunny Day
+- Moonblast
+- Tickle
+
+Decidueye-Hisui @ Scope Lens
+Ability: Scrappy
+Level: 50
+Tera Type: Electric
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Leaf Blade
+- Triple Arrows
+- Close Combat
+- Protect
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Jet Punch
+- Protect
+- Wave Crash
+- Haze
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Phantom Force
+- Outrage
+- U-turn

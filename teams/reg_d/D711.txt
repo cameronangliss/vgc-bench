@@ -1,0 +1,68 @@
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 44 Def / 4 SpA / 68 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Crunch
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 36 Atk / 4 Def / 252 SpD / 116 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Heavy Slam
+- Fake Out
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 44 SpD / 212 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Pelipper @ Rocky Helmet
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 28 Def / 4 SpA / 156 SpD / 68 Spe
+Calm Nature
+IVs: 0 Atk
+- Hurricane
+- Wide Guard
+- Tailwind
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 220 Def / 44 SpD
+Bold Nature
+IVs: 27 Spe
+- Pollen Puff
+- Rage Powder
+- Spore
+- Leaf Storm

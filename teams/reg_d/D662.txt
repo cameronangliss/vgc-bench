@@ -1,0 +1,68 @@
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Fire
+EVs: 124 HP / 4 Def / 124 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Earth Power
+- Sandsear Storm
+- Sludge Bomb
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 196 Def / 132 SpD
+Modest Nature
+IVs: 0 Atk / 4 Spe
+- Psychic
+- Dazzling Gleam
+- Helping Hand
+- Trick Room
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Close Combat
+- Wicked Blow
+- Sucker Punch
+- Detect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 164 HP / 252 SpA / 92 SpD
+Quiet Nature
+IVs: 0 Spe
+- Eruption
+- Heat Wave
+- Helping Hand
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 76 Def / 172 SpA / 4 SpD / 156 Spe
+Timid Nature
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Icy Wind
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 196 Atk / 28 Def / 28 SpD
+Brave Nature
+IVs: 20 Spe
+- Flare Blitz
+- Rock Slide
+- Close Combat
+- Extreme Speed

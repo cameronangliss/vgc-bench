@@ -1,0 +1,67 @@
+Arcanine (M) @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 84 Atk / 172 Spe
+Jolly Nature
+- Protect
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+
+Amoonguss (M) @ Wiki Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 220 Def / 44 SpD
+Bold Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Foul Play
+- Clear Smog
+
+Murkrow (M) @ Eviolite
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 0 Atk
+- Tailwind
+- Haze
+- Foul Play
+- Taunt
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Helping Hand
+- Calm Mind
+- Protect
+
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Dragon Claw
+- Stomping Tantrum
+- Swords Dance
+
+Gengar @ Focus Sash
+Ability: Cursed Body
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Icy Wind
+- Clear Smog
+- Trick Room

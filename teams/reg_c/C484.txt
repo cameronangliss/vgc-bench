@@ -1,0 +1,68 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 4 Def / 148 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Dazzling Gleam
+- Substitute
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 4 SpA / 140 SpD / 12 Spe
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Leech Seed
+- Leaf Storm
+- Pollen Puff
+
+Glimmora @ Focus Sash
+Ability: Corrosion
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Spiky Shield
+- Power Gem
+- Mortal Spin
+- Earth Power
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 28 Def / 36 SpA / 36 SpD / 180 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Overheat
+- Tera Blast
+
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 4 Atk / 4 Def / 244 SpD / 12 Spe
+Careful Nature
+- Brave Bird
+- Body Press
+- Roost
+- Tailwind
+
+Dragapult @ Safety Goggles
+Ability: Infiltrator
+Level: 50
+Tera Type: Fire
+EVs: 92 HP / 28 Atk / 4 Def / 164 SpD / 220 Spe
+Jolly Nature
+- Protect
+- Dragon Darts
+- Phantom Force
+- Will-O-Wisp

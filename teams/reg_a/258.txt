@@ -1,0 +1,67 @@
+Palafin-Hero @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+EVs: 124 HP / 156 Atk / 4 Def / 36 SpD / 188 Spe
+Adamant Nature
+- Jet Punch
+- Close Combat
+- Flip Turn
+- Ice Punch
+
+Murkrow @ Focus Sash
+Ability: Insomnia
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Tailwind
+- Haze
+- Icy Wind
+- Rain Dance
+
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 4 Def / 196 SpA / 12 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Heat Wave
+- Snarl
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 156 Atk / 36 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 212 HP / 4 Def / 252 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Protect

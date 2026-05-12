@@ -1,0 +1,69 @@
+Groudon @ Wide Lens
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 236 SpD / 20 Spe
+Careful Nature
+- Precipice Blades
+- Heat Crash
+- Thunder Wave
+- Will-O-Wisp
+
+Kyogre @ Assault Vest
+Ability: Drizzle
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 132 Def / 108 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Origin Pulse
+- Water Spout
+- Thunder
+- Ice Beam
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 68 Def / 188 Spe
+Calm Nature
+IVs: 0 Atk
+- Ruination
+- Pollen Puff
+- Leech Seed
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Taunt
+- Protect
+
+Raging Bolt @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 52 HP / 4 Def / 252 SpA / 12 SpD / 188 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Weather Ball
+- Thunderbolt
+- Protect
+
+Slither Wing @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Bug
+EVs: 68 HP / 252 Atk / 188 Spe
+Adamant Nature
+- First Impression
+- Close Combat
+- U-turn
+- Protect

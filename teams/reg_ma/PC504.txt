@@ -1,0 +1,59 @@
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Bullet Punch
+- Swords Dance
+- Protect
+- Bug Bite
+
+Rotom-Wash @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 8 HP / 1 Def / 31 SpA / 1 SpD / 25 Spe
+Timid Nature
+- Volt Switch
+- Hydro Pump
+- Electroweb
+- Thunderbolt
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Clanging Scales
+- Aura Sphere
+- Clangorous Soul
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Careful Nature
+- Flare Blitz
+- Helping Hand
+- Fake Out
+- Parting Shot
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 15 Def / 20 SpD
+Calm Nature
+- Matcha Gotcha
+- Protect
+- Rage Powder
+- Life Dew
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 18 HP / 26 Atk / 22 Spe
+Adamant Nature
+- Rock Slide
+- Low Kick
+- Knock Off
+- Protect

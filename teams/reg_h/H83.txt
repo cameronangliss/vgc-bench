@@ -1,0 +1,66 @@
+Muk-Alola @ Leftovers
+Ability: Power of Alchemy
+Level: 50
+Tera Type: Ghost
+EVs: 84 HP / 60 Atk / 196 Def / 156 SpD / 12 Spe
+Adamant Nature
+- Knock Off
+- Minimize
+- Toxic
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Spore
+- Follow Me
+- Shed Tail
+- Fake Out
+
+Flamigo @ Life Orb
+Ability: Costar
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Brave Bird
+- Throat Chop
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Steel Beam
+
+Murkrow @ Eviolite
+Ability: Insomnia
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 60 Def / 60 SpD / 132 Spe
+Adamant Nature
+- Brave Bird
+- Tailwind
+- Haze
+- Taunt
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Crunch

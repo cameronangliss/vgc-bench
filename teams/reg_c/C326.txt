@@ -1,0 +1,68 @@
+Forretress @ Leftovers
+Ability: Sturdy
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 Def
+Relaxed Nature
+IVs: 0 Spe
+- Protect
+- Ice Spinner
+- Gyro Ball
+- Sand Tomb
+
+Braviary @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 52 Atk / 4 Def / 60 SpD / 148 Spe
+Adamant Nature
+- Brave Bird
+- Bulk Up
+- Tailwind
+- Close Combat
+
+Tauros-Paldea-Aqua @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 68 Atk / 4 Def / 12 SpD / 180 Spe
+Jolly Nature
+- Wave Crash
+- Close Combat
+- Protect
+- Endeavor
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Fighting
+EVs: 236 HP / 156 Atk / 84 Def / 28 SpD / 4 Spe
+Adamant Nature
+- Flare Blitz
+- Wild Charge
+- Extreme Speed
+- Close Combat
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+- Power Gem
+
+Sandy Shocks @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 108 Def / 4 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Protect
+- Thunderbolt
+- Mud Shot

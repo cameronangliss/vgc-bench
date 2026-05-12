@@ -1,0 +1,68 @@
+Thundurus @ Iapapa Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 148 Def / 68 SpA / 36 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Sunny Day
+- Thunder Wave
+- Wildbolt Storm
+- Taunt
+
+Brute Bonnet @ Rocky Helmet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Atk / 68 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Seed Bomb
+- Sucker Punch
+- Rage Powder
+- Spore
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Heatran @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 188 HP / 236 SpA / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Earth Power
+- Heat Wave
+- Protect
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 76 HP / 116 Def / 196 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Hex
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+- Protect

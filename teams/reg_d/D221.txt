@@ -1,0 +1,71 @@
+Typhlosion-Hisui (M) @ Choice Scarf
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Eruption
+- Shadow Ball
+- Heat Wave
+- Overheat
+
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Leaf Blade
+- Close Combat
+- Sleep Powder
+- Protect
+
+Ursaluna (M) @ Assault Vest
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 220 HP / 188 Atk / 36 Def / 60 SpD / 4 Spe
+Adamant Nature
+- Headlong Rush
+- Earthquake
+- Rock Slide
+- Brick Break
+
+Torkoal (F) @ Heat Rock
+Ability: Drought
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 100 Def / 156 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Overheat
+- Yawn
+- Helping Hand
+- Protect
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 116 HP / 76 Def / 164 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Thundurus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 148 Def / 4 SpA / 28 SpD / 84 Spe
+Bold Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Scary Face
+- Sunny Day
+- Taunt

@@ -1,0 +1,66 @@
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 212 HP / 36 Atk / 4 Def / 44 SpD / 212 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Psychic
+EVs: 244 HP / 164 Def / 4 SpA / 76 SpD / 20 Spe
+Calm Nature
+IVs: 0 Atk
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Ursaluna-Bloodmoon @ Assault Vest
+Ability: Mind's Eye
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 12 Def / 116 SpA / 180 SpD / 52 Spe
+Modest Nature
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Tailwind
+- Haze
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Throat Chop
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 4 Def / 132 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

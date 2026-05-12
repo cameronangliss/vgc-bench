@@ -1,0 +1,71 @@
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 164 Def / 28 SpA / 4 SpD / 60 Spe
+Bold Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Hydro Pump
+- Volt Switch
+- Protect
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 220 HP / 252 SpA / 36 Spe
+Modest Nature
+- Hyper Voice
+- Tera Blast
+- Quick Attack
+- Protect
+
+Hydreigon (F) @ Safety Goggles
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 60 HP / 20 Def / 172 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Snarl
+- Flash Cannon
+- Tailwind
+
+Meowscarada (M) @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Trick Room
+- Protect
+- Knock Off
+
+Arcanine (M) @ Choice Band
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Extreme Speed
+- Flare Blitz
+- Play Rough
+- Close Combat
+
+Amoonguss (F) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Clear Smog
+- Pollen Puff
+- Rage Powder
+- Spore

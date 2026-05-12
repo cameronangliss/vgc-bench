@@ -1,0 +1,71 @@
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Moonblast
+- Helping Hand
+- Trick Room
+- Lunar Blessing
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Earth Power
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Atk / 100 SpD
+Brave Nature
+IVs: 9 Spe
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Heavy Slam
+
+Amoonguss @ Focus Sash
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 236 Def / 36 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Sludge Bomb
+- Leaf Storm
+- Spore
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 156 Atk / 100 SpD
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Facade
+- Swords Dance
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt

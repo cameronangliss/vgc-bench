@@ -1,0 +1,65 @@
+Arcanine-Hisui @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 172 HP / 196 Atk / 84 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Protect
+- Rock Slide
+- Flare Blitz
+- Extreme Speed
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+
+Bruxish @ Choice Scarf
+Ability: Dazzling
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Wave Crash
+- Psychic Fangs
+- Icy Wind
+- Flip Turn
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 4 Def / 124 SpD / 12 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- High Horsepower
+
+Tornadus @ Sky Plate
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 220 HP / 108 Def / 156 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Bleakwind Storm
+- Tailwind
+- Taunt
+- Protect
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- U-turn

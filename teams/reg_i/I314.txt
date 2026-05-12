@@ -1,0 +1,69 @@
+Miraidon @ Life Orb
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Discharge
+- Volt Switch
+
+Calyrex-Ice @ Weakness Policy
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 196 Atk / 60 SpD
+Brave Nature
+- Glacial Lance
+- High Horsepower
+- Trick Room
+- Substitute
+
+Urshifu @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 228 HP / 252 Atk / 28 SpD
+Brave Nature
+IVs: 0 Spe
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Iron Head
+
+Oranguru @ Electric Seed
+Ability: Telepathy
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 4 Atk / 0 Spe
+- Knock Off
+- Instruct
+- Encore
+- Trick Room
+
+Flamigo @ Iron Ball
+Ability: Costar
+Level: 50
+Tera Type: Normal
+EVs: 28 HP / 236 Atk / 244 Def
+Brave Nature
+IVs: 0 Spe
+- Close Combat
+- Dual Wingbeat
+- Fling
+- Feint
+
+Rabsca @ Focus Sash
+Ability: Telepathy
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 16 Atk / 0 Spe
+- Pounce
+- Speed Swap
+- Revival Blessing
+- Trick Room

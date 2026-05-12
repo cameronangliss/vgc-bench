@@ -1,0 +1,70 @@
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 84 Def / 172 SpD
+Careful Nature
+IVs: 26 Spe
+- Knock Off
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Calyrex-Ice @ Lum Berry
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def
+Relaxed Nature
+IVs: 0 Spe
+- Trick Room
+- Glacial Lance
+- Imprison
+- Body Press
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 76 Def / 180 SpD
+Sassy Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Pollen Puff
+- Toxic
+
+Groudon @ Assault Vest
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 140 Atk / 4 Def / 44 SpD / 68 Spe
+Adamant Nature
+- Precipice Blades
+- Heat Crash
+- High Horsepower
+- Brick Break
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Icy Wind
+- Shadow Ball
+- Moonblast
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 140 HP / 4 Def / 252 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Protect

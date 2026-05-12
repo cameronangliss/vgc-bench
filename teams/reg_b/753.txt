@@ -1,0 +1,73 @@
+Talonflame (M) @ Life Orb
+Ability: Gale Wings
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Brave Bird
+- Flare Blitz
+- Tailwind
+- Protect
+
+Espathra (F) @ Covert Cloak
+Ability: Speed Boost
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 36 HP / 252 Def / 4 SpA / 4 SpD / 212 Spe
+Timid Nature
+IVs: 0 Atk
+- Lumina Crash
+- Dazzling Gleam
+- Hypnosis
+- Protect
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Blizzard
+- Protect
+
+Hydreigon (F) @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 20 Def / 116 SpA / 12 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Snarl
+- Heat Wave
+
+Sandy Shocks @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 188 HP / 4 Def / 20 SpA / 44 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Thunder
+- Gravity
+- Protect
+
+Tsareena @ Sitrus Berry
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 180 Atk / 44 Def / 4 SpD / 44 Spe
+Adamant Nature
+- Power Whip
+- U-turn
+- Taunt
+- Protect

@@ -1,0 +1,66 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Order Up
+- Wave Crash
+- Tera Blast
+- Earthquake
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+
+Perrserker @ Chople Berry
+Ability: Steely Spirit
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Fake Out
+- Iron Head
+- Helping Hand
+- Taunt
+
+Scizor @ Choice Band
+Ability: Technician
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Bullet Punch
+- Close Combat
+- U-turn
+- Swords Dance
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Haze
+- Sucker Punch
+- Sacred Sword
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Earthquake
+- Fake Out

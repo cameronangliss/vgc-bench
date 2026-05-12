@@ -1,0 +1,69 @@
+Pikachu (M) @ Light Ball
+Ability: Lightning Rod
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Fake Out
+- Volt Tackle
+- Play Rough
+- Protect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 196 Def / 60 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Icy Wind
+- Tailwind
+- Rain Dance
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Surging Strikes
+- U-turn
+- Close Combat
+- Aqua Jet
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 12 Def / 4 SpA / 236 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Electro Shot
+- Body Press
+- Dragon Pulse
+- Flash Cannon
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Tailwind
+- Weather Ball
+- Wide Guard
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 220 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog

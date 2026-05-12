@@ -1,0 +1,59 @@
+Ampharos @ Ampharosite
+Ability: Static
+Level: 50
+EVs: 6 HP / 32 SpA / 28 Spe
+Timid Nature
+- Thunderbolt
+- Protect
+- Dragon Pulse
+- Volt Switch
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Hurricane
+- Weather Ball
+- Tailwind
+
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 9 Def / 1 SpA / 1 SpD / 23 Spe
+Timid Nature
+- Sludge Bomb
+- Protect
+- Perish Song
+- Substitute
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Impish Nature
+- Fake Out
+- Darkest Lariat
+- Parting Shot
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Protect
+- Trick Room
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Protect
+- Jet Punch
+- Flip Turn
+- Wave Crash

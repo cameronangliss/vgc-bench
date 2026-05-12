@@ -1,0 +1,59 @@
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 32 Atk / 32 Spe
+Adamant Nature
+- Stomping Tantrum
+- Earthquake
+- Protect
+- Rock Slide
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 18 Def / 15 SpD
+Impish Nature
+- Iron Head
+- Iron Defense
+- Body Press
+- Roost
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Protect
+
+Milotic @ Wacan Berry
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Modest Nature
+- Scald
+- Icy Wind
+- Draining Kiss
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 16 Def / 17 SpD
+Impish Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Gardevoir @ Choice Scarf
+Ability: Telepathy
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Modest Nature
+- Moonblast
+- Psyshock
+- Protect
+- Mystical Fire

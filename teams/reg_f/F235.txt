@@ -1,0 +1,68 @@
+Delphox @ Focus Sash
+Ability: Blaze
+Level: 50
+Tera Type: Psychic
+EVs: 52 HP / 204 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Expanding Force
+- Heat Wave
+- Nasty Plot
+- Protect
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 12 Def / 252 SpD
+Impish Nature
+- Thunder Punch
+- Drain Punch
+- Belly Drum
+- Detect
+
+Ogerpon-Wellspring @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Atk / 60 Def / 20 SpD / 20 Spe
+Adamant Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 236 Def / 4 SpA / 12 SpD
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Trick Room
+- Protect
+
+Regidrago @ Choice Scarf
+Ability: Dragon's Maw
+Level: 50
+Tera Type: Dragon
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Energy
+- Draco Meteor
+- Dragon Pulse
+- Earth Power
+
+Tornadus @ King's Rock
+Ability: Defiant
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 204 Atk / 44 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Acrobatics
+- Hammer Arm
+- Fling
+- Protect

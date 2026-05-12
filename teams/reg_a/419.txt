@@ -1,0 +1,68 @@
+Volcarona (F) @ Rocky Helmet
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 196 Def / 52 SpA / 4 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Struggle Bug
+- Overheat
+- Rage Powder
+- Protect
+
+Meowscarada (M) @ Life Orb
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- Brick Break
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 100 Def / 116 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Follow Me
+- Imprison
+- Trick Room
+
+Armarouge (F) @ Focus Sash
+Ability: Weak Armor
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Armor Cannon
+- Clear Smog
+- Protect
+
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+- Protect
+
+Baxcalibur (F) @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Fairy
+EVs: 84 HP / 252 Atk / 172 Spe
+Adamant Nature
+- Glaive Rush
+- Ice Shard
+- Icicle Spear
+- Protect

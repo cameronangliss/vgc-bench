@@ -1,0 +1,59 @@
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 1 SpA / 32 Spe
+Timid Nature
+- Sludge Bomb
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 10 Def / 21 SpD / 3 Spe
+Careful Nature
+- Throat Chop
+- Flare Blitz
+- Parting Shot
+- Fake Out
+
+Tyranitar @ Choice Scarf
+Ability: Sand Stream
+Level: 50
+EVs: 4 HP / 32 Atk / 1 Def / 29 Spe
+Jolly Nature
+- Rock Slide
+- Crunch
+- Superpower
+- Ice Punch
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 32 SpA / 2 Spe
+Modest Nature
+- Thunderbolt
+- Hydro Pump
+- Volt Switch
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Coaching
+- Fake Out
+
+Corviknight @ Sharp Beak
+Ability: Mirror Armor
+Level: 50
+EVs: 27 HP / 23 Atk / 16 Spe
+Adamant Nature
+- Brave Bird
+- Iron Head
+- Tailwind
+- Protect

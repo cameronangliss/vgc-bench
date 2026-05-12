@@ -1,0 +1,70 @@
+Miraidon @ Life Orb
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 196 HP / 4 Atk / 156 Def / 4 SpD / 148 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Icy Wind
+- Encore
+- Protect
+
+Ogerpon-Hearthflame (F) @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 44 Atk / 4 Def / 196 SpD / 20 Spe
+Careful Nature
+- Ivy Cudgel
+- Power Whip
+- Follow Me
+- Spiky Shield
+
+Farigiraf (F) @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 228 HP / 164 Def / 4 SpA / 108 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Foul Play
+- Trick Room
+- Helping Hand
+
+Ursaluna-Bloodmoon @ Silk Scarf
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 36 HP / 4 Def / 236 SpA / 12 SpD / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect

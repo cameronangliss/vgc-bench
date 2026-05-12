@@ -1,0 +1,71 @@
+Calyrex-Shadow @ Choice Specs
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 12 Def / 156 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Expanding Force
+- Shadow Ball
+- Psychic
+
+Indeedee @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Expanding Force
+- Dazzling Gleam
+- After You
+- Trick Room
+
+Urshifu-Rapid-Strike @ Choice Band
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 236 Atk / 108 SpD
+Adamant Nature
+IVs: 2 Spe
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Whimsicott @ Life Orb
+Ability: Prankster
+Level: 50
+Tera Type: Stellar
+EVs: 28 HP / 4 Def / 252 SpA / 36 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Grass Knot
+- Tailwind
+
+Tsareena @ Iron Ball
+Ability: Sweet Veil
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Power Whip
+- Triple Axel
+- Fling
+- Low Kick
+
+Kyogre @ Power Lens
+Ability: Drizzle
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Water Spout
+- Origin Pulse
+- Thunder
+- Ice Beam

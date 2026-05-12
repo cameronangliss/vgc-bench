@@ -1,0 +1,72 @@
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 124 Def / 4 SpA / 124 SpD / 20 Spe
+Bold Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Encore
+- Light Screen
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 44 HP / 4 Def / 252 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Earth Power
+- Blood Moon
+- Protect
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Rock Slide
+- Head Smash
+- Extreme Speed
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 156 HP / 204 Atk / 4 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Knock Off
+- Rock Slide
+- Low Kick
+- Snarl
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 4 Def / 180 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Amoonguss @ Mental Herb
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 244 HP / 188 Def / 76 SpD
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog

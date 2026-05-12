@@ -1,0 +1,68 @@
+Tyranitar @ Choice Band
+Ability: Sand Stream
+Level: 50
+Tera Type: Rock
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Slide
+- Assurance
+- Tera Blast
+- Low Kick
+
+Lycanroc @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Bulldoze
+- Close Combat
+- Endeavor
+
+Dondozo @ Assault Vest
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 252 Atk / 4 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Rock Slide
+- Tera Blast
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Icy Wind
+- Sleep Talk
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 100 HP / 4 Def / 252 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Substitute
+- Protect
+
+Chi-Yu @ Covert Cloak
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 116 SpA / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+- Protect

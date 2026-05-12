@@ -1,0 +1,64 @@
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Phantom Force
+- Sucker Punch
+- U-turn
+
+Tatsugiri @ Black Sludge
+Ability: Commander
+Level: 50
+EVs: 252 SpA / 252 Spe
+Mild Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpD
+- Hydro Pump
+- Helping Hand
+- Endure
+- Protect
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Ground
+EVs: 244 HP / 20 Atk / 4 Def / 4 SpD / 236 Spe
+Adamant Nature
+IVs: 0 SpA
+- Wave Crash
+- Earthquake
+- Order Up
+- Protect
+
+Flamigo @ Choice Scarf
+Ability: Costar
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Brave Bird
+- Close Combat
+- Throat Chop
+- U-turn
+
+Rotom-Heat @ Safety Goggles
+Ability: Levitate
+Level: 50
+EVs: 220 HP / 4 Def / 116 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Overheat
+- Thunderbolt
+- Will-O-Wisp
+- Protect
+
+Annihilape @ Life Orb
+Ability: Defiant
+Level: 50
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Rage Fist
+- Taunt
+- Protect

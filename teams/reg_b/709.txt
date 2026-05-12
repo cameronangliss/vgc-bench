@@ -1,0 +1,69 @@
+Amoonguss (M) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Rage Powder
+- Spore
+- Clear Smog
+
+Arcanine (M) @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 180 Def / 4 SpA / 4 SpD / 76 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Heat Wave
+- Will-O-Wisp
+- Snarl
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 124 HP / 252 SpA / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Protect
+- Yawn
+
+Iron Thorns @ Loaded Dice
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 132 HP / 252 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Swords Dance
+- Thunder Punch
+- Rock Blast
+- Pin Missile
+
+Mimikyu (M) @ Mental Herb
+Ability: Disguise
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Play Rough
+- Will-O-Wisp
+- Trick Room
+- Curse
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Throat Chop
+- Acrobatics
+- Protect
+- Tailwind

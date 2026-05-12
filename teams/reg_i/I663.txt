@@ -1,0 +1,66 @@
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 220 SpD
+Adamant Nature
+- Glacial Lance
+- Leech Seed
+- Protect
+- Trick Room
+
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 4 Def / 220 SpA / 4 SpD / 36 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 132 Def / 116 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Thunder Wave
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 76 SpD
+Impish Nature
+- Knock Off
+- Parting Shot
+- Taunt
+- Fake Out
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 180 HP / 68 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- U-turn
+- Shadow Claw
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 172 Def / 84 SpD
+Bold Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room

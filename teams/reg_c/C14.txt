@@ -1,0 +1,70 @@
+Ting-Lu @ Weakness Policy
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 252 Atk / 92 SpD
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Throat Chop
+- Protect
+- Heavy Slam
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Fake Out
+- Drain Punch
+- Wild Charge
+- Volt Switch
+
+Bronzong @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Iron Defense
+- Bulldoze
+- Body Press
+- Trick Room
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Rage Fist
+- U-turn
+
+Kingambit @ Life Orb
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Iron Head
+- Sucker Punch
+- Tera Blast
+- Protect
+
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 100 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Pollen Puff

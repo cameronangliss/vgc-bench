@@ -1,0 +1,66 @@
+Armarouge @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 4 Def / 252 SpA / 4 SpD / 100 Spe
+Modest Nature
+- Expanding Force
+- Armor Cannon
+- Psychic
+- Trick Room
+
+Palafin @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+Tera Type: Grass
+EVs: 28 HP / 252 Atk / 4 Def / 4 SpD / 220 Spe
+Adamant Nature
+- Flip Turn
+- Wave Crash
+- Ice Punch
+- Close Combat
+
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 36 SpA / 100 SpD / 116 Spe
+Modest Nature
+- Hurricane
+- Hydro Pump
+- Tailwind
+- Wide Guard
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 252 Atk / 4 Def / 28 SpD / 68 Spe
+Adamant Nature
+- Zen Headbutt
+- Iron Head
+- Kowtow Cleave
+- Low Kick
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Trick Room
+- Follow Me
+- Dazzling Gleam
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 2 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Clear Smog

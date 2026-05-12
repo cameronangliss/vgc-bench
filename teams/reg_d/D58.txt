@@ -1,0 +1,68 @@
+Zoroark-Hisui @ Focus Sash
+Ability: Illusion
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hyper Voice
+- Shadow Ball
+- Helping Hand
+- Rain Dance
+
+Regieleki @ Normal Gem
+Ability: Transistor
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Explosion
+- Wild Charge
+- Electroweb
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 36 Def / 68 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Rain Dance
+- Bleakwind Storm
+- Taunt
+- Tailwind
+
+Basculegion (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Protect
+- Last Respects
+- Wave Crash
+- Aqua Jet
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 156 Def / 140 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Rage Powder
+- Spore
+- Protect

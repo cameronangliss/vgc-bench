@@ -1,0 +1,70 @@
+Mudsdale @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fighting
+EVs: 220 HP / 252 Atk / 36 SpD
+Brave Nature
+IVs: 0 Spe
+- Body Press
+- High Horsepower
+- Heavy Slam
+- Rock Slide
+
+Armarouge @ Scope Lens
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 220 HP / 12 Def / 252 SpA / 24 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Expanding Force
+- Armor Cannon
+- Trick Room
+- Clear Smog
+
+Mimikyu (M) @ Mental Herb
+Ability: Disguise
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 60 Atk / 20 Def / 84 SpD / 92 Spe
+Careful Nature
+- Taunt
+- Trick Room
+- Will-O-Wisp
+- Play Rough
+
+Gholdengo @ Iron Ball
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 252 SpA / 44 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Follow Me
+- Protect
+- Psychic
+- Trick Room
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Protect
+- Dragon Claw
+- Earthquake
+- Swords Dance

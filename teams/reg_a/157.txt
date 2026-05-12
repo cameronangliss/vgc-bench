@@ -1,0 +1,68 @@
+Glaceon @ Bright Powder
+Ability: Snow Cloak
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Shadow Ball
+- Protect
+
+Abomasnow @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Aurora Veil
+- Sheer Cold
+- Blizzard
+- Leaf Storm
+
+Arcanine @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 156 Atk / 4 Def / 100 SpD / 4 Spe
+Adamant Nature
+- Flare Blitz
+- Bulldoze
+- Close Combat
+- Extreme Speed
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 108 Def / 92 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Thunderbolt
+- Tera Blast
+- Protect
+
+Annihilape (M) @ Lum Berry
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 116 Atk / 12 Def / 4 SpD / 140 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Bulk Up
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Extreme Speed
+- Dragon Claw
+- Earthquake
+- Fire Punch

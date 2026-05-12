@@ -1,0 +1,68 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 68 HP / 100 Def / 140 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+
+Great Tusk @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 212 Atk / 44 SpD / 252 Spe
+Jolly Nature
+- Headlong Rush
+- Earthquake
+- Close Combat
+- Rock Slide
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Spinner
+- Throat Chop
+- Sucker Punch
+- Protect
+
+Dragonite @ Assault Vest
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 116 HP / 204 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Extreme Speed
+- Tera Blast
+- Thunder Punch
+- Low Kick
+
+Jumpluff @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Tera Type: Rock
+EVs: 124 HP / 188 SpD / 196 Spe
+Timid Nature
+IVs: 0 Atk
+- Sleep Powder
+- Encore
+- Tailwind
+- Leaf Storm
+
+Torkoal @ Eject Pack
+Ability: Drought
+Level: 50
+Tera Type: Flying
+EVs: 164 HP / 4 Def / 76 SpA / 172 SpD / 92 Spe
+Calm Nature
+IVs: 0 Atk
+- Overheat
+- Helping Hand
+- Yawn
+- Protect

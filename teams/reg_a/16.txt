@@ -1,0 +1,64 @@
+Amoonguss @ Aguav Berry
+Sassy Nature
+Ability: Regenerator
+Level: 50
+EVs: 236 HP / 116 Def / 156 SpD
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Spore
+- Rage Powder
+- Protect
+
+Arcanine @ Iapapa Berry
+Impish Nature
+Ability: Intimidate
+Level: 50
+EVs: 252 HP / 4 Atk / 76 Def / 76 SpD / 100 Spe
+- Flare Blitz
+- Snarl
+- Extreme Speed
+- Will-O-Wisp
+
+Azumarill @ Sitrus Berry
+Level: 50
+Adamant Nature
+Ability: Huge Power
+EVs: 212 HP / 252 Atk / 44 SpD
+- Belly Drum
+- Play Rough
+- Aqua Jet
+- Protect
+
+Garchomp @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Iron Head
+- Earthquake
+- Dragon Claw
+- Protect
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 12 Def / 252 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Body Press
+- Iron Defense
+- Salt Cure
+- Recover
+
+Rotom-Heat @ Occa Berry
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 212 SpA / 44 Spe
+Modest Nature
+- Thunderbolt
+- Discharge
+- Overheat
+- Will-O-Wisp

@@ -1,0 +1,69 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Ghost
+EVs: 100 HP / 44 Def / 212 SpA / 4 SpD / 148 Spe
+Modest Nature
+- Volt Switch
+- Electro Drift
+- Draco Meteor
+- Discharge
+
+Whimsicott @ Red Card
+Ability: Prankster
+Level: 50
+Tera Type: Electric
+EVs: 196 HP / 52 Def / 4 SpA / 36 SpD / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Trick Room
+- Tailwind
+- Moonblast
+- Encore
+
+Calyrex-Ice @ Assault Vest
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Ground
+EVs: 132 HP / 196 Atk / 4 Def / 60 SpD / 116 Spe
+Adamant Nature
+- Glacial Lance
+- High Horsepower
+- Throat Chop
+- Close Combat
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 252 Atk / 44 Def / 4 SpA / 68 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Facade
+- Protect
+- Brick Break
+
+Armarouge @ Covert Cloak
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 124 HP / 4 Def / 196 SpA / 52 SpD / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Armor Cannon
+- Psychic
+- Trick Room
+- Wide Guard
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 188 HP / 4 Def / 252 SpA / 60 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Rising Voltage
+- Draco Meteor
+- Protect

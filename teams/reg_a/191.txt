@@ -1,0 +1,69 @@
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Trick
+- Thunderbolt
+
+Hydreigon (M) @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 196 HP / 28 Def / 252 SpA / 4 SpD / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Tera Blast
+- Snarl
+
+Breloom (F) @ Focus Sash
+Ability: Technician
+Level: 50
+Shiny: Yes
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Bullet Seed
+- Spore
+- Rock Tomb
+- Mach Punch
+
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Icy Wind
+- Haze
+- Taunt
+- Tailwind
+
+Arcanine (F) @ Mago Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 236 HP / 4 Atk / 92 Def / 164 SpD / 12 Spe
+Jolly Nature
+- Flare Blitz
+- Extreme Speed
+- Will-O-Wisp
+- Protect
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 76 Atk / 20 Def / 92 SpD / 68 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Swords Dance
+- Protect

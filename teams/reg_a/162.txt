@@ -1,0 +1,70 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 60 Def / 196 SpD
+Sassy Nature
+IVs: 0 SpA / 0 Spe
+- Spirit Break
+- Parting Shot
+- Reflect
+- Light Screen
+
+Ceruledge @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 196 Atk / 60 Def
+Brave Nature
+IVs: 0 SpA / 0 Spe
+- Protect
+- Bitter Blade
+- Shadow Sneak
+- Bulk Up
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 212 Def / 4 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Struggle Bug
+- Will-O-Wisp
+- Rage Powder
+
+Gallade @ Razor Claw
+Ability: Sharpness
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 60 Atk / 196 Def
+Relaxed Nature
+IVs: 0 SpA / 0 Spe
+- Sacred Sword
+- Psycho Cut
+- Leaf Blade
+- Trick Room
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+EVs: 244 HP / 196 Atk / 68 SpD
+Brave Nature
+IVs: 0 SpA / 0 Spe
+- Kowtow Cleave
+- Iron Head
+- Brick Break
+- Sucker Punch
+
+Dragapult @ Life Orb
+Ability: Clear Body
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 252 Atk / 4 Def / 4 SpD / 132 Spe
+Jolly Nature
+IVs: 0 SpA
+- Protect
+- Dragon Darts
+- Phantom Force
+- Sucker Punch

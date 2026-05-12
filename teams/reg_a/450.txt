@@ -1,0 +1,68 @@
+Kingambit (M) @ Assault Vest
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 220 HP / 196 Atk / 92 SpD
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Low Kick
+- Sucker Punch
+
+Salazzle @ Focus Sash
+Ability: Oblivious
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Fake Out
+- Sludge Bomb
+- Overheat
+- Endeavor
+
+Amoonguss (M) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 172 Def / 100 SpD
+Calm Nature
+IVs: 0 Atk
+- Pollen Puff
+- Rage Powder
+- Spore
+- Clear Smog
+
+Mimikyu (F) @ Life Orb
+Ability: Disguise
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 100 HP / 236 Atk / 4 Def / 4 SpD / 164 Spe
+Adamant Nature
+- Shadow Sneak
+- Shadow Claw
+- Play Rough
+- Taunt
+
+Baxcalibur (F) @ Wiki Berry
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 196 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Protect
+- Glaive Rush
+- Ice Shard
+- Swords Dance
+
+Tauros-Paldea-Aqua @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 116 HP / 132 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Close Combat
+- Raging Bull
+- Aqua Jet

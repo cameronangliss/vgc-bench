@@ -1,0 +1,66 @@
+Talonflame @ Life Orb
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Brave Bird
+- Tailwind
+- Quick Guard
+- Protect
+
+Garchomp @ Choice Band
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+
+Flutter Mane @ Babiri Berry
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 236 Def / 36 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Misty Terrain
+- Fake Tears
+- Trick Room
+
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 204 Def / 132 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Flamethrower
+- Dark Pulse
+- Snarl
+- Tera Blast
+
+Tauros-Paldea-Aqua @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Wave Crash
+- Aqua Jet
+
+Corviknight @ Rocky Helmet
+Ability: Mirror Armor
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Body Press
+- Heavy Slam
+- Iron Defense
+- Roost

@@ -1,0 +1,68 @@
+Rayquaza @ Choice Band
+Ability: Air Lock
+Level: 50
+Tera Type: Normal
+EVs: 228 HP / 236 Atk / 44 Spe
+Adamant Nature
+- U-turn
+- Dragon Ascent
+- Outrage
+- Extreme Speed
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Astral Barrage
+- Psychic
+
+Incineroar (F) @ Covert Cloak
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 228 HP / 36 Atk / 140 Def / 76 SpD / 28 Spe
+Impish Nature
+- Fake Out
+- Taunt
+- Knock Off
+- Flare Blitz
+
+Chien-Pao @ Choice Scarf
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 28 HP / 236 Atk / 4 Def / 36 SpD / 204 Spe
+Adamant Nature
+- Icy Wind
+- Ice Spinner
+- Ruination
+- Crunch
+
+Urshifu-Rapid-Strike (F) @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 20 HP / 236 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+
+Weezing-Galar (F) @ Rocky Helmet
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Normal
+EVs: 228 HP / 76 Def / 4 SpA / 156 SpD / 44 Spe
+Calm Nature
+IVs: 0 Atk
+- Protect
+- Poison Gas
+- Toxic Spikes
+- Strange Steam

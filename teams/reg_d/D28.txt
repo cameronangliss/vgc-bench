@@ -1,0 +1,70 @@
+Glastrier @ Assault Vest
+Ability: Chilling Neigh
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 0 Spe
+- Icicle Crash
+- Stomping Tantrum
+- Smart Strike
+- Close Combat
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Lunar Blessing
+- Psychic
+- Skill Swap
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 164 HP / 84 Atk / 4 Def / 252 SpD / 4 Spe
+Adamant Nature
+IVs: 8 SpA
+- Drain Punch
+- Wild Charge
+- Fake Out
+- Swords Dance
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Air Slash
+- Tailwind
+- Icy Wind
+- Taunt
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 156 Def / 100 SpD
+Impish Nature
+- Reflect
+- Spirit Break
+- Light Screen
+- Parting Shot
+
+Rotom-Mow @ Leftovers
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 44 Def / 212 SpA
+Modest Nature
+IVs: 0 Atk
+- Leaf Storm
+- Thunderbolt
+- Nasty Plot
+- Protect

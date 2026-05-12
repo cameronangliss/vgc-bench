@@ -9,6 +9,7 @@ and provides training configuration utilities.
 import json
 import os
 import random
+import re
 from enum import Enum, auto, unique
 
 import numpy as np
@@ -86,7 +87,7 @@ def set_global_seed(seed: int) -> None:
 
 # observation length constants
 act_len = 107
-glob_obs_len = len(Field) + len(Weather) + 3
+glob_obs_len = len(Field) + len(Weather) + 4
 side_obs_len = len(SideCondition) + 5
 move_obs_len = len(MoveCategory) + len(Target) + len(PokemonType) + 12
 pokemon_obs_len = (
@@ -95,20 +96,38 @@ pokemon_obs_len = (
     + len(PokemonGender)
     + 2 * len(PokemonType)
     + len(Status)
-    + 39
+    + 45
 )
 chunk_obs_len = glob_obs_len + side_obs_len + pokemon_obs_len
 
 # pokemon data
 format_map = {
+    "a": "gen9vgc2022rega",
+    "b": "gen9vgc2023regb",
     "c": "gen9vgc2023regc",
     "d": "gen9vgc2023regd",
-    "f": "gen9vgc2026regf",
+    "e": "gen9vgc2024rege",
+    "f": "gen9vgc2024regf",
     "g": "gen9vgc2024regg",
-    "h": "gen9vgc2025regh",
-    "i": "gen9vgc2026regi",
+    "h": "gen9vgc2024regh",
+    "i": "gen9vgc2025regi",
     "j": "gen9vgc2025regj",
+    "ma": "gen9championsvgc2026regma",
 }
+
+
+def is_vgc_format(fmt: str) -> bool:
+    """Check if a format string is a recognized VGC format."""
+    return bool(re.match(r"gen9(?:champions)?vgc\d{4}reg(ma|[a-j])(?:bo\d+)?$", fmt))
+
+
+def get_reg_from_format(fmt: str) -> str:
+    """Extract the regulation identifier from a VGC format string"""
+    m = re.match(r"gen9(?:champions)?vgc\d{4}reg(ma|[a-j])(?:bo\d+)?$", fmt)
+    assert m is not None, f"not a valid VGC format: {fmt}"
+    return m.group(1)
+
+
 with open("data/abilities.json") as f:
     abilities: list[str] = json.load(f)
 with open("data/items.json") as f:

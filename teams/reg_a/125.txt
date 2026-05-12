@@ -1,0 +1,66 @@
+Murkrow (M) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Haze
+- Quash
+
+Palafin (F) @ Choice Band
+Ability: Zero to Hero
+Level: 50
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flip Turn
+- Iron Head
+- Drain Punch
+- Jet Punch
+
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Hurricane
+- Surf
+- Roost
+- Helping Hand
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 100 Def / 140 SpA / 4 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Helping Hand
+- Protect
+
+Amoonguss @ Wiki Berry
+Ability: Effect Spore
+Level: 50
+EVs: 252 HP / 164 Def / 92 SpD
+Calm Nature
+IVs: 0 Atk / 27 Spe
+- Spore
+- Rage Powder
+- Giga Drain
+- Protect
+
+Coalossal (M) @ Absorb Bulb
+Ability: Steam Engine
+Level: 50
+Tera Type: Grass
+EVs: 76 HP / 252 SpA / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Tera Blast
+- Earth Power
+- Protect

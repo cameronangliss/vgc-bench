@@ -1,0 +1,65 @@
+Ho-Oh @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 4 Atk / 204 Def / 20 SpD / 20 Spe
+Impish Nature
+- Protect
+- Life Dew
+- Whirlwind
+- Sacred Fire
+
+Overqwil @ Black Sludge
+Ability: Intimidate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 52 Def / 204 SpD
+Careful Nature
+- Protect
+- Barb Barrage
+- Throat Chop
+- Toxic Spikes
+
+Ting-Lu @ Choice Band
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 20 HP / 236 Atk / 124 Def / 124 SpD
+Adamant Nature
+- Earthquake
+- Throat Chop
+- Stomping Tantrum
+- Stone Edge
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 84 Def / 92 SpD
+Brave Nature
+- Ivy Cudgel
+- Horn Leech
+- Follow Me
+- Spiky Shield
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 116 Atk / 4 Def / 76 SpD / 60 Spe
+Adamant Nature
+- Wood Hammer
+- High Horsepower
+- U-turn
+- Fake Out
+
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 156 SpD
+Relaxed Nature
+- Protect
+- Leech Seed
+- Glacial Lance
+- Trick Room

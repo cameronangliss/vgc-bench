@@ -1,0 +1,67 @@
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 100 SpA / 212 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Steel Beam
+- Thunderbolt
+
+Ting-Lu @ Weakness Policy
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 164 Atk / 4 Def / 228 SpD / 108 Spe
+Adamant Nature
+- Earthquake
+- Heavy Slam
+- Rock Tomb
+- Protect
+
+Dragonite (M) @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 180 HP / 252 Atk / 4 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Outrage
+- Aqua Jet
+- Tera Blast
+- Extreme Speed
+
+Tauros-Paldea-Blaze @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 156 Atk / 4 Def / 44 SpD / 156 Spe
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Raging Bull
+- Protect
+
+Gyarados (M) @ Lum Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 228 HP / 12 Atk / 92 Def / 4 SpD / 172 Spe
+Careful Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 4 Atk / 68 Def / 180 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot

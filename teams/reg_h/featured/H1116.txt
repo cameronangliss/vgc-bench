@@ -1,0 +1,68 @@
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Atk / 124 Def / 92 SpA / 36 SpD
+Quiet Nature
+IVs: 0 Spe
+- Tera Blast
+- Ice Beam
+- Trick Room
+- Protect
+
+Ursaluna @ Choice Band
+Ability: Bulletproof
+Level: 50
+Tera Type: Fairy
+EVs: 140 HP / 252 Atk / 108 SpD / 4 Spe
+Adamant Nature
+- Earthquake
+- Headlong Rush
+- Avalanche
+- Double-Edge
+
+Torkoal @ Flame Plate
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Spe
+- Eruption
+- Flamethrower
+- Clear Smog
+- Protect
+
+Annihilape @ Focus Sash
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rage Fist
+- Close Combat
+- Coaching
+- Protect
+
+Dragonite @ Covert Cloak
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 140 Atk / 4 Def / 108 SpD / 4 Spe
+Adamant Nature
+- Ice Spinner
+- Extreme Speed
+- Low Kick
+- Protect
+
+Zoroark-Hisui @ Choice Specs
+Ability: Illusion
+Level: 50
+Tera Type: Normal
+EVs: 252 SpA / 252 Spe
+Timid Nature
+IVs: 10 Atk
+- Hyper Voice
+- Hyper Beam
+- Shadow Ball
+- Icy Wind

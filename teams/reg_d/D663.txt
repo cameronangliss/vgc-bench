@@ -1,0 +1,67 @@
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sacred Sword
+- Sucker Punch
+- Protect
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Poison
+EVs: 236 HP / 36 Def / 236 SpD
+Careful Nature
+- Fake Out
+- Wood Hammer
+- Knock Off
+- Drum Beating
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 20 Def / 52 SpA / 36 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Icy Wind
+- Tailwind
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 156 Def / 124 SpA / 4 SpD / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Substitute
+- Protect
+
+Arcanine-Hisui @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 164 HP / 76 Atk / 4 Def / 12 SpD / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Head Smash
+- Rock Blast
+- Extreme Speed
+
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 156 HP / 76 Atk / 12 Def / 164 SpD / 100 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Swords Dance
+- Detect

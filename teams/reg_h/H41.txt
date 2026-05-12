@@ -1,0 +1,67 @@
+Chesnaught @ Sitrus Berry
+Ability: Bulletproof
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 252 Atk / 12 Def
+Adamant Nature
+- Grassy Glide
+- Belly Drum
+- Drain Punch
+- Spiky Shield
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 116 Atk / 4 Def / 84 SpD / 76 Spe
+Adamant Nature
+- Grassy Glide
+- Fake Out
+- U-turn
+- Wood Hammer
+
+Palafin-Hero @ Choice Band
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Wave Crash
+- Jet Punch
+- Flip Turn
+- Close Combat
+
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 80 Atk / 108 Def / 148 SpD
+Careful Nature
+- Fake Out
+- Parting Shot
+- Knock Off
+- Flare Blitz
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 132 Def / 124 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Psychic
+- Trick Room
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Ghost
+EVs: 132 HP / 124 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Hyper Voice
+- Blood Moon
+- Earth Power
+- Protect

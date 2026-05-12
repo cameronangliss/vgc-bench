@@ -1,0 +1,67 @@
+Beartic @ Focus Sash
+Ability: Swift Swim
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Swords Dance
+- Liquidation
+- Aqua Jet
+- Icicle Crash
+
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+- Hurricane
+- U-turn
+- Surf
+- Wide Guard
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Flying
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Body Press
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+
+Incineroar @ Normal Gem
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Fake Out
+- Acrobatics
+- Flare Blitz
+- Knock Off
+
+Ludicolo @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Energy Ball
+- Giga Drain
+- Focus Blast
+
+Hatterene @ Leftovers
+Ability: Magic Bounce
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Atk / 252 SpD
+Sassy Nature
+- Heal Pulse
+- Draining Kiss
+- Nuzzle
+- Life Dew

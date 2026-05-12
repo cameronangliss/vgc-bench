@@ -1,0 +1,68 @@
+Torkoal (M) @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Electric
+EVs: 188 HP / 76 Def / 172 SpA / 68 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Protect
+- Tera Blast
+
+Lilligant @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Leaf Storm
+- After You
+- Sleep Powder
+- Protect
+
+Annihilape (F) @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Rage Fist
+- Final Gambit
+- Close Combat
+- U-turn
+
+Scizor (F) @ Choice Band
+Ability: Technician
+Level: 50
+Tera Type: Steel
+EVs: 156 HP / 252 Atk / 100 Spe
+Adamant Nature
+- Iron Head
+- U-turn
+- Bullet Punch
+- Close Combat
+
+Hatterene @ Life Orb
+Ability: Magic Bounce
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 12 Def / 244 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Protect
+- Trick Room
+- Psychic
+
+Tyranitar (F) @ Clear Amulet
+Ability: Sand Stream
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 180 Atk / 76 Def / 44 SpD / 44 Spe
+Adamant Nature
+- Rock Slide
+- Tera Blast
+- Protect
+- Crunch

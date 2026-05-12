@@ -1,0 +1,68 @@
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 84 HP / 252 Atk / 172 SpD
+Brave Nature
+IVs: 0 Spe
+- Throat Chop
+- Stomping Tantrum
+- Rock Slide
+- Heavy Slam
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 180 Def / 76 SpD
+Sassy Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Atk / 156 Def / 76 SpD / 28 Spe
+Impish Nature
+- Knock Off
+- Flare Blitz
+- Parting Shot
+- Fake Out
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 244 Def / 12 SpD
+Bold Nature
+IVs: 0 Atk / 26 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+- Detect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 20 HP / 108 Def / 124 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+- Moonblast

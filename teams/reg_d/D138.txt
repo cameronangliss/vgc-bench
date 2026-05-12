@@ -1,0 +1,68 @@
+Regieleki @ King's Rock
+Ability: Transistor
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 124 Def / 4 SpA / 36 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Electroweb
+- Zap Cannon
+- Protect
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 220 Atk / 4 Def / 44 SpD / 180 Spe
+Adamant Nature
+- Detect
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+
+Articuno @ Bright Powder
+Ability: Snow Cloak
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 68 Def / 116 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Roost
+- Blizzard
+- Freeze-Dry
+- Tera Blast
+
+Abomasnow @ Rocky Helmet
+Ability: Snow Warning
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 Def / 252 SpA
+Bold Nature
+IVs: 0 Atk
+- Blizzard
+- Aurora Veil
+- Earth Power
+- Protect
+
+Dragonite @ Silk Scarf
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 204 Atk / 108 Spe
+Adamant Nature
+- Extreme Speed
+- Rock Slide
+- Aerial Ace
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 84 HP / 252 Atk / 4 Def / 4 SpD / 164 Spe
+Jolly Nature
+- Icicle Crash
+- Sacred Sword
+- Sucker Punch
+- Protect

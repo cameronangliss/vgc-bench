@@ -1,0 +1,70 @@
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Def / 36 SpA / 44 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Bleakwind Storm
+- Taunt
+- Protect
+
+Moltres-Galar @ Weakness Policy
+Ability: Berserk
+Level: 50
+Tera Type: Poison
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Nasty Plot
+- Fiery Wrath
+- Air Slash
+- Protect
+
+Heatran @ Charcoal
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 4 Def / 252 SpA / 4 SpD / 92 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Protect
+- Earth Power
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Aqua Jet
+- Close Combat
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk / 5 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Flutter Mane @ Pixie Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 116 Def / 116 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Shadow Ball
+- Thunderbolt
+- Dazzling Gleam
+- Protect

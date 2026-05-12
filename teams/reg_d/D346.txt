@@ -1,0 +1,68 @@
+Grimmsnarl @ Roseli Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Sucker Punch
+- Misty Terrain
+- Parting Shot
+- Fake Out
+
+Sylveon @ Choice Specs
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 172 Def / 76 SpA / 4 SpD / 12 Spe
+Modest Nature
+- Hyper Voice
+- Tera Blast
+- Quick Attack
+- Hyper Beam
+
+Zapdos @ Covert Cloak
+Ability: Static
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Tailwind
+- Hurricane
+- Roost
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 180 SpA / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Earth Power
+- Protect
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+- U-turn
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 164 HP / 68 Def / 196 SpA / 4 SpD / 76 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Fake Tears
+- Protect

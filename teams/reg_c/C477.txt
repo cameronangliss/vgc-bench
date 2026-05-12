@@ -1,0 +1,67 @@
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 4 Def / 196 SpA / 4 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Tera Blast
+- Thunder
+- Protect
+
+Palafin @ Assault Vest
+Ability: Zero to Hero
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 236 Atk / 4 Def / 20 SpD / 12 Spe
+Adamant Nature
+- Wave Crash
+- Jet Punch
+- Drain Punch
+- Tera Blast
+
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Hurricane
+- Surf
+- Helping Hand
+- Wide Guard
+
+Chien-Pao @ Life Orb
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Sucker Punch
+- Ice Spinner
+- Sacred Sword
+- Protect
+
+Dragonite @ Sharp Beak
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 4 Def / 252 SpA / 4 SpD / 36 Spe
+Modest Nature
+- Hurricane
+- Thunder
+- Extreme Speed
+- Protect
+
+Scizor @ Expert Belt
+Ability: Technician
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 20 Atk / 228 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Bullet Punch
+- Aerial Ace
+- Feint
+- Quick Guard

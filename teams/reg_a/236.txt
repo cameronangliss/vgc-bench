@@ -1,0 +1,67 @@
+Armarouge @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 252 SpA / 12 SpD
+Modest Nature
+IVs: 0 Atk / 12 Spe
+- Armor Cannon
+- Psychic
+- Trick Room
+- Wide Guard
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 124 Def / 132 SpD
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Haze
+- Quash
+
+Sylveon @ Choice Specs
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 76 Def / 180 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Psyshock
+- Hyper Beam
+
+Tauros-Paldea-Aqua @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Wave Crash
+- Close Combat
+- Aqua Jet
+- Protect
+
+Gengar @ Focus Sash
+Ability: Cursed Body
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Shadow Ball
+- Icy Wind
+- Trick Room
+
+Kingambit @ Lum Berry
+Ability: Defiant
+Level: 50
+EVs: 252 HP / 164 Atk / 92 SpD
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Swords Dance

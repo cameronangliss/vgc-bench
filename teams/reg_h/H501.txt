@@ -1,0 +1,69 @@
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sunny Day
+- Encore
+- Tailwind
+- Moonblast
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Stomping Tantrum
+- Dragon Claw
+- Earthquake
+- Protect
+
+Hydreigon @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Snarl
+- Dark Pulse
+- Draco Meteor
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Shadow Ball
+- Nasty Plot
+- Protect
+- Make It Rain
+
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Rage Fist
+- Protect
+- Bulk Up
+- Drain Punch
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 132 Def / 4 SpA / 68 SpD / 52 Spe
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Follow Me
+- Misty Terrain
+- Moonblast

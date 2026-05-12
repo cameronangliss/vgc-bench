@@ -1,0 +1,71 @@
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fairy
+EVs: 180 HP / 4 Def / 212 SpA / 4 SpD / 108 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Dazzling Gleam
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Crunch
+- Sucker Punch
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Water
+EVs: 12 HP / 244 Def / 252 Spe
+Impish Nature
+- Body Press
+- Heavy Slam
+- Wide Guard
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 228 HP / 4 Def / 36 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Flamethrower
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Bug
+EVs: 92 HP / 244 Atk / 44 Def / 124 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Low Kick
+- Wild Charge
+- Fake Out
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 228 HP / 164 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Foul Play
+- Trick Room
+- Helping Hand

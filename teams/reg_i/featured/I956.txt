@@ -1,0 +1,67 @@
+Miraidon @ Choice Scarf
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 100 HP / 4 Def / 252 SpA / 4 SpD / 148 Spe
+Modest Nature
+- Electro Drift
+- Volt Switch
+- Draco Meteor
+- Snarl
+
+Calyrex-Ice @ Choice Band
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Glacial Lance
+- Icicle Crash
+- High Horsepower
+- Close Combat
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 236 Def / 4 SpA / 68 SpD / 36 Spe
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Helping Hand
+- Imprison
+- Trick Room
+
+Grimmsnarl @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 108 Def / 116 SpD / 28 Spe
+Careful Nature
+- Fake Out
+- Foul Play
+- Light Screen
+- Scary Face
+
+Landorus @ Focus Sash
+Ability: Sheer Force
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Earth Power
+- Sludge Bomb
+- Taunt
+- Protect
+
+Sneasler @ Electric Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 228 HP / 156 Atk / 4 Def / 4 SpD / 116 Spe
+Adamant Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Throat Chop

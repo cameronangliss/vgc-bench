@@ -1,0 +1,68 @@
+Dragonite (F) @ Assault Vest
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Extreme Speed
+- Stomping Tantrum
+- Ice Spinner
+- Brick Break
+
+Meowscarada (F) @ Life Orb
+Ability: Overgrow
+Level: 50
+Tera Type: Ghost
+EVs: 228 Atk / 28 Def / 252 Spe
+Jolly Nature
+- Protect
+- Flower Trick
+- Knock Off
+- Sucker Punch
+
+Tatsugiri-Stretchy (F) @ Focus Sash
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 116 HP / 156 Atk / 236 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Earthquake
+- Substitute
+
+Sylveon (F) @ Babiri Berry
+Ability: Pixilate
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 252 Def / 84 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Detect
+- Hyper Voice
+- Tera Blast
+- Helping Hand
+
+Arcanine (M) @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 236 Atk / 76 Def
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Crunch
+- Wild Charge

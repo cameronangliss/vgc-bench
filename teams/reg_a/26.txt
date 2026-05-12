@@ -1,0 +1,68 @@
+Murkrow (M) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 116 Def / 140 SpD
+Calm Nature
+IVs: 0 Atk
+- Tailwind
+- Foul Play
+- Haze
+- Taunt
+
+Rotom-Wash @ Choice Specs
+Ability: Levitate
+Level: 50
+EVs: 252 HP / 4 Def / 196 SpA / 4 SpD / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Volt Switch
+- Hydro Pump
+- Discharge
+
+Gardevoir (M) @ Focus Sash
+Ability: Telepathy
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Imprison
+- Trick Room
+- Dazzling Gleam
+- Psychic
+
+Glimmora (M) @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 4 Def / 236 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Power Gem
+- Sludge Bomb
+- Energy Ball
+- Earth Power
+
+Gyarados (M) @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Ground
+EVs: 84 HP / 220 Atk / 4 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Earthquake
+- Waterfall
+- Dragon Dance
+- Protect
+
+Garchomp (F) @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 44 HP / 204 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Protect

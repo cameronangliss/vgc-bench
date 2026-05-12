@@ -1,0 +1,68 @@
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 12 Def / 4 SpA / 204 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Tailwind
+- Fake Tears
+- Encore
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 28 HP / 4 Def / 212 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Pollen Puff
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 180 HP / 4 Atk / 156 Def / 4 SpD / 164 Spe
+Impish Nature
+- Heavy Slam
+- Body Press
+- Protect
+- Wide Guard
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Naive Nature
+- Ice Spinner
+- Ruination
+- Sucker Punch
+- Protect
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 92 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Ivy Cudgel
+- Wood Hammer
+- Spiky Shield
+- Follow Me
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 196 HP / 252 SpA / 60 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Thunderclap
+- Draco Meteor
+- Protect

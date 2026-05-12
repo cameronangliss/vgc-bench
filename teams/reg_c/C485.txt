@@ -1,0 +1,67 @@
+Iron Hands @ Rocky Helmet
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 4 Def / 244 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Fire Punch
+- Fake Out
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Moonblast
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 92 HP / 4 Def / 252 SpA / 124 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Hydro Pump
+- Freeze-Dry
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Tera Blast
+- Low Kick
+- Aerial Ace
+- Extreme Speed
+
+Abomasnow @ Assault Vest
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 212 HP / 4 Atk / 36 Def / 252 SpA / 4 SpD
+Quiet Nature
+- Blizzard
+- Energy Ball
+- Earth Power
+- Ice Shard
+
+Ting-Lu @ Lum Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 252 Atk / 132 SpD
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Tera Blast
+- Taunt

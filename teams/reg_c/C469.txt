@@ -1,0 +1,68 @@
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 92 HP / 164 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Freeze-Dry
+- Encore
+- Protect
+
+Chi-Yu @ Assault Vest
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 196 HP / 4 Def / 116 SpA / 12 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Flamethrower
+- Dark Pulse
+- Tera Blast
+- Snarl
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 44 HP / 148 Def / 92 SpA / 4 SpD / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Draco Meteor
+- Sleep Talk
+- Dragon Pulse
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 124 HP / 92 Atk / 4 Def / 124 SpD / 164 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Yawn
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Power Gem
+- Mortal Spin
+- Earth Power
+- Spiky Shield
+
+Scizor @ Choice Band
+Ability: Technician
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 236 Atk / 20 Def
+Adamant Nature
+- Bullet Punch
+- U-turn
+- Close Combat
+- Aerial Ace

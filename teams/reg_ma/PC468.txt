@@ -1,0 +1,59 @@
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Wide Guard
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 8 HP / 32 Def / 14 SpA / 12 Spe
+Modest Nature
+- Light of Ruin
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Chandelure @ Chandelurite
+Ability: Flash Fire
+Level: 50
+EVs: 24 HP / 16 Def / 18 SpA / 1 SpD / 7 Spe
+Modest Nature
+- Shadow Ball
+- Heat Wave
+- Trick Room
+- Protect
+
+Tsareena (F) @ Choice Scarf
+Ability: Queenly Majesty
+Level: 50
+EVs: 4 HP / 10 Atk / 20 Def / 1 SpD / 31 Spe
+Jolly Nature
+- Power Whip
+- High Jump Kick
+- Triple Axel
+- U-turn
+
+Basculegion (M) @ Colbur Berry
+Ability: Adaptability
+Level: 50
+EVs: 14 HP / 16 Atk / 1 Def / 15 SpD / 20 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Protect
+- Last Respects
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 4 HP / 32 Def / 30 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Rock Tomb
+- Fake Out

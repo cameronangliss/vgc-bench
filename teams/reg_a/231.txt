@@ -1,0 +1,66 @@
+Veluza @ Sitrus Berry
+EVs: 228 HP / 36 Def / 104 SpD / 140 Spe
+Ability: Sharpness
+Level: 50
+Adamant Nature
+- Fillet Away
+- Aqua Cutter
+- Psycho Cut
+- Protect
+
+Oranguru @ Colbur Berry
+IVs: 0 Atk / 0 Spe
+EVs: 252 HP / 252 Def / 4 SpD
+Ability: Symbiosis
+Level: 50
+Tera Type: Dark
+Sassy Nature
+- Trick Room
+- Instruct
+- Protect
+- Psychic
+
+Amoonguss @ Occa Berry
+IVs: 0 Spe
+EVs: 244 HP / 188 Def / 76 SpD
+Ability: Regenerator
+Level: 50
+Tera Type: Steel
+Sassy Nature
+- Rage Powder
+- Spore
+- Clear Smog
+- Protect
+
+Hariyama @ Flame Orb
+IVs: 0 Spe
+EVs: 252 Atk / 124 Def / 132 SpD
+Ability: Guts
+Level: 50
+Tera Type: Steel
+Brave Nature
+- Fake Out
+- Close Combat
+- Headlong Rush
+- Wide Guard
+
+Torkoal @ Safety Goggles
+IVs: 0 Spe
+EVs: 164 HP / 252 SpA / 92 SpD
+Ability: Drought
+Level: 50
+Quiet Nature
+- Eruption
+- Heat Wave
+- Earth Power
+- Protect
+
+Lilligant @ Focus Sash
+EVs: 4 HP / 252 SpA / 252 Spe
+Ability: Chlorophyll
+Level: 50
+Timid Nature
+- Leaf Storm
+- After You
+- Sleep Powder
+- Protect

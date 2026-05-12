@@ -1,0 +1,70 @@
+Incineroar @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Knock Off
+- Snarl
+- Fake Out
+- Parting Shot
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 196 Def / 76 SpD
+Calm Nature
+IVs: 0 Atk / 26 Spe
+- Pollen Puff
+- Rage Powder
+- Spore
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Substitute
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 36 Def / 92 SpA / 132 SpD
+Quiet Nature
+IVs: 24 Spe
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 108 HP / 12 Def / 212 SpA / 4 SpD / 172 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Nasty Plot
+- Make It Rain
+- Shadow Ball
+
+Primarina @ Mystic Water
+Ability: Liquid Voice
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 4 Def / 188 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Haze
+- Protect

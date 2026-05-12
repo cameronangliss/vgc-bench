@@ -1,0 +1,74 @@
+Vivillon (F) @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sleep Powder
+- Tailwind
+- Protect
+- Hurricane
+
+Gliscor (M) @ Choice Band
+Ability: Hyper Cutter
+Level: 50
+Shiny: Yes
+Tera Type: Ice
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Tera Blast
+- Dual Wingbeat
+- U-turn
+
+Archaludon (M) @ Power Herb
+Ability: Stalwart
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 96 HP / 4 Def / 116 SpA / 40 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Electro Shot
+- Dragon Pulse
+- Protect
+- Thunderbolt
+
+Kingambit (M) @ Assault Vest
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 204 HP / 212 Atk / 4 Def / 52 SpD / 36 Spe
+Adamant Nature
+- Assurance
+- Iron Head
+- Low Kick
+- Sucker Punch
+
+Incineroar (M) @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 236 HP / 28 Atk / 44 Def / 116 SpD / 84 Spe
+Impish Nature
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Ninetales-Alola (F) @ Covert Cloak
+Ability: Snow Warning
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Aurora Veil
+- Protect

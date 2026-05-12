@@ -1,0 +1,68 @@
+Scizor @ Metal Coat
+Ability: Technician
+Level: 50
+Tera Type: Steel
+EVs: 212 Atk / 100 SpD / 196 Spe
+Adamant Nature
+- Bullet Punch
+- U-turn
+- Swords Dance
+- Protect
+
+Armarouge @ Life Orb
+Ability: Flash Fire
+Level: 50
+Tera Type: Psychic
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Psychic
+- Armor Cannon
+- Trick Room
+- Protect
+
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 16 Def / 96 SpA / 160 SpD
+Calm Nature
+IVs: 0 Atk
+- Dark Pulse
+- Flash Cannon
+- Flamethrower
+- Draco Meteor
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+EVs: 248 HP / 116 Atk / 136 SpD / 8 Spe
+Careful Nature
+- Population Bomb
+- Follow Me
+- Protect
+- Helping Hand
+
+Sylveon @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 60 HP / 196 SpA / 252 SpD
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Tera Blast
+- Yawn
+- Protect
+
+Rotom-Mow @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 100 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Volt Switch
+- Leaf Storm
+- Protect

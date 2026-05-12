@@ -35,7 +35,7 @@ def train(
     team1: str | None,
     team2: str | None,
     results_suffix: str,
-    total_timesteps: int | None = None,
+    total_steps: int,
     evaluate: bool = True,
 ):
     """
@@ -61,10 +61,20 @@ def train(
         team1: Optional team string for matchup solving (requires team2).
         team2: Optional team string for matchup solving (requires team1).
         results_suffix: Suffix appended to results<run_id> for output paths.
-        total_timesteps: Total training timesteps. Defaults to 1000 * save_interval.
+        total_steps: Total training timesteps. Defaults to 1000 * save_interval.
         evaluate: Whether to run evaluations and save checkpoints.
     """
-    save_interval = 98_304
+    save_interval = 983_040
+    suffix = f"_{results_suffix}" if results_suffix else ""
+    output_dir = Path(f"results{suffix}")
+    output_dir.mkdir(exist_ok=True)
+    team_paths = None
+    if team1 and team2:
+        team1_path = output_dir / "team1.txt"
+        team2_path = output_dir / "team2.txt"
+        team1_path.write_text(team1[1:])
+        team2_path.write_text(team2[1:])
+        team_paths = [team1_path, team2_path]
     env = (
         ShowdownEnv.create_env(
             reg,
@@ -76,8 +86,7 @@ def train(
             learning_style,
             allow_mirror_match,
             choose_on_teampreview,
-            team1,
-            team2,
+            team_paths,
         )
         if learning_style == LearningStyle.PURE_SELF_PLAY
         else SubprocVecEnv(
@@ -85,46 +94,35 @@ def train(
                 lambda: ShowdownEnv.create_env(
                     reg,
                     run_id,
-                    1 if learning_style == LearningStyle.EXPLOITER else num_teams,
+                    num_teams,
                     num_envs,
                     log_level,
                     port,
                     learning_style,
                     allow_mirror_match,
                     choose_on_teampreview,
-                    team1,
-                    team2,
+                    team_paths,
                 )
                 for _ in range(num_envs)
             ]
         )
     )
-    method = "".join(
-        [
-            "-bc" if behavior_clone else "",
-            "-" + learning_style.abbrev,
-            "-xm" if not allow_mirror_match else "",
-            "-xt" if not choose_on_teampreview else "",
-        ]
-    )[1:]
-    suffix = f"-{results_suffix}" if results_suffix else ""
-    output_dir = Path(f"results{suffix}")
-    output_dir.mkdir(exist_ok=True)
-    if team1 and team2:
-        (output_dir / "team1.txt").write_text(team1[1:])
-        (output_dir / "team2.txt").write_text(team2[1:])
-    method_dir = output_dir / f"saves-{method}"
-    if reg is not None and num_teams is not None:
-        method_dir = method_dir / f"reg{reg}-{num_teams}-teams"
-    elif reg is not None:
-        method_dir = method_dir / f"reg{reg}"
-    elif num_teams is not None:
-        method_dir = method_dir / f"{num_teams}-teams"
+    method_tags = [
+        "bc" if behavior_clone else None,
+        learning_style.abbrev,
+        "xm" if not allow_mirror_match else None,
+        "xt" if not choose_on_teampreview else None,
+    ]
+    method = "_".join([p for p in method_tags if p is not None])
+    method_dir = output_dir / f"saves_{method}"
+    method_dir = method_dir / (f"reg_{reg}" if reg is not None else "reg_all")
+    if num_teams is not None:
+        method_dir = method_dir / f"{num_teams}_teams"
     save_dir = method_dir / f"seed{run_id}"
     ppo = PPO(
         MaskedActorCriticPolicy,
         env,
-        learning_rate=lambda p: 1e-5 * 0.1 ** (1 - p),
+        learning_rate=1e-5,
         n_steps=(
             3072 // (2 * num_envs)
             if learning_style == LearningStyle.PURE_SELF_PLAY
@@ -132,8 +130,8 @@ def train(
         ),
         batch_size=512,
         gamma=1,
-        ent_coef=0.02,
-        tensorboard_log=str(output_dir / f"logs-{method}"),
+        # ent_coef is set in callback.py based on training progress
+        tensorboard_log=str(output_dir / f"logs_{method}"),
         policy_kwargs={"d_model": 256, "choose_on_teampreview": choose_on_teampreview},
         device=device,
     )
@@ -150,11 +148,8 @@ def train(
             if num_saved_timesteps < save_interval:
                 num_saved_timesteps = 0
             ppo.num_timesteps = num_saved_timesteps
-    effective_total = (
-        total_timesteps if total_timesteps is not None else 1000 * save_interval
-    )
     ppo.learn(
-        effective_total - num_saved_timesteps,
+        total_steps - num_saved_timesteps,
         callback=Callback(
             run_id,
             num_teams,
@@ -167,12 +162,12 @@ def train(
             allow_mirror_match,
             choose_on_teampreview,
             save_interval,
-            team1,
-            team2,
+            team_paths,
             results_suffix,
+            total_steps,
             evaluate,
         ),
-        tb_log_name=str(save_dir.relative_to(output_dir / f"saves-{method}")),
+        tb_log_name=str(save_dir.relative_to(output_dir / f"saves_{method}")),
         reset_num_timesteps=False,
     )
     env.close()
@@ -239,6 +234,11 @@ if __name__ == "__main__":
         help="VGC regulation to train on (e.g. G). Omit to train on all regulations",
     )
     parser.add_argument(
+        "--champions",
+        action="store_true",
+        help="train on Champions VGC (currently Reg M-A)",
+    )
+    parser.add_argument(
         "--run_id", type=int, default=1, help="run ID for the training session"
     )
     parser.add_argument(
@@ -275,14 +275,13 @@ if __name__ == "__main__":
         "--device", type=str, default="cuda:0", help="device to use for training"
     )
     parser.add_argument(
-        "--total_timesteps",
-        type=int,
-        default=None,
-        help="total training timesteps (default: 1000 * save_interval)",
+        "--total_steps", type=int, required=True, help="total training timesteps"
     )
     args = parser.parse_args()
     set_global_seed(args.run_id)
     reg = args.reg.lower() if args.reg is not None else None
+    if args.champions and reg is None:
+        reg = "ma"
     assert (
         int(args.exploiter)
         + int(args.self_play)
@@ -300,11 +299,6 @@ if __name__ == "__main__":
         style = LearningStyle.DOUBLE_ORACLE
     else:
         raise TypeError()
-    if style == LearningStyle.EXPLOITER:
-        assert not args.no_mirror_match, (
-            "--no_mirror_match is incompatible with --exploiter (exploiter uses a"
-            " single team)"
-        )
     assert (args.team1 == "") == (args.team2 == ""), (
         "must provide both or neither of --team1 and --team2"
     )
@@ -328,5 +322,5 @@ if __name__ == "__main__":
         args.team1 or None,
         args.team2 or None,
         args.results_suffix,
-        args.total_timesteps,
+        args.total_steps,
     )

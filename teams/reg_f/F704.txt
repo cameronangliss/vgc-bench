@@ -1,0 +1,68 @@
+Iron Crown @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Psychic
+EVs: 172 HP / 4 Def / 100 SpA / 4 SpD / 228 Spe
+Timid Nature
+IVs: 20 Atk
+- Tachyon Cutter
+- Expanding Force
+- Protect
+- Calm Mind
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Helping Hand
+- Follow Me
+- Trick Room
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+- Fake Out
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 204 Def / 44 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 204 Def / 28 SpD / 20 Spe
+Impish Nature
+- Ivy Cudgel
+- Horn Leech
+- Spiky Shield
+- Follow Me
+
+Okidogi @ Assault Vest
+Ability: Guard Dog
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 172 Atk / 4 Def / 28 SpD / 60 Spe
+Adamant Nature
+- Poison Jab
+- Drain Punch
+- High Horsepower
+- Knock Off

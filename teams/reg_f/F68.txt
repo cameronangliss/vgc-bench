@@ -1,0 +1,70 @@
+Latios (M) @ Choice Specs
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Stellar
+EVs: 6 HP / 252 SpA / 252 Spe
+Timid Nature
+- Draco Meteor
+- Luster Purge
+- Aura Sphere
+- Shadow Ball
+
+Cobalion @ Assault Vest
+Ability: Justified
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 3 Atk / 252 Def / 3 SpA
+Impish Nature
+- Body Press
+- Heavy Slam
+- Volt Switch
+- Upper Hand
+
+Incineroar (M) @ Ability Shield
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 6 Def / 252 SpD
+Careful Nature
+- Knock Off
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Weezing-Galar (F) @ Choice Band
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Ground
+EVs: 244 HP / 252 Atk / 4 Def / 6 SpD / 4 Spe
+Adamant Nature
+IVs: 29 SpA
+- Gunk Shot
+- Play Rough
+- Tera Blast
+- Assurance
+
+Grimmsnarl (M) @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 6 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 12 SpA
+- Fake Out
+- Fake Tears
+- Spirit Break
+- Thunder Wave
+
+Landorus (M) @ Choice Scarf
+Ability: Sheer Force
+Level: 50
+Tera Type: Steel
+EVs: 6 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 23 Atk
+- Sandsear Storm
+- Earth Power
+- Sludge Bomb
+- Fissure

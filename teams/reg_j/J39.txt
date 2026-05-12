@@ -1,0 +1,67 @@
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 140 HP / 212 Atk / 20 Def / 12 SpD / 124 Spe
+Jolly Nature
+- Protect
+- Flare Blitz
+- Collision Course
+- Flame Charge
+
+Volcanion @ Assault Vest
+Ability: Water Absorb
+Level: 50
+Tera Type: Ice
+EVs: 252 HP / 164 SpA / 92 SpD
+Modest Nature
+- Steam Eruption
+- Heat Wave
+- Tera Blast
+- Earth Power
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Steel
+EVs: 148 HP / 12 Def / 68 SpA / 28 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Earth Power
+- Sludge Bomb
+- Substitute
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 132 Def / 76 SpD / 44 Spe
+Careful Nature
+- Fake Out
+- Knock Off
+- Helping Hand
+- Parting Shot
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Icy Wind
+- Protect
+
+Brute Bonnet @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 148 HP / 4 Atk / 252 Def / 12 SpD / 92 Spe
+Impish Nature
+- Sucker Punch
+- Spore
+- Rage Powder
+- Seed Bomb

@@ -1,0 +1,68 @@
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Sneasler @ Grassy Seed
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 132 HP / 156 Atk / 44 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Close Combat
+- Swords Dance
+- Acrobatics
+- Protect
+
+Incineroar @ Clear Amulet
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 36 Atk / 4 Def / 100 SpD / 116 Spe
+Adamant Nature
+- Parting Shot
+- Flare Blitz
+- Knock Off
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 4 Def / 140 SpD / 76 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Ursaluna-Bloodmoon @ Leftovers
+Ability: Mind's Eye
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 20 Def / 36 SpA / 196 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Earth Power
+- Yawn
+- Protect
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Icy Wind
+- Aurora Veil
+- Protect

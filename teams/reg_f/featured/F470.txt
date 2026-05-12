@@ -1,0 +1,68 @@
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 44 HP / 196 Atk / 4 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Spiky Shield
+- Swords Dance
+- Horn Leech
+- Ivy Cudgel
+
+Glimmora @ Power Herb
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 4 Def / 4 SpA / 36 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Spiky Shield
+- Meteor Beam
+- Sludge Bomb
+- Earth Power
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 68 Def / 100 SpA / 52 SpD / 44 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Snarl
+- Thunderclap
+- Draco Meteor
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Follow Me
+- Population Bomb
+- Substitute
+
+Urshifu @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Detect
+- Wicked Blow
+- Sucker Punch
+- Close Combat
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 204 Def / 4 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Protect
+- Sunny Day

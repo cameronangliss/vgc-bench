@@ -1,0 +1,74 @@
+Golduck (F) @ Life Orb
+Ability: Swift Swim
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Soak
+- Ice Beam
+- Protect
+
+Dragonite (F) @ Lum Berry
+Ability: Inner Focus
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Iron Head
+- Extreme Speed
+- Aqua Jet
+- Protect
+
+Pelipper (F) @ Focus Sash
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Hurricane
+- Tailwind
+- Protect
+
+Grafaiai (F) @ Covert Cloak
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 252 HP / 4 Def / 252 Spe
+Bold Nature
+IVs: 0 Atk
+- Acid Spray
+- Taunt
+- Protect
+- Rain Dance
+
+Dondozo (F) @ Leftovers
+Ability: Oblivious
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 4 HP / 220 Atk / 4 Def / 28 SpD / 252 Spe
+Jolly Nature
+- Order Up
+- Protect
+- Substitute
+- Earthquake
+
+Tatsugiri (F) @ Choice Specs
+Ability: Commander
+Level: 50
+Shiny: Yes
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Muddy Water
+- Draco Meteor
+- Dragon Pulse

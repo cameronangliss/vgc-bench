@@ -1,0 +1,68 @@
+Garchomp (M) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 156 Atk / 44 Def / 20 SpD / 92 Spe
+Adamant Nature
+- Protect
+- Swords Dance
+- Earthquake
+- Rock Slide
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Def / 132 SpA / 20 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 4 Atk / 108 Def / 148 SpD / 12 Spe
+Careful Nature
+- Spirit Break
+- Taunt
+- Reflect
+- Light Screen
+
+Rotom-Heat @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 244 HP / 68 Def / 44 SpA / 76 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Nasty Plot
+- Thunderbolt
+- Overheat
+
+Gyarados (M) @ Lum Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 180 HP / 116 Atk / 20 Def / 44 SpD / 148 Spe
+Adamant Nature
+- Protect
+- Dragon Dance
+- Waterfall
+- Tera Blast
+
+Amoonguss (M) @ Occa Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 236 HP / 116 Def / 156 SpD
+Calm Nature
+IVs: 0 Atk
+- Rage Powder
+- Spore
+- Pollen Puff
+- Clear Smog

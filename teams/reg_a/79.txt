@@ -1,0 +1,68 @@
+Grimmsnarl @ Lagging Tail
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 124 HP / 4 Atk / 252 Def / 124 SpD / 4 Spe
+Impish Nature
+- Trick
+- Reflect
+- Light Screen
+- Spirit Break
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Tailwind
+- Foul Play
+- Taunt
+- Haze
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Dazzling Gleam
+- Shadow Ball
+- Focus Blast
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+EVs: 236 HP / 20 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Final Gambit
+- Shadow Claw
+- Ice Punch
+
+Rotom-Heat @ Aguav Berry
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Overheat
+- Will-O-Wisp
+- Thunderbolt
+- Shadow Ball
+
+Hydreigon @ Haban Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Draco Meteor
+- Heat Wave
+- Tera Blast

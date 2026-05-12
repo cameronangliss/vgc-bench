@@ -1,0 +1,68 @@
+Masquerain @ Focus Sash
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Air Slash
+- Icy Wind
+- Sticky Web
+- Protect
+
+Ting-Lu @ Sitrus Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Atk / 36 Def / 156 SpD / 60 Spe
+Impish Nature
+- Bulldoze
+- Heavy Slam
+- Ruination
+- Stealth Rock
+
+Dondozo @ Life Orb
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Rock Slide
+- Tera Blast
+
+Tatsugiri-Stretchy @ Choice Specs
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dragon Pulse
+- Hydro Pump
+- Muddy Water
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 220 Def / 76 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 108 SpA / 148 Spe
+Modest Nature
+- Power Gem
+- Earth Power
+- Energy Ball
+- Mortal Spin

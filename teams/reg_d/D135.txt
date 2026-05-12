@@ -1,0 +1,68 @@
+Arcanine-Hisui @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 204 Atk / 12 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Rock Slide
+- Wild Charge
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 132 HP / 252 Def / 68 SpA / 20 SpD / 36 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sacred Sword
+- Sucker Punch
+
+Thundurus (M) @ Wide Lens
+Ability: Prankster
+Level: 50
+Tera Type: Electric
+EVs: 244 HP / 212 Def / 4 SpA / 4 SpD / 44 Spe
+Bold Nature
+IVs: 0 Atk
+- Wildbolt Storm
+- Taunt
+- Thunder Wave
+- Sunny Day
+
+Dragonite @ Choice Band
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 180 HP / 252 Atk / 4 Def / 4 SpD / 68 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Aerial Ace
+- Stomping Tantrum
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 244 Def / 12 SpD
+Bold Nature
+IVs: 0 Atk
+- Protect
+- Rage Powder
+- Spore
+- Pollen Puff

@@ -1,0 +1,68 @@
+Iron Bundle @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Steel
+EVs: 60 HP / 4 Def / 204 SpA / 84 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Tera Blast
+- Protect
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Tera Blast
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 116 HP / 236 SpA / 156 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Shadow Ball
+- Substitute
+- Protect
+
+Ting-Lu @ Rocky Helmet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 76 Atk / 28 Def / 100 SpD / 60 Spe
+Adamant Nature
+- Ruination
+- Heavy Slam
+- Stomping Tantrum
+- Taunt
+
+Dragonite @ Safety Goggles
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 4 Atk / 4 Def / 252 SpA / 4 SpD
+Quiet Nature
+- Air Slash
+- Iron Head
+- Extreme Speed
+- Icy Wind
+
+Dondozo @ Sitrus Berry
+Ability: Oblivious
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 108 Atk / 4 Def / 236 SpD / 12 Spe
+Adamant Nature
+- Wave Crash
+- Body Press
+- Yawn
+- Protect

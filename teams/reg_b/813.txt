@@ -1,0 +1,69 @@
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 124 HP / 252 Atk / 44 Def / 60 SpD / 28 Spe
+Adamant Nature
+- Tailwind
+- Brave Bird
+- Quick Guard
+- Will-O-Wisp
+
+Great Tusk @ Choice Band
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 132 HP / 164 Atk / 52 Def / 60 SpD / 100 Spe
+Adamant Nature
+- Headlong Rush
+- Tera Blast
+- Ice Spinner
+- Close Combat
+
+Iron Bundle @ Choice Scarf
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ice
+EVs: 132 HP / 76 Def / 252 SpA / 4 SpD / 44 Spe
+Modest Nature
+- Icy Wind
+- U-turn
+- Freeze-Dry
+- Hydro Pump
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 92 HP / 172 Atk / 36 Def / 204 SpD / 4 Spe
+Adamant Nature
+- Wild Charge
+- Drain Punch
+- Fake Out
+- Volt Switch
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 60 Def / 196 SpD
+Careful Nature
+- Salt Cure
+- Protect
+- Recover
+- Wide Guard
+
+Amoonguss @ Black Sludge
+Ability: Regenerator
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Spore
+- Protect
+- Clear Smog

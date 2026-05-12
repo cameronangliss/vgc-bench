@@ -1,0 +1,69 @@
+Gyarados @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 60 HP / 252 Atk / 196 Spe
+Jolly Nature
+IVs: 0 SpA
+- Waterfall
+- Thunder Wave
+- Surf
+- Iron Head
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Clear Smog
+- Rage Powder
+- Spore
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Thunderbolt
+- Moonblast
+- Shadow Ball
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Overheat
+- Heat Wave
+- Dark Pulse
+- Protect
+
+Ting-Lu @ Weakness Policy
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Throat Chop
+- Protect
+
+Iron Hands @ Safety Goggles
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpD
+Adamant Nature
+- Drain Punch
+- Thunder Punch
+- Swords Dance
+- Protect

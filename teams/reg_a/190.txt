@@ -1,0 +1,69 @@
+Murkrow (F) @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 116 Def / 140 SpD
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Taunt
+- Haze
+
+Hydreigon (F) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Draco Meteor
+- Flash Cannon
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+EVs: 108 HP / 100 Def / 132 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 244 HP / 196 SpA / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Protect
+
+Meowscarada (F) @ Focus Sash
+Ability: Overgrow
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Protect
+- Knock Off
+- Flower Trick
+
+Ceruledge (F) @ Clear Amulet
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 116 Atk / 60 Def / 12 SpD / 68 Spe
+Adamant Nature
+- Bulk Up
+- Protect
+- Bitter Blade
+- Shadow Sneak

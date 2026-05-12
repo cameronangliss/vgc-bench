@@ -1,0 +1,68 @@
+Miraidon @ Assault Vest
+Ability: Hadron Engine
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 52 Def / 196 SpA / 36 SpD / 116 Spe
+Modest Nature
+- Volt Switch
+- Overheat
+- Draco Meteor
+- Electro Drift
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 92 HP / 4 Atk / 236 Def / 12 SpD / 164 Spe
+Impish Nature
+- Protect
+- Wide Guard
+- Heavy Slam
+- Body Press
+
+Farigiraf (F) @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 84 Def / 236 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Helping Hand
+- Trick Room
+- Roar
+- Foul Play
+
+Torkoal (F) @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 188 HP / 196 SpA / 124 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Protect
+- Eruption
+- Solar Beam
+- Weather Ball
+
+Raichu-Alola (F) @ Focus Sash
+Ability: Surge Surfer
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 0 HP
+- Encore
+- Skill Swap
+- Endeavor
+- Knock Off
+
+Landorus @ Choice Scarf
+Ability: Sheer Force
+Level: 50
+Tera Type: Ground
+EVs: 36 HP / 20 Def / 196 SpA / 20 SpD / 236 Spe
+Modest Nature
+- U-turn
+- Earth Power
+- Sludge Bomb
+- Sandsear Storm

@@ -1,0 +1,59 @@
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 31 HP / 12 Def / 23 SpA
+Modest Nature
+- Hyper Voice
+- Protect
+- Quick Attack
+- Moonblast
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 16 HP / 32 Def / 18 SpD
+Bold Nature
+- Psychic
+- Trick Room
+- Helping Hand
+- Ally Switch
+
+Aegislash @ Focus Sash
+Ability: Stance Change
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Iron Head
+- Wide Guard
+- Poltergeist
+- Shadow Sneak
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+EVs: 26 HP / 32 Atk / 8 Def
+Adamant Nature
+- Jet Punch
+- Protect
+- Close Combat
+- Wave Crash
+
+Politoed @ Leftovers
+Ability: Drizzle
+Level: 50
+EVs: 29 HP / 25 Def / 12 SpD
+Bold Nature
+- Weather Ball
+- Icy Wind
+- Helping Hand
+- Protect
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 29 HP / 1 Def / 32 SpA / 4 Spe
+Modest Nature
+- Draco Meteor
+- Hurricane
+- Protect
+- Dragon Pulse

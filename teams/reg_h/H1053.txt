@@ -1,0 +1,70 @@
+Cryogonal @ Focus Sash
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 12 HP / 4 Def / 252 SpA / 4 SpD / 236 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Icy Wind
+- Haze
+- Protect
+
+Kingambit @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Flying
+EVs: 52 HP / 212 Atk / 108 Def / 36 SpD / 100 Spe
+Adamant Nature
+- Assurance
+- Iron Head
+- Low Kick
+- Sucker Punch
+
+Typhlosion-Hisui @ Choice Specs
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 20 Def / 252 SpA / 12 SpD / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Eruption
+- Shadow Ball
+- Heat Wave
+- Sleep Talk
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 244 Atk / 92 SpD / 172 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Protect
+
+Torkoal @ Eject Pack
+Ability: Drought
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 20 Def / 140 SpA / 92 SpD
+Relaxed Nature
+IVs: 0 Atk
+- Overheat
+- Weather Ball
+- Helping Hand
+- Protect
+
+Jumpluff @ Rocky Helmet
+Ability: Chlorophyll
+Level: 50
+Tera Type: Water
+EVs: 36 HP / 252 Def / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Leaf Storm
+- Encore
+- Sleep Powder
+- Tailwind

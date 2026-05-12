@@ -1,0 +1,68 @@
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dark Pulse
+- Protect
+- Heat Wave
+- Tera Blast
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 92 Def / 28 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Shadow Ball
+- Dazzling Gleam
+- Moonblast
+
+Glimmora @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 28 Def / 140 SpA / 20 SpD / 76 Spe
+Modest Nature
+- Earth Power
+- Energy Ball
+- Power Gem
+- Mortal Spin
+
+Dragonite @ Lum Berry
+Ability: Multiscale
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Dragon Claw
+- Protect
+- Iron Head
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Substitute
+- Earthquake
+- Order Up
+- Wave Crash
+
+Tatsugiri-Stretchy @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Dragon Pulse
+- Muddy Water
+- Icy Wind
+- Draco Meteor

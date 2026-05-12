@@ -1,0 +1,74 @@
+Electrode-Hisui @ Loaded Dice
+Ability: Aftermath
+Level: 50
+Tera Type: Ghost
+EVs: 52 HP / 4 Def / 244 SpA / 4 SpD / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Electroweb
+- Chloroblast
+- Bullet Seed
+- Taunt
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 180 HP / 172 Atk / 156 Spe
+Jolly Nature
+IVs: 26 SpA
+- Close Combat
+- Rage Fist
+- Coaching
+- Final Gambit
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 180 HP / 180 Def / 148 SpD
+Modest Nature
+IVs: 0 Atk
+- Tera Blast
+- Twin Beam
+- Helping Hand
+- Trick Room
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 84 HP / 60 Def / 252 SpA / 12 SpD / 100 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Hyper Voice
+- Blood Moon
+- Protect
+
+Dragonite (M) @ Assault Vest
+Ability: Multiscale
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 12 SpD / 44 Spe
+Adamant Nature
+IVs: 26 SpA
+- Outrage
+- Extreme Speed
+- Ice Spinner
+- Low Kick
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect

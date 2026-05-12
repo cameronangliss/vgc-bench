@@ -1,0 +1,68 @@
+Chi-Yu @ Choice Specs
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Fire
+EVs: 244 HP / 12 Def / 76 SpA / 20 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flamethrower
+- Overheat
+- Snarl
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Taunt
+- Protect
+
+Iron Bundle @ Covert Cloak
+Ability: Quark Drive
+Level: 50
+Tera Type: Ghost
+EVs: 100 SpA / 156 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Freeze-Dry
+- Icy Wind
+- Substitute
+
+Great Tusk @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Headlong Rush
+- Close Combat
+- Earthquake
+- Protect
+
+Brute Bonnet @ Loaded Dice
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 20 HP / 252 Atk / 4 Def / 4 SpD / 228 Spe
+Adamant Nature
+- Bullet Seed
+- Sucker Punch
+- Clear Smog
+- Spore
+
+Talonflame @ Charti Berry
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 172 HP / 204 Atk / 20 Def / 4 SpD / 108 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Feint
+- Sunny Day

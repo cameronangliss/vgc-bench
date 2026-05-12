@@ -1,0 +1,67 @@
+Maushold-Four @ Bright Powder
+Ability: Friend Guard
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+- Follow Me
+- Beat Up
+- Baby-Doll Eyes
+- Protect
+
+Annihilape @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 84 Atk / 116 Def / 220 SpD / 28 Spe
+Adamant Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Hydro Pump
+- Icy Wind
+- Protect
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 92 HP / 124 Atk / 100 Def / 132 SpD / 60 Spe
+Adamant Nature
+- Stomping Tantrum
+- Heavy Slam
+- Rock Slide
+- Ruination
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 84 Atk / 108 Def / 20 SpD / 132 Spe
+Jolly Nature
+- Iron Head
+- Breaking Swipe
+- Tailwind
+- Protect

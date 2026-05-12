@@ -1,0 +1,69 @@
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 44 Def / 116 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Quiver Dance
+- Giga Drain
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 4 Def / 252 SpA / 20 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 204 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Rock Slide
+- Low Kick
+- Knock Off
+- Tera Blast
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 148 Def / 108 SpD
+Impish Nature
+- Reflect
+- Light Screen
+- Thunder Wave
+- Spirit Break
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 244 HP / 44 Def / 52 SpA / 4 SpD / 164 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 172 Def / 84 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect

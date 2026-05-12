@@ -1,0 +1,67 @@
+Tornadus @ Sharp Beak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 100 Def / 4 SpA / 4 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Rain Dance
+- Protect
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 92 Atk / 156 Def / 12 SpD / 76 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Grass
+EVs: 236 HP / 116 Atk / 28 Def / 44 SpD / 84 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Fake Out
+- U-turn
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 52 Def / 132 SpA / 4 SpD / 108 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Flying
+EVs: 244 HP / 124 Def / 116 SpA / 20 SpD / 4 Spe
+Modest Nature
+- Tera Blast
+- Ice Beam
+- Recover
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 140 HP / 172 Atk / 4 Def / 4 SpD / 188 Spe
+Adamant Nature
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect

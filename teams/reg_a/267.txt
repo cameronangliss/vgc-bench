@@ -1,0 +1,68 @@
+Pawmot (F) @ Focus Sash
+Ability: Volt Absorb
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Nuzzle
+- Fake Out
+- Revival Blessing
+
+Dragonite (M) @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Dragon Claw
+- Giga Impact
+- Extreme Speed
+- Rock Slide
+
+Hydreigon (M) @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Snarl
+- Tera Blast
+
+Kingambit (M) @ Assault Vest
+Ability: Supreme Overlord
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Brick Break
+
+Arboliva (F) @ Sitrus Berry
+Ability: Seed Sower
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Giga Drain
+- Leech Seed
+- Charm
+- Protect
+
+Volcarona (M) @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 164 Def / 52 SpA / 4 SpD / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect

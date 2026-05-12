@@ -1,0 +1,67 @@
+Baxcalibur (M) @ Loaded Dice
+Ability: Thermal Exchange
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 76 Atk / 4 Def / 4 SpD / 172 Spe
+Adamant Nature
+- Dragon Dance
+- Icicle Spear
+- Tera Blast
+- Protect
+
+Azumarill (M) @ Leftovers
+Ability: Sap Sipper
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 60 Def / 4 SpA / 204 SpD / 4 Spe
+Calm Nature
+- Icy Wind
+- Chilling Water
+- Perish Song
+- Protect
+
+Salazzle @ Eject Pack
+Ability: Oblivious
+Level: 50
+Tera Type: Flying
+EVs: 212 HP / 44 SpA / 252 Spe
+Timid Nature
+- Fake Out
+- Acid Spray
+- Overheat
+- Encore
+
+Hydreigon (F) @ Life Orb
+Ability: Levitate
+Level: 50
+Tera Type: Steel
+EVs: 92 HP / 164 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Tailwind
+- Dark Pulse
+- Flash Cannon
+- Protect
+
+Gallade @ Sitrus Berry
+Ability: Sharpness
+Level: 50
+Tera Type: Psychic
+EVs: 244 HP / 164 Atk / 44 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Wide Guard
+- Sacred Sword
+- Leaf Blade
+- Trick Room
+
+Amoonguss (M) @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Pollen Puff
+- Protect
+- Rage Powder

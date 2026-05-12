@@ -1,0 +1,67 @@
+Mimikyu @ Rocky Helmet
+Ability: Disguise
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 236 Atk / 20 Def / 4 SpD / 4 Spe
+Adamant Nature
+- Play Rough
+- Shadow Sneak
+- Wood Hammer
+- Taunt
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 44 HP / 156 Atk / 4 Def / 92 SpD / 212 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Crunch
+- Icicle Crash
+- Sucker Punch
+- Protect
+
+Zapdos @ Sitrus Berry
+Ability: Static
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 100 Def / 140 SpA / 12 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Thunderbolt
+- Roost
+- Tailwind
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Giga Impact
+- Aerial Ace
+- Stomping Tantrum
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 212 HP / 4 Def / 156 SpA / 4 SpD / 132 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Tera Blast
+- Earth Power
+- Protect

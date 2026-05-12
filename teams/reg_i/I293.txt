@@ -1,0 +1,69 @@
+Miraidon @ Choice Specs
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Electro Drift
+- Draco Meteor
+- Discharge
+- Volt Switch
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Normal
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Psychic
+- Pollen Puff
+- Protect
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Ground
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Icy Wind
+- Helping Hand
+- Protect
+
+Iron Hands @ Iron Ball
+Ability: Quark Drive
+Level: 50
+Tera Type: Dark
+EVs: 124 HP / 236 Atk / 148 SpD
+Brave Nature
+IVs: 0 Spe
+- Wild Charge
+- Low Kick
+- Fling
+- Fake Out
+
+Farigiraf @ Electric Seed
+Ability: Armor Tail
+Level: 50
+Tera Type: Ground
+EVs: 236 HP / 124 Def / 148 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Foul Play
+- Helping Hand
+- Trick Room
+
+Regieleki @ Choice Band
+Ability: Transistor
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Explosion
+- Wild Charge
+- Electroweb
+- Volt Switch

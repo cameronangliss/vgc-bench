@@ -1,0 +1,63 @@
+Raichu @ Assault Vest
+Ability: Lightning Rod
+Level: 50
+EVs: 36 HP / 204 Def / 20 SpA / 68 SpD / 180 Spe
+Timid Nature
+IVs: 25 Atk
+- Fake Out
+- Volt Switch
+- Nuzzle
+- Feint
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Fake Out
+- Reflect
+- Light Screen
+- Spirit Break
+
+Tyranitar @ Figy Berry
+Ability: Sand Stream
+Level: 50
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Rock Slide
+- Protect
+- Crunch
+- Ice Punch
+
+Amoonguss @ Wiki Berry
+Ability: Effect Spore
+Level: 50
+EVs: 252 HP / 252 Def / 4 SpA
+Relaxed Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Protect
+- Giga Drain
+
+Volcarona @ Aguav Berry
+Ability: Flame Body
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Bug Buzz
+- Heat Wave
+- Quiver Dance
+- Tailwind
+
+Palafin-Hero @ Life Orb
+Ability: Zero to Hero
+Level: 50
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Ice Punch
+- Close Combat
+- Flip Turn
+- Jet Punch

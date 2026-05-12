@@ -1,0 +1,68 @@
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 144 HP / 36 Def / 112 SpA / 48 SpD / 160 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderclap
+- Draco Meteor
+- Thunderbolt
+- Protect
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 180 HP / 44 Def / 76 SpA / 4 SpD / 204 Spe
+Timid Nature
+- Bleakwind Storm
+- Taunt
+- Rain Dance
+- Tailwind
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 76 Def / 84 SpA / 4 SpD / 148 Spe
+Modest Nature
+- Dazzling Gleam
+- Shadow Ball
+- Mystical Fire
+- Moonblast
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 8 Atk / 116 Def / 112 SpD / 16 Spe
+Impish Nature
+IVs: 1 SpA
+- Flare Blitz
+- Fake Out
+- Throat Chop
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 12 Def / 84 SpD / 44 Spe
+Adamant Nature
+- U-turn
+- High Horsepower
+- Grassy Glide
+- Fake Out
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Surging Strikes
+- U-turn
+- Close Combat
+- Aqua Jet

@@ -1,0 +1,68 @@
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 236 Atk / 4 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Jet Punch
+- Haze
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Def / 116 SpD
+Relaxed Nature
+IVs: 0 Atk / 24 Spe
+- Protect
+- Pollen Puff
+- Rage Powder
+- Spore
+
+Bronzong @ Leftovers
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 60 Def / 196 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Iron Defense
+- Body Press
+- Trick Room
+- Gyro Ball
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 12 Def / 116 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Moonblast
+- Shadow Ball
+- Thunderbolt
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe
+Jolly Nature
+- Protect
+- Flare Blitz
+- Will-O-Wisp
+- Howl
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 12 HP / 236 Atk / 4 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Earthquake
+- Fissure
+- Stomping Tantrum
+- Ruination

@@ -1,0 +1,67 @@
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Dragon
+EVs: 12 HP / 252 Atk / 12 Def / 20 SpD / 212 Spe
+Jolly Nature
+- Protect
+- Wave Crash
+- Earthquake
+- Order Up
+
+Tatsugiri @ Assault Vest
+Ability: Commander
+Level: 50
+Tera Type: Dragon
+EVs: 12 HP / 28 Def / 236 SpA / 4 SpD / 228 Spe
+Timid Nature
+IVs: 0 Atk
+- Muddy Water
+- Hydro Pump
+- Dragon Pulse
+- Draco Meteor
+
+Talonflame @ Life Orb
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Brave Bird
+- Will-O-Wisp
+- Tailwind
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 36 HP / 4 Def / 212 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Focus Blast
+- Trick
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 116 HP / 204 Atk / 4 Def / 44 SpD / 140 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Rock Slide
+- Stomping Tantrum
+
+Stonjourner @ Focus Sash
+Ability: Power Spot
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Rock Slide
+- Heat Crash
+- Wide Guard

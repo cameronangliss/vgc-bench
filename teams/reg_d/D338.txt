@@ -1,0 +1,65 @@
+Raichu-Alola @ Life Orb
+Ability: Surge Surfer
+Level: 50
+Tera Type: Electric
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psychic
+- Electro Ball
+- Nasty Plot
+- Protect
+
+Thundurus @ Mental Herb
+Ability: Prankster
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+- Wildbolt Storm
+- Electric Terrain
+- Scary Face
+- Thunder Wave
+
+Chi-Yu @ Heavy-Duty Boots
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Dark Pulse
+- Heat Wave
+- Tera Blast
+- Protect
+
+Iron Bundle @ Choice Specs
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Freeze-Dry
+- Hydro Pump
+- Flip Turn
+- Icy Wind
+
+Great Tusk @ Weakness Policy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Headlong Rush
+- Close Combat
+- Rock Slide
+- Protect
+
+Sneasler @ Electric Seed
+Ability: Unburden
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Acrobatics
+- Close Combat
+- Dire Claw
+- Protect

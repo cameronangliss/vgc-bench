@@ -1,0 +1,69 @@
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Trick Room
+- Helping Hand
+- Shadow Ball
+
+Exeggutor @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Psychic
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Expanding Force
+- Grass Knot
+- Trick Room
+- Sleep Powder
+
+Koraidon @ Choice Scarf
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 108 HP / 252 Atk / 148 Spe
+Adamant Nature
+- U-turn
+- Collision Course
+- Dragon Claw
+- Flare Blitz
+
+Calyrex-Ice @ Sitrus Berry
+Ability: As One (Glastrier)
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 4 Atk / 4 Def / 196 SpD / 60 Spe
+Impish Nature
+- Trick Room
+- Glacial Lance
+- Leech Seed
+- Imprison
+
+Walking Wake @ Covert Cloak
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 52 HP / 4 Def / 196 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Steam
+- Draco Meteor
+- Snarl
+- Weather Ball
+
+Rhyperior @ Clear Amulet
+Ability: Lightning Rod
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 252 Atk / 108 SpD
+Brave Nature
+IVs: 17 Spe
+- High Horsepower
+- Rock Slide
+- Rock Wrecker
+- Protect

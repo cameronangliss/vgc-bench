@@ -1,0 +1,68 @@
+Indeedee-F @ Safety Goggles
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Trick Room
+- Heal Pulse
+
+Iron Hands @ Psychic Seed
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 84 HP / 60 Atk / 108 Def / 252 SpD / 4 Spe
+Adamant Nature
+- Thunder Punch
+- Drain Punch
+- Swords Dance
+- Protect
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 12 Atk / 76 Def / 116 SpD / 52 Spe
+Careful Nature
+- Flare Blitz
+- Snarl
+- Will-O-Wisp
+- Protect
+
+Iron Bundle @ Focus Sash
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Icy Wind
+- Freeze-Dry
+- Hydro Pump
+- Protect
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 28 HP / 220 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Acrobatics
+- Tailwind
+- Throat Chop
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 92 SpA / 4 SpD / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

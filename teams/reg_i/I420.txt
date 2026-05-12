@@ -1,0 +1,70 @@
+Lunala @ Leftovers
+Ability: Shadow Shield
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 68 HP / 116 Def / 252 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Moongeist Beam
+- Wide Guard
+- Trick Room
+
+Koraidon @ Life Orb
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 44 HP / 212 Atk / 252 Spe
+Adamant Nature
+- Flame Charge
+- Flare Blitz
+- Close Combat
+- Protect
+
+Azelf @ Normal Gem
+Ability: Levitate
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 164 HP / 188 Atk / 4 Def / 4 SpD / 148 Spe
+Adamant Nature
+- Explosion
+- Knock Off
+- Encore
+- Detect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Moonblast
+- Icy Wind
+- Taunt
+- Protect
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 124 HP / 4 Def / 140 SpA / 4 SpD / 236 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Overheat
+- Dark Pulse
+- Snarl
+
+Ursaluna (F) @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Water
+EVs: 196 HP / 188 Atk / 124 Def
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Headlong Rush
+- Facade
+- Protect

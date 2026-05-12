@@ -1,0 +1,69 @@
+Thundurus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Electric Terrain
+- Eerie Impulse
+- Wildbolt Storm
+- Sunny Day
+
+Porygon2 @ Eviolite
+Ability: Download
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Ice Beam
+- Tera Blast
+- Trick Room
+- Recover
+
+Raging Bolt @ Electric Seed
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 172 HP / 228 Def / 100 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Rising Voltage
+- Thunderclap
+- Draco Meteor
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 SpD
+Adamant Nature
+- Drain Punch
+- Supercell Slam
+- Fake Out
+- Heavy Slam
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Stellar
+EVs: 236 HP / 252 Def / 4 SpA / 4 SpD / 4 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Icy Wind
+
+Landorus-Therian @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Atk / 252 SpD
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- U-turn
+- Stone Edge

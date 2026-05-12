@@ -1,0 +1,68 @@
+Palafin @ Choice Band
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Flip Turn
+- Jet Punch
+- Close Combat
+- Ice Punch
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Volt Switch
+- Tera Blast
+- Protect
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 188 Def / 52 SpD / 12 Spe
+Bold Nature
+IVs: 0 Atk
+- Foul Play
+- Tailwind
+- Taunt
+- Whirlwind
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Iron Head
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 148 Def / 124 SpD
+Bold Nature
+IVs: 0 Atk
+- Pollen Puff
+- Clear Smog
+- Rage Powder
+- Spore
+
+Annihilape @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fighting
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Close Combat
+- Rage Fist
+- Rock Slide
+- U-turn

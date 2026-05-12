@@ -1,0 +1,70 @@
+Sableye @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 180 Def / 76 SpD
+Careful Nature
+IVs: 0 SpA / 0 Spe
+- Reflect
+- Light Screen
+- Encore
+- Disable
+
+Annihilape @ Sitrus Berry
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 12 Def / 148 SpD / 60 Spe
+Adamant Nature
+IVs: 26 SpA
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 124 Def / 140 Spe
+Calm Nature
+IVs: 24 Atk
+- Heat Wave
+- Tera Blast
+- Quiver Dance
+- Protect
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Protect
+- Encore
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 84 Atk / 4 Def / 156 SpD / 12 Spe
+Adamant Nature
+IVs: 10 SpA
+- Wood Hammer
+- Grassy Glide
+- Fake Out
+- High Horsepower
+
+Dragonite @ Loaded Dice
+Ability: Multiscale
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Scale Shot
+- Stomping Tantrum
+- Haze
+- Protect

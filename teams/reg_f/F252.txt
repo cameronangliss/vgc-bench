@@ -1,0 +1,74 @@
+Glimmora (F) @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 252 HP / 4 Def / 20 SpA / 134 SpD / 100 Spe
+Modest Nature
+IVs: 10 Atk
+- Mortal Spin
+- Earth Power
+- Power Gem
+- Sludge Bomb
+
+Dondozo (F) @ Leftovers
+Ability: Unaware
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 244 HP / 4 Atk / 4 Def / 252 SpD / 6 Spe
+Careful Nature
+IVs: 2 SpA
+- Protect
+- Wave Crash
+- Fissure
+- Yawn
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 4 Atk / 62 Def / 12 SpD / 196 Spe
+Jolly Nature
+IVs: 20 SpA
+- Spiky Shield
+- Follow Me
+- Ivy Cudgel
+- Horn Leech
+
+Urshifu (F) @ Focus Sash
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 6 SpD / 252 Spe
+Adamant Nature
+IVs: 17 SpA
+- Detect
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 118 HP / 252 SpA / 140 Spe
+Timid Nature
+IVs: 1 Atk
+- Protect
+- Dazzling Gleam
+- Shadow Ball
+- Icy Wind
+
+Chi-Yu @ Choice Scarf
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 108 HP / 6 Def / 140 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Snarl
+- Heat Wave
+- Dark Pulse
+- Overheat

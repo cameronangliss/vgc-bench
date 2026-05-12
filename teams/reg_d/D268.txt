@@ -1,0 +1,67 @@
+Articuno @ Bright Powder
+Ability: Snow Cloak
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 68 Def / 116 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Roost
+- Freeze-Dry
+- Tera Blast
+
+Abomasnow @ Rocky Helmet
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 20 Def / 252 SpA / 4 SpD / 28 Spe
+Modest Nature
+- Blizzard
+- Energy Ball
+- Ice Shard
+- Aurora Veil
+
+Urshifu-Rapid-Strike @ Mystic Water
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 220 Atk / 36 Def / 252 Spe
+Jolly Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Ice Spinner
+- Protect
+- Sucker Punch
+- Sacred Sword
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Outrage
+- Aerial Ace
+- Stomping Tantrum
+
+Regieleki @ Choice Scarf
+Ability: Transistor
+Level: 50
+Tera Type: Steel
+EVs: 92 HP / 124 Def / 236 SpA / 36 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunderbolt
+- Electroweb
+- Volt Switch
+- Electro Ball

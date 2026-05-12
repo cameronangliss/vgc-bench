@@ -1,0 +1,59 @@
+Gallade (M) @ Scope Lens
+Ability: Sharpness
+Level: 50
+EVs: 32 Atk / 32 Def / 2 SpD
+Adamant Nature
+- Sacred Sword
+- Psycho Cut
+- Trick Room
+- Wide Guard
+
+Aegislash @ Quick Claw
+Ability: Stance Change
+Level: 50
+EVs: 20 HP / 30 Atk / 16 Def
+Adamant Nature
+- Poltergeist
+- Sacred Sword
+- Iron Head
+- King's Shield
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Atk / 15 Def / 17 SpD
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Parting Shot
+- Throat Chop
+
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 13 HP / 20 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Disable
+- Protect
+
+Whimsicott @ Leftovers
+Ability: Prankster
+Level: 50
+EVs: 31 HP / 5 Def / 1 SpA / 27 SpD / 2 Spe
+Bold Nature
+- Encore
+- Moonblast
+- Tailwind
+- Protect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Last Respects
+- Liquidation
+- Aqua Jet
+- Protect

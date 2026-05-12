@@ -1,0 +1,69 @@
+Pincurchin @ Magnet
+Ability: Electric Surge
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 228 Atk / 20 Def / 4 SpA / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Zing Zap
+- Chilling Water
+- Sucker Punch
+- Spark
+
+Arboliva @ Life Orb
+Ability: Seed Sower
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 156 Def / 116 SpA / 84 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Terrain Pulse
+- Giga Drain
+- Earth Power
+- Strength Sap
+
+Indeedee-F (F) @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Psychic
+EVs: 252 HP / 220 Def / 36 SpD
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Dazzling Gleam
+- Psychic
+- Follow Me
+
+Armarouge @ Sitrus Berry
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 140 Def / 36 SpA / 76 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Mystical Fire
+- Wide Guard
+- Expanding Force
+- Trick Room
+
+Iron Hands @ Punching Glove
+Ability: Quark Drive
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 156 Atk / 12 Def / 132 SpD / 4 Spe
+Adamant Nature
+- Drain Punch
+- Fire Punch
+- Thunder Punch
+- Ice Punch
+
+Maushold @ Focus Sash
+Ability: Technician
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Follow Me
+- Population Bomb
+- Super Fang
+- Aerial Ace

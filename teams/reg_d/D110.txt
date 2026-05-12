@@ -1,0 +1,71 @@
+Decidueye-Hisui @ Choice Band
+Ability: Scrappy
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+IVs: 2 Spe
+- Leaf Blade
+- Triple Arrows
+- Tera Blast
+- U-turn
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 140 HP / 252 Atk / 116 SpD
+Brave Nature
+IVs: 0 Spe
+- Earthquake
+- Headlong Rush
+- Facade
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 108 HP / 236 Atk / 76 Def / 4 SpA / 84 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Wild Charge
+- Fake Out
+- Volt Switch
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 100 Def / 164 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Pollen Puff
+- Rage Powder
+- Protect
+
+Enamorus-Therian @ Life Orb
+Ability: Overcoat
+Level: 50
+Tera Type: Steel
+EVs: 236 HP / 4 Def / 252 SpA / 12 SpD
+Quiet Nature
+IVs: 0 Atk / 5 Spe
+- Moonblast
+- Grass Knot
+- Earth Power
+- Protect
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 148 Def / 108 SpD
+Sassy Nature
+IVs: 0 Atk
+- Psychic
+- Ice Beam
+- Lunar Blessing
+- Trick Room

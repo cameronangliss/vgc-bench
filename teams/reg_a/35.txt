@@ -1,0 +1,65 @@
+Gothitelle (M) @ Figy Berry
+Ability: Shadow Tag
+Level: 50
+EVs: 252 HP / 196 Def / 60 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Protect
+- Hypnosis
+- Trick Room
+- Fake Out
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 124 Def / 132 SpD
+Impish Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot
+
+Annihilape (F) @ Leftovers
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 28 SpD / 108 Spe
+Adamant Nature
+- Rage Fist
+- Bulk Up
+- Drain Punch
+- Protect
+
+Amoonguss (F) @ Mental Herb
+Ability: Regenerator
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 148 Def / 108 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Rage Powder
+- Pollen Puff
+- Protect
+- Spore
+
+Arcanine (M) @ Eject Button
+Ability: Intimidate
+Level: 50
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Protect
+- Will-O-Wisp
+- Snarl
+
+Azumarill (F) @ Sitrus Berry
+Ability: Sap Sipper
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 84 Def / 172 SpD
+Impish Nature
+- Protect
+- Aqua Tail
+- Perish Song
+- Sing

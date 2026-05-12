@@ -1,0 +1,65 @@
+Muk-Alola @ Leftovers
+Ability: Power of Alchemy
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Substitute
+- Minimize
+- Knock Off
+- Protect
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+IVs: 0 Atk
+- Taunt
+- Follow Me
+- Spore
+- Spiky Shield
+
+Calyrex-Shadow @ Life Orb
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Dark
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Psych Up
+- Astral Barrage
+- Psychic
+- Protect
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 180 HP / 4 Atk / 156 Def / 4 SpD / 164 Spe
+Impish Nature
+- Wide Guard
+- Body Press
+- Heavy Slam
+- Protect
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Ditto @ Quick Claw
+Ability: Imposter
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Def / 4 Spe
+Impish Nature
+IVs: 30 Atk
+- Transform

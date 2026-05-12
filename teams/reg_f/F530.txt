@@ -1,0 +1,65 @@
+Ting-Lu @ Rocky Helmet
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 212 HP / 4 Atk / 36 Def / 252 SpD / 4 Spe
+Impish Nature
+- Sand Tomb
+- Body Press
+- Ruination
+- Protect
+
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Atk / 36 Def / 220 SpD / 4 Spe
+Impish Nature
+- Wave Crash
+- Heavy Slam
+- Yawn
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Dragonite @ Loaded Dice
+Ability: Inner Focus
+Level: 50
+Tera Type: Steel
+EVs: 84 HP / 212 Atk / 4 Def / 4 SpD / 204 Spe
+Adamant Nature
+- Scale Shot
+- Iron Head
+- Extreme Speed
+- Protect
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 148 HP / 100 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Heat Crash
+- Breaking Swipe
+- Howl
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Fairy
+EVs: 228 HP / 76 Def / 132 SpA / 52 SpD / 20 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Dazzling Gleam
+- Trick

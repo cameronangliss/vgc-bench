@@ -1,0 +1,59 @@
+Gardevoir @ Gardevoirite
+Ability: Trace
+Level: 50
+EVs: 32 HP / 28 Def / 5 SpA / 1 Spe
+Modest Nature
+- Psyshock
+- Hyper Voice
+- Trick Room
+- Protect
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 13 Atk / 1 Def / 14 SpD / 6 Spe
+Adamant Nature
+- Brave Bird
+- Iron Head
+- Bulk Up
+- Roost
+
+Rotom-Wash @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 11 HP / 1 Def / 26 SpA / 28 Spe
+Modest Nature
+- Hydro Pump
+- Discharge
+- Volt Switch
+- Trick
+
+Incineroar @ Chesto Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 1 Atk / 23 Def / 11 SpD
+Impish Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Garchomp @ White Herb
+Ability: Rough Skin
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 3 Def / 32 SpD
+Bold Nature
+- Matcha Gotcha
+- Protect
+- Life Dew
+- Rage Powder

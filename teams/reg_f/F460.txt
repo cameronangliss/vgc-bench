@@ -1,0 +1,69 @@
+Lilligant-Hisui @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- After You
+- Solar Blade
+- Close Combat
+- Sleep Powder
+
+Torkoal @ Flame Plate
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 20 Atk / 0 Spe
+- Eruption
+- Weather Ball
+- Helping Hand
+- Protect
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Def / 196 SpA / 20 SpD / 4 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Thunderclap
+- Dragon Pulse
+- Weather Ball
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 132 Def / 188 SpA / 4 SpD / 60 Spe
+Timid Nature
+IVs: 18 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Power Gem
+
+Farigiraf @ Throat Spray
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 156 HP / 92 Def / 156 SpA / 100 SpD
+Modest Nature
+IVs: 20 Atk / 29 Spe
+- Hyper Voice
+- Psychic
+- Trick Room
+- Protect
+
+Walking Wake @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Hydro Steam
+- Flamethrower
+- Draco Meteor
+- Protect

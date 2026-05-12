@@ -46,36 +46,30 @@ async def play(
     """
     assert not (play_on_ladder and reg is None), "ladder mode requires a specific --reg"
     print("Setting up...")
-    suffix = f"-{results_suffix}" if results_suffix else ""
-    results_path = Path(f"results{suffix}")
+    results_path = Path(f"results{f'_{results_suffix}' if results_suffix else ''}")
+    team_paths = None
     if results_suffix:
-        with (results_path / "team1.txt").open() as f:
-            team1 = f.read()
-        with (results_path / "team2.txt").open() as f:
-            team2 = f.read()
-    else:
-        team1 = None
-        team2 = None
+        team_paths = [results_path / "team1.txt", results_path / "team2.txt"]
     battle_format = format_map[reg if reg is not None else get_available_regs()[0]]
     agent = PolicyPlayer(
         account_configuration=AccountConfiguration(username, password),
+        avatar="turo-ai",
         battle_format=battle_format,
         log_level=40,
-        max_concurrent_battles=10,
+        max_concurrent_battles=3,
         server_configuration=ShowdownServerConfiguration,
         accept_open_team_sheet=True,
         start_timer_on_battle_start=play_on_ladder,
-        team=RandomTeamBuilder(run_id, num_teams, reg, team1=team1, team2=team2),
+        team=RandomTeamBuilder(
+            run_id, num_teams, reg, team_paths, prefer_featured=True
+        ),
     )
     if reg is None:
-        agent._accepted_formats = {format_map[r] for r in get_available_regs()}
-    method_dir = results_path / f"saves-{method}"
-    if reg is not None and num_teams is not None:
-        method_dir = method_dir / f"reg{reg}-{num_teams}-teams"
-    elif reg is not None:
-        method_dir = method_dir / f"reg{reg}"
-    elif num_teams is not None:
-        method_dir = method_dir / f"{num_teams}-teams"
+        agent._accept_all_formats = True
+    method_dir = results_path / f"saves_{method}"
+    method_dir = method_dir / (f"reg_{reg}" if reg is not None else "reg_all")
+    if num_teams is not None:
+        method_dir = method_dir / f"{num_teams}_teams"
     saves_path = method_dir / f"seed{run_id}"
     filepath = sorted(saves_path.iterdir(), key=lambda p: int(p.stem))[-1]
     agent.set_policy(filepath, device("cuda:0"))
@@ -118,7 +112,7 @@ if __name__ == "__main__":
         "--method",
         type=str,
         required=True,
-        help="method string for checkpoint directory, e.g. bc-do-xm",
+        help="method string for checkpoint directory, e.g. bc_do_xm",
     )
     parser.add_argument(
         "--num_teams",

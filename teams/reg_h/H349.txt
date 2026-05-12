@@ -1,0 +1,73 @@
+Politoed @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 236 HP / 36 Def / 236 SpA
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Ice Beam
+- Haze
+- Protect
+
+Dragonite @ Weakness Policy
+Ability: Multiscale
+Level: 50
+Shiny: Yes
+Tera Type: Ground
+EVs: 204 HP / 4 Def / 236 SpA / 4 SpD / 60 Spe
+Modest Nature
+- Extreme Speed
+- Tailwind
+- Tera Blast
+- Hurricane
+
+Porygon-Z @ Life Orb
+Ability: Adaptability
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Thunder
+- Hyper Beam
+- Tera Blast
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+Tera Type: Fighting
+EVs: 252 HP / 116 Atk / 116 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Flare Blitz
+- Knock Off
+- Close Combat
+- Fake Out
+
+Grimmsnarl @ Focus Sash
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Spirit Break
+- Thunder Wave
+- Fake Out
+- Sucker Punch
+
+Hydrapple @ Choice Scarf
+Ability: Supersweet Syrup
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 4 HP / 4 Def / 236 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Leaf Storm
+- Pollen Puff
+- Draco Meteor
+- Earth Power

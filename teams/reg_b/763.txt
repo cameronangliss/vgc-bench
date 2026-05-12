@@ -1,0 +1,66 @@
+Sableye (F) @ Roseli Berry
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Fake Out
+- Quash
+- Shadow Sneak
+- Will-O-Wisp
+
+Tyranitar (M) @ Safety Goggles
+Ability: Sand Stream
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 68 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Rock Slide
+- Crunch
+- Dragon Dance
+- Protect
+
+Armarouge (F) @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+Tera Type: Dark
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Protect
+- Stored Power
+- Heat Wave
+- Armor Cannon
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 252 Def / 52 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Protect
+- Hyper Voice
+- Quick Attack
+- Tera Blast
+
+Staraptor (M) @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- U-turn
+- Final Gambit
+
+Scizor (M) @ Clear Amulet
+Ability: Technician
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Protect
+- Bullet Punch
+- Swords Dance
+- Close Combat

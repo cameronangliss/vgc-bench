@@ -1,0 +1,67 @@
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 196 HP / 252 Atk / 4 Def / 4 SpD / 52 Spe
+Adamant Nature
+- Extreme Speed
+- Ice Spinner
+- Stomping Tantrum
+- Outrage
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Talonflame @ Covert Cloak
+Ability: Gale Wings
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Tailwind
+- Taunt
+- Brave Bird
+- Will-O-Wisp
+
+Glimmora @ Power Herb
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 140 HP / 12 Def / 164 SpA / 12 SpD / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Meteor Beam
+- Earth Power
+- Spiky Shield
+
+Dondozo @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 156 Atk / 4 Def / 92 SpD / 252 Spe
+Adamant Nature
+- Order Up
+- Wave Crash
+- Substitute
+- Protect
+
+Tatsugiri @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Sleep Talk

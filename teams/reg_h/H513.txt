@@ -1,0 +1,67 @@
+Garchomp @ Loaded Dice
+Ability: Rough Skin
+Level: 50
+Tera Type: Fairy
+EVs: 188 HP / 252 Atk / 4 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Scale Shot
+- Earthquake
+- Swords Dance
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Beat Up
+- Tailwind
+- Encore
+
+Hydreigon @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Dark Pulse
+- Snarl
+- Draco Meteor
+- Heat Wave
+
+Amoonguss @ Covert Cloak
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 252 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Clear Smog
+- Pollen Puff
+- Rage Powder
+- Spore
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Flying
+EVs: 188 HP / 164 Def / 132 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Draco Meteor
+- Flash Cannon
+- Body Press
+- Snarl
+
+Annihilape @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 188 HP / 52 Atk / 12 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Rage Fist
+- Drain Punch
+- Bulk Up
+- Protect

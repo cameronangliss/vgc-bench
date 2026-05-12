@@ -1,0 +1,67 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 180 Def / 76 SpD
+Careful Nature
+- Parting Shot
+- Light Screen
+- Reflect
+- Spirit Break
+
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 76 Atk / 4 Def / 236 SpD / 28 Spe
+Adamant Nature
+- Surging Strikes
+- Aqua Jet
+- Swords Dance
+- Protect
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+Level: 50
+Tera Type: Fairy
+EVs: 236 HP / 156 Def / 116 SpD
+Bold Nature
+IVs: 0 Atk
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 148 Def / 52 SpA / 12 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Landorus-Therian @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 36 Atk / 100 Def / 84 SpD / 36 Spe
+Adamant Nature
+- Stomping Tantrum
+- Taunt
+- U-turn
+- Rock Tomb
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 164 HP / 76 Atk / 4 Def / 252 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Wild Charge
+- Drain Punch
+- Heavy Slam

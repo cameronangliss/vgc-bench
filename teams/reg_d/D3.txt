@@ -1,0 +1,68 @@
+Abomasnow @ Leftovers
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Def / 76 SpA / 124 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Aurora Veil
+- Protect
+- Leech Seed
+
+Articuno @ Bright Powder
+Ability: Snow Cloak
+Level: 50
+Tera Type: Ice
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Blizzard
+- Freeze-Dry
+- Helping Hand
+- Tailwind
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Fighting
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Surging Strikes
+- U-turn
+- Close Combat
+- Aqua Jet
+
+Landorus-Therian (M) @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Ground
+EVs: 244 HP / 196 Atk / 4 Def / 44 SpD / 20 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+- U-turn
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Dark Pulse
+- Protect
+- Tera Blast
+
+Garganacl @ Sitrus Berry
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 100 Def / 156 SpD
+Careful Nature
+- Salt Cure
+- Wide Guard
+- Protect
+- Recover

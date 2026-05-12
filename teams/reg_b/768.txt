@@ -1,0 +1,70 @@
+Armarouge (F) @ Life Orb
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Psychic
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Spe
+- Armor Cannon
+- Trick Room
+- Wide Guard
+- Expanding Force
+
+Indeedee-F @ Focus Sash
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 24 Spe
+- Follow Me
+- Dazzling Gleam
+- Helping Hand
+- Trick Room
+
+Torkoal (M) @ Charcoal
+Ability: Drought
+Level: 50
+Shiny: Yes
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Spe
+- Eruption
+- Flamethrower
+- Protect
+- Solar Beam
+
+Amoonguss (F) @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 196 Def / 60 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Rage Powder
+- Spore
+- Clear Smog
+- Protect
+
+Iron Hands @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Fake Out
+- Wild Charge
+- Close Combat
+- Protect
+
+Ditto @ Leftovers
+Ability: Imposter
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Transform

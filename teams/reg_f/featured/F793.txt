@@ -1,0 +1,67 @@
+Thundurus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 196 Def / 4 SpA / 36 SpD / 44 Spe
+Timid Nature
+IVs: 0 Atk
+- Electric Terrain
+- Scary Face
+- Wildbolt Storm
+- Eerie Impulse
+
+Enamorus @ Fairy Feather
+Ability: Contrary
+Level: 50
+Tera Type: Steel
+EVs: 12 HP / 28 Def / 244 SpA / 4 SpD / 220 Spe
+Timid Nature
+IVs: 0 Atk
+- Springtide Storm
+- Protect
+- Moonblast
+- Earth Power
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Sucker Punch
+- Icicle Crash
+- Ruination
+- Protect
+
+Entei @ Life Orb
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Sacred Fire
+- Extreme Speed
+- Stomping Tantrum
+- Protect
+
+Iron Thorns @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Flying
+EVs: 204 HP / 204 Atk / 36 Def / 28 SpD / 36 Spe
+Adamant Nature
+- Rock Slide
+- Tera Blast
+- Thunder Punch
+- Low Kick
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Follow Me
+- Ivy Cudgel
+- Power Whip
+- Spiky Shield

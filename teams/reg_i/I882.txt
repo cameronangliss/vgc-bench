@@ -1,0 +1,68 @@
+Calyrex-Shadow @ Choice Specs
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Shadow Ball
+- Expanding Force
+- Pollen Puff
+
+Koraidon @ Clear Amulet
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 124 HP / 196 Atk / 4 Def / 52 SpD / 132 Spe
+Adamant Nature
+- Flare Blitz
+- Flame Charge
+- Collision Course
+- Protect
+
+Whimsicott @ Ability Shield
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 4 SpA / 220 SpD / 28 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Cotton Spore
+- Light Screen
+- Tailwind
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Brick Break
+- Ice Shard
+- Protect
+
+Walking Wake @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 196 SpA / 236 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Steam
+- Draco Meteor
+- Weather Ball
+- Protect
+
+Maushold-Four @ Covert Cloak
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 180 Def / 68 SpD
+Impish Nature
+- Follow Me
+- Feint
+- Helping Hand
+- Taunt

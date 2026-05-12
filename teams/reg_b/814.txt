@@ -1,0 +1,70 @@
+Kilowattrel @ Magnet
+Ability: Wind Power
+Level: 50
+Tera Type: Electric
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Discharge
+- Electro Ball
+- Protect
+- Weather Ball
+
+Brambleghast @ Choice Band
+Ability: Wind Rider
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 252 Spe
+Adamant Nature
+- Shadow Sneak
+- Tera Blast
+- Phantom Force
+- Power Whip
+
+Great Tusk @ Weakness Policy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 12 HP / 252 Atk / 4 Def / 4 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Headlong Rush
+- Protect
+- Close Combat
+
+Torkoal @ Eject Pack
+Ability: Drought
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Helping Hand
+- Overheat
+- Heat Wave
+- Earth Power
+
+Jumpluff @ Covert Cloak
+Ability: Chlorophyll
+Level: 50
+Shiny: Yes
+Tera Type: Dark
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk / 0 SpA
+- Tailwind
+- Sleep Powder
+- Fairy Wind
+- Rage Powder
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Protect
+- Substitute

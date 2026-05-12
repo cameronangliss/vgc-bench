@@ -1,0 +1,68 @@
+Arceus-Water @ Splash Plate
+Ability: Multitype
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 68 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Judgment
+- Will-O-Wisp
+- Snarl
+- Protect
+
+Calyrex-Shadow @ Covert Cloak
+Ability: As One (Spectrier)
+Level: 50
+Tera Type: Fairy
+EVs: 212 HP / 124 Def / 28 SpA / 4 SpD / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+- Draining Kiss
+- Nasty Plot
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 4 Atk / 76 Def / 132 SpD / 44 Spe
+Impish Nature
+- Knock Off
+- Taunt
+- Parting Shot
+- Fake Out
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 4 Def / 156 SpD / 60 Spe
+Adamant Nature
+- Grassy Glide
+- U-turn
+- Wood Hammer
+- Fake Out
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 84 Def / 172 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Follow Me
+- Helping Hand
+- After You
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 164 Def / 92 SpD
+Careful Nature
+- Spirit Break
+- Thunder Wave
+- Reflect
+- Light Screen

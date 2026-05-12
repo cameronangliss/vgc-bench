@@ -1,0 +1,67 @@
+Palafin-Hero @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 252 Atk / 4 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Haze
+- Wave Crash
+- Jet Punch
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sacred Sword
+- Ice Spinner
+- Sucker Punch
+- Protect
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Steel
+EVs: 36 HP / 252 Atk / 4 Def / 4 SpD / 212 Spe
+Jolly Nature
+- Dragon Darts
+- Phantom Force
+- Tera Blast
+- U-turn
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Water
+EVs: 244 HP / 100 Def / 164 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Rage Powder
+- Pollen Puff
+- Protect
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 236 HP / 68 Atk / 4 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Will-O-Wisp
+- Flare Blitz
+- Extreme Speed
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 100 HP / 244 Def / 44 SpA / 4 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Protect

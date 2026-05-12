@@ -1,0 +1,66 @@
+Scream Tail @ Mental Herb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 60 Atk / 60 Def / 36 SpD / 100 Spe
+Jolly Nature
+- Disable
+- Play Rough
+- Encore
+- Perish Song
+
+Garganacl @ Sitrus Berry
+Ability: Purifying Salt
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 60 Def / 196 SpD
+Careful Nature
+- Salt Cure
+- Recover
+- Protect
+- Wide Guard
+
+Gothitelle @ Kasib Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 124 Def / 132 SpD
+Calm Nature
+- Fake Out
+- Protect
+- Trick Room
+- Psychic
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Atk / 4 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Flare Blitz
+- Will-O-Wisp
+- Snarl
+- Protect
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 100 HP / 156 Atk / 36 Def / 204 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Volt Switch
+- Drain Punch
+- Heavy Slam
+
+Wo-Chien @ Leftovers
+Ability: Tablets of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 244 HP / 156 Def / 4 SpA / 100 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Ruination
+- Pollen Puff
+- Leech Seed
+- Protect

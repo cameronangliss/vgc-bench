@@ -1,0 +1,71 @@
+Whimsicott @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Sunny Day
+- Tailwind
+- Encore
+
+Typhlosion-Hisui @ Choice Specs
+Ability: Blaze
+Level: 50
+Tera Type: Fire
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Eruption
+- Overheat
+- Heat Wave
+- Shadow Ball
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 12 HP / 4 Def / 252 SpA / 36 SpD / 204 Spe
+Timid Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 180 HP / 52 Def / 76 SpA / 180 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Psychic Noise
+- Helping Hand
+- Trick Room
+
+Meowscarada @ Focus Sash
+Ability: Overgrow
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Grass Pledge
+- Protect
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 156 HP / 204 Def / 76 SpA / 68 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Moonblast
+- Water Pledge
+- Protect

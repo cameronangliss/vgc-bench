@@ -1,0 +1,67 @@
+Pelipper (M) @ Eject Button
+Ability: Drizzle
+Level: 50
+Tera Type: Ground
+EVs: 132 HP / 196 SpA / 180 Spe
+Modest Nature
+IVs: 0 Atk
+- Hurricane
+- Tera Blast
+- Tailwind
+- Protect
+
+Dragonite (F) @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Extreme Speed
+- Outrage
+- Dragon Tail
+- Fire Punch
+
+Electrode @ Focus Sash
+Ability: Static
+Level: 50
+Tera Type: Normal
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Explosion
+- Thunder Wave
+- Light Screen
+- Thunderbolt
+
+Flamigo (F) @ Clear Amulet
+Ability: Costar
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- Liquidation
+- Protect
+
+Tatsugiri-Stretchy (M) @ Toxic Orb
+Ability: Commander
+Level: 50
+Tera Type: Normal
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Endure
+- Taunt
+- Helping Hand
+- Muddy Water
+
+Dondozo (F) @ Lum Berry
+Ability: Oblivious
+Level: 50
+Tera Type: Fighting
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Rest
+- Wave Crash
+- Order Up
+- Body Press

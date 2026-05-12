@@ -1,0 +1,70 @@
+Misdreavus @ Eviolite
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 244 Def / 4 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Perish Song
+- Shadow Ball
+- Protect
+- Trick Room
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 26 SpA / 0 Spe
+- Headlong Rush
+- Facade
+- Earthquake
+- Protect
+
+Dondozo @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 4 Def / 252 SpD
+Sassy Nature
+IVs: 0 Spe
+- Wave Crash
+- Yawn
+- Fissure
+- Protect
+
+Amoonguss @ Life Orb
+Ability: Regenerator
+Level: 50
+Tera Type: Fire
+EVs: 236 HP / 20 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Spore
+- Sludge Bomb
+- Leaf Storm
+- Protect
+
+Arcanine-Hisui @ Focus Sash
+Ability: Rock Head
+Level: 50
+Tera Type: Fire
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+IVs: 12 SpA
+- Flare Blitz
+- Head Smash
+- Extreme Speed
+- Protect
+
+Decidueye-Hisui @ Assault Vest
+Ability: Scrappy
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 140 Atk / 4 Def / 4 SpD / 108 Spe
+Adamant Nature
+- Triple Arrows
+- Leaf Blade
+- Upper Hand
+- Shadow Sneak

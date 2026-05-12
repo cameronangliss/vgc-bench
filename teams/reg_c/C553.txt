@@ -1,0 +1,67 @@
+Great Tusk @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Headlong Rush
+- Close Combat
+- Rock Slide
+- Earthquake
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 20 HP / 4 Def / 228 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Freeze-Dry
+- Icy Wind
+- Hydro Pump
+- Protect
+
+Flutter Mane @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 44 Def / 196 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Protect
+
+Talonflame (M) @ Safety Goggles
+Ability: Gale Wings
+Level: 50
+Tera Type: Ghost
+EVs: 204 HP / 20 Atk / 4 Def / 28 SpD / 252 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Will-O-Wisp
+- Taunt
+
+Tyranitar (M) @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 116 HP / 204 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Rock Slide
+- Crunch
+- Tera Blast
+- Low Kick
+
+Tsareena @ Sitrus Berry
+Ability: Queenly Majesty
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 76 Atk / 36 Def / 52 SpD / 92 Spe
+Adamant Nature
+- Power Whip
+- Helping Hand
+- Taunt
+- Protect

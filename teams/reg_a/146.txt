@@ -1,0 +1,65 @@
+Volcarona (M) @ Weakness Policy
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 148 Def / 36 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 0 Atk
+- Giga Drain
+- Heat Wave
+- Quiver Dance
+- Protect
+
+Hariyama @ Flame Orb
+Ability: Guts
+Level: 50
+EVs: 4 HP / 252 Atk / 124 Def / 124 SpD / 4 Spe
+Adamant Nature
+- Close Combat
+- Wide Guard
+- Knock Off
+- Fake Out
+
+Tyranitar (M) @ Life Orb
+Ability: Sand Stream
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Crunch
+- Dragon Dance
+- Protect
+
+Azumarill @ Sitrus Berry
+Ability: Huge Power
+Level: 50
+EVs: 244 HP / 236 Atk / 4 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Belly Drum
+- Aqua Jet
+- Play Rough
+- Protect
+
+Dragapult @ Choice Specs
+Ability: Infiltrator
+Level: 50
+Tera Type: Steel
+EVs: 196 HP / 4 Def / 244 SpA / 4 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Flamethrower
+- Shadow Ball
+- Tera Blast
+
+Toedscruel @ Covert Cloak
+Ability: Mycelium Might
+Level: 50
+EVs: 244 HP / 244 Def / 12 SpA / 4 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Trick Room
+- Rage Powder
+- Spore
+- Earth Power

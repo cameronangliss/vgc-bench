@@ -1,0 +1,70 @@
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Flamethrower
+- Eruption
+- Helping Hand
+- Protect
+
+Lunala @ Covert Cloak
+Ability: Shadow Shield
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Moongeist Beam
+- Moonblast
+- Trick Room
+- Wide Guard
+
+Miraidon @ Life Orb
+Ability: Hadron Engine
+Level: 50
+Tera Type: Electric
+EVs: 60 HP / 4 Def / 252 SpA / 4 SpD / 188 Spe
+Modest Nature
+- Electro Drift
+- Draco Meteor
+- Volt Switch
+- Protect
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Earthquake
+- Protect
+
+Indeedee-F @ Psychic Seed
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 204 HP / 252 SpA / 52 Spe
+Modest Nature
+IVs: 0 Atk
+- Psyshock
+- Shadow Ball
+- Follow Me
+- Trick Room
+
+Tornadus @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Weather Ball
+- Tailwind
+- Protect

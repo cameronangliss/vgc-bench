@@ -1,0 +1,59 @@
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 4 Atk / 1 Def / 15 SpD / 14 Spe
+Careful Nature
+- Roost
+- Brave Bird
+- Bulk Up
+- Tailwind
+
+Garchomp @ Bright Powder
+Ability: Sand Veil
+Level: 50
+EVs: 6 HP / 26 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Protect
+- Stomping Tantrum
+- Dragon Claw
+- Earthquake
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 26 HP / 13 Def / 15 SpA / 12 Spe
+Modest Nature
+- Protect
+- Dazzling Gleam
+- Calm Mind
+- Moonblast
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 16 Atk / 1 Def / 1 SpD / 16 Spe
+Adamant Nature
+- Protect
+- Rock Slide
+- Knock Off
+- Low Kick
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 29 HP / 4 Def / 1 SpA / 32 SpD
+Bold Nature
+- Rage Powder
+- Shadow Ball
+- Trick Room
+- Matcha Gotcha
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 30 SpD / 6 Spe
+Careful Nature
+- Parting Shot
+- Fake Out
+- Flare Blitz
+- Helping Hand

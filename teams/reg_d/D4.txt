@@ -1,0 +1,68 @@
+Glastrier @ Sitrus Berry
+Ability: Chilling Neigh
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+- Icicle Crash
+- Stomping Tantrum
+- Swords Dance
+- Protect
+
+Arcanine @ Choice Band
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 44 HP / 196 Atk / 4 Def / 124 SpD / 140 Spe
+Adamant Nature
+- Flare Blitz
+- Extreme Speed
+- Wild Charge
+- Close Combat
+
+Mimikyu @ Life Orb
+Ability: Disguise
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Shadow Claw
+- Play Rough
+- Shadow Sneak
+- Trick Room
+
+Slowking @ Safety Goggles
+Ability: Oblivious
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 252 Def / 4 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Chilly Reception
+- Heal Pulse
+- Trick Room
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 92 HP / 156 Atk / 4 Def / 244 SpD / 12 Spe
+Adamant Nature
+- Drain Punch
+- Wild Charge
+- Fake Out
+- Volt Switch
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Ghost
+EVs: 12 HP / 244 Atk / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Headlong Rush
+- Low Kick
+- Protect

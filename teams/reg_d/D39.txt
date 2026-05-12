@@ -1,0 +1,68 @@
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Drum Beating
+- Wood Hammer
+- Protect
+- Fake Out
+
+Glastrier @ Assault Vest
+Ability: Chilling Neigh
+Level: 50
+Tera Type: Ground
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 0 Spe
+- Icicle Crash
+- Avalanche
+- Heavy Slam
+- Stomping Tantrum
+
+Ursaluna @ Flame Orb
+Ability: Guts
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+- Headlong Rush
+- Facade
+- Rock Slide
+- Protect
+
+Sneasler @ Grassy Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Swords Dance
+- Protect
+
+Heatran @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Flash Cannon
+- Earth Power
+- Protect
+
+Slowking @ Rocky Helmet
+Ability: Oblivious
+Level: 50
+Tera Type: Fairy
+EVs: 188 HP / 116 Def / 204 SpD
+Sassy Nature
+IVs: 0 Atk
+- Psyshock
+- Heal Pulse
+- Trick Room
+- Chilly Reception

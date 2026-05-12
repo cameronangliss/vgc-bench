@@ -1,0 +1,69 @@
+Politoed @ Wacan Berry
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 116 Def / 156 SpA / 20 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Weather Ball
+- Earth Power
+- Haze
+- Protect
+
+Toxicroak @ Sitrus Berry
+Ability: Dry Skin
+Level: 50
+Tera Type: Dark
+EVs: 140 HP / 108 Atk / 4 Def / 148 SpD / 108 Spe
+Adamant Nature
+- Poison Jab
+- Drain Punch
+- Sucker Punch
+- Taunt
+
+Kingambit @ Safety Goggles
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 196 Atk / 4 Def / 52 SpD / 4 Spe
+Adamant Nature
+IVs: 24 SpA
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Protect
+
+Salamence @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 196 SpA / 60 SpD / 252 Spe
+Timid Nature
+IVs: 28 HP / 0 Atk
+- Hurricane
+- Draco Meteor
+- Protect
+- Tailwind
+
+Clefable @ Rocky Helmet
+Ability: Unaware
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 132 Def / 4 SpA / 116 SpD
+Bold Nature
+IVs: 24 Atk / 2 Spe
+- Moonblast
+- Follow Me
+- Thunder Wave
+- Helping Hand
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 84 HP / 196 Atk / 12 Def / 12 SpD / 204 Spe
+Adamant Nature
+- Grassy Glide
+- Wood Hammer
+- U-turn
+- Fake Out

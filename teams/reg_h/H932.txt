@@ -1,0 +1,71 @@
+Lilligant-Hisui @ Wide Lens
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 4 SpA
+- Close Combat
+- Triple Axel
+- Sleep Powder
+- After You
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Spe
+- Eruption
+- Heat Wave
+- Protect
+- Earth Power
+
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 Def / 4 SpD
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Helping Hand
+- Trick Room
+
+Armarouge @ Focus Sash
+Ability: Weak Armor
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Expanding Force
+- Armor Cannon
+- Aura Sphere
+- Protect
+
+Sneasler @ Psychic Seed
+Ability: Unburden
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+IVs: 16 SpA
+- Dire Claw
+- Close Combat
+- Throat Chop
+- Protect
+
+Milotic @ Sitrus Berry
+Ability: Competitive
+Level: 50
+Tera Type: Grass
+EVs: 172 HP / 252 Def / 76 SpA / 4 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Scald
+- Ice Beam
+- Haze
+- Recover

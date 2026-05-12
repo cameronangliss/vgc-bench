@@ -1,0 +1,73 @@
+Hariyama (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 156 HP / 252 Atk / 100 SpD
+Brave Nature
+IVs: 19 Spe
+- Close Combat
+- Knock Off
+- Bullet Punch
+- Fake Out
+
+Hydreigon @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 156 HP / 4 Def / 196 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Flamethrower
+- Snarl
+
+Gengar @ Focus Sash
+Ability: Cursed Body
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sludge Bomb
+- Shadow Ball
+- Icy Wind
+- Trick Room
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Water
+EVs: 132 HP / 4 Def / 244 SpA / 4 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Tera Blast
+- Protect
+
+Murkrow (M) @ Eviolite
+Ability: Prankster
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 124 Def / 132 SpD
+Calm Nature
+IVs: 0 Atk
+- Foul Play
+- Quash
+- Haze
+- Tailwind
+
+Armarouge @ Safety Goggles
+Ability: Flash Fire
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 212 SpA / 44 SpD
+Modest Nature
+IVs: 0 Atk / 21 Spe
+- Armor Cannon
+- Psychic
+- Wide Guard
+- Trick Room

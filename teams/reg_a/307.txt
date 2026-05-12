@@ -1,0 +1,67 @@
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 140 Def / 116 SpD
+Calm Nature
+- Light Screen
+- Reflect
+- Spirit Break
+- Taunt
+
+Corviknight @ Safety Goggles
+Ability: Mirror Armor
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 60 Atk / 4 Def / 116 SpD / 76 Spe
+Careful Nature
+- Brave Bird
+- Iron Head
+- Roost
+- Tailwind
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 28 Def / 100 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Heat Wave
+- Bug Buzz
+- Protect
+- Quiver Dance
+
+Annihilape @ Assault Vest
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 52 HP / 116 Atk / 52 Def / 60 SpD / 228 Spe
+Adamant Nature
+- Drain Punch
+- Rage Fist
+- Brick Break
+- Ice Punch
+
+Meowscarada @ Life Orb
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Play Rough
+- Protect
+- U-turn
+
+Gastrodon @ Expert Belt
+Ability: Storm Drain
+Level: 50
+Tera Type: Fire
+EVs: 204 HP / 84 Def / 140 SpA / 76 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Earth Power
+- Ice Beam
+- Recover
+- Clear Smog

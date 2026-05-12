@@ -1,0 +1,67 @@
+Tyranitar @ Choice Band
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Low Kick
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Iron Head
+- High Horsepower
+- Earthquake
+- Protect
+
+Salamence @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Poison
+EVs: 244 HP / 92 Def / 4 SpA / 4 SpD / 164 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Air Slash
+- Roost
+- Tailwind
+
+Okidogi @ Assault Vest
+Ability: Guard Dog
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Gunk Shot
+- Drain Punch
+- Knock Off
+- Upper Hand
+
+Corviknight @ Wiki Berry
+Ability: Mirror Armor
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 36 Def / 220 SpD
+Impish Nature
+- Brave Bird
+- U-turn
+- Roost
+- Taunt
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Clear Smog
+- Rage Powder
+- Spore

@@ -1,0 +1,67 @@
+Weezing @ Sitrus Berry
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 4 Atk / 76 Def / 116 SpD / 60 Spe
+Impish Nature
+- Gunk Shot
+- Taunt
+- Will-O-Wisp
+- Protect
+
+Toedscruel @ Life Orb
+Ability: Mycelium Might
+Level: 50
+Tera Type: Fire
+EVs: 60 Def / 196 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Energy Ball
+- Earth Power
+- Spore
+- Protect
+
+Incineroar @ Ability Shield
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 4 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Fake Out
+- Knock Off
+- Flare Blitz
+- Parting Shot
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Dragon
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Phantom Force
+- Outrage
+- U-turn
+
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 196 Atk / 4 Def / 12 SpD / 172 Spe
+Adamant Nature
+- Jet Punch
+- Wave Crash
+- Haze
+- Protect
+
+Kilowattrel @ Focus Sash
+Ability: Competitive
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Volt Switch
+- Air Slash
+- Thunderbolt
+- Tailwind

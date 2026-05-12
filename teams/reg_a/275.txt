@@ -1,0 +1,69 @@
+Meowscarada (F) @ Choice Band
+Ability: Protean
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flower Trick
+- Brick Break
+- Knock Off
+- U-turn
+
+Indeedee-F @ Colbur Berry
+Ability: Psychic Surge
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 196 Def / 4 SpA / 52 SpD / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Follow Me
+- Trick Room
+- Heal Pulse
+
+Annihilape (M) @ Leftovers
+Ability: Vital Spirit
+Level: 50
+Tera Type: Fire
+EVs: 180 HP / 20 Atk / 204 Def / 100 SpD / 4 Spe
+Careful Nature
+- Protect
+- Drain Punch
+- Rage Fist
+- Bulk Up
+
+Armarouge (M) @ Covert Cloak
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 52 Def / 148 SpA / 44 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Calm Mind
+- Armor Cannon
+- Wide Guard
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 60 Def / 4 SpD / 188 Spe
+Timid Nature
+- Beat Up
+- Follow Me
+- Protect
+- Feint
+
+Spiritomb (F) @ Sitrus Berry
+Ability: Infiltrator
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 172 Def / 84 SpD
+Bold Nature
+IVs: 0 Atk / 0 Spe
+- Will-O-Wisp
+- Skill Swap
+- Trick Room
+- Foul Play

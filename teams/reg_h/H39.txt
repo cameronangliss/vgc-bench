@@ -1,0 +1,67 @@
+Palafin @ Mystic Water
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Jet Punch
+- Protect
+- Wave Crash
+- Haze
+
+Basculegion @ Life Orb
+Ability: Swift Swim
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Tera Blast
+- Protect
+
+Pelipper @ Safety Goggles
+Ability: Drizzle
+Level: 50
+Tera Type: Stellar
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Tailwind
+- Wide Guard
+- Hurricane
+- Weather Ball
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Atk / 68 Def / 156 SpD / 28 Spe
+Careful Nature
+- Flare Blitz
+- Parting Shot
+- Fake Out
+- Taunt
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 132 HP / 252 Atk / 4 Def / 68 SpD / 52 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fairy
+EVs: 124 HP / 12 Def / 196 SpA / 116 SpD / 60 Spe
+Modest Nature
+IVs: 0 Atk
+- Flash Cannon
+- Draco Meteor
+- Electro Shot
+- Body Press

@@ -1,0 +1,68 @@
+Skeledirge (M) @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 244 HP / 4 Def / 52 SpA / 204 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Torch Song
+- Will-O-Wisp
+- Shadow Ball
+- Slack Off
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+
+Gothitelle (F) @ Kasib Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Psychic
+EVs: 244 HP / 84 Def / 4 SpA / 4 SpD / 72 Spe
+Bold Nature
+- Protect
+- Hypnosis
+- Fake Out
+- Psychic
+
+Tatsugiri-Droopy (F) @ Wiki Berry
+Ability: Commander
+Level: 50
+Tera Type: Water
+EVs: 228 HP / 4 Def / 228 SpA / 4 SpD / 44 Spe
+Modest Nature
+IVs: 0 Atk
+- Icy Wind
+- Muddy Water
+- Protect
+- Draco Meteor
+
+Pawmot (F) @ Focus Sash
+Ability: Volt Absorb
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Revival Blessing
+- Close Combat
+- Double Shock
+- Fake Out
+
+Dondozo (M) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 28 HP / 244 SpD / 236 Spe
+Careful Nature
+- Rest
+- Body Press
+- Sleep Talk
+- Order Up

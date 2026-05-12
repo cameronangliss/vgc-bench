@@ -1,0 +1,69 @@
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Snarl
+- Tailwind
+- Sunny Day
+- Haze
+
+Great Tusk @ Choice Scarf
+Ability: Protosynthesis
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Headlong Rush
+- Close Combat
+- Rock Slide
+- Earthquake
+
+Brute Bonnet @ Rocky Helmet
+Ability: Protosynthesis
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 36 Atk / 132 Def / 12 SpD / 76 Spe
+Adamant Nature
+- Seed Bomb
+- Sucker Punch
+- Spore
+- Rage Powder
+
+Heatran @ Assault Vest
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 172 HP / 12 Def / 252 SpA / 12 SpD / 60 Spe
+Modest Nature
+- Heat Wave
+- Flash Cannon
+- Earth Power
+- Heavy Slam
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 68 HP / 132 Def / 132 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Dazzling Gleam
+- Moonblast
+- Shadow Ball
+- Thunderbolt
+
+Raging Bolt @ Life Orb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 148 HP / 36 Def / 252 SpA / 4 SpD / 68 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Draco Meteor
+- Thunderclap
+- Protect

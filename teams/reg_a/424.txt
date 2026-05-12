@@ -1,0 +1,68 @@
+Armarouge (M) @ Weakness Policy
+Ability: Weak Armor
+Level: 50
+Tera Type: Dark
+EVs: 116 HP / 12 Def / 252 SpA / 4 SpD / 124 Spe
+Modest Nature
+IVs: 0 Atk
+- Expanding Force
+- Armor Cannon
+- Wide Guard
+- Protect
+
+Indeedee-F @ Colbur Berry
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 228 Def / 28 SpD
+Calm Nature
+IVs: 0 Atk
+- Psychic
+- Follow Me
+- Protect
+- Trick Room
+
+Sylveon (M) @ Throat Spray
+Ability: Pixilate
+Level: 50
+Tera Type: Fire
+EVs: 212 HP / 4 Def / 156 SpA / 4 SpD / 132 Spe
+Modest Nature
+- Hyper Voice
+- Tera Blast
+- Quick Attack
+- Protect
+
+Salamence (M) @ Life Orb
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dual Wingbeat
+- Dragon Claw
+- Brick Break
+- Tailwind
+
+Garchomp (M) @ Assault Vest
+Ability: Rough Skin
+Level: 50
+Tera Type: Steel
+EVs: 172 HP / 92 Atk / 4 Def / 4 SpD / 236 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Stomping Tantrum
+
+Palafin (M) @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+Tera Type: Water
+EVs: 124 HP / 172 Atk / 12 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Wave Crash
+- Flip Turn
+- Close Combat
+- Haze

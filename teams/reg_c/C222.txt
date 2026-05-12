@@ -1,0 +1,69 @@
+Glimmora (F) @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+IVs: 0 Atk
+- Mortal Spin
+- Power Gem
+- Earth Power
+- Energy Ball
+
+Dragonite (M) @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 244 Atk / 12 SpD / 252 Spe
+Adamant Nature
+- Extreme Speed
+- Aerial Ace
+- Outrage
+- Low Kick
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Icy Wind
+- Freeze-Dry
+- Protect
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Overheat
+- Heat Wave
+- Dark Pulse
+- Protect
+
+Dondozo (F) @ Leftovers
+Ability: Unaware
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 76 Atk / 4 Def / 172 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Heavy Slam
+- Protect
+
+Tatsugiri (F) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Sleep Talk

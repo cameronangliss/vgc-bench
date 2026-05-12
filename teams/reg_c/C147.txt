@@ -1,0 +1,66 @@
+Scream Tail @ Mental Herb
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 60 Atk / 60 Def / 36 SpD / 100 Spe
+Jolly Nature
+- Perish Song
+- Protect
+- Trick Room
+- Play Rough
+
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 124 Def / 132 SpD
+Calm Nature
+- Protect
+- Fake Out
+- Psychic
+- Heal Pulse
+
+Ting-Lu @ Assault Vest
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Poison
+EVs: 20 HP / 236 Atk / 92 Def / 4 SpA / 156 SpD
+Brave Nature
+- Stomping Tantrum
+- Stone Edge
+- Throat Chop
+- Heavy Slam
+
+Arcanine @ Safety Goggles
+Ability: Intimidate
+Level: 50
+Tera Type: Normal
+EVs: 52 HP / 252 Atk / 4 Def / 4 SpD / 196 Spe
+Jolly Nature
+- Protect
+- Flare Blitz
+- Close Combat
+- Extreme Speed
+
+Farigiraf @ Choice Specs
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Psychic
+- Dazzling Gleam
+- Trick
+
+Breloom @ Focus Sash
+Ability: Technician
+Level: 50
+Tera Type: Grass
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Bullet Seed
+- Mach Punch
+- Spore
+- Protect

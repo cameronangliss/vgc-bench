@@ -1,0 +1,71 @@
+Incineroar @ Power Weight
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+IVs: 10 SpA / 0 Spe
+- Swords Dance
+- Flare Blitz
+- Knock Off
+- Close Combat
+
+Amoonguss @ Life Orb
+Ability: Effect Spore
+Level: 50
+Tera Type: Rock
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Spe
+- Energy Ball
+- Sludge Bomb
+- Tera Blast
+- Spore
+
+Gengar @ Focus Sash
+Ability: Cursed Body
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Sludge Bomb
+- Sucker Punch
+- Curse
+- Trick Room
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Electric
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Spe
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Snarl
+
+Pelipper @ Choice Specs
+Ability: Drizzle
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Spe
+- Hurricane
+- Weather Ball
+- Muddy Water
+- Ice Beam
+
+Basculegion (M) @ Safety Goggles
+Ability: Adaptability
+Level: 50
+Tera Type: Water
+EVs: 84 HP / 252 Atk / 172 Def
+Brave Nature
+IVs: 0 Spe
+- Protect
+- Wave Crash
+- Aqua Jet
+- Last Respects

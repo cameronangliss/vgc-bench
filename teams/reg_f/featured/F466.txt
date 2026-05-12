@@ -1,0 +1,69 @@
+Mamoswine (M) @ Clear Amulet
+Ability: Thick Fat
+Level: 50
+Tera Type: Poison
+EVs: 60 HP / 236 Atk / 20 Def / 44 SpD / 148 Spe
+Adamant Nature
+- Icicle Crash
+- High Horsepower
+- Ice Shard
+- Protect
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 204 Def / 20 SpA / 4 SpD / 84 Spe
+Timid Nature
+IVs: 4 Atk
+- Protect
+- Moonblast
+- Icy Wind
+- Taunt
+
+Raging Bolt @ Assault Vest
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 76 Def / 100 SpA / 28 SpD / 108 Spe
+Modest Nature
+IVs: 20 Atk
+- Dragon Pulse
+- Thunderclap
+- Thunderbolt
+- Electroweb
+
+Rillaboom @ Meadow Plate
+Ability: Grassy Surge
+Level: 50
+Tera Type: Steel
+EVs: 156 HP / 252 Atk / 20 Def / 4 SpD / 76 Spe
+Adamant Nature
+IVs: 18 SpA
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- Protect
+
+Ogerpon-Hearthflame @ Hearthflame Mask
+Ability: Mold Breaker
+Level: 50
+Tera Type: Fire
+EVs: 124 HP / 92 Atk / 36 Def / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 20 SpA
+- Ivy Cudgel
+- Wood Hammer
+- Stomping Tantrum
+- Spiky Shield
+
+Urshifu-Rapid-Strike @ Splash Plate
+Ability: Unseen Fist
+Level: 50
+Tera Type: Steel
+EVs: 60 HP / 156 Atk / 4 Def / 124 SpD / 164 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Detect

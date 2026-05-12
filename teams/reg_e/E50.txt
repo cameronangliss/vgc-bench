@@ -1,0 +1,69 @@
+Moltres-Galar @ Sitrus Berry
+Ability: Berserk
+Level: 50
+Tera Type: Poison
+EVs: 212 HP / 132 Def / 76 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 0 Atk
+- Fiery Wrath
+- Air Slash
+- Nasty Plot
+- Protect
+
+Sinistcha-Masterpiece @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 12 Def / 148 SpA / 92 SpD / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Matcha Gotcha
+- Rage Powder
+- Strength Sap
+- Trick Room
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 52 Def / 4 SpA / 12 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Blizzard
+- Aurora Veil
+- Protect
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+Level: 50
+Tera Type: Flying
+EVs: 132 HP / 116 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- U-turn
+- Tera Blast
+
+Iron Hands @ Assault Vest
+Ability: Quark Drive
+Level: 50
+Tera Type: Water
+EVs: 76 HP / 156 Atk / 4 Def / 252 SpD / 20 Spe
+Adamant Nature
+- Fake Out
+- Wild Charge
+- Drain Punch
+- Heavy Slam
+
+Heatran @ Leftovers
+Ability: Flash Fire
+Level: 50
+Tera Type: Grass
+EVs: 204 HP / 108 Def / 76 SpA / 44 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Earth Power
+- Tera Blast
+- Protect

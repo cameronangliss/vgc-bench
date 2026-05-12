@@ -1,0 +1,67 @@
+Lunala @ Mental Herb
+Ability: Shadow Shield
+Level: 50
+Tera Type: Dark
+EVs: 252 HP / 92 Def / 4 SpA / 4 SpD / 148 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Moongeist Beam
+- Moonlight
+- Psych Up
+
+Smeargle @ Focus Sash
+Ability: Moody
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+- Spore
+- Follow Me
+- Wide Guard
+- Salt Cure
+
+Muk-Alola @ Leftovers
+Ability: Power of Alchemy
+Level: 50
+Tera Type: Grass
+EVs: 228 HP / 4 Atk / 244 Def / 28 SpD / 4 Spe
+Impish Nature
+- Knock Off
+- Poison Gas
+- Minimize
+- Protect
+
+Flamigo @ White Herb
+Ability: Costar
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Acrobatics
+- Close Combat
+- Substitute
+- Wide Guard
+
+Iron Valiant @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 84 Def / 4 SpA / 52 SpD / 116 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Stored Power
+- Skill Swap
+- Psych Up
+
+Ho-Oh @ Safety Goggles
+Ability: Pressure
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 132 SpD / 140 Spe
+Careful Nature
+- Sacred Fire
+- Brave Bird
+- Psych Up
+- Recover

@@ -1,0 +1,75 @@
+Ursaluna (M) @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 36 HP / 252 Atk / 60 Def / 4 SpA / 156 SpD
+Brave Nature
+IVs: 0 Spe
+- Facade
+- Earthquake
+- Crunch
+- Protect
+
+Glastrier @ Assault Vest
+Ability: Chilling Neigh
+Level: 50
+Tera Type: Ghost
+EVs: 228 HP / 204 Atk / 76 Def
+Brave Nature
+IVs: 0 SpA / 0 Spe
+- Icicle Crash
+- Close Combat
+- Heavy Slam
+- Tera Blast
+
+Dragonite (M) @ Choice Band
+Ability: Multiscale
+Level: 50
+Shiny: Yes
+Tera Type: Normal
+EVs: 220 HP / 252 Atk / 36 Def
+Brave Nature
+IVs: 0 Spe
+- Extreme Speed
+- Aqua Jet
+- Outrage
+- Fire Punch
+
+Cresselia @ Mental Herb
+Ability: Levitate
+Level: 50
+Tera Type: Electric
+EVs: 196 HP / 156 Def / 156 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Lunar Blessing
+- Ally Switch
+- Helping Hand
+- Trick Room
+
+Amoonguss (M) @ Black Sludge
+Ability: Regenerator
+Level: 50
+Shiny: Yes
+Tera Type: Poison
+EVs: 148 HP / 252 Def / 108 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Pollen Puff
+- Clear Smog
+- Rage Powder
+- Spore
+
+Gallade @ Scope Lens
+Ability: Sharpness
+Level: 50
+Shiny: Yes
+Tera Type: Steel
+EVs: 140 HP / 252 Atk / 116 Def
+Brave Nature
+IVs: 0 Spe
+- Psycho Cut
+- Sacred Sword
+- Wide Guard
+- Trick Room

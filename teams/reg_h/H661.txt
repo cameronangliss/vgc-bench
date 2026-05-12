@@ -1,0 +1,66 @@
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+Tera Type: Fairy
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Lava Plume
+- Shadow Ball
+- Eruption
+- Flamethrower
+
+Coalossal @ Maranga Berry
+Ability: Steam Engine
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 4 Atk / 100 Def / 92 SpD / 60 Spe
+Impish Nature
+- Iron Defense
+- Body Press
+- Rock Slide
+- Protect
+
+Meowstic @ Aguav Berry
+Ability: Prankster
+Level: 50
+Tera Type: Normal
+EVs: 252 HP / 100 Def / 156 SpD
+Calm Nature
+- Stored Power
+- Baton Pass
+- Psych Up
+- Protect
+
+Incineroar @ Leftovers
+Ability: Intimidate
+Level: 50
+Tera Type: Dark
+EVs: 244 HP / 44 Atk / 4 Def / 164 SpD / 52 Spe
+Adamant Nature
+- Power Trip
+- Swords Dance
+- Taunt
+- Protect
+
+Slaking @ Life Orb
+Ability: Truant
+Level: 50
+Tera Type: Stellar
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 10 SpA
+- Double-Edge
+- Rock Slide
+- Earthquake
+- Protect
+
+Weezing-Galar @ Focus Sash
+Ability: Neutralizing Gas
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Dazzling Gleam
+- Sludge Bomb
+- Heat Wave
+- Protect

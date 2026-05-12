@@ -1,0 +1,57 @@
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 26 HP / 32 Atk / 8 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick
+
+Kangaskhan (F) @ Silk Scarf
+Ability: Scrappy
+Level: 50
+EVs: 27 HP / 32 Atk / 2 Def / 3 SpD / 2 Spe
+Adamant Nature
+- Last Resort
+- Fake Out
+
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 29 HP / 32 SpA / 5 Spe
+Modest Nature
+- Water Spout
+- Water Pulse
+- Dark Pulse
+- Fake Out
+
+Sinistcha @ Colbur Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 16 HP / 18 Atk / 32 Spe
+Adamant Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 27 HP / 31 Def / 8 SpD
+Bold Nature
+- Hyper Voice
+- Rain Dance
+- Trick Room
+- Helping Hand

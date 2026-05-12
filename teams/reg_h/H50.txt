@@ -1,0 +1,67 @@
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Dark
+EVs: 116 HP / 4 Atk / 76 Def / 196 SpD / 116 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 228 HP / 196 Atk / 4 Def / 4 SpD / 76 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- U-turn
+- Fake Out
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Tera Blast
+- Sucker Punch
+- U-turn
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 36 HP / 4 Def / 252 SpA / 196 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Fairy
+EVs: 180 HP / 52 Def / 76 SpA / 180 SpD / 20 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Psychic Noise
+- Helping Hand
+- Trick Room
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 52 HP / 220 Atk / 156 Def / 12 SpD / 68 Spe
+Adamant Nature
+- Rock Slide
+- Tera Blast
+- Knock Off
+- Low Kick

@@ -1,0 +1,66 @@
+Raichu @ Assault Vest
+Ability: Lightning Rod
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 20 Def / 20 SpA / 12 SpD / 204 Spe
+Timid Nature
+- Electroweb
+- Nuzzle
+- Fake Out
+- Volt Switch
+
+Scizor @ Lum Berry
+Ability: Technician
+Level: 50
+Tera Type: Water
+EVs: 236 HP / 156 Atk / 20 Def / 92 SpD / 4 Spe
+Adamant Nature
+- Bug Bite
+- Bullet Punch
+- Swords Dance
+- Protect
+
+Azumarill @ Sitrus Berry
+Ability: Huge Power
+Level: 50
+Tera Type: Steel
+EVs: 212 HP / 252 Atk / 4 Def / 4 SpD / 36 Spe
+Adamant Nature
+- Play Rough
+- Aqua Jet
+- Belly Drum
+- Protect
+
+Breloom @ Focus Sash
+Ability: Technician
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- Bullet Seed
+- Spore
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 68 Def / 36 SpA / 4 SpD / 148 Spe
+Modest Nature
+IVs: 0 Atk
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Dragonite @ Safety Goggles
+Ability: Multiscale
+Level: 50
+Tera Type: Steel
+EVs: 204 HP / 196 Def / 108 SpD
+Impish Nature
+- Ice Spinner
+- Fire Spin
+- Haze
+- Roost

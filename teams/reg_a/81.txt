@@ -1,0 +1,66 @@
+Braviary @ Life Orb
+Ability: Defiant
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 52 Atk / 4 Def / 4 SpD / 196 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- Tailwind
+- Protect
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Population Bomb
+- Encore
+- Follow Me
+- Protect
+
+Garchomp (F) @ Clear Amulet
+Ability: Rough Skin
+Level: 50
+Tera Type: Ground
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Rotom-Wash @ Choice Specs
+Ability: Levitate
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Thunderbolt
+- Tera Blast
+- Trick
+
+Hydreigon (F) @ Assault Vest
+Ability: Levitate
+Level: 50
+Tera Type: Poison
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Dark Pulse
+- Tera Blast
+- Earth Power
+
+Farigiraf (F) @ Focus Sash
+Ability: Armor Tail
+Level: 50
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hyper Voice
+- Protect
+- Imprison
+- Trick Room

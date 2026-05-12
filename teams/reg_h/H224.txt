@@ -1,0 +1,71 @@
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 156 Def / 12 SpA / 4 SpD / 84 Spe
+Modest Nature
+IVs: 6 Atk
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Tera Type: Fire
+EVs: 172 HP / 252 Atk / 4 Def / 12 SpD / 68 Spe
+Adamant Nature
+IVs: 28 SpA
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+- Protect
+
+Tauros-Paldea-Aqua @ Mirror Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 60 HP / 188 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+IVs: 2 SpA
+- Wave Crash
+- Aqua Jet
+- Close Combat
+- Protect
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Def / 4 SpA / 156 SpD / 20 Spe
+Calm Nature
+IVs: 2 Atk
+- Moonblast
+- Skill Swap
+- Follow Me
+- Protect
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Dragon
+EVs: 116 HP / 4 Def / 132 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Trick
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 12 Def / 76 SpD / 52 Spe
+Adamant Nature
+- Fake Out
+- Wood Hammer
+- Grassy Glide
+- U-turn

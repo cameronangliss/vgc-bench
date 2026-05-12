@@ -1,0 +1,68 @@
+Coalossal @ Weakness Policy
+Ability: Steam Engine
+Level: 50
+Tera Type: Ground
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Protect
+- Flare Blitz
+- Earthquake
+- Rock Slide
+
+Dragapult @ Choice Band
+Ability: Clear Body
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+IVs: 0 SpA
+- Surf
+- Dragon Darts
+- Tera Blast
+- Phantom Force
+
+Dragonite @ Assault Vest
+Ability: Multiscale
+Level: 50
+Tera Type: Flying
+EVs: 252 HP / 124 Atk / 4 Def / 92 SpD / 36 Spe
+Adamant Nature
+- Tera Blast
+- Extreme Speed
+- Aqua Jet
+- Stomping Tantrum
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Flying
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sucker Punch
+- Haze
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 244 HP / 36 Atk / 28 Def / 108 SpD / 92 Spe
+Careful Nature
+IVs: 0 SpA
+- Helping Hand
+- Taunt
+- Waterfall
+- Thunder Wave
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 68 HP / 100 Def / 212 SpA / 4 SpD / 124 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Thunderbolt

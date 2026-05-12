@@ -1,0 +1,68 @@
+Zapdos-Galar @ Grassy Seed
+Ability: Defiant
+Level: 50
+Tera Type: Water
+EVs: 92 HP / 236 Atk / 12 Def / 12 SpD / 156 Spe
+Jolly Nature
+- Acrobatics
+- Thunderous Kick
+- Coaching
+- Protect
+
+Incineroar @ Rocky Helmet
+Ability: Intimidate
+Level: 50
+Tera Type: Ghost
+EVs: 244 HP / 188 Def / 76 SpD
+Impish Nature
+IVs: 13 Spe
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Water
+EVs: 204 HP / 116 Atk / 4 Def / 108 SpD / 76 Spe
+Adamant Nature
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Fake Out
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Level: 50
+Tera Type: Water
+EVs: 172 HP / 76 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- Ivy Cudgel
+- Wood Hammer
+- Follow Me
+- Spiky Shield
+
+Ting-Lu @ Sitrus Berry
+Ability: Vessel of Ruin
+Level: 50
+Tera Type: Fairy
+EVs: 92 HP / 156 Atk / 68 Def / 188 SpD / 4 Spe
+Adamant Nature
+IVs: 13 Spe
+- Stomping Tantrum
+- Payback
+- Tera Blast
+- Protect
+
+Raging Bolt @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 196 HP / 92 Def / 100 SpA / 12 SpD / 108 Spe
+Modest Nature
+IVs: 20 Atk
+- Thunderbolt
+- Dragon Pulse
+- Thunderclap
+- Protect

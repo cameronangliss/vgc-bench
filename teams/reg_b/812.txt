@@ -1,0 +1,70 @@
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 244 SpA / 12 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt
+
+Misdreavus @ Eviolite
+Ability: Levitate
+Level: 50
+Tera Type: Normal
+EVs: 244 HP / 244 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Trick Room
+- Helping Hand
+- Will-O-Wisp
+- Shadow Ball
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Flamethrower
+- Clear Smog
+- Protect
+
+Iron Hands @ Sitrus Berry
+Ability: Quark Drive
+Level: 50
+Tera Type: Grass
+EVs: 148 HP / 100 Atk / 4 Def / 252 SpD
+Brave Nature
+IVs: 0 Spe
+- Drain Punch
+- Thunder Punch
+- Belly Drum
+- Protect
+
+Maushold-Four @ Safety Goggles
+Ability: Friend Guard
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 68 Def / 4 SpA / 180 SpD / 4 Spe
+Timid Nature
+IVs: 0 Atk
+- Follow Me
+- Encore
+- Taunt
+- Protect
+
+Roaring Moon @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Flying
+EVs: 12 HP / 228 Atk / 4 Def / 12 SpD / 252 Spe
+Jolly Nature
+- Acrobatics
+- Snarl
+- Dragon Dance
+- Protect

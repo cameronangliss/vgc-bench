@@ -1,0 +1,67 @@
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 76 Atk / 100 Def / 44 SpD / 36 Spe
+Adamant Nature
+- Extreme Speed
+- Protect
+- Snarl
+- Flare Blitz
+
+Gholdengo @ Metal Coat
+Ability: Good as Gold
+Level: 50
+Shiny: Yes
+Tera Type: Dragon
+EVs: 100 HP / 4 Def / 212 SpA / 4 SpD / 188 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Shiny: Yes
+Tera Type: Flying
+EVs: 236 HP / 204 Atk / 4 Def / 4 SpD / 60 Spe
+Adamant Nature
+- Low Kick
+- Tera Blast
+- Knock Off
+- Rock Slide
+
+Flamigo @ Life Orb
+Ability: Scrappy
+Level: 50
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Brave Bird
+- Detect
+- Upper Hand
+
+Gastrodon-East @ Leftovers
+Ability: Storm Drain
+Level: 50
+Tera Type: Fire
+EVs: 116 HP / 252 Def / 140 SpD
+Bold Nature
+- Clear Smog
+- Yawn
+- Protect
+- Earth Power
+
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 116 Atk / 4 Def / 124 SpD / 12 Spe
+Adamant Nature
+- Grassy Glide
+- Fake Out
+- Wood Hammer
+- U-turn

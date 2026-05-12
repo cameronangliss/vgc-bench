@@ -1,0 +1,67 @@
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Steel
+EVs: 164 HP / 252 Atk / 4 Def / 4 SpD / 84 Spe
+Adamant Nature
+- Waterfall
+- Thunder Wave
+- Taunt
+- Protect
+
+Ursaluna-Bloodmoon @ Life Orb
+Ability: Mind's Eye
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 4 Def / 252 SpA / 44 SpD / 204 Spe
+Modest Nature
+IVs: 0 Atk
+- Blood Moon
+- Hyper Voice
+- Earth Power
+- Protect
+
+Grimmsnarl @ Light Clay
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 28 Atk / 116 Def / 100 SpD / 12 Spe
+Impish Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Thunder Wave
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Tailwind
+- Moonblast
+- Beat Up
+- Taunt
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+Tera Type: Grass
+EVs: 156 HP / 252 Atk / 4 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Close Combat
+- Rage Fist
+- Final Gambit
+- Rock Slide
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Steel
+EVs: 252 HP / 4 Def / 44 SpA / 196 SpD / 12 Spe
+Modest Nature
+IVs: 0 Atk
+- Draco Meteor
+- Flash Cannon
+- Body Press
+- Snarl

@@ -1,0 +1,74 @@
+Indeedee-F @ Rocky Helmet
+Ability: Psychic Surge
+Level: 50
+Shiny: Yes
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Dazzling Gleam
+- Helping Hand
+- Follow Me
+- Trick Room
+
+Armarouge (F) @ Mind Plate
+Ability: Flash Fire
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 228 HP / 4 Def / 200 SpA / 76 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Armor Cannon
+- Expanding Force
+- Wide Guard
+- Trick Room
+
+Ursaluna (F) @ Flame Orb
+Ability: Guts
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 252 HP / 156 Atk / 100 SpD
+Brave Nature
+IVs: 0 Spe
+- Headlong Rush
+- Earthquake
+- Facade
+- Protect
+
+Gardevoir (F) @ Life Orb
+Ability: Telepathy
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Expanding Force
+- Moonblast
+- Trick Room
+- Protect
+
+Torkoal (F) @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Eruption
+- Heat Wave
+- Earth Power
+- Protect
+
+Urshifu (F) @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Dark
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Wicked Blow
+- Sucker Punch
+- U-turn

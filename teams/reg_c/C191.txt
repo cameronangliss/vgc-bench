@@ -1,0 +1,72 @@
+Dondozo (M) @ Leftovers
+Ability: Oblivious
+Level: 50
+Tera Type: Grass
+EVs: 4 HP / 76 Atk / 4 Def / 172 SpD / 252 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Tera Blast
+- Protect
+
+Tatsugiri (F) @ Choice Scarf
+Ability: Commander
+Level: 50
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Muddy Water
+- Icy Wind
+- Sleep Talk
+
+Chi-Yu @ Focus Sash
+Ability: Beads of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Overheat
+- Heat Wave
+- Dark Pulse
+- Protect
+
+Iron Bundle @ Booster Energy
+Ability: Quark Drive
+Level: 50
+Shiny: Yes
+Tera Type: Ice
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Icy Wind
+- Freeze-Dry
+- Protect
+
+Flutter Mane @ Choice Specs
+Ability: Protosynthesis
+Level: 50
+Shiny: Yes
+Tera Type: Fairy
+EVs: 68 HP / 252 Def / 44 SpA / 4 SpD / 140 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt
+
+Glimmora (M) @ Assault Vest
+Ability: Toxic Debris
+Level: 50
+Shiny: Yes
+Tera Type: Grass
+EVs: 252 HP / 156 Def / 100 SpD
+Bold Nature
+- Mortal Spin
+- Power Gem
+- Earth Power
+- Energy Ball

@@ -1,0 +1,68 @@
+Koraidon @ Choice Band
+Ability: Orichalcum Pulse
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 84 Atk / 28 Def / 44 SpD / 100 Spe
+Jolly Nature
+- Collision Course
+- Flare Blitz
+- Heat Crash
+- Wild Charge
+
+Ho-Oh @ Clear Amulet
+Ability: Regenerator
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 76 Atk / 156 Def / 4 SpD / 20 Spe
+Adamant Nature
+- Sacred Fire
+- Brave Bird
+- Tailwind
+- Protect
+
+Incineroar @ Assault Vest
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 180 Def / 76 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Knock Off
+- U-turn
+- Fake Out
+- Flare Blitz
+
+Raging Bolt @ Zap Plate
+Ability: Protosynthesis
+Level: 50
+Tera Type: Electric
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 20 Atk
+- Thunderclap
+- Thunderbolt
+- Draco Meteor
+- Protect
+
+Flutter Mane @ Focus Sash
+Ability: Protosynthesis
+Level: 50
+Tera Type: Normal
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Moonblast
+- Icy Wind
+- Thunder Wave
+- Protect
+
+Iron Treads @ Life Orb
+Ability: Quark Drive
+Level: 50
+Tera Type: Stellar
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Steel Roller
+- High Horsepower
+- Knock Off
+- Protect

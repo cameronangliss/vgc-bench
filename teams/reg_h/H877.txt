@@ -1,0 +1,71 @@
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+Tera Type: Water
+EVs: 252 HP / 156 Atk / 12 Def / 76 SpD / 12 Spe
+Adamant Nature
+IVs: 6 SpA
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Parting Shot
+
+Gholdengo @ Choice Specs
+Ability: Good as Gold
+Level: 50
+Tera Type: Steel
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Make It Rain
+- Shadow Ball
+- Thunderbolt
+- Trick
+
+Smeargle @ Focus Sash
+Ability: Own Tempo
+Level: 50
+Tera Type: Ghost
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 8 Atk / 18 SpA
+- Transform
+- Trick Room
+- Imprison
+- Endeavor
+
+Chesnaught @ Leftovers
+Ability: Bulletproof
+Level: 50
+Tera Type: Electric
+EVs: 236 HP / 244 Def / 28 SpD
+Bold Nature
+IVs: 0 Atk / 4 SpA
+- Body Press
+- Iron Defense
+- Leech Seed
+- Spiky Shield
+
+Archaludon @ Assault Vest
+Ability: Stamina
+Level: 50
+Tera Type: Fighting
+EVs: 140 HP / 116 SpD / 252 Spe
+Timid Nature
+IVs: 14 Atk
+- Flash Cannon
+- Snarl
+- Body Press
+- Electro Shot
+
+Pelipper @ Choice Scarf
+Ability: Drizzle
+Level: 50
+Tera Type: Flying
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 4 Atk
+- Hurricane
+- Weather Ball
+- Icy Wind
+- Tailwind

@@ -1,0 +1,69 @@
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 50
+Tera Type: Flying
+EVs: 124 HP / 252 Atk / 36 Def / 12 SpD / 84 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Tera Blast
+- Low Kick
+
+Excadrill @ Clear Amulet
+Ability: Sand Rush
+Level: 50
+Shiny: Yes
+Tera Type: Ghost
+EVs: 180 HP / 116 Atk / 20 Def / 28 SpD / 164 Spe
+Adamant Nature
+- Earthquake
+- Iron Head
+- High Horsepower
+- Protect
+
+Sinistcha @ Rocky Helmet
+Ability: Hospitality
+Level: 50
+Tera Type: Dark
+EVs: 236 HP / 36 Def / 236 SpD
+Sassy Nature
+IVs: 0 Atk / 0 Spe
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+- Rage Powder
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 68 HP / 252 Atk / 4 Def / 4 SpD / 180 Spe
+Adamant Nature
+- Outrage
+- Extreme Speed
+- Ice Spinner
+- Aerial Ace
+
+Primarina @ Throat Spray
+Ability: Liquid Voice
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 68 Def / 108 SpA / 4 SpD / 76 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Hyper Voice
+- Haze
+- Protect
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+Tera Type: Dragon
+EVs: 252 HP / 28 Def / 36 SpA / 4 SpD / 188 Spe
+Modest Nature
+IVs: 0 Atk
+- Fiery Dance
+- Giga Drain
+- Quiver Dance
+- Protect

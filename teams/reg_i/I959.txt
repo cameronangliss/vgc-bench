@@ -1,0 +1,66 @@
+Groudon @ Clear Amulet
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 20 HP / 236 Atk / 4 Def / 4 SpD / 244 Spe
+Adamant Nature
+- Protect
+- Precipice Blades
+- Heat Crash
+- High Horsepower
+
+Sewaddle @ Choice Scarf
+Ability: Chlorophyll
+Level: 50
+Tera Type: Ghost
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly Nature
+- String Shot
+- Struggle Bug
+- Tera Blast
+- Electroweb
+
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+Level: 50
+Tera Type: Dragon
+EVs: 92 HP / 4 Atk / 244 Def / 4 SpD / 164 Spe
+Impish Nature
+- Protect
+- Body Press
+- Heavy Slam
+- Wide Guard
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Protect
+- Ice Spinner
+- Sucker Punch
+- Taunt
+
+Volcarona @ Covert Cloak
+Ability: Flame Body
+Level: 50
+Tera Type: Grass
+EVs: 252 HP / 116 Def / 4 SpA / 4 SpD / 132 Spe
+Timid Nature
+IVs: 0 Atk
+- Protect
+- Flamethrower
+- Giga Drain
+- Quiver Dance
+
+Ogerpon-Cornerstone (F) @ Cornerstone Mask
+Ability: Sturdy
+Level: 50
+Tera Type: Rock
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Spiky Shield
+- Ivy Cudgel
+- Power Whip
+- Follow Me

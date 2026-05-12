@@ -1,0 +1,67 @@
+Tinkaton @ Clear Amulet
+Ability: Mold Breaker
+Level: 50
+Tera Type: Dragon
+EVs: 156 HP / 36 Atk / 100 Def / 4 SpD / 212 Spe
+Jolly Nature
+- Fake Out
+- Gigaton Hammer
+- Play Rough
+- Encore
+
+Gouging Fire @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Fairy
+EVs: 156 HP / 60 Atk / 4 Def / 36 SpD / 252 Spe
+Jolly Nature
+- Heat Crash
+- Breaking Swipe
+- Howl
+- Burning Bulwark
+
+Urshifu-Rapid-Strike @ Choice Scarf
+Ability: Unseen Fist
+Level: 50
+Tera Type: Poison
+EVs: 132 HP / 76 Atk / 4 Def / 44 SpD / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- U-turn
+
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 196 HP / 116 Atk / 28 Def / 140 SpD / 28 Spe
+Adamant Nature
+- Fake Out
+- Grassy Glide
+- Wood Hammer
+- U-turn
+
+Landorus @ Life Orb
+Ability: Sheer Force
+Level: 50
+Tera Type: Ghost
+EVs: 116 HP / 140 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Sandsear Storm
+- Sludge Bomb
+- Protect
+- Substitute
+
+Tornadus @ Covert Cloak
+Ability: Prankster
+Level: 50
+Tera Type: Steel
+EVs: 204 HP / 236 Def / 4 SpA / 4 SpD / 60 Spe
+Bold Nature
+IVs: 0 Atk
+- Rain Dance
+- Bleakwind Storm
+- Tailwind
+- Protect

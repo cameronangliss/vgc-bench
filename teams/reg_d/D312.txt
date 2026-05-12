@@ -1,0 +1,67 @@
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
+Level: 50
+Tera Type: Fire
+EVs: 252 HP / 36 Atk / 60 Def / 60 SpD / 100 Spe
+Adamant Nature
+- Wood Hammer
+- Fake Out
+- Stomping Tantrum
+- U-turn
+
+Urshifu-Rapid-Strike @ Safety Goggles
+Ability: Unseen Fist
+Level: 50
+Tera Type: Water
+EVs: 220 HP / 156 Atk / 4 Def / 4 SpD / 124 Spe
+Jolly Nature
+- Close Combat
+- Surging Strikes
+- Aqua Jet
+- Protect
+
+Tornadus @ Rocky Helmet
+Ability: Prankster
+Level: 50
+Tera Type: Ghost
+EVs: 164 HP / 100 Def / 68 SpA / 4 SpD / 172 Spe
+Timid Nature
+IVs: 0 Atk
+- Bleakwind Storm
+- Tailwind
+- Taunt
+- Rain Dance
+
+Flutter Mane @ Booster Energy
+Ability: Protosynthesis
+Level: 50
+Tera Type: Water
+EVs: 116 HP / 116 Def / 76 SpA / 4 SpD / 196 Spe
+Modest Nature
+IVs: 0 Atk
+- Moonblast
+- Dazzling Gleam
+- Shadow Ball
+- Protect
+
+Chien-Pao @ Focus Sash
+Ability: Sword of Ruin
+Level: 50
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Icicle Crash
+- Sucker Punch
+- Sacred Sword
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+Level: 50
+Tera Type: Normal
+EVs: 100 HP / 252 Atk / 60 Def / 4 SpD / 92 Spe
+Adamant Nature
+- Extreme Speed
+- Aqua Jet
+- Outrage
+- Stomping Tantrum
