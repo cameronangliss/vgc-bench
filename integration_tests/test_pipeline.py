@@ -41,13 +41,6 @@ requires_server = pytest.mark.skipif(
 )
 
 
-def _init_worker_loop():
-    import vgc_bench.logs2trajs as mod
-
-    mod._READER_LOOP = asyncio.new_event_loop()
-    Thread(target=mod._READER_LOOP.run_forever, daemon=True).start()
-
-
 @pytest.fixture(scope="module")
 def trajectories():
     """Load fixture logs and convert to trajectories via process_logs."""
