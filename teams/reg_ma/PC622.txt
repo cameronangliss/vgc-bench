@@ -1,0 +1,59 @@
+Ariados @ Bright Powder
+Ability: Insomnia
+Level: 50
+EVs: 30 HP / 30 Def / 6 SpD
+Impish Nature
+- Sucker Punch
+- Protect
+- Toxic Thread
+- Rage Powder
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 27 HP / 15 Atk / 24 Spe
+Adamant Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Gardevoir @ Gardevoirite
+Ability: Telepathy
+Level: 50
+EVs: 22 HP / 31 SpA / 13 Spe
+Modest Nature
+- Hyper Voice
+- Psychic
+- Vacuum Wave
+- Protect
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 6 HP / 16 Def / 26 SpA / 18 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Ancient Power
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Flip Turn

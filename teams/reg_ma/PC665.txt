@@ -1,0 +1,59 @@
+Gardevoir @ Gardevoirite
+Ability: Trace
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpA
+Modest Nature
+- Hyper Voice
+- Psyshock
+- Protect
+- Vacuum Wave
+
+Gallade (M) @ Galladite
+Ability: Justified
+Level: 50
+EVs: 27 HP / 14 Def / 25 Spe
+Jolly Nature
+- Drain Punch
+- Rock Slide
+- Throat Chop
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 24 HP / 32 SpA / 10 Spe
+Modest Nature
+- Eruption
+- Weather Ball
+- Heat Wave
+- Protect
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 8 Def / 3 SpD / 23 Spe
+Timid Nature
+- Super Fang
+- Encore
+- Beat Up
+- Follow Me
+
+Spiritomb @ Roseli Berry
+Ability: Infiltrator
+Level: 50
+EVs: 32 HP / 12 Atk / 12 Def / 10 SpD
+Sassy Nature
+- Poltergeist
+- Sucker Punch
+- Trick Room
+- Skill Swap
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 20 Atk / 14 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Psychic Fangs

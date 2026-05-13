@@ -1,0 +1,61 @@
+Incineroar @ White Herb
+Ability: Intimidate
+Level: 50
+Tera Type: Fire
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Flare Blitz
+- Darkest Lariat
+- Close Combat
+- Fake Out
+
+Hatterene @ Fairy Feather
+Ability: Magic Bounce
+Level: 50
+Tera Type: Psychic
+EVs: 27 HP / 7 Def / 32 SpA
+Quiet Nature
+- Psychic
+- Dazzling Gleam
+- Trick Room
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+Tera Type: Normal
+EVs: 29 HP / 3 Def / 2 SpA / 32 SpD
+Modest Nature
+- Hyper Voice
+- Trick Room
+- Psychic
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+Tera Type: Fire
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Earth Power
+- Protect
+
+Kangaskhan (F) @ Silk Scarf
+Ability: Scrappy
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Brave Nature
+- Fake Out
+- Last Resort
+
+Charizard-Mega-Y @ Charizardite Y
+Ability: Drought
+Level: 50
+EVs: 22 HP / 17 Def / 11 SpA / 16 Spe
+Modest Nature
+- Heat Wave
+- Overheat
+- Solar Beam
+- Protect

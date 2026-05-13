@@ -1,0 +1,59 @@
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 11 Def / 24 SpD
+Bold Nature
+- Hurricane
+- Weather Ball
+- Tailwind
+- Wide Guard
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Wave Crash
+- Flip Turn
+- Last Respects
+- Psychic Fangs
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 30 HP / 1 Def / 3 SpA / 29 SpD / 3 Spe
+Bold Nature
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 28 HP / 2 Atk / 29 Def / 3 SpD / 4 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Protect
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 17 Def / 7 SpD / 10 Spe
+Timid Nature
+- Thunder Wave
+- Rain Dance
+- Follow Me
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 10 HP / 31 Def / 16 SpA / 9 Spe
+Modest Nature
+- Dazzling Gleam
+- Draining Kiss
+- Calm Mind
+- Protect

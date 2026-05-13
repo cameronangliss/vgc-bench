@@ -1,0 +1,59 @@
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Aqua Jet
+- Wave Crash
+- Last Respects
+- Flip Turn
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+EVs: 32 HP / 26 Def / 5 SpA / 3 Spe
+Modest Nature
+- Heat Wave
+- Rage Powder
+- Protect
+- Tailwind
+
+Espathra @ Focus Sash
+Ability: Speed Boost
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Lumina Crash
+- Sunny Day
+- Rain Dance
+- Protect
+
+Rotom-Heat @ Leftovers
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 1 Def / 25 SpA / 1 SpD / 7 Spe
+Modest Nature
+- Thunderbolt
+- Will-O-Wisp
+- Protect
+- Overheat
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 14 HP / 20 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Protect
+- Light of Ruin
+- Dazzling Gleam
+
+Archaludon @ Chople Berry
+Ability: Stamina
+Level: 50
+EVs: 2 HP / 25 SpA / 15 SpD / 24 Spe
+Modest Nature
+- Flash Cannon
+- Aura Sphere
+- Electro Shot
+- Protect

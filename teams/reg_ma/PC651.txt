@@ -1,0 +1,59 @@
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 HP / 1 Atk / 28 Def / 1 SpD / 4 Spe
+Adamant Nature
+- Protect
+- Dire Claw
+- Close Combat
+- Fake Out
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 20 Atk / 2 Def / 12 Spe
+Adamant Nature
+- Protect
+- Kowtow Cleave
+- Low Kick
+- Sucker Punch
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Protect
+- Aqua Jet
+- Last Respects
+- Liquidation
+
+Froslass (F) @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 15 Def / 1 SpA / 18 Spe
+Timid Nature
+- Protect
+- Aurora Veil
+- Shadow Ball
+- Blizzard
+
+Garchomp @ Roseli Berry
+Ability: Rough Skin
+Level: 50
+EVs: 22 HP / 20 Atk / 1 Def / 23 Spe
+Adamant Nature
+- Protect
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 17 HP / 32 Atk / 17 Spe
+Adamant Nature
+- Dragon Claw
+- Tailwind
+- Extreme Speed
+- Low Kick

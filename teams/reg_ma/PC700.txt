@@ -1,0 +1,59 @@
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 2 HP / 32 Atk / 1 SpD / 31 Spe
+Adamant Nature
+- Protect
+- Dual Wingbeat
+- Flare Blitz
+- Tailwind
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 15 HP / 1 Def / 28 SpA / 1 SpD / 21 Spe
+Timid Nature
+- Spiky Shield
+- Power Gem
+- Sludge Bomb
+- Earth Power
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+EVs: 12 HP / 24 Atk / 2 Def / 9 SpD / 19 Spe
+Jolly Nature
+- Protect
+- Earthquake
+- Dragon Claw
+- Swords Dance
+
+Ninetales-Alola @ Choice Scarf
+Ability: Snow Warning
+Level: 50
+EVs: 11 HP / 1 Def / 25 SpA / 1 SpD / 28 Spe
+Modest Nature
+- Blizzard
+- Icy Wind
+- Freeze-Dry
+- Moonblast
+
+Aegislash @ Focus Sash
+Ability: Stance Change
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- King's Shield
+- Poltergeist
+- Shadow Sneak
+- Close Combat
+
+Rotom-Wash @ Magnet
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 2 Def / 15 SpA / 5 SpD / 12 Spe
+Modest Nature
+- Protect
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp

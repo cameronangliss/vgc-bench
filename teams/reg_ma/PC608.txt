@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 28 HP / 11 Def / 18 SpA / 9 Spe
+Modest Nature
+- Protect
+- Calm Mind
+- Draining Kiss
+- Dazzling Gleam
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 8 HP / 30 Atk / 1 Def / 27 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 28 HP / 11 Def / 12 SpA / 15 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Weather Ball
+- Protect
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 27 HP / 24 Def / 15 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Protect
+- Life Dew
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 15 Def / 10 SpD / 9 Spe
+Careful Nature
+- Flare Blitz
+- Fake Out
+- Darkest Lariat
+- Parting Shot

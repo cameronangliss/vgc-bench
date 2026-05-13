@@ -1,0 +1,59 @@
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 26 HP / 21 Def / 1 SpA / 14 SpD / 4 Spe
+Bold Nature
+- Twin Beam
+- Protect
+- Helping Hand
+- Trick Room
+
+Gardevoir @ Gardevoirite
+Ability: Trace
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Modest Nature
+- Hyper Voice
+- Psyshock
+- Protect
+- Trick Room
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Body Press
+- Heat Wave
+- Earth Power
+
+Gallade (M) @ Choice Scarf
+Ability: Sharpness
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Psycho Cut
+- Sacred Sword
+- Leaf Blade
+- Night Slash
+
+Greninja @ Focus Sash
+Ability: Protean
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Low Kick
+- Ice Punch
+- Gunk Shot
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Draco Meteor
+- Flamethrower
+- Dragon Pulse
+- Extreme Speed

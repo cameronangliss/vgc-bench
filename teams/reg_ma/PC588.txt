@@ -1,0 +1,59 @@
+Froslass (F) @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 30 HP / 1 Def / 2 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Blizzard
+- Taunt
+- Shadow Ball
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Close Combat
+- Feint
+- Dire Claw
+- Fake Out
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 21 HP / 32 Atk / 13 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Tailwind
+- Low Kick
+
+Meowscarada @ Choice Scarf
+Ability: Protean
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Triple Axel
+- Thunder Punch
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+EVs: 32 HP / 32 Def / 1 SpA / 1 Spe
+Bold Nature
+- Heat Wave
+- Tailwind
+- Rage Powder
+- Protect

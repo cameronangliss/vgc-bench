@@ -1,0 +1,59 @@
+Decidueye-Hisui @ Scope Lens
+Ability: Scrappy
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- Leaf Blade
+- Triple Arrows
+- Sucker Punch
+- Protect
+
+Zoroark-Hisui @ Choice Scarf
+Ability: Illusion
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Shadow Ball
+- Icy Wind
+- Psychic
+- Flamethrower
+
+Liepard @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Knock Off
+- Thunder Wave
+- Encore
+- Fake Out
+
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 8 HP / 32 Atk / 26 Def
+Adamant Nature
+- Bullet Punch
+- Swords Dance
+- Bug Bite
+- Protect
+
+Starmie @ Hard Stone
+Ability: Natural Cure
+Level: 50
+EVs: 10 Def / 32 SpA / 1 SpD / 23 Spe
+Timid Nature
+- Power Gem
+- Reflect
+- Ice Beam
+- Protect
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield

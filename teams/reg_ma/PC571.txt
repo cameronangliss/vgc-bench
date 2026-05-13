@@ -1,0 +1,59 @@
+Manectric @ Manectite
+Ability: Lightning Rod
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpA / 32 Spe
+Timid Nature
+- Protect
+- Volt Switch
+- Snarl
+- Thunder
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 20 HP / 31 Def / 15 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Rain Dance
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 5 SpA / 16 SpD / 13 Spe
+Modest Nature
+- Electro Shot
+- Protect
+- Dragon Pulse
+- Flash Cannon
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Wide Guard
+- Weather Ball
+- Hurricane
+- Tailwind
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Flip Turn
+- Wave Crash
+- Last Respects
+- Aqua Jet
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Bold Nature
+- Matcha Gotcha
+- Protect
+- Rage Powder
+- Trick Room

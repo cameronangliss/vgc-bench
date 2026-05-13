@@ -1,0 +1,59 @@
+Blastoise @ Sitrus Berry
+Ability: Torrent
+Level: 50
+EVs: 32 HP / 18 Def / 15 SpD / 1 Spe
+Sassy Nature
+- Protect
+- Flip Turn
+- Fake Out
+- Yawn
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 7 Atk / 2 SpD / 25 Spe
+Adamant Nature
+- Protect
+- Rock Slide
+- Knock Off
+- Dragon Dance
+
+Incineroar @ Leftovers
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 21 Def / 13 SpD
+Relaxed Nature
+- Flare Blitz
+- Fake Out
+- Parting Shot
+- Protect
+
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 14 HP / 29 Def / 23 Spe
+Modest Nature
+- Shadow Ball
+- Sludge Bomb
+- Perish Song
+- Protect
+
+Kommo-o @ Haban Berry
+Ability: Soundproof
+Level: 50
+EVs: 7 HP / 32 SpA / 27 Spe
+Hasty Nature
+- Clanging Scales
+- Drain Punch
+- Clangorous Soul
+- Protect
+
+Sinistcha @ Colbur Berry
+Ability: Hospitality
+Level: 50
+EVs: 29 HP / 5 Def / 32 SpD
+Sassy Nature
+- Matcha Gotcha
+- Life Dew
+- Protect
+- Rage Powder

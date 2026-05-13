@@ -1,0 +1,59 @@
+Slowbro @ Slowbronite
+Ability: Oblivious
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Sassy Nature
+- Body Press
+- Iron Defense
+- Amnesia
+- Slack Off
+
+Meowstic (M) @ Mental Herb
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 2 Def / 32 Spe
+Timid Nature
+- Psychic Terrain
+- Light Screen
+- Reflect
+- Helping Hand
+
+Armarouge @ Twisted Spoon
+Ability: Flash Fire
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpA
+Quiet Nature
+- Armor Cannon
+- Expanding Force
+- Energy Ball
+- Trick Room
+
+Gallade (M) @ Scope Lens
+Ability: Sharpness
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Psycho Cut
+- Sacred Sword
+- Night Slash
+- Wide Guard
+
+Oranguru @ Sitrus Berry
+Ability: Inner Focus
+Level: 50
+EVs: 32 HP / 30 Def / 4 SpD
+Relaxed Nature
+- Foul Play
+- Psychic Terrain
+- Instruct
+- Trick Room
+
+Gardevoir @ Gardevoirite
+Ability: Trace
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Expanding Force
+- Hyper Voice
+- Shadow Ball
+- Protect

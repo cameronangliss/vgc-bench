@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Choice Scarf
+Ability: Flower Veil
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Light of Ruin
+- Dazzling Gleam
+- Moonblast
+- Trick
+
+Kingambit @ Black Glasses
+Ability: Supreme Overlord
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Kowtow Cleave
+- Low Kick
+- Sucker Punch
+- Protect
+
+Banette @ Banettite
+Ability: Frisk
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Poltergeist
+- Shadow Sneak
+- Encore
+- Destiny Bond
+
+Kommo-o @ Dragon Fang
+Ability: Bulletproof
+Level: 50
+EVs: 7 HP / 32 SpA / 1 SpD / 26 Spe
+Modest Nature
+- Clanging Scales
+- Draco Meteor
+- Aura Sphere
+- Protect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Last Respects
+- Liquidation
+- Aqua Jet
+- Protect
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 21 Def / 15 SpD
+Adamant Nature
+- Flare Blitz
+- Howl
+- Extreme Speed
+- Protect

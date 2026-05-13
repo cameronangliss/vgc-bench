@@ -1,0 +1,59 @@
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 8 SpD / 26 Spe
+Timid Nature
+- Shadow Ball
+- Perish Song
+- Disable
+- Protect
+
+Blastoise @ Leftovers
+Ability: Rain Dish
+Level: 50
+EVs: 32 HP / 30 Def / 4 SpD
+Impish Nature
+- Flip Turn
+- Fake Out
+- Yawn
+- Protect
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 24 Def / 8 SpD / 2 Spe
+Bold Nature
+- Matcha Gotcha
+- Strength Sap
+- Rage Powder
+- Life Dew
+
+Altaria @ Haban Berry
+Ability: Cloud Nine
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Bold Nature
+- Roost
+- Perish Song
+- Will-O-Wisp
+- Protect
+
+Mimikyu @ Spell Tag
+Ability: Disguise
+Level: 50
+EVs: 27 HP / 32 Atk / 7 Def
+Adamant Nature
+- Shadow Claw
+- Drain Punch
+- Shadow Sneak
+- Swords Dance
+
+Umbreon @ Roseli Berry
+Ability: Inner Focus
+Level: 50
+EVs: 32 HP / 30 Def / 4 SpD
+Relaxed Nature
+- Foul Play
+- Moonlight
+- Yawn
+- Reflect

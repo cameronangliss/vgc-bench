@@ -1,0 +1,59 @@
+Lucario @ Lucarionite
+Ability: Inner Focus
+Level: 50
+EVs: 6 HP / 32 SpA / 28 Spe
+Timid Nature
+- Steel Beam
+- Aura Sphere
+- Vacuum Wave
+- Detect
+
+Kingambit @ Chople Berry
+Ability: Supreme Overlord
+Level: 50
+EVs: 32 HP / 20 Atk / 2 Def / 12 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Protect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect
+
+Arbok @ Choice Scarf
+Ability: Unnerve
+Level: 50
+EVs: 24 HP / 15 Atk / 27 Spe
+Adamant Nature
+- Gunk Shot
+- Knock Off
+- Haze
+- Switcheroo
+
+Garchomp @ Roseli Berry
+Ability: Rough Skin
+Level: 50
+EVs: 22 HP / 20 Atk / 1 Def / 23 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- Protect
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 17 HP / 32 Atk / 17 Spe
+Adamant Nature
+- Dragon Claw
+- Low Kick
+- Extreme Speed
+- Tailwind

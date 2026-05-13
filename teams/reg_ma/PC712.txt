@@ -1,0 +1,59 @@
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Water Spout
+- Dark Pulse
+- Shell Smash
+- Fake Out
+
+Vivillon-Fancy @ Choice Scarf
+Ability: Compound Eyes
+Level: 50
+EVs: 24 Def / 10 SpD / 32 Spe
+Timid Nature
+- Hurricane
+- Sleep Powder
+- Tailwind
+- Rage Powder
+
+Garchomp @ Garchompite
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Earthquake
+- Iron Head
+- Rock Tomb
+- Protect
+
+Orthworm @ Sitrus Berry
+Ability: Earth Eater
+Level: 50
+EVs: 31 HP / 3 Def / 32 SpD
+Impish Nature
+- Body Press
+- Heavy Slam
+- Protect
+- Shed Tail
+
+Vanilluxe @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Modest Nature
+- Blizzard
+- Freeze-Dry
+- Ice Shard
+- Protect
+
+Tsareena (F) @ King's Rock
+Ability: Queenly Majesty
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Trop Kick
+- Low Kick
+- Fling
+- Protect

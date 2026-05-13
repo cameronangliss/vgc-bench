@@ -1,0 +1,59 @@
+Banette @ Banettite
+Ability: Frisk
+Level: 50
+EVs: 32 HP / 5 Atk / 11 Def / 18 SpD
+Brave Nature
+- Poltergeist
+- Will-O-Wisp
+- Rain Dance
+- Destiny Bond
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet
+
+Mimikyu @ Babiri Berry
+Ability: Disguise
+Level: 50
+EVs: 32 HP / 30 Atk / 4 Def
+Adamant Nature
+- Play Rough
+- Shadow Sneak
+- Swords Dance
+- Trick Room
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 19 Atk / 11 Def / 1 SpD / 3 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Low Kick
+- Sucker Punch
+
+Archaludon @ Dragon Fang
+Ability: Stalwart
+Level: 50
+EVs: 1 HP / 31 SpA / 2 SpD / 32 Spe
+Modest Nature
+- Draco Meteor
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 30 Atk / 3 Def / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Rock Slide
+- Fake Out

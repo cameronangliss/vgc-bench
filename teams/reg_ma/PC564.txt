@@ -1,0 +1,59 @@
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 14 HP / 15 Atk / 13 Def / 3 SpD / 21 Spe
+Adamant Nature
+- Extreme Speed
+- Dragon Claw
+- Tailwind
+- Protect
+
+Rotom-Wash @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 1 HP / 9 Def / 20 SpA / 13 SpD / 23 Spe
+Timid Nature
+- Trick
+- Hydro Pump
+- Volt Switch
+- Electroweb
+
+Garchomp @ Yache Berry
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Earthquake
+- Rock Slide
+- Dragon Claw
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 20 HP / 20 Def / 10 SpA / 15 SpD / 1 Spe
+Bold Nature
+- Muddy Water
+- Life Dew
+- Coil
+- Hypnosis
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 8 Def / 1 SpA / 24 SpD / 1 Spe
+Calm Nature
+- Life Dew
+- Rage Powder
+- Protect
+- Matcha Gotcha

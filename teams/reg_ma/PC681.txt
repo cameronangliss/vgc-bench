@@ -1,0 +1,59 @@
+Klefki @ Sitrus Berry
+Ability: Prankster
+Level: 50
+EVs: 28 HP / 32 SpA / 6 Spe
+Modest Nature
+- Steel Beam
+- Dazzling Gleam
+- Rain Dance
+- Thunder Wave
+
+Scovillain @ Scovillainite
+Ability: Moody
+Level: 50
+EVs: 32 HP / 15 Def / 4 SpA / 15 SpD
+Quiet Nature
+- Leech Seed
+- Rage Powder
+- Giga Drain
+- Flamethrower
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 5 HP / 29 Atk / 32 Spe
+Jolly Nature
+- Last Respects
+- Flip Turn
+- Wave Crash
+- Aqua Jet
+
+Archaludon @ White Herb
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 20 SpA / 8 SpD / 6 Spe
+Timid Nature
+- Draco Meteor
+- Electro Shot
+- Aura Sphere
+- Flash Cannon
+
+Kangaskhan (F) @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 26 HP / 25 Atk / 15 Spe
+Adamant Nature
+- Double-Edge
+- Fake Out
+- Protect
+- Sucker Punch
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- Wide Guard

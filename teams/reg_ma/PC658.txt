@@ -1,0 +1,59 @@
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Feint
+- Rain Dance
+- Follow Me
+- Protect
+
+Weavile @ King's Rock
+Ability: Pressure
+Level: 50
+EVs: 12 HP / 4 Atk / 5 Def / 13 SpD / 32 Spe
+Jolly Nature
+- Triple Axel
+- Fling
+- Helping Hand
+- Fake Out
+
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 4 HP / 31 SpA / 31 Spe
+Modest Nature
+- Water Spout
+- Dark Pulse
+- Shell Smash
+- Protect
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 12 HP / 23 Def / 10 SpA / 17 SpD / 4 Spe
+Modest Nature
+- Hyper Voice
+- Psychic
+- Ally Switch
+- Trick Room
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 14 Def / 21 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Protect
+
+Scizor @ Metal Coat
+Ability: Technician
+Level: 50
+EVs: 30 HP / 31 Atk / 3 SpD / 2 Spe
+Adamant Nature
+- Bug Bite
+- Bullet Punch
+- Close Combat
+- Protect

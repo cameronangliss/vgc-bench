@@ -1,0 +1,59 @@
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 29 HP / 20 Def / 17 SpD
+Relaxed Nature
+- Trick Room
+- Psyshock
+- Helping Hand
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 7 HP / 27 Def / 32 SpA
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Helping Hand
+- Protect
+
+Camerupt @ Cameruptite
+Ability: Solid Rock
+Level: 50
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Eruption
+- Heat Wave
+- Earth Power
+- Protect
+
+Froslass (F) @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 30 HP / 2 Def / 2 SpA / 1 SpD / 31 Spe
+Modest Nature
+- Blizzard
+- Shadow Ball
+- Aurora Veil
+- Protect
+
+Garchomp @ White Herb
+Ability: Rough Skin
+Level: 50
+EVs: 32 HP / 13 Atk / 1 Def / 1 SpD / 19 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect

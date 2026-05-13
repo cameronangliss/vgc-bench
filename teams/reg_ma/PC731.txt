@@ -1,0 +1,59 @@
+Abomasnow @ Abomasite
+Ability: Snow Warning
+Level: 50
+EVs: 8 HP / 27 Def / 28 SpA / 3 SpD
+Modest Nature
+- Blizzard
+- Leaf Storm
+- Ice Shard
+- Earth Power
+
+Gallade (M) @ Galladite
+Ability: Justified
+Level: 50
+EVs: 10 HP / 30 Atk / 26 Spe
+Jolly Nature
+- Drain Punch
+- Throat Chop
+- Rock Slide
+- Protect
+
+Spiritomb @ Roseli Berry
+Ability: Infiltrator
+Level: 50
+EVs: 32 HP / 12 Atk / 12 Def / 10 SpD
+Sassy Nature
+- Poltergeist
+- Helping Hand
+- Trick Room
+- Skill Swap
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 24 HP / 32 SpA / 10 Spe
+Modest Nature
+- Eruption
+- Weather Ball
+- Ancient Power
+- Protect
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 22 Def / 2 SpD / 10 Spe
+Jolly Nature
+- Feint
+- Super Fang
+- Beat Up
+- Follow Me
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 23 Atk / 14 Def / 29 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Head Smash

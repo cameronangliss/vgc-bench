@@ -1,0 +1,59 @@
+Mimikyu @ Spell Tag
+Ability: Disguise
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Play Rough
+- Shadow Claw
+- Shadow Sneak
+- Trick Room
+
+Tsareena (F) @ Choice Scarf
+Ability: Queenly Majesty
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Trop Kick
+- U-turn
+- Zen Headbutt
+- Triple Axel
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Drampa @ Drampanite
+Ability: Cloud Nine
+Level: 50
+EVs: 11 HP / 32 SpA / 1 SpD / 22 Spe
+Modest Nature
+- Hyper Beam
+- Heat Wave
+- Dragon Pulse
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 6 HP / 16 Atk / 27 Def / 17 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Protect
+
+Mamoswine @ Focus Sash
+Ability: Oblivious
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Earthquake
+- Icicle Crash
+- Ice Shard
+- Protect

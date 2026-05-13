@@ -1,0 +1,59 @@
+Farigiraf @ Black Belt
+Ability: Armor Tail
+Level: 50
+EVs: 32 Atk / 6 Def / 28 Spe
+Adamant Nature
+- Helping Hand
+- Trick Room
+- Sunny Day
+- Low Kick
+
+Chandelure @ Chandelurite
+Ability: Flash Fire
+Level: 50
+EVs: 27 HP / 32 SpA / 7 Spe
+Modest Nature
+- Protect
+- Calm Mind
+- Shadow Ball
+- Heat Wave
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 5 HP / 32 Atk / 1 Def / 4 SpD / 24 Spe
+Adamant Nature
+- Dragon Rush
+- Rock Slide
+- Stomping Tantrum
+- Earthquake
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Rage Powder
+- Sleep Powder
+- Pollen Puff
+
+Dragapult @ Dragon Fang
+Ability: Clear Body
+Level: 50
+EVs: 32 Atk / 5 SpD / 29 Spe
+Adamant Nature
+- Protect
+- Sunny Day
+- Psychic Fangs
+- Dragon Darts
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 32 Atk / 7 SpD / 27 Spe
+Jolly Nature
+- Protect
+- Tailwind
+- Flare Blitz
+- Dual Wingbeat

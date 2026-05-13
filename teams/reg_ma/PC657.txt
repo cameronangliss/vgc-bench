@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 9 Def / 1 SpA / 24 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Talonflame @ Focus Sash
+Ability: Gale Wings
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dual Wingbeat
+- Tailwind
+- Protect
+- Upper Hand
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 19 HP / 20 Atk / 27 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+- Dragon Claw
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 2 Def / 5 SpA / 27 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 HP / 19 Def / 15 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Feint
+- Taunt
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 30 HP / 25 Atk / 11 Spe
+Adamant Nature
+- Iron Head
+- Sucker Punch
+- Low Kick
+- Kowtow Cleave

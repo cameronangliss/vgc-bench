@@ -1,0 +1,59 @@
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Head Smash
+- Flip Turn
+
+Aggron @ Aggronite
+Ability: Sturdy
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Sassy Nature
+- Body Press
+- Heavy Slam
+- Protect
+- Iron Defense
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+EVs: 10 HP / 30 Atk / 3 Def / 23 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect
+
+Maushold-Four @ Sitrus Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 30 Def / 4 SpD
+Bold Nature
+- Super Fang
+- Follow Me
+- Encore
+- Protect
+
+Meganium @ Meganiumite
+Ability: Overgrow
+Level: 50
+EVs: 14 HP / 1 Def / 27 SpA / 24 Spe
+Modest Nature
+- Solar Beam
+- Weather Ball
+- Dazzling Gleam
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 32 Def / 1 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Moonblast
+- Encore
+- Tailwind
+- Endeavor

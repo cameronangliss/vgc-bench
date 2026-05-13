@@ -1,0 +1,59 @@
+Luxray @ Leftovers
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 13 Def / 5 SpA / 15 SpD / 1 Spe
+Modest Nature
+- Thunder
+- Snarl
+- Baby-Doll Eyes
+- Volt Switch
+
+Pelipper @ Mystic Water
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 5 SpA / 30 SpD
+Calm Nature
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Helping Hand
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Calm Nature
+- Shadow Ball
+- Rage Powder
+- Life Dew
+- Trick Room
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 32 HP / 1 Def / 10 SpA / 23 Spe
+Modest Nature
+- Hurricane
+- Draco Meteor
+- Tailwind
+- Protect
+
+Weavile @ Focus Sash
+Ability: Pickpocket
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Fake Out
+- Icicle Crash
+- Low Kick
+- Knock Off
+
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 24 HP / 30 Atk / 9 Def / 1 SpD / 2 Spe
+Adamant Nature
+- Bullet Punch
+- Bug Bite
+- Swords Dance
+- Protect

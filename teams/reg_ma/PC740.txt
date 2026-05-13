@@ -1,0 +1,59 @@
+Espathra @ Mental Herb
+Ability: Speed Boost
+Level: 50
+EVs: 24 HP / 26 Def / 10 SpD / 6 Spe
+Timid Nature
+- Lumina Crash
+- Calm Mind
+- Baton Pass
+- Protect
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 2 Def / 32 Spe
+Timid Nature
+- Follow Me
+- Taunt
+- Helping Hand
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 24 Def / 5 SpA / 5 Spe
+Modest Nature
+- Dazzling Gleam
+- Moonblast
+- Draining Kiss
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 20 HP / 30 Def / 16 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Coaching
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Careful Nature
+- Fake Out
+- Reflect
+- Encore
+- Taunt
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 26 Def / 1 SpA / 7 Spe
+Modest Nature
+- Heat Wave
+- Psychic
+- Substitute
+- Protect

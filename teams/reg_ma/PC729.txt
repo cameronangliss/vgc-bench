@@ -1,0 +1,59 @@
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Protect
+- Fake Out
+
+Kingambit @ Focus Sash
+Ability: Supreme Overlord
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+- Iron Head
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
+- Protect
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 18 Def / 15 SpD
+Careful Nature
+- Super Fang
+- Follow Me
+- Protect
+- Helping Hand
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 9 Def / 21 SpA / 4 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 6 HP / 8 Atk / 15 Def / 5 SpD / 32 Spe
+Jolly Nature
+- Last Respects
+- Aqua Jet
+- Wave Crash
+- Flip Turn

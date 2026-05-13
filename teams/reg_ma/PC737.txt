@@ -1,0 +1,59 @@
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Modest Nature
+- Water Spout
+- Dark Pulse
+- Aura Sphere
+- Fake Out
+
+Slowking-Galar @ Mental Herb
+Ability: Regenerator
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Relaxed Nature
+- Acid Spray
+- Heal Pulse
+- Trick Room
+- Rain Dance
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 14 HP / 22 Def / 30 SpA
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Moonblast
+- Detect
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 32 HP / 10 Atk / 8 SpD / 16 Spe
+Adamant Nature
+- Stomping Tantrum
+- Dragon Claw
+- Rock Tomb
+- Protect
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 15 Atk / 19 SpD / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Kingambit @ Focus Sash
+Ability: Supreme Overlord
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Kowtow Cleave
+- Low Kick
+- Sucker Punch
+- Protect

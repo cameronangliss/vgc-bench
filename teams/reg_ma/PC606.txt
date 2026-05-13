@@ -1,0 +1,59 @@
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 4 HP / 32 Atk / 30 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Feint
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 1 SpD / 1 Spe
+Adamant Nature
+- Kowtow Cleave
+- Swords Dance
+- Sucker Punch
+- Protect
+
+Garchomp @ Roseli Berry
+Ability: Rough Skin
+Level: 50
+EVs: 4 HP / 30 Atk / 32 Spe
+Adamant Nature
+- Stomping Tantrum
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 11 Def / 15 SpA / 8 Spe
+Modest Nature
+- Moonblast
+- Light of Ruin
+- Dazzling Gleam
+- Protect
+
+Rotom-Wash @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 5 SpA / 29 Spe
+Modest Nature
+- Electroweb
+- Hydro Pump
+- Thunderbolt
+- Trick

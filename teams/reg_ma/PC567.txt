@@ -1,0 +1,59 @@
+Dragapult @ Focus Sash
+Ability: Cursed Body
+Level: 50
+EVs: 2 Atk / 32 SpA / 32 Spe
+Naive Nature
+- Draco Meteor
+- Psychic Fangs
+- Reflect
+- Light Screen
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 30 SpA / 4 Spe
+Modest Nature
+- Sludge Bomb
+- Giga Drain
+- Earth Power
+- Protect
+
+Primarina @ Leftovers
+Ability: Liquid Voice
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpA
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Calm Mind
+- Protect
+
+Arcanine-Hisui @ Choice Scarf
+Ability: Rock Head
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Flare Blitz
+- Rock Slide
+- Head Smash
+- Snarl
+
+Samurott-Hisui @ Black Glasses
+Ability: Sharpness
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Night Slash
+- Sucker Punch
+- Sacred Sword
+- Detect
+
+Slowbro-Galar @ Quick Claw
+Ability: Quick Draw
+Level: 50
+EVs: 23 HP / 26 SpA / 17 SpD
+Quiet Nature
+- Shell Side Arm
+- Psychic
+- Ice Beam
+- Power Gem

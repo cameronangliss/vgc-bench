@@ -1,0 +1,59 @@
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 7 HP / 2 Def / 22 SpA / 3 SpD / 32 Spe
+Timid Nature
+- Protect
+- Sludge Bomb
+- Shadow Ball
+- Disable
+
+Tinkaton (F) @ Focus Sash
+Ability: Mold Breaker
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Gigaton Hammer
+- Fake Out
+- Encore
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 1 Atk / 20 Def / 14 SpD
+Sassy Nature
+- Fake Out
+- Flare Blitz
+- Parting Shot
+- Darkest Lariat
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Careful Nature
+- Encore
+- Will-O-Wisp
+- Light Screen
+- Quash
+
+Meowscarada @ Choice Scarf
+Ability: Protean
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Triple Axel
+- Flower Trick
+- Knock Off
+- Low Kick
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Protect
+- Clanging Scales
+- Aura Sphere
+- Clangorous Soul
