@@ -1,0 +1,59 @@
+Maushold @ Focus Sash
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 15 Def / 15 SpD / 4 Spe
+Careful Nature
+- Protect
+- Follow Me
+- Super Fang
+- Feint
+
+Gardevoir @ Gardevoirite
+Ability: Trace
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpA
+Modest Nature
+- Protect
+- Trick Room
+- Psychic
+- Hyper Voice
+
+Basculegion (M) @ Kasib Berry
+Ability: Adaptability
+Level: 50
+EVs: 12 HP / 19 Atk / 30 Def / 5 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Substitute
+- Aqua Jet
+
+Garchomp @ Roseli Berry
+Ability: Rough Skin
+Level: 50
+EVs: 24 HP / 30 Atk / 12 Spe
+Adamant Nature
+- Protect
+- Rock Tomb
+- Poison Jab
+- Stomping Tantrum
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 25 Atk / 9 SpD
+Brave Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Samurott-Hisui @ Scope Lens
+Ability: Sharpness
+Level: 50
+EVs: 20 HP / 32 Atk / 14 Spe
+Adamant Nature
+- Detect
+- Sacred Sword
+- Sucker Punch
+- Night Slash

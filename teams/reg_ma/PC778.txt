@@ -1,0 +1,59 @@
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Relaxed Nature
+- Trick Room
+- Psychic
+- Rain Dance
+- Helping Hand
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 2 SpD / 32 Spe
+Timid Nature
+- Protect
+- Follow Me
+- After You
+- Super Fang
+
+Mimikyu @ Mental Herb
+Ability: Disguise
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Play Rough
+- Shadow Claw
+- Trick Room
+- Shadow Sneak
+
+Crabominable @ Crabominite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Protect
+- Mach Punch
+- Ice Hammer
+- Drain Punch
+
+Incineroar @ White Herb
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Fake Out
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Fake Out
+- Water Spout
+- Dark Pulse
+- Aura Sphere

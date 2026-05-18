@@ -1,0 +1,59 @@
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 14 HP / 5 Def / 21 SpA / 10 SpD / 16 Spe
+Modest Nature
+- Draco Meteor
+- Hurricane
+- Ice Beam
+- Protect
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 28 HP / 18 Def / 20 SpD
+Calm Nature
+- Quash
+- Encore
+- Light Screen
+- Rain Dance
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 25 HP / 13 Def / 10 SpA / 17 SpD / 1 Spe
+Calm Nature
+- Thunderbolt
+- Hydro Pump
+- Eerie Impulse
+- Protect
+
+Archaludon @ Choice Scarf
+Ability: Sturdy
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Electro Shot
+- Draco Meteor
+- Steel Beam
+- Aura Sphere
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 1 Def / 30 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Tailwind
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 22 HP / 9 Def / 29 SpA / 4 SpD / 2 Spe
+Relaxed Nature
+- Hyper Beam
+- Hyper Voice
+- Quick Attack
+- Detect

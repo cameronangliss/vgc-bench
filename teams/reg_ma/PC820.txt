@@ -1,0 +1,59 @@
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 23 Atk / 11 Spe
+Adamant Nature
+- Iron Head
+- Bulk Up
+- Tailwind
+- Brave Bird
+
+Garchomp @ Roseli Berry
+Ability: Rough Skin
+Level: 50
+EVs: 18 HP / 23 Atk / 1 Def / 24 Spe
+Adamant Nature
+- Earthquake
+- Poison Jab
+- Stone Edge
+- Protect
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 12 HP / 21 Atk / 1 Def / 1 SpD / 31 Spe
+Jolly Nature
+- Knock Off
+- Dragon Dance
+- Protect
+- Rock Slide
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Gunk Shot
+- Close Combat
+- Fake Out
+- Coaching
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 13 Def / 20 SpD / 2 Spe
+Bold Nature
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Thunder Wave
+
+Gallade (M) @ Focus Sash
+Ability: Sharpness
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Sacred Sword
+- Leaf Blade
+- Taunt
+- Triple Axel

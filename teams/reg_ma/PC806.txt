@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 20 HP / 31 Def / 15 SpA
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Bold Nature
+- Psychic
+- Trick Room
+- Helping Hand
+- Foul Play
+
+Archaludon @ Choice Scarf
+Ability: Sturdy
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Modest Nature
+- Draco Meteor
+- Flash Cannon
+- Aura Sphere
+- Thunderbolt
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Last Respects
+- Aqua Jet
+- Liquidation
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 11 HP / 24 Def / 20 SpA / 1 SpD / 10 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect
+
+Lopunny @ Lopunnite
+Ability: Limber
+Level: 50
+EVs: 5 HP / 29 Atk / 32 Spe
+Jolly Nature
+- Close Combat
+- Giga Impact
+- Encore
+- Fake Out

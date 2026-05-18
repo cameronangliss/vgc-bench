@@ -1,0 +1,59 @@
+Feraligatr @ Feraligite
+Ability: Sheer Force
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Liquidation
+- Body Slam
+- Dragon Dance
+- Protect
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Aurora Veil
+- Blizzard
+- Freeze-Dry
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+
+Sinistcha @ Leftovers
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Bold Nature
+- Life Dew
+- Rage Powder
+- Matcha Gotcha
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Fake Out
+- Coaching
+- Close Combat
+- Dire Claw
+
+Corviknight @ Metal Coat
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 14 Atk / 15 Def / 5 Spe
+Impish Nature
+- Iron Head
+- Tailwind
+- Roost
+- Body Press

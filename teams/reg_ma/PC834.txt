@@ -1,0 +1,59 @@
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 13 HP / 26 Atk / 4 Def / 23 Spe
+Jolly Nature
+- Stomping Tantrum
+- Dragon Claw
+- Rock Tomb
+- Poison Jab
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 19 HP / 29 Def / 12 SpA / 6 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Calm Mind
+- Detect
+
+Scovillain @ Scovillainite
+Ability: Moody
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Calm Nature
+- Overheat
+- Leech Seed
+- Rage Powder
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Supreme Overlord
+Level: 50
+EVs: 32 HP / 10 Atk / 2 Def / 22 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Low Kick
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 14 HP / 19 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Last Respects
+- Liquidation
+- Aqua Jet
+- Protect

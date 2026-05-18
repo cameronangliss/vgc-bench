@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 10 Def / 11 SpA / 13 Spe
+Modest Nature
+- Weather Ball
+- Heat Wave
+- Solar Beam
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 10 HP / 19 Def / 25 SpA / 12 Spe
+Modest Nature
+- Dazzling Gleam
+- Moonblast
+- Light of Ruin
+- Protect
+
+Basculegion (M) @ Mystic Water
+Ability: Adaptability
+Level: 50
+EVs: 8 HP / 32 Atk / 8 Def / 18 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Whimsicott @ Fairy Feather
+Ability: Prankster
+Level: 50
+EVs: 26 HP / 2 Def / 32 SpA / 1 SpD / 5 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Encore
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 31 HP / 14 Def / 21 SpD
+Modest Nature
+- Foul Play
+- Twin Beam
+- Hyper Voice
+- Trick Room

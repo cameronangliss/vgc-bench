@@ -1,0 +1,59 @@
+Ampharos @ Ampharosite
+Ability: Static
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Modest Nature
+- Thunderbolt
+- Dragon Pulse
+- Focus Blast
+- Cotton Guard
+
+Mudsdale @ Sitrus Berry
+Ability: Inner Focus
+Level: 50
+EVs: 31 HP / 32 Atk / 3 SpD
+Adamant Nature
+- Heavy Slam
+- High Horsepower
+- Rock Slide
+- Fissure
+
+Basculegion (M) @ Kasib Berry
+Ability: Adaptability
+Level: 50
+EVs: 10 HP / 23 Atk / 27 Def / 6 SpD
+Brave Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Sneasler @ Black Belt
+Ability: Poison Touch
+Level: 50
+EVs: 18 HP / 16 Atk / 32 Def
+Brave Nature
+- Gunk Shot
+- Close Combat
+- Throat Chop
+- Fake Out
+
+Kangaskhan (F) @ Silk Scarf
+Ability: Scrappy
+Level: 50
+EVs: 31 HP / 32 Atk / 3 Def
+Brave Nature
+- Fake Out
+- Double-Edge
+- Hammer Arm
+- Ice Punch
+
+Farigiraf @ Mental Herb
+Ability: Armor Tail
+Level: 50
+EVs: 18 HP / 18 Def / 30 SpD
+Calm Nature
+- Psychic
+- Imprison
+- Trick Room
+- Protect

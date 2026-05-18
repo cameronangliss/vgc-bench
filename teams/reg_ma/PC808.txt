@@ -1,0 +1,59 @@
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Iron Head
+- Earthquake
+- Rock Slide
+- Protect
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 30 HP / 16 Atk / 1 Def / 2 SpD / 17 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Protect
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 27 HP / 11 Atk / 1 Def / 5 SpD / 22 Spe
+Careful Nature
+- Brave Bird
+- Bulk Up
+- Roost
+- Tailwind
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 4 HP / 3 Def / 32 SpA / 27 Spe
+Modest Nature
+- Draco Meteor
+- Dark Pulse
+- Heat Wave
+- Snarl
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 6 Def / 15 SpA / 14 Spe
+Modest Nature
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Protect
+
+Mimikyu @ Fairy Feather
+Ability: Disguise
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Shadow Sneak
+- Shadow Claw
+- Play Rough
+- Protect

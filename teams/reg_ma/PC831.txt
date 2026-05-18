@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
+- Protect
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Heat Wave
+- Air Slash
+- Solar Beam
+- Protect
+
+Whimsicott @ Fairy Feather
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 15 Def / 19 SpD
+Bold Nature
+- Moonblast
+- Tailwind
+- Encore
+- Trick Room
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Psychic Fangs
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Energy Ball
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 32 HP / 20 Atk / 9 Def / 4 SpD / 1 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- Poison Jab
+- Dragon Tail

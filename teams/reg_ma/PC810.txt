@@ -1,0 +1,59 @@
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Flip Turn
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 2 Def / 31 SpD / 2 Spe
+Bold Nature
+- Tailwind
+- Weather Ball
+- Hurricane
+- Wide Guard
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Sassy Nature
+- Will-O-Wisp
+- Light Screen
+- Encore
+- Rain Dance
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 15 Def / 18 SpA / 1 Spe
+Modest Nature
+- Giga Drain
+- Sludge Bomb
+- Leech Seed
+- Protect
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 7 Def / 28 SpD
+Sassy Nature
+- Rage Powder
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 Def / 28 SpD / 5 Spe
+Bold Nature
+- Flash Cannon
+- Dragon Pulse
+- Electro Shot
+- Protect
