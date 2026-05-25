@@ -109,7 +109,7 @@ def pretrain(
     ppo = PPO(
         MaskedActorCriticPolicy,
         single_agent_env,
-        policy_kwargs={"d_model": 256, "choose_on_teampreview": True},
+        policy_kwargs={"choose_on_teampreview": True},
         device=device,
     )
     dataset = TrajectoryDataset()

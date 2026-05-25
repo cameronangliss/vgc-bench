@@ -93,7 +93,7 @@ class TestPolicyPlayerBattles:
         ppo = PPO(
             MaskedActorCriticPolicy,
             single_env,
-            policy_kwargs={"d_model": 64, "choose_on_teampreview": True},
+            policy_kwargs={"choose_on_teampreview": True},
             device="cpu",
         )
         player = PolicyPlayer(
@@ -131,7 +131,7 @@ class TestPolicyPlayerBattles:
         ppo = PPO(
             MaskedActorCriticPolicy,
             single_env,
-            policy_kwargs={"d_model": 64, "choose_on_teampreview": True},
+            policy_kwargs={"choose_on_teampreview": True},
             device="cpu",
         )
         player = PolicyPlayer(

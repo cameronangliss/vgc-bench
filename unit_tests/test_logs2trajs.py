@@ -14,7 +14,7 @@ import pytest
 
 from vgc_bench.logs2trajs import process_log
 from vgc_bench.scrape_logs import get_rating
-from vgc_bench.src.utils import act_len, chunk_obs_len
+from vgc_bench.src.utils import FIELDS_PER_EVENT, act_len, max_events
 
 FIXTURE_PATH = Path(__file__).parent / "fixture_battle_log.json"
 
@@ -59,7 +59,7 @@ class TestProcessLog:
         )
         assert traj is not None
         assert traj.terminal is True
-        obs_dim = 12 * chunk_obs_len
+        obs_dim = max_events * FIELDS_PER_EVENT
         assert traj.obs.shape[1] == obs_dim
         assert traj.acts.shape[1] == 2
         assert traj.obs.shape[0] == traj.acts.shape[0] + 1

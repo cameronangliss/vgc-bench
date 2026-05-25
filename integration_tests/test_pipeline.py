@@ -24,7 +24,13 @@ from vgc_bench.logs2trajs import _init_worker_loop, process_logs
 from vgc_bench.pretrain import TrajectoryDataset
 from vgc_bench.src.env import ShowdownEnv
 from vgc_bench.src.policy import MaskedActorCriticPolicy
-from vgc_bench.src.utils import LearningStyle, act_len, chunk_obs_len, format_map
+from vgc_bench.src.utils import (
+    FIELDS_PER_EVENT,
+    LearningStyle,
+    act_len,
+    format_map,
+    max_events,
+)
 from vgc_bench.train import train
 
 
@@ -73,7 +79,7 @@ class TestPipeline:
         assert len(trajectories) > 0
         for traj in trajectories:
             assert isinstance(traj, Trajectory)
-            assert traj.obs.shape[1] == 12 * chunk_obs_len
+            assert traj.obs.shape[1] == max_events * FIELDS_PER_EVENT
             assert traj.acts.shape[1] == 2
             assert traj.obs.shape[0] == traj.acts.shape[0] + 1
 
@@ -120,7 +126,7 @@ class TestPipeline:
         ppo = PPO(
             MaskedActorCriticPolicy,
             single_env,
-            policy_kwargs={"d_model": 64, "choose_on_teampreview": True},
+            policy_kwargs={"choose_on_teampreview": True},
             device="cpu",
         )
         bc = BC(

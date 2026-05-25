@@ -3,7 +3,7 @@ Policy-based player module for VGC-Bench.
 
 Provides player implementations that use neural network policies to make
 battle decisions, including synchronous and batched asynchronous variants.
-Also implements the battle state embedding used for policy observations.
+Also implements battle state tokenization for policy observations.
 """
 
 import asyncio
@@ -22,14 +22,8 @@ from poke_env.battle import (
     DoubleBattle,
     Effect,
     Field,
-    Move,
-    MoveCategory,
-    Pokemon,
-    PokemonGender,
     PokemonType,
     SideCondition,
-    Status,
-    Target,
     Weather,
 )
 from poke_env.data import to_id_str
@@ -41,22 +35,24 @@ from stable_baselines3.common.policies import BasePolicy
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.teams import RandomTeamBuilder
 from vgc_bench.src.utils import (
-    abilities,
+    ENT,
+    EVT,
+    FIELDS_PER_EVENT,
+    POS,
     get_reg_from_format,
     is_vgc_format,
-    items,
-    move_obs_len,
-    moves,
-    pokemon_obs_len,
+    max_events,
 )
+
+_EMPTY_EVT = EVT["EMPTY"]
 
 
 class PolicyPlayer(Player):
     """
     A Pokemon VGC player that uses a neural network policy for decisions.
 
-    Handles battle state embedding and action masking to ensure only legal
-    moves are selected.
+    Handles battle state tokenization and action masking to ensure only
+    legal moves are selected.
 
     Attributes:
         policy: The neural network policy used for action selection.
@@ -216,7 +212,7 @@ class PolicyPlayer(Player):
         assert isinstance(self.policy, MaskedActorCriticPolicy)
         if battle._wait:
             return DefaultBattleOrder()
-        obs = self.embed_battle(battle, fake_rating=2000)
+        obs = self.tokenize_battle(battle, fake_rating=2000)
         mask = np.array(DoublesEnv.get_action_mask(battle))
         with torch.no_grad():
             obs_dict = {
@@ -261,256 +257,409 @@ class PolicyPlayer(Player):
         list(battle.team.values())[action2[1] - 1]._selected_in_teampreview = True
         return f"/team {action1[0]}{action1[1]}{action2[0]}{action2[1]}"
 
+    # --- Tokenization ---
+
     @staticmethod
-    def embed_battle(
-        battle: AbstractBattle, fake_rating: int | None = None
+    def tokenize_battle(
+        battle: AbstractBattle,
+        fake_rating: int | None = None,
     ) -> npt.NDArray[np.float32]:
         """
-        Convert a battle state to a feature vector observation.
+        Tokenize a battle state into a fixed-size event sequence observation.
 
-        Creates a fixed-size numpy array encoding the full battle state including
-        action masks, global effects, side conditions, and all Pokemon information.
+        Converts the battle's replay data (event log) into a structured sequence
+        of tokenized events, including team information and teampreview actions.
 
         Args:
-            battle: The battle state to embed.
+            battle: The battle state to tokenize.
             fake_rating: Optional raw rating override for the player side.
                 If provided, opponent rating is masked to 0.
 
         Returns:
-            Numpy array observation for the policy network.
+            Flat numpy array of shape (max_events * FIELDS_PER_EVENT,).
         """
         assert isinstance(battle, DoubleBattle)
-        glob = PolicyPlayer.embed_global(battle)
-        side = PolicyPlayer.embed_side(battle, fake_rating)
-        opp_fake_rating = None if fake_rating is None else 0
-        opp_side = PolicyPlayer.embed_side(battle, opp_fake_rating, opp=True)
-        a1, a2 = battle.active_pokemon
-        o1, o2 = battle.opponent_active_pokemon
-        pokemons = [
-            PolicyPlayer.embed_pokemon(
-                p,
-                i,
-                from_opponent=False,
-                active_a=a1 is not None and p.name == a1.name,
-                active_b=a2 is not None and p.name == a2.name,
-            )
-            for i, p in enumerate(battle.team.values())
-        ]
-        pokemons += [np.zeros(pokemon_obs_len, dtype=np.float32)] * (6 - len(pokemons))
-        opp_pokemons = [
-            PolicyPlayer.embed_pokemon(
-                p,
-                i,
-                from_opponent=True,
-                active_a=o1 is not None and p.name == o1.name,
-                active_b=o2 is not None and p.name == o2.name,
-            )
-            for i, p in enumerate(battle.opponent_team.values())
-        ]
-        opp_pokemons += [np.zeros(pokemon_obs_len, dtype=np.float32)] * (
-            6 - len(opp_pokemons)
-        )
-        return np.concatenate(
-            [np.concatenate([glob, side, p]) for p in pokemons]
-            + [np.concatenate([glob, opp_side, p]) for p in opp_pokemons],
-            dtype=np.float32,
-        )
+        assert battle.player_role is not None
+        rows: list[npt.NDArray[np.float32]] = [PolicyPlayer._row(evt=EVT["BOS"])]
+        # Rating tokens
+        for event in battle._replay_data:
+            if len(event) >= 3 and event[1] == "player":
+                is_ally = event[2] == battle.player_role
+                if is_ally and fake_rating is not None:
+                    rating = fake_rating / 2000
+                elif len(event) >= 6 and event[5]:
+                    rating = int(event[5]) / 2000
+                else:
+                    continue
+                src = POS["ally_side"] if is_ally else POS["opp_side"]
+                rows.append(PolicyPlayer._row(evt=EVT["RATING"], src=src, hp=rating))
+        team_inserted = False
+        for event in battle._replay_data:
+            if (
+                not team_inserted
+                and len(event) > 1
+                and event[1] in ("start", "turn", "switch")
+            ):
+                rows += PolicyPlayer.tokenize_team(battle)
+                rows += PolicyPlayer.tokenize_teampreview_action(battle)
+                team_inserted = True
+            rows += PolicyPlayer.tokenize_event(event, battle.player_role)
 
-    @staticmethod
-    def embed_global(battle: DoubleBattle) -> npt.NDArray[np.float32]:
-        """Embed global battle state (weather, fields, etc)."""
-        weather = [
-            (min(battle.turn - battle.weather[w], 8) / 8 if w in battle.weather else 0)
-            for w in Weather
-        ]
-        fields = [
-            min(battle.turn - battle.fields[f], 8) / 8 if f in battle.fields else 0
-            for f in Field
-        ]
-        champions_format = float(
-            battle.format is not None and "champions" in battle.format
-        )
-        teampreview = float(battle.teampreview)
-        reviving = float(battle.reviving)
-        commanding = float(battle.commanding)
-        return np.array(
-            [*weather, *fields, champions_format, teampreview, reviving, commanding],
-            dtype=np.float32,
-        )
+        if not team_inserted and battle.team:
+            rows += PolicyPlayer.tokenize_team(battle)
+            rows += PolicyPlayer.tokenize_teampreview_action(battle)
 
+        rows.append(PolicyPlayer._row(evt=EVT["REQUEST"]))
+
+        # left-truncation: keep BOS at front, drop oldest
+        if len(rows) > max_events:
+            rows = [rows[0]] + rows[-(max_events - 1) :]
+
+        result = np.zeros((max_events, FIELDS_PER_EVENT), dtype=np.float32)
+        for i, row in enumerate(rows):
+            result[i] = row
+        return result.ravel()
+
+    # --- Row constructor ---
     @staticmethod
-    def embed_side(
-        battle: DoubleBattle, fake_rating: int | None, opp: bool = False
+    def _row(
+        evt: int = 0,
+        src: int = 0,
+        tgt: int = 0,
+        e1: int = 0,
+        e2: int = 0,
+        e3: int = 0,
+        e4: int = 0,
+        hp: float = 0.0,
+        boost: float = 0.0,
+        stat_hp: float = 0.0,
+        stat_atk: float = 0.0,
+        stat_def: float = 0.0,
+        stat_spa: float = 0.0,
+        stat_spd: float = 0.0,
+        stat_spe: float = 0.0,
     ) -> npt.NDArray[np.float32]:
-        """
-        Embed side-specific state (side conditions, gimmick availability, rating).
-
-        Args:
-            battle: Current doubles battle state.
-            fake_rating: Optional raw rating override for this side.
-                If None, read rating from battle player metadata.
-            opp: Whether to embed the opponent side.
-        """
-        gims = [
-            battle.can_mega_evolve[0],
-            battle.can_z_move[0],
-            battle.can_dynamax[0],
-            battle.can_tera[0],
-        ]
-        opp_gims = [
-            battle.opponent_used_mega_evolve,
-            battle.opponent_used_z_move,
-            battle.opponent_used_dynamax,
-            battle.opponent_used_tera,
-        ]
-        side_conds = battle.opponent_side_conditions if opp else battle.side_conditions
-        side_conditions = [
-            (
-                0
-                if s not in side_conds
-                else (
-                    1
-                    if s == SideCondition.STEALTH_ROCK
-                    else (
-                        side_conds[s] / 2
-                        if s == SideCondition.TOXIC_SPIKES
-                        else (
-                            side_conds[s] / 3
-                            if s == SideCondition.SPIKES
-                            else min(battle.turn - side_conds[s], 8) / 8
-                        )
-                    )
-                )
-            )
-            for s in SideCondition
-        ]
-        gims = opp_gims if opp else gims
-        gimmicks = [float(g) for g in gims]
-        if fake_rating is not None:
-            rating = fake_rating / 2000
-        else:
-            player = battle.opponent_role if opp else battle.player_role
-            rat = [p for p in battle._players if p["player"] == player][0].get(
-                "rating", "0"
-            )
-            rating = int(rat or "0") / 2000
-        return np.array([*side_conditions, *gimmicks, rating], dtype=np.float32)
-
-    @staticmethod
-    def embed_pokemon(
-        pokemon: Pokemon, pos: int, from_opponent: bool, active_a: bool, active_b: bool
-    ) -> npt.NDArray[np.float32]:
-        """Embed a Pokemon's stats, moves, status, and effects."""
-        assert from_opponent or not pokemon.revealed or pokemon.selected_in_teampreview
-        # (mostly) stable fields
-        ability_id = abilities.index(
-            "null" if pokemon.ability is None else pokemon.ability
-        )
-        item_id = items.index("null" if pokemon.item is None else pokemon.item)
-        move_list = list(pokemon.moves.values())[-4:]
-        move_ids = [moves.index(move.id) for move in move_list]
-        move_ids += [0] * (4 - len(move_ids))
-        move_embeds = [PolicyPlayer.embed_move(move) for move in move_list]
-        move_embeds += [np.zeros(move_obs_len, dtype=np.float32)] * (
-            4 - len(move_embeds)
-        )
-        move_embeds = np.concatenate(move_embeds)
-        types = [float(t in pokemon.base_types) for t in PokemonType]
-        tera_type = [float(t == pokemon.tera_type) for t in PokemonType]
-        base_stats = [s / 255 for s in pokemon.base_stats.values()]
-        if from_opponent:
-            stats = [-1] * 6
-        else:
-            stats = [s / 255 for s in pokemon.stats.values() if s is not None]
-            assert len(stats) == 6
-        gender = [float(g == pokemon.gender) for g in PokemonGender]
-        weight = pokemon.weight / 1000
-        # volatile fields
-        hp_frac = pokemon.current_hp_fraction
-        revealed = float(pokemon.revealed)
-        in_draft = float(pokemon.selected_in_teampreview)
-        status = [float(s == pokemon.status) for s in Status]
-        status_counter = pokemon.status_counter / 16
-        boosts = [b / 6 for b in pokemon.boosts.values()]
-        effects = [
-            (min(pokemon.effects[e], 8) / 8 if e in pokemon.effects else 0)
-            for e in Effect
-        ]
-        first_turn = float(pokemon.first_turn)
-        protect_counter = pokemon.protect_counter / 5
-        must_recharge = float(pokemon.must_recharge)
-        preparing = float(pokemon.preparing)
-        gimmicks = [float(s) for s in [pokemon.is_dynamaxed, pokemon.is_terastallized]]
-        pos_onehot = [float(pos == i) for i in range(6)]
         return np.array(
             [
-                ability_id,
-                item_id,
-                *move_ids,
-                *move_embeds,
-                *types,
-                *tera_type,
-                *base_stats,
-                *stats,
-                *gender,
-                weight,
-                hp_frac,
-                revealed,
-                in_draft,
-                *status,
-                status_counter,
-                *boosts,
-                *effects,
-                first_turn,
-                protect_counter,
-                must_recharge,
-                preparing,
-                *gimmicks,
-                float(active_a),
-                float(active_b),
-                *pos_onehot,
-                float(from_opponent),
+                evt,
+                src,
+                tgt,
+                e1,
+                e2,
+                e3,
+                e4,
+                hp,
+                boost,
+                stat_hp,
+                stat_atk,
+                stat_def,
+                stat_spa,
+                stat_spd,
+                stat_spe,
             ],
             dtype=np.float32,
         )
 
+    # --- Helpers ---
     @staticmethod
-    def embed_move(move: Move) -> npt.NDArray[np.float32]:
-        """Embed a move's power, accuracy, type, and special properties."""
-        power = move.base_power / 250
-        acc = move.accuracy / 100
-        category = [float(c == move.category) for c in MoveCategory]
-        target = [float(t == move.target) for t in Target]
-        priority = (move.priority + 7) / 12
-        crit_ratio = move.crit_ratio
-        drain = move.drain
-        force_switch = float(move.force_switch)
-        recoil = move.recoil
-        self_destruct = float(move.self_destruct is not None)
-        self_switch = float(move.self_switch is not False)
-        pp = move.max_pp / 64
-        pp_frac = move.current_pp / move.max_pp
-        is_last_used = float(move.is_last_used)
-        move_type = [float(t == move.type) for t in PokemonType]
-        return np.array(
-            [
-                power,
-                acc,
-                *category,
-                *target,
-                priority,
-                crit_ratio,
-                drain,
-                force_switch,
-                recoil,
-                self_destruct,
-                self_switch,
-                pp,
-                pp_frac,
-                is_last_used,
-                *move_type,
+    def _parse_pos(identifier: str, player_role: str) -> int:
+        """Convert 'p1a: Nickname' or 'p1: Username' to position ID."""
+        raw = identifier.split(":")[0].strip()
+        is_ally = raw[:2] == player_role
+        slot = raw[2:]
+        if slot == "a":
+            return POS["ally_a"] if is_ally else POS["opp_a"]
+        elif slot == "b":
+            return POS["ally_b"] if is_ally else POS["opp_b"]
+        return POS["ally_side"] if is_ally else POS["opp_side"]
+
+    @staticmethod
+    def _parse_hp(hp_str: str) -> float:
+        hp_str = hp_str.split()[0]
+        if "/" in hp_str:
+            cur, max_hp = hp_str.split("/")
+            return int(cur) / int(max_hp)
+        return 0.0 if hp_str == "0" else 1.0
+
+    @staticmethod
+    def _parse_species(details: str) -> int:
+        return ENT[f"species:{to_id_str(details.split(',')[0])}"]
+
+    @staticmethod
+    def _strip_prefix(text: str) -> str:
+        """Strip 'move:', 'ability:', 'item:' prefix if present."""
+        return text.split(":", 1)[1].strip() if ":" in text else text
+
+    @staticmethod
+    def _parse_effect_arg(text: str) -> int:
+        """Parse an effect/move/ability/item argument to entity ID."""
+        text = text.strip()
+        if text.startswith("ability:"):
+            return ENT[f"ability:{to_id_str(PolicyPlayer._strip_prefix(text))}"]
+        if text.startswith("item:"):
+            return ENT[f"item:{to_id_str(PolicyPlayer._strip_prefix(text))}"]
+        if text.startswith("move:"):
+            return ENT[f"move:{to_id_str(PolicyPlayer._strip_prefix(text))}"]
+        effect = Effect.from_showdown_message(text)
+        if effect != Effect.UNKNOWN:
+            return ENT[f"effect:{effect.name}"]
+        mid = to_id_str(text)
+        key = f"move:{mid}"
+        if key in ENT._id_map:
+            return ENT[key]
+        return ENT[f"effect:{Effect.UNKNOWN.name}"]
+
+    @staticmethod
+    def tokenize_event(
+        event: list[str], player_role: str
+    ) -> list[npt.NDArray[np.float32]]:
+        """Convert a single event to a list of rows (usually 0 or 1)."""
+        if len(event) < 2:
+            return []
+        etype = event[1]
+        if etype == "":
+            return [PolicyPlayer._row(evt=_EMPTY_EVT)]
+        if etype not in EVT:
+            return []
+        evt = EVT[etype]
+
+        if etype in ("switch", "drag"):
+            if len(event) < 5:
+                return []
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    e1=PolicyPlayer._parse_species(event[3]),
+                    hp=PolicyPlayer._parse_hp(event[4]),
+                )
             ]
-        )
+        elif etype == "move":
+            if len(event) < 4:
+                return []
+            tgt = 0
+            if len(event) >= 5 and ": " in event[4]:
+                tgt = PolicyPlayer._parse_pos(event[4], player_role)
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    tgt=tgt,
+                    e1=ENT[f"move:{to_id_str(event[3])}"],
+                )
+            ]
+        elif etype in ("-damage", "-heal", "-sethp"):
+            if len(event) < 4:
+                return []
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    hp=PolicyPlayer._parse_hp(event[3]),
+                )
+            ]
+        elif etype in ("-status", "-curestatus"):
+            if len(event) < 4:
+                return []
+            name = event[3].strip().upper()
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    e1=ENT[f"status:{name}"],
+                )
+            ]
+        elif etype in ("-boost", "-unboost", "-setboost"):
+            if len(event) < 5:
+                return []
+            amount = int(event[4])
+            if etype == "-unboost":
+                amount = -amount
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    e1=ENT[f"stat:{event[3].strip().lower()}"],
+                    boost=amount / 6.0,
+                )
+            ]
+        elif etype == "-weather":
+            if len(event) < 3 or event[2] == "none":
+                return []
+            w = Weather.from_showdown_message(event[2])
+            return [PolicyPlayer._row(evt=evt, e1=ENT[f"weather:{w.name}"])]
+        elif etype in ("-fieldstart", "-fieldend"):
+            if len(event) < 3:
+                return []
+            f = Field.from_showdown_message(PolicyPlayer._strip_prefix(event[2]))
+            return [PolicyPlayer._row(evt=evt, e1=ENT[f"field:{f.name}"])]
+        elif etype in ("-sidestart", "-sideend"):
+            if len(event) < 4:
+                return []
+            s = SideCondition.from_showdown_message(
+                PolicyPlayer._strip_prefix(event[3])
+            )
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    e1=ENT[f"side:{s.name}"],
+                )
+            ]
+        elif etype in ("-start", "-end", "-singleturn", "-singlemove", "-activate"):
+            if len(event) < 4:
+                if len(event) >= 3:
+                    return [
+                        PolicyPlayer._row(
+                            evt=evt, src=PolicyPlayer._parse_pos(event[2], player_role)
+                        )
+                    ]
+                return [PolicyPlayer._row(evt=evt)]
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    e1=PolicyPlayer._parse_effect_arg(event[3]),
+                )
+            ]
+        elif etype in ("-ability", "-endability"):
+            if len(event) < 4:
+                return []
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    e1=ENT[
+                        f"ability:{to_id_str(PolicyPlayer._strip_prefix(event[3]))}"
+                    ],
+                )
+            ]
+        elif etype in ("-item", "-enditem"):
+            if len(event) < 4:
+                return []
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    e1=ENT[f"item:{to_id_str(PolicyPlayer._strip_prefix(event[3]))}"],
+                )
+            ]
+        elif etype == "-terastallize":
+            if len(event) < 4:
+                return []
+            t = next(
+                (t for t in PokemonType if to_id_str(event[3]) == to_id_str(t.name)),
+                PokemonType.NORMAL,
+            )
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    e1=ENT[f"type:{t.name}"],
+                )
+            ]
+        elif etype in ("-formechange", "detailschange"):
+            if len(event) < 4:
+                return []
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    e1=PolicyPlayer._parse_species(event[3]),
+                )
+            ]
+        elif etype == "-prepare":
+            if len(event) < 4:
+                return []
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    e1=ENT[f"move:{to_id_str(event[3])}"],
+                )
+            ]
+        elif etype in ("-copyboost", "-swapboost", "-transform"):
+            if len(event) < 4:
+                return []
+            return [
+                PolicyPlayer._row(
+                    evt=evt,
+                    src=PolicyPlayer._parse_pos(event[2], player_role),
+                    tgt=PolicyPlayer._parse_pos(event[3], player_role),
+                )
+            ]
+        elif etype == "turn":
+            return [PolicyPlayer._row(evt=EVT["SEP"])]
+        elif etype in ("-clearallboost", "-swapsideconditions", "start"):
+            return [PolicyPlayer._row(evt=evt)]
+        elif len(event) >= 3:
+            return [
+                PolicyPlayer._row(
+                    evt=evt, src=PolicyPlayer._parse_pos(event[2], player_role)
+                )
+            ]
+        return [PolicyPlayer._row(evt=evt)]
+
+    @staticmethod
+    def tokenize_team(battle: DoubleBattle) -> list[npt.NDArray[np.float32]]:
+        """Emit team tokens with stats (ally) or base stats (opponent)."""
+        rows: list[npt.NDArray[np.float32]] = []
+        team_evt = EVT["TEAM"]
+        moves_evt = EVT["TEAM_MOVES"]
+        for side, team in [("ally", battle.team), ("opp", battle.opponent_team)]:
+            side_pos = POS[f"{side}_side"]
+            is_ally = side == "ally"
+            for mon in team.values():
+                species = ENT[f"species:{to_id_str(mon.species)}"]
+                ability = ENT[f"ability:{mon.ability or 'null'}"]
+                item = ENT[f"item:{mon.item or 'null'}"]
+                if is_ally and mon.stats:
+                    raw = mon.stats
+                    s = [(raw[k] or 0) / 255 for k in ["hp", "atk", "def", "spa", "spd", "spe"]]
+                else:
+                    raw = mon.base_stats
+                    s = [raw[k] / 255 for k in ["hp", "atk", "def", "spa", "spd", "spe"]]
+                rows.append(
+                    PolicyPlayer._row(
+                        evt=team_evt,
+                        src=side_pos,
+                        e1=species,
+                        e2=ability,
+                        e3=item,
+                        stat_hp=s[0],
+                        stat_atk=s[1],
+                        stat_def=s[2],
+                        stat_spa=s[3],
+                        stat_spd=s[4],
+                        stat_spe=s[5],
+                    )
+                )
+                move_ids = [ENT[f"move:{m}"] for m in mon.moves]
+                move_ids += [ENT["move:null"]] * (4 - len(move_ids))
+                rows.append(
+                    PolicyPlayer._row(
+                        evt=moves_evt,
+                        src=side_pos,
+                        e1=move_ids[0],
+                        e2=move_ids[1],
+                        e3=move_ids[2],
+                        e4=move_ids[3],
+                    )
+                )
+        return rows
+
+    @staticmethod
+    def tokenize_teampreview_action(
+        battle: DoubleBattle,
+    ) -> list[npt.NDArray[np.float32]]:
+        """Emit tokens for mons the player selected in teampreview."""
+        rows: list[npt.NDArray[np.float32]] = []
+        tp_evt = EVT["TEAMPREVIEW_ACTION"]
+        for mon in battle.team.values():
+            if mon.selected_in_teampreview:
+                species = ENT[f"species:{to_id_str(mon.species)}"]
+                rows.append(PolicyPlayer._row(evt=tp_evt, e1=species))
+        return rows
 
 
 @dataclass
@@ -547,7 +696,7 @@ class BatchPolicyPlayer(PolicyPlayer):
         assert isinstance(battle, DoubleBattle)
         if battle._wait:
             return DefaultBattleOrder()
-        obs = self.embed_battle(battle, fake_rating=2000)
+        obs = self.tokenize_battle(battle, fake_rating=2000)
         mask = np.array(DoublesEnv.get_action_mask(battle))
         if self._worker_task is None:
             self._worker_task = asyncio.create_task(self._inference_loop())

@@ -4,17 +4,20 @@ import numpy as np
 import torch
 
 from vgc_bench.src.utils import (
+    ENT,
+    EVT,
+    FIELDS_PER_EVENT,
+    NUM_ENTITIES,
+    NUM_EVENT_TYPES,
+    NUM_POSITIONS,
+    POS,
     LearningStyle,
     act_len,
-    chunk_obs_len,
     format_map,
     get_reg_from_format,
-    glob_obs_len,
     is_vgc_format,
-    move_obs_len,
-    pokemon_obs_len,
+    max_events,
     set_global_seed,
-    side_obs_len,
 )
 
 
@@ -41,15 +44,24 @@ class TestConstants:
     def test_act_len(self):
         assert act_len == 107
 
-    def test_obs_len_positive(self):
-        assert glob_obs_len > 0
-        assert side_obs_len > 0
-        assert move_obs_len > 0
-        assert pokemon_obs_len > 0
-        assert chunk_obs_len > 0
+    def test_event_token_constants(self):
+        assert max_events == 256
+        assert FIELDS_PER_EVENT == 15
+        assert NUM_EVENT_TYPES > 0
+        assert NUM_POSITIONS > 0
+        assert NUM_ENTITIES > 0
 
-    def test_chunk_obs_len_composition(self):
-        assert chunk_obs_len == glob_obs_len + side_obs_len + pokemon_obs_len
+    def test_evt_has_required_keys(self):
+        for key in ["PAD", "BOS", "SEP", "REQUEST", "TEAM", "TEAM_MOVES"]:
+            assert key in EVT
+
+    def test_pos_has_required_keys(self):
+        for key in ["NONE", "ally_a", "ally_b", "opp_a", "opp_b"]:
+            assert key in POS
+
+    def test_ent_vocab(self):
+        assert ENT["PAD"] == 0
+        assert ENT.size == NUM_ENTITIES
 
     def test_format_map_keys(self):
         for key in format_map:

@@ -32,7 +32,7 @@ from poke_env.player import (
 from poke_env.ps_client import AccountConfiguration
 
 from vgc_bench.src.policy_player import PolicyPlayer
-from vgc_bench.src.utils import chunk_obs_len
+from vgc_bench.src.utils import FIELDS_PER_EVENT, max_events
 
 _READER_LOOP: asyncio.AbstractEventLoop | None = None
 
@@ -289,8 +289,8 @@ class LogReader(Player):
                 teampreview_draft = revealed_indices
             for j, mon in enumerate(state.team.values(), start=1):
                 mon._selected_in_teampreview = j in teampreview_draft
-            embedded_state = PolicyPlayer.embed_battle(state)
-            assert embedded_state.shape == (12 * chunk_obs_len,)
+            embedded_state = PolicyPlayer.tokenize_battle(state)
+            assert embedded_state.shape == (max_events * FIELDS_PER_EVENT,)
             embedded_states += [embedded_state]
         return np.stack(embedded_states, axis=0)
 

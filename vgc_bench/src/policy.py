@@ -1,7 +1,7 @@
 """
 Neural network policy module for VGC-Bench.
 
-Implements the actor-critic policy architecture with attention-based feature
+Implements the actor-critic policy architecture with sequence-based feature
 extraction for Pokemon VGC battles. Uses action masking to ensure only legal
 moves are selected.
 """
@@ -17,13 +17,12 @@ from stable_baselines3.common.type_aliases import PyTorchObs
 from torch import nn
 
 from vgc_bench.src.utils import (
-    abilities,
+    FIELDS_PER_EVENT,
+    NUM_ENTITIES,
+    NUM_EVENT_TYPES,
+    NUM_POSITIONS,
     act_len,
-    chunk_obs_len,
-    glob_obs_len,
-    items,
-    moves,
-    side_obs_len,
+    max_events,
 )
 
 action_map = (
@@ -41,8 +40,8 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
     Actor-critic policy with action masking for Pokemon VGC.
 
     Extends SB3's ActorCriticPolicy with action masking to enforce legal
-    moves and uses an attention-based feature extractor for processing
-    Pokemon battle observations.
+    moves and uses a sequence-based feature extractor for processing
+    tokenized battle event observations.
 
     Attributes:
         choose_on_teampreview: Whether policy controls teampreview decisions.
@@ -50,14 +49,11 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         debug: Whether to print debug information during forward pass.
     """
 
-    def __init__(
-        self, *args: Any, d_model: int, choose_on_teampreview: bool, **kwargs: Any
-    ):
+    def __init__(self, *args: Any, choose_on_teampreview: bool = True, **kwargs: Any):
         """
         Initialize the masked actor-critic policy.
 
         Args:
-            d_model: Hidden size for policy/value networks and attention extractor.
             choose_on_teampreview: Whether policy controls teampreview.
             *args: Additional arguments for ActorCriticPolicy.
             **kwargs: Additional keyword arguments for ActorCriticPolicy.
@@ -70,11 +66,7 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
             **kwargs,
             net_arch=[],
             activation_fn=torch.nn.ReLU,
-            features_extractor_class=AttentionExtractor,
-            features_extractor_kwargs={
-                "d_model": d_model,
-                "choose_on_teampreview": choose_on_teampreview,
-            },
+            features_extractor_class=SequenceExtractor,
             share_features_extractor=False,
         )
 
@@ -197,95 +189,84 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         return torch.cat([mask[:, :act_len], updated_half], dim=1)
 
 
-class AttentionExtractor(BaseFeaturesExtractor):
+class SequenceExtractor(BaseFeaturesExtractor):
     """
-    Attention-based feature extractor for Pokemon battle observations.
+    Feature extractor that processes structured battle event sequences.
 
-    Processes Pokemon observations using embeddings for abilities, items, and
-    moves, then applies transformer attention to produce a fixed-size feature
-    vector.
+    Each event is a fixed-width row of IDs and continuous values. Discrete fields
+    are embedded into small vectors, concatenated with continuous features, and
+    projected to d_model.
 
     Class Attributes:
-        embed_len: Dimension of embedding vectors for abilities/items/moves.
+        embed_len: Dimension of embedding vectors for discrete fields.
         num_heads: Number of attention heads in transformer layers.
         embed_layers: Number of transformer encoder layers.
     """
 
     embed_len: int = 32
+    d_model: int = 256
     num_heads: int = 4
+    dim_feedforward: int = 1024
     embed_layers: int = 3
 
-    def __init__(
-        self, observation_space: Space[Any], d_model: int, choose_on_teampreview: bool
-    ):
-        """
-        Initialize the attention-based feature extractor.
-
-        Args:
-            observation_space: Gymnasium observation space specification.
-            d_model: Hidden size for token projection and transformer layers.
-            choose_on_teampreview: Whether policy controls teampreview decisions.
-        """
-        super().__init__(observation_space, features_dim=d_model)
-        self.choose_on_teampreview = choose_on_teampreview
-        self.ability_embed = nn.Embedding(
-            len(abilities), self.embed_len, max_norm=self.embed_len**0.5
-        )
-        self.item_embed = nn.Embedding(
-            len(items), self.embed_len, max_norm=self.embed_len**0.5
-        )
-        self.move_embed = nn.Embedding(
-            len(moves), self.embed_len, max_norm=self.embed_len**0.5
-        )
-        self.pokemon_proj = nn.Linear(chunk_obs_len + 6 * (self.embed_len - 1), d_model)
-        self.cls_token = nn.Parameter(torch.randn(1, 1, d_model))
-        self.pokemon_encoder = nn.TransformerEncoder(
+    def __init__(self, observation_space: Space[Any]):
+        super().__init__(observation_space, features_dim=self.d_model)
+        self.event_embed = nn.Embedding(NUM_EVENT_TYPES, self.embed_len)
+        self.src_pos_embed = nn.Embedding(NUM_POSITIONS, self.embed_len)
+        self.tgt_pos_embed = nn.Embedding(NUM_POSITIONS, self.embed_len)
+        self.entity_embed = nn.Embedding(NUM_ENTITIES, self.embed_len, padding_idx=0)
+        self.event_proj = nn.Linear(7 * self.embed_len + 8, self.d_model)
+        self.seq_pos_embed = nn.Embedding(max_events, self.d_model)
+        self.event_encoder = nn.TransformerEncoder(
             nn.TransformerEncoderLayer(
-                d_model=d_model,
+                d_model=self.d_model,
                 nhead=self.num_heads,
-                dim_feedforward=d_model,
+                dim_feedforward=self.dim_feedforward,
                 dropout=0,
                 batch_first=True,
                 norm_first=True,
             ),
             num_layers=self.embed_layers,
-            enable_nested_tensor=False,
         )
+        self.norm = nn.LayerNorm(self.d_model)
 
     def forward(self, obs_dict: dict[str, torch.Tensor]) -> torch.Tensor:
-        """
-        Extract features from battle observation.
-
-        Embeds Pokemon attributes and applies transformer attention across all
-        12 Pokemon (6 per side).
-
-        Args:
-            x: Dict with an ``"observation"`` key containing a tensor of
-                shape (batch, 12 * chunk_obs_len).
-
-        Returns:
-            Feature tensor of shape (batch, d_model).
-        """
+        """Extract features from structured event observation."""
         x = obs_dict["observation"]
         batch_size = x.size(0)
-        pokemon_obs = x.view(batch_size, 12, -1)
+        data = x.view(batch_size, max_events, FIELDS_PER_EVENT)
         # embedding
-        start = glob_obs_len + side_obs_len
-        pokemon_obs = torch.cat(
+        evt_ids = data[:, :, 0].long()
+        src_ids = data[:, :, 1].long()
+        tgt_ids = data[:, :, 2].long()
+        ent_ids = data[:, :, 3:7].long()
+        ent_flat = self.entity_embed(ent_ids).view(
+            batch_size, max_events, 4 * self.embed_len
+        )
+        event_obs = torch.cat(
             [
-                pokemon_obs[:, :, :start],
-                self.ability_embed(pokemon_obs[:, :, start].long()),
-                self.item_embed(pokemon_obs[:, :, start + 1].long()),
-                self.move_embed(pokemon_obs[:, :, start + 2].long()),
-                self.move_embed(pokemon_obs[:, :, start + 3].long()),
-                self.move_embed(pokemon_obs[:, :, start + 4].long()),
-                self.move_embed(pokemon_obs[:, :, start + 5].long()),
-                pokemon_obs[:, :, start + 6 :],
+                self.event_embed(evt_ids),
+                self.src_pos_embed(src_ids),
+                self.tgt_pos_embed(tgt_ids),
+                ent_flat,
+                data[:, :, 7:],
             ],
             dim=-1,
         )
-        # pokemon encoder
-        pokemon_tokens = self.pokemon_proj(pokemon_obs)
-        cls_token = self.cls_token.expand(batch_size, -1, -1)
-        tokens = torch.cat([cls_token, pokemon_tokens], dim=1)
-        return self.pokemon_encoder(tokens)[:, 0, :]
+        # event encoder
+        event_tokens = self.event_proj(event_obs)
+        positions = torch.arange(max_events, device=x.device).unsqueeze(0)
+        event_tokens = event_tokens + self.seq_pos_embed(positions)
+        is_pad = evt_ids == 0
+        causal_mask = nn.Transformer.generate_square_subsequent_mask(
+            max_events, device=x.device
+        )
+        pad_mask = torch.where(is_pad, float("-inf"), 0.0)
+        z = self.event_encoder(
+            event_tokens,
+            mask=causal_mask,
+            src_key_padding_mask=pad_mask,
+            is_causal=True,
+        )
+        seq_lens = (~is_pad).sum(dim=1) - 1
+        return self.norm(z[torch.arange(batch_size, device=x.device), seq_lens])

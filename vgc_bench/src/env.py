@@ -20,7 +20,7 @@ from stable_baselines3.common.monitor import Monitor
 
 from vgc_bench.src.policy_player import PolicyPlayer
 from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle, get_available_regs
-from vgc_bench.src.utils import LearningStyle, chunk_obs_len, format_map, moves
+from vgc_bench.src.utils import FIELDS_PER_EVENT, LearningStyle, format_map, max_events
 
 
 class ShowdownEnv(DoublesEnv):
@@ -37,7 +37,9 @@ class ShowdownEnv(DoublesEnv):
         """
         super().__init__(*args, **kwargs)
         self.observation_spaces = {
-            agent: Box(-1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32)
+            agent: Box(
+                -1, np.inf, shape=(max_events * FIELDS_PER_EVENT,), dtype=np.float32
+            )
             for agent in self.possible_agents
         }
 
@@ -148,4 +150,4 @@ class ShowdownEnv(DoublesEnv):
         Returns:
             Numpy array observation for the policy network.
         """
-        return PolicyPlayer.embed_battle(battle, fake_rating=2000)
+        return PolicyPlayer.tokenize_battle(battle, fake_rating=2000)
