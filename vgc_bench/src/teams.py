@@ -248,15 +248,15 @@ def calc_team_similarity_score(team1: str, team2: str):
             similarity_score += 1
         if mon1.tera_type == mon2.tera_type:
             similarity_score += 1
-        ev_dist = sum([abs(ev1 - ev2) for ev1, ev2 in zip(mon1.evs, mon2.evs)]) / (
-            2 * 508
-        )
+        evs1 = mon1.evs if mon1.evs is not None else [0] * 6
+        evs2 = mon2.evs if mon2.evs is not None else [0] * 6
+        ev_dist = sum([abs(ev1 - ev2) for ev1, ev2 in zip(evs1, evs2)]) / (2 * 508)
         similarity_score += 1 - ev_dist
         if mon1.nature == mon2.nature:
             similarity_score += 1
-        iv_dist = sum([abs(iv1 - iv2) for iv1, iv2 in zip(mon1.ivs, mon2.ivs)]) / (
-            6 * 31
-        )
+        ivs1 = mon1.ivs if mon1.ivs is not None else [31] * 6
+        ivs2 = mon2.ivs if mon2.ivs is not None else [31] * 6
+        iv_dist = sum([abs(iv1 - iv2) for iv1, iv2 in zip(ivs1, ivs2)]) / (6 * 31)
         similarity_score += 1 - iv_dist
         for move in mon1.moves:
             if move in mon2.moves:
