@@ -16,7 +16,7 @@ dependencies = [
     "poke-env @ git+https://github.com/cameronangliss/poke-env.git@vgc-bench",
     "setuptools==80.10.2",
     "stable_baselines3==2.7.1",
-    "supersuit==3.9.3",
+    "supersuit==3.11.0",
     "tensorboard==2.20.0",
     "torch==2.11.0",
     "torch-tb-profiler==0.4.3",
