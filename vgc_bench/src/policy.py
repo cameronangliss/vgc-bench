@@ -9,6 +9,7 @@ moves are selected.
 from typing import Any
 
 import torch
+import torch.nn.functional as F
 from gymnasium import Space
 from stable_baselines3.common.distributions import MultiCategoricalDistribution
 from stable_baselines3.common.policies import ActorCriticPolicy
@@ -156,6 +157,53 @@ class MaskedActorCriticPolicy(ActorCriticPolicy):
         distribution = self.action_dist.proba_distribution(action_logits + mask)
         assert isinstance(distribution, MultiCategoricalDistribution)
         return distribution
+
+    def action_pair_target_loss(
+        self,
+        obs: dict[str, torch.Tensor],
+        target_sample_indices: torch.Tensor,
+        target_first_actions: torch.Tensor,
+        target_second_actions: torch.Tensor,
+        target_probs: torch.Tensor,
+    ) -> torch.Tensor:
+        """Cross entropy from sparse MCTS visit targets over action pairs."""
+        action_logits, _ = self.get_logits(obs, actor_grad=True)
+        mask = obs["action_mask"]
+        mask_value = torch.where(mask == 1, 0.0, float("-inf"))
+
+        first_logits = action_logits[:, :act_len] + mask_value[:, :act_len]
+        first_log_probs = F.log_softmax(first_logits, dim=1)
+        first_loss_terms = first_log_probs[
+            target_sample_indices, target_first_actions
+        ]
+
+        second_mask = self._update_mask(
+            mask[target_sample_indices], target_first_actions.unsqueeze(1)
+        )
+        second_mask_value = torch.where(
+            second_mask[:, act_len:] == 1, 0.0, float("-inf")
+        )
+        second_logits = (
+            action_logits[target_sample_indices, act_len:] + second_mask_value
+        )
+        second_log_probs = F.log_softmax(second_logits, dim=1)
+        target_rows = torch.arange(
+            len(target_second_actions), device=target_second_actions.device
+        )
+        second_loss_terms = second_log_probs[
+            target_rows,
+            target_second_actions,
+        ]
+
+        pair_log_probs = first_loss_terms + second_loss_terms
+        return -(target_probs * pair_log_probs).sum() / obs["observation"].shape[0]
+
+    def value_target_loss(
+        self, obs: dict[str, torch.Tensor], value_targets: torch.Tensor
+    ) -> torch.Tensor:
+        """MSE of the critic against MCTS root-value targets."""
+        _, value_logits = self.get_logits(obs, actor_grad=False)
+        return F.mse_loss(value_logits.flatten(), value_targets)
 
     @staticmethod
     def _update_mask(mask: torch.Tensor, ally_actions: torch.Tensor) -> torch.Tensor:

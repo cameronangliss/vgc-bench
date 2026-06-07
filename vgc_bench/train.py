@@ -15,6 +15,7 @@ from stable_baselines3.common.vec_env import SubprocVecEnv
 
 from vgc_bench.src.callback import Callback
 from vgc_bench.src.env import ShowdownEnv
+from vgc_bench.src.mcts import MCTSGuidanceConfig
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.utils import LearningStyle, set_global_seed
 
@@ -37,6 +38,17 @@ def train(
     results_suffix: str,
     total_steps: int,
     evaluate: bool = True,
+    alpha_zero: bool = False,
+    az_mcts_ms: int = 50,
+    az_mcts_threads: int = 1,
+    az_policy_coef: float = 0.25,
+    az_value_coef: float = 0.5,
+    az_sample_rate: float = 1.0,
+    az_target_temperature: float = 1.0,
+    az_train_epochs: int = 1,
+    az_replay_size: int = 8192,
+    az_eval_mcts: bool = False,
+    az_eval_mcts_ms: int = 50,
 ):
     """
     Train a Pokemon VGC policy using reinforcement learning.
@@ -65,6 +77,16 @@ def train(
         evaluate: Whether to run evaluations and save checkpoints.
     """
     save_interval = 983_040
+    mcts_guidance_config = (
+        MCTSGuidanceConfig(
+            duration_ms=az_mcts_ms,
+            threads=az_mcts_threads,
+            sample_rate=az_sample_rate,
+            target_temperature=az_target_temperature,
+        )
+        if alpha_zero
+        else None
+    )
     suffix = f"_{results_suffix}" if results_suffix else ""
     output_dir = Path(f"results{suffix}")
     output_dir.mkdir(exist_ok=True)
@@ -87,6 +109,7 @@ def train(
             allow_mirror_match,
             choose_on_teampreview,
             team_paths,
+            mcts_guidance_config,
         )
         if learning_style == LearningStyle.PURE_SELF_PLAY
         else SubprocVecEnv(
@@ -102,6 +125,7 @@ def train(
                     allow_mirror_match,
                     choose_on_teampreview,
                     team_paths,
+                    mcts_guidance_config,
                 )
                 for _ in range(num_envs)
             ]
@@ -109,6 +133,7 @@ def train(
     )
     method_tags = [
         "bc" if behavior_clone else None,
+        "az" if alpha_zero else None,
         learning_style.abbrev,
         "xm" if not allow_mirror_match else None,
         "xt" if not choose_on_teampreview else None,
@@ -130,7 +155,6 @@ def train(
         ),
         batch_size=512,
         gamma=1,
-        # ent_coef is set in callback.py based on training progress
         tensorboard_log=str(output_dir / f"logs_{method}"),
         policy_kwargs={"d_model": 256, "choose_on_teampreview": choose_on_teampreview},
         device=device,
@@ -165,7 +189,15 @@ def train(
             team_paths,
             results_suffix,
             total_steps,
-            evaluate,
+            evaluate=evaluate,
+            alpha_zero=alpha_zero,
+            az_mcts_threads=az_mcts_threads,
+            az_policy_coef=az_policy_coef,
+            az_value_coef=az_value_coef,
+            az_train_epochs=az_train_epochs,
+            az_replay_size=az_replay_size,
+            az_eval_mcts=az_eval_mcts,
+            az_eval_mcts_ms=az_eval_mcts_ms,
         ),
         tb_log_name=str(save_dir.relative_to(output_dir / f"saves_{method}")),
         reset_num_timesteps=False,
@@ -277,6 +309,70 @@ if __name__ == "__main__":
     parser.add_argument(
         "--total_steps", type=int, required=True, help="total training timesteps"
     )
+    parser.add_argument(
+        "--alpha_zero",
+        action="store_true",
+        help="add MCTS visit-distribution policy targets during training",
+    )
+    parser.add_argument(
+        "--az_mcts_ms",
+        type=int,
+        default=50,
+        help="milliseconds of poke-engine-doubles MCTS per labeled decision",
+    )
+    parser.add_argument(
+        "--az_mcts_threads",
+        type=int,
+        default=1,
+        help="threads poke-engine-doubles uses per MCTS search",
+    )
+    parser.add_argument(
+        "--az_policy_coef",
+        type=float,
+        default=0.25,
+        help="coefficient for the auxiliary MCTS policy-target loss",
+    )
+    parser.add_argument(
+        "--az_value_coef",
+        type=float,
+        default=0.5,
+        help="coefficient for the auxiliary MCTS value-target (critic) loss",
+    )
+    parser.add_argument(
+        "--az_sample_rate",
+        type=float,
+        default=1.0,
+        help="fraction of training decisions to label with MCTS",
+    )
+    parser.add_argument(
+        "--az_target_temperature",
+        type=float,
+        default=1.0,
+        help="temperature applied to MCTS visit counts before policy supervision",
+    )
+    parser.add_argument(
+        "--az_train_epochs",
+        type=int,
+        default=1,
+        help="auxiliary MCTS policy-target epochs after each PPO rollout",
+    )
+    parser.add_argument(
+        "--az_replay_size",
+        type=int,
+        default=8192,
+        help="number of recent MCTS-labeled states kept for auxiliary training",
+    )
+    parser.add_argument(
+        "--az_eval_mcts",
+        action="store_true",
+        help="also evaluate engine MCTS search against SimpleHeuristics",
+    )
+    parser.add_argument(
+        "--az_eval_mcts_ms",
+        type=int,
+        default=50,
+        help="milliseconds of MCTS per decision for MCTS evaluation games",
+    )
     args = parser.parse_args()
     set_global_seed(args.run_id)
     reg = args.reg.lower() if args.reg is not None else None
@@ -323,4 +419,15 @@ if __name__ == "__main__":
         args.team2 or None,
         args.results_suffix,
         args.total_steps,
+        alpha_zero=args.alpha_zero,
+        az_mcts_ms=args.az_mcts_ms,
+        az_mcts_threads=args.az_mcts_threads,
+        az_policy_coef=args.az_policy_coef,
+        az_value_coef=args.az_value_coef,
+        az_sample_rate=args.az_sample_rate,
+        az_target_temperature=args.az_target_temperature,
+        az_train_epochs=args.az_train_epochs,
+        az_replay_size=args.az_replay_size,
+        az_eval_mcts=args.az_eval_mcts,
+        az_eval_mcts_ms=args.az_eval_mcts_ms,
     )

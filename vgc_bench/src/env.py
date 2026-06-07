@@ -18,6 +18,7 @@ from poke_env.environment import DoublesEnv, SingleAgentWrapper
 from poke_env.ps_client import ServerConfiguration
 from stable_baselines3.common.monitor import Monitor
 
+from vgc_bench.src.mcts import MCTSGuidance, MCTSGuidanceConfig
 from vgc_bench.src.policy_player import PolicyPlayer
 from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle, get_available_regs
 from vgc_bench.src.utils import LearningStyle, chunk_obs_len, format_map, moves
@@ -31,10 +32,23 @@ class ShowdownEnv(DoublesEnv):
     reward calculation, and support for various training paradigms.
     """
 
-    def __init__(self, *args: Any, **kwargs: Any):
+    def __init__(
+        self,
+        *args: Any,
+        mcts_guidance_config: MCTSGuidanceConfig | None = None,
+        mcts_guidance_agent2: bool = True,
+        **kwargs: Any,
+    ):
         """
         Initialize the ShowdownEnv.
         """
+        self._mcts_guidance = (
+            MCTSGuidance(mcts_guidance_config)
+            if mcts_guidance_config is not None
+            else None
+        )
+        self._mcts_guidance_agent2 = mcts_guidance_agent2
+        self._pending_mcts_info: dict[str, dict[str, Any]] = {}
         super().__init__(*args, **kwargs)
         self.observation_spaces = {
             agent: Box(-1, len(moves), shape=(12 * chunk_obs_len,), dtype=np.float32)
@@ -54,6 +68,7 @@ class ShowdownEnv(DoublesEnv):
         allow_mirror_match: bool,
         choose_on_teampreview: bool,
         team_paths: list[Path] | None = None,
+        mcts_guidance_config: MCTSGuidanceConfig | None = None,
     ) -> Env:
         """
         Factory method to create a properly wrapped training environment.
@@ -93,6 +108,8 @@ class ShowdownEnv(DoublesEnv):
             open_timeout=None,
             team=RandomTeamBuilder(run_id, num_teams, reg, team_paths, toggle),
             choose_on_teampreview=choose_on_teampreview,
+            mcts_guidance_config=mcts_guidance_config,
+            mcts_guidance_agent2=learning_style == LearningStyle.PURE_SELF_PLAY,
         )
         if learning_style == LearningStyle.PURE_SELF_PLAY:
             env = ss.pettingzoo_env_to_vec_env_v1(env)
@@ -108,6 +125,32 @@ class ShowdownEnv(DoublesEnv):
             env = SingleAgentWrapper(env, opponent)
             env = Monitor(env)
             return env
+
+    def step(self, actions):
+        """Step the environment, optionally attaching MCTS policy targets."""
+        self._pending_mcts_info = {}
+        if self._mcts_guidance is not None:
+            if self.agent1_to_move and self.battle1 is not None:
+                info = self._mcts_guidance.search_policy_target(self.battle1)
+                if info:
+                    self._pending_mcts_info[self.agent1.username] = info
+            if (
+                self._mcts_guidance_agent2
+                and self.agent2_to_move
+                and self.battle2 is not None
+            ):
+                info = self._mcts_guidance.search_policy_target(self.battle2)
+                if info:
+                    self._pending_mcts_info[self.agent2.username] = info
+        return super().step(actions)
+
+    def get_additional_info(self) -> dict[str, dict[str, Any]]:
+        """Attach one-step MCTS targets to the info dict."""
+        infos = super().get_additional_info()
+        for agent, info in self._pending_mcts_info.items():
+            infos.setdefault(agent, {}).update(info)
+        self._pending_mcts_info = {}
+        return infos
 
     def reset(
         self, seed: Optional[int] = None, options: Optional[Dict[str, Any]] = None

@@ -14,13 +14,14 @@ from pathlib import Path
 
 import numpy as np
 import numpy.typing as npt
+import torch
 from huggingface_hub import hf_hub_download
 from nashpy import Game
 from poke_env.player import Player, SimpleHeuristicsPlayer
 from poke_env.ps_client import ServerConfiguration
-from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import BaseCallback
 
+from vgc_bench.src.mcts import MCTSPlayer
 from vgc_bench.src.policy import MaskedActorCriticPolicy
 from vgc_bench.src.policy_player import BatchPolicyPlayer
 from vgc_bench.src.teams import RandomTeamBuilder, TeamToggle, get_available_regs
@@ -68,6 +69,15 @@ class Callback(BaseCallback):
         results_suffix: str,
         total_steps: int,
         evaluate: bool = True,
+        alpha_zero: bool = False,
+        az_mcts_threads: int = 1,
+        az_policy_coef: float = 0.25,
+        az_value_coef: float = 0.5,
+        az_train_epochs: int = 1,
+        az_batch_size: int = 512,
+        az_replay_size: int = 8192,
+        az_eval_mcts: bool = False,
+        az_eval_mcts_ms: int = 50,
     ):
         """
         Initialize the training callback.
@@ -91,12 +101,25 @@ class Callback(BaseCallback):
         """
         super().__init__()
         self.evaluate = evaluate
+        self.alpha_zero = alpha_zero
+        self.az_mcts_threads = az_mcts_threads
+        self.az_policy_coef = az_policy_coef
+        self.az_value_coef = az_value_coef
+        self.az_train_epochs = az_train_epochs
+        self.az_batch_size = az_batch_size
+        self.az_replay_size = az_replay_size
+        self.az_eval_mcts = az_eval_mcts
+        self.az_eval_mcts_ms = az_eval_mcts_ms
+        self.az_obs_buffer: list[dict[str, npt.NDArray[np.float32]]] = []
+        self.az_target_buffer: list[list[tuple[int, int, float]]] = []
+        self.az_value_buffer: list[float] = []
         self.total_steps = total_steps
         self.learning_style = learning_style
         self.behavior_clone = behavior_clone
         self.save_interval = save_interval
         method_tags = [
             "bc" if behavior_clone else None,
+            "az" if alpha_zero else None,
             learning_style.abbrev,
             "xm" if not allow_mirror_match else None,
             "xt" if not choose_on_teampreview else None,
@@ -178,10 +201,61 @@ class Callback(BaseCallback):
                 open_timeout=None,
                 team=RandomTeamBuilder(run_id, num_teams, reg, team_paths, toggle),
             )
+            self.eval_mcts_agent = (
+                MCTSPlayer(
+                    duration_ms=az_eval_mcts_ms,
+                    threads=az_mcts_threads,
+                    server_configuration=ServerConfiguration(
+                        f"ws://localhost:{port}/showdown/websocket",
+                        "https://play.pokemonshowdown.com/action.php?",
+                    ),
+                    battle_format=battle_format,
+                    log_level=log_level,
+                    max_concurrent_battles=num_eval_workers,
+                    accept_open_team_sheet=True,
+                    open_timeout=None,
+                    team=RandomTeamBuilder(
+                        run_id, num_teams, reg, team_paths, toggle
+                    ),
+                )
+                if az_eval_mcts
+                else None
+            )
 
     def _on_step(self) -> bool:
         """Called after each environment step. Returns True to continue training."""
+        if self.alpha_zero:
+            self.collect_alpha_zero_targets()
         return True
+
+    def collect_alpha_zero_targets(self) -> None:
+        """Collect sparse MCTS visit targets from vectorized env infos."""
+        infos = self.locals.get("infos", [])
+        algorithm = self.locals.get("self")
+        last_obs = getattr(algorithm, "_last_obs", None)
+        if not isinstance(last_obs, dict):
+            return
+        for env_idx, info in enumerate(infos):
+            pairs = info.get("az_target_pairs")
+            if not pairs:
+                continue
+            obs = {
+                key: np.asarray(value[env_idx]).copy()
+                for key, value in last_obs.items()
+            }
+            self.az_obs_buffer.append(obs)
+            self.az_target_buffer.append(
+                [
+                    (int(first), int(second), float(prob))
+                    for first, second, prob in pairs
+                ]
+            )
+            self.az_value_buffer.append(float(info.get("az_value_target", 0.0)))
+        if len(self.az_obs_buffer) > self.az_replay_size:
+            excess = len(self.az_obs_buffer) - self.az_replay_size
+            del self.az_obs_buffer[:excess]
+            del self.az_target_buffer[:excess]
+            del self.az_value_buffer[:excess]
 
     def _on_training_start(self):
         """Initialize evaluation agent and perform initial checkpoint if needed."""
@@ -238,6 +312,12 @@ class Callback(BaseCallback):
             heuristic_win_rates = self.compare(self.eval_agent, self.eval_opponent, 100)
             for label, wr in heuristic_win_rates.items():
                 self.model.logger.record(f"eval/heuristic{label}", wr)
+            if self.eval_mcts_agent is not None:
+                mcts_win_rates = self.compare(
+                    self.eval_mcts_agent, self.eval_opponent, 100
+                )
+                for label, wr in mcts_win_rates.items():
+                    self.model.logger.record(f"eval/mcts_heuristic{label}", wr)
             if not self.behavior_clone:
                 self.model.save(self.save_dir / f"{self.model.num_timesteps}")
         if bc_policy_path.exists():
@@ -257,11 +337,9 @@ class Callback(BaseCallback):
 
     def _on_rollout_start(self):
         """Sample opponents for self-play and record checkpoints at intervals."""
-        assert isinstance(self.model, PPO)
         assert self.model.env is not None
-        progress = min(self.model.num_timesteps / self.total_steps, 1.0)
-        self.model.ent_coef = max(0.02, 0.05 * (0.001 / 0.05) ** progress)
-        self.model.logger.record("train/ent_coef", self.model.ent_coef)
+        if self.alpha_zero:
+            self.train_alpha_zero_targets()
         if (
             self.evaluate
             and self.model.num_timesteps % self.save_interval == 0
@@ -285,8 +363,110 @@ class Callback(BaseCallback):
                     "set_opp_policy", selected_files[i], self.model.device, indices=i
                 )
 
+    def train_alpha_zero_targets(self) -> None:
+        """Apply auxiliary MCTS visit-distribution and root-value losses."""
+        if (
+            (self.az_policy_coef <= 0 and self.az_value_coef <= 0)
+            or not self.az_obs_buffer
+            or not isinstance(self.model.policy, MaskedActorCriticPolicy)
+        ):
+            return
+        policy = self.model.policy
+        if not policy.actor_grad:
+            return
+
+        policy.set_training_mode(True)
+        n_samples = len(self.az_obs_buffer)
+        batch_size = min(self.az_batch_size, n_samples)
+        total_policy_losses: list[float] = []
+        total_value_losses: list[float] = []
+        total_targets = 0
+
+        for _ in range(self.az_train_epochs):
+            indices = np.random.permutation(n_samples)
+            for start in range(0, n_samples, batch_size):
+                batch_indices = indices[start : start + batch_size]
+                obs_np = {
+                    key: np.stack([self.az_obs_buffer[i][key] for i in batch_indices])
+                    for key in self.az_obs_buffer[0]
+                }
+                obs = {
+                    key: torch.as_tensor(value, device=policy.device)
+                    for key, value in obs_np.items()
+                }
+                losses = []
+                if self.az_value_coef > 0:
+                    # calc_reward is +1 win / -1 loss with gamma=1, so the critic's
+                    # value scale is 2 * P(win) - 1; map the engine win-prob target.
+                    value_targets = torch.as_tensor(
+                        [2.0 * self.az_value_buffer[i] - 1.0 for i in batch_indices],
+                        device=policy.device,
+                        dtype=torch.float32,
+                    )
+                    value_loss = self.az_value_coef * policy.value_target_loss(
+                        obs, value_targets
+                    )
+                    losses.append(value_loss)
+                    total_value_losses.append(value_loss.item())
+
+                sample_indices: list[int] = []
+                first_actions: list[int] = []
+                second_actions: list[int] = []
+                probs: list[float] = []
+                for sample_idx, buffer_idx in enumerate(batch_indices):
+                    for first, second, prob in self.az_target_buffer[buffer_idx]:
+                        sample_indices.append(sample_idx)
+                        first_actions.append(first)
+                        second_actions.append(second)
+                        probs.append(prob)
+                if probs and self.az_policy_coef > 0:
+                    target_sample_indices = torch.as_tensor(
+                        sample_indices, device=policy.device, dtype=torch.long
+                    )
+                    target_first_actions = torch.as_tensor(
+                        first_actions, device=policy.device, dtype=torch.long
+                    )
+                    target_second_actions = torch.as_tensor(
+                        second_actions, device=policy.device, dtype=torch.long
+                    )
+                    target_probs = torch.as_tensor(
+                        probs, device=policy.device, dtype=torch.float32
+                    )
+                    policy_loss = self.az_policy_coef * policy.action_pair_target_loss(
+                        obs,
+                        target_sample_indices,
+                        target_first_actions,
+                        target_second_actions,
+                        target_probs,
+                    )
+                    losses.append(policy_loss)
+                    total_policy_losses.append(policy_loss.item())
+                    total_targets += len(probs)
+
+                if not losses:
+                    continue
+                loss = sum(losses)
+                policy.optimizer.zero_grad()
+                loss.backward()
+                torch.nn.utils.clip_grad_norm_(
+                    policy.parameters(), self.model.max_grad_norm
+                )
+                policy.optimizer.step()
+
+        if total_policy_losses:
+            self.model.logger.record(
+                "train/az_policy_loss", np.mean(total_policy_losses)
+            )
+            self.model.logger.record("train/az_targets", total_targets)
+        if total_value_losses:
+            self.model.logger.record("train/az_value_loss", np.mean(total_value_losses))
+        if total_policy_losses or total_value_losses:
+            self.model.logger.record("train/az_buffer_size", len(self.az_obs_buffer))
+
     def _on_training_end(self):
         """Record final checkpoint and flush logs."""
+        if self.alpha_zero:
+            self.train_alpha_zero_targets()
         if self.evaluate:
             self.record()
         self.model.logger.dump(self.model.num_timesteps)
@@ -296,6 +476,10 @@ class Callback(BaseCallback):
         heuristic_win_rates = self.compare(self.eval_agent, self.eval_opponent, 100)
         for label, wr in heuristic_win_rates.items():
             self.model.logger.record(f"eval/heuristic{label}", wr)
+        if self.eval_mcts_agent is not None:
+            mcts_win_rates = self.compare(self.eval_mcts_agent, self.eval_opponent, 100)
+            for label, wr in mcts_win_rates.items():
+                self.model.logger.record(f"eval/mcts_heuristic{label}", wr)
         if self.eval_opponent2.policy is not None:
             bc_win_rates = self.compare(self.eval_agent, self.eval_opponent2, 100)
             for label, wr in bc_win_rates.items():

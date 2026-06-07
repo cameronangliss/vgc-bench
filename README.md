@@ -61,10 +61,37 @@ The training code offers the following PSRO algorithms:
 
 ...as well as some special training options:
 - initializing the policy with the output of the BC pipeline; if `--behavior_clone` is enabled and no local BC checkpoint is present, `vgc_bench.train` automatically downloads [`results/saves_bc/seed1/100.zip`](https://huggingface.co/cameronangliss/vgc-bench-models/blob/main/results/saves_bc/seed1/100.zip) from the [vgc-bench-models](https://huggingface.co/cameronangliss/vgc-bench-models) model repo
+- AlphaZero-style MCTS guidance with `--alpha_zero`, which runs `poke-engine-doubles` search on training decisions and adds an auxiliary policy loss toward the MCTS visit distribution
 - frame stacking with specified number of frames
 - excluding mirror matches (p1 and p2 using the same team)
 - starting agent with random teampreview at the beginning of each game
 - matchup solving with specific team strings (pass both `--team1` and `--team2` to train on a single matchup)
+
+MCTS guidance requires the optional Rust-backed [`poke-engine-doubles`](https://github.com/pmariglia/poke-engine-doubles)
+engine, pinned here as a submodule. The PyPI release is stale and has a search bug, so it
+must be built from source (a Rust toolchain is required). Fetch the submodule and build it
+with the Champions/Mega feature set:
+```
+git submodule update --init --recursive
+. "$HOME/.cargo/env"
+pip uninstall -y poke-engine-doubles
+pip install -v --force-reinstall --no-cache-dir ./poke-engine-doubles/poke-engine-py \
+    --config-settings="build-args=--features poke-engine/mega --no-default-features"
+```
+The `--features poke-engine/mega` flag builds the gen9 + Mega Evolution engine used by the
+Champions VGC 2026 format; do not omit it (the crate's default feature set is for a
+different gimmick). If `cargo` is not available, install Rust user-local with `rustup`;
+sudo is not required.
+
+IMPORTANT: the installed engine is a compiled binary, so updating the submodule does not
+update it. Whenever the submodule moves (e.g. `git submodule update --remote` to pick up
+an engine fix), you must re-run the `pip install ... --force-reinstall` line above or you
+will keep running the old binary.
+
+Then run training with MCTS guidance enabled:
+```
+python -m vgc_bench.train --self_play --alpha_zero --az_mcts_ms 50 --az_eval_mcts --total_steps 1000000
+```
 
 See [train.sh](train.sh) for running multiple training runs simultaneously with automatic pokemon-showdown server management, or [train_matchup.sh](train_matchup.sh) for an example of training on a specific team matchup.
 If you don't want to run `train.py` yourself, pre-trained models are available in [vgc-bench-models](https://huggingface.co/cameronangliss/vgc-bench-models).

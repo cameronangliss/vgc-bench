@@ -22,10 +22,14 @@ dependencies = [
     "torch-tb-profiler==0.4.3",
     "transformers==4.57.6",
 ]
-optional-dependencies = { dev = ["pyright==1.1.408", "pytest==8.3.5", "ruff==0.11.12"] }
+[project.optional-dependencies]
+dev = ["pyright==1.1.408", "pytest==8.3.5", "ruff==0.11.12"]
+# MCTS guidance (--alpha_zero) needs the Rust-backed poke-engine-doubles engine, built
+# from source — see the "MCTS guidance" setup in README.md. The PyPI release (0.0.7) is
+# stale and has a search bug, so it is intentionally not declared as a pip dependency.
 
 [tool.setuptools.packages.find]
-include = ["vgc_bench"]
+include = ["vgc_bench", "vgc_bench.*"]
 
 [tool.ruff]
 line-length = 88

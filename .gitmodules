@@ -2,3 +2,6 @@
 	path = pokemon-showdown
 	url = https://github.com/cameronangliss/pokemon-showdown.git
 	branch = vgc-bench
+[submodule "poke-engine-doubles"]
+	path = poke-engine-doubles
+	url = https://github.com/pmariglia/poke-engine-doubles.git
