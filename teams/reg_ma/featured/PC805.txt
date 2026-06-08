@@ -1,0 +1,59 @@
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 23 HP / 20 Def / 15 SpD / 8 Spe
+Bold Nature
+- Hyper Voice
+- Imprison
+- Protect
+- Trick Room
+
+Camerupt @ Choice Scarf
+Ability: Anger Point
+Level: 50
+EVs: 32 Atk / 6 Def / 28 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Flame Charge
+- Stomping Tantrum
+
+Whimsicott @ Mental Herb
+Ability: Prankster
+Level: 50
+EVs: 2 Atk / 32 SpA / 32 Spe
+Hasty Nature
+- Tailwind
+- Memento
+- Encore
+- Protect
+
+Tauros-Paldea-Aqua (M) @ Hard Stone
+Ability: Anger Point
+Level: 50
+EVs: 1 HP / 32 Atk / 9 Def / 24 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Aqua Jet
+- Protect
+
+Garganacl @ Silk Scarf
+Ability: Clear Body
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Explosion
+- Stealth Rock
+- Wide Guard
+- Protect
+
+Pinsir @ Pinsirite
+Ability: Hyper Cutter
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Storm Throw
+- Feint
+- Giga Impact
+- Protect

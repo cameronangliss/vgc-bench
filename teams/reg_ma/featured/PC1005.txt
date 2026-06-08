@@ -1,0 +1,59 @@
+Espathra @ Focus Sash
+Ability: Speed Boost
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Lumina Crash
+- Rain Dance
+- Helping Hand
+- Protect
+
+Basculegion @ Mystic Water
+Ability: Swift Swim
+Level: 50
+EVs: 32 Atk / 5 Def / 29 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Protect
+- Last Respects
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 27 HP / 1 Def / 5 SpA / 20 SpD / 13 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Dragon Pulse
+- Protect
+
+Aegislash @ Spell Tag
+Ability: Stance Change
+Level: 50
+EVs: 32 HP / 32 Atk / 1 SpD / 1 Spe
+Adamant Nature
+- Poltergeist
+- King’s Shield
+- Shadow Sneak
+- Close Combat
+
+Pelipper @ Choice Scarf
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- Muddy Water
+
+Floette-Eternal @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Light of Ruin
+- Dazzling Gleam
+- Protect

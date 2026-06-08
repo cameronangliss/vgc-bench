@@ -1,59 +1,59 @@
-Aerodactyl @ Focus Sash
-Ability: Unnerve
+Gallade (M) @ Galladite
+Ability: Sharpness
 Level: 50
-EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+EVs: 19 HP / 15 Atk / 32 Spe
 Jolly Nature
-- Rock Slide
-- Dual Wingbeat
-- Tailwind
+- Sacred Sword
+- Psycho Cut
+- Rock Tomb
 - Protect
 
-Chandelure @ Colbur Berry
-Ability: Flash Fire
+Bellibolt @ Sitrus Berry
+Ability: Electromorphosis
 Level: 50
-EVs: 24 HP / 1 Def / 32 SpA / 1 SpD / 8 Spe
-Modest Nature
-- Heat Wave
-- Shadow Ball
-- Will-O-Wisp
+EVs: 32 HP / 27 SpA / 7 SpD
+Quiet Nature
+- Volt Switch
+- Parabolic Charge
+- Sucker Punch
 - Protect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Liquidation
+- Aqua Jet
+- Last Respects
+- Protect
+
+Zoroark-Hisui @ Choice Scarf
+Ability: Illusion
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Shadow Ball
+- Psychic
+- Icy Wind
+- Fake Tears
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 12 HP / 29 Atk / 25 Spe
+Adamant Nature
+- Flare Blitz
+- Dual Wingbeat
+- Tailwind
+- Quick Guard
 
 Floette-Eternal (F) @ Floettite
 Ability: Flower Veil
 Level: 50
-EVs: 32 HP / 31 SpA / 3 Spe
+EVs: 22 HP / 6 Def / 9 SpA / 29 Spe
 Modest Nature
-- Moonblast
 - Dazzling Gleam
-- Light of Ruin
+- Moonblast
+- Calm Mind
 - Protect
-
-Scizor @ Metal Coat
-Ability: Technician
-Level: 50
-EVs: 22 HP / 31 Atk / 13 Def
-Adamant Nature
-- Bullet Punch
-- Knock Off
-- Close Combat
-- Protect
-
-Kommo-o @ Sitrus Berry
-Ability: Soundproof
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Clanging Scales
-- Aura Sphere
-- Clangorous Soul
-- Protect
-
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
-Level: 50
-EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
-Jolly Nature
-- Wave Crash
-- Aqua Jet
-- Flip Turn
-- Last Respects

@@ -1,59 +1,59 @@
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
+Lopunny @ Lopunnite
+Ability: Cute Charm
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
 Jolly Nature
-- Aqua Jet
-- Wave Crash
-- Last Respects
-- Flip Turn
+- Close Combat
+- Triple Axel
+- Mach Punch
+- Fake Out
 
-Volcarona @ Sitrus Berry
-Ability: Flame Body
+Charizard @ Charizardite Y
+Ability: Blaze
 Level: 50
-EVs: 32 HP / 26 Def / 5 SpA / 3 Spe
+EVs: 6 HP / 10 Def / 32 SpA / 18 Spe
 Modest Nature
 - Heat Wave
-- Rage Powder
-- Protect
-- Tailwind
-
-Espathra @ Focus Sash
-Ability: Speed Boost
-Level: 50
-EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
-Timid Nature
-- Lumina Crash
-- Sunny Day
-- Rain Dance
+- Weather Ball
+- Solar Beam
 - Protect
 
-Rotom-Heat @ Leftovers
-Ability: Levitate
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
 Level: 50
-EVs: 32 HP / 1 Def / 25 SpA / 1 SpD / 7 Spe
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Liquidation
+- Aqua Jet
+- Protect
+- Last Respects
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 15 HP / 19 Def / 32 SpA
 Modest Nature
-- Thunderbolt
-- Will-O-Wisp
-- Protect
-- Overheat
-
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
-Level: 50
-EVs: 14 HP / 20 SpA / 32 Spe
-Timid Nature
+- Hyper Voice
 - Moonblast
+- Helping Hand
 - Protect
-- Light of Ruin
-- Dazzling Gleam
 
-Archaludon @ Chople Berry
-Ability: Stamina
+Whimsicott @ Sitrus Berry
+Ability: Prankster
 Level: 50
-EVs: 2 HP / 25 SpA / 15 SpD / 24 Spe
-Modest Nature
-- Flash Cannon
-- Aura Sphere
-- Electro Shot
+EVs: 32 HP / 22 Def / 3 SpA / 8 SpD / 1 Spe
+Bold Nature
+- Moonblast
+- Tailwind
 - Protect
+- Encore
+
+Dragonite @ Silk Scarf
+Ability: Multiscale
+Level: 50
+EVs: 29 HP / 32 Atk / 1 Def / 1 SpD / 3 Spe
+Adamant Nature
+- Dragon Claw
+- Tailwind
+- Low Kick
+- Extreme Speed

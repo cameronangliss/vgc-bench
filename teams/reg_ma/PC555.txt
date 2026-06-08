@@ -1,59 +1,59 @@
-Garchomp @ Sitrus Berry
-Ability: Rough Skin
+Basculegion (M) @ Mystic Water
+Ability: Adaptability
 Level: 50
-EVs: 32 HP / 15 Atk / 19 Spe
-Adamant Nature
+EVs: 15 Atk / 14 Def / 12 SpD / 25 Spe
+Jolly Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
 - Protect
-- Earthquake
-- Rock Slide
-- Dragon Claw
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Clangorous Soul
+- Clanging Scales
+- Aura Sphere
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 20 HP / 10 Atk / 21 Def / 15 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
 
 Kingambit @ Chople Berry
 Ability: Defiant
 Level: 50
-EVs: 26 HP / 22 Atk / 18 Def
+EVs: 32 HP / 31 Atk / 3 Def
 Adamant Nature
-- Sucker Punch
 - Kowtow Cleave
 - Iron Head
-- Protect
+- Sucker Punch
+- Low Kick
 
-Rotom-Wash @ Choice Scarf
-Ability: Levitate
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
 Level: 50
-EVs: 3 HP / 32 SpA / 31 Spe
-Modest Nature
-- Hydro Pump
-- Thunderbolt
-- Volt Switch
-- Electroweb
-
-Whimsicott @ Focus Sash
-Ability: Prankster
-Level: 50
-EVs: 30 HP / 4 SpA / 32 Spe
-Timid Nature
-- Protect
-- Encore
-- Moonblast
+EVs: 3 HP / 15 Atk / 16 Def / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
 - Tailwind
+- Protect
 
-Conkeldurr @ Leftovers
-Ability: Iron Fist
+Scovillain @ Scovillainite
+Ability: Moody
 Level: 50
-EVs: 32 HP / 20 Atk / 11 Def / 3 SpD
-Adamant Nature
-- Drain Punch
-- Ice Punch
-- Mach Punch
-- Wide Guard
-
-Charizard @ Charizardite Y
-Ability: Blaze
-Level: 50
-EVs: 20 HP / 18 Def / 11 SpA / 17 Spe
-Modest Nature
-- Heat Wave
-- Weather Ball
-- Solar Beam
+EVs: 31 HP / 15 Def / 20 SpD
+Calm Nature
+- Overheat
+- Leech Seed
+- Rage Powder
 - Protect

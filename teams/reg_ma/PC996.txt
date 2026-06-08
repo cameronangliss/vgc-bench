@@ -1,0 +1,59 @@
+Kangaskhan @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 21 HP / 32 Atk / 1 Def / 1 SpD / 11 Spe
+Adamant Nature
+- Double-Edge
+- Low Kick
+- Fake Out
+- Ice Punch
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 19 HP / 17 Def / 10 SpA / 20 SpD
+Quiet Nature
+- Psychic
+- Thunderbolt
+- Helping Hand
+- Trick Room
+
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Fake Out
+- Water Spout
+- Dark Pulse
+- Shell Smash
+
+Vivillon @ Choice Scarf
+Ability: Compound Eyes
+Level: 50
+EVs: 24 Def / 5 SpA / 5 SpD / 32 Spe
+Timid Nature
+- Hurricane
+- Sleep Powder
+- Rage Powder
+- Rain Dance
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Spiky Shield
+- Power Gem
+- Earth Power
+- Sludge Bomb
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Heat Wave
+- Protect

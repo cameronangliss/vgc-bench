@@ -1,0 +1,59 @@
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 25 Atk / 9 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+- Iron Head
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 27 HP / 22 Def / 11 SpA / 6 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Yawn
+- Detect
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 28 HP / 14 Def / 1 SpA / 23 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 28 HP / 2 Atk / 1 Def / 3 SpD / 32 Spe
+Jolly Nature
+- Rock Slide
+- Tailwind
+- Dual Wingbeat
+- Wide Guard
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 4 HP / 20 Atk / 10 SpD / 32 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Stomping Tantrum
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect

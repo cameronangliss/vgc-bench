@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 30 HP / 15 Def / 20 SpA / 1 Spe
+Modest Nature
+- Dazzling Gleam
+- Draining Kiss
+- Calm Mind
+- Protect
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 8 HP / 26 Def / 21 SpA / 11 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Blast Burn
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 32 Atk / 7 Def / 27 Spe
+Adamant Nature
+- Earthquake
+- Dragon Rush
+- Stomping Tantrum
+- Rock Slide
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+- Swords Dance
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Protect

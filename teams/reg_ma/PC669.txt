@@ -1,59 +1,59 @@
-Aerodactyl @ Aerodactylite
-Ability: Unnerve
-Level: 50
-EVs: 20 HP / 12 Atk / 2 SpD / 32 Spe
-Jolly Nature
-- Rock Slide
-- Dual Wingbeat
-- Wide Guard
-- Tailwind
-
-Lopunny @ Lopunnite
-Ability: Limber
+Samurott-Hisui @ Choice Scarf
+Ability: Sharpness
 Level: 50
 EVs: 2 HP / 32 Atk / 32 Spe
-Jolly Nature
-- Close Combat
-- Fake Out
-- Encore
+Adamant Nature
+- Aqua Cutter
+- Ceaseless Edge
+- Sacred Sword
+- Flip Turn
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 Def / 17 SpA / 12 SpD / 4 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Dragon Pulse
 - Protect
 
-Sylveon @ Fairy Feather
-Ability: Pixilate
+Araquanid @ Mystic Water
+Ability: Water Bubble
 Level: 50
-EVs: 27 HP / 2 Def / 30 SpA / 7 Spe
-Modest Nature
-- Hyper Voice
-- Hyper Beam
-- Quick Attack
-- Detect
-
-Basculegion (M) @ Focus Sash
-Ability: Adaptability
-Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
+EVs: 32 HP / 32 Atk / 2 Def
 Adamant Nature
 - Liquidation
-- Last Respects
-- Aqua Jet
+- Wide Guard
+- Leech Life
 - Protect
 
-Sneasler @ White Herb
-Ability: Unburden
+Sableye @ Roseli Berry
+Ability: Prankster
 Level: 50
-EVs: 18 HP / 1 Atk / 32 Def / 15 Spe
+EVs: 32 HP / 7 Def / 25 SpD / 2 Spe
+Calm Nature
+- Foul Play
+- Thunder Wave
+- Encore
+- Rain Dance
+
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
 Adamant Nature
-- Close Combat
-- Gunk Shot
-- Rock Tomb
+- Bullet Punch
+- Assurance
+- Swords Dance
 - Protect
 
-Kingambit @ Chople Berry
-Ability: Supreme Overlord
+Pelipper @ Focus Sash
+Ability: Drizzle
 Level: 50
-EVs: 30 HP / 25 Atk / 2 Def / 9 Spe
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Low Kick
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Weather Ball
+- Hurricane
+- Tailwind
 - Protect

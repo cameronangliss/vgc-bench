@@ -1,0 +1,59 @@
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Heat Wave
+- Shadow Ball
+- Overheat
+- Eruption
+
+Excadrill @ Excadrite
+Ability: Mold Breaker
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Iron Head
+- Rock Slide
+- High Horsepower
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 15 HP / 18 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Coaching
+- Close Combat
+- Fake Out
+- Dire Claw
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+
+Tsareena (F) @ Miracle Seed
+Ability: Queenly Majesty
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Protect
+- Trop Kick
+- Low Kick
+- Triple Axel
+
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Dark Pulse
+- Water Spout
+- Aura Sphere

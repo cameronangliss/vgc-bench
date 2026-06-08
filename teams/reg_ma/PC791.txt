@@ -1,59 +1,59 @@
-Aerodactyl-Mega @ Aerodactylite
-Ability: Tough Claws
+Samurott-Hisui @ Focus Sash
+Ability: Sharpness
 Level: 50
 EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Swords Dance
+- Sucker Punch
+- Ceaseless Edge
+- Sacred Sword
+
+Excadrill @ Choice Scarf
+Ability: Mold Breaker
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Iron Head
+- Rock Tomb
+
+Floette-Eternal (F) @ Fairy Feather
+Ability: Flower Veil
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Light of Ruin
+- Dazzling Gleam
+- Protect
+- Energy Ball
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
 Jolly Nature
 - Rock Slide
 - Dual Wingbeat
-- Ice Fang
+- Tailwind
 - Protect
 
-Sneasler @ White Herb
-Ability: Unburden
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Jolly Nature
-- Close Combat
-- Dire Claw
-- Feint
-- Fake Out
-
-Kingambit @ Chople Berry
-Ability: Defiant
-Level: 50
-EVs: 32 HP / 27 Atk / 7 Def
-Adamant Nature
-- Kowtow Cleave
-- Iron Head
-- Sucker Punch
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Blizzard
+- Dazzling Gleam
 - Protect
+- Freeze-Dry
 
-Garchomp @ Soft Sand
-Ability: Rough Skin
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Dragon Claw
-- Earthquake
-- Rock Slide
-- Protect
-
-Charizard-Mega-Y @ Charizardite Y
-Ability: Solar Power
-Level: 50
-EVs: 8 HP / 25 Def / 1 SpA / 32 Spe
+EVs: 27 HP / 20 Def / 4 SpA / 15 SpD
 Modest Nature
-- Heat Wave
-- Solar Beam
-- Weather Ball
+- Imprison
 - Protect
-
-Dragonite @ Dragon Fang
-Ability: Multiscale
-Level: 50
-EVs: 19 HP / 32 Atk / 1 Def / 14 Spe
-Adamant Nature
-- Dragon Claw
-- Extreme Speed
-- Low Kick
-- Protect
+- Trick Room
+- Hyper Voice

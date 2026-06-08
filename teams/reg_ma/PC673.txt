@@ -1,59 +1,59 @@
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 20 HP / 12 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Wide Guard
+- Tailwind
+
+Lopunny @ Lopunnite
+Ability: Limber
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Close Combat
+- Fake Out
+- Encore
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 27 HP / 2 Def / 30 SpA / 7 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect
+
 Sneasler @ White Herb
 Ability: Unburden
 Level: 50
-EVs: 18 HP / 12 Atk / 20 Def / 16 Spe
-Jolly Nature
-- Protect
-- Fake Out
+EVs: 18 HP / 1 Atk / 32 Def / 15 Spe
+Adamant Nature
 - Close Combat
 - Gunk Shot
-
-Kingambit @ Black Glasses
-Ability: Defiant
-Level: 50
-EVs: 32 HP / 31 Atk / 3 SpD
-Adamant Nature
+- Rock Tomb
 - Protect
-- Swords Dance
+
+Kingambit @ Chople Berry
+Ability: Supreme Overlord
+Level: 50
+EVs: 30 HP / 25 Atk / 2 Def / 9 Spe
+Adamant Nature
+- Kowtow Cleave
 - Sucker Punch
-- Iron Head
-
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
-Level: 50
-EVs: 1 HP / 22 Atk / 11 Def / 32 Spe
-Jolly Nature
-- Flip Turn
-- Aqua Jet
-- Last Respects
-- Wave Crash
-
-Garchomp @ Sitrus Berry
-Ability: Rough Skin
-Level: 50
-EVs: 29 HP / 11 Atk / 1 Def / 1 SpD / 24 Spe
-Adamant Nature
+- Low Kick
 - Protect
-- Stone Edge
-- Dragon Claw
-- Stomping Tantrum
-
-Froslass (F) @ Froslassite
-Ability: Cursed Body
-Level: 50
-EVs: 32 HP / 2 SpD / 32 Spe
-Modest Nature
-- Protect
-- Aurora Veil
-- Shadow Ball
-- Blizzard
-
-Scovillain @ Scovillainite
-Ability: Moody
-Level: 50
-EVs: 29 HP / 15 Def / 21 SpD / 1 Spe
-Bold Nature
-- Protect
-- Rage Powder
-- Leech Seed
-- Overheat

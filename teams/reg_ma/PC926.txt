@@ -1,0 +1,59 @@
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 20 Def / 8 SpD / 7 Spe
+Impish Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 29 Def / 5 SpD
+Calm Nature
+- Muddy Water
+- Hypnosis
+- Coil
+- Recover
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Coaching
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 20 Def / 5 SpA / 9 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Charizard @ Charizardite X
+Ability: Blaze
+Level: 50
+EVs: 14 HP / 21 Atk / 1 Def / 1 SpD / 29 Spe
+Adamant Nature
+- Flare Blitz
+- Dragon Claw
+- Dragon Dance
+- Protect

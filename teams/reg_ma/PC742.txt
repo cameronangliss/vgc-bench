@@ -1,59 +1,59 @@
-Charizard @ Charizardite Y
-Ability: Blaze
+Aerodactyl @ Focus Sash
+Ability: Unnerve
 Level: 50
-EVs: 32 HP / 9 Def / 11 SpA / 14 Spe
-Modest Nature
-- Weather Ball
-- Solar Beam
-- Heat Wave
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
 - Protect
 
-Garchomp @ Choice Scarf
-Ability: Rough Skin
+Chandelure @ Colbur Berry
+Ability: Flash Fire
 Level: 50
-EVs: 4 HP / 30 Atk / 32 Spe
-Adamant Nature
-- Dragon Claw
-- Earthquake
-- Rock Slide
-- Stomping Tantrum
-
-Kingambit @ Black Glasses
-Ability: Defiant
-Level: 50
-EVs: 32 HP / 32 Atk / 1 SpD / 1 Spe
-Adamant Nature
-- Sucker Punch
-- Iron Head
-- Kowtow Cleave
+EVs: 24 HP / 1 Def / 32 SpA / 1 SpD / 8 Spe
+Modest Nature
+- Heat Wave
+- Shadow Ball
+- Will-O-Wisp
 - Protect
 
 Floette-Eternal (F) @ Floettite
 Ability: Flower Veil
 Level: 50
-EVs: 10 HP / 31 Def / 15 SpA / 10 Spe
+EVs: 32 HP / 31 SpA / 3 Spe
 Modest Nature
-- Draining Kiss
+- Moonblast
 - Dazzling Gleam
-- Calm Mind
+- Light of Ruin
 - Protect
 
-Incineroar @ Chople Berry
-Ability: Intimidate
+Scizor @ Metal Coat
+Ability: Technician
 Level: 50
-EVs: 32 HP / 2 Def / 10 SpD / 22 Spe
-Careful Nature
-- Flare Blitz
-- Fake Out
-- Parting Shot
-- Helping Hand
-
-Sinistcha @ Sitrus Berry
-Ability: Hospitality
-Level: 50
-EVs: 32 HP / 4 Def / 30 SpD
-Calm Nature
-- Matcha Gotcha
-- Rage Powder
-- Trick Room
+EVs: 22 HP / 31 Atk / 13 Def
+Adamant Nature
+- Bullet Punch
+- Knock Off
+- Close Combat
 - Protect
+
+Kommo-o @ Sitrus Berry
+Ability: Soundproof
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Clanging Scales
+- Aura Sphere
+- Clangorous Soul
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+- Last Respects

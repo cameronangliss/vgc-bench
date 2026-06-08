@@ -1,0 +1,59 @@
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 7 HP / 24 Def / 20 SpA / 15 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Hyper Beam
+- Detect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 30 HP / 20 Atk / 16 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Dragon Tail
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Last Respects
+- Liquidation
+- Aqua Jet
+- Protect

@@ -1,0 +1,59 @@
+Vivillon @ Choice Scarf
+Ability: Compound Eyes
+Level: 50
+EVs: 24 Def / 5 SpA / 5 SpD / 32 Spe
+Timid Nature
+- Sleep Powder
+- Hurricane
+- Rage Powder
+- Tailwind
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 24 Def / 10 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Protect
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Impish Nature
+- Super Fang
+- Feint
+- Follow Me
+- Protect
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 19 HP / 1 Def / 17 SpA / 29 Spe
+Timid Nature
+- Heat Wave
+- Psychic
+- Nasty Plot
+- Protect
+
+Floette-Eternal @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 4 HP / 25 Def / 5 SpA / 32 Spe
+Modest Nature
+- Moonblast
+- Draining Kiss
+- Calm Mind
+- Protect
+
+Incineroar @ Passho Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 7 Def / 20 SpD / 8 Spe
+Careful Nature
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+- Fake Out

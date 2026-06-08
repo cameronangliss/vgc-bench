@@ -1,59 +1,59 @@
-Abomasnow @ Abomasite
-Ability: Snow Warning
+Froslass (F) @ Froslassite
+Ability: Snow Cloak
 Level: 50
-EVs: 8 HP / 27 Def / 28 SpA / 3 SpD
-Modest Nature
+EVs: 30 HP / 2 Def / 14 SpA / 20 Spe
+Timid Nature
+- Protect
 - Blizzard
-- Leaf Storm
-- Ice Shard
-- Earth Power
+- Shadow Ball
+- Aurora Veil
 
-Gallade (M) @ Galladite
-Ability: Justified
+Kingambit @ Chople Berry
+Ability: Defiant
 Level: 50
-EVs: 10 HP / 30 Atk / 26 Spe
-Jolly Nature
-- Drain Punch
-- Throat Chop
-- Rock Slide
+EVs: 32 HP / 32 Atk / 1 Def / 1 Spe
+Adamant Nature
 - Protect
+- Sucker Punch
+- Low Kick
+- Kowtow Cleave
 
-Spiritomb @ Roseli Berry
-Ability: Infiltrator
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
 Level: 50
-EVs: 32 HP / 12 Atk / 12 Def / 10 SpD
-Sassy Nature
-- Poltergeist
-- Helping Hand
-- Trick Room
-- Skill Swap
-
-Torkoal @ Charcoal
-Ability: Drought
-Level: 50
-EVs: 24 HP / 32 SpA / 10 Spe
+EVs: 31 HP / 10 Def / 8 SpA / 13 SpD / 4 Spe
 Modest Nature
-- Eruption
-- Weather Ball
-- Ancient Power
 - Protect
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
 
-Maushold-Four @ Chople Berry
-Ability: Friend Guard
+Garchomp @ Choice Scarf
+Ability: Rough Skin
 Level: 50
-EVs: 32 HP / 22 Def / 2 SpD / 10 Spe
-Jolly Nature
-- Feint
-- Super Fang
-- Beat Up
-- Follow Me
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Rock Slide
+- Stomping Tantrum
+- Rock Tomb
+- Dragon Claw
 
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
+Ceruledge @ Leftovers
+Ability: Flash Fire
 Level: 50
-EVs: 23 Atk / 14 Def / 29 Spe
-Jolly Nature
-- Wave Crash
-- Last Respects
-- Aqua Jet
-- Head Smash
+EVs: 32 HP / 15 Atk / 6 Def / 9 SpD / 4 Spe
+Adamant Nature
+- Protect
+- Bitter Blade
+- Shadow Sneak
+- Bulk Up
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Protect

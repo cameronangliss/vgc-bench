@@ -1,59 +1,59 @@
-Charizard @ Charizardite Y
-Ability: Blaze
+Vivillon @ Focus Sash
+Ability: Compound Eyes
 Level: 50
-EVs: 24 HP / 14 Def / 10 SpA / 18 Spe
-Modest Nature
-- Weather Ball
-- Heat Wave
-- Solar Beam
-- Protect
-
-Whimsicott @ Fairy Feather
-Ability: Prankster
-Level: 50
-EVs: 32 HP / 16 Def / 18 SpD
-Bold Nature
-- Moonblast
-- Trick Room
-- Encore
+EVs: 2 Def / 31 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Sleep Powder
 - Tailwind
+- Protect
 
 Garchomp @ Sitrus Berry
 Ability: Rough Skin
 Level: 50
-EVs: 18 HP / 16 Atk / 32 Spe
+EVs: 31 HP / 20 Atk / 1 Def / 1 SpD / 13 Spe
 Adamant Nature
-- Dragon Claw
 - Earthquake
-- Rock Slide
+- Dragon Claw
+- Rock Tomb
 - Protect
 
-Basculegion (M) @ Mystic Water
-Ability: Adaptability
+Lopunny @ Lopunnite
+Ability: Cute Charm
 Level: 50
 EVs: 32 Atk / 2 Def / 32 Spe
-Adamant Nature
-- Wave Crash
-- Aqua Jet
-- Last Respects
-- Protect
+Jolly Nature
+- Close Combat
+- Quick Attack
+- Fake Out
+- Encore
 
-Glimmora @ Focus Sash
-Ability: Toxic Debris
+Aegislash @ Spell Tag
+Ability: Stance Change
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
+EVs: 32 HP / 21 Atk / 1 Def / 1 SpD / 11 Spe
+Adamant Nature
+- Poltergeist
+- Close Combat
+- Shadow Sneak
+- King's Shield
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 8 HP / 23 Def / 20 SpA / 15 Spe
 Modest Nature
-- Power Gem
-- Sludge Bomb
-- Spiky Shield
-- Earth Power
+- Hyper Voice
+- Quick Attack
+- Hyper Beam
+- Detect
 
-Kingambit @ Chople Berry
-Ability: Defiant
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
 Level: 50
-EVs: 30 HP / 25 Atk / 3 Def / 8 Spe
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Iron Head
-- Low Kick
+EVs: 2 HP / 21 Atk / 11 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Flip Turn

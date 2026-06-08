@@ -1,59 +1,59 @@
-Kangaskhan (F) @ Kangaskhanite
-Ability: Scrappy
+Scovillain @ Scovillainite
+Ability: Moody
 Level: 50
-EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
-Adamant Nature
-- Fake Out
-- Double-Edge
-- Low Kick
-- Ice Punch
-
-Blastoise @ Blastoisinite
-Ability: Rain Dish
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Water Spout
-- Dark Pulse
-- Shell Smash
-- Fake Out
-
-Farigiraf @ Sitrus Berry
-Ability: Armor Tail
-Level: 50
-EVs: 17 HP / 19 Def / 10 SpA / 20 SpD
-Quiet Nature
-- Psychic
-- Thunderbolt
-- Trick Room
-- Helping Hand
-
-Torkoal @ Charcoal
-Ability: Drought
-Level: 50
-EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
-Quiet Nature
-- Eruption
-- Heat Wave
-- Weather Ball
+EVs: 32 HP / 19 Def / 15 SpD
+Calm Nature
+- Overheat
+- Leech Seed
+- Rage Powder
 - Protect
 
-Vivillon @ Choice Scarf
-Ability: Compound Eyes
+Kingambit @ Chople Berry
+Ability: Defiant
 Level: 50
-EVs: 24 Def / 5 SpA / 5 SpD / 32 Spe
-Timid Nature
-- Sleep Powder
-- Rage Powder
-- Hurricane
-- Rain Dance
+EVs: 32 HP / 31 Atk / 2 Def / 1 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+- Iron Head
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 19 HP / 29 Def / 12 SpA / 6 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Calm Mind
+- Detect
 
 Basculegion (M) @ Focus Sash
 Ability: Adaptability
 Level: 50
 EVs: 32 Atk / 2 Def / 32 Spe
-Adamant Nature
-- Liquidation
+Jolly Nature
 - Last Respects
+- Liquidation
 - Aqua Jet
+- Protect
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 14 HP / 22 Atk / 1 Def / 29 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Rock Tomb
+- Tailwind
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 19 HP / 32 Def / 15 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Feint
 - Protect

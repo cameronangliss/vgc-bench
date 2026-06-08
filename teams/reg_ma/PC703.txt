@@ -1,59 +1,59 @@
-Froslass (F) @ Froslassite
-Ability: Snow Cloak
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
 Level: 50
-EVs: 10 HP / 9 Def / 11 SpA / 3 SpD / 32 Spe
-Timid Nature
-- Blizzard
-- Aurora Veil
-- Shadow Ball
+EVs: 32 HP / 14 Def / 20 SpD
+Sassy Nature
+- Psychic
+- Trick Room
+- Helping Hand
 - Protect
 
-Sneasler @ White Herb
-Ability: Unburden
-Level: 50
-EVs: 24 HP / 11 Atk / 1 Def / 4 SpD / 26 Spe
-Jolly Nature
-- Dire Claw
-- Acrobatics
-- Close Combat
-- Fake Out
-
-Aerodactyl @ Focus Sash
-Ability: Unnerve
-Level: 50
-EVs: 1 HP / 32 Atk / 32 Spe
-Jolly Nature
-- Rock Slide
-- Dual Wingbeat
-- Tailwind
-- Protect
-
-Incineroar @ Sitrus Berry
+Incineroar @ Chople Berry
 Ability: Intimidate
 Level: 50
-EVs: 30 HP / 1 Atk / 13 Def / 21 SpD
-Careful Nature
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Throat Chop
 - Flare Blitz
-- Fake Out
-- Darkest Lariat
 - Parting Shot
+- Fake Out
 
-Kingambit @ Black Glasses
-Ability: Defiant
+Sinistcha @ Mental Herb
+Ability: Hospitality
 Level: 50
-EVs: 32 HP / 16 Atk / 2 Def / 12 SpD / 2 Spe
-Adamant Nature
-- Kowtow Cleave
-- Iron Head
-- Sucker Punch
+EVs: 32 HP / 2 Def / 32 SpD
+Sassy Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Earth Power
 - Protect
 
-Rotom-Wash @ Magnet
-Ability: Levitate
+Crabominable @ Crabominite
+Ability: Hyper Cutter
 Level: 50
-EVs: 12 HP / 6 Def / 15 SpA / 10 SpD / 23 Spe
-Timid Nature
-- Hydro Pump
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Ice Hammer
+- Drain Punch
+- Mach Punch
+- Protect
+
+Ampharos @ Ampharosite
+Ability: Static
+Level: 50
+EVs: 32 HP / 26 SpA / 8 SpD
+Quiet Nature
 - Thunderbolt
-- Volt Switch
+- Dragon Pulse
+- Dazzling Gleam
 - Protect

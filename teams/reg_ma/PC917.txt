@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 26 HP / 6 Def / 15 SpA / 19 Spe
+Modest Nature
+- Dazzling Gleam
+- Moonblast
+- Light of Ruin
+- Protect
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 11 Def / 20 SpD / 5 Spe
+Careful Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 25 Atk / 9 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Flip Turn
+- Aqua Jet
+- Last Respects
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Whimsicott @ Coba Berry
+Ability: Prankster
+Level: 50
+EVs: 13 HP / 32 Def / 1 SpA / 20 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Encore
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 13 HP / 23 Def / 30 SpA
+Modest Nature
+- Twin Beam
+- Trick Room
+- Roar
+- Helping Hand

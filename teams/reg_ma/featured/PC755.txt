@@ -1,0 +1,59 @@
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 16 HP / 18 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Sleep Powder
+- Tailwind
+- Protect
+
+Basculegion (M) @ Sitrus Berry
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 14 Def / 2 SpD / 18 Spe
+Adamant Nature
+- Last Respects
+- Aqua Jet
+- Agility
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Gunk Shot
+- Close Combat
+- Taunt
+- Fake Out
+
+Meowscarada @ Choice Scarf
+Ability: Protean
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Flower Trick
+- Triple Axel
+- Knock Off
+- U-turn
+
+Lopunny @ Lopunnite
+Ability: Limber
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Close Combat
+- Giga Impact
+- Fake Out
+- Encore

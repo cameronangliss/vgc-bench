@@ -1,59 +1,59 @@
-Sneasler @ White Herb
-Ability: Unburden
+Garchomp @ Lum Berry
+Ability: Rough Skin
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
 Jolly Nature
-- Dire Claw
-- Close Combat
+- Earthquake
+- Dragon Claw
+- Rock Tomb
 - Protect
-- Fake Out
 
-Kingambit @ Focus Sash
-Ability: Supreme Overlord
+Orthworm @ Sitrus Berry
+Ability: Earth Eater
+Level: 50
+EVs: 31 HP / 27 Def / 8 SpD
+Impish Nature
+- Heavy Slam
+- Body Press
+- Helping Hand
+- Shed Tail
+
+Starmie @ Starminite
+Ability: Natural Cure
 Level: 50
 EVs: 2 HP / 32 Atk / 32 Spe
 Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Low Kick
-- Iron Head
+- Liquidation
+- Zen Headbutt
+- Aqua Jet
+- Protect
 
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
+Pelipper @ Mystic Water
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 7 SpA / 25 SpD / 2 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Tailwind
+
+Gengar @ Gengarite
+Ability: Cursed Body
 Level: 50
 EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Moonblast
-- Dazzling Gleam
-- Light of Ruin
-- Protect
-
-Maushold-Four @ Chople Berry
-Ability: Friend Guard
-Level: 50
-EVs: 32 HP / 18 Def / 15 SpD
-Careful Nature
-- Super Fang
-- Follow Me
-- Protect
-- Helping Hand
-
-Charizard @ Charizardite Y
-Ability: Blaze
-Level: 50
-EVs: 32 HP / 9 Def / 21 SpA / 4 Spe
 Modest Nature
-- Heat Wave
-- Weather Ball
-- Solar Beam
+- Sludge Bomb
+- Shadow Ball
+- Sludge Wave
 - Protect
 
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
+Tsareena (F) @ Focus Sash
+Ability: Queenly Majesty
 Level: 50
-EVs: 6 HP / 8 Atk / 15 Def / 5 SpD / 32 Spe
-Jolly Nature
-- Last Respects
-- Aqua Jet
-- Wave Crash
-- Flip Turn
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Trop Kick
+- Low Kick
+- Zen Headbutt
+- Protect

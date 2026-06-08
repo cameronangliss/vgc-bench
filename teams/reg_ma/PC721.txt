@@ -1,59 +1,57 @@
-Charizard @ Charizardite Y
-Ability: Blaze
+Vivillon @ Choice Scarf
+Ability: Compound Eyes
 Level: 50
-EVs: 32 HP / 21 Def / 1 SpA / 12 Spe
-Modest Nature
-- Heat Wave
-- Solar Beam
-- Dragon Pulse
-- Protect
-
-Aegislash @ Spell Tag
-Ability: Stance Change
-Level: 50
-EVs: 30 HP / 30 Atk / 6 Spe
-Adamant Nature
-- Poltergeist
-- Shadow Sneak
-- Wide Guard
-- King's Shield
-
-Garchomp @ Sitrus Berry
-Ability: Rough Skin
-Level: 50
-EVs: 22 HP / 15 Atk / 29 Spe
-Adamant Nature
-- Dragon Claw
-- Earthquake
-- Rock Slide
-- Protect
-
-Aerodactyl @ Focus Sash
-Ability: Unnerve
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Jolly Nature
-- Rock Slide
-- Wide Guard
-- Tailwind
-- Protect
-
-Rotom-Wash @ Choice Scarf
-Ability: Levitate
-Level: 50
-EVs: 18 HP / 23 SpA / 25 Spe
+EVs: 2 HP / 32 SpA / 32 Spe
 Timid Nature
-- Thunderbolt
-- Volt Switch
-- Electroweb
-- Hydro Pump
+- Hurricane
+- Pollen Puff
+- Sleep Powder
+- Rage Powder
 
-Incineroar @ Leftovers
-Ability: Intimidate
+Kangaskhan (F) @ Silk Scarf
+Ability: Scrappy
 Level: 50
-EVs: 32 HP / 17 Def / 10 SpD / 7 Spe
-Careful Nature
-- Flare Blitz
-- Darkest Lariat
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Brave Nature
 - Fake Out
-- Parting Shot
+- Last Resort
+
+Camerupt @ Cameruptite
+Ability: Solid Rock
+Level: 50
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Protect
+- Eruption
+- Earth Power
+- Ancient Power
+
+Venusaur @ Venusaurite
+Ability: Overgrow
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Bold Nature
+- Acid Spray
+- Amnesia
+- Leech Seed
+- Synthesis
+
+Conkeldurr @ Black Belt
+Ability: Iron Fist
+Level: 50
+EVs: 31 HP / 32 Atk / 2 Def / 1 SpD
+Brave Nature
+- Hammer Arm
+- Knock Off
+- Mach Punch
+- Wide Guard
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 22 SpA / 12 SpD
+Quiet Nature
+- Hyper Voice
+- Psychic
+- Protect
+- Trick Room

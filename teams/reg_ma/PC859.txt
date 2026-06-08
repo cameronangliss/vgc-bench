@@ -1,0 +1,59 @@
+Chesnaught @ Chesnaughtite
+Ability: Bulletproof
+Level: 50
+EVs: 32 HP / 11 Atk / 6 Def / 17 SpD
+Adamant Nature
+- Body Press
+- Spiky Shield
+- Iron Defense
+- Wood Hammer
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 19 HP / 32 Atk / 8 Def / 3 SpA / 2 Spe
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 22 Def / 1 SpA / 11 SpD
+Calm Nature
+- Trick Room
+- Helping Hand
+- Psychic
+- Hyper Voice
+
+Incineroar @ Charcoal
+Ability: Intimidate
+Level: 50
+EVs: 23 HP / 32 Atk / 5 Def / 6 SpD
+Brave Nature
+- Parting Shot
+- Flare Blitz
+- Darkest Lariat
+- Fake Out
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 17 SpA / 10 SpD
+Calm Nature
+- Hurricane
+- Tailwind
+- Helping Hand
+- Weather Ball
+
+Primarina @ Mystic Water
+Ability: Liquid Voice
+Level: 50
+EVs: 25 HP / 8 Def / 32 SpA / 1 SpD
+Modest Nature
+- Haze
+- Hyper Voice
+- Moonblast
+- Protect

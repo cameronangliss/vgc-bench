@@ -1,0 +1,59 @@
+Corviknight @ Occa Berry
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 13 Atk / 5 SpD / 16 Spe
+Adamant Nature
+- Brave Bird
+- Tailwind
+- Protect
+- Iron Head
+
+Tyranitar (M) @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 13 HP / 26 Atk / 27 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Protect
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Dark Pulse
+- Draco Meteor
+- Earth Power
+- Snarl
+
+Froslass @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 1 Def / 14 SpA / 1 SpD / 18 Spe
+Timid Nature
+- Blizzard
+- Protect
+- Shadow Ball
+- Weather Ball
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 32 HP / 20 Atk / 1 Def / 1 SpD / 12 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect
+
+Arcanine-Hisui @ Focus Sash
+Ability: Rock Head
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Protect
+- Head Smash
+- Extreme Speed
+- Flare Blitz

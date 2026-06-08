@@ -1,59 +1,59 @@
-Sylveon @ Leftovers
-Ability: Pixilate
+Aerodactyl-Mega @ Aerodactylite
+Ability: Tough Claws
 Level: 50
-EVs: 22 HP / 19 Def / 10 SpA / 15 Spe
-Modest Nature
-- Protect
-- Hyper Beam
-- Hyper Voice
-- Calm Mind
-
-Vivillon @ Focus Sash
-Ability: Compound Eyes
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Tailwind
-- Hurricane
-- Sleep Powder
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Ice Fang
 - Protect
 
-Lopunny @ Lopunnite
-Ability: Cute Charm
+Sneasler @ White Herb
+Ability: Unburden
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
+EVs: 32 Atk / 2 Def / 32 Spe
 Jolly Nature
 - Close Combat
+- Dire Claw
+- Feint
 - Fake Out
-- Encore
-- After You
 
-Kangaskhan (F) @ Kangaskhanite
-Ability: Scrappy
+Kingambit @ Chople Berry
+Ability: Defiant
 Level: 50
-EVs: 32 HP / 32 Atk / 2 Def
+EVs: 32 HP / 27 Atk / 7 Def
 Adamant Nature
-- Fake Out
-- Double-Edge
+- Kowtow Cleave
+- Iron Head
 - Sucker Punch
-- Hammer Arm
+- Protect
 
-Farigiraf @ Sitrus Berry
-Ability: Armor Tail
+Garchomp @ Soft Sand
+Ability: Rough Skin
 Level: 50
-EVs: 21 HP / 20 Def / 25 SpD
-Bold Nature
-- Twin Beam
-- Helping Hand
-- Hyper Voice
-- Trick Room
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
 
-Sinistcha @ Colbur Berry
-Ability: Hospitality
+Charizard-Mega-Y @ Charizardite Y
+Ability: Solar Power
 Level: 50
-EVs: 32 HP / 24 Def / 10 SpD
-Bold Nature
-- Matcha Gotcha
-- Rage Powder
-- Life Dew
-- Trick Room
+EVs: 8 HP / 25 Def / 1 SpA / 32 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Weather Ball
+- Protect
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 19 HP / 32 Atk / 1 Def / 14 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Low Kick
+- Protect

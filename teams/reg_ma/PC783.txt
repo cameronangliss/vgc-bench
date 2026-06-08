@@ -1,59 +1,59 @@
-Charizard @ Charizardite Y
-Ability: Blaze
+Froslass (F) @ Froslassite
+Ability: Cursed Body
 Level: 50
-EVs: 24 HP / 12 Def / 10 SpA / 1 SpD / 19 Spe
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
 Modest Nature
-- Weather Ball
-- Heat Wave
-- Solar Beam
+- Blizzard
+- Shadow Ball
 - Protect
+- Aurora Veil
 
-Whimsicott @ Focus Sash
-Ability: Prankster
+Arcanine-Hisui @ Chople Berry
+Ability: Intimidate
 Level: 50
-EVs: 32 HP / 2 Def / 32 Spe
-Timid Nature
-- Moonblast
-- Tailwind
-- Encore
-- Fake Tears
-
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Light of Ruin
-- Moonblast
-- Dazzling Gleam
-- Protect
-
-Garchomp @ Sitrus Berry
-Ability: Rough Skin
-Level: 50
-EVs: 18 HP / 16 Atk / 32 Spe
+EVs: 13 HP / 32 Atk / 1 Def / 1 SpD / 19 Spe
 Adamant Nature
-- Earthquake
+- Flare Blitz
 - Rock Slide
-- Dragon Claw
 - Protect
+- Extreme Speed
 
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
+Sneasler @ White Herb
+Ability: Unburden
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Jolly Nature
-- Wave Crash
-- Aqua Jet
-- Flip Turn
-- Last Respects
+EVs: 20 HP / 20 Atk / 10 Def / 16 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Protect
+- Fake Out
 
-Kingambit @ Chople Berry
+Gliscor @ Passho Berry
+Ability: Hyper Cutter
+Level: 50
+EVs: 14 HP / 25 Atk / 1 Def / 5 SpD / 21 Spe
+Adamant Nature
+- High Horsepower
+- Dual Wingbeat
+- Protect
+- Tailwind
+
+Kingambit @ Black Glasses
 Ability: Defiant
 Level: 50
-EVs: 30 HP / 25 Atk / 3 Def / 8 Spe
+EVs: 32 HP / 25 Atk / 9 Def
 Adamant Nature
-- Sucker Punch
-- Iron Head
-- Low Kick
 - Kowtow Cleave
+- Sucker Punch
+- Protect
+- Iron Head
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 22 HP / 31 Def / 1 SpA / 5 SpD / 7 Spe
+Calm Nature
+- Muddy Water
+- Coil
+- Recover
+- Hypnosis

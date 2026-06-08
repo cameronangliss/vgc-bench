@@ -1,59 +1,59 @@
-Aerodactyl @ Aerodactylite
-Ability: Unnerve
+Farigiraf @ Black Belt
+Ability: Armor Tail
 Level: 50
-EVs: 12 HP / 22 Atk / 32 Spe
-Jolly Nature
-- Rock Slide
-- Dual Wingbeat
-- Tailwind
-- Protect
-
-Sneasler @ White Herb
-Ability: Unburden
-Level: 50
-EVs: 10 HP / 20 Atk / 3 Def / 1 SpD / 32 Spe
+EVs: 32 Atk / 6 Def / 28 Spe
 Adamant Nature
-- Fake Out
-- Dire Claw
-- Close Combat
-- Protect
+- Helping Hand
+- Trick Room
+- Sunny Day
+- Low Kick
 
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
+Chandelure @ Chandelurite
+Ability: Flash Fire
 Level: 50
-EVs: 26 Atk / 8 Def / 32 Spe
-Jolly Nature
-- Wave Crash
-- Last Respects
-- Flip Turn
-- Aqua Jet
+EVs: 27 HP / 32 SpA / 7 Spe
+Modest Nature
+- Protect
+- Calm Mind
+- Shadow Ball
+- Heat Wave
 
-Garchomp @ Sitrus Berry
+Garchomp @ Choice Scarf
 Ability: Rough Skin
 Level: 50
-EVs: 31 HP / 20 Atk / 2 SpD / 13 Spe
+EVs: 5 HP / 32 Atk / 1 Def / 4 SpD / 24 Spe
 Adamant Nature
-- Dragon Claw
+- Dragon Rush
+- Rock Slide
+- Stomping Tantrum
 - Earthquake
-- Rock Tomb
-- Protect
 
-Kingambit @ Chople Berry
-Ability: Defiant
-Level: 50
-EVs: 32 HP / 31 Atk / 3 Def
-Brave Nature
-- Kowtow Cleave
-- Low Kick
-- Sucker Punch
-- Protect
-
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
+Vivillon @ Focus Sash
+Ability: Compound Eyes
 Level: 50
 EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Moonblast
-- Dazzling Gleam
-- Light of Ruin
+Timid Nature
 - Protect
+- Rage Powder
+- Sleep Powder
+- Pollen Puff
+
+Dragapult @ Dragon Fang
+Ability: Clear Body
+Level: 50
+EVs: 32 Atk / 5 SpD / 29 Spe
+Adamant Nature
+- Protect
+- Sunny Day
+- Psychic Fangs
+- Dragon Darts
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 32 Atk / 7 SpD / 27 Spe
+Jolly Nature
+- Protect
+- Tailwind
+- Flare Blitz
+- Dual Wingbeat

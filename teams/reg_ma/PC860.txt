@@ -1,0 +1,59 @@
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Heracross @ Heracronite
+Ability: Guts
+Level: 50
+EVs: 20 HP / 15 Atk / 31 Spe
+Adamant Nature
+- Close Combat
+- Pin Missile
+- Bullet Seed
+- Detect
+
+Samurott-Hisui @ Choice Scarf
+Ability: Sharpness
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Night Slash
+- Aqua Cutter
+- Sacred Sword
+- Flip Turn
+
+Aegislash @ Focus Sash
+Ability: Stance Change
+Level: 50
+EVs: 32 SpA / 32 Spe
+Rash Nature
+- Flash Cannon
+- Shadow Ball
+- Close Combat
+- Wide Guard
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 21 HP / 30 SpA / 15 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Protect
+
+Talonflame
+Ability: Gale Wings
+Level: 50
+EVs: 6 HP / 27 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Flare Blitz
+- Acrobatics
+- Tailwind
+- Quick Guard

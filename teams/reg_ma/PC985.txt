@@ -1,0 +1,59 @@
+Hatterene (F) @ Fairy Feather
+Ability: Magic Bounce
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Expanding Force
+- Dazzling Gleam
+- Trick Room
+- Protect
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 23 SpA / 11 SpD
+Quiet Nature
+- Expanding Force
+- Ally Switch
+- Trick Room
+- Psychic Terrain
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Eruption
+- Weather Ball
+- Solar Beam
+- Sunny Day
+
+Golurk @ Golurkite
+Ability: Iron Fist
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Poltergeist
+- Headlong Rush
+- Ice Punch
+- Protect
+
+Heracross @ Heracronite
+Ability: Moxie
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Close Combat
+- Pin Missile
+- Rock Blast
+- Protect
+
+Incineroar @ Focus Sash
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 32 Atk / 4 Def
+Brave Nature
+- Darkest Lariat
+- Flare Blitz
+- Fake Out
+- Roar

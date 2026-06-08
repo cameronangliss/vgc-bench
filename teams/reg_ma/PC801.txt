@@ -1,59 +1,59 @@
-Farigiraf @ Sitrus Berry
-Ability: Armor Tail
+Mamoswine @ Focus Sash
+Ability: Oblivious
 Level: 50
-EVs: 23 HP / 20 Def / 15 SpD / 8 Spe
-Bold Nature
-- Hyper Voice
-- Imprison
-- Protect
-- Trick Room
-
-Camerupt @ Choice Scarf
-Ability: Anger Point
-Level: 50
-EVs: 32 Atk / 6 Def / 28 Spe
-Jolly Nature
-- Earthquake
-- Rock Slide
-- Flame Charge
-- Stomping Tantrum
-
-Whimsicott @ Mental Herb
-Ability: Prankster
-Level: 50
-EVs: 2 Atk / 32 SpA / 32 Spe
-Hasty Nature
-- Tailwind
-- Memento
-- Encore
-- Protect
-
-Tauros-Paldea-Aqua (M) @ Hard Stone
-Ability: Anger Point
-Level: 50
-EVs: 1 HP / 32 Atk / 9 Def / 24 Spe
+EVs: 1 HP / 32 Atk / 1 Def / 1 SpD / 31 Spe
 Adamant Nature
+- Icicle Spear
+- Ice Shard
 - Earthquake
-- Rock Slide
+- Protect
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
 - Aqua Jet
+- Last Respects
+- Flip Turn
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 30 HP / 25 Atk / 3 Def / 8 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
 - Protect
 
-Garganacl @ Silk Scarf
-Ability: Clear Body
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Jolly Nature
-- Explosion
-- Stealth Rock
-- Wide Guard
+EVs: 19 HP / 2 Def / 14 SpA / 31 Spe
+Modest Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Meganium @ Meganiumite
+Ability: Overgrow
+Level: 50
+EVs: 22 HP / 2 Def / 23 SpA / 19 Spe
+Modest Nature
+- Solar Beam
+- Weather Ball
+- Dazzling Gleam
 - Protect
 
-Pinsir @ Pinsirite
-Ability: Hyper Cutter
+Dragonite @ Dragon Fang
+Ability: Multiscale
 Level: 50
-EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
-Jolly Nature
-- Storm Throw
-- Feint
-- Giga Impact
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Tailwind
 - Protect

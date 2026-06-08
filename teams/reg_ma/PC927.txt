@@ -1,0 +1,57 @@
+Kangaskhan (F) @ Silk Scarf
+Ability: Scrappy
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Adamant Nature
+- Last Resort
+- Fake Out
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 25 Def / 9 SpD
+Relaxed Nature
+- Psychic
+- Trick Room
+- Helping Hand
+- Foul Play
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Protect
+- Earth Power
+- Weather Ball
+
+Hatterene (F) @ Fairy Feather
+Ability: Magic Bounce
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Protect
+- Psychic
+- Dazzling Gleam
+- Trick Room
+
+Golurk @ Golurkite
+Ability: Iron Fist
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Protect
+- Headlong Rush
+- Poltergeist
+- Close Combat
+
+Lucario @ Choice Scarf
+Ability: Inner Focus
+Level: 50
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
+- Close Combat
+- Final Gambit
+- Coaching
+- Meteor Mash

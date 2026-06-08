@@ -1,59 +1,65 @@
-Charizard @ Charizardite Y
+Aegislash (M) @ Spell Tag
+Ability: Stance Change
+Level: 50
+Shiny: Yes
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Adamant Nature
+- King's Shield
+- Poltergeist
+- Shadow Sneak
+- Close Combat
+
+Sylveon (F) @ Fairy Feather
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+EVs: 9 HP / 22 Def / 20 SpA / 15 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect
+
+Garchomp (M) @ Dragon Fang
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+EVs: 19 HP / 20 Atk / 27 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Scale Shot
+- Protect
+
+Aerodactyl (M) @ Focus Sash
+Ability: Unnerve
+Level: 50
+Shiny: Yes
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Wide Guard
+- Tailwind
+- Protect
+
+Charizard-Mega-Y (M) @ Charizardite Y
 Ability: Blaze
 Level: 50
-EVs: 32 HP / 16 Def / 13 SpA / 5 Spe
+Shiny: Yes
+EVs: 24 HP / 14 Def / 11 SpA / 17 Spe
 Modest Nature
 - Heat Wave
 - Weather Ball
 - Solar Beam
 - Protect
 
-Venusaur @ Venusaurite
-Ability: Chlorophyll
+Rotom-Wash @ Choice Scarf
+Ability: Levitate
 Level: 50
-EVs: 32 HP / 20 Def / 5 SpA / 9 SpD
-Bold Nature
-- Giga Drain
-- Sludge Bomb
-- Leech Seed
-- Protect
-
-Garchomp @ Haban Berry
-Ability: Rough Skin
-Level: 50
-EVs: 32 HP / 7 Atk / 14 Def / 5 SpD / 8 Spe
-Adamant Nature
-- Dragon Claw
-- Earthquake
-- Rock Slide
-- Protect
-
-Arcanine @ Passho Berry
-Ability: Flash Fire
-Level: 50
-EVs: 32 HP / 7 Def / 27 Spe
+Shiny: Yes
+EVs: 2 HP / 2 Def / 32 SpA / 30 Spe
 Timid Nature
-- Flamethrower
-- Snarl
-- Will-O-Wisp
-- Morning Sun
-
-Wyrdeer @ Sitrus Berry
-Ability: Intimidate
-Level: 50
-EVs: 32 HP / 28 Def / 6 SpD
-Relaxed Nature
-- Psychic
-- Skill Swap
-- Trick Room
-- Protect
-
-Milotic @ Leftovers
-Ability: Competitive
-Level: 50
-EVs: 32 HP / 2 Def / 32 SpA
-Modest Nature
-- Scald
-- Ice Beam
-- Life Dew
-- Protect
+- Hydro Pump
+- Thunderbolt
+- Volt Switch
+- Electroweb

@@ -1,0 +1,59 @@
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Ice Punch
+- Protect
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Bold Nature
+- Overheat
+- Struggle Bug
+- Rage Powder
+- Tailwind
+
+Aegislash @ Focus Sash
+Ability: Stance Change
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Poltergeist
+- Close Combat
+- Shadow Sneak
+- King's Shield
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Protect
+
+Espathra @ Colbur Berry
+Ability: Speed Boost
+Level: 50
+EVs: 32 HP / 26 Def / 8 SpD
+Bold Nature
+- Lumina Crash
+- Calm Mind
+- Baton Pass
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
+- Protect

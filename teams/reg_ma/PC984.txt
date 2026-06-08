@@ -1,0 +1,59 @@
+Morpeko @ Focus Sash
+Ability: Hunger Switch
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Aura Wheel
+- Parting Shot
+- Fake Out
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 31 HP / 28 Def / 3 SpA / 4 Spe
+Timid Nature
+- Protect
+- Heat Wave
+- Psychic
+- Nasty Plot
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Protect
+
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 16 HP / 32 SpA / 18 Spe
+Modest Nature
+- Protect
+- Water Spout
+- Dark Pulse
+- Shell Smash
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Blizzard
+- Icy Wind
+- Aurora Veil
+- Encore

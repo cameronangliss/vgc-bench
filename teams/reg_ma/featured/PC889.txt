@@ -1,0 +1,59 @@
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 12 HP / 22 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Protect
+- Dual Wingbeat
+- Tailwind
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 6 HP / 32 SpA / 28 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Protect
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 8 Atk / 9 Def / 11 SpD / 6 Spe
+Careful Nature
+- Throat Chop
+- Flare Blitz
+- Parting Shot
+- Fake Out
+
+Basculegion @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Last Respects
+- Liquidation
+- Protect
+- Aqua Jet
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Clangorous Soul
+- Clanging Scales
+- Aura Sphere
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 7 Def / 18 SpA / 9 Spe
+Modest Nature
+- Protect
+- Earth Power
+- Sludge Bomb
+- Giga Drain

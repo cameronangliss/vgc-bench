@@ -1,59 +1,59 @@
-Maushold @ Chople Berry
-Ability: Friend Guard
+Whimsicott @ Sitrus Berry
+Ability: Prankster
 Level: 50
-EVs: 32 HP / 15 Def / 17 SpD / 2 Spe
-Jolly Nature
-- Super Fang
-- Feint
-- Follow Me
-- Protect
-
-Sylveon @ Fairy Feather
-Ability: Pixilate
-Level: 50
-EVs: 7 HP / 22 Def / 23 SpA / 14 Spe
-Modest Nature
-- Hyper Voice
+EVs: 29 HP / 32 Def / 5 Spe
+Timid Nature
 - Moonblast
-- Quick Attack
-- Detect
-
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
-Level: 50
-EVs: 16 HP / 22 Def / 5 SpA / 23 Spe
-Modest Nature
-- Moonblast
-- Dazzling Gleam
-- Light of Ruin
+- Tailwind
+- Encore
 - Protect
 
 Charizard @ Charizardite Y
 Ability: Blaze
 Level: 50
-EVs: 16 HP / 31 Def / 5 SpA / 14 Spe
+EVs: 22 HP / 18 Def / 11 SpA / 15 Spe
 Modest Nature
+- Weather Ball
 - Heat Wave
 - Solar Beam
-- Scorching Sands
 - Protect
 
-Garchomp @ Choice Scarf
+Garchomp @ Haban Berry
 Ability: Rough Skin
 Level: 50
-EVs: 16 HP / 20 Atk / 2 Def / 28 Spe
-Adamant Nature
-- Dragon Claw
-- Stomping Tantrum
+EVs: 24 HP / 22 Atk / 20 Spe
+Jolly Nature
 - Earthquake
-- Rock Tomb
+- Dragon Claw
+- Rock Slide
+- Protect
 
-Basculegion (M) @ Mystic Water
-Ability: Adaptability
+Tyranitar @ Focus Sash
+Ability: Sand Stream
 Level: 50
-EVs: 12 HP / 28 Atk / 7 Def / 19 SpD
+EVs: 2 HP / 32 Atk / 32 Spe
 Adamant Nature
-- Wave Crash
-- Last Respects
-- Aqua Jet
+- Rock Slide
+- Ice Punch
+- High Horsepower
+- Protect
+
+Venusaur @ Miracle Seed
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 20 SpA / 14 Spe
+Modest Nature
+- Energy Ball
+- Sludge Bomb
+- Earth Power
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Low Kick
 - Protect

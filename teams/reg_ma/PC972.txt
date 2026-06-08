@@ -1,0 +1,59 @@
+Decidueye-Hisui @ Scope Lens
+Ability: Scrappy
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Leaf Blade
+- Triple Arrows
+- Sucker Punch
+- Protect
+
+Zoroark-Hisui @ Choice Scarf
+Ability: Illusion
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Shadow Ball
+- Icy Wind
+- Psychic
+- Flamethrower
+
+Liepard @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Knock Off
+- Yawn
+- Encore
+- Fake Out
+
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 26 HP / 32 Atk / 8 SpD
+Adamant Nature
+- Bullet Punch
+- Swords Dance
+- Bug Bite
+- Protect
+
+Aurorus @ Sitrus Berry
+Ability: Snow Warning
+Level: 50
+EVs: 2 HP / 32 SpA / 18 SpD / 6 Spe
+Modest Nature
+- Protect
+- Blizzard
+- Ancient Power
+- Freeze-Dry
+
+Aerodactyl @ Aerodactylite
+Ability: Rock Head
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect

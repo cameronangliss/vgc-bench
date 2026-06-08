@@ -1,59 +1,59 @@
-Farigiraf @ Colbur Berry
-Ability: Armor Tail
+Delphox @ Delphoxite
+Ability: Blaze
 Level: 50
-EVs: 31 HP / 6 Def / 10 SpA / 18 SpD / 1 Spe
-Modest Nature
-- Hyper Voice
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Heat Wave
 - Psychic
-- Helping Hand
-- Trick Room
+- Protect
+- Encore
 
-Basculegion @ Choice Scarf
-Ability: Adaptability
+Garchomp @ Soft Sand
+Ability: Rough Skin
 Level: 50
-EVs: 26 Atk / 8 Def / 32 Spe
+EVs: 2 HP / 32 Atk / 32 Spe
 Jolly Nature
-- Wave Crash
-- Aqua Jet
-- Last Respects
-- Flip Turn
+- Dragon Claw
+- Earthquake
+- Protect
+- Rock Slide
 
-Kingambit @ Focus Sash
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Close Combat
+- Gunk Shot
+- Protect
+- Fake Out
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+EVs: 32 HP / 29 Def / 1 SpD / 4 Spe
+Bold Nature
+- Moonblast
+- Icy Wind
+- Protect
+- Follow Me
+
+Kingambit @ Black Glasses
 Ability: Defiant
 Level: 50
-EVs: 26 HP / 32 Atk / 8 Spe
+EVs: 20 HP / 32 Atk / 14 Spe
 Adamant Nature
 - Kowtow Cleave
 - Sucker Punch
-- Low Kick
 - Protect
+- Swords Dance
 
-Glimmora @ Glimmoranite
-Ability: Toxic Debris
-Level: 50
-EVs: 17 HP / 2 Def / 14 SpA / 1 SpD / 32 Spe
-Modest Nature
-- Power Gem
-- Sludge Bomb
-- Earth Power
-- Spiky Shield
-
-Meganium @ Meganiumite
-Ability: Overgrow
-Level: 50
-EVs: 30 HP / 4 Def / 23 SpA / 9 Spe
-Modest Nature
-- Solar Beam
-- Weather Ball
-- Dazzling Gleam
-- Protect
-
-Dragonite @ Dragon Fang
-Ability: Multiscale
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
 Level: 50
 EVs: 32 Atk / 2 Def / 32 Spe
-Adamant Nature
-- Dragon Claw
-- Extreme Speed
-- Tailwind
-- Protect
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet

@@ -1,59 +1,59 @@
-Gallade (M) @ Galladite
-Ability: Sharpness
+Charizard @ Charizardite Y
+Ability: Blaze
 Level: 50
-EVs: 19 HP / 15 Atk / 32 Spe
-Jolly Nature
-- Sacred Sword
-- Psycho Cut
-- Rock Tomb
+EVs: 32 HP / 9 Def / 21 SpA / 4 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Weather Ball
 - Protect
 
-Bellibolt @ Sitrus Berry
-Ability: Electromorphosis
+Garchomp @ Roseli Berry
+Ability: Rough Skin
 Level: 50
-EVs: 32 HP / 27 SpA / 7 SpD
-Quiet Nature
-- Volt Switch
-- Parabolic Charge
+EVs: 24 HP / 10 Atk / 32 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Brave Nature
+- Kowtow Cleave
+- Low Kick
 - Sucker Punch
 - Protect
 
 Basculegion (M) @ Focus Sash
 Ability: Adaptability
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
 Jolly Nature
-- Liquidation
-- Aqua Jet
+- Waterfall
 - Last Respects
+- Aqua Jet
 - Protect
 
-Zoroark-Hisui @ Choice Scarf
-Ability: Illusion
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
 Level: 50
-EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
-Timid Nature
-- Shadow Ball
-- Psychic
-- Icy Wind
-- Fake Tears
+EVs: 32 HP / 10 Def / 1 SpA / 22 SpD / 1 Spe
+Bold Nature
+- Twin Beam
+- Trick Room
+- Helping Hand
+- Protect
 
-Talonflame @ Sharp Beak
-Ability: Gale Wings
+Ninetales-Alola @ Choice Scarf
+Ability: Snow Warning
 Level: 50
-EVs: 12 HP / 29 Atk / 25 Spe
-Adamant Nature
-- Flare Blitz
-- Dual Wingbeat
-- Tailwind
-- Quick Guard
-
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
-Level: 50
-EVs: 22 HP / 6 Def / 9 SpA / 29 Spe
+EVs: 9 HP / 29 SpA / 28 Spe
 Modest Nature
-- Dazzling Gleam
+- Blizzard
 - Moonblast
-- Calm Mind
-- Protect
+- Freeze-Dry
+- Ice Beam

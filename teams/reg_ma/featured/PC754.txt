@@ -1,0 +1,59 @@
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 13 HP / 32 SpA / 21 Spe
+Modest Nature
+- Water Spout
+- Dark Pulse
+- Shell Smash
+- Protect
+
+Incineroar @ Passho Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 16 Def / 18 SpD
+Relaxed Nature
+- Flare Blitz
+- Parting Shot
+- Fake Out
+- Helping Hand
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 25 HP / 1 Def / 30 SpA / 1 SpD / 9 Spe
+Modest Nature
+- Clanging Scales
+- Clangorous Soul
+- Aura Sphere
+- Protect
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+EVs: 26 HP / 12 Def / 28 Spe
+Jolly Nature
+- Follow Me
+- Feint
+- Rain Dance
+- Protect
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 7 Def / 27 SpD
+Calm Nature
+- Leaf Storm
+- Rage Powder
+- Life Dew
+- Protect
+
+Sneasler @ Sitrus Berry
+Ability: Unburden
+Level: 50
+EVs: 17 HP / 15 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Close Combat
+- Gunk Shot
+- Rain Dance
+- Fake Out

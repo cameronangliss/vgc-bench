@@ -1,0 +1,59 @@
+Charizard @ Charizardite X
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 2 Atk / 8 Def / 8 SpD / 16 Spe
+Jolly Nature
+- Belly Drum
+- Protect
+- Flame Charge
+- Breaking Swipe
+
+Vivillon @ Focus Sash
+Ability: Shield Dust
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Pollen Puff
+- Sleep Powder
+- Rage Powder
+- Tailwind
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 HP / 2 Atk / 8 Def / 8 SpD / 16 Spe
+Jolly Nature
+- Coaching
+- Dire Claw
+- Close Combat
+- Fake Out
+
+Clefable @ Clefablite
+Ability: Unaware
+Level: 50
+EVs: 32 HP / 29 Def / 5 SpA
+Modest Nature
+- Follow Me
+- Life Dew
+- Air Slash
+- Moonblast
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Last Respects
+- Aqua Jet
+- Flip Turn
+- Wave Crash
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 25 Atk / 9 Def
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Protect
+- Sucker Punch

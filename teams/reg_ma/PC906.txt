@@ -1,0 +1,59 @@
+Gyarados @ Gyaradosite
+Ability: Intimidate
+Level: 50
+EVs: 15 HP / 19 Atk / 1 Def / 31 Spe
+Jolly Nature
+- Crunch
+- Earthquake
+- Dragon Dance
+- Protect
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 15 HP / 32 Atk / 19 Spe
+Adamant Nature
+- Dragon Claw
+- Low Kick
+- Extreme Speed
+- Protect
+
+Victreebel @ Victreebelite
+Ability: Chlorophyll
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Sludge Bomb
+- Leaf Storm
+- Acid Spray
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 11 HP / 15 Def / 32 SpA / 8 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect
+
+Aegislash @ Leftovers
+Ability: Stance Change
+Level: 50
+EVs: 32 HP / 32 SpA / 2 Spe
+Modest Nature
+- Shadow Ball
+- Flash Cannon
+- Substitute
+- King's Shield
+
+Infernape @ Shuca Berry
+Ability: Blaze
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Hasty Nature
+- Overheat
+- Aura Sphere
+- Fake Out
+- Coaching

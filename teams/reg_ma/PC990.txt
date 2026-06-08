@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Solar Power
+Level: 50
+EVs: 15 HP / 18 Def / 1 SpA / 32 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Protect
+- Weather Ball
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 28 HP / 1 Def / 5 SpA / 32 Spe
+Modest Nature
+- Dazzling Gleam
+- Moonblast
+- Protect
+- Calm Mind
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 7 Def / 27 SpD
+Relaxed Nature
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 7 Def / 20 SpD / 8 Spe
+Careful Nature
+- Parting Shot
+- Fake Out
+- Throat Chop
+- Flare Blitz
+
+Venusaur @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Sludge Bomb
+- Earth Power
+- Sleep Powder
+- Protect

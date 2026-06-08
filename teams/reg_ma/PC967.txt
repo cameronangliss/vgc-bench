@@ -1,0 +1,59 @@
+Steelix-Mega @ Steelixite
+Ability: Sturdy
+Level: 50
+EVs: 32 HP / 6 Atk / 1 Def / 27 SpD
+Brave Nature
+- High Horsepower
+- Heavy Slam
+- Body Press
+- Wide Guard
+
+Rotom-Wash @ Leftovers
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 11 Def / 23 SpD
+Calm Nature
+- Will-O-Wisp
+- Thunderbolt
+- Light Screen
+- Hydro Pump
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Calm Nature
+- Matcha Gotcha
+- Trick Room
+- Rage Powder
+- Life Dew
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Tyranitar-Mega @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 7 Atk / 1 Def / 1 SpD / 25 Spe
+Adamant Nature
+- Protect
+- Dragon Dance
+- Knock Off
+- Rock Slide
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Tailwind
+- Brave Bird
+- Flare Blitz
+- Protect

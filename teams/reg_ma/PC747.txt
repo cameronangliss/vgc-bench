@@ -1,59 +1,59 @@
-Blastoise @ Blastoisinite
-Ability: Rain Dish
+Espathra @ Mental Herb
+Ability: Speed Boost
 Level: 50
-EVs: 13 HP / 32 SpA / 21 Spe
-Modest Nature
-- Water Spout
-- Dark Pulse
-- Shell Smash
-- Protect
-
-Incineroar @ Passho Berry
-Ability: Intimidate
-Level: 50
-EVs: 32 HP / 16 Def / 18 SpD
-Relaxed Nature
-- Flare Blitz
-- Parting Shot
-- Fake Out
-- Helping Hand
-
-Kommo-o @ Leftovers
-Ability: Soundproof
-Level: 50
-EVs: 25 HP / 1 Def / 30 SpA / 1 SpD / 9 Spe
-Modest Nature
-- Clanging Scales
-- Clangorous Soul
-- Aura Sphere
+EVs: 24 HP / 26 Def / 10 SpD / 6 Spe
+Timid Nature
+- Lumina Crash
+- Calm Mind
+- Baton Pass
 - Protect
 
 Maushold-Four @ Focus Sash
 Ability: Friend Guard
 Level: 50
-EVs: 26 HP / 12 Def / 28 Spe
-Jolly Nature
+EVs: 32 HP / 2 Def / 32 Spe
+Timid Nature
 - Follow Me
-- Feint
-- Rain Dance
+- Taunt
+- Helping Hand
 - Protect
 
-Sinistcha @ Kasib Berry
-Ability: Hospitality
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 32 HP / 7 Def / 27 SpD
-Calm Nature
-- Leaf Storm
-- Rage Powder
-- Life Dew
+EVs: 32 HP / 24 Def / 5 SpA / 5 Spe
+Modest Nature
+- Dazzling Gleam
+- Moonblast
+- Draining Kiss
 - Protect
 
-Sneasler @ Sitrus Berry
+Sneasler @ White Herb
 Ability: Unburden
 Level: 50
-EVs: 17 HP / 15 Atk / 2 Def / 32 Spe
+EVs: 20 HP / 30 Def / 16 Spe
 Jolly Nature
+- Dire Claw
 - Close Combat
-- Gunk Shot
-- Rain Dance
 - Fake Out
+- Coaching
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Careful Nature
+- Fake Out
+- Reflect
+- Encore
+- Taunt
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 26 Def / 1 SpA / 7 Spe
+Modest Nature
+- Heat Wave
+- Psychic
+- Substitute
+- Protect

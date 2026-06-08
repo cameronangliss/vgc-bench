@@ -1,59 +1,59 @@
-Farigiraf @ Colbur Berry
-Ability: Armor Tail
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
 Level: 50
-EVs: 32 HP / 14 Def / 20 SpD
-Sassy Nature
-- Psychic
-- Trick Room
-- Helping Hand
+EVs: 19 HP / 21 Atk / 26 Spe
+Jolly Nature
 - Protect
+- Rock Slide
+- Dual Wingbeat
+- Rain Dance
 
-Incineroar @ Chople Berry
-Ability: Intimidate
+Politoed @ Sitrus Berry
+Ability: Drizzle
 Level: 50
-EVs: 32 HP / 32 Atk / 2 SpD
-Brave Nature
-- Throat Chop
-- Flare Blitz
-- Parting Shot
-- Fake Out
+EVs: 31 HP / 24 Def / 3 SpA / 7 SpD / 1 Spe
+Calm Nature
+- Protect
+- Weather Ball
+- Perish Song
+- Helping Hand
 
-Sinistcha @ Mental Herb
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpA / 28 SpD / 4 Spe
+Bold Nature
+- Protect
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+
+Sinistcha @ Colbur Berry
 Ability: Hospitality
 Level: 50
-EVs: 32 HP / 2 Def / 32 SpD
-Sassy Nature
+EVs: 32 HP / 11 Def / 23 SpD
+Bold Nature
 - Matcha Gotcha
-- Rage Powder
 - Life Dew
+- Rage Powder
 - Trick Room
 
-Torkoal @ Charcoal
-Ability: Drought
+Basculegion (M) @ Focus Sash
+Ability: Swift Swim
 Level: 50
-EVs: 32 HP / 32 SpA / 2 SpD
-Quiet Nature
-- Eruption
-- Weather Ball
-- Earth Power
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
 - Protect
+- Liquidation
+- Last Respects
+- Aqua Jet
 
-Crabominable @ Crabominite
-Ability: Hyper Cutter
+Scovillain @ Scovillainite
+Ability: Moody
 Level: 50
-EVs: 32 HP / 32 Atk / 2 Def
-Brave Nature
-- Ice Hammer
-- Drain Punch
-- Mach Punch
+EVs: 31 HP / 19 Def / 16 SpD
+Calm Nature
 - Protect
-
-Ampharos @ Ampharosite
-Ability: Static
-Level: 50
-EVs: 32 HP / 26 SpA / 8 SpD
-Quiet Nature
-- Thunderbolt
-- Dragon Pulse
-- Dazzling Gleam
-- Protect
+- Leech Seed
+- Overheat
+- Rage Powder

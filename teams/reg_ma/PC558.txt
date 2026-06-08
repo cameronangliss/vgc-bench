@@ -1,59 +1,62 @@
-Gengar @ Gengarite
-Ability: Cursed Body
+Noivern (M) @ Sitrus Berry
+Ability: Frisk
 Level: 50
-EVs: 30 HP / 18 Def / 2 SpA / 11 SpD / 5 Spe
+EVs: 18 HP / 18 Def / 30 Spe
 Timid Nature
-- Shadow Ball
-- Disable
-- Perish Song
+- Air Slash
+- Super Fang
+- Tailwind
 - Protect
 
-Incineroar @ Passho Berry
+Mamoswine (M) @ Focus Sash
+Ability: Oblivious
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Icicle Crash
+- Earthquake
+- Ice Shard
+- Protect
+
+Glimmora-Mega (F) @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+Shiny: Yes
+EVs: 15 HP / 27 Def / 10 SpA / 14 Spe
+Modest Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Meganium-Mega (F) @ Meganiumite
+Ability: Mega Sol
+Level: 50
+EVs: 30 HP / 4 Def / 23 SpA / 9 Spe
+Modest Nature
+- Solar Beam
+- Dazzling Gleam
+- Weather Ball
+- Protect
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Shiny: Yes
+EVs: 26 Atk / 8 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Flip Turn
+
+Incineroar (M) @ Shuca Berry
 Ability: Intimidate
 Level: 50
-EVs: 31 HP / 20 Def / 3 SpD / 12 Spe
-Impish Nature
-- Fake Out
+Shiny: Yes
+EVs: 31 HP / 3 Def / 20 SpD / 12 Spe
+Careful Nature
+- Flare Blitz
 - Throat Chop
-- Parting Shot
-- Protect
-
-Sinistcha @ Kasib Berry
-Ability: Hospitality
-Level: 50
-EVs: 32 HP / 14 Def / 20 SpD
-Relaxed Nature
-- Matcha Gotcha
-- Rage Powder
-- Life Dew
-- Protect
-
-Politoed @ Sitrus Berry
-Ability: Drizzle
-Level: 50
-EVs: 32 HP / 25 Def / 6 SpD / 3 Spe
-Bold Nature
-- Weather Ball
-- Encore
-- Perish Song
-- Protect
-
-Tinkaton (F) @ Shuca Berry
-Ability: Mold Breaker
-Level: 50
-EVs: 23 HP / 8 Atk / 7 Def / 28 Spe
-Jolly Nature
 - Fake Out
-- Gigaton Hammer
-- Encore
-- Protect
-
-Kommo-o @ Leftovers
-Ability: Soundproof
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Clanging Scales
-- Aura Sphere
-- Clangorous Soul
-- Protect
+- Parting Shot

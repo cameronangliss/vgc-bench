@@ -1,59 +1,59 @@
-Gardevoir @ Gardevoirite
-Ability: Trace
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 32 HP / 9 Def / 25 SpA
+EVs: 26 HP / 1 Def / 15 SpA / 24 Spe
 Modest Nature
-- Hyper Voice
-- Psyshock
 - Protect
-- Vacuum Wave
+- Dazzling Gleam
+- Light of Ruin
+- Calm Mind
 
-Gallade (M) @ Galladite
-Ability: Justified
+Scizor @ Metal Coat
+Ability: Technician
 Level: 50
-EVs: 27 HP / 14 Def / 25 Spe
+EVs: 26 HP / 32 Atk / 8 Spe
+Adamant Nature
+- Bullet Punch
+- Close Combat
+- Feint
+- Tailwind
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 13 HP / 21 Atk / 32 Spe
 Jolly Nature
-- Drain Punch
+- Protect
+- Earthquake
+- Dragon Claw
 - Rock Slide
-- Throat Chop
-- Protect
 
-Torkoal @ Charcoal
-Ability: Drought
+Talonflame @ Sharp Beak
+Ability: Gale Wings
 Level: 50
-EVs: 24 HP / 32 SpA / 10 Spe
-Modest Nature
-- Eruption
-- Weather Ball
-- Heat Wave
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Brave Bird
+- Flare Blitz
+- Quick Guard
+- Tailwind
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
 - Protect
+- Liquidation
+- Last Respects
+- Aqua Jet
 
 Maushold-Four @ Chople Berry
 Ability: Friend Guard
 Level: 50
-EVs: 32 HP / 8 Def / 3 SpD / 23 Spe
-Timid Nature
-- Super Fang
-- Encore
-- Beat Up
-- Follow Me
-
-Spiritomb @ Roseli Berry
-Ability: Infiltrator
-Level: 50
-EVs: 32 HP / 12 Atk / 12 Def / 10 SpD
-Sassy Nature
-- Poltergeist
-- Sucker Punch
-- Trick Room
-- Skill Swap
-
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
-Level: 50
-EVs: 20 Atk / 14 Def / 32 Spe
+EVs: 30 HP / 32 Def / 1 SpD / 3 Spe
 Jolly Nature
-- Wave Crash
-- Last Respects
-- Aqua Jet
-- Psychic Fangs
+- Protect
+- Super Fang
+- Taunt
+- Follow Me

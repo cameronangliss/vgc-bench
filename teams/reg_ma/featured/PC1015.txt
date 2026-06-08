@@ -1,0 +1,59 @@
+Gyarados-Mega @ Gyaradosite
+Ability: Intimidate
+Level: 50
+EVs: 19 HP / 15 Atk / 1 Def / 1 SpD / 30 Spe
+Adamant Nature
+- Waterfall
+- Lash Out
+- Dragon Dance
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Calm Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Coaching
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 2 Def / 10 SpD / 23 Spe
+Careful Nature
+- Flare Blitz
+- Fake Out
+- Parting Shot
+- Taunt
+
+Floette-Mega (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 28 HP / 1 Def / 5 SpA / 32 Spe
+Modest Nature
+- Draining Kiss
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Garchomp @ Roseli Berry
+Ability: Rough Skin
+Level: 50
+EVs: 10 HP / 29 Atk / 6 Def / 21 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Poison Jab

@@ -1,0 +1,59 @@
+Lycanroc-Dusk (F) @ Focus Sash
+Ability: Tough Claws
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Close Combat
+- Accelerock
+- Psychic Fangs
+- Protect
+
+Basculegion (M) @ Sitrus Berry
+Ability: Adaptability
+Level: 50
+EVs: 1 HP / 18 Atk / 31 Def / 16 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Kingambit (F) @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 25 Atk / 1 Def / 7 SpD / 1 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Protect
+
+Sneasler (F) @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 12 HP / 5 Atk / 19 Def / 30 Spe
+Adamant Nature
+- Close Combat
+- Gunk Shot
+- Coaching
+- Fake Out
+
+Froslass-Mega (F) @ Froslassite
+Ability: Snow Cloak
+Level: 50
+EVs: 20 HP / 4 Def / 10 SpA / 32 Spe
+Modest Nature
+- Blizzard
+- Shadow Ball
+- Aurora Veil
+- Protect
+
+Armarouge @ Passho Berry
+Ability: Flash Fire
+Level: 50
+EVs: 29 HP / 3 Def / 30 SpA / 4 SpD
+Modest Nature
+- Psychic
+- Armor Cannon
+- Wide Guard
+- Trick Room

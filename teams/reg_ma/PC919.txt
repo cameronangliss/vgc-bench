@@ -1,0 +1,59 @@
+Slowbro-Galar @ Sitrus Berry
+Ability: Quick Draw
+Level: 50
+EVs: 32 HP / 3 Def / 31 SpD
+Adamant Nature
+- Shell Side Arm
+- Drain Punch
+- Protect
+- Belly Drum
+
+Lopunny @ Lopunnite
+Ability: Cute Charm
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Close Combat
+- Triple Axel
+- Fake Out
+- Mach Punch
+
+Sinistcha @ Occa Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 9 SpA / 21 SpD
+Modest Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 17 Atk / 11 Def / 6 SpD
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Low Kick
+- Sucker Punch
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Pollen Puff
+- Protect
+- Rage Powder
+- Sleep Powder
+
+Incineroar @ Lum Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot

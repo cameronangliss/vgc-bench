@@ -1,59 +1,59 @@
-Farigiraf @ Colbur Berry
-Ability: Armor Tail
+Maushold @ Focus Sash
+Ability: Friend Guard
 Level: 50
-EVs: 15 HP / 15 Def / 10 SpA / 19 SpD / 7 Spe
-Modest Nature
-- Psyshock
-- Hyper Voice
-- Helping Hand
-- Trick Room
-
-Aerodactyl @ Focus Sash
-Ability: Unnerve
-Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Jolly Nature
-- Rock Slide
-- Wide Guard
-- Tailwind
+EVs: 32 HP / 15 Def / 15 SpD / 4 Spe
+Careful Nature
 - Protect
+- Follow Me
+- Super Fang
+- Feint
 
-Basculegion (M) @ Sitrus Berry
+Gardevoir @ Gardevoirite
+Ability: Trace
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpA
+Modest Nature
+- Protect
+- Trick Room
+- Psychic
+- Hyper Voice
+
+Basculegion (M) @ Kasib Berry
 Ability: Adaptability
 Level: 50
-EVs: 22 HP / 22 Atk / 8 Def / 2 SpD / 12 Spe
+EVs: 12 HP / 19 Atk / 30 Def / 5 Spe
 Adamant Nature
 - Wave Crash
-- Aqua Jet
 - Last Respects
-- Protect
-
-Meganium-Mega @ Meganiumite
-Ability: Overgrow
-Level: 50
-EVs: 32 HP / 8 Def / 17 SpA / 1 SpD / 8 Spe
-Modest Nature
-- Solar Beam
-- Weather Ball
-- Dazzling Gleam
-- Protect
-
-Charizard-Mega-Y @ Charizardite Y
-Ability: Drought
-Level: 50
-EVs: 32 HP / 13 Def / 11 SpA / 10 Spe
-Modest Nature
-- Heat Wave
-- Weather Ball
-- Air Slash
-- Protect
+- Substitute
+- Aqua Jet
 
 Kingambit @ Chople Berry
 Ability: Defiant
 Level: 50
-EVs: 31 HP / 20 Atk / 12 Def / 3 Spe
-Adamant Nature
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Protect
 - Kowtow Cleave
-- Sucker Punch
 - Low Kick
-- Iron Head
+- Sucker Punch
+
+Garchomp @ Roseli Berry
+Ability: Rough Skin
+Level: 50
+EVs: 24 HP / 30 Atk / 12 Spe
+Adamant Nature
+- Protect
+- Earthquake
+- Rock Slide
+- Stomping Tantrum
+
+Talonflame
+Ability: Gale Wings
+Level: 50
+EVs: 31 HP / 29 Atk / 6 Def
+Adamant Nature
+- Protect
+- Tailwind
+- Acrobatics
+- Flare Blitz

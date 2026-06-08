@@ -1,59 +1,59 @@
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
+Kleavor @ Choice Scarf
+Ability: Sharpness
 Level: 50
-EVs: 32 HP / 16 Def / 18 SpA
-Modest Nature
-- Draining Kiss
-- Dazzling Gleam
-- Calm Mind
-- Protect
+EVs: 1 HP / 32 Atk / 32 Spe
+Adamant Nature
+- X-Scissor
+- Close Combat
+- Stone Axe
+- Night Slash
 
-Whimsicott @ Sitrus Berry
-Ability: Prankster
+Araquanid @ Never-Melt Ice
+Ability: Water Bubble
 Level: 50
-EVs: 32 HP / 32 Def / 2 SpD
-Bold Nature
-- Moonblast
+EVs: 25 Def / 32 SpA / 8 SpD
+Modest Nature
+- Protect
+- Hydro Pump
+- Wide Guard
+- Ice Beam
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Timid Nature
+- Sleep Powder
+- Hurricane
 - Tailwind
-- Encore
-- Protect
+- Rage Powder
 
-Garchomp @ Choice Scarf
-Ability: Rough Skin
+Volcarona @ Sitrus Berry
+Ability: Flame Body
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Earthquake
-- Stomping Tantrum
-- Dragon Claw
-- Rock Slide
-
-Basculegion (M) @ Focus Sash
-Ability: Adaptability
-Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Adamant Nature
-- Last Respects
-- Liquidation
-- Aqua Jet
-- Protect
-
-Kingambit @ Chople Berry
-Ability: Defiant
-Level: 50
-EVs: 32 HP / 32 Atk / 2 SpD
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Iron Head
-- Protect
-
-Charizard @ Charizardite Y
-Ability: Blaze
-Level: 50
-EVs: 32 HP / 3 Def / 31 SpA
+EVs: 31 HP / 9 SpA / 25 Spe
 Modest Nature
+- Quiver Dance
+- Sunny Day
+- Giga Drain
 - Heat Wave
-- Weather Ball
-- Solar Beam
+
+Scizor @ White Herb
+Ability: Technician
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def
+Adamant Nature
+- Swords Dance
+- Bullet Punch
+- Close Combat
 - Protect
+
+Pinsir @ Pinsirite
+Ability: Mold Breaker
+Level: 50
+EVs: 1 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Quick Attack
+- High Horsepower
+- Body Slam
+- Detect

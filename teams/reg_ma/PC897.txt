@@ -1,0 +1,57 @@
+Heracross @ Heracronite
+Ability: Guts
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Close Combat
+- Pin Missile
+- Rock Blast
+- Detect
+
+Kangaskhan (F) @ Silk Scarf
+Ability: Scrappy
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Fake Out
+- Last Resort
+
+Slowking-Galar @ Shuca Berry
+Ability: Regenerator
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Relaxed Nature
+- Acid Spray
+- Trick Room
+- Heal Pulse
+- Chilly Reception
+
+Kingambit @ Focus Sash
+Ability: Supreme Overlord
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Iron Head
+- Protect
+- Sucker Punch
+- Kowtow Cleave
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Earth Power
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Hyper Voice
+- Hyper Beam
+- Substitute
+- Detect

@@ -1,59 +1,59 @@
-Froslass (F) @ Froslassite
-Ability: Cursed Body
+Charizard @ Charizardite Y
+Ability: Blaze
 Level: 50
-EVs: 26 HP / 2 Def / 5 SpA / 1 SpD / 32 Spe
-Timid Nature
-- Blizzard
-- Shadow Ball
-- Aurora Veil
+EVs: 32 HP / 23 Def / 11 SpA
+Modest Nature
+- Heat Wave
+- Weather Ball
 - Protect
-
-Dragonite @ Dragon Fang
-Ability: Multiscale
-Level: 50
-EVs: 3 HP / 26 Atk / 1 Def / 4 SpD / 32 Spe
-Adamant Nature
-- Dragon Claw
-- Extreme Speed
-- Low Kick
-- Tailwind
+- Solar Beam
 
 Garchomp @ Sitrus Berry
 Ability: Rough Skin
 Level: 50
-EVs: 24 HP / 20 Atk / 5 SpD / 17 Spe
+EVs: 10 HP / 32 Atk / 1 Def / 1 SpD / 22 Spe
 Adamant Nature
-- Dragon Claw
 - Earthquake
-- Rock Slide
+- Stone Edge
+- Stomping Tantrum
 - Protect
 
-Milotic @ Leftovers
-Ability: Competitive
+Whimsicott @ Focus Sash
+Ability: Prankster
 Level: 50
-EVs: 31 HP / 12 Def / 10 SpA / 13 Spe
-Modest Nature
-- Scald
-- Icy Wind
-- Life Dew
-- Haze
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Encore
+- Protect
 
-Kingambit @ Focus Sash
+Kingambit @ Black Glasses
 Ability: Supreme Overlord
 Level: 50
-EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
-Adamant Nature
-- Iron Head
-- Sucker Punch
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Kowtow Cleave
 - Low Kick
+- Sucker Punch
+- Iron Head
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 16 Def / 16 SpA / 2 Spe
+Modest Nature
+- Light of Ruin
+- Moonblast
+- Dazzling Gleam
 - Protect
 
-Sneasler @ Black Belt
-Ability: Poison Touch
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
 Level: 50
-EVs: 2 HP / 17 Atk / 32 Def / 15 Spe
-Adamant Nature
-- Dire Claw
-- Close Combat
-- Fake Out
-- Protect
+EVs: 29 Atk / 10 Def / 27 Spe
+Jolly Nature
+- Wave Crash
+- Aqua Jet
+- Last Respects
+- Flip Turn

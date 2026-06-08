@@ -1,0 +1,59 @@
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 22 HP / 16 Atk / 7 Def / 21 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Protect
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Earthquake
+- Iron Head
+- Rock Slide
+- Protect
+
+Hydreigon @ Haban Berry
+Ability: Levitate
+Level: 50
+EVs: 4 HP / 1 Def / 32 SpA / 1 SpD / 28 Spe
+Timid Nature
+- Dark Pulse
+- Snarl
+- Draco Meteor
+- Protect
+
+Corviknight @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 19 HP / 11 Atk / 5 Def / 5 SpD / 26 Spe
+Careful Nature
+- Brave Bird
+- Roost
+- Bulk Up
+- Tailwind
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 6 Def / 15 SpA / 14 Spe
+Modest Nature
+- Thunderbolt
+- Will-O-Wisp
+- Hydro Pump
+- Protect
+
+Mimikyu @ Spell Tag
+Ability: Disguise
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Shadow Claw
+- Shadow Sneak
+- Play Rough
+- Protect
