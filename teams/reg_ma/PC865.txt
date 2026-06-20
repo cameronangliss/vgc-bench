@@ -1,0 +1,59 @@
+Starmie @ Starminite
+Ability: Natural Cure
+Level: 50
+EVs: 18 HP / 30 Atk / 2 Def / 16 Spe
+Adamant Nature
+- Liquidation
+- Psycho Cut
+- Aqua Jet
+- Protect
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 8 SpA / 15 SpD / 12 Spe
+Modest Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Archaludon @ Choice Scarf
+Ability: Stalwart
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Draco Meteor
+- Flash Cannon
+- Electro Shot
+- Thunderbolt
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Coaching
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 26 Atk / 6 Def / 2 Spe
+Adamant Nature
+- Kowtow Cleave
+- Low Kick
+- Sucker Punch
+- Protect
+
+Garchomp @ Soft Sand
+Ability: Rough Skin
+Level: 50
+EVs: 14 HP / 20 Atk / 32 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Protect

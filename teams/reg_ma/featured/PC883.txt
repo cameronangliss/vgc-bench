@@ -1,0 +1,59 @@
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 17 HP / 13 Def / 32 SpA / 4 Spe
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Detect
+- Quick Attack
+
+Scovillain @ Scovillainite
+Ability: Moody
+Level: 50
+EVs: 29 HP / 15 Def / 21 SpD / 1 Spe
+Bold Nature
+- Overheat
+- Rage Powder
+- Protect
+- Leech Seed
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 2 Def / 1 SpA / 23 SpD / 9 Spe
+Modest Nature
+- Helping Hand
+- Weather Ball
+- Hurricane
+- Wide Guard
+
+Espathra @ Colbur Berry
+Ability: Speed Boost
+Level: 50
+EVs: 32 HP / 2 Def / 32 Spe
+Timid Nature
+- Lumina Crash
+- Calm Mind
+- Baton Pass
+- Protect
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 19 Def / 13 SpD / 3 Spe
+Bold Nature
+- Shadow Ball
+- Life Dew
+- Rage Powder
+- Matcha Gotcha
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 27 HP / 30 SpD / 9 Spe
+Calm Nature
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Protect

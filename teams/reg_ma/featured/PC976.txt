@@ -1,0 +1,59 @@
+Dragonite @ Lum Berry
+Ability: Multiscale
+Level: 50
+EVs: 17 HP / 32 Atk / 17 Spe
+Adamant Nature
+- Dragon Claw
+- Protect
+- Fire Punch
+- Extreme Speed
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 19 SpD / 15 Spe
+Careful Nature
+- Flare Blitz
+- Helping Hand
+- Fake Out
+- Parting Shot
+
+Palafin @ Leftovers
+Ability: Zero to Hero
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 Spe
+Adamant Nature
+- Jet Punch
+- Wave Crash
+- Bulk Up
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Coaching
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 20 HP / 14 Def / 10 SpA / 22 Spe
+Modest Nature
+- Calm Mind
+- Dazzling Gleam
+- Draining Kiss
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+- Swords Dance

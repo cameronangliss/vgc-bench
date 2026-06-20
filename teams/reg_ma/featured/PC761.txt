@@ -1,0 +1,59 @@
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 7 Def / 27 SpD
+Bold Nature
+- Encore
+- Rain Dance
+- Light Screen
+- Reflect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 8 SpA / 20 SpD / 6 Spe
+Modest Nature
+- Protect
+- Draco Meteor
+- Electro Shot
+- Flash Cannon
+
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+EVs: 20 Atk / 32 Def / 14 Spe
+Adamant Nature
+- Last Respects
+- Wave Crash
+- Aqua Jet
+- Protect
+
+Sylveon @ Sitrus Berry
+Ability: Pixilate
+Level: 50
+EVs: 32 HP / 22 Def / 10 SpA / 2 Spe
+Modest Nature
+- Quick Attack
+- Detect
+- Hyper Voice
+- Yawn
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Dragon Pulse
+- Heat Wave
+- Protect
+- Tailwind
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 20 HP / 31 SpA / 15 Spe
+Modest Nature
+- Leech Seed
+- Sludge Bomb
+- Earth Power
+- Protect

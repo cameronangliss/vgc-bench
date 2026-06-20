@@ -1,0 +1,59 @@
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 2 Atk / 32 Spe
+Adamant Nature
+- Rock Slide
+- Crunch
+- Dragon Dance
+- Protect
+
+Corviknight @ Occa Berry
+Ability: Mirror Armor
+Level: 50
+EVs: 31 HP / 27 Atk / 8 Spe
+Adamant Nature
+- Iron Head
+- Brave Bird
+- Tailwind
+- Protect
+
+Rotom-Wash @ Magnet
+Ability: Levitate
+Level: 50
+EVs: 28 HP / 32 SpA / 6 Spe
+Modest Nature
+- Hydro Pump
+- Thunderbolt
+- Will-O-Wisp
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 24 Def / 11 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Protect
+- Trick Room
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 16 HP / 10 Def / 8 SpA / 32 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Sand Veil
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Stomping Tantrum
+- Dragon Claw
+- Earthquake
+- Rock Slide

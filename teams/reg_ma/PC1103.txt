@@ -1,0 +1,59 @@
+Froslass (F) @ Froslassite
+Ability: Snow Cloak
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Blizzard
+- Shadow Ball
+- Aurora Veil
+- Protect
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 19 HP / 10 Def / 17 SpA / 10 SpD / 10 Spe
+Modest Nature
+- Hurricane
+- Dragon Pulse
+- Ice Beam
+- Protect
+
+Lycanroc-Dusk @ Focus Sash
+Ability: Tough Claws
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Rock Slide
+- Close Combat
+- Accelerock
+- Protect
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 28 HP / 18 Def / 20 SpD
+Calm Nature
+- Quash
+- Encore
+- Light Screen
+- Rain Dance
+
+Samurott-Hisui @ Choice Scarf
+Ability: Sharpness
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Sacred Sword
+- Sucker Punch
+- Aqua Cutter
+- Night Slash
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 3 HP / 10 Def / 30 SpA / 5 SpD / 18 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Aura Sphere
+- Protect

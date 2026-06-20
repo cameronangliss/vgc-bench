@@ -1,0 +1,59 @@
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 2 Def / 16 SpA / 16 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 4 HP / 32 Atk / 30 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Protect
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 14 HP / 32 Atk / 20 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Stone Edge
+- Poison Jab
+
+Basculegion (M) @ Mystic Water
+Ability: Adaptability
+Level: 50
+EVs: 31 Atk / 13 Def / 22 Spe
+Jolly Nature
+- Last Respects
+- Wave Crash
+- Aqua Jet
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Supreme Overlord
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick

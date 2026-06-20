@@ -1,0 +1,59 @@
+Espathra @ Mental Herb
+Ability: Speed Boost
+Level: 50
+EVs: 19 HP / 14 Def / 4 SpD / 29 Spe
+Timid Nature
+- Protect
+- Lumina Crash
+- Baton Pass
+- Calm Mind
+
+Scovillain @ Scovillainite
+Ability: Insomnia
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Calm Nature
+- Protect
+- Rage Powder
+- Leech Seed
+- Overheat
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Calm Nature
+- Taunt
+- Rain Dance
+- Light Screen
+- Reflect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 Def / 5 SpA / 25 SpD / 3 Spe
+Modest Nature
+- Protect
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+
+Milotic @ Sitrus Berry
+Ability: Competitive
+Level: 50
+EVs: 31 HP / 21 Def / 1 SpA / 12 SpD / 1 Spe
+Bold Nature
+- Life Dew
+- Psych Up
+- Rain Dance
+- Scald
+
+Dragapult @ Focus Sash
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Timid Nature
+- Dragon Tail
+- Beat Up
+- Protect
+- Curse

@@ -1,0 +1,59 @@
+Whimsicott @ Sitrus Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 15 Def / 19 SpD
+Bold Nature
+- Moonblast
+- Tailwind
+- Encore
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Sludge Bomb
+- Power Gem
+- Earth Power
+- Spiky Shield
+
+Garchomp @ Roseli Berry
+Ability: Rough Skin
+Level: 50
+EVs: 18 HP / 23 Atk / 1 Def / 24 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 20 HP / 14 Def / 6 SpA / 26 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 29 HP / 32 SpA / 5 Spe
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Quick Attack
+- Detect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect

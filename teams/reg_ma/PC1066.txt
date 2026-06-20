@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 16 Def / 13 SpA / 5 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 20 Def / 5 SpA / 9 SpD
+Bold Nature
+- Giga Drain
+- Sludge Bomb
+- Leech Seed
+- Protect
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Modest Nature
+- Scald
+- Ice Beam
+- Life Dew
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Altaria @ Haban Berry
+Ability: Cloud Nine
+Level: 50
+EVs: 32 HP / 30 Def / 4 SpD
+Impish Nature
+- Brave Bird
+- Will-O-Wisp
+- Roost
+- Protect
+
+Wyrdeer @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 28 Def / 6 SpD
+Relaxed Nature
+- Psychic
+- Skill Swap
+- Trick Room
+- Protect

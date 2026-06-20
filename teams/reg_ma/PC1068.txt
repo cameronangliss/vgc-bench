@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Air Slash
+- Protect
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 21 HP / 1 Atk / 12 SpD / 32 Spe
+Jolly Nature
+- Rock Slide
+- Rock Tomb
+- Tailwind
+- Wide Guard
+
+Basculegion (M) @ Mystic Water
+Ability: Adaptability
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Waterfall
+- Last Respects
+- Aqua Jet
+- Protect
+
+Klefki @ Sitrus Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Bold Nature
+- Foul Play
+- Rain Dance
+- Trick Room
+- Imprison
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 12 HP / 32 SpA / 22 Spe
+Modest Nature
+- Dragon Pulse
+- Electro Shot
+- Aura Sphere
+- Protect
+
+Sinistcha @ Occa Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 19 Def / 13 SpD / 3 Spe
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room

@@ -1,0 +1,59 @@
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 21 HP / 31 SpA / 14 Spe
+Modest Nature
+- Sludge Bomb
+- Giga Drain
+- Earth Power
+- Protect
+
+Skarmory @ Skarmorite
+Ability: Sturdy
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Brave Bird
+- Iron Head
+- Tailwind
+- Protect
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 31 HP / 7 Def / 28 SpD
+Sassy Nature
+- Foul Play
+- Rain Dance
+- Reflect
+- Light Screen
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 29 HP / 3 SpA / 32 SpD / 2 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Draco Meteor
+- Protect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Extreme Speed
+- Low Kick
+- Protect

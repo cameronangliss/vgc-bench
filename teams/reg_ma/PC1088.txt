@@ -1,0 +1,59 @@
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Last Respects
+- Liquidation
+- Aqua Jet
+- Protect
+
+Charizard @ Charizardite Y
+Ability: Solar Power
+Level: 50
+EVs: 32 HP / 9 Def / 11 SpA / 14 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 13 HP / 28 Def / 25 SpA
+Quiet Nature
+- Hyper Voice
+- Moonblast
+- Quick Attack
+- Detect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 1 Atk / 32 SpA / 1 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Stone Edge
+- Protect
+
+Medicham @ Medichamite
+Ability: Pure Power
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Close Combat
+- Rock Slide
+- Poison Jab
+- Fake Out
+
+Oranguru @ Mental Herb
+Ability: Inner Focus
+Level: 50
+EVs: 32 HP / 32 Def / 2 Spe
+Sassy Nature
+- After You
+- Instruct
+- Trick Room
+- Encore

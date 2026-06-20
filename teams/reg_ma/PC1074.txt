@@ -1,0 +1,59 @@
+Farigiraf @ Mental Herb
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Relaxed Nature
+- Trick Room
+- Psychic
+- Helping Hand
+- Ally Switch
+
+Kangaskhan (F) @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Brave Nature
+- Fake Out
+- Double-Edge
+- Ice Punch
+- Hammer Arm
+
+Kingambit @ Chople Berry
+Ability: Supreme Overlord
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick
+
+Sinistcha @ Leftovers
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Relaxed Nature
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Life Dew
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Eruption
+- Weather Ball
+- Earth Power
+- Sunny Day
+
+Camerupt @ Cameruptite
+Ability: Solid Rock
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Earth Power
+- Heat Wave
+- Ancient Power
+- Protect

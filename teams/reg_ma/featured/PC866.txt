@@ -1,0 +1,61 @@
+Lopunny @ Lopunnite
+Ability: Klutz
+Level: 50
+Shiny: Yes
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Giga Impact
+- Fake Out
+- Close Combat
+- Triple Axel
+
+Vivillon @ Choice Scarf
+Ability: Compound Eyes
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Rage Powder
+- Hurricane
+- Tailwind
+- Sleep Powder
+
+Basculegion @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Liquidation
+- Aqua Jet
+- Last Respects
+- Protect
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 16 HP / 32 Atk / 18 Spe
+Adamant Nature
+- Dragon Claw
+- Low Kick
+- Iron Head
+- Extreme Speed
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 19 HP / 3 Def / 14 SpA / 30 SpD
+Sassy Nature
+- Psychic
+- Ally Switch
+- Trick Room
+- Thunderbolt
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+Shiny: Yes
+EVs: 12 HP / 24 Def / 23 SpA / 7 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Calm Mind
+- Detect

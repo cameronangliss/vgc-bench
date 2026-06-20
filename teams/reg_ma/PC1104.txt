@@ -1,0 +1,59 @@
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Sassy Nature
+- Will-O-Wisp
+- Rain Dance
+- Encore
+- Disable
+
+Basculegion-F (F) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 2 Def / 29 SpA / 3 SpD / 32 Spe
+Timid Nature
+- Muddy Water
+- Shadow Ball
+- Hex
+- Ice Beam
+
+Lopunny-Mega @ Lopunnite
+Ability: Scrappy
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Adamant Nature
+- Close Combat
+- Triple Axel
+- Fake Out
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 Def / 30 SpD / 3 Spe
+Bold Nature
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Meganium-Mega (F) @ Meganiumite
+Ability: Mega Sol
+Level: 50
+EVs: 30 HP / 4 Def / 23 SpA / 9 Spe
+Modest Nature
+- Solar Beam
+- Dazzling Gleam
+- Weather Ball
+- Protect

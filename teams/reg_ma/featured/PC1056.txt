@@ -1,0 +1,59 @@
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 30 HP / 19 Def / 12 SpD / 5 Spe
+Timid Nature
+- Shadow Ball
+- Disable
+- Perish Song
+- Protect
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 23 HP / 30 SpA / 1 SpD / 12 Spe
+Modest Nature
+- Clanging Scales
+- Aura Sphere
+- Clangorous Soul
+- Protect
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 14 Def / 21 SpD
+Bold Nature
+- Matcha Gotcha
+- Protect
+- Rage Powder
+- Life Dew
+
+Incineroar @ Passho Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 21 Def / 14 SpD
+Relaxed Nature
+- Fake Out
+- Darkest Lariat
+- Protect
+- Parting Shot
+
+Politoed @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 29 Def / 6 Spe
+Calm Nature
+- Weather Ball
+- Encore
+- Perish Song
+- Protect
+
+Tinkaton @ Shuca Berry
+Ability: Mold Breaker
+Level: 50
+EVs: 15 HP / 9 Atk / 13 Def / 29 Spe
+Jolly Nature
+- Fake Out
+- Gigaton Hammer
+- Encore
+- Protect

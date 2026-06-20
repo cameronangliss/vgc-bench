@@ -1,0 +1,59 @@
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 11 HP / 28 Def / 20 SpA / 7 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Detect
+- Hyper Beam
+
+Dragonite @ Dragoninite
+Ability: Inner Focus
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Dragon Pulse
+- Heat Wave
+- Thunderbolt
+- Tailwind
+
+Kingambit @ Chople Berry
+Ability: Supreme Overlord
+Level: 50
+EVs: 32 HP / 15 Atk / 19 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Low Kick
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Last Respects
+- Liquidation
+- Aqua Jet
+- Protect
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 19 HP / 10 Atk / 1 Def / 4 SpD / 32 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Outrage
+- Poison Jab
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 26 HP / 24 Def / 16 Spe
+Adamant Nature
+- Close Combat
+- Gunk Shot
+- Rock Slide
+- Fake Out

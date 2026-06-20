@@ -1,0 +1,59 @@
+Gallade @ Focus Sash
+Ability: Sharpness
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Trick Room
+- Wide Guard
+- Psycho Cut
+- Sacred Sword
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 18 Def / 16 SpD
+Relaxed Nature
+- Helping Hand
+- Trick Room
+- Thunderbolt
+- Twin Beam
+
+Kangaskhan @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 31 HP / 32 Atk / 2 Def / 1 SpD
+Brave Nature
+- Fake Out
+- Crunch
+- Double-Edge
+- Hammer Arm
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 30 HP / 26 Atk / 7 Def / 3 SpD
+Brave Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Low Kick
+
+Hatterene @ Fairy Feather
+Ability: Magic Bounce
+Level: 50
+EVs: 31 HP / 14 Def / 14 SpA / 7 SpD
+Quiet Nature
+- Dazzling Gleam
+- Trick Room
+- Psychic
+- Psyshock
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Heat Wave
+- Weather Ball
+- Earth Power

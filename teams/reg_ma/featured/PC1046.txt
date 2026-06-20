@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 15 Def / 19 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Ceruledge @ Charcoal
+Ability: Flash Fire
+Level: 50
+EVs: 31 HP / 1 Atk / 26 Def / 8 Spe
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Bulk Up
+- Protect
+
+Kommo-o @ Dragon Fang
+Ability: Bulletproof
+Level: 50
+EVs: 1 HP / 3 Atk / 30 SpA / 32 Spe
+Naive Nature
+- Clanging Scales
+- Drain Punch
+- Clangorous Soul
+- Protect
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 31 HP / 31 Def / 2 SpA / 1 SpD / 1 Spe
+Sassy Nature
+- Muddy Water
+- Hypnosis
+- Life Dew
+- Coil
+
+Serperior @ Sitrus Berry
+Ability: Contrary
+Level: 50
+EVs: 32 HP / 5 Def / 1 SpA / 2 SpD / 26 Spe
+Timid Nature
+- Leaf Storm
+- Light Screen
+- Reflect
+- Glare
+
+Wyrdeer @ Colbur Berry
+Ability: Intimidate
+Level: 50
+EVs: 28 HP / 2 Atk / 8 Def / 21 SpD / 7 Spe
+Adamant Nature
+- Psyshield Bash
+- Gravity
+- Hypnosis
+- Trick Room

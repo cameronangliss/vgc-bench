@@ -1,0 +1,59 @@
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 26 HP / 20 SpA / 20 Spe
+Modest Nature
+- Clangorous Soul
+- Aura Sphere
+- Clanging Scales
+- Protect
+
+Froslass-Mega (F) @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 15 HP / 19 Def / 32 Spe
+Modest Nature
+- Blizzard
+- Shadow Ball
+- Aurora Veil
+- Protect
+
+Talonflame @ Focus Sash
+Ability: Gale Wings
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Dual Wingbeat
+- Flare Blitz
+- Upper Hand
+- Tailwind
+
+Tinkaton (F) @ Metal Coat
+Ability: Mold Breaker
+Level: 50
+EVs: 7 HP / 25 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Fake Out
+- Gigaton Hammer
+- Encore
+- Protect
+
+Mamoswine @ Choice Scarf
+Ability: Oblivious
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Earthquake
+- High Horsepower
+- Icicle Spear
+- Rock Slide
+
+Gyarados-Mega @ Gyaradosite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 6 Atk / 1 Def / 27 Spe
+Adamant Nature
+- Waterfall
+- Crunch
+- Earthquake
+- Protect
