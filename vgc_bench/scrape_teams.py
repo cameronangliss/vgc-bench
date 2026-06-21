@@ -29,41 +29,25 @@ def fetch_sheet_names(session: requests.Session) -> list[str]:
 def get_regulation_sheets(
     all_sheets: list[str], regulation: str
 ) -> tuple[list[str], list[str]]:
-    """Find featured and regular team sheets for a regulation."""
-    reg = regulation.lower()
-    if reg in format_map:
-        tag = f"m-{reg[1:]}"
-        featured = [
-            name
-            for name in all_sheets
-            if "featured" in name.lower()
-            and "presentable" not in name.lower()
-            and "champions" in name.lower()
-            and tag in name.lower()
-        ]
-        regular = [
-            name
-            for name in all_sheets
-            if "featured" not in name.lower()
-            and "presentable" not in name.lower()
-            and "champions" in name.lower()
-            and tag in name.lower()
-        ]
-        return featured, regular
+    """Find featured and regular Champions team sheets for a regulation."""
+    # Champions reg "ma" -> sheet tag "m-a", "mb" -> "m-b", etc.
+    tag = f"m-{regulation.lower()[1:]}"
     featured = [
         name
         for name in all_sheets
         if "featured" in name.lower()
         and "presentable" not in name.lower()
-        and (f"reg {reg}" in name.lower() or f"regulation {reg}" in name.lower())
+        and "champions" in name.lower()
+        and tag in name.lower()
     ]
     regular = [
         name
         for name in all_sheets
-        if "featured" not in name.lower() and f"regulation {reg}" in name.lower()
+        if "featured" not in name.lower()
+        and "presentable" not in name.lower()
+        and "champions" in name.lower()
+        and tag in name.lower()
     ]
-    if not regular:
-        regular = [f"SV Regulation {regulation.upper()}"]
     return featured, regular
 
 

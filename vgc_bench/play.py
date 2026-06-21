@@ -36,7 +36,7 @@ async def play(
     or waits to accept challenges from other players.
 
     Args:
-        reg: VGC regulation letter (e.g. 'g', 'h', 'i'), or None for all.
+        reg: VGC regulation identifier (e.g. 'ma', 'mb'), or None for all.
         run_id: Training run identifier for loading the model.
         results_suffix: Optional suffix appended to results<run_id> for paths.
         method: Method string used in checkpoint directory names.
@@ -97,7 +97,7 @@ if __name__ == "__main__":
         "--reg",
         type=str,
         default=None,
-        help="VGC regulation to play in (e.g. G). Omit to accept any regulation",
+        help="VGC regulation to play in (e.g. MA). Omit to accept any regulation",
     )
     parser.add_argument(
         "--run_id", type=int, required=True, help="AI's ID from its training run"

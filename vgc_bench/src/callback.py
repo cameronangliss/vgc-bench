@@ -75,7 +75,7 @@ class Callback(BaseCallback):
         Args:
             run_id: Training run identifier.
             num_teams: Number of teams to use.
-            reg: VGC regulation letter (e.g. 'g', 'h', 'i'), or None for all.
+            reg: VGC regulation identifier (e.g. 'ma', 'mb'), or None for all.
             num_eval_workers: Number of parallel evaluation workers.
             log_level: Logging verbosity for Showdown clients.
             port: Port for the Pokemon Showdown server.

@@ -63,7 +63,7 @@ class ShowdownEnv(DoublesEnv):
         wrapper for other paradigms).
 
         Args:
-            reg: VGC regulation letter (e.g. 'g', 'h', 'i'), or None for all.
+            reg: VGC regulation identifier (e.g. 'ma', 'mb'), or None for all.
             run_id: Training run identifier.
             num_teams: Number of teams to train with, or None for all.
             num_envs: Number of parallel environments.

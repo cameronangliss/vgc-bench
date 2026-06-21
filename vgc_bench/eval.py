@@ -42,7 +42,7 @@ def cross_eval_all_agents(
     then uses Alpha-Rank to analyze the meta-game.
 
     Args:
-        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
+        reg: VGC regulation identifier (e.g. 'ma', 'mb').
         num_teams: Number of teams to use in evaluation.
         port: Port for the Pokemon Showdown server.
         device: CUDA device for model inference.
@@ -165,7 +165,7 @@ async def get_best_checkpoints(
     which performs best in head-to-head matchups.
 
     Args:
-        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
+        reg: VGC regulation identifier (e.g. 'ma', 'mb').
         run_id: Training run identifier.
         num_teams: Number of teams used during training.
         port: Port for the Pokemon Showdown server.
@@ -294,7 +294,7 @@ def cross_eval_over_team_sizes(
     or generalize better to unseen teams (generalization test).
 
     Args:
-        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
+        reg: VGC regulation identifier (e.g. 'ma', 'mb').
         team_counts: List of team counts corresponding to each method.
         methods: List of (method_name, checkpoint_list) tuples for each team count.
         port: Port for the Pokemon Showdown server.
@@ -370,7 +370,7 @@ def print_team_statistics(reg: str, num_teams: int):
     relative to the in-distribution training set for each run.
 
     Args:
-        reg: VGC regulation letter (e.g. 'g', 'h', 'i').
+        reg: VGC regulation identifier (e.g. 'ma', 'mb').
         num_teams: Number of teams in the in-distribution training set.
     """
     num_runs = 5
@@ -420,7 +420,7 @@ def print_team_statistics(reg: str, num_teams: int):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate a Pokémon AI model")
     parser.add_argument(
-        "--reg", type=str, required=True, help="VGC regulation to eval on, i.e. G"
+        "--reg", type=str, required=True, help="VGC regulation to eval on, e.g. MA"
     )
     parser.add_argument(
         "--num_teams", type=int, required=True, help="Number of teams to eval with"

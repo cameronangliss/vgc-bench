@@ -86,8 +86,7 @@ class RandomTeamBuilder(Teambuilder):
         Args:
             run_id: Training run identifier for deterministic team selection.
             num_teams: Number of teams to include in the pool, or None for all.
-            reg: VGC regulation identifier (e.g. 'g', 'h', 'i', 'ma'), or None
-                for all.
+            reg: VGC regulation identifier (e.g. 'ma', 'mb'), or None for all.
             custom_team_paths: Optional explicit list of team file paths (e.g. for
                 matchup solving). Overrides reg/num_teams selection.
             toggle: Optional TeamToggle to prevent consecutive identical teams.
@@ -195,7 +194,7 @@ class RandomTeamBuilder(Teambuilder):
         Get all team file paths for a given regulation.
 
         Args:
-            reg: VGC regulation identifier (e.g. 'g', 'h', 'i', 'ma').
+            reg: VGC regulation identifier (e.g. 'ma', 'mb').
             prefer_featured: If True, only return teams from the featured/ subdirectory.
 
         Returns:

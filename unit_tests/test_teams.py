@@ -41,7 +41,7 @@ class TestCalcTeamSimilarityScore:
         assert 0.0 <= score <= 1.0
 
     def test_different_teams_from_disk(self):
-        paths = RandomTeamBuilder.get_team_paths("g")
+        paths = RandomTeamBuilder.get_team_paths("ma")
         if len(paths) >= 2:
             t1 = paths[0].read_text()
             t2 = paths[-1].read_text()
@@ -51,7 +51,7 @@ class TestCalcTeamSimilarityScore:
 
 class TestGetTeamPaths:
     def test_returns_paths(self):
-        paths = RandomTeamBuilder.get_team_paths("g")
+        paths = RandomTeamBuilder.get_team_paths("ma")
         assert len(paths) > 0
         for p in paths:
             assert p.suffix == ".txt"

@@ -51,32 +51,8 @@ class TestNormalizeTeamText:
 
 
 class TestGetRegulationSheets:
-    def test_finds_featured_and_regular(self):
-        sheets = [
-            "Reg G Featured Teams",
-            "Reg H Featured Teams",
-            "SV Regulation G",
-            "SV Regulation H",
-        ]
-        featured, regular = get_regulation_sheets(sheets, "G")
-        assert "Reg G Featured Teams" in featured
-        assert "Reg H Featured Teams" not in featured
-        assert "SV Regulation G" in regular
-        assert "SV Regulation H" not in regular
-
-    def test_excludes_presentable(self):
-        sheets = ["Reg G Featured Teams Presentable", "Reg G Featured Teams"]
-        featured, _regular = get_regulation_sheets(sheets, "G")
-        assert len(featured) == 1
-        assert "Presentable" not in featured[0]
-
-    def test_fallback(self):
-        featured, regular = get_regulation_sheets([], "G")
-        assert featured == []
-        assert regular == ["SV Regulation G"]
-
     def test_finds_champions_regular(self):
-        sheets = ["Champions M-A", "SV Regulation I", "Reg I Featured Teams"]
+        sheets = ["Champions M-A", "Champions M-B", "SV Regulation I"]
         featured, regular = get_regulation_sheets(sheets, "ma")
         assert featured == []
         assert regular == ["Champions M-A"]

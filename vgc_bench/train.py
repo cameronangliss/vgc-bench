@@ -46,7 +46,7 @@ def train(
     checkpointing.
 
     Args:
-        reg: VGC regulation letter (e.g. 'g', 'h', 'i'), or None for all.
+        reg: VGC regulation identifier (e.g. 'ma', 'mb'), or None for all.
         run_id: Training run identifier for saving/loading.
         num_teams: Number of teams to train with.
         num_envs: Number of parallel environments.
