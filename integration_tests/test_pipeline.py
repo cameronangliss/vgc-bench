@@ -109,7 +109,7 @@ class TestPipeline:
 
         # Create a minimal PPO + BC setup and train 1 epoch
         env = ShowdownEnv(
-            battle_format=format_map["g"],
+            battle_format=format_map["ma"],
             log_level=40,
             accept_open_team_sheet=True,
             start_listening=False,

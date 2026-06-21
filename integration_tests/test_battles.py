@@ -25,7 +25,7 @@ SERVER_CONFIG = ServerConfiguration(
     "ws://localhost:8100/showdown/websocket",
     "https://play.pokemonshowdown.com/action.php?",
 )
-BATTLE_FORMAT = format_map["g"]
+BATTLE_FORMAT = format_map["ma"]
 N_BATTLES = 3
 
 
@@ -103,7 +103,7 @@ class TestPolicyPlayerBattles:
             log_level=40,
             max_concurrent_battles=1,
             accept_open_team_sheet=True,
-            team=RandomTeamBuilder(1, None, "g"),
+            team=RandomTeamBuilder(1, None, "ma"),
         )
         opponent = SimpleHeuristicsPlayer(
             server_configuration=SERVER_CONFIG,
@@ -111,7 +111,7 @@ class TestPolicyPlayerBattles:
             log_level=40,
             max_concurrent_battles=1,
             accept_open_team_sheet=True,
-            team=RandomTeamBuilder(1, None, "g"),
+            team=RandomTeamBuilder(1, None, "ma"),
         )
         asyncio.run(player.battle_against(opponent, n_battles=N_BATTLES))
         assert player.n_finished_battles == N_BATTLES
@@ -141,7 +141,7 @@ class TestPolicyPlayerBattles:
             log_level=40,
             max_concurrent_battles=1,
             accept_open_team_sheet=True,
-            team=RandomTeamBuilder(2, None, "g"),
+            team=RandomTeamBuilder(2, None, "ma"),
         )
         opponent = SimpleHeuristicsPlayer(
             server_configuration=SERVER_CONFIG,
@@ -149,7 +149,7 @@ class TestPolicyPlayerBattles:
             log_level=40,
             max_concurrent_battles=1,
             accept_open_team_sheet=True,
-            team=RandomTeamBuilder(2, None, "g"),
+            team=RandomTeamBuilder(2, None, "ma"),
         )
         asyncio.run(player.battle_against(opponent, n_battles=N_BATTLES))
         assert player.n_finished_battles == N_BATTLES
@@ -169,7 +169,7 @@ class TestMockLLMPlayerBattles:
             log_level=40,
             max_concurrent_battles=1,
             accept_open_team_sheet=True,
-            team=RandomTeamBuilder(3, None, "g"),
+            team=RandomTeamBuilder(3, None, "ma"),
         )
         opponent = RandomPlayer(
             server_configuration=SERVER_CONFIG,
@@ -177,7 +177,7 @@ class TestMockLLMPlayerBattles:
             log_level=40,
             max_concurrent_battles=1,
             accept_open_team_sheet=True,
-            team=RandomTeamBuilder(3, None, "g"),
+            team=RandomTeamBuilder(3, None, "ma"),
         )
         asyncio.run(player.battle_against(opponent, n_battles=N_BATTLES))
         assert player.n_finished_battles == N_BATTLES
@@ -192,7 +192,7 @@ class TestMockLLMPlayerBattles:
             log_level=40,
             max_concurrent_battles=1,
             accept_open_team_sheet=True,
-            team=RandomTeamBuilder(4, None, "g"),
+            team=RandomTeamBuilder(4, None, "ma"),
         )
         opponent = SimpleHeuristicsPlayer(
             server_configuration=SERVER_CONFIG,
@@ -200,7 +200,7 @@ class TestMockLLMPlayerBattles:
             log_level=40,
             max_concurrent_battles=1,
             accept_open_team_sheet=True,
-            team=RandomTeamBuilder(4, None, "g"),
+            team=RandomTeamBuilder(4, None, "ma"),
         )
         asyncio.run(player.battle_against(opponent, n_battles=N_BATTLES))
         assert player.n_finished_battles == N_BATTLES
