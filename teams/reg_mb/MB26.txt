@@ -1,0 +1,59 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 1 Def / 30 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Hurricane
+- Muddy Water
+- Tailwind
+- Wide Guard
+
+Mawile @ Mawilite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Adamant Nature
+- Play Rough
+- Iron Head
+- Sucker Punch
+- Protect
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 1 Atk / 23 Def / 8 SpD / 2 Spe
+Careful Nature
+- Light Screen
+- Fake Tears
+- Reflect
+- Spirit Break
+
+Eelektross @ Eelektrossite
+Ability: Levitate
+Level: 50
+EVs: 19 HP / 5 Def / 32 SpA / 10 SpD
+Modest Nature
+- Thunderbolt
+- Muddy Water
+- Giga Drain
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 8 Def / 1 SpA / 24 SpD / 1 Spe
+Calm Nature
+- Protect
+- Rage Powder
+- Trick Room
+- Matcha Gotcha
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 3 HP / 10 Def / 30 SpA / 5 SpD / 18 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Aura Sphere
+- Protect

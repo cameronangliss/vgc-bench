@@ -1,0 +1,59 @@
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 SpD / 32 Spe
+Jolly Nature
+- Close Combat
+- Dual Wingbeat
+- Protect
+- Roost
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 32 Def / 2 Spe
+Bold Nature
+- Fake Tears
+- Tailwind
+- Charm
+- Encore
+
+Garchomp @ Dragon Fang
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Earth Power
+- Rock Slide
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Protect
+
+Basculegion-F (F) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Muddy Water
+- Shadow Ball
+- Ice Beam
+- Flip Turn
+
+Archaludon @ White Herb
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 32 SpA / 2 Spe
+Modest Nature
+- Draco Meteor
+- Flash Cannon
+- Thunderbolt
+- Stealth Rock

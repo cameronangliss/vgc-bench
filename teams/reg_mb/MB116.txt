@@ -1,0 +1,59 @@
+Mawile @ Mawilite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 15 Atk / 2 SpD / 17 Spe
+Adamant Nature
+- Play Rough
+- Rock Slide
+- Sucker Punch
+- Protect
+
+Basculegion-F (F) @ Life Orb
+Ability: Swift Swim
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Modest Nature
+- Muddy Water
+- Shadow Ball
+- Ice Beam
+- Protect
+
+Pelipper @ Choice Scarf
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 31 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Muddy Water
+- Hurricane
+- Weather Ball
+- Ice Beam
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 31 HP / 1 Def / 5 SpA / 15 SpD / 14 Spe
+Modest Nature
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 10 Def / 23 SpD / 1 Spe
+Calm Nature
+- Matcha Gotcha
+- Shadow Ball
+- Rage Powder
+- Trick Room
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 5 Atk / 2 Def / 18 SpD / 9 Spe
+Adamant Nature
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+- Fake Out

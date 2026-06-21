@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Solar Power
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Heat Wave
+- Solar Beam
+- Sunny Day
+- Protect
+
+Ceruledge @ Focus Sash
+Ability: Weak Armor
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Bitter Blade
+- Shadow Sneak
+- Swords Dance
+- Protect
+
+Torkoal @ Heat Rock
+Ability: Drought
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Modest Nature
+- Eruption
+- Heat Wave
+- Weather Ball
+- Helping Hand
+
+Meowscarada @ Choice Scarf
+Ability: Protean
+Level: 50
+EVs: 4 HP / 32 Atk / 3 SpD / 27 Spe
+Adamant Nature
+- Flower Trick
+- Knock Off
+- Low Kick
+- Triple Axel
+
+Blaziken @ Sitrus Berry
+Ability: Speed Boost
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Flare Blitz
+- Upper Hand
+- Feint
+- Protect
+
+Pyroar (F) @ Pyroarite
+Ability: Rivalry
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Heat Wave
+- Overheat
+- Helping Hand
+- Protect

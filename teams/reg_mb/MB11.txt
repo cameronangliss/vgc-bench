@@ -1,0 +1,59 @@
+Swampert @ Swampertite
+Ability: Damp
+Level: 50
+EVs: 11 HP / 32 Atk / 23 Spe
+Jolly Nature
+- Protect
+- Earthquake
+- Ice Punch
+- Wave Crash
+
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Hard Press
+- Trailblaze
+- Psychic Fangs
+- Protect
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 7 Def / 27 SpD
+Relaxed Nature
+- Leaf Storm
+- Rage Powder
+- Shadow Ball
+- Protect
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 2 Def / 5 SpA / 26 SpD / 2 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Tailwind
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 30 HP / 1 Def / 1 SpA / 27 SpD / 7 Spe
+Bold Nature
+- Electro Shot
+- Flash Cannon
+- Dragon Pulse
+- Protect
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Modest Nature
+- Draco Meteor
+- Dark Pulse
+- Snarl
+- U-turn

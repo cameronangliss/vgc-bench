@@ -1,0 +1,59 @@
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 7 HP / 14 Atk / 13 Def / 32 SpD
+Adamant Nature
+- Meteor Mash
+- Stomping Tantrum
+- Psychic Fangs
+- Protect
+
+Orthworm @ Sitrus Berry
+Ability: Earth Eater
+Level: 50
+EVs: 32 HP / 5 Def / 29 SpD
+Relaxed Nature
+- Shed Tail
+- Heavy Slam
+- Iron Defense
+- Body Press
+
+Blaziken @ Focus Sash
+Ability: Speed Boost
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Heat Wave
+- Aura Sphere
+- Coaching
+- Detect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 1 HP / 2 Def / 30 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Dazzling Gleam
+- Moonblast
+- Calm Mind
+- Protect
+
+Incineroar @ Leftovers
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 1 Atk / 15 Def / 2 SpD / 17 Spe
+Impish Nature
+- Flare Blitz
+- Fake Out
+- Parting Shot
+- Protect
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 8 Def / 1 SpA / 24 SpD / 1 Spe
+Calm Nature
+- Protect
+- Rage Powder
+- Trick Room
+- Matcha Gotcha

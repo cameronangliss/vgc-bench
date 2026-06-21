@@ -1,0 +1,59 @@
+Torkoal @ Heat Rock
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Helping Hand
+- Protect
+
+Venusaur @ Life Orb
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Energy Ball
+- Sludge Bomb
+- Earth Power
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 31 HP / 14 Def / 13 SpA / 8 SpD
+Quiet Nature
+- Psychic
+- Thunderbolt
+- Trick Room
+- Protect
+
+Scrafty @ Scraftinite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Adamant Nature
+- Knock Off
+- Drain Punch
+- Fake Out
+- Ice Punch
+
+Mamoswine @ Focus Sash
+Ability: Oblivious
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- High Horsepower
+- Rock Slide
+- Ice Shard
+- Protect
+
+Pyroar @ Pyroarite
+Ability: Unnerve
+Level: 50
+EVs: 7 Def / 32 SpA / 27 Spe
+Timid Nature
+- Heat Wave
+- Overheat
+- Yawn
+- Protect

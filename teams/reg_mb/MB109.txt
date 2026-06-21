@@ -1,0 +1,59 @@
+Swampert-Mega @ Swampertite
+Ability: Torrent
+Level: 50
+EVs: 11 HP / 32 Atk / 23 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Flip Turn
+- Protect
+
+Pelipper @ Choice Scarf
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Weather Ball
+- Rain Dance
+- Tailwind
+
+Basculegion (M) @ Mystic Water
+Ability: Swift Swim
+Level: 50
+EVs: 20 Atk / 32 Def / 14 Spe
+Adamant Nature
+- Last Respects
+- Wave Crash
+- Aqua Jet
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 5 SpA / 23 SpD / 6 Spe
+Modest Nature
+- Protect
+- Dragon Pulse
+- Electro Shot
+- Flash Cannon
+
+Sinistcha-Masterpiece @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Relaxed Nature
+- Matcha Gotcha
+- Rage Powder
+- Protect
+- Trick Room
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Careful Nature
+- Light Screen
+- Reflect
+- Spirit Break
+- Parting Shot

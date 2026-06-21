@@ -1,0 +1,59 @@
+Staraptor-Mega @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Careful Nature
+- Close Combat
+- Brave Bird
+- Roost
+- Protect
+
+Whimsicott @ Occa Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Bold Nature
+- Moonblast
+- Tailwind
+- Tickle
+- Fake Tears
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Population Bomb
+- Beat Up
+- Follow Me
+- Protect
+
+Annihilape @ Focus Sash
+Ability: Defiant
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Close Combat
+- Rage Fist
+- Stone Edge
+- Taunt
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 6 HP / 8 Atk / 15 Def / 5 SpD / 32 Spe
+Jolly Nature
+- Last Respects
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 7 HP / 19 SpA / 8 SpD / 32 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot

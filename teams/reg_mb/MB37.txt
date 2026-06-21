@@ -1,0 +1,59 @@
+Malamar @ Malamarite
+Ability: Contrary
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Adamant Nature
+- Knock Off
+- Psycho Cut
+- Superpower
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 31 HP / 25 Def / 10 SpA
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Yawn
+- Detect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 HP / 1 Atk / 28 Def / 1 SpD / 4 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect
+
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 25 Def / 8 SpD / 1 Spe
+Impish Nature
+- Foul Play
+- Fake Tears
+- Scary Face
+- Parting Shot
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Trick Room

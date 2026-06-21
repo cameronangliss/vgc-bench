@@ -1,0 +1,59 @@
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 15 HP / 15 Atk / 2 Def / 2 SpD / 32 Spe
+Jolly Nature
+- Brave Bird
+- Close Combat
+- Protect
+- Roost
+
+Vileplume @ Big Root
+Ability: Effect Spore
+Level: 50
+EVs: 31 HP / 25 Def / 10 SpD
+Relaxed Nature
+- Sludge Bomb
+- Giga Drain
+- Strength Sap
+- Leech Seed
+
+Feraligatr @ Life Orb
+Ability: Sheer Force
+Level: 50
+EVs: 31 HP / 15 Atk / 3 Def / 11 SpD / 6 Spe
+Adamant Nature
+- Liquidation
+- Rock Slide
+- Aqua Jet
+- Ice Punch
+
+Florges (F) @ Choice Scarf
+Ability: Flower Veil
+Level: 50
+EVs: 22 HP / 1 Def / 11 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Energy Ball
+- Trick
+
+Gholdengo @ Sitrus Berry
+Ability: Good as Gold
+Level: 50
+EVs: 31 HP / 7 Def / 17 SpA / 1 SpD / 10 Spe
+Modest Nature
+- Make It Rain
+- Nasty Plot
+- Protect
+- Shadow Ball
+
+Houndoom @ Focus Sash
+Ability: Flash Fire
+Level: 50
+EVs: 1 HP / 1 Atk / 32 SpA / 32 Spe
+Hasty Nature
+- Sucker Punch
+- Heat Wave
+- Protect
+- Snarl

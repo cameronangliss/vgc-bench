@@ -1,0 +1,59 @@
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Careful Nature
+- Foul Play
+- Parting Shot
+- Reflect
+- Light Screen
+
+Swampert @ Swampertite
+Ability: Damp
+Level: 50
+EVs: 18 HP / 30 Atk / 18 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Ice Punch
+- Protect
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 1 Def / 5 SpA / 17 SpD / 11 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Tailwind
+- Wide Guard
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 SpA / 29 SpD / 4 Spe
+Modest Nature
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Protect
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Relaxed Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 16 HP / 3 Def / 25 SpA / 22 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+- Protect

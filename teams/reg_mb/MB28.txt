@@ -1,0 +1,59 @@
+Swampert @ Swampertite
+Ability: Torrent
+Level: 50
+EVs: 12 HP / 32 Atk / 22 Spe
+Adamant Nature
+- Protect
+- Wave Crash
+- Earthquake
+- High Horsepower
+
+Sableye @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 7 Def / 27 SpD
+Bold Nature
+- Encore
+- Reflect
+- Light Screen
+- Rain Dance
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 8 SpA / 20 SpD / 6 Spe
+Modest Nature
+- Protect
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 30 HP / 1 Def / 5 SpA / 28 SpD / 2 Spe
+Bold Nature
+- Protect
+- Weather Ball
+- Hurricane
+- Tailwind
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 32 HP / 22 Def / 10 SpA / 2 Spe
+Modest Nature
+- Detect
+- Hyper Voice
+- Moonblast
+- Quick Attack
+
+Venusaur @ Venusaurite
+Ability: Overgrow
+Level: 50
+EVs: 20 HP / 31 SpA / 15 Spe
+Modest Nature
+- Protect
+- Giga Drain
+- Sludge Bomb
+- Earth Power

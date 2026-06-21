@@ -1,0 +1,59 @@
+Sceptile @ Sceptilite
+Ability: Overgrow
+Level: 50
+EVs: 14 HP / 1 Def / 26 SpA / 25 Spe
+Modest Nature
+- Energy Ball
+- Dragon Pulse
+- Earth Power
+- Detect
+
+Rotom-Wash @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 18 HP / 16 SpA / 32 Spe
+Timid Nature
+- Hydro Pump
+- Thunderbolt
+- Discharge
+- Will-O-Wisp
+
+Talonflame @ Life Orb
+Ability: Gale Wings
+Level: 50
+EVs: 27 Atk / 21 SpA / 18 Spe
+Naive Nature
+- Brave Bird
+- Overheat
+- Tailwind
+- Protect
+
+Garchomp @ Soft Sand
+Ability: Rough Skin
+Level: 50
+EVs: 14 HP / 20 Atk / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Gholdengo @ Focus Sash
+Ability: Good as Gold
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 10 HP / 7 Atk / 19 Def / 30 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Throat Chop
+- Protect

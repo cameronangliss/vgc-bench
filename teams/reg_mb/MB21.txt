@@ -1,0 +1,59 @@
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- Tailwind
+- Protect
+
+Incineroar @ Charcoal
+Ability: Intimidate
+Level: 50
+EVs: 28 HP / 32 Atk / 6 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Kingambit @ Focus Sash
+Ability: Defiant
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 14 Def / 21 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room
+
+Grimmsnarl (M) @ Iron Ball
+Ability: Prankster
+Level: 50
+EVs: 29 HP / 1 Atk / 20 Def / 15 SpD / 1 Spe
+Careful Nature
+- Trick
+- Light Screen
+- Reflect
+- Parting Shot
+
+Charizard @ Charizardite X
+Ability: Blaze
+Level: 50
+EVs: 22 HP / 20 Atk / 24 Spe
+Adamant Nature
+- Dragon Dance
+- Dragon Claw
+- Flare Blitz
+- Protect

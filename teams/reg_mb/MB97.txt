@@ -1,0 +1,59 @@
+Swampert @ Swampertite
+Ability: Torrent
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- High Horsepower
+- Protect
+- Ice Punch
+- Wave Crash
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 1 Def / 5 SpA / 18 SpD / 10 Spe
+Modest Nature
+- Weather Ball
+- Hurricane
+- Helping Hand
+- Tailwind
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 14 Def / 19 SpD / 2 Spe
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Shadow Ball
+- Trick Room
+
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Meteor Mash
+- Psychic Fangs
+- Rock Tomb
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpA / 28 SpD / 4 Spe
+Bold Nature
+- Flash Cannon
+- Dragon Pulse
+- Electro Shot
+- Protect
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 1 Atk / 17 Def / 15 SpD / 1 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot

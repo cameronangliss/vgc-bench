@@ -1,0 +1,59 @@
+Dragonite @ White Herb
+Ability: Inner Focus
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Hurricane
+- Flamethrower
+- Draco Meteor
+- Tailwind
+
+Gyarados @ Focus Sash
+Ability: Intimidate
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Def
+Impish Nature
+- Waterfall
+- Dragon Cheer
+- Bounce
+- Taunt
+
+Azumarill @ Sitrus Berry
+Ability: Huge Power
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Play Rough
+- Superpower
+- Liquidation
+- Trailblaze
+
+Garchomp @ Scope Lens
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Poison Jab
+- Earthquake
+- Rock Slide
+- Protect
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 17 Def / 17 SpD
+Relaxed Nature
+- Hydro Pump
+- Triple Axel
+- Life Dew
+- Coil
+
+Politoed @ Damp Rock
+Ability: Drizzle
+Level: 50
+EVs: 32 SpA / 32 SpD / 2 Spe
+Gentle Nature
+- Weather Ball
+- Icy Wind
+- Haze
+- Earth Power

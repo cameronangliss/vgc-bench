@@ -1,0 +1,59 @@
+Staraptor @ Staraptite
+Ability: Reckless
+Level: 50
+EVs: 24 HP / 10 Atk / 32 Spe
+Adamant Nature
+- Protect
+- Close Combat
+- Tailwind
+- Brave Bird
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- Breaking Swipe
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 10 Def / 20 SpD / 4 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 30 HP / 16 Def / 20 SpA
+Modest Nature
+- Protect
+- Scald
+- Life Dew
+- Ice Beam
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Calm Nature
+- Protect
+- Trick Room
+- Rage Powder
+- Matcha Gotcha
+
+Sylveon @ Life Orb
+Ability: Pixilate
+Level: 50
+EVs: 20 HP / 15 Def / 10 SpA / 21 Spe
+Modest Nature
+- Detect
+- Hyper Voice
+- Quick Attack
+- Hyper Beam

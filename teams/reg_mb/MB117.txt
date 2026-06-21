@@ -1,0 +1,59 @@
+Blaziken-Mega @ Blazikenite
+Ability: Speed Boost
+Level: 50
+EVs: 32 HP / 11 Atk / 6 SpD / 17 Spe
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Swords Dance
+- Detect
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 24 Def / 10 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Protect
+- Trick Room
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 21 Def / 10 SpA / 3 SpD
+Bold Nature
+- Scald
+- Ice Beam
+- Haze
+- Protect
+
+Grimmsnarl (M) @ Light Ball
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 29 Def / 5 SpD
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Fake Out
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Aerodactyl-Mega @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 4 HP / 32 Atk / 30 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect

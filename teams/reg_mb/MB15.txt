@@ -1,0 +1,59 @@
+Incineroar @ Passho Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 1 Atk / 10 Def / 24 SpD
+Impish Nature
+- Flare Blitz
+- Fake Out
+- Parting Shot
+- Darkest Lariat
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Weather Ball
+- Protect
+- Tailwind
+
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Adamant Nature
+- Iron Head
+- Stomping Tantrum
+- Protect
+- Bullet Punch
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet
+
+Klefki @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Bold Nature
+- Reflect
+- Light Screen
+- Rain Dance
+- Thunder Wave
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 14 HP / 4 Def / 11 SpA / 5 SpD / 32 Spe
+Timid Nature
+- Electro Shot
+- Draco Meteor
+- Protect
+- Flash Cannon

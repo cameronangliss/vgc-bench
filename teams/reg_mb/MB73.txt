@@ -1,0 +1,59 @@
+Swampert @ Swampertite
+Ability: Damp
+Level: 50
+EVs: 20 HP / 31 Atk / 1 Def / 1 SpD / 13 Spe
+Adamant Nature
+- High Horsepower
+- Wave Crash
+- Brick Break
+- Protect
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 10 Def / 17 SpA / 6 SpD / 2 Spe
+Bold Nature
+- Hurricane
+- Tailwind
+- Weather Ball
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 1 HP / 18 Atk / 14 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Flip Turn
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 27 HP / 30 SpD / 9 Spe
+Modest Nature
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 23 HP / 32 Def / 10 SpA / 1 SpD
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Protect
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 5 Def / 30 SpD
+Calm Nature
+- Leaf Storm
+- Protect
+- Rage Powder
+- Trick Room

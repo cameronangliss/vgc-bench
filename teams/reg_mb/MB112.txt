@@ -1,0 +1,57 @@
+Pyroar @ Pyroarite
+Ability: Unnerve
+Level: 50
+EVs: 3 HP / 1 Def / 32 SpA / 1 SpD / 29 Spe
+Timid Nature
+- Heat Wave
+- Flamethrower
+- Overheat
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Weather Ball
+- Helping Hand
+- Sunny Day
+- Eruption
+
+Vileplume @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Sludge Bomb
+- Leaf Storm
+- After You
+- Protect
+
+Kangaskhan (F) @ Silk Scarf
+Ability: Scrappy
+Level: 50
+EVs: 29 HP / 32 Atk / 5 SpD
+Brave Nature
+- Last Resort
+- Fake Out
+
+Sneasler @ Iron Ball
+Ability: Unburden
+Level: 50
+EVs: 32 HP / 30 Atk / 4 Def
+Brave Nature
+- Close Combat
+- Dire Claw
+- Fling
+- Fake Out
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 19 HP / 17 Def / 30 SpD
+Sassy Nature
+- Psychic
+- Foul Play
+- Trick Room
+- Protect

@@ -1,0 +1,59 @@
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 20 HP / 18 Def / 5 SpA / 23 Spe
+Timid Nature
+- Zap Cannon
+- Focus Blast
+- Grass Knot
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Encore
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 4 HP / 30 Atk / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+- Protect
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 10 Def / 14 SpD / 10 Spe
+Impish Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Kingambit @ Occa Berry
+Ability: Defiant
+Level: 50
+EVs: 31 HP / 16 Atk / 18 SpD / 1 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 1 HP / 24 Def / 30 SpA / 11 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Yawn
+- Detect

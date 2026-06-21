@@ -1,0 +1,59 @@
+Swampert (F) @ Swampertite
+Ability: Torrent
+Level: 50
+EVs: 24 HP / 20 Atk / 22 Spe
+Adamant Nature
+- Wave Crash
+- Flip Turn
+- High Horsepower
+- Protect
+
+Venusaur (M) @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 19 Def / 12 SpD / 3 Spe
+Bold Nature
+- Giga Drain
+- Sludge Bomb
+- Earth Power
+- Protect
+
+Sableye (F) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Careful Nature
+- Reflect
+- Light Screen
+- Rain Dance
+- Will-O-Wisp
+
+Pelipper (F) @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Protect
+- Tailwind
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 20 Atk / 14 Def / 32 Spe
+Jolly Nature
+- Aqua Jet
+- Wave Crash
+- Flip Turn
+- Last Respects
+
+Archaludon (M) @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 Def / 5 SpA / 25 SpD / 3 Spe
+Bold Nature
+- Flash Cannon
+- Dragon Pulse
+- Electro Shot
+- Protect

@@ -1,0 +1,59 @@
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Roost
+- Close Combat
+- Brave Bird
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 20 Def / 10 SpD / 4 Spe
+Careful Nature
+- Parting Shot
+- Light Screen
+- Reflect
+- Foul Play
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 13 HP / 20 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Protect
+- Rock Slide
+- Dragon Claw
+- Earthquake
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+EVs: 31 HP / 11 Def / 7 SpA / 14 SpD / 3 Spe
+Modest Nature
+- Protect
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Relaxed Nature
+- Protect
+- Trick Room
+- Rage Powder
+- Matcha Gotcha
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 10 Def / 16 SpD / 8 Spe
+Careful Nature
+- Parting Shot
+- Throat Chop
+- Flare Blitz
+- Fake Out

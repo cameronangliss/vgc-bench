@@ -1,0 +1,59 @@
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Moonblast
+- Energy Ball
+- Encore
+- Trick Room
+
+Staraptor @ Choice Scarf
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
+- Final Gambit
+- Brave Bird
+- Close Combat
+- U-turn
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 10 HP / 30 Atk / 4 Def / 22 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 13 HP / 32 Def / 21 SpA
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Hyper Beam
+- Detect
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 31 Def / 3 SpA
+Quiet Nature
+- Heat Wave
+- Weather Ball
+- Ancient Power
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 30 HP / 15 Atk / 21 SpD
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick

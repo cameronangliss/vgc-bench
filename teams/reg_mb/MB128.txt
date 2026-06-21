@@ -1,0 +1,60 @@
+Vileplume @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+Shiny: Yes
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Sludge Bomb
+- Energy Ball
+- Sleep Powder
+- After You
+
+Kangaskhan @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 32 HP / 20 Def / 10 SpD / 4 Spe
+Adamant Nature
+- Double-Edge
+- Fake Out
+- Low Kick
+- Sucker Punch
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 1 Def / 20 SpA / 13 SpD
+Quiet Nature
+- Hyper Voice
+- Psychic
+- Protect
+- Trick Room
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Earth Power
+- Protect
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Aqua Jet
+- Wave Crash
+- Last Respects
+- Flip Turn
+
+Kommo-o @ Haban Berry
+Ability: Overcoat
+Level: 50
+EVs: 5 HP / 1 Def / 30 SpA / 1 SpD / 29 Spe
+Modest Nature
+- Clanging Scales
+- Aura Sphere
+- Protect
+- Clangorous Soul

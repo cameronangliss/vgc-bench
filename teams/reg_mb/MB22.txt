@@ -1,0 +1,59 @@
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 19 HP / 10 Def / 17 SpA / 10 SpD / 10 Spe
+Modest Nature
+- Hurricane
+- Dragon Pulse
+- Ice Beam
+- Protect
+
+Overqwil @ Life Orb
+Ability: Swift Swim
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Gunk Shot
+- Throat Chop
+- Aqua Jet
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 1 Def / 30 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Hurricane
+- Muddy Water
+- Tailwind
+- Wide Guard
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 1 Atk / 23 Def / 8 SpD / 2 Spe
+Careful Nature
+- Light Screen
+- Fake Tears
+- Reflect
+- Spirit Break
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 3 HP / 10 Def / 30 SpA / 5 SpD / 18 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Aura Sphere
+- Protect
+
+Swampert @ Swampertite
+Ability: Damp
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- High Horsepower
+- Flip Turn
+- Ice Punch
+- Protect

@@ -1,0 +1,59 @@
+Swampert @ Swampertite
+Ability: Torrent
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Ice Punch
+- Protect
+
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 1 Def / 30 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Protect
+- Weather Ball
+- Hurricane
+- Tailwind
+
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Zap Cannon
+- Fake Out
+- Focus Blast
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Psyshock
+- Hyper Voice
+- Shadow Ball
+- Trick Room
+
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Iron Head
+- Stomping Tantrum
+- Bullet Punch
+- Psychic Fangs
+
+Vanilluxe @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Blizzard
+- Freeze-Dry
+- Ice Shard
+- Protect

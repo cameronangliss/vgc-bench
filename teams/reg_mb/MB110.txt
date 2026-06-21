@@ -1,0 +1,59 @@
+Swampert @ Swampertite
+Ability: Damp
+Level: 50
+EVs: 12 HP / 20 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Earthquake
+- Wave Crash
+- Flip Turn
+- Protect
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Sassy Nature
+- Rain Dance
+- Will-O-Wisp
+- Encore
+- Disable
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Sludge Bomb
+- Power Gem
+- Spiky Shield
+- Sludge Wave
+
+Pelipper @ Life Orb
+Ability: Drizzle
+Level: 50
+EVs: 24 HP / 30 SpA / 1 SpD / 11 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Tailwind
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 30 HP / 1 Def / 1 SpA / 20 SpD / 14 Spe
+Bold Nature
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Protect

@@ -1,0 +1,59 @@
+Mawile @ Mawilite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 25 Atk / 9 SpD
+Brave Nature
+- Iron Head
+- Sucker Punch
+- Play Rough
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 16 Def / 20 SpD
+Careful Nature
+- Throat Chop
+- Fake Out
+- Parting Shot
+- Will-O-Wisp
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Protect
+- Weather Ball
+- Wide Guard
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 15 Def / 20 SpD
+Calm Nature
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 16 HP / 20 Atk / 30 Spe
+Adamant Nature
+- Stomping Tantrum
+- Protect
+- Dragon Claw
+- Rock Slide
+
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 32 HP / 1 Def / 10 SpA / 23 Spe
+Timid Nature
+- Zap Cannon
+- Substitute
+- Focus Blast
+- Protect

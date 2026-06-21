@@ -1,0 +1,59 @@
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 3 HP / 32 Atk / 31 Spe
+Jolly Nature
+- Brave Bird
+- Close Combat
+- Roost
+- Protect
+
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Power Gem
+- Sludge Bomb
+- Substitute
+- Spiky Shield
+
+Raichu @ Shuca Berry
+Ability: Lightning Rod
+Level: 50
+EVs: 17 HP / 17 Def / 32 Spe
+Timid Nature
+- Fake Out
+- Charm
+- Electroweb
+- Volt Switch
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Tailwind
+- Tickle
+- Moonblast
+- Encore
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 24 Def / 10 SpD
+Careful Nature
+- Flare Blitz
+- Sunny Day
+- Fake Out
+- Parting Shot
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Aqua Jet
+- Last Respects
+- Flip Turn
+- Wave Crash

@@ -1,0 +1,59 @@
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 17 HP / 30 Def / 19 SpD
+Relaxed Nature
+- Psychic
+- Thunderbolt
+- Helping Hand
+- Trick Room
+
+Scrafty @ Scraftinite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 Spe
+Adamant Nature
+- Knock Off
+- Low Kick
+- Iron Head
+- Fake Out
+
+Kangaskhan (F) @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Double-Edge
+- Sucker Punch
+- Fake Out
+- Hammer Arm
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 21 HP / 6 Def / 32 SpA / 7 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Detect
+- Quick Attack
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect
+
+Torkoal @ Life Orb
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Stone Edge
+- Solar Beam

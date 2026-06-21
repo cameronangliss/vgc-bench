@@ -1,0 +1,59 @@
+Aegislash @ Focus Sash
+Ability: Stance Change
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Adamant Nature
+- King's Shield
+- Shadow Sneak
+- Poltergeist
+- Iron Head
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 3 Atk / 16 Def / 14 SpD / 1 Spe
+Impish Nature
+- Spirit Break
+- Light Screen
+- Parting Shot
+- Scary Face
+
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Close Combat
+- Brave Bird
+- Roost
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- Protect
+- Earthquake
+- Dragon Claw
+- Rock Slide
+
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Zap Cannon
+- Focus Blast
+- Fake Out
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 13 Def / 21 SpD
+Sassy Nature
+- Rage Powder
+- Matcha Gotcha
+- Trick Room
+- Imprison

@@ -1,0 +1,59 @@
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 21 Def / 7 SpD / 6 Spe
+Careful Nature
+- Foul Play
+- Reflect
+- Light Screen
+- Parting Shot
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 2 Def / 32 SpD / 1 Spe
+Bold Nature
+- Tailwind
+- Weather Ball
+- Hurricane
+- Wide Guard
+
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Close Combat
+- Brave Bird
+- Whirlwind
+- Protect
+
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 8 HP / 10 Def / 20 SpA / 1 SpD / 27 Spe
+Timid Nature
+- Zap Cannon
+- Grass Knot
+- Fake Out
+- Focus Blast
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Bold Nature
+- Matcha Gotcha
+- Protect
+- Life Dew
+- Rage Powder
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+EVs: 32 HP / 28 Def / 2 SpD / 4 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect

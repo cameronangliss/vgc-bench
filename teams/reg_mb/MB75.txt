@@ -1,0 +1,59 @@
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 1 Atk / 14 Def / 15 SpD / 4 Spe
+Careful Nature
+- Light Screen
+- Reflect
+- Parting Shot
+- Spirit Break
+
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Protect
+- Roost
+- Dual Wingbeat
+- Close Combat
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 15 Def / 20 SpD
+Sassy Nature
+- Matcha Gotcha
+- Trick Room
+- Rage Powder
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Fake Out
+- Close Combat
+- Dire Claw
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 7 Def / 20 SpD / 8 Spe
+Careful Nature
+- Parting Shot
+- Fake Out
+- Throat Chop
+- Flare Blitz
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 4 HP / 25 Def / 5 SpA / 32 Spe
+Modest Nature
+- Moonblast
+- Draining Kiss
+- Calm Mind
+- Protect
