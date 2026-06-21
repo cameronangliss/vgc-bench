@@ -10,7 +10,6 @@ from vgc_bench.src.utils import (
     format_map,
     get_reg_from_format,
     glob_obs_len,
-    is_vgc_format,
     move_obs_len,
     pokemon_obs_len,
     set_global_seed,
@@ -58,18 +57,10 @@ class TestConstants:
             assert "vgc" in format_map[key]
         assert format_map["ma"] == "gen9championsvgc2026regma"
 
-    def test_vgc_format_detection(self):
-        assert is_vgc_format("gen9vgc2025regj")
-        assert is_vgc_format("gen9vgc2025regjbo3")
-        assert is_vgc_format("gen9championsvgc2026regma")
-        assert is_vgc_format("gen9championsvgc2026regmabo3")
-        assert not is_vgc_format("gen9ou")
-
     def test_get_reg_from_format(self):
-        assert get_reg_from_format("gen9vgc2025regj") == "j"
-        assert get_reg_from_format("gen9vgc2025regjbo3") == "j"
         assert get_reg_from_format("gen9championsvgc2026regma") == "ma"
         assert get_reg_from_format("gen9championsvgc2026regmabo3") == "ma"
+        assert get_reg_from_format("gen9championsvgc2026regmb") == "mb"
 
 
 class TestSetGlobalSeed:

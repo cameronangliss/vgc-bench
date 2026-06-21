@@ -19,26 +19,10 @@ from poke_env.battle import Pokemon
 from poke_env.data import to_id_str
 
 FORMATS = [
-    "gen9vgc2023regd",
-    "gen9vgc2024regf",
-    "gen9vgc2024regfbo3",
-    "gen9vgc2024regg",
-    "gen9vgc2024reggbo3",
-    "gen9vgc2024regh",
-    "gen9vgc2024reghbo3",
-    "gen9vgc2025regg",
-    "gen9vgc2025reggbo3",
-    "gen9vgc2025regh",
-    "gen9vgc2025reghbo3",
-    "gen9vgc2025regi",
-    "gen9vgc2025regibo3",
-    "gen9vgc2025regjbo3",
-    "gen9vgc2026regf",
-    "gen9vgc2026regfbo3",
-    "gen9vgc2026regi",
-    "gen9vgc2026regibo3",
     "gen9championsvgc2026regma",
     "gen9championsvgc2026regmabo3",
+    "gen9championsvgc2026regmb",
+    "gen9championsvgc2026regmbbo3",
 ]
 
 

@@ -22,7 +22,7 @@ def fetch_sheet_names(session: requests.Session) -> list[str]:
     """Fetch sheet names from the VGCPastes spreadsheet."""
     resp = session.get(SHEET_EDIT_URL, timeout=30)
     resp.raise_for_status()
-    names = re.findall(r"docs-sheet-tab-caption\">([^<]+)<", resp.text)
+    names = re.findall(r'items\.push\(\{\s*name:\s*"([^"]+)"', resp.text)
     return list(dict.fromkeys(names))  # dedupe preserving order
 
 
@@ -31,14 +31,15 @@ def get_regulation_sheets(
 ) -> tuple[list[str], list[str]]:
     """Find featured and regular team sheets for a regulation."""
     reg = regulation.lower()
-    if reg == "ma":
+    if reg in format_map:
+        tag = f"m-{reg[1:]}"
         featured = [
             name
             for name in all_sheets
             if "featured" in name.lower()
             and "presentable" not in name.lower()
             and "champions" in name.lower()
-            and "m-a" in name.lower()
+            and tag in name.lower()
         ]
         regular = [
             name
@@ -46,7 +47,7 @@ def get_regulation_sheets(
             if "featured" not in name.lower()
             and "presentable" not in name.lower()
             and "champions" in name.lower()
-            and "m-a" in name.lower()
+            and tag in name.lower()
         ]
         return featured, regular
     featured = [
@@ -297,29 +298,22 @@ def scrape_regulation(regulation: str, validator: TeamValidator) -> None:
 
 
 def discover_regulations(sheet_names: list[str]) -> list[str]:
-    """Extract available regulation letters from sheet names."""
+    """Extract available Champions regulation ids (e.g. 'MA') from sheet names."""
     regs = set()
     for name in sheet_names:
-        m = re.search(r"regulation\s+([a-z])", name, re.IGNORECASE)
-        if m:
-            regs.add(m.group(1).upper())
+        low = name.lower()
+        if "champions" in low:
+            m = re.search(r"\bm-([a-z])\b", low)
+            if m:
+                regs.add(f"M{m.group(1).upper()}")
     return sorted(regs)
 
 
 def main():
     parser = argparse.ArgumentParser(description="Scrape VGCPastes Teams")
-    parser.add_argument(
-        "--reg", "-r", help="Regulation id (e.g. G or MA). Omit for all."
-    )
-    parser.add_argument(
-        "--champions",
-        action="store_true",
-        help="Scrape Champions VGC teams (currently defaults to Reg M-A)",
-    )
+    parser.add_argument("--reg", "-r", help="Regulation id (e.g. MA). Omit for all.")
     args = parser.parse_args()
-    reg = args.reg.strip() if args.reg else None
-    if args.champions and reg is None:
-        reg = "ma"
+    reg = args.reg.strip().lower() if args.reg else None
     Path("teams").mkdir(exist_ok=True)
     validator = TeamValidator()
     try:

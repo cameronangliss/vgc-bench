@@ -43,7 +43,6 @@ from vgc_bench.src.teams import RandomTeamBuilder
 from vgc_bench.src.utils import (
     abilities,
     get_reg_from_format,
-    is_vgc_format,
     items,
     move_obs_len,
     moves,
@@ -101,7 +100,7 @@ class PolicyPlayer(Player):
         if challenging_player != self.username:
             if len(split_message) >= 6:
                 fmt = split_message[5]
-                if is_vgc_format(fmt):
+                if fmt.startswith("gen9championsvgc"):
                     await self._challenge_queue.put((challenging_player, fmt))
 
     async def _update_challenges(self, split_message: list[str]):
@@ -110,7 +109,7 @@ class PolicyPlayer(Player):
             return await super()._update_challenges(split_message)
         challenges = json.loads(split_message[2]).get("challengesFrom", {})
         for user, fmt in challenges.items():
-            if is_vgc_format(fmt):
+            if fmt.startswith("gen9championsvgc"):
                 await self._challenge_queue.put((user, fmt))
 
     async def _accept_challenges(
@@ -154,7 +153,7 @@ class PolicyPlayer(Player):
         """Create a battle, accepting any recognized format if configured."""
         if not self._accept_all_formats:
             battle = await super()._create_battle(split_message)
-        elif is_vgc_format(split_message[1]):
+        elif split_message[1].startswith("gen9championsvgc"):
             saved = self.format
             self._format = split_message[1]
             try:

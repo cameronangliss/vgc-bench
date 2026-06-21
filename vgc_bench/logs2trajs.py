@@ -402,8 +402,8 @@ def main(num_workers: int, min_rating: int | None, only_winner: bool, strict: bo
     """
     Main entry point for converting logs to trajectories.
 
-    Processes all battle logs in data/logs-*.json files and saves extracted
-    trajectories as pickle files in data/trajs/.
+    Processes battle logs in battle_logs/logs_<format>.json files and saves extracted
+    trajectories as pickle files in trajs/.
 
     Args:
         num_workers: Number of parallel worker processes.
