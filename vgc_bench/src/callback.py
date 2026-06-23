@@ -29,6 +29,7 @@ from vgc_bench.src.utils import LearningStyle, format_map
 warnings.filterwarnings("ignore", category=UserWarning)
 
 HF_BC_MODEL_REPO = "cameronangliss/vgc-bench-models"
+HF_BC_MODEL_REVISION = "sv"
 HF_BC_MODEL_FILE = "results/saves_bc/seed1/100.zip"
 HF_BC_MODEL_TIMESTEP = 100
 
@@ -204,6 +205,7 @@ class Callback(BaseCallback):
                             repo_id=HF_BC_MODEL_REPO,
                             filename=HF_BC_MODEL_FILE,
                             repo_type="model",
+                            revision=HF_BC_MODEL_REVISION,
                         )
                     )
                     shutil.copy2(downloaded_policy, bc_policy_path)
@@ -228,6 +230,7 @@ class Callback(BaseCallback):
                         repo_id=HF_BC_MODEL_REPO,
                         filename=HF_BC_MODEL_FILE,
                         repo_type="model",
+                        revision=HF_BC_MODEL_REVISION,
                     )
                 )
                 shutil.copy2(downloaded_policy, bc_policy_path)

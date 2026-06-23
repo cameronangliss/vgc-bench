@@ -13,7 +13,7 @@ dependencies = [
     "imitation @ git+https://github.com/cameronangliss/imitation.git@fix-build",
     "nashpy==0.0.43",
     "open-spiel==1.6.11",
-    "poke-env @ git+https://github.com/cameronangliss/poke-env.git@vgc-bench",
+    "poke-env @ git+https://github.com/cameronangliss/poke-env.git@sv",
     "setuptools==80.10.2",
     "stable_baselines3==2.8.0",
     "supersuit==3.11.0",
