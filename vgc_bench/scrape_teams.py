@@ -4,8 +4,11 @@ Scrapes competitive VGC team data from the VGCPastes Google Sheets database.
 
 import argparse
 import csv
+import html
+import io
 import re
 import subprocess
+import zipfile
 from pathlib import Path
 from urllib.parse import quote_plus
 
@@ -14,16 +17,18 @@ import requests
 from vgc_bench.src.utils import format_map
 
 SHEET_ID = "1axlwmzPA49rYkqXh7zHvAtSP-TKbM0ijGYBPRflLSWw"
-SHEET_EDIT_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit"
+SHEET_EXPORT_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export"
 SHEET_GVIZ_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq"
 
 
 def fetch_sheet_names(session: requests.Session) -> list[str]:
     """Fetch sheet names from the VGCPastes spreadsheet."""
-    resp = session.get(SHEET_EDIT_URL, timeout=30)
+    resp = session.get(SHEET_EXPORT_URL, params={"format": "xlsx"}, timeout=60)
     resp.raise_for_status()
-    names = re.findall(r'items\.push\(\{\s*name:\s*"([^"]+)"', resp.text)
-    return list(dict.fromkeys(names))  # dedupe preserving order
+    with zipfile.ZipFile(io.BytesIO(resp.content)) as zf:
+        workbook = zf.read("xl/workbook.xml").decode("utf-8")
+    names = re.findall(r'<sheet[^>]*\bname="([^"]+)"', workbook)
+    return [html.unescape(name) for name in names]
 
 
 def get_regulation_sheets(
