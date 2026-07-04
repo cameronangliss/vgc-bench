@@ -1,0 +1,59 @@
+Gallade (M) @ Galladite
+Ability: Sharpness
+Level: 50
+EVs: 32 HP / 2 Def / 32 Spe
+Jolly Nature
+- Drain Punch
+- Shadow Claw
+- Swords Dance
+- Psych Up
+
+Clefable @ Clefablite
+Ability: Unaware
+Level: 50
+EVs: 32 HP / 27 Def / 1 SpA / 1 SpD / 5 Spe
+Bold Nature
+- Moonblast
+- Calm Mind
+- Moonlight
+- Psych Up
+
+Overqwil @ Leftovers
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 5 Def / 29 SpD
+Impish Nature
+- Protect
+- Minimize
+- Stockpile
+- Barb Barrage
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Bold Nature
+- Protect
+- Rage Powder
+- Life Dew
+- Matcha Gotcha
+
+Sableye @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Calm Nature
+- Fake Out
+- Encore
+- Disable
+- Skill Swap
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Flip Turn

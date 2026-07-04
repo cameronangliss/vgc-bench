@@ -1,0 +1,59 @@
+Pyroar @ Pyroarite
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Overheat
+- Heat Wave
+- Dark Pulse
+
+Torkoal @ Heat Rock
+Ability: Drought
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpA
+Quiet Nature
+- Protect
+- Burning Jealousy
+- Helping Hand
+- Yawn
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 6 HP / 11 Def / 30 SpA / 19 Spe
+Timid Nature
+- Protect
+- Moonblast
+- Fake Tears
+- Tailwind
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 14 HP / 27 SpA / 25 Spe
+Modest Nature
+- Protect
+- Make It Rain
+- Shadow Ball
+- Power Gem
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 25 HP / 26 Def / 15 SpD
+Bold Nature
+- Protect
+- Psychic
+- Trick Room
+- Thunderbolt
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 5 Atk / 22 Def / 7 Spe
+Adamant Nature
+- Protect
+- Waterfall
+- Taunt
+- Thunder Wave

@@ -1,0 +1,59 @@
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 SpD / 32 Spe
+Jolly Nature
+- Brave Bird
+- U-turn
+- Close Combat
+- Protect
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 11 HP / 4 Def / 19 SpA / 32 Spe
+Timid Nature
+- Heat Wave
+- Psychic
+- Nasty Plot
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 11 Def / 24 SpD
+Sassy Nature
+- Rage Powder
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Careful Nature
+- Fake Out
+- Parting Shot
+- Throat Chop
+- Spirit Break
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 31 HP / 20 Def / 15 SpD
+Careful Nature
+- Protect
+- Super Fang
+- Follow Me
+- Feint
+
+Sneasler @ Life Orb
+Ability: Poison Touch
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dire Claw
+- Fake Out
+- Rock Slide
+- Close Combat

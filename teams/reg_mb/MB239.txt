@@ -1,0 +1,59 @@
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 17 HP / 32 Def / 2 SpA / 15 SpD
+Relaxed Nature
+- Psychic
+- Thunderbolt
+- Helping Hand
+- Trick Room
+
+Scrafty @ Scraftinite
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 30 Atk / 5 Spe
+Adamant Nature
+- Knock Off
+- Drain Punch
+- Ice Punch
+- Fake Out
+
+Torkoal @ Leftovers
+Ability: Drought
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpA
+Relaxed Nature
+- Heat Wave
+- Yawn
+- Helping Hand
+- Protect
+
+Kingambit @ Focus Sash
+Ability: Defiant
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+- Protect
+
+Sneasler @ Life Orb
+Ability: Poison Touch
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Close Combat
+- Poison Jab
+- Rock Slide
+- Protect
+
+Pyroar @ Pyroarite
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Overheat
+- Heat Wave
+- Flamethrower
+- Protect

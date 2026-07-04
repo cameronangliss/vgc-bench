@@ -1,0 +1,59 @@
+Gardevoir @ Gardevoirite
+Ability: Trace
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Hyper Voice
+- Psyshock
+- Vacuum Wave
+- Protect
+
+Maushold-Four @ Focus Sash
+Ability: Friend Guard
+Level: 50
+EVs: 4 HP / 30 SpD / 32 Spe
+Timid Nature
+- Super Fang
+- Taunt
+- Follow Me
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Supreme Overlord
+Level: 50
+EVs: 14 HP / 32 Atk / 20 Spe
+Adamant Nature
+- Kowtow Cleave
+- Protect
+- Sucker Punch
+- Low Kick
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Earthquake
+- Stomping Tantrum
+- Stone Edge
+- Protect
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 27 Atk / 12 Def / 27 Spe
+Jolly Nature
+- Quick Guard
+- Protect
+- Tailwind
+- Brave Bird
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+- Last Respects

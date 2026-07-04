@@ -1,0 +1,59 @@
+Espathra @ Sitrus Berry
+Ability: Speed Boost
+Level: 50
+EVs: 32 HP / 9 Def / 6 SpD / 19 Spe
+Timid Nature
+- Protect
+- Lumina Crash
+- Calm Mind
+- Baton Pass
+
+Scovillain @ Scovillainite
+Ability: Moody
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Calm Nature
+- Protect
+- Overheat
+- Rage Powder
+- Leech Seed
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 2 SpA / 23 SpD / 9 Spe
+Modest Nature
+- Protect
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+
+Politoed @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Weather Ball
+- Ice Beam
+- Psych Up
+
+Scrafty @ Scraftinite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Adamant Nature
+- Protect
+- Close Combat
+- Knock Off
+- Fake Out
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot

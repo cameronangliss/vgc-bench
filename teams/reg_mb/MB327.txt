@@ -1,0 +1,59 @@
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+EVs: 11 HP / 1 Def / 24 SpA / 1 SpD / 29 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Icy Wind
+- Protect
+
+Blaziken @ Blazikenite
+Ability: Speed Boost
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Flare Blitz
+- Close Combat
+- Rock Slide
+- Detect
+
+Basculegion (M) @ Life Orb
+Ability: Adaptability
+Level: 50
+EVs: 4 HP / 28 Atk / 10 Def / 24 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 15 Atk / 19 SpD
+Adamant Nature
+- Iron Head
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 30 Def / 4 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Naive Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Coaching

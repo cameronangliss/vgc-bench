@@ -1,0 +1,59 @@
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 17 SpD / 3 Spe
+Bold Nature
+- Matcha Gotcha
+- Imprison
+- Rage Powder
+- Life Dew
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 11 Def / 5 SpA / 15 SpD / 3 Spe
+Modest Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- Wide Guard
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 27 HP / 5 SpA / 24 SpD / 10 Spe
+Modest Nature
+- Protect
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 17 HP / 24 Atk / 25 Spe
+Jolly Nature
+- Protect
+- Iron Head
+- Psychic Fangs
+- Body Press
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Dark Pulse
+- Snarl
+- Draco Meteor
+- U-turn
+
+Swampert @ Swampertite
+Ability: Damp
+Level: 50
+EVs: 23 HP / 20 Atk / 23 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Ice Punch
+- Protect

@@ -1,0 +1,59 @@
+Blastoise-Mega @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 17 HP / 1 Def / 32 SpA / 2 SpD / 14 Spe
+Modest Nature
+- Water Spout
+- Dark Pulse
+- Shell Smash
+- Protect
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Hurricane
+- Sleep Powder
+- Rage Powder
+- Tailwind
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 17 HP / 16 Def / 10 SpA / 23 SpD
+Modest Nature
+- Psychic
+- Hyper Voice
+- Helping Hand
+- Trick Room
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 27 Atk / 7 SpD
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Protect
+
+Staraptor @ Choice Scarf
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 4 Atk / 30 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- Final Gambit
+- Rain Dance
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 30 HP / 1 Def / 32 SpA / 3 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Solar Beam
+- Protect

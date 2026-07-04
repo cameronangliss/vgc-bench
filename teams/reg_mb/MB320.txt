@@ -1,0 +1,59 @@
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 32 HP / 25 Def / 3 SpD / 6 Spe
+Bold Nature
+- Zap Cannon
+- Focus Blast
+- Fake Out
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Icy Wind
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Heat Wave
+- Weather Ball
+- Ancient Power
+- Protect
+
+Whimsicott @ Sitrus Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 15 Def / 3 SpA / 8 SpD / 8 Spe
+Bold Nature
+- Moonblast
+- Encore
+- Tailwind
+- Protect
+
+Kingambit @ Occa Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 25 Atk / 7 SpD / 2 Spe
+Adamant Nature
+- Kowtow Cleave
+- Swords Dance
+- Sucker Punch
+- Protect
+
+Ninetales-Alola @ Life Orb
+Ability: Snow Warning
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Encore
+- Protect

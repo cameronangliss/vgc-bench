@@ -1,0 +1,59 @@
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 19 HP / 22 Def / 1 SpA / 24 Spe
+Timid Nature
+- Protect
+- Focus Blast
+- Encore
+- Zap Cannon
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+EVs: 7 HP / 32 SpA / 27 Spe
+Timid Nature
+- Protect
+- Blizzard
+- Freeze-Dry
+- Encore
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Dragon Claw
+- Rock Slide
+- Earthquake
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Encore
+- Tailwind
+- Moonblast
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 14 Atk / 9 Def / 6 SpD / 5 Spe
+Adamant Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Charizard @ Charizardite Y
+Ability: Solar Power
+Level: 50
+EVs: 14 HP / 13 Def / 7 SpA / 32 Spe
+Modest Nature
+- Protect
+- Heat Wave
+- Solar Beam
+- Weather Ball

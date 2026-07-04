@@ -1,0 +1,59 @@
+Whimsicott @ Coba Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 25 Def / 9 SpD
+Bold Nature
+- Moonblast
+- Tailwind
+- Encore
+- Protect
+
+Swampert @ Swampertite
+Ability: Swift Swim
+Level: 50
+EVs: 20 HP / 32 Atk / 1 SpD / 13 Spe
+Adamant Nature
+- Wave Crash
+- Earthquake
+- Ice Punch
+- Protect
+
+Pelipper @ Life Orb
+Ability: Drizzle
+Level: 50
+EVs: 14 HP / 32 SpA / 1 SpD / 19 Spe
+Modest Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 SpA / 32 SpD / 1 Spe
+Modest Nature
+- Draco Meteor
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Basculegion @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect
+
+Floette-Eternal @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
+- Protect

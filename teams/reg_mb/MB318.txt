@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 22 HP / 27 Def / 12 SpA / 5 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Blast Burn
+- Protect
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Wide Guard
+- Tailwind
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 20 HP / 16 Def / 30 SpD
+Sassy Nature
+- Psychic
+- Thunderbolt
+- Trick Room
+- Roar
+
+Incineroar @ Charcoal
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Flare Blitz
+- Darkest Lariat
+- Fake Out
+- Parting Shot
+
+Garchomp @ Garchompite
+Ability: Rough Skin
+Level: 50
+EVs: 22 HP / 20 Atk / 24 Spe
+Adamant Nature
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 13 HP / 14 Def / 30 SpA / 9 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect

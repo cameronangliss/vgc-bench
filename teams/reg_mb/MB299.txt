@@ -1,0 +1,59 @@
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 22 HP / 21 Atk / 1 SpD / 22 Spe
+Jolly Nature
+- Iron Head
+- Brick Break
+- Ice Punch
+- Protect
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Rock Slide
+- Knock Off
+- Dragon Dance
+- Protect
+
+Excadrill @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Earthquake
+- Iron Head
+- Rock Slide
+- Protect
+
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Careful Nature
+- Foul Play
+- Parting Shot
+- Light Screen
+- Reflect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 20 HP / 10 Atk / 20 Def / 1 SpD / 15 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 24 Def / 10 SpD
+Bold Nature
+- Matcha Gotcha
+- Protect
+- Rage Powder
+- Life Dew

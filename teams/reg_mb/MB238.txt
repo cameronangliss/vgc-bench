@@ -1,0 +1,59 @@
+Scrafty @ Scraftinite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 Spe
+Adamant Nature
+- Knock Off
+- Low Kick
+- Iron Head
+- Fake Out
+
+Mawile @ Mawilite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk
+Brave Nature
+- Sucker Punch
+- Play Rough
+- Swords Dance
+- Iron Head
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 1 Def / 20 SpA / 13 SpD
+Quiet Nature
+- Psychic
+- Hyper Voice
+- Protect
+- Trick Room
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Earth Power
+- Protect
+
+Incineroar @ Shuca Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Relaxed Nature
+- Throat Chop
+- Fake Out
+- Flare Blitz
+- Parting Shot
+
+Hatterene (F) @ Life Orb
+Ability: Magic Bounce
+Level: 50
+EVs: 28 HP / 5 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Psychic
+- Trick Room
+- Skill Swap
+- Dazzling Gleam

@@ -1,0 +1,59 @@
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 1 HP / 2 Def / 30 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Dazzling Gleam
+- Moonblast
+- Calm Mind
+- Protect
+
+Dragalge @ Dragalgite
+Ability: Adaptability
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Draco Meteor
+- Sludge Bomb
+- Hydro Pump
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 17 HP / 19 Atk / 8 Def / 3 SpD / 19 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Poison Jab
+- Rock Slide
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 18 HP / 3 Def / 24 SpA / 4 SpD / 17 Spe
+Modest Nature
+- Draco Meteor
+- Dark Pulse
+- Earth Power
+- Snarl
+
+Reuniclus @ Leftovers
+Ability: Regenerator
+Level: 50
+EVs: 31 HP / 32 SpA / 3 SpD
+Quiet Nature
+- Psychic
+- Protect
+- Light Screen
+- Trick Room
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Atk / 22 Def / 11 SpD
+Sassy Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Throat Chop

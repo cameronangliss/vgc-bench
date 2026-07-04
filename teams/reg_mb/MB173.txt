@@ -1,0 +1,59 @@
+Whimsicott @ Fairy Feather
+Ability: Prankster
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Encore
+- Charm
+
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 9 Atk / 25 Spe
+Adamant Nature
+- Protect
+- Brave Bird
+- Roost
+- Close Combat
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+- Earthquake
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Relaxed Nature
+- Throat Chop
+- Fake Out
+- Flare Blitz
+- Parting Shot
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 7 Def / 28 SpD
+Sassy Nature
+- Rage Powder
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Timid Nature
+- Spiky Shield
+- Power Gem
+- Earth Power
+- Sludge Bomb

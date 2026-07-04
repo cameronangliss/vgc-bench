@@ -1,0 +1,59 @@
+Blaziken @ Blazikenite
+Ability: Speed Boost
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Detect
+- Close Combat
+- Flare Blitz
+- Rock Slide
+
+Tsareena (F) @ Wide Lens
+Ability: Queenly Majesty
+Level: 50
+EVs: 32 HP / 18 Atk / 3 Def / 7 SpD / 6 Spe
+Adamant Nature
+- Power Whip
+- Triple Axel
+- Protect
+- Taunt
+
+Clefable @ Clefablite
+Ability: Unaware
+Level: 50
+EVs: 32 HP / 30 Def / 4 SpA
+Bold Nature
+- Air Slash
+- Dazzling Gleam
+- Protect
+- Follow Me
+
+Corviknight @ Sitrus Berry
+Ability: Mirror Armor
+Level: 50
+EVs: 32 HP / 25 Def / 9 SpD
+Impish Nature
+- Roost
+- Brave Bird
+- Bulk Up
+- Tailwind
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 8 HP / 28 Atk / 30 Spe
+Adamant Nature
+- Stomping Tantrum
+- Earthquake
+- Protect
+- Rock Slide
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Iron Head

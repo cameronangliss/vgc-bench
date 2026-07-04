@@ -1,0 +1,59 @@
+Staraptor @ Choice Scarf
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Brave Bird
+- U-turn
+
+Grimmsnarl (M) @ Babiri Berry
+Ability: Pickpocket
+Level: 50
+EVs: 32 HP / 30 Atk / 4 Def
+Brave Nature
+- Throat Chop
+- Low Kick
+- Parting Shot
+- Fake Out
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 29 SpA / 3 SpD / 2 Spe
+Modest Nature
+- Matcha Gotcha
+- Shadow Ball
+- Rage Powder
+- Trick Room
+
+Mawile @ Mawilite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Iron Head
+- Play Rough
+- Sucker Punch
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Heat Wave
+- Earth Power
+- Protect
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 29 HP / 17 Def / 20 SpD
+Sassy Nature
+- Psychic
+- Thunderbolt
+- Trick Room
+- Helping Hand

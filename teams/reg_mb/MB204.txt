@@ -1,0 +1,59 @@
+Vileplume @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Leaf Storm
+- Sludge Bomb
+- Sleep Powder
+- After You
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Helping Hand
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 28 HP / 20 Def / 18 SpD
+Relaxed Nature
+- Twin Beam
+- Helping Hand
+- Trick Room
+- Protect
+
+Kangaskhan (F) @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 28 HP / 32 Atk / 1 Def / 5 SpD
+Brave Nature
+- Fake Out
+- Double-Edge
+- Hammer Arm
+- Crunch
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Throat Chop
+
+Staraptor @ Choice Scarf
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 3 Atk / 31 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- U-turn
+- Final Gambit

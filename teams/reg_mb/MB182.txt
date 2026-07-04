@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 14 HP / 25 Def / 11 SpA / 16 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Weather Ball
+- Protect
+
+Garchomp @ Roseli Berry
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 28 Atk / 4 Def / 32 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Basculegion (M) @ Life Orb
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 13 Def / 21 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 5 Def / 20 SpD / 9 Spe
+Careful Nature
+- Darkest Lariat
+- Flare Blitz
+- Parting Shot
+- Fake Out
+
+Venusaur @ Occa Berry
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 1 Def / 6 SpA / 1 SpD / 26 Spe
+Timid Nature
+- Earth Power
+- Sludge Bomb
+- Sleep Powder
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Moonblast
+- Encore
+- Tailwind
+- Protect

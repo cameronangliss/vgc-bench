@@ -1,0 +1,59 @@
+Raichu @ Raichunite X
+Ability: Lightning Rod
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Rising Voltage
+- Volt Switch
+- Protect
+- Fake Out
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 9 HP / 10 Atk / 15 SpD / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+- Rock Slide
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+Level: 50
+EVs: 32 HP / 32 Def / 2 Spe
+Bold Nature
+- Follow Me
+- Moonblast
+- Protect
+- Helping Hand
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 25 Atk / 9 Def
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+- Iron Head
+
+Froslass (F) @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 10 HP / 10 Def / 30 SpA / 1 SpD / 15 Spe
+Timid Nature
+- Blizzard
+- Shadow Ball
+- Protect
+- Aurora Veil
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 20 HP / 20 Atk / 10 Def / 16 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Protect
+- Fake Out

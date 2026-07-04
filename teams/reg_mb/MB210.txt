@@ -1,0 +1,59 @@
+Scrafty @ Scraftinite
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 3 Atk / 22 Def / 10 SpD
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Bulk Up
+- Knock Off
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 30 HP / 6 Def / 18 SpA / 1 SpD / 11 Spe
+Modest Nature
+- Protect
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 20 HP / 32 Def / 14 Spe
+Timid Nature
+- Protect
+- Zap Cannon
+- Fake Out
+- Focus Blast
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Dual Wingbeat
+- Rock Slide
+- Tailwind
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 11 Def / 23 SpD
+Impish Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Helping Hand
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 17 HP / 19 Def / 10 SpA / 20 SpD
+Quiet Nature
+- Hyper Voice
+- Psychic Noise
+- Helping Hand
+- Trick Room

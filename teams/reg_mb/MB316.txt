@@ -1,0 +1,59 @@
+Raichu @ Raichunite X
+Ability: Lightning Rod
+Level: 50
+EVs: 5 HP / 1 Def / 32 SpA / 28 Spe
+Modest Nature
+- Rising Voltage
+- Volt Switch
+- Protect
+- Fake Out
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 32 HP / 6 Def / 7 SpA / 6 SpD / 15 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Protect
+- Nasty Plot
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Protect
+- Encore
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Protect
+- Trick Room
+
+Kommo-o @ Leftovers
+Ability: Soundproof
+Level: 50
+EVs: 3 HP / 1 Def / 30 SpA / 32 Spe
+Modest Nature
+- Aura Sphere
+- Clanging Scales
+- Clangorous Soul
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 7 Def / 20 SpD / 7 Spe
+Careful Nature
+- Parting Shot
+- Flare Blitz
+- Fake Out
+- Throat Chop

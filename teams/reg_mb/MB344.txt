@@ -1,0 +1,59 @@
+Lycanroc-Dusk @ Focus Sash
+Ability: Tough Claws
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Accelerock
+- Rock Slide
+- Close Combat
+- Protect
+
+Froslass-Mega @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 15 Def / 1 SpA / 18 Spe
+Timid Nature
+- Shadow Ball
+- Blizzard
+- Aurora Veil
+- Protect
+
+Scovillain-Mega @ Scovillainite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Calm Nature
+- Giga Drain
+- Overheat
+- Rage Powder
+- Protect
+
+Gholdengo @ Leftovers
+Ability: Good as Gold
+Level: 50
+EVs: 27 HP / 6 Def / 1 SpA / 32 Spe
+Modest Nature
+- Shadow Ball
+- Make It Rain
+- Nasty Plot
+- Protect
+
+Incineroar @ Passho Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 14 Def / 15 SpD / 5 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 25 HP / 26 Atk / 1 Def / 14 Spe
+Adamant Nature
+- Dragon Claw
+- Low Kick
+- Tailwind
+- Protect

@@ -1,0 +1,59 @@
+Scolipede @ Scolipite
+Ability: Speed Boost
+Level: 50
+EVs: 32 HP / 15 Atk / 4 Def / 15 SpD
+Careful Nature
+- Poison Jab
+- Swords Dance
+- Protect
+- Leech Life
+
+Sinistcha @ Colbur Berry
+Ability: Hospitality
+Level: 50
+EVs: 30 HP / 16 Def / 20 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Shadow Ball
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 14 HP / 20 Atk / 32 Spe
+Jolly Nature
+- Stomping Tantrum
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Ninetales-Alola @ Light Clay
+Ability: Snow Warning
+Level: 50
+EVs: 11 HP / 3 Def / 20 SpA / 32 Spe
+Timid Nature
+- Blizzard
+- Moonblast
+- Protect
+- Aurora Veil
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 2 Atk / 12 Def / 21 SpD
+Adamant Nature
+- Darkest Lariat
+- Flare Blitz
+- Fake Out
+- Parting Shot
+
+Eelektross @ Eelektrossite
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Modest Nature
+- Thunderbolt
+- Flash Cannon
+- Grass Knot
+- Protect

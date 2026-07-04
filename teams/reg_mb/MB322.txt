@@ -1,0 +1,59 @@
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 11 HP / 2 Def / 32 SpA / 21 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Protect
+- Power Gem
+
+Tsareena (F) @ Sitrus Berry
+Ability: Queenly Majesty
+Level: 50
+EVs: 32 HP / 8 Atk / 6 Def / 20 Spe
+Impish Nature
+- Trop Kick
+- Knock Off
+- Protect
+- Triple Axel
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Moonblast
+- Encore
+- Tailwind
+
+Palafin @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+EVs: 10 HP / 32 Atk / 24 Spe
+Adamant Nature
+- Wave Crash
+- Close Combat
+- Flip Turn
+- Jet Punch
+
+Blaziken @ Blazikenite
+Ability: Speed Boost
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Detect
+- Rock Slide
+- Close Combat
+- Flare Blitz
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 14 Def / 20 SpA / 32 Spe
+Modest Nature
+- Light of Ruin
+- Protect
+- Energy Ball
+- Dazzling Gleam

@@ -1,0 +1,59 @@
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Zap Cannon
+- Focus Blast
+- Fake Out
+- Protect
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 16 Def / 16 SpD / 32 Spe
+Jolly Nature
+- Parting Shot
+- Scary Face
+- Light Screen
+- Reflect
+
+Sinistcha @ Leftovers
+Ability: Hospitality
+Level: 50
+EVs: 30 HP / 24 Def / 1 SpA / 11 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Strength Sap
+- Protect
+
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Close Combat
+- Brave Bird
+- Tailwind
+- Roost
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 25 Atk / 3 Def / 6 Spe
+Adamant Nature
+- Protect
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 14 HP / 20 Atk / 32 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect

@@ -1,0 +1,59 @@
+Scrafty @ Scraftinite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 15 Def / 11 SpD / 8 Spe
+Impish Nature
+- Throat Chop
+- Drain Punch
+- Fake Out
+- Protect
+
+Metagross @ Metal Coat
+Ability: Clear Body
+Level: 50
+EVs: 32 HP / 25 Atk / 7 SpD / 2 Spe
+Adamant Nature
+- Meteor Mash
+- Psychic Fangs
+- Bullet Punch
+- Protect
+
+Mamoswine @ Focus Sash
+Ability: Oblivious
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Earthquake
+- Icicle Crash
+- Ice Shard
+- Protect
+
+Toxapex @ Leftovers
+Ability: Regenerator
+Level: 50
+EVs: 32 HP / 18 Def / 16 SpD
+Bold Nature
+- Infestation
+- Toxic
+- Wide Guard
+- Baneful Bunker
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 25 HP / 32 Atk / 9 Spe
+Adamant Nature
+- Dragon Claw
+- Extreme Speed
+- Fire Punch
+- Protect
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 16 HP / 17 Def / 9 SpA / 24 Spe
+Timid Nature
+- Heat Wave
+- Solar Beam
+- Weather Ball
+- Protect

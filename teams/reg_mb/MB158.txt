@@ -1,0 +1,65 @@
+Blaziken-Mega @ Blazikenite
+Ability: Speed Boost
+Level: 50
+Shiny: Yes
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Close Combat
+- Rock Slide
+- Flare Blitz
+- Detect
+
+Kingambit @ Life Orb
+Ability: Defiant
+Level: 50
+Shiny: Yes
+EVs: 24 HP / 31 Atk / 1 Def / 1 SpD / 9 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+- Iron Head
+
+Basculegion @ Focus Sash
+Ability: Adaptability
+Level: 50
+Shiny: Yes
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+Shiny: Yes
+EVs: 13 HP / 21 SpA / 32 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Encore
+- Protect
+
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+Shiny: Yes
+EVs: 32 HP / 14 Def / 1 SpA / 14 SpD / 5 Spe
+Modest Nature
+- Shadow Ball
+- Disable
+- Perish Song
+- Protect
+
+Incineroar @ Passho Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+EVs: 31 HP / 21 Def / 14 SpD
+Relaxed Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Protect

@@ -1,0 +1,59 @@
+Scrafty @ Scraftinite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Close Combat
+- Knock Off
+- Fake Out
+- Protect
+
+Ninetales @ Choice Scarf
+Ability: Drought
+Level: 50
+EVs: 1 HP / 3 Def / 32 SpA / 30 Spe
+Modest Nature
+- Heat Wave
+- Overheat
+- Burning Jealousy
+- Solar Beam
+
+Venusaur @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Leaf Storm
+- Sludge Bomb
+- Earth Power
+- Sleep Powder
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Protect
+
+Dragonite @ Life Orb
+Ability: Multiscale
+Level: 50
+EVs: 31 HP / 32 Atk / 3 Spe
+Adamant Nature
+- Extreme Speed
+- Dragon Claw
+- Iron Tail
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 23 HP / 8 Def / 30 SpA / 5 Spe
+Modest Nature
+- Hyper Voice
+- Calm Mind
+- Quick Attack
+- Protect

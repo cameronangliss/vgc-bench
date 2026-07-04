@@ -1,0 +1,59 @@
+Scrafty @ Scraftinite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Close Combat
+- Knock Off
+- Iron Head
+- Fake Out
+
+Vileplume @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Sludge Bomb
+- Sleep Powder
+- After You
+- Leaf Storm
+
+Staraptor @ Choice Scarf
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
+- Brave Bird
+- Close Combat
+- U-turn
+- Final Gambit
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 29 HP / 14 Def / 23 SpD
+Sassy Nature
+- Protect
+- Twin Beam
+- Thunderbolt
+- Trick Room
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 5 HP / 29 Def / 30 SpA / 2 Spe
+Quiet Nature
+- Hyper Voice
+- Quick Attack
+- Hyper Beam
+- Detect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Heat Wave
+- Protect

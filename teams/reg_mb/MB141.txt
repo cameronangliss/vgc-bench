@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Solar Power
+Level: 50
+EVs: 24 HP / 14 Def / 1 SpA / 27 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Zap Cannon
+- Focus Blast
+- Grass Knot
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 25 HP / 5 Def / 30 SpA / 5 SpD / 1 Spe
+Modest Nature
+- Psychic
+- Thunderbolt
+- Helping Hand
+- Trick Room
+
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 15 Def / 15 SpD / 4 Spe
+Careful Nature
+- Spirit Break
+- Scary Face
+- Fake Out
+- Fake Tears
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 7 HP / 27 SpA / 32 Spe
+Modest Nature
+- Shadow Ball
+- Make It Rain
+- Power Gem
+- Protect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Last Respects
+- Liquidation
+- Aqua Jet
+- Protect

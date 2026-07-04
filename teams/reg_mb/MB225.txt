@@ -1,0 +1,59 @@
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 32 HP / 25 Atk / 9 Spe
+Adamant Nature
+- Iron Head
+- Psychic Fangs
+- Protect
+- Bullet Punch
+
+Eelektross @ Eelektrossite
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 2 Def / 15 SpA / 18 Spe
+Modest Nature
+- Thunderbolt
+- Flamethrower
+- Protect
+- Giga Drain
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 31 HP / 20 Def / 15 SpD
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Parting Shot
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Population Bomb
+- Bite
+- Protect
+- Follow Me
+
+Annihilape @ Leftovers
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 5 Atk / 14 SpD / 15 Spe
+Adamant Nature
+- Drain Punch
+- Phantom Force
+- Bulk Up
+- Protect
+
+Gardevoir @ Choice Scarf
+Ability: Trace
+Level: 50
+EVs: 11 HP / 27 SpA / 6 SpD / 22 Spe
+Timid Nature
+- Moonblast
+- Psychic
+- Dazzling Gleam
+- Trick

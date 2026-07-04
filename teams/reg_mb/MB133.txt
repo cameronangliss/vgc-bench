@@ -1,0 +1,59 @@
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 21 HP / 20 Atk / 25 Spe
+Jolly Nature
+- Meteor Mash
+- Psychic Fangs
+- Bullet Punch
+- Protect
+
+Overqwil @ Black Glasses
+Ability: Swift Swim
+Level: 50
+EVs: 30 HP / 16 Atk / 15 SpD / 5 Spe
+Adamant Nature
+- Poison Jab
+- Crunch
+- Haze
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Hurricane
+- Muddy Water
+- Tailwind
+- Protect
+
+Palafin @ Life Orb
+Ability: Zero to Hero
+Level: 50
+EVs: 32 HP / 20 Atk / 3 SpD / 11 Spe
+Adamant Nature
+- Jet Punch
+- Wave Crash
+- Throat Chop
+- Protect
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Draco Meteor
+- Dark Pulse
+- Snarl
+- Earth Power
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 17 HP / 2 Def / 15 SpA / 32 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
+- Protect

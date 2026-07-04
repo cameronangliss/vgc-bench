@@ -1,0 +1,59 @@
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Modest Nature
+- Eruption
+- Weather Ball
+- Earth Power
+- Protect
+
+Maushold @ Wide Lens
+Ability: Technician
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Population Bomb
+- Follow Me
+- After You
+- Protect
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 24 Def / 10 SpD
+Sassy Nature
+- Psychic
+- Skill Swap
+- Trick Room
+- Protect
+
+Mawile @ Mawilite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Iron Head
+- Play Rough
+- Swords Dance
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 25 Atk / 7 SpD / 2 Spe
+Brave Nature
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+- Fake Out
+
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 11 Atk / 8 Def / 12 SpD / 3 Spe
+Adamant Nature
+- Close Combat
+- Brave Bird
+- Agility
+- Roost

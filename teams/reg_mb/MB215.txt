@@ -1,0 +1,59 @@
+Pelipper @ Choice Scarf
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Weather Ball
+- U-turn
+- Rain Dance
+
+Swampert @ Swampertite
+Ability: Damp
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Wave Crash
+- High Horsepower
+- Rock Slide
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Calm Nature
+- Flash Cannon
+- Dragon Pulse
+- Electro Shot
+- Protect
+
+Politoed @ Mystic Water
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Weather Ball
+- Ice Beam
+- Rain Dance
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 28 HP / 1 Def / 5 SpA / 32 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Protect
+- Calm Mind
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 26 HP / 24 Def / 15 SpD / 1 Spe
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Protect

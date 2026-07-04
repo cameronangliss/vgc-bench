@@ -1,0 +1,59 @@
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 24 Def / 10 SpD
+Bold Nature
+- Dazzling Gleam
+- Protect
+- Imprison
+- Trick Room
+
+Incineroar @ Life Orb
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Flare Blitz
+- Darkest Lariat
+- Close Combat
+- Fake Out
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Heat Wave
+- Weather Ball
+- Sunny Day
+
+Gallade (M) @ White Herb
+Ability: Sharpness
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Psycho Cut
+- Sacred Sword
+- Leaf Blade
+- Protect
+
+Hatterene (F) @ Fairy Feather
+Ability: Magic Bounce
+Level: 50
+EVs: 27 HP / 7 Def / 32 SpA
+Quiet Nature
+- Psychic
+- Dazzling Gleam
+- Protect
+- Trick Room
+
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Pollen Puff
+- Rage Powder
+- Sleep Powder
+- Protect

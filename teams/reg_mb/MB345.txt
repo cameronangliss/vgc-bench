@@ -1,0 +1,59 @@
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 32 Atk / 3 Spe
+Adamant Nature
+- Close Combat
+- Roost
+- Dual Wingbeat
+- Protect
+
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 12 Def / 22 SpD
+Sassy Nature
+- Parting Shot
+- Spirit Break
+- Scary Face
+- Fake Out
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 16 HP / 16 Def / 2 SpA / 32 Spe
+Timid Nature
+- Heat Wave
+- Psyshock
+- Nasty Plot
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 6 HP / 32 Atk / 1 SpD / 27 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Dragon Tail
+
+Kingambit @ Sitrus Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 4 Atk / 30 SpD
+Brave Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Swords Dance
+
+Sinistcha @ Occa Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 12 Def / 23 SpD
+Quiet Nature
+- Matcha Gotcha
+- Rage Powder
+- Psych Up
+- Protect

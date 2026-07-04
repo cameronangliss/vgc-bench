@@ -1,0 +1,59 @@
+Pyroar @ Pyroarite
+Ability: Unnerve
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Overheat
+- Heat Wave
+- Taunt
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Helping Hand
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 20 HP / 18 Def / 10 SpA / 18 SpD
+Quiet Nature
+- Psychic
+- Thunderbolt
+- Protect
+- Trick Room
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 31 HP / 3 Def / 32 SpA
+Quiet Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect
+
+Venusaur @ Life Orb
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Solar Beam
+- Sludge Bomb
+- Earth Power
+- Sleep Powder
+
+Blastoise @ Blastoisinite
+Ability: Torrent
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Water Spout
+- Aura Sphere
+- Dark Pulse
+- Fake Out

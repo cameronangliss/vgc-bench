@@ -1,0 +1,59 @@
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Dark Pulse
+- Flamethrower
+- Draco Meteor
+- U-turn
+
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Bullet Punch
+- Psychic Fangs
+- Earthquake
+- Ice Punch
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Moonblast
+- Ice Beam
+
+Mimikyu @ Life Orb
+Ability: Disguise
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Shadow Claw
+- Play Rough
+- Shadow Sneak
+- Swords Dance
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 16 HP / 24 Def / 11 SpA / 15 Spe
+Modest Nature
+- Protect
+- Heat Wave
+- Solar Beam
+- Weather Ball
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Modest Nature
+- Protect
+- Giga Drain
+- Earth Power
+- Leech Seed

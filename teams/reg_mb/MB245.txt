@@ -1,0 +1,59 @@
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 20 HP / 17 SpA / 29 Spe
+Modest Nature
+- Zap Cannon
+- Focus Blast
+- Grass Knot
+- Protect
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+EVs: 7 HP / 32 SpA / 27 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Encore
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Stomping Tantrum
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 4 HP / 30 Atk / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Flip Turn
+- Aqua Jet
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 14 Atk / 9 Def / 6 SpD / 5 Spe
+Adamant Nature
+- Flare Blitz
+- Darkest Lariat
+- Fake Out
+- Parting Shot
+
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 8 HP / 32 Atk / 1 SpD / 25 Spe
+Jolly Nature
+- Iron Head
+- Psychic Fangs
+- Stomping Tantrum
+- Protect

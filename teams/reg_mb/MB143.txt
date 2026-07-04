@@ -1,0 +1,59 @@
+Pyroar @ Pyroarite
+Ability: Unnerve
+Level: 50
+EVs: 7 HP / 32 SpA / 27 Spe
+Timid Nature
+- Heat Wave
+- Overheat
+- Solar Beam
+- Protect
+
+Ninetales @ Choice Scarf
+Ability: Drought
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Heat Wave
+- Overheat
+- Solar Beam
+- Fake Tears
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Sunny Day
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Moonblast
+- Light of Ruin
+- Dazzling Gleam
+- Protect
+
+Basculegion (M) @ Life Orb
+Ability: Adaptability
+Level: 50
+EVs: 4 HP / 32 Atk / 10 Def / 20 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 25 HP / 26 Def / 15 SpD
+Bold Nature
+- Psychic
+- Thunderbolt
+- Trick Room
+- Helping Hand

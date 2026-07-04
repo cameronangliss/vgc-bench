@@ -1,0 +1,59 @@
+Raichu @ Raichunite X
+Ability: Lightning Rod
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Fake Out
+- Volt Tackle
+- Volt Switch
+- Encore
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 1 Def / 14 SpA / 19 Spe
+Modest Nature
+- Protect
+- Sludge Bomb
+- Earth Power
+- Giga Drain
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 8 SpA / 25 SpD / 2 Spe
+Bold Nature
+- Weather Ball
+- Tailwind
+- Hurricane
+- Wide Guard
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 2 Def / 4 SpA / 15 SpD / 13 Spe
+Bold Nature
+- Protect
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 11 Def / 21 SpD / 2 Spe
+Careful Nature
+- Light Screen
+- Spirit Break
+- Reflect
+- Parting Shot
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 21 Atk / 13 Def / 32 Spe
+Jolly Nature
+- Flip Turn
+- Wave Crash
+- Last Respects
+- Aqua Jet

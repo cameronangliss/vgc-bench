@@ -1,0 +1,59 @@
+Pyroar @ Pyroarite
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Heat Wave
+- Overheat
+- Dark Pulse
+- Protect
+
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 15 HP / 20 Atk / 31 Spe
+Adamant Nature
+- Close Combat
+- Dual Wingbeat
+- Protect
+- Roost
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 1 SpD
+Quiet Nature
+- Eruption
+- Overheat
+- Helping Hand
+- Protect
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 25 Def / 9 SpD
+Impish Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Bold Nature
+- Matcha Gotcha
+- Trick Room
+- Rage Powder
+- Protect
+
+Incineroar @ Chople Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 11 Def / 20 SpD / 4 Spe
+Careful Nature
+- Flare Blitz
+- Darkest Lariat
+- Fake Out
+- Parting Shot

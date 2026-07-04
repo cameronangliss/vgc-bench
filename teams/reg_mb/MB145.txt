@@ -1,0 +1,59 @@
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
+- Final Gambit
+- Close Combat
+- Brave Bird
+- Roost
+
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 21 HP / 19 Def / 15 SpD / 11 Spe
+Careful Nature
+- Taunt
+- Parting Shot
+- Scary Face
+- Fake Out
+
+Gardevoir @ Gardevoirite
+Ability: Synchronize
+Level: 50
+EVs: 18 HP / 8 Def / 15 SpA / 25 Spe
+Modest Nature
+- Hyper Voice
+- Psyshock
+- Calm Mind
+- Protect
+
+Incineroar @ Leftovers
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 12 Def / 20 SpD / 4 Spe
+Careful Nature
+- Flare Blitz
+- Snarl
+- Fake Out
+- Parting Shot
+
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 26 HP / 16 Def / 11 SpD / 13 Spe
+Jolly Nature
+- Feint
+- Super Fang
+- Follow Me
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 30 HP / 4 Def / 32 SpD
+Bold Nature
+- Matcha Gotcha
+- Protect
+- Rage Powder
+- Life Dew

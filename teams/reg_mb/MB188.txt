@@ -1,0 +1,65 @@
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+Shiny: Yes
+EVs: 5 HP / 23 Def / 15 SpA / 23 Spe
+Timid Nature
+- Fake Out
+- Focus Blast
+- Zap Cannon
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+Shiny: Yes
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Stomping Tantrum
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+Shiny: Yes
+EVs: 12 HP / 32 SpA / 22 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Sunny Day
+- Encore
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+Shiny: Yes
+EVs: 32 HP / 32 Atk / 2 SpD
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Iron Head
+- Protect
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Shiny: Yes
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Last Respects
+- Wave Crash
+- Flip Turn
+- Aqua Jet
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+Shiny: Yes
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Weather Ball
+- Solar Beam
+- Heat Wave
+- Protect

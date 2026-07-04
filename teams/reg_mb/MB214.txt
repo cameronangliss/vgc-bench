@@ -1,0 +1,59 @@
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 19 HP / 1 Def / 17 SpA / 29 Spe
+Timid Nature
+- Heat Wave
+- Psychic
+- Solar Beam
+- Protect
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Modest Nature
+- Power Gem
+- Sludge Wave
+- Earth Power
+- Spiky Shield
+
+Tsareena (F) @ Wide Lens
+Ability: Queenly Majesty
+Level: 50
+EVs: 28 HP / 5 Atk / 6 SpD / 27 Spe
+Adamant Nature
+- Power Whip
+- Triple Axel
+- Taunt
+- Protect
+
+Whimsicott @ Mental Herb
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 15 Def / 14 SpD / 5 Spe
+Bold Nature
+- Moonblast
+- Tailwind
+- Sunny Day
+- Protect
+
+Tinkaton (F) @ Sitrus Berry
+Ability: Mold Breaker
+Level: 50
+EVs: 23 HP / 8 Atk / 7 Def / 28 Spe
+Jolly Nature
+- Gigaton Hammer
+- Knock Off
+- Encore
+- Fake Out
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 26 HP / 32 Def / 1 SpD / 7 Spe
+Bold Nature
+- Muddy Water
+- Hypnosis
+- Coil
+- Recover

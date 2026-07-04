@@ -1,0 +1,60 @@
+Lopunny (F) @ Lopunnite
+Ability: Limber
+Level: 50
+Shiny: Yes
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Rain Dance
+- Fake Out
+- Close Combat
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 SpA / 27 SpD / 6 Spe
+Modest Nature
+- Electro Shot
+- Draco Meteor
+- Flash Cannon
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Tailwind
+- Weather Ball
+- Wide Guard
+
+Basculegion (M) @ Life Orb
+Ability: Adaptability
+Level: 50
+EVs: 4 HP / 31 Atk / 11 Def / 20 Spe
+Adamant Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Protect
+
+Swampert @ Swampertite
+Ability: Damp
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Wave Crash
+- Brick Break
+- Earthquake
+- Protect
+
+Maushold @ Chople Berry
+Ability: Friend Guard
+Level: 50
+EVs: 32 HP / 2 Def / 32 Spe
+Jolly Nature
+- Protect
+- Super Fang
+- Follow Me
+- Encore

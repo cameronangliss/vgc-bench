@@ -1,0 +1,59 @@
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 11 HP / 32 Atk / 23 Spe
+Jolly Nature
+- Will-O-Wisp
+- Dual Wingbeat
+- Taunt
+- Tailwind
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Stomping Tantrum
+- Protect
+- Dragon Claw
+- Rock Slide
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 18 HP / 32 Atk / 16 SpD
+Careful Nature
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+- Fake Out
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Last Respects
+- Liquidation
+- Protect
+- Aqua Jet
+
+Gholdengo @ Choice Scarf
+Ability: Good as Gold
+Level: 50
+EVs: 18 Def / 32 SpA / 16 Spe
+Modest Nature
+- Make It Rain
+- Focus Blast
+- Power Gem
+- Shadow Ball
+
+Floette-Mega (F) @ Floettite
+Ability: Fairy Aura
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin

@@ -1,0 +1,59 @@
+Pyroar @ Pyroarite
+Ability: Unnerve
+Level: 50
+EVs: 6 HP / 32 SpA / 28 Spe
+Timid Nature
+- Heat Wave
+- Overheat
+- Yawn
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Overheat
+- Helping Hand
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Moonblast
+- Trick Room
+- Encore
+- Protect
+
+Staraptor @ Choice Scarf
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
+- Final Gambit
+- Brave Bird
+- Close Combat
+- U-turn
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 20 HP / 14 Def / 32 SpA
+Quiet Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- Protect
