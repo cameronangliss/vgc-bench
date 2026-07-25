@@ -1,59 +1,59 @@
-Swampert @ Swampertite
-Ability: Torrent
+Pyroar @ Pyroarite
+Ability: Unnerve
 Level: 50
-EVs: 24 HP / 20 Atk / 22 Spe
-Adamant Nature
-- Wave Crash
-- Flip Turn
-- High Horsepower
+EVs: 6 HP / 32 SpA / 28 Spe
+Timid Nature
+- Heat Wave
+- Overheat
+- Yawn
 - Protect
 
-Venusaur @ Venusaurite
-Ability: Chlorophyll
+Torkoal @ Charcoal
+Ability: Drought
 Level: 50
-EVs: 32 HP / 19 Def / 12 SpD / 3 Spe
-Bold Nature
-- Giga Drain
-- Sludge Bomb
-- Earth Power
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Overheat
+- Helping Hand
 - Protect
 
-Sableye @ Roseli Berry
+Whimsicott @ Focus Sash
 Ability: Prankster
 Level: 50
-EVs: 32 HP / 2 Def / 32 SpD
-Careful Nature
-- Reflect
-- Light Screen
-- Rain Dance
-- Will-O-Wisp
-
-Pelipper @ Focus Sash
-Ability: Drizzle
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Hurricane
-- Weather Ball
-- Protect
-- Tailwind
-
-Kingambit @ Black Glasses
-Ability: Defiant
-Level: 50
-EVs: 32 HP / 25 Atk / 8 SpD / 1 Spe
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Swords Dance
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Moonblast
+- Trick Room
+- Encore
 - Protect
 
-Archaludon @ Leftovers
-Ability: Stamina
+Staraptor @ Choice Scarf
+Ability: Intimidate
 Level: 50
-EVs: 32 HP / 1 Def / 5 SpA / 25 SpD / 3 Spe
-Bold Nature
-- Flash Cannon
-- Dragon Pulse
-- Electro Shot
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
+- Final Gambit
+- Brave Bird
+- Close Combat
+- U-turn
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 20 HP / 14 Def / 32 SpA
+Quiet Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
 - Protect

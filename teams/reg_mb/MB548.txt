@@ -1,0 +1,59 @@
+Pidgeot (M) @ Pidgeotite
+Ability: Tangled Feet
+Level: 50
+EVs: 7 HP / 27 SpA / 32 Spe
+Modest Nature
+- Hurricane
+- Heat Wave
+- Tailwind
+- Protect
+
+Venusaur (M) @ Wide Lens
+Ability: Chlorophyll
+Level: 50
+EVs: 24 HP / 10 SpA / 32 Spe
+Modest Nature
+- Leaf Storm
+- Sludge Bomb
+- Sleep Powder
+- Protect
+
+Mamoswine (F) @ Focus Sash
+Ability: Oblivious
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Ice Shard
+- Earthquake
+- High Horsepower
+- Protect
+
+Ninetales (F) @ Life Orb
+Ability: Drought
+Level: 50
+EVs: 12 HP / 10 Def / 20 SpA / 24 Spe
+Timid Nature
+- Heat Wave
+- Encore
+- Helping Hand
+- Protect
+
+Sneasler (M) @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 20 Atk / 16 Def / 30 Spe
+Adamant Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 23 Atk / 11 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Aqua Jet
+- Last Respects
+- Flip Turn

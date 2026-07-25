@@ -1,59 +1,59 @@
-Metagross @ Metagrossite
-Ability: Clear Body
+Mawile @ Mawilite
+Ability: Hyper Cutter
 Level: 50
-EVs: 30 HP / 32 Atk / 4 SpD
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Iron Head
+- Play Rough
+- Sucker Punch
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Earth Power
+- Protect
+
+Kangaskhan @ Life Orb
+Ability: Scrappy
+Level: 50
+EVs: 21 HP / 32 Atk / 13 SpD
 Adamant Nature
-- Meteor Mash
-- Psychic Fangs
-- Earthquake
-- Protect
+- Double-Edge
+- Ice Punch
+- Sucker Punch
+- Fake Out
 
-Hydreigon @ Haban Berry
-Ability: Levitate
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Draco Meteor
-- Dark Pulse
-- Snarl
-- Protect
+EVs: 9 HP / 30 Def / 10 SpA / 17 SpD
+Relaxed Nature
+- Twin Beam
+- Thunderbolt
+- Trick Room
+- Helping Hand
 
-Milotic @ Leftovers
-Ability: Competitive
+Decidueye-Hisui @ Scope Lens
+Ability: Scrappy
 Level: 50
-EVs: 32 HP / 30 Def / 4 SpD
-Calm Nature
-- Muddy Water
-- Ice Beam
-- Haze
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Brave Nature
+- Triple Arrows
+- Leaf Blade
+- Shadow Sneak
 - Protect
 
-Lycanroc-Dusk @ Focus Sash
-Ability: Tough Claws
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Accelerock
-- Close Combat
-- Rock Slide
-- Protect
-
-Talonflame @ Sharp Beak
-Ability: Gale Wings
+Staraptor @ Choice Scarf
+Ability: Intimidate
 Level: 50
 EVs: 32 HP / 2 Atk / 32 Spe
 Jolly Nature
-- Dual Wingbeat
-- Tailwind
-- Will-O-Wisp
-- Protect
-
-Venusaur @ Venusaurite
-Ability: Chlorophyll
-Level: 50
-EVs: 32 HP / 18 Def / 12 SpA / 4 SpD
-Modest Nature
-- Sludge Bomb
-- Giga Drain
-- Earth Power
-- Protect
+- Brave Bird
+- Close Combat
+- U-turn
+- Final Gambit

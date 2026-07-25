@@ -1,59 +1,59 @@
-Staraptor @ Staraptite
-Ability: Intimidate
-Level: 50
-EVs: 31 HP / 32 Atk / 3 Spe
-Adamant Nature
-- Close Combat
-- Roost
-- Dual Wingbeat
-- Protect
-
-Grimmsnarl (M) @ Roseli Berry
-Ability: Prankster
-Level: 50
-EVs: 32 HP / 12 Def / 22 SpD
-Sassy Nature
-- Parting Shot
-- Spirit Break
-- Scary Face
-- Fake Out
-
-Delphox @ Delphoxite
+Charizard @ Charizardite Y
 Ability: Blaze
 Level: 50
-EVs: 16 HP / 16 Def / 2 SpA / 32 Spe
-Timid Nature
+EVs: 18 HP / 32 Def / 13 SpA / 3 Spe
+Modest Nature
 - Heat Wave
-- Psyshock
-- Nasty Plot
+- Weather Ball
+- Solar Beam
 - Protect
 
-Garchomp @ Choice Scarf
+Venusaur @ Life Orb
+Ability: Chlorophyll
+Level: 50
+EVs: 14 HP / 20 SpA / 32 Spe
+Modest Nature
+- Leaf Storm
+- Sludge Bomb
+- Sleep Powder
+- Protect
+
+Garchomp @ Garchompite
 Ability: Rough Skin
 Level: 50
-EVs: 6 HP / 32 Atk / 1 SpD / 27 Spe
+EVs: 27 HP / 24 Atk / 2 Def / 6 SpD / 7 Spe
 Adamant Nature
-- Earthquake
-- Dragon Claw
 - Rock Slide
-- Dragon Tail
+- Dragon Claw
+- Earthquake
+- Protect
 
-Kingambit @ Sitrus Berry
-Ability: Defiant
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
 Level: 50
-EVs: 32 HP / 4 Atk / 30 SpD
-Brave Nature
-- Kowtow Cleave
-- Iron Head
-- Sucker Punch
-- Swords Dance
+EVs: 29 HP / 9 Def / 28 SpD
+Modest Nature
+- Psychic
+- Thunderbolt
+- Protect
+- Trick Room
 
-Sinistcha @ Occa Berry
-Ability: Hospitality
+Incineroar @ Sitrus Berry
+Ability: Intimidate
 Level: 50
-EVs: 31 HP / 12 Def / 23 SpD
-Quiet Nature
-- Matcha Gotcha
-- Rage Powder
-- Psych Up
+EVs: 32 HP / 8 Atk / 9 Def / 15 SpD / 2 Spe
+Careful Nature
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+- Fake Out
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 23 HP / 15 Def / 25 SpA / 3 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
 - Protect

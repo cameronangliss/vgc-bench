@@ -1,0 +1,59 @@
+Meowstic (M) @ Bright Powder
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 24 Def / 10 SpD
+Impish Nature
+- Yawn
+- Skill Swap
+- Sunny Day
+- Fake Out
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Poison Jab
+- Close Combat
+- Quick Guard
+- Fake Out
+
+Overqwil @ Leftovers
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 1 Atk / 5 Def / 15 SpD / 13 Spe
+Careful Nature
+- Barb Barrage
+- Stockpile
+- Minimize
+- Protect
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 25 HP / 11 Def / 1 SpA / 29 Spe
+Timid Nature
+- Heat Wave
+- Stored Power
+- Psych Up
+- Protect
+
+Sableye @ Sablenite
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Sassy Nature
+- Foul Play
+- Dark Pulse
+- Pain Split
+- Psych Up
+
+Klefki @ Sitrus Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 29 Def / 5 SpD
+Bold Nature
+- Draining Kiss
+- Calm Mind
+- Substitute
+- Psych Up

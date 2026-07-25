@@ -1,0 +1,59 @@
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Stomping Tantrum
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Basculegion (M) @ Sitrus Berry
+Ability: Adaptability
+Level: 50
+EVs: 7 HP / 28 Atk / 11 Def / 15 SpD / 5 Spe
+Adamant Nature
+- Wave Crash
+- Aqua Jet
+- Last Respects
+- Protect
+
+Dragonite @ Dragoninite
+Ability: Inner Focus
+Level: 50
+EVs: 11 HP / 32 SpA / 23 Spe
+Timid Nature
+- Draco Meteor
+- Air Slash
+- Tailwind
+- Haze
+
+Scovillain @ Scovillainite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Bold Nature
+- Overheat
+- Leech Seed
+- Rage Powder
+- Protect
+
+Gholdengo @ Focus Sash
+Ability: Good as Gold
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Make It Rain
+- Shadow Ball
+- Power Gem
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 25 HP / 27 Def / 13 SpA / 1 SpD
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Yawn
+- Protect

@@ -1,0 +1,59 @@
+Absol (M) @ Life Orb
+Ability: Justified
+Level: 50
+EVs: 27 HP / 32 Atk / 4 Def / 3 SpD
+Brave Nature
+- Rock Slide
+- Sucker Punch
+- Close Combat
+- Detect
+
+Camerupt (M) @ Cameruptite
+Ability: Solid Rock
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Heat Wave
+- Earth Power
+- Ancient Power
+- Protect
+
+Kangaskhan (F) @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Double-Edge
+- Fake Out
+- Hammer Arm
+- Ice Punch
+
+Mimikyu (M) @ Iron Ball
+Ability: Disguise
+Level: 50
+EVs: 32 HP / 14 Atk / 20 Def
+Brave Nature
+- Play Rough
+- Beat Up
+- Psych Up
+- Trick Room
+
+Farigiraf (M) @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 22 Def / 12 SpD
+Relaxed Nature
+- Twin Beam
+- Beat Up
+- Trick Room
+- Protect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Last Respects
+- Liquidation
+- Aqua Jet
+- Protect

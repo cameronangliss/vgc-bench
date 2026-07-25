@@ -1,51 +1,59 @@
-Staraptor-Mega @ Staraptite
-Ability: Contrary
+Staraptor @ Choice Scarf
+Ability: Intimidate
 Level: 50
-EVs: 31 HP / 10 Def / 23 SpD / 2 Spe
-Impish Nature
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
 - Brave Bird
+- Final Gambit
+- U-turn
 - Close Combat
-- Roost
+
+Scrafty @ Life Orb
+Ability: Moxie
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Knock Off
+- Drain Punch
+- Fake Out
+- Close Combat
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 25 HP / 26 Def / 15 SpD
+Bold Nature
+- Psychic
+- Thunderbolt
+- Trick Room
 - Protect
 
-Glimmora-Mega @ Glimmoranite
-Ability: Adaptability
-Level: 50
-EVs: 27 HP / 21 Def / 18 SpD
-Bold Nature
-- Sludge Bomb
-- Power Gem
-- Earth Power
-- Spiky Shield
-
-Kingambit @ Black Glasses
-Ability: Defiant
+Mawile @ Mawilite
+Ability: Intimidate
 Level: 50
 EVs: 32 HP / 32 Atk / 2 SpD
-Adamant Nature
-- Swords Dance
-- Kowtow Cleave
+Brave Nature
+- Rock Slide
+- Play Rough
 - Sucker Punch
 - Protect
 
-Dragapult @ Focus Sash
-Ability: Cursed Body
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Heat Wave
+- Protect
+
+Vileplume @ Wide Lens
+Ability: Chlorophyll
 Level: 50
 EVs: 2 HP / 32 SpA / 32 Spe
 Timid Nature
-- Draco Meteor
-- Will-O-Wisp
-- Hex
-- Protect
-
-Alcremie (F) @ Chople Berry
-Ability: Sweet Veil
-Level: 50
-EVs: 32 HP
-- Dazzling Gleam
-
-Araquanid @ Babiri Berry
-Ability: Water Bubble
-Level: 50
-EVs: 32 HP
-- Facade
+- After You
+- Sludge Bomb
+- Sleep Powder
+- Leaf Storm

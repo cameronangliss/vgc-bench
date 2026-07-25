@@ -1,0 +1,59 @@
+Vileplume @ Wide Lens
+Ability: Chlorophyll
+Level: 50
+EVs: 31 HP / 3 Def / 32 Spe
+Timid Nature
+- Leaf Storm
+- Sludge Bomb
+- Sleep Powder
+- After You
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 Spe
+Quiet Nature
+- Eruption
+- Weather Ball
+- Solar Beam
+- Protect
+
+Meowscarada @ Focus Sash
+Ability: Protean
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Foul Play
+- Power Gem
+- U-turn
+- Trick Room
+
+Farigiraf @ Iron Ball
+Ability: Armor Tail
+Level: 50
+EVs: 16 HP / 32 Def / 18 SpD
+Relaxed Nature
+- Psychic Fangs
+- Helping Hand
+- Skill Swap
+- Trick Room
+
+Mawile @ Mawilite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Brave Nature
+- Play Rough
+- Rock Slide
+- Sucker Punch
+- Protect
+
+Staraptor @ Choice Scarf
+Ability: Reckless
+Level: 50
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
+- Brave Bird
+- Final Gambit
+- Close Combat
+- U-turn

@@ -1,59 +1,59 @@
-Metagross @ Metagrossite
-Ability: Clear Body
+Delphox @ Delphoxite
+Ability: Blaze
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Adamant Nature
-- Protect
-- Meteor Mash
-- Bullet Punch
-- Psychic Fangs
-
-Hydreigon @ Choice Scarf
-Ability: Levitate
-Level: 50
-EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+EVs: 21 HP / 8 Def / 11 SpA / 26 Spe
 Modest Nature
-- Draco Meteor
-- Dark Pulse
-- Snarl
-- Earth Power
-
-Whimsicott @ Focus Sash
-Ability: Prankster
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Moonblast
-- Tailwind
-- Encore
+- Heat Wave
+- Psyshock
+- Nasty Plot
 - Protect
 
-Kommo-o @ Sitrus Berry
-Ability: Soundproof
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
 Level: 50
-EVs: 12 HP / 32 SpA / 22 Spe
-Modest Nature
-- Clanging Scales
-- Aura Sphere
-- Clangorous Soul
+EVs: 32 HP / 30 Def / 2 SpD / 2 Spe
+Impish Nature
+- Super Fang
+- Helping Hand
+- Follow Me
 - Protect
 
-Ceruledge @ Colbur Berry
-Ability: Flash Fire
+Incineroar @ Leftovers
+Ability: Intimidate
 Level: 50
-EVs: 14 HP / 32 Atk / 2 SpD / 18 Spe
+EVs: 32 HP / 14 Def / 10 SpD / 10 Spe
+Careful Nature
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+- Fake Out
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 28 SpD / 2 Spe
+Bold Nature
+- Leaf Storm
+- Life Dew
+- Rage Powder
+- Protect
+
+Basculegion (M) @ Life Orb
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 14 Def / 20 Spe
 Adamant Nature
-- Bitter Blade
-- Shadow Sneak
-- Poltergeist
+- Wave Crash
+- Last Respects
+- Aqua Jet
 - Protect
 
-Ninetales-Alola @ Never-Melt Ice
-Ability: Snow Warning
+Malamar @ Malamarite
+Ability: Contrary
 Level: 50
-EVs: 3 HP / 1 Def / 31 SpA / 2 SpD / 29 Spe
-Timid Nature
-- Blizzard
-- Freeze-Dry
-- Aurora Veil
+EVs: 32 HP / 29 Atk / 5 Spe
+Adamant Nature
+- Knock Off
+- Psycho Cut
+- Superpower
 - Protect

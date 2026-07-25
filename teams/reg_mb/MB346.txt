@@ -1,59 +1,59 @@
-Staraptor @ Staraptite
-Ability: Intimidate
+Lycanroc-Dusk @ Focus Sash
+Ability: Tough Claws
 Level: 50
-EVs: 27 HP / 4 Atk / 9 Def / 26 Spe
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
 Jolly Nature
-- Protect
-- Dual Wingbeat
+- Accelerock
+- Rock Slide
 - Close Combat
-- Roost
+- Protect
+
+Froslass-Mega @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 15 Def / 1 SpA / 18 Spe
+Timid Nature
+- Shadow Ball
+- Blizzard
+- Aurora Veil
+- Protect
+
+Scovillain-Mega @ Scovillainite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Calm Nature
+- Giga Drain
+- Overheat
+- Rage Powder
+- Protect
 
 Gholdengo @ Leftovers
 Ability: Good as Gold
 Level: 50
-EVs: 27 HP / 7 Def / 17 SpA / 1 SpD / 14 Spe
+EVs: 27 HP / 6 Def / 1 SpA / 32 Spe
 Modest Nature
-- Make It Rain
 - Shadow Ball
-- Protect
-- Power Gem
-
-Delphox @ Delphoxite
-Ability: Blaze
-Level: 50
-EVs: 11 HP / 32 Def / 21 SpA / 2 Spe
-Bold Nature
-- Heat Wave
-- Protect
+- Make It Rain
 - Nasty Plot
-- Psychic
+- Protect
 
-Grimmsnarl @ Light Clay
-Ability: Prankster
+Incineroar @ Passho Berry
+Ability: Intimidate
 Level: 50
-EVs: 32 HP / 10 Atk / 12 Def / 12 SpD
-Adamant Nature
-- Spirit Break
-- Reflect
-- Light Screen
+EVs: 32 HP / 14 Def / 15 SpD / 5 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
 - Parting Shot
 
-Basculegion @ Life Orb
-Ability: Adaptability
+Dragonite @ Dragon Fang
+Ability: Multiscale
 Level: 50
-EVs: 27 Atk / 7 Def / 32 Spe
+EVs: 25 HP / 26 Atk / 1 Def / 14 Spe
 Adamant Nature
-- Last Respects
+- Dragon Claw
+- Low Kick
+- Tailwind
 - Protect
-- Wave Crash
-- Aqua Jet
-
-Sinistcha @ Sitrus Berry
-Ability: Hospitality
-Level: 50
-EVs: 32 HP / 9 Def / 1 SpA / 23 SpD / 1 Spe
-Calm Nature
-- Rage Powder
-- Protect
-- Matcha Gotcha
-- Life Dew

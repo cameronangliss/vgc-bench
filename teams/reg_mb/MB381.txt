@@ -1,0 +1,59 @@
+Scolipede @ Scolipite
+Ability: Speed Boost
+Level: 50
+EVs: 32 HP / 6 Atk / 28 Spe
+Jolly Nature
+- Leech Life
+- Poison Jab
+- Swords Dance
+- Protect
+
+Raichu @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 32 HP / 10 Def / 24 Spe
+Timid Nature
+- Zap Cannon
+- Focus Blast
+- Protect
+- Fake Out
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 4 Def / 30 SpD
+Relaxed Nature
+- Matcha Gotcha
+- Life Dew
+- Protect
+- Rage Powder
+
+Weavile @ Focus Sash
+Ability: Pickpocket
+Level: 50
+EVs: 3 HP / 32 Atk / 31 Spe
+Jolly Nature
+- Knock Off
+- Triple Axel
+- Low Kick
+- Fake Out
+
+Ceruledge @ Colbur Berry
+Ability: Flash Fire
+Level: 50
+EVs: 32 HP / 25 Atk / 9 Def
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Protect
+- Bulk Up
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 31 HP / 14 Def / 5 SpD / 16 Spe
+Calm Nature
+- Muddy Water
+- Coil
+- Protect
+- Hypnosis

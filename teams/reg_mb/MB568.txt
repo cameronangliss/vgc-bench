@@ -1,0 +1,59 @@
+Mawile (F) @ Mawilite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
+Brave Nature
+- Play Rough
+- Sucker Punch
+- Rock Slide
+- Protect
+
+Charizard (M) @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 16 HP / 18 Def / 21 SpA / 11 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Farigiraf (M) @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 28 HP / 13 Def / 10 SpA / 15 SpD
+Modest Nature
+- Psychic
+- Thunderbolt
+- Helping Hand
+- Trick Room
+
+Garchomp (M) @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 31 Atk / 3 Def / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Venusaur (M) @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Leaf Storm
+- Sludge Bomb
+- Sleep Powder
+- Protect
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 30 HP / 6 Atk / 9 Def / 20 SpD / 1 Spe
+Careful Nature
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+- Fake Out

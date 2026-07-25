@@ -1,59 +1,59 @@
-Gardevoir @ Gardevoirite
-Ability: Trace
+Gengar @ Gengarite
+Ability: Cursed Body
 Level: 50
-EVs: 32 HP / 2 Def / 32 SpA
-Modest Nature
-- Hyper Voice
-- Psychic
-- Trick Room
-- Protect
-
-Farigiraf @ Colbur Berry
-Ability: Armor Tail
-Level: 50
-EVs: 32 HP / 13 Def / 21 SpD
-Quiet Nature
-- Psychic
-- Hyper Voice
-- Trick Room
-- Protect
-
-Sneasler @ Life Orb
-Ability: Poison Touch
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Poison Jab
-- Close Combat
-- Rock Slide
-- Protect
-
-Pelipper @ Focus Sash
-Ability: Drizzle
-Level: 50
-EVs: 32 HP / 11 SpA / 23 Spe
-Modest Nature
-- Hurricane
-- Weather Ball
-- Tailwind
-- Protect
-
-Archaludon @ Leftovers
-Ability: Stamina
-Level: 50
-EVs: 32 HP / 3 Def / 1 SpA / 30 SpD
-Modest Nature
-- Flash Cannon
-- Dragon Pulse
-- Electro Shot
-- Protect
-
-Venusaur @ Venusaurite
-Ability: Chlorophyll
-Level: 50
-EVs: 20 HP / 9 Def / 18 SpA / 4 SpD / 15 Spe
-Modest Nature
-- Giga Drain
+EVs: 32 HP / 23 Def / 11 SpD
+Calm Nature
+- Shadow Ball
 - Sludge Bomb
-- Earth Power
+- Perish Song
+- Protect
+
+Incineroar @ Passho Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 30 Def / 5 SpD
+Relaxed Nature
+- Fake Out
+- Flare Blitz
+- Parting Shot
+- Protect
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 30 HP / 16 Atk / 15 Def / 5 Spe
+Adamant Nature
+- Dragon Claw
+- Stomping Tantrum
+- Rock Tomb
+- Protect
+
+Dragonite @ Dragon Fang
+Ability: Multiscale
+Level: 50
+EVs: 25 HP / 32 Atk / 5 Def / 4 SpD
+Adamant Nature
+- Dragon Claw
+- Low Kick
+- Extreme Speed
+- Protect
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Encore
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 19 Atk / 15 SpD
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick
 - Protect

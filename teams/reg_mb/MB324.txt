@@ -1,59 +1,59 @@
-Charizard @ Charizardite Y
-Ability: Blaze
+Gholdengo @ Life Orb
+Ability: Good as Gold
 Level: 50
-EVs: 32 HP / 9 Def / 11 SpA / 14 Spe
+EVs: 11 HP / 2 Def / 32 SpA / 21 Spe
 Modest Nature
-- Heat Wave
-- Weather Ball
-- Solar Beam
+- Make It Rain
+- Shadow Ball
 - Protect
+- Power Gem
 
-Farigiraf @ Colbur Berry
-Ability: Armor Tail
+Tsareena (F) @ Sitrus Berry
+Ability: Queenly Majesty
 Level: 50
-EVs: 29 HP / 9 Def / 28 SpD
-Modest Nature
-- Psychic
-- Thunderbolt
-- Helping Hand
-- Trick Room
-
-Venusaur @ Focus Sash
-Ability: Chlorophyll
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Leaf Storm
-- Sludge Bomb
-- Sleep Powder
+EVs: 32 HP / 8 Atk / 6 Def / 20 Spe
+Impish Nature
+- Trop Kick
+- Knock Off
 - Protect
+- Triple Axel
 
-Garchomp @ Life Orb
-Ability: Rough Skin
+Whimsicott @ Focus Sash
+Ability: Prankster
 Level: 50
-EVs: 6 HP / 26 Atk / 2 SpD / 32 Spe
-Jolly Nature
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Moonblast
+- Encore
+- Tailwind
+
+Palafin @ Choice Scarf
+Ability: Zero to Hero
+Level: 50
+EVs: 10 HP / 32 Atk / 24 Spe
+Adamant Nature
+- Wave Crash
+- Close Combat
+- Flip Turn
+- Jet Punch
+
+Blaziken @ Blazikenite
+Ability: Speed Boost
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Detect
 - Rock Slide
-- Dragon Claw
-- Earthquake
-- Protect
-
-Incineroar @ Sitrus Berry
-Ability: Intimidate
-Level: 50
-EVs: 32 HP / 8 Atk / 11 Def / 12 SpD / 3 Spe
-Careful Nature
+- Close Combat
 - Flare Blitz
-- Darkest Lariat
-- Parting Shot
-- Fake Out
 
-Sylveon @ Fairy Feather
-Ability: Pixilate
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 21 HP / 13 Def / 25 SpA / 7 Spe
+EVs: 14 Def / 20 SpA / 32 Spe
 Modest Nature
-- Hyper Voice
-- Hyper Beam
-- Quick Attack
+- Light of Ruin
 - Protect
+- Energy Ball
+- Dazzling Gleam

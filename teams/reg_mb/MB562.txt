@@ -1,0 +1,59 @@
+Tyranitar (M) @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 16 HP / 16 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Protect
+
+Excadrill (F) @ Focus Sash
+Ability: Sand Rush
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- High Horsepower
+- Iron Head
+- Rock Slide
+- Protect
+
+Staraptor (F) @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 23 HP / 11 Atk / 32 Spe
+Jolly Nature
+- Brave Bird
+- Close Combat
+- Tailwind
+- Protect
+
+Milotic (F) @ Sitrus Berry
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 12 Def / 11 SpA / 11 Spe
+Modest Nature
+- Scald
+- Ice Beam
+- Recover
+- Protect
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 17 HP / 17 SpA / 32 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
+
+Sinistcha-Masterpiece @ Colbur Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 10 Def / 25 SpD
+Relaxed Nature
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Protect

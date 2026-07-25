@@ -1,0 +1,61 @@
+Sneasler (F) @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Dire Claw
+- Coaching
+- Close Combat
+- Fake Out
+
+Mawile-Mega (F) @ Mawilite
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+EVs: 29 HP / 24 Atk / 12 SpD / 1 Spe
+Adamant Nature
+- Play Rough
+- Sucker Punch
+- Iron Head
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 17 HP / 22 Def / 10 SpA / 17 SpD
+Bold Nature
+- Psychic
+- Trick Room
+- Grass Knot
+- Helping Hand
+
+Dragonite-Mega @ Dragoninite
+Ability: Multiscale
+Level: 50
+Shiny: Yes
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Modest Nature
+- Thunderbolt
+- Hurricane
+- Dragon Pulse
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- Wide Guard
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Brick Break
+- Protect

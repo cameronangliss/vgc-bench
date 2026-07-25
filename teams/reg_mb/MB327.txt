@@ -1,59 +1,59 @@
-Ninetales-Alola @ Never-Melt Ice
-Ability: Snow Warning
+Mimikyu @ Life Orb
+Ability: Disguise
 Level: 50
-EVs: 11 HP / 1 Def / 24 SpA / 1 SpD / 29 Spe
-Timid Nature
-- Blizzard
-- Freeze-Dry
-- Icy Wind
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Play Rough
+- Shadow Claw
+- Shadow Sneak
 - Protect
 
-Blaziken @ Blazikenite
-Ability: Speed Boost
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
+EVs: 32 HP / 10 Atk / 2 Def / 22 Spe
 Adamant Nature
-- Flare Blitz
-- Close Combat
+- Dragon Claw
+- Earthquake
 - Rock Slide
-- Detect
-
-Basculegion (M) @ Life Orb
-Ability: Adaptability
-Level: 50
-EVs: 4 HP / 28 Atk / 10 Def / 24 Spe
-Adamant Nature
-- Wave Crash
-- Last Respects
-- Aqua Jet
 - Protect
 
-Kingambit @ Black Glasses
-Ability: Defiant
+Venusaur @ Focus Sash
+Ability: Chlorophyll
 Level: 50
-EVs: 32 HP / 15 Atk / 19 SpD
-Adamant Nature
-- Iron Head
-- Kowtow Cleave
-- Sucker Punch
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Sleep Powder
+- Earth Power
+- Sludge Bomb
 - Protect
 
-Sinistcha @ Coba Berry
-Ability: Hospitality
+Charizard @ Charizardite Y
+Ability: Blaze
 Level: 50
-EVs: 32 HP / 30 Def / 4 SpD
-Bold Nature
-- Matcha Gotcha
-- Rage Powder
-- Trick Room
+EVs: 22 HP / 32 Def / 1 SpA / 11 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
 - Protect
 
-Sneasler @ Focus Sash
-Ability: Unburden
+Incineroar @ Chople Berry
+Ability: Intimidate
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Naive Nature
+EVs: 32 HP / 1 Atk / 1 Def / 16 SpD / 16 Spe
+Careful Nature
 - Fake Out
-- Dire Claw
-- Close Combat
-- Coaching
+- Flare Blitz
+- Parting Shot
+- Throat Chop
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 31 HP / 30 Def / 5 SpD
+Calm Nature
+- Muddy Water
+- Coil
+- Hypnosis
+- Protect

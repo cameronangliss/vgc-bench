@@ -1,59 +1,59 @@
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
+Swampert @ Swampertite
+Ability: Torrent
 Level: 50
-EVs: 8 HP / 1 Def / 25 SpA / 32 Spe
-Modest Nature
-- Moonblast
-- Dazzling Gleam
-- Light of Ruin
-- Protect
-
-Charizard @ Charizardite Y
-Ability: Blaze
-Level: 50
-EVs: 16 HP / 25 Def / 12 SpA / 13 Spe
-Modest Nature
-- Heat Wave
-- Weather Ball
-- Solar Beam
-- Protect
-
-Whimsicott @ Focus Sash
-Ability: Prankster
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Moonblast
-- Tailwind
-- Encore
-- Protect
-
-Garchomp @ Life Orb
-Ability: Rough Skin
-Level: 50
-EVs: 32 Atk / 1 SpD / 32 Spe
-Jolly Nature
-- Dragon Claw
-- Stomping Tantrum
-- Rock Slide
-- Protect
-
-Basculegion (M) @ Mystic Water
-Ability: Adaptability
-Level: 50
-EVs: 4 HP / 31 Atk / 11 Def / 20 Spe
+EVs: 25 HP / 20 Atk / 21 Spe
 Adamant Nature
+- High Horsepower
 - Wave Crash
-- Last Respects
-- Aqua Jet
+- Ice Punch
 - Protect
 
-Kingambit @ Chople Berry
-Ability: Defiant
+Archaludon @ Leftovers
+Ability: Stamina
 Level: 50
-EVs: 32 HP / 32 Atk / 1 SpD / 1 Spe
-Adamant Nature
-- Kowtow Cleave
+EVs: 28 HP / 15 SpA / 17 SpD / 6 Spe
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Aura Sphere
+- Protect
+
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
 - Iron Head
-- Sucker Punch
-- Low Kick
+- Ice Punch
+- Stomping Tantrum
+- Protect
+
+Incineroar @ Passho Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 5 Atk / 13 Def / 10 SpD / 6 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Rock Slide
+- Coaching
+
+Pelipper @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 31 HP / 5 SpA / 22 SpD / 8 Spe
+Modest Nature
+- Tailwind
+- Weather Ball
+- Hurricane
+- Protect

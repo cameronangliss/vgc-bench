@@ -1,59 +1,59 @@
-Gallade (M) @ Galladite
-Ability: Sharpness
+Meganium @ Meganiumite
+Ability: Leaf Guard
 Level: 50
-EVs: 32 HP / 2 Def / 32 Spe
-Jolly Nature
-- Drain Punch
-- Shadow Claw
-- Swords Dance
-- Psych Up
-
-Clefable @ Clefablite
-Ability: Unaware
-Level: 50
-EVs: 32 HP / 27 Def / 1 SpA / 1 SpD / 5 Spe
-Bold Nature
-- Moonblast
-- Calm Mind
-- Moonlight
-- Psych Up
-
-Overqwil @ Leftovers
-Ability: Intimidate
-Level: 50
-EVs: 32 HP / 5 Def / 29 SpD
-Impish Nature
+EVs: 32 HP / 2 Def / 7 SpA / 25 Spe
+Modest Nature
+- Solar Beam
+- Weather Ball
+- Dazzling Gleam
 - Protect
-- Minimize
-- Stockpile
-- Barb Barrage
 
-Sinistcha @ Coba Berry
-Ability: Hospitality
+Pelipper @ Focus Sash
+Ability: Drizzle
 Level: 50
-EVs: 32 HP / 14 Def / 20 SpD
-Bold Nature
-- Protect
-- Rage Powder
-- Life Dew
-- Matcha Gotcha
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Weather Ball
+- Hurricane
+- Wide Guard
+- Tailwind
 
-Sableye @ Roseli Berry
+Swampert @ Swampertite
+Ability: Torrent
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Earthquake
+- Wave Crash
+- Knock Off
+- Protect
+
+Sableye @ Wide Lens
 Ability: Prankster
 Level: 50
-EVs: 32 HP / 9 Def / 25 SpD
+EVs: 32 HP / 2 Def / 32 SpD
 Calm Nature
-- Fake Out
-- Encore
-- Disable
-- Skill Swap
+- Taunt
+- Swagger
+- Rain Dance
+- Will-O-Wisp
 
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
+Archaludon @ Leftovers
+Ability: Stamina
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Jolly Nature
-- Wave Crash
-- Last Respects
-- Aqua Jet
-- Flip Turn
+EVs: 32 HP / 12 SpA / 22 SpD
+Modest Nature
+- Electro Shot
+- Flash Cannon
+- Dragon Pulse
+- Protect
+
+Sneasler @ Lum Berry
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect

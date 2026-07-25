@@ -1,59 +1,59 @@
-Sinistcha @ Kasib Berry
-Ability: Hospitality
+Froslass (F) @ Froslassite
+Ability: Cursed Body
 Level: 50
-EVs: 32 HP / 4 Def / 30 SpD
-Relaxed Nature
-- Matcha Gotcha
-- Life Dew
-- Rage Powder
+EVs: 18 HP / 7 Def / 27 SpA / 10 SpD / 4 Spe
+Timid Nature
 - Protect
+- Aurora Veil
+- Blizzard
+- Shadow Ball
 
-Incineroar @ Sitrus Berry
+Whimsicott @ Fairy Feather
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 15 Def / 9 SpA / 10 SpD
+Bold Nature
+- Protect
+- Tailwind
+- Encore
+- Moonblast
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Spiky Shield
+- Power Gem
+- Sludge Bomb
+- Earth Power
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 16 HP / 25 Atk / 6 Def / 2 SpD / 17 Spe
+Adamant Nature
+- Protect
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+
+Gyarados @ Expert Belt
 Ability: Intimidate
 Level: 50
-EVs: 32 HP / 24 Def / 8 SpD / 2 Spe
-Impish Nature
-- Flare Blitz
-- Throat Chop
-- Fake Out
-- Parting Shot
-
-Milotic @ Leftovers
-Ability: Competitive
-Level: 50
-EVs: 32 HP / 27 Def / 5 SpD / 2 Spe
-Calm Nature
-- Muddy Water
-- Coil
-- Hypnosis
-- Protect
-
-Raichu @ Raichunite Y
-Ability: Lightning Rod
-Level: 50
-EVs: 30 HP / 13 Def / 23 Spe
-Timid Nature
-- Zap Cannon
-- Focus Blast
-- Fake Out
-- Protect
-
-Floette-Mega @ Floettite
-Ability: Flower Veil
-Level: 50
-EVs: 7 HP / 27 Def / 32 Spe
-Timid Nature
-- Dazzling Gleam
-- Draining Kiss
-- Calm Mind
-- Protect
-
-Ceruledge @ Colbur Berry
-Ability: Flash Fire
-Level: 50
-EVs: 31 HP / 25 Atk / 10 Def
+EVs: 29 HP / 13 Atk / 13 Def / 5 SpD / 6 Spe
 Adamant Nature
-- Bitter Blade
-- Shadow Sneak
-- Bulk Up
 - Protect
+- Waterfall
+- Power Whip
+- Temper Flare
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 30 HP / 15 Atk / 8 Def / 10 SpD / 3 Spe
+Adamant Nature
+- Protect
+- Swords Dance
+- Kowtow Cleave
+- Sucker Punch

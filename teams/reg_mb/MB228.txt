@@ -1,59 +1,64 @@
-Hydreigon @ Choice Scarf
-Ability: Levitate
+Dragalge-Mega (F) @ Dragalgite
+Ability: Regenerator
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Dark Pulse
-- Flamethrower
+Shiny: Yes
+EVs: 32 HP / 1 Def / 29 SpA / 4 SpD
+Calm Nature
 - Draco Meteor
-- U-turn
+- Sludge Bomb
+- Dragon Pulse
+- Protect
 
-Metagross @ Metagrossite
-Ability: Clear Body
+Gholdengo @ Metal Coat
+Ability: Good as Gold
 Level: 50
+EVs: 31 HP / 2 Def / 21 SpA / 3 SpD / 9 Spe
+Modest Nature
+- Make It Rain
+- Protect
+- Nasty Plot
+- Shadow Ball
+
+Staraptor-Mega (M) @ Staraptite
+Ability: Contrary
+Level: 50
+Shiny: Yes
 EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
 Jolly Nature
-- Bullet Punch
-- Psychic Fangs
-- Earthquake
-- Ice Punch
+- Close Combat
+- Dual Wingbeat
+- Roost
+- Protect
 
-Ninetales-Alola @ Focus Sash
-Ability: Snow Warning
+Whimsicott (F) @ Focus Sash
+Ability: Prankster
 Level: 50
-EVs: 1 HP / 32 SpA / 32 Spe
+Shiny: Yes
+EVs: 2 Def / 32 SpA / 32 Spe
 Timid Nature
-- Blizzard
-- Freeze-Dry
+- Tailwind
+- Charm
 - Moonblast
-- Ice Beam
+- Protect
 
-Mimikyu @ Life Orb
-Ability: Disguise
+Incineroar (M) @ Charcoal
+Ability: Intimidate
 Level: 50
-EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Shiny: Yes
+EVs: 31 HP / 28 Atk / 5 SpD / 2 Spe
 Adamant Nature
-- Shadow Claw
-- Play Rough
-- Shadow Sneak
-- Swords Dance
+- Fake Out
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
 
-Charizard @ Charizardite Y
-Ability: Blaze
+Farigiraf (F) @ Sitrus Berry
+Ability: Armor Tail
 Level: 50
-EVs: 16 HP / 24 Def / 11 SpA / 15 Spe
-Modest Nature
+Shiny: Yes
+EVs: 32 HP / 5 Def / 15 SpA / 14 SpD
+Quiet Nature
+- Trick Room
+- Twin Beam
+- Thunderbolt
 - Protect
-- Heat Wave
-- Solar Beam
-- Weather Ball
-
-Venusaur @ Venusaurite
-Ability: Chlorophyll
-Level: 50
-EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
-Modest Nature
-- Protect
-- Giga Drain
-- Earth Power
-- Leech Seed

@@ -1,62 +1,62 @@
-Charizard-Mega-Y @ Charizardite Y
-Ability: Blaze
+Kommo-o @ Dragon Fang
+Ability: Soundproof
 Level: 50
 Shiny: Yes
-EVs: 6 HP / 16 Def / 30 SpA / 14 Spe
+EVs: 31 HP / 30 SpA / 5 SpD
 Modest Nature
-- Heat Wave
-- Weather Ball
-- Solar Beam
+- Clanging Scales
+- Aura Sphere
+- Clangorous Soul
 - Protect
 
-Metagross-Mega @ Metagrossite
-Ability: Clear Body
+Gholdengo @ Life Orb
+Ability: Good as Gold
 Level: 50
-EVs: 2 HP / 21 Atk / 11 Def / 32 Spe
-Jolly Nature
-- Trailblaze
-- Rock Slide
-- Psychic Fangs
-- Bullet Punch
+EVs: 31 HP / 10 Def / 15 SpA / 10 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
+- Protect
 
-Venusaur @ Life Orb
-Ability: Chlorophyll
+Floette-Mega (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpA
+Modest Nature
+- Light of Ruin
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Tsareena @ Wide Lens
+Ability: Queenly Majesty
 Level: 50
 Shiny: Yes
-EVs: 27 HP / 22 Def / 9 SpA / 8 SpD
-Bold Nature
-- Sludge Bomb
-- Giga Drain
-- Frenzy Plant
-- Protect
-
-Sableye @ Light Clay
-Ability: Prankster
-Level: 50
-EVs: 28 HP / 4 Atk / 17 Def / 17 SpD
+EVs: 32 HP / 19 Def / 15 SpD
 Impish Nature
-- Sunny Day
-- Light Screen
-- Reflect
-- Sucker Punch
+- Power Whip
+- Triple Axel
+- Zen Headbutt
+- Protect
 
-Clefable @ Sitrus Berry
-Ability: Unaware
+Incineroar @ Sitrus Berry
+Ability: Intimidate
 Level: 50
 Shiny: Yes
-EVs: 32 Def / 7 SpA / 27 SpD
-Bold Nature
-- Follow Me
-- Helping Hand
-- Life Dew
-- Moonblast
+EVs: 32 HP / 2 Atk / 16 Def / 16 SpD
+Careful Nature
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+- Fake Out
 
-Farigiraf @ Colbur Berry
-Ability: Armor Tail
+Aerodactyl-Mega @ Aerodactylite
+Ability: Unnerve
 Level: 50
-EVs: 27 HP / 27 Def / 5 SpA / 7 SpD
-Sassy Nature
-- Reflect
-- Trick Room
-- Helping Hand
-- Hyper Voice
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Dual Wingbeat
+- Wide Guard
+- Tailwind

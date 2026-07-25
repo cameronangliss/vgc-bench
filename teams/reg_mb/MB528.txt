@@ -1,0 +1,59 @@
+Sinistcha @ Occa Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 4 Def / 31 SpD
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Protect
+
+Vivillon (F) @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Sleep Powder
+- Rage Powder
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 10 HP / 29 Def / 5 SpA / 22 Spe
+Modest Nature
+- Moonblast
+- Draining Kiss
+- Calm Mind
+- Protect
+
+Ceruledge (M) @ Colbur Berry
+Ability: Flash Fire
+Level: 50
+EVs: 31 HP / 25 Atk / 10 Def
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Bulk Up
+- Protect
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 12 Def / 10 SpD / 12 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Scrafty (M) @ Scraftinite
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 10 Atk / 10 Def / 15 Spe
+Adamant Nature
+- Fake Out
+- Drain Punch
+- Knock Off
+- Detect

@@ -1,0 +1,59 @@
+Gengar @ Gengarite
+Ability: Cursed Body
+Level: 50
+EVs: 32 HP / 5 Def / 29 Spe
+Modest Nature
+- Protect
+- Shadow Ball
+- Substitute
+- Perish Song
+
+Blastoise @ Sitrus Berry
+Ability: Rain Dish
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Relaxed Nature
+- Protect
+- Fake Out
+- Flip Turn
+- Yawn
+
+Grimmsnarl (M) @ Black Glasses
+Ability: Prankster
+Level: 50
+EVs: 23 HP / 30 Atk / 11 Def / 2 Spe
+Adamant Nature
+- Fake Out
+- Parting Shot
+- Sucker Punch
+- Throat Chop
+
+Altaria @ Leftovers
+Ability: Cloud Nine
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpD
+Relaxed Nature
+- Protect
+- Perish Song
+- Roar
+- Helping Hand
+
+Tinkaton (F) @ Focus Sash
+Ability: Mold Breaker
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Protect
+- Fake Out
+- Gigaton Hammer
+- Encore
+
+Primarina @ Iron Ball
+Ability: Liquid Voice
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Relaxed Nature
+- Protect
+- Flip Turn
+- Moonblast
+- Perish Song

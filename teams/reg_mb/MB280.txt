@@ -1,59 +1,59 @@
-Dragalge @ Dragalgite
-Ability: Adaptability
+Incineroar @ Quick Claw
+Ability: Intimidate
 Level: 50
-EVs: 32 HP / 2 Def / 32 SpA
-Modest Nature
-- Sludge Bomb
-- Dragon Pulse
-- Toxic
-- Protect
-
-Archaludon @ Leftovers
-Ability: Stamina
-Level: 50
-EVs: 32 HP / 30 SpD / 4 Spe
-Modest Nature
-- Electro Shot
-- Aura Sphere
-- Flash Cannon
-- Protect
-
-Pelipper @ Focus Sash
-Ability: Drizzle
-Level: 50
-EVs: 1 HP / 32 SpA / 32 Spe
-Timid Nature
-- Tailwind
-- Weather Ball
-- Hurricane
-- Protect
-
-Grimmsnarl (M) @ Light Clay
-Ability: Prankster
-Level: 50
-EVs: 32 HP / 25 Def / 6 SpD / 3 Spe
-Calm Nature
+EVs: 32 HP / 16 Def / 18 SpD
+Impish Nature
+- Will-O-Wisp
+- Fake Out
 - Parting Shot
-- Foul Play
-- Reflect
-- Light Screen
+- Darkest Lariat
 
-Sinistcha @ Sitrus Berry
-Ability: Hospitality
+Rotom-Wash @ Choice Scarf
+Ability: Levitate
 Level: 50
-EVs: 31 HP / 5 Def / 1 SpA / 29 SpD
-Bold Nature
-- Matcha Gotcha
-- Rage Powder
-- Life Dew
-- Trick Room
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Discharge
+- Trick
+- Volt Switch
+- Will-O-Wisp
 
-Swampert @ Swampertite
-Ability: Torrent
+Sceptile @ Sceptilite
+Ability: Overgrow
 Level: 50
-EVs: 20 HP / 31 Atk / 1 SpD / 14 Spe
-Adamant Nature
-- Wave Crash
-- Earthquake
-- Knock Off
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Earth Power
+- Dragon Pulse
 - Protect
+- Energy Ball
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Quick Attack
+- Hyper Beam
+- Hyper Voice
+- Detect
+
+Raichu @ Focus Sash
+Ability: Lightning Rod
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Discharge
+- Fake Out
+- Endeavor
+- Grass Knot
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Poison Jab

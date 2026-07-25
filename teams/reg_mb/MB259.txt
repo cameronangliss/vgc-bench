@@ -1,59 +1,59 @@
-Staraptor @ Staraptite
+Staraptor @ Choice Scarf
 Ability: Intimidate
 Level: 50
-EVs: 25 HP / 9 Atk / 32 Spe
+EVs: 32 HP / 2 Atk / 32 Spe
 Jolly Nature
-- Dual Wingbeat
+- Final Gambit
 - Close Combat
-- Tailwind
-- Protect
+- Brave Bird
+- U-turn
 
-Maushold-Four @ Chople Berry
-Ability: Friend Guard
-Level: 50
-EVs: 32 HP / 2 SpD / 32 Spe
-Jolly Nature
-- Super Fang
-- Follow Me
-- Beat Up
-- Protect
-
-Delphox @ Delphoxite
-Ability: Blaze
-Level: 50
-EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
-Timid Nature
-- Heat Wave
-- Psychic
-- Nasty Plot
-- Protect
-
-Sinistcha @ Coba Berry
+Sinistcha @ Life Orb
 Ability: Hospitality
 Level: 50
-EVs: 32 HP / 14 Def / 20 SpD
-Bold Nature
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
 - Matcha Gotcha
-- Life Dew
+- Shadow Ball
 - Rage Powder
 - Protect
 
-Annihilape @ Leftovers
-Ability: Defiant
+Farigiraf @ Mental Herb
+Ability: Armor Tail
 Level: 50
-EVs: 24 HP / 1 Atk / 8 Def / 1 SpD / 32 Spe
-Jolly Nature
-- Rage Fist
-- Drain Punch
-- Bulk Up
+EVs: 27 HP / 31 Def / 8 SpD
+Relaxed Nature
+- Psychic Fangs
+- Trick Room
+- Skill Swap
+- Helping Hand
+
+Barbaracle @ Barbaracite
+Ability: Sniper
+Level: 50
+EVs: 26 HP / 32 Atk / 8 Spe
+Adamant Nature
+- Rock Slide
+- Close Combat
+- Protect
+- Shell Smash
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 30 HP / 32 SpA / 4 SpD
+Quiet Nature
+- Eruption
+- Heat Wave
+- Weather Ball
 - Protect
 
-Whimsicott @ Focus Sash
-Ability: Prankster
+Sylveon @ Fairy Feather
+Ability: Pixilate
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Moonblast
-- Tailwind
-- Sunny Day
-- Protect
+EVs: 21 HP / 13 Def / 32 SpA
+Quiet Nature
+- Hyper Voice
+- Quick Attack
+- Detect
+- Calm Mind

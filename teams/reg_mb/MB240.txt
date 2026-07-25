@@ -1,59 +1,59 @@
-Staraptor @ Staraptite
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 17 HP / 32 Def / 2 SpA / 15 SpD
+Relaxed Nature
+- Psychic
+- Thunderbolt
+- Helping Hand
+- Trick Room
+
+Scrafty @ Scraftinite
 Ability: Intimidate
 Level: 50
-EVs: 31 HP / 2 Def / 26 SpD / 7 Spe
+EVs: 31 HP / 30 Atk / 5 Spe
 Adamant Nature
-- Close Combat
-- Brave Bird
-- Roost
+- Knock Off
+- Drain Punch
+- Ice Punch
+- Fake Out
+
+Torkoal @ Leftovers
+Ability: Drought
+Level: 50
+EVs: 32 HP / 20 Def / 14 SpA
+Relaxed Nature
+- Heat Wave
+- Yawn
+- Helping Hand
 - Protect
 
-Grimmsnarl (M) @ Light Clay
-Ability: Prankster
+Kingambit @ Focus Sash
+Ability: Defiant
 Level: 50
-EVs: 32 HP / 19 Def / 15 SpD
-Sassy Nature
-- Parting Shot
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Kowtow Cleave
 - Sucker Punch
-- Reflect
-- Light Screen
+- Low Kick
+- Protect
 
-Venusaur @ Focus Sash
-Ability: Chlorophyll
+Sneasler @ Life Orb
+Ability: Poison Touch
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Leaf Storm
-- Sludge Bomb
-- Earth Power
-- Sleep Powder
-
-Sylveon @ Sitrus Berry
-Ability: Pixilate
-Level: 50
-EVs: 32 HP / 29 Def / 5 SpA
-Modest Nature
-- Hyper Voice
-- Hyper Beam
-- Roar
-- Detect
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Close Combat
+- Poison Jab
+- Rock Slide
+- Protect
 
 Pyroar @ Pyroarite
 Ability: Unnerve
 Level: 50
-EVs: 30 HP / 1 Def / 17 SpA / 18 Spe
-Timid Nature
-- Heat Wave
-- Overheat
-- Flamethrower
-- Protect
-
-Ninetales @ Choice Scarf
-Ability: Drought
-Level: 50
 EVs: 2 HP / 32 SpA / 32 Spe
 Timid Nature
-- Heat Wave
 - Overheat
-- Fake Tears
-- Charm
+- Heat Wave
+- Flamethrower
+- Protect

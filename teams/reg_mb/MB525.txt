@@ -1,0 +1,59 @@
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 29 HP / 10 Atk / 5 SpD / 22 Spe
+Adamant Nature
+- Protect
+- Iron Head
+- Bullet Punch
+- Psychic Fangs
+
+Dragapult @ Life Orb
+Ability: Clear Body
+Level: 50
+EVs: 12 HP / 14 Atk / 17 Def / 1 SpD / 22 Spe
+Jolly Nature
+- Protect
+- Dragon Darts
+- Phantom Force
+- Will-O-Wisp
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+EVs: 3 HP / 1 Def / 32 SpA / 2 SpD / 28 Spe
+Timid Nature
+- Protect
+- Freeze-Dry
+- Blizzard
+- Aurora Veil
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 1 Def / 25 SpA / 1 SpD / 8 Spe
+Modest Nature
+- Protect
+- Thunderbolt
+- Hydro Pump
+- Nasty Plot
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- Dire Claw
+- Close Combat
+- Acrobatics
+- Fake Out

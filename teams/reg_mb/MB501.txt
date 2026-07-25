@@ -1,0 +1,59 @@
+Slowking-Galar (F) @ Shuca Berry
+Ability: Curious Medicine
+Level: 50
+EVs: 32 HP / 10 Def / 24 SpD
+Bold Nature
+- Eerie Spell
+- Trick Room
+- Chilly Reception
+- Heal Pulse
+
+Dragonite (M) @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Draco Meteor
+- Blizzard
+- Protect
+- Flamethrower
+
+Sinistcha @ Leftovers
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Trick Room
+
+Farigiraf (M) @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 29 HP / 16 Def / 10 SpA / 11 SpD
+Quiet Nature
+- Psychic
+- Thunderbolt
+- Trick Room
+- Helping Hand
+
+Mawile (M) @ Mawilite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 15 Atk / 2 Def / 17 SpD
+Brave Nature
+- Protect
+- Play Rough
+- Iron Head
+- Rock Slide
+
+Incineroar (M) @ Passho Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 5 Atk / 15 Def / 3 SpD / 12 Spe
+Adamant Nature
+- Fake Out
+- Throat Chop
+- Parting Shot
+- Flare Blitz

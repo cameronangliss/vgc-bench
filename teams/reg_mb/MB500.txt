@@ -1,0 +1,59 @@
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 1 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Hurricane
+- Tailwind
+- Weather Ball
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 25 Def / 9 SpA
+Modest Nature
+- Matcha Gotcha
+- Shadow Ball
+- Rage Powder
+- Trick Room
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 5 SpA / 21 SpD / 8 Spe
+Modest Nature
+- Electro Shot
+- Protect
+- Dragon Pulse
+- Flash Cannon
+
+Scolipede @ Scolipite
+Ability: Speed Boost
+Level: 50
+EVs: 26 HP / 10 Atk / 30 Spe
+Adamant Nature
+- Protect
+- Leech Life
+- Poison Jab
+- Earthquake
+
+Annihilape @ Choice Scarf
+Ability: Defiant
+Level: 50
+EVs: 24 HP / 10 Atk / 32 Spe
+Jolly Nature
+- Rage Fist
+- Coaching
+- Close Combat
+- U-turn
+
+Greninja @ Greninjite
+Ability: Protean
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Water Shuriken
+- Protect
+- Icy Wind
+- Dark Pulse

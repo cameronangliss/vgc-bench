@@ -1,59 +1,59 @@
-Charizard @ Charizardite Y
-Ability: Blaze
+Eelektross @ Eelektrossite
+Ability: Levitate
 Level: 50
-EVs: 20 HP / 32 Def / 1 SpA / 13 Spe
-Modest Nature
-- Heat Wave
-- Weather Ball
-- Solar Beam
-- Protect
-
-Basculegion (M) @ Life Orb
-Ability: Adaptability
-Level: 50
-EVs: 4 HP / 18 Atk / 11 Def / 1 SpD / 32 Spe
+EVs: 32 HP / 31 Atk / 3 Spe
 Adamant Nature
-- Wave Crash
-- Last Respects
-- Aqua Jet
+- Thunder Punch
+- Drain Punch
+- Coil
 - Protect
 
-Whimsicott @ Focus Sash
+Grimmsnarl (M) @ Roseli Berry
 Ability: Prankster
 Level: 50
-EVs: 2 Def / 32 SpA / 32 Spe
-Timid Nature
-- Tailwind
-- Moonblast
-- Encore
-- Protect
-
-Garchomp @ Roseli Berry
-Ability: Rough Skin
-Level: 50
-EVs: 32 Atk / 2 SpD / 32 Spe
-Jolly Nature
-- Earthquake
-- Dragon Claw
-- Rock Slide
-- Protect
-
-Incineroar @ Sitrus Berry
-Ability: Intimidate
-Level: 50
-EVs: 31 HP / 20 Def / 7 SpD / 8 Spe
-Careful Nature
-- Fake Out
-- Flare Blitz
+EVs: 32 HP / 32 Def / 2 SpD
+Impish Nature
+- Foul Play
+- Reflect
 - Parting Shot
-- Throat Chop
+- Fake Out
 
-Mawile @ Mawilite
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 11 Def / 23 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
+- Protect
+
+Incineroar @ Leftovers
 Ability: Intimidate
 Level: 50
-EVs: 14 HP / 32 Atk / 20 Spe
-Adamant Nature
-- Play Rough
-- Iron Head
-- Sucker Punch
+EVs: 32 HP / 20 Def / 14 SpD
+Impish Nature
+- Flare Blitz
+- Helping Hand
+- Parting Shot
+- Fake Out
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 32 HP / 14 Def / 16 SpA / 4 Spe
+Modest Nature
+- Moonblast
+- Draining Kiss
+- Calm Mind
+- Protect
+
+Gholdengo @ Focus Sash
+Ability: Good as Gold
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Make It Rain
+- Shadow Ball
+- Nasty Plot
 - Protect

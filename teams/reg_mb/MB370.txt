@@ -1,0 +1,59 @@
+Vivillon @ Focus Sash
+Ability: Compound Eyes
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Rage Powder
+- Hurricane
+- Sleep Powder
+- Protect
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Heat Wave
+- Protect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 17 HP / 19 Def / 10 SpA / 20 SpD
+Quiet Nature
+- Psychic
+- Thunderbolt
+- Trick Room
+- Protect
+
+Mawile @ Mawilite
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Rock Slide
+- Play Rough
+- Sucker Punch
+- Protect
+
+Incineroar @ Life Orb
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Brave Nature
+- Fake Out
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+
+Gallade (M) @ Expert Belt
+Ability: Sharpness
+Level: 50
+EVs: 15 HP / 32 Atk / 19 Spe
+Adamant Nature
+- Sacred Sword
+- Psycho Cut
+- Leaf Blade
+- Protect

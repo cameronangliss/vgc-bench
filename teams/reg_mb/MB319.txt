@@ -1,59 +1,59 @@
-Charizard @ Charizardite Y
-Ability: Blaze
+Dragapult @ Dragon Fang
+Ability: Clear Body
 Level: 50
-EVs: 16 HP / 18 Def / 11 SpA / 21 Spe
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Dragon Darts
+- Phantom Force
+- Psychic Fangs
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 6 HP / 2 Def / 30 SpA / 28 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Protect
+
+Lopunny @ Lopunnite
+Ability: Limber
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Encore
+- Quick Attack
+
+Ninetales-Alola @ Choice Scarf
+Ability: Snow Warning
+Level: 50
+EVs: 11 HP / 1 Def / 25 SpA / 1 SpD / 28 Spe
+Modest Nature
+- Blizzard
+- Icy Wind
+- Freeze-Dry
+- Moonblast
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+EVs: 32 HP / 10 Def / 5 SpA / 1 SpD / 18 Spe
 Modest Nature
 - Heat Wave
-- Solar Beam
-- Weather Ball
+- Bug Buzz
+- Quiver Dance
 - Protect
 
-Garchomp @ Roseli Berry
-Ability: Rough Skin
+Glimmora @ Glimmoranite
+Ability: Toxic Debris
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Jolly Nature
-- Dragon Claw
-- Stomping Tantrum
-- Rock Slide
-- Poison Jab
-
-Whimsicott @ Focus Sash
-Ability: Prankster
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
+EVs: 15 HP / 1 Def / 28 SpA / 1 SpD / 21 Spe
 Timid Nature
-- Moonblast
-- Tailwind
-- Encore
-- Protect
-
-Basculegion (M) @ Life Orb
-Ability: Adaptability
-Level: 50
-EVs: 4 HP / 30 Atk / 11 Def / 21 Spe
-Adamant Nature
-- Wave Crash
-- Last Respects
-- Aqua Jet
-- Protect
-
-Kingambit @ Occa Berry
-Ability: Defiant
-Level: 50
-EVs: 32 HP / 32 Atk / 1 SpD / 1 Spe
-Adamant Nature
-- Kowtow Cleave
-- Iron Head
-- Sucker Punch
-- Protect
-
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Moonblast
-- Dazzling Gleam
-- Light of Ruin
-- Protect
+- Spiky Shield
+- Power Gem
+- Sludge Bomb
+- Earth Power

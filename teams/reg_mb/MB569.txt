@@ -1,0 +1,59 @@
+Raichu (M) @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 31 HP / 1 Def / 5 SpD / 29 Spe
+Timid Nature
+- Zap Cannon
+- Focus Blast
+- Fake Out
+- Protect
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 29 HP / 13 Def / 4 SpA / 14 SpD / 6 Spe
+Modest Nature
+- Matcha Gotcha
+- Shadow Ball
+- Rage Powder
+- Protect
+
+Corviknight (F) @ Leftovers
+Ability: Mirror Armor
+Level: 50
+EVs: 19 HP / 29 Atk / 2 Def / 16 Spe
+Adamant Nature
+- Iron Head
+- Brave Bird
+- Tailwind
+- Protect
+
+Sylveon (M) @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 19 HP / 19 Def / 13 SpA / 15 Spe
+Modest Nature
+- Hyper Voice
+- Quick Attack
+- Yawn
+- Detect
+
+Garchomp (M) @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 31 HP / 12 Atk / 4 Def / 1 SpD / 18 Spe
+Adamant Nature
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+- Protect
+
+Tyranitar (F) @ Focus Sash
+Ability: Sand Stream
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Superpower
+- Protect

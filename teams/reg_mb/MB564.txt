@@ -1,0 +1,59 @@
+Mawile-Mega @ Mawilite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 25 Atk / 8 SpD / 1 Spe
+Adamant Nature
+- Protect
+- Iron Head
+- Sucker Punch
+- Swords Dance
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 25 HP / 21 Def / 20 SpA
+Modest Nature
+- Detect
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+
+Sinistcha @ Occa Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Bold Nature
+- Protect
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+
+Gallade (M) @ Choice Scarf
+Ability: Sharpness
+Level: 50
+EVs: 32 Atk / 3 Def / 31 Spe
+Jolly Nature
+- Sacred Sword
+- Psycho Cut
+- Leaf Blade
+- Night Slash
+
+Tyranitar-Mega @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 10 HP / 24 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Rock Slide
+- Knock Off
+- Dragon Dance
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 15 Atk / 10 Def / 7 SpD / 2 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot

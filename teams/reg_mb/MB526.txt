@@ -1,0 +1,56 @@
+Milotic @ Bright Powder
+Ability: Competitive
+Level: 50
+EVs: 30 HP / 13 Def / 10 SpA / 13 SpD
+Calm Nature
+- Coil
+- Hypnosis
+- Recover
+- Scald
+
+Toxapex @ Leftovers
+Ability: Limber
+Level: 50
+EVs: 32 HP / 16 Def / 18 SpD
+Calm Nature
+- Wide Guard
+- Baneful Bunker
+- Toxic
+- Infestation
+
+Sinistcha @ Big Root
+Ability: Hospitality
+Level: 50
+EVs: 29 HP / 13 Def / 24 SpD
+Bold Nature
+- Trick Room
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Protect
+- Poison Jab
+
+Ditto @ Quick Claw
+Ability: Imposter
+Level: 50
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
+Serious Nature
+- Transform
+
+Kangaskhan (F) @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 19 HP / 18 Atk / 29 Def
+Adamant Nature
+- Double-Edge
+- Fake Out
+- Crunch
+- Drain Punch

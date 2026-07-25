@@ -1,59 +1,59 @@
-Vileplume @ Focus Sash
-Ability: Chlorophyll
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
+EVs: 1 HP / 2 Def / 30 SpA / 1 SpD / 32 Spe
 Timid Nature
-- Leaf Storm
-- Sludge Bomb
-- Sleep Powder
-- After You
+- Dazzling Gleam
+- Moonblast
+- Calm Mind
+- Protect
 
-Torkoal @ Charcoal
-Ability: Drought
+Dragalge @ Dragalgite
+Ability: Adaptability
 Level: 50
-EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+EVs: 32 HP / 2 Def / 32 SpA
 Quiet Nature
-- Eruption
-- Weather Ball
-- Helping Hand
+- Draco Meteor
+- Sludge Bomb
+- Hydro Pump
 - Protect
 
-Farigiraf @ Sitrus Berry
-Ability: Armor Tail
+Garchomp @ Life Orb
+Ability: Rough Skin
 Level: 50
-EVs: 28 HP / 20 Def / 18 SpD
-Relaxed Nature
-- Twin Beam
-- Helping Hand
-- Trick Room
-- Protect
-
-Kangaskhan (F) @ Kangaskhanite
-Ability: Scrappy
-Level: 50
-EVs: 28 HP / 32 Atk / 1 Def / 5 SpD
-Brave Nature
-- Fake Out
-- Double-Edge
-- Hammer Arm
-- Crunch
-
-Sneasler @ White Herb
-Ability: Unburden
-Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
+EVs: 17 HP / 19 Atk / 8 Def / 3 SpD / 19 Spe
 Adamant Nature
-- Fake Out
-- Close Combat
-- Dire Claw
-- Throat Chop
+- Earthquake
+- Dragon Claw
+- Poison Jab
+- Rock Slide
 
-Staraptor @ Choice Scarf
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 18 HP / 3 Def / 24 SpA / 4 SpD / 17 Spe
+Modest Nature
+- Draco Meteor
+- Dark Pulse
+- Earth Power
+- Snarl
+
+Reuniclus @ Leftovers
+Ability: Regenerator
+Level: 50
+EVs: 31 HP / 32 SpA / 3 SpD
+Quiet Nature
+- Psychic
+- Protect
+- Light Screen
+- Trick Room
+
+Incineroar @ Sitrus Berry
 Ability: Intimidate
 Level: 50
-EVs: 32 HP / 3 Atk / 31 Spe
-Adamant Nature
-- Brave Bird
-- Close Combat
-- U-turn
-- Final Gambit
+EVs: 32 HP / 1 Atk / 22 Def / 11 SpD
+Sassy Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Throat Chop

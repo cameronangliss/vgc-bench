@@ -1,0 +1,59 @@
+Meowstic (M) @ Colbur Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 25 Def / 9 SpD
+Calm Nature
+- Skill Swap
+- Sunny Day
+- Rain Dance
+- Yawn
+
+Overqwil @ Leftovers
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Impish Nature
+- Barb Barrage
+- Minimize
+- Stockpile
+- Protect
+
+Klefki @ Sitrus Berry
+Ability: Prankster
+Level: 50
+EVs: 28 HP / 19 Def / 19 SpD
+Bold Nature
+- Draining Kiss
+- Psych Up
+- Substitute
+- Calm Mind
+
+Sableye @ Sablenite
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 25 Def / 9 SpD
+Relaxed Nature
+- Foul Play
+- Snarl
+- Psych Up
+- Pain Split
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Naive Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Rock Slide
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 32 HP / 14 Def / 20 Spe
+Timid Nature
+- Heat Wave
+- Stored Power
+- Psych Up
+- Nasty Plot

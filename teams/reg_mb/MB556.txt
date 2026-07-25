@@ -1,0 +1,59 @@
+Mr. Rime (M) @ Focus Sash
+Ability: Screen Cleaner
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Freeze-Dry
+- Protect
+- Sheer Cold
+- Role Play
+
+Raichu (M) @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 28 HP / 15 Def / 23 Spe
+Timid Nature
+- Fake Out
+- Zap Cannon
+- Focus Blast
+- Protect
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 6 HP / 27 Def / 1 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 21 Def / 11 SpD / 2 Spe
+Impish Nature
+- Fake Out
+- Throat Chop
+- Flare Blitz
+- Parting Shot
+
+Ceruledge (M) @ Colbur Berry
+Ability: Flash Fire
+Level: 50
+EVs: 27 HP / 20 Atk / 18 Def / 1 SpD
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Protect
+- Bulk Up
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Bold Nature
+- Matcha Gotcha
+- Protect
+- Life Dew
+- Rage Powder

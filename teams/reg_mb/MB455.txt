@@ -1,0 +1,59 @@
+Audino @ Mental Herb
+Ability: Healer
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Relaxed Nature
+- Simple Beam
+- Heal Pulse
+- Protect
+- Trick Room
+
+Overqwil @ Leftovers
+Ability: Poison Point
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Relaxed Nature
+- Throat Chop
+- Stockpile
+- Swords Dance
+- Minimize
+
+Malamar @ Malamarite
+Ability: Contrary
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Sassy Nature
+- Superpower
+- Throat Chop
+- Psych Up
+- Rest
+
+Whimsicott @ Life Orb
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 23 SpA / 11 SpD
+Modest Nature
+- Memento
+- Sunny Day
+- Light Screen
+- Grass Knot
+
+Chandelure @ Bright Powder
+Ability: Flash Fire
+Level: 50
+EVs: 32 HP / 11 Def / 23 SpD
+Relaxed Nature
+- Flamethrower
+- Minimize
+- Acid Armor
+- Calm Mind
+
+Zoroark-Hisui @ Choice Scarf
+Ability: Illusion
+Level: 50
+EVs: 32 Atk / 32 Spe
+Hasty Nature
+- Rain Dance
+- Will-O-Wisp
+- Taunt
+- Memento

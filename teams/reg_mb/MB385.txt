@@ -1,0 +1,59 @@
+Froslass (F) @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 12 HP / 1 Def / 20 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Blizzard
+- Shadow Ball
+- Aurora Veil
+- Protect
+
+Kingambit @ Focus Sash
+Ability: Defiant
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Iron Head
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 12 HP / 20 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Dragon Claw
+- Rock Slide
+- Earthquake
+- Poison Jab
+
+Blaziken @ Passho Berry
+Ability: Speed Boost
+Level: 50
+EVs: 12 HP / 1 Def / 20 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Heat Wave
+- Aura Sphere
+- Detect
+- Sunny Day
+
+Toxapex @ Leftovers
+Ability: Regenerator
+Level: 50
+EVs: 32 HP / 16 Def / 18 SpD
+Bold Nature
+- Baneful Bunker
+- Toxic
+- Infestation
+- Wide Guard
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 24 HP / 14 Def / 11 SpA / 17 Spe
+Modest Nature
+- Solar Beam
+- Heat Wave
+- Weather Ball
+- Protect

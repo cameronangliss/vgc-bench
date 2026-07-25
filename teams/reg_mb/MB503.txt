@@ -1,0 +1,59 @@
+Mimikyu @ Wide Lens
+Ability: Disguise
+Level: 50
+EVs: 32 Atk / 2 Def / 32 SpD
+Brave Nature
+- Trick Room
+- Will-O-Wisp
+- Play Rough
+- Phantom Force
+
+Goodra-Hisui @ Leftovers
+Ability: Shell Armor
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Relaxed Nature
+- Life Dew
+- Tearful Look
+- Body Press
+- Shelter
+
+Slowking-Galar @ Sitrus Berry
+Ability: Regenerator
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Quiet Nature
+- Trick Room
+- Chilly Reception
+- Sludge Wave
+- Psychic
+
+Crabominable @ Crabominite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 32 Atk
+Brave Nature
+- Ice Hammer
+- Drain Punch
+- Knock Off
+- Protect
+
+Golurk @ Life Orb
+Ability: No Guard
+Level: 50
+EVs: 32 HP / 32 Atk
+Brave Nature
+- High Horsepower
+- Poltergeist
+- Stone Edge
+- Giga Impact
+
+Primarina @ Mystic Water
+Ability: Liquid Voice
+Level: 50
+EVs: 2 HP / 32 SpA / 32 SpD
+Quiet Nature
+- Hyper Voice
+- Moonblast
+- Blizzard
+- Protect

@@ -1,59 +1,59 @@
-Metagross @ Metagrossite
-Ability: Clear Body
+Gardevoir @ Gardevoirite
+Ability: Trace
 Level: 50
-EVs: 22 HP / 21 Atk / 1 SpD / 22 Spe
-Jolly Nature
-- Iron Head
-- Brick Break
-- Ice Punch
+EVs: 32 HP / 2 Def / 32 SpA
+Modest Nature
+- Hyper Voice
+- Psychic
+- Trick Room
 - Protect
 
-Tyranitar @ Tyranitarite
-Ability: Sand Stream
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
 Level: 50
-EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
-Jolly Nature
-- Rock Slide
-- Knock Off
-- Dragon Dance
+EVs: 32 HP / 13 Def / 21 SpD
+Quiet Nature
+- Psychic
+- Hyper Voice
+- Trick Room
 - Protect
 
-Excadrill @ Focus Sash
-Ability: Sand Rush
+Sneasler @ Life Orb
+Ability: Poison Touch
 Level: 50
 EVs: 2 HP / 32 Atk / 32 Spe
 Adamant Nature
-- Earthquake
-- Iron Head
+- Poison Jab
+- Close Combat
 - Rock Slide
 - Protect
 
-Grimmsnarl (M) @ Roseli Berry
-Ability: Prankster
+Pelipper @ Focus Sash
+Ability: Drizzle
 Level: 50
-EVs: 32 HP / 20 Def / 14 SpD
-Careful Nature
-- Foul Play
-- Parting Shot
-- Light Screen
-- Reflect
-
-Sneasler @ White Herb
-Ability: Unburden
-Level: 50
-EVs: 20 HP / 10 Atk / 20 Def / 1 SpD / 15 Spe
-Adamant Nature
-- Fake Out
-- Close Combat
-- Dire Claw
+EVs: 32 HP / 11 SpA / 23 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Tailwind
 - Protect
 
-Sinistcha @ Sitrus Berry
-Ability: Hospitality
+Archaludon @ Leftovers
+Ability: Stamina
 Level: 50
-EVs: 32 HP / 24 Def / 10 SpD
-Bold Nature
-- Matcha Gotcha
+EVs: 32 HP / 3 Def / 1 SpA / 30 SpD
+Modest Nature
+- Flash Cannon
+- Dragon Pulse
+- Electro Shot
 - Protect
-- Rage Powder
-- Life Dew
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 20 HP / 9 Def / 18 SpA / 4 SpD / 15 Spe
+Modest Nature
+- Giga Drain
+- Sludge Bomb
+- Earth Power
+- Protect

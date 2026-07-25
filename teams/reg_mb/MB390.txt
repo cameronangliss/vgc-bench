@@ -1,0 +1,59 @@
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 30 HP / 32 Def / 1 SpA / 1 SpD / 2 Spe
+Calm Nature
+- Coil
+- Hypnosis
+- Muddy Water
+- Life Dew
+
+Sinistcha @ Occa Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 19 Def / 10 SpD / 5 Spe
+Bold Nature
+- Hex
+- Life Dew
+- Trick Room
+- Rage Powder
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 22 HP / 13 Def / 1 SpA / 1 SpD / 29 Spe
+Timid Nature
+- Nasty Plot
+- Heat Wave
+- Psyshock
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Coaching
+- Gunk Shot
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 25 HP / 32 Atk / 2 Def / 6 SpD / 1 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Swords Dance
+- Protect
+
+Raichu-Mega-Y @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 28 HP / 15 Def / 23 Spe
+Timid Nature
+- Zap Cannon
+- Focus Blast
+- Protect
+- Fake Out

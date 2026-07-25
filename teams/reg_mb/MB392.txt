@@ -1,0 +1,59 @@
+Vivillon @ Choice Scarf
+Ability: Compound Eyes
+Level: 50
+EVs: 24 Def / 10 SpD / 32 Spe
+Timid Nature
+- Sleep Powder
+- Hurricane
+- Tailwind
+- Rage Powder
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 14 HP / 32 SpA / 20 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Ancient Power
+- Protect
+
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Population Bomb
+- Low Kick
+- Feint
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Stomping Tantrum
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Energy Ball
+- Encore
+- Tailwind
+
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Water Spout
+- Dark Pulse
+- Fake Out
+- Shell Smash

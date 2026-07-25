@@ -1,59 +1,59 @@
-Farigiraf @ Sitrus Berry
-Ability: Armor Tail
+Raichu-Mega-X @ Raichunite X
+Ability: Lightning Rod
 Level: 50
-EVs: 17 HP / 29 Def / 20 SpD
-Quiet Nature
-- Psychic Fangs
-- Thunderbolt
-- Trick Room
-- Hyper Voice
-
-Incineroar @ Charcoal
-Ability: Intimidate
-Level: 50
-EVs: 31 HP / 32 Atk / 3 Spe
-Adamant Nature
-- Darkest Lariat
-- Flare Blitz
-- Parting Shot
+EVs: 2 Atk / 32 SpA / 32 Spe
+Naive Nature
 - Fake Out
-
-Sylveon @ Fairy Feather
-Ability: Pixilate
-Level: 50
-EVs: 11 HP / 23 Def / 32 SpA
-Quiet Nature
-- Hyper Voice
-- Quick Attack
-- Hyper Beam
-- Detect
-
-Blastoise @ Blastoisinite
-Ability: Torrent
-Level: 50
-EVs: 32 HP / 2 Def / 32 SpA
-Quiet Nature
-- Water Pulse
-- Dark Pulse
-- Aura Sphere
-- Fake Out
-
-Kingambit @ Life Orb
-Ability: Defiant
-Level: 50
-EVs: 30 HP / 31 Atk / 5 SpD
-Brave Nature
-- Sucker Punch
-- Kowtow Cleave
-- Iron Head
+- Volt Tackle
+- Rising Voltage
 - Protect
 
-Drampa @ Expert Belt
-Ability: Cloud Nine
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
 Level: 50
-EVs: 24 HP / 10 Def / 15 SpA / 17 SpD
-Quiet Nature
-- Energy Ball
-- Ice Beam
-- Earth Power
+EVs: 26 Atk / 8 Def / 32 Spe
+Jolly Nature
+- Soak
+- Wave Crash
+- Last Respects
+- Flip Turn
+
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
+Level: 50
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Disable
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Encore
+- Protect
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 20 HP / 32 Def / 3 SpA / 11 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Weather Ball
 - Protect

@@ -1,59 +1,59 @@
-Raichu @ Raichunite Y
-Ability: Lightning Rod
+Charizard @ Charizardite Y
+Ability: Blaze
 Level: 50
-EVs: 19 HP / 22 Def / 1 SpA / 24 Spe
-Timid Nature
+EVs: 32 HP / 9 Def / 11 SpA / 14 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
 - Protect
-- Focus Blast
-- Encore
-- Zap Cannon
 
-Ninetales-Alola @ Never-Melt Ice
-Ability: Snow Warning
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
 Level: 50
-EVs: 7 HP / 32 SpA / 27 Spe
-Timid Nature
+EVs: 29 HP / 9 Def / 28 SpD
+Modest Nature
+- Psychic
+- Thunderbolt
+- Helping Hand
+- Trick Room
+
+Venusaur @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Leaf Storm
+- Sludge Bomb
+- Sleep Powder
 - Protect
-- Blizzard
-- Freeze-Dry
-- Encore
 
 Garchomp @ Life Orb
 Ability: Rough Skin
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
+EVs: 6 HP / 26 Atk / 2 SpD / 32 Spe
 Jolly Nature
-- Protect
-- Dragon Claw
 - Rock Slide
+- Dragon Claw
 - Earthquake
-
-Whimsicott @ Focus Sash
-Ability: Prankster
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
 - Protect
-- Encore
-- Tailwind
-- Moonblast
 
 Incineroar @ Sitrus Berry
 Ability: Intimidate
 Level: 50
-EVs: 32 HP / 14 Atk / 9 Def / 6 SpD / 5 Spe
-Adamant Nature
+EVs: 32 HP / 8 Atk / 11 Def / 12 SpD / 3 Spe
+Careful Nature
 - Flare Blitz
-- Throat Chop
-- Fake Out
+- Darkest Lariat
 - Parting Shot
+- Fake Out
 
-Charizard @ Charizardite Y
-Ability: Solar Power
+Sylveon @ Fairy Feather
+Ability: Pixilate
 Level: 50
-EVs: 14 HP / 13 Def / 7 SpA / 32 Spe
+EVs: 21 HP / 13 Def / 25 SpA / 7 Spe
 Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
 - Protect
-- Heat Wave
-- Solar Beam
-- Weather Ball

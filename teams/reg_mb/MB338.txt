@@ -1,59 +1,63 @@
-Sneasler @ Focus Sash
-Ability: Poison Touch
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Jolly Nature
-- Poison Jab
-- Close Combat
-- Fake Out
-- Quick Guard
-
-Blastoise @ Blastoisinite
-Ability: Rain Dish
-Level: 50
-EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
-Modest Nature
-- Dark Pulse
-- Water Spout
-- Shell Smash
-- Protect
-
-Kingambit @ Black Glasses
-Ability: Defiant
-Level: 50
-EVs: 32 HP / 7 Atk / 27 SpD
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Swords Dance
-- Protect
-
-Incineroar @ Sitrus Berry
+Incineroar @ Passho Berry
 Ability: Intimidate
 Level: 50
-EVs: 32 HP / 1 Def / 10 SpD / 23 Spe
-Careful Nature
-- Flare Blitz
-- Helping Hand
-- Parting Shot
+Shiny: Yes
+EVs: 32 HP / 15 Atk / 2 Def / 17 SpD
+Brave Nature
 - Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
 
-Delphox @ Delphoxite
-Ability: Blaze
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
 Level: 50
-EVs: 23 HP / 11 Def / 1 SpA / 31 Spe
-Modest Nature
-- Heat Wave
-- Nasty Plot
-- Psyshock
-- Protect
-
-Sinistcha @ Kasib Berry
-Ability: Hospitality
-Level: 50
-EVs: 32 HP / 4 Def / 30 SpD
+Shiny: Yes
+EVs: 32 HP / 23 Def / 11 SpD
 Bold Nature
-- Matcha Gotcha
-- Rage Powder
-- Trick Room
 - Protect
+- Helping Hand
+- Psychic
+- Trick Room
+
+Mawile @ Mawilite
+Ability: Hyper Cutter
+Level: 50
+Shiny: Yes
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Protect
+- Play Rough
+- Sucker Punch
+- Swords Dance
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+Shiny: Yes
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Last Respects
+- Aqua Jet
+- Flip Turn
+
+Ninetales-Alola @ Focus Sash
+Ability: Snow Warning
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Blizzard
+- Freeze-Dry
+- Moonblast
+
+Dragonite @ Dragoninite
+Ability: Inner Focus
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Protect
+- Dragon Pulse
+- Thunderbolt
+- Heat Wave

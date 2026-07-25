@@ -1,0 +1,59 @@
+Raichu @ Raichunite X
+Ability: Lightning Rod
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Volt Tackle
+- Fake Out
+- Volt Switch
+- Play Rough
+
+Archaludon (F) @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 26 SpD / 8 Spe
+Modest Nature
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Protect
+
+Pelipper (F) @ Sitrus Berry
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 4 Def / 19 SpD / 11 Spe
+Bold Nature
+- Hurricane
+- Weather Ball
+- Tailwind
+- Wide Guard
+
+Sinistcha @ Colbur Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Calm Nature
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+- Rage Powder
+
+Gholdengo @ Life Orb
+Ability: Good as Gold
+Level: 50
+EVs: 27 HP / 13 Def / 16 SpD / 10 Spe
+Modest Nature
+- Nasty Plot
+- Shadow Ball
+- Make It Rain
+- Protect
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dual Wingbeat
+- Will-O-Wisp
+- Tailwind
+- Quick Guard

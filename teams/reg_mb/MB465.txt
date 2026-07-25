@@ -1,0 +1,59 @@
+Staraptor @ Staraptite
+Ability: Intimidate
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Brave Bird
+- Close Combat
+- Protect
+- Roost
+
+Volcarona @ Choice Scarf
+Ability: Flame Body
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Heat Wave
+- Bug Buzz
+- Overheat
+- U-turn
+
+Lycanroc-Dusk @ Focus Sash
+Ability: Tough Claws
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Rock Slide
+- Close Combat
+- Protect
+- Accelerock
+
+Farigiraf @ Twisted Spoon
+Ability: Armor Tail
+Level: 50
+EVs: 32 SpA / 2 SpD / 32 Spe
+Modest Nature
+- Twin Beam
+- Foul Play
+- Protect
+- Helping Hand
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 12 Def / 20 SpD / 2 Spe
+Calm Nature
+- Matcha Gotcha
+- Protect
+- Rage Powder
+- Trick Room
+
+Kingambit @ Life Orb
+Ability: Defiant
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Protect
+- Sucker Punch

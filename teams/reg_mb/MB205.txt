@@ -1,59 +1,59 @@
-Swampert @ Swampertite
-Ability: Torrent
+Vileplume @ Focus Sash
+Ability: Chlorophyll
 Level: 50
-EVs: 16 HP / 31 Atk / 19 Spe
-Adamant Nature
-- Wave Crash
-- Earthquake
-- Ice Punch
-- Protect
-
-Pelipper @ Sitrus Berry
-Ability: Drizzle
-Level: 50
-EVs: 32 HP / 12 Def / 5 SpA / 6 SpD / 11 Spe
-Modest Nature
-- Weather Ball
-- Hurricane
-- Tailwind
-- Protect
-
-Archaludon @ Leftovers
-Ability: Stamina
-Level: 50
-EVs: 32 HP / 25 SpD / 9 Spe
-Calm Nature
-- Dragon Pulse
-- Flash Cannon
-- Electro Shot
-- Protect
-
-Sinistcha @ Bright Powder
-Ability: Hospitality
-Level: 50
-EVs: 32 HP / 19 Def / 15 SpD
-Bold Nature
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
 - Leaf Storm
-- Rage Powder
-- Trick Room
-- Life Dew
+- Sludge Bomb
+- Sleep Powder
+- After You
 
-Mawile @ Mawilite
-Ability: Hyper Cutter
+Torkoal @ Charcoal
+Ability: Drought
 Level: 50
-EVs: 32 HP / 32 Atk / 1 SpD / 1 Spe
-Adamant Nature
-- Play Rough
-- Iron Head
-- Sucker Punch
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Helping Hand
 - Protect
 
-Grimmsnarl (M) @ Light Clay
-Ability: Prankster
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
 Level: 50
-EVs: 32 HP / 9 Def / 25 SpD
-Careful Nature
-- Spirit Break
-- Parting Shot
-- Reflect
-- Light Screen
+EVs: 28 HP / 20 Def / 18 SpD
+Relaxed Nature
+- Twin Beam
+- Helping Hand
+- Trick Room
+- Protect
+
+Kangaskhan (F) @ Kangaskhanite
+Ability: Scrappy
+Level: 50
+EVs: 28 HP / 32 Atk / 1 Def / 5 SpD
+Brave Nature
+- Fake Out
+- Double-Edge
+- Hammer Arm
+- Crunch
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Throat Chop
+
+Staraptor @ Choice Scarf
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 3 Atk / 31 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- U-turn
+- Final Gambit

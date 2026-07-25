@@ -1,59 +1,59 @@
-Whimsicott @ Focus Sash
-Ability: Prankster
+Swampert @ Swampertite
+Ability: Damp
 Level: 50
-EVs: 32 SpA / 32 Spe
-Timid Nature
-- Tailwind
-- Moonblast
-- Encore
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Wave Crash
+- High Horsepower
+- Ice Punch
 - Protect
 
-Charizard @ Charizardite Y
-Ability: Blaze
+Pelipper @ Life Orb
+Ability: Drizzle
 Level: 50
 EVs: 2 HP / 32 SpA / 32 Spe
 Timid Nature
-- Protect
-- Heat Wave
+- Hurricane
 - Weather Ball
-- Solar Beam
+- Tailwind
+- Protect
 
-Incineroar @ Sitrus Berry
-Ability: Intimidate
+Archaludon @ Leftovers
+Ability: Stamina
 Level: 50
-EVs: 30 HP / 14 Def / 14 SpD / 8 Spe
-Impish Nature
-- Flare Blitz
-- Throat Chop
-- Parting Shot
-- Fake Out
+EVs: 27 HP / 1 Def / 5 SpA / 20 SpD / 13 Spe
+Modest Nature
+- Flash Cannon
+- Dragon Pulse
+- Electro Shot
+- Protect
 
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
+Overqwil @ Focus Sash
+Ability: Swift Swim
 Level: 50
 EVs: 2 HP / 32 Atk / 32 Spe
 Adamant Nature
-- Last Respects
-- Flip Turn
-- Wave Crash
-- Aqua Jet
-
-Mawile @ Mawilite
-Ability: Hyper Cutter
-Level: 50
-EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
-Adamant Nature
-- Play Rough
-- Iron Head
+- Gunk Shot
+- Rain Dance
+- Crunch
 - Protect
-- Sucker Punch
 
-Farigiraf @ Colbur Berry
-Ability: Armor Tail
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
 Level: 50
-EVs: 32 HP / 10 Def / 3 SpA / 20 SpD
-Relaxed Nature
-- Hyper Voice
+EVs: 29 HP / 1 Atk / 20 Def / 15 SpD / 1 Spe
+Calm Nature
+- Spirit Break
+- Parting Shot
+- Light Screen
+- Reflect
+
+Sinistcha @ Kasib Berry
+Ability: Hospitality
+Level: 50
+EVs: 29 HP / 24 Def / 13 SpD
+Bold Nature
+- Matcha Gotcha
+- Rage Powder
+- Life Dew
 - Trick Room
-- Helping Hand
-- Psychic

@@ -1,0 +1,59 @@
+Altaria @ Roseli Berry
+Ability: Cloud Nine
+Level: 50
+EVs: 27 HP / 1 Atk / 1 Def / 5 SpD / 32 Spe
+Careful Nature
+- Brave Bird
+- Roost
+- Will-O-Wisp
+- Tailwind
+
+Excadrill @ Excadrite
+Ability: Mold Breaker
+Level: 50
+EVs: 32 HP / 10 Atk / 13 SpD / 11 Spe
+Adamant Nature
+- Iron Head
+- Stomping Tantrum
+- Horn Drill
+- Protect
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 32 HP / 17 Def / 1 SpD / 16 Spe
+Modest Nature
+- Muddy Water
+- Coil
+- Hypnosis
+- Protect
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 31 HP / 1 Atk / 8 Def / 10 SpD / 16 Spe
+Careful Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+Level: 50
+EVs: 32 HP / 7 Def / 10 SpA / 17 Spe
+Bold Nature
+- Giga Drain
+- Sludge Bomb
+- Earth Power
+- Protect
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 18 HP / 31 Def / 15 SpD / 2 Spe
+Careful Nature
+- Spirit Break
+- Reflect
+- Light Screen
+- Parting Shot

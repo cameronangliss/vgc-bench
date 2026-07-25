@@ -1,0 +1,59 @@
+Abomasnow @ Abomasite
+Ability: Snow Warning
+Level: 50
+EVs: 32 HP / 4 Atk / 1 Def / 28 SpA / 1 SpD
+Quiet Nature
+- Blizzard
+- Energy Ball
+- Ice Shard
+- Earth Power
+
+Pidgeot @ Pidgeotite
+Ability: Big Pecks
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Hurricane
+- Heat Wave
+- Tailwind
+- Protect
+
+Wyrdeer @ Expert Belt
+Ability: Intimidate
+Level: 50
+EVs: 15 HP / 19 Def / 32 SpA
+Modest Nature
+- Energy Ball
+- Earth Power
+- Thunderbolt
+- Trick Room
+
+Quaquaval @ Choice Scarf
+Ability: Moxie
+Level: 50
+EVs: 1 HP / 32 Atk / 1 SpD / 32 Spe
+Jolly Nature
+- Wave Crash
+- Close Combat
+- Ice Spinner
+- Knock Off
+
+Skeledirge @ Sitrus Berry
+Ability: Unaware
+Level: 50
+EVs: 31 HP / 20 Def / 14 SpA / 1 SpD
+Bold Nature
+- Torch Song
+- Shadow Ball
+- Slack Off
+- Protect
+
+Liepard @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 2 HP / 32 Def / 32 Spe
+Timid Nature
+- Foul Play
+- Fake Tears
+- Rain Dance
+- Fake Out

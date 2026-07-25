@@ -1,0 +1,58 @@
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 30 HP / 31 Atk / 5 Spe
+- Iron Head
+- Psychic Fangs
+- Brick Break
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect
+
+Typhlosion-Hisui @ Choice Scarf
+Ability: Frisk
+Level: 50
+EVs: 5 HP / 32 SpA / 29 Spe
+Modest Nature
+- Eruption
+- Shadow Ball
+- Heat Wave
+- Burn Up
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 26 SpD / 8 Spe
+Calm Nature
+- Moonblast
+- Tailwind
+- Encore
+- Helping Hand
+
+Gyarados @ Wacan Berry
+Ability: Intimidate
+Level: 50
+EVs: 25 HP / 32 Atk / 1 Def / 8 Spe
+Adamant Nature
+- Waterfall
+- Power Whip
+- Ice Fang
+- Taunt
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Dire Claw
+- Close Combat
+- Fake Out
+- Protect

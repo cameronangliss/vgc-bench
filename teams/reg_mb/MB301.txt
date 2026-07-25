@@ -1,59 +1,59 @@
-Falinks @ Falinksite
-Ability: Defiant
+Metagross @ Metagrossite
+Ability: Clear Body
 Level: 50
-EVs: 32 HP / 21 Atk / 2 Def / 11 Spe
-Adamant Nature
-- Close Combat
-- Seed Bomb
-- Knock Off
+EVs: 22 HP / 21 Atk / 1 SpD / 22 Spe
+Jolly Nature
+- Iron Head
+- Brick Break
+- Ice Punch
 - Protect
 
-Dragalge @ Life Orb
-Ability: Adaptability
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
 Level: 50
-EVs: 29 HP / 32 SpA / 5 Spe
-Modest Nature
-- Draco Meteor
-- Sludge Bomb
-- Focus Blast
-- Protect
-
-Aerodactyl @ Aerodactylite
-Ability: Unnerve
-Level: 50
-EVs: 26 HP / 7 Atk / 1 Def / 32 Spe
+EVs: 32 HP / 1 Def / 1 SpD / 32 Spe
 Jolly Nature
 - Rock Slide
-- Dual Wingbeat
-- Ice Fang
-- Tailwind
+- Knock Off
+- Dragon Dance
+- Protect
 
-Kingambit @ Focus Sash
-Ability: Defiant
+Excadrill @ Focus Sash
+Ability: Sand Rush
 Level: 50
 EVs: 2 HP / 32 Atk / 32 Spe
 Adamant Nature
-- Kowtow Cleave
+- Earthquake
 - Iron Head
-- Sucker Punch
-- Low Kick
-
-Farigiraf @ Sitrus Berry
-Ability: Armor Tail
-Level: 50
-EVs: 27 HP / 21 Def / 18 SpD
-Bold Nature
-- Psychic
-- Trick Room
-- Helping Hand
+- Rock Slide
 - Protect
 
-Sylveon @ Fairy Feather
-Ability: Pixilate
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
 Level: 50
-EVs: 5 HP / 21 Def / 30 SpA / 10 Spe
-Modest Nature
-- Hyper Voice
-- Hyper Beam
-- Quick Attack
-- Detect
+EVs: 32 HP / 20 Def / 14 SpD
+Careful Nature
+- Foul Play
+- Parting Shot
+- Light Screen
+- Reflect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 20 HP / 10 Atk / 20 Def / 1 SpD / 15 Spe
+Adamant Nature
+- Fake Out
+- Close Combat
+- Dire Claw
+- Protect
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 24 Def / 10 SpD
+Bold Nature
+- Matcha Gotcha
+- Protect
+- Rage Powder
+- Life Dew

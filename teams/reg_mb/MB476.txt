@@ -1,0 +1,59 @@
+Golurk @ Golurkite
+Ability: No Guard
+Level: 50
+EVs: 31 HP / 21 Atk / 13 Def / 1 SpD
+Brave Nature
+- Headlong Rush
+- Protect
+- Ice Punch
+- Poltergeist
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 15 HP / 21 Def / 30 SpA
+Quiet Nature
+- Hyper Voice
+- Detect
+- Calm Mind
+- Hyper Beam
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 6 Atk / 15 Def / 10 SpD / 3 Spe
+Adamant Nature
+- Flare Blitz
+- Parting Shot
+- Fake Out
+- Darkest Lariat
+
+Farigiraf @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 24 HP / 14 Def / 2 SpA / 26 SpD
+Quiet Nature
+- Psychic Noise
+- Helping Hand
+- Thunderbolt
+- Trick Room
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Close Combat
+- Poison Jab
+- Rock Slide
+- Fake Out
+
+Torkoal @ Charcoal
+Ability: Drought
+Level: 50
+EVs: 14 HP / 32 SpA / 20 SpD
+Quiet Nature
+- Eruption
+- Weather Ball
+- Heat Wave
+- Protect

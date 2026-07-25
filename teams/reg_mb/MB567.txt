@@ -1,0 +1,59 @@
+Raichu (M) @ Raichunite X
+Ability: Lightning Rod
+Level: 50
+EVs: 32 HP / 11 Def / 23 Spe
+Timid Nature
+- Discharge
+- Electroweb
+- Fake Out
+- Protect
+
+Meganium (F) @ Meganiumite
+Ability: Leaf Guard
+Level: 50
+EVs: 14 HP / 4 Def / 22 SpA / 26 Spe
+Modest Nature
+- Solar Beam
+- Dazzling Gleam
+- Weather Ball
+- Protect
+
+Pelipper (F) @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Timid Nature
+- Soak
+- Hurricane
+- Tailwind
+- Weather Ball
+
+Garchomp (M) @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 10 HP / 29 Atk / 6 Def / 21 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Poison Jab
+- Rock Slide
+
+Archaludon (F) @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 5 SpA / 25 SpD / 4 Spe
+Modest Nature
+- Protect
+- Flash Cannon
+- Electro Shot
+- Dragon Pulse
+
+Sableye (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 15 Def / 19 SpD
+Bold Nature
+- Light Screen
+- Quash
+- Reflect
+- Rain Dance

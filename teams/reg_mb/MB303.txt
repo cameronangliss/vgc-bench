@@ -1,59 +1,59 @@
-Staraptor @ Staraptite
-Ability: Intimidate
+Falinks @ Falinksite
+Ability: Defiant
 Level: 50
-EVs: 15 HP / 18 Atk / 1 Def / 1 SpD / 31 Spe
-Jolly Nature
-- Brave Bird
+EVs: 32 HP / 21 Atk / 2 Def / 11 Spe
+Adamant Nature
 - Close Combat
-- Tailwind
+- Seed Bomb
+- Knock Off
 - Protect
 
-Raichu @ Focus Sash
-Ability: Lightning Rod
+Dragalge @ Life Orb
+Ability: Adaptability
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Volt Switch
-- Charm
-- Encore
-- Fake Out
-
-Gholdengo @ Leftovers
-Ability: Good as Gold
-Level: 50
-EVs: 30 HP / 10 Def / 7 SpA / 4 SpD / 15 Spe
+EVs: 29 HP / 32 SpA / 5 Spe
 Modest Nature
-- Make It Rain
-- Shadow Ball
-- Nasty Plot
+- Draco Meteor
+- Sludge Bomb
+- Focus Blast
 - Protect
 
-Garchomp @ Life Orb
-Ability: Rough Skin
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
 Level: 50
-EVs: 32 Atk / 2 SpD / 32 Spe
+EVs: 26 HP / 7 Atk / 1 Def / 32 Spe
 Jolly Nature
-- Rock Tomb
-- Dragon Claw
-- Earthquake
-- Protect
+- Rock Slide
+- Dual Wingbeat
+- Ice Fang
+- Tailwind
 
-Incineroar @ Passho Berry
-Ability: Intimidate
+Kingambit @ Focus Sash
+Ability: Defiant
 Level: 50
-EVs: 32 HP / 1 Atk / 10 Def / 10 SpD / 13 Spe
-Impish Nature
-- Flare Blitz
-- Throat Chop
-- Parting Shot
-- Fake Out
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Low Kick
 
-Clefable @ Sitrus Berry
-Ability: Unaware
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
 Level: 50
-EVs: 32 HP / 17 Def / 15 SpA / 1 SpD / 1 Spe
+EVs: 27 HP / 21 Def / 18 SpD
 Bold Nature
-- Moonblast
-- Life Dew
-- Follow Me
+- Psychic
+- Trick Room
+- Helping Hand
 - Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 5 HP / 21 Def / 30 SpA / 10 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect

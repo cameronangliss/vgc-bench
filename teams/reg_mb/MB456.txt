@@ -1,0 +1,59 @@
+Maushold-Four @ Wide Lens
+Ability: Technician
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Follow Me
+- Population Bomb
+- Feint
+- Protect
+
+Malamar (M) @ Roseli Berry
+Ability: Contrary
+Level: 50
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Superpower
+- Knock Off
+- Protect
+- Trick Room
+
+Mawile (F) @ Mawilite
+Ability: Hyper Cutter
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Brave Nature
+- Iron Head
+- Play Rough
+- Rock Slide
+- Sucker Punch
+
+Kommo-o (M) @ Life Orb
+Ability: Soundproof
+Level: 50
+EVs: 32 HP / 32 SpA / 2 SpD
+Quiet Nature
+- Clanging Scales
+- Aura Sphere
+- Vacuum Wave
+- Protect
+
+Mr. Rime (M) @ Never-Melt Ice
+Ability: Screen Cleaner
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpA
+Quiet Nature
+- Freeze-Dry
+- Frost Breath
+- Charm
+- Fake Out
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Adamant Nature
+- Liquidation
+- Last Respects
+- Aqua Jet
+- Protect

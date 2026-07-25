@@ -1,0 +1,59 @@
+Scolipede @ Scolipite
+Ability: Speed Boost
+Level: 50
+EVs: 31 HP / 11 Atk / 1 Def / 3 SpD / 20 Spe
+Adamant Nature
+- Leech Life
+- Poison Jab
+- Swords Dance
+- Protect
+
+Annihilape @ Focus Sash
+Ability: Defiant
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Phantom Force
+- Rock Tomb
+- Close Combat
+- Coaching
+
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 32 HP / 15 Atk / 9 SpD / 10 Spe
+Adamant Nature
+- Iron Head
+- Psychic Fangs
+- Protect
+- Bullet Punch
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 32 HP / 1 Def / 15 SpA / 18 SpD
+Modest Nature
+- Light Screen
+- Hydro Pump
+- Thunderbolt
+- Will-O-Wisp
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 2 Def / 32 SpA / 32 Spe
+Modest Nature
+- Dark Pulse
+- Draco Meteor
+- Snarl
+- Heat Wave
+
+Volcarona @ Passho Berry
+Ability: Flame Body
+Level: 50
+EVs: 20 HP / 10 Def / 3 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Fiery Dance
+- Struggle Bug
+- Rage Powder
+- Tailwind

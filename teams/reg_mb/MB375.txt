@@ -1,0 +1,59 @@
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 30 HP / 31 Def / 1 SpA / 4 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Metagross @ Metagrossite
+Ability: Clear Body
+Level: 50
+EVs: 28 HP / 25 Atk / 9 Def / 4 Spe
+Adamant Nature
+- Iron Head
+- Bullet Punch
+- Body Press
+- Protect
+
+Tsareena (F) @ Wide Lens
+Ability: Queenly Majesty
+Level: 50
+EVs: 24 HP / 20 Atk / 22 Spe
+Adamant Nature
+- Power Whip
+- Triple Axel
+- Low Kick
+- Protect
+
+Aerodactyl @ Focus Sash
+Ability: Unnerve
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Rock Slide
+- Tailwind
+- Wide Guard
+- Protect
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Earthquake
+- Rock Slide
+- Protect
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 7 HP / 24 Def / 24 SpA / 11 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Yawn
+- Detect

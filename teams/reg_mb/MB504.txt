@@ -1,0 +1,59 @@
+Gardevoir @ Gardevoirite
+Ability: Trace
+Level: 50
+EVs: 14 HP / 5 Def / 15 SpA / 1 SpD / 31 Spe
+Modest Nature
+- Hyper Voice
+- Psyshock
+- Calm Mind
+- Protect
+
+Sneasler @ Focus Sash
+Ability: Poison Touch
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Close Combat
+- Poison Jab
+- Fake Out
+- Quick Guard
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 22 HP / 22 Def / 10 SpD / 12 Spe
+Careful Nature
+- Flare Blitz
+- Taunt
+- Parting Shot
+- Fake Out
+
+Milotic @ Leftovers
+Ability: Competitive
+Level: 50
+EVs: 23 HP / 11 Def / 4 SpA / 25 SpD / 3 Spe
+Calm Nature
+- Scald
+- Coil
+- Hypnosis
+- Recover
+
+Sinistcha @ Coba Berry
+Ability: Hospitality
+Level: 50
+EVs: 30 HP / 4 Def / 32 SpD
+Bold Nature
+- Matcha Gotcha
+- Life Dew
+- Rage Powder
+- Protect
+
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Knock Off
+- Dragon Dance
+- Protect

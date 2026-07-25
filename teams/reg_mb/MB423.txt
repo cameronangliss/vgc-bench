@@ -1,0 +1,59 @@
+Raichu-Mega-Y @ Raichunite Y
+Ability: No Guard
+Level: 50
+EVs: 32 HP / 14 Def / 20 Spe
+Modest Nature
+- Zap Cannon
+- Focus Blast
+- Fake Out
+- Protect
+
+Meowscarada @ Choice Scarf
+Ability: Protean
+Level: 50
+EVs: 25 HP / 32 Atk / 9 Spe
+Adamant Nature
+- Triple Axel
+- Flower Trick
+- Brick Break
+- Throat Chop
+
+Basculegion @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Last Respects
+- Liquidation
+- Aqua Jet
+- Protect
+
+Kleavor @ White Herb
+Ability: Sharpness
+Level: 50
+EVs: 10 HP / 32 Atk / 24 SpD
+Adamant Nature
+- X-Scissor
+- Stone Axe
+- Protect
+- Aerial Ace
+
+Tyranitar-Mega @ Tyranitarite
+Ability: Sand Stream
+Level: 50
+EVs: 26 HP / 26 Atk / 14 Def
+Adamant Nature
+- Roar
+- Rock Slide
+- Protect
+- Knock Off
+
+Talonflame @ Life Orb
+Ability: Gale Wings
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Brave Bird
+- Tailwind
+- Flare Blitz

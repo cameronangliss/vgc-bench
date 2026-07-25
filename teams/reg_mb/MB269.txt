@@ -1,59 +1,59 @@
-Scovillain @ Scovillainite
-Ability: Chlorophyll
+Camerupt @ Cameruptite
+Ability: Solid Rock
 Level: 50
-EVs: 32 HP / 15 Def / 19 SpD
-Bold Nature
-- Flamethrower
-- Leech Seed
-- Rage Powder
+EVs: 30 HP / 32 SpA / 3 SpD
+Quiet Nature
+- Heat Wave
+- Earth Power
+- Ancient Power
 - Protect
 
-Toxapex @ Leftovers
-Ability: Regenerator
+Abomasnow @ Abomasite
+Ability: Snow Warning
 Level: 50
-EVs: 32 HP / 8 Def / 26 SpD
-Relaxed Nature
-- Infestation
-- Toxic
-- Wide Guard
-- Baneful Bunker
-
-Gholdengo @ Kasib Berry
-Ability: Good as Gold
-Level: 50
-EVs: 31 HP / 13 SpA / 6 SpD / 16 Spe
-Modest Nature
-- Make It Rain
-- Shadow Ball
-- Nasty Plot
+EVs: 32 HP / 1 Def / 32 SpA
+Quiet Nature
+- Blizzard
+- Energy Ball
+- Earth Power
 - Protect
 
-Grimmsnarl (M) @ Light Clay
-Ability: Prankster
+Farigiraf @ Focus Sash
+Ability: Armor Tail
 Level: 50
-EVs: 32 HP / 14 Def / 20 SpD
-Careful Nature
-- Spirit Break
-- Reflect
-- Light Screen
-- Parting Shot
+EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
+Quiet Nature
+- Hyper Voice
+- Psyshock
+- Foul Play
+- Trick Room
 
-Politoed @ Sitrus Berry
-Ability: Drizzle
+Staraptor @ Choice Scarf
+Ability: Intimidate
 Level: 50
-EVs: 32 HP / 5 Def / 27 SpA / 2 Spe
-Modest Nature
-- Weather Ball
-- Ice Beam
-- Perish Song
-- Protect
-
-Hydreigon @ Choice Scarf
-Ability: Levitate
-Level: 50
-EVs: 2 HP / 32 SpA / 1 SpD / 31 Spe
-Modest Nature
-- Draco Meteor
-- Dark Pulse
-- Snarl
+EVs: 32 HP / 2 Atk / 32 Spe
+Jolly Nature
+- Final Gambit
 - U-turn
+- Close Combat
+- Brave Bird
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 1 SpD / 32 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Feint
+
+Kingambit @ Life Orb
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Iron Head
+- Brick Break

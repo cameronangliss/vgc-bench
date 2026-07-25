@@ -1,0 +1,59 @@
+Malamar @ Malamarite
+Ability: Contrary
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Relaxed Nature
+- Superpower
+- Psych Up
+- Rest
+- Stored Power
+
+Whimsicott @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 32 Spe
+Timid Nature
+- Light Screen
+- Memento
+- Protect
+- Taunt
+
+Audino @ Mental Herb
+Ability: Healer
+Level: 50
+EVs: 32 HP / 9 Def / 25 SpD
+Relaxed Nature
+- Simple Beam
+- Protect
+- Heal Pulse
+- Trick Room
+
+Dragapult @ Wide Lens
+Ability: Cursed Body
+Level: 50
+EVs: 30 HP / 9 Def / 1 SpD / 26 Spe
+Timid Nature
+- Curse
+- Reflect
+- Light Screen
+- Will-O-Wisp
+
+Chandelure @ Lum Berry
+Ability: Flash Fire
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Calm Nature
+- Minimize
+- Flamethrower
+- Calm Mind
+- Acid Armor
+
+Overqwil @ Leftovers
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Sassy Nature
+- Minimize
+- Stockpile
+- Throat Chop
+- Swords Dance

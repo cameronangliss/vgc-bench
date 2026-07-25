@@ -1,59 +1,59 @@
-Mawile @ Mawilite
-Ability: Hyper Cutter
-Level: 50
-EVs: 32 HP / 32 Atk / 2 SpD
-Brave Nature
-- Iron Head
-- Play Rough
-- Sucker Punch
-- Protect
-
-Torkoal @ Charcoal
-Ability: Drought
-Level: 50
-EVs: 32 HP / 32 SpA / 2 SpD
-Quiet Nature
-- Eruption
-- Weather Ball
-- Earth Power
-- Protect
-
-Kangaskhan @ Life Orb
-Ability: Scrappy
-Level: 50
-EVs: 21 HP / 32 Atk / 13 SpD
-Adamant Nature
-- Double-Edge
-- Ice Punch
-- Sucker Punch
-- Fake Out
-
-Farigiraf @ Sitrus Berry
-Ability: Armor Tail
-Level: 50
-EVs: 9 HP / 30 Def / 10 SpA / 17 SpD
-Relaxed Nature
-- Twin Beam
-- Thunderbolt
-- Trick Room
-- Helping Hand
-
-Decidueye-Hisui @ Scope Lens
-Ability: Scrappy
-Level: 50
-EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
-Brave Nature
-- Triple Arrows
-- Leaf Blade
-- Shadow Sneak
-- Protect
-
-Staraptor @ Choice Scarf
+Staraptor @ Staraptite
 Ability: Intimidate
 Level: 50
-EVs: 32 HP / 2 Atk / 32 Spe
-Jolly Nature
-- Brave Bird
+EVs: 31 HP / 32 Atk / 3 Spe
+Adamant Nature
 - Close Combat
-- U-turn
-- Final Gambit
+- Roost
+- Dual Wingbeat
+- Protect
+
+Grimmsnarl (M) @ Roseli Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 12 Def / 22 SpD
+Sassy Nature
+- Parting Shot
+- Spirit Break
+- Scary Face
+- Fake Out
+
+Delphox @ Delphoxite
+Ability: Blaze
+Level: 50
+EVs: 16 HP / 16 Def / 2 SpA / 32 Spe
+Timid Nature
+- Heat Wave
+- Psyshock
+- Nasty Plot
+- Protect
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 6 HP / 32 Atk / 1 SpD / 27 Spe
+Adamant Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Dragon Tail
+
+Kingambit @ Sitrus Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 4 Atk / 30 SpD
+Brave Nature
+- Kowtow Cleave
+- Iron Head
+- Sucker Punch
+- Swords Dance
+
+Sinistcha @ Occa Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 12 Def / 23 SpD
+Quiet Nature
+- Matcha Gotcha
+- Rage Powder
+- Psych Up
+- Protect

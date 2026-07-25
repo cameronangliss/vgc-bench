@@ -1,4 +1,4 @@
-Pelipper @ Focus Band
+Pelipper @ Focus Sash
 Ability: Drizzle
 Level: 50
 EVs: 2 HP / 32 SpA / 32 Spe

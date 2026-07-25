@@ -1,0 +1,59 @@
+Raichu (M) @ Raichunite Y
+Ability: Lightning Rod
+Level: 50
+EVs: 26 HP / 17 Def / 23 Spe
+Timid Nature
+- Fake Out
+- Zap Cannon
+- Focus Blast
+- Protect
+
+Charizard (F) @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 28 HP / 27 Def / 11 SpA
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
+
+Incineroar (M) @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 14 Def / 20 SpD
+Impish Nature
+- Fake Out
+- Flare Blitz
+- Darkest Lariat
+- Parting Shot
+
+Farigiraf (M) @ Colbur Berry
+Ability: Armor Tail
+Level: 50
+EVs: 30 HP / 14 Def / 22 SpD
+Modest Nature
+- Psychic
+- Thunderbolt
+- Helping Hand
+- Trick Room
+
+Sylveon (M) @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 23 HP / 32 Def / 10 SpA / 1 Spe
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Detect
+- Calm Mind
+
+Kingambit (M) @ Life Orb
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 5 Atk / 29 SpD
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Protect
+- Swords Dance

@@ -1,0 +1,59 @@
+Overqwil @ Leftovers
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 2 Def / 32 SpD
+Bold Nature
+- Minimize
+- Stockpile
+- Pain Split
+- Toxic
+
+Meowstic (M) @ Mental Herb
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 2 Def / 32 Spe
+Timid Nature
+- Light Screen
+- Skill Swap
+- Rain Dance
+- Sunny Day
+
+Sableye @ Sablenite
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 31 Def / 3 SpD
+Relaxed Nature
+- Foul Play
+- Night Shade
+- Recover
+- Psych Up
+
+Klefki @ Sitrus Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 31 Def / 3 SpD
+Bold Nature
+- Stored Power
+- Draining Kiss
+- Calm Mind
+- Psych Up
+
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Water Spout
+- Dark Pulse
+- Shell Smash
+
+Grimmsnarl (M) @ Life Orb
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Sucker Punch
+- Superpower
+- Taunt
+- Fake Out

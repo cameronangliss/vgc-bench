@@ -1,0 +1,59 @@
+Pelipper @ Damp Rock
+Ability: Drizzle
+Level: 50
+EVs: 32 HP / 5 SpA / 23 SpD / 6 Spe
+Modest Nature
+- Weather Ball
+- Hurricane
+- Tailwind
+- Helping Hand
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 27 HP / 5 SpA / 23 SpD / 11 Spe
+Modest Nature
+- Electro Shot
+- Dragon Pulse
+- Snarl
+- Protect
+
+Basculegion (M) @ Life Orb
+Ability: Swift Swim
+Level: 50
+EVs: 4 HP / 18 Atk / 11 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Last Respects
+- Wave Crash
+- Aqua Jet
+- Protect
+
+Swampert @ Swampertite
+Ability: Damp
+Level: 50
+EVs: 22 HP / 20 Atk / 24 Spe
+Adamant Nature
+- Earthquake
+- Wave Crash
+- High Horsepower
+- Wide Guard
+
+Politoed @ Choice Scarf
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Weather Ball
+- Icy Wind
+- Earth Power
+- Rain Dance
+
+Greninja @ Focus Sash
+Ability: Torrent
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Weather Ball
+- Water Shuriken
+- Dark Pulse
+- Protect

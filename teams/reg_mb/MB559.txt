@@ -1,0 +1,59 @@
+Floette-Mega (F) @ Floettite
+Ability: Fairy Aura
+Level: 50
+EVs: 32 HP / 13 Def / 21 Spe
+Timid Nature
+- Moonblast
+- Dazzling Gleam
+- Calm Mind
+- Protect
+
+Ceruledge @ Life Orb
+Ability: Flash Fire
+Level: 50
+EVs: 31 HP / 6 Atk / 27 Def / 1 SpD / 1 Spe
+Adamant Nature
+- Bitter Blade
+- Shadow Sneak
+- Bulk Up
+- Protect
+
+Grimmsnarl (M) @ Light Clay
+Ability: Prankster
+Level: 50
+EVs: 31 HP / 1 Atk / 26 Def / 6 SpD / 2 Spe
+Careful Nature
+- Spirit Break
+- Light Screen
+- Reflect
+- Parting Shot
+
+Hydrapple @ Sitrus Berry
+Ability: Supersweet Syrup
+Level: 50
+EVs: 31 HP / 3 Def / 32 SpD
+Bold Nature
+- Fickle Beam
+- Earth Power
+- Recover
+- Yawn
+
+Milotic @ Zoom Lens
+Ability: Competitive
+Level: 50
+EVs: 31 HP / 31 Def / 2 SpA / 1 SpD / 1 Spe
+Sassy Nature
+- Muddy Water
+- Hypnosis
+- Life Dew
+- Coil
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 32 Atk / 32 Spe
+Naive Nature
+- Close Combat
+- Dire Claw
+- Fake Out
+- Swords Dance
