@@ -1,59 +1,59 @@
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
+Aerodactyl @ Focus Sash
+Ability: Unnerve
 Level: 50
-EVs: 32 Atk / 2 SpD / 32 Spe
+EVs: 2 HP / 32 Atk / 32 Spe
 Jolly Nature
-- Flip Turn
-- Last Respects
-- Wave Crash
-- Aqua Jet
-
-Dragonite @ Dragoninite
-Ability: Multiscale
-Level: 50
-EVs: 21 HP / 32 SpA / 13 Spe
-Mild Nature
-- Protect
-- Draco Meteor
-- Extreme Speed
-- Hurricane
-
-Archaludon @ Leftovers
-Ability: Stamina
-Level: 50
-EVs: 30 HP / 1 SpA / 31 SpD / 4 Spe
-Calm Nature
-- Flash Cannon
-- Electro Shot
-- Aura Sphere
-- Protect
-
-Pelipper @ Focus Sash
-Ability: Drizzle
-Level: 50
-EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
-Modest Nature
-- Hurricane
-- Weather Ball
+- Rock Slide
 - Tailwind
+- Wide Guard
 - Protect
 
-Sableye @ Roseli Berry
-Ability: Prankster
+Garchomp @ White Herb
+Ability: Rough Skin
 Level: 50
-EVs: 32 HP / 3 Def / 31 SpD
-Sassy Nature
-- Foul Play
-- Encore
-- Rain Dance
-- Light Screen
+EVs: 11 HP / 32 Atk / 1 Def / 22 Spe
+Jolly Nature
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Protect
 
-Banette @ Banettite
-Ability: Frisk
+Sylveon @ Fairy Feather
+Ability: Pixilate
 Level: 50
-EVs: 32 HP / 25 Def / 3 SpD / 6 Spe
-Impish Nature
-- Poltergeist
-- Encore
-- Will-O-Wisp
-- Disable
+EVs: 9 HP / 24 Def / 26 SpA / 7 Spe
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect
+
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
+Level: 50
+EVs: 32 HP / 14 Def / 10 SpA / 10 SpD
+Modest Nature
+- Psychic
+- Foul Play
+- Helping Hand
+- Trick Room
+
+Archaludon @ Choice Scarf
+Ability: Sturdy
+Level: 50
+EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
+Timid Nature
+- Draco Meteor
+- Steel Beam
+- Flash Cannon
+- Thunderbolt
+
+Charizard @ Charizardite Y
+Ability: Blaze
+Level: 50
+EVs: 26 HP / 22 Def / 5 SpA / 13 Spe
+Modest Nature
+- Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect

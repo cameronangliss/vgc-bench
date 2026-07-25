@@ -1,59 +1,59 @@
-Floette-Eternal @ Floettite
-Ability: Flower Veil
+Glimmora @ Focus Sash
+Ability: Toxic Debris
 Level: 50
-EVs: 28 HP / 1 Def / 5 SpA / 32 Spe
-Modest Nature
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Talonflame @ Charcoal
+Ability: Gale Wings
+Level: 50
+EVs: 8 HP / 1 Atk / 30 SpA / 27 Spe
+Naive Nature
+- Brave Bird
+- Overheat
+- Tailwind
 - Protect
-- Calm Mind
+
+Floette-Mega (F) @ Floettite
+Ability: Fairy Aura
+Level: 50
+EVs: 20 HP / 1 Def / 15 SpA / 30 Spe
+Modest Nature
 - Moonblast
 - Dazzling Gleam
-
-Aegislash @ Focus Sash
-Ability: Stance Change
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Shadow Sneak
-- Poltergeist
-- King's Shield
-- Iron Head
-
-Incineroar @ Sitrus Berry
-Ability: Intimidate
-Level: 50
-EVs: 32 HP / 16 Def / 10 SpD / 8 Spe
-Careful Nature
-- Fake Out
-- Throat Chop
-- Flare Blitz
-- Parting Shot
-
-Charizard @ Charizardite Y
-Ability: Blaze
-Level: 50
-EVs: 26 HP / 10 Def / 11 SpA / 19 Spe
-Modest Nature
+- Light of Ruin
 - Protect
-- Weather Ball
-- Heat Wave
-- Solar Beam
 
-Garchomp @ Choice Scarf
+Garchomp @ Sitrus Berry
 Ability: Rough Skin
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
+EVs: 24 HP / 20 Atk / 22 Spe
 Adamant Nature
-- Rock Tomb
 - Dragon Claw
 - Earthquake
-- Stomping Tantrum
-
-Sinistcha @ Kasib Berry
-Ability: Hospitality
-Level: 50
-EVs: 32 HP / 7 Def / 27 SpD
-Relaxed Nature
+- Rock Slide
 - Protect
-- Trick Room
-- Matcha Gotcha
-- Rage Powder
+
+Scizor @ Scizorite
+Ability: Technician
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Def
+Adamant Nature
+- Bullet Punch
+- Knock Off
+- Bug Bite
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 30 Atk / 2 Def / 2 Spe
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Low Kick
+- Protect

@@ -1,59 +1,59 @@
-Farigiraf @ Colbur Berry
+Farigiraf @ Black Belt
 Ability: Armor Tail
 Level: 50
-EVs: 32 HP / 14 Def / 20 SpD
-Sassy Nature
-- Psychic
-- Trick Room
+EVs: 32 Atk / 6 Def / 28 Spe
+Adamant Nature
 - Helping Hand
-- Protect
-
-Incineroar @ Chople Berry
-Ability: Intimidate
-Level: 50
-EVs: 32 HP / 32 Atk / 2 SpD
-Brave Nature
-- Throat Chop
-- Flare Blitz
-- Parting Shot
-- Fake Out
-
-Sinistcha @ Mental Herb
-Ability: Hospitality
-Level: 50
-EVs: 32 HP / 2 Def / 32 SpD
-Sassy Nature
-- Matcha Gotcha
-- Rage Powder
-- Life Dew
 - Trick Room
+- Sunny Day
+- Low Kick
 
-Torkoal @ Charcoal
-Ability: Drought
+Chandelure @ Chandelurite
+Ability: Flash Fire
 Level: 50
-EVs: 32 HP / 32 SpA / 2 SpD
-Quiet Nature
-- Eruption
-- Weather Ball
-- Earth Power
+EVs: 27 HP / 32 SpA / 7 Spe
+Modest Nature
 - Protect
+- Calm Mind
+- Shadow Ball
+- Heat Wave
 
-Crabominable @ Crabominite
-Ability: Hyper Cutter
+Garchomp @ Choice Scarf
+Ability: Rough Skin
 Level: 50
-EVs: 32 HP / 32 Atk / 2 Def
-Brave Nature
-- Ice Hammer
-- Drain Punch
-- Mach Punch
-- Protect
+EVs: 5 HP / 32 Atk / 1 Def / 4 SpD / 24 Spe
+Adamant Nature
+- Dragon Rush
+- Rock Slide
+- Stomping Tantrum
+- Earthquake
 
-Ampharos @ Ampharosite
-Ability: Static
+Vivillon @ Focus Sash
+Ability: Compound Eyes
 Level: 50
-EVs: 32 HP / 26 SpA / 8 SpD
-Quiet Nature
-- Thunderbolt
-- Dragon Pulse
-- Dazzling Gleam
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
 - Protect
+- Rage Powder
+- Sleep Powder
+- Pollen Puff
+
+Dragapult @ Dragon Fang
+Ability: Clear Body
+Level: 50
+EVs: 32 Atk / 5 SpD / 29 Spe
+Adamant Nature
+- Protect
+- Sunny Day
+- Psychic Fangs
+- Dragon Darts
+
+Talonflame @ Sharp Beak
+Ability: Gale Wings
+Level: 50
+EVs: 32 Atk / 7 SpD / 27 Spe
+Jolly Nature
+- Protect
+- Tailwind
+- Flare Blitz
+- Dual Wingbeat

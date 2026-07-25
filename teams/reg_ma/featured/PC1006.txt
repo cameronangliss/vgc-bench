@@ -1,0 +1,59 @@
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 32 HP / 4 Def / 25 SpA / 5 Spe
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Psych Up
+- Protect
+
+Politoed @ Choice Scarf
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Weather Ball
+- Muddy Water
+- Ice Beam
+- Icy Wind
+
+Espathra @ Colbur Berry
+Ability: Speed Boost
+Level: 50
+EVs: 32 HP / 8 Def / 9 SpA / 7 SpD / 10 Spe
+Modest Nature
+- Lumina Crash
+- Calm Mind
+- Baton Pass
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 1 Def / 5 SpA / 25 SpD / 3 Spe
+Modest Nature
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
+- Protect
+
+Incineroar @ Charcoal
+Ability: Intimidate
+Level: 50
+EVs: 2 HP / 30 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Fake Out
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+
+Scovillain-Mega @ Scovillainite
+Ability: Moody
+Level: 50
+EVs: 32 HP / 1 Def / 2 SpA / 17 SpD / 14 Spe
+Modest Nature
+- Flamethrower
+- Giga Drain
+- Rage Powder
+- Protect

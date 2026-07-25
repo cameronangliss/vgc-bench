@@ -1,59 +1,59 @@
-Ampharos @ Ampharosite
-Ability: Static
+Lopunny @ Lopunnite
+Ability: Limber
 Level: 50
-EVs: 32 HP / 2 Def / 32 SpA
-Modest Nature
-- Thunderbolt
-- Dragon Pulse
-- Focus Blast
-- Cotton Guard
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Fake Out
+- Close Combat
+- Triple Axel
+- Encore
 
-Mudsdale @ Sitrus Berry
-Ability: Inner Focus
+Ceruledge @ Focus Sash
+Ability: Flash Fire
 Level: 50
-EVs: 31 HP / 32 Atk / 3 SpD
-Adamant Nature
-- Heavy Slam
-- High Horsepower
-- Rock Slide
-- Fissure
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Bitter Blade
+- Shadow Sneak
+- Poltergeist
+- Swords Dance
 
-Basculegion (M) @ Kasib Berry
+Basculegion (M) @ Choice Scarf
 Ability: Adaptability
 Level: 50
-EVs: 10 HP / 23 Atk / 27 Def / 6 SpD
-Brave Nature
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
 - Wave Crash
 - Last Respects
+- Flip Turn
 - Aqua Jet
-- Protect
 
-Sneasler @ Black Belt
-Ability: Poison Touch
+Ninetales-Alola @ Never-Melt Ice
+Ability: Snow Warning
 Level: 50
-EVs: 18 HP / 16 Atk / 32 Def
-Brave Nature
-- Gunk Shot
-- Close Combat
-- Throat Chop
-- Fake Out
+EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Blizzard
+- Aurora Veil
+- Freeze-Dry
+- Dazzling Gleam
 
-Kangaskhan (F) @ Silk Scarf
-Ability: Scrappy
-Level: 50
-EVs: 31 HP / 32 Atk / 3 Def
-Brave Nature
-- Fake Out
-- Double-Edge
-- Hammer Arm
-- Ice Punch
-
-Farigiraf @ Mental Herb
+Farigiraf @ Colbur Berry
 Ability: Armor Tail
 Level: 50
-EVs: 18 HP / 18 Def / 30 SpD
-Calm Nature
-- Psychic
-- Imprison
+EVs: 26 HP / 20 Def / 3 SpA / 15 Spe
+Modest Nature
+- Hyper Voice
 - Trick Room
 - Protect
+- Imprison
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Kowtow Cleave
+- Protect
+- Sucker Punch
+- Low Kick

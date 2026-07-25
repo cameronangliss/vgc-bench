@@ -1,59 +1,59 @@
-Gengar @ Focus Sash
-Ability: Cursed Body
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Taunt
-- Will-O-Wisp
-- Shadow Ball
-- Sludge Bomb
-
-Garchomp @ Choice Scarf
-Ability: Rough Skin
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Jolly Nature
-- Rock Slide
-- Stomping Tantrum
-- Dragon Claw
-- Earthquake
-
-Arcanine @ Sitrus Berry
+Incineroar @ Chople Berry
 Ability: Intimidate
 Level: 50
-EVs: 21 HP / 20 Atk / 1 Def / 1 SpD / 23 Spe
-Adamant Nature
-- Protect
-- Extreme Speed
-- Wild Charge
+EVs: 32 HP / 22 Def / 1 SpD / 11 Spe
+Jolly Nature
+- Parting Shot
+- Fake Out
 - Flare Blitz
+- Helping Hand
 
-Rotom-Wash @ Leftovers
-Ability: Levitate
+Sneasler @ Focus Sash
+Ability: Unburden
 Level: 50
-EVs: 32 HP / 11 Def / 23 SpD
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Fake Out
+- Dire Claw
+- Close Combat
+- Coaching
+
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 32 HP / 9 Def / 1 SpA / 23 SpD / 1 Spe
 Calm Nature
+- Matcha Gotcha
+- Rage Powder
 - Protect
-- Will-O-Wisp
-- Hydro Pump
-- Volt Switch
+- Trick Room
 
-Sylveon @ Fairy Feather
-Ability: Pixilate
+Kingambit @ Black Glasses
+Ability: Defiant
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Detect
-- Yawn
-- Hyper Voice
-- Quick Attack
+EVs: 32 HP / 25 Atk / 9 Spe
+Adamant Nature
+- Kowtow Cleave
+- Sucker Punch
+- Protect
+- Swords Dance
+
+Charizard @ Charizardite X
+Ability: Blaze
+Level: 50
+EVs: 23 HP / 10 Atk / 2 Def / 2 SpD / 29 Spe
+Adamant Nature
+- Flare Blitz
+- Dragon Dance
+- Dragon Claw
+- Protect
 
 Floette-Eternal (F) @ Floettite
 Ability: Flower Veil
 Level: 50
-EVs: 8 HP / 26 Def / 32 Spe
+EVs: 31 HP / 9 Def / 15 SpA / 11 Spe
 Modest Nature
-- Protect
-- Psychic
-- Moonblast
+- Draining Kiss
 - Dazzling Gleam
+- Calm Mind
+- Protect

@@ -1,59 +1,60 @@
-Charizard @ Charizardite Y
-Ability: Blaze
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 24 HP / 14 Def / 10 SpA / 18 Spe
-Modest Nature
-- Weather Ball
-- Heat Wave
-- Solar Beam
+EVs: 32 HP / 26 Def / 1 SpA / 1 SpD / 6 Spe
+Bold Nature
+- Draining Kiss
+- Dazzling Gleam
+- Calm Mind
 - Protect
 
-Whimsicott @ Fairy Feather
-Ability: Prankster
+Vivillon (M) @ Focus Sash
+Ability: Friend Guard
 Level: 50
-EVs: 32 HP / 16 Def / 18 SpD
-Bold Nature
-- Moonblast
-- Trick Room
-- Encore
+EVs: 32 HP / 2 Def / 32 Spe
+Timid Nature
+- Pollen Puff
 - Tailwind
-
-Garchomp @ Sitrus Berry
-Ability: Rough Skin
-Level: 50
-EVs: 18 HP / 16 Atk / 32 Spe
-Adamant Nature
-- Dragon Claw
-- Earthquake
-- Rock Slide
+- Rage Powder
 - Protect
 
 Basculegion (M) @ Mystic Water
 Ability: Adaptability
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
+EVs: 20 HP / 32 Atk / 14 Spe
 Adamant Nature
 - Wave Crash
-- Aqua Jet
 - Last Respects
+- Aqua Jet
 - Protect
 
-Glimmora @ Focus Sash
-Ability: Toxic Debris
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Power Gem
-- Sludge Bomb
-- Spiky Shield
-- Earth Power
-
-Kingambit @ Chople Berry
-Ability: Defiant
-Level: 50
-EVs: 30 HP / 25 Atk / 3 Def / 8 Spe
+EVs: 17 HP / 20 Atk / 29 Spe
 Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Iron Head
-- Low Kick
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Incineroar @ Passho Berry
+Ability: Intimidate
+Level: 50
+Shiny: Yes
+EVs: 32 HP / 23 Def / 11 SpD
+Impish Nature
+- Fake Out
+- Parting Shot
+- Flare Blitz
+- Darkest Lariat
+
+Charizard-Mega-Y @ Charizardite Y
+Ability: Drought
+Level: 50
+EVs: 32 HP / 5 Def / 11 SpA / 18 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Weather Ball
+- Protect

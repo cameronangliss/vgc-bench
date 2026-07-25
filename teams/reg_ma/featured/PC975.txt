@@ -1,59 +1,59 @@
-Aerodactyl @ Aerodactylite
-Ability: Unnerve
+Blastoise @ Blastoisinite
+Ability: Rain Dish
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Jolly Nature
-- Rock Slide
-- Dual Wingbeat
-- Tailwind
-- Protect
-
-Sylveon @ Fairy Feather
-Ability: Pixilate
-Level: 50
-EVs: 7 HP / 24 Def / 20 SpA / 15 Spe
+EVs: 13 HP / 32 SpA / 1 SpD / 20 Spe
 Modest Nature
-- Hyper Voice
-- Quick Attack
-- Hyper Beam
-- Detect
-
-Sneasler @ White Herb
-Ability: Unburden
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Dire Claw
-- Close Combat
-- Fake Out
+- Water Spout
+- Dark Pulse
+- Aura Sphere
 - Protect
 
-Kingambit @ Black Glasses
-Ability: Defiant
+Archaludon @ Leftovers
+Ability: Stamina
 Level: 50
-EVs: 32 HP / 32 Atk / 1 Def / 1 Spe
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Swords Dance
+EVs: 32 HP / 1 Def / 3 SpA / 27 SpD / 3 Spe
+Modest Nature
+- Dragon Pulse
+- Flash Cannon
+- Electro Shot
 - Protect
 
-Garchomp @ Sitrus Berry
+Gengar @ Focus Sash
+Ability: Cursed Body
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Sludge Bomb
+- Icy Wind
+- Rain Dance
+- Taunt
+
+Garchomp @ Roseli Berry
 Ability: Rough Skin
 Level: 50
-EVs: 30 HP / 20 Atk / 16 Spe
+EVs: 8 HP / 26 Atk / 32 Spe
 Adamant Nature
+- Dragon Claw
 - Earthquake
 - Rock Slide
-- Dragon Claw
-- Dragon Tail
+- Protect
 
-Basculegion (M) @ Focus Sash
+Talonflame @ Mental Herb
+Ability: Gale Wings
+Level: 50
+EVs: 20 HP / 4 Atk / 24 Def / 1 SpD / 17 Spe
+Jolly Nature
+- Brave Bird
+- Tailwind
+- Rain Dance
+- Quick Guard
+
+Basculegion (M) @ Sitrus Berry
 Ability: Adaptability
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
+EVs: 12 HP / 13 Atk / 8 Def / 17 SpD / 16 Spe
 Adamant Nature
-- Last Respects
 - Liquidation
+- Last Respects
 - Aqua Jet
 - Protect

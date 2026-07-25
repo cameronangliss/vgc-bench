@@ -1,59 +1,59 @@
-Basculegion (M) @ Choice Scarf
-Ability: Adaptability
+Excadrill @ Focus Sash
+Ability: Sand Rush
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Jolly Nature
-- Wave Crash
-- Last Respects
-- Aqua Jet
-- Flip Turn
-
-Pelipper @ Sitrus Berry
-Ability: Drizzle
-Level: 50
-EVs: 31 HP / 2 Def / 31 SpD / 2 Spe
-Bold Nature
-- Tailwind
-- Weather Ball
-- Hurricane
-- Wide Guard
-
-Sableye @ Roseli Berry
-Ability: Prankster
-Level: 50
-EVs: 32 HP / 9 Def / 25 SpD
-Sassy Nature
-- Will-O-Wisp
-- Light Screen
-- Encore
-- Rain Dance
-
-Venusaur @ Venusaurite
-Ability: Chlorophyll
-Level: 50
-EVs: 32 HP / 15 Def / 18 SpA / 1 Spe
-Modest Nature
-- Giga Drain
-- Sludge Bomb
-- Leech Seed
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Iron Head
+- Earthquake
+- Rock Slide
 - Protect
 
-Sinistcha @ Kasib Berry
-Ability: Hospitality
+Tyranitar @ Tyranitarite
+Ability: Sand Stream
 Level: 50
-EVs: 31 HP / 7 Def / 28 SpD
-Sassy Nature
-- Rage Powder
-- Matcha Gotcha
-- Life Dew
-- Trick Room
+EVs: 30 HP / 16 Atk / 1 Def / 2 SpD / 17 Spe
+Adamant Nature
+- Rock Slide
+- Knock Off
+- Low Kick
+- Protect
 
-Archaludon @ Leftovers
-Ability: Stamina
+Corviknight @ Leftovers
+Ability: Mirror Armor
 Level: 50
-EVs: 32 HP / 1 Def / 28 SpD / 5 Spe
-Bold Nature
-- Flash Cannon
-- Dragon Pulse
-- Electro Shot
+EVs: 27 HP / 11 Atk / 1 Def / 5 SpD / 22 Spe
+Careful Nature
+- Brave Bird
+- Bulk Up
+- Roost
+- Tailwind
+
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Level: 50
+EVs: 4 HP / 3 Def / 32 SpA / 27 Spe
+Modest Nature
+- Draco Meteor
+- Dark Pulse
+- Heat Wave
+- Snarl
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+Level: 50
+EVs: 31 HP / 6 Def / 15 SpA / 14 Spe
+Modest Nature
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Protect
+
+Mimikyu @ Fairy Feather
+Ability: Disguise
+Level: 50
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Adamant Nature
+- Shadow Sneak
+- Shadow Claw
+- Play Rough
 - Protect

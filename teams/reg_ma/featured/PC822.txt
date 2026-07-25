@@ -1,59 +1,59 @@
-Aerodactyl @ Aerodactylite
-Ability: Unnerve
+Maushold @ Focus Sash
+Ability: Friend Guard
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Jolly Nature
-- Rock Slide
-- Ice Fang
-- Tailwind
+EVs: 32 HP / 15 Def / 15 SpD / 4 Spe
+Careful Nature
 - Protect
+- Follow Me
+- Super Fang
+- Feint
 
-Charizard @ Charizardite Y
-Ability: Blaze
+Gardevoir @ Gardevoirite
+Ability: Trace
 Level: 50
-EVs: 24 HP / 26 Def / 1 SpA / 15 Spe
+EVs: 32 HP / 9 Def / 25 SpA
 Modest Nature
-- Heat Wave
-- Weather Ball
-- Solar Beam
 - Protect
-
-Sylveon @ Fairy Feather
-Ability: Pixilate
-Level: 50
-EVs: 13 HP / 32 Def / 10 SpA / 11 Spe
-Modest Nature
+- Trick Room
+- Psychic
 - Hyper Voice
-- Yawn
-- Quick Attack
-- Detect
 
-Aegislash @ Focus Sash
-Ability: Stance Change
+Basculegion (M) @ Kasib Berry
+Ability: Adaptability
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
+EVs: 12 HP / 19 Atk / 30 Def / 5 Spe
 Adamant Nature
-- Poltergeist
-- Close Combat
-- Shadow Sneak
-- Iron Head
+- Wave Crash
+- Last Respects
+- Substitute
+- Aqua Jet
 
-Garchomp @ Sitrus Berry
+Garchomp @ Roseli Berry
 Ability: Rough Skin
 Level: 50
-EVs: 23 HP / 22 Atk / 21 Spe
-Jolly Nature
-- Earthquake
-- Dragon Claw
-- Rock Slide
-- Protect
-
-Kingambit @ Chople Berry
-Ability: Defiant
-Level: 50
-EVs: 32 HP / 32 Atk / 2 Spe
+EVs: 24 HP / 30 Atk / 12 Spe
 Adamant Nature
-- Sucker Punch
-- Kowtow Cleave
-- Low Kick
 - Protect
+- Rock Tomb
+- Poison Jab
+- Stomping Tantrum
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 25 Atk / 9 SpD
+Brave Nature
+- Flare Blitz
+- Throat Chop
+- Fake Out
+- Parting Shot
+
+Samurott-Hisui @ Scope Lens
+Ability: Sharpness
+Level: 50
+EVs: 20 HP / 32 Atk / 14 Spe
+Adamant Nature
+- Detect
+- Sacred Sword
+- Sucker Punch
+- Night Slash

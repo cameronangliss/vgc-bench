@@ -1,59 +1,59 @@
-Whimsicott @ Mental Herb
-Ability: Prankster
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
 Level: 50
-EVs: 32 HP / 25 Def / 4 SpA / 5 Spe
-Timid Nature
-- Protect
-- Encore
-- Moonblast
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Rock Slide
+- Ice Fang
 - Tailwind
-
-Glimmora @ Focus Sash
-Ability: Toxic Debris
-Level: 50
-EVs: 1 HP / 1 Def / 32 SpA / 32 Spe
-Modest Nature
-- Spiky Shield
-- Power Gem
-- Earth Power
-- Sludge Bomb
-
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
-Level: 50
-EVs: 26 HP / 4 Def / 13 SpA / 23 Spe
-Modest Nature
 - Protect
-- Psychic
-- Moonblast
-- Dazzling Gleam
-
-Kingambit @ Black Glasses
-Ability: Supreme Overlord
-Level: 50
-EVs: 12 HP / 32 Atk / 1 SpD / 21 Spe
-Adamant Nature
-- Protect
-- Iron Head
-- Low Kick
-- Sucker Punch
 
 Charizard @ Charizardite Y
 Ability: Blaze
 Level: 50
-EVs: 32 HP / 13 Def / 9 SpA / 12 Spe
+EVs: 24 HP / 26 Def / 1 SpA / 15 Spe
 Modest Nature
-- Protect
-- Solar Beam
-- Weather Ball
 - Heat Wave
+- Weather Ball
+- Solar Beam
+- Protect
 
-Garchomp @ Dragon Fang
-Ability: Rough Skin
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 13 HP / 32 Def / 10 SpA / 11 Spe
+Modest Nature
+- Hyper Voice
+- Yawn
+- Quick Attack
+- Detect
+
+Aegislash @ Focus Sash
+Ability: Stance Change
 Level: 50
 EVs: 2 HP / 32 Atk / 32 Spe
 Adamant Nature
-- Protect
-- Rock Tomb
-- Dragon Claw
+- Poltergeist
+- Close Combat
+- Shadow Sneak
+- Iron Head
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 23 HP / 22 Atk / 21 Spe
+Jolly Nature
 - Earthquake
+- Dragon Claw
+- Rock Slide
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Adamant Nature
+- Sucker Punch
+- Kowtow Cleave
+- Low Kick
+- Protect

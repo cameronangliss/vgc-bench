@@ -1,42 +1,32 @@
-Floette-Eternal @ Floettite
-Ability: Flower Veil
+Froslass @ Froslassite
+Ability: Cursed Body
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
+EVs: 12 HP / 1 Def / 20 SpA / 1 SpD / 32 Spe
 Modest Nature
-- Dazzling Gleam
-- Moonblast
-- Light of Ruin
 - Protect
+- Blizzard
+- Aurora Veil
+- Shadow Ball
 
-Garchomp @ Sitrus Berry
-Ability: Rough Skin
+Sneasler @ White Herb
+Ability: Unburden
 Level: 50
-EVs: 14 HP / 20 Atk / 2 SpD / 30 Spe
+EVs: 9 HP / 23 Atk / 17 Def / 17 Spe
 Adamant Nature
-- Earthquake
-- Dragon Claw
-- Rock Slide
 - Protect
+- Close Combat
+- Fake Out
+- Dire Claw
 
-Aegislash @ Focus Sash
-Ability: Stance Change
-Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Adamant Nature
-- Poltergeist
-- Iron Head
-- Shadow Sneak
-- King’s Shield
-
-Kingambit @ Chople Berry
+Kingambit @ Black Glasses
 Ability: Defiant
 Level: 50
-EVs: 32 HP / 32 Atk / 1 Def / 1 Spe
+EVs: 25 HP / 32 Atk / 9 Spe
 Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Low Kick
 - Protect
+- Kowtow Cleave
+- Low Kick
+- Sucker Punch
 
 Basculegion @ Choice Scarf
 Ability: Adaptability
@@ -44,16 +34,26 @@ Level: 50
 EVs: 32 Atk / 2 Def / 32 Spe
 Jolly Nature
 - Wave Crash
-- Flip Turn
-- Aqua Jet
 - Last Respects
+- Aqua Jet
+- Flip Turn
 
-Talonflame @ Sharp Beak
-Ability: Gale Wings
+Whimsicott @ Fairy Feather
+Ability: Prankster
+Level: 50
+EVs: 14 HP / 32 SpA / 20 Spe
+Timid Nature
+- Protect
+- Moonblast
+- Tailwind
+- Encore
+
+Kleavor @ Focus Sash
+Ability: Sharpness
 Level: 50
 EVs: 2 HP / 32 Atk / 32 Spe
 Jolly Nature
-- Brave Bird
-- Flare Blitz
-- Tailwind
 - Protect
+- Stone Axe
+- Feint
+- Close Combat

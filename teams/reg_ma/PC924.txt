@@ -1,59 +1,59 @@
-Whimsicott (F) @ Fairy Feather
-Ability: Prankster
+Banette-Mega @ Banettite
+Ability: Frisk
 Level: 50
-EVs: 14 HP / 32 SpA / 20 Spe
-Timid Nature
-- Moonblast
-- Tailwind
+EVs: 32 HP / 10 Atk / 16 Def / 8 SpD
+Adamant Nature
+- Poltergeist
+- Will-O-Wisp
+- Destiny Bond
 - Encore
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 25 Atk / 2 Def / 7 Spe
+Adamant Nature
+- Kowtow Cleave
+- Low Kick
+- Sucker Punch
 - Protect
 
-Floette-Eternal @ Floettite
-Ability: Flower Veil
+Sylveon @ Fairy Feather
+Ability: Pixilate
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
+EVs: 11 HP / 22 Def / 20 SpA / 13 Spe
 Modest Nature
-- Light of Ruin
-- Moonblast
-- Dazzling Gleam
-- Protect
+- Hyper Voice
+- Hyper Beam
+- Quick Attack
+- Detect
 
-Basculegion @ Focus Sash
-Ability: Adaptability
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
+EVs: 32 HP / 15 Atk / 19 Spe
 Adamant Nature
-- Aqua Jet
-- Liquidation
-- Last Respects
-- Protect
-
-Incineroar @ Charcoal
-Ability: Intimidate
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Fake Out
-- Flare Blitz
-- Throat Chop
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
 - Protect
 
 Sneasler @ White Herb
 Ability: Unburden
 Level: 50
-EVs: 24 HP / 1 Atk / 13 Def / 28 Spe
+EVs: 20 HP / 31 Def / 15 Spe
 Adamant Nature
-- Close Combat
 - Fake Out
+- Close Combat
 - Dire Claw
 - Protect
 
-Skarmory @ Skarmorite
-Ability: Sturdy
+Basculegion (M) @ Kasib Berry
+Ability: Adaptability
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
+EVs: 4 HP / 18 Atk / 32 Def / 1 SpD / 11 Spe
 Adamant Nature
-- Iron Head
-- Brave Bird
-- Rock Tomb
+- Wave Crash
+- Last Respects
+- Aqua Jet
 - Protect

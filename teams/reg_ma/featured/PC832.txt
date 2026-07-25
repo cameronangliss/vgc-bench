@@ -1,59 +1,59 @@
 Charizard @ Charizardite Y
 Ability: Solar Power
 Level: 50
-EVs: 16 HP / 18 Def / 21 SpA / 11 Spe
+EVs: 15 HP / 18 Def / 1 SpA / 32 Spe
 Modest Nature
-- Protect
 - Heat Wave
 - Solar Beam
+- Protect
 - Weather Ball
 
-Whimsicott @ Coba Berry
-Ability: Prankster
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 30 HP / 16 Def / 16 SpD / 4 Spe
-Bold Nature
-- Protect
-- Encore
-- Tailwind
+EVs: 28 HP / 1 Def / 5 SpA / 32 Spe
+Modest Nature
+- Dazzling Gleam
 - Moonblast
+- Protect
+- Calm Mind
 
-Weavile @ Focus Sash
-Ability: Pickpocket
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
 Level: 50
-EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
-Adamant Nature
-- Fake Out
-- Knock Off
-- Icicle Crash
-- Low Kick
+EVs: 32 HP / 7 Def / 27 SpD
+Relaxed Nature
+- Matcha Gotcha
+- Rage Powder
+- Trick Room
+- Protect
 
-Garchomp @ Sitrus Berry
+Garchomp @ Choice Scarf
 Ability: Rough Skin
 Level: 50
-EVs: 22 HP / 30 Atk / 3 SpD / 11 Spe
+EVs: 32 Atk / 2 Def / 32 Spe
 Adamant Nature
-- Protect
 - Dragon Claw
 - Earthquake
-- Rock Slide
+- Rock Tomb
+- Stomping Tantrum
 
-Basculegion (M) @ Colbur Berry
-Ability: Adaptability
+Incineroar @ Leftovers
+Ability: Intimidate
 Level: 50
-EVs: 12 HP / 32 Atk / 1 Def / 3 SpD / 18 Spe
+EVs: 32 HP / 6 Def / 12 SpD / 16 Spe
+Impish Nature
+- Flare Blitz
+- Throat Chop
+- Parting Shot
+- Fake Out
+
+Aegislash @ Focus Sash
+Ability: Stance Change
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
 Adamant Nature
-- Protect
-- Wave Crash
-- Last Respects
-- Aqua Jet
-
-Glimmora @ Glimmoranite
-Ability: Toxic Debris
-Level: 50
-EVs: 27 HP / 20 SpA / 1 SpD / 18 Spe
-Modest Nature
-- Spiky Shield
-- Power Gem
-- Sludge Bomb
-- Earth Power
+- Poltergeist
+- Iron Head
+- Shadow Sneak
+- Wide Guard

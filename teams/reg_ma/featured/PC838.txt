@@ -1,59 +1,59 @@
-Lopunny @ Lopunnite
-Ability: Cute Charm
+Glimmora @ Focus Sash
+Ability: Toxic Debris
 Level: 50
-EVs: 5 HP / 29 Atk / 32 Spe
-Jolly Nature
-- Close Combat
-- Giga Impact
-- Fake Out
-- Encore
-
-Sylveon @ Fairy Feather
-Ability: Pixilate
-Level: 50
-EVs: 11 HP / 27 Def / 20 SpA / 8 Spe
+EVs: 2 HP / 32 SpA / 32 Spe
 Modest Nature
-- Hyper Voice
-- Hyper Beam
-- Quick Attack
-- Detect
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
 
-Talonflame
-Ability: Gale Wings
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 7 HP / 32 Atk / 27 Spe
-Adamant Nature
-- Acrobatics
-- Flare Blitz
-- Tailwind
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
 - Protect
 
-Basculegion (M) @ Focus Sash
+Snorlax @ Leftovers
+Ability: Thick Fat
+Level: 50
+EVs: 32 HP / 32 Def / 2 SpD
+Relaxed Nature
+- Double-Edge
+- Fissure
+- Yawn
+- Protect
+
+Basculegion (M) @ Mystic Water
 Ability: Adaptability
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
+EVs: 18 Atk / 32 Def / 16 Spe
 Adamant Nature
-- Liquidation
+- Wave Crash
 - Last Respects
 - Aqua Jet
 - Protect
 
-Dragonite @ Dragoninite
-Ability: Inner Focus
+Farigiraf @ Mental Herb
+Ability: Armor Tail
 Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
+EVs: 5 HP / 11 Def / 32 SpA / 11 SpD / 7 Spe
 Modest Nature
-- Dragon Pulse
-- Air Slash
-- Extreme Speed
+- Hyper Voice
+- Psychic
+- Roar
 - Protect
 
-Archaludon @ Choice Scarf
-Ability: Sturdy
+Whimsicott @ Fairy Feather
+Ability: Prankster
 Level: 50
 EVs: 2 HP / 32 SpA / 32 Spe
 Modest Nature
-- Flash Cannon
-- Draco Meteor
-- Thunderbolt
-- Aura Sphere
+- Moonblast
+- Encore
+- Tailwind
+- Protect

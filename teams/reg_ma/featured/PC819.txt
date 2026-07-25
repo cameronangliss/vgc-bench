@@ -1,59 +1,59 @@
-Tyranitar @ Choice Scarf
-Ability: Sand Stream
+Blastoise @ Blastoisinite
+Ability: Rain Dish
+Level: 50
+EVs: 7 HP / 32 SpA / 27 Spe
+Modest Nature
+- Water Spout
+- Dark Pulse
+- Aura Sphere
+- Fake Out
+
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 26 HP / 19 Def / 5 SpA / 16 Spe
+Modest Nature
+- Light of Ruin
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Talonflame
+Ability: Gale Wings
 Level: 50
 EVs: 2 HP / 32 Atk / 32 Spe
 Jolly Nature
-- Rock Slide
-- Knock Off
-- Low Kick
-- Ice Punch
-
-Excadrill @ Focus Sash
-Ability: Sand Rush
-Level: 50
-EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
-Adamant Nature
-- High Horsepower
-- Iron Head
-- Rock Slide
+- Acrobatics
+- Tailwind
+- Rain Dance
 - Protect
-
-Kommo-o @ Dragon Fang
-Ability: Soundproof
-Level: 50
-EVs: 32 HP / 1 Def / 32 SpA / 1 SpD
-Modest Nature
-- Clanging Scales
-- Vacuum Wave
-- Focus Punch
-- Helping Hand
-
-Froslass (F) @ Froslassite
-Ability: Cursed Body
-Level: 50
-EVs: 25 HP / 10 SpA / 31 Spe
-Modest Nature
-- Blizzard
-- Shadow Ball
-- Taunt
-- Protect
-
-Lopunny @ Lopunnite
-Ability: Cute Charm
-Level: 50
-EVs: 21 HP / 15 Atk / 2 Def / 28 Spe
-Jolly Nature
-- Close Combat
-- Triple Axel
-- Iron Tail
-- Fake Out
 
 Sneasler @ White Herb
 Ability: Unburden
 Level: 50
-EVs: 27 HP / 10 Atk / 13 Def / 16 Spe
+EVs: 32 Atk / 2 Def / 32 Spe
 Adamant Nature
-- Close Combat
 - Dire Claw
-- Feint
-- Fake Out
+- Close Combat
+- Taunt
+- Protect
+
+Kingambit @ Chople Berry
+Ability: Defiant
+Level: 50
+EVs: 32 HP / 25 Atk / 6 Def / 3 Spe
+Adamant Nature
+- Kowtow Cleave
+- Low Kick
+- Sucker Punch
+- Protect
+
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+Adamant Nature
+- Last Respects
+- Waterfall
+- Aqua Jet
+- Protect

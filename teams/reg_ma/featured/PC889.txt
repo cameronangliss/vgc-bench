@@ -1,59 +1,59 @@
-Aerodactyl @ Aerodactylite
-Ability: Unnerve
+Floette-Eternal @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 12 HP / 22 Atk / 32 Spe
-Jolly Nature
-- Rock Slide
-- Protect
-- Dual Wingbeat
-- Tailwind
-
-Sylveon @ Fairy Feather
-Ability: Pixilate
-Level: 50
-EVs: 6 HP / 32 SpA / 28 Spe
-Modest Nature
-- Hyper Voice
-- Hyper Beam
-- Quick Attack
+EVs: 22 HP / 22 Def / 1 SpA / 21 Spe
+Timid Nature
+- Dazzling Gleam
+- Draining Kiss
+- Calm Mind
 - Protect
 
 Incineroar @ Chople Berry
 Ability: Intimidate
 Level: 50
-EVs: 32 HP / 8 Atk / 9 Def / 11 SpD / 6 Spe
+EVs: 27 HP / 12 Def / 20 SpD / 7 Spe
 Careful Nature
-- Throat Chop
 - Flare Blitz
+- Throat Chop
 - Parting Shot
 - Fake Out
 
-Basculegion @ Focus Sash
+Sinistcha @ Sitrus Berry
+Ability: Hospitality
+Level: 50
+EVs: 31 HP / 7 Def / 21 SpD / 7 Spe
+Calm Nature
+- Rage Powder
+- Matcha Gotcha
+- Life Dew
+- Trick Room
+
+Basculegion @ Choice Scarf
 Ability: Adaptability
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
+EVs: 20 Atk / 14 Def / 32 Spe
+Jolly Nature
+- Wave Crash
 - Last Respects
-- Liquidation
-- Protect
+- Flip Turn
 - Aqua Jet
 
-Kommo-o @ Leftovers
-Ability: Soundproof
+Pelipper @ Focus Sash
+Ability: Drizzle
 Level: 50
 EVs: 2 HP / 32 SpA / 32 Spe
 Modest Nature
-- Protect
-- Clangorous Soul
-- Clanging Scales
-- Aura Sphere
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Tailwind
 
-Venusaur @ Venusaurite
-Ability: Chlorophyll
+Sneasler @ White Herb
+Ability: Unburden
 Level: 50
-EVs: 32 HP / 7 Def / 18 SpA / 9 Spe
-Modest Nature
+EVs: 20 HP / 31 Def / 15 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
 - Protect
-- Earth Power
-- Sludge Bomb
-- Giga Drain
+- Fake Out

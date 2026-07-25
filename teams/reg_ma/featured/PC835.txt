@@ -1,59 +1,59 @@
-Incineroar @ Chople Berry
-Ability: Intimidate
+Charizard @ Charizardite Y
+Ability: Blaze
 Level: 50
-EVs: 32 HP / 13 Def / 21 SpD
-Relaxed Nature
-- Parting Shot
-- Flare Blitz
-- Fake Out
-- Throat Chop
-
-Gardevoir @ Gardevoirite
-Ability: Trace
-Level: 50
-EVs: 16 HP / 2 Def / 32 SpA / 16 Spe
-Modest Nature
-- Psyshock
-- Hyper Voice
+EVs: 22 HP / 11 Def / 11 SpA / 22 Spe
+Timid Nature
 - Protect
-- Trick Room
+- Heat Wave
+- Solar Beam
+- Weather Ball
 
-Basculegion (M) @ Choice Scarf
+Whimsicott @ Sitrus Berry
+Ability: Prankster
+Level: 50
+EVs: 32 HP / 15 Def / 17 SpD / 2 Spe
+Bold Nature
+- Protect
+- Tailwind
+- Encore
+- Moonblast
+
+Garchomp @ Choice Scarf
+Ability: Rough Skin
+Level: 50
+EVs: 14 HP / 20 Atk / 32 Spe
+Adamant Nature
+- Earthquake
+- Stomping Tantrum
+- Rock Slide
+- Dragon Claw
+
+Archaludon @ White Herb
+Ability: Sturdy
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Protect
+- Flash Cannon
+- Thunderbolt
+- Draco Meteor
+
+Basculegion (M) @ Focus Sash
 Ability: Adaptability
 Level: 50
-EVs: 7 HP / 8 Atk / 19 Def / 3 SpD / 29 Spe
-Adamant Nature
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
 - Last Respects
-- Wave Crash
-- Psychic Fangs
+- Aqua Jet
 - Flip Turn
 
-Pelipper @ Sitrus Berry
-Ability: Drizzle
+Kingambit @ Chople Berry
+Ability: Defiant
 Level: 50
-EVs: 31 HP / 10 Def / 17 SpA / 6 SpD / 2 Spe
-Bold Nature
-- Hurricane
-- Tailwind
-- Weather Ball
-- Rain Dance
-
-Archaludon @ Leftovers
-Ability: Stamina
-Level: 50
-EVs: 32 HP / 1 SpA / 27 SpD / 6 Spe
-Modest Nature
-- Electro Shot
-- Dragon Pulse
-- Flash Cannon
+EVs: 32 HP / 15 Atk / 14 Def / 4 SpD / 1 Spe
+Adamant Nature
 - Protect
-
-Maushold-Four @ Focus Sash
-Ability: Friend Guard
-Level: 50
-EVs: 10 HP / 32 Atk / 24 Spe
-Jolly Nature
-- Feint
-- Super Fang
-- Protect
-- Follow Me
+- Kowtow Cleave
+- Sucker Punch
+- Low Kick

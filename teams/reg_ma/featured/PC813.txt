@@ -1,59 +1,59 @@
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
+Maushold-Four @ Chople Berry
+Ability: Friend Guard
 Level: 50
-EVs: 30 HP / 15 Def / 20 SpA / 1 Spe
-Modest Nature
-- Dazzling Gleam
-- Draining Kiss
-- Calm Mind
-- Protect
-
-Charizard @ Charizardite Y
-Ability: Blaze
-Level: 50
-EVs: 8 HP / 26 Def / 21 SpA / 11 Spe
-Modest Nature
-- Heat Wave
-- Weather Ball
-- Blast Burn
-- Protect
-
-Garchomp @ Choice Scarf
-Ability: Rough Skin
-Level: 50
-EVs: 32 Atk / 7 Def / 27 Spe
-Adamant Nature
-- Earthquake
-- Dragon Rush
-- Stomping Tantrum
-- Rock Slide
-
-Aerodactyl @ Focus Sash
-Ability: Unnerve
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
+EVs: 32 HP / 2 SpD / 32 Spe
 Jolly Nature
+- Follow Me
+- Beat Up
+- Rain Dance
+- Protect
+
+Archaludon @ Leftovers
+Ability: Stamina
+Level: 50
+EVs: 32 HP / 2 SpA / 32 SpD
+Modest Nature
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
+- Protect
+
+Pelipper @ Focus Sash
+Ability: Drizzle
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Hurricane
+- Weather Ball
+- Wide Guard
+- Protect
+
+Dragonite @ Dragoninite
+Ability: Multiscale
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Hurricane
+- Draco Meteor
+- Thunder
+- Protect
+
+Gallade (M) @ Choice Scarf
+Ability: Justified
+Level: 50
+EVs: 32 HP / 15 Atk / 19 Spe
+Adamant Nature
+- Sacred Sword
+- Psycho Cut
 - Rock Slide
-- Dual Wingbeat
-- Tailwind
-- Protect
+- Poison Jab
 
-Kingambit @ Black Glasses
-Ability: Defiant
+Tsareena (F) @ Coba Berry
+Ability: Queenly Majesty
 Level: 50
-EVs: 32 HP / 32 Atk / 1 Def / 1 SpD
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Protect
-- Swords Dance
-
-Sneasler @ White Herb
-Ability: Unburden
-Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
-Adamant Nature
-- Close Combat
-- Dire Claw
-- Fake Out
+EVs: 32 Atk / 2 SpD / 32 Spe
+Jolly Nature
+- Trop Kick
+- Triple Axel
+- Taunt
 - Protect

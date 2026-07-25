@@ -1,39 +1,29 @@
-Aerodactyl @ Aerodactylite
-Ability: Unnerve
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 14 HP / 19 Atk / 1 Def / 32 Spe
-Jolly Nature
-- Rock Slide
-- Ice Fang
-- Tailwind
-- Protect
-
-Sylveon @ Fairy Feather
-Ability: Pixilate
-Level: 50
-EVs: 19 HP / 30 Def / 10 SpA / 7 Spe
+EVs: 10 HP / 19 Def / 5 SpA / 32 Spe
 Modest Nature
-- Hyper Voice
-- Quick Attack
-- Yawn
-- Detect
+- Moonblast
+- Protect
+- Light of Ruin
+- Dazzling Gleam
 
-Garchomp @ Soft Sand
+Garchomp @ Choice Scarf
 Ability: Rough Skin
 Level: 50
-EVs: 14 HP / 20 Atk / 32 Spe
-Adamant Nature
-- Scale Shot
+EVs: 20 HP / 26 Atk / 20 Spe
+Jolly Nature
+- Dragon Claw
 - Earthquake
+- Rock Tomb
 - Stomping Tantrum
-- Protect
 
 Basculegion (M) @ Focus Sash
 Ability: Adaptability
 Level: 50
 EVs: 32 Atk / 2 Def / 32 Spe
-Jolly Nature
-- Waterfall
+Adamant Nature
+- Liquidation
 - Last Respects
 - Aqua Jet
 - Protect
@@ -41,19 +31,29 @@ Jolly Nature
 Kingambit @ Chople Berry
 Ability: Defiant
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
+EVs: 20 HP / 25 Atk / 8 Def / 13 Spe
 Adamant Nature
-- Iron Head
-- Low Kick
 - Sucker Punch
+- Low Kick
+- Kowtow Cleave
 - Protect
 
 Charizard @ Charizardite Y
 Ability: Blaze
 Level: 50
-EVs: 22 HP / 18 Def / 11 SpA / 15 Spe
+EVs: 12 HP / 18 Def / 11 SpA / 25 Spe
 Modest Nature
 - Heat Wave
 - Weather Ball
-- Focus Blast
+- Solar Beam
 - Protect
+
+Aerodactyl @ Hard Stone
+Ability: Unnerve
+Level: 50
+EVs: 26 HP / 6 Def / 2 SpD / 32 Spe
+Jolly Nature
+- Rock Slide
+- Tailwind
+- Protect
+- Wide Guard

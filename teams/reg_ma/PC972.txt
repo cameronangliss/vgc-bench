@@ -1,59 +1,59 @@
-Decidueye-Hisui @ Scope Lens
-Ability: Scrappy
+Kingambit @ Black Glasses
+Ability: Defiant
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
+EVs: 32 HP / 32 Atk / 2 Spe
 Adamant Nature
-- Leaf Blade
-- Triple Arrows
-- Sucker Punch
+- Swords Dance
 - Protect
+- Kowtow Cleave
+- Sucker Punch
 
-Zoroark-Hisui @ Choice Scarf
-Ability: Illusion
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Timid Nature
-- Shadow Ball
-- Icy Wind
-- Psychic
-- Flamethrower
-
-Liepard @ Focus Sash
+Whimsicott @ Coba Berry
 Ability: Prankster
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Jolly Nature
-- Knock Off
-- Yawn
+EVs: 14 HP / 8 Def / 22 SpA / 22 Spe
+Timid Nature
 - Encore
-- Fake Out
+- Tailwind
+- Moonblast
+- Protect
 
-Scizor @ Scizorite
-Ability: Technician
+Sneasler @ White Herb
+Ability: Unburden
 Level: 50
-EVs: 26 HP / 32 Atk / 8 SpD
+EVs: 20 HP / 31 Def / 15 Spe
 Adamant Nature
-- Bullet Punch
-- Swords Dance
-- Bug Bite
+- Fake Out
+- Dire Claw
+- Close Combat
 - Protect
 
-Aurorus @ Sitrus Berry
-Ability: Snow Warning
+Froslass (F) @ Froslassite
+Ability: Cursed Body
 Level: 50
-EVs: 2 HP / 32 SpA / 18 SpD / 6 Spe
+EVs: 12 HP / 1 Def / 20 SpA / 1 SpD / 32 Spe
 Modest Nature
-- Protect
 - Blizzard
-- Ancient Power
-- Freeze-Dry
+- Shadow Ball
+- Aurora Veil
+- Protect
 
-Aerodactyl @ Aerodactylite
-Ability: Rock Head
+Kleavor @ Focus Sash
+Ability: Sharpness
 Level: 50
 EVs: 2 HP / 32 Atk / 32 Spe
 Jolly Nature
-- Rock Slide
-- Dual Wingbeat
-- Tailwind
+- Stone Axe
+- Close Combat
+- Feint
 - Protect
+
+Basculegion @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 26 Atk / 8 Def / 32 Spe
+Jolly Nature
+- Last Respects
+- Aqua Jet
+- Wave Crash
+- Flip Turn

@@ -1,52 +1,22 @@
-Kangaskhan @ Kangaskhanite
-Ability: Scrappy
+Crabominable @ Crabominite
+Ability: Hyper Cutter
 Level: 50
-EVs: 21 HP / 32 Atk / 1 Def / 1 SpD / 11 Spe
-Adamant Nature
-- Double-Edge
-- Low Kick
-- Fake Out
-- Ice Punch
+EVs: 32 HP / 32 Atk / 2 SpD
+Brave Nature
+- Ice Hammer
+- Drain Punch
+- Protect
+- Thunder Punch
 
-Farigiraf @ Sitrus Berry
+Farigiraf @ Colbur Berry
 Ability: Armor Tail
 Level: 50
-EVs: 19 HP / 17 Def / 10 SpA / 20 SpD
-Quiet Nature
+EVs: 32 HP / 23 Def / 11 SpD
+Relaxed Nature
 - Psychic
-- Thunderbolt
-- Helping Hand
+- Sunny Day
 - Trick Room
-
-Blastoise @ Blastoisinite
-Ability: Rain Dish
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Fake Out
-- Water Spout
-- Dark Pulse
-- Shell Smash
-
-Vivillon @ Choice Scarf
-Ability: Compound Eyes
-Level: 50
-EVs: 24 Def / 5 SpA / 5 SpD / 32 Spe
-Timid Nature
-- Hurricane
-- Sleep Powder
-- Rage Powder
-- Rain Dance
-
-Glimmora @ Focus Sash
-Ability: Toxic Debris
-Level: 50
-EVs: 32 SpA / 2 SpD / 32 Spe
-Timid Nature
-- Spiky Shield
-- Power Gem
-- Earth Power
-- Sludge Bomb
+- Helping Hand
 
 Torkoal @ Charcoal
 Ability: Drought
@@ -54,6 +24,36 @@ Level: 50
 EVs: 32 HP / 32 SpA / 2 SpD
 Quiet Nature
 - Eruption
-- Weather Ball
 - Heat Wave
+- Solar Beam
 - Protect
+
+Venusaur @ Focus Sash
+Ability: Chlorophyll
+Level: 50
+EVs: 14 Def / 31 SpA / 21 Spe
+Modest Nature
+- Sludge Bomb
+- Energy Ball
+- Protect
+- Sleep Powder
+
+Aerodactyl @ Aerodactylite
+Ability: Unnerve
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Dual Wingbeat
+- Rock Slide
+- Protect
+- Ice Fang
+
+Incineroar @ Sitrus Berry
+Ability: Intimidate
+Level: 50
+EVs: 32 HP / 32 Atk / 2 Spe
+Brave Nature
+- Flare Blitz
+- Fake Out
+- Close Combat
+- Darkest Lariat

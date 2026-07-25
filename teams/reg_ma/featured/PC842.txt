@@ -1,59 +1,59 @@
-Garchomp @ Sitrus Berry
-Ability: Rough Skin
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 13 HP / 26 Atk / 4 Def / 23 Spe
-Jolly Nature
-- Stomping Tantrum
-- Dragon Claw
-- Rock Tomb
-- Poison Jab
-
-Sylveon @ Fairy Feather
-Ability: Pixilate
-Level: 50
-EVs: 19 HP / 29 Def / 12 SpA / 6 Spe
+EVs: 2 HP / 32 SpA / 32 Spe
 Modest Nature
-- Hyper Voice
-- Quick Attack
-- Calm Mind
-- Detect
-
-Scovillain @ Scovillainite
-Ability: Moody
-Level: 50
-EVs: 32 HP / 19 Def / 15 SpD
-Calm Nature
-- Overheat
-- Leech Seed
-- Rage Powder
+- Moonblast
+- Dazzling Gleam
+- Light of Ruin
 - Protect
 
-Kingambit @ Chople Berry
-Ability: Supreme Overlord
+Charizard @ Charizardite Y
+Ability: Blaze
 Level: 50
-EVs: 32 HP / 10 Atk / 2 Def / 22 Spe
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
-- Iron Head
-- Low Kick
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Heat Wave
+- Air Slash
+- Solar Beam
+- Protect
 
-Aerodactyl @ Aerodactylite
-Ability: Unnerve
+Whimsicott @ Fairy Feather
+Ability: Prankster
 Level: 50
-EVs: 14 HP / 19 Atk / 1 Def / 32 Spe
-Jolly Nature
-- Rock Slide
-- Dual Wingbeat
+EVs: 32 HP / 15 Def / 19 SpD
+Bold Nature
+- Moonblast
 - Tailwind
-- Protect
+- Encore
+- Trick Room
 
-Basculegion (M) @ Focus Sash
+Basculegion (M) @ Choice Scarf
 Ability: Adaptability
 Level: 50
 EVs: 32 Atk / 2 Def / 32 Spe
 Jolly Nature
+- Wave Crash
 - Last Respects
-- Liquidation
 - Aqua Jet
-- Protect
+- Psychic Fangs
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Energy Ball
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 32 HP / 20 Atk / 9 Def / 4 SpD / 1 Spe
+Adamant Nature
+- Stomping Tantrum
+- Rock Slide
+- Poison Jab
+- Dragon Tail

@@ -1,0 +1,59 @@
+Banette @ Banettite
+Ability: Frisk
+Level: 50
+EVs: 32 HP / 17 Def / 17 Spe
+Adamant Nature
+- Poltergeist
+- Disable
+- Encore
+- Substitute
+
+Glimmora @ Focus Sash
+Ability: Toxic Debris
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Power Gem
+- Sludge Bomb
+- Earth Power
+- Spiky Shield
+
+Volcarona @ Leftovers
+Ability: Flame Body
+Level: 50
+EVs: 32 HP / 20 Def / 14 Spe
+Modest Nature
+- Heat Wave
+- Giga Drain
+- Quiver Dance
+- Protect
+
+Garchomp @ Lum Berry
+Ability: Rough Skin
+Level: 50
+EVs: 30 Atk / 3 Def / 1 SpD / 32 Spe
+Jolly Nature
+- Dragon Claw
+- Stomping Tantrum
+- Rock Slide
+- Protect
+
+Sneasler @ White Herb
+Ability: Unburden
+Level: 50
+EVs: 4 HP / 30 Atk / 32 Spe
+Adamant Nature
+- Close Combat
+- Dire Claw
+- Taunt
+- Fake Out
+
+Whimsicott @ Kebia Berry
+Ability: Prankster
+Level: 50
+EVs: 30 HP / 15 Def / 21 SpD
+Bold Nature
+- Moonblast
+- Tailwind
+- Encore
+- Sunny Day

@@ -1,59 +1,59 @@
-Corviknight @ Leftovers
-Ability: Mirror Armor
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 32 HP / 23 Atk / 11 Spe
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Dazzling Gleam
+- Moonblast
+- Protect
+- Light of Ruin
+
+Kingambit @ Black Glasses
+Ability: Defiant
+Level: 50
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
 Adamant Nature
+- Kowtow Cleave
 - Iron Head
-- Bulk Up
+- Protect
+- Sucker Punch
+
+Froslass (F) @ Froslassite
+Ability: Cursed Body
+Level: 50
+EVs: 20 HP / 2 Def / 15 SpA / 25 SpD / 4 Spe
+Modest Nature
+- Blizzard
+- Ice Shard
+- Protect
+- Shadow Ball
+
+Whimsicott @ Focus Sash
+Ability: Prankster
+Level: 50
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Timid Nature
+- Moonblast
+- Endeavor
+- Encore
 - Tailwind
-- Brave Bird
 
-Garchomp @ Roseli Berry
-Ability: Rough Skin
+Basculegion (M) @ Colbur Berry
+Ability: Adaptability
 Level: 50
-EVs: 18 HP / 23 Atk / 1 Def / 24 Spe
+EVs: 32 Atk / 2 Def / 32 Spe
 Adamant Nature
-- Earthquake
-- Poison Jab
-- Stone Edge
+- Wave Crash
+- Last Respects
 - Protect
-
-Tyranitar @ Tyranitarite
-Ability: Sand Stream
-Level: 50
-EVs: 12 HP / 21 Atk / 1 Def / 1 SpD / 31 Spe
-Jolly Nature
-- Knock Off
-- Dragon Dance
-- Protect
-- Rock Slide
+- Aqua Jet
 
 Sneasler @ White Herb
 Ability: Unburden
 Level: 50
 EVs: 32 Atk / 2 Def / 32 Spe
-Jolly Nature
-- Gunk Shot
+Adamant Nature
+- Dire Claw
 - Close Combat
 - Fake Out
-- Coaching
-
-Rotom-Wash @ Sitrus Berry
-Ability: Levitate
-Level: 50
-EVs: 31 HP / 13 Def / 20 SpD / 2 Spe
-Bold Nature
-- Thunderbolt
-- Hydro Pump
-- Will-O-Wisp
-- Thunder Wave
-
-Gallade (M) @ Focus Sash
-Ability: Sharpness
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Sacred Sword
-- Leaf Blade
-- Taunt
-- Triple Axel
+- Rock Slide

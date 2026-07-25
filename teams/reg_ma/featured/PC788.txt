@@ -8,52 +8,52 @@ Modest Nature
 - Solar Beam
 - Protect
 
-Aerodactyl @ Aerodactylite
-Ability: Unnerve
+Whimsicott @ Focus Sash
+Ability: Prankster
 Level: 50
-EVs: 10 HP / 12 Atk / 9 Def / 3 SpD / 32 Spe
-Jolly Nature
-- Rock Slide
-- Dual Wingbeat
+EVs: 32 HP / 2 Def / 32 Spe
+Timid Nature
+- Moonblast
 - Tailwind
-- Wide Guard
+- Encore
+- Fake Tears
 
-Sylveon @ Fairy Feather
-Ability: Pixilate
+Floette-Eternal (F) @ Floettite
+Ability: Flower Veil
 Level: 50
-EVs: 9 HP / 22 Def / 20 SpA / 15 Spe
-Modest Nature
-- Hyper Voice
-- Hyper Beam
-- Quick Attack
+EVs: 2 HP / 32 SpA / 32 Spe
+Timid Nature
+- Light of Ruin
+- Moonblast
+- Dazzling Gleam
 - Protect
+
+Garchomp @ Sitrus Berry
+Ability: Rough Skin
+Level: 50
+EVs: 18 HP / 16 Atk / 32 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Protect
+
+Basculegion (M) @ Choice Scarf
+Ability: Adaptability
+Level: 50
+EVs: 32 Atk / 2 Def / 32 Spe
+Jolly Nature
+- Wave Crash
+- Aqua Jet
+- Flip Turn
+- Last Respects
 
 Kingambit @ Chople Berry
 Ability: Defiant
 Level: 50
 EVs: 30 HP / 25 Atk / 3 Def / 8 Spe
 Adamant Nature
-- Kowtow Cleave
 - Sucker Punch
-- Low Kick
 - Iron Head
-
-Basculegion (M) @ Focus Sash
-Ability: Adaptability
-Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Aqua Jet
-- Liquidation
-- Last Respects
-- Protect
-
-Garchomp @ Choice Scarf
-Ability: Rough Skin
-Level: 50
-EVs: 9 HP / 25 Atk / 32 Spe
-Adamant Nature
-- Earthquake
-- Dragon Claw
-- Rock Slide
-- Stomping Tantrum
+- Low Kick
+- Kowtow Cleave

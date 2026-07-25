@@ -1,59 +1,59 @@
-Sneasler @ White Herb
-Ability: Unburden
+Farigiraf @ Sitrus Berry
+Ability: Armor Tail
 Level: 50
-EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
+EVs: 23 HP / 20 Def / 15 SpD / 8 Spe
+Bold Nature
+- Hyper Voice
+- Imprison
+- Protect
+- Trick Room
+
+Camerupt @ Choice Scarf
+Ability: Anger Point
+Level: 50
+EVs: 32 Atk / 6 Def / 28 Spe
 Jolly Nature
-- Close Combat
-- Fake Out
-- Dire Claw
+- Earthquake
+- Rock Slide
+- Flame Charge
+- Stomping Tantrum
+
+Whimsicott @ Mental Herb
+Ability: Prankster
+Level: 50
+EVs: 2 Atk / 32 SpA / 32 Spe
+Hasty Nature
+- Tailwind
+- Memento
+- Encore
 - Protect
 
-Froslass (F) @ Froslassite
-Ability: Cursed Body
+Tauros-Paldea-Aqua (M) @ Hard Stone
+Ability: Anger Point
 Level: 50
-EVs: 26 HP / 4 Def / 20 SpA / 1 SpD / 15 Spe
-Modest Nature
-- Blizzard
-- Shadow Ball
-- Aurora Veil
-- Protect
-
-Basculegion (M) @ Focus Sash
-Ability: Adaptability
-Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
+EVs: 1 HP / 32 Atk / 9 Def / 24 Spe
 Adamant Nature
-- Last Respects
-- Liquidation
-- Protect
+- Earthquake
+- Rock Slide
 - Aqua Jet
+- Protect
 
-Garchomp @ Choice Scarf
-Ability: Rough Skin
+Garganacl @ Silk Scarf
+Ability: Clear Body
 Level: 50
 EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Stomping Tantrum
-- Dragon Claw
-- Rock Tomb
-- Rock Slide
-
-Snorlax @ Leftovers
-Ability: Thick Fat
-Level: 50
-EVs: 26 HP / 4 Atk / 32 Def / 4 SpD
-Relaxed Nature
-- Yawn
+Jolly Nature
+- Explosion
+- Stealth Rock
+- Wide Guard
 - Protect
-- High Horsepower
-- Heavy Slam
 
-Kingambit @ Chople Berry
-Ability: Defiant
+Pinsir @ Pinsirite
+Ability: Hyper Cutter
 Level: 50
-EVs: 32 HP / 17 Atk / 17 Spe
-Adamant Nature
-- Kowtow Cleave
-- Sucker Punch
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Storm Throw
+- Feint
+- Giga Impact
 - Protect
-- Low Kick

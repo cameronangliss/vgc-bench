@@ -1,59 +1,59 @@
-Incineroar @ Sitrus Berry
+Whimsicott (F) @ Fairy Feather
+Ability: Prankster
+Level: 50
+EVs: 14 HP / 32 SpA / 20 Spe
+Timid Nature
+- Moonblast
+- Tailwind
+- Encore
+- Protect
+
+Floette-Eternal @ Floettite
+Ability: Flower Veil
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Modest Nature
+- Light of Ruin
+- Moonblast
+- Dazzling Gleam
+- Protect
+
+Basculegion @ Focus Sash
+Ability: Adaptability
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
+- Aqua Jet
+- Liquidation
+- Last Respects
+- Protect
+
+Incineroar @ Charcoal
 Ability: Intimidate
 Level: 50
-EVs: 31 HP / 20 Def / 8 SpD / 7 Spe
-Impish Nature
+EVs: 2 HP / 32 Atk / 32 Spe
+Adamant Nature
 - Fake Out
 - Flare Blitz
 - Throat Chop
-- Parting Shot
-
-Milotic @ Leftovers
-Ability: Competitive
-Level: 50
-EVs: 32 HP / 29 Def / 5 SpD
-Calm Nature
-- Muddy Water
-- Hypnosis
-- Coil
-- Recover
-
-Sinistcha @ Kasib Berry
-Ability: Hospitality
-Level: 50
-EVs: 32 HP / 14 Def / 20 SpD
-Bold Nature
-- Matcha Gotcha
-- Life Dew
-- Rage Powder
 - Protect
 
-Sneasler @ Focus Sash
+Sneasler @ White Herb
 Ability: Unburden
 Level: 50
-EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
-Jolly Nature
-- Fake Out
+EVs: 24 HP / 1 Atk / 13 Def / 28 Spe
+Adamant Nature
 - Close Combat
+- Fake Out
 - Dire Claw
-- Coaching
-
-Floette-Eternal (F) @ Floettite
-Ability: Flower Veil
-Level: 50
-EVs: 32 HP / 20 Def / 5 SpA / 9 Spe
-Modest Nature
-- Moonblast
-- Dazzling Gleam
-- Calm Mind
 - Protect
 
-Charizard @ Charizardite X
-Ability: Blaze
+Skarmory @ Skarmorite
+Ability: Sturdy
 Level: 50
-EVs: 14 HP / 21 Atk / 1 Def / 1 SpD / 29 Spe
+EVs: 2 HP / 32 Atk / 32 Spe
 Adamant Nature
-- Flare Blitz
-- Dragon Claw
-- Dragon Dance
+- Iron Head
+- Brave Bird
+- Rock Tomb
 - Protect

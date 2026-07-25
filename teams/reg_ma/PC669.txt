@@ -1,59 +1,59 @@
-Samurott-Hisui @ Choice Scarf
-Ability: Sharpness
+Lopunny @ Lopunnite
+Ability: Cute Charm
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Adamant Nature
-- Aqua Cutter
-- Ceaseless Edge
-- Sacred Sword
-- Flip Turn
+EVs: 1 HP / 32 Atk / 1 Def / 32 Spe
+Jolly Nature
+- Close Combat
+- Triple Axel
+- Mach Punch
+- Fake Out
 
-Archaludon @ Leftovers
-Ability: Stamina
+Charizard @ Charizardite Y
+Ability: Blaze
 Level: 50
-EVs: 32 HP / 1 Def / 17 SpA / 12 SpD / 4 Spe
+EVs: 6 HP / 10 Def / 32 SpA / 18 Spe
 Modest Nature
-- Electro Shot
-- Flash Cannon
-- Dragon Pulse
+- Heat Wave
+- Weather Ball
+- Solar Beam
 - Protect
 
-Araquanid @ Mystic Water
-Ability: Water Bubble
+Basculegion (M) @ Focus Sash
+Ability: Adaptability
 Level: 50
-EVs: 32 HP / 32 Atk / 2 Def
+EVs: 32 Atk / 1 Def / 1 SpD / 32 Spe
 Adamant Nature
 - Liquidation
-- Wide Guard
-- Leech Life
+- Aqua Jet
+- Protect
+- Last Respects
+
+Sylveon @ Fairy Feather
+Ability: Pixilate
+Level: 50
+EVs: 15 HP / 19 Def / 32 SpA
+Modest Nature
+- Hyper Voice
+- Moonblast
+- Helping Hand
 - Protect
 
-Sableye @ Roseli Berry
+Whimsicott @ Sitrus Berry
 Ability: Prankster
 Level: 50
-EVs: 32 HP / 7 Def / 25 SpD / 2 Spe
-Calm Nature
-- Foul Play
-- Thunder Wave
-- Encore
-- Rain Dance
-
-Scizor @ Scizorite
-Ability: Technician
-Level: 50
-EVs: 32 HP / 32 Atk / 2 SpD
-Adamant Nature
-- Bullet Punch
-- Assurance
-- Swords Dance
-- Protect
-
-Pelipper @ Focus Sash
-Ability: Drizzle
-Level: 50
-EVs: 2 HP / 32 SpA / 32 Spe
-Modest Nature
-- Weather Ball
-- Hurricane
+EVs: 32 HP / 22 Def / 3 SpA / 8 SpD / 1 Spe
+Bold Nature
+- Moonblast
 - Tailwind
 - Protect
+- Encore
+
+Dragonite @ Silk Scarf
+Ability: Multiscale
+Level: 50
+EVs: 29 HP / 32 Atk / 1 Def / 1 SpD / 3 Spe
+Adamant Nature
+- Dragon Claw
+- Tailwind
+- Low Kick
+- Extreme Speed

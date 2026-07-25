@@ -1,59 +1,59 @@
-Whimsicott @ Fairy Feather
-Ability: Prankster
+Archaludon @ Leftovers
+Ability: Stamina
 Level: 50
-EVs: 32 HP / 17 Def / 8 SpA / 6 SpD / 3 Spe
-Bold Nature
-- Moonblast
-- Tailwind
-- Encore
-- Protect
-
-Glimmora @ Focus Sash
-Ability: Toxic Debris
-Level: 50
-EVs: 1 HP / 32 SpA / 1 SpD / 32 Spe
+EVs: 32 HP / 2 SpA / 23 SpD / 9 Spe
 Modest Nature
-- Power Gem
-- Sludge Bomb
-- Earth Power
-- Spiky Shield
-
-Froslass (F) @ Froslassite
-Ability: Cursed Body
-Level: 50
-EVs: 10 HP / 10 Def / 30 SpA / 1 SpD / 15 Spe
-Modest Nature
-- Blizzard
-- Shadow Ball
-- Aurora Veil
 - Protect
+- Electro Shot
+- Dragon Pulse
+- Flash Cannon
 
-Incineroar @ Chople Berry
-Ability: Intimidate
+Politoed @ Mystic Water
+Ability: Drizzle
 Level: 50
-EVs: 31 HP / 1 Atk / 10 Def / 17 SpD / 7 Spe
-Impish Nature
+EVs: 23 HP / 12 Def / 30 SpA / 1 Spe
+Modest Nature
+- Protect
+- Muddy Water
+- Weather Ball
+- Ice Beam
+
+Scovillain @ Scovillainite
+Ability: Moody
+Level: 50
+EVs: 32 HP / 19 Def / 15 SpD
+Calm Nature
+- Protect
+- Leech Seed
+- Rage Powder
+- Overheat
+
+Sneasler @ Focus Sash
+Ability: Unburden
+Level: 50
+EVs: 2 HP / 32 Atk / 32 Spe
+Jolly Nature
+- Protect
+- Close Combat
 - Fake Out
-- Flare Blitz
-- Throat Chop
-- Parting Shot
+- Dire Claw
 
-Garchomp @ Sitrus Berry
-Ability: Rough Skin
+Dragonite @ Dragoninite
+Ability: Multiscale
 Level: 50
-EVs: 21 HP / 15 Atk / 7 Def / 4 SpD / 19 Spe
-Adamant Nature
-- Dragon Claw
-- Earthquake
-- Rock Slide
+EVs: 11 HP / 32 SpA / 23 Spe
+Timid Nature
 - Protect
+- Dragon Pulse
+- Hurricane
+- Extreme Speed
 
-Corviknight @ Leftovers
-Ability: Mirror Armor
+Espathra @ Sitrus Berry
+Ability: Speed Boost
 Level: 50
-EVs: 27 HP / 11 Atk / 1 Def / 5 SpD / 22 Spe
-Careful Nature
-- Brave Bird
-- Body Press
-- Bulk Up
-- Roost
+EVs: 32 HP / 9 Def / 6 SpD / 19 Spe
+Timid Nature
+- Protect
+- Lumina Crash
+- Calm Mind
+- Baton Pass

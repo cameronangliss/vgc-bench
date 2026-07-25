@@ -1,59 +1,59 @@
-Meowscarada @ Focus Sash
-Ability: Overgrow
+Gyarados @ Gyaradosite
+Ability: Intimidate
 Level: 50
-EVs: 32 Atk / 2 Def / 32 Spe
+EVs: 15 HP / 19 Atk / 1 Def / 31 Spe
 Jolly Nature
-- Flower Trick
-- Triple Axel
-- U-turn
+- Crunch
+- Earthquake
+- Dragon Dance
 - Protect
 
-Basculegion (M) @ Mystic Water
-Ability: Adaptability
+Dragonite @ Dragon Fang
+Ability: Multiscale
 Level: 50
-EVs: 32 Atk / 14 Def / 20 Spe
+EVs: 15 HP / 32 Atk / 19 Spe
 Adamant Nature
-- Wave Crash
-- Last Respects
-- Aqua Jet
+- Dragon Claw
+- Low Kick
+- Extreme Speed
 - Protect
 
-Lucario @ Lucarionite
-Ability: Inner Focus
+Victreebel @ Victreebelite
+Ability: Chlorophyll
 Level: 50
-EVs: 19 Atk / 22 SpA / 25 Spe
-Hasty Nature
-- Aura Sphere
-- Meteor Mash
-- Bone Rush
-- Stone Edge
-
-Politoed @ Sitrus Berry
-Ability: Drizzle
-Level: 50
-EVs: 31 HP / 19 Def / 10 SpA / 6 SpD
-Quiet Nature
-- Weather Ball
-- Ice Beam
-- Perish Song
+EVs: 1 Def / 32 SpA / 1 SpD / 32 Spe
+Modest Nature
+- Sludge Bomb
+- Leaf Storm
+- Acid Spray
 - Protect
 
-Talonflame @ Sharp Beak
-Ability: Gale Wings
+Sylveon @ Fairy Feather
+Ability: Pixilate
 Level: 50
-EVs: 2 HP / 32 Atk / 32 Spe
-Jolly Nature
-- Brave Bird
-- Will-O-Wisp
-- Tailwind
-- Protect
-
-Drampa @ Drampanite
-Ability: Berserk
-Level: 50
-EVs: 32 HP / 2 Def / 32 SpA
-Quiet Nature
+EVs: 11 HP / 15 Def / 32 SpA / 8 Spe
+Modest Nature
 - Hyper Voice
-- Dragon Pulse
-- Earth Power
-- Protect
+- Hyper Beam
+- Quick Attack
+- Detect
+
+Aegislash @ Leftovers
+Ability: Stance Change
+Level: 50
+EVs: 32 HP / 32 SpA / 2 Spe
+Modest Nature
+- Shadow Ball
+- Flash Cannon
+- Substitute
+- King's Shield
+
+Infernape @ Shuca Berry
+Ability: Blaze
+Level: 50
+EVs: 2 HP / 32 SpA / 32 Spe
+Hasty Nature
+- Overheat
+- Aura Sphere
+- Fake Out
+- Coaching
